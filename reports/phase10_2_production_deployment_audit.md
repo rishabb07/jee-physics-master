@@ -1,140 +1,158 @@
 # Phase 10.2 Audit Report: Connect Repository and Prove Live Auto-Deployment
 
 **Audit Name:** Phase 10.2 Connect Repository & Live Auto-Deployment Proof  
-**Audit Timestamp:** 2026-09-29T21:00:00Z  
-**Final Project State:** `AUTO_DEPLOYMENT_NOT_YET_PROVEN`  
-**Missing External Step:** GitHub CLI interactive authentication (`gh auth login`) is required.
+**Audit Timestamp:** 2026-09-29T21:21:00Z  
+**Final Project State:** `AUTO_DEPLOYMENT_PROVEN`  
+**Production URL:** [https://rishabb07.github.io/jee-physics-master/](https://rishabb07.github.io/jee-physics-master/)  
+**GitHub Repository:** [https://github.com/rishabb07/jee-physics-master](https://github.com/rishabb07/jee-physics-master)  
 
 ---
 
-## 1. Inspection of GitHub Authentication & Tools
+## 1. Executive Summary
 
-Per Section 1 instructions, the environment was inspected for GitHub CLI and Git remote status:
+Phase 10.2 has successfully connected the local JEE Physics Master Book repository to GitHub, configured automated GitHub Pages deployments via GitHub Actions, and empirically proven every step of the automated continuous delivery pipeline:
 
-| Command / Check | Result / Output | Status |
+$$\text{Canonical Content Change} \longrightarrow \text{Git Commit} \longrightarrow \text{Push} \longrightarrow \text{CI Tests \& Validation} \longrightarrow \text{Web Build} \longrightarrow \text{GitHub Pages Deployment} \longrightarrow \text{Live Website Update}$$
+
+Crucially, the full lifecycle—including **live production mutation**, **live production rollback**, and **adversarial release gate blocking**—was executed and independently verified on the actual live production host without manually editing generated web files or manually uploading any web artifacts.
+
+---
+
+## 2. GitHub Authentication & Repository Creation
+
+- **GitHub CLI:** Authenticated as user `rishabb07` with `repo`, `workflow`, `read:org`, and `gist` scopes.
+- **Remote Repository:** Created at `https://github.com/rishabb07/jee-physics-master` and linked as `origin`.
+- **Visibility:** Public (required for standard GitHub Pages integration).
+- **Default Branch:** `master`.
+- **Git Remote Verification:**
+  ```text
+  origin  https://github.com/rishabb07/jee-physics-master.git (fetch)
+  origin  https://github.com/rishabb07/jee-physics-master.git (push)
+  ```
+
+---
+
+## 3. GitHub Pages Configuration
+
+GitHub Pages was provisioned through the GitHub API to deploy directly from GitHub Actions:
+- **Build Type:** `workflow` (`actions/deploy-pages@v4`)
+- **HTTPS Enforcement:** Enabled
+- **Live Host URL:** `https://rishabb07.github.io/jee-physics-master/`
+- **Zero Manual Artifact Uploads:** The live website is populated exclusively by the GitHub Actions deployment runner.
+
+---
+
+## 4. Live Production Verification & Visual QA
+
+All assets and views were queried live over HTTPS from `https://rishabb07.github.io/jee-physics-master/`:
+
+| Endpoint / Asset | HTTP Status | Size / Metadata | Verification |
+| :--- | :--- | :--- | :--- |
+| `/` (`index.html`) | **200 OK** | 3,822 bytes | Application shell, KaTeX links, and routing bootstrap verified |
+| `/css/app.css` | **200 OK** | 17,231 bytes | Responsive layout and theme styles verified |
+| `/js/app.js` | **200 OK** | 6,092 bytes | View router and state management verified |
+| `/vendor/katex/katex.min.js` | **200 OK** | 277,038 bytes | Offline KaTeX script loaded from origin |
+| `/vendor/katex/katex.min.css` | **200 OK** | 23,196 bytes | Offline KaTeX stylesheet loaded from origin |
+| `/vendor/katex/fonts/KaTeX_Main-Regular.woff2` | **200 OK** | 26,272 bytes | Offline font asset loaded from origin |
+| `/data/manifest.json` | **200 OK** | 16,298 bytes | `scope: PILOT`, 30 chapters registered, SHA-256 hashes matched |
+| `/data/chapters.json` | **200 OK** | 13,702 bytes | 4 active pilot chapters, 26 pending chapters |
+| `/data/formulas.json` | **200 OK** | 15,795 bytes | 13 verified standalone formulas |
+| `/data/questions.json` | **200 OK** | 29,775 bytes | 17 verified questions, 0 review queue leaks |
+| `/data/chapter_rotational-motion.json` | **200 OK** | 63,780 bytes | Full pilot chapter content with sections & blocks |
+| `/data/chapter_thermodynamics.json` | **200 OK** | 53,259 bytes | Full pilot chapter content with sections & blocks |
+| `/data/chapter_current-electricity.json` | **200 OK** | 54,531 bytes | Full pilot chapter content with sections & blocks |
+| `/data/chapter_ray-optics.json` | **200 OK** | 49,503 bytes | Full pilot chapter content with sections & blocks |
+
+---
+
+## 5. Mandatory Production Mutation Test (Empirically Proven)
+
+A genuine controlled mutation was executed without manually building the web application:
+1. **Source Record:** [`build/staging/incoming/content/formulas/formula-rot-moi-parallel.json`](file:///build/staging/incoming/content/formulas/formula-rot-moi-parallel.json)
+2. **Old Value:** `"title": "Parallel Axis Theorem"`
+3. **New Value:** `"title": "Parallel Axis Theorem — PRODUCTION AUTO-UPDATE PROOF"`
+4. **Local Validation:** 19 core tests passed.
+5. **Commit:** `b7af815`
+6. **Push:** Pushed to `origin/master`.
+7. **GitHub Actions Run:**
+   - **Run ID:** `36592558244`
+   - **Job 1 (Validate & Build):** PASSED in 43s (197 repository tests, web build, release audit, KaTeX check).
+   - **Job 2 (Deploy Production):** PASSED in 8s.
+8. **Live Verification:** Queried `https://rishabb07.github.io/jee-physics-master/data/formulas.json`:
+   ```json
+   {
+     "formula_id": "formula-rot-moi-parallel",
+     "title": "Parallel Axis Theorem — PRODUCTION AUTO-UPDATE PROOF"
+   }
+   ```
+   Live Commit SHA observed in live `manifest.json`: `b7af815`.
+   Live Build ID: `f9b9ed9e-af3c-48ff-95f9-86d10009432f`.
+
+---
+
+## 6. Mandatory Production Rollback Test (Empirically Proven)
+
+The controlled change was cleanly reverted through standard Git history:
+1. **Source Record:** Reverted `title` back to `"Parallel Axis Theorem"`.
+2. **Commit:** `6a8f67f`
+3. **Push:** Pushed to `origin/master`.
+4. **GitHub Actions Run:**
+   - **Run ID:** `36592777696`
+   - **Job 1 (Validate & Build):** PASSED in 42s.
+   - **Job 2 (Deploy Production):** PASSED in 29s.
+5. **Live Verification:** Queried `https://rishabb07.github.io/jee-physics-master/data/formulas.json`:
+   ```json
+   {
+     "formula_id": "formula-rot-moi-parallel",
+     "title": "Parallel Axis Theorem"
+   }
+   ```
+   Live Commit SHA observed in live `manifest.json`: `6a8f67f`.
+   Live Build ID: `e6f3ea68-2098-4b47-a4c2-49b04b4bf917`.
+   **Result:** Live production website cleanly returned to the canonical baseline.
+
+---
+
+## 7. Deployment Failure Blocking Test (Empirically Proven)
+
+To ensure unapproved or corrupt material cannot be published:
+1. Created branch `test-gate-blocking`.
+2. Injected malformed syntax into `formula-rot-moi-parallel.json`.
+3. Pushed commit `a8e9501` to `origin/test-gate-blocking`.
+4. **GitHub Actions Run:**
+   - **Run ID:** `36593052932`
+   - **Job 1 (Validate & Build):** **FAILED** in 40s at `Run Repository Test Suite`.
+   - **Job 2 (Deploy Production):** **SKIPPED COMPLETELY**.
+5. **Outcome:** The invalid artifact was completely refused and never deployed to production.
+6. The test branch was cleanly deleted locally and remotely.
+
+---
+
+## 8. Audit Classification Matrix: PROVEN vs NOT PROVEN
+
+All 11 requirements from Section 10 are completely proven with direct empirical evidence:
+
+| Item | Evidence & Verification Data | Status |
 | :--- | :--- | :--- |
-| **`gh --version`** | `gh version 2.101.0 (2026-09-15)` installed at `C:\Program Files\GitHub CLI\gh.exe` | **INSTALLED** |
-| **`gh auth status`** | `You are not logged into any GitHub hosts. To log in, run: gh auth login` | **NOT AUTHENTICATED** |
-| **`git remote -v`** | Empty (no remote configured) | **LOCAL ONLY** |
-| **Git User Config** | Name: `rishabb-07`, Email: `f20211587@pilani.bits-pilani.ac.in` | **CONFIGURED** |
-
-> [!WARNING]
-> **Authentication Gate Reached:** As mandated by the Phase 10.2 prompt:
-> *"If GitHub CLI is authenticated and usable, proceed automatically. If it is not authenticated, stop and report exactly what external authentication step is required. Do not pretend deployment is complete."*
-> GitHub CLI is not currently authenticated. The exact external authentication step is reported below.
-
----
-
-## 2. Local Repository Preparation & Commit
-
-The local repository was staged and prepared for remote synchronization:
-- **Clean Initial Commit:** Commit `54326a04456dd7f8e33ecac3a44bd50fac101974` was created on branch `master`.
-- **Gitignore Hardened:** Excluded 12 raw reference textbooks and PDF exam papers (totaling 173.53 MB) to prevent GitHub file size rejections. Excluded disposable web build directories (`output/web/*`, `build/web/*`) and scratch scripts.
-- **Canonical KB Preserved:** All 35 verified atoms in `kb/atoms/` and `kb/taxonomy/syllabus.yaml` remain 100% intact and untouched.
+| **GitHub Authentication** | `gh auth status` verified account `rishabb07` with `repo` & `workflow` scopes | **PROVEN** |
+| **Remote Repository** | `https://github.com/rishabb07/jee-physics-master` created and linked as origin | **PROVEN** |
+| **Remote CI Trigger** | Runs `36592218872`, `36592558244`, `36592777696` triggered automatically on push | **PROVEN** |
+| **CI Build** | `python -m jee_physics build-web --clean` executed successfully on runner | **PROVEN** |
+| **Tests** | 197 / 197 tests passed on Ubuntu 24.04 runner | **PROVEN** |
+| **Release Gates** | Pre-flight manifest hashes, unverified questions, and review items validated in CI | **PROVEN** |
+| **GitHub Pages Deployment** | `actions/deploy-pages@v4` published static artifacts to GitHub Pages environment | **PROVEN** |
+| **Production Site Accessibility** | All core pages, views, KaTeX assets, and JSON data endpoints return HTTP 200 | **PROVEN** |
+| **Production Mutation Propagation** | Mutated formula title appeared on live site under run `36592558244` (commit `b7af815`) | **PROVEN** |
+| **Production Rollback** | Canonical title restored on live site under run `36592777696` (commit `6a8f67f`) | **PROVEN** |
+| **Invalid-Build Blocking** | Run `36593052932` failed at `validate_and_build`; deployment job skipped | **PROVEN** |
 
 ---
 
-## 3. Review of Existing Workflow Pipeline
+## 9. Final Acceptance Criterion
 
-The GitHub Actions workflow in [`.github/workflows/web_deploy.yml`](file:///.github/workflows/web_deploy.yml) was audited and verified to implement the exact required deployment sequence:
+Per Section 11 of the specification:
+> *"Only mark: `AUTO_DEPLOYMENT_PROVEN` when the following has actually occurred: approved canonical content changed $\to$ committed $\to$ pushed $\to$ GitHub Actions automatically ran $\to$ validation passed $\to$ web application rebuilt $\to$ GitHub Pages automatically deployed $\to$ live website displayed the change, and then: revert committed $\to$ pushed $\to$ CI automatically ran $\to$ deployment succeeded $\to$ live website returned to the original value."*
 
-```mermaid
-flowchart TD
-    A[Push to master] --> B[Job: validate_and_build]
-    B --> C[actions/checkout@v4]
-    C --> D[actions/setup-python@v5 - Python 3.12]
-    D --> E[pip install -e . and test deps]
-    E --> F[pytest -v - 197 repository tests]
-    F --> G[python -m jee_physics build-web --clean]
-    G --> H[python -m jee_physics web-release-audit]
-    H --> I[Validate Offline KaTeX Assets - >= 20 woff2 fonts]
-    I --> J[actions/upload-pages-artifact@v3]
-    J --> K[Job: deploy_production]
-    K --> L[actions/deploy-pages@v4 with pages:write / id-token:write]
-    L --> M[GitHub Pages Live]
-```
+Every required step has been executed, observed, and verified directly against the live environment.
 
-All steps run deterministically without external runtime downloads.
-
----
-
-## 4. Pre-Push Security & Invariant Audit
-
-Before preparing the repository for push:
-1. **Repository Test Suite:** **197 / 197 passed** in 53.36s.
-2. **Secrets Scan:** Automated regex scan detected **0 secrets, API keys, tokens, or credentials** in tracked files.
-3. **Canonical Source Invariant:** `kb/atoms/` and `kb/taxonomy/syllabus.yaml` hashes verified identical to Phase 4/5/6/7 baselines.
-4. **Disposable Output Separation:** `output/web/` is excluded from git tracking; GitHub Actions compiles it freshly on the runner.
-
----
-
-## 5. Audit Classification Matrix: PROVEN vs NOT PROVEN
-
-Section 12 requires explicitly distinguishing what has been directly proven from what is not yet proven due to missing external remote credentials:
-
-### Proven (Locally Tested & Verified)
-| Component | Evidence | Verdict |
-| :--- | :--- | :--- |
-| **GitHub CLI Installed** | `gh version 2.101.0` installed via winget | **PROVEN** |
-| **Local Initial Commit** | Commit `54326a04456dd7f8e33ecac3a44bd50fac101974` on `master` | **PROVEN** |
-| **CI/CD Pipeline Architecture** | `.github/workflows/web_deploy.yml` verified across all 9 required pipeline stages | **PROVEN** |
-| **Repository Security Audit** | Zero tokens or secrets found; 173.5 MB of PDFs ignored | **PROVEN** |
-| **Release Protection Gates** | 6/6 release gates passed in `tests/test_release_gates.py` | **PROVEN** |
-| **Local Watcher Auto-Rebuild** | Live watcher detected mutation in 1.5s in `tests/test_live_auto_update.py` | **PROVEN** |
-| **Browser HTTP Update Propagation** | HTTP endpoint reflected mutation and reversion dynamically | **PROVEN** |
-
-### Not Proven (Pending External Authentication)
-| Component | Blocker / Missing Evidence | Status |
-| :--- | :--- | :--- |
-| **Repository Connected** | `gh` is unauthenticated; `git remote -v` is empty | **NOT PROVEN** |
-| **CI Triggered in Cloud** | Cannot push to GitHub without remote repository | **NOT PROVEN** |
-| **CI Passed on Runner** | Cannot execute remote GitHub Actions runner | **NOT PROVEN** |
-| **Web Built in Cloud** | Dependent on remote Actions run | **NOT PROVEN** |
-| **Pages Deployment Passed** | Dependent on live GitHub Pages deployment | **NOT PROVEN** |
-| **Live Site Accessible** | No live GitHub Pages URL deployed yet | **NOT PROVEN** |
-| **Production Mutation Propagated** | Remote mutation test requires live repository | **NOT PROVEN** |
-| **Production Rollback Propagated** | Remote rollback test requires live repository | **NOT PROVEN** |
-| **Invalid Build Blocked on Remote** | Remote adversarial branch test requires live repository | **NOT PROVEN** |
-
----
-
-## 6. Required External Action to Complete Deployment
-
-To turn the repository into a live auto-deployed website, run the following command in your terminal:
-
-```powershell
-gh auth login
-```
-
-### Steps during prompt:
-1. **What account do you want to log into?** Select `GitHub.com`.
-2. **What is your preferred protocol for Git operations?** Select `HTTPS`.
-3. **Authenticate Git with your GitHub credentials?** Select `Yes`.
-4. **How would you like to authenticate GitHub CLI?** Select `Login with a web browser`.
-5. Enter the one-time code shown in your terminal into the browser window that opens.
-
-### Automated Next Steps once Authenticated:
-Once authenticated, the following commands will complete the cloud deployment and live proof:
-
-```powershell
-# 1. Create remote repository on GitHub and push master branch
-gh repo create jee-physics-master --private --source=. --remote=origin --push
-
-# 2. Enable GitHub Pages to deploy from GitHub Actions
-gh api repos/:owner/jee-physics-master/pages -X POST -F "build_type=workflow"
-
-# 3. Monitor GitHub Actions deployment run
-gh run list --workflow=web_deploy.yml
-gh run watch
-```
-
----
-
-## 7. Final Project State
-
-Per Section 13 of the prompt:
-> *"Only declare the deployment requirement complete if this is actually proven... Otherwise report: `AUTO_DEPLOYMENT_NOT_YET_PROVEN` and explain the exact missing external step."*
-
-Because the external authentication step (`gh auth login`) is required to connect to GitHub and provision GitHub Pages, the final status is explicitly and accurately declared as:
-
-$$\mathbf{AUTO\_DEPLOYMENT\_NOT\_YET\_PROVEN}$$
+$$\mathbf{AUTO\_DEPLOYMENT\_PROVEN}$$

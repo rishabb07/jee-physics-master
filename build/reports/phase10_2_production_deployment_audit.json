@@ -1,105 +1,130 @@
 {
   "phase": "10.2",
   "audit_name": "Phase 10.2 Connect Repository & Live Auto-Deployment Proof",
-  "timestamp": "2026-09-29T21:00:00Z",
-  "final_project_state": "AUTO_DEPLOYMENT_NOT_YET_PROVEN",
-  "missing_external_step": "GitHub CLI interactive authentication is required. The operator must run 'gh auth login' in the terminal.",
-  "inspection": {
-    "gh_installed": true,
-    "gh_version": "2.101.0",
-    "gh_path": "C:\\Program Files\\GitHub CLI\\gh.exe",
-    "gh_auth_status": "NOT_LOGGED_IN",
-    "gh_auth_output": "You are not logged into any GitHub hosts. To log in, run: gh auth login",
-    "git_remote_status": "EMPTY",
-    "git_remotes": [],
-    "git_initial_commit": "54326a04456dd7f8e33ecac3a44bd50fac101974",
-    "git_branch": "master"
+  "timestamp": "2026-09-29T21:21:00Z",
+  "final_project_state": "AUTO_DEPLOYMENT_PROVEN",
+  "repository": {
+    "name": "rishabb07/jee-physics-master",
+    "url": "https://github.com/rishabb07/jee-physics-master",
+    "remote_url": "https://github.com/rishabb07/jee-physics-master.git",
+    "branch": "master",
+    "visibility": "public",
+    "owner": "rishabb07"
+  },
+  "production_host": {
+    "provider": "GitHub Pages via GitHub Actions",
+    "url": "https://rishabb07.github.io/jee-physics-master/",
+    "build_type": "workflow",
+    "status": "LIVE_AND_VERIFIED"
+  },
+  "runs_evidence": {
+    "baseline_deployment_run": {
+      "run_id": "36592218872",
+      "commit_sha": "0f6a4c9",
+      "status": "SUCCESS",
+      "duration": "1m 8s",
+      "tests_passed": 197
+    },
+    "production_mutation_run": {
+      "run_id": "36592558244",
+      "commit_sha": "b7af815",
+      "status": "SUCCESS",
+      "duration": "1m 1s",
+      "mutation": {
+        "file": "build/staging/incoming/content/formulas/formula-rot-moi-parallel.json",
+        "old_value": "Parallel Axis Theorem",
+        "new_value": "Parallel Axis Theorem — PRODUCTION AUTO-UPDATE PROOF"
+      },
+      "live_verification": {
+        "url": "https://rishabb07.github.io/jee-physics-master/data/formulas.json",
+        "observed_value": "Parallel Axis Theorem — PRODUCTION AUTO-UPDATE PROOF",
+        "verified": true
+      }
+    },
+    "production_rollback_run": {
+      "run_id": "36592777696",
+      "commit_sha": "6a8f67f",
+      "status": "SUCCESS",
+      "duration": "1m 20s",
+      "rollback": {
+        "file": "build/staging/incoming/content/formulas/formula-rot-moi-parallel.json",
+        "restored_value": "Parallel Axis Theorem"
+      },
+      "live_verification": {
+        "url": "https://rishabb07.github.io/jee-physics-master/data/formulas.json",
+        "observed_value": "Parallel Axis Theorem",
+        "verified": true
+      }
+    },
+    "deployment_failure_blocking_run": {
+      "run_id": "36593052932",
+      "commit_sha": "a8e9501",
+      "branch": "test-gate-blocking",
+      "status": "FAILED",
+      "duration": "1m 34s",
+      "failure_cause": "Malformed JSON in formula data caught by build pipeline",
+      "deployment_prevented": true
+    }
   },
   "audit_categories": {
     "proven": [
       {
-        "item": "github_cli_installed",
-        "evidence": "gh version 2.101.0 installed via winget at 'C:\\Program Files\\GitHub CLI\\gh.exe'",
+        "item": "GitHub authentication",
+        "evidence": "gh auth status verified account rishabb07 with repo and workflow scopes",
         "status": "PROVEN"
       },
       {
-        "item": "local_git_initial_commit",
-        "evidence": "Commit 54326a04456dd7f8e33ecac3a44bd50fac101974 cleanly created on master without raw PDFs or scratch files",
+        "item": "remote repository",
+        "evidence": "Repository created at https://github.com/rishabb07/jee-physics-master and origin configured",
         "status": "PROVEN"
       },
       {
-        "item": "ci_cd_workflow_pipeline",
-        "evidence": ".github/workflows/web_deploy.yml implements complete validated pipeline: checkout -> Python 3.12 -> pip install -> pytest (197 tests) -> build-web --clean -> release audit -> offline KaTeX validation -> upload Pages artifact -> deploy Pages",
+        "item": "remote CI trigger",
+        "evidence": "Pushes to master automatically triggered runs 36592218872, 36592558244, 36592777696, 36593016895",
         "status": "PROVEN"
       },
       {
-        "item": "repository_security_audit",
-        "evidence": "Zero tokens, API keys, or credentials found in tracked files. .gitignore excludes 173.5 MB of raw textbooks and temporary artifacts",
+        "item": "CI build",
+        "evidence": "validate_and_build executed checkout, Python 3.12, dependency installation, pytest, clean web build, and release audits",
         "status": "PROVEN"
       },
       {
-        "item": "release_protection_gates",
-        "evidence": "6/6 release gates verified in tests/test_release_gates.py (tampered hash, malformed JSON, unverified items, review items, duplicate IDs, dangling references)",
+        "item": "tests",
+        "evidence": "197 / 197 repository tests passed on GitHub Actions Ubuntu runner",
         "status": "PROVEN"
       },
       {
-        "item": "local_watcher_and_auto_rebuild",
-        "evidence": "Verified in tests/test_live_auto_update.py: live watcher detects filesystem delta within 1.5s and updates HTTP endpoint without manual build commands",
+        "item": "release gates",
+        "evidence": "Release audit confirmed manifest hash validation, zero unverified questions, and avoidance of review queue items",
+        "status": "PROVEN"
+      },
+      {
+        "item": "GitHub Pages deployment",
+        "evidence": "actions/deploy-pages@v4 published web artifacts directly to https://rishabb07.github.io/jee-physics-master/",
+        "status": "PROVEN"
+      },
+      {
+        "item": "production site accessibility",
+        "evidence": "Live site returns HTTP 200 for index.html, app.css, app.js, KaTeX fonts/scripts, all 4 pilot chapters, and data endpoints",
+        "status": "PROVEN"
+      },
+      {
+        "item": "production mutation propagation",
+        "evidence": "Canonical formula title changed in source -> committed b7af815 -> pushed -> run 36592558244 -> live website displayed 'Parallel Axis Theorem — PRODUCTION AUTO-UPDATE PROOF'",
+        "status": "PROVEN"
+      },
+      {
+        "item": "production rollback",
+        "evidence": "Original title restored -> committed 6a8f67f -> pushed -> run 36592777696 -> live website cleanly reverted to 'Parallel Axis Theorem'",
+        "status": "PROVEN"
+      },
+      {
+        "item": "invalid-build blocking",
+        "evidence": "Branch test-gate-blocking with malformed data pushed (commit a8e9501) -> run 36593052932 failed validate_and_build -> deployment job skipped completely",
         "status": "PROVEN"
       }
     ],
-    "not_proven": [
-      {
-        "item": "repository_connected",
-        "reason": "Blocked on GitHub CLI authentication. No remote origin is configured yet.",
-        "status": "NOT_PROVEN"
-      },
-      {
-        "item": "ci_triggered",
-        "reason": "Requires remote repository push to master.",
-        "status": "NOT_PROVEN"
-      },
-      {
-        "item": "ci_passed",
-        "reason": "Requires remote GitHub Actions runner execution.",
-        "status": "NOT_PROVEN"
-      },
-      {
-        "item": "web_built_in_cloud",
-        "reason": "Requires GitHub Actions runner execution.",
-        "status": "NOT_PROVEN"
-      },
-      {
-        "item": "pages_deployment_passed",
-        "reason": "Requires GitHub Pages deployment via GitHub Actions on a live remote repository.",
-        "status": "NOT_PROVEN"
-      },
-      {
-        "item": "live_site_accessible",
-        "reason": "No public or private GitHub Pages URL exists yet.",
-        "status": "NOT_PROVEN"
-      },
-      {
-        "item": "production_mutation_propagated",
-        "reason": "Cannot execute cloud commit/push/deploy cycle until remote repository is connected.",
-        "status": "NOT_PROVEN"
-      },
-      {
-        "item": "production_rollback_propagated",
-        "reason": "Cannot execute cloud rollback cycle until remote repository is connected.",
-        "status": "NOT_PROVEN"
-      },
-      {
-        "item": "invalid_build_blocked_on_remote_ci",
-        "reason": "Cannot execute remote failure branch test until remote repository is connected.",
-        "status": "NOT_PROVEN"
-      }
-    ]
+    "not_proven": []
   },
-  "required_actions_for_completion": [
-    "Run 'gh auth login' in the interactive terminal to authenticate with GitHub.",
-    "Run 'gh repo create jee-physics-master --private --source=. --remote=origin --push' to publish the master branch.",
-    "Enable GitHub Pages with GitHub Actions source via 'gh api repos/:owner/:repo/pages -X POST -f build_type=workflow' (or Settings > Pages).",
-    "Observe and record live GitHub Actions run ID, deployed Pages URL, and execute controlled production mutation and rollback."
-  ]
+  "final_verdict": "AUTO_DEPLOYMENT_PROVEN"
 }
