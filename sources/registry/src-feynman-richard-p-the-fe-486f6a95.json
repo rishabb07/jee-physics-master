@@ -1,0 +1,44 @@
+{
+  "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+  "source_version": 1,
+  "file_name": "Feynman, Richard P. The Feynman Lectures on Physics.pdf",
+  "file_path": "Feynman, Richard P. The Feynman Lectures on Physics.pdf",
+  "file_size_bytes": 33931767,
+  "sha256": "486f6a95dac05601b8a8ad874b4b3f2750ddf9c7448501ea08d3f07a50fb03df",
+  "extension": ".pdf",
+  "mime_type": "application/pdf",
+  "file_format": "pdf",
+  "source_type": "reference_book",
+  "total_pages": 536,
+  "has_extractable_text": false,
+  "is_image_only": true,
+  "is_encrypted": false,
+  "status": "SEGMENTED",
+  "processing_stage": null,
+  "last_error": null,
+  "history": [],
+  "affected_chapters": [],
+  "file_created_at": null,
+  "file_modified_at": null,
+  "metadata": {
+    "source_role": "CONCEPTUAL_DEPTH",
+    "toc_entries_count": 126,
+    "bibliographic_info": {
+      "title": "The Feynman Lectures on Physics (Volume 1)",
+      "authors": [
+        "Richard P. Feynman",
+        "Robert B. Leighton",
+        "Matthew Sands"
+      ],
+      "publisher": "Addison-Wesley Publishing Company, Reading, MA",
+      "edition": "Definitive Edition",
+      "volume": "Volume 1: Mainly Mechanics, Radiation, and Heat (52 Lectures)",
+      "publication_year": 1963,
+      "isbn": "0-201-02116-1",
+      "discrepancy_resolution": "RESOLVED DISCREPANCY: Scanned/image-only PDF with 0 extractable digital characters. Requires OCR / visual inspection for text extraction. Earlier report claiming 'EXCELLENT' was erroneous."
+    },
+    "extraction_nature": "SCANNED_IMAGE_ONLY"
+  },
+  "created_at": "2026-09-29T16:20:06.797520Z",
+  "updated_at": "2026-09-29T16:20:06.797520Z"
+}

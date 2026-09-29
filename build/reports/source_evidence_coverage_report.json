@@ -1,0 +1,82 @@
+{
+  "generated_at": "2026-09-29T20:23:32.402874+00:00",
+  "phase": "11.7",
+  "department": "Ingestion & Granular Source Evidence Department",
+  "executive_summary": {
+    "total_registered_sources": 9,
+    "total_corpus_pages": 4839,
+    "pages_successfully_indexed": 4839,
+    "pages_index_percentage": 100.0,
+    "pages_with_digital_text": 4270,
+    "pages_with_font_shift_decoded": 28,
+    "pages_with_vectorized_glyphs": 12,
+    "pages_scanned_image_only": 536,
+    "pages_blank_or_empty": 21,
+    "pages_routed_to_visual_inspection": 740
+  },
+  "section_coverage": {
+    "total_sections": 241,
+    "physics_sections": 224,
+    "physics_sections_covered": 224,
+    "physics_coverage_rate_percent": 100.0,
+    "status_counts": {
+      "FRONT_MATTER": 5,
+      "PHYSICS_CONTENT_COVERED": 224,
+      "BACK_MATTER": 3,
+      "NON_PHYSICS": 9
+    }
+  },
+  "evidence_counts": {
+    "total_authentic_problems": 2525,
+    "irodov_problems": 1878,
+    "irodov_problems_with_answers": 1077,
+    "irodov_problems_with_figure_refs": 264,
+    "textbook_problems": 647,
+    "semantic_records": 1180,
+    "formulas": 125,
+    "technical_figures": 12,
+    "derivations": 7,
+    "worked_examples": 7,
+    "admitted_mock_physics_questions": 90,
+    "quarantined_non_physics_questions": 180
+  },
+  "feynman_visual_accounting": {
+    "total_pages": 536,
+    "front_matter_pages": 10,
+    "physics_content_pages": 526,
+    "total_lectures": 52,
+    "visual_equations_cataloged": 88,
+    "visual_diagrams_cataloged": 271,
+    "pages_requiring_visual_review": 101
+  },
+  "mock_quarantine": {
+    "total_mock_questions_indexed": 270,
+    "admitted_physics_questions": 90,
+    "quarantined_chemistry_and_math": 180,
+    "mock_papers": [
+      {
+        "source_id": "src-jee-main-mock-test-01-20-222525c1",
+        "admitted_physics": 30,
+        "quarantined_chemistry": 30,
+        "quarantined_mathematics": 30
+      },
+      {
+        "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+        "admitted_physics": 30,
+        "quarantined_chemistry": 30,
+        "quarantined_mathematics": 30
+      },
+      {
+        "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+        "admitted_physics": 30,
+        "quarantined_chemistry": 30,
+        "quarantined_mathematics": 30
+      }
+    ]
+  },
+  "deterministic_verification": {
+    "all_passed": false,
+    "checks_run": 10,
+    "violations_detected": 1
+  }
+}

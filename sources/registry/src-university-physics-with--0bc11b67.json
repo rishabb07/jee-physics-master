@@ -1,0 +1,44 @@
+{
+  "source_id": "src-university-physics-with--0bc11b67",
+  "source_version": 1,
+  "file_name": "University Physics with Modern Physics, 13th Edition.pdf",
+  "file_path": "University Physics with Modern Physics, 13th Edition.pdf",
+  "file_size_bytes": 53151401,
+  "sha256": "0bc11b67facf00abf7c8f370adb99f7acdcb0348c7108774e80a2b1c7a398687",
+  "extension": ".pdf",
+  "mime_type": "application/pdf",
+  "file_format": "pdf",
+  "source_type": "textbook",
+  "total_pages": 1598,
+  "has_extractable_text": true,
+  "is_image_only": false,
+  "is_encrypted": false,
+  "status": "SEGMENTED",
+  "processing_stage": null,
+  "last_error": null,
+  "history": [],
+  "affected_chapters": [],
+  "file_created_at": null,
+  "file_modified_at": null,
+  "metadata": {
+    "source_role": "UNDERGRADUATE_DEPTH",
+    "toc_entries_count": 473,
+    "bibliographic_info": {
+      "title": "Sears and Zemansky's University Physics with Modern Physics",
+      "authors": [
+        "Hugh D. Young",
+        "Roger A. Freedman",
+        "A. Lewis Ford (Contributing Author)"
+      ],
+      "publisher": "Pearson Education, Inc., publishing as Addison-Wesley, San Francisco",
+      "edition": "13th Edition",
+      "volume": "Extended Edition (Chapters 1 to 44)",
+      "publication_year": 2012,
+      "isbn": "978-0-321-69686-1",
+      "discrepancy_resolution": "RESOLVED DISCREPANCY: Title page 5 and copyright page 6 explicitly confirm 13TH EDITION (Copyright 2012 Pearson Education, Inc.). Earlier reports erroneously referenced 15th Edition Sears & Zemansky."
+    },
+    "extraction_nature": "DIGITAL_TEXT"
+  },
+  "created_at": "2026-09-29T16:20:07.980378Z",
+  "updated_at": "2026-09-29T16:20:07.980378Z"
+}

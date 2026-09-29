@@ -1,0 +1,186 @@
+{
+  "total_adversarial_tests": 16,
+  "passed_tests": 16,
+  "failed_tests": 0,
+  "intercept_rate_percentage": 100.0,
+  "gate_passed": true,
+  "diagnostic": "16/16 adversarial tests passed. 100% of altered words, numbers, signs, formulas, and fake provenance intercepted.",
+  "test_results": [
+    {
+      "test_id": "adv-01-genuine-control",
+      "category": "GENUINE_BASELINE",
+      "description": "Genuine verbatim HCV1 text on page 35.",
+      "expected_decision": "ACCEPT_SOURCE_VERBATIM",
+      "actual_decision": "ACCEPT_SOURCE_VERBATIM",
+      "match_result": "EXACT_MATCH",
+      "similarity_score": 1.0,
+      "passed": true,
+      "diagnostic": "Verbatim substring match confirmed in source page text."
+    },
+    {
+      "test_id": "adv-02-altered-word-substitution",
+      "category": "WORD_SUBSTITUTION",
+      "description": "Mutated word: 'Solution' -> 'Problem' in HCV1 p. 35 text.",
+      "expected_decision": "REJECT_FROM_SOURCE_VERBATIM",
+      "actual_decision": "REJECT_FROM_SOURCE_VERBATIM",
+      "match_result": "NO_MATCH",
+      "similarity_score": 0.032,
+      "passed": true,
+      "diagnostic": "No match found on page(s) [35..35] (match_ratio=0.03)."
+    },
+    {
+      "test_id": "adv-03-altered-number-substitution",
+      "category": "NUMBER_SUBSTITUTION",
+      "description": "Mutated variable coefficient: 'OC = F' -> 'OC = 2F'.",
+      "expected_decision": "REJECT_FROM_SOURCE_VERBATIM",
+      "actual_decision": "REJECT_FROM_SOURCE_VERBATIM",
+      "match_result": "PARTIAL_MATCH",
+      "similarity_score": 0.909,
+      "passed": true,
+      "diagnostic": "Partial match confirmed (30/33 chars, ratio=0.91)."
+    },
+    {
+      "test_id": "adv-04-altered-decimal",
+      "category": "DECIMAL_CHANGE",
+      "description": "Mutated decimal value: 9.8 ms -> 9.81 ms on HCV1 p. 214.",
+      "expected_decision": "REJECT_FROM_SOURCE_VERBATIM",
+      "actual_decision": "REJECT_FROM_SOURCE_VERBATIM",
+      "match_result": "NO_MATCH",
+      "similarity_score": 0.026,
+      "passed": true,
+      "diagnostic": "No match found on page(s) [214..214] (match_ratio=0.03)."
+    },
+    {
+      "test_id": "adv-05-altered-unit",
+      "category": "UNIT_CHANGE",
+      "description": "Mutated physical units: 'N\u2013m 2/kg 2' -> 'N\u2013m/kg' on HCV1 p. 214.",
+      "expected_decision": "REJECT_FROM_SOURCE_VERBATIM",
+      "actual_decision": "REJECT_FROM_SOURCE_VERBATIM",
+      "match_result": "PARTIAL_MATCH",
+      "similarity_score": 0.857,
+      "passed": true,
+      "diagnostic": "Partial match confirmed (18/21 chars, ratio=0.86)."
+    },
+    {
+      "test_id": "adv-06-altered-sign",
+      "category": "SIGN_CHANGE",
+      "description": "Inverted thermodynamic work sign: \u2206Q = \u2206U - \u2206W.",
+      "expected_decision": "REJECT_FROM_SOURCE_VERBATIM",
+      "actual_decision": "REJECT_FROM_SOURCE_VERBATIM",
+      "match_result": "NO_MATCH",
+      "similarity_score": 0.25,
+      "passed": true,
+      "diagnostic": "No match found on page(s) [64..64] (match_ratio=0.25)."
+    },
+    {
+      "test_id": "adv-07-altered-coefficient",
+      "category": "COEFFICIENT_CHANGE",
+      "description": "Mutated formula coefficient: tau = 2 r x F on Halliday p. 280.",
+      "expected_decision": "REJECT_FROM_SOURCE_VERBATIM",
+      "actual_decision": "REJECT_FROM_SOURCE_VERBATIM",
+      "match_result": "NO_MATCH",
+      "similarity_score": 0.048,
+      "passed": true,
+      "diagnostic": "No match found on page(s) [280..280] (match_ratio=0.05)."
+    },
+    {
+      "test_id": "adv-08-altered-exponent",
+      "category": "EXPONENT_CHANGE",
+      "description": "Mutated adiabatic exponent: T V^\\gamma = const on HCV2 p. 64.",
+      "expected_decision": "REJECT_FROM_SOURCE_VERBATIM",
+      "actual_decision": "REJECT_FROM_SOURCE_VERBATIM",
+      "match_result": "NO_MATCH",
+      "similarity_score": 0.036,
+      "passed": true,
+      "diagnostic": "No match found on page(s) [64..64] (match_ratio=0.04)."
+    },
+    {
+      "test_id": "adv-09-altered-formula",
+      "category": "FORMULA_MUTATION",
+      "description": "Mutated formula: F = 1/2 m a instead of F = m a.",
+      "expected_decision": "REJECT_FROM_SOURCE_VERBATIM",
+      "actual_decision": "REJECT_FROM_SOURCE_VERBATIM",
+      "match_result": "NO_MATCH",
+      "similarity_score": 0.053,
+      "passed": true,
+      "diagnostic": "No match found on page(s) [65..65] (match_ratio=0.05)."
+    },
+    {
+      "test_id": "adv-10-altered-term-deletion",
+      "category": "TERM_DELETION",
+      "description": "Deleted internal energy term: 'or, \u2206Q = \u2206W. \u2026 (26.1)' on HCV2 p. 64.",
+      "expected_decision": "REJECT_FROM_SOURCE_VERBATIM",
+      "actual_decision": "REJECT_FROM_SOURCE_VERBATIM",
+      "match_result": "PARTIAL_MATCH",
+      "similarity_score": 0.652,
+      "passed": true,
+      "diagnostic": "Partial match confirmed (15/23 chars, ratio=0.65)."
+    },
+    {
+      "test_id": "adv-11-altered-page-reference",
+      "category": "PAGE_CITATION_MUTATION",
+      "description": "Genuine HCV1 vector text attached to page 250 (Fluid mechanics).",
+      "expected_decision": "REJECT_FROM_SOURCE_VERBATIM",
+      "actual_decision": "REJECT_FROM_SOURCE_VERBATIM",
+      "match_result": "NO_MATCH",
+      "similarity_score": 0.094,
+      "passed": true,
+      "diagnostic": "No match found on page(s) [250..250] (match_ratio=0.09)."
+    },
+    {
+      "test_id": "adv-12-adjacent-page-swap",
+      "category": "ADJACENT_PAGE_SWAP",
+      "description": "Genuine HCV1 text on p. 35 attached to adjacent p. 36.",
+      "expected_decision": "REJECT_FROM_SOURCE_VERBATIM",
+      "actual_decision": "REJECT_FROM_SOURCE_VERBATIM",
+      "match_result": "NO_MATCH",
+      "similarity_score": 0.344,
+      "passed": true,
+      "diagnostic": "No match found on page(s) [36..36] (match_ratio=0.34)."
+    },
+    {
+      "test_id": "adv-13-wrong-source-id",
+      "category": "SOURCE_ID_MUTATION",
+      "description": "Genuine text attached to non-existent fake source ID.",
+      "expected_decision": "REJECT_FROM_SOURCE_VERBATIM",
+      "actual_decision": "REJECT_FROM_SOURCE_VERBATIM",
+      "match_result": "NO_MATCH",
+      "similarity_score": 0.0,
+      "passed": true,
+      "diagnostic": "Source 'src-fabricated-physics-fake-xyz' PDF file not found."
+    },
+    {
+      "test_id": "adv-14-cross-book-swap",
+      "category": "CROSS_BOOK_SWAP",
+      "description": "HCV text attached to Halliday PDF page 35.",
+      "expected_decision": "REJECT_FROM_SOURCE_VERBATIM",
+      "actual_decision": "REJECT_FROM_SOURCE_VERBATIM",
+      "match_result": "NO_MATCH",
+      "similarity_score": 0.062,
+      "passed": true,
+      "diagnostic": "No match found on page(s) [35..35] (match_ratio=0.06)."
+    },
+    {
+      "test_id": "adv-15-problem-number-mutation",
+      "category": "PROBLEM_NUMBER_MUTATION",
+      "description": "Genuine Irodov 1.1 problem statement verified with problem number 9.99 on p. 10.",
+      "expected_decision": "REJECT_FROM_SOURCE_VERBATIM",
+      "actual_decision": "REJECT_FROM_SOURCE_VERBATIM",
+      "match_result": "NO_MATCH",
+      "similarity_score": 0.02,
+      "passed": true,
+      "diagnostic": "Problem 9.99 verified on pages [10..11] (num_present=False, word_ratio=1.00)."
+    },
+    {
+      "test_id": "adv-16-option-mutation",
+      "category": "OPTION_MUTATION",
+      "description": "Corrupted option text in mock test question statement on p. 5.",
+      "expected_decision": "REJECT_FROM_SOURCE_VERBATIM",
+      "actual_decision": "REJECT_FROM_SOURCE_VERBATIM",
+      "match_result": "NO_MATCH",
+      "similarity_score": 0.038,
+      "passed": true,
+      "diagnostic": "No match found on page(s) [5..5] (match_ratio=0.04)."
+    }
+  ]
+}

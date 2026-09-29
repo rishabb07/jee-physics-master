@@ -1,0 +1,75 @@
+{
+  "example_id": "ex-kin-gravity-balloon-01",
+  "chapter_id": "kinematics",
+  "problem_statement": "A hot-air balloon is ascending vertically with a constant speed of 12.0 m/s. When the balloon is at a height of 65.0 m above the ground, a passenger drops a sandbag. Taking downward gravity g = 10.0 m/s^2, determine: (a) the maximum height reached by the sandbag above the ground, and (b) the total time elapsed from the instant the sandbag is released until it strikes the ground.",
+  "known_quantities": {
+    "balloon_speed": "v_b = 12.0 m/s upward",
+    "release_height": "h_0 = 65.0 m",
+    "gravity": "g = 10.0 m/s^2 downward"
+  },
+  "target_quantity": "Maximum height H_max above ground and time of flight t_ground",
+  "relevant_concepts": [
+    "concept-kin-gravity-01",
+    "concept-kin-vel-speed-01"
+  ],
+  "governing_principles": [
+    "Initial upward velocity inheritance: u = +12.0 m/s",
+    "Kinematic relations v^2 = u^2 + 2as and y = y_0 + ut + 0.5 a t^2 with a = -g"
+  ],
+  "solution_strategy": "The sandbag inherits the balloon's upward velocity at release. Use v^2 = u^2 - 2g(y - y_0) at the apex (v = 0) to find maximum height. Set y = 0 in y(t) = y_0 + ut - 0.5 g t^2 and solve the quadratic for total flight time.",
+  "ordered_steps": [
+    {
+      "step_number": 1,
+      "action_description": "Identify initial conditions in Cartesian frame with origin on the ground and upward positive",
+      "equation_latex": "y_0 = +65.0\\text{ m}, \\quad u = +12.0\\text{ m/s}, \\quad a = -g = -10.0\\text{ m/s}^2",
+      "justification": "A released object inherits the instantaneous velocity of its carrier, but not its acceleration.",
+      "calculation_details": "u = +12.0 m/s, y_0 = 65.0 m.",
+      "intermediate_result": "Initial state established"
+    },
+    {
+      "step_number": 2,
+      "action_description": "Calculate apex height using v^2 = u^2 - 2g(H - y_0) with v = 0",
+      "equation_latex": "0 = (12.0)^2 - 2(10.0)(H_{\\text{max}} - 65.0) \\implies H_{\\text{max}} - 65.0 = \\frac{144}{20} = 7.20\\text{ m}",
+      "justification": "Third kinematic equation evaluated at vertical apex where velocity vanishes.",
+      "calculation_details": "Apex height above ground H_max = 65.0 + 7.2 = 72.2 m.",
+      "intermediate_result": "H_max = 72.2 m"
+    },
+    {
+      "step_number": 3,
+      "action_description": "Formulate quadratic equation for ground impact by setting y(t) = 0",
+      "equation_latex": "y(t) = y_0 + u t - \\frac{1}{2} g t^2 = 0 \\implies 65.0 + 12.0 t - 5.0 t^2 = 0 \\implies 5 t^2 - 12 t - 65 = 0",
+      "justification": "Position-time equation with ground condition y = 0.",
+      "calculation_details": "Dividing quadratic: 5 t^2 - 12 t - 65 = 0.",
+      "intermediate_result": "5 t^2 - 12 t - 65 = 0"
+    },
+    {
+      "step_number": 4,
+      "action_description": "Solve quadratic equation for positive time root",
+      "equation_latex": "t = \\frac{-(-12) \\pm \\sqrt{(-12)^2 - 4(5)(-65)}}{2(5)} = \\frac{12 \\pm \\sqrt{144 + 1300}}{10} = \\frac{12 \\pm \\sqrt{1444}}{10} = \\frac{12 \\pm 38}{10}",
+      "justification": "Quadratic formula; sqrt(1444) = 38 exact.",
+      "calculation_details": "t = (12 + 38)/10 = 50/10 = 5.0 s (negative root t = -2.6 s discarded as unphysical).",
+      "intermediate_result": "t = 5.0 s"
+    }
+  ],
+  "final_answer": "(a) Maximum height above ground is 72.2 m. (b) Total time to strike the ground is 5.0 s.",
+  "units": "m, s",
+  "sanity_checks": [
+    "Time to apex: t_apex = u/g = 12/10 = 1.2 s.",
+    "Free fall from apex of 72.2 m: t_fall = sqrt(2 * 72.2 / 10) = sqrt(14.44) = 3.8 s.",
+    "Total flight time: t_total = t_apex + t_fall = 1.2 + 3.8 = 5.0 s, exactly matching the quadratic solution!"
+  ],
+  "alternate_methods": [
+    "Break trajectory into ascent to apex (1.2 s, height 72.2 m) followed by pure free fall from rest to ground (3.8 s)."
+  ],
+  "trap_alerts": [
+    "Do not assume initial velocity is zero! The bag was moving upward with the balloon at 12 m/s when released."
+  ],
+  "source_atom_id": null,
+  "provenance": [],
+  "risk_level": "HIGH",
+  "verification_status": "VERIFIED",
+  "verification_record_id": "dual-cvr-ex-kin-gravity-balloon-01",
+  "generator_identity": "physics-example-writer",
+  "generator_conversation_id": "gen-kin-ex-02",
+  "content_hash": "84f97763ea45f8362446f7d838664bdfabcce8becd97caad26974d7a3650d651"
+}

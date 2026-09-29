@@ -1,0 +1,48 @@
+{
+  "formula_id": "formula-kin-nth-second",
+  "chapter_id": "kinematics",
+  "title": "Displacement in the n-th Second",
+  "equation": "s_n = u + \\frac{a}{2} (2 n - 1)",
+  "equation_latex": "s_n = u + \\frac{a}{2} (2 n - 1)",
+  "variables": {
+    "s_n": "Displacement during the interval from t = (n-1) s to t = n s",
+    "u": "Initial velocity at t = 0",
+    "a": "Constant acceleration",
+    "n": "Integer second index (1, 2, 3, ...)"
+  },
+  "units": {
+    "s_n": "m",
+    "u": "m/s",
+    "a": "m/s^2",
+    "n": "dimensionless integer (representing 1 s unit)"
+  },
+  "dimensions": {
+    "s_n": "[L]",
+    "u": "[L][T]^-1",
+    "a": "[L][T]^-2",
+    "n": "[1]"
+  },
+  "assumptions": [
+    "Time interval is exactly 1 second: Delta t = 1 s",
+    "Constant acceleration a"
+  ],
+  "validity_conditions": [
+    "Applicable only when n represents consecutive 1-second intervals from t = 0"
+  ],
+  "derivation_reference": "derivation-formula-kin-nth-second",
+  "related_concepts": [
+    "concept-kin-accel-01"
+  ],
+  "common_misuse": [
+    "Apparent dimensional mismatch due to suppressed 1 s factor in time"
+  ],
+  "provenance": [],
+  "generation_metadata": {
+    "agent": "physics-formula-writer",
+    "version": "1.0",
+    "target_chapter": "kinematics"
+  },
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-formula-kin-nth-second",
+  "content_hash": "9e03e4c4de3aedf7c3cadf96eadd975471db2db36367a31ec4561a2faa1e9477"
+}

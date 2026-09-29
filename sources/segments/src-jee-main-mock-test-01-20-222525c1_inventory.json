@@ -1,0 +1,180 @@
+{
+  "source_id": "src-jee-main-mock-test-01-20-222525c1",
+  "file_name": "jee_main_mock_test-01-2024-jan.pdf",
+  "sha256": "222525c132a01fd0bbcee487f11f7adff9516d86bbb248067c81cd2a0b92c005",
+  "total_pages": 12,
+  "pages_with_text": 0,
+  "pages_with_images": 2,
+  "is_image_only": true,
+  "pages": [
+    {
+      "source_id": "src-jee-main-mock-test-01-20-222525c1",
+      "page_number": 1,
+      "page_hash": "a1d8bac05c6681bbc3fd3c610c3399ee5aa5be6cbd1edcc38bfe3da5e855a50c",
+      "has_text": false,
+      "approximate_text_length": 0,
+      "has_images": true,
+      "image_count": 1,
+      "dimensions_pt": [
+        432.0,
+        648.0
+      ],
+      "text_snippet": null
+    },
+    {
+      "source_id": "src-jee-main-mock-test-01-20-222525c1",
+      "page_number": 2,
+      "page_hash": "d4cd817111745635daed4cc5c5a667ca2e11368e27e2e8ff517d9b7e58846fd3",
+      "has_text": false,
+      "approximate_text_length": 0,
+      "has_images": false,
+      "image_count": 0,
+      "dimensions_pt": [
+        432.0,
+        648.0
+      ],
+      "text_snippet": null
+    },
+    {
+      "source_id": "src-jee-main-mock-test-01-20-222525c1",
+      "page_number": 3,
+      "page_hash": "09badf1f2bcef0924e62267cbd49ffd77cbdfc17982fad44d01719a9c5dd607a",
+      "has_text": false,
+      "approximate_text_length": 0,
+      "has_images": false,
+      "image_count": 0,
+      "dimensions_pt": [
+        432.0,
+        648.0
+      ],
+      "text_snippet": null
+    },
+    {
+      "source_id": "src-jee-main-mock-test-01-20-222525c1",
+      "page_number": 4,
+      "page_hash": "c85c81d8de5567aba4b5b87e1a50d0a09abb62f57b9ade5b3ec6cef8bb1cf6d9",
+      "has_text": false,
+      "approximate_text_length": 0,
+      "has_images": false,
+      "image_count": 0,
+      "dimensions_pt": [
+        432.0,
+        648.0
+      ],
+      "text_snippet": null
+    },
+    {
+      "source_id": "src-jee-main-mock-test-01-20-222525c1",
+      "page_number": 5,
+      "page_hash": "3ee22b443ec170815d575c5b4b1f22dcd43b88f032402ab5519ca45490a5a287",
+      "has_text": false,
+      "approximate_text_length": 0,
+      "has_images": false,
+      "image_count": 0,
+      "dimensions_pt": [
+        432.0,
+        648.0
+      ],
+      "text_snippet": null
+    },
+    {
+      "source_id": "src-jee-main-mock-test-01-20-222525c1",
+      "page_number": 6,
+      "page_hash": "1cfcfd03e828af550cab1b6287794adb694b375e51e08aed5bf2b85f3f482099",
+      "has_text": false,
+      "approximate_text_length": 0,
+      "has_images": false,
+      "image_count": 0,
+      "dimensions_pt": [
+        432.0,
+        648.0
+      ],
+      "text_snippet": null
+    },
+    {
+      "source_id": "src-jee-main-mock-test-01-20-222525c1",
+      "page_number": 7,
+      "page_hash": "cc46b847a93755bee6a7cac4c40a4b5ea4be1909385379f0a2f836f58cf2213d",
+      "has_text": false,
+      "approximate_text_length": 0,
+      "has_images": false,
+      "image_count": 0,
+      "dimensions_pt": [
+        432.0,
+        648.0
+      ],
+      "text_snippet": null
+    },
+    {
+      "source_id": "src-jee-main-mock-test-01-20-222525c1",
+      "page_number": 8,
+      "page_hash": "7d424aff2af11e55c0b6a36fdb52536f4659616ad568ebdefa8c78b52d980901",
+      "has_text": false,
+      "approximate_text_length": 0,
+      "has_images": false,
+      "image_count": 0,
+      "dimensions_pt": [
+        432.0,
+        648.0
+      ],
+      "text_snippet": null
+    },
+    {
+      "source_id": "src-jee-main-mock-test-01-20-222525c1",
+      "page_number": 9,
+      "page_hash": "41fce05b5dd8f5b599e0ce54eb40fa02a2b1c612388bdebe66a2ed2f6a0c0cd8",
+      "has_text": false,
+      "approximate_text_length": 0,
+      "has_images": false,
+      "image_count": 0,
+      "dimensions_pt": [
+        432.0,
+        648.0
+      ],
+      "text_snippet": null
+    },
+    {
+      "source_id": "src-jee-main-mock-test-01-20-222525c1",
+      "page_number": 10,
+      "page_hash": "d121a74e1c64b4b0e4c3ab7b0e4af60ef0eaf608976f544bff1be8d036f8891d",
+      "has_text": false,
+      "approximate_text_length": 0,
+      "has_images": false,
+      "image_count": 0,
+      "dimensions_pt": [
+        432.0,
+        648.0
+      ],
+      "text_snippet": null
+    },
+    {
+      "source_id": "src-jee-main-mock-test-01-20-222525c1",
+      "page_number": 11,
+      "page_hash": "75fdaeb921a1efa6a1b813bff3a7960964467d407d28149f292957545f5e8693",
+      "has_text": false,
+      "approximate_text_length": 0,
+      "has_images": false,
+      "image_count": 0,
+      "dimensions_pt": [
+        432.0,
+        648.0
+      ],
+      "text_snippet": null
+    },
+    {
+      "source_id": "src-jee-main-mock-test-01-20-222525c1",
+      "page_number": 12,
+      "page_hash": "99457fe4188331bc8e6761b0c7ca526473d1260cd24451add7e223aed7c5fd3c",
+      "has_text": false,
+      "approximate_text_length": 0,
+      "has_images": true,
+      "image_count": 1,
+      "dimensions_pt": [
+        432.0,
+        648.0
+      ],
+      "text_snippet": null
+    }
+  ],
+  "created_at": "2026-09-29T16:38:05.610711Z"
+}

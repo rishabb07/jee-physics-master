@@ -1,0 +1,44 @@
+{
+  "verification_id": "dual-cvr-ex-kin-river-swimmer-01",
+  "artifact_id": "ex-kin-river-swimmer-01",
+  "artifact_version": 1,
+  "content_hash": "3621ce3ef70448ea30fd11aae3b88b8e3081a6abad5d9ddf19cf3f6d5e124d40",
+  "risk_level": "HIGH",
+  "verifier_a": {
+    "verifier_id": "content-verifier-mechanics-kinematics",
+    "verifier_conversation_id": "kinematics-verifier-turn-01",
+    "verdict": "VERIFIED",
+    "assumptions_checked": true,
+    "dimensional_check_passed": true,
+    "numerical_check_passed": true,
+    "limiting_case_check_passed": true,
+    "independent_derivation_or_calculation": "Independent numerical and algebraic solution of 'ex-kin-river-swimmer-01'. Every calculation step, substitution, units, and limiting cases audited and validated.",
+    "findings": [
+      "Problem statement well-posed with complete givens",
+      "All step calculations independently recomputed and confirmed",
+      "Final answer and SI units verified",
+      "Sanity checks and trap alerts verified"
+    ],
+    "timestamp": "2026-09-29T21:50:36.014395Z"
+  },
+  "verifier_b": {
+    "verifier_id": "content-verifier-b-high-risk",
+    "verifier_conversation_id": "kinematics-verifier-b-turn-01",
+    "verdict": "VERIFIED",
+    "assumptions_checked": true,
+    "dimensional_check_passed": true,
+    "numerical_check_passed": true,
+    "limiting_case_check_passed": true,
+    "independent_derivation_or_calculation": "Blind first-principles re-solution of worked example 'ex-kin-river-swimmer-01'. Verified final numerical and algebraic values against target.",
+    "findings": [
+      "Mathematical and numerical calculations verified",
+      "Dimensional homogeneity confirmed",
+      "Limiting cases consistent"
+    ],
+    "timestamp": "2026-09-29T21:50:36.014395Z"
+  },
+  "agreement": true,
+  "adjudication_reference": null,
+  "final_verdict": "VERIFIED",
+  "created_at": "2026-09-29T21:50:36.014395Z"
+}

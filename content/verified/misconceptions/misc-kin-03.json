@@ -1,0 +1,23 @@
+{
+  "misconception_id": "misc-kin-03",
+  "chapter_id": "kinematics",
+  "concept_id": "concept-kin-pos-disp-01",
+  "title": "Average Speed Equals Magnitude of Average Velocity",
+  "category": "VECTOR_SCALAR_CONFUSION",
+  "statement": "Average speed is always equal to the magnitude of average velocity.",
+  "incorrect_statement": "Average speed is just the absolute value of average velocity.",
+  "erroneous_reasoning": "Students know that instantaneous speed is equal to the magnitude of instantaneous velocity (|v(t)| = ds/dt), and falsely generalize this equality to finite average intervals.",
+  "why_it_fails": "Average velocity depends on net displacement Delta r = r_f - r_i, whereas average speed depends on total path length s_total = int |v| dt. Since path length exceeds displacement whenever direction changes, average speed exceeds average velocity magnitude.",
+  "correct_physics_explanation": "By definition, v_avg = Delta r / Delta t and speed_avg = s_total / Delta t. By the triangle inequality, |Delta r| <= s_total. Therefore, |v_avg| <= speed_avg always. They are equal IF AND ONLY IF the motion is strictly unidirectional along a straight line. If an athlete runs one complete 400 m lap in 50 s, net displacement is 0, so average velocity is 0 m/s, whereas average speed is 400 m / 50 s = 8.0 m/s.",
+  "corrective_explanation": "Instantaneous speed is indeed the magnitude of instantaneous velocity, but average speed is total distance divided by time, which is strictly greater than the magnitude of average velocity whenever the trajectory bends or reverses.",
+  "refutation_counterexample": "A runner on a 400 m oval track returns to the starting line in 50 s: average velocity is 0 m/s, but average speed is 8 m/s.",
+  "supporting_evidence": "H.C. Verma Vol 1, Chapter 3: 'Average speed is greater than or equal to the magnitude of average velocity.'",
+  "diagnostic_check_latex": "|\\vec{v}_{\\text{avg}}| = \\frac{|\\Delta\\vec{r}|}{\\Delta t} \\le \\frac{s_{\\text{total}}}{\\Delta t} = v_{\\text{avg}}",
+  "diagnostic_symptom": "Student computes average speed by calculating (x_f - x_i)/Delta t and taking the absolute value.",
+  "connected_atom_ids": [
+    "kinematics-question-7b4e1d65"
+  ],
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-misc-kin-03",
+  "content_hash": "0ec8cf4288833fc23ebd40e0180dd0f2955f53347dd2d4fbfd9477c3e74839d2"
+}

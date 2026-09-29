@@ -64,17 +64,25 @@ def classify_file(path: Path) -> FileClassificationResult:
         try:
             reader = pypdf.PdfReader(str(path))
             if reader.is_encrypted:
-                return FileClassificationResult(
-                    file_format=FileFormat.PDF,
-                    mime_type="application/pdf",
-                    extension=extension,
-                    file_size_bytes=file_size,
-                    page_count=0,
-                    is_encrypted=True,
-                    file_created_at=created_at,
-                    file_modified_at=modified_at,
-                    error="PDF is password-protected or encrypted",
-                )
+                decrypted = False
+                try:
+                    dec_res = reader.decrypt("")
+                    if dec_res != 0:
+                        decrypted = True
+                except Exception:
+                    pass
+                if not decrypted:
+                    return FileClassificationResult(
+                        file_format=FileFormat.PDF,
+                        mime_type="application/pdf",
+                        extension=extension,
+                        file_size_bytes=file_size,
+                        page_count=0,
+                        is_encrypted=True,
+                        file_created_at=created_at,
+                        file_modified_at=modified_at,
+                        error="PDF is password-protected or encrypted",
+                    )
 
             page_count = len(reader.pages)
             if page_count == 0:

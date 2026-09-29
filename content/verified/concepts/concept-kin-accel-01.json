@@ -1,0 +1,41 @@
+{
+  "content_id": "concept-kin-accel-01",
+  "curriculum_id": "curr-kin-02",
+  "taxonomy_reference": {
+    "chapter_id": "kinematics",
+    "topic_id": "rectilinear-motion",
+    "subtopic_id": "acceleration-and-deceleration"
+  },
+  "title": "Acceleration and Deceleration",
+  "learning_objective": "Define average and instantaneous acceleration as rate of change of velocity, apply the chain rule $a = v(dv/dx)$, and distinguish deceleration (reduction in speed) from negative acceleration.",
+  "intuition": "Acceleration is not simply 'going fast'\u2014it is changing your velocity vector. If you hit the gas pedal, you accelerate forward. If you slam on the brakes, you accelerate backward (decelerating). If you turn a sharp corner at constant speedometer speed, your direction changes, meaning you are accelerating toward the inside of the turn.",
+  "formal_definition": "Instantaneous acceleration is defined as $\\vec{a}(t) = \\lim_{\\Delta t \\to 0} \\frac{\\Delta\\vec{v}}{\\Delta t} = \\frac{d\\vec{v}}{dt} = \\frac{d^2\\vec{r}}{dt^2}$. In one dimension, acceleration can be expressed either as an explicit function of time $a = \\frac{dv}{dt}$, or via the chain rule as a function of position $a = \\frac{dv}{dt} = \\frac{dv}{dx}\\frac{dx}{dt} = v\\frac{dv}{dx}$. Deceleration refers strictly to the condition where speed decreases, which occurs if and only if $\\vec{v} \\cdot \\vec{a} < 0$.",
+  "explanation": "Acceleration is the second time derivative of position and dictates the dynamical response of particles under Newton's laws.\n\n### 1. Vector Nature of Acceleration\nBecause $\\vec{v}$ has both magnitude (speed) and direction, acceleration $\\vec{a} = d\\vec{v}/dt$ arises whenever:\n1. Speed changes with time ($d|\\vec{v}|/dt \\ne 0$, tangential acceleration).\n2. Direction of motion changes with time (centripetal/normal acceleration).\n3. Both speed and direction change simultaneously.\n\n### 2. Sign Conventions and Deceleration Trap\nIn 1D rectilinear motion along the $x$-axis:\n- A particle moving in the negative direction ($v < 0$) with negative acceleration ($a < 0$) has $\\vec{v} \\cdot \\vec{a} = v a > 0$; its speed $|v|$ is increasing (it is speeding up in the negative direction).\n- Deceleration (slowing down) occurs whenever the acceleration vector opposes the velocity vector ($\\vec{v} \\cdot \\vec{a} < 0$), regardless of whether $a$ is algebraically positive or negative.",
+  "assumptions": [
+    "Velocity function $\\vec{v}(t)$ is differentiable.",
+    "Inertial reference frame or accounting for pseudo-forces."
+  ],
+  "boundary_conditions": [
+    "A body instantaneously at rest ($v = 0$) can possess non-zero acceleration (e.g. projectile at apex).",
+    "Constant acceleration equations apply only when $\\vec{a}$ is independent of time and position."
+  ],
+  "related_formula_ids": [
+    "formula-kin-diff-accel"
+  ],
+  "prerequisite_refs": [
+    "concept-kin-vel-speed-01",
+    "differential-calculus-foundations"
+  ],
+  "source_references": [
+    "Concepts of Physics Vol 1 by H.C. Verma (Chapter 3, pp. 47-49)",
+    "Fundamentals of Physics by Halliday, Resnick & Walker (Chapter 2, pp. 31-35)"
+  ],
+  "generation_metadata": {
+    "agent": "physics-concept-writer",
+    "version": "1.0",
+    "target_chapter": "kinematics"
+  },
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-concept-kin-accel-01",
+  "content_hash": "afd465746157540ab746a252086bdf005be6f6ca1e817f0d7137beafe91af0d7"
+}

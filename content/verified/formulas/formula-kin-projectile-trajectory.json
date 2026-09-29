@@ -1,0 +1,54 @@
+{
+  "formula_id": "formula-kin-projectile-trajectory",
+  "chapter_id": "kinematics",
+  "title": "Trajectory Equation of Projectile Motion",
+  "equation": "y = x \\tan\\theta - \\frac{g x^2}{2 u^2 \\cos^2\\theta} = x \\tan\\theta \\left(1 - \\frac{x}{R}\\right)",
+  "equation_latex": "y = x \\tan\\theta - \\frac{g x^2}{2 u^2 \\cos^2\\theta} = x \\tan\\theta \\left(1 - \\frac{x}{R}\\right)",
+  "variables": {
+    "y": "Vertical displacement coordinate",
+    "x": "Horizontal displacement coordinate",
+    "\\theta": "Initial launch angle with horizontal",
+    "u": "Initial launch speed",
+    "R": "Horizontal range",
+    "g": "Gravitational acceleration"
+  },
+  "units": {
+    "y": "m",
+    "x": "m",
+    "\\theta": "rad or deg",
+    "u": "m/s",
+    "R": "m",
+    "g": "m/s^2"
+  },
+  "dimensions": {
+    "y": "[L]",
+    "x": "[L]",
+    "\\theta": "[1]",
+    "u": "[L][T]^-1",
+    "R": "[L]",
+    "g": "[L][T]^-2"
+  },
+  "assumptions": [
+    "Cartesian coordinates with origin at launch point",
+    "Uniform downward gravity -g j"
+  ],
+  "validity_conditions": [
+    "Universal relation describing spatial locus y(x) independent of time t"
+  ],
+  "derivation_reference": "derivation-formula-kin-projectile-trajectory",
+  "related_concepts": [
+    "concept-kin-projectile-01"
+  ],
+  "common_misuse": [
+    "Using sec^2(theta) = 1 + tan^2(theta) incorrectly when solving for launch angle"
+  ],
+  "provenance": [],
+  "generation_metadata": {
+    "agent": "physics-formula-writer",
+    "version": "1.0",
+    "target_chapter": "kinematics"
+  },
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-formula-kin-projectile-trajectory",
+  "content_hash": "a6baa3dd68a589d668cc493179d66529c9108cbbc3520505c29be51e5c5f99da"
+}

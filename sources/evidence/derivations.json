@@ -1,0 +1,257 @@
+[
+  {
+    "derivation_id": "deriv-evid-parallel-axis-hcv1",
+    "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+    "page_range": [
+      185,
+      187
+    ],
+    "title": "Proof of Parallel Axis Theorem for Arbitrary Rigid Body",
+    "starting_assumptions": [
+      "Rigid body of total mass M = sum m_i",
+      "Origin chosen at Center of Mass (CM)",
+      "Axis through CM is along z-axis",
+      "Parallel axis is shifted along x-axis by perpendicular distance d (x' = x + d, y' = y)"
+    ],
+    "starting_equations": [
+      "I_{\\text{cm}} = \\sum m_i (x_i^2 + y_i^2)",
+      "I = \\sum m_i ((x_i + d)^2 + y_i^2)"
+    ],
+    "intermediate_steps": [
+      "Expand the squared distance: (x_i + d)^2 + y_i^2 = x_i^2 + 2 x_i d + d^2 + y_i^2",
+      "Distribute summation: I = sum m_i (x_i^2 + y_i^2) + 2 d sum m_i x_i + d^2 sum m_i",
+      "Apply center of mass definition: since origin is CM, sum m_i x_i = M x_cm = 0",
+      "Substitute sum m_i = M and I_cm = sum m_i (x_i^2 + y_i^2)"
+    ],
+    "final_result": "I = I_{\\text{cm}} + M d^2",
+    "supporting_figures": [
+      "fig-evid-parallel-axis-hcv1"
+    ],
+    "taxonomy_node_ids": [
+      "rotational-motion",
+      "moment-of-inertia"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "200d4762ac040263a3f476034d08f6dbf6f93ffbf9debf016dea1079f2a2adea"
+  },
+  {
+    "derivation_id": "deriv-evid-adiabatic-ideal-gas-halliday",
+    "source_id": "src-fundamentals-of-physics--390f40d1",
+    "page_range": [
+      560,
+      563
+    ],
+    "title": "Reversible Adiabatic Expansion of Ideal Gas",
+    "starting_assumptions": [
+      "Ideal gas equation of state: P V = n R T",
+      "Zero heat exchange: dQ = 0 (adiabatic condition)",
+      "Quasistatic reversible process",
+      "Constant specific heats: C_p - C_v = R, gamma = C_p / C_v"
+    ],
+    "starting_equations": [
+      "dQ = dE_{\\text{int}} + dW = 0",
+      "dE_{\\text{int}} = n C_v dT",
+      "dW = P dV"
+    ],
+    "intermediate_steps": [
+      "Equate energy change to boundary work: n C_v dT = -P dV",
+      "Substitute ideal gas pressure P = n R T / V: n C_v dT = - (n R T / V) dV",
+      "Separate variables: dT / T + (R / C_v) (dV / V) = 0",
+      "Use R / C_v = (C_p - C_v) / C_v = gamma - 1: dT / T + (gamma - 1) dV / V = 0",
+      "Integrate both sides: ln T + (gamma - 1) ln V = ln(constant)"
+    ],
+    "final_result": "T V^{\\gamma - 1} = \\text{constant}\\quad \\text{and}\\quad P V^\\gamma = \\text{constant}",
+    "supporting_figures": [
+      "fig-evid-pv-adiabatic-halliday"
+    ],
+    "taxonomy_node_ids": [
+      "thermodynamics",
+      "special-thermodynamic-processes"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e383f1d7512c1f34d792a4ece191d6b703c751ccd28721052777ba3084e3859e"
+  },
+  {
+    "derivation_id": "deriv-evid-snells-law-univ",
+    "source_id": "src-university-physics-with--0bc11b67",
+    "page_range": [
+      1105,
+      1107
+    ],
+    "title": "Derivation of Snell's Law of Refraction from Fermat's Principle",
+    "starting_assumptions": [
+      "Light travels along the path of extremal optical path length / least time",
+      "Speed of light in medium 1 is v_1 = c/n_1, in medium 2 is v_2 = c/n_2",
+      "Planar interface at y = 0"
+    ],
+    "starting_equations": [
+      "t(x) = \\frac{\\sqrt{a^2 + x^2}}{v_1} + \\frac{\\sqrt{b^2 + (d - x)^2}}{v_2}"
+    ],
+    "intermediate_steps": [
+      "Differentiate total travel time with respect to interface coordinate x: dt/dx = 0",
+      "dt/dx = (x / (v_1 sqrt(a^2 + x^2))) - ((d - x) / (v_2 sqrt(b^2 + (d - x)^2))) = 0",
+      "Identify geometric sines: sin theta_1 = x / sqrt(a^2 + x^2) and sin theta_2 = (d - x) / sqrt(b^2 + (d - x)^2)",
+      "Substitute sines: (sin theta_1) / v_1 = (sin theta_2) / v_2",
+      "Multiply by c: n_1 sin theta_1 = n_2 sin theta_2"
+    ],
+    "final_result": "n_1 \\sin\\theta_1 = n_2 \\sin\\theta_2",
+    "supporting_figures": [
+      "fig-evid-fermat-snell-univ"
+    ],
+    "taxonomy_node_ids": [
+      "ray-optics",
+      "refraction-and-tir"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "efd8452b749f9254a7b7c6f2b2440f469a5513eebf26b83e31c85f3ce7fb0b83"
+  },
+  {
+    "derivation_id": "deriv-evid-drift-velocity-hcv2",
+    "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+    "page_range": [
+      188,
+      190
+    ],
+    "title": "Derivation of Electric Current in Terms of Drift Velocity",
+    "starting_assumptions": [
+      "Conductor with free carrier concentration n per unit volume",
+      "Each carrier has charge magnitude e",
+      "Uniform electric field drives steady drift velocity v_d",
+      "Cross-sectional area A is uniform"
+    ],
+    "starting_equations": [
+      "dq = n e dV_{\\text{volume}}",
+      "dV_{\\text{volume}} = A dx = A (v_d dt)"
+    ],
+    "intermediate_steps": [
+      "In time interval dt, all carriers within distance dx = v_d dt cross the cross-section A",
+      "Total charge flowing across area A in dt is dq = n e (A v_d dt)",
+      "Compute current as time rate of charge flow: I = dq / dt = n e A v_d",
+      "Compute current density: J = I / A = n e v_d"
+    ],
+    "final_result": "I = n e A v_d\\quad \\text{and}\\quad \\vec{J} = \\sigma \\vec{E}",
+    "supporting_figures": [
+      "fig-evid-drift-cylinder-hcv2"
+    ],
+    "taxonomy_node_ids": [
+      "current-electricity",
+      "electric-current-and-drift"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "2efb11404d6af6bbc7555ac2ee2cdf196793362578a18aebddb34f6b71ea99ab"
+  },
+  {
+    "derivation_id": "deriv-evid-radioactive-decay-hcv2",
+    "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+    "page_range": [
+      429,
+      431
+    ],
+    "title": "Mathematical Derivation of the Radioactive Disintegration Law",
+    "starting_assumptions": [
+      "Rate of radioactive disintegration is directly proportional to number of active nuclei",
+      "Statistical process in a large macroscopic ensemble",
+      "Decay constant lambda is independent of temperature, pressure, and chemical state"
+    ],
+    "starting_equations": [
+      "-\\frac{dN}{dt} = \\lambda N"
+    ],
+    "intermediate_steps": [
+      "Separate variables: dN / N = -lambda dt",
+      "Integrate both sides from t = 0 (where N = N_0) to time t: integral_{N_0}^N (dN / N) = -lambda integral_0^t dt",
+      "Evaluate definite integrals: ln(N / N_0) = -lambda t",
+      "Exponentiate: N(t) = N_0 e^(-lambda t)",
+      "For half-life T_1/2: N_0 / 2 = N_0 e^(-lambda T_1/2) => lambda T_1/2 = ln 2 => T_1/2 = (ln 2) / lambda"
+    ],
+    "final_result": "N(t) = N_0 e^{-\\lambda t},\\quad T_{1/2} = \\frac{\\ln 2}{\\lambda}",
+    "supporting_figures": [],
+    "taxonomy_node_ids": [
+      "nuclear-physics",
+      "radioactivity"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "bfa8f2bbc25d87cfa8928cab33df1836e825e5d2ac8af80503d08d8fc7749951"
+  },
+  {
+    "derivation_id": "deriv-hcv1-projectile-equation",
+    "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+    "page_range": [
+      45,
+      46
+    ],
+    "title": "Trajectory Equation of a Projectile in Uniform Gravity",
+    "starting_assumptions": [
+      "Flat horizontal ground",
+      "Constant downward gravitational acceleration g",
+      "Zero air drag"
+    ],
+    "starting_equations": [
+      "x(t) = (u \\cos\\theta) t",
+      "y(t) = (u \\sin\\theta) t - \\frac{1}{2} g t^2"
+    ],
+    "intermediate_steps": [
+      "Express time t in terms of x: t = x / (u cos theta)",
+      "Substitute t into vertical position equation: y = (u sin theta)(x / (u cos theta)) - 1/2 g (x / (u cos theta))^2",
+      "Simplify terms: y = x tan theta - g x^2 / (2 u^2 cos^2 theta)"
+    ],
+    "final_result": "y = x \\tan\\theta - \\frac{g x^2}{2 u^2 \\cos^2\\theta} = x \\tan\\theta \\left(1 - \\frac{x}{R}\\right)",
+    "supporting_figures": [
+      "fig-evid-projectile-trajectory"
+    ],
+    "taxonomy_node_ids": [
+      "kinematics",
+      "projectile-motion"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "cb6c69481150435075b3665e83b774ec8166ed98bd85f2329eebf156f57dade1"
+  },
+  {
+    "derivation_id": "deriv-hcv1-bernoulli-equation",
+    "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+    "page_range": [
+      272,
+      274
+    ],
+    "title": "Bernoulli's Equation from Work-Energy Principle",
+    "starting_assumptions": [
+      "Incompressible fluid (constant density rho)",
+      "Non-viscous streamline flow",
+      "Steady flow"
+    ],
+    "starting_equations": [
+      "W_{\\text{pressure}} = (P_1 - P_2) \\Delta V",
+      "\\Delta K = \\frac{1}{2} \\rho \\Delta V (v_2^2 - v_1^2)",
+      "\\Delta U = \\rho \\Delta V g (y_2 - y_1)"
+    ],
+    "intermediate_steps": [
+      "Equate net pressure work to total mechanical energy change: W_net = Delta K + Delta U",
+      "(P_1 - P_2) Delta V = 1/2 rho Delta V (v_2^2 - v_1^2) + rho Delta V g (y_2 - y_1)",
+      "Divide throughout by Delta V: P_1 - P_2 = 1/2 rho v_2^2 - 1/2 rho v_1^2 + rho g y_2 - rho g y_1",
+      "Rearrange initial and final terms: P_1 + 1/2 rho v_1^2 + rho g y_1 = P_2 + 1/2 rho v_2^2 + rho g y_2"
+    ],
+    "final_result": "P + \\frac{1}{2} \\rho v^2 + \\rho g y = \\text{constant}",
+    "supporting_figures": [
+      "fig-evid-bernoulli-tube"
+    ],
+    "taxonomy_node_ids": [
+      "fluid-mechanics",
+      "fluid-dynamics"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "9ec682efb5946c840524400e5cf6290402029982decdea15d6dbbe7aba88536f"
+  }
+]

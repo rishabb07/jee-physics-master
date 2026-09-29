@@ -1,0 +1,170 @@
+{
+  "audit_id": "adversarial-truth-audit-phase-11-9",
+  "total_fixtures": 8,
+  "fixtures_passed": 8,
+  "fixtures_failed": 0,
+  "gate_integrity_passed": true,
+  "diagnostic_summary": "Adversarial Truth Gate Audit: 8/8 fixtures passed. 100% of synthetic summaries, altered formulas, and out-of-bounds citations rejected.",
+  "fixture_results": [
+    {
+      "fixture_id": "fix-01-genuine-source-text",
+      "scenario_name": "GENUINE_SOURCE_TEXT",
+      "description": "Authentic verbatim excerpt from HCV1 Chapter 3 on particle kinematics.",
+      "input_payload": {
+        "evidence_id": "evid-test-genuine-text-01",
+        "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+        "page_start": 35,
+        "page_end": 36,
+        "section_or_chapter": "3. Rest and Motion : Kinematics",
+        "evidence_type": "EXPOSITION",
+        "content_text": "When a particle moves along a straight line with constant acceleration, the velocity-time graph is a straight line."
+      },
+      "expected_classification": "SOURCE_EXACT",
+      "actual_classification": "SOURCE_EXACT",
+      "expected_gate_decision": "ACCEPT_AS_SOURCE_EXACT",
+      "actual_gate_decision": "ACCEPT_AS_SOURCE_EXACT",
+      "passed": true,
+      "diagnostic_reason": "Verbatim extraction verified against authoritative source pages."
+    },
+    {
+      "fixture_id": "fix-02-generated-summary",
+      "scenario_name": "GENERATED_SUMMARY",
+      "description": "Synthetic summary text masquerading as source evidence.",
+      "input_payload": {
+        "evidence_id": "evid-test-synthetic-summary-02",
+        "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+        "page_start": 35,
+        "page_end": 36,
+        "section_or_chapter": "3. Rest and Motion",
+        "evidence_type": "EXPOSITION",
+        "content_text": "This section covers the fundamental principles of 1D kinematics and outlines key acceleration formulas.",
+        "is_synthetic_summary": true
+      },
+      "expected_classification": "INDEX_METADATA",
+      "actual_classification": "INDEX_METADATA",
+      "expected_gate_decision": "REJECT_FROM_SOURCE_EXACT",
+      "actual_gate_decision": "REJECT_FROM_SOURCE_EXACT",
+      "passed": true,
+      "diagnostic_reason": "Content contains synthetic summary or descriptive meta-text, reclassified to INDEX_METADATA."
+    },
+    {
+      "fixture_id": "fix-03-incorrect-citation",
+      "scenario_name": "INCORRECT_CITATION",
+      "description": "Candidate record citing a non-existent, fabricated source textbook ID.",
+      "input_payload": {
+        "evidence_id": "evid-test-fake-citation-03",
+        "source_id": "src-hallucinated-physics-textbook-xyz",
+        "page_start": 42,
+        "page_end": 42,
+        "section_or_chapter": "Fabricated Chapter",
+        "evidence_type": "EXPOSITION",
+        "content_text": "Energy is always conserved in all reference frames."
+      },
+      "expected_classification": "REJECTED_INVALID_PROVENANCE",
+      "actual_classification": "REJECTED_INVALID_PROVENANCE",
+      "expected_gate_decision": "REJECT_FROM_SOURCE_EXACT",
+      "actual_gate_decision": "REJECT_FROM_SOURCE_EXACT",
+      "passed": true,
+      "diagnostic_reason": "Source ID 'src-hallucinated-physics-textbook-xyz' is not in the authoritative source registry."
+    },
+    {
+      "fixture_id": "fix-04-wrong-page",
+      "scenario_name": "WRONG_PAGE",
+      "description": "Candidate record with invalid/inverted page bounds (start > end or exceeds total pages).",
+      "input_payload": {
+        "evidence_id": "evid-test-invalid-bounds-04",
+        "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+        "page_start": 800,
+        "page_end": 850,
+        "section_or_chapter": "Out of Bounds Section",
+        "evidence_type": "EXPOSITION",
+        "content_text": "Out of bounds text snippet."
+      },
+      "expected_classification": "REJECTED_INVALID_PAGE_BOUNDS",
+      "actual_classification": "REJECTED_INVALID_PAGE_BOUNDS",
+      "expected_gate_decision": "REJECT_FROM_SOURCE_EXACT",
+      "actual_gate_decision": "REJECT_FROM_SOURCE_EXACT",
+      "passed": true,
+      "diagnostic_reason": "Invalid page bounds: start=800, end=850, source max_pages=471."
+    },
+    {
+      "fixture_id": "fix-05-synthetic-formula",
+      "scenario_name": "SYNTHETIC_FORMULA",
+      "description": "Model-invented synthetic formula with no basis in the source document.",
+      "input_payload": {
+        "formula_id": "form-test-synthetic-05",
+        "source_id": "src-fundamentals-of-physics--390f40d1",
+        "page": 102,
+        "evidence_type": "FORMULA",
+        "normalized_latex": "F = \\frac{1}{2} m a^2 + k x^3",
+        "is_synthetic_formula": true
+      },
+      "expected_classification": "REJECTED_SYNTHETIC_FORMULA",
+      "actual_classification": "REJECTED_SYNTHETIC_FORMULA",
+      "expected_gate_decision": "REJECT_FROM_SOURCE_EXACT",
+      "actual_gate_decision": "REJECT_FROM_SOURCE_EXACT",
+      "passed": true,
+      "diagnostic_reason": "Formula 'F = \\frac{1}{2} m a^2 + k x^3' is a model-invented formula with no source occurrence."
+    },
+    {
+      "fixture_id": "fix-06-altered-formula",
+      "scenario_name": "ALTERED_FORMULA",
+      "description": "Formula with altered coefficient/sign not matching authoritative source physics.",
+      "input_payload": {
+        "formula_id": "form-test-altered-06",
+        "source_id": "src-fundamentals-of-physics--390f40d1",
+        "page": 280,
+        "evidence_type": "FORMULA",
+        "normalized_latex": "\\vec{\\tau} = 2 (\\vec{r} \\times \\vec{F})",
+        "is_mutated_formula": true
+      },
+      "expected_classification": "REJECTED_ALTERED_FORMULA",
+      "actual_classification": "REJECTED_ALTERED_FORMULA",
+      "expected_gate_decision": "REJECT_FROM_SOURCE_EXACT",
+      "actual_gate_decision": "REJECT_FROM_SOURCE_EXACT",
+      "passed": true,
+      "diagnostic_reason": "Formula '\\vec{\\tau} = 2 (\\vec{r} \\times \\vec{F})' has altered coefficients/signs not matching source text."
+    },
+    {
+      "fixture_id": "fix-07-generated-taxonomy-mapping",
+      "scenario_name": "GENERATED_TAXONOMY_MAPPING",
+      "description": "Project-derived taxonomy mapping classification correctly segregated.",
+      "input_payload": {
+        "evidence_id": "evid-test-tax-mapping-07",
+        "source_id": "src-university-physics-with--0bc11b67",
+        "page_start": 120,
+        "page_end": 125,
+        "section_or_chapter": "Newton's Laws",
+        "is_taxonomy_mapping_only": true,
+        "truth_classification": "PROJECT_DERIVED",
+        "content_text": "Mapping: Section 4.2 -> laws-of-motion -> newtons-second-law (DIRECT)"
+      },
+      "expected_classification": "PROJECT_DERIVED",
+      "actual_classification": "PROJECT_DERIVED",
+      "expected_gate_decision": "ACCEPT_AS_PROJECT_DERIVED",
+      "actual_gate_decision": "ACCEPT_AS_PROJECT_DERIVED",
+      "passed": true,
+      "diagnostic_reason": "Derived curriculum/taxonomy association correctly segregated as PROJECT_DERIVED."
+    },
+    {
+      "fixture_id": "fix-08-genuine-formula",
+      "scenario_name": "GENUINE_FORMULA",
+      "description": "Authentic verbatim formula extracted from Halliday & Resnick.",
+      "input_payload": {
+        "formula_id": "form-test-genuine-08",
+        "source_id": "src-fundamentals-of-physics--390f40d1",
+        "page": 275,
+        "evidence_type": "FORMULA",
+        "normalized_latex": "I = \\frac{1}{2} M R^2",
+        "is_synthetic_formula": false,
+        "is_mutated_formula": false
+      },
+      "expected_classification": "SOURCE_EXACT",
+      "actual_classification": "SOURCE_EXACT",
+      "expected_gate_decision": "ACCEPT_AS_SOURCE_EXACT",
+      "actual_gate_decision": "ACCEPT_AS_SOURCE_EXACT",
+      "passed": true,
+      "diagnostic_reason": "Verbatim extraction verified against authoritative source pages."
+    }
+  ]
+}

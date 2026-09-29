@@ -1,0 +1,52 @@
+{
+  "derivation_id": "derivation-formula-kin-projectile-trajectory",
+  "target_formula_id": "formula-kin-projectile-trajectory",
+  "target_equation": "y = x \\tan\\theta - \\frac{g x^2}{2 u^2 \\cos^2\\theta} = x \\tan\\theta \\left(1 - \\frac{x}{R}\\right)",
+  "starting_principles": [
+    "Parametric equations of projectile motion x(t) = (u cos theta) t and y(t) = (u sin theta) t - 0.5 g t^2"
+  ],
+  "assumptions": [
+    "Uniform downward gravity g",
+    "Flat horizontal ground",
+    "No aerodynamic resistance"
+  ],
+  "ordered_steps": [
+    {
+      "step_number": 1,
+      "action_description": "Express time t as a function of horizontal position x from uniform horizontal motion",
+      "equation_latex": "x = (u \\cos\\theta) t \\implies t = \\frac{x}{u \\cos\\theta}",
+      "justification": "Constant horizontal velocity component u_x = u cos(theta)."
+    },
+    {
+      "step_number": 2,
+      "action_description": "Substitute t into the vertical displacement equation",
+      "equation_latex": "y = (u \\sin\\theta) \\left( \\frac{x}{u \\cos\\theta} \\right) - \\frac{1}{2} g \\left( \\frac{x}{u \\cos\\theta} \\right)^2",
+      "justification": "Elimination of parameter t to find spatial locus y(x)."
+    },
+    {
+      "step_number": 3,
+      "action_description": "Simplify trigonometric terms using tan(theta) = sin(theta)/cos(theta)",
+      "equation_latex": "y = x \\tan\\theta - \\frac{g x^2}{2 u^2 \\cos^2\\theta}",
+      "justification": "Standard form of projectile trajectory parabola."
+    },
+    {
+      "step_number": 4,
+      "action_description": "Factor out x tan(theta) to express in terms of horizontal range R = u^2 sin(2 theta)/g",
+      "equation_latex": "y = x \\tan\\theta \\left( 1 - \\frac{g x}{2 u^2 \\cos^2\\theta \\tan\\theta} \\right) = x \\tan\\theta \\left( 1 - \\frac{g x}{2 u^2 \\sin\\theta \\cos\\theta} \\right) = x \\tan\\theta \\left( 1 - \\frac{x}{R} \\right)",
+      "justification": "Using double-angle identity sin(2 theta) = 2 sin(theta) cos(theta)."
+    }
+  ],
+  "final_equation": "y = x \\tan\\theta - \\frac{g x^2}{2 u^2 \\cos^2\\theta} = x \\tan\\theta \\left(1 - \\frac{x}{R}\\right)",
+  "applicability_conditions": [
+    "Valid for projectile launched from origin (0, 0)"
+  ],
+  "source_references": [
+    "Concepts of Physics Vol 1 by H.C. Verma (Chapter 3, pp. 54-55)"
+  ],
+  "risk_level": "HIGH",
+  "verification_status": "VERIFIED",
+  "verification_record_id": "dual-cvr-derivation-formula-kin-projectile-trajectory",
+  "generator_identity": "physics-derivation-writer",
+  "generator_conversation_id": "gen-kin-deriv-05",
+  "content_hash": "ed983618455485094151f13e6556aeb46f1470e4de1e98ec438d75a67649cd6a"
+}

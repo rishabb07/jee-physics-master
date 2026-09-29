@@ -1,0 +1,49 @@
+{
+  "formula_id": "formula-kin-const-accel-v",
+  "chapter_id": "kinematics",
+  "title": "First Kinematic Equation (Velocity-Time Relation)",
+  "equation": "v = u + a t",
+  "equation_latex": "v = u + a t",
+  "variables": {
+    "v": "Final velocity at time t",
+    "u": "Initial velocity at time t = 0",
+    "a": "Constant uniform acceleration",
+    "t": "Elapsed time duration"
+  },
+  "units": {
+    "v": "m/s",
+    "u": "m/s",
+    "a": "m/s^2",
+    "t": "s"
+  },
+  "dimensions": {
+    "v": "[L][T]^-1",
+    "u": "[L][T]^-1",
+    "a": "[L][T]^-2",
+    "t": "[T]"
+  },
+  "assumptions": [
+    "Acceleration a is strictly constant in both magnitude and direction",
+    "1D rectilinear motion"
+  ],
+  "validity_conditions": [
+    "Applies only when acceleration does not vary with time, velocity, or position"
+  ],
+  "derivation_reference": "derivation-formula-kin-const-accel-v",
+  "related_concepts": [
+    "concept-kin-accel-01"
+  ],
+  "common_misuse": [
+    "Using equation when acceleration varies with time a(t)",
+    "Mixing vector signs along chosen axis"
+  ],
+  "provenance": [],
+  "generation_metadata": {
+    "agent": "physics-formula-writer",
+    "version": "1.0",
+    "target_chapter": "kinematics"
+  },
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-formula-kin-const-accel-v",
+  "content_hash": "33731dff939e17f7ea554629071ac6c3a5801a7bfe9e9ebed1b21ff6b42d3df3"
+}

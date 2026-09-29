@@ -1,0 +1,51 @@
+{
+  "derivation_id": "derivation-formula-kin-nth-second",
+  "target_formula_id": "formula-kin-nth-second",
+  "target_equation": "s_n = u + \\frac{a}{2} (2 n - 1)",
+  "starting_principles": [
+    "Second kinematic equation s(t) = ut + 0.5 a t^2"
+  ],
+  "assumptions": [
+    "n is a positive integer second",
+    "Constant acceleration a"
+  ],
+  "ordered_steps": [
+    {
+      "step_number": 1,
+      "action_description": "Define displacement in the n-th second as difference between total displacement at t = n and t = n-1",
+      "equation_latex": "s_n = s(n) - s(n - 1)",
+      "justification": "Physical definition of displacement over the interval [n-1, n]."
+    },
+    {
+      "step_number": 2,
+      "action_description": "Substitute second kinematic equation for t = n and t = n - 1",
+      "equation_latex": "s(n) = u n + \\frac{1}{2} a n^2, \\quad s(n - 1) = u (n - 1) + \\frac{1}{2} a (n - 1)^2",
+      "justification": "Evaluation of position function at specific integer endpoints."
+    },
+    {
+      "step_number": 3,
+      "action_description": "Subtract the two displacement expressions and expand algebraically",
+      "equation_latex": "s_n = \\left( u n + \\frac{1}{2} a n^2 \\right) - \\left( u n - u + \\frac{1}{2} a (n^2 - 2 n + 1) \\right)",
+      "justification": "Binomial expansion (n - 1)^2 = n^2 - 2n + 1."
+    },
+    {
+      "step_number": 4,
+      "action_description": "Simplify the algebraic terms",
+      "equation_latex": "s_n = u + \\frac{1}{2} a \\left( n^2 - n^2 + 2 n - 1 \\right) = u + \\frac{a}{2} (2 n - 1)",
+      "justification": "Canceling quadratic n^2 terms."
+    }
+  ],
+  "final_equation": "s_n = u + \\frac{a}{2} (2 n - 1)",
+  "applicability_conditions": [
+    "Assumes duration of interval is strictly Delta t = 1 s"
+  ],
+  "source_references": [
+    "Concepts of Physics Vol 1 by H.C. Verma (Chapter 3, p. 49)"
+  ],
+  "risk_level": "HIGH",
+  "verification_status": "VERIFIED",
+  "verification_record_id": "dual-cvr-derivation-formula-kin-nth-second",
+  "generator_identity": "physics-derivation-writer",
+  "generator_conversation_id": "gen-kin-deriv-04",
+  "content_hash": "a7a91694178670a31824df120ac454ea8a7c1644debcc8955c461571a3d030b8"
+}

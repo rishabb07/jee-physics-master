@@ -1,0 +1,395 @@
+{
+  "total_mappings_audited": 35,
+  "quality_breakdown": {
+    "DIRECT": 28,
+    "RELATED": 0,
+    "BROAD_CHAPTER_ONLY": 6,
+    "UNCERTAIN": 1
+  },
+  "direct_percentage": 80.0,
+  "traces": [
+    {
+      "evidence_id": "exp-hcv1-ch15-p01",
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "section": "Chapter 15: Wave Motion and Waves on a String",
+      "taxonomy_node_ids": [
+        "waves",
+        "wave-propagation"
+      ],
+      "mapping_quality": "DIRECT",
+      "verified": true
+    },
+    {
+      "evidence_id": "evid-feynman-lec16-visual",
+      "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+      "section": "Lecture 16: Relativistic Energy and Momentum",
+      "taxonomy_node_ids": [
+        "dual-nature-of-matter-and-radiation"
+      ],
+      "mapping_quality": "BROAD_CHAPTER_ONLY",
+      "verified": true
+    },
+    {
+      "evidence_id": "exp-hr-ch16-p12",
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "section": "Chapter 16: Waves-I",
+      "taxonomy_node_ids": [
+        "waves",
+        "wave-propagation"
+      ],
+      "mapping_quality": "DIRECT",
+      "verified": true
+    },
+    {
+      "evidence_id": "exp-hr-ch08-p05",
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "section": "8-8 CONSERVATION OF ENERGY",
+      "taxonomy_node_ids": [
+        "work-energy-power",
+        "conservation-of-mechanical-energy"
+      ],
+      "mapping_quality": "DIRECT",
+      "verified": true
+    },
+    {
+      "evidence_id": "exp-hcv2-ch47-p06",
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "section": "Chapter 47: Special Theory of Relativity",
+      "taxonomy_node_ids": [
+        "dual-nature-of-matter-and-radiation"
+      ],
+      "mapping_quality": "BROAD_CHAPTER_ONLY",
+      "verified": true
+    },
+    {
+      "evidence_id": "exp-hcv2-ch25-p03",
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "section": "Chapter 25: Calorimetry",
+      "taxonomy_node_ids": [
+        "thermal-physics",
+        "specific-heat-and-calorimetry"
+      ],
+      "mapping_quality": "DIRECT",
+      "verified": true
+    },
+    {
+      "evidence_id": "exp-hcv1-ch13-p02",
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "section": "Chapter 13: Fluid Mechanics",
+      "taxonomy_node_ids": [
+        "fluid-mechanics",
+        "fluid-statics",
+        "fluid-dynamics"
+      ],
+      "mapping_quality": "DIRECT",
+      "verified": true
+    },
+    {
+      "evidence_id": "exp-fey-lec39-core",
+      "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+      "section": "Lecture 39: Lecture 39",
+      "taxonomy_node_ids": [
+        "laws-of-motion"
+      ],
+      "mapping_quality": "BROAD_CHAPTER_ONLY",
+      "verified": true
+    },
+    {
+      "evidence_id": "exp-hcv1-ch10-p07",
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "section": "Chapter 10: Rotational Mechanics",
+      "taxonomy_node_ids": [
+        "rotational-motion",
+        "moment-of-inertia",
+        "torque-and-rotation"
+      ],
+      "mapping_quality": "DIRECT",
+      "verified": true
+    },
+    {
+      "evidence_id": "exp-up-ch19-p09",
+      "source_id": "src-university-physics-with--0bc11b67",
+      "section": "Chapter 19: The First Law of Thermodynamics",
+      "taxonomy_node_ids": [
+        "thermodynamics",
+        "first-law-and-processes"
+      ],
+      "mapping_quality": "DIRECT",
+      "verified": true
+    },
+    {
+      "evidence_id": "evid-feynman-lec30-visual",
+      "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+      "section": "Lecture 30: Diffraction",
+      "taxonomy_node_ids": [
+        "wave-optics",
+        "diffraction-and-polarization"
+      ],
+      "mapping_quality": "DIRECT",
+      "verified": true
+    },
+    {
+      "evidence_id": "evid-feynman-lec26-visual",
+      "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+      "section": "Lecture 26: Optics: The Principle of Least Time",
+      "taxonomy_node_ids": [
+        "ray-optics",
+        "refraction-and-tir"
+      ],
+      "mapping_quality": "DIRECT",
+      "verified": true
+    },
+    {
+      "evidence_id": "exp-hcv1-ch11-p09",
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "section": "Chapter 11: Gravitation",
+      "taxonomy_node_ids": [
+        "gravitation",
+        "gravitational-force-and-field"
+      ],
+      "mapping_quality": "DIRECT",
+      "verified": true
+    },
+    {
+      "evidence_id": "exp-hcv2-ch46-p08",
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "section": "Chapter 46: The Nucleus",
+      "taxonomy_node_ids": [
+        "nuclear-physics",
+        "nuclear-structure-and-binding-energy",
+        "radioactivity"
+      ],
+      "mapping_quality": "DIRECT",
+      "verified": true
+    },
+    {
+      "evidence_id": "exp-hr-ch05-p02",
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "section": "5-6 NEWTON\u2019S SECOND LAW",
+      "taxonomy_node_ids": [
+        "laws-of-motion",
+        "newtons-laws"
+      ],
+      "mapping_quality": "DIRECT",
+      "verified": true
+    },
+    {
+      "evidence_id": "exp-up-ch39-p13",
+      "source_id": "src-university-physics-with--0bc11b67",
+      "section": "Chapter 39: Particles Behaving as Waves",
+      "taxonomy_node_ids": [
+        "dual-nature-of-matter-and-radiation",
+        "de-broglie-wavelength-of-particles"
+      ],
+      "mapping_quality": "DIRECT",
+      "verified": true
+    },
+    {
+      "evidence_id": "evid-feynman-lec19-visual",
+      "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+      "section": "Lecture 19: Center of Mass; Moment of Inertia",
+      "taxonomy_node_ids": [
+        "center-of-mass",
+        "rotational-motion"
+      ],
+      "mapping_quality": "BROAD_CHAPTER_ONLY",
+      "verified": true
+    },
+    {
+      "evidence_id": "ev-exp-reex-src-concepts-p0409",
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "section": "Chapter 18: Geometrical Optics (Complete Module)",
+      "taxonomy_node_ids": [],
+      "mapping_quality": "UNCERTAIN",
+      "verified": true
+    },
+    {
+      "evidence_id": "exp-hcv2-ch41-p06",
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "section": "Chapter 41: Electric Current through Gases",
+      "taxonomy_node_ids": [
+        "atomic-physics"
+      ],
+      "mapping_quality": "BROAD_CHAPTER_ONLY",
+      "verified": true
+    },
+    {
+      "evidence_id": "exp-up-ch19-p04",
+      "source_id": "src-university-physics-with--0bc11b67",
+      "section": "Chapter 19: The First Law of Thermodynamics",
+      "taxonomy_node_ids": [
+        "thermodynamics",
+        "first-law-and-processes"
+      ],
+      "mapping_quality": "DIRECT",
+      "verified": true
+    },
+    {
+      "evidence_id": "exp-hcv2-ch46-p12",
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "section": "Chapter 46: The Nucleus",
+      "taxonomy_node_ids": [
+        "nuclear-physics",
+        "nuclear-structure-and-binding-energy",
+        "radioactivity"
+      ],
+      "mapping_quality": "DIRECT",
+      "verified": true
+    },
+    {
+      "evidence_id": "exp-up-ch25-p02",
+      "source_id": "src-university-physics-with--0bc11b67",
+      "section": "Chapter 25: Current, Resistance, and Electromotive Force",
+      "taxonomy_node_ids": [
+        "current-electricity",
+        "electric-current-and-drift"
+      ],
+      "mapping_quality": "DIRECT",
+      "verified": true
+    },
+    {
+      "evidence_id": "exp-hr-ch17-p06",
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "section": "19-9 DEGREES OF FREEDOM AND MOLAR SPECIFIC HEATS",
+      "taxonomy_node_ids": [
+        "waves",
+        "standing-waves"
+      ],
+      "mapping_quality": "DIRECT",
+      "verified": true
+    },
+    {
+      "evidence_id": "evid-hcv2-p64-first-law-td",
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "section": "26.3 First Law of Thermodynamics",
+      "taxonomy_node_ids": [
+        "thermodynamics",
+        "first-law-and-processes"
+      ],
+      "mapping_quality": "DIRECT",
+      "verified": true
+    },
+    {
+      "evidence_id": "exp-hcv2-ch30-p07",
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "section": "Chapter 30: Gauss's Law",
+      "taxonomy_node_ids": [
+        "electrostatics",
+        "gausss-law"
+      ],
+      "mapping_quality": "DIRECT",
+      "verified": true
+    },
+    {
+      "evidence_id": "exp-up-ch19-p10",
+      "source_id": "src-university-physics-with--0bc11b67",
+      "section": "Chapter 19: The First Law of Thermodynamics",
+      "taxonomy_node_ids": [
+        "thermodynamics",
+        "first-law-and-processes"
+      ],
+      "mapping_quality": "DIRECT",
+      "verified": true
+    },
+    {
+      "evidence_id": "exp-hr-ch34-p04",
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "section": "39-9 SCHR\u00d6DINGER\u2019S EQUATION AND THE HYDROGEN ATOM",
+      "taxonomy_node_ids": [
+        "ray-optics",
+        "refraction-at-spherical-surfaces-and-lenses"
+      ],
+      "mapping_quality": "DIRECT",
+      "verified": true
+    },
+    {
+      "evidence_id": "exp-hcv2-ch29-p08",
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "section": "Chapter 29: Electric Field and Potential",
+      "taxonomy_node_ids": [
+        "electrostatics",
+        "coulombs-law-and-electric-field"
+      ],
+      "mapping_quality": "DIRECT",
+      "verified": true
+    },
+    {
+      "evidence_id": "exp-hcv2-ch46-p01",
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "section": "Chapter 46: The Nucleus",
+      "taxonomy_node_ids": [
+        "nuclear-physics",
+        "nuclear-structure-and-binding-energy",
+        "radioactivity"
+      ],
+      "mapping_quality": "DIRECT",
+      "verified": true
+    },
+    {
+      "evidence_id": "exp-hr-ch33-p09",
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "section": "38-8 HEISENBERG\u2019S UNCERTAINTY PRINCIPLE",
+      "taxonomy_node_ids": [
+        "electromagnetic-waves"
+      ],
+      "mapping_quality": "BROAD_CHAPTER_ONLY",
+      "verified": true
+    },
+    {
+      "evidence_id": "exp-hcv1-ch11-p07",
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "section": "Chapter 11: Gravitation",
+      "taxonomy_node_ids": [
+        "gravitation",
+        "gravitational-force-and-field"
+      ],
+      "mapping_quality": "DIRECT",
+      "verified": true
+    },
+    {
+      "evidence_id": "exp-up-ch05-p12",
+      "source_id": "src-university-physics-with--0bc11b67",
+      "section": "Chapter 5: Applying Newton's Laws",
+      "taxonomy_node_ids": [
+        "laws-of-motion",
+        "friction",
+        "circular-dynamics"
+      ],
+      "mapping_quality": "DIRECT",
+      "verified": true
+    },
+    {
+      "evidence_id": "exp-hcv1-ch12-p04",
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "section": "Chapter 12: Simple Harmonic Motion",
+      "taxonomy_node_ids": [
+        "oscillations",
+        "kinematics-of-shm"
+      ],
+      "mapping_quality": "DIRECT",
+      "verified": true
+    },
+    {
+      "evidence_id": "exp-up-ch02-p12",
+      "source_id": "src-university-physics-with--0bc11b67",
+      "section": "Chapter 2: Motion Along a Straight Line",
+      "taxonomy_node_ids": [
+        "kinematics",
+        "rectilinear-motion"
+      ],
+      "mapping_quality": "DIRECT",
+      "verified": true
+    },
+    {
+      "evidence_id": "exp-hr-ch36-p03",
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "section": "42-5 ALPHA DECAY",
+      "taxonomy_node_ids": [
+        "wave-optics",
+        "diffraction-and-polarization"
+      ],
+      "mapping_quality": "DIRECT",
+      "verified": true
+    }
+  ]
+}

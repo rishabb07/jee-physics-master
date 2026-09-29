@@ -1,0 +1,51 @@
+{
+  "derivation_id": "derivation-formula-kin-const-accel-v2",
+  "target_formula_id": "formula-kin-const-accel-v2",
+  "target_equation": "v^2 = u^2 + 2 a s",
+  "starting_principles": [
+    "Chain rule formulation of acceleration a = v dv/dx"
+  ],
+  "assumptions": [
+    "Constant acceleration a",
+    "Net displacement s = x - x_0"
+  ],
+  "ordered_steps": [
+    {
+      "step_number": 1,
+      "action_description": "Apply chain rule to express acceleration without explicit time dependence",
+      "equation_latex": "a = \\frac{dv}{dt} = \\frac{dv}{dx} \\frac{dx}{dt} = v \\frac{dv}{dx}",
+      "justification": "Chain rule of calculus where v = dx/dt."
+    },
+    {
+      "step_number": 2,
+      "action_description": "Separate variables v and x",
+      "equation_latex": "v \\, dv = a \\, dx",
+      "justification": "Separation of variables for first-order differential form."
+    },
+    {
+      "step_number": 3,
+      "action_description": "Integrate from initial state (x = 0, v = u) to final state (x = s, v = v)",
+      "equation_latex": "\\int_{u}^{v} v \\, dv = \\int_{0}^{s} a \\, dx",
+      "justification": "Definite integration over spatial trajectory."
+    },
+    {
+      "step_number": 4,
+      "action_description": "Evaluate both integrals",
+      "equation_latex": "\\left[ \\frac{v^2}{2} \\right]_{u}^{v} = a [x]_{0}^{s} \\implies \\frac{v^2 - u^2}{2} = a s \\implies v^2 = u^2 + 2 a s",
+      "justification": "Integration of linear function v and constant a."
+    }
+  ],
+  "final_equation": "v^2 = u^2 + 2 a s",
+  "applicability_conditions": [
+    "Valid for 1D rectilinear motion under constant acceleration"
+  ],
+  "source_references": [
+    "Fundamentals of Physics by Halliday, Resnick & Walker (Chapter 2, p. 32)"
+  ],
+  "risk_level": "HIGH",
+  "verification_status": "VERIFIED",
+  "verification_record_id": "dual-cvr-derivation-formula-kin-const-accel-v2",
+  "generator_identity": "physics-derivation-writer",
+  "generator_conversation_id": "gen-kin-deriv-03",
+  "content_hash": "e30b7a634a282f8645676b18fe3a00b7716e1d39c6a7e8db83929817901be698"
+}

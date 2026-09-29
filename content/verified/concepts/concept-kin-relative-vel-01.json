@@ -1,0 +1,41 @@
+{
+  "content_id": "concept-kin-relative-vel-01",
+  "curriculum_id": "curr-kin-04",
+  "taxonomy_reference": {
+    "chapter_id": "kinematics",
+    "topic_id": "relative-motion",
+    "subtopic_id": "relative-velocity-1d"
+  },
+  "title": "Relative Velocity and Galilean Reference Frame Transformations",
+  "learning_objective": "Transform position, velocity, and acceleration vectors between different inertial and translating reference frames.",
+  "intuition": "When sitting in a train traveling at 60 km/h, another train passing you on an adjacent track at 70 km/h in the same direction seems to crawl past at only 10 km/h. But if a train passes going the opposite way at 70 km/h, it rushes past your window in a blur at 130 km/h. Velocity is not an absolute label attached to an object\u2014it depends fundamentally on who is watching.",
+  "formal_definition": "Let observers $A$ and $B$ track particle $P$. The position vector of $P$ relative to $A$ is related to its position relative to $B$ by $\\vec{r}_{P/A} = \\vec{r}_{P/B} + \\vec{r}_{B/A}$. Differentiating with respect to time yields the vector relative velocity formula: $\\vec{v}_{P/A} = \\vec{v}_{P/B} + \\vec{v}_{B/A}$. Consequently, the velocity of body $A$ as observed from body $B$ is defined as $\\vec{v}_{A/B} = \\vec{v}_A - \\vec{v}_B$.",
+  "explanation": "Relative motion simplifies complex multi-body problems by shifting to a convenient reference frame where one body is stationary.\n\n### 1. One-Dimensional Relative Motion\nAlong a straight line (taking right as positive $+x$):\n- If car $A$ moves with velocity $v_A$ and car $B$ moves with velocity $v_B$, the relative velocity of $A$ with respect to $B$ is $v_{A/B} = v_A - v_B$.\n- If both move in the same direction ($v_A = 20\\text{ m/s}, v_B = 15\\text{ m/s}$), $v_{A/B} = 20 - 15 = +5\\text{ m/s}$ (A approaches B).\n- If they move toward each other ($v_A = +20\\text{ m/s}, v_B = -15\\text{ m/s}$), $v_{A/B} = 20 - (-15) = +35\\text{ m/s}$.\n\n### 2. Invariance of Relative Acceleration\nFor two reference frames translating with constant relative velocity ($d\\vec{v}_{B/A}/dt = 0$), differentiating $\\vec{v}_{P/A} = \\vec{v}_{P/B} + \\vec{v}_{B/A}$ gives $\\vec{a}_{P/A} = \\vec{a}_{P/B}$. Thus, acceleration is invariant under Galilean transformations between inertial frames.",
+  "assumptions": [
+    "Classical non-relativistic velocities ($v \\ll c$, where $c$ is the speed of light).",
+    "Universal absolute time shared across all reference frames ($t' = t$)."
+  ],
+  "boundary_conditions": [
+    "Holds for non-rotating coordinate frames.",
+    "Valid in both one and multiple dimensions using vector subtraction."
+  ],
+  "related_formula_ids": [
+    "formula-kin-relative-velocity"
+  ],
+  "prerequisite_refs": [
+    "concept-kin-vel-speed-01",
+    "vectors-and-coordinate-systems"
+  ],
+  "source_references": [
+    "Concepts of Physics Vol 1 by H.C. Verma (Chapter 3, pp. 50-52)",
+    "Fundamentals of Physics by Halliday, Resnick & Walker (Chapter 4, pp. 85-88)"
+  ],
+  "generation_metadata": {
+    "agent": "physics-concept-writer",
+    "version": "1.0",
+    "target_chapter": "kinematics"
+  },
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-concept-kin-relative-vel-01",
+  "content_hash": "3472a6b7ae7ffd1db70e29a40627f9bce3abefede86c8b4bb844485aadb4182b"
+}

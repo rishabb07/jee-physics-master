@@ -1,0 +1,57 @@
+{
+  "derivation_id": "derivation-formula-kin-incline-range",
+  "target_formula_id": "formula-kin-incline-range",
+  "target_equation": "R_{\\text{up}} = \\frac{2 u^2 \\sin(\\theta - \\alpha) \\cos\\theta}{g \\cos^2\\alpha}",
+  "starting_principles": [
+    "2D Kinematics in tilted coordinate frame aligned with inclined plane of slope alpha"
+  ],
+  "assumptions": [
+    "Plane inclined at constant angle alpha to horizontal",
+    "Launch angle theta > alpha relative to horizontal"
+  ],
+  "ordered_steps": [
+    {
+      "step_number": 1,
+      "action_description": "Align x'-axis along incline and y'-axis normal to incline; resolve initial velocity and gravity",
+      "equation_latex": "u_{x'} = u \\cos(\\theta - \\alpha), \\quad u_{y'} = u \\sin(\\theta - \\alpha); \\quad a_{x'} = -g\\sin\\alpha, \\quad a_{y'} = -g\\cos\\alpha",
+      "justification": "Coordinate rotation by angle alpha."
+    },
+    {
+      "step_number": 2,
+      "action_description": "Determine time of flight T by setting perpendicular displacement to zero y'(T) = 0",
+      "equation_latex": "y'(T) = u_{y'} T - \\frac{1}{2} g\\cos\\alpha T^2 = 0 \\implies T = \\frac{2 u \\sin(\\theta - \\alpha)}{g\\cos\\alpha}",
+      "justification": "Projectile lands on incline when perpendicular coordinate returns to zero."
+    },
+    {
+      "step_number": 3,
+      "action_description": "Compute range R_up by evaluating x'(T)",
+      "equation_latex": "R_{\\text{up}} = u_{x'} T - \\frac{1}{2} g\\sin\\alpha T^2 = T \\left( u\\cos(\\theta - \\alpha) - \\frac{1}{2} g\\sin\\alpha \\frac{2 u\\sin(\\theta - \\alpha)}{g\\cos\\alpha} \\right)",
+      "justification": "Kinematic position along x' under constant acceleration a_x' = -g sin(alpha)."
+    },
+    {
+      "step_number": 4,
+      "action_description": "Combine over common denominator cos(alpha) and apply angle addition identity",
+      "equation_latex": "R_{\\text{up}} = T \\frac{u}{\\cos\\alpha} \\left( \\cos(\\theta - \\alpha)\\cos\\alpha - \\sin(\\theta - \\alpha)\\sin\\alpha \\right) = T \\frac{u}{\\cos\\alpha} \\cos((\\theta - \\alpha) + \\alpha) = T \\frac{u \\cos\\theta}{\\cos\\alpha}",
+      "justification": "Trigonometric identity cos(A + B) = cos A cos B - sin A sin B."
+    },
+    {
+      "step_number": 5,
+      "action_description": "Substitute flight time T into the simplified range expression",
+      "equation_latex": "R_{\\text{up}} = \\left( \\frac{2 u \\sin(\\theta - \\alpha)}{g\\cos\\alpha} \\right) \\frac{u \\cos\\theta}{\\cos\\alpha} = \\frac{2 u^2 \\sin(\\theta - \\alpha) \\cos\\theta}{g \\cos^2\\alpha}",
+      "justification": "Direct substitution of T."
+    }
+  ],
+  "final_equation": "R_{\\text{up}} = \\frac{2 u^2 \\sin(\\theta - \\alpha) \\cos\\theta}{g \\cos^2\\alpha}",
+  "applicability_conditions": [
+    "Valid for projectile launch up an incline of slope angle alpha with theta > alpha"
+  ],
+  "source_references": [
+    "Concepts of Physics Vol 1 by H.C. Verma (Chapter 3, pp. 58-59)"
+  ],
+  "risk_level": "HIGH",
+  "verification_status": "VERIFIED",
+  "verification_record_id": "dual-cvr-derivation-formula-kin-incline-range",
+  "generator_identity": "physics-derivation-writer",
+  "generator_conversation_id": "gen-kin-deriv-06",
+  "content_hash": "0ae0186862402eabc06643e3a36325aa02c491b8382929e48e32f45ebf80a80c"
+}

@@ -1,0 +1,42 @@
+{
+  "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+  "source_version": 1,
+  "file_name": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+  "file_path": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+  "file_size_bytes": 4840403,
+  "sha256": "a489bb6eece424c285b8ccfef55c9b6196b3bbd225d3ac1cff62d6b9c6ba5c19",
+  "extension": ".pdf",
+  "mime_type": "application/pdf",
+  "file_format": "pdf",
+  "source_type": "textbook",
+  "total_pages": 471,
+  "has_extractable_text": true,
+  "is_image_only": false,
+  "is_encrypted": false,
+  "status": "SEGMENTED",
+  "processing_stage": null,
+  "last_error": null,
+  "history": [],
+  "affected_chapters": [],
+  "file_created_at": null,
+  "file_modified_at": null,
+  "metadata": {
+    "source_role": "PRIMARY_JEE",
+    "toc_entries_count": 39,
+    "bibliographic_info": {
+      "title": "Concepts of Physics (Volume 1)",
+      "authors": [
+        "H. C. Verma, PhD"
+      ],
+      "publisher": "Bharati Bhawan (Publishers & Distributors), New Delhi",
+      "edition": "First Edition (Periodic Reprints)",
+      "volume": "Volume 1 (Chapters 1 to 22: Mechanics, Waves, Optics)",
+      "publication_year": 1992,
+      "isbn": "81-7709-187-5",
+      "discrepancy_resolution": "None. Text stream is clean digital font."
+    },
+    "extraction_nature": "DIGITAL_TEXT"
+  },
+  "created_at": "2026-09-29T16:20:06.649315Z",
+  "updated_at": "2026-09-29T16:20:06.649315Z"
+}

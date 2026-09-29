@@ -1,0 +1,52 @@
+{
+  "derivation_id": "derivation-formula-kin-const-accel-s",
+  "target_formula_id": "formula-kin-const-accel-s",
+  "target_equation": "s = u t + \\frac{1}{2} a t^2",
+  "starting_principles": [
+    "Definition of velocity as position derivative v = dx/dt",
+    "First kinematic equation v(t) = u + at"
+  ],
+  "assumptions": [
+    "Constant acceleration a",
+    "Initial position x(0) = 0 so displacement s = x(t)"
+  ],
+  "ordered_steps": [
+    {
+      "step_number": 1,
+      "action_description": "Express velocity as time rate of change of position",
+      "equation_latex": "v = \\frac{dx}{dt} \\implies dx = v(t) \\, dt",
+      "justification": "Calculus definition of instantaneous velocity."
+    },
+    {
+      "step_number": 2,
+      "action_description": "Substitute the first kinematic relation v(t) = u + at into the differential",
+      "equation_latex": "dx = (u + a t) \\, dt",
+      "justification": "Velocity variation under uniform acceleration."
+    },
+    {
+      "step_number": 3,
+      "action_description": "Integrate both sides from t = 0 (x = 0) to time t (position x = s)",
+      "equation_latex": "\\int_{0}^{s} dx = \\int_{0}^{t} (u + a t) \\, dt",
+      "justification": "Definite integration over elapsed time."
+    },
+    {
+      "step_number": 4,
+      "action_description": "Evaluate the polynomial integrals",
+      "equation_latex": "s = \\left[ u t + \\frac{1}{2} a t^2 \\right]_{0}^{t} = u t + \\frac{1}{2} a t^2",
+      "justification": "Power rule of integration."
+    }
+  ],
+  "final_equation": "s = u t + \\frac{1}{2} a t^2",
+  "applicability_conditions": [
+    "Valid for constant acceleration and initial position at origin"
+  ],
+  "source_references": [
+    "Concepts of Physics Vol 1 by H.C. Verma (Chapter 3, p. 48)"
+  ],
+  "risk_level": "HIGH",
+  "verification_status": "VERIFIED",
+  "verification_record_id": "dual-cvr-derivation-formula-kin-const-accel-s",
+  "generator_identity": "physics-derivation-writer",
+  "generator_conversation_id": "gen-kin-deriv-02",
+  "content_hash": "f64fb255a6d6ef10628dd482c8be1cd5b227b8c812b81bb631ff4ec2cf318f36"
+}

@@ -1,0 +1,23 @@
+{
+  "misconception_id": "misc-kin-05",
+  "chapter_id": "kinematics",
+  "concept_id": "concept-kin-relative-vel-01",
+  "title": "A Dropped Object Inherits the Acceleration of Its Vehicle",
+  "category": "FRAME_CONFUSION",
+  "statement": "When an object is dropped from an accelerating vehicle, it continues to experience the vehicle's acceleration.",
+  "incorrect_statement": "An apple dropped inside an accelerating train continues to accelerate forward horizontally because the train was accelerating.",
+  "erroneous_reasoning": "Students confuse the inheritance of instantaneous state (velocity) with the inheritance of interaction forces (acceleration). They think the object carries the vehicle's forward acceleration with it into the air.",
+  "why_it_fails": "By Newton's first and second laws, acceleration is caused by net physical forces acting on the body at that instant. Once contact with the vehicle is broken, the vehicle can exert no force on the object.",
+  "correct_physics_explanation": "When a body is released from a moving vehicle, it inherits the instantaneous velocity of the vehicle at the release moment (due to inertia). However, it does NOT inherit the vehicle's acceleration! The moment contact ceases, the only force acting on the body is gravity (in the ground frame). Hence, in the ground frame, its horizontal acceleration is strictly ZERO, and its vertical acceleration is g downward.",
+  "corrective_explanation": "A released body inherits velocity, not acceleration. Once released, forces from the vehicle cease immediately, and only gravity acts on the free body.",
+  "refutation_counterexample": "A coin dropped inside an airplane accelerating down the runway at 5 m/s^2 falls with horizontal acceleration 0 m/s^2 relative to ground. Relative to the airplane, the coin accelerates backward at 5 m/s^2!",
+  "supporting_evidence": "H.C. Verma Vol 1, Chapter 3: 'At the time of release, the packet has the velocity of the balloon, but its acceleration is simply g downward.'",
+  "diagnostic_check_latex": "\\vec{a}_{\\text{packet, ground}} = -g \\hat{j}, \\quad \\vec{a}_{\\text{packet, train}} = -a_{\\text{train}}\\hat{i} - g\\hat{j}",
+  "diagnostic_symptom": "Student writes a_x = a_train for a bomb dropped from an accelerating airplane.",
+  "connected_atom_ids": [
+    "kinematics-question-7b4e1d65"
+  ],
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-misc-kin-05",
+  "content_hash": "738afd2c908545ed588bfddc0e0e072a4b08cdfc58d12caa7dc2016db7b514ff"
+}

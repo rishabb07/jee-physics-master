@@ -1,0 +1,39 @@
+{
+  "content_id": "concept-kin-vel-speed-01",
+  "curriculum_id": "curr-kin-01",
+  "taxonomy_reference": {
+    "chapter_id": "kinematics",
+    "topic_id": "rectilinear-motion",
+    "subtopic_id": "speed-velocity"
+  },
+  "title": "Average and Instantaneous Speed and Velocity",
+  "learning_objective": "Formulate average velocity as net displacement over total time, instantaneous velocity as the time derivative of position, and understand the difference between average speed and average velocity magnitude.",
+  "intuition": "When driving a car, your trip may take 2 hours to cover a 100 km curved highway, giving an average speed of 50 km/h. At any split second during the drive, glancing at the speedometer displays your instantaneous speed (e.g. 70 km/h), while the direction the front of your car points gives the direction of your instantaneous velocity vector.",
+  "formal_definition": "The average velocity over a finite time interval $\\Delta t = t_2 - t_1$ is $\\vec{v}_{\\text{avg}} = \\frac{\\Delta\\vec{r}}{\\Delta t} = \\frac{\\vec{r}(t_2) - \\vec{r}(t_1)}{t_2 - t_1}$. The instantaneous velocity $\\vec{v}(t)$ is the derivative of position with respect to time: $\\vec{v}(t) = \\lim_{\\Delta t \\to 0} \\frac{\\Delta\\vec{r}}{\\Delta t} = \\frac{d\\vec{r}}{dt}$. Instantaneous speed $v(t) = |\\vec{v}(t)| = \\frac{ds}{dt}$ is the magnitude of instantaneous velocity, whereas average speed is total distance divided by total time: $v_{\\text{avg}} = \\frac{s_{\\text{total}}}{t_{\\text{total}}}$.",
+  "explanation": "Velocity is the fundamental vector kinematic quantity characterizing rate of change of position.\n\n### 1. Direction of Instantaneous Velocity\nThe instantaneous velocity vector $\\vec{v}(t)$ is always tangent to the particle's spatial path at every point, pointing in the direction of motion. In Cartesian coordinates, $\\vec{v} = v_x\\hat{i} + v_y\\hat{j} + v_z\\hat{k} = \\frac{dx}{dt}\\hat{i} + \\frac{dy}{dt}\\hat{j} + \\frac{dz}{dt}\\hat{k}$.\n\n### 2. Average Velocity vs Average Speed\nWhile $|\\vec{v}(t)| = v(t)$ is true at every instant, $|\\vec{v}_{\\text{avg}}| \\le v_{\\text{avg}}$ over any finite interval because $|\\Delta\\vec{r}| \\le s_{\\text{total}}$. For closed trajectories (such as one complete lap on a circular track), the net displacement is zero, yielding $\\vec{v}_{\\text{avg}} = \\vec{0}$, while the average speed is strictly positive: $v_{\\text{avg}} = 2\\pi R / T > 0$.\n\n### 3. Calculus Perspective\nFeynman emphasized in Lecture 8 that defining velocity as $dx/dt$ requires taking a limit where both $\\Delta x$ and $\\Delta t$ shrink to zero, yet their ratio approaches a well-defined physical rate.",
+  "assumptions": [
+    "Position function $\\vec{r}(t)$ is continuous and differentiable over the time domain.",
+    "Time flows uniformly and monotonically ($dt > 0$)."
+  ],
+  "boundary_conditions": [
+    "If $\\vec{v}$ is constant, average velocity equals instantaneous velocity for any interval.",
+    "Average speed is never smaller than the magnitude of average velocity."
+  ],
+  "related_formula_ids": [],
+  "prerequisite_refs": [
+    "concept-kin-pos-disp-01",
+    "differential-calculus-foundations"
+  ],
+  "source_references": [
+    "Concepts of Physics Vol 1 by H.C. Verma (Chapter 3, pp. 44-47)",
+    "The Feynman Lectures on Physics, Vol. 1 (Lecture 8: Motion, pp. 81-85)"
+  ],
+  "generation_metadata": {
+    "agent": "physics-concept-writer",
+    "version": "1.0",
+    "target_chapter": "kinematics"
+  },
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-concept-kin-vel-speed-01",
+  "content_hash": "66a0f55a2569b6664f7855d14786504457ab0f90a01a10eeeb5fd833038850af"
+}

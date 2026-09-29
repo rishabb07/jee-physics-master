@@ -1,0 +1,869 @@
+{
+  "source_id": "src-problems-in-general-phys-6cf0b2b7",
+  "file_name": "problems_in_general_physics_by_i_e_irodov.pdf",
+  "segmentation_type": "DETERMINISTIC_PAGE_SEGMENT",
+  "total_segments": 43,
+  "segments": [
+    {
+      "segment_id": "seg-src-problems-in-general-phys-6cf0b2b7-001",
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 1,
+      "page_end": 9,
+      "segment_title": "Preface & Notation",
+      "segment_summary": "Pages 1-9 of problems_in_general_physics_by_i_e_irodov.pdf (Preface & Notation)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXCLUDED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "NON_CONTENT",
+        "content_types": [
+          "OTHER"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-problems-in-general-phys-6cf0b2b7-002",
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 10,
+      "page_end": 18,
+      "segment_title": "1.1 Kinematics",
+      "segment_summary": "Pages 10-18 of problems_in_general_physics_by_i_e_irodov.pdf (1.1 Kinematics)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-problems-in-general-phys-6cf0b2b7-003",
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 19,
+      "page_end": 27,
+      "segment_title": "1.2 The Fundamental Equation of Dynamics",
+      "segment_summary": "Pages 19-27 of problems_in_general_physics_by_i_e_irodov.pdf (1.2 The Fundamental Equation of Dynamics)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-problems-in-general-phys-6cf0b2b7-004",
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 28,
+      "page_end": 41,
+      "segment_title": "1.3 Conservation Laws (Energy, Momentum, Angular Momentum)",
+      "segment_summary": "Pages 28-41 of problems_in_general_physics_by_i_e_irodov.pdf (1.3 Conservation Laws (Energy, Momentum, Angular Momentum))",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-problems-in-general-phys-6cf0b2b7-005",
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 42,
+      "page_end": 44,
+      "segment_title": "1.4 Universal Gravitation",
+      "segment_summary": "Pages 42-44 of problems_in_general_physics_by_i_e_irodov.pdf (1.4 Universal Gravitation)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-problems-in-general-phys-6cf0b2b7-006",
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 45,
+      "page_end": 58,
+      "segment_title": "1.5 Dynamics of a Solid Body",
+      "segment_summary": "Pages 45-58 of problems_in_general_physics_by_i_e_irodov.pdf (1.5 Dynamics of a Solid Body)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-problems-in-general-phys-6cf0b2b7-007",
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 59,
+      "page_end": 61,
+      "segment_title": "1.6 Elastic Deformations of a Solid Body",
+      "segment_summary": "Pages 59-61 of problems_in_general_physics_by_i_e_irodov.pdf (1.6 Elastic Deformations of a Solid Body)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-problems-in-general-phys-6cf0b2b7-008",
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 62,
+      "page_end": 66,
+      "segment_title": "1.7 Hydrodynamics",
+      "segment_summary": "Pages 62-66 of problems_in_general_physics_by_i_e_irodov.pdf (1.7 Hydrodynamics)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-problems-in-general-phys-6cf0b2b7-009",
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 67,
+      "page_end": 70,
+      "segment_title": "1.8 Relativistic Mechanics",
+      "segment_summary": "Pages 67-70 of problems_in_general_physics_by_i_e_irodov.pdf (1.8 Relativistic Mechanics)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-problems-in-general-phys-6cf0b2b7-010",
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 71,
+      "page_end": 74,
+      "segment_title": "2.1 Equation of the Gas State. Processes",
+      "segment_summary": "Pages 71-74 of problems_in_general_physics_by_i_e_irodov.pdf (2.1 Equation of the Gas State. Processes)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-problems-in-general-phys-6cf0b2b7-011",
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 75,
+      "page_end": 80,
+      "segment_title": "2.2 The First Law of Thermodynamics. Heat Capacity",
+      "segment_summary": "Pages 75-80 of problems_in_general_physics_by_i_e_irodov.pdf (2.2 The First Law of Thermodynamics. Heat Capacity)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-problems-in-general-phys-6cf0b2b7-012",
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 81,
+      "page_end": 86,
+      "segment_title": "2.3 Kinetic Theory of Gases. Boltzmann's Law and Maxwell's Distribution",
+      "segment_summary": "Pages 81-86 of problems_in_general_physics_by_i_e_irodov.pdf (2.3 Kinetic Theory of Gases. Boltzmann's Law and Maxwell's Distribution)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-problems-in-general-phys-6cf0b2b7-013",
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 87,
+      "page_end": 92,
+      "segment_title": "2.4 The Second Law of Thermodynamics. Entropy",
+      "segment_summary": "Pages 87-92 of problems_in_general_physics_by_i_e_irodov.pdf (2.4 The Second Law of Thermodynamics. Entropy)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-problems-in-general-phys-6cf0b2b7-014",
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 93,
+      "page_end": 95,
+      "segment_title": "2.5 Liquids. Capillary Effects",
+      "segment_summary": "Pages 93-95 of problems_in_general_physics_by_i_e_irodov.pdf (2.5 Liquids. Capillary Effects)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-problems-in-general-phys-6cf0b2b7-015",
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 96,
+      "page_end": 98,
+      "segment_title": "2.6 Phase Transformations",
+      "segment_summary": "Pages 96-98 of problems_in_general_physics_by_i_e_irodov.pdf (2.6 Phase Transformations)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-problems-in-general-phys-6cf0b2b7-016",
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 99,
+      "page_end": 100,
+      "segment_title": "2.7 Transport Phenomena",
+      "segment_summary": "Pages 99-100 of problems_in_general_physics_by_i_e_irodov.pdf (2.7 Transport Phenomena)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-problems-in-general-phys-6cf0b2b7-017",
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 101,
+      "page_end": 107,
+      "segment_title": "3.1 Constant Electric Field in Vacuum",
+      "segment_summary": "Pages 101-107 of problems_in_general_physics_by_i_e_irodov.pdf (3.1 Constant Electric Field in Vacuum)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-problems-in-general-phys-6cf0b2b7-018",
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 108,
+      "page_end": 114,
+      "segment_title": "3.2 Conductors and Dielectrics in an Electric Field",
+      "segment_summary": "Pages 108-114 of problems_in_general_physics_by_i_e_irodov.pdf (3.2 Conductors and Dielectrics in an Electric Field)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-problems-in-general-phys-6cf0b2b7-019",
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 115,
+      "page_end": 121,
+      "segment_title": "3.3 Electric Capacitance. Energy of an Electric Field",
+      "segment_summary": "Pages 115-121 of problems_in_general_physics_by_i_e_irodov.pdf (3.3 Electric Capacitance. Energy of an Electric Field)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-problems-in-general-phys-6cf0b2b7-020",
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 122,
+      "page_end": 132,
+      "segment_title": "3.4 Electric Current",
+      "segment_summary": "Pages 122-132 of problems_in_general_physics_by_i_e_irodov.pdf (3.4 Electric Current)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-problems-in-general-phys-6cf0b2b7-021",
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 133,
+      "page_end": 143,
+      "segment_title": "3.5 Constant Magnetic Field. Magnetics",
+      "segment_summary": "Pages 133-143 of problems_in_general_physics_by_i_e_irodov.pdf (3.5 Constant Magnetic Field. Magnetics)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-problems-in-general-phys-6cf0b2b7-022",
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 144,
+      "page_end": 155,
+      "segment_title": "3.6 Electromagnetic Induction. Maxwell's Equations",
+      "segment_summary": "Pages 144-155 of problems_in_general_physics_by_i_e_irodov.pdf (3.6 Electromagnetic Induction. Maxwell's Equations)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-problems-in-general-phys-6cf0b2b7-023",
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 156,
+      "page_end": 161,
+      "segment_title": "3.7 Motion of Charged Particles in Electric and Magnetic Fields",
+      "segment_summary": "Pages 156-161 of problems_in_general_physics_by_i_e_irodov.pdf (3.7 Motion of Charged Particles in Electric and Magnetic Fields)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-problems-in-general-phys-6cf0b2b7-024",
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 162,
+      "page_end": 175,
+      "segment_title": "4.1 Mechanical Oscillations",
+      "segment_summary": "Pages 162-175 of problems_in_general_physics_by_i_e_irodov.pdf (4.1 Mechanical Oscillations)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-problems-in-general-phys-6cf0b2b7-025",
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 176,
+      "page_end": 183,
+      "segment_title": "4.2 Electric Oscillations",
+      "segment_summary": "Pages 176-183 of problems_in_general_physics_by_i_e_irodov.pdf (4.2 Electric Oscillations)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-problems-in-general-phys-6cf0b2b7-026",
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 184,
+      "page_end": 189,
+      "segment_title": "4.3 Elastic Waves. Acoustics",
+      "segment_summary": "Pages 184-189 of problems_in_general_physics_by_i_e_irodov.pdf (4.3 Elastic Waves. Acoustics)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-problems-in-general-phys-6cf0b2b7-027",
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 190,
+      "page_end": 194,
+      "segment_title": "4.4 Electromagnetic Waves. Radiation",
+      "segment_summary": "Pages 190-194 of problems_in_general_physics_by_i_e_irodov.pdf (4.4 Electromagnetic Waves. Radiation)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-problems-in-general-phys-6cf0b2b7-028",
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 195,
+      "page_end": 205,
+      "segment_title": "5.1 Photometry and Geometrical Optics",
+      "segment_summary": "Pages 195-205 of problems_in_general_physics_by_i_e_irodov.pdf (5.1 Photometry and Geometrical Optics)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-problems-in-general-phys-6cf0b2b7-029",
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 206,
+      "page_end": 211,
+      "segment_title": "5.2 Interference of Light",
+      "segment_summary": "Pages 206-211 of problems_in_general_physics_by_i_e_irodov.pdf (5.2 Interference of Light)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-problems-in-general-phys-6cf0b2b7-030",
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 212,
+      "page_end": 222,
+      "segment_title": "5.3 Diffraction of Light",
+      "segment_summary": "Pages 212-222 of problems_in_general_physics_by_i_e_irodov.pdf (5.3 Diffraction of Light)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-problems-in-general-phys-6cf0b2b7-031",
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 223,
+      "page_end": 229,
+      "segment_title": "5.4 Polarization of Light",
+      "segment_summary": "Pages 223-229 of problems_in_general_physics_by_i_e_irodov.pdf (5.4 Polarization of Light)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-problems-in-general-phys-6cf0b2b7-032",
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 230,
+      "page_end": 232,
+      "segment_title": "5.5 Dispersion and Absorption of Light",
+      "segment_summary": "Pages 230-232 of problems_in_general_physics_by_i_e_irodov.pdf (5.5 Dispersion and Absorption of Light)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-problems-in-general-phys-6cf0b2b7-033",
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 233,
+      "page_end": 235,
+      "segment_title": "5.6 Optics of Moving Sources",
+      "segment_summary": "Pages 233-235 of problems_in_general_physics_by_i_e_irodov.pdf (5.6 Optics of Moving Sources)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-problems-in-general-phys-6cf0b2b7-034",
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 236,
+      "page_end": 240,
+      "segment_title": "5.7 Thermal Radiation. Quantum Nature of Light",
+      "segment_summary": "Pages 236-240 of problems_in_general_physics_by_i_e_irodov.pdf (5.7 Thermal Radiation. Quantum Nature of Light)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-problems-in-general-phys-6cf0b2b7-035",
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 241,
+      "page_end": 246,
+      "segment_title": "6.1 Scattering of Particles. Rutherford-Bohr Atom",
+      "segment_summary": "Pages 241-246 of problems_in_general_physics_by_i_e_irodov.pdf (6.1 Scattering of Particles. Rutherford-Bohr Atom)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-problems-in-general-phys-6cf0b2b7-036",
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 247,
+      "page_end": 252,
+      "segment_title": "6.2 Wave Properties of Particles. Schrodinger Equation",
+      "segment_summary": "Pages 247-252 of problems_in_general_physics_by_i_e_irodov.pdf (6.2 Wave Properties of Particles. Schrodinger Equation)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-problems-in-general-phys-6cf0b2b7-037",
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 253,
+      "page_end": 259,
+      "segment_title": "6.3 Properties of Atoms. Spectra",
+      "segment_summary": "Pages 253-259 of problems_in_general_physics_by_i_e_irodov.pdf (6.3 Properties of Atoms. Spectra)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-problems-in-general-phys-6cf0b2b7-038",
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 260,
+      "page_end": 265,
+      "segment_title": "6.4 Molecules and Crystals",
+      "segment_summary": "Pages 260-265 of problems_in_general_physics_by_i_e_irodov.pdf (6.4 Molecules and Crystals)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-problems-in-general-phys-6cf0b2b7-039",
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 266,
+      "page_end": 269,
+      "segment_title": "6.5 Radioactivity",
+      "segment_summary": "Pages 266-269 of problems_in_general_physics_by_i_e_irodov.pdf (6.5 Radioactivity)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-problems-in-general-phys-6cf0b2b7-040",
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 270,
+      "page_end": 274,
+      "segment_title": "6.6 Nuclear Reactions",
+      "segment_summary": "Pages 270-274 of problems_in_general_physics_by_i_e_irodov.pdf (6.6 Nuclear Reactions)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-problems-in-general-phys-6cf0b2b7-041",
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 275,
+      "page_end": 277,
+      "segment_title": "6.7 Elementary Particles",
+      "segment_summary": "Pages 275-277 of problems_in_general_physics_by_i_e_irodov.pdf (6.7 Elementary Particles)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-problems-in-general-phys-6cf0b2b7-042",
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 278,
+      "page_end": 362,
+      "segment_title": "Answers and Solutions",
+      "segment_summary": "Pages 278-362 of problems_in_general_physics_by_i_e_irodov.pdf (Answers and Solutions)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "SOLUTION"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-problems-in-general-phys-6cf0b2b7-043",
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 363,
+      "page_end": 385,
+      "segment_title": "Appendices & Tables",
+      "segment_summary": "Pages 363-385 of problems_in_general_physics_by_i_e_irodov.pdf (Appendices & Tables)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXCLUDED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "NON_CONTENT",
+        "content_types": [
+          "OTHER"
+        ]
+      }
+    }
+  ],
+  "created_at": "2026-09-29T16:38:19.237407Z"
+}

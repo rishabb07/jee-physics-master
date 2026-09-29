@@ -1,0 +1,177 @@
+{
+  "chapter_id": "kinematics",
+  "chapter_title": "Kinematics: Rest, Motion, and Trajectories",
+  "template_type": "MECHANICS",
+  "taxonomy_node_id": "kinematics",
+  "topics": [
+    {
+      "topic_id": "rectilinear-motion",
+      "title": "Motion in a Straight Line",
+      "subtopics": [
+        {
+          "subtopic_id": "distance-displacement",
+          "title": "Position, Distance, and Displacement",
+          "description": "Scalar path length versus vector displacement; origin and frame of reference dependence."
+        },
+        {
+          "subtopic_id": "speed-velocity",
+          "title": "Speed and Velocity",
+          "description": "Average versus instantaneous speed and velocity; vector direction; limits as dt approaches zero."
+        },
+        {
+          "subtopic_id": "acceleration-and-deceleration",
+          "title": "Acceleration and Deceleration",
+          "description": "Rate of change of velocity; differentiation; deceleration as reduction in speed versus sign of acceleration."
+        },
+        {
+          "subtopic_id": "constant-acceleration-equations",
+          "title": "Kinematic Equations for Constant Acceleration",
+          "description": "Derivation and application of v = u + at, s = ut + 0.5 a t^2, v^2 = u^2 + 2 a s, and s_n = u + 0.5 a (2n - 1)."
+        },
+        {
+          "subtopic_id": "variable-acceleration-calculus",
+          "title": "Calculus-Based Kinematics for Variable Acceleration",
+          "description": "Integration and differentiation for a(t), a(x), and a(v); chain rule a = v dv/dx."
+        },
+        {
+          "subtopic_id": "motion-under-gravity",
+          "title": "Free Fall and Vertical Motion Under Gravity",
+          "description": "1D motion with constant downward acceleration g; symmetry of time of ascent and descent; apex velocity."
+        },
+        {
+          "subtopic_id": "graphs-in-kinematics",
+          "title": "Graphical Analysis of Motion",
+          "description": "x-t, v-t, and a-t graphs; geometric interpretation of slope as derivative and area as integral."
+        }
+      ]
+    },
+    {
+      "topic_id": "projectile-motion",
+      "title": "Projectile Motion in Two Dimensions",
+      "subtopics": [
+        {
+          "subtopic_id": "ground-to-ground-projectile",
+          "title": "Ground-to-Ground Projectile Motion",
+          "description": "Orthogonal independence of horizontal and vertical motions; time of flight, maximum height, horizontal range, and trajectory parabola."
+        },
+        {
+          "subtopic_id": "projectile-from-tower",
+          "title": "Projection from an Elevated Platform or Tower",
+          "description": "Horizontal and angled launch from height h; time to hit ground; impact speed and angle."
+        },
+        {
+          "subtopic_id": "motion-on-inclined-plane",
+          "title": "Projectile Motion on an Inclined Plane",
+          "description": "Tilted coordinate axes along and perpendicular to the incline; range up and down incline; maximum range condition."
+        },
+        {
+          "subtopic_id": "launch-angle-from-position",
+          "title": "Trajectory Equation and Target Interception",
+          "description": "Solving for launch angle theta to hit given coordinate (x, y); envelope of safety parabola."
+        }
+      ]
+    },
+    {
+      "topic_id": "relative-motion",
+      "title": "Relative Motion in One and Two Dimensions",
+      "subtopics": [
+        {
+          "subtopic_id": "relative-velocity-1d",
+          "title": "Relative Velocity in One Dimension",
+          "description": "Definition v_AB = v_A - v_B; overtaking, head-on collisions, and reference frame transformations."
+        },
+        {
+          "subtopic_id": "relative-motion-2d",
+          "title": "Relative Motion in Two Dimensions",
+          "description": "Vector relative velocity v_AB = v_A - v_B in 2D; geometric pursuit and meeting conditions."
+        },
+        {
+          "subtopic_id": "river-swimmer-problems",
+          "title": "River-Swimmer Problems",
+          "description": "Crossing a flowing river; condition for minimum time vs shortest path (zero drift)."
+        },
+        {
+          "subtopic_id": "rain-umbrella-problems",
+          "title": "Rain-Umbrella Problems",
+          "description": "Apparent direction of falling rain seen by moving observer; umbrella tilt angle tan(phi) = v_man / v_rain."
+        },
+        {
+          "subtopic_id": "shortest-distance-and-collision",
+          "title": "Closest Approach and Collision of Two Moving Bodies",
+          "description": "Relative position vector along relative velocity vector; minimum distance calculation and time to closest approach."
+        }
+      ]
+    }
+  ],
+  "excluded_adjacent_topics": [
+    {
+      "topic": "Newton's Laws of Motion & Friction",
+      "rationale": "Forces, free body diagrams, friction coefficients, and F = ma belong strictly to Chapter 3 (laws-of-motion)."
+    },
+    {
+      "topic": "Work, Energy, and Power",
+      "rationale": "Kinetic energy theorem, potential energy, and mechanical work belong strictly to Chapter 4 (work-energy-power)."
+    },
+    {
+      "topic": "Circular Motion Dynamics",
+      "rationale": "Centripetal and tangential forces, banking of roads, and conical pendulum belong to Chapter 5 (laws-of-motion / circular dynamics)."
+    },
+    {
+      "topic": "Relativistic Kinematics",
+      "rationale": "Lorentz transformations and relativistic addition of velocities are Olympiad extension topics."
+    }
+  ],
+  "prerequisites": [
+    "units-and-dimensions",
+    "vectors-and-coordinate-systems",
+    "differential-calculus-foundations",
+    "integral-calculus-foundations"
+  ],
+  "source_grounding_summary": {
+    "primary_sources": [
+      {
+        "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+        "title": "Concepts of Physics Vol 1 by H.C. Verma",
+        "coverage": "Chapter 3: Rest and Motion: Kinematics (pp. 41-65)",
+        "role": "Conceptual backbone, rigorous definitions, worked examples, exercise problems"
+      },
+      {
+        "source_id": "src-fundamentals-of-physics--390f40d1",
+        "title": "Fundamentals of Physics (Halliday, Resnick & Walker)",
+        "coverage": "Chapter 2: Motion Along a Straight Line (pp. 27-56) & Chapter 4: Motion in Two and Three Dimensions (pp. 79-114)",
+        "role": "Calculus formulations, instantaneous acceleration proofs, 2D vector kinematics"
+      },
+      {
+        "source_id": "src-university-physics-with--0bc11b67",
+        "title": "University Physics with Modern Physics (Young & Freedman)",
+        "coverage": "Chapter 2: Motion Along a Straight Line (pp. 61-94) & Chapter 3: Motion in Two or Three Dimensions (pp. 95-130)",
+        "role": "Vector trajectory proofs, component separation, graphical relationships"
+      },
+      {
+        "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+        "title": "The Feynman Lectures on Physics, Vol. 1",
+        "coverage": "Lecture 8: Motion (pp. 81-85)",
+        "role": "Physical intuition on speed as rate of change, limits, time measurement"
+      },
+      {
+        "source_id": "src-problems-in-general-phys-6cf0b2b7",
+        "title": "Problems in General Physics by I.E. Irodov",
+        "coverage": "Part 1, Section 1.1: Kinematics (pp. 10-16, Problems 1.1 to 1.58)",
+        "role": "Advanced problem solving, river-swimmer frame shifts, trajectory curvature"
+      },
+      {
+        "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+        "title": "JEE Main Rank Booster Mock Test 02",
+        "coverage": "Kinematics questions Q18, Q25",
+        "role": "Official exam format assessment questions"
+      },
+      {
+        "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+        "title": "JEE Main Rank Booster Mock Test 03",
+        "coverage": "Kinematics questions Q11, Q26",
+        "role": "Official exam format assessment questions"
+      }
+    ]
+  },
+  "created_at": "2026-09-30T03:05:00Z"
+}

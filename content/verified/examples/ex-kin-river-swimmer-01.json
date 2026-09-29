@@ -1,0 +1,72 @@
+{
+  "example_id": "ex-kin-river-swimmer-01",
+  "chapter_id": "kinematics",
+  "problem_statement": "A river of width d = 400 m flows with a uniform current velocity v_R = 3.0 m/s. A swimmer can swim at a constant speed of v_{S/R} = 5.0 m/s in still water. (a) If the swimmer wishes to cross the river in the shortest possible time, in what direction should they steer, what is the crossing time, and how far downstream do they drift? (b) In what direction should they steer to reach the point directly opposite the starting point (zero drift), and what is the crossing time?",
+  "known_quantities": {
+    "river_width": "d = 400 m",
+    "river_speed": "v_R = 3.0 m/s",
+    "swimmer_still_speed": "v_{S/R} = 5.0 m/s"
+  },
+  "target_quantity": "Steering angles, crossing times, and downstream drifts for (a) shortest time and (b) zero drift",
+  "relevant_concepts": [
+    "concept-kin-river-boat-01",
+    "concept-kin-relative-vel-01"
+  ],
+  "governing_principles": [
+    "Vector velocity addition: v_ground = v_{S/R} + v_R",
+    "Crossing time t = d / v_y"
+  ],
+  "solution_strategy": "For shortest time, maximize perpendicular velocity component by pointing directly across (theta = 0). For zero drift, cancel river current along bank by pointing upstream with sin(theta) = v_R / v_{S/R}.",
+  "ordered_steps": [
+    {
+      "step_number": 1,
+      "action_description": "Part (a): Condition for shortest time crossing",
+      "equation_latex": "v_y = v_{S/R} \\cos\\theta \\implies t = \\frac{d}{v_{S/R} \\cos\\theta}",
+      "justification": "Perpendicular motion alone determines crossing time.",
+      "calculation_details": "Time is minimized when cos(theta) = 1 => theta = 0 (steer perpendicular to bank).",
+      "intermediate_result": "theta = 0"
+    },
+    {
+      "step_number": 2,
+      "action_description": "Part (a): Evaluate minimum time and downstream drift",
+      "equation_latex": "t_{\\text{min}} = \\frac{400\\text{ m}}{5.0\\text{ m/s}} = 80.0\\text{ s}, \\quad x_{\\text{drift}} = v_R t_{\\text{min}} = (3.0\\text{ m/s})(80.0\\text{ s}) = 240.0\\text{ m}",
+      "justification": "Horizontal displacement under constant river current v_R.",
+      "calculation_details": "t_min = 80 s, drift = 240 m downstream.",
+      "intermediate_result": "t_min = 80 s, drift = 240 m"
+    },
+    {
+      "step_number": 3,
+      "action_description": "Part (b): Condition for zero drift (straight across)",
+      "equation_latex": "v_{x,\\text{net}} = v_R - v_{S/R}\\sin\\theta = 0 \\implies \\sin\\theta = \\frac{v_R}{v_{S/R}} = \\frac{3.0}{5.0} = 0.60 \\implies \\theta = \\arcsin(0.60) \\approx 36.87^\\circ",
+      "justification": "Net ground velocity must be strictly perpendicular to river banks.",
+      "calculation_details": "Swimmer must steer 36.9 deg upstream from the normal (or 126.9 deg from downstream bank).",
+      "intermediate_result": "theta = 36.87 deg upstream"
+    },
+    {
+      "step_number": 4,
+      "action_description": "Part (b): Calculate net crossing velocity and crossing time for zero drift",
+      "equation_latex": "v_{y,\\text{net}} = \\sqrt{v_{S/R}^2 - v_R^2} = \\sqrt{5.0^2 - 3.0^2} = \\sqrt{25 - 9} = 4.0\\text{ m/s}, \\quad t = \\frac{d}{v_{y,\\text{net}}} = \\frac{400\\text{ m}}{4.0\\text{ m/s}} = 100.0\\text{ s}",
+      "justification": "Pythagorean theorem on right-angled velocity triangle.",
+      "calculation_details": "Crossing speed is 4.0 m/s; time is 400/4 = 100 s.",
+      "intermediate_result": "t = 100 s"
+    }
+  ],
+  "final_answer": "(a) Shortest time: Steer directly perpendicular to bank (0 deg); crossing time is 80.0 s; downstream drift is 240.0 m. (b) Zero drift: Steer 36.9 degrees upstream from the normal; crossing time is 100.0 s; drift is 0.0 m.",
+  "units": "deg, s, m",
+  "sanity_checks": [
+    "Crossing time for zero drift (100 s) is strictly longer than minimum crossing time (80 s), which is physically required.",
+    "Since v_{S/R} = 5.0 > v_R = 3.0, zero drift is mathematically and physically possible."
+  ],
+  "alternate_methods": [],
+  "trap_alerts": [
+    "Do not confuse the shortest time path with the shortest distance path! The shortest distance path takes 100 s, whereas the shortest time path takes 80 s."
+  ],
+  "source_atom_id": null,
+  "provenance": [],
+  "risk_level": "HIGH",
+  "verification_status": "VERIFIED",
+  "verification_record_id": "dual-cvr-ex-kin-river-swimmer-01",
+  "generator_identity": "physics-example-writer",
+  "generator_conversation_id": "gen-kin-ex-05",
+  "content_hash": "3621ce3ef70448ea30fd11aae3b88b8e3081a6abad5d9ddf19cf3f6d5e124d40"
+}

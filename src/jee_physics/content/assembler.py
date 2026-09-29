@@ -441,14 +441,14 @@ class ChapterAssembler:
             for atom_id in sec.get("question_atom_ids", []):
                 atom_data = self.load_canonical_atom(atom_id)
                 if atom_data:
-                    q_payload = atom_data.get("content_payload", {})
-                    q_stmt = q_payload.get("problem_statement", "")
+                    q_payload = atom_data.get("content_payload") or atom_data.get("question") or {}
+                    q_stmt = q_payload.get("problem_statement") or q_payload.get("statement", "")
                     q_opts = q_payload.get("options", [])
-                    q_ver_answer = atom_data.get("verified_answer", "")
-                    q_type = q_payload.get("question_type", "SINGLE_CORRECT")
+                    q_ver_answer = atom_data.get("verified_answer") or q_payload.get("verified_answer", "")
+                    q_type = q_payload.get("question_type", "SINGLE_CORRECT" if q_opts else "NUMERICAL")
 
                     prov_list = atom_data.get('provenance', [])
-                    prov_title = prov_list[0].get('source_title', 'Canonical KB') if prov_list else 'Canonical KB'
+                    prov_title = (prov_list[0].get('source_title') or prov_list[0].get('source_id', 'Canonical KB')) if prov_list else 'Canonical KB'
                     q_md = [
                         f"### Verified JEE Practice Problem: `{atom_id}`",
                         "",
@@ -461,7 +461,9 @@ class ChapterAssembler:
                     if q_opts:
                         q_md.append("**Options**:")
                         for opt in q_opts:
-                            q_md.append(f"- **({opt.get('identifier')})**: {opt.get('text')}")
+                            opt_id = opt.get('identifier') or opt.get('id') or ""
+                            opt_txt = opt.get('text', "")
+                            q_md.append(f"- **({opt_id})**: {opt_txt}")
                         q_md.append("")
 
                     q_md.extend([
@@ -469,7 +471,7 @@ class ChapterAssembler:
                         "<summary>Click to view independently verified solution key</summary>",
                         "",
                         f"**Verified Answer**: **{q_ver_answer}**  ",
-                        f"**Independent Verification Record**: `{atom_data.get('verification_record_id')}`",
+                        f"**Independent Verification Record**: `{atom_data.get('verification_record_id') or atom_data.get('atom_id')}`",
                         "",
                         "</details>",
                         "",

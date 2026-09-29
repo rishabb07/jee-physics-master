@@ -43,3 +43,5 @@ dump_formulas.py
 gen_verification.py
 run_qa.py
 scratch_assemble.py
+scratch/
+

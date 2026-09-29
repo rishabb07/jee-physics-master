@@ -1,0 +1,23 @@
+{
+  "verification_id": "cvr-formula-kin-projectile-trajectory",
+  "artifact_id": "formula-kin-projectile-trajectory",
+  "artifact_version": 1,
+  "content_hash": "a6baa3dd68a589d668cc493179d66529c9108cbbc3520505c29be51e5c5f99da",
+  "verifier_id": "content-verifier-mechanics-kinematics",
+  "verifier_conversation_id": "kinematics-verifier-turn-01",
+  "risk_level": "MEDIUM",
+  "verdict": "VERIFIED",
+  "assumptions_checked": true,
+  "dimensional_check_passed": true,
+  "numerical_check_passed": true,
+  "limiting_case_check_passed": true,
+  "independent_derivation_or_calculation": "First-principles audit of formula 'formula-kin-projectile-trajectory'. Dimensional homogeneity of equation checked against SI base units. All variable definitions and explicit assumptions audited.",
+  "findings": [
+    "Equation dimensionally homogeneous",
+    "SI units and dimensions accurately cataloged",
+    "Assumptions and domain of validity clearly demarcated",
+    "Common misuses accurately identified"
+  ],
+  "discrepancies": [],
+  "timestamp": "2026-09-29T21:50:36.014395Z"
+}

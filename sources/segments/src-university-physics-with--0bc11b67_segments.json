@@ -1,0 +1,1085 @@
+{
+  "source_id": "src-university-physics-with--0bc11b67",
+  "file_name": "University Physics with Modern Physics, 13th Edition.pdf",
+  "segmentation_type": "DETERMINISTIC_PAGE_SEGMENT",
+  "total_segments": 45,
+  "segments": [
+    {
+      "segment_id": "seg-src-university-physics-with--0bc11b67-001",
+      "source_id": "src-university-physics-with--0bc11b67",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 1,
+      "page_end": 26,
+      "segment_title": "Front Matter",
+      "segment_summary": "Pages 1-26 of University Physics with Modern Physics, 13th Edition.pdf (Front Matter)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXCLUDED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "NON_CONTENT",
+        "content_types": [
+          "OTHER"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-university-physics-with--0bc11b67-002",
+      "source_id": "src-university-physics-with--0bc11b67",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 27,
+      "page_end": 60,
+      "segment_title": "1 UNITS, PHYSICAL QUANTITIES, AND VECTORS",
+      "segment_summary": "Pages 27-60 of University Physics with Modern Physics, 13th Edition.pdf (1 UNITS, PHYSICAL QUANTITIES, AND VECTORS)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-university-physics-with--0bc11b67-003",
+      "source_id": "src-university-physics-with--0bc11b67",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 61,
+      "page_end": 94,
+      "segment_title": "2 MOTION ALONG A STRAIGHT LINE",
+      "segment_summary": "Pages 61-94 of University Physics with Modern Physics, 13th Edition.pdf (2 MOTION ALONG A STRAIGHT LINE)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-university-physics-with--0bc11b67-004",
+      "source_id": "src-university-physics-with--0bc11b67",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 95,
+      "page_end": 129,
+      "segment_title": "3 MOTION IN TWO OR THREE DIMENSIONS",
+      "segment_summary": "Pages 95-129 of University Physics with Modern Physics, 13th Edition.pdf (3 MOTION IN TWO OR THREE DIMENSIONS)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-university-physics-with--0bc11b67-005",
+      "source_id": "src-university-physics-with--0bc11b67",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 130,
+      "page_end": 159,
+      "segment_title": "4 NEWTON’S LAWS OF MOTION",
+      "segment_summary": "Pages 130-159 of University Physics with Modern Physics, 13th Edition.pdf (4 NEWTON’S LAWS OF MOTION)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-university-physics-with--0bc11b67-006",
+      "source_id": "src-university-physics-with--0bc11b67",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 160,
+      "page_end": 201,
+      "segment_title": "5 APPLYING NEWTON’S LAWS",
+      "segment_summary": "Pages 160-201 of University Physics with Modern Physics, 13th Edition.pdf (5 APPLYING NEWTON’S LAWS)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-university-physics-with--0bc11b67-007",
+      "source_id": "src-university-physics-with--0bc11b67",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 202,
+      "page_end": 232,
+      "segment_title": "6 WORK AND KINETIC ENERGY",
+      "segment_summary": "Pages 202-232 of University Physics with Modern Physics, 13th Edition.pdf (6 WORK AND KINETIC ENERGY)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-university-physics-with--0bc11b67-008",
+      "source_id": "src-university-physics-with--0bc11b67",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 233,
+      "page_end": 266,
+      "segment_title": "7 POTENTIAL ENERGY AND ENERGY CONSERVATION",
+      "segment_summary": "Pages 233-266 of University Physics with Modern Physics, 13th Edition.pdf (7 POTENTIAL ENERGY AND ENERGY CONSERVATION)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-university-physics-with--0bc11b67-009",
+      "source_id": "src-university-physics-with--0bc11b67",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 267,
+      "page_end": 303,
+      "segment_title": "8 MOMENTUM, IMPULSE, AND COLLISIONS",
+      "segment_summary": "Pages 267-303 of University Physics with Modern Physics, 13th Edition.pdf (8 MOMENTUM, IMPULSE, AND COLLISIONS)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-university-physics-with--0bc11b67-010",
+      "source_id": "src-university-physics-with--0bc11b67",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 304,
+      "page_end": 333,
+      "segment_title": "9 ROTATION OF RIGID BODIES",
+      "segment_summary": "Pages 304-333 of University Physics with Modern Physics, 13th Edition.pdf (9 ROTATION OF RIGID BODIES)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-university-physics-with--0bc11b67-011",
+      "source_id": "src-university-physics-with--0bc11b67",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 334,
+      "page_end": 369,
+      "segment_title": "10 DYNAMICS OF ROTATIONAL MOTION",
+      "segment_summary": "Pages 334-369 of University Physics with Modern Physics, 13th Edition.pdf (10 DYNAMICS OF ROTATIONAL MOTION)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-university-physics-with--0bc11b67-012",
+      "source_id": "src-university-physics-with--0bc11b67",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 370,
+      "page_end": 398,
+      "segment_title": "11 EQUILIBRIUM AND ELASTICITY",
+      "segment_summary": "Pages 370-398 of University Physics with Modern Physics, 13th Edition.pdf (11 EQUILIBRIUM AND ELASTICITY)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-university-physics-with--0bc11b67-013",
+      "source_id": "src-university-physics-with--0bc11b67",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 399,
+      "page_end": 427,
+      "segment_title": "12 FLUID MECHANICS",
+      "segment_summary": "Pages 399-427 of University Physics with Modern Physics, 13th Edition.pdf (12 FLUID MECHANICS)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-university-physics-with--0bc11b67-014",
+      "source_id": "src-university-physics-with--0bc11b67",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 428,
+      "page_end": 462,
+      "segment_title": "13 GRAVITATION",
+      "segment_summary": "Pages 428-462 of University Physics with Modern Physics, 13th Edition.pdf (13 GRAVITATION)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-university-physics-with--0bc11b67-015",
+      "source_id": "src-university-physics-with--0bc11b67",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 463,
+      "page_end": 497,
+      "segment_title": "14 PERIODIC MOTION",
+      "segment_summary": "Pages 463-497 of University Physics with Modern Physics, 13th Edition.pdf (14 PERIODIC MOTION)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-university-physics-with--0bc11b67-016",
+      "source_id": "src-university-physics-with--0bc11b67",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 498,
+      "page_end": 534,
+      "segment_title": "15 MECHANICAL WAVES",
+      "segment_summary": "Pages 498-534 of University Physics with Modern Physics, 13th Edition.pdf (15 MECHANICAL WAVES)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-university-physics-with--0bc11b67-017",
+      "source_id": "src-university-physics-with--0bc11b67",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 535,
+      "page_end": 576,
+      "segment_title": "16 SOUND AND HEARING",
+      "segment_summary": "Pages 535-576 of University Physics with Modern Physics, 13th Edition.pdf (16 SOUND AND HEARING)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-university-physics-with--0bc11b67-018",
+      "source_id": "src-university-physics-with--0bc11b67",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 577,
+      "page_end": 615,
+      "segment_title": "17 TEMPERATURE AND HEAT",
+      "segment_summary": "Pages 577-615 of University Physics with Modern Physics, 13th Edition.pdf (17 TEMPERATURE AND HEAT)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-university-physics-with--0bc11b67-019",
+      "source_id": "src-university-physics-with--0bc11b67",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 616,
+      "page_end": 649,
+      "segment_title": "18 THERMAL PROPERTIES OF MATTER",
+      "segment_summary": "Pages 616-649 of University Physics with Modern Physics, 13th Edition.pdf (18 THERMAL PROPERTIES OF MATTER)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-university-physics-with--0bc11b67-020",
+      "source_id": "src-university-physics-with--0bc11b67",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 650,
+      "page_end": 677,
+      "segment_title": "19 THE FIRST LAW OF THERMODYNAMICS",
+      "segment_summary": "Pages 650-677 of University Physics with Modern Physics, 13th Edition.pdf (19 THE FIRST LAW OF THERMODYNAMICS)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-university-physics-with--0bc11b67-021",
+      "source_id": "src-university-physics-with--0bc11b67",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 678,
+      "page_end": 712,
+      "segment_title": "20 THE SECOND LAW OF THERMODYNAMICS",
+      "segment_summary": "Pages 678-712 of University Physics with Modern Physics, 13th Edition.pdf (20 THE SECOND LAW OF THERMODYNAMICS)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-university-physics-with--0bc11b67-022",
+      "source_id": "src-university-physics-with--0bc11b67",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 713,
+      "page_end": 750,
+      "segment_title": "21 ELECTRIC CHARGE AND ELECTRIC FIELD",
+      "segment_summary": "Pages 713-750 of University Physics with Modern Physics, 13th Edition.pdf (21 ELECTRIC CHARGE AND ELECTRIC FIELD)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-university-physics-with--0bc11b67-023",
+      "source_id": "src-university-physics-with--0bc11b67",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 751,
+      "page_end": 779,
+      "segment_title": "22 GAUSS’S LAW",
+      "segment_summary": "Pages 751-779 of University Physics with Modern Physics, 13th Edition.pdf (22 GAUSS’S LAW)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-university-physics-with--0bc11b67-024",
+      "source_id": "src-university-physics-with--0bc11b67",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 780,
+      "page_end": 813,
+      "segment_title": "23 ELECTRIC POTENTIAL",
+      "segment_summary": "Pages 780-813 of University Physics with Modern Physics, 13th Edition.pdf (23 ELECTRIC POTENTIAL)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-university-physics-with--0bc11b67-025",
+      "source_id": "src-university-physics-with--0bc11b67",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 814,
+      "page_end": 843,
+      "segment_title": "24 CAPACITANCE AND DIELECTRICS",
+      "segment_summary": "Pages 814-843 of University Physics with Modern Physics, 13th Edition.pdf (24 CAPACITANCE AND DIELECTRICS)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-university-physics-with--0bc11b67-026",
+      "source_id": "src-university-physics-with--0bc11b67",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 844,
+      "page_end": 875,
+      "segment_title": "25 CURRENT, RESISTANCE, AND ELECTROMOTIVE FORCE",
+      "segment_summary": "Pages 844-875 of University Physics with Modern Physics, 13th Edition.pdf (25 CURRENT, RESISTANCE, AND ELECTROMOTIVE FORCE)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-university-physics-with--0bc11b67-027",
+      "source_id": "src-university-physics-with--0bc11b67",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 876,
+      "page_end": 908,
+      "segment_title": "26 DIRECT-CURRENT CIRCUITS",
+      "segment_summary": "Pages 876-908 of University Physics with Modern Physics, 13th Edition.pdf (26 DIRECT-CURRENT CIRCUITS)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-university-physics-with--0bc11b67-028",
+      "source_id": "src-university-physics-with--0bc11b67",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 909,
+      "page_end": 948,
+      "segment_title": "27 MAGNETIC FIELD AND MAGNETIC FORCES",
+      "segment_summary": "Pages 909-948 of University Physics with Modern Physics, 13th Edition.pdf (27 MAGNETIC FIELD AND MAGNETIC FORCES)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-university-physics-with--0bc11b67-029",
+      "source_id": "src-university-physics-with--0bc11b67",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 949,
+      "page_end": 982,
+      "segment_title": "28 SOURCES OF MAGNETIC FIELD",
+      "segment_summary": "Pages 949-982 of University Physics with Modern Physics, 13th Edition.pdf (28 SOURCES OF MAGNETIC FIELD)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-university-physics-with--0bc11b67-030",
+      "source_id": "src-university-physics-with--0bc11b67",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 983,
+      "page_end": 1016,
+      "segment_title": "29 ELECTROMAGNETIC INDUCTION",
+      "segment_summary": "Pages 983-1016 of University Physics with Modern Physics, 13th Edition.pdf (29 ELECTROMAGNETIC INDUCTION)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-university-physics-with--0bc11b67-031",
+      "source_id": "src-university-physics-with--0bc11b67",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 1017,
+      "page_end": 1046,
+      "segment_title": "30 INDUCTANCE",
+      "segment_summary": "Pages 1017-1046 of University Physics with Modern Physics, 13th Edition.pdf (30 INDUCTANCE)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-university-physics-with--0bc11b67-032",
+      "source_id": "src-university-physics-with--0bc11b67",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 1047,
+      "page_end": 1076,
+      "segment_title": "31 ALTERNATING CURRENT",
+      "segment_summary": "Pages 1047-1076 of University Physics with Modern Physics, 13th Edition.pdf (31 ALTERNATING CURRENT)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-university-physics-with--0bc11b67-033",
+      "source_id": "src-university-physics-with--0bc11b67",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 1077,
+      "page_end": 1105,
+      "segment_title": "32 ELECTROMAGNETIC WAVES",
+      "segment_summary": "Pages 1077-1105 of University Physics with Modern Physics, 13th Edition.pdf (32 ELECTROMAGNETIC WAVES)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-university-physics-with--0bc11b67-034",
+      "source_id": "src-university-physics-with--0bc11b67",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 1106,
+      "page_end": 1139,
+      "segment_title": "33 THE NATURE AND PROPAGATION OF LIGHT",
+      "segment_summary": "Pages 1106-1139 of University Physics with Modern Physics, 13th Edition.pdf (33 THE NATURE AND PROPAGATION OF LIGHT)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-university-physics-with--0bc11b67-035",
+      "source_id": "src-university-physics-with--0bc11b67",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 1140,
+      "page_end": 1188,
+      "segment_title": "34 GEOMETRIC OPTICS",
+      "segment_summary": "Pages 1140-1188 of University Physics with Modern Physics, 13th Edition.pdf (34 GEOMETRIC OPTICS)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-university-physics-with--0bc11b67-036",
+      "source_id": "src-university-physics-with--0bc11b67",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 1189,
+      "page_end": 1215,
+      "segment_title": "35 INTERFERENCE",
+      "segment_summary": "Pages 1189-1215 of University Physics with Modern Physics, 13th Edition.pdf (35 INTERFERENCE)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-university-physics-with--0bc11b67-037",
+      "source_id": "src-university-physics-with--0bc11b67",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 1216,
+      "page_end": 1248,
+      "segment_title": "36 DIFFRACTION",
+      "segment_summary": "Pages 1216-1248 of University Physics with Modern Physics, 13th Edition.pdf (36 DIFFRACTION)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-university-physics-with--0bc11b67-038",
+      "source_id": "src-university-physics-with--0bc11b67",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 1249,
+      "page_end": 1286,
+      "segment_title": "37 RELATIVITY",
+      "segment_summary": "Pages 1249-1286 of University Physics with Modern Physics, 13th Edition.pdf (37 RELATIVITY)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-university-physics-with--0bc11b67-039",
+      "source_id": "src-university-physics-with--0bc11b67",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 1287,
+      "page_end": 1311,
+      "segment_title": "38 PHOTONS: LIGHT WAVES BEHAVING AS PARTICLES",
+      "segment_summary": "Pages 1287-1311 of University Physics with Modern Physics, 13th Edition.pdf (38 PHOTONS: LIGHT WAVES BEHAVING AS PARTICLES)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-university-physics-with--0bc11b67-040",
+      "source_id": "src-university-physics-with--0bc11b67",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 1312,
+      "page_end": 1353,
+      "segment_title": "39 PARTICLES BEHAVING AS WAVES",
+      "segment_summary": "Pages 1312-1353 of University Physics with Modern Physics, 13th Edition.pdf (39 PARTICLES BEHAVING AS WAVES)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-university-physics-with--0bc11b67-041",
+      "source_id": "src-university-physics-with--0bc11b67",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 1354,
+      "page_end": 1389,
+      "segment_title": "40 QUANTUM MECHANICS",
+      "segment_summary": "Pages 1354-1389 of University Physics with Modern Physics, 13th Edition.pdf (40 QUANTUM MECHANICS)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-university-physics-with--0bc11b67-042",
+      "source_id": "src-university-physics-with--0bc11b67",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 1390,
+      "page_end": 1430,
+      "segment_title": "41 ATOMIC STRUCTURE",
+      "segment_summary": "Pages 1390-1430 of University Physics with Modern Physics, 13th Edition.pdf (41 ATOMIC STRUCTURE)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-university-physics-with--0bc11b67-043",
+      "source_id": "src-university-physics-with--0bc11b67",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 1431,
+      "page_end": 1464,
+      "segment_title": "42 MOLECULES AND CONDENSED MATTER",
+      "segment_summary": "Pages 1431-1464 of University Physics with Modern Physics, 13th Edition.pdf (42 MOLECULES AND CONDENSED MATTER)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-university-physics-with--0bc11b67-044",
+      "source_id": "src-university-physics-with--0bc11b67",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 1465,
+      "page_end": 1505,
+      "segment_title": "43 NUCLEAR PHYSICS",
+      "segment_summary": "Pages 1465-1505 of University Physics with Modern Physics, 13th Edition.pdf (43 NUCLEAR PHYSICS)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-university-physics-with--0bc11b67-045",
+      "source_id": "src-university-physics-with--0bc11b67",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 1506,
+      "page_end": 1598,
+      "segment_title": "44 PARTICLE PHYSICS AND COSMOLOGY",
+      "segment_summary": "Pages 1506-1598 of University Physics with Modern Physics, 13th Edition.pdf (44 PARTICLE PHYSICS AND COSMOLOGY)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    }
+  ],
+  "created_at": "2026-09-29T16:38:31.893110Z"
+}

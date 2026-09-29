@@ -1,0 +1,53 @@
+{
+  "formula_id": "formula-kin-river-crossing-time",
+  "chapter_id": "kinematics",
+  "title": "River Crossing Time and Drift Formula",
+  "equation": "t = \\frac{d}{v_{B/R} \\cos\\theta}, \\quad x = (v_R - v_{B/R}\\sin\\theta) t",
+  "equation_latex": "t = \\frac{d}{v_{B/R} \\cos\\theta}, \\quad x = (v_R - v_{B/R}\\sin\\theta) t",
+  "variables": {
+    "t": "Time duration to cross river",
+    "d": "Width of the river between parallel banks",
+    "v_{B/R}": "Speed of boat/swimmer relative to water",
+    "\\theta": "Steering angle measured upstream from the bank normal",
+    "v_R": "River flow speed",
+    "x": "Net horizontal drift downstream along the opposite bank"
+  },
+  "units": {
+    "t": "s",
+    "d": "m",
+    "v": "m/s",
+    "\\theta": "rad or deg",
+    "x": "m"
+  },
+  "dimensions": {
+    "t": "[T]",
+    "d": "[L]",
+    "v": "[L][T]^-1",
+    "\\theta": "[1]",
+    "x": "[L]"
+  },
+  "assumptions": [
+    "Uniform river current velocity across width d",
+    "Constant speed relative to water v_{B/R}"
+  ],
+  "validity_conditions": [
+    "Shortest crossing time occurs at theta = 0; zero drift requires v_{B/R} >= v_R and sin(theta) = v_R / v_{B/R}"
+  ],
+  "derivation_reference": null,
+  "related_concepts": [
+    "concept-kin-river-boat-01",
+    "concept-kin-relative-vel-01"
+  ],
+  "common_misuse": [
+    "Attempting zero drift when swimmer speed is slower than river current (v_{B/R} < v_R)"
+  ],
+  "provenance": [],
+  "generation_metadata": {
+    "agent": "physics-formula-writer",
+    "version": "1.0",
+    "target_chapter": "kinematics"
+  },
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-formula-kin-river-crossing-time",
+  "content_hash": "45c2017e212b948c24de485754b5a3e490e678f247bb266da071dd71fbb02466"
+}

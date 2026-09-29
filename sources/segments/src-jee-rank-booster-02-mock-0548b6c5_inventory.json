@@ -1,0 +1,180 @@
+{
+  "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+  "file_name": "jee_rank_booster_-02_mock_paper.pdf",
+  "sha256": "0548b6c566bac83608d38104c2728fe649363e3313e4f7d9208d21be6baef0fc",
+  "total_pages": 12,
+  "pages_with_text": 12,
+  "pages_with_images": 8,
+  "is_image_only": false,
+  "pages": [
+    {
+      "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+      "page_number": 1,
+      "page_hash": "8ddd530c5b75d9eb9b3c4776d5e113042a9cd686d590a54fa05fd0a5c78b4bc3",
+      "has_text": true,
+      "approximate_text_length": 1738,
+      "has_images": true,
+      "image_count": 1,
+      "dimensions_pt": [
+        558.1409912109375,
+        720.0
+      ],
+      "text_snippet": "Section - A 1. N divisions on the main scale of a vernier callipers coincide with N + 1 divisions on the vernier scale. If each division on the main scale is of ‘a’ units, the least count of the instr"
+    },
+    {
+      "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+      "page_number": 2,
+      "page_hash": "7330d04b9f97e2cfd6c00303d1ccc2416d5231c6c601cdd1f7332a7b54eb8b5d",
+      "has_text": true,
+      "approximate_text_length": 2002,
+      "has_images": false,
+      "image_count": 0,
+      "dimensions_pt": [
+        558.1409912109375,
+        720.0
+      ],
+      "text_snippet": "3. n moles of an ideal gas undergo a process A ® B as shown in the figure. Maximum temperature of the gas during the process is A B V0 2V0 P0 2P0 P V (1) 0 0 9P V nR (2) 0 0 3 2 P V nR (3) 0 0 9 2 P V"
+    },
+    {
+      "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+      "page_number": 3,
+      "page_hash": "32e6667fb13f84e5d55eaa8e923be1d80650ea1c9708a905c93b0e789d09ae64",
+      "has_text": true,
+      "approximate_text_length": 1927,
+      "has_images": false,
+      "image_count": 0,
+      "dimensions_pt": [
+        558.1409912109375,
+        720.0
+      ],
+      "text_snippet": "10. A homogeneous  solid cylinder of length L (L < H/2). Cross-sectional area A/5 is immersed such that it floats with its axis vertical at the liquid- liquid interface with length L/4 in the denser l"
+    },
+    {
+      "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+      "page_number": 4,
+      "page_hash": "83dee3b8866d1dad7e6d756e609c4466dba78aee5aee8c23e0df2d565af2cf06",
+      "has_text": true,
+      "approximate_text_length": 1511,
+      "has_images": false,
+      "image_count": 0,
+      "dimensions_pt": [
+        558.1409912109375,
+        720.0
+      ],
+      "text_snippet": "15. Velocity–time graph for a body of mass 10 kg is shown in figure. Work–done on the body in first two seconds of the motion is : 10s        t(s) 50 ms -1 v (m/s) (0,0) (1) – 9300 J (2) 12000 J (3) –"
+    },
+    {
+      "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+      "page_number": 5,
+      "page_hash": "07af8669e66db89d146ec86f3ec49ed991ef62b338c82714e9cb57995c8d6af0",
+      "has_text": true,
+      "approximate_text_length": 2145,
+      "has_images": false,
+      "image_count": 0,
+      "dimensions_pt": [
+        558.1409912109375,
+        720.0
+      ],
+      "text_snippet": "Section - B 21. The pulleys and strings shown in the figure are smooth and of negligible mass. For the system to remain in equilibrium, the angle q should be _____ degree. m m q 2m 22. A current of 4A"
+    },
+    {
+      "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+      "page_number": 6,
+      "page_hash": "27f54c70126e8937eda08e3fe4d752783072829e45b59d7d2a4cd7a44402c3e5",
+      "has_text": true,
+      "approximate_text_length": 1882,
+      "has_images": true,
+      "image_count": 1,
+      "dimensions_pt": [
+        558.1409912109375,
+        720.0
+      ],
+      "text_snippet": "Section - A 31. Consider the following reactions (i) )s( Cd e 2 ) aq ( Cd 2 ¾® ¾ + - + , E° = – 0.40 V (ii) Ag (aq) e + - +   ¾® ¾  Ag(s), E° = 0.80 V For the galvanic cell involving the above reactio"
+    },
+    {
+      "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+      "page_number": 7,
+      "page_hash": "ecf8ca374e13eafd448b3f13416ad98be9d20613a3f5669b027baef361f118d3",
+      "has_text": true,
+      "approximate_text_length": 1897,
+      "has_images": true,
+      "image_count": 1,
+      "dimensions_pt": [
+        558.1409912109375,
+        720.0
+      ],
+      "text_snippet": "38. Optically active isomer (A) of (C5H9Cl) on treatment with one mole of H2 gives an optically inactive compound (B) compound (A) will be: (1) CH     CH     CH     CH 3 2 CH Cl 2 (2) Cl     CH     CH"
+    },
+    {
+      "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+      "page_number": 8,
+      "page_hash": "13ed6f3e9c92306b6987ba026ace69d54d282fcce4c2a3a0857c3498e92ce0f3",
+      "has_text": true,
+      "approximate_text_length": 1077,
+      "has_images": true,
+      "image_count": 1,
+      "dimensions_pt": [
+        558.1409912109375,
+        720.0
+      ],
+      "text_snippet": "46. Choose the incorrect option – (1) When a dilute solution of an acid is added to a dilute solution of a base, neutralization reaction takes place. (2) In acid-base titrations, at the end point, the"
+    },
+    {
+      "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+      "page_number": 9,
+      "page_hash": "919eb3aad28c5ae8ccacabaa57932d1e6bd0331f7eb0ac0752ab6925b909bbaf",
+      "has_text": true,
+      "approximate_text_length": 2108,
+      "has_images": true,
+      "image_count": 1,
+      "dimensions_pt": [
+        558.1409912109375,
+        720.0
+      ],
+      "text_snippet": "50. If the elevation in boiling point of a solution of non-volatile, non-electrolytic and non- associating solute in a solvent (Kb = x K kg mol–1) is y K, then the depression in freezing point of solu"
+    },
+    {
+      "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+      "page_number": 10,
+      "page_hash": "104c3c5deb86fd0b4b529581b9fbdf180506c1c6f4f758cb99e845b3965eb597",
+      "has_text": true,
+      "approximate_text_length": 1724,
+      "has_images": true,
+      "image_count": 1,
+      "dimensions_pt": [
+        558.1409912109375,
+        720.0
+      ],
+      "text_snippet": "Section - A 61. Given f (x) =  2 x 3 10 x if 3 x 3 2 e if x 3 - ì - - < < ïí ï - ³ î The graph of f (x) is – (1) continuous and differentiable at x = 3 (2) continuous but not differentiable at x = 3 ("
+    },
+    {
+      "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+      "page_number": 11,
+      "page_hash": "b021d33822c3b8d487eb9663d41a550ce777f833c3f679aa7b2ab7848f600bd2",
+      "has_text": true,
+      "approximate_text_length": 1583,
+      "has_images": true,
+      "image_count": 1,
+      "dimensions_pt": [
+        558.1409912109375,
+        720.0
+      ],
+      "text_snippet": "70. All the five digit numbers in which each successive digit exceeds is predecessor are arranged in the increasing order. The (105)th number does not contain the digit (1) 1 (2) 2 (3) 6 (4) All of th"
+    },
+    {
+      "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+      "page_number": 12,
+      "page_hash": "d717b3fc3ebe35b140086e35a0917c032503c920caa0f897d3d72fca27cb392e",
+      "has_text": true,
+      "approximate_text_length": 2041,
+      "has_images": true,
+      "image_count": 1,
+      "dimensions_pt": [
+        558.1409912109375,
+        720.0
+      ],
+      "text_snippet": "79. The value of ò ò - - + x cos 0 1 x sin 0 1 2 2 dt t cos dt t sin  is (1) p (2)  2 p (3) 4 p (4) 1 80. If a is real and 2ax sin By cosBz 0 + + = , x cos By sin Bz 0 + + = , – x + sin By – cos Bz ="
+    }
+  ],
+  "created_at": "2026-09-29T16:38:11.044348Z"
+}

@@ -1,0 +1,51 @@
+{
+  "formula_id": "formula-kin-incline-range",
+  "chapter_id": "kinematics",
+  "title": "Range Up an Inclined Plane",
+  "equation": "R_{\\text{up}} = \\frac{2 u^2 \\sin(\\theta - \\alpha) \\cos\\theta}{g \\cos^2\\alpha}",
+  "equation_latex": "R_{\\text{up}} = \\frac{2 u^2 \\sin(\\theta - \\alpha) \\cos\\theta}{g \\cos^2\\alpha}",
+  "variables": {
+    "R_{\\text{up}}": "Range measured along the incline plane surface",
+    "u": "Launch speed",
+    "\\theta": "Launch angle relative to horizontal",
+    "\\alpha": "Inclination angle of plane with horizontal",
+    "g": "Gravitational acceleration"
+  },
+  "units": {
+    "R_{\\text{up}}": "m",
+    "u": "m/s",
+    "\\theta": "rad or deg",
+    "\\alpha": "rad or deg",
+    "g": "m/s^2"
+  },
+  "dimensions": {
+    "R_{\\text{up}}": "[L]",
+    "u": "[L][T]^-1",
+    "angles": "[1]",
+    "g": "[L][T]^-2"
+  },
+  "assumptions": [
+    "Planar incline",
+    "Launch angle theta > alpha",
+    "Uniform gravity g"
+  ],
+  "validity_conditions": [
+    "Maximum range up incline occurs at launch angle theta = pi/4 + alpha/2"
+  ],
+  "derivation_reference": "derivation-formula-kin-incline-range",
+  "related_concepts": [
+    "concept-kin-incline-proj-01"
+  ],
+  "common_misuse": [
+    "Confusing launch angle with respect to horizontal (theta) with angle relative to incline (beta = theta - alpha)"
+  ],
+  "provenance": [],
+  "generation_metadata": {
+    "agent": "physics-formula-writer",
+    "version": "1.0",
+    "target_chapter": "kinematics"
+  },
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-formula-kin-incline-range",
+  "content_hash": "65f4a252f263a5d9b9ae716b329b6647f64b761317c1826886898ab7181e90b1"
+}

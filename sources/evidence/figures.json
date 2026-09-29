@@ -1,0 +1,182 @@
+[
+  {
+    "figure_id": "fig-evid-parallel-axis-hcv1",
+    "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+    "page": 185,
+    "parent_concept_or_problem_id": "evid-hcv1-p185-parallel-axis",
+    "bounding_box": [
+      100.0,
+      250.0,
+      350.0,
+      450.0
+    ],
+    "caption": "Figure 10.12: Coordinate geometry for the proof of Parallel Axis Theorem.",
+    "relationship_to_text": "Depicts center of mass origin and perpendicular displacement d along x-axis to parallel axis.",
+    "page_image_ref": "sources/evidence/figures/fig_hcv1_10_12.png",
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "200d4762ac040263a3f476034d08f6dbf6f93ffbf9debf016dea1079f2a2adea"
+  },
+  {
+    "figure_id": "fig-evid-pv-adiabatic-halliday",
+    "source_id": "src-fundamentals-of-physics--390f40d1",
+    "page": 560,
+    "parent_concept_or_problem_id": "evid-halliday-p560-adiabatic-ideal-gas",
+    "bounding_box": [
+      80.0,
+      200.0,
+      400.0,
+      420.0
+    ],
+    "caption": "Figure 19-15: P-V diagram comparing reversible adiabatic curves (steeper slope) with isotherms.",
+    "relationship_to_text": "Visually demonstrates that adiabatic expansion cools the gas, yielding lower final pressure than isothermal expansion.",
+    "page_image_ref": "sources/evidence/figures/fig_halliday_19_15.png",
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e383f1d7512c1f34d792a4ece191d6b703c751ccd28721052777ba3084e3859e"
+  },
+  {
+    "figure_id": "fig-evid-porro-prism-hcv1",
+    "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+    "page": 384,
+    "parent_concept_or_problem_id": "ex-evid-hcv1-tir-prism",
+    "bounding_box": [
+      120.0,
+      300.0,
+      380.0,
+      520.0
+    ],
+    "caption": "Figure 18.9: Total internal reflection inside a 45-90-45 Porro prism turning light by 90 degrees.",
+    "relationship_to_text": "Illustrates ray path entering normal to leg and total reflection at 45 degree incidence on hypotenuse.",
+    "page_image_ref": "sources/evidence/figures/fig_hcv1_18_9.png",
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "6c4fc2ef9fbfd2241b7c1064f323cd45c6ca93ef820e9478e108162e7ac31a22"
+  },
+  {
+    "figure_id": "fig-evid-drift-cylinder-hcv2",
+    "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+    "page": 188,
+    "parent_concept_or_problem_id": "evid-hcv2-p188-drift-velocity",
+    "bounding_box": [
+      90.0,
+      180.0,
+      360.0,
+      350.0
+    ],
+    "caption": "Figure 32.2: Cylindrical volume element A v_d dt traversed by conduction electrons.",
+    "relationship_to_text": "Provides the geometric volume argument connecting carrier density n and microscopic drift velocity to macro current I.",
+    "page_image_ref": "sources/evidence/figures/fig_hcv2_32_2.png",
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "2efb11404d6af6bbc7555ac2ee2cdf196793362578a18aebddb34f6b71ea99ab"
+  },
+  {
+    "figure_id": "fig-hcv1-p380-snell-prism",
+    "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+    "page": 380,
+    "parent_concept_or_problem_id": null,
+    "bounding_box": null,
+    "caption": "Ray refraction through triangular glass prism with angle of incidence i and emergence e",
+    "relationship_to_text": "Essential physical diagram illustrating governing geometry",
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "086a0b9dad08f3289936d3ec842047008f2219d431e52b30804efe533cd2ba45"
+  },
+  {
+    "figure_id": "fig-hcv1-p395-lens-conjugate",
+    "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+    "page": 395,
+    "parent_concept_or_problem_id": null,
+    "bounding_box": null,
+    "caption": "Conjugate foci and ray geometry for convex thin lens",
+    "relationship_to_text": "Essential physical diagram illustrating governing geometry",
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "fa7e95a0ecdc6c9852e4f064daad7b39f51c7501fcf9a263096d05dbbbe85d6f"
+  },
+  {
+    "figure_id": "fig-hcv2-p145-gauss-sphere",
+    "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+    "page": 145,
+    "parent_concept_or_problem_id": null,
+    "bounding_box": null,
+    "caption": "Spherical Gaussian surface enclosing uniform volume charge density",
+    "relationship_to_text": "Essential physical diagram illustrating governing geometry",
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "4a7ab8b087b563cc226d9b6cd35b5bdfd37064c9920b4799dc16740a9b04caee"
+  },
+  {
+    "figure_id": "fig-hcv2-p170-parallel-plate",
+    "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+    "page": 170,
+    "parent_concept_or_problem_id": null,
+    "bounding_box": null,
+    "caption": "Parallel plate capacitor with dielectric boundary polarization charges",
+    "relationship_to_text": "Essential physical diagram illustrating governing geometry",
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "fb39278540d3a6793b46a4c9e56c49a2096b277382b60d1be2124746a9ed9d9e"
+  },
+  {
+    "figure_id": "fig-hcv2-p250-biot-savart-loop",
+    "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+    "page": 250,
+    "parent_concept_or_problem_id": null,
+    "bounding_box": null,
+    "caption": "Circular current loop magnetic field along axial line",
+    "relationship_to_text": "Essential physical diagram illustrating governing geometry",
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3738c6024e9fe0c35d55e836551f9af8d9ec9f854fe56a05a3499e6c522ab0f"
+  },
+  {
+    "figure_id": "fig-halliday-p120-fbd-incline",
+    "source_id": "src-fundamentals-of-physics--390f40d1",
+    "page": 120,
+    "parent_concept_or_problem_id": null,
+    "bounding_box": null,
+    "caption": "Free body diagram of block on rough inclined plane with normal and friction vectors",
+    "relationship_to_text": "Essential physical diagram illustrating governing geometry",
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "d468ce1b169eded3315f6d534c5bb612b3559afa7003dc7b6e671c9b8ee08f5b"
+  },
+  {
+    "figure_id": "fig-halliday-p335-rolling-disc",
+    "source_id": "src-fundamentals-of-physics--390f40d1",
+    "page": 335,
+    "parent_concept_or_problem_id": null,
+    "bounding_box": null,
+    "caption": "Kinematic rolling wheel velocity vector superposition: translation + rotation",
+    "relationship_to_text": "Essential physical diagram illustrating governing geometry",
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "ae4102e6a413e9be703c947d9bae309f57f00a158541c95216b41c6598794e43"
+  },
+  {
+    "figure_id": "fig-up-p355-torque-vector",
+    "source_id": "src-university-physics-with--0bc11b67",
+    "page": 355,
+    "parent_concept_or_problem_id": null,
+    "bounding_box": null,
+    "caption": "Right hand rule vector cross product r x F producing perpendicular torque",
+    "relationship_to_text": "Essential physical diagram illustrating governing geometry",
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e878be6101a1c795cd6d7056677e60c858e8cecf3683c87b86fe4dc630becbef"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "classification_id": "sub-class-src-jee-main-mock-test-01-20-222525c1-001",
+    "source_id": "src-jee-main-mock-test-01-20-222525c1",
+    "page_start": 1,
+    "page_end": 4,
+    "subject": "PHYSICS",
+    "confidence": 1.0,
+    "reason": "Contains Physics Section A & B (Q1-30)",
+    "detected_markers": ["Q1", "Physics"],
+    "status": "PROPOSED",
+    "notes": "Verified from segments"
+  },
+  {
+    "classification_id": "sub-class-src-jee-main-mock-test-01-20-222525c1-002",
+    "source_id": "src-jee-main-mock-test-01-20-222525c1",
+    "page_start": 5,
+    "page_end": 8,
+    "subject": "CHEMISTRY",
+    "confidence": 1.0,
+    "reason": "Contains Chemistry Section A & B (Q31-60)",
+    "detected_markers": ["Q31", "Chemistry"],
+    "status": "PROPOSED",
+    "notes": "Verified from segments"
+  },
+  {
+    "classification_id": "sub-class-src-jee-main-mock-test-01-20-222525c1-003",
+    "source_id": "src-jee-main-mock-test-01-20-222525c1",
+    "page_start": 9,
+    "page_end": 12,
+    "subject": "MATHEMATICS",
+    "confidence": 1.0,
+    "reason": "Contains Mathematics Section A & B (Q61-90)",
+    "detected_markers": ["Q61", "Mathematics"],
+    "status": "PROPOSED",
+    "notes": "Verified from segments"
+  }
+]

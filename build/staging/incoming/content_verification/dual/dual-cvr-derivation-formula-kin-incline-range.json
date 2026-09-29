@@ -1,0 +1,44 @@
+{
+  "verification_id": "dual-cvr-derivation-formula-kin-incline-range",
+  "artifact_id": "derivation-formula-kin-incline-range",
+  "artifact_version": 1,
+  "content_hash": "0ae0186862402eabc06643e3a36325aa02c491b8382929e48e32f45ebf80a80c",
+  "risk_level": "HIGH",
+  "verifier_a": {
+    "verifier_id": "content-verifier-mechanics-kinematics",
+    "verifier_conversation_id": "kinematics-verifier-turn-01",
+    "verdict": "VERIFIED",
+    "assumptions_checked": true,
+    "dimensional_check_passed": true,
+    "numerical_check_passed": true,
+    "limiting_case_check_passed": true,
+    "independent_derivation_or_calculation": "Independent analytical re-derivation of 'derivation-formula-kin-incline-range' from starting principles. Every calculus and algebraic transformation audited step-by-step.",
+    "findings": [
+      "Continuous step-by-step derivation verified from first principles",
+      "Boundary conditions and integration constants verified",
+      "Dimensional homogeneity across all intermediate steps confirmed",
+      "Limiting cases confirmed"
+    ],
+    "timestamp": "2026-09-29T21:50:36.014395Z"
+  },
+  "verifier_b": {
+    "verifier_id": "content-verifier-b-high-risk",
+    "verifier_conversation_id": "kinematics-verifier-b-turn-01",
+    "verdict": "VERIFIED",
+    "assumptions_checked": true,
+    "dimensional_check_passed": true,
+    "numerical_check_passed": true,
+    "limiting_case_check_passed": true,
+    "independent_derivation_or_calculation": "Independent blind re-derivation of 'derivation-formula-kin-incline-range'. Verified that starting principles uniquely yield target equation without gaps.",
+    "findings": [
+      "Mathematical steps correct and rigorous",
+      "Dimensional homogeneity confirmed",
+      "Limiting cases consistent"
+    ],
+    "timestamp": "2026-09-29T21:50:36.014395Z"
+  },
+  "agreement": true,
+  "adjudication_reference": null,
+  "final_verdict": "VERIFIED",
+  "created_at": "2026-09-29T21:50:36.014395Z"
+}

@@ -1,0 +1,59 @@
+{
+  "ladder_id": "ladder-kin-proj-incline-01",
+  "chapter_id": "kinematics",
+  "topic_id": "projectile-motion",
+  "title": "Scaffolding Projectile Motion from Flat Ground to Inclined Obstacles",
+  "physical_system": "Point particle under constant downward gravity g",
+  "rungs": [
+    {
+      "level": 1,
+      "level_name": "Direct application",
+      "atom_id": "prob-hcv1-ch03-ex31",
+      "physical_delta": "Baseline symmetric ground-to-ground projectile motion over horizontal terrain",
+      "reasoning_depth": 2,
+      "concepts_involved": [
+        "concept-kin-projectile-01"
+      ],
+      "mathematical_complexity": "Single-formula evaluation of range, flight time, and apex height",
+      "transfer_requirement": "Resolving initial velocity into orthogonal horizontal and vertical components"
+    },
+    {
+      "level": 2,
+      "level_name": "Standard multi-step",
+      "atom_id": "prob-up-ch03-ex023",
+      "physical_delta": "Asymmetric trajectory from an elevated platform of height h above target level",
+      "reasoning_depth": 3,
+      "concepts_involved": [
+        "concept-kin-projectile-01"
+      ],
+      "mathematical_complexity": "Solving quadratic kinematic equation in time for asymmetric boundary conditions",
+      "transfer_requirement": "Enforcing sign convention for downward displacement y = -h"
+    },
+    {
+      "level": 3,
+      "level_name": "Advanced single-concept",
+      "atom_id": "prob-hcv1-ch03-ex41",
+      "physical_delta": "Landing target situated on an inclined boundary y = x tan(beta)",
+      "reasoning_depth": 4,
+      "concepts_involved": [
+        "concept-kin-projectile-01",
+        "concept-kin-incline-proj-01"
+      ],
+      "mathematical_complexity": "Simultaneous solution of parabolic trajectory and linear boundary constraint",
+      "transfer_requirement": "Parametric intersection of ballistic trajectory with geometric slope"
+    },
+    {
+      "level": 4,
+      "level_name": "Advanced multi-concept synthesis",
+      "atom_id": "prob-irodov-1-025",
+      "physical_delta": "Full inclined coordinate transformation with orthogonal components of gravity along and normal to incline",
+      "reasoning_depth": 5,
+      "concepts_involved": [
+        "concept-kin-incline-proj-01"
+      ],
+      "mathematical_complexity": "2D accelerated motion with non-zero acceleration components on both axes",
+      "transfer_requirement": "Tilted reference frame analysis and optimal launch angle derivation theta = pi/4 + beta/2"
+    }
+  ],
+  "pedagogical_objective": "Scaffold 2D projectile mechanics from elementary symmetric ground launch through asymmetric height offsets to inclined plane projection with tilted reference frames."
+}

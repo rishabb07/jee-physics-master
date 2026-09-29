@@ -1,0 +1,43 @@
+{
+  "content_id": "concept-kin-gravity-01",
+  "curriculum_id": "curr-kin-02",
+  "taxonomy_reference": {
+    "chapter_id": "kinematics",
+    "topic_id": "rectilinear-motion",
+    "subtopic_id": "motion-under-gravity"
+  },
+  "title": "Free Fall and Vertical Motion Under Gravity",
+  "learning_objective": "Model vertical 1D motion under uniform downward gravitational acceleration $g$, exploiting trajectory symmetries of time and speed.",
+  "intuition": "When an apple is thrown straight upward, the Earth's gravity pulls downward with constant vigor every second of its flight. On the way up, gravity slows it down by 9.8 m/s every second until it momentarily pauses at the apex. On the way down, gravity speeds it up by 9.8 m/s every second. By pure symmetry, the time to rise to the apex equals the time to fall back to the launch height, and it strikes your hand with the exact speed it was launched.",
+  "formal_definition": "In the absence of air resistance near the Earth's surface, all bodies experience a constant downward gravitational acceleration of magnitude $g \\approx 9.8\\text{ m/s}^2$ (or $10\\text{ m/s}^2$ for typical JEE calculations), independent of mass, shape, or composition. Taking vertically upward as positive $+y$, the acceleration is $a_y = -g$. For launch speed $u$, the maximum height attained is $H_{\\text{max}} = \\frac{u^2}{2g}$, the time to apex is $t_{\\text{ascent}} = \\frac{u}{g}$, and total flight time is $T = \\frac{2u}{g}$.",
+  "explanation": "Free fall is the archetypal application of constant acceleration kinematics.\n\n### 1. Trajectory Symmetries\nBecause the downward acceleration $a = -g$ is constant throughout both the ascending and descending phases:\n1. **Time symmetry:** The time taken to reach any height $y$ while ascending equals the time taken to descend from that height back to the launch level.\n2. **Speed symmetry:** The speed of the particle at any elevation $y$ during ascent is identical to its speed at that same elevation during descent: $v_{\\text{descent}}(y) = -v_{\\text{ascent}}(y)$.\n\n### 2. State at the Apex\nAt the highest point of the trajectory, the vertical velocity is instantaneously zero ($v_y = 0$). However, the acceleration remains non-zero and equal to $-g\\hat{j}$. If the acceleration were zero at the apex, the particle would remain suspended in mid-air forever.",
+  "assumptions": [
+    "Uniform gravitational field (valid for vertical displacements $h \\ll R_{\\text{Earth}}$).",
+    "Air resistance and buoyancy of air are neglected.",
+    "Earth's rotation (Coriolis acceleration) is neglected."
+  ],
+  "boundary_conditions": [
+    "Valid strictly for free flight after release and before ground collision.",
+    "Initial velocity inherited from moving launch platforms (e.g. rising balloons) must be included."
+  ],
+  "related_formula_ids": [
+    "formula-kin-const-accel-v",
+    "formula-kin-const-accel-s",
+    "formula-kin-const-accel-v2"
+  ],
+  "prerequisite_refs": [
+    "concept-kin-accel-01"
+  ],
+  "source_references": [
+    "Concepts of Physics Vol 1 by H.C. Verma (Chapter 3, pp. 49-53)",
+    "University Physics by Young & Freedman (Chapter 2, pp. 67-72)"
+  ],
+  "generation_metadata": {
+    "agent": "physics-concept-writer",
+    "version": "1.0",
+    "target_chapter": "kinematics"
+  },
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-concept-kin-gravity-01",
+  "content_hash": "1c104fc76264f00dfe806bc01f50b15ebc01bef6074f2757bb9d0f47c65aed72"
+}

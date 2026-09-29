@@ -1,0 +1,1105 @@
+{
+  "source_id": "src-fundamentals-of-physics--390f40d1",
+  "file_name": "Fundamentals of Physics-Halliday,Resnick,Walker.pdf",
+  "segmentation_type": "DETERMINISTIC_PAGE_SEGMENT",
+  "total_segments": 46,
+  "segments": [
+    {
+      "segment_id": "seg-src-fundamentals-of-physics--390f40d1-001",
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 1,
+      "page_end": 26,
+      "segment_title": "Front Matter",
+      "segment_summary": "Pages 1-26 of Fundamentals of Physics-Halliday,Resnick,Walker.pdf (Front Matter)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXCLUDED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "NON_CONTENT",
+        "content_types": [
+          "OTHER"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-fundamentals-of-physics--390f40d1-002",
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 27,
+      "page_end": 38,
+      "segment_title": "1 MEASUREMENT",
+      "segment_summary": "Pages 27-38 of Fundamentals of Physics-Halliday,Resnick,Walker.pdf (1 MEASUREMENT)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-fundamentals-of-physics--390f40d1-003",
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 39,
+      "page_end": 63,
+      "segment_title": "2 MOTION ALONG A STRAIGHT LINE",
+      "segment_summary": "Pages 39-63 of Fundamentals of Physics-Halliday,Resnick,Walker.pdf (2 MOTION ALONG A STRAIGHT LINE)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-fundamentals-of-physics--390f40d1-004",
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 64,
+      "page_end": 83,
+      "segment_title": "3 VECTORS",
+      "segment_summary": "Pages 64-83 of Fundamentals of Physics-Halliday,Resnick,Walker.pdf (3 VECTORS)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-fundamentals-of-physics--390f40d1-005",
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 84,
+      "page_end": 112,
+      "segment_title": "4 MOTION IN TWO AND THREE DIMENSIONS",
+      "segment_summary": "Pages 84-112 of Fundamentals of Physics-Halliday,Resnick,Walker.pdf (4 MOTION IN TWO AND THREE DIMENSIONS)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-fundamentals-of-physics--390f40d1-006",
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 113,
+      "page_end": 141,
+      "segment_title": "5 FORCE AND MOTION—I",
+      "segment_summary": "Pages 113-141 of Fundamentals of Physics-Halliday,Resnick,Walker.pdf (5 FORCE AND MOTION—I)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-fundamentals-of-physics--390f40d1-007",
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 142,
+      "page_end": 165,
+      "segment_title": "6 FORCE AND MOTION—II",
+      "segment_summary": "Pages 142-165 of Fundamentals of Physics-Halliday,Resnick,Walker.pdf (6 FORCE AND MOTION—II)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-fundamentals-of-physics--390f40d1-008",
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 166,
+      "page_end": 191,
+      "segment_title": "7 KINETIC ENERGY AND WORK",
+      "segment_summary": "Pages 166-191 of Fundamentals of Physics-Halliday,Resnick,Walker.pdf (7 KINETIC ENERGY AND WORK)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-fundamentals-of-physics--390f40d1-009",
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 192,
+      "page_end": 226,
+      "segment_title": "8 POTENTIAL ENERGY AND CONSERVATION OF ENERGY",
+      "segment_summary": "Pages 192-226 of Fundamentals of Physics-Halliday,Resnick,Walker.pdf (8 POTENTIAL ENERGY AND CONSERVATION OF ENERGY)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-fundamentals-of-physics--390f40d1-010",
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 227,
+      "page_end": 266,
+      "segment_title": "9 CENTER OF MASS AND LINEAR MOMENTUM",
+      "segment_summary": "Pages 227-266 of Fundamentals of Physics-Halliday,Resnick,Walker.pdf (9 CENTER OF MASS AND LINEAR MOMENTUM)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-fundamentals-of-physics--390f40d1-011",
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 267,
+      "page_end": 300,
+      "segment_title": "10 ROTATION",
+      "segment_summary": "Pages 267-300 of Fundamentals of Physics-Halliday,Resnick,Walker.pdf (10 ROTATION)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-fundamentals-of-physics--390f40d1-012",
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 301,
+      "page_end": 330,
+      "segment_title": "11 ROLLING, TORQUE, AND ANGULAR MOMENTUM",
+      "segment_summary": "Pages 301-330 of Fundamentals of Physics-Halliday,Resnick,Walker.pdf (11 ROLLING, TORQUE, AND ANGULAR MOMENTUM)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-fundamentals-of-physics--390f40d1-013",
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 331,
+      "page_end": 355,
+      "segment_title": "12 EQUILIBRIUM AND ELASTICITY",
+      "segment_summary": "Pages 331-355 of Fundamentals of Physics-Halliday,Resnick,Walker.pdf (12 EQUILIBRIUM AND ELASTICITY)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-fundamentals-of-physics--390f40d1-014",
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 356,
+      "page_end": 384,
+      "segment_title": "13 GRAVITATION",
+      "segment_summary": "Pages 356-384 of Fundamentals of Physics-Halliday,Resnick,Walker.pdf (13 GRAVITATION)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-fundamentals-of-physics--390f40d1-015",
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 385,
+      "page_end": 411,
+      "segment_title": "14 FLUIDS",
+      "segment_summary": "Pages 385-411 of Fundamentals of Physics-Halliday,Resnick,Walker.pdf (14 FLUIDS)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-fundamentals-of-physics--390f40d1-016",
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 412,
+      "page_end": 438,
+      "segment_title": "15 OSCILLATIONS",
+      "segment_summary": "Pages 412-438 of Fundamentals of Physics-Halliday,Resnick,Walker.pdf (15 OSCILLATIONS)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-fundamentals-of-physics--390f40d1-017",
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 439,
+      "page_end": 470,
+      "segment_title": "16 WAVES—I",
+      "segment_summary": "Pages 439-470 of Fundamentals of Physics-Halliday,Resnick,Walker.pdf (16 WAVES—I)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-fundamentals-of-physics--390f40d1-018",
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 471,
+      "page_end": 501,
+      "segment_title": "17 WAVES—II",
+      "segment_summary": "Pages 471-501 of Fundamentals of Physics-Halliday,Resnick,Walker.pdf (17 WAVES—II)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-fundamentals-of-physics--390f40d1-019",
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 502,
+      "page_end": 532,
+      "segment_title": "18 TEMPERATURE, HEAT, AND THE FIRST LAW OF THERMODYNAMICS",
+      "segment_summary": "Pages 502-532 of Fundamentals of Physics-Halliday,Resnick,Walker.pdf (18 TEMPERATURE, HEAT, AND THE FIRST LAW OF THERMODYNAMICS)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-fundamentals-of-physics--390f40d1-020",
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 533,
+      "page_end": 561,
+      "segment_title": "19 THE KINETIC THEORY OF GASES",
+      "segment_summary": "Pages 533-561 of Fundamentals of Physics-Halliday,Resnick,Walker.pdf (19 THE KINETIC THEORY OF GASES)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-fundamentals-of-physics--390f40d1-021",
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 562,
+      "page_end": 586,
+      "segment_title": "20 ENTROPY AND THE SECOND LAW OF THERMODYNAMICS",
+      "segment_summary": "Pages 562-586 of Fundamentals of Physics-Halliday,Resnick,Walker.pdf (20 ENTROPY AND THE SECOND LAW OF THERMODYNAMICS)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-fundamentals-of-physics--390f40d1-022",
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 587,
+      "page_end": 605,
+      "segment_title": "21 ELECTRIC CHARGE",
+      "segment_summary": "Pages 587-605 of Fundamentals of Physics-Halliday,Resnick,Walker.pdf (21 ELECTRIC CHARGE)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-fundamentals-of-physics--390f40d1-023",
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 606,
+      "page_end": 630,
+      "segment_title": "22 ELECTRIC FIELDS",
+      "segment_summary": "Pages 606-630 of Fundamentals of Physics-Halliday,Resnick,Walker.pdf (22 ELECTRIC FIELDS)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-fundamentals-of-physics--390f40d1-024",
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 631,
+      "page_end": 653,
+      "segment_title": "23 GAUSS’ LAW",
+      "segment_summary": "Pages 631-653 of Fundamentals of Physics-Halliday,Resnick,Walker.pdf (23 GAUSS’ LAW)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-fundamentals-of-physics--390f40d1-025",
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 654,
+      "page_end": 681,
+      "segment_title": "24 ELECTRIC POTENTIAL",
+      "segment_summary": "Pages 654-681 of Fundamentals of Physics-Halliday,Resnick,Walker.pdf (24 ELECTRIC POTENTIAL)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-fundamentals-of-physics--390f40d1-026",
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 682,
+      "page_end": 707,
+      "segment_title": "25 CAPACITANCE",
+      "segment_summary": "Pages 682-707 of Fundamentals of Physics-Halliday,Resnick,Walker.pdf (25 CAPACITANCE)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-fundamentals-of-physics--390f40d1-027",
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 708,
+      "page_end": 730,
+      "segment_title": "26 CURRENT AND RESISTANCE",
+      "segment_summary": "Pages 708-730 of Fundamentals of Physics-Halliday,Resnick,Walker.pdf (26 CURRENT AND RESISTANCE)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-fundamentals-of-physics--390f40d1-028",
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 731,
+      "page_end": 760,
+      "segment_title": "27 CIRCUITS",
+      "segment_summary": "Pages 731-760 of Fundamentals of Physics-Halliday,Resnick,Walker.pdf (27 CIRCUITS)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-fundamentals-of-physics--390f40d1-029",
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 761,
+      "page_end": 789,
+      "segment_title": "28 MAGNETIC FIELDS",
+      "segment_summary": "Pages 761-789 of Fundamentals of Physics-Halliday,Resnick,Walker.pdf (28 MAGNETIC FIELDS)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-fundamentals-of-physics--390f40d1-030",
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 790,
+      "page_end": 816,
+      "segment_title": "29 MAGNETIC FIELDS DUE TO CURRENTS",
+      "segment_summary": "Pages 790-816 of Fundamentals of Physics-Halliday,Resnick,Walker.pdf (29 MAGNETIC FIELDS DUE TO CURRENTS)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-fundamentals-of-physics--390f40d1-031",
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 817,
+      "page_end": 851,
+      "segment_title": "30 INDUCTION AND INDUCTANCE",
+      "segment_summary": "Pages 817-851 of Fundamentals of Physics-Halliday,Resnick,Walker.pdf (30 INDUCTION AND INDUCTANCE)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-fundamentals-of-physics--390f40d1-032",
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 852,
+      "page_end": 886,
+      "segment_title": "31 ELECTROMAGNETIC OSCILLATIONS AND ALTERNATING CURRENT",
+      "segment_summary": "Pages 852-886 of Fundamentals of Physics-Halliday,Resnick,Walker.pdf (31 ELECTROMAGNETIC OSCILLATIONS AND ALTERNATING CURRENT)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-fundamentals-of-physics--390f40d1-033",
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 887,
+      "page_end": 914,
+      "segment_title": "32 MAXWELL’S EQUATIONS; MAGNETISM OF MATTER",
+      "segment_summary": "Pages 887-914 of Fundamentals of Physics-Halliday,Resnick,Walker.pdf (32 MAXWELL’S EQUATIONS; MAGNETISM OF MATTER)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-fundamentals-of-physics--390f40d1-034",
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 915,
+      "page_end": 949,
+      "segment_title": "33 ELECTROMAGNETIC WAVES",
+      "segment_summary": "Pages 915-949 of Fundamentals of Physics-Halliday,Resnick,Walker.pdf (33 ELECTROMAGNETIC WAVES)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-fundamentals-of-physics--390f40d1-035",
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 950,
+      "page_end": 983,
+      "segment_title": "34 IMAGES",
+      "segment_summary": "Pages 950-983 of Fundamentals of Physics-Halliday,Resnick,Walker.pdf (34 IMAGES)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-fundamentals-of-physics--390f40d1-036",
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 984,
+      "page_end": 1015,
+      "segment_title": "35 INTERFERENCE",
+      "segment_summary": "Pages 984-1015 of Fundamentals of Physics-Halliday,Resnick,Walker.pdf (35 INTERFERENCE)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-fundamentals-of-physics--390f40d1-037",
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 1016,
+      "page_end": 1047,
+      "segment_title": "36 DIFFRACTION",
+      "segment_summary": "Pages 1016-1047 of Fundamentals of Physics-Halliday,Resnick,Walker.pdf (36 DIFFRACTION)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-fundamentals-of-physics--390f40d1-038",
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 1048,
+      "page_end": 1082,
+      "segment_title": "37 RELATIVITY",
+      "segment_summary": "Pages 1048-1082 of Fundamentals of Physics-Halliday,Resnick,Walker.pdf (37 RELATIVITY)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-fundamentals-of-physics--390f40d1-039",
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 1083,
+      "page_end": 1108,
+      "segment_title": "38 PHOTONS AND MATTER WAVES",
+      "segment_summary": "Pages 1083-1108 of Fundamentals of Physics-Halliday,Resnick,Walker.pdf (38 PHOTONS AND MATTER WAVES)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-fundamentals-of-physics--390f40d1-040",
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 1109,
+      "page_end": 1137,
+      "segment_title": "39 MORE ABOUT MATTER WAVES",
+      "segment_summary": "Pages 1109-1137 of Fundamentals of Physics-Halliday,Resnick,Walker.pdf (39 MORE ABOUT MATTER WAVES)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-fundamentals-of-physics--390f40d1-041",
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 1138,
+      "page_end": 1167,
+      "segment_title": "40 ALL ABOUT ATOMS",
+      "segment_summary": "Pages 1138-1167 of Fundamentals of Physics-Halliday,Resnick,Walker.pdf (40 ALL ABOUT ATOMS)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-fundamentals-of-physics--390f40d1-042",
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 1168,
+      "page_end": 1190,
+      "segment_title": "41 CONDUCTION OF ELECTRICITY IN SOLIDS",
+      "segment_summary": "Pages 1168-1190 of Fundamentals of Physics-Halliday,Resnick,Walker.pdf (41 CONDUCTION OF ELECTRICITY IN SOLIDS)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-fundamentals-of-physics--390f40d1-043",
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 1191,
+      "page_end": 1220,
+      "segment_title": "42 NUCLEAR PHYSICS",
+      "segment_summary": "Pages 1191-1220 of Fundamentals of Physics-Halliday,Resnick,Walker.pdf (42 NUCLEAR PHYSICS)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-fundamentals-of-physics--390f40d1-044",
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 1221,
+      "page_end": 1243,
+      "segment_title": "43 ENERGY FROM THE NUCLEUS",
+      "segment_summary": "Pages 1221-1243 of Fundamentals of Physics-Halliday,Resnick,Walker.pdf (43 ENERGY FROM THE NUCLEUS)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-fundamentals-of-physics--390f40d1-045",
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 1244,
+      "page_end": 1300,
+      "segment_title": "44 QUARKS, LEPTONS, AND THE BIG BANG",
+      "segment_summary": "Pages 1244-1300 of Fundamentals of Physics-Halliday,Resnick,Walker.pdf (44 QUARKS, LEPTONS, AND THE BIG BANG)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-fundamentals-of-physics--390f40d1-046",
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 1301,
+      "page_end": 1330,
+      "segment_title": "Appendices & Index",
+      "segment_summary": "Pages 1301-1330 of Fundamentals of Physics-Halliday,Resnick,Walker.pdf (Appendices & Index)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXCLUDED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "NON_CONTENT",
+        "content_types": [
+          "OTHER"
+        ]
+      }
+    }
+  ],
+  "created_at": "2026-09-29T16:20:19.304470Z"
+}

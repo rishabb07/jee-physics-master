@@ -1,0 +1,132 @@
+{
+  "plan_id": "plan-kinematics-001",
+  "chapter_id": "kinematics",
+  "title": "Kinematics: Rest, Motion, and Trajectories",
+  "template_type": "MECHANICS",
+  "sections": [
+    {
+      "section_id": "sec-01-rectilinear-kinematics",
+      "section_order": 1,
+      "title": "Position, Displacement, Speed, Velocity, and Graph Slope/Area",
+      "pedagogical_purpose": "Establish the fundamental distinction between path-dependent scalar quantities and path-independent vector quantities in 1D.",
+      "concepts": [
+        "concept-kin-pos-disp-01",
+        "concept-kin-vel-speed-01"
+      ],
+      "formula_ids": [],
+      "worked_example_ids": [],
+      "question_atom_ids": [],
+      "misconception_ids": [
+        "misc-kin-01"
+      ],
+      "prerequisite_refs": [
+        "units-and-dimensions",
+        "vectors-and-coordinate-systems"
+      ],
+      "source_references": [
+        "HCV1 Ch 3"
+      ],
+      "unresolved_gaps": []
+    },
+    {
+      "section_id": "sec-02-acceleration-and-gravity",
+      "section_order": 2,
+      "title": "Acceleration, Derivation of Constant Acceleration Equations, Calculus Integration, Free Fall",
+      "pedagogical_purpose": "Extend kinematic analysis to accelerated systems using calculus, culminating in standard equations for uniform acceleration and motion under gravity.",
+      "concepts": [
+        "concept-kin-accel-01",
+        "concept-kin-gravity-01"
+      ],
+      "formula_ids": [
+        "formula-kin-const-accel-v",
+        "formula-kin-const-accel-s",
+        "formula-kin-const-accel-v2",
+        "formula-kin-nth-second",
+        "formula-kin-diff-accel"
+      ],
+      "worked_example_ids": [
+        "ex-kin-calc-motion-01",
+        "ex-kin-gravity-balloon-01"
+      ],
+      "question_atom_ids": [
+        "kinematics-question-7b4e1d65"
+      ],
+      "misconception_ids": [
+        "misc-kin-02",
+        "misc-kin-03"
+      ],
+      "prerequisite_refs": [
+        "differential-calculus-foundations",
+        "integral-calculus-foundations"
+      ],
+      "source_references": [
+        "HCV1 Ch 3"
+      ],
+      "unresolved_gaps": []
+    },
+    {
+      "section_id": "sec-03-projectile-motion",
+      "section_order": 3,
+      "title": "2D Orthogonal Motion, Ballistic Trajectories, Tower Projection, and Inclined Plane Projection",
+      "pedagogical_purpose": "Apply the principle of independent orthogonal motions to complex 2D ballistic trajectories, generalizing from flat ground to inclined constraints.",
+      "concepts": [
+        "concept-kin-projectile-01",
+        "concept-kin-incline-proj-01"
+      ],
+      "formula_ids": [
+        "formula-kin-projectile-flight-time",
+        "formula-kin-projectile-max-height",
+        "formula-kin-projectile-range",
+        "formula-kin-projectile-trajectory",
+        "formula-kin-incline-range"
+      ],
+      "worked_example_ids": [
+        "ex-kin-projectile-max-height",
+        "ex-kin-incline-proj-01"
+      ],
+      "question_atom_ids": [
+        "kinematics-question-b29767c8"
+      ],
+      "misconception_ids": [
+        "misc-kin-04"
+      ],
+      "prerequisite_refs": [],
+      "source_references": [
+        "University Physics Ch 3"
+      ],
+      "unresolved_gaps": []
+    },
+    {
+      "section_id": "sec-04-relative-motion",
+      "section_order": 4,
+      "title": "1D & 2D Relative Velocity, River-Swimmer, Rain-Umbrella, and Closest Approach",
+      "pedagogical_purpose": "Synthesize vector addition and subtraction principles within inertial reference frames to analyze multi-body interactions.",
+      "concepts": [
+        "concept-kin-relative-vel-01",
+        "concept-kin-river-boat-01"
+      ],
+      "formula_ids": [
+        "formula-kin-relative-velocity",
+        "formula-kin-river-crossing-time"
+      ],
+      "worked_example_ids": [
+        "ex-kin-river-swimmer-01"
+      ],
+      "question_atom_ids": [],
+      "misconception_ids": [
+        "misc-kin-05"
+      ],
+      "prerequisite_refs": [],
+      "source_references": [
+        "Halliday Ch 4"
+      ],
+      "unresolved_gaps": []
+    }
+  ],
+  "pedagogical_synthesis_notes": [
+    "Progression is structured logically from 1D scalar/vector distinction to complex 2D relative motion.",
+    "Section 3 heavily emphasizes decoupling 2D motions into independent 1D problems, laying groundwork for force resolution later."
+  ],
+  "unresolved_gaps": [],
+  "created_at": "2026-09-30T03:10:59+05:30"
+}

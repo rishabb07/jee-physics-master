@@ -1,0 +1,72 @@
+{
+  "example_id": "ex-kin-calc-motion-01",
+  "chapter_id": "kinematics",
+  "problem_statement": "A particle moves along the x-axis with acceleration a(t) = (3.0 t - 4.0) m/s^2, where t is in seconds. At time t = 0, the particle is at x(0) = 5.0 m and has velocity v(0) = 2.0 m/s. (a) Determine the velocity as a function of time v(t). (b) Determine the position as a function of time x(t). (c) Find the position of the particle when its velocity reaches a local minimum.",
+  "known_quantities": {
+    "acceleration_function": "a(t) = 3.0 t - 4.0 m/s^2",
+    "initial_position": "x(0) = 5.0 m",
+    "initial_velocity": "v(0) = 2.0 m/s"
+  },
+  "target_quantity": "Velocity function v(t), position function x(t), and position at local minimum velocity",
+  "relevant_concepts": [
+    "concept-kin-accel-01",
+    "concept-kin-vel-speed-01"
+  ],
+  "governing_principles": [
+    "a = dv/dt => v(t) = v(0) + int a(t) dt",
+    "v = dx/dt => x(t) = x(0) + int v(t) dt"
+  ],
+  "solution_strategy": "Integrate acceleration with respect to time using initial velocity as the constant of integration. Integrate velocity to find position. Set dv/dt = a = 0 to identify the stationary point of velocity.",
+  "ordered_steps": [
+    {
+      "step_number": 1,
+      "action_description": "Integrate acceleration to obtain velocity function",
+      "equation_latex": "v(t) = v(0) + \\int_{0}^{t} (3.0 t' - 4.0) \\, dt' = 2.0 + \\left[ \\frac{3.0}{2} t'^2 - 4.0 t' \\right]_{0}^{t} = 1.5 t^2 - 4.0 t + 2.0",
+      "justification": "Definition of velocity as integral of acceleration.",
+      "calculation_details": "Integral of 3 t is 1.5 t^2; integral of -4 is -4 t; adding initial v(0) = 2.0 gives v(t) = 1.5 t^2 - 4.0 t + 2.0 m/s.",
+      "intermediate_result": "v(t) = 1.5 t^2 - 4.0 t + 2.0 m/s"
+    },
+    {
+      "step_number": 2,
+      "action_description": "Integrate velocity to obtain position function",
+      "equation_latex": "x(t) = x(0) + \\int_{0}^{t} (1.5 t'^2 - 4.0 t' + 2.0) \\, dt' = 5.0 + \\left[ 0.5 t'^3 - 2.0 t'^2 + 2.0 t' \\right]_{0}^{t} = 0.5 t^3 - 2.0 t^2 + 2.0 t + 5.0",
+      "justification": "Definition of position as integral of velocity.",
+      "calculation_details": "Integral of 1.5 t^2 is 0.5 t^3; integral of -4 t is -2 t^2; integral of 2 is 2 t; adding initial x(0) = 5.0 gives x(t).",
+      "intermediate_result": "x(t) = 0.5 t^3 - 2.0 t^2 + 2.0 t + 5.0 m"
+    },
+    {
+      "step_number": 3,
+      "action_description": "Find time of minimum velocity by setting dv/dt = a(t) = 0",
+      "equation_latex": "a(t) = 3.0 t - 4.0 = 0 \\implies t_{\\text{min}} = \\frac{4.0}{3.0} = \\frac{4}{3}\\text{ s}",
+      "justification": "First derivative test: a(t) = dv/dt = 0 with d^2v/dt^2 = da/dt = +3.0 > 0 confirms a local minimum.",
+      "calculation_details": "t = 4/3 s approx 1.333 s.",
+      "intermediate_result": "t = 4/3 s"
+    },
+    {
+      "step_number": 4,
+      "action_description": "Substitute t = 4/3 s into position function x(t)",
+      "equation_latex": "x(4/3) = 0.5 \\left(\\frac{4}{3}\\right)^3 - 2.0 \\left(\\frac{4}{3}\\right)^2 + 2.0 \\left(\\frac{4}{3}\\right) + 5.0 = \\frac{1}{2}\\frac{64}{27} - 2 \\frac{16}{9} + \\frac{8}{3} + 5 = \\frac{32}{27} - \\frac{96}{27} + \\frac{72}{27} + \\frac{135}{27} = \\frac{143}{27} \\approx 5.30\\text{ m}",
+      "justification": "Direct arithmetic evaluation.",
+      "calculation_details": "32 - 96 + 72 + 135 = 143/27 approx 5.296 m.",
+      "intermediate_result": "x = 143/27 m approx 5.30 m"
+    }
+  ],
+  "final_answer": "v(t) = (1.5 t^2 - 4.0 t + 2.0) m/s; x(t) = (0.5 t^3 - 2.0 t^2 + 2.0 t + 5.0) m; position at minimum velocity is 143/27 m (approx 5.30 m).",
+  "units": "m, m/s",
+  "sanity_checks": [
+    "At t = 0: v(0) = 2.0 m/s and x(0) = 5.0 m, which strictly match given initial conditions.",
+    "Dimensional check: [1.5 t^2] = [T^-2][T^2] = [1] with pre-factor unit m/s^3 => [L][T]^-1, dimensionally homogeneous."
+  ],
+  "alternate_methods": [],
+  "trap_alerts": [
+    "Do not use standard kinematic equations v = u + at because acceleration is time-dependent!"
+  ],
+  "source_atom_id": null,
+  "provenance": [],
+  "risk_level": "HIGH",
+  "verification_status": "VERIFIED",
+  "verification_record_id": "dual-cvr-ex-kin-calc-motion-01",
+  "generator_identity": "physics-example-writer",
+  "generator_conversation_id": "gen-kin-ex-01",
+  "content_hash": "16fe518d0b0c86fef801145e2b70d2cca97cdad2428156e15c58039a50e27902"
+}

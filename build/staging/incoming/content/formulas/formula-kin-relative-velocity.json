@@ -1,0 +1,41 @@
+{
+  "formula_id": "formula-kin-relative-velocity",
+  "chapter_id": "kinematics",
+  "title": "Relative Velocity Vector Formula",
+  "equation": "\\vec{v}_{A/B} = \\vec{v}_A - \\vec{v}_B",
+  "equation_latex": "\\vec{v}_{A/B} = \\vec{v}_A - \\vec{v}_B",
+  "variables": {
+    "\\vec{v}_{A/B}": "Velocity of body A as observed from body B",
+    "\\vec{v}_A": "Velocity of body A with respect to ground frame",
+    "\\vec{v}_B": "Velocity of body B with respect to ground frame"
+  },
+  "units": {
+    "all velocities": "m/s"
+  },
+  "dimensions": {
+    "velocities": "[L][T]^-1"
+  },
+  "assumptions": [
+    "Classical Galilean non-relativistic kinematics",
+    "Translating reference frames"
+  ],
+  "validity_conditions": [
+    "Universal relation connecting velocities in different translating reference frames"
+  ],
+  "derivation_reference": null,
+  "related_concepts": [
+    "concept-kin-relative-vel-01"
+  ],
+  "common_misuse": [
+    "Adding velocities instead of subtracting when evaluating relative velocity"
+  ],
+  "provenance": [],
+  "generation_metadata": {
+    "agent": "physics-formula-writer",
+    "version": "1.0",
+    "target_chapter": "kinematics"
+  },
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-formula-kin-relative-velocity",
+  "content_hash": "0399f38a90ffdf66210f85251bfac280d08f4df0bc0a7f0109cda3480aff2208"
+}

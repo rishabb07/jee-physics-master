@@ -1,0 +1,30 @@
+{
+  "summary": "270 total source questions across 3 mock papers; 90 Physics admitted; 180 non-Physics quarantined.",
+  "total_source_questions": 270,
+  "admitted_physics_questions": 90,
+  "quarantined_chemistry_questions": 90,
+  "quarantined_mathematics_questions": 90,
+  "papers": [
+    {
+      "source_id": "src-jee-main-mock-test-01-20-222525c1",
+      "filename": "jee_main_mock_test-01-2024-jan.pdf",
+      "physics_admitted": "Q1 - Q30 (30 questions)",
+      "chemistry_quarantined": "Q31 - Q60 (30 questions)",
+      "mathematics_quarantined": "Q61 - Q90 (30 questions)"
+    },
+    {
+      "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+      "filename": "jee_rank_booster_-02_mock_paper.pdf",
+      "physics_admitted": "Q1 - Q30 (30 questions)",
+      "chemistry_quarantined": "Q31 - Q60 (30 questions)",
+      "mathematics_quarantined": "Q61 - Q90 (30 questions)"
+    },
+    {
+      "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+      "filename": "jee_rank_booster-03_mock_paper.pdf",
+      "physics_admitted": "Q1 - Q30 (30 questions)",
+      "chemistry_quarantined": "Q31 - Q60 (30 questions)",
+      "mathematics_quarantined": "Q61 - Q90 (30 questions)"
+    }
+  ]
+}

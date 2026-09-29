@@ -1,0 +1,173 @@
+{
+  "chapter_id": "kinematics",
+  "title": "Kinematics: Rest, Motion, and Trajectories",
+  "created_at": "2026-09-30T03:13:00Z",
+  "audit_status": "SOURCE_GROUNDED",
+  "evidence_records": [
+    {
+      "evidence_id": "exp-hcv1-ch03-p01",
+      "evidence_type": "EXPOSITION",
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_title": "Concepts of Physics Vol 1 by H.C. Verma",
+      "page_range": "41-42",
+      "section": "3.1 REST AND MOTION",
+      "fidelity_class": "SOURCE_VERBATIM",
+      "role_in_chapter": "Foundational definitions of position, rest, motion, and observer frame",
+      "target_element_id": "concept-kin-pos-disp-01"
+    },
+    {
+      "evidence_id": "exp-hcv1-ch03-p02",
+      "evidence_type": "EXPOSITION",
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_title": "Concepts of Physics Vol 1 by H.C. Verma",
+      "page_range": "43-44",
+      "section": "3.2 POSITION, DISTANCE AND DISPLACEMENT",
+      "fidelity_class": "SOURCE_VERBATIM",
+      "role_in_chapter": "Distinction between scalar path length and vector displacement",
+      "target_element_id": "concept-kin-pos-disp-01"
+    },
+    {
+      "evidence_id": "exp-hcv1-ch03-p03",
+      "evidence_type": "EXPOSITION",
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_title": "Concepts of Physics Vol 1 by H.C. Verma",
+      "page_range": "45-46",
+      "section": "3.3 AVERAGE AND INSTANTANEOUS SPEED",
+      "fidelity_class": "SOURCE_VERBATIM",
+      "role_in_chapter": "Limit of Delta s / Delta t as Delta t -> 0, speedometer reading",
+      "target_element_id": "concept-kin-vel-speed-01"
+    },
+    {
+      "evidence_id": "exp-hcv1-ch03-p04",
+      "evidence_type": "EXPOSITION",
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_title": "Concepts of Physics Vol 1 by H.C. Verma",
+      "page_range": "47-48",
+      "section": "3.4 ACCELERATION",
+      "fidelity_class": "SOURCE_VERBATIM",
+      "role_in_chapter": "Instantaneous acceleration, rate of change of velocity vector",
+      "target_element_id": "concept-kin-accel-01"
+    },
+    {
+      "evidence_id": "exp-hr-ch02-p01",
+      "evidence_type": "EXPOSITION",
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "source_title": "Fundamentals of Physics (Halliday & Resnick)",
+      "page_range": "27-28",
+      "section": "2-1 POSITION, DISPLACEMENT, AND AVERAGE VELOCITY",
+      "fidelity_class": "SOURCE_VERBATIM",
+      "role_in_chapter": "Calculus formulation of velocity as derivative of position function",
+      "target_element_id": "concept-kin-vel-speed-01"
+    },
+    {
+      "evidence_id": "exp-fey-lec08-core",
+      "evidence_type": "EXPOSITION",
+      "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+      "source_title": "The Feynman Lectures on Physics, Vol. 1",
+      "page_range": "81-85",
+      "section": "Lecture 8: Motion",
+      "fidelity_class": "SOURCE_VISUAL",
+      "role_in_chapter": "Intuitive limits of speed, time intervals, and continuous trajectories",
+      "target_element_id": "concept-kin-vel-speed-01"
+    },
+    {
+      "evidence_id": "exp-up-ch02-p01",
+      "evidence_type": "EXPOSITION",
+      "source_id": "src-university-physics-with--0bc11b67",
+      "source_title": "University Physics with Modern Physics",
+      "page_range": "61-62",
+      "section": "2.4 MOTION WITH CONSTANT ACCELERATION",
+      "fidelity_class": "SOURCE_VERBATIM",
+      "role_in_chapter": "Integration proofs of standard kinematic equations",
+      "target_element_id": "formula-kin-const-accel-v"
+    },
+    {
+      "evidence_id": "exp-up-ch03-p01",
+      "evidence_type": "EXPOSITION",
+      "source_id": "src-university-physics-with--0bc11b67",
+      "source_title": "University Physics with Modern Physics",
+      "page_range": "95-96",
+      "section": "3.3 PROJECTILE MOTION",
+      "fidelity_class": "SOURCE_VERBATIM",
+      "role_in_chapter": "Independence of horizontal and vertical projectile motion",
+      "target_element_id": "concept-kin-projectile-01"
+    },
+    {
+      "evidence_id": "form-evid-projectile-range",
+      "evidence_type": "FORMULA",
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_title": "Concepts of Physics Vol 1 by H.C. Verma",
+      "page_range": "45-46",
+      "section": "Chapter 3: Projectile Range",
+      "fidelity_class": "SOURCE_DERIVED",
+      "role_in_chapter": "Trajectory range formula R = u^2 sin(2 theta) / g",
+      "target_element_id": "formula-kin-projectile-range"
+    },
+    {
+      "evidence_id": "deriv-hcv1-projectile-equation",
+      "evidence_type": "DERIVATION",
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_title": "Concepts of Physics Vol 1 by H.C. Verma",
+      "page_range": "45-46",
+      "section": "Chapter 3: Projectile Equation",
+      "fidelity_class": "SOURCE_DERIVED",
+      "role_in_chapter": "Step-by-step derivation of parabolic trajectory equation",
+      "target_element_id": "derivation-formula-kin-projectile-trajectory"
+    },
+    {
+      "evidence_id": "ex-evid-hcv1-projectile-max-height",
+      "evidence_type": "WORKED_EXAMPLE",
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_title": "Concepts of Physics Vol 1 by H.C. Verma",
+      "page_range": "46-47",
+      "section": "Example 3.6",
+      "fidelity_class": "SOURCE_DERIVED",
+      "role_in_chapter": "Evaluation of maximum height and flight time",
+      "target_element_id": "ex-kin-projectile-max-height"
+    },
+    {
+      "evidence_id": "prob-irodov-1-001",
+      "evidence_type": "PROBLEM",
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "source_title": "Problems in General Physics by I.E. Irodov",
+      "page_range": "10",
+      "section": "Kinematics Problem 1.1",
+      "fidelity_class": "SOURCE_VERBATIM",
+      "role_in_chapter": "River-raft reference frame transformation problem",
+      "target_element_id": "prob-irodov-1-001"
+    },
+    {
+      "evidence_id": "prob-irodov-1-025",
+      "evidence_type": "PROBLEM",
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "source_title": "Problems in General Physics by I.E. Irodov",
+      "page_range": "13",
+      "section": "Kinematics Problem 1.25",
+      "fidelity_class": "SOURCE_VERBATIM",
+      "role_in_chapter": "Advanced two-body projectile motion and cannon firing",
+      "target_element_id": "prob-irodov-1-025"
+    },
+    {
+      "evidence_id": "mock-q-m3-11",
+      "evidence_type": "MOCK_QUESTION",
+      "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+      "source_title": "JEE Rank Booster Mock Test 03",
+      "page_range": "3",
+      "section": "Physics Q11",
+      "fidelity_class": "SOURCE_VERBATIM",
+      "role_in_chapter": "Official exam question on projectile position vector at t = 2s",
+      "target_element_id": "kinematics-question-b29767c8"
+    },
+    {
+      "evidence_id": "mock-q-m3-26",
+      "evidence_type": "MOCK_QUESTION",
+      "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+      "source_title": "JEE Rank Booster Mock Test 03",
+      "page_range": "6",
+      "section": "Physics Q26",
+      "fidelity_class": "SOURCE_VERBATIM",
+      "role_in_chapter": "Official exam question on multi-stage car acceleration and deceleration",
+      "target_element_id": "kinematics-question-7b4e1d65"
+    }
+  ]
+}

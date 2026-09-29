@@ -1,0 +1,90 @@
+{
+  "example_id": "ex-kin-incline-proj-01",
+  "chapter_id": "kinematics",
+  "problem_statement": "A projectile is launched from the base of an inclined plane having an angle of inclination alpha = 30.0 degrees with the horizontal. The launch speed is u = 20.0 m/s at an angle theta = 60.0 degrees with the horizontal (i.e. at 30.0 degrees above the incline). Taking downward gravity g = 10.0 m/s^2, find: (a) the time of flight T until impact on the incline, (b) the range R_up along the incline, and (c) the angle at which the projectile strikes the incline.",
+  "known_quantities": {
+    "launch_speed": "u = 20.0 m/s",
+    "inclination_angle": "alpha = 30.0 deg",
+    "launch_angle_horizontal": "theta = 60.0 deg",
+    "relative_launch_angle": "beta = theta - alpha = 30.0 deg",
+    "gravity": "g = 10.0 m/s^2"
+  },
+  "target_quantity": "Time of flight T, range along incline R_up, impact angle with incline",
+  "relevant_concepts": [
+    "concept-kin-incline-proj-01"
+  ],
+  "governing_principles": [
+    "Tilted coordinate axes: a_x' = -g sin(alpha), a_y' = -g cos(alpha)"
+  ],
+  "solution_strategy": "Rotate axes by alpha = 30 deg. Find T from y'(T) = 0. Evaluate x'(T) for range R_up. Evaluate velocity components v_x' and v_y' at impact to find impact direction.",
+  "ordered_steps": [
+    {
+      "step_number": 1,
+      "action_description": "Resolve initial velocity and gravity into components parallel and perpendicular to the incline",
+      "equation_latex": "u_{x'} = u\\cos(\\theta - \\alpha) = 20\\cos 30^\\circ = 10\\sqrt{3}\\text{ m/s}, \\quad u_{y'} = u\\sin(\\theta - \\alpha) = 20\\sin 30^\\circ = 10.0\\text{ m/s}; \\quad a_{x'} = -10\\sin 30^\\circ = -5.0\\text{ m/s}^2, \\quad a_{y'} = -10\\cos 30^\\circ = -5\\sqrt{3}\\text{ m/s}^2",
+      "justification": "Coordinate rotation by alpha = 30 deg.",
+      "calculation_details": "u_x' = 17.32 m/s, u_y' = 10.0 m/s, a_x' = -5.0 m/s^2, a_y' = -8.66 m/s^2.",
+      "intermediate_result": "Components established"
+    },
+    {
+      "step_number": 2,
+      "action_description": "Determine time of flight by solving y'(T) = 0",
+      "equation_latex": "u_{y'} T - \\frac{1}{2} g\\cos\\alpha T^2 = 0 \\implies T = \\frac{2 u_{y'}}{g\\cos\\alpha} = \\frac{2 (10.0)}{5\\sqrt{3}} = \\frac{4}{\\sqrt{3}} = \\frac{4\\sqrt{3}}{3} \\approx 2.309\\text{ s}",
+      "justification": "Condition for landing on the incline.",
+      "calculation_details": "T = 4 / sqrt(3) s approx 2.309 s.",
+      "intermediate_result": "T = 4/sqrt(3) s"
+    },
+    {
+      "step_number": 3,
+      "action_description": "Calculate range along incline R_up = x'(T)",
+      "equation_latex": "R_{\\text{up}} = u_{x'} T + \\frac{1}{2} a_{x'} T^2 = (10\\sqrt{3})\\left(\\frac{4}{\\sqrt{3}}\\right) + \\frac{1}{2}(-5.0)\\left(\\frac{16}{3}\\right) = 40.0 - \\frac{40.0}{3} = \\frac{80.0}{3} \\approx 26.67\\text{ m}",
+      "justification": "Position along incline with uniform acceleration a_x' = -5 m/s^2.",
+      "calculation_details": "40 - 40/3 = 80/3 approx 26.67 m.",
+      "intermediate_result": "R_up = 80/3 m approx 26.67 m"
+    },
+    {
+      "step_number": 4,
+      "action_description": "Evaluate parallel velocity component at impact v_x'(T)",
+      "equation_latex": "v_{x'}(T) = u_{x'} + a_{x'} T = 10\\sqrt{3} + (-5.0)\\left(\\frac{4}{\\sqrt{3}}\\right) = 10\\sqrt{3} - \\frac{20}{\\sqrt{3}} = \\frac{30 - 20}{\\sqrt{3}} = \\frac{10}{\\sqrt{3}}\\text{ m/s}",
+      "justification": "First kinematic equation along x'.",
+      "calculation_details": "v_x'(T) = 10/sqrt(3) m/s > 0 (still traveling up incline).",
+      "intermediate_result": "v_x' = 10/sqrt(3) m/s"
+    },
+    {
+      "step_number": 5,
+      "action_description": "Evaluate perpendicular velocity component at impact v_y'(T)",
+      "equation_latex": "v_{y'}(T) = u_{y'} + a_{y'} T = 10.0 + (-5\\sqrt{3})\\left(\\frac{4}{\\sqrt{3}}\\right) = 10.0 - 20.0 = -10.0\\text{ m/s}",
+      "justification": "First kinematic equation along y'.",
+      "calculation_details": "v_y'(T) = -10 m/s downward onto incline.",
+      "intermediate_result": "v_y' = -10 m/s"
+    },
+    {
+      "step_number": 6,
+      "action_description": "Compute impact angle with the incline",
+      "equation_latex": "\\tan\\phi = \\left| \\frac{v_{y'}}{v_{x'}} \\right| = \\frac{10.0}{10/\\sqrt{3}} = \\sqrt{3} \\implies \\phi = 60.0^\\circ",
+      "justification": "Tangent of angle between impact velocity vector and incline surface.",
+      "calculation_details": "phi = arctan(sqrt(3)) = 60.0 deg.",
+      "intermediate_result": "phi = 60.0 deg"
+    }
+  ],
+  "final_answer": "(a) Time of flight T = 4/sqrt(3) s (approx 2.31 s); (b) Range up incline R_up = 80/3 m (approx 26.67 m); (c) The projectile strikes the incline at an angle of 60.0 degrees to the inclined surface.",
+  "units": "s, m, deg",
+  "sanity_checks": [
+    "Check range formula: R_up = [2 u^2 sin(theta - alpha) cos(theta)] / [g cos^2(alpha)] = [2(400) sin(30) cos(60)] / [10 (3/4)] = [800 * (1/2) * (1/2)] / [7.5] = 200 / 7.5 = 80/3 m, exact match!",
+    "Perpendicular landing check: v_x' > 0 means the projectile does not land perpendicularly; it strikes at 60 deg."
+  ],
+  "alternate_methods": [
+    "Intersect standard Cartesian parabola y = x tan(60) - gx^2/(2 u^2 cos^2 60) with line y = x tan(30)."
+  ],
+  "trap_alerts": [
+    "Do not forget that gravity has an acceleration component along the incline (a_x' = -g sin alpha)!"
+  ],
+  "source_atom_id": null,
+  "provenance": [],
+  "risk_level": "HIGH",
+  "verification_status": "VERIFIED",
+  "verification_record_id": "dual-cvr-ex-kin-incline-proj-01",
+  "generator_identity": "physics-example-writer",
+  "generator_conversation_id": "gen-kin-ex-04",
+  "content_hash": "d18f5b09890f3f6a0a25a7a9374a579bce6098118c326b721380abab5fa36f60"
+}

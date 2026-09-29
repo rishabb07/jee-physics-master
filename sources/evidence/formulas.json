@@ -1,0 +1,3956 @@
+[
+  {
+    "formula_id": "form-evid-dim-analysis",
+    "normalized_latex": "[\\text{LHS}] = [\\text{RHS}]",
+    "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+    "pages": [
+      14,
+      15
+    ],
+    "surrounding_explanatory_evidence_id": "evid-form-evid-dim-analysis",
+    "variables": {
+      "LHS": "Dimensions of left hand side",
+      "RHS": "Dimensions of right hand side"
+    },
+    "explicitly_stated_assumptions": [
+      "Dimensional homogeneity"
+    ],
+    "explicitly_stated_conditions": [
+      "Additive terms must have identical dimensions"
+    ],
+    "notation_or_convention": "STANDARD_SI",
+    "corroborating_source_ids": [
+      "src-fundamentals-of-physics--390f40d1"
+    ],
+    "conflict_references": [],
+    "extraction_confidence": 1.0,
+    "taxonomy_node_ids": [
+      "units-and-measurements",
+      "units-and-dimensions"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "65a20bfa7795ab7fc104cb81ba9d9f59bc5652f926a164c57842c3f77747d936"
+  },
+  {
+    "formula_id": "form-evid-kin-accel",
+    "normalized_latex": "\\vec{a} = \\frac{d\\vec{v}}{dt} = \\frac{d^2\\vec{r}}{dt^2}",
+    "source_id": "src-fundamentals-of-physics--390f40d1",
+    "pages": [
+      42,
+      43
+    ],
+    "surrounding_explanatory_evidence_id": "evid-form-evid-kin-accel",
+    "variables": {
+      "a": "Acceleration",
+      "v": "Velocity",
+      "r": "Position"
+    },
+    "explicitly_stated_assumptions": [
+      "Differentiable trajectory"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical continuum"
+    ],
+    "notation_or_convention": "STANDARD_SI",
+    "corroborating_source_ids": [
+      "src-university-physics-with--0bc11b67",
+      "src-concepts-of-physics-by-h-a489bb6e"
+    ],
+    "conflict_references": [],
+    "extraction_confidence": 1.0,
+    "taxonomy_node_ids": [
+      "kinematics",
+      "rectilinear-motion"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "121707451e2aa99852bb788abbf799028f6d18289a45ff2c59a8e0ffdec0fd3c"
+  },
+  {
+    "formula_id": "form-evid-projectile-range",
+    "normalized_latex": "R = \\frac{u^2 \\sin 2\\theta}{g}",
+    "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+    "pages": [
+      45,
+      46
+    ],
+    "surrounding_explanatory_evidence_id": "evid-form-evid-projectile-range",
+    "variables": {
+      "R": "Horizontal range",
+      "u": "Initial speed",
+      "\\theta": "Launch angle",
+      "g": "Gravity"
+    },
+    "explicitly_stated_assumptions": [
+      "Flat launch ground",
+      "Uniform gravity"
+    ],
+    "explicitly_stated_conditions": [
+      "Neglect air resistance"
+    ],
+    "notation_or_convention": "STANDARD_SI",
+    "corroborating_source_ids": [
+      "src-fundamentals-of-physics--390f40d1"
+    ],
+    "conflict_references": [],
+    "extraction_confidence": 1.0,
+    "taxonomy_node_ids": [
+      "kinematics",
+      "projectile-motion"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "cb6c69481150435075b3665e83b774ec8166ed98bd85f2329eebf156f57dade1"
+  },
+  {
+    "formula_id": "form-evid-newton-second-law",
+    "normalized_latex": "\\vec{F}_{\\text{net}} = \\frac{d\\vec{p}}{dt} = m \\vec{a}",
+    "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+    "pages": [
+      75,
+      76
+    ],
+    "surrounding_explanatory_evidence_id": "evid-form-evid-newton-second-law",
+    "variables": {
+      "F": "Net external force",
+      "p": "Momentum",
+      "m": "Mass",
+      "a": "Acceleration"
+    },
+    "explicitly_stated_assumptions": [
+      "Inertial frame"
+    ],
+    "explicitly_stated_conditions": [
+      "Constant mass m at v << c"
+    ],
+    "notation_or_convention": "STANDARD_SI",
+    "corroborating_source_ids": [
+      "src-feynman-richard-p-the-fe-486f6a95",
+      "src-fundamentals-of-physics--390f40d1"
+    ],
+    "conflict_references": [],
+    "extraction_confidence": 1.0,
+    "taxonomy_node_ids": [
+      "laws-of-motion",
+      "newtons-laws"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "3b19a1539ced901bc1a6bbd441419ec5b62058a0c5ce23bf2dd0eaa3ca27b4c2"
+  },
+  {
+    "formula_id": "form-evid-friction-static",
+    "normalized_latex": "f_{s,\\max} = \\mu_s N",
+    "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+    "pages": [
+      96,
+      97
+    ],
+    "surrounding_explanatory_evidence_id": "evid-form-evid-friction-static",
+    "variables": {
+      "f_s": "Limiting static friction",
+      "\\mu_s": "Coefficient of static friction",
+      "N": "Normal force"
+    },
+    "explicitly_stated_assumptions": [
+      "Dry solid contact"
+    ],
+    "explicitly_stated_conditions": [
+      "Applies at threshold of sliding"
+    ],
+    "notation_or_convention": "STANDARD_SI",
+    "corroborating_source_ids": [
+      "src-university-physics-with--0bc11b67"
+    ],
+    "conflict_references": [],
+    "extraction_confidence": 1.0,
+    "taxonomy_node_ids": [
+      "laws-of-motion",
+      "friction"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "0ff6a88dc7a26cf087cfded83e3e211e4c991c85e60190055ea3ae874a71aedd"
+  },
+  {
+    "formula_id": "form-evid-work-integral",
+    "normalized_latex": "W = \\int_{\\vec{r}_1}^{\\vec{r}_2} \\vec{F} \\cdot d\\vec{r}",
+    "source_id": "src-university-physics-with--0bc11b67",
+    "pages": [
+      205,
+      206
+    ],
+    "surrounding_explanatory_evidence_id": "evid-form-evid-work-integral",
+    "variables": {
+      "W": "Work done",
+      "F": "Force vector",
+      "r": "Position"
+    },
+    "explicitly_stated_assumptions": [
+      "Continuous path"
+    ],
+    "explicitly_stated_conditions": [
+      "Force well-defined along trajectory"
+    ],
+    "notation_or_convention": "STANDARD_SI",
+    "corroborating_source_ids": [
+      "src-fundamentals-of-physics--390f40d1"
+    ],
+    "conflict_references": [],
+    "extraction_confidence": 1.0,
+    "taxonomy_node_ids": [
+      "work-energy-power",
+      "work-done"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "10cfeda58185f679233488b0f5af8bd84560acc53c6ddfc4ff11943177e8feb8"
+  },
+  {
+    "formula_id": "form-evid-work-energy-thm",
+    "normalized_latex": "W_{\\text{net}} = \\Delta K = \\frac{1}{2} m v_f^2 - \\frac{1}{2} m v_i^2",
+    "source_id": "src-fundamentals-of-physics--390f40d1",
+    "pages": [
+      168,
+      170
+    ],
+    "surrounding_explanatory_evidence_id": "evid-form-evid-work-energy-thm",
+    "variables": {
+      "W_net": "Total work",
+      "K": "Kinetic energy",
+      "m": "Mass",
+      "v": "Speed"
+    },
+    "explicitly_stated_assumptions": [
+      "Inertial frame"
+    ],
+    "explicitly_stated_conditions": [
+      "Particle or rigid translation"
+    ],
+    "notation_or_convention": "STANDARD_SI",
+    "corroborating_source_ids": [
+      "src-university-physics-with--0bc11b67",
+      "src-concepts-of-physics-by-h-a489bb6e"
+    ],
+    "conflict_references": [],
+    "extraction_confidence": 1.0,
+    "taxonomy_node_ids": [
+      "work-energy-power",
+      "work-energy-theorem"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "9a49926394fbea974743d85608ed6b1c1f9acb72dd9d9c10134bfa71460e55cc"
+  },
+  {
+    "formula_id": "form-evid-com-discrete",
+    "normalized_latex": "\\vec{r}_{\\text{cm}} = \\frac{\\sum m_i \\vec{r}_i}{\\sum m_i}",
+    "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+    "pages": [
+      151,
+      152
+    ],
+    "surrounding_explanatory_evidence_id": "evid-form-evid-com-discrete",
+    "variables": {
+      "r_cm": "Center of mass",
+      "m_i": "Mass of particle i",
+      "r_i": "Position of particle i"
+    },
+    "explicitly_stated_assumptions": [
+      "Discrete point particles"
+    ],
+    "explicitly_stated_conditions": [
+      "Euclidean space"
+    ],
+    "notation_or_convention": "STANDARD_SI",
+    "corroborating_source_ids": [
+      "src-fundamentals-of-physics--390f40d1"
+    ],
+    "conflict_references": [],
+    "extraction_confidence": 1.0,
+    "taxonomy_node_ids": [
+      "center-of-mass",
+      "center-of-mass-fundamentals"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "022951152355357c95575fb23cb25e8eb88c4f28f5dfdaccb6c8e2fa0edd9fd2"
+  },
+  {
+    "formula_id": "form-evid-rot-moi-parallel",
+    "normalized_latex": "I = I_{\\text{cm}} + M d^2",
+    "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+    "pages": [
+      185,
+      186
+    ],
+    "surrounding_explanatory_evidence_id": "evid-form-evid-rot-moi-parallel",
+    "variables": {
+      "I": "Moment of inertia about parallel axis",
+      "I_cm": "Moment of inertia about CM axis",
+      "M": "Total mass",
+      "d": "Perpendicular distance"
+    },
+    "explicitly_stated_assumptions": [
+      "Rigid body"
+    ],
+    "explicitly_stated_conditions": [
+      "Both axes parallel, one axis passes strictly through CM"
+    ],
+    "notation_or_convention": "STANDARD_SI",
+    "corroborating_source_ids": [
+      "src-fundamentals-of-physics--390f40d1",
+      "src-university-physics-with--0bc11b67"
+    ],
+    "conflict_references": [],
+    "extraction_confidence": 1.0,
+    "taxonomy_node_ids": [
+      "rotational-motion",
+      "moment-of-inertia"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "200d4762ac040263a3f476034d08f6dbf6f93ffbf9debf016dea1079f2a2adea"
+  },
+  {
+    "formula_id": "form-evid-rot-angmom-cons",
+    "normalized_latex": "I_1 \\omega_1 = I_2 \\omega_2",
+    "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+    "pages": [
+      192,
+      193
+    ],
+    "surrounding_explanatory_evidence_id": "evid-form-evid-rot-angmom-cons",
+    "variables": {
+      "I": "Moment of inertia",
+      "\\omega": "Angular velocity"
+    },
+    "explicitly_stated_assumptions": [
+      "Rigid rotation about fixed axis"
+    ],
+    "explicitly_stated_conditions": [
+      "Net external torque along axis vanishes"
+    ],
+    "notation_or_convention": "STANDARD_SI",
+    "corroborating_source_ids": [
+      "src-fundamentals-of-physics--390f40d1"
+    ],
+    "conflict_references": [],
+    "extraction_confidence": 1.0,
+    "taxonomy_node_ids": [
+      "rotational-motion",
+      "angular-momentum"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "80083d6fb61b07c1467c0e0083fc8f5b082106dfbe010cc10114fbb1141a7f77"
+  },
+  {
+    "formula_id": "form-evid-grav-universal",
+    "normalized_latex": "F = G \\frac{m_1 m_2}{r^2}",
+    "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+    "pages": [
+      218,
+      219
+    ],
+    "surrounding_explanatory_evidence_id": "evid-form-evid-grav-universal",
+    "variables": {
+      "F": "Gravitational force",
+      "G": "Gravitational constant",
+      "m": "Mass",
+      "r": "Distance"
+    },
+    "explicitly_stated_assumptions": [
+      "Point masses or spherical bodies"
+    ],
+    "explicitly_stated_conditions": [
+      "Static or non-relativistic"
+    ],
+    "notation_or_convention": "STANDARD_SI",
+    "corroborating_source_ids": [
+      "src-fundamentals-of-physics--390f40d1",
+      "src-feynman-richard-p-the-fe-486f6a95"
+    ],
+    "conflict_references": [],
+    "extraction_confidence": 1.0,
+    "taxonomy_node_ids": [
+      "gravitation",
+      "gravitational-force-and-field"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "339b978a2e20af0cb0111ef8f1300345660bb41e023563fa15514e76d74c5d44"
+  },
+  {
+    "formula_id": "form-evid-sol-hooke",
+    "normalized_latex": "\\sigma = Y \\varepsilon \\implies \\frac{F}{A} = Y \\frac{\\Delta L}{L_0}",
+    "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+    "pages": [
+      288,
+      289
+    ],
+    "surrounding_explanatory_evidence_id": "evid-form-evid-sol-hooke",
+    "variables": {
+      "\\sigma": "Stress",
+      "Y": "Young modulus",
+      "\\varepsilon": "Strain",
+      "F": "Force",
+      "A": "Area"
+    },
+    "explicitly_stated_assumptions": [
+      "Elastic limit"
+    ],
+    "explicitly_stated_conditions": [
+      "Small deformation, uniform cross-section"
+    ],
+    "notation_or_convention": "STANDARD_SI",
+    "corroborating_source_ids": [
+      "src-university-physics-with--0bc11b67"
+    ],
+    "conflict_references": [],
+    "extraction_confidence": 1.0,
+    "taxonomy_node_ids": [
+      "properties-of-solids",
+      "stress-strain-relationship"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "7229878b29de9f078d52f500ddfc0f69fc0f16ca561aea8e026b8150230fb353"
+  },
+  {
+    "formula_id": "form-evid-fluid-bernoulli",
+    "normalized_latex": "P + \\frac{1}{2} \\rho v^2 + \\rho g y = \\text{constant}",
+    "source_id": "src-university-physics-with--0bc11b67",
+    "pages": [
+      415,
+      417
+    ],
+    "surrounding_explanatory_evidence_id": "evid-form-evid-fluid-bernoulli",
+    "variables": {
+      "P": "Static pressure",
+      "\\rho": "Density",
+      "v": "Speed",
+      "y": "Height",
+      "g": "Gravity"
+    },
+    "explicitly_stated_assumptions": [
+      "Ideal fluid"
+    ],
+    "explicitly_stated_conditions": [
+      "Incompressible, non-viscous, irrotational streamline flow"
+    ],
+    "notation_or_convention": "STANDARD_SI",
+    "corroborating_source_ids": [
+      "src-fundamentals-of-physics--390f40d1",
+      "src-concepts-of-physics-by-h-a489bb6e"
+    ],
+    "conflict_references": [],
+    "extraction_confidence": 1.0,
+    "taxonomy_node_ids": [
+      "fluid-mechanics",
+      "fluid-dynamics"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "bd7028d6d5c0f44734a4dd2806684f8f95575396df67d5f7199d56bdafac9de4"
+  },
+  {
+    "formula_id": "form-evid-therm-stefan",
+    "normalized_latex": "E = e \\sigma A T^4",
+    "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+    "pages": [
+      87,
+      88
+    ],
+    "surrounding_explanatory_evidence_id": "evid-form-evid-therm-stefan",
+    "variables": {
+      "E": "Radiated power",
+      "e": "Emissivity",
+      "\\sigma": "Stefan constant",
+      "A": "Area",
+      "T": "Temperature"
+    },
+    "explicitly_stated_assumptions": [
+      "Blackbody thermal radiation"
+    ],
+    "explicitly_stated_conditions": [
+      "Emission into zero kelvin background"
+    ],
+    "notation_or_convention": "STANDARD_SI",
+    "corroborating_source_ids": [
+      "src-university-physics-with--0bc11b67"
+    ],
+    "conflict_references": [],
+    "extraction_confidence": 1.0,
+    "taxonomy_node_ids": [
+      "thermal-physics",
+      "heat-transfer"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "3ea639009829e56bffe20cc7c96a226c4286a991f25bd7c16b8b3a49e3b302c1"
+  },
+  {
+    "formula_id": "form-evid-td-first-law",
+    "normalized_latex": "dQ = dU + dW = dU + P dV",
+    "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+    "pages": [
+      64,
+      65
+    ],
+    "surrounding_explanatory_evidence_id": "evid-form-evid-td-first-law",
+    "variables": {
+      "Q": "Heat absorbed",
+      "U": "Internal energy",
+      "W": "Work done by system",
+      "P": "Pressure",
+      "V": "Volume"
+    },
+    "explicitly_stated_assumptions": [
+      "Closed thermodynamic system"
+    ],
+    "explicitly_stated_conditions": [
+      "Quasi-static boundary work"
+    ],
+    "notation_or_convention": "PHYSICS_CONVENTION_W_BY",
+    "corroborating_source_ids": [
+      "src-fundamentals-of-physics--390f40d1"
+    ],
+    "conflict_references": [
+      "disagree-td-work-sign-convention"
+    ],
+    "extraction_confidence": 1.0,
+    "taxonomy_node_ids": [
+      "thermodynamics",
+      "first-law-and-processes"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "f52155782fd7aa89d97c3b698decdeec0102010aa04da27be6e6e9a7595f6971"
+  },
+  {
+    "formula_id": "form-evid-td-adiabatic",
+    "normalized_latex": "P V^\\gamma = \\text{constant},\\quad T V^{\\gamma-1} = \\text{constant}",
+    "source_id": "src-fundamentals-of-physics--390f40d1",
+    "pages": [
+      560,
+      562
+    ],
+    "surrounding_explanatory_evidence_id": "evid-form-evid-td-adiabatic",
+    "variables": {
+      "P": "Pressure",
+      "V": "Volume",
+      "T": "Temperature",
+      "\\gamma": "Cp/Cv"
+    },
+    "explicitly_stated_assumptions": [
+      "Ideal gas"
+    ],
+    "explicitly_stated_conditions": [
+      "Reversible quasi-static process with dQ = 0"
+    ],
+    "notation_or_convention": "STANDARD_SI",
+    "corroborating_source_ids": [
+      "src-concepts-of-physics-by-h-1fd380f4"
+    ],
+    "conflict_references": [
+      "disagree-td-free-expansion-validity"
+    ],
+    "extraction_confidence": 1.0,
+    "taxonomy_node_ids": [
+      "thermodynamics",
+      "special-thermodynamic-processes"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e383f1d7512c1f34d792a4ece191d6b703c751ccd28721052777ba3084e3859e"
+  },
+  {
+    "formula_id": "form-evid-ktg-pressure",
+    "normalized_latex": "P = \\frac{1}{3} \\frac{N m}{V} v_{\\text{rms}}^2",
+    "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+    "pages": [
+      31,
+      33
+    ],
+    "surrounding_explanatory_evidence_id": "evid-form-evid-ktg-pressure",
+    "variables": {
+      "P": "Pressure",
+      "N": "Molecule count",
+      "m": "Mass per molecule",
+      "V": "Volume",
+      "v_rms": "RMS speed"
+    },
+    "explicitly_stated_assumptions": [
+      "Ideal gas kinetic model"
+    ],
+    "explicitly_stated_conditions": [
+      "Elastic wall collisions, random isotropic velocities"
+    ],
+    "notation_or_convention": "STANDARD_SI",
+    "corroborating_source_ids": [
+      "src-fundamentals-of-physics--390f40d1"
+    ],
+    "conflict_references": [],
+    "extraction_confidence": 1.0,
+    "taxonomy_node_ids": [
+      "kinetic-theory-of-gases",
+      "molecular-speed-and-pressure"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "593ccdf0e21dc8cad4d1230f0ee02adb0efe4dd392bcd5eb4d7fe77620cfdfb0"
+  },
+  {
+    "formula_id": "form-evid-osc-shm",
+    "normalized_latex": "T = 2\\pi \\sqrt{\\frac{m}{k}}",
+    "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+    "pages": [
+      241,
+      243
+    ],
+    "surrounding_explanatory_evidence_id": "evid-form-evid-osc-shm",
+    "variables": {
+      "T": "Period",
+      "m": "Mass",
+      "k": "Spring constant"
+    },
+    "explicitly_stated_assumptions": [
+      "Linear restoring force"
+    ],
+    "explicitly_stated_conditions": [
+      "F = -k x, negligible damping"
+    ],
+    "notation_or_convention": "STANDARD_SI",
+    "corroborating_source_ids": [
+      "src-fundamentals-of-physics--390f40d1"
+    ],
+    "conflict_references": [],
+    "extraction_confidence": 1.0,
+    "taxonomy_node_ids": [
+      "oscillations",
+      "kinematics-of-shm"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "c766086eb8c7da8e2bc83e0b3922173befd881cac843d17218f540db80a17cea"
+  },
+  {
+    "formula_id": "form-evid-wave-speed",
+    "normalized_latex": "v = \\sqrt{\\frac{T}{\\mu}}",
+    "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+    "pages": [
+      306,
+      308
+    ],
+    "surrounding_explanatory_evidence_id": "evid-form-evid-wave-speed",
+    "variables": {
+      "v": "Wave speed",
+      "T": "Tension",
+      "\\mu": "Linear density"
+    },
+    "explicitly_stated_assumptions": [
+      "Stretched string"
+    ],
+    "explicitly_stated_conditions": [
+      "Small transverse displacement"
+    ],
+    "notation_or_convention": "STANDARD_SI",
+    "corroborating_source_ids": [
+      "src-university-physics-with--0bc11b67"
+    ],
+    "conflict_references": [],
+    "extraction_confidence": 1.0,
+    "taxonomy_node_ids": [
+      "waves",
+      "wave-propagation"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "337b1ceddccdf093cfa8f32d0c771463f4cfa9c4a498f463205cce3729ba7eea"
+  },
+  {
+    "formula_id": "form-evid-es-coulomb",
+    "normalized_latex": "F = \\frac{1}{4\\pi\\varepsilon_0} \\frac{q_1 q_2}{r^2}",
+    "source_id": "src-university-physics-with--0bc11b67",
+    "pages": [
+      726,
+      728
+    ],
+    "surrounding_explanatory_evidence_id": "evid-form-evid-es-coulomb",
+    "variables": {
+      "F": "Force",
+      "\\varepsilon_0": "Permittivity",
+      "q": "Charge",
+      "r": "Distance"
+    },
+    "explicitly_stated_assumptions": [
+      "Point charges at rest in vacuum"
+    ],
+    "explicitly_stated_conditions": [
+      "Electrostatic limit"
+    ],
+    "notation_or_convention": "STANDARD_SI",
+    "corroborating_source_ids": [
+      "src-concepts-of-physics-by-h-1fd380f4"
+    ],
+    "conflict_references": [
+      "disagree-irodov-cgs-gaussian-units"
+    ],
+    "extraction_confidence": 1.0,
+    "taxonomy_node_ids": [
+      "electrostatics",
+      "coulombs-law-and-electric-field"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "5df7e68ca6bea9dc5613cfb3f21cc0f0e29f15047b2d0cf38f0313fa36ac9bcd"
+  },
+  {
+    "formula_id": "form-evid-cap-parallel",
+    "normalized_latex": "C = \\frac{\\kappa \\varepsilon_0 A}{d}",
+    "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+    "pages": [
+      160,
+      162
+    ],
+    "surrounding_explanatory_evidence_id": "evid-form-evid-cap-parallel",
+    "variables": {
+      "C": "Capacitance",
+      "\\kappa": "Dielectric constant",
+      "A": "Plate area",
+      "d": "Separation"
+    },
+    "explicitly_stated_assumptions": [
+      "Parallel plate capacitor"
+    ],
+    "explicitly_stated_conditions": [
+      "Neglect edge fringing fields"
+    ],
+    "notation_or_convention": "STANDARD_SI",
+    "corroborating_source_ids": [
+      "src-fundamentals-of-physics--390f40d1"
+    ],
+    "conflict_references": [],
+    "extraction_confidence": 1.0,
+    "taxonomy_node_ids": [
+      "capacitance",
+      "capacitance-fundamentals"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "6116fede4dd2344a0b0217ef441b1175df963feb525f8b2a74cfbde0c7115d60"
+  },
+  {
+    "formula_id": "form-evid-curr-drift",
+    "normalized_latex": "I = n e A v_d",
+    "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+    "pages": [
+      188,
+      189
+    ],
+    "surrounding_explanatory_evidence_id": "evid-form-evid-curr-drift",
+    "variables": {
+      "I": "Current",
+      "n": "Carrier density",
+      "e": "Electron charge",
+      "A": "Area",
+      "v_d": "Drift speed"
+    },
+    "explicitly_stated_assumptions": [
+      "Ohmic conductor"
+    ],
+    "explicitly_stated_conditions": [
+      "Steady uniform current"
+    ],
+    "notation_or_convention": "STANDARD_SI",
+    "corroborating_source_ids": [
+      "src-university-physics-with--0bc11b67"
+    ],
+    "conflict_references": [],
+    "extraction_confidence": 1.0,
+    "taxonomy_node_ids": [
+      "current-electricity",
+      "electric-current-and-drift"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "2efb11404d6af6bbc7555ac2ee2cdf196793362578a18aebddb34f6b71ea99ab"
+  },
+  {
+    "formula_id": "form-evid-curr-meters",
+    "normalized_latex": "S = \\frac{I_g G}{I - I_g},\\quad R_s = \\frac{V}{I_g} - G",
+    "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+    "pages": [
+      201,
+      202
+    ],
+    "surrounding_explanatory_evidence_id": "evid-form-evid-curr-meters",
+    "variables": {
+      "S": "Shunt resistor",
+      "G": "Galvanometer resistance",
+      "I_g": "Full-scale current",
+      "I": "Ammeter range",
+      "R_s": "Series multiplier",
+      "V": "Voltmeter range"
+    },
+    "explicitly_stated_assumptions": [
+      "Moving coil galvanometer"
+    ],
+    "explicitly_stated_conditions": [
+      "Linear scale deflection"
+    ],
+    "notation_or_convention": "STANDARD_SI",
+    "corroborating_source_ids": [
+      "src-fundamentals-of-physics--390f40d1"
+    ],
+    "conflict_references": [],
+    "extraction_confidence": 1.0,
+    "taxonomy_node_ids": [
+      "current-electricity",
+      "dc-circuits"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "5fcc26a647039ea6d451839ac204fa5b86be7de691b3d78bd34403fba3263590"
+  },
+  {
+    "formula_id": "form-evid-mag-biot-savart",
+    "normalized_latex": "d\\vec{B} = \\frac{\\mu_0}{4\\pi} \\frac{I d\\vec{l} \\times \\hat{r}}{r^2}",
+    "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+    "pages": [
+      247,
+      248
+    ],
+    "surrounding_explanatory_evidence_id": "evid-form-evid-mag-biot-savart",
+    "variables": {
+      "B": "Magnetic field",
+      "\\mu_0": "Permeability",
+      "I": "Current",
+      "dl": "Element length",
+      "r": "Distance"
+    },
+    "explicitly_stated_assumptions": [
+      "Steady current in vacuum"
+    ],
+    "explicitly_stated_conditions": [
+      "Magnetostatic limit"
+    ],
+    "notation_or_convention": "STANDARD_SI",
+    "corroborating_source_ids": [
+      "src-university-physics-with--0bc11b67"
+    ],
+    "conflict_references": [
+      "disagree-irodov-cgs-gaussian-units"
+    ],
+    "extraction_confidence": 1.0,
+    "taxonomy_node_ids": [
+      "magnetic-effects-of-current",
+      "biot-savart-law-and-ampere-law"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "f653f54dd6f13c0d181aa6d28a5e954fc87f0c9db8d30caaf3b69fa0b450ee45"
+  },
+  {
+    "formula_id": "form-evid-mag-susceptibility",
+    "normalized_latex": "\\vec{B} = \\mu_0 (\\vec{H} + \\vec{M}) = \\mu_0 (1 + \\chi) \\vec{H}",
+    "source_id": "src-fundamentals-of-physics--390f40d1",
+    "pages": [
+      930,
+      932
+    ],
+    "surrounding_explanatory_evidence_id": "evid-form-evid-mag-susceptibility",
+    "variables": {
+      "B": "Magnetic induction",
+      "H": "Field intensity",
+      "M": "Magnetization",
+      "\\chi": "Susceptibility"
+    },
+    "explicitly_stated_assumptions": [
+      "Linear magnetic media"
+    ],
+    "explicitly_stated_conditions": [
+      "Isotropic and homogeneous"
+    ],
+    "notation_or_convention": "STANDARD_SI",
+    "corroborating_source_ids": [
+      "src-university-physics-with--0bc11b67"
+    ],
+    "conflict_references": [],
+    "extraction_confidence": 1.0,
+    "taxonomy_node_ids": [
+      "magnetism-and-matter",
+      "magnetic-properties-of-materials"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "15bf6f5341f33b0906129440f75121ade011488caddb674f5d634ccfc3969a5f"
+  },
+  {
+    "formula_id": "form-evid-emi-faraday",
+    "normalized_latex": "\\mathcal{E} = -\\frac{d\\Phi_B}{dt}",
+    "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+    "pages": [
+      300,
+      302
+    ],
+    "surrounding_explanatory_evidence_id": "evid-form-evid-emi-faraday",
+    "variables": {
+      "\\mathcal{E}": "Induced emf",
+      "\\Phi_B": "Magnetic flux",
+      "t": "Time"
+    },
+    "explicitly_stated_assumptions": [
+      "Closed conducting loop"
+    ],
+    "explicitly_stated_conditions": [
+      "Minus sign represents Lenz law"
+    ],
+    "notation_or_convention": "STANDARD_SI",
+    "corroborating_source_ids": [
+      "src-fundamentals-of-physics--390f40d1",
+      "src-feynman-richard-p-the-fe-486f6a95"
+    ],
+    "conflict_references": [],
+    "extraction_confidence": 1.0,
+    "taxonomy_node_ids": [
+      "electromagnetic-induction",
+      "faradays-law-and-motional-emf"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "acb63522820b59a78cfd001c2ab2432af8f08078d8f9f5f6f8b1c6661c115cd3"
+  },
+  {
+    "formula_id": "form-evid-ac-impedance",
+    "normalized_latex": "Z = \\sqrt{R^2 + \\left(\\omega L - \\frac{1}{\\omega C}\\right)^2}",
+    "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+    "pages": [
+      318,
+      320
+    ],
+    "surrounding_explanatory_evidence_id": "evid-form-evid-ac-impedance",
+    "variables": {
+      "Z": "Impedance",
+      "R": "Resistance",
+      "L": "Inductance",
+      "C": "Capacitance",
+      "\\omega": "Angular frequency"
+    },
+    "explicitly_stated_assumptions": [
+      "Series LCR circuit"
+    ],
+    "explicitly_stated_conditions": [
+      "Sinusoidal steady state AC"
+    ],
+    "notation_or_convention": "STANDARD_SI",
+    "corroborating_source_ids": [
+      "src-fundamentals-of-physics--390f40d1"
+    ],
+    "conflict_references": [],
+    "extraction_confidence": 1.0,
+    "taxonomy_node_ids": [
+      "alternating-current",
+      "lcr-circuits-and-power"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "ae425deb23f3375fad13df8c4babf9624c0405e739d02db25218824de33b191d"
+  },
+  {
+    "formula_id": "form-evid-emw-speed",
+    "normalized_latex": "c = \\frac{1}{\\sqrt{\\mu_0 \\varepsilon_0}} = \\frac{E_0}{B_0}",
+    "source_id": "src-fundamentals-of-physics--390f40d1",
+    "pages": [
+      955,
+      957
+    ],
+    "surrounding_explanatory_evidence_id": "evid-form-evid-emw-speed",
+    "variables": {
+      "c": "Speed of light",
+      "\\mu_0": "Permeability",
+      "\\varepsilon_0": "Permittivity",
+      "E_0": "Electric amplitude",
+      "B_0": "Magnetic amplitude"
+    },
+    "explicitly_stated_assumptions": [
+      "Vacuum propagation"
+    ],
+    "explicitly_stated_conditions": [
+      "Plane electromagnetic wave"
+    ],
+    "notation_or_convention": "STANDARD_SI",
+    "corroborating_source_ids": [
+      "src-university-physics-with--0bc11b67"
+    ],
+    "conflict_references": [],
+    "extraction_confidence": 1.0,
+    "taxonomy_node_ids": [
+      "electromagnetic-waves",
+      "displacement-current-and-em-waves"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "4558f1a525cd927ec4b43cb789497e4672afb2fc797dfd50e4b925b45947ce21"
+  },
+  {
+    "formula_id": "form-evid-opt-snell",
+    "normalized_latex": "n_1 \\sin\\theta_1 = n_2 \\sin\\theta_2",
+    "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+    "pages": [
+      379,
+      380
+    ],
+    "surrounding_explanatory_evidence_id": "evid-form-evid-opt-snell",
+    "variables": {
+      "n": "Refractive index",
+      "\\theta": "Ray angle from normal"
+    },
+    "explicitly_stated_assumptions": [
+      "Planar dielectric interface"
+    ],
+    "explicitly_stated_conditions": [
+      "Monochromatic ray"
+    ],
+    "notation_or_convention": "CARTESIAN_CONVENTION",
+    "corroborating_source_ids": [
+      "src-fundamentals-of-physics--390f40d1",
+      "src-university-physics-with--0bc11b67"
+    ],
+    "conflict_references": [
+      "disagree-opt-cartesian-vs-real-positive"
+    ],
+    "extraction_confidence": 1.0,
+    "taxonomy_node_ids": [
+      "ray-optics",
+      "refraction-and-tir"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "0c5952f62ea040cba1998524b73121cd8a1f43d6234d393c1829d37150266208"
+  },
+  {
+    "formula_id": "form-evid-opt-tir",
+    "normalized_latex": "\\sin\\theta_c = \\frac{n_2}{n_1}",
+    "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+    "pages": [
+      383,
+      384
+    ],
+    "surrounding_explanatory_evidence_id": "evid-form-evid-opt-tir",
+    "variables": {
+      "\\theta_c": "Critical angle",
+      "n_1": "Denser index",
+      "n_2": "Rarer index"
+    },
+    "explicitly_stated_assumptions": [
+      "n_1 > n_2"
+    ],
+    "explicitly_stated_conditions": [
+      "Light travelling towards rarer medium"
+    ],
+    "notation_or_convention": "STANDARD_SI",
+    "corroborating_source_ids": [
+      "src-fundamentals-of-physics--390f40d1"
+    ],
+    "conflict_references": [],
+    "extraction_confidence": 1.0,
+    "taxonomy_node_ids": [
+      "ray-optics",
+      "refraction-and-tir"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "229d286e736c48364a1293f9216745f24af25d3ca2b8ed799a31ff4530d7b7e3"
+  },
+  {
+    "formula_id": "form-evid-wo-ydse",
+    "normalized_latex": "\\beta = \\frac{\\lambda D}{d}",
+    "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+    "pages": [
+      360,
+      362
+    ],
+    "surrounding_explanatory_evidence_id": "evid-form-evid-wo-ydse",
+    "variables": {
+      "\\beta": "Fringe width",
+      "\\lambda": "Wavelength",
+      "D": "Screen distance",
+      "d": "Slit separation"
+    },
+    "explicitly_stated_assumptions": [
+      "Coherent monochromatic sources"
+    ],
+    "explicitly_stated_conditions": [
+      "d << D, paraxial region"
+    ],
+    "notation_or_convention": "STANDARD_SI",
+    "corroborating_source_ids": [
+      "src-fundamentals-of-physics--390f40d1"
+    ],
+    "conflict_references": [],
+    "extraction_confidence": 1.0,
+    "taxonomy_node_ids": [
+      "wave-optics",
+      "youngs-double-slit"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "aed28806f41cfeadb232f9060eb399962d54ae61bbba9b2e76bceefabcdfbb4b"
+  },
+  {
+    "formula_id": "form-evid-dual-photoelectric",
+    "normalized_latex": "K_{\\max} = h\\nu - \\Phi = e V_0",
+    "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+    "pages": [
+      357,
+      358
+    ],
+    "surrounding_explanatory_evidence_id": "evid-form-evid-dual-photoelectric",
+    "variables": {
+      "K_max": "Max kinetic energy",
+      "h": "Planck constant",
+      "\\nu": "Frequency",
+      "\\Phi": "Work function",
+      "V_0": "Stopping potential"
+    },
+    "explicitly_stated_assumptions": [
+      "Photoelectric effect"
+    ],
+    "explicitly_stated_conditions": [
+      "Single photon interaction per electron"
+    ],
+    "notation_or_convention": "STANDARD_SI",
+    "corroborating_source_ids": [
+      "src-university-physics-with--0bc11b67"
+    ],
+    "conflict_references": [],
+    "extraction_confidence": 1.0,
+    "taxonomy_node_ids": [
+      "dual-nature-of-matter-and-radiation",
+      "photoelectric-effect"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "86ae96b5dfe4171a01fddf9c48f8dcdc63b5ad508cd5a7b9c51f8afc52c65052"
+  },
+  {
+    "formula_id": "form-evid-atom-bohr",
+    "normalized_latex": "E_n = -\\frac{13.6 \\text{ eV} \\cdot Z^2}{n^2}",
+    "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+    "pages": [
+      371,
+      373
+    ],
+    "surrounding_explanatory_evidence_id": "evid-form-evid-atom-bohr",
+    "variables": {
+      "E_n": "Energy level",
+      "Z": "Atomic number",
+      "n": "Principal quantum number"
+    },
+    "explicitly_stated_assumptions": [
+      "Hydrogenic one-electron ion"
+    ],
+    "explicitly_stated_conditions": [
+      "Bohr quantization postulate"
+    ],
+    "notation_or_convention": "STANDARD_SI",
+    "corroborating_source_ids": [
+      "src-university-physics-with--0bc11b67"
+    ],
+    "conflict_references": [],
+    "extraction_confidence": 1.0,
+    "taxonomy_node_ids": [
+      "atomic-physics",
+      "atomic-models"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "956bfece316cc53f67fd4de4aff2cb7a35abda57fec2ccaa8112424d106ab3a9"
+  },
+  {
+    "formula_id": "form-evid-nuc-decay",
+    "normalized_latex": "N(t) = N_0 e^{-\\lambda t},\\quad T_{1/2} = \\frac{\\ln 2}{\\lambda}",
+    "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+    "pages": [
+      429,
+      430
+    ],
+    "surrounding_explanatory_evidence_id": "evid-form-evid-nuc-decay",
+    "variables": {
+      "N": "Remaining nuclei",
+      "N_0": "Initial nuclei",
+      "\\lambda": "Decay constant",
+      "T_1/2": "Half life"
+    },
+    "explicitly_stated_assumptions": [
+      "Radioactive decay"
+    ],
+    "explicitly_stated_conditions": [
+      "Large ensemble statistical process"
+    ],
+    "notation_or_convention": "STANDARD_SI",
+    "corroborating_source_ids": [
+      "src-fundamentals-of-physics--390f40d1"
+    ],
+    "conflict_references": [],
+    "extraction_confidence": 1.0,
+    "taxonomy_node_ids": [
+      "nuclear-physics",
+      "radioactivity"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "bfa8f2bbc25d87cfa8928cab33df1836e825e5d2ac8af80503d08d8fc7749951"
+  },
+  {
+    "formula_id": "form-evid-semi-massaction",
+    "normalized_latex": "n_e \\cdot n_h = n_i^2",
+    "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+    "pages": [
+      401,
+      402
+    ],
+    "surrounding_explanatory_evidence_id": "evid-form-evid-semi-massaction",
+    "variables": {
+      "n_e": "Electron concentration",
+      "n_h": "Hole concentration",
+      "n_i": "Intrinsic concentration"
+    },
+    "explicitly_stated_assumptions": [
+      "Non-degenerate semiconductor"
+    ],
+    "explicitly_stated_conditions": [
+      "Thermal equilibrium"
+    ],
+    "notation_or_convention": "STANDARD_SI",
+    "corroborating_source_ids": [
+      "src-university-physics-with--0bc11b67"
+    ],
+    "conflict_references": [],
+    "extraction_confidence": 1.0,
+    "taxonomy_node_ids": [
+      "semiconductors",
+      "charge-carriers"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "aa8a95cad0f4bc032bc2c8c76c39d1e2560564caa88702042280a27bb794fd01"
+  },
+  {
+    "formula_id": "form-evid-comm-range",
+    "normalized_latex": "d_{\\max} = \\sqrt{2 R h_T} + \\sqrt{2 R h_R}",
+    "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+    "pages": [
+      336,
+      337
+    ],
+    "surrounding_explanatory_evidence_id": "evid-form-evid-comm-range",
+    "variables": {
+      "d_max": "Line-of-sight distance",
+      "R": "Earth radius",
+      "h_T": "Transmitter height",
+      "h_R": "Receiver height"
+    },
+    "explicitly_stated_assumptions": [
+      "Spherical Earth"
+    ],
+    "explicitly_stated_conditions": [
+      "Straight line propagation"
+    ],
+    "notation_or_convention": "STANDARD_SI",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 1.0,
+    "taxonomy_node_ids": [
+      "communication-systems",
+      "modulation-and-propagation"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "c1c49083179c68dcb5777bfe7401d4652fb1a1632d283934f54c1d16c1df08b7"
+  },
+  {
+    "formula_id": "form-evid-exp-vernier",
+    "normalized_latex": "\\text{LC} = 1\\text{ MSD} - 1\\text{ VSD}",
+    "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+    "pages": [
+      15,
+      16
+    ],
+    "surrounding_explanatory_evidence_id": "evid-form-evid-exp-vernier",
+    "variables": {
+      "LC": "Least count",
+      "MSD": "Main scale division",
+      "VSD": "Vernier scale division"
+    },
+    "explicitly_stated_assumptions": [
+      "Direct reading vernier"
+    ],
+    "explicitly_stated_conditions": [
+      "Standard alignment"
+    ],
+    "notation_or_convention": "STANDARD_SI",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 1.0,
+    "taxonomy_node_ids": [
+      "experimental-physics",
+      "mechanics-experiments"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "b692fe1e8747f5af60b17ce60006af227601a8b54ed0495a5406bad640730d96"
+  },
+  {
+    "formula_id": "form-feynman-lec01-01",
+    "normalized_latex": "Atomic spacing ~ 1-2 Angstroms",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      11
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec01-visual",
+    "variables": {
+      "topic": "Atoms in Motion"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "kinetic-theory-of-gases",
+      "atomic-models"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec01-02",
+    "normalized_latex": "PV = NkT (qualitative)",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      11
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec01-visual",
+    "variables": {
+      "topic": "Atoms in Motion"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "kinetic-theory-of-gases",
+      "atomic-models"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec02-01",
+    "normalized_latex": "Fundamental forces: Gravitational, EM, Nuclear",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      20
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec02-visual",
+    "variables": {
+      "topic": "Basic Physics"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "units-and-measurements"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec04-01",
+    "normalized_latex": "U = mgh",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      39
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec04-visual",
+    "variables": {
+      "topic": "Conservation of Energy"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "work-energy-power",
+      "conservation-of-mechanical-energy"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec04-02",
+    "normalized_latex": "KE = (1/2)mv^2",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      39
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec04-visual",
+    "variables": {
+      "topic": "Conservation of Energy"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "work-energy-power",
+      "conservation-of-mechanical-energy"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec04-03",
+    "normalized_latex": "Conservation E = const",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      39
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec04-visual",
+    "variables": {
+      "topic": "Conservation of Energy"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "work-energy-power",
+      "conservation-of-mechanical-energy"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec05-01",
+    "normalized_latex": "Triangle parallax d = b/theta",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      49
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec05-visual",
+    "variables": {
+      "topic": "Time and Distance"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "units-and-measurements"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec06-01",
+    "normalized_latex": "Binomial distribution P(k)",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      58
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec06-visual",
+    "variables": {
+      "topic": "Probability"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "kinetic-theory-of-gases"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec06-02",
+    "normalized_latex": "Gaussian limit",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      58
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec06-visual",
+    "variables": {
+      "topic": "Probability"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "kinetic-theory-of-gases"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec07-01",
+    "normalized_latex": "F = G m1 m2 / r^2",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      68
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec07-visual",
+    "variables": {
+      "topic": "The Theory of Gravitation"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "gravitation",
+      "gravitational-force-and-field"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec07-02",
+    "normalized_latex": "Kepler third law T^2 ~ a^3",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      68
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec07-visual",
+    "variables": {
+      "topic": "The Theory of Gravitation"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "gravitation",
+      "gravitational-force-and-field"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec08-01",
+    "normalized_latex": "v = ds/dt",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      79
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec08-visual",
+    "variables": {
+      "topic": "Motion"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "kinematics",
+      "rectilinear-motion"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec08-02",
+    "normalized_latex": "a = dv/dt = d^2s/dt^2",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      79
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec08-visual",
+    "variables": {
+      "topic": "Motion"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "kinematics",
+      "rectilinear-motion"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec09-01",
+    "normalized_latex": "F = dp/dt = m(dv/dt)",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      89
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec09-visual",
+    "variables": {
+      "topic": "Newton's Laws of Dynamics"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "laws-of-motion",
+      "newtons-laws"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec09-02",
+    "normalized_latex": "F_12 = -F_21",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      89
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec09-visual",
+    "variables": {
+      "topic": "Newton's Laws of Dynamics"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "laws-of-motion",
+      "newtons-laws"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec10-01",
+    "normalized_latex": "p_total = sum(m_i v_i) = const",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      100
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec10-visual",
+    "variables": {
+      "topic": "Conservation of Momentum"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "center-of-mass",
+      "collisions"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec10-02",
+    "normalized_latex": "Rocket m(dv/dt) = -v_rel (dm/dt)",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      100
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec10-visual",
+    "variables": {
+      "topic": "Conservation of Momentum"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "center-of-mass",
+      "collisions"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec11-01",
+    "normalized_latex": "A . B = A_x B_x + A_y B_y + A_z B_z",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      110
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec11-visual",
+    "variables": {
+      "topic": "Vectors"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "kinematics"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec11-02",
+    "normalized_latex": "A x B = |A||B| sin(theta) n",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      110
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec11-visual",
+    "variables": {
+      "topic": "Vectors"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "kinematics"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec12-01",
+    "normalized_latex": "F_friction <= mu N",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      119
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec12-visual",
+    "variables": {
+      "topic": "Characteristics of Force"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "laws-of-motion",
+      "friction"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec12-02",
+    "normalized_latex": "F_spring = -kx",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      119
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec12-visual",
+    "variables": {
+      "topic": "Characteristics of Force"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "laws-of-motion",
+      "friction"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec12-03",
+    "normalized_latex": "Gravitational potential phi = -GM/r",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      119
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec12-visual",
+    "variables": {
+      "topic": "Characteristics of Force"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "laws-of-motion",
+      "friction"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec13-01",
+    "normalized_latex": "W = int F . ds",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      130
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec13-visual",
+    "variables": {
+      "topic": "Work and Potential Energy (A)"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "work-energy-power",
+      "work-energy-theorem"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec13-02",
+    "normalized_latex": "Delta KE = W_net",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      130
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec13-visual",
+    "variables": {
+      "topic": "Work and Potential Energy (A)"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "work-energy-power",
+      "work-energy-theorem"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec14-01",
+    "normalized_latex": "curl F = 0 for conservative",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      140
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec14-visual",
+    "variables": {
+      "topic": "Work and Potential Energy (conclusion)"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "work-energy-power",
+      "conservation-of-mechanical-energy"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec14-02",
+    "normalized_latex": "F = -grad U",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      140
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec14-visual",
+    "variables": {
+      "topic": "Work and Potential Energy (conclusion)"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "work-energy-power",
+      "conservation-of-mechanical-energy"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec15-01",
+    "normalized_latex": "x' = gamma(x - vt)",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      150
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec15-visual",
+    "variables": {
+      "topic": "The Special Theory of Relativity"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "dual-nature-of-matter-and-radiation"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec15-02",
+    "normalized_latex": "t' = gamma(t - vx/c^2)",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      150
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec15-visual",
+    "variables": {
+      "topic": "The Special Theory of Relativity"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "dual-nature-of-matter-and-radiation"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec15-03",
+    "normalized_latex": "gamma = 1/sqrt(1 - v^2/c^2)",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      150
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec15-visual",
+    "variables": {
+      "topic": "The Special Theory of Relativity"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "dual-nature-of-matter-and-radiation"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec16-01",
+    "normalized_latex": "p = gamma m v",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      161
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec16-visual",
+    "variables": {
+      "topic": "Relativistic Energy and Momentum"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "dual-nature-of-matter-and-radiation"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec16-02",
+    "normalized_latex": "E = gamma m c^2",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      161
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec16-visual",
+    "variables": {
+      "topic": "Relativistic Energy and Momentum"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "dual-nature-of-matter-and-radiation"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec16-03",
+    "normalized_latex": "E^2 = p^2 c^2 + m^2 c^4",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      161
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec16-visual",
+    "variables": {
+      "topic": "Relativistic Energy and Momentum"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "dual-nature-of-matter-and-radiation"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec17-01",
+    "normalized_latex": "s^2 = c^2 t^2 - x^2 - y^2 - z^2",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      171
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec17-visual",
+    "variables": {
+      "topic": "Space-Time"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "dual-nature-of-matter-and-radiation"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec18-01",
+    "normalized_latex": "tau = r x F",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      180
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec18-visual",
+    "variables": {
+      "topic": "Rotation in Two Dimensions"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "rotational-motion",
+      "moment-of-inertia",
+      "torque-and-rotation"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec18-02",
+    "normalized_latex": "tau = I alpha",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      180
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec18-visual",
+    "variables": {
+      "topic": "Rotation in Two Dimensions"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "rotational-motion",
+      "moment-of-inertia",
+      "torque-and-rotation"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec18-03",
+    "normalized_latex": "I = sum m_i r_i^2",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      180
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec18-visual",
+    "variables": {
+      "topic": "Rotation in Two Dimensions"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "rotational-motion",
+      "moment-of-inertia",
+      "torque-and-rotation"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec19-01",
+    "normalized_latex": "R_cm = (1/M) sum m_i r_i",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      191
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec19-visual",
+    "variables": {
+      "topic": "Center of Mass; Moment of Inertia"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "center-of-mass",
+      "rotational-motion"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec19-02",
+    "normalized_latex": "I_parallel = I_cm + M d^2",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      191
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec19-visual",
+    "variables": {
+      "topic": "Center of Mass; Moment of Inertia"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "center-of-mass",
+      "rotational-motion"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec20-01",
+    "normalized_latex": "L = r x p",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      202
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec20-visual",
+    "variables": {
+      "topic": "Rotation in Space"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "rotational-motion"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec20-02",
+    "normalized_latex": "tau_ext = dL/dt",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      202
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec20-visual",
+    "variables": {
+      "topic": "Rotation in Space"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "rotational-motion"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec20-03",
+    "normalized_latex": "Gyroscope precession Omega = tau / L",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      202
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec20-visual",
+    "variables": {
+      "topic": "Rotation in Space"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "rotational-motion"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec21-01",
+    "normalized_latex": "m d^2x/dt^2 + kx = 0",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      213
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec21-visual",
+    "variables": {
+      "topic": "The Harmonic Oscillator"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "oscillations",
+      "kinematics-of-shm"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec21-02",
+    "normalized_latex": "omega_0 = sqrt(k/m)",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      213
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec21-visual",
+    "variables": {
+      "topic": "The Harmonic Oscillator"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "oscillations",
+      "kinematics-of-shm"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec21-03",
+    "normalized_latex": "x(t) = A cos(omega_0 t + phi)",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      213
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec21-visual",
+    "variables": {
+      "topic": "The Harmonic Oscillator"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "oscillations",
+      "kinematics-of-shm"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec22-01",
+    "normalized_latex": "e^(i theta) = cos theta + i sin theta",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      223
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec22-visual",
+    "variables": {
+      "topic": "Algebra"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "oscillations"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec23-01",
+    "normalized_latex": "m x'' + gamma x' + k x = F_0 cos(omega t)",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      232
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec23-visual",
+    "variables": {
+      "topic": "Resonance"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "oscillations",
+      "damped-and-forced-oscillations"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec23-02",
+    "normalized_latex": "Resonance amplitude A(omega)",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      232
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec23-visual",
+    "variables": {
+      "topic": "Resonance"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "oscillations",
+      "damped-and-forced-oscillations"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec24-01",
+    "normalized_latex": "Damped oscillation x(t) = A e^(-gamma t / 2m) cos(omega_1 t)",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      243
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec24-visual",
+    "variables": {
+      "topic": "Transients"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "oscillations",
+      "damped-and-forced-oscillations"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec25-01",
+    "normalized_latex": "Superposition principle for linear ODEs",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      252
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec25-visual",
+    "variables": {
+      "topic": "Linear Systems and Review"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "oscillations"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec26-01",
+    "normalized_latex": "Fermat principle delta int n ds = 0",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      262
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec26-visual",
+    "variables": {
+      "topic": "Optics: The Principle of Least Time"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "ray-optics",
+      "refraction-and-tir"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec26-02",
+    "normalized_latex": "Snell law n1 sin theta1 = n2 sin theta2",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      262
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec26-visual",
+    "variables": {
+      "topic": "Optics: The Principle of Least Time"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "ray-optics",
+      "refraction-and-tir"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec27-01",
+    "normalized_latex": "Lens maker 1/f = (n - 1)(1/R1 - 1/R2)",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      273
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec27-visual",
+    "variables": {
+      "topic": "Geometrical Optics"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "ray-optics",
+      "refraction-at-spherical-surfaces-and-lenses"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec27-02",
+    "normalized_latex": "1/s + 1/s' = 1/f",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      273
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec27-visual",
+    "variables": {
+      "topic": "Geometrical Optics"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "ray-optics",
+      "refraction-at-spherical-surfaces-and-lenses"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec28-01",
+    "normalized_latex": "E_rad = (q / 4 pi eps_0 c^2) (n x (n x a))/r",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      284
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec28-visual",
+    "variables": {
+      "topic": "Electromagnetic Radiation"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "electromagnetic-waves"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec29-01",
+    "normalized_latex": "Path difference delta = d sin theta",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      295
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec29-visual",
+    "variables": {
+      "topic": "Interference"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "wave-optics",
+      "youngs-double-slit"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec29-02",
+    "normalized_latex": "Maxima at d sin theta = m lambda",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      295
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec29-visual",
+    "variables": {
+      "topic": "Interference"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "wave-optics",
+      "youngs-double-slit"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec30-01",
+    "normalized_latex": "Single slit minimum a sin theta = m lambda",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      305
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec30-visual",
+    "variables": {
+      "topic": "Diffraction"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "wave-optics",
+      "diffraction-and-polarization"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec30-02",
+    "normalized_latex": "Intensity I = I_0 (sin alpha / alpha)^2",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      305
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec30-visual",
+    "variables": {
+      "topic": "Diffraction"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "wave-optics",
+      "diffraction-and-polarization"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec31-01",
+    "normalized_latex": "n - 1 = (N q^2 / 2 eps_0 m) sum 1/(omega_0^2 - omega^2)",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      317
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec31-visual",
+    "variables": {
+      "topic": "The Origin of the Refractive Index"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "wave-optics"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec32-01",
+    "normalized_latex": "Rayleigh cross section sigma ~ omega^4 ~ 1/lambda^4",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      328
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec32-visual",
+    "variables": {
+      "topic": "Radiation Damping. Light Scattering"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "wave-optics"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec33-01",
+    "normalized_latex": "Malus law I = I_0 cos^2 theta",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      338
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec33-visual",
+    "variables": {
+      "topic": "Polarization"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "wave-optics",
+      "diffraction-and-polarization"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec33-02",
+    "normalized_latex": "Brewster angle tan theta_B = n2/n1",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      338
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec33-visual",
+    "variables": {
+      "topic": "Polarization"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "wave-optics",
+      "diffraction-and-polarization"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec34-01",
+    "normalized_latex": "Doppler omega' = omega sqrt((1 - v/c)/(1 + v/c))",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      349
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec34-visual",
+    "variables": {
+      "topic": "Relativistic Effects in Radiation"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "dual-nature-of-matter-and-radiation"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec35-01",
+    "normalized_latex": "Tristimulus color matching curves",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      359
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec35-visual",
+    "variables": {
+      "topic": "Color Vision"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "wave-optics"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec36-01",
+    "normalized_latex": "Rhodopsin photon absorption",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      370
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec36-visual",
+    "variables": {
+      "topic": "Mechanisms of Seeing"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "wave-optics"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec37-01",
+    "normalized_latex": "Probability amplitude P_12 = |phi_1 + phi_2|^2",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      381
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec37-visual",
+    "variables": {
+      "topic": "Quantum Behavior"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "dual-nature-of-matter-and-radiation"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec38-01",
+    "normalized_latex": "de Broglie p = h / lambda",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      393
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec38-visual",
+    "variables": {
+      "topic": "The Relation of Wave and Particle Viewpoints"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "dual-nature-of-matter-and-radiation",
+      "matter-waves"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec38-02",
+    "normalized_latex": "Heisenberg delta x delta p >= hbar / 2",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      393
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec38-visual",
+    "variables": {
+      "topic": "The Relation of Wave and Particle Viewpoints"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "dual-nature-of-matter-and-radiation",
+      "matter-waves"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec39-01",
+    "normalized_latex": "P = (2/3) n <KE>",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      404
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec39-visual",
+    "variables": {
+      "topic": "The Kinetic Theory of Gases"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "kinetic-theory-of-gases",
+      "molecular-speed-and-pressure"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec39-02",
+    "normalized_latex": "<(1/2) m v^2> = (3/2) k T",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      404
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec39-visual",
+    "variables": {
+      "topic": "The Kinetic Theory of Gases"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "kinetic-theory-of-gases",
+      "molecular-speed-and-pressure"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec40-01",
+    "normalized_latex": "Boltzmann factor P ~ e^(-E / kT)",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      415
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec40-visual",
+    "variables": {
+      "topic": "Principles of Statistical Mechanics"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "kinetic-theory-of-gases"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec41-01",
+    "normalized_latex": "Einstein diffusion <x^2> = 2 D t",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      426
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec41-visual",
+    "variables": {
+      "topic": "The Brownian Movement"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "thermal-physics"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec41-02",
+    "normalized_latex": "D = k T / (6 pi eta r)",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      426
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec41-visual",
+    "variables": {
+      "topic": "The Brownian Movement"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "thermal-physics"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec42-01",
+    "normalized_latex": "Viscosity eta = (1/3) n m v_th l_mfp",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      436
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec42-visual",
+    "variables": {
+      "topic": "Applications of Kinetic Theory"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "thermal-physics",
+      "heat-transfer"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec42-02",
+    "normalized_latex": "Thermal conductivity kappa ~ eta c_v",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      436
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec42-visual",
+    "variables": {
+      "topic": "Applications of Kinetic Theory"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "thermal-physics",
+      "heat-transfer"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec43-01",
+    "normalized_latex": "Fick's first law J = -D dn/dx",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      446
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec43-visual",
+    "variables": {
+      "topic": "Diffusion"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "thermal-physics"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec44-01",
+    "normalized_latex": "First law dQ = dU + dW",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      456
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec44-visual",
+    "variables": {
+      "topic": "The Laws of Thermodynamics"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "thermodynamics",
+      "first-law-and-processes",
+      "heat-engines-and-second-law"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec44-02",
+    "normalized_latex": "Carnot efficiency eta = 1 - T2/T1",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      456
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec44-visual",
+    "variables": {
+      "topic": "The Laws of Thermodynamics"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "thermodynamics",
+      "first-law-and-processes",
+      "heat-engines-and-second-law"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec45-01",
+    "normalized_latex": "Clausius-Clapeyron dP/dT = L / (T Delta V)",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      467
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec45-visual",
+    "variables": {
+      "topic": "Illustrations of Thermodynamics"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "thermodynamics"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec46-01",
+    "normalized_latex": "Detailed balance and second law irreversibility",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      478
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec46-visual",
+    "variables": {
+      "topic": "Ratchet and Pawl"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "thermodynamics",
+      "heat-engines-and-second-law"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec47-01",
+    "normalized_latex": "Wave equation d^2 psi / dx^2 = (1/v^2) d^2 psi / dt^2",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      487
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec47-visual",
+    "variables": {
+      "topic": "Sound. The Wave Equation"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "waves",
+      "wave-propagation"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec47-02",
+    "normalized_latex": "v = sqrt(gamma P / rho)",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      487
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec47-visual",
+    "variables": {
+      "topic": "Sound. The Wave Equation"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "waves",
+      "wave-propagation"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec48-01",
+    "normalized_latex": "Beat frequency f_beat = |f1 - f2|",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      497
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec48-visual",
+    "variables": {
+      "topic": "Beats"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "waves",
+      "superposition-and-beats"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec48-02",
+    "normalized_latex": "v_group = d omega / d k",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      497
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec48-visual",
+    "variables": {
+      "topic": "Beats"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "waves",
+      "superposition-and-beats"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec49-01",
+    "normalized_latex": "Standing wave psi(x,t) = 2 A sin(kx) cos(omega t)",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      506
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec49-visual",
+    "variables": {
+      "topic": "Modes"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "waves",
+      "standing-waves"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec50-01",
+    "normalized_latex": "Fourier series f(t) = sum (a_n cos n omega t + b_n sin n omega t)",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      516
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec50-visual",
+    "variables": {
+      "topic": "Harmonics"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "waves"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec51-01",
+    "normalized_latex": "3D wave Laplacian grad^2 psi = (1/v^2) d^2 psi / dt^2",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      525
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec51-visual",
+    "variables": {
+      "topic": "Waves"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "waves"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "formula_id": "form-feynman-lec52-01",
+    "normalized_latex": "Space-time translation, rotation, and parity symmetry",
+    "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+    "pages": [
+      533
+    ],
+    "surrounding_explanatory_evidence_id": "evid-feynman-lec52-visual",
+    "variables": {
+      "topic": "Symmetry in Physical Laws"
+    },
+    "explicitly_stated_assumptions": [
+      "Visual capture from scanned plate"
+    ],
+    "explicitly_stated_conditions": [
+      "Classical/relativistic validity as declared in lecture"
+    ],
+    "notation_or_convention": "FEYNMAN_NOTATION",
+    "corroborating_source_ids": [],
+    "conflict_references": [],
+    "extraction_confidence": 0.95,
+    "taxonomy_node_ids": [
+      "dual-nature-of-matter-and-radiation"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+]

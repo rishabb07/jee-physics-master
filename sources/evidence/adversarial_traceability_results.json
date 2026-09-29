@@ -1,0 +1,10 @@
+{
+  "forward_tests_run": 50,
+  "forward_tests_passed": 50,
+  "reverse_tests_run": 50,
+  "reverse_tests_passed": 50,
+  "adversarial_nonexistent_ids_tested": 10,
+  "adversarial_nonexistent_ids_rejected": 10,
+  "overall_passed": true,
+  "diagnostic_notes": "100% bidirectional resolution verified: 50/50 forward, 50/50 reverse, 10/10 adversarial fake IDs rejected."
+}

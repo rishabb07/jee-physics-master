@@ -1,0 +1,168 @@
+[
+  {
+    "example_id": "ex-evid-hcv1-moi-rod",
+    "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+    "page_range": [
+      186,
+      187
+    ],
+    "title_or_label": "Example 10.3: Moment of Inertia of Uniform Rod about End Axis",
+    "title": "Example 10.3: Moment of Inertia of Uniform Rod about End Axis",
+    "problem_statement": "Find the moment of inertia of a uniform thin rod of mass M and length L about an axis passing through one of its ends and perpendicular to its length.",
+    "source_method": "Using the parallel axis theorem: The center of mass of the rod is at its midpoint L/2. The moment of inertia of a uniform rod about an axis through its CM perpendicular to its length is I_cm = (1/12) M L^2. The distance between the parallel axis through the end and the CM axis is d = L/2.",
+    "source_result": "I = I_cm + M d^2 = (1/12) M L^2 + M (L/2)^2 = (1/12 + 1/4) M L^2 = (1/3) M L^2.",
+    "relevant_figures": [
+      "fig-evid-rod-moi-hcv1"
+    ],
+    "taxonomy_node_ids": [
+      "rotational-motion",
+      "moment-of-inertia"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "048dd4e8e80e421e5fee981df58be9d5daef8a84613a58f67aac89ee7cd74164"
+  },
+  {
+    "example_id": "ex-evid-halliday-adiabatic-compression",
+    "source_id": "src-fundamentals-of-physics--390f40d1",
+    "page_range": [
+      561,
+      562
+    ],
+    "title_or_label": "Sample Problem 19.04: Adiabatic Compression of Air in Diesel Engine",
+    "title": "Sample Problem 19.04: Adiabatic Compression of Air in Diesel Engine",
+    "problem_statement": "Air at 20 deg C (293 K) is compressed adiabatically in a cylinder from initial volume V_1 to final volume V_2 = V_1 / 15. Taking air as diatomic ideal gas with gamma = 1.40, calculate final temperature T_2.",
+    "source_method": "Using the adiabatic relation for temperature and volume: T_1 V_1^(gamma - 1) = T_2 V_2^(gamma - 1). Solving for final temperature: T_2 = T_1 (V_1 / V_2)^(gamma - 1). Here V_1 / V_2 = 15, gamma - 1 = 0.40.",
+    "source_result": "T_2 = 293 K * (15)^0.40 = 293 * 2.954 = 866 K (approx 593 deg C).",
+    "relevant_figures": [
+      "fig-evid-diesel-cylinder-halliday"
+    ],
+    "taxonomy_node_ids": [
+      "thermodynamics",
+      "special-thermodynamic-processes"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "72803c93b9b614caeb9cef4dfcedb1c8ebba4c0401104011db3570e2d09bda3d"
+  },
+  {
+    "example_id": "ex-evid-hcv2-galvanometer-shunt",
+    "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+    "page_range": [
+      202,
+      203
+    ],
+    "title_or_label": "Example 32.5: Shunt Calculation for Galvanometer Conversion",
+    "title": "Example 32.5: Shunt Calculation for Galvanometer Conversion",
+    "problem_statement": "A galvanometer has coil resistance G = 50 Ohm and shows full-scale deflection for current I_g = 10 mA. Calculate the shunt resistance required to convert it into an ammeter capable of measuring currents up to 10 A.",
+    "source_method": "The potential difference across the galvanometer coil must equal that across the shunt: (I - I_g) S = I_g G. Therefore S = I_g G / (I - I_g). Given I = 10 A, I_g = 0.010 A, G = 50 Ohm.",
+    "source_result": "S = (0.010 * 50) / (10 - 0.010) = 0.50 / 9.99 = 0.05005 Ohm approx 0.050 Ohm.",
+    "relevant_figures": [
+      "fig-evid-ammeter-circuit-hcv2"
+    ],
+    "taxonomy_node_ids": [
+      "current-electricity",
+      "dc-circuits"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "492bc421aa1e9619846c10e54eb18abc0e40161486a8f20f34752d0268b8eee1"
+  },
+  {
+    "example_id": "ex-evid-hcv1-tir-prism",
+    "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+    "page_range": [
+      384,
+      385
+    ],
+    "title_or_label": "Example 18.2: Total Internal Reflection in Right Isosceles Prism",
+    "title": "Example 18.2: Total Internal Reflection in Right Isosceles Prism",
+    "problem_statement": "A ray of light is incident normally on one of the legs of a right isosceles crown glass prism (n = 1.52) in air. Show that the ray undergoes total internal reflection at the hypotenuse face.",
+    "source_method": "Since the ray enters normally on the first leg, angle of incidence at first face is 0, so it passes undeviated. At the hypotenuse face, geometry shows angle of incidence is theta = 45 deg. Critical angle for glass-air interface is sin theta_c = 1 / 1.52 = 0.658 => theta_c = 41.1 deg. Since 45 deg > 41.1 deg, total internal reflection occurs.",
+    "source_result": "The ray undergoes total internal reflection and is turned through 90 deg.",
+    "relevant_figures": [
+      "fig-evid-porro-prism-hcv1"
+    ],
+    "taxonomy_node_ids": [
+      "ray-optics",
+      "refraction-and-tir"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "6c4fc2ef9fbfd2241b7c1064f323cd45c6ca93ef820e9478e108162e7ac31a22"
+  },
+  {
+    "example_id": "ex-evid-hcv1-projectile-max-height",
+    "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+    "page_range": [
+      46,
+      47
+    ],
+    "title_or_label": "Example 3.6: Maximum Height and Range of Projectile",
+    "title": "Example 3.6: Maximum Height and Range of Projectile",
+    "problem_statement": "A ball is thrown from a field with a speed of 12.0 m/s at an angle of 45 deg with the horizontal. (a) Find maximum height. (b) Find horizontal distance from engine point to where ball hits field.",
+    "source_method": "At highest point vertical velocity v_y = 0. Using v_y^2 = u_y^2 - 2 g H gives H = u^2 sin^2 theta / (2 g). Range is R = u^2 sin 2 theta / g. Given u = 12 m/s, theta = 45 deg, g = 9.8 m/s^2.",
+    "source_result": "(a) H = (12)^2 * (0.707)^2 / (2 * 9.8) = 3.67 m. (b) R = (12)^2 * 1 / 9.8 = 14.7 m.",
+    "relevant_figures": [
+      "fig-evid-projectile-trajectory"
+    ],
+    "taxonomy_node_ids": [
+      "kinematics",
+      "projectile-motion"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "a3918e404afd467bc4870b4523445dc8ec81abc2c6daa9c1d85c7fc9da76c861"
+  },
+  {
+    "example_id": "ex-evid-up-bernoulli-venturi",
+    "source_id": "src-university-physics-with--0bc11b67",
+    "page_range": [
+      440,
+      441
+    ],
+    "title_or_label": "Example 12.8: The Venturi Meter",
+    "title": "Example 12.8: The Venturi Meter",
+    "problem_statement": "Water flows through a horizontal pipe of cross section A1 = 20.0 cm^2 narrowing to constriction A2 = 10.0 cm^2. Pressure difference between wide and narrow sections is 4500 Pa. Find volume flow rate.",
+    "source_method": "Continuity gives v2 = (A1/A2) v1 = 2 v1. Bernoulli gives P1 - P2 = 1/2 rho (v2^2 - v1^2) = 1/2 rho (3 v1^2). Solving for v1 = sqrt(2 (P1 - P2) / (3 rho)). Volume flow rate is Q = A1 v1.",
+    "source_result": "v1 = sqrt(2 * 4500 / 3000) = 1.73 m/s. Q = (20.0 x 10^-4 m^2)(1.73 m/s) = 3.46 x 10^-3 m^3/s = 3.46 L/s.",
+    "relevant_figures": [
+      "fig-evid-venturi-meter-up"
+    ],
+    "taxonomy_node_ids": [
+      "fluid-mechanics",
+      "fluid-dynamics"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "d3d1af2269c38b01e4cf484fe248a70d393189faca1ec7e2a0ecd28f945eef1c"
+  },
+  {
+    "example_id": "ex-evid-hcv2-photoelectric-workfunction",
+    "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+    "page_range": [
+      375,
+      376
+    ],
+    "title_or_label": "Example 42.1: Photoelectric Stopping Potential",
+    "title": "Example 42.1: Photoelectric Stopping Potential",
+    "problem_statement": "Light of wavelength 350 nm is incident on a metal plate whose work function is 2.20 eV. Find (a) energy of incident photons, and (b) stopping potential required to stop photoelectrons.",
+    "source_method": "Photon energy is E = h c / lambda = 1242 eV nm / 350 nm = 3.55 eV. Maximum kinetic energy of photoelectrons is K_max = E - Phi = 3.55 eV - 2.20 eV = 1.35 eV. Stopping potential is V_0 = K_max / e.",
+    "source_result": "(a) E = 3.55 eV. (b) V_0 = 1.35 V.",
+    "relevant_figures": [],
+    "taxonomy_node_ids": [
+      "dual-nature-of-matter-and-radiation",
+      "photoelectric-effect"
+    ],
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_DERIVED",
+    "source_page_hash": "4f9b4583583c4aa18362d680e9e517ad6299ad083d5e470097fdd92c414ec5b6"
+  }
+]

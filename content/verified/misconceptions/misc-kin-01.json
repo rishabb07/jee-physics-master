@@ -1,0 +1,23 @@
+{
+  "misconception_id": "misc-kin-01",
+  "chapter_id": "kinematics",
+  "concept_id": "concept-kin-accel-01",
+  "title": "Zero Velocity Implies Zero Acceleration",
+  "category": "INVALID_FORMULA_CONDITION",
+  "statement": "If a particle's instantaneous velocity is zero, its acceleration at that moment must also be zero.",
+  "incorrect_statement": "If a particle has zero velocity at any instant, it is not accelerating.",
+  "erroneous_reasoning": "Students frequently conflate an object's current state of motion (velocity) with how rapidly that state is changing (acceleration). They assume that because the object is temporarily stationary, no force acts and acceleration vanishes.",
+  "why_it_fails": "Velocity is the instantaneous value of position derivative v = dx/dt, whereas acceleration is its rate of change a = dv/dt. A function can easily pass through zero while having a steep slope.",
+  "correct_physics_explanation": "Acceleration is the derivative of velocity. At the highest point of a vertically projected ball, v = 0 momentarily, but the downward gravitational force F = mg continues unabated. Consequently, the acceleration remains constant at a = -g = -9.8 m/s^2. If the acceleration were zero when v = 0, the particle would remain floating at the apex forever!",
+  "corrective_explanation": "Acceleration is the time derivative of velocity, not velocity itself. When an object reverses direction, its velocity must cross through zero, but its acceleration is non-zero because the velocity is changing continuously.",
+  "refutation_counterexample": "A ball thrown vertically upward reaches apex where v = 0 m/s, but its acceleration is 9.8 m/s^2 downward.",
+  "supporting_evidence": "H.C. Verma Vol 1, Chapter 3: 'At the highest point the velocity is zero, but the acceleration is non-zero (g downward).'",
+  "diagnostic_check_latex": "\\left. \\frac{dv}{dt} \\right|_{v=0} \\ne 0 \\quad (\\text{e.g. } v(t) = u - gt \\implies v(u/g) = 0, \\text{ but } v'(u/g) = -g)",
+  "diagnostic_symptom": "Student concludes that net force or acceleration is zero at turning points or tops of swings.",
+  "connected_atom_ids": [
+    "kinematics-question-7b4e1d65"
+  ],
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-misc-kin-01",
+  "content_hash": "4014a9c8dbd3f8f23d2e61e9f2ff8cccce449959fe6b0cbf0fcfa34b083651a5"
+}

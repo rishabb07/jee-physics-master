@@ -1,0 +1,42 @@
+{
+  "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+  "source_version": 1,
+  "file_name": "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+  "file_path": "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+  "file_size_bytes": 5239740,
+  "sha256": "1fd380f4e38840250534c6a5439cc41305d320f87654829162da6e05267c4528",
+  "extension": ".pdf",
+  "mime_type": "application/pdf",
+  "file_format": "pdf",
+  "source_type": "textbook",
+  "total_pages": 481,
+  "has_extractable_text": true,
+  "is_image_only": false,
+  "is_encrypted": false,
+  "status": "SEGMENTED",
+  "processing_stage": null,
+  "last_error": null,
+  "history": [],
+  "affected_chapters": [],
+  "file_created_at": null,
+  "file_modified_at": null,
+  "metadata": {
+    "source_role": "PRIMARY_JEE",
+    "toc_entries_count": 0,
+    "bibliographic_info": {
+      "title": "Concepts of Physics (Volume 2)",
+      "authors": [
+        "H. C. Verma, PhD"
+      ],
+      "publisher": "Bharati Bhawan (Publishers & Distributors), New Delhi",
+      "edition": "First Edition (Periodic Reprints)",
+      "volume": "Volume 2 (Chapters 23 to 47: Heat, Electromagnetism, Modern Physics)",
+      "publication_year": 1993,
+      "isbn": "81-7709-232-4",
+      "discrepancy_resolution": "Contains 29 font-shifted pages (Chapters 23 & 30) requiring +29 ASCII Caesar decoding; remaining 447 pages have standard unshifted digital text."
+    },
+    "extraction_nature": "NORMALIZED_FONT"
+  },
+  "created_at": "2026-09-29T16:20:06.698473Z",
+  "updated_at": "2026-09-29T16:20:06.698473Z"
+}

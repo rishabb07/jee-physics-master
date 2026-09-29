@@ -1,0 +1,49 @@
+{
+  "formula_id": "formula-kin-const-accel-s",
+  "chapter_id": "kinematics",
+  "title": "Second Kinematic Equation (Position-Time Relation)",
+  "equation": "s = u t + \\frac{1}{2} a t^2",
+  "equation_latex": "s = u t + \\frac{1}{2} a t^2",
+  "variables": {
+    "s": "Displacement over time interval t",
+    "u": "Initial velocity at t = 0",
+    "a": "Constant uniform acceleration",
+    "t": "Elapsed time"
+  },
+  "units": {
+    "s": "m",
+    "u": "m/s",
+    "a": "m/s^2",
+    "t": "s"
+  },
+  "dimensions": {
+    "s": "[L]",
+    "u": "[L][T]^-1",
+    "a": "[L][T]^-2",
+    "t": "[T]"
+  },
+  "assumptions": [
+    "Acceleration a is strictly constant",
+    "Motion along a single line"
+  ],
+  "validity_conditions": [
+    "Displacement s represents net position shift x(t) - x(0), not total distance"
+  ],
+  "derivation_reference": "derivation-formula-kin-const-accel-s",
+  "related_concepts": [
+    "concept-kin-accel-01",
+    "concept-kin-pos-disp-01"
+  ],
+  "common_misuse": [
+    "Interpreting s as total distance traveled when motion reverses direction"
+  ],
+  "provenance": [],
+  "generation_metadata": {
+    "agent": "physics-formula-writer",
+    "version": "1.0",
+    "target_chapter": "kinematics"
+  },
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-formula-kin-const-accel-s",
+  "content_hash": "8a83c29869458cc0c4c94ec35023b62e8f2c37a7e6ab9da8b8fbff5f877e26f0"
+}

@@ -13,6 +13,11 @@ def generate_pdf_page_inventory(source_id: str, file_path: Path, file_hash: str)
     """Generates a complete deterministic page-by-page inventory of a PDF document."""
     file_path = Path(file_path)
     reader = pypdf.PdfReader(str(file_path))
+    if reader.is_encrypted:
+        try:
+            reader.decrypt("")
+        except Exception:
+            pass
 
     page_records: List[PageRecord] = []
     pages_with_text = 0

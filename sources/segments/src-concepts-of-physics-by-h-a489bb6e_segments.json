@@ -1,0 +1,555 @@
+{
+  "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+  "file_name": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+  "segmentation_type": "DETERMINISTIC_PAGE_SEGMENT",
+  "total_segments": 24,
+  "segments": [
+    {
+      "segment_id": "seg-src-concepts-of-physics-by-h-a489bb6e-001",
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 1,
+      "page_end": 10,
+      "segment_title": "Front Matter & Preface",
+      "segment_summary": "Pages 1-10 of concepts_of_physics_by_h.c._verma_volume_1.pdf (Front Matter & Preface)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXCLUDED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "NON_CONTENT",
+        "content_types": [
+          "OTHER"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-concepts-of-physics-by-h-a489bb6e-002",
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 11,
+      "page_end": 21,
+      "segment_title": "Chapter 1: Introduction to Physics",
+      "segment_summary": "Pages 11-21 of concepts_of_physics_by_h.c._verma_volume_1.pdf (Chapter 1: Introduction to Physics)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "DEFINITION",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-concepts-of-physics-by-h-a489bb6e-003",
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 22,
+      "page_end": 40,
+      "segment_title": "Chapter 2: Physics and Mathematics",
+      "segment_summary": "Pages 22-40 of concepts_of_physics_by_h.c._verma_volume_1.pdf (Chapter 2: Physics and Mathematics)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-concepts-of-physics-by-h-a489bb6e-004",
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 41,
+      "page_end": 65,
+      "segment_title": "Chapter 3: Rest and Motion: Kinematics",
+      "segment_summary": "Pages 41-65 of concepts_of_physics_by_h.c._verma_volume_1.pdf (Chapter 3: Rest and Motion: Kinematics)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-concepts-of-physics-by-h-a489bb6e-005",
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 66,
+      "page_end": 73,
+      "segment_title": "Chapter 4: The Forces",
+      "segment_summary": "Pages 66-73 of concepts_of_physics_by_h.c._verma_volume_1.pdf (Chapter 4: The Forces)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "DEFINITION",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-concepts-of-physics-by-h-a489bb6e-006",
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 74,
+      "page_end": 94,
+      "segment_title": "Chapter 5: Newton's Laws of Motion",
+      "segment_summary": "Pages 74-94 of concepts_of_physics_by_h.c._verma_volume_1.pdf (Chapter 5: Newton's Laws of Motion)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "LAW",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-concepts-of-physics-by-h-a489bb6e-007",
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 95,
+      "page_end": 110,
+      "segment_title": "Chapter 6: Friction",
+      "segment_summary": "Pages 95-110 of concepts_of_physics_by_h.c._verma_volume_1.pdf (Chapter 6: Friction)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "LAW",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-concepts-of-physics-by-h-a489bb6e-008",
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 111,
+      "page_end": 127,
+      "segment_title": "Chapter 7: Circular Motion",
+      "segment_summary": "Pages 111-127 of concepts_of_physics_by_h.c._verma_volume_1.pdf (Chapter 7: Circular Motion)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-concepts-of-physics-by-h-a489bb6e-009",
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 128,
+      "page_end": 149,
+      "segment_title": "Chapter 8: Work and Energy",
+      "segment_summary": "Pages 128-149 of concepts_of_physics_by_h.c._verma_volume_1.pdf (Chapter 8: Work and Energy)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "PRINCIPLE",
+          "DERIVATION",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-concepts-of-physics-by-h-a489bb6e-010",
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 150,
+      "page_end": 180,
+      "segment_title": "Chapter 9: Centre of Mass, Linear Momentum, Collision",
+      "segment_summary": "Pages 150-180 of concepts_of_physics_by_h.c._verma_volume_1.pdf (Chapter 9: Centre of Mass, Linear Momentum, Collision)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "PRINCIPLE",
+          "DERIVATION",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-concepts-of-physics-by-h-a489bb6e-011",
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 181,
+      "page_end": 216,
+      "segment_title": "Chapter 10: Rotational Mechanics",
+      "segment_summary": "Pages 181-216 of concepts_of_physics_by_h.c._verma_volume_1.pdf (Chapter 10: Rotational Mechanics)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-concepts-of-physics-by-h-a489bb6e-012",
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 217,
+      "page_end": 239,
+      "segment_title": "Chapter 11: Gravitation",
+      "segment_summary": "Pages 217-239 of concepts_of_physics_by_h.c._verma_volume_1.pdf (Chapter 11: Gravitation)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "LAW",
+          "FORMULA",
+          "DERIVATION",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-concepts-of-physics-by-h-a489bb6e-013",
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 240,
+      "page_end": 264,
+      "segment_title": "Chapter 12: Simple Harmonic Motion",
+      "segment_summary": "Pages 240-264 of concepts_of_physics_by_h.c._verma_volume_1.pdf (Chapter 12: Simple Harmonic Motion)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-concepts-of-physics-by-h-a489bb6e-014",
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 265,
+      "page_end": 286,
+      "segment_title": "Chapter 13: Fluid Mechanics",
+      "segment_summary": "Pages 265-286 of concepts_of_physics_by_h.c._verma_volume_1.pdf (Chapter 13: Fluid Mechanics)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "PRINCIPLE",
+          "LAW",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-concepts-of-physics-by-h-a489bb6e-015",
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 287,
+      "page_end": 304,
+      "segment_title": "Chapter 14: Some Mechanical Properties of Matter",
+      "segment_summary": "Pages 287-304 of concepts_of_physics_by_h.c._verma_volume_1.pdf (Chapter 14: Some Mechanical Properties of Matter)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "LAW",
+          "FORMULA",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-concepts-of-physics-by-h-a489bb6e-016",
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 305,
+      "page_end": 330,
+      "segment_title": "Chapter 15: Wave Motion and Waves on a String",
+      "segment_summary": "Pages 305-330 of concepts_of_physics_by_h.c._verma_volume_1.pdf (Chapter 15: Wave Motion and Waves on a String)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-concepts-of-physics-by-h-a489bb6e-017",
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 331,
+      "page_end": 357,
+      "segment_title": "Chapter 16: Sound Waves",
+      "segment_summary": "Pages 331-357 of concepts_of_physics_by_h.c._verma_volume_1.pdf (Chapter 16: Sound Waves)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-concepts-of-physics-by-h-a489bb6e-018",
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 358,
+      "page_end": 376,
+      "segment_title": "Chapter 17: Light Waves",
+      "segment_summary": "Pages 358-376 of concepts_of_physics_by_h.c._verma_volume_1.pdf (Chapter 17: Light Waves)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "PRINCIPLE",
+          "DERIVATION",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-concepts-of-physics-by-h-a489bb6e-019",
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 377,
+      "page_end": 424,
+      "segment_title": "Chapter 18: Geometrical Optics",
+      "segment_summary": "Pages 377-424 of concepts_of_physics_by_h.c._verma_volume_1.pdf (Chapter 18: Geometrical Optics)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "LAW",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-concepts-of-physics-by-h-a489bb6e-020",
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 425,
+      "page_end": 438,
+      "segment_title": "Chapter 19: Optical Instruments",
+      "segment_summary": "Pages 425-438 of concepts_of_physics_by_h.c._verma_volume_1.pdf (Chapter 19: Optical Instruments)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-concepts-of-physics-by-h-a489bb6e-021",
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 439,
+      "page_end": 447,
+      "segment_title": "Chapter 20: Dispersion and Spectra",
+      "segment_summary": "Pages 439-447 of concepts_of_physics_by_h.c._verma_volume_1.pdf (Chapter 20: Dispersion and Spectra)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "EXPERIMENT_OBSERVATION",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-concepts-of-physics-by-h-a489bb6e-022",
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 448,
+      "page_end": 452,
+      "segment_title": "Chapter 21: Speed of Light",
+      "segment_summary": "Pages 448-452 of concepts_of_physics_by_h.c._verma_volume_1.pdf (Chapter 21: Speed of Light)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "EXPERIMENT_OBSERVATION",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-concepts-of-physics-by-h-a489bb6e-023",
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 453,
+      "page_end": 463,
+      "segment_title": "Chapter 22: Photometry",
+      "segment_summary": "Pages 453-463 of concepts_of_physics_by_h.c._verma_volume_1.pdf (Chapter 22: Photometry)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-concepts-of-physics-by-h-a489bb6e-024",
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 464,
+      "page_end": 471,
+      "segment_title": "Appendix & Index",
+      "segment_summary": "Pages 464-471 of concepts_of_physics_by_h.c._verma_volume_1.pdf (Appendix & Index)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXCLUDED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "NON_CONTENT",
+        "content_types": [
+          "OTHER"
+        ]
+      }
+    }
+  ],
+  "created_at": "2026-09-29T16:20:10.194637Z"
+}

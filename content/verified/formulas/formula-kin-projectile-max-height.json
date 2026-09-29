@@ -1,0 +1,48 @@
+{
+  "formula_id": "formula-kin-projectile-max-height",
+  "chapter_id": "kinematics",
+  "title": "Maximum Height of Projectile",
+  "equation": "H = \\frac{u^2 \\sin^2\\theta}{2 g}",
+  "equation_latex": "H = \\frac{u^2 \\sin^2\\theta}{2 g}",
+  "variables": {
+    "H": "Maximum vertical apex height above launch plane",
+    "u": "Launch speed",
+    "\\theta": "Launch angle",
+    "g": "Gravitational acceleration"
+  },
+  "units": {
+    "H": "m",
+    "u": "m/s",
+    "\\theta": "rad or deg",
+    "g": "m/s^2"
+  },
+  "dimensions": {
+    "H": "[L]",
+    "u": "[L][T]^-1",
+    "\\theta": "[1]",
+    "g": "[L][T]^-2"
+  },
+  "assumptions": [
+    "Uniform gravity g",
+    "Apex defined by v_y = 0"
+  ],
+  "validity_conditions": [
+    "Measured relative to launch elevation level"
+  ],
+  "derivation_reference": "derivation-formula-kin-projectile-trajectory",
+  "related_concepts": [
+    "concept-kin-projectile-01"
+  ],
+  "common_misuse": [
+    "Confusing sin^2(theta) with sin(2 theta)"
+  ],
+  "provenance": [],
+  "generation_metadata": {
+    "agent": "physics-formula-writer",
+    "version": "1.0",
+    "target_chapter": "kinematics"
+  },
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-formula-kin-projectile-max-height",
+  "content_hash": "d736d070d07348cfc62ef9caa0e1f3e7524eeffc585e749db3d931aa54832077"
+}

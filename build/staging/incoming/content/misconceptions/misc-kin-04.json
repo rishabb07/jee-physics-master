@@ -1,0 +1,23 @@
+{
+  "misconception_id": "misc-kin-04",
+  "chapter_id": "kinematics",
+  "concept_id": "concept-kin-projectile-01",
+  "title": "Maximum Projectile Range is Always Achieved at 45 Degrees",
+  "category": "INVALID_FORMULA_CONDITION",
+  "statement": "The maximum range of any projectile is always achieved when launched at 45 degrees.",
+  "incorrect_statement": "To maximize projectile distance, always launch at theta = 45 deg.",
+  "erroneous_reasoning": "Students memorize R = (u^2 sin 2 theta)/g and note that sin(2 theta) is maximized at 2 theta = 90 deg => theta = 45 deg, ignoring the crucial boundary assumption that launch and landing elevations are identical.",
+  "why_it_fails": "The 45-degree rule applies ONLY to flat, level ground where launch elevation equals landing elevation. When launching from a cliff or onto an incline, the optimal angle shifts significantly.",
+  "correct_physics_explanation": "When launching from an elevated platform of height h > 0, the projectile spends extra time falling. The optimal launch angle to maximize horizontal range satisfies sin^2(theta_opt) = 1 / [2(1 + gh/u^2)], which is strictly LESS than 45 degrees! Similarly, when projecting up an incline of angle alpha, the optimal angle with the horizontal is theta_opt = 45 deg + alpha/2, which is strictly GREATER than 45 degrees.",
+  "corrective_explanation": "The 45-degree angle maximizes range strictly on horizontal terrain. When shooting from a cliff, launch at an angle shallower than 45 deg; when shooting uphill, launch steeper than 45 deg.",
+  "refutation_counterexample": "A shot putter launching from height h = 2 m achieves maximum range at approximately 42 degrees, not 45 degrees.",
+  "supporting_evidence": "University Physics, Chapter 3: 'Optimal launch angle from a height above ground is always less than 45 degrees.'",
+  "diagnostic_check_latex": "\\theta_{\\text{opt, cliff}} = \\arcsin\\left( \\frac{1}{\\sqrt{2 + 2 g h / u^2}} \\right) < 45^\\circ; \\quad \\theta_{\\text{opt, incline}} = 45^\\circ + \\frac{\\alpha}{2} > 45^\\circ",
+  "diagnostic_symptom": "Student automatically substitutes theta = 45 deg into incline range or cliff range optimization problems.",
+  "connected_atom_ids": [
+    "kinematics-question-b29767c8"
+  ],
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-misc-kin-04",
+  "content_hash": "547d79b914f4d06521ed82e20b31a0e2bae0a6d0b95e1461eb5051abbf8b6d71"
+}

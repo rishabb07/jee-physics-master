@@ -1,0 +1,434 @@
+[
+  {
+    "filename": "Feynman, Richard P. The Feynman Lectures on Physics.pdf",
+    "pages": 536,
+    "sha256": "486f6a95dac05601b8a8ad874b4b3f2750ddf9c7448501ea08d3f07a50fb03df",
+    "size_bytes": 33931767,
+    "first_pages": [
+      {
+        "page": 1,
+        "text": ""
+      },
+      {
+        "page": 2,
+        "text": ""
+      },
+      {
+        "page": 3,
+        "text": ""
+      },
+      {
+        "page": 4,
+        "text": ""
+      },
+      {
+        "page": 5,
+        "text": ""
+      },
+      {
+        "page": 6,
+        "text": ""
+      },
+      {
+        "page": 7,
+        "text": ""
+      },
+      {
+        "page": 8,
+        "text": ""
+      },
+      {
+        "page": 9,
+        "text": ""
+      },
+      {
+        "page": 10,
+        "text": ""
+      }
+    ]
+  },
+  {
+    "filename": "Fundamentals of Physics-Halliday,Resnick,Walker.pdf",
+    "pages": 1330,
+    "sha256": "390f40d1f5afa6e23c6c159ca7cdb0762907b858b687dc311b5dc2860fbc16a3",
+    "size_bytes": 71396841,
+    "first_pages": [
+      {
+        "page": 1,
+        "text": ""
+      },
+      {
+        "page": 2,
+        "text": "Quadratic Formula\nIf \n, then \nBinomial Theorem\n. . .\n(x2 < 1)\nProducts of Vectors\nLet u be the smaller of the two angles between\nand\n.\nThen\n.\n\u0001 \n.\n\u0001 axbx \u0002 ayby \u0002 azbz \u0001 ab cos u\nTrigonometric Identities\n*See Appendix E for a more complete list.\ncos \u0003 \u0002 cos \u0004 \u0001 2 cos 1\n2(\u0003 \u0002 \u0004) cos 1\n2(\u0003 \u0005 \u0004)\nsin \u0003 \u0006 sin \u0004 \u0001 2 sin 1\n2(\u0003 \u0006 \u0004) cos 1\n2(\u0003 \u0007 \u0004)\n|a\n: \u0001 b\n:| \u0001 ab sin \b\n\u0002 (axby \u0005 bxay)k\u02c6 \n \u0001 (aybz \u0005 byaz)i\u02c6 \u0002 (azbx \u0005 bzax)j\u02c6\n \u0001 i\u02c6 \u0001\nay\nby\naz\nbz\u0001 \u0005 j\u02c6 \u0001\nax\nbx\naz\nbz\u0001 \u0002 k\u02c6 \u0001\nax\nbx\nay\nby\u0001\n a\n: \u0001 b\n: \u0001 \u0005b\n: \u0001 a\n: \u0001\u0001\ni\u02c6\nax\nbx\nj\u02c6\nay\nby\nk\u02c6\naz\nbz\u0001\na\n:\nb\n:\nb\n:\na\n:\nb\n:\na\n:\n(1 \u0002 x)n \u0001 1 \u0002 nx\n1! \u0002 n(n\u00051)x2\n2!\n\u0002\nx \u0001 \u0005b \u0006 1b2 \u0005 4ac\n2a\nax2 \u0002 bx \u0002 c \u0001 0\nDerivatives and Integrals\nCramer\u2019s Rule\nTwo simultaneous equations in unknowns x and y,\na1x \u0002 b1y \u0001 c1\nand\na2x \u0002 b2y \u0001 c2,\nhave the solutions\nand\n.\ny \u0001 \u0001\na1\na2\nc1\nc2\u0001\n\u0001\na1\na2\nb1\nb2\u0001\n\u0001 a1c2 \u0005 a2c1\na1b2 \u0005 a2b1\nx \u0001 \u0001\nc1\nc2\nb1\nb2\u0001\n\u0001\na1\na2\nb1\nb2\u0001\n\u0001 c1b2 \u0005 c2b1\na1b2 \u0005 a2b1\n\u0002\ndx\n(x2 \u0002 a2)3/2 \u0001\nx\na2(x2 \u0002 a2)1/2\n\u0002\nx dx\n(x2 \u0002 a2)3/2 \u0001 \u0005\n1\n(x2 \u0002 a2)1/2\n\u0002\ndx\n2x2 \u0002 a2 \u0001 ln("
+      },
+      {
+        "page": 3,
+        "text": "\u0087 Students achieve concept \nmastery in a rich, \nstructured environment \nthat\u2019s available 24/7.\nFrom multiple study paths, to self-assessment, to a wealth of interactive \nvisual and audio resources, WileyPLUS gives you everything you need to \npersonalize the teaching and learning experience.\nWith WileyPLUS: \n\u00bbFind out how to MAKE IT YOURS \u00bb\nThis online teaching and learning environment \nintegrates the entire digital textbook with the \nmost effective instructor and student resources \nWR \u00c0W HYHU\\ OHDUQLQJ VW\\OH\u0011\n\u0087 Instructors personalize and manage \ntheir course more effectively with \nassessment, assignments, grade \ntracking, and more.\n\u0087 manage time better\n\u0087\u0003study smarter\n\u0087 save money\nwww.wileyplus.com\n"
+      },
+      {
+        "page": 4,
+        "text": "MAKE IT YOURS!\nALL THE HELP, RESOURCES, AND PERSONAL SUPPORT\nYOU AND YOUR STUDENTS NEED!\nTechnical Support 24/7\nFAQs, online chat,\nand phone support\nwww.wileyplus.com/support\nStudent support from an \nexperienced student user.\nAsk your local representative\nfor details!\nYour WileyPLUS\nAccount Manager.\nTraining and implementation support\nwww.wileyplus.com/accountmanager\nCollaborate with your colleagues, \nfind a mentor, attend virtual and live \nevents, and view resources\nwww.WhereFacultyConnect.com\nPre-loaded, ready-to-use \nassignments and presentations\nwww.wiley.com/college/quickstart\n2-Minute Tutorials and all \nof the resources you & your\nstudents need to get started\nwww.wileyplus.com/firstday\n"
+      },
+      {
+        "page": 5,
+        "text": "F U N D A M E N TA L S \nO F P H Y S I C S 9\nE D I T I O N\nT H\nE X T E N D E D\n"
+      },
+      {
+        "page": 6,
+        "text": ""
+      },
+      {
+        "page": 7,
+        "text": "F U N D A M E N TA L S \nO F P H Y S I C S\n9\nE D I T I O N\nT H\nHALLIDAY & RESNICK\nJearl Walker\nCleveland State University\nJohn Wiley & Sons, Inc.\nE X T E N D E D\n"
+      },
+      {
+        "page": 8,
+        "text": "SPONSORING EDITOR\nGeraldine Osnato\nEXECUTIVE EDITOR\nStuart Johnson\nASSISTANT EDITOR Aly Rentrop\nASSOCIATE MARKETING DIRECTOR\nChristine Kushner\nSENIOR PRODUCTION EDITOR\nElizabeth Swain\nTEXT DESIGNER\nMadelyn Lesure\nCOVER DESIGNER\nM77 Design\nDUMMY DESIGNER\nLee Goldstein\nPHOTO EDITOR\nHilary Newman\nEXECUTIVE MEDIA EDITOR Thomas Kulesa\nCOVER IMAGE\n\u00a9Eric Heller/Photo Researchers, Inc.\nThis book was set in 10/12 Times Ten by Prepare and was printed and bound by\nR.R.Donnelley/Jefferson City. The cover was printed by R.R.Donnelley/Jefferson City.\nThis book is printed on acid free paper.\nCopyright \u00a9 2011, 2008, 2005, 2003 John Wiley & Sons, Inc. All rights reserved.\nNo part of this publication may be reproduced, stored in a retrieval system or transmitted in any\nform or by any means, electronic, mechanical, photocopying, recording, scanning or otherwise,\nexcept as permitted under Sections 107 or 108 of the 1976 United States Copyright Act, without\neither the prior written permission of the Publis"
+      },
+      {
+        "page": 9,
+        "text": "B R I E F C O N T E N T S\nPART 1\n1 Measurement\n2 Motion Along a Straight Line\n3 Vectors \n4 Motion in Two and Three Dimensions\n5 Force and Motion \u2014 I\n6 Force and Motion \u2014 II\n7 Kinetic Energy and Work\n8 Potential Energy and Conservation of Energy\n9 Center of Mass and Linear Momentum\n10 Rotation\n11 Rolling, Torque, and Angular  Momentum\nPART 2\n12 Equilibrium and Elasticity\n13 Gravitation\n14 Fluids \n15 Oscillations\n16 Waves \u2014 I\n17 Waves \u2014 II\n18 Temperature, Heat, and the First Law of\nThermodynamics\n19 The Kinetic Theory of Gases\n20 Entropy and the Second Law of Thermodynamics\nPART 3\n21 Electric Charge\n22 Electric Fields\n23 Gauss\u2019 Law \n24 Electric Potential\n25 Capacitance\n26 Current and Resistance\n27 Circuits\n28 Magnetic Fields\n29 Magnetic Fields Due to Currents\n30 Induction and Inductance\n31 Electromagnetic Oscillations and  Alternating\nCurrent\n32 Maxwell\u2019s Equations; Magnetism of Matter\nPART 4\n33 Electromagnetic Waves\n34 Images\n35 Interference \n36 Diffraction\n37 Relativity\nPART 5\n38 Photo"
+      },
+      {
+        "page": 10,
+        "text": ""
+      }
+    ]
+  },
+  {
+    "filename": "University Physics with Modern Physics, 13th Edition.pdf",
+    "pages": 1598,
+    "sha256": "0bc11b67facf00abf7c8f370adb99f7acdcb0348c7108774e80a2b1c7a398687",
+    "size_bytes": 53151401,
+    "first_pages": [
+      {
+        "page": 1,
+        "text": ""
+      },
+      {
+        "page": 2,
+        "text": ""
+      },
+      {
+        "page": 3,
+        "text": "PhET SIMULATIONS\nAvailable in the Pearson eText and in the Study Area of MasteringPhysics\n*Indicates an associated tutorial available in the MasteringPhysics Item Library.\n1.6\nEstimation\n10\n1.7\nVector Addition\n13\n2.4\n*Forces in 1 Dimension\n47\n2.4\n*The Moving Man\n49\n2.5\nLunar Lander\n52\n3.2\nMaze Game\n76\n3.3\n*Projectile Motion\n79\n3.4\nLadybug Revolution, Motion in 2D\n87\n5.2\nLunar Lander\n146\n5.3\nForces in 1 Dimension, Friction, *The Ramp\n149\n6.2\n*The Ramp\n181\n6.3\nMolecular Motors, Stretching DNA\n188\n7.3\n*The Ramp\n222\n7.5\n*Energy Skate Park\n229\n9.3\nLadybug Revolution\n286\n10.6\nTorque\n326\n12.3\nBalloons & Buoyancy\n380\n13.2\nLunar Lander\n406\n13.4\nMy Solar System\n412\n14.2\nMotion in 2D\n443\n14.3\n*Masses & Springs\n446\n14.5\n*Pendulum Lab\n453\n15.8\nFourier: Making Waves, Waves on a String\n495\n16.6\nSound, Wave Interference\n529\n17.6\nStates of Matter\n566\n17.7\nThe Greenhouse Effect\n570\n18.3\nBalloons & Buoyancy, Friction, \nGas Properties\n599\n18.6\nStates of Matter\n612\n21.2\nBalloons and Static Electricity, \nJo"
+      },
+      {
+        "page": 4,
+        "text": "ACTIVPHYSICS ONLINE\u2122\nACTIVITIES\n1.1\nAnalyzing Motion Using Diagrams\n1.2\nAnalyzing Motion Using Graphs\n1.3\nPredicting Motion from Graphs\n1.4\nPredicting Motion from Equations\n1.5\nProblem-Solving Strategies for\nKinematics\n1.6\nSkier Races Downhill\n1.7\nBalloonist Drops Lemonade\n1.8\nSeat Belts Save Lives\n1.9\nScreeching to a Halt\n1.10\nPole-Vaulter Lands\n1.11\nCar Starts, Then Stops\n1.12\nSolving Two-Vehicle Problems\n1.13\nCar Catches Truck\n1.14\nAvoiding a Rear-End Collision\n2.1.1\nForce Magnitudes\n2.1.2\nSkydiver\n2.1.3\nTension Change\n2.1.4\nSliding on an Incline\n2.1.5\nCar Race\n2.2\nLifting a Crate\n2.3\nLowering a Crate\n2.4\nRocket Blasts Off\n2.5\nTruck Pulls Crate\n2.6\nPushing a Crate Up a Wall\n2.7\nSkier Goes Down a Slope\n2.8\nSkier and Rope Tow\n2.9\nPole-Vaulter Vaults\n2.10\nTruck Pulls Two Crates\n2.11\nModi\ufb01ed Atwood Machine\n3.1\nSolving Projectile Motion Problems\n3.2\nTwo Balls Falling\n3.3\nChanging the x-Velocity\n3.4 \nProjectile x- and y-Accelerations\n3.5\nInitial Velocity Components\n3.6\nTarget Practice I\n3"
+      },
+      {
+        "page": 5,
+        "text": "UNIVERSITY\nPHYSICS\n13TH EDITION\nHUGH D. YOUNG\nCARNEGIE MELLON\nUNIVERSITY\nROGER A. FREEDMAN\nUNIVERSITY\nOF CALIFORNIA,\nSANTA BARBARA\nCONTRIBUTING AUTHOR\nA. LEWIS FORD\nTEXAS A&M UNIVERSITY\nWITH MODERN PHYSICS\nSEARS AND ZEMANSKY\u2019S\n"
+      },
+      {
+        "page": 6,
+        "text": "Publisher: Jim Smith\nExecutive Editor: Nancy Whilton\nProject Editor: Chandrika Madhavan\nDirector of Development: Michael Gillespie\nEditorial Manager: Laura Kenney\nSenior Development Editor: Margot Otway\nEditorial Assistant: Steven Le\nAssociate Media Producer: Kelly Reed\nManaging Editor: Corinne Benson\nProduction Project Manager: Beth Collins\nProduction Management and Composition: Nesbitt Graphics\nCopyeditor: Carol Reitz \nInterior Designer: Elm Street Publishing Services\nCover Designer: Derek Bacchus\nIllustrators: Rolin Graphics\nSenior Art Editor: Donna Kalal\nPhoto Researcher: Eric Shrader\nManufacturing Buyer: Jeff Sargent\nSenior Marketing Manager: Kerry Chapman\nISBN 13: 978-0-321-69686-1; ISBN 10: 0-321-69686-7 (Student edition)\nISBN 13: 978-0-321-69685-4; ISBN 10: 0-321-69685-9 (Exam copy)\n1  2  3  4  5  6  7  8  9  10\u2014VHC\u201414  13  12  11  10\nCover Photo Credits: Getty Images/Mirko Cassanelli; Mirko Cassanelli\nCredits and acknowledgments borrowed from other sources and reproduced, with"
+      },
+      {
+        "page": 7,
+        "text": "BRIEF CONTENTS\nMECHANICS\n27\nMagnetic Field and Magnetic Forces\n883\n28\nSources of Magnetic Field\n923\n29\nElectromagnetic Induction\n957\n30\nInductance\n991\n31\nAlternating Current\n1021\n32\nElectromagnetic Waves\n1051\nOPTICS\n33\nThe Nature and Propagation \nof Light\n1080\n34\nGeometric Optics \n1114\n35\nInterference\n1163\n36\nDiffraction\n1190\nMODERN PHYSICS\n37\nRelativity\n1223\n38\nPhotons: Light Waves Behaving \nas Particles \n1261\n39\nParticles Behaving as Waves\n1286\n40\nQuantum Mechanics\n1328\n41\nAtomic Structure\n1364\n42\nMolecules and Condensed Matter\n1405\n43\nNuclear Physics\n1439\n44\nParticle Physics and Cosmology\n1480\nAPPENDICES\nA\nThe International System of Units\nA-1\nB\nUseful Mathematical Relations\nA-3\nC\nThe Greek Alphabet\nA-4\nD\nPeriodic Table of Elements\nA-5\nE\nUnit Conversion Factors\nA-6\nF\nNumerical Constants\nA-7\nAnswers to Odd-Numbered Problems\nA-9\n1\nUnits, Physical Quantities, and Vectors\n1\n2\nMotion Along a Straight Line\n35\n3\nMotion in Two or Three Dimensions\n69\n4\nNewton\u2019s Laws of Motion\n104\n5\nApplying "
+      },
+      {
+        "page": 8,
+        "text": "Build Skills\nProblem-Solving Strategy 5.2\nNewton\u2019s Second Law: Dynamics of Particles\nIDENTIFY the relevant concepts: You have to use Newton\u2019s second\nlaw for any problem that involves forces acting on an accelerating\nbody.\nIdentify the target variable\u2014usually an acceleration or a force.\nIf the target variable is something else, you\u2019ll need to select another\nconcept to use. For example, suppose the target variable is how\nfast a sled is moving when it reaches the bottom of a hill. Newton\u2019s\nsecond law will let you \ufb01nd the sled\u2019s acceleration; you\u2019ll then use\nthe constant-acceleration relationships from Section 2.4 to \ufb01nd\nvelocity from acceleration.\nSET UP the problem using the following steps:\n1. Draw a simple sketch of the situation that shows each moving\nbody. For each body, draw a free-body diagram that shows all\nthe forces acting on the body. (The acceleration of a body is\ndetermined by the forces that act on it, not by the forces that it\nexerts on anything else.) Make sure you can ans"
+      },
+      {
+        "page": 9,
+        "text": "Build Con\ufb01dence\nNEW! Bridging Problems\nAt the start of each problem set, a \nBridging Problem helps students \nmake the leap from routine \nexercises to challenging problems \nwith confidence and ease. \nEach Bridging Problem poses a \nmoderately dif\ufb01cult, multi-concept \nproblem, which often draws on earlier \nchapters. In place of a full solution, \nit provides a skeleton solution guide \nconsisting of questions and hints. \nA full solution is explained in\na Video Tutor, provided in the \nStudy Area of MasteringPhysics\u00ae\nand in the Pearson eText. \nA cue ball (a uniform solid sphere of mass m and radius R) is at\nrest on a level pool table. Using a pool cue, you give the ball a\nsharp, horizontal hit of magnitude F at a height h above the center\nof the ball (Fig. 10.37). The force of the hit is much greater \nthan the friction force \u0192 that the table surface exerts on the ball.\nThe hit lasts for a short time \n. (a) For what value of \nh will the ball roll without slipping? (b) If you hit the ball dead\n"
+      },
+      {
+        "page": 10,
+        "text": "D\neepen knowledge of physics by building \nconnections to the real world.\nBring Physics to Life\nNEW! PhET Simulations and Tutorials\nSixteen assignable PhET Tutorials enable students to make \nconnections between real-life phenomena and the underlying \nphysics. 76 PhET simulations are provided in the Study Area \nof MasteringPhysics\u00ae and in the Pearson eText. \nThe comprehensive library of ActivPhysics applets \nand applet-based tutorials is also available. \nNEW! Video Tutor Demonstrations and Tutorials\n\u201cPause and predict\u201d demonstration videos of key physics \nconcepts engage students by asking them to submit a prediction \nbefore seeing the outcome.  These videos are available through \nthe Study Area of MasteringPhysics and in the Pearson eText.  A \nset of assignable tutorials based on these videos challenge \nstudents to transfer their understanding of the demonstration to \na related problem situation.\nBiomedically Based End-of-Chapter Problems\nTo serve biosciences students, the text adds \na "
+      }
+    ]
+  },
+  {
+    "filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+    "pages": 471,
+    "sha256": "a489bb6eece424c285b8ccfef55c9b6196b3bbd225d3ac1cff62d6b9c6ba5c19",
+    "size_bytes": 4840403,
+    "first_pages": [
+      {
+        "page": 1,
+        "text": "CONCEPTS OF PHYSICS\n[VOLUME 1]\nH C VERMA, PhD\nRetired Professor\nDepartment of Physics\nIIT, Kanpur\n"
+      },
+      {
+        "page": 2,
+        "text": "Dedicated to\nIndian Philosophy & Way of Life\nof which\nmy parents were\nan integral part\n"
+      },
+      {
+        "page": 3,
+        "text": "FOREWORD\nA few years ago I had an occasion to go through the book Calculus by L V Terasov. It unravels intricacies\nof the subject through a dialogue between Teacher and Student. I thoroughly enjoyed reading it. For me this\nseemed to be one of the few books which teach a difficult subject through inquisition, and using programmed\nconcept for learning. After that book, Dr Harish Chandra Verma\u2019s book on physics, CONCEPTS OF PHYSICS is\nanother such attempt, even though it is not directly in the dialogue form. I have thoroughly appreciated it. It\nis clear that Dr Verma has spent considerable time in formulating the structure of the book, besides its contents.\nI think he has been successful in this attempt. Dr Verma\u2019s book has been divided into two parts because of the\nsize of the total manuscript. There have been several books on this subject, each one having its own flavour.\nHowever, the present book is a totally different attempt to teach physics, and I am sure it will be extremely\nuseful"
+      },
+      {
+        "page": 4,
+        "text": "P R E F A C E\nWhy a new book ?\nExcellent books exist on physics at an introductory college level so why a new one ? Why so many books\nexist at the same level, in the first place, and why each of them is highly appreciated ? It is because each of\nthese books has the privilege of having an author or authors who have experienced physics and have their own\nmethod of communicating with the students. During my years as a physics teacher, I have developed a somewhat\ndifferent methodology of presenting physics to the students. Concepts of Physics is a translation of this\nmethodology into a textbook.\nPrerequisites\nThe book presents a calculus-based physics course which makes free use of algebra, trigonometry and\nco-ordinate geometry. The level of the latter three topics is quite simple and high school mathematics is sufficient.\nCalculus is generally done at the introductory college level and I have assumed that the student is enrolled in\na concurrent first calculus course. The relevant portions"
+      },
+      {
+        "page": 5,
+        "text": "ACKNOWLEDGEMENTS\nThe work on this book started in 1984. Since then, a large number of teachers, students and physics lovers\nhave made valuable suggestions which I have incorporated in this work. It is not possible for me to acknowledge\nall of them individually. I take this opportunity to express my gratitude to them. However, to Dr S B Mathur,\nwho took great pains in going through the entire manuscript and made valuable comments, I am specially\nindebted. I am also beholden to my colleagues Dr A Yadav, Dr Deb Mukherjee, Mr M M R Akhtar,\nDr Arjun Prasad, Dr S K Sinha and others who gave me valuable advice and were good enough to find time\nfor fruitful discussions. To Dr T K Dutta of B E College, Sibpur I am grateful for having taken time to go\nthrough portions of the book and making valuable comments.\nI thank my student Mr Shailendra Kumar who helped me in checking the answers. I am grateful to\nDr B C Rai, Mr Sunil Khijwania & Mr Tejaswi Khijwania for helping me in the preparation of  ro"
+      },
+      {
+        "page": 6,
+        "text": "TO THE STUDENTS\nHere is a brief discussion on the organisation of the book which will help you in using the book most\neffectively. The book contains 47 chapters divided in two volumes. Though I strongly believe in the underlying\nunity of physics, a broad division may be made in the book as follows:\nChapters 1\u201314: Mechanics\n15\u201317: Waves including wave optics\n18\u201322: Optics \n23\u201328: Heat and thermodynamics\n29\u201340: Electric and magnetic phenomena\n41\u201347: Modern physics\nEach chapter contains a description of the physical principles related to that chapter. It is well supported\nby mathematical derivations of equations, descriptions of laboratory experiments, historical background, etc.\nThere are \"in-text\" solved examples. These examples explain the equation just derived or the concept just\ndiscussed. These will help you in fixing the ideas firmly in your mind. Your teachers may use these in-text\nexamples in the classroom to encourage students to participate in discussions.\nAfter the theory sect"
+      },
+      {
+        "page": 7,
+        "text": "Table of Contents\nChapter 1\nIntroduction to Physics\n1\n1.1 What Is Physics ?\n1\n1.2 Physics and Mathematics\n1\n1.3 Units\n2\n1.4 Definitions of Base Units\n3\n1.5 Dimension\n4\n1.6 Uses of Dimension\n4\n1.7 Order of Magnitude\n6\n1.8 The Structure of World\n6\nWorked Out Examples\n7\nQuestions for Short Answer\n8\nObjective I\n9\nObjective II\n9\nExercises\n9\nChapter 2\nPhysics and Mathematics\n12\n2.1 Vectors and Scalars\n12\n2.2 Equality of Vectors\n13\n2.3 Addition of Vectors\n13\n2.4 Multiplication of a Vector by a Number\n14\n2.5 Subtraction of Vectors\n14\n2.6 Resolution of Vectors\n14\n2.7 Dot Product or Scalar Proudct of Two Vectors\n15\n2.8 Cross Product or Vector Product of Two Vectors\n16\n2.9 Differential Calculus : dy\ndx as Rate Measurer\n17\n2.10 Maxima and Minima\n18\n2.11 Integral Calculus\n19\n2.12 Significant Digits\n21\n2.13 Significant Digits in Calculations\n22\n2.14 Errors in Measurement\n23\nWorked Out Examples\n24\nQuestions for Short Answer\n27\nObjective I\n28\nObjective II\n28\nExercises\n29\nChapter 3\nRest and Motion : Ki"
+      },
+      {
+        "page": 8,
+        "text": "7.5 Circular Turnings and Banking of Roads\n104\n7.6 Centrifugal Force\n105\n7.7 Effect of Earth\u2019s Rotation on Apparent Weight\n106\nWorked Out Examples\n107\nQuestions for Short Answer\n111\nObjective I\n112\nObjective II\n113\nExercises\n114\nChapter 8\nWork and Energy\n118\n8.1 Kinetic Energy\n118\n8.2 Work and Work-energy Theorem\n118\n8.3 Calculation of Work Done\n119\n8.4 Work-energy Theorem for a System of Particles\n120\n8.5 Potential Energy\n121\n8.6 Conservative and Nonconservative Forces\n121\n8.7 Definition of Potential Energy and\nConservation of Mechanical Energy\n122\n8.8 Change in the Potential Energy\nin a Rigid-body-motion\n123\n8.9 Gravitational Potential Energy\n124\n8.10 Potential Energy of a Compressed or\nExtended Spring\n124\n8.11 Different Forms of Energy : Mass Energy\nEquivalence\n126\nWorked Out Examples\n126\nQuestions for Short Answer\n130\nObjective I\n131\nObjective II\n131\nExercises\n132\nChapter 9\nCentre of Mass, Linear Momentum, Collision\n139\n9.1 Centre of Mass\n139\n9.2 Centre of Mass of Continuous Bodies"
+      },
+      {
+        "page": 9,
+        "text": "12.8 Simple Pendulum\n235\n12.9 Physical Pendulum\n237\n12.10 Torsional Pendulum\n237\n12.11 Composition of Two Simple Harmonic Motions\n238\n12.12 Damped Harmonic Motion\n242\n12.13 Forced Oscillation and Resonance\n242\nWorked Out Examples\n243\nQuestions for Short Answer\n249\nObjective I\n250\nObjective II\n251\nExercises\n252\nChapter 13\nFluid Mechanics\n258\n13.1 Fluids\n258\n13.2 Pressure in a Fluid\n258\n13.3 Pascal\u2019s Law\n259\n13.4 Atmospheric Pressure and Barometer\n260\n13.5 Archimedes\u2019 Principle\n261\n13.6 Pressure Difference and Buoyant\nForce in Accelerating Fluids\n262\n13.7 Flow of Fluids\n263\n13.8 Steady and Turbulent Flow\n263\n13.9 Irrotational Flow of an\nIncompressible and Nonviscous Fluid\n264\n13.10 Equation of Continuity\n264\n13.11 Bernoulli\u2019s Equation\n264\n13.12 Applications of Bernoulli\u2019s Equation\n266\nWorked Out Examples\n267\nQuestions for Short Answer\n270\nObjective I\n271\nObjective II\n272\nExercises\n273\nChapter 14\nSome Mechanical Properties of Matter\n277\n14.1 Molecular Structure of a Material\n277\n14.2 Elas"
+      },
+      {
+        "page": 10,
+        "text": "Chapter 17\nLight Waves\n360\n17.1 Waves or Particles\n360\n17.2 The Nature of Light Waves\n360\n17.3 Huygens\u2019 Principle\n362\n17.4 Young\u2019s Double Hole Experiment\n365\n17.5 Young\u2019s Double Slit Experiment\n365\n17.6 Optical Path\n366\n17.7 Interference from Thin Films\n367\n17.8 Fresnel\u2019s Biprism\n369\n17.9 Coherent and Incoherent Sources\n369\n17.10 Diffraction of Light\n370\n17.11 Fraunhofer Diffraction by a Single Slit\n371\n17.12 Fraunhofer Diffraction by a Circular Aperture\n372\n17.13 Fresnel Diffraction at a Straight Edge \n373\n17.14 Limit of Resolution\n373\n17.15 Scattering of Light\n374\n17.16 Polarization of Light\n374\nWorked Out Examples\n376\nQuestions for Short Answer\n379\nObjective I\n379\nObjective II\n380\nExercises\n380\nChapter 18\nGeometrical Optics\n385\n18.1 Reflection at Smooth Surfaces\n385\n18.2 Spherical Mirrors\n385\n18.3 Relation Between u, v and R for Spherical Mirrors\n387\n18.4 Extended Objects and Magnification\n388\n18.5 Refraction at Plane Surfaces\n388\n18.6 Critical Angle\n389\n18.7 Optical Fibre\n389\n18.8 "
+      }
+    ]
+  },
+  {
+    "filename": "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+    "pages": 481,
+    "sha256": "1fd380f4e38840250534c6a5439cc41305d320f87654829162da6e05267c4528",
+    "size_bytes": 5239740,
+    "first_pages": [
+      {
+        "page": 1,
+        "text": "CONCEPTS OF PHYSICS\n[VOLUME 2]\nH C VERMA, PhD\nRetired Professor\nDepartment of Physics\nIIT, Kanpur\n"
+      },
+      {
+        "page": 2,
+        "text": ""
+      },
+      {
+        "page": 3,
+        "text": "Dedicated to\nIndian Philosophy & Way of Life\nof which\nmy parents were\nan integral part\n"
+      },
+      {
+        "page": 4,
+        "text": ""
+      },
+      {
+        "page": 5,
+        "text": "FOREWORD\nA few years ago I had an occasion to go through the book Calculus by L V Terasov. It unravels intricacies\nof the subject through a dialogue between Teacher and Student. I thoroughly enjoyed reading it. For me this\nseemed to be one of the few books which teach a difficult subject through inquisition, and using programmed\nconcept for learning. After that book, Dr Harish Chandra Verma\u2019s book on physics, CONCEPTS OF PHYSICS is\nanother such attempt, even though it is not directly in the dialogue form. I have thoroughly appreciated it. It\nis clear that Dr Verma has spent considerable time in formulating the structure of the book, besides its contents.\nI think he has been successful in this attempt. Dr Verma\u2019s book has been divided into two parts because of the\nsize of the total manuscript. There have been several books on this subject, each one having its own flavour.\nHowever, the present book is a totally different attempt to teach physics, and I am sure it will be extremely\nuseful"
+      },
+      {
+        "page": 6,
+        "text": ""
+      },
+      {
+        "page": 7,
+        "text": "P R E F A C E\nWhy a new book ?\nExcellent books exist on physics at an introductory college level so why a new one ? Why so many books\nexist at the same level, in the first place, and why each of them is highly appreciated ? It is because each of\nthese books has the privilege of having an author or authors who have experienced physics and have their own\nmethod of communicating with the students. During my years as a physics teacher, I have developed a somewhat\ndifferent methodology of presenting physics to the students. Concepts of Physics is a translation of this\nmethodology into a textbook.\nPrerequisites\nThe book presents a calculus-based physics course which makes free use of algebra, trigonometry and\nco-ordinate geometry. The level of the latter three topics is quite simple and high school mathematics is sufficient.\nCalculus is generally done at the introductory college level and I have assumed that the student is enrolled in\na concurrent first calculus course. The relevant portions"
+      },
+      {
+        "page": 8,
+        "text": "ACKNOWLEDGEMENTS\nThe work on this book started in 1984. Since then, a large number of teachers, students and physics lovers\nhave made valuable suggestions which I have incorporated in this work. It is not possible for me to acknowledge\nall of them individually. I take this opportunity to express my gratitude to them. However, to Dr S B Mathur,\nwho took great pains in going through the entire manuscript and made valuable comments, I am specially\nindebted. I am also beholden to my colleagues Dr A Yadav, Dr Deb Mukherjee, Mr M M R Akhtar,\nDr Arjun Prasad, Dr S K Sinha and others who gave me valuable advice and were good enough to find time\nfor fruitful discussions. To Dr T K Dutta of B E College, Sibpur I am grateful for having taken time to go\nthrough portions of the book and making valuable comments.\nI thank my student Mr Shailendra Kumar who helped me in checking the answers. I am grateful to\nDr B C Rai, Mr Sunil Khijwania & Mr Tejaswi Khijwania for helping me in the preparation of  ro"
+      },
+      {
+        "page": 9,
+        "text": "TO THE STUDENTS\nHere is a brief discussion on the organisation of the book which will help you in using the book most\neffectively. The book contains 47 chapters divided in two volumes. Though I strongly believe in the underlying\nunity of physics, a broad division may be made in the book as follows:\nChapters 1\u201314: Mechanics\n15\u201317: Waves including wave optics\n18\u201322: Optics \n23\u201328: Heat and thermodynamics\n29\u201340: Electric and magnetic phenomena\n41\u201347: Modern physics\nEach chapter contains a description of the physical principles related to that chapter. It is well supported\nby mathematical derivations of equations, descriptions of laboratory experiments, historical background, etc.\nThere are \"in-text\" solved examples. These examples explain the equation just derived or the concept just\ndiscussed. These will help you in fixing the ideas firmly in your mind. Your teachers may use these in-text\nexamples in the classroom to encourage students to participate in discussions.\nAfter the theory sect"
+      },
+      {
+        "page": 10,
+        "text": ""
+      }
+    ]
+  },
+  {
+    "filename": "jee_main_mock_test-01-2024-jan.pdf",
+    "pages": 12,
+    "sha256": "222525c132a01fd0bbcee487f11f7adff9516d86bbb248067c81cd2a0b92c005",
+    "size_bytes": 5940422,
+    "first_pages": [
+      {
+        "page": 1,
+        "text": ""
+      },
+      {
+        "page": 2,
+        "text": ""
+      },
+      {
+        "page": 3,
+        "text": ""
+      },
+      {
+        "page": 4,
+        "text": ""
+      },
+      {
+        "page": 5,
+        "text": ""
+      },
+      {
+        "page": 6,
+        "text": ""
+      },
+      {
+        "page": 7,
+        "text": ""
+      },
+      {
+        "page": 8,
+        "text": ""
+      },
+      {
+        "page": 9,
+        "text": ""
+      },
+      {
+        "page": 10,
+        "text": ""
+      }
+    ]
+  },
+  {
+    "filename": "jee_rank_booster-03_mock_paper.pdf",
+    "pages": 14,
+    "sha256": "256f42c67a9271aaafe4bf637eb34cddd10da959cdf7a66fc6fee76a68d34361",
+    "size_bytes": 1018268,
+    "first_pages": [
+      {
+        "page": 1,
+        "text": "Section - A\n1.\nA glass prism of refractive index 1.5 is immersed\nin water (refractive index 4\n3 ) as shown in figure.\nA light beam incident normally on the face AB is\ntotally reflected to reach the face BC, if\n(1)\n5\nsin\n9\nq \u00b3\nA\nB\nC\nq\n(2)\n2\nsin\n3\nq \u00b3\n(3)\n8\nsin\n9\nq \u00b3\n(4)\n1\nsin\n3\nq \u00b3\n2.\nWhat is the minimum energy required to launch\na satellite of mass m from the surface of a planet\nof mass M and radius R in a circular orbit at an\naltitude of 2R?\n(1)\n5GmM\n6R\n(2)\n2GmM\n3R\n(3)\nGmM\n2R\n(4)\n3GmM\n2R\nTime : 3 hrs.\nMax. Marks : 300\n3\nPHYSICS \nINSTRUCTIONS\n1.\nThis test will be a 3 hours Test.\n2.\nThis test consists of Physics, Chemistry and Mathematics questions with equal weightage of 100\nmarks.\n3.\nEach question is of 4 marks.\n4.\nThere are three parts in the question paper consisting of Physics (Q.no.1 to 30), Chemistry (Q.no.31 to\n60) and Mathematics (Q. no.61 to 90). Each part is divided into two sections, Section A consists of 20\nmultiple choice questions & Section B consists of 10 Numerical valu"
+      },
+      {
+        "page": 2,
+        "text": "3.\nWhat is the maximum value of the force F such\nthat the block shown in the arrangement, does\nnot move?\nkg\n3\nm =\nF\n60\u00ba\n3\n2\n1\n=\nm\n(1)\n20 N\n(2) 10 N\n(3) 12 N\n(4) 15 N\n4.\nA particle falls freely near the surface of the earth.\nConsider a fixed point O (not vertically below\nthe particle) on the ground. Then pickup the\nincorrect alternative\n(1)\nThe magnitude of angular momentum of the\nparticle about O is increasing\n(2)\nThe magnitude of torque of the\ngravitational force on the particle about O\nis decreasing\n(3)\nThe moment of inertia of the particle about\nO is decreasing\n(4)\nThe magnitude of angular velocity of the\nparticle about O is increasing\n5.\nConsider a spherical shell of radius R at\ntemperature T. The black body radiation inside it\ncan be considered as an ideal gas of photons\nwith internal energy per unit volume u = U\nV \u00b5 T4\nand pressure \n1 U\np\n3 V\n\u00e6\n\u00f6\n=\n\u00e7\n\u00f7\n\u00e8\n\u00f8 . If the shell now\nundergoes an adiabatic expansion the relation\nbetween T and R is :\n(1)\n1\nT\nR\n\u00b5\n(2)\n3\n1\nT\nR\n\u00b5\n(3)\nT \u00b5 e\u2013R\n("
+      },
+      {
+        "page": 3,
+        "text": "7.\nThe fundamental frequency of a sonometer wire\nof length l is n0. A bridge is now introduced at a\ndistance of Dl (<< l) from the centre of the wire.\nThe lengths of wire on the two sides of the bridge\nare now vibrated in their fundamental modes.\nThen, the beat frequency nearly is \u2013\n(1)\nn0Dl/l\n(2) 8n0Dl/l\n(3)\n2n0Dl/l\n(4) n0Dl/2l\n8.\nIn Young's double slit experiment  shown in figure\nS1 and S2 are coherent sources and S is the screen\nhaving a hole at a point 1.0mm away from the\ncentral line. White light (400 to 700nm) is sent\nthrough the slits. Which wavelength passing\nthrough the hole has strong intensity?\nS1\nS2\n0.5mm\n50cm\nhole\n1.0mm\nCentre of\nscreen\nScreen\nS\n(1)\n400 nm\n(2) 700 nm\n(3)\n500 nm\n(4) 667 nm\n9.\nIn the LC circuit, the current in the direction\nshown and the charges on the capacitor plates\nhave the signs shown. At this time\nI\nC\nL\n+Q  \u2013Q\n(1)\nI is increasing and Q is increasing\n(2)\nI is increasing and Q is decreasing\n(3)\nI is decreasing and Q is increasing\n(4)\nI is decreasing and "
+      },
+      {
+        "page": 4,
+        "text": "12.\nA thin horizontal circular disc is rotating about a\nvertical axis passing through its centre. An insect\nis at rest at a point near the rim of the disc. The\ninsect now moves along a diameter of the disc\nto reach its other end. During the journey of the\ninsect, the angular speed of the disc\n(1)\ncontinuously decreases\n(2)\ncontinuously increases\n(3)\nfirst increases and then decreases\n(4)\nremains unchanged\n13.\nAn ideal ammeter (zero resistance) and an ideal\nvoltmeter (infinite resistance) are connected as\nshown. The ammeter and voltmeter reading for\nR1 = 5 W, R2 = 15 W, R3  = 1.25 W and E = 20 V are\ngiven as\nR2\nR1\nE = 20 V\nR= 1.25\n3\nW\n=5W\n=15W\n(1)\n6.25 A, 3.75 V\n(2) 3.00 A, 5 V\n(3)\n3.75 A, 3.75 V\n(4) 6.25 A, 6.25 V\n14.\nA monoatomic ideal gas is filled in a\nnonconducting container. The gas can be\ncompressed by a movable nonconducting\npiston. The gas is compressed slowly to 12.5%\nof its initial volume.\nFind final temperature of the gas if it is T0 initially \u2013\n(1)\n4T0\n(2) 3T0\n(3)\n2/3 T0\n(4"
+      },
+      {
+        "page": 5,
+        "text": "17.\nA point particle of mass 0.1 kg is executing SHM\nof amplitude of 0.1m. When the particle passes\nthrough the mean position, its kinetic energy is\n18 \u00d7 10\u20133 J.  The equation of motion of this particle\nwhen the initial phase of oscillation is 45\u00b0 can be\ngiven by \u2013\n(1)\ny = 0.1 cos 6t\n4\np\n\u00e6\n\u00f6\n+\n\u00e7\n\u00f7\n\u00e8\n\u00f8\n(2)\ny = 0.1 sin 6t\n4\np\n\u00e6\n\u00f6\n+\n\u00e7\n\u00f7\n\u00e8\n\u00f8\n(3)\ny = 0.4 sin t\n4\np\n\u00e6\n\u00f6\n+\n\u00e7\n\u00f7\n\u00e8\n\u00f8\n(4)\ny = 0.2 sin \n2t\n2\np\n\u00e6\n\u00f6\n+\n\u00e7\n\u00f7\n\u00e8\n\u00f8\n18.\nWhat happens when the applied load increases\nand upto breaking stress in the experiment to\ndetermine the Young's modulus of elasticity ?\n(1)\nThe area of wire goes on decreasing and\nwire extends and breaks.\n(2)\nThe area of wire goes on increasing and\nwire breaks.\n(3)\nThe wire extends and area remains constant.\n(4)\nThe area remains same and wire length is\nalso same.\n19.\nAn insect crawls up a hemispherical surface very\nslowly. The coefficient of friction between the\ninsect and the surface is 1/3. If the line joining the\ncentre of the hemispherical surface to the insect\nmakes an "
+      },
+      {
+        "page": 6,
+        "text": "Film\nW\n23.\nA piece of wood from a recently cut tree shows\n20 decays per minute. A wooden piece of same\nsize placed in a museum (obtained from a tree\ncut many years back) shows 2 decays per\nminute. If half life of C14 is 5730 years, then age\nof the wooden piece placed in the museum is\napproximately ________ years.\n24.\nThe temperature of the two outer surfaces of a\ncomposite slab, consisting of two materials\nhaving coefficients of thermal conductivity K\nand 2K and thickness x and 4x, respectively, are\n2\nT and 1\n2\n1\n(\n)\nT T\nT\n>\n. The rate of heat transfer\nthrough the slab, in a steady state is\n2\n1\n(\n)\nA T\nT K\nf\nx\n-\n\u00e6\n\u00f6\n\u00e7\n\u00f7\n\u00e8\n\u00f8\n. Find the value of  F.\n4x\nx\nK\n2K\nT1\n25.\nIf the ratio of the concentration of electrons to\nthat of holes in a semiconductor is 5\n7 and the\nratio of currents is 4\n7 , then what is the ratio of\ntheir drift velocities?\n26.\nA car, starting from rest, accelerates at the rate f\nthrough a distance S, then continues at constant\nspeed for time t and then decelerates at the r"
+      },
+      {
+        "page": 7,
+        "text": "The force acting on the conductor B, which is\nsituated at 10 cm distance from A will be\nx \u00d7 10\u20135 N. Find the value of x.\n30.\nHot water cools from 60\u00b0C to 50\u00b0C in the first 10\nminutes and to 42\u00b0C in the next 10 minutes. The\ntemperature of the surroundings is  ______ \u00b0C.\nSection - A\n31.\nLet n1 be the frequency of the series limit of the\nLyman series, n2 be the frequency of the first\nline of the Lyman series, and n3 be the frequency\nof the series limit of the Balmer series, then \u2013\n(1)\nn3 = 1\n2 (n1 \u2013 n3)\n(2)\nn2 \u2013 n1 = n3\n(3)\nn1 \u2013 n2 = n3\n(4)\nn1 + n2 = n3\n32.\nMatch List I with List II and select the correct\nanswer :\nList I (Ions)\nList II (Shapes)\nA.\n2\nICl-\n1.\nLinear\nB.\n+\n2\nBrF\n2.\nPyramidal\nC.\n4\nClF-\n3.\nTetrahedral\nD.\n4\nAlCl-\n4.\nSquare planar\n5.\nAngular\nA\nB\nC\nD\n(1)\n1\n2\n4\n5\n(2)\n4\n5\n2\n3\n(3)\n1\n2\n4\n3\n(4)\n5\n1\n3\n4\n33.\nWhich one of the following is the correct\nstatement?\n(1)\nBoric acid is a protonic acid.\n(2)\nBeryllium exhibits coordination number\nof six.\n(3)\nChlorides of both beryllium and alumini"
+      },
+      {
+        "page": 8,
+        "text": "35.\nReducing the pressure from 1.0 atm to 0.5 atm\nwould change the number of molecules in one\nmole of ammonia to\n(1)\n25% of its initial value\n(2)\n50% of its  initial value\n(3)\n75% of its initial value\n(4)\nNone of the  above\n36.\nStructure of some important polymers are given.\nWhich one represents Buna-S?\n(1)\n(\u2013 C \n\u2013 C = CH \u2013 C \n\u2013)\n2\n2\nH\nH\nCH3\nn\n|\n(2)\n(\u2013 C \n\u2013 CH = CH \u2013 C \n\u2013 CH \u2013 CH \u2013)\n2\n2\n2\nH\nH\nC H\n6\n5\nn\n|\n(3)\n(\u2013 C \n\u2013 CH = CH \u2013 C \n\u2013 CH \u2013 CH \u2013)\n2\n2\n2\nH\nH\nCN\nn\n|\n(4)\n(\u2013 C \n\u2013 C = CH \u2013 C \n\u2013)\n2\n2\nH\nH\nCl\nn\n|\n37.\nIn electrolysis of NaCl when Pt electrode is taken,\nthen H2 is liberated at cathode while with Hg\ncathode it forms sodium amalgam. This is\nbecause\n(1)\nHg is more inert than Pt\n(2)\nmore voltage is required to reduce H+ at Hg\nthan at Pt\n(3)\nNa is dissolved in Hg while it does not\ndissolve in Pt\n(4)\nconc. of H+ ions is larger when Pt electrode\nis taken\n38.\nWhich of the following option is having\nmaximum number of unpaired electrons \u2013\n(1)\nA tetrahedral d6 ion\n(2)\n[Co(NH3)6]3+\n(3)\nA square p"
+      },
+      {
+        "page": 9,
+        "text": "43.\nMe \u2013 CH = CH2 + CHCl3 \naq. KOH\nexcess, D\n\u00be\u00be\u00be\u00be\u00ae A (Major\nproducts) is \u2013\n(1)\nO \nOK\n(2)\nO \nOK\n(3)\nO \n(4)\nOH\nOH\n44.\nThe decomposition of N2O5 in carbon\ntetrachloride was followed by measuring the\nvolume of O2 gas evolved :\n(\n)\n(\n)\n( )\n2\n5\n4\n2\n4\n4\n2\n2N O\nCCl\n2N O\nCCl\nO\ng\n\u00ae\n+\n.\nThe maximum volume of O2 gas obtained was\n100 cm3. In 500 minutes, 90 cm3 of O2 were\nevolved. The first order rate constant (in min\u20131)\nfor the disappearance of N2O5 is :\n(1)\n2.303\n500\n(2)\n2.303\n100\nlog\n500\n90\n(3)\n2.303\n90\nlog\n500\n100\n(4)\n100\n10 500\n\u00b4\n45.\nThe basic character of the transition metal\nmonoxides follows the order\n(Atomic Nos.,Ti = 22, V = 23, Cr = 24, Fe = 26)\n(1)\nTiO > VO > CrO > FeO\n(2)\nVO > CrO > TiO > FeO\n(3)\nCrO > VO > FeO > TiO\n(4)\nTiO > FeO > VO > CrO\n46.\nNH4ClO4 + HNO3 (dilute) \u00be\u00ae X + HClO4\nheat\nX\nY (gas)\n\u00be\u00be\u00be\n\u00ae\nGas (Y) is \u2013\n(1)\nO2\n(2) N2\n(3)\nNO2\n(4) N2O\n47.\nWhich of the following is/are formed when\nozone reacts with the unburnt hydrocarbons\nin polluted air ?\n(i)\nFormaldehyde\n(ii)\nAcrolein\n(iii)"
+      },
+      {
+        "page": 10,
+        "text": "48.\nO\nConc. KOH\n3\nZn (1mole)(A)\n(B)\n\u00be\u00be\u00ae\n\u00be\u00be\u00be\u00be\u00be\u00ae\nEnd product (B) of above reaction is \u2013\n(1)\nCHO\nCH OH\n2\n(2)\nCH OH\n2\nCO\nK\n2   \u0001\n(3)\nCH OH\n2\nCH OH\n2\n(4)\nCO\nK\n2   \nCO\nK\n2   \n49.\nPrecautions to be taken in the study of reaction\nrate for the reaction between potassium iodate\n(KIO3) and sodium sulphite (Na2SO3) using\nstarch solution as indicator at different\nconcentrations and temperature \u2013\n(1)\nThe concentration of sodium thiosulphate\nsolution should always be less than the\nconcentration of the potassium iodide\nsolution.\n(2)\nFreshly prepared starch solution should be\nused.\n(3)\nExperiments should be performed with the\nfresh solutions of H2O2 and KI.\n(4)\nAll of these\n50.\nPredict the product (A) of the following reaction\nH+\nD\nA\n(1)\n(2)\n(3)\n(4)\n"
+      }
+    ]
+  },
+  {
+    "filename": "jee_rank_booster_-02_mock_paper.pdf",
+    "pages": 12,
+    "sha256": "0548b6c566bac83608d38104c2728fe649363e3313e4f7d9208d21be6baef0fc",
+    "size_bytes": 1042085,
+    "first_pages": [
+      {
+        "page": 1,
+        "text": "Section - A\n1.\nN divisions on the main scale of a vernier\ncallipers coincide with N + 1 divisions on the\nvernier scale. If each division on the main scale\nis of \u2018a\u2019 units, the least count of the instrument\nis\n(1)\na\nN\n1\n+\n(2)\na\nN\n1\n-\n(3)\n2a\nN\n1\n-\n(4)\n2a\nN\n1\n+\n2.\nThe gravitational field, due to the 'left over part'\nof a uniform sphere (from which a part as shown,\nhas been 'removed out'), at a very far off point, P,\nlocated as shown, would be (nearly) :\nR\nP\nMass of complete\nsphere = M\nRemoved\nPart\nx\nR\n(1)\n2\n5\n6\nGM\nx\n(2)\n2\n8\n9\nGM\nx\n(3)\n2\n7\n8\nGM\nx\n(4)\n2\n6\n7\nGM\nx\nTime : 3 hrs.\nMax. Marks : 300\n2\nPHYSICS \nINSTRUCTIONS\n1.\nThis test will be a 3 hours Test.\n2.\nThis test consists of Physics, Chemistry and Mathematics questions with equal weightage of 100\nmarks.\n3.\nEach question is of 4 marks.\n4.\nThere are three parts in the question paper consisting of Physics (Q.no.1 to 30), Chemistry (Q.no.31 to\n60) and Mathematics (Q. no.61 to 90). Each part is divided into two sections, Section A consists of "
+      },
+      {
+        "page": 2,
+        "text": "3.\nn moles of an ideal gas undergo a process A \u00ae\nB as shown in the figure. Maximum temperature\nof the gas during the process is\nA\nB\nV0\n2V0\nP0\n2P0\nP\nV\n(1)\n0 0\n9P V\nnR\n(2)\n0 0\n3\n2\nP V\nnR\n(3)\n0 0\n9\n2\nP V\nnR\n(4)\n0 0\n9\n4\nP V\nnR\n4.\nWhich of these nuclear reactions is possible \u2013\n(1)\n23\n1\n20\n4\n11\n1\n10\n2\nNa\nH\nNe\nHe\n+\n\u00be\u00be\u00ae\n+\n(2)\n10\n4\n13\n1\n5\n2\n7\n1\nB\nHe\nN\nH\n+\n\u00be\u00be\u00ae\n+\n(3)\n10\n1\n11\n5\n0\n5\nB\nn\nB\n-\n+\n\u00be\u00be\u00ae\n+ b + n\n(4)\n14\n1\n12\n7\n1\n6\nN\nH\nC\n-\n+\n\u00be\u00be\u00ae\n+ b + n\n5.\nWhite light is incident on the interface of glass\nand air as shown in the figure. If green light is\njust totally internally reflected then the emerging\nray in air contains\n(1)\nyellow, orange, red\nGreen\nWhite\nGlass\nAir\n(2)\nviolet, indigo, blue\n(3)\nAll colours\n(4)\nAll colours\nexcept green\n6.\nWhat is the conductivity of a semiconductor\nsample having electron concentration of 5 \u00d7 1018\nm\u20133, hole concentration of 5 \u00d7 1019 m\u20133, electron\nmobility of 2.0 m2 V\u20131 s\u20131 and hole mobility of\n0.01 m2 V\u20131 s\u20131 ?\n(Take charge of electron as 1.6 \u00d7 10\u201319 C)\n(1)\n1.68 (W \u2013 m)\u20131\n"
+      },
+      {
+        "page": 3,
+        "text": "10.\nA homogeneous  solid cylinder of length L (L <\nH/2). Cross-sectional area A/5 is immersed such\nthat it floats with its axis vertical at the liquid-\nliquid interface with length L/4 in the denser\nliquid as shown in the fig. The lower density\nliquid is open to atmosphere having pressure\nP0. Then density of solid is given by\n(1)\n5\n4 d\nL\n3\n4\nL/\nd\n2d\nH/2\nH/2\n(2)\n4\n5 d\n(3) d\n(4)\n5\nd\n11.\nIn a Young\u2019s double slit experiment with light of\nwavelength l, fringe pattern on the screen has\nfringe width b. When two thin transparent glass\n(refractive index m) plates of thickness t1 and t2\n(t1 > t2) are placed in the path of the two beams\nrespectively, the fringe pattern will shift by a\ndistance\n(1)\n(\n)\n1\n2\n1\nb m -\n\u00e6\n\u00f6\n\u00e7\n\u00f7\nl\n\u00e8\n\u00f8\nt\nt\n(2)\n1\n2\nmb\nl\nt\nt\n(3)\n(\n) (\n)\n1\n2\n1\nb m -\n-\nl\nt\nt\n(4) (\n)\n(\n)\n1\n2\n1 l\nm -\n+\nb t\nt\n12.\nA dipole consisting of two charges +q and \u2013q joined\nby a massless rod of length l, is seen oscillating\nwith a small amplitude in a uniform electric field of\nmagnitude E. The period of o"
+      },
+      {
+        "page": 4,
+        "text": "15.\nVelocity\u2013time graph for a body of mass 10 kg is\nshown in figure. Work\u2013done on the body in first\ntwo seconds of the motion is :\n10s        t(s)\n50 ms\n-1\nv (m/s)\n(0,0)\n(1)\n\u2013 9300 J\n(2)\n12000 J\n(3)\n\u20134500 J\n(4)\n\u201312000 J\n16.\nA charged particle of mass m and having a charge\nQ is placed in an electric field E which varies\nwith time as  E = E0 sin wt. What is the amplitude\nof the S.H.M. executed by the particle?\n(1)\n0\n2\nQE\nmw\n(2)\n0\n2\nQE\n1\n2 mw\n(3)\n0\n2\n2QE\nmw\n(4) None of these\n17.\nIn a photoelectric experiment, with light of\nwavelength l, the fastest electron has speed v.\nIf the exciting wavelength is changed to 3l/4,\nthe speed of the fastest emitted electron will\nbecome \u2013\n(1)\n3\nv\n4\n(2)\n4\nv\n3\n(3)\nless than \n4\nv\n3\n(4) greater than \n4\nv 3\n18.\nA particle moves along x-axis with initial position\nx = 0. Its velocity varies with x-coordinate as\nshown in graph. The acceleration \u2018a\u2019 of this\nparticle varies with x as \u2013\nv\nx\n(1)\na\nx (2) \na\nx\n(3)\na\nx (4) \na\nx\n19.\nA ring of mass M and radius R lies in x"
+      },
+      {
+        "page": 5,
+        "text": "Section - B\n21.\nThe pulleys and strings shown in the figure are\nsmooth and of negligible mass. For the system\nto remain in equilibrium, the angle q should be\n_____ degree.\nm\nm\nq\n2m\n22.\nA current of 4A produces a deflection of 30\u00b0 in\nthe galvanometer. The figure of merit is _____\nA/rad.\n23.\nA uniform thin rod AB of length L has linear\nmass density m (x) = a + bx\nL , where x is\nmeasured from A. If the CM of the rod lies at\na distance of \n7\nL\n12\n\u00e6\n\u00f6\n\u00e7\n\u00f7\n\u00e8\n\u00f8\n from A, then a and b are\nrelated as b = xa. Find the value of x.\n24.\nA transmitting antenna at the top of a tower has\nheight 32 m and height of the receiving antenna\nis 50 m. What is the maximum distance (in km)\nbetween them for satisfactory communication\nin line of sight (LOS) mode?\n25.\nA ball of mass 160 g is thrown up at an angle\nof 60\u00b0 to the horizontal at a speed of 10 ms\u20131. The\nangular momentum of the ball at the highest point\nof the trajectory with respect to the point from\nwhich the ball is thrown is _____ kg m2/s.\n(g = 10 ms\u2013"
+      },
+      {
+        "page": 6,
+        "text": "Section - A\n31.\nConsider the following reactions\n(i)\n)s(\nCd\ne\n2\n)\naq\n(\nCd 2\n\u00be\u00ae\n\u00be\n+\n-\n+\n, E\u00b0 = \u2013 0.40 V\n(ii)\nAg (aq)\ne\n+\n-\n+\n \n\u00be\u00ae\n\u00be\n Ag(s), E\u00b0 = 0.80 V\nFor the galvanic cell involving the above\nreactions. Which of the following is not correct?\n(1)\nMolar concentration of the cation in the\ncathodic compartment changes faster than\nthat of the cation in the anodic compartment.\n(2)\ncell\nE\n increase when \n+\n2\nCd\n solution is\ndiluted.\n(3)\nTwice as many electrons pass through the\ncadmium electrode as through silver\nelectrode.\n(4)\ncell\nE\n decreases when Ag+ solution is\ndiluted.\n32.\nA container contains  certain gas of mass \u2018m\u2019 of\nhigh pressure.  Some of the gas has been allowed\nto escape from the container and after some time\nthe pressure of the gas becomes half and its\nabsolute temperature 2/3 rd. The amount of the\ngas escaped is\n(1)\n2/3 m\n(2) 1/2 m\n(3)\n1/4 m\n(4) 1/6 m\n33.\nThe hybrid state of S in SO3 is similar to that of\n(1)\nC in C2H2\n(2) C in C2H4\n(3)\nC in CH4\n(4) C in CO2\n34.\nChoose the cor"
+      },
+      {
+        "page": 7,
+        "text": "38.\nOptically active isomer (A) of (C5H9Cl) on\ntreatment with one mole of H2 gives an optically\ninactive compound (B) compound (A) will be:\n(1)\nCH     CH     CH     CH\n3\n2\nCH Cl\n2\n(2)\nCl     CH     CH     CH    CH3\nCH3\n(3)\nCH3\n2\n     CH     CH     CH     CH2\nCl\n(4)\nCH3     CH     CH     CH     CH2\n2\nCl\n39.\nWhich statement is/are correct about ICl3\nmolecule ?\n(1)\nAll I \u2013 Cl bonds are equivalent.\n(2)\nMolecule is polar and non-planar.\n(3)\nAll adjacent bond angles are equal.\n(4)\nAll hybrid orbitals of central atom having\nequal s-character.\n40.\nIsopropyl alcohol is obtained by reacting which\nof the following alkenes with concentrated\nH2SO4 followed by boiling with H2O?\n(1)\nEthylene\n(2) Propylene\n(3)\n2-Methylpropene\n(4) Isoprene\n41.\nIn electro-refining of metal the impure  metal is\nused to make the anode and a strip of pure metal\nas the cathode, during the electrolysis of an\naqueous solution of a complex metal salt. This\nmethod cannot be used for refining of\n(1)\nsilver\n(2) copper\n(3)\nalumini"
+      },
+      {
+        "page": 8,
+        "text": "46.\nChoose the incorrect option \u2013\n(1)\nWhen a dilute solution of an acid is added\nto a dilute solution of a base, neutralization\nreaction takes place.\n(2)\nIn acid-base titrations, at the end point, the\namount of acid becomes chemically\nequivalent to the amount of base present.\n(3)\nIn the case of a strong acid and a strong\nbase titration, at the end point the solution\nbecomes acidic.\n(4)\nIn acid-base titrations the end point is\ndetermined by the hydrogen ion\nconcentration of the solution.\n47.\nCl\nNO2\n3\n2\n3\nCH ONa\nBr\nFe,\nCH OH,\nX\nY\nD\nD\n\u00be\u00be\u00be\u00ae\n\u00be\u00be\u00be\u00be\u00be\u00ae\nProduct (Y) of this reaction is \u2013\n(1)\nCl\nNO2\nOCH3\n(2)\nBr\nNO2\nOCH3\n(3)\nNO2\nOCH3\n(4)\nNO2\nOCH3\n48.\nC H NH\nSOCl\n(i) NaOI\n6 5\n2\n2\nNaOH\n(ii) H\nA\nB\nC\n\u00c5\n\u00be\u00be\u00be\u00be\u00ae\n\u00be\u00be\u00be\u00be\n\u00ae\n\u00be\u00be\u00be\u00be\u00be\n\u00ae\nConc. HNO3\nConc. H SO\n2\n4\n(1equivalent)\nD\nE (Major)\n\u00be\u00be\u00be\u00be\u00be\u00ae\nE can be \u2013\n(1)\nNO2\nNH\nO\n(2)\nNO2\nNH\nO\n(3)\nNO2\nNH\nO\n(4)\nO2N\nNH2\nH\nCl\n49.\n+\n3\n5 10\nH O\n(C H\nO)\n(X)\nY+ Z\n\u00be\u00be\u00be\u00be\u00ae\n (Y and Z both give\nthe Iodoform test). The compound X is \u2013\n(1)\nCH3 \u2013 CH = CH \u2013 O \u2013 CH2 \u2013 CH3\n(2)\n3\n2\n3\n3\nH\n|\nCH\nC\nO\nC"
+      },
+      {
+        "page": 9,
+        "text": "50.\nIf the elevation in boiling point of a solution of\nnon-volatile, non-electrolytic and non-\nassociating solute in a solvent (Kb = x K kg mol\u20131)\nis y K, then the depression in freezing point of\nsolution of same concentration would be (Kf of\nthe solvent = z K kg mol\u20131)\n(1)\n2xz\ny K\n(2)\nyz\nx K\n(3)\nxz\ny K\n(4)\nyz\n2x K\nSection - B\n51.\nThe density of CaF2 (fluorite structure) is 3.18\ng/cm3. Find the length of the side of the unit cell\nis _____.\n52.\nWhen the following aldohexose exists in its  D-\nconfiguration, the total number of stereoisomers\nin its pyranose form is _____.\nCHO \u2014 CH2 \u2014 CHOH \u2014 CHOH \u2014 CHOH \u2014\nCH2OH\n53.\nA 25.0 mm \u00d7 40.0 mm piece of gold foil is 0.25 mm\nthick. The density of gold is 19.32 g/cm3. How\nmany gold atoms are in the sheet in terms of\nx \u00d7 1022? (Atomic weight : Au = 197.0)\n54.\nIn a chemical reaction A is converted into\nB. The rates of reaction, starting with initial\nconcentrations of A as 2 \u00d7 10\u20133 M and\n1 \u00d7 10\u20133 M, are equal to 2.40 \u00d7 10\u20134 Ms\u20131 and\n0.60 \u00d7 10\u20134 Ms\u20131 resp"
+      },
+      {
+        "page": 10,
+        "text": "Section - A\n61.\nGiven f (x) = \n2\nx 3\n10\nx\nif\n3\nx\n3\n2\ne\nif x\n3\n-\n\u00ec\n-\n-\n<\n<\n\u00ef\u00ed\n\u00ef -\n\u00b3\n\u00ee\nThe graph of f (x) is \u2013\n(1)\ncontinuous and differentiable at x = 3\n(2)\ncontinuous but not differentiable at x = 3\n(3)\ndifferentiable but not continuous at x = 3\n(4)\nneither differentiable nor continuous at x = 3\n62.\nThe greatest and the least absolute value of\nz + 1,where | z + 4 | \u00a3 3 are respectively\n(1)\n6 and 0\n(2) 10 and 6\n(3)\n4 and 3\n(4) None of these\n63.\nThe equation\n(5x \u2013 1)2 + (5y \u2013 2)2 = (l2 \u2013 4l + 4) (3x + 4y \u2013 1)2\nrepresents an ellipse if l \u00ce\n(1)\n(0, 1]\n(2) (\u20131, 2)\n(3)\n(2, 3)\n(4) (\u20131, 0)\n64.\nIf (\u2013 4, 5) is one vertex and 7x \u2013 y + 8 = 0 is one\ndiagonal of a square, then the equation of second\ndiagonal is\n(1)\nx  + 3y = 21\n(2)\n2x \u2013 3y = 7\n(3)\nx + 7y = 31\n(4)\n2x + 3y = 21\n65.\nWhich of the following is always true?\n(1)\n(~\n)\n~\n~\np\nq\nq\np\n\u00de\n=\n\u00de\n(2)\n(~\n)\n~\n\u00da\n\u00ba \u00da \u00da\np\nq\np\nq\n(3)\n~ (\n)\n~\n\u00de\n\u00ba\n\u00d9\np\nq\np\nq\n(4)\n~ (\n)\n~\n~\n\u00da\n\u00ba\n\u00d9\np\nq\np\nq\n66.\nFind \nsin x\ne\u00f2\n \n3\n2\nxcos x\nsin x\ncos x\n\u00e6\n\u00f6\n-\n\u00e7\n\u00f7\n\u00e8\n\u00f8\n dx\n(1)\nx esin x \u2013"
+      }
+    ]
+  },
+  {
+    "filename": "problems_in_general_physics_by_i_e_irodov.pdf",
+    "pages": 385,
+    "sha256": "6cf0b2b7cbcde19d84f58f64cd1550f719931a9a65fd4489d77c029b94b9200e",
+    "size_bytes": 3230366,
+    "first_pages": [
+      {
+        "page": 1,
+        "text": ""
+      },
+      {
+        "page": 2,
+        "text": "Problems in \nGENERAL \nPHYSICS\nCLASSIC TEXTS SERIES\nARIHANT PRAKASHAN (Series), MEERUT\n"
+      },
+      {
+        "page": 3,
+        "text": "All Rights Reserved\nARIHANT PRAKASHAN (Series), MEERUT\n\u00a9 PUBLISHER\nNo part of this publication may be re-produced, stored in a retrieval system or by any means, \nelectronic, mechanical, photocopying, recording, scanning, web or otherwise without the written \npermission of the publisher. Arihant has obtained all the information in this book from the \nsources believed to be reliable and true. However, Arihant or its editors or authors or illustrators \ndon\u2019t take any responsibility for the absolute accuracy of any information published and the \ndamage or loss suffered thereupon.\nAll disputes subject to Meerut (UP) jurisdiction only.\nADMINISTRATIVE & PRODUCTION OFFICES\nRegd. Office\n'Ramchhaya' 4577/15, Agarwal Road, Darya Ganj, New Delhi -110002 \nTele: 011- 47630600, 43518550; Fax: 011- 23280316\nHead Office\nKalindi, TP Nagar, Meerut (UP) - 250002\nTel: 0121-2401479, 2512970, 4004199; Fax: 0121-2401648\nSALES & SUPPORT OFFICES\nAgra, Ahmedabad, Bengaluru, Bhubaneswar, Bareilly, Chennai, Delhi,"
+      },
+      {
+        "page": 4,
+        "text": "PREFACE \nThe Periodic System of Elements is printed at the front end sheet and \nthe Table of elementary Particles at the back sheet of the book. \nAll the formulas in the text and answers are in SI system, except in Part \nSix, where the Gaussian system is used. Quantitative data and answers \nare presented in accordance with the rules of approximation and \nnumerical accuracy.\nI.E. Irodov\nThe main physical constants and tables are summarised at the end of \nthe book.\nIn conclusion, the author wants to express his deep gratitude to \ncolleagues from MIPhI and to readers who sent their remarks on some \nproblems, helping thereby to improve the book.\nThis book of problems is intended as a textbook for students at higher \neducational institutions studying advanced course in physics. Besides, \nbecause of the great number of simple problems it may be used by \nstudents studying a general course in physics.\nThe book contains about 1900 problems with hints for solving the most \ncomplicated ones.\nFor "
+      },
+      {
+        "page": 5,
+        "text": " \n A Few Hints for Solving the Problems \n6\n \n Notation \n7\nPreface\n3\nCONTENTS\n 1.1. Kinematics \n1 \n 1.7. Hydrodynamics \n50\n 1.3. Laws of Conservation of Energy, Momentum, and Angular Momentum \n19\n 1.2. The Fundamental Equation of Dynamics \n10\n 1.4. Universal Gravitation \n33\n 1.5. Dynamics of a Solid Body \n36\n 1.6. Elastic Deformations of a Solid Body \n37\n 1.8. Relativistic Mechanics \n55\nPart One    Physical Fundamentals of Mechanics\n1\n 2.4. The Second Law of Thermodynamics. Entropy \n75\n 2.6. Phase Transformations \n83\n 2.3. Kinetic Theory of Gases. Boltzmann\u2019s Law and Maxwell\u2019s Distribution \n69\n 2.1. Equation of the Gas State. Processes\n 2.2. The First Law of Thermodynamics. Heat Capacity  \n65\n 2.5. Liquids. Capillary Effects. \n81\n 2.7. Transport Phenomena \n87\nPart Two    Thermodynamics and Molecular Physics\n62\n 3.2. Conductors and Dielectrics in an Electric Field \n98\n 3.1. Constant Electric Field in Vacuum \n92\n 3.5. Constant Magnetic Field. Magnetics \n123\n 3.6. Electromagnetic Induction"
+      },
+      {
+        "page": 6,
+        "text": " 5.1. Photometry and Geometrical Optics \n186\n 5.2. Interference of Light \n197\n 5.6. Optics of Moving Sources \n223\n 5.3. Diffraction of Light  \n202\n 5.4. Polarization of Light \n213\n 5.5. Dispersion and Absorption of Light \n220\n 5.7. Thermal Radiation. Quantum Nature of Light  \n226\nPart Five    Optics\n186\n 6.2. Wave Properties of Particles. Schrodinger Equation \n237\n 6.1. Scattering of Particles. Rutherford-Bohr Atom \n232\n 6.3. Properties of Atoms. Spectra \n243\n 6.4. Molecules and Crystals \n250\n 6.6. Nuclear Reactions \n260\n 6.7. Elementary Particles \n265\n 6.5. Radioactivity  \n256\nPart Six     Atomic and Nuclear Physics\n232\nAnswer and Solutions\nAppendices\n269\n353\n \n1. Basic Trigonometrical Formulas \n355\n 15. Gas Constants  \n366\n \n9. Derivatives and Integrals  \n363\n 11. Density of Substance \n364\n 14. Saturated Vapour Pressure \n365\n \n7. Numerical Constants and Approximations \n362\n \n5. Exponential Functions \n360\n \n4. Common Logarithms  \n358\n 18. Resistivities of Conductors  \n367\n 10. Astrono"
+      },
+      {
+        "page": 7,
+        "text": " 21. Rotation of the Plane of Polarization \n369\n 27. Half-Life Values of Radionuclides \n370\n 19. Magnetic Susceptibilities of Para and Diamagnetics \n368\n 22. Work Function of Various Metals. \n369\n 29. The Basic Formulas of Electrodynamics in the SI and Gaussian Systems \n373\n 24. Mass Absorption Coefficients \n370\n 23. K Band Absorption Edge \n369\n 28. Units of Physical Quantities \n371\n 30. Fundamental Constants \n375\n 20. Refractive Indices \n368\n 25. Ionization Potentials of Atoms \n370\n 26. Mass of Light Atoms \n370\n"
+      },
+      {
+        "page": 8,
+        "text": "A Few Hints for Solving\nThe Problems\n   \nFirst of all, look through the tables in the Appendix, for many problems cannot be \nsolved without them. Besides, the reference data quoted in the tables will make \nyour work easier and save your time.\n  \nBegin the problem by recognizing its meaning and its formulation. Make sure that \nthe data given are sufficient for solving the problem. Missing data can be found in \nthe tables in the Appendix. Wherever possible, draw a diagram elucidating the \nessence of the problem; in many cases this simplifies both the search for a solution \nand the solution itself.\n   \nSolve each problem, as a rule, in the general form, that is in a letter notation, so that \nthe quantity sought will be expressed in the same terms as the given data. A \nsolution in the general form is particularly valuable since it makes clear the \nrelationship between the sought quantity and the given data. What is more, an \nanswer obtained in the general form allows one to make a fairly a"
+      },
+      {
+        "page": 9,
+        "text": "Vectors are written in boldface upright type e.g., r, F; the same letters printed in \nlightface italic type (r, F) denote the modulus of a vector.\n\uf0d1\uf020\u00d7 , the curl of  (curl ).\n\uf045\n\uf045\n\uf045\nSymbols  \uf046, d,  and \uf066\uf022in front of quantities denote :\n\uf0d1\uf020\uf02c the gradient of \uf079 (grad \uf079).\n\uf079\nTime derivative of an arbitrary function f  is denoted by df/dt or by a dot over a \n.\nletter, f.\ne , e , e are the unit vectors of the cylindrical coordinates \uf074, \uf07b, z, n, \uf076, are the \nz\n\uf074\n\uf07b\nunit vectors of a normal and a tangent.\n\uf0d1\uf02e\uf020\uf02c\uf020the divergence of  (div ),\n\uf045\n\uf045\n\uf045\nMean values are taken in angle brackets < > e.g., <v>, <P>.\nUnit vectors\ni, j, k are the unit vectors of the Cartesian coordinates x, y, z (some times the unit \nvectors are denoted as e , e , e )\nx\ny z\n\uf046, the finite increment of a quantity, e.g., \uf046 = r \u2013 r ; \uf046U = U \u2013 U\nr\n2\n1\n2\n1\nd, the differential (infinitesimal increment), e.g. dr.\n\uf066 the elementary value of a quantity  e.g., \uf066A, the elementary work.\nIntegrals of any multiplicity are denoted by a single sign "
+      },
+      {
+        "page": 10,
+        "text": "1.1 Kinematics\n\u25cf\nAverage vectors of velocity and acceleration of a point:\nv\nr\n= \u2206\n\u2206t\n,\nw\nv\n= \u2206\n\u2206t\n,\n\u2026(1.1a)\nwhere \u2206r is the displacement vector (an increment of a radius vector.)\n\u25cf\nVelocity and acceleration of a point:\nv\nr\n= d\ndt\n, w\nv\n= d\ndt\n.\n\u2026(1.1b)\n\u25cf\nAcceleration of a point expressed in projections on the tangent and the\nnormal to a trajectory:\nw\ndv\ndt\n\u03c4\n\u03c4\n=\n, w\nv\nR\nn =\n2\n,\n\u2026(1.1c)\nwhere R is the radius of curvature of the trajectory at the given point.\n\u25cf\nDistance covered by a point :\ns\nv dt\n= \u222b\n,\n\u2026(1.1d)\nwhere v is the modulus of the velocity vector of a point.\n\u25cf\nAngular velocity and angular acceleration of a solid body:\n\u03c9 =\n\u03c6\nd\ndt\n,\u03b2\n\u03c9\n= d\ndt\n,\n\u2026(1.1e)\n\u25cf\nRelation between linear and angular quantities for a rotating solid body:\nv = [\n],\n\u03c9r\nw\nR\nn = \u03c92 , |\n|\n,\nw\nR\n\u03c4\n\u03b2\n=\n\u2026(1.1f)\nwhere r is the radius vector of the considered point relative to an arbitrary\npoint on the rotation axis, and R is the distance from the rotation axis.\n1. A motorboat going downstream overcame a raft at a poi"
+      }
+    ]
+  }
+]

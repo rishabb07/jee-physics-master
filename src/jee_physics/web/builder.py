@@ -37,6 +37,7 @@ PILOT_CHAPTER_IDS = [
     "thermodynamics",
     "current-electricity",
     "ray-optics",
+    "kinematics",
 ]
 
 CHAPTER_BRANCH_MAPPING = {

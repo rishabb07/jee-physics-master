@@ -1,0 +1,370 @@
+{
+  "source_id": "src-problems-in-general-phys-6cf0b2b7",
+  "total_problems": 1878,
+  "numbering_completeness": "100.0% (1,878/1,878 problems verified, 0 missing, 0 duplicates)",
+  "part_breakdown": {
+    "part_1": 388,
+    "part_2": 257,
+    "part_3": 408,
+    "part_4": 224,
+    "part_5": 292,
+    "part_6": 309
+  },
+  "statement_fidelity_sample_size": 50,
+  "statement_fidelity_matches": 50,
+  "statement_fidelity_pass_rate": "100.0%",
+  "answers_documented": 1077,
+  "answer_section_page_range": "pp. 278-385",
+  "traces": [
+    {
+      "problem_number": "5.33",
+      "page": 201,
+      "match_result": "EXACT_MATCH",
+      "score": 1.0,
+      "passed": true
+    },
+    {
+      "problem_number": "1.229",
+      "page": 45,
+      "match_result": "EXACT_MATCH",
+      "score": 1.0,
+      "passed": true
+    },
+    {
+      "problem_number": "1.52",
+      "page": 17,
+      "match_result": "EXACT_MATCH",
+      "score": 1.0,
+      "passed": true
+    },
+    {
+      "problem_number": "5.242",
+      "page": 235,
+      "match_result": "EXACT_MATCH",
+      "score": 1.0,
+      "passed": true
+    },
+    {
+      "problem_number": "2.176",
+      "page": 91,
+      "match_result": "EXACT_MATCH",
+      "score": 1.0,
+      "passed": true
+    },
+    {
+      "problem_number": "2.114",
+      "page": 85,
+      "match_result": "EXACT_MATCH",
+      "score": 1.0,
+      "passed": true
+    },
+    {
+      "problem_number": "2.70",
+      "page": 80,
+      "match_result": "EXACT_MATCH",
+      "score": 1.0,
+      "passed": true
+    },
+    {
+      "problem_number": "1.286",
+      "page": 55,
+      "match_result": "EXACT_MATCH",
+      "score": 1.0,
+      "passed": true
+    },
+    {
+      "problem_number": "5.232",
+      "page": 233,
+      "match_result": "EXACT_MATCH",
+      "score": 1.0,
+      "passed": true
+    },
+    {
+      "problem_number": "1.210",
+      "page": 43,
+      "match_result": "EXACT_MATCH",
+      "score": 1.0,
+      "passed": true
+    },
+    {
+      "problem_number": "5.109",
+      "page": 215,
+      "match_result": "EXACT_MATCH",
+      "score": 1.0,
+      "passed": true
+    },
+    {
+      "problem_number": "5.240",
+      "page": 235,
+      "match_result": "EXACT_MATCH",
+      "score": 1.0,
+      "passed": true
+    },
+    {
+      "problem_number": "6.260",
+      "page": 270,
+      "match_result": "EXACT_MATCH",
+      "score": 1.0,
+      "passed": true
+    },
+    {
+      "problem_number": "4.64",
+      "page": 171,
+      "match_result": "EXACT_MATCH",
+      "score": 1.0,
+      "passed": true
+    },
+    {
+      "problem_number": "1.179",
+      "page": 39,
+      "match_result": "EXACT_MATCH",
+      "score": 1.0,
+      "passed": true
+    },
+    {
+      "problem_number": "4.157",
+      "page": 185,
+      "match_result": "EXACT_MATCH",
+      "score": 1.0,
+      "passed": true
+    },
+    {
+      "problem_number": "3.219",
+      "page": 133,
+      "match_result": "EXACT_MATCH",
+      "score": 1.0,
+      "passed": true
+    },
+    {
+      "problem_number": "1.66",
+      "page": 20,
+      "match_result": "EXACT_MATCH",
+      "score": 1.0,
+      "passed": true
+    },
+    {
+      "problem_number": "1.62",
+      "page": 20,
+      "match_result": "EXACT_MATCH",
+      "score": 1.0,
+      "passed": true
+    },
+    {
+      "problem_number": "1.192",
+      "page": 41,
+      "match_result": "EXACT_MATCH",
+      "score": 1.0,
+      "passed": true
+    },
+    {
+      "problem_number": "2.60",
+      "page": 78,
+      "match_result": "EXACT_MATCH",
+      "score": 1.0,
+      "passed": true
+    },
+    {
+      "problem_number": "2.89",
+      "page": 81,
+      "match_result": "EXACT_MATCH",
+      "score": 1.0,
+      "passed": true
+    },
+    {
+      "problem_number": "3.389",
+      "page": 158,
+      "match_result": "EXACT_MATCH",
+      "score": 1.0,
+      "passed": true
+    },
+    {
+      "problem_number": "4.180",
+      "page": 188,
+      "match_result": "EXACT_MATCH",
+      "score": 1.0,
+      "passed": true
+    },
+    {
+      "problem_number": "1.55",
+      "page": 18,
+      "match_result": "EXACT_MATCH",
+      "score": 1.0,
+      "passed": true
+    },
+    {
+      "problem_number": "4.97",
+      "page": 177,
+      "match_result": "EXACT_MATCH",
+      "score": 1.0,
+      "passed": true
+    },
+    {
+      "problem_number": "2.20",
+      "page": 73,
+      "match_result": "EXACT_MATCH",
+      "score": 1.0,
+      "passed": true
+    },
+    {
+      "problem_number": "5.190",
+      "page": 227,
+      "match_result": "EXACT_MATCH",
+      "score": 1.0,
+      "passed": true
+    },
+    {
+      "problem_number": "5.54",
+      "page": 204,
+      "match_result": "EXACT_MATCH",
+      "score": 1.0,
+      "passed": true
+    },
+    {
+      "problem_number": "5.160",
+      "page": 223,
+      "match_result": "EXACT_MATCH",
+      "score": 1.0,
+      "passed": true
+    },
+    {
+      "problem_number": "3.214",
+      "page": 131,
+      "match_result": "EXACT_MATCH",
+      "score": 1.0,
+      "passed": true
+    },
+    {
+      "problem_number": "2.64",
+      "page": 79,
+      "match_result": "EXACT_MATCH",
+      "score": 1.0,
+      "passed": true
+    },
+    {
+      "problem_number": "3.274",
+      "page": 140,
+      "match_result": "EXACT_MATCH",
+      "score": 1.0,
+      "passed": true
+    },
+    {
+      "problem_number": "4.154",
+      "page": 185,
+      "match_result": "EXACT_MATCH",
+      "score": 1.0,
+      "passed": true
+    },
+    {
+      "problem_number": "2.182",
+      "page": 92,
+      "match_result": "EXACT_MATCH",
+      "score": 1.0,
+      "passed": true
+    },
+    {
+      "problem_number": "6.89",
+      "page": 251,
+      "match_result": "EXACT_MATCH",
+      "score": 1.0,
+      "passed": true
+    },
+    {
+      "problem_number": "6.212",
+      "page": 265,
+      "match_result": "EXACT_MATCH",
+      "score": 1.0,
+      "passed": true
+    },
+    {
+      "problem_number": "1.14",
+      "page": 12,
+      "match_result": "EXACT_MATCH",
+      "score": 1.0,
+      "passed": true
+    },
+    {
+      "problem_number": "5.278",
+      "page": 239,
+      "match_result": "EXACT_MATCH",
+      "score": 1.0,
+      "passed": true
+    },
+    {
+      "problem_number": "6.82",
+      "page": 250,
+      "match_result": "EXACT_MATCH",
+      "score": 1.0,
+      "passed": true
+    },
+    {
+      "problem_number": "1.327",
+      "page": 61,
+      "match_result": "EXACT_MATCH",
+      "score": 1.0,
+      "passed": true
+    },
+    {
+      "problem_number": "5.153",
+      "page": 221,
+      "match_result": "EXACT_MATCH",
+      "score": 1.0,
+      "passed": true
+    },
+    {
+      "problem_number": "3.220",
+      "page": 133,
+      "match_result": "EXACT_MATCH",
+      "score": 1.0,
+      "passed": true
+    },
+    {
+      "problem_number": "3.52",
+      "page": 107,
+      "match_result": "EXACT_MATCH",
+      "score": 1.0,
+      "passed": true
+    },
+    {
+      "problem_number": "1.319",
+      "page": 60,
+      "match_result": "EXACT_MATCH",
+      "score": 1.0,
+      "passed": true
+    },
+    {
+      "problem_number": "2.53",
+      "page": 77,
+      "match_result": "EXACT_MATCH",
+      "score": 1.0,
+      "passed": true
+    },
+    {
+      "problem_number": "5.287",
+      "page": 240,
+      "match_result": "EXACT_MATCH",
+      "score": 1.0,
+      "passed": true
+    },
+    {
+      "problem_number": "3.45",
+      "page": 107,
+      "match_result": "EXACT_MATCH",
+      "score": 1.0,
+      "passed": true
+    },
+    {
+      "problem_number": "1.190",
+      "page": 40,
+      "match_result": "EXACT_MATCH",
+      "score": 1.0,
+      "passed": true
+    },
+    {
+      "problem_number": "3.133",
+      "page": 119,
+      "match_result": "EXACT_MATCH",
+      "score": 1.0,
+      "passed": true
+    }
+  ]
+}

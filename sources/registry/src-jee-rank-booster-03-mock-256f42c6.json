@@ -8,7 +8,7 @@
   "extension": ".pdf",
   "mime_type": "application/pdf",
   "file_format": "pdf",
-  "source_type": "other",
+  "source_type": "test_paper",
   "total_pages": 14,
   "has_extractable_text": true,
   "is_image_only": false,
@@ -18,9 +18,25 @@
   "last_error": null,
   "history": [],
   "affected_chapters": [],
-  "file_created_at": "2026-09-27T19:04:46.082273Z",
-  "file_modified_at": "2026-09-05T18:45:47.956558Z",
-  "metadata": {},
-  "created_at": "2026-09-27T19:04:55.173926Z",
-  "updated_at": "2026-09-27T19:04:55.173926Z"
+  "file_created_at": null,
+  "file_modified_at": null,
+  "metadata": {
+    "source_role": "EXAM_ASSESSMENT",
+    "toc_entries_count": 0,
+    "bibliographic_info": {
+      "title": "JEE Rank Booster Mock Paper 03",
+      "authors": [
+        "Rank Booster Academic Committee"
+      ],
+      "publisher": "Rank Booster Test Series",
+      "edition": "2024 Examination Calibration Series",
+      "volume": "Full Mock Exam: Physics (Q1-30), Chemistry (Q31-60), Mathematics (Q61-90)",
+      "publication_year": 2024,
+      "isbn": null,
+      "discrepancy_resolution": "None. Digital text intact across all 14 pages. Physics Q1-Q30 isolated from quarantined Chemistry/Math."
+    },
+    "extraction_nature": "DIGITAL_TEXT"
+  },
+  "created_at": "2026-09-29T16:20:07.642066Z",
+  "updated_at": "2026-09-29T16:20:07.642066Z"
 }

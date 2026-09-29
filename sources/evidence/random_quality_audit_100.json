@@ -1,0 +1,1919 @@
+{
+  "summary": {
+    "seed": 42,
+    "total_samples": 114,
+    "full_matches": 32,
+    "partial_coverages": 13,
+    "visual_required": 4,
+    "unextracted_misses": 65,
+    "extraction_failed": 0,
+    "full_match_percentage": 28.07,
+    "coverage_percentage": 42.98
+  },
+  "traces": [
+    {
+      "sample_index": 1,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 39,
+      "stratum": "HCV1_KINEMATICS_DYNAMICS",
+      "section_title": "Chapter 2: Physics and Mathematics (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 2,
+      "evidence_ids": [
+        "prob-hcv1-ch02-ex21",
+        "prob-hcv1-ch02-ex26"
+      ],
+      "taxonomy_node_ids": [
+        "kinematics"
+      ],
+      "verdict": "FULL_MATCH",
+      "diagnostic_notes": "Complete traceability verified with 2 granular evidence items."
+    },
+    {
+      "sample_index": 2,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 17,
+      "stratum": "HCV1_KINEMATICS_DYNAMICS",
+      "section_title": "Chapter 1: Introduction to Physics (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "evid-hcv1-p15-exp-vernier"
+      ],
+      "taxonomy_node_ids": [
+        "experimental-physics",
+        "mechanics-experiments"
+      ],
+      "verdict": "PARTIAL_COVERAGE",
+      "diagnostic_notes": "Partial coverage: 1 granular evidence record (evid-hcv1-p15-exp-vernier)."
+    },
+    {
+      "sample_index": 3,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 81,
+      "stratum": "HCV1_KINEMATICS_DYNAMICS",
+      "section_title": "Chapter 5: Newton's Laws of Motion (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "verdict": "UNEXTRACTED_MISS",
+      "diagnostic_notes": "Section 'Chapter 5: Newton's Laws of Motion (Complete Module)' is content-bearing; page has not yet been parsed into individual atom."
+    },
+    {
+      "sample_index": 4,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 73,
+      "stratum": "HCV1_KINEMATICS_DYNAMICS",
+      "section_title": "Chapter 4: The Forces (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "prob-hcv1-ch04-ex16"
+      ],
+      "taxonomy_node_ids": [
+        "laws-of-motion"
+      ],
+      "verdict": "PARTIAL_COVERAGE",
+      "diagnostic_notes": "Partial coverage: 1 granular evidence record (prob-hcv1-ch04-ex16)."
+    },
+    {
+      "sample_index": 5,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 68,
+      "stratum": "HCV1_KINEMATICS_DYNAMICS",
+      "section_title": "Chapter 4: The Forces (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "verdict": "UNEXTRACTED_MISS",
+      "diagnostic_notes": "Section 'Chapter 4: The Forces (Complete Module)' is content-bearing; page has not yet been parsed into individual atom."
+    },
+    {
+      "sample_index": 6,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 46,
+      "stratum": "HCV1_KINEMATICS_DYNAMICS",
+      "section_title": "Chapter 3: Rest and Motion: Kinematics (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 4,
+      "evidence_ids": [
+        "evid-hcv1-p46-projectile-derivation",
+        "form-evid-projectile-range",
+        "deriv-hcv1-projectile-equation",
+        "ex-evid-hcv1-projectile-max-height"
+      ],
+      "taxonomy_node_ids": [
+        "kinematics",
+        "projectile-motion"
+      ],
+      "verdict": "FULL_MATCH",
+      "diagnostic_notes": "Complete traceability verified with 4 granular evidence items."
+    },
+    {
+      "sample_index": 7,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 37,
+      "stratum": "HCV1_KINEMATICS_DYNAMICS",
+      "section_title": "Chapter 2: Physics and Mathematics (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 2,
+      "evidence_ids": [
+        "prob-hcv1-ch02-ex01",
+        "prob-hcv1-ch02-ex06"
+      ],
+      "taxonomy_node_ids": [
+        "kinematics"
+      ],
+      "verdict": "FULL_MATCH",
+      "diagnostic_notes": "Complete traceability verified with 2 granular evidence items."
+    },
+    {
+      "sample_index": 8,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 33,
+      "stratum": "HCV1_KINEMATICS_DYNAMICS",
+      "section_title": "Chapter 2: Physics and Mathematics (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "verdict": "UNEXTRACTED_MISS",
+      "diagnostic_notes": "Section 'Chapter 2: Physics and Mathematics (Complete Module)' is content-bearing; page has not yet been parsed into individual atom."
+    },
+    {
+      "sample_index": 9,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 119,
+      "stratum": "HCV1_KINEMATICS_DYNAMICS",
+      "section_title": "Chapter 7: Circular Motion (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "verdict": "UNEXTRACTED_MISS",
+      "diagnostic_notes": "Section 'Chapter 7: Circular Motion (Complete Module)' is content-bearing; page has not yet been parsed into individual atom."
+    },
+    {
+      "sample_index": 10,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 19,
+      "stratum": "HCV1_KINEMATICS_DYNAMICS",
+      "section_title": "Chapter 1: Introduction to Physics (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 3,
+      "evidence_ids": [
+        "prob-hcv1-ch01-ex01",
+        "prob-hcv1-ch01-ex05",
+        "prob-hcv1-ch01-ex09"
+      ],
+      "taxonomy_node_ids": [
+        "units-and-measurements"
+      ],
+      "verdict": "FULL_MATCH",
+      "diagnostic_notes": "Complete traceability verified with 3 granular evidence items."
+    },
+    {
+      "sample_index": 11,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 18,
+      "stratum": "HCV1_KINEMATICS_DYNAMICS",
+      "section_title": "Chapter 1: Introduction to Physics (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "verdict": "UNEXTRACTED_MISS",
+      "diagnostic_notes": "Section 'Chapter 1: Introduction to Physics (Complete Module)' is content-bearing; page has not yet been parsed into individual atom."
+    },
+    {
+      "sample_index": 12,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 34,
+      "stratum": "HCV1_KINEMATICS_DYNAMICS",
+      "section_title": "Chapter 2: Physics and Mathematics (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "verdict": "UNEXTRACTED_MISS",
+      "diagnostic_notes": "Section 'Chapter 2: Physics and Mathematics (Complete Module)' is content-bearing; page has not yet been parsed into individual atom."
+    },
+    {
+      "sample_index": 13,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 208,
+      "stratum": "HCV1_ROTATION_GRAVITATION_FLUIDS",
+      "section_title": "Chapter 10: Rotational Mechanics (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "prob-hcv1-ch10-ex01"
+      ],
+      "taxonomy_node_ids": [
+        "torque-and-rotation",
+        "moment-of-inertia",
+        "rotational-motion"
+      ],
+      "verdict": "PARTIAL_COVERAGE",
+      "diagnostic_notes": "Partial coverage: 1 granular evidence record (prob-hcv1-ch10-ex01)."
+    },
+    {
+      "sample_index": 14,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 210,
+      "stratum": "HCV1_ROTATION_GRAVITATION_FLUIDS",
+      "section_title": "Chapter 10: Rotational Mechanics (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "verdict": "UNEXTRACTED_MISS",
+      "diagnostic_notes": "Section 'Chapter 10: Rotational Mechanics (Complete Module)' is content-bearing; page has not yet been parsed into individual atom."
+    },
+    {
+      "sample_index": 15,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 245,
+      "stratum": "HCV1_ROTATION_GRAVITATION_FLUIDS",
+      "section_title": "Chapter 12: Simple Harmonic Motion (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "verdict": "UNEXTRACTED_MISS",
+      "diagnostic_notes": "Section 'Chapter 12: Simple Harmonic Motion (Complete Module)' is content-bearing; page has not yet been parsed into individual atom."
+    },
+    {
+      "sample_index": 16,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 258,
+      "stratum": "HCV1_ROTATION_GRAVITATION_FLUIDS",
+      "section_title": "Chapter 12: Simple Harmonic Motion (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "verdict": "UNEXTRACTED_MISS",
+      "diagnostic_notes": "Section 'Chapter 12: Simple Harmonic Motion (Complete Module)' is content-bearing; page has not yet been parsed into individual atom."
+    },
+    {
+      "sample_index": 17,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 184,
+      "stratum": "HCV1_ROTATION_GRAVITATION_FLUIDS",
+      "section_title": "Chapter 10: Rotational Mechanics (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "verdict": "UNEXTRACTED_MISS",
+      "diagnostic_notes": "Section 'Chapter 10: Rotational Mechanics (Complete Module)' is content-bearing; page has not yet been parsed into individual atom."
+    },
+    {
+      "sample_index": 18,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 252,
+      "stratum": "HCV1_ROTATION_GRAVITATION_FLUIDS",
+      "section_title": "Chapter 12: Simple Harmonic Motion (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "verdict": "UNEXTRACTED_MISS",
+      "diagnostic_notes": "Section 'Chapter 12: Simple Harmonic Motion (Complete Module)' is content-bearing; page has not yet been parsed into individual atom."
+    },
+    {
+      "sample_index": 19,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 206,
+      "stratum": "HCV1_ROTATION_GRAVITATION_FLUIDS",
+      "section_title": "Chapter 10: Rotational Mechanics (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "verdict": "UNEXTRACTED_MISS",
+      "diagnostic_notes": "Section 'Chapter 10: Rotational Mechanics (Complete Module)' is content-bearing; page has not yet been parsed into individual atom."
+    },
+    {
+      "sample_index": 20,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 272,
+      "stratum": "HCV1_ROTATION_GRAVITATION_FLUIDS",
+      "section_title": "Chapter 13: Fluid Mechanics (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "deriv-hcv1-bernoulli-equation"
+      ],
+      "taxonomy_node_ids": [
+        "fluid-dynamics",
+        "fluid-mechanics"
+      ],
+      "verdict": "PARTIAL_COVERAGE",
+      "diagnostic_notes": "Partial coverage: 1 granular evidence record (deriv-hcv1-bernoulli-equation)."
+    },
+    {
+      "sample_index": 21,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 264,
+      "stratum": "HCV1_ROTATION_GRAVITATION_FLUIDS",
+      "section_title": "Chapter 12: Simple Harmonic Motion (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "verdict": "UNEXTRACTED_MISS",
+      "diagnostic_notes": "Section 'Chapter 12: Simple Harmonic Motion (Complete Module)' is content-bearing; page has not yet been parsed into individual atom."
+    },
+    {
+      "sample_index": 22,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 270,
+      "stratum": "HCV1_ROTATION_GRAVITATION_FLUIDS",
+      "section_title": "Chapter 13: Fluid Mechanics (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "verdict": "UNEXTRACTED_MISS",
+      "diagnostic_notes": "Section 'Chapter 13: Fluid Mechanics (Complete Module)' is content-bearing; page has not yet been parsed into individual atom."
+    },
+    {
+      "sample_index": 23,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 250,
+      "stratum": "HCV1_ROTATION_GRAVITATION_FLUIDS",
+      "section_title": "Chapter 12: Simple Harmonic Motion (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "verdict": "UNEXTRACTED_MISS",
+      "diagnostic_notes": "Section 'Chapter 12: Simple Harmonic Motion (Complete Module)' is content-bearing; page has not yet been parsed into individual atom."
+    },
+    {
+      "sample_index": 24,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 234,
+      "stratum": "HCV1_ROTATION_GRAVITATION_FLUIDS",
+      "section_title": "Chapter 11: Gravitation (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "prob-hcv1-ch11-ex01"
+      ],
+      "taxonomy_node_ids": [
+        "gravitation",
+        "gravitational-force-and-field"
+      ],
+      "verdict": "PARTIAL_COVERAGE",
+      "diagnostic_notes": "Partial coverage: 1 granular evidence record (prob-hcv1-ch11-ex01)."
+    },
+    {
+      "sample_index": 25,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 391,
+      "stratum": "HCV1_OPTICS",
+      "section_title": "Chapter 18: Geometrical Optics (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "verdict": "UNEXTRACTED_MISS",
+      "diagnostic_notes": "Section 'Chapter 18: Geometrical Optics (Complete Module)' is content-bearing; page has not yet been parsed into individual atom."
+    },
+    {
+      "sample_index": 26,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 405,
+      "stratum": "HCV1_OPTICS",
+      "section_title": "Chapter 18: Geometrical Optics (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "verdict": "UNEXTRACTED_MISS",
+      "diagnostic_notes": "Section 'Chapter 18: Geometrical Optics (Complete Module)' is content-bearing; page has not yet been parsed into individual atom."
+    },
+    {
+      "sample_index": 27,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 414,
+      "stratum": "HCV1_OPTICS",
+      "section_title": "Chapter 18: Geometrical Optics (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "verdict": "UNEXTRACTED_MISS",
+      "diagnostic_notes": "Section 'Chapter 18: Geometrical Optics (Complete Module)' is content-bearing; page has not yet been parsed into individual atom."
+    },
+    {
+      "sample_index": 28,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 394,
+      "stratum": "HCV1_OPTICS",
+      "section_title": "Chapter 18: Geometrical Optics (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "verdict": "UNEXTRACTED_MISS",
+      "diagnostic_notes": "Section 'Chapter 18: Geometrical Optics (Complete Module)' is content-bearing; page has not yet been parsed into individual atom."
+    },
+    {
+      "sample_index": 29,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 428,
+      "stratum": "HCV1_OPTICS",
+      "section_title": "Chapter 19: Optical Instruments (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "verdict": "UNEXTRACTED_MISS",
+      "diagnostic_notes": "Section 'Chapter 19: Optical Instruments (Complete Module)' is content-bearing; page has not yet been parsed into individual atom."
+    },
+    {
+      "sample_index": 30,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 432,
+      "stratum": "HCV1_OPTICS",
+      "section_title": "Chapter 19: Optical Instruments (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "verdict": "UNEXTRACTED_MISS",
+      "diagnostic_notes": "Section 'Chapter 19: Optical Instruments (Complete Module)' is content-bearing; page has not yet been parsed into individual atom."
+    },
+    {
+      "sample_index": 31,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 377,
+      "stratum": "HCV1_OPTICS",
+      "section_title": "Chapter 18: Geometrical Optics (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "verdict": "UNEXTRACTED_MISS",
+      "diagnostic_notes": "Section 'Chapter 18: Geometrical Optics (Complete Module)' is content-bearing; page has not yet been parsed into individual atom."
+    },
+    {
+      "sample_index": 32,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 425,
+      "stratum": "HCV1_OPTICS",
+      "section_title": "Chapter 19: Optical Instruments (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "verdict": "UNEXTRACTED_MISS",
+      "diagnostic_notes": "Section 'Chapter 19: Optical Instruments (Complete Module)' is content-bearing; page has not yet been parsed into individual atom."
+    },
+    {
+      "sample_index": 33,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 435,
+      "stratum": "HCV1_OPTICS",
+      "section_title": "Chapter 19: Optical Instruments (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 2,
+      "evidence_ids": [
+        "prob-hcv1-ch19-ex01",
+        "prob-hcv1-ch19-ex05"
+      ],
+      "taxonomy_node_ids": [
+        "ray-optics",
+        "optical-instruments"
+      ],
+      "verdict": "FULL_MATCH",
+      "diagnostic_notes": "Complete traceability verified with 2 granular evidence items."
+    },
+    {
+      "sample_index": 34,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 387,
+      "stratum": "HCV1_OPTICS",
+      "section_title": "Chapter 18: Geometrical Optics (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "verdict": "UNEXTRACTED_MISS",
+      "diagnostic_notes": "Section 'Chapter 18: Geometrical Optics (Complete Module)' is content-bearing; page has not yet been parsed into individual atom."
+    },
+    {
+      "sample_index": 35,
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+      "pdf_page": 151,
+      "stratum": "HCV2_SHIFTED_FONT_CH23_CH30",
+      "section_title": "Chapter 30: Gauss's Law (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "verdict": "UNEXTRACTED_MISS",
+      "diagnostic_notes": "Section 'Chapter 30: Gauss's Law (Complete Module)' is content-bearing; page has not yet been parsed into individual atom."
+    },
+    {
+      "sample_index": 36,
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+      "pdf_page": 142,
+      "stratum": "HCV2_SHIFTED_FONT_CH23_CH30",
+      "section_title": "Chapter 30: Gauss's Law (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "verdict": "UNEXTRACTED_MISS",
+      "diagnostic_notes": "Section 'Chapter 30: Gauss's Law (Complete Module)' is content-bearing; page has not yet been parsed into individual atom."
+    },
+    {
+      "sample_index": 37,
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+      "pdf_page": 26,
+      "stratum": "HCV2_SHIFTED_FONT_CH23_CH30",
+      "section_title": "Chapter 23: Heat and Temperature (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "verdict": "UNEXTRACTED_MISS",
+      "diagnostic_notes": "Section 'Chapter 23: Heat and Temperature (Complete Module)' is content-bearing; page has not yet been parsed into individual atom."
+    },
+    {
+      "sample_index": 38,
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+      "pdf_page": 24,
+      "stratum": "HCV2_SHIFTED_FONT_CH23_CH30",
+      "section_title": "Chapter 23: Heat and Temperature (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "verdict": "UNEXTRACTED_MISS",
+      "diagnostic_notes": "Section 'Chapter 23: Heat and Temperature (Complete Module)' is content-bearing; page has not yet been parsed into individual atom."
+    },
+    {
+      "sample_index": 39,
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+      "pdf_page": 20,
+      "stratum": "HCV2_SHIFTED_FONT_CH23_CH30",
+      "section_title": "Chapter 23: Heat and Temperature (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "verdict": "UNEXTRACTED_MISS",
+      "diagnostic_notes": "Section 'Chapter 23: Heat and Temperature (Complete Module)' is content-bearing; page has not yet been parsed into individual atom."
+    },
+    {
+      "sample_index": 40,
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+      "pdf_page": 22,
+      "stratum": "HCV2_SHIFTED_FONT_CH23_CH30",
+      "section_title": "Chapter 23: Heat and Temperature (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "verdict": "UNEXTRACTED_MISS",
+      "diagnostic_notes": "Section 'Chapter 23: Heat and Temperature (Complete Module)' is content-bearing; page has not yet been parsed into individual atom."
+    },
+    {
+      "sample_index": 41,
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+      "pdf_page": 155,
+      "stratum": "HCV2_SHIFTED_FONT_CH23_CH30",
+      "section_title": "Chapter 30: Gauss's Law (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "prob-hcv2-ch30-ex13"
+      ],
+      "taxonomy_node_ids": [
+        "electrostatics",
+        "electric-flux-and-gauss-law"
+      ],
+      "verdict": "PARTIAL_COVERAGE",
+      "diagnostic_notes": "Partial coverage: 1 granular evidence record (prob-hcv2-ch30-ex13)."
+    },
+    {
+      "sample_index": 42,
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+      "pdf_page": 19,
+      "stratum": "HCV2_SHIFTED_FONT_CH23_CH30",
+      "section_title": "Chapter 23: Heat and Temperature (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "verdict": "UNEXTRACTED_MISS",
+      "diagnostic_notes": "Section 'Chapter 23: Heat and Temperature (Complete Module)' is content-bearing; page has not yet been parsed into individual atom."
+    },
+    {
+      "sample_index": 43,
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+      "pdf_page": 18,
+      "stratum": "HCV2_SHIFTED_FONT_CH23_CH30",
+      "section_title": "Chapter 23: Heat and Temperature (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "verdict": "UNEXTRACTED_MISS",
+      "diagnostic_notes": "Section 'Chapter 23: Heat and Temperature (Complete Module)' is content-bearing; page has not yet been parsed into individual atom."
+    },
+    {
+      "sample_index": 44,
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+      "pdf_page": 28,
+      "stratum": "HCV2_SHIFTED_FONT_CH23_CH30",
+      "section_title": "Chapter 23: Heat and Temperature (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 3,
+      "evidence_ids": [
+        "prob-hcv2-ch23-ex13",
+        "prob-hcv2-ch23-ex17",
+        "prob-hcv2-ch23-ex21"
+      ],
+      "taxonomy_node_ids": [
+        "thermal-physics",
+        "temperature-and-scales"
+      ],
+      "verdict": "FULL_MATCH",
+      "diagnostic_notes": "Complete traceability verified with 3 granular evidence items."
+    },
+    {
+      "sample_index": 45,
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+      "pdf_page": 211,
+      "stratum": "HCV2_ELECTROMAGNETISM_MODERN",
+      "section_title": "Chapter 32: Electric Current in Conductors (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "prob-hcv2-ch32-ex01"
+      ],
+      "taxonomy_node_ids": [
+        "electric-current-and-drift",
+        "current-electricity"
+      ],
+      "verdict": "PARTIAL_COVERAGE",
+      "diagnostic_notes": "Partial coverage: 1 granular evidence record (prob-hcv2-ch32-ex01)."
+    },
+    {
+      "sample_index": 46,
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+      "pdf_page": 378,
+      "stratum": "HCV2_ELECTROMAGNETISM_MODERN",
+      "section_title": "Chapter 42: Photoelectric Effect and Wave-Particle Duality (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "verdict": "UNEXTRACTED_MISS",
+      "diagnostic_notes": "Section 'Chapter 42: Photoelectric Effect and Wave-Particle Duality (Complete Module)' is content-bearing; page has not yet been parsed into individual atom."
+    },
+    {
+      "sample_index": 47,
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+      "pdf_page": 375,
+      "stratum": "HCV2_ELECTROMAGNETISM_MODERN",
+      "section_title": "Chapter 42: Photoelectric Effect and Wave-Particle Duality (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "ex-evid-hcv2-photoelectric-workfunction"
+      ],
+      "taxonomy_node_ids": [
+        "dual-nature-of-matter-and-radiation",
+        "photoelectric-effect"
+      ],
+      "verdict": "PARTIAL_COVERAGE",
+      "diagnostic_notes": "Partial coverage: 1 granular evidence record (ex-evid-hcv2-photoelectric-workfunction)."
+    },
+    {
+      "sample_index": 48,
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+      "pdf_page": 441,
+      "stratum": "HCV2_ELECTROMAGNETISM_MODERN",
+      "section_title": "Chapter 46: The Nucleus (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "verdict": "UNEXTRACTED_MISS",
+      "diagnostic_notes": "Section 'Chapter 46: The Nucleus (Complete Module)' is content-bearing; page has not yet been parsed into individual atom."
+    },
+    {
+      "sample_index": 49,
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+      "pdf_page": 254,
+      "stratum": "HCV2_ELECTROMAGNETISM_MODERN",
+      "section_title": "Chapter 35: Magnetic Field due to a Current (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "verdict": "UNEXTRACTED_MISS",
+      "diagnostic_notes": "Section 'Chapter 35: Magnetic Field due to a Current (Complete Module)' is content-bearing; page has not yet been parsed into individual atom."
+    },
+    {
+      "sample_index": 50,
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+      "pdf_page": 198,
+      "stratum": "HCV2_ELECTROMAGNETISM_MODERN",
+      "section_title": "Chapter 32: Electric Current in Conductors (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "verdict": "UNEXTRACTED_MISS",
+      "diagnostic_notes": "Section 'Chapter 32: Electric Current in Conductors (Complete Module)' is content-bearing; page has not yet been parsed into individual atom."
+    },
+    {
+      "sample_index": 51,
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+      "pdf_page": 404,
+      "stratum": "HCV2_ELECTROMAGNETISM_MODERN",
+      "section_title": "Chapter 44: X-rays (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "verdict": "UNEXTRACTED_MISS",
+      "diagnostic_notes": "Section 'Chapter 44: X-rays (Complete Module)' is content-bearing; page has not yet been parsed into individual atom."
+    },
+    {
+      "sample_index": 52,
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+      "pdf_page": 424,
+      "stratum": "HCV2_ELECTROMAGNETISM_MODERN",
+      "section_title": "Chapter 45: Semiconductors and Semiconductor Devices (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "verdict": "UNEXTRACTED_MISS",
+      "diagnostic_notes": "Section 'Chapter 45: Semiconductors and Semiconductor Devices (Complete Module)' is content-bearing; page has not yet been parsed into individual atom."
+    },
+    {
+      "sample_index": 53,
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+      "pdf_page": 218,
+      "stratum": "HCV2_ELECTROMAGNETISM_MODERN",
+      "section_title": "Chapter 32: Electric Current in Conductors (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "prob-hcv2-ch32-ex65"
+      ],
+      "taxonomy_node_ids": [
+        "electric-current-and-drift",
+        "current-electricity"
+      ],
+      "verdict": "PARTIAL_COVERAGE",
+      "diagnostic_notes": "Partial coverage: 1 granular evidence record (prob-hcv2-ch32-ex65)."
+    },
+    {
+      "sample_index": 54,
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+      "pdf_page": 383,
+      "stratum": "HCV2_ELECTROMAGNETISM_MODERN",
+      "section_title": "Chapter 43: Bohr's Model and Physics of the Atom (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "verdict": "UNEXTRACTED_MISS",
+      "diagnostic_notes": "Section 'Chapter 43: Bohr's Model and Physics of the Atom (Complete Module)' is content-bearing; page has not yet been parsed into individual atom."
+    },
+    {
+      "sample_index": 55,
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+      "pdf_page": 207,
+      "stratum": "HCV2_ELECTROMAGNETISM_MODERN",
+      "section_title": "Chapter 32: Electric Current in Conductors (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "verdict": "UNEXTRACTED_MISS",
+      "diagnostic_notes": "Section 'Chapter 32: Electric Current in Conductors (Complete Module)' is content-bearing; page has not yet been parsed into individual atom."
+    },
+    {
+      "sample_index": 56,
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+      "pdf_page": 428,
+      "stratum": "HCV2_ELECTROMAGNETISM_MODERN",
+      "section_title": "Chapter 45: Semiconductors and Semiconductor Devices (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "verdict": "UNEXTRACTED_MISS",
+      "diagnostic_notes": "Section 'Chapter 45: Semiconductors and Semiconductor Devices (Complete Module)' is content-bearing; page has not yet been parsed into individual atom."
+    },
+    {
+      "sample_index": 57,
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "source_filename": "Fundamentals of Physics-Halliday,Resnick,Walker.pdf",
+      "pdf_page": 177,
+      "stratum": "HALLIDAY_MECHANICS_THERMO",
+      "section_title": "Chapter 7: Kinetic Energy and Work (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "verdict": "UNEXTRACTED_MISS",
+      "diagnostic_notes": "Section 'Chapter 7: Kinetic Energy and Work (Module)' is content-bearing; page has not yet been parsed into individual atom."
+    },
+    {
+      "sample_index": 58,
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "source_filename": "Fundamentals of Physics-Halliday,Resnick,Walker.pdf",
+      "pdf_page": 637,
+      "stratum": "HALLIDAY_MECHANICS_THERMO",
+      "section_title": "Chapter 19: The Kinetic Theory of Gases (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "verdict": "UNEXTRACTED_MISS",
+      "diagnostic_notes": "Section 'Chapter 19: The Kinetic Theory of Gases (Module)' is content-bearing; page has not yet been parsed into individual atom."
+    },
+    {
+      "sample_index": 59,
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "source_filename": "Fundamentals of Physics-Halliday,Resnick,Walker.pdf",
+      "pdf_page": 632,
+      "stratum": "HALLIDAY_MECHANICS_THERMO",
+      "section_title": "Chapter 19: The Kinetic Theory of Gases (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "verdict": "UNEXTRACTED_MISS",
+      "diagnostic_notes": "Section 'Chapter 19: The Kinetic Theory of Gases (Module)' is content-bearing; page has not yet been parsed into individual atom."
+    },
+    {
+      "sample_index": 60,
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "source_filename": "Fundamentals of Physics-Halliday,Resnick,Walker.pdf",
+      "pdf_page": 212,
+      "stratum": "HALLIDAY_MECHANICS_THERMO",
+      "section_title": "Chapter 8: Potential Energy and Conservation of Energy (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "verdict": "UNEXTRACTED_MISS",
+      "diagnostic_notes": "Section 'Chapter 8: Potential Energy and Conservation of Energy (Module)' is content-bearing; page has not yet been parsed into individual atom."
+    },
+    {
+      "sample_index": 61,
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "source_filename": "Fundamentals of Physics-Halliday,Resnick,Walker.pdf",
+      "pdf_page": 611,
+      "stratum": "HALLIDAY_MECHANICS_THERMO",
+      "section_title": "Chapter 19: The Kinetic Theory of Gases (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "verdict": "UNEXTRACTED_MISS",
+      "diagnostic_notes": "Section 'Chapter 19: The Kinetic Theory of Gases (Module)' is content-bearing; page has not yet been parsed into individual atom."
+    },
+    {
+      "sample_index": 62,
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "source_filename": "Fundamentals of Physics-Halliday,Resnick,Walker.pdf",
+      "pdf_page": 125,
+      "stratum": "HALLIDAY_MECHANICS_THERMO",
+      "section_title": "Chapter 5: Force and Motion-I (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "verdict": "UNEXTRACTED_MISS",
+      "diagnostic_notes": "Section 'Chapter 5: Force and Motion-I (Module)' is content-bearing; page has not yet been parsed into individual atom."
+    },
+    {
+      "sample_index": 63,
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "source_filename": "Fundamentals of Physics-Halliday,Resnick,Walker.pdf",
+      "pdf_page": 676,
+      "stratum": "HALLIDAY_MECHANICS_THERMO",
+      "section_title": "Chapter 20: Entropy and the Second Law of Thermodynamics (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "verdict": "UNEXTRACTED_MISS",
+      "diagnostic_notes": "Section 'Chapter 20: Entropy and the Second Law of Thermodynamics (Module)' is content-bearing; page has not yet been parsed into individual atom."
+    },
+    {
+      "sample_index": 64,
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "source_filename": "Fundamentals of Physics-Halliday,Resnick,Walker.pdf",
+      "pdf_page": 62,
+      "stratum": "HALLIDAY_MECHANICS_THERMO",
+      "section_title": "Chapter 3: Vectors (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "verdict": "UNEXTRACTED_MISS",
+      "diagnostic_notes": "Section 'Chapter 3: Vectors (Module)' is content-bearing; page has not yet been parsed into individual atom."
+    },
+    {
+      "sample_index": 65,
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "source_filename": "Fundamentals of Physics-Halliday,Resnick,Walker.pdf",
+      "pdf_page": 50,
+      "stratum": "HALLIDAY_MECHANICS_THERMO",
+      "section_title": "Chapter 2: Motion Along a Straight Line (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "prob-hr-ch02-p001"
+      ],
+      "taxonomy_node_ids": [
+        "kinematics",
+        "motion-in-a-straight-line"
+      ],
+      "verdict": "PARTIAL_COVERAGE",
+      "diagnostic_notes": "Partial coverage: 1 granular evidence record (prob-hr-ch02-p001)."
+    },
+    {
+      "sample_index": 66,
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "source_filename": "Fundamentals of Physics-Halliday,Resnick,Walker.pdf",
+      "pdf_page": 654,
+      "stratum": "HALLIDAY_MECHANICS_THERMO",
+      "section_title": "Chapter 20: Entropy and the Second Law of Thermodynamics (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "verdict": "UNEXTRACTED_MISS",
+      "diagnostic_notes": "Section 'Chapter 20: Entropy and the Second Law of Thermodynamics (Module)' is content-bearing; page has not yet been parsed into individual atom."
+    },
+    {
+      "sample_index": 67,
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "source_filename": "Fundamentals of Physics-Halliday,Resnick,Walker.pdf",
+      "pdf_page": 143,
+      "stratum": "HALLIDAY_MECHANICS_THERMO",
+      "section_title": "Chapter 5: Force and Motion-I (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "verdict": "UNEXTRACTED_MISS",
+      "diagnostic_notes": "Section 'Chapter 5: Force and Motion-I (Module)' is content-bearing; page has not yet been parsed into individual atom."
+    },
+    {
+      "sample_index": 68,
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "source_filename": "Fundamentals of Physics-Halliday,Resnick,Walker.pdf",
+      "pdf_page": 175,
+      "stratum": "HALLIDAY_MECHANICS_THERMO",
+      "section_title": "Chapter 7: Kinetic Energy and Work (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "verdict": "UNEXTRACTED_MISS",
+      "diagnostic_notes": "Section 'Chapter 7: Kinetic Energy and Work (Module)' is content-bearing; page has not yet been parsed into individual atom."
+    },
+    {
+      "sample_index": 69,
+      "source_id": "src-university-physics-with--0bc11b67",
+      "source_filename": "University Physics with Modern Physics, 13th Edition.pdf",
+      "pdf_page": 142,
+      "stratum": "UNIVERSITY_PHYSICS_COMPREHENSIVE",
+      "section_title": "Chapter 4: Newton's Laws of Motion (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "verdict": "UNEXTRACTED_MISS",
+      "diagnostic_notes": "Section 'Chapter 4: Newton's Laws of Motion (Module)' is content-bearing; page has not yet been parsed into individual atom."
+    },
+    {
+      "sample_index": 70,
+      "source_id": "src-university-physics-with--0bc11b67",
+      "source_filename": "University Physics with Modern Physics, 13th Edition.pdf",
+      "pdf_page": 299,
+      "stratum": "UNIVERSITY_PHYSICS_COMPREHENSIVE",
+      "section_title": "Chapter 8: Momentum, Impulse, and Collisions (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "verdict": "UNEXTRACTED_MISS",
+      "diagnostic_notes": "Section 'Chapter 8: Momentum, Impulse, and Collisions (Module)' is content-bearing; page has not yet been parsed into individual atom."
+    },
+    {
+      "sample_index": 71,
+      "source_id": "src-university-physics-with--0bc11b67",
+      "source_filename": "University Physics with Modern Physics, 13th Edition.pdf",
+      "pdf_page": 164,
+      "stratum": "UNIVERSITY_PHYSICS_COMPREHENSIVE",
+      "section_title": "Chapter 5: Applying Newton's Laws (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "verdict": "UNEXTRACTED_MISS",
+      "diagnostic_notes": "Section 'Chapter 5: Applying Newton's Laws (Module)' is content-bearing; page has not yet been parsed into individual atom."
+    },
+    {
+      "sample_index": 72,
+      "source_id": "src-university-physics-with--0bc11b67",
+      "source_filename": "University Physics with Modern Physics, 13th Edition.pdf",
+      "pdf_page": 814,
+      "stratum": "UNIVERSITY_PHYSICS_COMPREHENSIVE",
+      "section_title": "Chapter 22: Gauss's Law (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "prob-up-ch22-ex001"
+      ],
+      "taxonomy_node_ids": [
+        "electrostatics",
+        "electric-flux-and-gauss-law"
+      ],
+      "verdict": "PARTIAL_COVERAGE",
+      "diagnostic_notes": "Partial coverage: 1 granular evidence record (prob-up-ch22-ex001)."
+    },
+    {
+      "sample_index": 73,
+      "source_id": "src-university-physics-with--0bc11b67",
+      "source_filename": "University Physics with Modern Physics, 13th Edition.pdf",
+      "pdf_page": 345,
+      "stratum": "UNIVERSITY_PHYSICS_COMPREHENSIVE",
+      "section_title": "Chapter 9: Rotation of Rigid Bodies (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "prob-up-ch09-ex073"
+      ],
+      "taxonomy_node_ids": [
+        "moment-of-inertia",
+        "rotational-motion"
+      ],
+      "verdict": "PARTIAL_COVERAGE",
+      "diagnostic_notes": "Partial coverage: 1 granular evidence record (prob-up-ch09-ex073)."
+    },
+    {
+      "sample_index": 74,
+      "source_id": "src-university-physics-with--0bc11b67",
+      "source_filename": "University Physics with Modern Physics, 13th Edition.pdf",
+      "pdf_page": 889,
+      "stratum": "UNIVERSITY_PHYSICS_COMPREHENSIVE",
+      "section_title": "Chapter 24: Capacitance and Dielectrics (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "verdict": "UNEXTRACTED_MISS",
+      "diagnostic_notes": "Section 'Chapter 24: Capacitance and Dielectrics (Module)' is content-bearing; page has not yet been parsed into individual atom."
+    },
+    {
+      "sample_index": 75,
+      "source_id": "src-university-physics-with--0bc11b67",
+      "source_filename": "University Physics with Modern Physics, 13th Edition.pdf",
+      "pdf_page": 1075,
+      "stratum": "UNIVERSITY_PHYSICS_COMPREHENSIVE",
+      "section_title": "Chapter 29: Electromagnetic Induction (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "verdict": "UNEXTRACTED_MISS",
+      "diagnostic_notes": "Section 'Chapter 29: Electromagnetic Induction (Module)' is content-bearing; page has not yet been parsed into individual atom."
+    },
+    {
+      "sample_index": 76,
+      "source_id": "src-university-physics-with--0bc11b67",
+      "source_filename": "University Physics with Modern Physics, 13th Edition.pdf",
+      "pdf_page": 798,
+      "stratum": "UNIVERSITY_PHYSICS_COMPREHENSIVE",
+      "section_title": "Chapter 22: Gauss's Law (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "verdict": "UNEXTRACTED_MISS",
+      "diagnostic_notes": "Section 'Chapter 22: Gauss's Law (Module)' is content-bearing; page has not yet been parsed into individual atom."
+    },
+    {
+      "sample_index": 77,
+      "source_id": "src-university-physics-with--0bc11b67",
+      "source_filename": "University Physics with Modern Physics, 13th Edition.pdf",
+      "pdf_page": 227,
+      "stratum": "UNIVERSITY_PHYSICS_COMPREHENSIVE",
+      "section_title": "Chapter 6: Work and Kinetic Energy (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "verdict": "UNEXTRACTED_MISS",
+      "diagnostic_notes": "Section 'Chapter 6: Work and Kinetic Energy (Module)' is content-bearing; page has not yet been parsed into individual atom."
+    },
+    {
+      "sample_index": 78,
+      "source_id": "src-university-physics-with--0bc11b67",
+      "source_filename": "University Physics with Modern Physics, 13th Edition.pdf",
+      "pdf_page": 804,
+      "stratum": "UNIVERSITY_PHYSICS_COMPREHENSIVE",
+      "section_title": "Chapter 22: Gauss's Law (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "verdict": "UNEXTRACTED_MISS",
+      "diagnostic_notes": "Section 'Chapter 22: Gauss's Law (Module)' is content-bearing; page has not yet been parsed into individual atom."
+    },
+    {
+      "sample_index": 79,
+      "source_id": "src-university-physics-with--0bc11b67",
+      "source_filename": "University Physics with Modern Physics, 13th Edition.pdf",
+      "pdf_page": 788,
+      "stratum": "UNIVERSITY_PHYSICS_COMPREHENSIVE",
+      "section_title": "Chapter 21: Electric Charge and Electric Field (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "prob-up-ch21-ex079"
+      ],
+      "taxonomy_node_ids": [
+        "electric-charge-and-coulombs-law",
+        "electrostatics"
+      ],
+      "verdict": "PARTIAL_COVERAGE",
+      "diagnostic_notes": "Partial coverage: 1 granular evidence record (prob-up-ch21-ex079)."
+    },
+    {
+      "sample_index": 80,
+      "source_id": "src-university-physics-with--0bc11b67",
+      "source_filename": "University Physics with Modern Physics, 13th Edition.pdf",
+      "pdf_page": 275,
+      "stratum": "UNIVERSITY_PHYSICS_COMPREHENSIVE",
+      "section_title": "Chapter 8: Momentum, Impulse, and Collisions (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "verdict": "UNEXTRACTED_MISS",
+      "diagnostic_notes": "Section 'Chapter 8: Momentum, Impulse, and Collisions (Module)' is content-bearing; page has not yet been parsed into individual atom."
+    },
+    {
+      "sample_index": 81,
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "source_filename": "problems_in_general_physics_by_i_e_irodov.pdf",
+      "pdf_page": 146,
+      "stratum": "IRODOV_PROBLEM_CORPUS",
+      "section_title": "3.6 Electromagnetic Induction. Maxwell's Equations",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 4,
+      "evidence_ids": [
+        "prob-irodov-3-297",
+        "prob-irodov-3-298",
+        "prob-irodov-3-299",
+        "prob-irodov-3-300"
+      ],
+      "taxonomy_node_ids": [
+        "electromagnetic-induction",
+        "faradays-law-and-motional-emf"
+      ],
+      "verdict": "FULL_MATCH",
+      "diagnostic_notes": "Complete traceability verified with 4 granular evidence items."
+    },
+    {
+      "sample_index": 82,
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "source_filename": "problems_in_general_physics_by_i_e_irodov.pdf",
+      "pdf_page": 46,
+      "stratum": "IRODOV_PROBLEM_CORPUS",
+      "section_title": "1.5 Dynamics of a Solid Body",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 5,
+      "evidence_ids": [
+        "prob-irodov-1-234",
+        "prob-irodov-1-235",
+        "prob-irodov-1-236",
+        "prob-irodov-1-237",
+        "prob-irodov-1-238"
+      ],
+      "taxonomy_node_ids": [
+        "torque-and-rotation",
+        "angular-momentum",
+        "moment-of-inertia",
+        "rotational-motion"
+      ],
+      "verdict": "FULL_MATCH",
+      "diagnostic_notes": "Complete traceability verified with 5 granular evidence items."
+    },
+    {
+      "sample_index": 83,
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "source_filename": "problems_in_general_physics_by_i_e_irodov.pdf",
+      "pdf_page": 97,
+      "stratum": "IRODOV_PROBLEM_CORPUS",
+      "section_title": "2.6 Phase Transformations",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 9,
+      "evidence_ids": [
+        "prob-irodov-2-220",
+        "prob-irodov-2-221",
+        "prob-irodov-2-222",
+        "prob-irodov-2-223",
+        "prob-irodov-2-224",
+        "prob-irodov-2-225",
+        "prob-irodov-2-226",
+        "prob-irodov-2-227",
+        "prob-irodov-2-228"
+      ],
+      "taxonomy_node_ids": [
+        "thermal-physics",
+        "calorimetry-and-latent-heat"
+      ],
+      "verdict": "FULL_MATCH",
+      "diagnostic_notes": "Complete traceability verified with 9 granular evidence items."
+    },
+    {
+      "sample_index": 84,
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "source_filename": "problems_in_general_physics_by_i_e_irodov.pdf",
+      "pdf_page": 135,
+      "stratum": "IRODOV_PROBLEM_CORPUS",
+      "section_title": "3.5 Constant Magnetic Field. Magnetics",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 9,
+      "evidence_ids": [
+        "prob-irodov-3-231",
+        "prob-irodov-3-232",
+        "prob-irodov-3-233",
+        "prob-irodov-3-234",
+        "prob-irodov-3-235",
+        "prob-irodov-3-236",
+        "prob-irodov-3-237",
+        "prob-irodov-3-238",
+        "prob-irodov-3-239"
+      ],
+      "taxonomy_node_ids": [
+        "magnetic-effects-of-current",
+        "biot-savart-law-and-ampere-law",
+        "magnetism-and-matter"
+      ],
+      "verdict": "FULL_MATCH",
+      "diagnostic_notes": "Complete traceability verified with 9 granular evidence items."
+    },
+    {
+      "sample_index": 85,
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "source_filename": "problems_in_general_physics_by_i_e_irodov.pdf",
+      "pdf_page": 93,
+      "stratum": "IRODOV_PROBLEM_CORPUS",
+      "section_title": "2.5 Liquids. Capillary Effects",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 8,
+      "evidence_ids": [
+        "prob-irodov-2-186",
+        "prob-irodov-2-187",
+        "prob-irodov-2-188",
+        "prob-irodov-2-189",
+        "prob-irodov-2-190",
+        "prob-irodov-2-191",
+        "prob-irodov-2-192",
+        "prob-irodov-2-193"
+      ],
+      "taxonomy_node_ids": [
+        "surface-tension",
+        "fluid-mechanics"
+      ],
+      "verdict": "FULL_MATCH",
+      "diagnostic_notes": "Complete traceability verified with 8 granular evidence items."
+    },
+    {
+      "sample_index": 86,
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "source_filename": "problems_in_general_physics_by_i_e_irodov.pdf",
+      "pdf_page": 246,
+      "stratum": "IRODOV_PROBLEM_CORPUS",
+      "section_title": "6.1 Scattering of Particles. Rutherford-Bohr Atom",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 3,
+      "evidence_ids": [
+        "prob-irodov-6-046",
+        "prob-irodov-6-047",
+        "prob-irodov-6-048"
+      ],
+      "taxonomy_node_ids": [
+        "atomic-physics",
+        "atomic-models"
+      ],
+      "verdict": "FULL_MATCH",
+      "diagnostic_notes": "Complete traceability verified with 3 granular evidence items."
+    },
+    {
+      "sample_index": 87,
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "source_filename": "problems_in_general_physics_by_i_e_irodov.pdf",
+      "pdf_page": 204,
+      "stratum": "IRODOV_PROBLEM_CORPUS",
+      "section_title": "5.1 Photometry and Geometrical Optics",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 4,
+      "evidence_ids": [
+        "prob-irodov-5-052",
+        "prob-irodov-5-053",
+        "prob-irodov-5-054",
+        "prob-irodov-5-055"
+      ],
+      "taxonomy_node_ids": [
+        "refraction-and-tir",
+        "ray-optics",
+        "lenses-and-mirrors"
+      ],
+      "verdict": "FULL_MATCH",
+      "diagnostic_notes": "Complete traceability verified with 4 granular evidence items."
+    },
+    {
+      "sample_index": 88,
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "source_filename": "problems_in_general_physics_by_i_e_irodov.pdf",
+      "pdf_page": 148,
+      "stratum": "IRODOV_PROBLEM_CORPUS",
+      "section_title": "3.6 Electromagnetic Induction. Maxwell's Equations",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 7,
+      "evidence_ids": [
+        "prob-irodov-3-305",
+        "prob-irodov-3-306",
+        "prob-irodov-3-307",
+        "prob-irodov-3-308",
+        "prob-irodov-3-309",
+        "prob-irodov-3-310",
+        "prob-irodov-3-311"
+      ],
+      "taxonomy_node_ids": [
+        "electromagnetic-induction",
+        "faradays-law-and-motional-emf"
+      ],
+      "verdict": "FULL_MATCH",
+      "diagnostic_notes": "Complete traceability verified with 7 granular evidence items."
+    },
+    {
+      "sample_index": 89,
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "source_filename": "problems_in_general_physics_by_i_e_irodov.pdf",
+      "pdf_page": 122,
+      "stratum": "IRODOV_PROBLEM_CORPUS",
+      "section_title": "3.4 Electric Current",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 5,
+      "evidence_ids": [
+        "prob-irodov-3-150",
+        "prob-irodov-3-151",
+        "prob-irodov-3-152",
+        "prob-irodov-3-153",
+        "prob-irodov-3-154"
+      ],
+      "taxonomy_node_ids": [
+        "dc-circuits",
+        "electric-current-and-drift",
+        "current-electricity"
+      ],
+      "verdict": "FULL_MATCH",
+      "diagnostic_notes": "Complete traceability verified with 5 granular evidence items."
+    },
+    {
+      "sample_index": 90,
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "source_filename": "problems_in_general_physics_by_i_e_irodov.pdf",
+      "pdf_page": 176,
+      "stratum": "IRODOV_PROBLEM_CORPUS",
+      "section_title": "4.2 Electric Oscillations",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 2,
+      "evidence_ids": [
+        "prob-irodov-4-093",
+        "prob-irodov-4-094"
+      ],
+      "taxonomy_node_ids": [
+        "alternating-current",
+        "lcr-circuits-and-power"
+      ],
+      "verdict": "FULL_MATCH",
+      "diagnostic_notes": "Complete traceability verified with 2 granular evidence items."
+    },
+    {
+      "sample_index": 91,
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "source_filename": "problems_in_general_physics_by_i_e_irodov.pdf",
+      "pdf_page": 38,
+      "stratum": "IRODOV_PROBLEM_CORPUS",
+      "section_title": "1.3 Conservation Laws (Energy, Momentum, Angular Momentum)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 8,
+      "evidence_ids": [
+        "prob-irodov-1-170",
+        "prob-irodov-1-171",
+        "prob-irodov-1-172",
+        "prob-irodov-1-173",
+        "prob-irodov-1-174",
+        "prob-irodov-1-175",
+        "prob-irodov-1-176",
+        "prob-irodov-1-177"
+      ],
+      "taxonomy_node_ids": [
+        "work-energy-power",
+        "conservation-of-energy",
+        "center-of-mass",
+        "rotational-motion"
+      ],
+      "verdict": "FULL_MATCH",
+      "diagnostic_notes": "Complete traceability verified with 8 granular evidence items."
+    },
+    {
+      "sample_index": 92,
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "source_filename": "problems_in_general_physics_by_i_e_irodov.pdf",
+      "pdf_page": 127,
+      "stratum": "IRODOV_PROBLEM_CORPUS",
+      "section_title": "3.4 Electric Current",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 5,
+      "evidence_ids": [
+        "prob-irodov-3-183",
+        "prob-irodov-3-184",
+        "prob-irodov-3-185",
+        "prob-irodov-3-186",
+        "prob-irodov-3-187"
+      ],
+      "taxonomy_node_ids": [
+        "dc-circuits",
+        "electric-current-and-drift",
+        "current-electricity"
+      ],
+      "verdict": "FULL_MATCH",
+      "diagnostic_notes": "Complete traceability verified with 5 granular evidence items."
+    },
+    {
+      "sample_index": 93,
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "source_filename": "problems_in_general_physics_by_i_e_irodov.pdf",
+      "pdf_page": 26,
+      "stratum": "IRODOV_PROBLEM_CORPUS",
+      "section_title": "1.2 The Fundamental Equation of Dynamics",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 7,
+      "evidence_ids": [
+        "prob-irodov-1-099",
+        "prob-irodov-1-100",
+        "prob-irodov-1-101",
+        "prob-irodov-1-102",
+        "prob-irodov-1-103",
+        "prob-irodov-1-104",
+        "prob-irodov-1-105"
+      ],
+      "taxonomy_node_ids": [
+        "laws-of-motion",
+        "friction",
+        "newtons-laws"
+      ],
+      "verdict": "FULL_MATCH",
+      "diagnostic_notes": "Complete traceability verified with 7 granular evidence items."
+    },
+    {
+      "sample_index": 94,
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "source_filename": "problems_in_general_physics_by_i_e_irodov.pdf",
+      "pdf_page": 171,
+      "stratum": "IRODOV_PROBLEM_CORPUS",
+      "section_title": "4.1 Mechanical Oscillations",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 6,
+      "evidence_ids": [
+        "prob-irodov-4-059",
+        "prob-irodov-4-060",
+        "prob-irodov-4-061",
+        "prob-irodov-4-062",
+        "prob-irodov-4-063",
+        "prob-irodov-4-064"
+      ],
+      "taxonomy_node_ids": [
+        "simple-harmonic-motion",
+        "oscillations"
+      ],
+      "verdict": "FULL_MATCH",
+      "diagnostic_notes": "Complete traceability verified with 6 granular evidence items."
+    },
+    {
+      "sample_index": 95,
+      "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+      "source_filename": "Feynman, Richard P. The Feynman Lectures on Physics.pdf",
+      "pdf_page": 421,
+      "stratum": "FEYNMAN_VISUAL_PLATES",
+      "section_title": "Lecture 42 (Scanned Image-Only)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "evid-feynman-lec40-visual"
+      ],
+      "taxonomy_node_ids": [
+        "kinetic-theory-of-gases"
+      ],
+      "verdict": "FULL_MATCH",
+      "diagnostic_notes": "Feynman visual plate audited. 1 visual equations/concept records identified."
+    },
+    {
+      "sample_index": 96,
+      "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+      "source_filename": "Feynman, Richard P. The Feynman Lectures on Physics.pdf",
+      "pdf_page": 285,
+      "stratum": "FEYNMAN_VISUAL_PLATES",
+      "section_title": "Lecture 28 (Scanned Image-Only)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "evid-feynman-lec28-visual"
+      ],
+      "taxonomy_node_ids": [
+        "electromagnetic-waves"
+      ],
+      "verdict": "FULL_MATCH",
+      "diagnostic_notes": "Feynman visual plate audited. 1 visual equations/concept records identified."
+    },
+    {
+      "sample_index": 97,
+      "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+      "source_filename": "Feynman, Richard P. The Feynman Lectures on Physics.pdf",
+      "pdf_page": 78,
+      "stratum": "FEYNMAN_VISUAL_PLATES",
+      "section_title": "Lecture 7 (Scanned Image-Only)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "evid-feynman-lec07-visual"
+      ],
+      "taxonomy_node_ids": [
+        "gravitation",
+        "gravitational-force-and-field"
+      ],
+      "verdict": "FULL_MATCH",
+      "diagnostic_notes": "Feynman visual plate audited. 1 visual equations/concept records identified."
+    },
+    {
+      "sample_index": 98,
+      "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+      "source_filename": "Feynman, Richard P. The Feynman Lectures on Physics.pdf",
+      "pdf_page": 227,
+      "stratum": "FEYNMAN_VISUAL_PLATES",
+      "section_title": "Lecture 22 (Scanned Image-Only)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "evid-feynman-lec22-visual"
+      ],
+      "taxonomy_node_ids": [
+        "oscillations"
+      ],
+      "verdict": "FULL_MATCH",
+      "diagnostic_notes": "Feynman visual plate audited. 1 visual equations/concept records identified."
+    },
+    {
+      "sample_index": 99,
+      "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+      "source_filename": "Feynman, Richard P. The Feynman Lectures on Physics.pdf",
+      "pdf_page": 333,
+      "stratum": "FEYNMAN_VISUAL_PLATES",
+      "section_title": "Lecture 33 (Scanned Image-Only)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "evid-feynman-lec32-visual"
+      ],
+      "taxonomy_node_ids": [
+        "wave-optics"
+      ],
+      "verdict": "FULL_MATCH",
+      "diagnostic_notes": "Feynman visual plate audited. 1 visual equations/concept records identified."
+    },
+    {
+      "sample_index": 100,
+      "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+      "source_filename": "Feynman, Richard P. The Feynman Lectures on Physics.pdf",
+      "pdf_page": 228,
+      "stratum": "FEYNMAN_VISUAL_PLATES",
+      "section_title": "Lecture 22 (Scanned Image-Only)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "evid-feynman-lec22-visual"
+      ],
+      "taxonomy_node_ids": [
+        "oscillations"
+      ],
+      "verdict": "FULL_MATCH",
+      "diagnostic_notes": "Feynman visual plate audited. 1 visual equations/concept records identified."
+    },
+    {
+      "sample_index": 101,
+      "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+      "source_filename": "Feynman, Richard P. The Feynman Lectures on Physics.pdf",
+      "pdf_page": 522,
+      "stratum": "FEYNMAN_VISUAL_PLATES",
+      "section_title": "Lecture 52 (Scanned Image-Only)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "evid-feynman-lec50-visual"
+      ],
+      "taxonomy_node_ids": [
+        "waves"
+      ],
+      "verdict": "FULL_MATCH",
+      "diagnostic_notes": "Feynman visual plate audited. 1 visual equations/concept records identified."
+    },
+    {
+      "sample_index": 102,
+      "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+      "source_filename": "Feynman, Richard P. The Feynman Lectures on Physics.pdf",
+      "pdf_page": 416,
+      "stratum": "FEYNMAN_VISUAL_PLATES",
+      "section_title": "Lecture 41 (Scanned Image-Only)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "evid-feynman-lec40-visual"
+      ],
+      "taxonomy_node_ids": [
+        "kinetic-theory-of-gases"
+      ],
+      "verdict": "FULL_MATCH",
+      "diagnostic_notes": "Feynman visual plate audited. 1 visual equations/concept records identified."
+    },
+    {
+      "sample_index": 103,
+      "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+      "source_filename": "Feynman, Richard P. The Feynman Lectures on Physics.pdf",
+      "pdf_page": 480,
+      "stratum": "FEYNMAN_VISUAL_PLATES",
+      "section_title": "Lecture 47 (Scanned Image-Only)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "evid-feynman-lec46-visual"
+      ],
+      "taxonomy_node_ids": [
+        "heat-engines-and-second-law",
+        "thermodynamics"
+      ],
+      "verdict": "FULL_MATCH",
+      "diagnostic_notes": "Feynman visual plate audited. 1 visual equations/concept records identified."
+    },
+    {
+      "sample_index": 104,
+      "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+      "source_filename": "Feynman, Richard P. The Feynman Lectures on Physics.pdf",
+      "pdf_page": 157,
+      "stratum": "FEYNMAN_VISUAL_PLATES",
+      "section_title": "Lecture 15 (Scanned Image-Only)",
+      "coverage_status": "PHYSICS_CONTENT_REQUIRES_VISUAL",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "evid-feynman-lec15-visual"
+      ],
+      "taxonomy_node_ids": [
+        "dual-nature-of-matter-and-radiation"
+      ],
+      "verdict": "FULL_MATCH",
+      "diagnostic_notes": "Feynman visual plate audited. 1 visual equations/concept records identified."
+    },
+    {
+      "sample_index": 105,
+      "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+      "source_filename": "Feynman, Richard P. The Feynman Lectures on Physics.pdf",
+      "pdf_page": 282,
+      "stratum": "FEYNMAN_VISUAL_PLATES",
+      "section_title": "Lecture 28 (Scanned Image-Only)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "evid-feynman-lec27-visual"
+      ],
+      "taxonomy_node_ids": [
+        "refraction-at-spherical-surfaces-and-lenses",
+        "ray-optics"
+      ],
+      "verdict": "FULL_MATCH",
+      "diagnostic_notes": "Feynman visual plate audited. 1 visual equations/concept records identified."
+    },
+    {
+      "sample_index": 106,
+      "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+      "source_filename": "Feynman, Richard P. The Feynman Lectures on Physics.pdf",
+      "pdf_page": 153,
+      "stratum": "FEYNMAN_VISUAL_PLATES",
+      "section_title": "Lecture 15 (Scanned Image-Only)",
+      "coverage_status": "PHYSICS_CONTENT_REQUIRES_VISUAL",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "evid-feynman-lec15-visual"
+      ],
+      "taxonomy_node_ids": [
+        "dual-nature-of-matter-and-radiation"
+      ],
+      "verdict": "FULL_MATCH",
+      "diagnostic_notes": "Feynman visual plate audited. 1 visual equations/concept records identified."
+    },
+    {
+      "sample_index": 107,
+      "source_id": "src-jee-main-mock-test-01-20-222525c1",
+      "source_filename": "jee_main_mock_test-01-2024-jan.pdf",
+      "pdf_page": 4,
+      "stratum": "MOCK_PAPERS_SERIES",
+      "section_title": "Section A (MCQs Q1-20) & Section B (Numerical Q21-30)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 5,
+      "evidence_ids": [
+        "mock-q-m1-26",
+        "mock-q-m1-27",
+        "mock-q-m1-28",
+        "mock-q-m1-29",
+        "mock-q-m1-30"
+      ],
+      "taxonomy_node_ids": [
+        "physics"
+      ],
+      "verdict": "VISUAL_REQUIRED",
+      "diagnostic_notes": "Mock 1 vectorized stroke drawing plate routed to visual/page-render inspection."
+    },
+    {
+      "sample_index": 108,
+      "source_id": "src-jee-main-mock-test-01-20-222525c1",
+      "source_filename": "jee_main_mock_test-01-2024-jan.pdf",
+      "pdf_page": 9,
+      "stratum": "MOCK_PAPERS_SERIES",
+      "section_title": "Section A & B (Q61-90) [STRICTLY QUARANTINED]",
+      "coverage_status": "NON_PHYSICS",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "verdict": "VISUAL_REQUIRED",
+      "diagnostic_notes": "Mock 1 vectorized stroke drawing plate routed to visual/page-render inspection."
+    },
+    {
+      "sample_index": 109,
+      "source_id": "src-jee-main-mock-test-01-20-222525c1",
+      "source_filename": "jee_main_mock_test-01-2024-jan.pdf",
+      "pdf_page": 10,
+      "stratum": "MOCK_PAPERS_SERIES",
+      "section_title": "Section A & B (Q61-90) [STRICTLY QUARANTINED]",
+      "coverage_status": "NON_PHYSICS",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "verdict": "VISUAL_REQUIRED",
+      "diagnostic_notes": "Mock 1 vectorized stroke drawing plate routed to visual/page-render inspection."
+    },
+    {
+      "sample_index": 110,
+      "source_id": "src-jee-main-mock-test-01-20-222525c1",
+      "source_filename": "jee_main_mock_test-01-2024-jan.pdf",
+      "pdf_page": 5,
+      "stratum": "MOCK_PAPERS_SERIES",
+      "section_title": "Section A & B (Q31-60) [STRICTLY QUARANTINED]",
+      "coverage_status": "NON_PHYSICS",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "verdict": "VISUAL_REQUIRED",
+      "diagnostic_notes": "Mock 1 vectorized stroke drawing plate routed to visual/page-render inspection."
+    },
+    {
+      "sample_index": 111,
+      "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+      "source_filename": "jee_rank_booster_-02_mock_paper.pdf",
+      "pdf_page": 10,
+      "stratum": "MOCK_PAPERS_SERIES",
+      "section_title": "Section A & B (Q61-90) [STRICTLY QUARANTINED]",
+      "coverage_status": "NON_PHYSICS",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "verdict": "UNEXTRACTED_MISS",
+      "diagnostic_notes": "Section 'Section A & B (Q61-90) [STRICTLY QUARANTINED]' is content-bearing; page has not yet been parsed into individual atom."
+    },
+    {
+      "sample_index": 112,
+      "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+      "source_filename": "jee_rank_booster_-02_mock_paper.pdf",
+      "pdf_page": 7,
+      "stratum": "MOCK_PAPERS_SERIES",
+      "section_title": "Section A & B (Q31-60) [STRICTLY QUARANTINED]",
+      "coverage_status": "NON_PHYSICS",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "verdict": "UNEXTRACTED_MISS",
+      "diagnostic_notes": "Section 'Section A & B (Q31-60) [STRICTLY QUARANTINED]' is content-bearing; page has not yet been parsed into individual atom."
+    },
+    {
+      "sample_index": 113,
+      "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+      "source_filename": "jee_rank_booster_-02_mock_paper.pdf",
+      "pdf_page": 11,
+      "stratum": "MOCK_PAPERS_SERIES",
+      "section_title": "Section A & B (Q61-90) [STRICTLY QUARANTINED]",
+      "coverage_status": "NON_PHYSICS",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "verdict": "UNEXTRACTED_MISS",
+      "diagnostic_notes": "Section 'Section A & B (Q61-90) [STRICTLY QUARANTINED]' is content-bearing; page has not yet been parsed into individual atom."
+    },
+    {
+      "sample_index": 114,
+      "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+      "source_filename": "jee_rank_booster_-02_mock_paper.pdf",
+      "pdf_page": 6,
+      "stratum": "MOCK_PAPERS_SERIES",
+      "section_title": "Section A & B (Q31-60) [STRICTLY QUARANTINED]",
+      "coverage_status": "NON_PHYSICS",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "verdict": "UNEXTRACTED_MISS",
+      "diagnostic_notes": "Section 'Section A & B (Q31-60) [STRICTLY QUARANTINED]' is content-bearing; page has not yet been parsed into individual atom."
+    }
+  ]
+}

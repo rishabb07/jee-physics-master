@@ -1,0 +1,42 @@
+{
+  "source_id": "src-jee-main-mock-test-01-20-222525c1",
+  "source_version": 1,
+  "file_name": "jee_main_mock_test-01-2024-jan.pdf",
+  "file_path": "jee_main_mock_test-01-2024-jan.pdf",
+  "file_size_bytes": 5940422,
+  "sha256": "222525c132a01fd0bbcee487f11f7adff9516d86bbb248067c81cd2a0b92c005",
+  "extension": ".pdf",
+  "mime_type": "application/pdf",
+  "file_format": "pdf",
+  "source_type": "test_paper",
+  "total_pages": 12,
+  "has_extractable_text": false,
+  "is_image_only": false,
+  "is_encrypted": false,
+  "status": "SEGMENTED",
+  "processing_stage": null,
+  "last_error": null,
+  "history": [],
+  "affected_chapters": [],
+  "file_created_at": null,
+  "file_modified_at": null,
+  "metadata": {
+    "source_role": "EXAM_ASSESSMENT",
+    "toc_entries_count": 0,
+    "bibliographic_info": {
+      "title": "JEE Main Mock Test Paper 01 (January 2024 Session)",
+      "authors": [
+        "JEE National Assessment Calibration Board"
+      ],
+      "publisher": "National Test Practice Series",
+      "edition": "January 2024 Session",
+      "volume": "Full Mock Exam: Physics (Q1-30), Chemistry (Q31-60), Mathematics (Q61-90)",
+      "publication_year": 2024,
+      "isbn": null,
+      "discrepancy_resolution": "Contains vectorized stroke paths (>1,100 drawings per page) rather than embedded digital fonts. Requires visual rendering inspection."
+    },
+    "extraction_nature": "VECTORIZED_GLYPHS"
+  },
+  "created_at": "2026-09-29T16:20:07.592287Z",
+  "updated_at": "2026-09-29T16:20:07.592287Z"
+}

@@ -1,0 +1,78 @@
+{
+  "example_id": "ex-kin-projectile-max-height",
+  "chapter_id": "kinematics",
+  "problem_statement": "A projectile is launched from ground level with speed u = 40.0 m/s at an angle theta = 30.0 degrees above the horizontal. Taking downward gravity g = 10.0 m/s^2, calculate: (a) the time of flight T, (b) the maximum height H, (c) the horizontal range R, and (d) the velocity of the projectile at the apex.",
+  "known_quantities": {
+    "launch_speed": "u = 40.0 m/s",
+    "launch_angle": "theta = 30.0 deg",
+    "gravity": "g = 10.0 m/s^2"
+  },
+  "target_quantity": "Time of flight T, maximum height H, horizontal range R, apex velocity vector v_apex",
+  "relevant_concepts": [
+    "concept-kin-projectile-01"
+  ],
+  "governing_principles": [
+    "Independence of horizontal motion (u_x = const) and vertical motion under gravity (a_y = -g)"
+  ],
+  "solution_strategy": "Decompose initial velocity into horizontal and vertical components. Apply 1D vertical kinematics for T and H, and horizontal motion for R. At apex, vertical velocity vanishes.",
+  "ordered_steps": [
+    {
+      "step_number": 1,
+      "action_description": "Compute initial velocity components",
+      "equation_latex": "u_x = u\\cos\\theta = 40.0 \\cos 30^\\circ = 40.0 \\left(\\frac{\\sqrt{3}}{2}\\right) = 20\\sqrt{3} \\approx 34.64\\text{ m/s}, \\quad u_y = u\\sin\\theta = 40.0 \\sin 30^\\circ = 20.0\\text{ m/s}",
+      "justification": "Trigonometric vector resolution.",
+      "calculation_details": "u_x = 20 sqrt(3) m/s, u_y = 20.0 m/s.",
+      "intermediate_result": "u_x = 34.64 m/s, u_y = 20.0 m/s"
+    },
+    {
+      "step_number": 2,
+      "action_description": "Calculate time of flight T using T = 2 u_y / g",
+      "equation_latex": "T = \\frac{2 u_y}{g} = \\frac{2 (20.0)}{10.0} = 4.0\\text{ s}",
+      "justification": "Vertical displacement y = 0 at landing.",
+      "calculation_details": "T = 40.0 / 10.0 = 4.0 s.",
+      "intermediate_result": "T = 4.0 s"
+    },
+    {
+      "step_number": 3,
+      "action_description": "Calculate maximum height H using H = u_y^2 / (2g)",
+      "equation_latex": "H = \\frac{u_y^2}{2 g} = \\frac{(20.0)^2}{2 (10.0)} = \\frac{400}{20} = 20.0\\text{ m}",
+      "justification": "Apex condition v_y = 0 in v_y^2 = u_y^2 - 2gH.",
+      "calculation_details": "H = 400 / 20 = 20.0 m.",
+      "intermediate_result": "H = 20.0 m"
+    },
+    {
+      "step_number": 4,
+      "action_description": "Calculate horizontal range R using R = u_x T",
+      "equation_latex": "R = u_x T = (20\\sqrt{3}) (4.0) = 80\\sqrt{3} \\approx 138.56\\text{ m}",
+      "justification": "Uniform horizontal motion x = u_x t.",
+      "calculation_details": "R = 80 * 1.73205 = 138.56 m.",
+      "intermediate_result": "R = 80 sqrt(3) m approx 138.56 m"
+    },
+    {
+      "step_number": 5,
+      "action_description": "Determine velocity vector at apex",
+      "equation_latex": "\\vec{v}_{\\text{apex}} = u_x \\hat{i} + 0 \\hat{j} = 20\\sqrt{3}\\hat{i}\\text{ m/s} \\approx 34.64\\hat{i}\\text{ m/s}",
+      "justification": "At the apex, v_y = 0 while horizontal velocity u_x remains unaltered.",
+      "calculation_details": "Speed at apex is 20 sqrt(3) m/s directed horizontally.",
+      "intermediate_result": "v_apex = 20 sqrt(3) i m/s"
+    }
+  ],
+  "final_answer": "(a) Time of flight T = 4.0 s; (b) Maximum height H = 20.0 m; (c) Horizontal range R = 80*sqrt(3) m (approx 138.56 m); (d) Velocity at apex = 20*sqrt(3) i m/s (approx 34.64 m/s horizontal).",
+  "units": "s, m, m/s",
+  "sanity_checks": [
+    "Using range formula R = u^2 sin(2 theta)/g = (1600 * sin 60 deg)/10 = 160 * (sqrt(3)/2) = 80 sqrt(3) m, perfect agreement.",
+    "Apex speed is non-zero (34.64 m/s) and strictly equal to horizontal component."
+  ],
+  "alternate_methods": [],
+  "trap_alerts": [
+    "Do not assume velocity at apex is zero! Only the vertical component v_y is zero; horizontal speed u_x persists."
+  ],
+  "source_atom_id": null,
+  "provenance": [],
+  "risk_level": "HIGH",
+  "verification_status": "VERIFIED",
+  "verification_record_id": "dual-cvr-ex-kin-projectile-max-height",
+  "generator_identity": "physics-example-writer",
+  "generator_conversation_id": "gen-kin-ex-03",
+  "content_hash": "27ff6ff357ce99cbfe87ab43367d0d6f13391a295b151538bdc60810e0c95052"
+}

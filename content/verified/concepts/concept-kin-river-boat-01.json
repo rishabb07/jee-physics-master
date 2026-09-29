@@ -1,0 +1,41 @@
+{
+  "content_id": "concept-kin-river-boat-01",
+  "curriculum_id": "curr-kin-04",
+  "taxonomy_reference": {
+    "chapter_id": "kinematics",
+    "topic_id": "relative-motion",
+    "subtopic_id": "river-swimmer-problems"
+  },
+  "title": "River-Swimmer and Wind-Airplane Kinematics",
+  "learning_objective": "Analyze relative vector motion in flowing media, solving for shortest crossing time and minimum drift paths.",
+  "intuition": "If you try to swim directly across a flowing river perpendicular to the bank, the current carries you downstream. To land directly opposite your starting point with zero drift, you must angle your strokes upstream to cancel the water current. But if your goal is purely to reach the other side in the fewest possible seconds, you should aim straight across, regardless of how far downstream the river carries you!",
+  "formal_definition": "Let a river flow with velocity $\\vec{v}_R = v_R \\hat{i}$ between parallel banks separated by width $d$. A boat/swimmer moves with speed $v_{B/R}$ relative to the water at angle $\\theta$ to the bank normal (upstream). The ground velocity of the boat is $\\vec{v}_B = \\vec{v}_{B/R} + \\vec{v}_R$. Time to cross is $t = \\frac{d}{v_{B/R}\\cos\\theta}$. The horizontal drift downstream is $x = (v_R - v_{B/R}\\sin\\theta) t$.",
+  "explanation": "River-boat problems demonstrate 2D vector addition in relative motion.\n\n### 1. Condition for Minimum Time of Crossing\nThe crossing time depends solely on the perpendicular velocity component $v_y = v_{B/R}\\cos\\theta$:\n$$t = \\frac{d}{v_{B/R}\\cos\\theta}$$\nTo minimize $t$, $\\cos\\theta$ must be maximized $\\implies \\cos\\theta = 1 \\implies \\theta = 0$.\nTherefore, the boat must steer strictly perpendicular to the river banks. The minimum crossing time is $t_{\\text{min}} = \\frac{d}{v_{B/R}}$, resulting in downstream drift $x = v_R t_{\\text{min}} = \\frac{v_R d}{v_{B/R}}$.\n\n### 2. Condition for Shortest Path (Zero Drift)\nFor the boat to land directly opposite on the other bank, net drift must vanish ($x = 0$):\n$$v_R - v_{B/R}\\sin\\theta = 0 \\implies \\sin\\theta = \\frac{v_R}{v_{B/R}}$$\nThis is physically possible if and only if the boat's speed exceeds the river current ($v_{B/R} \\ge v_R$). The crossing time for zero drift is $t = \\frac{d}{\\sqrt{v_{B/R}^2 - v_R^2}}$. If $v_{B/R} < v_R$, zero drift is impossible, and minimum drift occurs at launch angle $\\sin\\theta = v_{B/R} / v_R$.",
+  "assumptions": [
+    "Uniform river flow velocity across the entire width $d$.",
+    "Swimmer speed relative to water $v_{B/R}$ is constant."
+  ],
+  "boundary_conditions": [
+    "Zero drift path requires $v_{B/R} \\ge v_R$.",
+    "Applies identically to airplanes navigating crosswinds."
+  ],
+  "related_formula_ids": [
+    "formula-kin-river-crossing-time",
+    "formula-kin-relative-velocity"
+  ],
+  "prerequisite_refs": [
+    "concept-kin-relative-vel-01"
+  ],
+  "source_references": [
+    "Concepts of Physics Vol 1 by H.C. Verma (Chapter 3, pp. 52-53)",
+    "Problems in General Physics by I.E. Irodov (Problem 1.1, p. 10)"
+  ],
+  "generation_metadata": {
+    "agent": "physics-concept-writer",
+    "version": "1.0",
+    "target_chapter": "kinematics"
+  },
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-concept-kin-river-boat-01",
+  "content_hash": "d4e5ee0052bcf6d6f470d15da649d62f8c89a6314b18aa805d6e6d4b528f93ec"
+}

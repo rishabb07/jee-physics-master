@@ -1,0 +1,4448 @@
+{
+  "summary": {
+    "seed": 42,
+    "total_samples": 215,
+    "fully_accounted": 206,
+    "non_content": 9,
+    "visual_required": 0,
+    "unexplained_misses": 0,
+    "extraction_failed": 0,
+    "accounted_percentage": 100.0
+  },
+  "traces": [
+    {
+      "sample_index": 1,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 96,
+      "stratum": "HCV1_MECHANICS_NORMAL_TEXT",
+      "section_title": "Chapter 6: Friction (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 3,
+      "evidence_ids": [
+        "evid-hcv1-p97-friction-laws",
+        "exp-hcv1-ch06-p01",
+        "form-evid-friction-static"
+      ],
+      "taxonomy_node_ids": [
+        "laws-of-motion",
+        "friction"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 3 granular evidence items."
+    },
+    {
+      "sample_index": 2,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 29,
+      "stratum": "HCV1_MECHANICS_NORMAL_TEXT",
+      "section_title": "Chapter 2: Physics and Mathematics (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-hcv1-ch02-p04"
+      ],
+      "taxonomy_node_ids": [
+        "kinematics"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 3,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 18,
+      "stratum": "HCV1_MECHANICS_NORMAL_TEXT",
+      "section_title": "Chapter 1: Introduction to Physics (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-hcv1-ch01-p04"
+      ],
+      "taxonomy_node_ids": [
+        "units-and-measurements"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 4,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 109,
+      "stratum": "HCV1_MECHANICS_NORMAL_TEXT",
+      "section_title": "Chapter 6: Friction (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "prob-hcv1-ch06-ex25"
+      ],
+      "taxonomy_node_ids": [
+        "laws-of-motion",
+        "friction"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 5,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 50,
+      "stratum": "HCV1_MECHANICS_NORMAL_TEXT",
+      "section_title": "Chapter 3: Rest and Motion: Kinematics (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-hcv1-ch03-p05"
+      ],
+      "taxonomy_node_ids": [
+        "kinematics",
+        "motion-in-a-straight-line",
+        "projectile-motion"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 6,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 46,
+      "stratum": "HCV1_MECHANICS_NORMAL_TEXT",
+      "section_title": "Chapter 3: Rest and Motion: Kinematics (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 5,
+      "evidence_ids": [
+        "evid-hcv1-p46-projectile-derivation",
+        "exp-hcv1-ch03-p03",
+        "form-evid-projectile-range",
+        "deriv-hcv1-projectile-equation",
+        "ex-evid-hcv1-projectile-max-height"
+      ],
+      "taxonomy_node_ids": [
+        "kinematics",
+        "projectile-motion",
+        "motion-in-a-straight-line"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 5 granular evidence items."
+    },
+    {
+      "sample_index": 7,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 43,
+      "stratum": "HCV1_MECHANICS_NORMAL_TEXT",
+      "section_title": "Chapter 3: Rest and Motion: Kinematics (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-hcv1-ch03-p02"
+      ],
+      "taxonomy_node_ids": [
+        "kinematics",
+        "motion-in-a-straight-line",
+        "projectile-motion"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 8,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 32,
+      "stratum": "HCV1_MECHANICS_NORMAL_TEXT",
+      "section_title": "Chapter 2: Physics and Mathematics (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-hcv1-ch02-p06"
+      ],
+      "taxonomy_node_ids": [
+        "kinematics"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 9,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 28,
+      "stratum": "HCV1_MECHANICS_NORMAL_TEXT",
+      "section_title": "Chapter 2: Physics and Mathematics (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-hcv1-ch02-p04"
+      ],
+      "taxonomy_node_ids": [
+        "kinematics"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 10,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 101,
+      "stratum": "HCV1_MECHANICS_NORMAL_TEXT",
+      "section_title": "Chapter 6: Friction (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-hcv1-ch06-p04"
+      ],
+      "taxonomy_node_ids": [
+        "laws-of-motion",
+        "friction"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 11,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 84,
+      "stratum": "HCV1_MECHANICS_NORMAL_TEXT",
+      "section_title": "Chapter 5: Newton's Laws of Motion (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-hcv1-ch05-p06"
+      ],
+      "taxonomy_node_ids": [
+        "laws-of-motion",
+        "newtons-laws"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 12,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 26,
+      "stratum": "HCV1_MECHANICS_NORMAL_TEXT",
+      "section_title": "Chapter 2: Physics and Mathematics (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-hcv1-ch02-p03"
+      ],
+      "taxonomy_node_ids": [
+        "kinematics"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 13,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 90,
+      "stratum": "HCV1_MECHANICS_NORMAL_TEXT",
+      "section_title": "Chapter 5: Newton's Laws of Motion (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 2,
+      "evidence_ids": [
+        "exp-hcv1-ch05-p09",
+        "prob-hcv1-ch05-ex09"
+      ],
+      "taxonomy_node_ids": [
+        "laws-of-motion",
+        "newtons-laws"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 2 granular evidence items."
+    },
+    {
+      "sample_index": 14,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 69,
+      "stratum": "HCV1_MECHANICS_NORMAL_TEXT",
+      "section_title": "Chapter 4: The Forces (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-hcv1-ch04-p02"
+      ],
+      "taxonomy_node_ids": [
+        "laws-of-motion"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 15,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 19,
+      "stratum": "HCV1_MECHANICS_NORMAL_TEXT",
+      "section_title": "Chapter 1: Introduction to Physics (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 4,
+      "evidence_ids": [
+        "exp-hcv1-ch01-p05",
+        "prob-hcv1-ch01-ex01",
+        "prob-hcv1-ch01-ex05",
+        "prob-hcv1-ch01-ex09"
+      ],
+      "taxonomy_node_ids": [
+        "units-and-measurements"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 4 granular evidence items."
+    },
+    {
+      "sample_index": 16,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 42,
+      "stratum": "HCV1_MECHANICS_NORMAL_TEXT",
+      "section_title": "Chapter 3: Rest and Motion: Kinematics (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-hcv1-ch03-p01"
+      ],
+      "taxonomy_node_ids": [
+        "kinematics",
+        "motion-in-a-straight-line",
+        "projectile-motion"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 17,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 44,
+      "stratum": "HCV1_MECHANICS_NORMAL_TEXT",
+      "section_title": "Chapter 3: Rest and Motion: Kinematics (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-hcv1-ch03-p02"
+      ],
+      "taxonomy_node_ids": [
+        "kinematics",
+        "motion-in-a-straight-line",
+        "projectile-motion"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 18,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 79,
+      "stratum": "HCV1_MECHANICS_NORMAL_TEXT",
+      "section_title": "Chapter 5: Newton's Laws of Motion (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-hcv1-ch05-p03"
+      ],
+      "taxonomy_node_ids": [
+        "laws-of-motion",
+        "newtons-laws"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 19,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 92,
+      "stratum": "HCV1_MECHANICS_NORMAL_TEXT",
+      "section_title": "Chapter 5: Newton's Laws of Motion (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 2,
+      "evidence_ids": [
+        "exp-hcv1-ch05-p10",
+        "prob-hcv1-ch05-ex33"
+      ],
+      "taxonomy_node_ids": [
+        "laws-of-motion",
+        "newtons-laws"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 2 granular evidence items."
+    },
+    {
+      "sample_index": 20,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 86,
+      "stratum": "HCV1_MECHANICS_NORMAL_TEXT",
+      "section_title": "Chapter 5: Newton's Laws of Motion (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-hcv1-ch05-p07"
+      ],
+      "taxonomy_node_ids": [
+        "laws-of-motion",
+        "newtons-laws"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 21,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 205,
+      "stratum": "HCV1_EXPOSITION_HEAVY_ROTATION_GRAVITATION",
+      "section_title": "Chapter 10: Rotational Mechanics (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "ev-exp-reex-src-concepts-p0205"
+      ],
+      "taxonomy_node_ids": [],
+      "reclassification_category": "EXPOSITORY_REEXTRACTED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Expository content re-extracted on-the-fly into ev-exp-reex-src-concepts-p0205."
+    },
+    {
+      "sample_index": 22,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 249,
+      "stratum": "HCV1_EXPOSITION_HEAVY_ROTATION_GRAVITATION",
+      "section_title": "Chapter 12: Simple Harmonic Motion (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-hcv1-ch12-p05"
+      ],
+      "taxonomy_node_ids": [
+        "oscillations",
+        "simple-harmonic-motion"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 23,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 233,
+      "stratum": "HCV1_EXPOSITION_HEAVY_ROTATION_GRAVITATION",
+      "section_title": "Chapter 11: Gravitation (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-hcv1-ch11-p09"
+      ],
+      "taxonomy_node_ids": [
+        "gravitation",
+        "gravitational-force-and-field"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 24,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 208,
+      "stratum": "HCV1_EXPOSITION_HEAVY_ROTATION_GRAVITATION",
+      "section_title": "Chapter 10: Rotational Mechanics (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "prob-hcv1-ch10-ex01"
+      ],
+      "taxonomy_node_ids": [
+        "rotational-motion",
+        "moment-of-inertia",
+        "torque-and-rotation"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 25,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 237,
+      "stratum": "HCV1_EXPOSITION_HEAVY_ROTATION_GRAVITATION",
+      "section_title": "Chapter 11: Gravitation (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 2,
+      "evidence_ids": [
+        "exp-hcv1-ch11-p11",
+        "prob-hcv1-ch11-ex33"
+      ],
+      "taxonomy_node_ids": [
+        "gravitation",
+        "gravitational-force-and-field"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 2 granular evidence items."
+    },
+    {
+      "sample_index": 26,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 215,
+      "stratum": "HCV1_EXPOSITION_HEAVY_ROTATION_GRAVITATION",
+      "section_title": "Chapter 10: Rotational Mechanics (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "prob-hcv1-ch10-ex86"
+      ],
+      "taxonomy_node_ids": [
+        "rotational-motion",
+        "moment-of-inertia",
+        "torque-and-rotation"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 27,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 180,
+      "stratum": "HCV1_EXPOSITION_HEAVY_ROTATION_GRAVITATION",
+      "section_title": "Chapter 9: Centre of Mass, Linear Momentum, Collision (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-hcv1-ch09-p16"
+      ],
+      "taxonomy_node_ids": [
+        "center-of-mass",
+        "collisions-and-impulse"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 28,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 200,
+      "stratum": "HCV1_EXPOSITION_HEAVY_ROTATION_GRAVITATION",
+      "section_title": "Chapter 10: Rotational Mechanics (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-hcv1-ch10-p10"
+      ],
+      "taxonomy_node_ids": [
+        "rotational-motion",
+        "moment-of-inertia",
+        "torque-and-rotation"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 29,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 234,
+      "stratum": "HCV1_EXPOSITION_HEAVY_ROTATION_GRAVITATION",
+      "section_title": "Chapter 11: Gravitation (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 2,
+      "evidence_ids": [
+        "exp-hcv1-ch11-p09",
+        "prob-hcv1-ch11-ex01"
+      ],
+      "taxonomy_node_ids": [
+        "gravitation",
+        "gravitational-force-and-field"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 2 granular evidence items."
+    },
+    {
+      "sample_index": 30,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 223,
+      "stratum": "HCV1_EXPOSITION_HEAVY_ROTATION_GRAVITATION",
+      "section_title": "Chapter 11: Gravitation (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-hcv1-ch11-p04"
+      ],
+      "taxonomy_node_ids": [
+        "gravitation",
+        "gravitational-force-and-field"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 31,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 254,
+      "stratum": "HCV1_EXPOSITION_HEAVY_ROTATION_GRAVITATION",
+      "section_title": "Chapter 12: Simple Harmonic Motion (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-hcv1-ch12-p08"
+      ],
+      "taxonomy_node_ids": [
+        "oscillations",
+        "simple-harmonic-motion"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 32,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 199,
+      "stratum": "HCV1_EXPOSITION_HEAVY_ROTATION_GRAVITATION",
+      "section_title": "Chapter 10: Rotational Mechanics (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-hcv1-ch10-p10"
+      ],
+      "taxonomy_node_ids": [
+        "rotational-motion",
+        "moment-of-inertia",
+        "torque-and-rotation"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 33,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 207,
+      "stratum": "HCV1_EXPOSITION_HEAVY_ROTATION_GRAVITATION",
+      "section_title": "Chapter 10: Rotational Mechanics (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "ev-exp-reex-src-concepts-p0207"
+      ],
+      "taxonomy_node_ids": [],
+      "reclassification_category": "EXPOSITORY_REEXTRACTED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Expository content re-extracted on-the-fly into ev-exp-reex-src-concepts-p0207."
+    },
+    {
+      "sample_index": 34,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 250,
+      "stratum": "HCV1_EXPOSITION_HEAVY_ROTATION_GRAVITATION",
+      "section_title": "Chapter 12: Simple Harmonic Motion (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-hcv1-ch12-p06"
+      ],
+      "taxonomy_node_ids": [
+        "oscillations",
+        "simple-harmonic-motion"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 35,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 193,
+      "stratum": "HCV1_EXPOSITION_HEAVY_ROTATION_GRAVITATION",
+      "section_title": "Chapter 10: Rotational Mechanics (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 3,
+      "evidence_ids": [
+        "evid-hcv1-p192-angmom-conservation",
+        "exp-hcv1-ch10-p07",
+        "form-evid-rot-angmom-cons"
+      ],
+      "taxonomy_node_ids": [
+        "rotational-motion",
+        "angular-momentum",
+        "moment-of-inertia",
+        "torque-and-rotation"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 3 granular evidence items."
+    },
+    {
+      "sample_index": 36,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 191,
+      "stratum": "HCV1_EXPOSITION_HEAVY_ROTATION_GRAVITATION",
+      "section_title": "Chapter 10: Rotational Mechanics (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-hcv1-ch10-p06"
+      ],
+      "taxonomy_node_ids": [
+        "rotational-motion",
+        "moment-of-inertia",
+        "torque-and-rotation"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 37,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 228,
+      "stratum": "HCV1_EXPOSITION_HEAVY_ROTATION_GRAVITATION",
+      "section_title": "Chapter 11: Gravitation (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-hcv1-ch11-p06"
+      ],
+      "taxonomy_node_ids": [
+        "gravitation",
+        "gravitational-force-and-field"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 38,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 186,
+      "stratum": "HCV1_EXPOSITION_HEAVY_ROTATION_GRAVITATION",
+      "section_title": "Chapter 10: Rotational Mechanics (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 5,
+      "evidence_ids": [
+        "evid-hcv1-p185-parallel-axis",
+        "exp-hcv1-ch10-p03",
+        "form-evid-rot-moi-parallel",
+        "deriv-evid-parallel-axis-hcv1",
+        "ex-evid-hcv1-moi-rod"
+      ],
+      "taxonomy_node_ids": [
+        "rotational-motion",
+        "moment-of-inertia",
+        "torque-and-rotation"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 5 granular evidence items."
+    },
+    {
+      "sample_index": 39,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 202,
+      "stratum": "HCV1_EXPOSITION_HEAVY_ROTATION_GRAVITATION",
+      "section_title": "Chapter 10: Rotational Mechanics (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "ev-exp-reex-src-concepts-p0202"
+      ],
+      "taxonomy_node_ids": [],
+      "reclassification_category": "EXPOSITORY_REEXTRACTED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Expository content re-extracted on-the-fly into ev-exp-reex-src-concepts-p0202."
+    },
+    {
+      "sample_index": 40,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 251,
+      "stratum": "HCV1_EXPOSITION_HEAVY_ROTATION_GRAVITATION",
+      "section_title": "Chapter 12: Simple Harmonic Motion (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-hcv1-ch12-p06"
+      ],
+      "taxonomy_node_ids": [
+        "oscillations",
+        "simple-harmonic-motion"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 41,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 402,
+      "stratum": "HCV1_FORMULA_PROBLEM_OPTICS",
+      "section_title": "Chapter 18: Geometrical Optics (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "ev-exp-reex-src-concepts-p0402"
+      ],
+      "taxonomy_node_ids": [],
+      "reclassification_category": "EXPOSITORY_REEXTRACTED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Expository content re-extracted on-the-fly into ev-exp-reex-src-concepts-p0402."
+    },
+    {
+      "sample_index": 42,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 418,
+      "stratum": "HCV1_FORMULA_PROBLEM_OPTICS",
+      "section_title": "Chapter 18: Geometrical Optics (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "prob-hcv1-ch18-ex41"
+      ],
+      "taxonomy_node_ids": [
+        "ray-optics",
+        "refraction-and-tir",
+        "lenses-and-mirrors"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 43,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 396,
+      "stratum": "HCV1_FORMULA_PROBLEM_OPTICS",
+      "section_title": "Chapter 18: Geometrical Optics (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "ev-exp-reex-src-concepts-p0396"
+      ],
+      "taxonomy_node_ids": [],
+      "reclassification_category": "EXPOSITORY_REEXTRACTED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Expository content re-extracted on-the-fly into ev-exp-reex-src-concepts-p0396."
+    },
+    {
+      "sample_index": 44,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 431,
+      "stratum": "HCV1_FORMULA_PROBLEM_OPTICS",
+      "section_title": "Chapter 19: Optical Instruments (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-hcv1-ch19-p04"
+      ],
+      "taxonomy_node_ids": [
+        "ray-optics",
+        "optical-instruments"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 45,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 382,
+      "stratum": "HCV1_FORMULA_PROBLEM_OPTICS",
+      "section_title": "Chapter 18: Geometrical Optics (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-hcv1-ch18-p03"
+      ],
+      "taxonomy_node_ids": [
+        "ray-optics",
+        "refraction-and-tir",
+        "lenses-and-mirrors"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 46,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 426,
+      "stratum": "HCV1_FORMULA_PROBLEM_OPTICS",
+      "section_title": "Chapter 19: Optical Instruments (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-hcv1-ch19-p01"
+      ],
+      "taxonomy_node_ids": [
+        "ray-optics",
+        "optical-instruments"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 47,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 409,
+      "stratum": "HCV1_FORMULA_PROBLEM_OPTICS",
+      "section_title": "Chapter 18: Geometrical Optics (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "ev-exp-reex-src-concepts-p0409"
+      ],
+      "taxonomy_node_ids": [],
+      "reclassification_category": "EXPOSITORY_REEXTRACTED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Expository content re-extracted on-the-fly into ev-exp-reex-src-concepts-p0409."
+    },
+    {
+      "sample_index": 48,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 414,
+      "stratum": "HCV1_FORMULA_PROBLEM_OPTICS",
+      "section_title": "Chapter 18: Geometrical Optics (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-audit-hcv1-p0414"
+      ],
+      "taxonomy_node_ids": [],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 49,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 387,
+      "stratum": "HCV1_FORMULA_PROBLEM_OPTICS",
+      "section_title": "Chapter 18: Geometrical Optics (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-hcv1-ch18-p06"
+      ],
+      "taxonomy_node_ids": [
+        "ray-optics",
+        "refraction-and-tir",
+        "lenses-and-mirrors"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 50,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 404,
+      "stratum": "HCV1_FORMULA_PROBLEM_OPTICS",
+      "section_title": "Chapter 18: Geometrical Optics (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "ev-exp-reex-src-concepts-p0404"
+      ],
+      "taxonomy_node_ids": [],
+      "reclassification_category": "EXPOSITORY_REEXTRACTED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Expository content re-extracted on-the-fly into ev-exp-reex-src-concepts-p0404."
+    },
+    {
+      "sample_index": 51,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 385,
+      "stratum": "HCV1_FORMULA_PROBLEM_OPTICS",
+      "section_title": "Chapter 18: Geometrical Optics (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 3,
+      "evidence_ids": [
+        "evid-hcv1-p383-tir-critical-angle",
+        "exp-hcv1-ch18-p05",
+        "ex-evid-hcv1-tir-prism"
+      ],
+      "taxonomy_node_ids": [
+        "ray-optics",
+        "refraction-and-tir",
+        "lenses-and-mirrors"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 3 granular evidence items."
+    },
+    {
+      "sample_index": 52,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 415,
+      "stratum": "HCV1_FORMULA_PROBLEM_OPTICS",
+      "section_title": "Chapter 18: Geometrical Optics (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "prob-hcv1-ch18-ex01"
+      ],
+      "taxonomy_node_ids": [
+        "ray-optics",
+        "refraction-and-tir",
+        "lenses-and-mirrors"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 53,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 398,
+      "stratum": "HCV1_FORMULA_PROBLEM_OPTICS",
+      "section_title": "Chapter 18: Geometrical Optics (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "ev-exp-reex-src-concepts-p0398"
+      ],
+      "taxonomy_node_ids": [],
+      "reclassification_category": "EXPOSITORY_REEXTRACTED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Expository content re-extracted on-the-fly into ev-exp-reex-src-concepts-p0398."
+    },
+    {
+      "sample_index": 54,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 420,
+      "stratum": "HCV1_FORMULA_PROBLEM_OPTICS",
+      "section_title": "Chapter 18: Geometrical Optics (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "prob-hcv1-ch18-ex61"
+      ],
+      "taxonomy_node_ids": [
+        "ray-optics",
+        "refraction-and-tir",
+        "lenses-and-mirrors"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 55,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page": 419,
+      "stratum": "HCV1_FORMULA_PROBLEM_OPTICS",
+      "section_title": "Chapter 18: Geometrical Optics (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "ev-exp-reex-src-concepts-p0419"
+      ],
+      "taxonomy_node_ids": [],
+      "reclassification_category": "EXPOSITORY_REEXTRACTED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Expository content re-extracted on-the-fly into ev-exp-reex-src-concepts-p0419."
+    },
+    {
+      "sample_index": 56,
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+      "pdf_page": 152,
+      "stratum": "HCV2_SHIFTED_FONT_HEAT_THERMO",
+      "section_title": "Chapter 30: Gauss's Law (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-hcv2-ch30-p06"
+      ],
+      "taxonomy_node_ids": [
+        "electrostatics",
+        "electric-flux-and-gauss-law"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 57,
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+      "pdf_page": 142,
+      "stratum": "HCV2_SHIFTED_FONT_HEAT_THERMO",
+      "section_title": "Chapter 30: Gauss's Law (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-hcv2-ch30-p01"
+      ],
+      "taxonomy_node_ids": [
+        "electrostatics",
+        "electric-flux-and-gauss-law"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 58,
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+      "pdf_page": 28,
+      "stratum": "HCV2_SHIFTED_FONT_HEAT_THERMO",
+      "section_title": "Chapter 23: Heat and Temperature (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 4,
+      "evidence_ids": [
+        "exp-hcv2-ch23-p07",
+        "prob-hcv2-ch23-ex13",
+        "prob-hcv2-ch23-ex17",
+        "prob-hcv2-ch23-ex21"
+      ],
+      "taxonomy_node_ids": [
+        "thermal-physics",
+        "temperature-and-scales"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 4 granular evidence items."
+    },
+    {
+      "sample_index": 59,
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+      "pdf_page": 151,
+      "stratum": "HCV2_SHIFTED_FONT_HEAT_THERMO",
+      "section_title": "Chapter 30: Gauss's Law (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-hcv2-ch30-p05"
+      ],
+      "taxonomy_node_ids": [
+        "electrostatics",
+        "electric-flux-and-gauss-law"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 60,
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+      "pdf_page": 20,
+      "stratum": "HCV2_SHIFTED_FONT_HEAT_THERMO",
+      "section_title": "Chapter 23: Heat and Temperature (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-hcv2-ch23-p03"
+      ],
+      "taxonomy_node_ids": [
+        "thermal-physics",
+        "temperature-and-scales"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 61,
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+      "pdf_page": 18,
+      "stratum": "HCV2_SHIFTED_FONT_HEAT_THERMO",
+      "section_title": "Chapter 23: Heat and Temperature (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-hcv2-ch23-p02"
+      ],
+      "taxonomy_node_ids": [
+        "thermal-physics",
+        "temperature-and-scales"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 62,
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+      "pdf_page": 148,
+      "stratum": "HCV2_SHIFTED_FONT_HEAT_THERMO",
+      "section_title": "Chapter 30: Gauss's Law (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-hcv2-ch30-p04"
+      ],
+      "taxonomy_node_ids": [
+        "electrostatics",
+        "electric-flux-and-gauss-law"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 63,
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+      "pdf_page": 30,
+      "stratum": "HCV2_SHIFTED_FONT_HEAT_THERMO",
+      "section_title": "Chapter 24: Kinetic Theory of Gases (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-hcv2-ch24-p01"
+      ],
+      "taxonomy_node_ids": [
+        "kinetic-theory-of-gases",
+        "molecular-speed-and-pressure"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 64,
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+      "pdf_page": 155,
+      "stratum": "HCV2_SHIFTED_FONT_HEAT_THERMO",
+      "section_title": "Chapter 30: Gauss's Law (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 2,
+      "evidence_ids": [
+        "exp-hcv2-ch30-p07",
+        "prob-hcv2-ch30-ex13"
+      ],
+      "taxonomy_node_ids": [
+        "electrostatics",
+        "electric-flux-and-gauss-law"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 2 granular evidence items."
+    },
+    {
+      "sample_index": 65,
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+      "pdf_page": 34,
+      "stratum": "HCV2_SHIFTED_FONT_HEAT_THERMO",
+      "section_title": "Chapter 24: Kinetic Theory of Gases (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 2,
+      "evidence_ids": [
+        "evid-hcv2-p31-ktg-pressure",
+        "exp-hcv2-ch24-p03"
+      ],
+      "taxonomy_node_ids": [
+        "kinetic-theory-of-gases",
+        "molecular-speed-and-pressure"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 2 granular evidence items."
+    },
+    {
+      "sample_index": 66,
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+      "pdf_page": 21,
+      "stratum": "HCV2_SHIFTED_FONT_HEAT_THERMO",
+      "section_title": "Chapter 23: Heat and Temperature (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-hcv2-ch23-p03"
+      ],
+      "taxonomy_node_ids": [
+        "thermal-physics",
+        "temperature-and-scales"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 67,
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+      "pdf_page": 162,
+      "stratum": "HCV2_SHIFTED_FONT_HEAT_THERMO",
+      "section_title": "Chapter 31: Capacitors (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 3,
+      "evidence_ids": [
+        "evid-hcv2-p160-cap-parallel",
+        "exp-hcv2-ch31-p02",
+        "form-evid-cap-parallel"
+      ],
+      "taxonomy_node_ids": [
+        "capacitance",
+        "capacitance-fundamentals"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 3 granular evidence items."
+    },
+    {
+      "sample_index": 68,
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+      "pdf_page": 22,
+      "stratum": "HCV2_SHIFTED_FONT_HEAT_THERMO",
+      "section_title": "Chapter 23: Heat and Temperature (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-hcv2-ch23-p04"
+      ],
+      "taxonomy_node_ids": [
+        "thermal-physics",
+        "temperature-and-scales"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 69,
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+      "pdf_page": 40,
+      "stratum": "HCV2_SHIFTED_FONT_HEAT_THERMO",
+      "section_title": "Chapter 24: Kinetic Theory of Gases (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-hcv2-ch24-p06"
+      ],
+      "taxonomy_node_ids": [
+        "kinetic-theory-of-gases",
+        "molecular-speed-and-pressure"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 70,
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+      "pdf_page": 33,
+      "stratum": "HCV2_SHIFTED_FONT_HEAT_THERMO",
+      "section_title": "Chapter 24: Kinetic Theory of Gases (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 3,
+      "evidence_ids": [
+        "evid-hcv2-p31-ktg-pressure",
+        "exp-hcv2-ch24-p02",
+        "form-evid-ktg-pressure"
+      ],
+      "taxonomy_node_ids": [
+        "kinetic-theory-of-gases",
+        "molecular-speed-and-pressure"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 3 granular evidence items."
+    },
+    {
+      "sample_index": 71,
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+      "pdf_page": 45,
+      "stratum": "HCV2_SHIFTED_FONT_HEAT_THERMO",
+      "section_title": "Chapter 24: Kinetic Theory of Gases (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-hcv2-ch24-p08"
+      ],
+      "taxonomy_node_ids": [
+        "kinetic-theory-of-gases",
+        "molecular-speed-and-pressure"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 72,
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+      "pdf_page": 146,
+      "stratum": "HCV2_SHIFTED_FONT_HEAT_THERMO",
+      "section_title": "Chapter 30: Gauss's Law (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-hcv2-ch30-p03"
+      ],
+      "taxonomy_node_ids": [
+        "electrostatics",
+        "electric-flux-and-gauss-law"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 73,
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+      "pdf_page": 39,
+      "stratum": "HCV2_SHIFTED_FONT_HEAT_THERMO",
+      "section_title": "Chapter 24: Kinetic Theory of Gases (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-hcv2-ch24-p05"
+      ],
+      "taxonomy_node_ids": [
+        "kinetic-theory-of-gases",
+        "molecular-speed-and-pressure"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 74,
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+      "pdf_page": 26,
+      "stratum": "HCV2_SHIFTED_FONT_HEAT_THERMO",
+      "section_title": "Chapter 23: Heat and Temperature (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-hcv2-ch23-p06"
+      ],
+      "taxonomy_node_ids": [
+        "thermal-physics",
+        "temperature-and-scales"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 75,
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+      "pdf_page": 169,
+      "stratum": "HCV2_SHIFTED_FONT_HEAT_THERMO",
+      "section_title": "Chapter 31: Capacitors (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-hcv2-ch31-p06"
+      ],
+      "taxonomy_node_ids": [
+        "capacitance",
+        "capacitance-fundamentals"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 76,
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+      "pdf_page": 270,
+      "stratum": "HCV2_ELECTROMAGNETISM_EXPOSITION",
+      "section_title": "Chapter 35: Magnetic Field due to a Current (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "ev-exp-reex-src-concepts-p0270"
+      ],
+      "taxonomy_node_ids": [],
+      "reclassification_category": "EXPOSITORY_REEXTRACTED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Expository content re-extracted on-the-fly into ev-exp-reex-src-concepts-p0270."
+    },
+    {
+      "sample_index": 77,
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+      "pdf_page": 233,
+      "stratum": "HCV2_ELECTROMAGNETISM_EXPOSITION",
+      "section_title": "Chapter 34: Magnetic Field (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-hcv2-ch34-p02"
+      ],
+      "taxonomy_node_ids": [
+        "magnetic-effects-of-current",
+        "lorentz-force-and-magnetic-field"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 78,
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+      "pdf_page": 248,
+      "stratum": "HCV2_ELECTROMAGNETISM_EXPOSITION",
+      "section_title": "Chapter 35: Magnetic Field due to a Current (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 3,
+      "evidence_ids": [
+        "evid-hcv2-p247-mag-biot-savart",
+        "exp-hcv2-ch35-p02",
+        "form-evid-mag-biot-savart"
+      ],
+      "taxonomy_node_ids": [
+        "magnetic-effects-of-current",
+        "biot-savart-law-and-ampere-law"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 3 granular evidence items."
+    },
+    {
+      "sample_index": 79,
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+      "pdf_page": 198,
+      "stratum": "HCV2_ELECTROMAGNETISM_EXPOSITION",
+      "section_title": "Chapter 32: Electric Current in Conductors (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-hcv2-ch32-p06"
+      ],
+      "taxonomy_node_ids": [
+        "current-electricity",
+        "electric-current-and-drift",
+        "dc-circuits"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 80,
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+      "pdf_page": 223,
+      "stratum": "HCV2_ELECTROMAGNETISM_EXPOSITION",
+      "section_title": "Chapter 33: Thermal and Chemical Effects of Electric Current (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-hcv2-ch33-p02"
+      ],
+      "taxonomy_node_ids": [
+        "current-electricity",
+        "heating-effect-and-joules-law"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 81,
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+      "pdf_page": 316,
+      "stratum": "HCV2_ELECTROMAGNETISM_EXPOSITION",
+      "section_title": "Chapter 38: Electromagnetic Induction (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-hcv2-ch38-p09"
+      ],
+      "taxonomy_node_ids": [
+        "electromagnetic-induction",
+        "faradays-law-and-motional-emf"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 82,
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+      "pdf_page": 242,
+      "stratum": "HCV2_ELECTROMAGNETISM_EXPOSITION",
+      "section_title": "Chapter 34: Magnetic Field (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "prob-hcv2-ch34-ex21"
+      ],
+      "taxonomy_node_ids": [
+        "magnetic-effects-of-current",
+        "lorentz-force-and-magnetic-field"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 83,
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+      "pdf_page": 221,
+      "stratum": "HCV2_ELECTROMAGNETISM_EXPOSITION",
+      "section_title": "Chapter 33: Thermal and Chemical Effects of Electric Current (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-hcv2-ch33-p01"
+      ],
+      "taxonomy_node_ids": [
+        "current-electricity",
+        "heating-effect-and-joules-law"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 84,
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+      "pdf_page": 298,
+      "stratum": "HCV2_ELECTROMAGNETISM_EXPOSITION",
+      "section_title": "Chapter 37: Magnetic Properties of Matter (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "ev-exp-reex-src-concepts-p0298"
+      ],
+      "taxonomy_node_ids": [],
+      "reclassification_category": "EXPOSITORY_REEXTRACTED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Expository content re-extracted on-the-fly into ev-exp-reex-src-concepts-p0298."
+    },
+    {
+      "sample_index": 85,
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+      "pdf_page": 277,
+      "stratum": "HCV2_ELECTROMAGNETISM_EXPOSITION",
+      "section_title": "Chapter 36: Permanent Magnets (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-hcv2-ch36-p04"
+      ],
+      "taxonomy_node_ids": [
+        "magnetism-and-matter",
+        "magnetic-dipole-and-bar-magnet"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 86,
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+      "pdf_page": 249,
+      "stratum": "HCV2_ELECTROMAGNETISM_EXPOSITION",
+      "section_title": "Chapter 35: Magnetic Field due to a Current (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 2,
+      "evidence_ids": [
+        "evid-hcv2-p247-mag-biot-savart",
+        "exp-hcv2-ch35-p02"
+      ],
+      "taxonomy_node_ids": [
+        "magnetic-effects-of-current",
+        "biot-savart-law-and-ampere-law"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 2 granular evidence items."
+    },
+    {
+      "sample_index": 87,
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+      "pdf_page": 236,
+      "stratum": "HCV2_ELECTROMAGNETISM_EXPOSITION",
+      "section_title": "Chapter 34: Magnetic Field (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "ev-exp-reex-src-concepts-p0236"
+      ],
+      "taxonomy_node_ids": [],
+      "reclassification_category": "EXPOSITORY_REEXTRACTED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Expository content re-extracted on-the-fly into ev-exp-reex-src-concepts-p0236."
+    },
+    {
+      "sample_index": 88,
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+      "pdf_page": 263,
+      "stratum": "HCV2_ELECTROMAGNETISM_EXPOSITION",
+      "section_title": "Chapter 35: Magnetic Field due to a Current (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "ev-exp-reex-src-concepts-p0263"
+      ],
+      "taxonomy_node_ids": [],
+      "reclassification_category": "EXPOSITORY_REEXTRACTED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Expository content re-extracted on-the-fly into ev-exp-reex-src-concepts-p0263."
+    },
+    {
+      "sample_index": 89,
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+      "pdf_page": 194,
+      "stratum": "HCV2_ELECTROMAGNETISM_EXPOSITION",
+      "section_title": "Chapter 32: Electric Current in Conductors (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-hcv2-ch32-p04"
+      ],
+      "taxonomy_node_ids": [
+        "current-electricity",
+        "electric-current-and-drift",
+        "dc-circuits"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 90,
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+      "pdf_page": 238,
+      "stratum": "HCV2_ELECTROMAGNETISM_EXPOSITION",
+      "section_title": "Chapter 34: Magnetic Field (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "ev-exp-reex-src-concepts-p0238"
+      ],
+      "taxonomy_node_ids": [],
+      "reclassification_category": "EXPOSITORY_REEXTRACTED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Expository content re-extracted on-the-fly into ev-exp-reex-src-concepts-p0238."
+    },
+    {
+      "sample_index": 91,
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+      "pdf_page": 188,
+      "stratum": "HCV2_ELECTROMAGNETISM_EXPOSITION",
+      "section_title": "Chapter 32: Electric Current in Conductors (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 5,
+      "evidence_ids": [
+        "evid-hcv2-p188-drift-velocity",
+        "exp-hcv2-ch32-p01",
+        "form-evid-curr-drift",
+        "deriv-evid-drift-velocity-hcv2",
+        "fig-evid-drift-cylinder-hcv2"
+      ],
+      "taxonomy_node_ids": [
+        "current-electricity",
+        "electric-current-and-drift",
+        "dc-circuits"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 5 granular evidence items."
+    },
+    {
+      "sample_index": 92,
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+      "pdf_page": 260,
+      "stratum": "HCV2_ELECTROMAGNETISM_EXPOSITION",
+      "section_title": "Chapter 35: Magnetic Field due to a Current (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-hcv2-ch35-p08"
+      ],
+      "taxonomy_node_ids": [
+        "magnetic-effects-of-current",
+        "biot-savart-law-and-ampere-law"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 93,
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+      "pdf_page": 282,
+      "stratum": "HCV2_ELECTROMAGNETISM_EXPOSITION",
+      "section_title": "Chapter 37: Magnetic Properties of Matter (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-hcv2-ch37-p01"
+      ],
+      "taxonomy_node_ids": [
+        "magnetism-and-matter",
+        "magnetic-properties-of-materials"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 94,
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+      "pdf_page": 196,
+      "stratum": "HCV2_ELECTROMAGNETISM_EXPOSITION",
+      "section_title": "Chapter 32: Electric Current in Conductors (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-hcv2-ch32-p05"
+      ],
+      "taxonomy_node_ids": [
+        "current-electricity",
+        "electric-current-and-drift",
+        "dc-circuits"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 95,
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+      "pdf_page": 234,
+      "stratum": "HCV2_ELECTROMAGNETISM_EXPOSITION",
+      "section_title": "Chapter 34: Magnetic Field (Complete Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-hcv2-ch34-p03"
+      ],
+      "taxonomy_node_ids": [
+        "magnetic-effects-of-current",
+        "lorentz-force-and-magnetic-field"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 96,
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "source_filename": "Fundamentals of Physics-Halliday,Resnick,Walker.pdf",
+      "pdf_page": 670,
+      "stratum": "HALLIDAY_DERIVATION_FORMULA_HEAVY",
+      "section_title": "Chapter 20: Entropy and the Second Law of Thermodynamics (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "ev-exp-reex-src-fundamen-p0670"
+      ],
+      "taxonomy_node_ids": [],
+      "reclassification_category": "EXPOSITORY_REEXTRACTED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Expository content re-extracted on-the-fly into ev-exp-reex-src-fundamen-p0670."
+    },
+    {
+      "sample_index": 97,
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "source_filename": "Fundamentals of Physics-Halliday,Resnick,Walker.pdf",
+      "pdf_page": 747,
+      "stratum": "HALLIDAY_DERIVATION_FORMULA_HEAVY",
+      "section_title": "Chapter 23: Gauss' Law (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-hr-ch23-p06"
+      ],
+      "taxonomy_node_ids": [
+        "electrostatics",
+        "electric-flux-and-gauss-law"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 98,
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "source_filename": "Fundamentals of Physics-Halliday,Resnick,Walker.pdf",
+      "pdf_page": 191,
+      "stratum": "HALLIDAY_DERIVATION_FORMULA_HEAVY",
+      "section_title": "Chapter 7: Kinetic Energy and Work (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "ev-exp-reex-src-fundamen-p0191"
+      ],
+      "taxonomy_node_ids": [],
+      "reclassification_category": "EXPOSITORY_REEXTRACTED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Expository content re-extracted on-the-fly into ev-exp-reex-src-fundamen-p0191."
+    },
+    {
+      "sample_index": 99,
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "source_filename": "Fundamentals of Physics-Halliday,Resnick,Walker.pdf",
+      "pdf_page": 138,
+      "stratum": "HALLIDAY_DERIVATION_FORMULA_HEAVY",
+      "section_title": "Chapter 5: Force and Motion-I (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "prob-hr-ch05-p001"
+      ],
+      "taxonomy_node_ids": [
+        "laws-of-motion",
+        "newtons-laws"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 100,
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "source_filename": "Fundamentals of Physics-Halliday,Resnick,Walker.pdf",
+      "pdf_page": 715,
+      "stratum": "HALLIDAY_DERIVATION_FORMULA_HEAVY",
+      "section_title": "Chapter 22: Electric Fields (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-hr-ch22-p05"
+      ],
+      "taxonomy_node_ids": [
+        "electrostatics",
+        "electric-field-and-dipole"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 101,
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "source_filename": "Fundamentals of Physics-Halliday,Resnick,Walker.pdf",
+      "pdf_page": 635,
+      "stratum": "HALLIDAY_DERIVATION_FORMULA_HEAVY",
+      "section_title": "Chapter 19: The Kinetic Theory of Gases (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "ev-exp-reex-src-fundamen-p0635"
+      ],
+      "taxonomy_node_ids": [],
+      "reclassification_category": "EXPOSITORY_REEXTRACTED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Expository content re-extracted on-the-fly into ev-exp-reex-src-fundamen-p0635."
+    },
+    {
+      "sample_index": 102,
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "source_filename": "Fundamentals of Physics-Halliday,Resnick,Walker.pdf",
+      "pdf_page": 232,
+      "stratum": "HALLIDAY_DERIVATION_FORMULA_HEAVY",
+      "section_title": "Chapter 8: Potential Energy and Conservation of Energy (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "ev-exp-reex-src-fundamen-p0232"
+      ],
+      "taxonomy_node_ids": [],
+      "reclassification_category": "EXPOSITORY_REEXTRACTED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Expository content re-extracted on-the-fly into ev-exp-reex-src-fundamen-p0232."
+    },
+    {
+      "sample_index": 103,
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "source_filename": "Fundamentals of Physics-Halliday,Resnick,Walker.pdf",
+      "pdf_page": 709,
+      "stratum": "HALLIDAY_DERIVATION_FORMULA_HEAVY",
+      "section_title": "Chapter 22: Electric Fields (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-hr-ch22-p02"
+      ],
+      "taxonomy_node_ids": [
+        "electrostatics",
+        "electric-field-and-dipole"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 104,
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "source_filename": "Fundamentals of Physics-Halliday,Resnick,Walker.pdf",
+      "pdf_page": 614,
+      "stratum": "HALLIDAY_DERIVATION_FORMULA_HEAVY",
+      "section_title": "Chapter 19: The Kinetic Theory of Gases (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-hr-ch19-p02"
+      ],
+      "taxonomy_node_ids": [
+        "kinetic-theory-of-gases"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 105,
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "source_filename": "Fundamentals of Physics-Halliday,Resnick,Walker.pdf",
+      "pdf_page": 103,
+      "stratum": "HALLIDAY_DERIVATION_FORMULA_HEAVY",
+      "section_title": "Chapter 4: Motion in Two and Three Dimensions (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "ev-exp-reex-src-fundamen-p0103"
+      ],
+      "taxonomy_node_ids": [],
+      "reclassification_category": "EXPOSITORY_REEXTRACTED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Expository content re-extracted on-the-fly into ev-exp-reex-src-fundamen-p0103."
+    },
+    {
+      "sample_index": 106,
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "source_filename": "Fundamentals of Physics-Halliday,Resnick,Walker.pdf",
+      "pdf_page": 165,
+      "stratum": "HALLIDAY_DERIVATION_FORMULA_HEAVY",
+      "section_title": "Chapter 6: Force and Motion-II (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "ev-exp-reex-src-fundamen-p0165"
+      ],
+      "taxonomy_node_ids": [],
+      "reclassification_category": "EXPOSITORY_REEXTRACTED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Expository content re-extracted on-the-fly into ev-exp-reex-src-fundamen-p0165."
+    },
+    {
+      "sample_index": 107,
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "source_filename": "Fundamentals of Physics-Halliday,Resnick,Walker.pdf",
+      "pdf_page": 101,
+      "stratum": "HALLIDAY_DERIVATION_FORMULA_HEAVY",
+      "section_title": "Chapter 4: Motion in Two and Three Dimensions (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "ev-exp-reex-src-fundamen-p0101"
+      ],
+      "taxonomy_node_ids": [],
+      "reclassification_category": "EXPOSITORY_REEXTRACTED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Expository content re-extracted on-the-fly into ev-exp-reex-src-fundamen-p0101."
+    },
+    {
+      "sample_index": 108,
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "source_filename": "Fundamentals of Physics-Halliday,Resnick,Walker.pdf",
+      "pdf_page": 156,
+      "stratum": "HALLIDAY_DERIVATION_FORMULA_HEAVY",
+      "section_title": "Chapter 6: Force and Motion-II (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-hr-ch06-p06"
+      ],
+      "taxonomy_node_ids": [
+        "laws-of-motion",
+        "friction"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 109,
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "source_filename": "Fundamentals of Physics-Halliday,Resnick,Walker.pdf",
+      "pdf_page": 667,
+      "stratum": "HALLIDAY_DERIVATION_FORMULA_HEAVY",
+      "section_title": "Chapter 20: Entropy and the Second Law of Thermodynamics (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "ev-exp-reex-src-fundamen-p0667"
+      ],
+      "taxonomy_node_ids": [],
+      "reclassification_category": "EXPOSITORY_REEXTRACTED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Expository content re-extracted on-the-fly into ev-exp-reex-src-fundamen-p0667."
+    },
+    {
+      "sample_index": 110,
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "source_filename": "Fundamentals of Physics-Halliday,Resnick,Walker.pdf",
+      "pdf_page": 655,
+      "stratum": "HALLIDAY_DERIVATION_FORMULA_HEAVY",
+      "section_title": "Chapter 20: Entropy and the Second Law of Thermodynamics (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "ev-exp-reex-src-fundamen-p0655"
+      ],
+      "taxonomy_node_ids": [],
+      "reclassification_category": "EXPOSITORY_REEXTRACTED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Expository content re-extracted on-the-fly into ev-exp-reex-src-fundamen-p0655."
+    },
+    {
+      "sample_index": 111,
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "source_filename": "Fundamentals of Physics-Halliday,Resnick,Walker.pdf",
+      "pdf_page": 164,
+      "stratum": "HALLIDAY_DERIVATION_FORMULA_HEAVY",
+      "section_title": "Chapter 6: Force and Motion-II (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "ev-exp-reex-src-fundamen-p0164"
+      ],
+      "taxonomy_node_ids": [],
+      "reclassification_category": "EXPOSITORY_REEXTRACTED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Expository content re-extracted on-the-fly into ev-exp-reex-src-fundamen-p0164."
+    },
+    {
+      "sample_index": 112,
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "source_filename": "Fundamentals of Physics-Halliday,Resnick,Walker.pdf",
+      "pdf_page": 679,
+      "stratum": "HALLIDAY_DERIVATION_FORMULA_HEAVY",
+      "section_title": "Chapter 20: Entropy and the Second Law of Thermodynamics (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "prob-hr-ch20-p023"
+      ],
+      "taxonomy_node_ids": [
+        "thermodynamics",
+        "second-law-and-entropy"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 113,
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "source_filename": "Fundamentals of Physics-Halliday,Resnick,Walker.pdf",
+      "pdf_page": 249,
+      "stratum": "HALLIDAY_DERIVATION_FORMULA_HEAVY",
+      "section_title": "Chapter 9: Center of Mass and Linear Momentum (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-hr-ch09-p05"
+      ],
+      "taxonomy_node_ids": [
+        "center-of-mass",
+        "collisions-and-impulse"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 114,
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "source_filename": "Fundamentals of Physics-Halliday,Resnick,Walker.pdf",
+      "pdf_page": 678,
+      "stratum": "HALLIDAY_DERIVATION_FORMULA_HEAVY",
+      "section_title": "Chapter 20: Entropy and the Second Law of Thermodynamics (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "prob-hr-ch20-p001"
+      ],
+      "taxonomy_node_ids": [
+        "thermodynamics",
+        "second-law-and-entropy"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 115,
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "source_filename": "Fundamentals of Physics-Halliday,Resnick,Walker.pdf",
+      "pdf_page": 234,
+      "stratum": "HALLIDAY_DERIVATION_FORMULA_HEAVY",
+      "section_title": "Chapter 8: Potential Energy and Conservation of Energy (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "prob-hr-ch08-p001"
+      ],
+      "taxonomy_node_ids": [
+        "work-energy-power",
+        "conservation-of-energy"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 116,
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "source_filename": "Fundamentals of Physics-Halliday,Resnick,Walker.pdf",
+      "pdf_page": 215,
+      "stratum": "HALLIDAY_DERIVATION_FORMULA_HEAVY",
+      "section_title": "Chapter 8: Potential Energy and Conservation of Energy (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-hr-ch08-p07"
+      ],
+      "taxonomy_node_ids": [
+        "work-energy-power",
+        "conservation-of-energy"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 117,
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "source_filename": "Fundamentals of Physics-Halliday,Resnick,Walker.pdf",
+      "pdf_page": 142,
+      "stratum": "HALLIDAY_DERIVATION_FORMULA_HEAVY",
+      "section_title": "Chapter 5: Force and Motion-I (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "prob-hr-ch05-p070"
+      ],
+      "taxonomy_node_ids": [
+        "laws-of-motion",
+        "newtons-laws"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 118,
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "source_filename": "Fundamentals of Physics-Halliday,Resnick,Walker.pdf",
+      "pdf_page": 100,
+      "stratum": "HALLIDAY_DERIVATION_FORMULA_HEAVY",
+      "section_title": "Chapter 4: Motion in Two and Three Dimensions (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "ev-exp-reex-src-fundamen-p0100"
+      ],
+      "taxonomy_node_ids": [],
+      "reclassification_category": "EXPOSITORY_REEXTRACTED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Expository content re-extracted on-the-fly into ev-exp-reex-src-fundamen-p0100."
+    },
+    {
+      "sample_index": 119,
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "source_filename": "Fundamentals of Physics-Halliday,Resnick,Walker.pdf",
+      "pdf_page": 640,
+      "stratum": "HALLIDAY_DERIVATION_FORMULA_HEAVY",
+      "section_title": "Chapter 19: The Kinetic Theory of Gases (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "prob-hr-ch19-p001"
+      ],
+      "taxonomy_node_ids": [
+        "kinetic-theory-of-gases"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 120,
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "source_filename": "Fundamentals of Physics-Halliday,Resnick,Walker.pdf",
+      "pdf_page": 632,
+      "stratum": "HALLIDAY_DERIVATION_FORMULA_HEAVY",
+      "section_title": "Chapter 19: The Kinetic Theory of Gases (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-audit-hr-p0632"
+      ],
+      "taxonomy_node_ids": [],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 121,
+      "source_id": "src-university-physics-with--0bc11b67",
+      "source_filename": "University Physics with Modern Physics, 13th Edition.pdf",
+      "pdf_page": 163,
+      "stratum": "UNIVERSITY_PHYSICS_EXPOSITION_FIGURE_HEAVY",
+      "section_title": "Chapter 5: Applying Newton's Laws (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-up-ch05-p02"
+      ],
+      "taxonomy_node_ids": [
+        "laws-of-motion",
+        "friction",
+        "circular-motion"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 122,
+      "source_id": "src-university-physics-with--0bc11b67",
+      "source_filename": "University Physics with Modern Physics, 13th Edition.pdf",
+      "pdf_page": 118,
+      "stratum": "UNIVERSITY_PHYSICS_EXPOSITION_FIGURE_HEAVY",
+      "section_title": "Chapter 3: Motion in Two or Three Dimensions (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-up-ch03-p12"
+      ],
+      "taxonomy_node_ids": [
+        "kinematics",
+        "projectile-motion"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 123,
+      "source_id": "src-university-physics-with--0bc11b67",
+      "source_filename": "University Physics with Modern Physics, 13th Edition.pdf",
+      "pdf_page": 182,
+      "stratum": "UNIVERSITY_PHYSICS_EXPOSITION_FIGURE_HEAVY",
+      "section_title": "Chapter 5: Applying Newton's Laws (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-up-ch05-p12"
+      ],
+      "taxonomy_node_ids": [
+        "laws-of-motion",
+        "friction",
+        "circular-motion"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 124,
+      "source_id": "src-university-physics-with--0bc11b67",
+      "source_filename": "University Physics with Modern Physics, 13th Edition.pdf",
+      "pdf_page": 226,
+      "stratum": "UNIVERSITY_PHYSICS_EXPOSITION_FIGURE_HEAVY",
+      "section_title": "Chapter 6: Work and Kinetic Energy (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-up-ch06-p11"
+      ],
+      "taxonomy_node_ids": [
+        "work-energy-power",
+        "work-energy-theorem"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 125,
+      "source_id": "src-university-physics-with--0bc11b67",
+      "source_filename": "University Physics with Modern Physics, 13th Edition.pdf",
+      "pdf_page": 233,
+      "stratum": "UNIVERSITY_PHYSICS_EXPOSITION_FIGURE_HEAVY",
+      "section_title": "Chapter 6: Work and Kinetic Energy (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 2,
+      "evidence_ids": [
+        "exp-up-ch06-p15",
+        "prob-up-ch06-ex024"
+      ],
+      "taxonomy_node_ids": [
+        "work-energy-power",
+        "work-energy-theorem"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 2 granular evidence items."
+    },
+    {
+      "sample_index": 126,
+      "source_id": "src-university-physics-with--0bc11b67",
+      "source_filename": "University Physics with Modern Physics, 13th Edition.pdf",
+      "pdf_page": 902,
+      "stratum": "UNIVERSITY_PHYSICS_EXPOSITION_FIGURE_HEAVY",
+      "section_title": "Chapter 25: Current, Resistance, and Electromotive Force (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "ev-exp-reex-src-universi-p0902"
+      ],
+      "taxonomy_node_ids": [],
+      "reclassification_category": "EXPOSITORY_REEXTRACTED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Expository content re-extracted on-the-fly into ev-exp-reex-src-universi-p0902."
+    },
+    {
+      "sample_index": 127,
+      "source_id": "src-university-physics-with--0bc11b67",
+      "source_filename": "University Physics with Modern Physics, 13th Edition.pdf",
+      "pdf_page": 135,
+      "stratum": "UNIVERSITY_PHYSICS_EXPOSITION_FIGURE_HEAVY",
+      "section_title": "Chapter 4: Newton's Laws of Motion (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-up-ch04-p03"
+      ],
+      "taxonomy_node_ids": [
+        "laws-of-motion",
+        "newtons-laws"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 128,
+      "source_id": "src-university-physics-with--0bc11b67",
+      "source_filename": "University Physics with Modern Physics, 13th Edition.pdf",
+      "pdf_page": 864,
+      "stratum": "UNIVERSITY_PHYSICS_EXPOSITION_FIGURE_HEAVY",
+      "section_title": "Chapter 24: Capacitance and Dielectrics (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-up-ch24-p04"
+      ],
+      "taxonomy_node_ids": [
+        "capacitance",
+        "capacitance-fundamentals"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 129,
+      "source_id": "src-university-physics-with--0bc11b67",
+      "source_filename": "University Physics with Modern Physics, 13th Edition.pdf",
+      "pdf_page": 860,
+      "stratum": "UNIVERSITY_PHYSICS_EXPOSITION_FIGURE_HEAVY",
+      "section_title": "Chapter 24: Capacitance and Dielectrics (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-up-ch24-p02"
+      ],
+      "taxonomy_node_ids": [
+        "capacitance",
+        "capacitance-fundamentals"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 130,
+      "source_id": "src-university-physics-with--0bc11b67",
+      "source_filename": "University Physics with Modern Physics, 13th Edition.pdf",
+      "pdf_page": 949,
+      "stratum": "UNIVERSITY_PHYSICS_EXPOSITION_FIGURE_HEAVY",
+      "section_title": "Chapter 26: Direct-Current Circuits (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "ev-exp-reex-src-universi-p0949"
+      ],
+      "taxonomy_node_ids": [],
+      "reclassification_category": "EXPOSITORY_REEXTRACTED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Expository content re-extracted on-the-fly into ev-exp-reex-src-universi-p0949."
+    },
+    {
+      "sample_index": 131,
+      "source_id": "src-university-physics-with--0bc11b67",
+      "source_filename": "University Physics with Modern Physics, 13th Edition.pdf",
+      "pdf_page": 1011,
+      "stratum": "UNIVERSITY_PHYSICS_EXPOSITION_FIGURE_HEAVY",
+      "section_title": "Chapter 28: Sources of Magnetic Field (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "ev-exp-reex-src-universi-p1011"
+      ],
+      "taxonomy_node_ids": [],
+      "reclassification_category": "EXPOSITORY_REEXTRACTED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Expository content re-extracted on-the-fly into ev-exp-reex-src-universi-p1011."
+    },
+    {
+      "sample_index": 132,
+      "source_id": "src-university-physics-with--0bc11b67",
+      "source_filename": "University Physics with Modern Physics, 13th Edition.pdf",
+      "pdf_page": 327,
+      "stratum": "UNIVERSITY_PHYSICS_EXPOSITION_FIGURE_HEAVY",
+      "section_title": "Chapter 9: Rotation of Rigid Bodies (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-up-ch09-p07"
+      ],
+      "taxonomy_node_ids": [
+        "rotational-motion",
+        "moment-of-inertia"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 133,
+      "source_id": "src-university-physics-with--0bc11b67",
+      "source_filename": "University Physics with Modern Physics, 13th Edition.pdf",
+      "pdf_page": 1036,
+      "stratum": "UNIVERSITY_PHYSICS_EXPOSITION_FIGURE_HEAVY",
+      "section_title": "Chapter 28: Sources of Magnetic Field (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "ev-exp-reex-src-universi-p1036"
+      ],
+      "taxonomy_node_ids": [],
+      "reclassification_category": "EXPOSITORY_REEXTRACTED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Expository content re-extracted on-the-fly into ev-exp-reex-src-universi-p1036."
+    },
+    {
+      "sample_index": 134,
+      "source_id": "src-university-physics-with--0bc11b67",
+      "source_filename": "University Physics with Modern Physics, 13th Edition.pdf",
+      "pdf_page": 81,
+      "stratum": "UNIVERSITY_PHYSICS_EXPOSITION_FIGURE_HEAVY",
+      "section_title": "Chapter 2: Motion Along a Straight Line (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-up-ch02-p11"
+      ],
+      "taxonomy_node_ids": [
+        "kinematics",
+        "motion-in-a-straight-line"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 135,
+      "source_id": "src-university-physics-with--0bc11b67",
+      "source_filename": "University Physics with Modern Physics, 13th Edition.pdf",
+      "pdf_page": 187,
+      "stratum": "UNIVERSITY_PHYSICS_EXPOSITION_FIGURE_HEAVY",
+      "section_title": "Chapter 5: Applying Newton's Laws (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-up-ch05-p14"
+      ],
+      "taxonomy_node_ids": [
+        "laws-of-motion",
+        "friction",
+        "circular-motion"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 136,
+      "source_id": "src-university-physics-with--0bc11b67",
+      "source_filename": "University Physics with Modern Physics, 13th Edition.pdf",
+      "pdf_page": 1019,
+      "stratum": "UNIVERSITY_PHYSICS_EXPOSITION_FIGURE_HEAVY",
+      "section_title": "Chapter 28: Sources of Magnetic Field (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "ev-exp-reex-src-universi-p1019"
+      ],
+      "taxonomy_node_ids": [],
+      "reclassification_category": "EXPOSITORY_REEXTRACTED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Expository content re-extracted on-the-fly into ev-exp-reex-src-universi-p1019."
+    },
+    {
+      "sample_index": 137,
+      "source_id": "src-university-physics-with--0bc11b67",
+      "source_filename": "University Physics with Modern Physics, 13th Edition.pdf",
+      "pdf_page": 343,
+      "stratum": "UNIVERSITY_PHYSICS_EXPOSITION_FIGURE_HEAVY",
+      "section_title": "Chapter 9: Rotation of Rigid Bodies (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "prob-up-ch09-ex049"
+      ],
+      "taxonomy_node_ids": [
+        "rotational-motion",
+        "moment-of-inertia"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 138,
+      "source_id": "src-university-physics-with--0bc11b67",
+      "source_filename": "University Physics with Modern Physics, 13th Edition.pdf",
+      "pdf_page": 818,
+      "stratum": "UNIVERSITY_PHYSICS_EXPOSITION_FIGURE_HEAVY",
+      "section_title": "Chapter 22: Gauss's Law (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "ev-exp-reex-src-universi-p0818"
+      ],
+      "taxonomy_node_ids": [],
+      "reclassification_category": "EXPOSITORY_REEXTRACTED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Expository content re-extracted on-the-fly into ev-exp-reex-src-universi-p0818."
+    },
+    {
+      "sample_index": 139,
+      "source_id": "src-university-physics-with--0bc11b67",
+      "source_filename": "University Physics with Modern Physics, 13th Edition.pdf",
+      "pdf_page": 184,
+      "stratum": "UNIVERSITY_PHYSICS_EXPOSITION_FIGURE_HEAVY",
+      "section_title": "Chapter 5: Applying Newton's Laws (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-up-ch05-p13"
+      ],
+      "taxonomy_node_ids": [
+        "laws-of-motion",
+        "friction",
+        "circular-motion"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 140,
+      "source_id": "src-university-physics-with--0bc11b67",
+      "source_filename": "University Physics with Modern Physics, 13th Edition.pdf",
+      "pdf_page": 770,
+      "stratum": "UNIVERSITY_PHYSICS_EXPOSITION_FIGURE_HEAVY",
+      "section_title": "Chapter 21: Electric Charge and Electric Field (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-up-ch21-p10"
+      ],
+      "taxonomy_node_ids": [
+        "electrostatics",
+        "electric-charge-and-coulombs-law"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 141,
+      "source_id": "src-university-physics-with--0bc11b67",
+      "source_filename": "University Physics with Modern Physics, 13th Edition.pdf",
+      "pdf_page": 915,
+      "stratum": "UNIVERSITY_PHYSICS_EXPOSITION_FIGURE_HEAVY",
+      "section_title": "Chapter 25: Current, Resistance, and Electromotive Force (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "ev-exp-reex-src-universi-p0915"
+      ],
+      "taxonomy_node_ids": [],
+      "reclassification_category": "EXPOSITORY_REEXTRACTED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Expository content re-extracted on-the-fly into ev-exp-reex-src-universi-p0915."
+    },
+    {
+      "sample_index": 142,
+      "source_id": "src-university-physics-with--0bc11b67",
+      "source_filename": "University Physics with Modern Physics, 13th Edition.pdf",
+      "pdf_page": 231,
+      "stratum": "UNIVERSITY_PHYSICS_EXPOSITION_FIGURE_HEAVY",
+      "section_title": "Chapter 6: Work and Kinetic Energy (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-up-ch06-p14"
+      ],
+      "taxonomy_node_ids": [
+        "work-energy-power",
+        "work-energy-theorem"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 143,
+      "source_id": "src-university-physics-with--0bc11b67",
+      "source_filename": "University Physics with Modern Physics, 13th Edition.pdf",
+      "pdf_page": 934,
+      "stratum": "UNIVERSITY_PHYSICS_EXPOSITION_FIGURE_HEAVY",
+      "section_title": "Chapter 26: Direct-Current Circuits (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-up-ch26-p05"
+      ],
+      "taxonomy_node_ids": [
+        "current-electricity",
+        "dc-circuits"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 144,
+      "source_id": "src-university-physics-with--0bc11b67",
+      "source_filename": "University Physics with Modern Physics, 13th Edition.pdf",
+      "pdf_page": 73,
+      "stratum": "UNIVERSITY_PHYSICS_EXPOSITION_FIGURE_HEAVY",
+      "section_title": "Chapter 2: Motion Along a Straight Line (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-up-ch02-p07"
+      ],
+      "taxonomy_node_ids": [
+        "kinematics",
+        "motion-in-a-straight-line"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 145,
+      "source_id": "src-university-physics-with--0bc11b67",
+      "source_filename": "University Physics with Modern Physics, 13th Edition.pdf",
+      "pdf_page": 339,
+      "stratum": "UNIVERSITY_PHYSICS_EXPOSITION_FIGURE_HEAVY",
+      "section_title": "Chapter 9: Rotation of Rigid Bodies (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "ev-exp-reex-src-universi-p0339"
+      ],
+      "taxonomy_node_ids": [],
+      "reclassification_category": "EXPOSITORY_REEXTRACTED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Expository content re-extracted on-the-fly into ev-exp-reex-src-universi-p0339."
+    },
+    {
+      "sample_index": 146,
+      "source_id": "src-university-physics-with--0bc11b67",
+      "source_filename": "University Physics with Modern Physics, 13th Edition.pdf",
+      "pdf_page": 982,
+      "stratum": "UNIVERSITY_PHYSICS_EXPOSITION_FIGURE_HEAVY",
+      "section_title": "Chapter 27: Magnetic Field and Magnetic Forces (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "ev-exp-reex-src-universi-p0982"
+      ],
+      "taxonomy_node_ids": [],
+      "reclassification_category": "EXPOSITORY_REEXTRACTED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Expository content re-extracted on-the-fly into ev-exp-reex-src-universi-p0982."
+    },
+    {
+      "sample_index": 147,
+      "source_id": "src-university-physics-with--0bc11b67",
+      "source_filename": "University Physics with Modern Physics, 13th Edition.pdf",
+      "pdf_page": 252,
+      "stratum": "UNIVERSITY_PHYSICS_EXPOSITION_FIGURE_HEAVY",
+      "section_title": "Chapter 7: Potential Energy and Energy Conservation (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-up-ch07-p07"
+      ],
+      "taxonomy_node_ids": [
+        "work-energy-power",
+        "conservation-of-energy"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 148,
+      "source_id": "src-university-physics-with--0bc11b67",
+      "source_filename": "University Physics with Modern Physics, 13th Edition.pdf",
+      "pdf_page": 989,
+      "stratum": "UNIVERSITY_PHYSICS_EXPOSITION_FIGURE_HEAVY",
+      "section_title": "Chapter 27: Magnetic Field and Magnetic Forces (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "ev-exp-reex-src-universi-p0989"
+      ],
+      "taxonomy_node_ids": [],
+      "reclassification_category": "EXPOSITORY_REEXTRACTED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Expository content re-extracted on-the-fly into ev-exp-reex-src-universi-p0989."
+    },
+    {
+      "sample_index": 149,
+      "source_id": "src-university-physics-with--0bc11b67",
+      "source_filename": "University Physics with Modern Physics, 13th Edition.pdf",
+      "pdf_page": 178,
+      "stratum": "UNIVERSITY_PHYSICS_EXPOSITION_FIGURE_HEAVY",
+      "section_title": "Chapter 5: Applying Newton's Laws (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "exp-up-ch05-p10"
+      ],
+      "taxonomy_node_ids": [
+        "laws-of-motion",
+        "friction",
+        "circular-motion"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 1 granular evidence items."
+    },
+    {
+      "sample_index": 150,
+      "source_id": "src-university-physics-with--0bc11b67",
+      "source_filename": "University Physics with Modern Physics, 13th Edition.pdf",
+      "pdf_page": 775,
+      "stratum": "UNIVERSITY_PHYSICS_EXPOSITION_FIGURE_HEAVY",
+      "section_title": "Chapter 21: Electric Charge and Electric Field (Module)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "ev-exp-reex-src-universi-p0775"
+      ],
+      "taxonomy_node_ids": [],
+      "reclassification_category": "EXPOSITORY_REEXTRACTED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Expository content re-extracted on-the-fly into ev-exp-reex-src-universi-p0775."
+    },
+    {
+      "sample_index": 151,
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "source_filename": "problems_in_general_physics_by_i_e_irodov.pdf",
+      "pdf_page": 269,
+      "stratum": "IRODOV_PROBLEM_DENSE",
+      "section_title": "6.5 Radioactivity",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 3,
+      "evidence_ids": [
+        "prob-irodov-6-247",
+        "prob-irodov-6-248",
+        "prob-irodov-6-249"
+      ],
+      "taxonomy_node_ids": [
+        "nuclear-physics",
+        "radioactivity"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 3 granular evidence items."
+    },
+    {
+      "sample_index": 152,
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "source_filename": "problems_in_general_physics_by_i_e_irodov.pdf",
+      "pdf_page": 111,
+      "stratum": "IRODOV_PROBLEM_DENSE",
+      "section_title": "3.2 Conductors and Dielectrics in an Electric Field",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 6,
+      "evidence_ids": [
+        "prob-irodov-3-078",
+        "prob-irodov-3-079",
+        "prob-irodov-3-080",
+        "prob-irodov-3-081",
+        "prob-irodov-3-082",
+        "prob-irodov-3-083"
+      ],
+      "taxonomy_node_ids": [
+        "electrostatics",
+        "electric-flux-and-gauss-law",
+        "electrostatic-potential-and-work"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 6 granular evidence items."
+    },
+    {
+      "sample_index": 153,
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "source_filename": "problems_in_general_physics_by_i_e_irodov.pdf",
+      "pdf_page": 88,
+      "stratum": "IRODOV_PROBLEM_DENSE",
+      "section_title": "2.4 The Second Law of Thermodynamics. Entropy",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 7,
+      "evidence_ids": [
+        "prob-irodov-2-144",
+        "prob-irodov-2-145",
+        "prob-irodov-2-146",
+        "prob-irodov-2-147",
+        "prob-irodov-2-148",
+        "prob-irodov-2-149",
+        "prob-irodov-2-150"
+      ],
+      "taxonomy_node_ids": [
+        "thermodynamics",
+        "second-law-and-entropy"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 7 granular evidence items."
+    },
+    {
+      "sample_index": 154,
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "source_filename": "problems_in_general_physics_by_i_e_irodov.pdf",
+      "pdf_page": 201,
+      "stratum": "IRODOV_PROBLEM_DENSE",
+      "section_title": "5.1 Photometry and Geometrical Optics",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 3,
+      "evidence_ids": [
+        "prob-irodov-5-033",
+        "prob-irodov-5-034",
+        "prob-irodov-5-035"
+      ],
+      "taxonomy_node_ids": [
+        "ray-optics",
+        "refraction-and-tir",
+        "lenses-and-mirrors"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 3 granular evidence items."
+    },
+    {
+      "sample_index": 155,
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "source_filename": "problems_in_general_physics_by_i_e_irodov.pdf",
+      "pdf_page": 92,
+      "stratum": "IRODOV_PROBLEM_DENSE",
+      "section_title": "2.4 The Second Law of Thermodynamics. Entropy",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 7,
+      "evidence_ids": [
+        "prob-irodov-2-179",
+        "prob-irodov-2-180",
+        "prob-irodov-2-181",
+        "prob-irodov-2-182",
+        "prob-irodov-2-183",
+        "prob-irodov-2-184",
+        "prob-irodov-2-185"
+      ],
+      "taxonomy_node_ids": [
+        "thermodynamics",
+        "second-law-and-entropy"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 7 granular evidence items."
+    },
+    {
+      "sample_index": 156,
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "source_filename": "problems_in_general_physics_by_i_e_irodov.pdf",
+      "pdf_page": 148,
+      "stratum": "IRODOV_PROBLEM_DENSE",
+      "section_title": "3.6 Electromagnetic Induction. Maxwell's Equations",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 7,
+      "evidence_ids": [
+        "prob-irodov-3-305",
+        "prob-irodov-3-306",
+        "prob-irodov-3-307",
+        "prob-irodov-3-308",
+        "prob-irodov-3-309",
+        "prob-irodov-3-310",
+        "prob-irodov-3-311"
+      ],
+      "taxonomy_node_ids": [
+        "electromagnetic-induction",
+        "faradays-law-and-motional-emf"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 7 granular evidence items."
+    },
+    {
+      "sample_index": 157,
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "source_filename": "problems_in_general_physics_by_i_e_irodov.pdf",
+      "pdf_page": 254,
+      "stratum": "IRODOV_PROBLEM_DENSE",
+      "section_title": "6.3 Properties of Atoms. Spectra",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 12,
+      "evidence_ids": [
+        "prob-irodov-6-097",
+        "prob-irodov-6-098",
+        "prob-irodov-6-099",
+        "prob-irodov-6-100",
+        "prob-irodov-6-101",
+        "prob-irodov-6-102",
+        "prob-irodov-6-103",
+        "prob-irodov-6-104",
+        "prob-irodov-6-105",
+        "prob-irodov-6-106"
+      ],
+      "taxonomy_node_ids": [
+        "atomic-physics"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 12 granular evidence items."
+    },
+    {
+      "sample_index": 158,
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "source_filename": "problems_in_general_physics_by_i_e_irodov.pdf",
+      "pdf_page": 209,
+      "stratum": "IRODOV_PROBLEM_DENSE",
+      "section_title": "5.2 Interference of Light",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 7,
+      "evidence_ids": [
+        "prob-irodov-5-078",
+        "prob-irodov-5-079",
+        "prob-irodov-5-080",
+        "prob-irodov-5-081",
+        "prob-irodov-5-082",
+        "prob-irodov-5-083",
+        "prob-irodov-5-084"
+      ],
+      "taxonomy_node_ids": [
+        "wave-optics",
+        "youngs-double-slit"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 7 granular evidence items."
+    },
+    {
+      "sample_index": 159,
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "source_filename": "problems_in_general_physics_by_i_e_irodov.pdf",
+      "pdf_page": 246,
+      "stratum": "IRODOV_PROBLEM_DENSE",
+      "section_title": "6.1 Scattering of Particles. Rutherford-Bohr Atom",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 3,
+      "evidence_ids": [
+        "prob-irodov-6-046",
+        "prob-irodov-6-047",
+        "prob-irodov-6-048"
+      ],
+      "taxonomy_node_ids": [
+        "atomic-physics",
+        "atomic-models"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 3 granular evidence items."
+    },
+    {
+      "sample_index": 160,
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "source_filename": "problems_in_general_physics_by_i_e_irodov.pdf",
+      "pdf_page": 145,
+      "stratum": "IRODOV_PROBLEM_DENSE",
+      "section_title": "3.6 Electromagnetic Induction. Maxwell's Equations",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 4,
+      "evidence_ids": [
+        "prob-irodov-3-293",
+        "prob-irodov-3-294",
+        "prob-irodov-3-295",
+        "prob-irodov-3-296"
+      ],
+      "taxonomy_node_ids": [
+        "electromagnetic-induction",
+        "faradays-law-and-motional-emf"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 4 granular evidence items."
+    },
+    {
+      "sample_index": 161,
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "source_filename": "problems_in_general_physics_by_i_e_irodov.pdf",
+      "pdf_page": 245,
+      "stratum": "IRODOV_PROBLEM_DENSE",
+      "section_title": "6.1 Scattering of Particles. Rutherford-Bohr Atom",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 16,
+      "evidence_ids": [
+        "prob-irodov-6-030",
+        "prob-irodov-6-031",
+        "prob-irodov-6-032",
+        "prob-irodov-6-033",
+        "prob-irodov-6-034",
+        "prob-irodov-6-035",
+        "prob-irodov-6-036",
+        "prob-irodov-6-037",
+        "prob-irodov-6-038",
+        "prob-irodov-6-039"
+      ],
+      "taxonomy_node_ids": [
+        "atomic-physics",
+        "atomic-models"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 16 granular evidence items."
+    },
+    {
+      "sample_index": 162,
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "source_filename": "problems_in_general_physics_by_i_e_irodov.pdf",
+      "pdf_page": 10,
+      "stratum": "IRODOV_PROBLEM_DENSE",
+      "section_title": "1.1 Kinematics",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 2,
+      "evidence_ids": [
+        "prob-irodov-1-001",
+        "prob-irodov-1-002"
+      ],
+      "taxonomy_node_ids": [
+        "kinematics",
+        "motion-in-a-straight-line",
+        "projectile-motion"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 2 granular evidence items."
+    },
+    {
+      "sample_index": 163,
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "source_filename": "problems_in_general_physics_by_i_e_irodov.pdf",
+      "pdf_page": 163,
+      "stratum": "IRODOV_PROBLEM_DENSE",
+      "section_title": "4.1 Mechanical Oscillations",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 10,
+      "evidence_ids": [
+        "prob-irodov-4-003",
+        "prob-irodov-4-004",
+        "prob-irodov-4-005",
+        "prob-irodov-4-006",
+        "prob-irodov-4-007",
+        "prob-irodov-4-008",
+        "prob-irodov-4-009",
+        "prob-irodov-4-010",
+        "prob-irodov-4-011",
+        "prob-irodov-4-012"
+      ],
+      "taxonomy_node_ids": [
+        "oscillations",
+        "simple-harmonic-motion"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 10 granular evidence items."
+    },
+    {
+      "sample_index": 164,
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "source_filename": "problems_in_general_physics_by_i_e_irodov.pdf",
+      "pdf_page": 265,
+      "stratum": "IRODOV_PROBLEM_DENSE",
+      "section_title": "6.4 Molecules and Crystals",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 5,
+      "evidence_ids": [
+        "prob-irodov-6-209",
+        "prob-irodov-6-210",
+        "prob-irodov-6-211",
+        "prob-irodov-6-212",
+        "prob-irodov-6-213"
+      ],
+      "taxonomy_node_ids": [
+        "properties-of-solids"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 5 granular evidence items."
+    },
+    {
+      "sample_index": 165,
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "source_filename": "problems_in_general_physics_by_i_e_irodov.pdf",
+      "pdf_page": 135,
+      "stratum": "IRODOV_PROBLEM_DENSE",
+      "section_title": "3.5 Constant Magnetic Field. Magnetics",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 9,
+      "evidence_ids": [
+        "prob-irodov-3-231",
+        "prob-irodov-3-232",
+        "prob-irodov-3-233",
+        "prob-irodov-3-234",
+        "prob-irodov-3-235",
+        "prob-irodov-3-236",
+        "prob-irodov-3-237",
+        "prob-irodov-3-238",
+        "prob-irodov-3-239"
+      ],
+      "taxonomy_node_ids": [
+        "magnetic-effects-of-current",
+        "biot-savart-law-and-ampere-law",
+        "magnetism-and-matter"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 9 granular evidence items."
+    },
+    {
+      "sample_index": 166,
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "source_filename": "problems_in_general_physics_by_i_e_irodov.pdf",
+      "pdf_page": 14,
+      "stratum": "IRODOV_PROBLEM_DENSE",
+      "section_title": "1.1 Kinematics",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 7,
+      "evidence_ids": [
+        "prob-irodov-1-023",
+        "prob-irodov-1-024",
+        "prob-irodov-1-025",
+        "prob-irodov-1-026",
+        "prob-irodov-1-027",
+        "prob-irodov-1-028",
+        "prob-irodov-1-029"
+      ],
+      "taxonomy_node_ids": [
+        "kinematics",
+        "motion-in-a-straight-line",
+        "projectile-motion"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 7 granular evidence items."
+    },
+    {
+      "sample_index": 167,
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "source_filename": "problems_in_general_physics_by_i_e_irodov.pdf",
+      "pdf_page": 38,
+      "stratum": "IRODOV_PROBLEM_DENSE",
+      "section_title": "1.3 Conservation Laws (Energy, Momentum, Angular Momentum)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 8,
+      "evidence_ids": [
+        "prob-irodov-1-170",
+        "prob-irodov-1-171",
+        "prob-irodov-1-172",
+        "prob-irodov-1-173",
+        "prob-irodov-1-174",
+        "prob-irodov-1-175",
+        "prob-irodov-1-176",
+        "prob-irodov-1-177"
+      ],
+      "taxonomy_node_ids": [
+        "work-energy-power",
+        "conservation-of-energy",
+        "center-of-mass",
+        "rotational-motion"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 8 granular evidence items."
+    },
+    {
+      "sample_index": 168,
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "source_filename": "problems_in_general_physics_by_i_e_irodov.pdf",
+      "pdf_page": 247,
+      "stratum": "IRODOV_PROBLEM_DENSE",
+      "section_title": "6.2 Wave Properties of Particles. Schrodinger Equation",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 11,
+      "evidence_ids": [
+        "prob-irodov-6-049",
+        "prob-irodov-6-050",
+        "prob-irodov-6-051",
+        "prob-irodov-6-052",
+        "prob-irodov-6-053",
+        "prob-irodov-6-054",
+        "prob-irodov-6-055",
+        "prob-irodov-6-056",
+        "prob-irodov-6-057",
+        "prob-irodov-6-058"
+      ],
+      "taxonomy_node_ids": [
+        "dual-nature-of-matter-and-radiation",
+        "de-broglie-wavelength"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 11 granular evidence items."
+    },
+    {
+      "sample_index": 169,
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "source_filename": "problems_in_general_physics_by_i_e_irodov.pdf",
+      "pdf_page": 102,
+      "stratum": "IRODOV_PROBLEM_DENSE",
+      "section_title": "3.1 Constant Electric Field in Vacuum",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 9,
+      "evidence_ids": [
+        "prob-irodov-3-004",
+        "prob-irodov-3-005",
+        "prob-irodov-3-006",
+        "prob-irodov-3-007",
+        "prob-irodov-3-008",
+        "prob-irodov-3-009",
+        "prob-irodov-3-010",
+        "prob-irodov-3-011",
+        "prob-irodov-3-012"
+      ],
+      "taxonomy_node_ids": [
+        "electrostatics",
+        "electric-charge-and-coulombs-law",
+        "electric-field-and-dipole"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 9 granular evidence items."
+    },
+    {
+      "sample_index": 170,
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "source_filename": "problems_in_general_physics_by_i_e_irodov.pdf",
+      "pdf_page": 234,
+      "stratum": "IRODOV_PROBLEM_DENSE",
+      "section_title": "5.6 Optics of Moving Sources",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 6,
+      "evidence_ids": [
+        "prob-irodov-5-233",
+        "prob-irodov-5-234",
+        "prob-irodov-5-235",
+        "prob-irodov-5-236",
+        "prob-irodov-5-237",
+        "prob-irodov-5-238"
+      ],
+      "taxonomy_node_ids": [
+        "wave-optics"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 6 granular evidence items."
+    },
+    {
+      "sample_index": 171,
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "source_filename": "problems_in_general_physics_by_i_e_irodov.pdf",
+      "pdf_page": 222,
+      "stratum": "IRODOV_PROBLEM_DENSE",
+      "section_title": "5.3 Diffraction of Light",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 2,
+      "evidence_ids": [
+        "prob-irodov-5-157",
+        "prob-irodov-5-158"
+      ],
+      "taxonomy_node_ids": [
+        "wave-optics",
+        "diffraction-and-polarization"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 2 granular evidence items."
+    },
+    {
+      "sample_index": 172,
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "source_filename": "problems_in_general_physics_by_i_e_irodov.pdf",
+      "pdf_page": 216,
+      "stratum": "IRODOV_PROBLEM_DENSE",
+      "section_title": "5.3 Diffraction of Light",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 6,
+      "evidence_ids": [
+        "prob-irodov-5-113",
+        "prob-irodov-5-114",
+        "prob-irodov-5-115",
+        "prob-irodov-5-116",
+        "prob-irodov-5-117",
+        "prob-irodov-5-118"
+      ],
+      "taxonomy_node_ids": [
+        "wave-optics",
+        "diffraction-and-polarization"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 6 granular evidence items."
+    },
+    {
+      "sample_index": 173,
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "source_filename": "problems_in_general_physics_by_i_e_irodov.pdf",
+      "pdf_page": 267,
+      "stratum": "IRODOV_PROBLEM_DENSE",
+      "section_title": "6.5 Radioactivity",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 8,
+      "evidence_ids": [
+        "prob-irodov-6-227",
+        "prob-irodov-6-228",
+        "prob-irodov-6-229",
+        "prob-irodov-6-230",
+        "prob-irodov-6-231",
+        "prob-irodov-6-232",
+        "prob-irodov-6-234",
+        "prob-irodov-6-235"
+      ],
+      "taxonomy_node_ids": [
+        "nuclear-physics",
+        "radioactivity"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 8 granular evidence items."
+    },
+    {
+      "sample_index": 174,
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "source_filename": "problems_in_general_physics_by_i_e_irodov.pdf",
+      "pdf_page": 71,
+      "stratum": "IRODOV_PROBLEM_DENSE",
+      "section_title": "2.1 Equation of the Gas State. Processes",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 4,
+      "evidence_ids": [
+        "prob-irodov-2-001",
+        "prob-irodov-2-002",
+        "prob-irodov-2-003",
+        "prob-irodov-2-004"
+      ],
+      "taxonomy_node_ids": [
+        "kinetic-theory-of-gases",
+        "ideal-gas-equation"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 4 granular evidence items."
+    },
+    {
+      "sample_index": 175,
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "source_filename": "problems_in_general_physics_by_i_e_irodov.pdf",
+      "pdf_page": 24,
+      "stratum": "IRODOV_PROBLEM_DENSE",
+      "section_title": "1.2 The Fundamental Equation of Dynamics",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 6,
+      "evidence_ids": [
+        "prob-irodov-1-084",
+        "prob-irodov-1-085",
+        "prob-irodov-1-086",
+        "prob-irodov-1-087",
+        "prob-irodov-1-088",
+        "prob-irodov-1-089"
+      ],
+      "taxonomy_node_ids": [
+        "laws-of-motion",
+        "newtons-laws",
+        "friction"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 6 granular evidence items."
+    },
+    {
+      "sample_index": 176,
+      "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+      "source_filename": "Feynman, Richard P. The Feynman Lectures on Physics.pdf",
+      "pdf_page": 138,
+      "stratum": "FEYNMAN_VISUAL_LECTURE_PLATES",
+      "section_title": "Lecture 13 (Scanned Image-Only)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "evid-feynman-lec13-visual"
+      ],
+      "taxonomy_node_ids": [
+        "work-energy-power",
+        "work-energy-theorem"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Feynman visual plate audited. 1 granular visual/concept items indexed."
+    },
+    {
+      "sample_index": 177,
+      "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+      "source_filename": "Feynman, Richard P. The Feynman Lectures on Physics.pdf",
+      "pdf_page": 464,
+      "stratum": "FEYNMAN_VISUAL_LECTURE_PLATES",
+      "section_title": "Lecture 46 (Scanned Image-Only)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 2,
+      "evidence_ids": [
+        "evid-feynman-lec44-visual",
+        "exp-fey-lec46-core"
+      ],
+      "taxonomy_node_ids": [
+        "thermodynamics",
+        "first-law-and-processes",
+        "heat-engines-and-second-law",
+        "mechanics-foundations"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Feynman visual plate audited. 2 granular visual/concept items indexed."
+    },
+    {
+      "sample_index": 178,
+      "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+      "source_filename": "Feynman, Richard P. The Feynman Lectures on Physics.pdf",
+      "pdf_page": 305,
+      "stratum": "FEYNMAN_VISUAL_LECTURE_PLATES",
+      "section_title": "Lecture 30 (Scanned Image-Only)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 4,
+      "evidence_ids": [
+        "evid-feynman-lec30-visual",
+        "exp-fey-lec30-core",
+        "form-feynman-lec30-01",
+        "form-feynman-lec30-02"
+      ],
+      "taxonomy_node_ids": [
+        "wave-optics",
+        "diffraction-and-polarization",
+        "mechanics-foundations"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Feynman visual plate audited. 4 granular visual/concept items indexed."
+    },
+    {
+      "sample_index": 179,
+      "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+      "source_filename": "Feynman, Richard P. The Feynman Lectures on Physics.pdf",
+      "pdf_page": 499,
+      "stratum": "FEYNMAN_VISUAL_LECTURE_PLATES",
+      "section_title": "Lecture 49 (Scanned Image-Only)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "evid-feynman-lec48-visual"
+      ],
+      "taxonomy_node_ids": [
+        "waves",
+        "superposition-and-beats"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Feynman visual plate audited. 1 granular visual/concept items indexed."
+    },
+    {
+      "sample_index": 180,
+      "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+      "source_filename": "Feynman, Richard P. The Feynman Lectures on Physics.pdf",
+      "pdf_page": 55,
+      "stratum": "FEYNMAN_VISUAL_LECTURE_PLATES",
+      "section_title": "Lecture 5 (Scanned Image-Only)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 2,
+      "evidence_ids": [
+        "evid-feynman-lec05-visual",
+        "exp-fey-lec05-core"
+      ],
+      "taxonomy_node_ids": [
+        "units-and-measurements",
+        "mechanics-foundations"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Feynman visual plate audited. 2 granular visual/concept items indexed."
+    },
+    {
+      "sample_index": 181,
+      "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+      "source_filename": "Feynman, Richard P. The Feynman Lectures on Physics.pdf",
+      "pdf_page": 58,
+      "stratum": "FEYNMAN_VISUAL_LECTURE_PLATES",
+      "section_title": "Lecture 5 (Scanned Image-Only)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 3,
+      "evidence_ids": [
+        "evid-feynman-lec06-visual",
+        "form-feynman-lec06-01",
+        "form-feynman-lec06-02"
+      ],
+      "taxonomy_node_ids": [
+        "kinetic-theory-of-gases"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Feynman visual plate audited. 3 granular visual/concept items indexed."
+    },
+    {
+      "sample_index": 182,
+      "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+      "source_filename": "Feynman, Richard P. The Feynman Lectures on Physics.pdf",
+      "pdf_page": 389,
+      "stratum": "FEYNMAN_VISUAL_LECTURE_PLATES",
+      "section_title": "Lecture 38 (Scanned Image-Only)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "evid-feynman-lec37-visual"
+      ],
+      "taxonomy_node_ids": [
+        "dual-nature-of-matter-and-radiation"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Feynman visual plate audited. 1 granular visual/concept items indexed."
+    },
+    {
+      "sample_index": 183,
+      "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+      "source_filename": "Feynman, Richard P. The Feynman Lectures on Physics.pdf",
+      "pdf_page": 263,
+      "stratum": "FEYNMAN_VISUAL_LECTURE_PLATES",
+      "section_title": "Lecture 26 (Scanned Image-Only)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 2,
+      "evidence_ids": [
+        "evid-feynman-lec26-visual",
+        "exp-fey-lec26-core"
+      ],
+      "taxonomy_node_ids": [
+        "ray-optics",
+        "refraction-and-tir",
+        "mechanics-foundations"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Feynman visual plate audited. 2 granular visual/concept items indexed."
+    },
+    {
+      "sample_index": 184,
+      "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+      "source_filename": "Feynman, Richard P. The Feynman Lectures on Physics.pdf",
+      "pdf_page": 432,
+      "stratum": "FEYNMAN_VISUAL_LECTURE_PLATES",
+      "section_title": "Lecture 43 (Scanned Image-Only)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 2,
+      "evidence_ids": [
+        "evid-feynman-lec41-visual",
+        "exp-fey-lec43-core"
+      ],
+      "taxonomy_node_ids": [
+        "thermal-physics",
+        "mechanics-foundations"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Feynman visual plate audited. 2 granular visual/concept items indexed."
+    },
+    {
+      "sample_index": 185,
+      "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+      "source_filename": "Feynman, Richard P. The Feynman Lectures on Physics.pdf",
+      "pdf_page": 50,
+      "stratum": "FEYNMAN_VISUAL_LECTURE_PLATES",
+      "section_title": "Lecture 4 (Scanned Image-Only)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "evid-feynman-lec05-visual"
+      ],
+      "taxonomy_node_ids": [
+        "units-and-measurements"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Feynman visual plate audited. 1 granular visual/concept items indexed."
+    },
+    {
+      "sample_index": 186,
+      "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+      "source_filename": "Feynman, Richard P. The Feynman Lectures on Physics.pdf",
+      "pdf_page": 404,
+      "stratum": "FEYNMAN_VISUAL_LECTURE_PLATES",
+      "section_title": "Lecture 40 (Scanned Image-Only)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 4,
+      "evidence_ids": [
+        "evid-feynman-lec39-visual",
+        "exp-fey-lec40-core",
+        "form-feynman-lec39-01",
+        "form-feynman-lec39-02"
+      ],
+      "taxonomy_node_ids": [
+        "kinetic-theory-of-gases",
+        "molecular-speed-and-pressure",
+        "mechanics-foundations"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Feynman visual plate audited. 4 granular visual/concept items indexed."
+    },
+    {
+      "sample_index": 187,
+      "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+      "source_filename": "Feynman, Richard P. The Feynman Lectures on Physics.pdf",
+      "pdf_page": 287,
+      "stratum": "FEYNMAN_VISUAL_LECTURE_PLATES",
+      "section_title": "Lecture 28 (Scanned Image-Only)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "evid-feynman-lec28-visual"
+      ],
+      "taxonomy_node_ids": [
+        "electromagnetic-waves"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Feynman visual plate audited. 1 granular visual/concept items indexed."
+    },
+    {
+      "sample_index": 188,
+      "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+      "source_filename": "Feynman, Richard P. The Feynman Lectures on Physics.pdf",
+      "pdf_page": 407,
+      "stratum": "FEYNMAN_VISUAL_LECTURE_PLATES",
+      "section_title": "Lecture 40 (Scanned Image-Only)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "evid-feynman-lec39-visual"
+      ],
+      "taxonomy_node_ids": [
+        "kinetic-theory-of-gases",
+        "molecular-speed-and-pressure"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Feynman visual plate audited. 1 granular visual/concept items indexed."
+    },
+    {
+      "sample_index": 189,
+      "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+      "source_filename": "Feynman, Richard P. The Feynman Lectures on Physics.pdf",
+      "pdf_page": 79,
+      "stratum": "FEYNMAN_VISUAL_LECTURE_PLATES",
+      "section_title": "Lecture 7 (Scanned Image-Only)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 3,
+      "evidence_ids": [
+        "evid-feynman-lec08-visual",
+        "form-feynman-lec08-01",
+        "form-feynman-lec08-02"
+      ],
+      "taxonomy_node_ids": [
+        "kinematics",
+        "rectilinear-motion"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Feynman visual plate audited. 3 granular visual/concept items indexed."
+    },
+    {
+      "sample_index": 190,
+      "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+      "source_filename": "Feynman, Richard P. The Feynman Lectures on Physics.pdf",
+      "pdf_page": 80,
+      "stratum": "FEYNMAN_VISUAL_LECTURE_PLATES",
+      "section_title": "Lecture 7 (Scanned Image-Only)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "evid-feynman-lec08-visual"
+      ],
+      "taxonomy_node_ids": [
+        "kinematics",
+        "rectilinear-motion"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Feynman visual plate audited. 1 granular visual/concept items indexed."
+    },
+    {
+      "sample_index": 191,
+      "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+      "source_filename": "Feynman, Richard P. The Feynman Lectures on Physics.pdf",
+      "pdf_page": 352,
+      "stratum": "FEYNMAN_VISUAL_LECTURE_PLATES",
+      "section_title": "Lecture 35 (Scanned Image-Only)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 2,
+      "evidence_ids": [
+        "evid-feynman-lec34-visual",
+        "exp-fey-lec35-core"
+      ],
+      "taxonomy_node_ids": [
+        "dual-nature-of-matter-and-radiation",
+        "mechanics-foundations"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Feynman visual plate audited. 2 granular visual/concept items indexed."
+    },
+    {
+      "sample_index": 192,
+      "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+      "source_filename": "Feynman, Richard P. The Feynman Lectures on Physics.pdf",
+      "pdf_page": 258,
+      "stratum": "FEYNMAN_VISUAL_LECTURE_PLATES",
+      "section_title": "Lecture 25 (Scanned Image-Only)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "evid-feynman-lec25-visual"
+      ],
+      "taxonomy_node_ids": [
+        "oscillations"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Feynman visual plate audited. 1 granular visual/concept items indexed."
+    },
+    {
+      "sample_index": 193,
+      "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+      "source_filename": "Feynman, Richard P. The Feynman Lectures on Physics.pdf",
+      "pdf_page": 296,
+      "stratum": "FEYNMAN_VISUAL_LECTURE_PLATES",
+      "section_title": "Lecture 29 (Scanned Image-Only)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "evid-feynman-lec29-visual"
+      ],
+      "taxonomy_node_ids": [
+        "wave-optics",
+        "youngs-double-slit"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Feynman visual plate audited. 1 granular visual/concept items indexed."
+    },
+    {
+      "sample_index": 194,
+      "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+      "source_filename": "Feynman, Richard P. The Feynman Lectures on Physics.pdf",
+      "pdf_page": 99,
+      "stratum": "FEYNMAN_VISUAL_LECTURE_PLATES",
+      "section_title": "Lecture 9 (Scanned Image-Only)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 1,
+      "evidence_ids": [
+        "evid-feynman-lec09-visual"
+      ],
+      "taxonomy_node_ids": [
+        "laws-of-motion",
+        "newtons-laws"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Feynman visual plate audited. 1 granular visual/concept items indexed."
+    },
+    {
+      "sample_index": 195,
+      "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+      "source_filename": "Feynman, Richard P. The Feynman Lectures on Physics.pdf",
+      "pdf_page": 150,
+      "stratum": "FEYNMAN_VISUAL_LECTURE_PLATES",
+      "section_title": "Lecture 14 (Scanned Image-Only)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 4,
+      "evidence_ids": [
+        "evid-feynman-lec15-visual",
+        "form-feynman-lec15-01",
+        "form-feynman-lec15-02",
+        "form-feynman-lec15-03"
+      ],
+      "taxonomy_node_ids": [
+        "dual-nature-of-matter-and-radiation"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Feynman visual plate audited. 4 granular visual/concept items indexed."
+    },
+    {
+      "sample_index": 196,
+      "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+      "source_filename": "Feynman, Richard P. The Feynman Lectures on Physics.pdf",
+      "pdf_page": 285,
+      "stratum": "FEYNMAN_VISUAL_LECTURE_PLATES",
+      "section_title": "Lecture 28 (Scanned Image-Only)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 2,
+      "evidence_ids": [
+        "evid-feynman-lec28-visual",
+        "exp-fey-lec28-core"
+      ],
+      "taxonomy_node_ids": [
+        "electromagnetic-waves",
+        "mechanics-foundations"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Feynman visual plate audited. 2 granular visual/concept items indexed."
+    },
+    {
+      "sample_index": 197,
+      "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+      "source_filename": "Feynman, Richard P. The Feynman Lectures on Physics.pdf",
+      "pdf_page": 461,
+      "stratum": "FEYNMAN_VISUAL_LECTURE_PLATES",
+      "section_title": "Lecture 46 (Scanned Image-Only)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 2,
+      "evidence_ids": [
+        "evid-feynman-lec44-visual",
+        "exp-fey-lec46-core"
+      ],
+      "taxonomy_node_ids": [
+        "thermodynamics",
+        "first-law-and-processes",
+        "heat-engines-and-second-law",
+        "mechanics-foundations"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Feynman visual plate audited. 2 granular visual/concept items indexed."
+    },
+    {
+      "sample_index": 198,
+      "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+      "source_filename": "Feynman, Richard P. The Feynman Lectures on Physics.pdf",
+      "pdf_page": 325,
+      "stratum": "FEYNMAN_VISUAL_LECTURE_PLATES",
+      "section_title": "Lecture 32 (Scanned Image-Only)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 2,
+      "evidence_ids": [
+        "evid-feynman-lec31-visual",
+        "exp-fey-lec32-core"
+      ],
+      "taxonomy_node_ids": [
+        "wave-optics",
+        "mechanics-foundations"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Feynman visual plate audited. 2 granular visual/concept items indexed."
+    },
+    {
+      "sample_index": 199,
+      "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+      "source_filename": "Feynman, Richard P. The Feynman Lectures on Physics.pdf",
+      "pdf_page": 231,
+      "stratum": "FEYNMAN_VISUAL_LECTURE_PLATES",
+      "section_title": "Lecture 23 (Scanned Image-Only)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 2,
+      "evidence_ids": [
+        "evid-feynman-lec22-visual",
+        "exp-fey-lec23-core"
+      ],
+      "taxonomy_node_ids": [
+        "oscillations",
+        "mechanics-foundations"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Feynman visual plate audited. 2 granular visual/concept items indexed."
+    },
+    {
+      "sample_index": 200,
+      "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+      "source_filename": "Feynman, Richard P. The Feynman Lectures on Physics.pdf",
+      "pdf_page": 123,
+      "stratum": "FEYNMAN_VISUAL_LECTURE_PLATES",
+      "section_title": "Lecture 12 (Scanned Image-Only)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 2,
+      "evidence_ids": [
+        "evid-feynman-lec12-visual",
+        "exp-fey-lec12-core"
+      ],
+      "taxonomy_node_ids": [
+        "laws-of-motion",
+        "friction",
+        "mechanics-foundations"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Feynman visual plate audited. 2 granular visual/concept items indexed."
+    },
+    {
+      "sample_index": 201,
+      "source_id": "src-jee-main-mock-test-01-20-222525c1",
+      "source_filename": "jee_main_mock_test-01-2024-jan.pdf",
+      "pdf_page": 9,
+      "stratum": "MOCK_1_TEST_EXAMS_VECTOR_GLYPH",
+      "section_title": "Section A & B (Q61-90) [STRICTLY QUARANTINED]",
+      "coverage_status": "NON_PHYSICS",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "reclassification_category": "TRUE_NON_CONTENT",
+      "verdict": "NON_CONTENT",
+      "diagnostic_notes": "Quarantined non-physics section (Section A & B (Q61-90) [STRICTLY QUARANTINED]). Confined outside Physics Knowledge Base."
+    },
+    {
+      "sample_index": 202,
+      "source_id": "src-jee-main-mock-test-01-20-222525c1",
+      "source_filename": "jee_main_mock_test-01-2024-jan.pdf",
+      "pdf_page": 4,
+      "stratum": "MOCK_1_TEST_EXAMS_VECTOR_GLYPH",
+      "section_title": "Section A (MCQs Q1-20) & Section B (Numerical Q21-30)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 5,
+      "evidence_ids": [
+        "mock-q-m1-26",
+        "mock-q-m1-27",
+        "mock-q-m1-28",
+        "mock-q-m1-29",
+        "mock-q-m1-30"
+      ],
+      "taxonomy_node_ids": [
+        "physics"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Mock exam page verified with 5 question records."
+    },
+    {
+      "sample_index": 203,
+      "source_id": "src-jee-main-mock-test-01-20-222525c1",
+      "source_filename": "jee_main_mock_test-01-2024-jan.pdf",
+      "pdf_page": 5,
+      "stratum": "MOCK_1_TEST_EXAMS_VECTOR_GLYPH",
+      "section_title": "Section A & B (Q31-60) [STRICTLY QUARANTINED]",
+      "coverage_status": "NON_PHYSICS",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "reclassification_category": "TRUE_NON_CONTENT",
+      "verdict": "NON_CONTENT",
+      "diagnostic_notes": "Quarantined non-physics section (Section A & B (Q31-60) [STRICTLY QUARANTINED]). Confined outside Physics Knowledge Base."
+    },
+    {
+      "sample_index": 204,
+      "source_id": "src-jee-main-mock-test-01-20-222525c1",
+      "source_filename": "jee_main_mock_test-01-2024-jan.pdf",
+      "pdf_page": 7,
+      "stratum": "MOCK_1_TEST_EXAMS_VECTOR_GLYPH",
+      "section_title": "Section A & B (Q31-60) [STRICTLY QUARANTINED]",
+      "coverage_status": "NON_PHYSICS",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "reclassification_category": "TRUE_NON_CONTENT",
+      "verdict": "NON_CONTENT",
+      "diagnostic_notes": "Quarantined non-physics section (Section A & B (Q31-60) [STRICTLY QUARANTINED]). Confined outside Physics Knowledge Base."
+    },
+    {
+      "sample_index": 205,
+      "source_id": "src-jee-main-mock-test-01-20-222525c1",
+      "source_filename": "jee_main_mock_test-01-2024-jan.pdf",
+      "pdf_page": 6,
+      "stratum": "MOCK_1_TEST_EXAMS_VECTOR_GLYPH",
+      "section_title": "Section A & B (Q31-60) [STRICTLY QUARANTINED]",
+      "coverage_status": "NON_PHYSICS",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "reclassification_category": "TRUE_NON_CONTENT",
+      "verdict": "NON_CONTENT",
+      "diagnostic_notes": "Quarantined non-physics section (Section A & B (Q31-60) [STRICTLY QUARANTINED]). Confined outside Physics Knowledge Base."
+    },
+    {
+      "sample_index": 206,
+      "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+      "source_filename": "jee_rank_booster_-02_mock_paper.pdf",
+      "pdf_page": 8,
+      "stratum": "MOCK_2_TEST_EXAMS_QUARANTINE_STRATA",
+      "section_title": "Section A & B (Q31-60) [STRICTLY QUARANTINED]",
+      "coverage_status": "NON_PHYSICS",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "reclassification_category": "TRUE_NON_CONTENT",
+      "verdict": "NON_CONTENT",
+      "diagnostic_notes": "Quarantined non-physics section (Section A & B (Q31-60) [STRICTLY QUARANTINED]). Confined outside Physics Knowledge Base."
+    },
+    {
+      "sample_index": 207,
+      "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+      "source_filename": "jee_rank_booster_-02_mock_paper.pdf",
+      "pdf_page": 9,
+      "stratum": "MOCK_2_TEST_EXAMS_QUARANTINE_STRATA",
+      "section_title": "Section A & B (Q61-90) [STRICTLY QUARANTINED]",
+      "coverage_status": "NON_PHYSICS",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "reclassification_category": "TRUE_NON_CONTENT",
+      "verdict": "NON_CONTENT",
+      "diagnostic_notes": "Quarantined non-physics section (Section A & B (Q61-90) [STRICTLY QUARANTINED]). Confined outside Physics Knowledge Base."
+    },
+    {
+      "sample_index": 208,
+      "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+      "source_filename": "jee_rank_booster_-02_mock_paper.pdf",
+      "pdf_page": 12,
+      "stratum": "MOCK_2_TEST_EXAMS_QUARANTINE_STRATA",
+      "section_title": "Section A & B (Q61-90) [STRICTLY QUARANTINED]",
+      "coverage_status": "NON_PHYSICS",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "reclassification_category": "TRUE_NON_CONTENT",
+      "verdict": "NON_CONTENT",
+      "diagnostic_notes": "Quarantined non-physics section (Section A & B (Q61-90) [STRICTLY QUARANTINED]). Confined outside Physics Knowledge Base."
+    },
+    {
+      "sample_index": 209,
+      "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+      "source_filename": "jee_rank_booster_-02_mock_paper.pdf",
+      "pdf_page": 2,
+      "stratum": "MOCK_2_TEST_EXAMS_QUARANTINE_STRATA",
+      "section_title": "Section A (MCQs Q1-20) & Section B (Numerical Q21-30)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 7,
+      "evidence_ids": [
+        "mock-q-m2-03",
+        "mock-q-m2-04",
+        "mock-q-m2-05",
+        "mock-q-m2-06",
+        "mock-q-m2-07",
+        "mock-q-m2-08",
+        "mock-q-m2-09"
+      ],
+      "taxonomy_node_ids": [
+        "thermodynamics",
+        "first-law-and-processes",
+        "nuclear-physics",
+        "radioactivity",
+        "ray-optics",
+        "refraction-and-tir",
+        "semiconductors",
+        "charge-carriers",
+        "oscillations",
+        "kinematics-of-shm"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 7 granular evidence items."
+    },
+    {
+      "sample_index": 210,
+      "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+      "source_filename": "jee_rank_booster_-02_mock_paper.pdf",
+      "pdf_page": 4,
+      "stratum": "MOCK_2_TEST_EXAMS_QUARANTINE_STRATA",
+      "section_title": "Section A (MCQs Q1-20) & Section B (Numerical Q21-30)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 6,
+      "evidence_ids": [
+        "mock-q-m2-15",
+        "mock-q-m2-16",
+        "mock-q-m2-17",
+        "mock-q-m2-18",
+        "mock-q-m2-19",
+        "mock-q-m2-20"
+      ],
+      "taxonomy_node_ids": [
+        "work-energy-power",
+        "work-energy-theorem",
+        "electromagnetic-induction",
+        "faradays-law-and-motional-emf",
+        "kinetic-theory-of-gases",
+        "molecular-speed-and-pressure",
+        "dual-nature-of-matter-and-radiation",
+        "photoelectric-effect",
+        "laws-of-motion",
+        "friction"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 6 granular evidence items."
+    },
+    {
+      "sample_index": 211,
+      "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+      "source_filename": "jee_rank_booster-03_mock_paper.pdf",
+      "pdf_page": 4,
+      "stratum": "MOCK_3_TEST_EXAMS_PHYSICS_SERIES",
+      "section_title": "Section A (MCQs Q1-20) & Section B (Numerical Q21-30)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 5,
+      "evidence_ids": [
+        "mock-q-m3-12",
+        "mock-q-m3-13",
+        "mock-q-m3-14",
+        "mock-q-m3-15",
+        "mock-q-m3-16"
+      ],
+      "taxonomy_node_ids": [
+        "rotational-motion",
+        "moment-of-inertia",
+        "kinetic-theory-of-gases",
+        "molecular-speed-and-pressure",
+        "capacitance",
+        "capacitance-fundamentals",
+        "magnetic-effects-of-current",
+        "biot-savart-law-and-ampere-law",
+        "electromagnetic-induction",
+        "faradays-law-and-motional-emf"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 5 granular evidence items."
+    },
+    {
+      "sample_index": 212,
+      "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+      "source_filename": "jee_rank_booster-03_mock_paper.pdf",
+      "pdf_page": 2,
+      "stratum": "MOCK_3_TEST_EXAMS_PHYSICS_SERIES",
+      "section_title": "Section A (MCQs Q1-20) & Section B (Numerical Q21-30)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 4,
+      "evidence_ids": [
+        "mock-q-m3-03",
+        "mock-q-m3-04",
+        "mock-q-m3-05",
+        "mock-q-m3-06"
+      ],
+      "taxonomy_node_ids": [
+        "laws-of-motion",
+        "friction",
+        "rotational-motion",
+        "angular-momentum",
+        "thermal-physics",
+        "heat-transfer"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 4 granular evidence items."
+    },
+    {
+      "sample_index": 213,
+      "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+      "source_filename": "jee_rank_booster-03_mock_paper.pdf",
+      "pdf_page": 6,
+      "stratum": "MOCK_3_TEST_EXAMS_PHYSICS_SERIES",
+      "section_title": "Section A (MCQs Q1-20) & Section B (Numerical Q21-30)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 7,
+      "evidence_ids": [
+        "mock-q-m3-23",
+        "mock-q-m3-24",
+        "mock-q-m3-25",
+        "mock-q-m3-26",
+        "mock-q-m3-27",
+        "mock-q-m3-28",
+        "mock-q-m3-29"
+      ],
+      "taxonomy_node_ids": [
+        "nuclear-physics",
+        "radioactivity",
+        "work-energy-power",
+        "work-energy-theorem",
+        "laws-of-motion",
+        "newtons-laws",
+        "current-electricity",
+        "resistance-and-resistivity",
+        "atomic-physics",
+        "atomic-models"
+      ],
+      "reclassification_category": "TRUE_NON_CONTENT",
+      "verdict": "NON_CONTENT",
+      "diagnostic_notes": "Quarantined non-physics section (Section A (MCQs Q1-20) & Section B (Numerical Q21-30)). Confined outside Physics Knowledge Base."
+    },
+    {
+      "sample_index": 214,
+      "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+      "source_filename": "jee_rank_booster-03_mock_paper.pdf",
+      "pdf_page": 1,
+      "stratum": "MOCK_3_TEST_EXAMS_PHYSICS_SERIES",
+      "section_title": "Section A (MCQs Q1-20) & Section B (Numerical Q21-30)",
+      "coverage_status": "PHYSICS_CONTENT_COVERED",
+      "evidence_count_on_page": 2,
+      "evidence_ids": [
+        "mock-q-m3-01",
+        "mock-q-m3-02"
+      ],
+      "taxonomy_node_ids": [
+        "ray-optics",
+        "refraction-and-tir",
+        "gravitation",
+        "gravitational-force-and-field"
+      ],
+      "reclassification_category": "CONTENT_ALREADY_COVERED",
+      "verdict": "FULLY_ACCOUNTED",
+      "diagnostic_notes": "Complete traceability verified with 2 granular evidence items."
+    },
+    {
+      "sample_index": 215,
+      "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+      "source_filename": "jee_rank_booster-03_mock_paper.pdf",
+      "pdf_page": 12,
+      "stratum": "MOCK_3_TEST_EXAMS_PHYSICS_SERIES",
+      "section_title": "Section A & B (Q61-90) [STRICTLY QUARANTINED]",
+      "coverage_status": "NON_PHYSICS",
+      "evidence_count_on_page": 0,
+      "evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "reclassification_category": "TRUE_NON_CONTENT",
+      "verdict": "NON_CONTENT",
+      "diagnostic_notes": "Quarantined non-physics section (Section A & B (Q61-90) [STRICTLY QUARANTINED]). Confined outside Physics Knowledge Base."
+    }
+  ]
+}

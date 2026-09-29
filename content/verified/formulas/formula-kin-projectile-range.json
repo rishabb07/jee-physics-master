@@ -1,0 +1,50 @@
+{
+  "formula_id": "formula-kin-projectile-range",
+  "chapter_id": "kinematics",
+  "title": "Horizontal Range of Projectile",
+  "equation": "R = \\frac{u^2 \\sin 2\\theta}{g} = \\frac{2 u_x u_y}{g}",
+  "equation_latex": "R = \\frac{u^2 \\sin 2\\theta}{g} = \\frac{2 u_x u_y}{g}",
+  "variables": {
+    "R": "Horizontal distance traveled during flight time",
+    "u": "Launch speed",
+    "\\theta": "Launch angle with horizontal",
+    "u_x": "Horizontal velocity component u cos(theta)",
+    "u_y": "Vertical velocity component u sin(theta)",
+    "g": "Gravitational acceleration"
+  },
+  "units": {
+    "R": "m",
+    "u": "m/s",
+    "\\theta": "rad or deg",
+    "g": "m/s^2"
+  },
+  "dimensions": {
+    "R": "[L]",
+    "u": "[L][T]^-1",
+    "\\theta": "[1]",
+    "g": "[L][T]^-2"
+  },
+  "assumptions": [
+    "Symmetric ground-to-ground landing",
+    "Uniform downward gravity g"
+  ],
+  "validity_conditions": [
+    "Complementary launch angles theta and (90 deg - theta) yield identical range R"
+  ],
+  "derivation_reference": "derivation-formula-kin-projectile-trajectory",
+  "related_concepts": [
+    "concept-kin-projectile-01"
+  ],
+  "common_misuse": [
+    "Assuming R is maximized at 45 deg when launching off a cliff or onto an incline"
+  ],
+  "provenance": [],
+  "generation_metadata": {
+    "agent": "physics-formula-writer",
+    "version": "1.0",
+    "target_chapter": "kinematics"
+  },
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-formula-kin-projectile-range",
+  "content_hash": "c11872a8a27e63b2d0ec60f5595f7d2ada750ed8079f576e637a650de3f0670a"
+}

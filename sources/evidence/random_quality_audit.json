@@ -1,0 +1,1154 @@
+{
+  "total_samples": 48,
+  "random_seed": 42,
+  "full_matches": 19,
+  "partial_coverages": 16,
+  "unextracted_misses": 5,
+  "scanned_image_misses": 4,
+  "vector_drawing_misses": 4,
+  "audit_traces": [
+    {
+      "sample_index": 1,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page_number": 14,
+      "page_category": "FORMULA",
+      "page_inventory_found": true,
+      "inventory_quality": "EXCELLENT",
+      "text_length": 4061,
+      "text_snippet": "Mole 1 mole of a substance is defined to contain exactly 6.02214076 \uf0b4 10 23 elementary entities. This number is the fixe",
+      "structural_section": "Chapter 1: Introduction to Physics (Complete Module)",
+      "granular_evidence_ids": [
+        "evid-hcv1-p14-dim-analysis",
+        "form-evid-dim-analysis"
+      ],
+      "taxonomy_node_ids": [
+        "units-and-measurements"
+      ],
+      "provenance_role": "PRIMARY_JEE",
+      "audit_verdict": "FULL_MATCH",
+      "notes": "Complete traceability verified with 2 granular evidence records and clean taxonomy mapping."
+    },
+    {
+      "sample_index": 2,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page_number": 45,
+      "page_category": "DERIVATION",
+      "page_inventory_found": true,
+      "inventory_quality": "EXCELLENT",
+      "text_length": 3342,
+      "text_snippet": "v = dx dt \u2026 (3.9) and the acceleration is a = dv dt \u2026 (3.10)                  = d dt \uf8eb \uf8ec \uf8ed dx dt \uf8f6 \uf8f7 \uf8f8  = d  2x dt  2 \u22c5 ",
+      "structural_section": "Chapter 3: Rest and Motion: Kinematics (Complete Module)",
+      "granular_evidence_ids": [
+        "evid-hcv1-p46-projectile-derivation",
+        "form-evid-projectile-range",
+        "deriv-hcv1-projectile-equation"
+      ],
+      "taxonomy_node_ids": [
+        "kinematics",
+        "motion-in-a-straight-line",
+        "projectile-motion"
+      ],
+      "provenance_role": "PRIMARY_JEE",
+      "audit_verdict": "FULL_MATCH",
+      "notes": "Complete traceability verified with 3 granular evidence records and clean taxonomy mapping."
+    },
+    {
+      "sample_index": 3,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page_number": 64,
+      "page_category": "PROBLEM",
+      "page_inventory_found": true,
+      "inventory_quality": "EXCELLENT",
+      "text_length": 3492,
+      "text_snippet": "projection and the edge of the boat are in the same horizontal level. 46. A river 400 m wide is flowing at a rate of 2.0",
+      "structural_section": "Chapter 3: Rest and Motion: Kinematics (Complete Module)",
+      "granular_evidence_ids": [
+        "prob-evid-hcv1-ch03-ex46"
+      ],
+      "taxonomy_node_ids": [
+        "kinematics",
+        "motion-in-a-straight-line",
+        "projectile-motion"
+      ],
+      "provenance_role": "PRIMARY_JEE",
+      "audit_verdict": "PARTIAL_COVERAGE",
+      "notes": "Partial coverage: 1 granular evidence record (prob-evid-hcv1-ch03-ex46) attached to page."
+    },
+    {
+      "sample_index": 4,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page_number": 185,
+      "page_category": "DERIVATION",
+      "page_inventory_found": true,
+      "inventory_quality": "EXCELLENT",
+      "text_length": 3113,
+      "text_snippet": "mgh = 1 2 mv  2 + 1 2 I v  2 r  2  or,      v = \uf8ee \uf8ef \uf8f0 2 mgh m + I/r  2 \uf8f9 \uf8fa \uf8fb  1/2 . 10.13 POWER DELIVERED AND WORK      ",
+      "structural_section": "Chapter 10: Rotational Mechanics (Complete Module)",
+      "granular_evidence_ids": [
+        "evid-hcv1-p185-parallel-axis",
+        "form-evid-rot-moi-parallel",
+        "deriv-evid-parallel-axis-hcv1",
+        "fig-evid-parallel-axis-hcv1"
+      ],
+      "taxonomy_node_ids": [
+        "rotational-motion",
+        "moment-of-inertia",
+        "torque-and-rotation"
+      ],
+      "provenance_role": "PRIMARY_JEE",
+      "audit_verdict": "FULL_MATCH",
+      "notes": "Complete traceability verified with 4 granular evidence records and clean taxonomy mapping."
+    },
+    {
+      "sample_index": 5,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page_number": 272,
+      "page_category": "DERIVATION",
+      "page_inventory_found": true,
+      "inventory_quality": "EXCELLENT",
+      "text_length": 3669,
+      "text_snippet": "Example 13.2    A 700 g solid cube having an edge of length 10 cm floats in water. How much volume of the cube is outsid",
+      "structural_section": "Chapter 13: Fluid Mechanics (Complete Module)",
+      "granular_evidence_ids": [
+        "deriv-hcv1-bernoulli-equation"
+      ],
+      "taxonomy_node_ids": [
+        "fluid-mechanics",
+        "fluid-statics",
+        "fluid-dynamics"
+      ],
+      "provenance_role": "PRIMARY_JEE",
+      "audit_verdict": "PARTIAL_COVERAGE",
+      "notes": "Partial coverage: 1 granular evidence record (deriv-hcv1-bernoulli-equation) attached to page."
+    },
+    {
+      "sample_index": 6,
+      "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+      "pdf_page_number": 383,
+      "page_category": "FORMULA",
+      "page_inventory_found": true,
+      "inventory_quality": "EXCELLENT",
+      "text_length": 3376,
+      "text_snippet": "alternate dark and bright rings, as the image. The radius of the diffraction disc is given by equation (17.19) where, b ",
+      "structural_section": "Chapter 18: Geometrical Optics (Complete Module)",
+      "granular_evidence_ids": [
+        "evid-hcv1-p383-tir-critical-angle",
+        "form-evid-opt-tir"
+      ],
+      "taxonomy_node_ids": [
+        "ray-optics",
+        "refraction-and-tir",
+        "lenses-and-mirrors"
+      ],
+      "provenance_role": "PRIMARY_JEE",
+      "audit_verdict": "FULL_MATCH",
+      "notes": "Complete traceability verified with 2 granular evidence records and clean taxonomy mapping."
+    },
+    {
+      "sample_index": 7,
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+      "pdf_page_number": 18,
+      "page_category": "GENERAL_TEXT",
+      "page_inventory_found": true,
+      "inventory_quality": "NORMALIZED_FONT",
+      "text_length": 4097,
+      "text_snippet": "ebonite  lid  of  the  tube  are  connected  to  the  platinum coil.  A  similar  copper  wire  XX,  called  compensatin",
+      "structural_section": "Chapter 23: Heat and Temperature (Complete Module)",
+      "granular_evidence_ids": [],
+      "taxonomy_node_ids": [
+        "thermal-physics",
+        "temperature-and-scales"
+      ],
+      "provenance_role": "PRIMARY_JEE",
+      "audit_verdict": "UNEXTRACTED_MISS",
+      "notes": "Section 'Chapter 23: Heat and Temperature (Complete Module)' has valid digital text (len=4097) but granular evidence is not yet extracted."
+    },
+    {
+      "sample_index": 8,
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+      "pdf_page_number": 28,
+      "page_category": "PROBLEM",
+      "page_inventory_found": true,
+      "inventory_quality": "EXCELLENT",
+      "text_length": 5977,
+      "text_snippet": "9. A resistance thermometer reads R = 20.0 \u03a9, 27.5 \u03a9,  and 50.0 \u03a9 at the ice point (0\u00b0C), the steam point (100\u00b0C) and th",
+      "structural_section": "Chapter 23: Heat and Temperature (Complete Module)",
+      "granular_evidence_ids": [
+        "prob-evid-hcv2-ch23-ex09"
+      ],
+      "taxonomy_node_ids": [
+        "thermal-physics",
+        "temperature-and-scales"
+      ],
+      "provenance_role": "PRIMARY_JEE",
+      "audit_verdict": "PARTIAL_COVERAGE",
+      "notes": "Partial coverage: 1 granular evidence record (prob-evid-hcv2-ch23-ex09) attached to page."
+    },
+    {
+      "sample_index": 9,
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+      "pdf_page_number": 64,
+      "page_category": "FORMULA",
+      "page_inventory_found": true,
+      "inventory_quality": "EXCELLENT",
+      "text_length": 3229,
+      "text_snippet": "CHAPTER 26 LAWS OF THERMODYNAMICS 26.1 THE FIRST LAW OF THERMODYNAMICS We have seen that heat is just a form of energy. ",
+      "structural_section": "Chapter 26: Laws of Thermodynamics (Complete Module)",
+      "granular_evidence_ids": [
+        "evid-hcv2-p64-first-law-td",
+        "form-evid-td-first-law"
+      ],
+      "taxonomy_node_ids": [
+        "thermodynamics",
+        "first-law-and-processes"
+      ],
+      "provenance_role": "PRIMARY_JEE",
+      "audit_verdict": "FULL_MATCH",
+      "notes": "Complete traceability verified with 2 granular evidence records and clean taxonomy mapping."
+    },
+    {
+      "sample_index": 10,
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+      "pdf_page_number": 142,
+      "page_category": "GENERAL_TEXT",
+      "page_inventory_found": true,
+      "inventory_quality": "NORMALIZED_FONT",
+      "text_length": 3397,
+      "text_snippet": "CHAPTER  30 GAUSS\u00b7S  LAW Gauss\u00b7s law is one of the fundamental laws of physics. It relates the electric field to the cha",
+      "structural_section": "Chapter 30: Gauss's Law (Complete Module)",
+      "granular_evidence_ids": [],
+      "taxonomy_node_ids": [
+        "electrostatics",
+        "electric-flux-and-gauss-law"
+      ],
+      "provenance_role": "PRIMARY_JEE",
+      "audit_verdict": "UNEXTRACTED_MISS",
+      "notes": "Section 'Chapter 30: Gauss's Law (Complete Module)' has valid digital text (len=3397) but granular evidence is not yet extracted."
+    },
+    {
+      "sample_index": 11,
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+      "pdf_page_number": 202,
+      "page_category": "WORKED_EXAMPLE",
+      "page_inventory_found": true,
+      "inventory_quality": "EXCELLENT",
+      "text_length": 3878,
+      "text_snippet": "If 1800 A of current flows towards the earth, the entire negative charge of the earth should get neutralised in about ha",
+      "structural_section": "Chapter 32: Electric Current in Conductors (Complete Module)",
+      "granular_evidence_ids": [
+        "evid-hcv2-p201-galvanometer-conversion",
+        "form-evid-curr-meters",
+        "ex-evid-hcv2-galvanometer-shunt"
+      ],
+      "taxonomy_node_ids": [
+        "current-electricity",
+        "electric-current-and-drift",
+        "dc-circuits"
+      ],
+      "provenance_role": "PRIMARY_JEE",
+      "audit_verdict": "FULL_MATCH",
+      "notes": "Complete traceability verified with 3 granular evidence records and clean taxonomy mapping."
+    },
+    {
+      "sample_index": 12,
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "source_filename": "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+      "pdf_page_number": 375,
+      "page_category": "WORKED_EXAMPLE",
+      "page_inventory_found": true,
+      "inventory_quality": "EXCELLENT",
+      "text_length": 3822,
+      "text_snippet": "3. A hydrogen atom moving at a speed v absorbs a photon of wavelength 122 nm and stops. Find the value of v. Mass of a h",
+      "structural_section": "Chapter 42: Photoelectric Effect and Wave-Particle Duality (Complete Module)",
+      "granular_evidence_ids": [
+        "ex-evid-hcv2-photoelectric-workfunction"
+      ],
+      "taxonomy_node_ids": [
+        "dual-nature-of-matter-and-radiation",
+        "photoelectric-effect"
+      ],
+      "provenance_role": "PRIMARY_JEE",
+      "audit_verdict": "PARTIAL_COVERAGE",
+      "notes": "Partial coverage: 1 granular evidence record (ex-evid-hcv2-photoelectric-workfunction) attached to page."
+    },
+    {
+      "sample_index": 13,
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "source_filename": "Fundamentals of Physics-Halliday,Resnick,Walker.pdf",
+      "pdf_page_number": 42,
+      "page_category": "FORMULA",
+      "page_inventory_found": true,
+      "inventory_quality": "EXCELLENT",
+      "text_length": 2760,
+      "text_snippet": "16 CHAPTER 2 MOTION ALONG A STRAIGHT LINE Sample Problem Average velocity, beat-up pickup truck You drive a beat-up pick",
+      "structural_section": "Chapter 2: Motion Along a Straight Line (Module)",
+      "granular_evidence_ids": [
+        "evid-halliday-p42-accel-def",
+        "form-evid-kin-accel"
+      ],
+      "taxonomy_node_ids": [
+        "kinematics",
+        "motion-in-a-straight-line"
+      ],
+      "provenance_role": "UNDERGRADUATE_DEPTH",
+      "audit_verdict": "FULL_MATCH",
+      "notes": "Complete traceability verified with 2 granular evidence records and clean taxonomy mapping."
+    },
+    {
+      "sample_index": 14,
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "source_filename": "Fundamentals of Physics-Halliday,Resnick,Walker.pdf",
+      "pdf_page_number": 318,
+      "page_category": "PROBLEM",
+      "page_inventory_found": true,
+      "inventory_quality": "EXCELLENT",
+      "text_length": 3427,
+      "text_snippet": "292 CHAPTER 11 ROLLING, TORQUE, AND ANGULAR MOMENTUM the jumper to land properly: In the landing, the legs should be tog",
+      "structural_section": "Chapter 10: Rotation (Module)",
+      "granular_evidence_ids": [
+        "prob-evid-hr-ch10-p35"
+      ],
+      "taxonomy_node_ids": [
+        "rotational-motion",
+        "moment-of-inertia",
+        "torque-and-rotation"
+      ],
+      "provenance_role": "UNDERGRADUATE_DEPTH",
+      "audit_verdict": "PARTIAL_COVERAGE",
+      "notes": "Partial coverage: 1 granular evidence record (prob-evid-hr-ch10-p35) attached to page."
+    },
+    {
+      "sample_index": 15,
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "source_filename": "Fundamentals of Physics-Halliday,Resnick,Walker.pdf",
+      "pdf_page_number": 561,
+      "page_category": "WORKED_EXAMPLE",
+      "page_inventory_found": true,
+      "inventory_quality": "EXCELLENT",
+      "text_length": 4605,
+      "text_snippet": "535 PROBLEMS PART 2 for particles of a certain gas: P(v) \u0001 Cv2 for 0 \r v \u000e v0 and P(v) \u0001 0 for v \u0007 v0. Find (a) an expre",
+      "structural_section": "Chapter 17: Waves-II (Module)",
+      "granular_evidence_ids": [
+        "evid-halliday-p560-adiabatic-ideal-gas",
+        "ex-evid-halliday-adiabatic-compression"
+      ],
+      "taxonomy_node_ids": [
+        "waves",
+        "standing-waves-and-resonance"
+      ],
+      "provenance_role": "UNDERGRADUATE_DEPTH",
+      "audit_verdict": "FULL_MATCH",
+      "notes": "Complete traceability verified with 2 granular evidence records and clean taxonomy mapping."
+    },
+    {
+      "sample_index": 16,
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "source_filename": "Fundamentals of Physics-Halliday,Resnick,Walker.pdf",
+      "pdf_page_number": 819,
+      "page_category": "PROBLEM",
+      "page_inventory_found": true,
+      "inventory_quality": "EXCELLENT",
+      "text_length": 3169,
+      "text_snippet": "793 30-3 FARADAY\u2019S LAW OF INDUCTION PART 3 As a special case of Eq. 30-1, suppose that the loop lies in a plane and that",
+      "structural_section": "Chapter 25: Capacitance (Module)",
+      "granular_evidence_ids": [
+        "prob-evid-hr-ch25-p27"
+      ],
+      "taxonomy_node_ids": [
+        "capacitance",
+        "capacitance-fundamentals"
+      ],
+      "provenance_role": "UNDERGRADUATE_DEPTH",
+      "audit_verdict": "PARTIAL_COVERAGE",
+      "notes": "Partial coverage: 1 granular evidence record (prob-evid-hr-ch25-p27) attached to page."
+    },
+    {
+      "sample_index": 17,
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "source_filename": "Fundamentals of Physics-Halliday,Resnick,Walker.pdf",
+      "pdf_page_number": 1085,
+      "page_category": "GENERAL_TEXT",
+      "page_inventory_found": true,
+      "inventory_quality": "EXCELLENT",
+      "text_length": 3494,
+      "text_snippet": "1059 38-3 THE PHOTOELECTRIC EFFECT PART 5 Sample Problem Into this we can substitute from Eq. 38-2 (E \u0001 hf ), Einstein\u2019s",
+      "structural_section": "Chapter 33: Electromagnetic Waves (Module)",
+      "granular_evidence_ids": [],
+      "taxonomy_node_ids": [
+        "electromagnetic-waves"
+      ],
+      "provenance_role": "UNDERGRADUATE_DEPTH",
+      "audit_verdict": "UNEXTRACTED_MISS",
+      "notes": "Section 'Chapter 33: Electromagnetic Waves (Module)' has valid digital text (len=3494) but granular evidence is not yet extracted."
+    },
+    {
+      "sample_index": 18,
+      "source_id": "src-fundamentals-of-physics--390f40d1",
+      "source_filename": "Fundamentals of Physics-Halliday,Resnick,Walker.pdf",
+      "pdf_page_number": 1189,
+      "page_category": "PROBLEM",
+      "page_inventory_found": true,
+      "inventory_quality": "EXCELLENT",
+      "text_length": 6081,
+      "text_snippet": "1163 PROBLEMS PART 5 the probabilities that states with the following energies are occu- pied: (a) 4.4 eV, (b) 5.4 eV, (",
+      "structural_section": "Chapter 35: Interference (Module)",
+      "granular_evidence_ids": [
+        "prob-evid-hr-ch35-p18"
+      ],
+      "taxonomy_node_ids": [
+        "wave-optics",
+        "youngs-double-slit"
+      ],
+      "provenance_role": "UNDERGRADUATE_DEPTH",
+      "audit_verdict": "PARTIAL_COVERAGE",
+      "notes": "Partial coverage: 1 granular evidence record (prob-evid-hr-ch35-p18) attached to page."
+    },
+    {
+      "sample_index": 19,
+      "source_id": "src-university-physics-with--0bc11b67",
+      "source_filename": "University Physics with Modern Physics, 13th Edition.pdf",
+      "pdf_page_number": 205,
+      "page_category": "FORMULA",
+      "page_inventory_found": true,
+      "inventory_quality": "EXCELLENT",
+      "text_length": 3655,
+      "text_snippet": "Work: Positive, Negative, or Zero In Example 6.1 the work done in pushing the cars was positive. But it\u2019s important to u",
+      "structural_section": "Chapter 6: Work and Kinetic Energy (Module)",
+      "granular_evidence_ids": [
+        "evid-univ-p205-work-variable-force",
+        "form-evid-work-integral"
+      ],
+      "taxonomy_node_ids": [
+        "work-energy-power",
+        "work-energy-theorem"
+      ],
+      "provenance_role": "UNDERGRADUATE_DEPTH",
+      "audit_verdict": "FULL_MATCH",
+      "notes": "Complete traceability verified with 2 granular evidence records and clean taxonomy mapping."
+    },
+    {
+      "sample_index": 20,
+      "source_id": "src-university-physics-with--0bc11b67",
+      "source_filename": "University Physics with Modern Physics, 13th Edition.pdf",
+      "pdf_page_number": 440,
+      "page_category": "WORKED_EXAMPLE",
+      "page_inventory_found": true,
+      "inventory_quality": "EXCELLENT",
+      "text_length": 3903,
+      "text_snippet": "13.5 Kepler\u2019s Laws and the Motion of Planets The name planet comes from a Greek word meaning \u201cwanderer,\u201d and indeed the ",
+      "structural_section": "Chapter 12: Fluid Mechanics (Module)",
+      "granular_evidence_ids": [
+        "ex-evid-up-bernoulli-venturi"
+      ],
+      "taxonomy_node_ids": [
+        "fluid-mechanics",
+        "fluid-statics",
+        "fluid-dynamics"
+      ],
+      "provenance_role": "UNDERGRADUATE_DEPTH",
+      "audit_verdict": "PARTIAL_COVERAGE",
+      "notes": "Partial coverage: 1 granular evidence record (ex-evid-up-bernoulli-venturi) attached to page."
+    },
+    {
+      "sample_index": 21,
+      "source_id": "src-university-physics-with--0bc11b67",
+      "source_filename": "University Physics with Modern Physics, 13th Edition.pdf",
+      "pdf_page_number": 726,
+      "page_category": "FORMULA",
+      "page_inventory_found": true,
+      "inventory_quality": "EXCELLENT",
+      "text_length": 3872,
+      "text_snippet": "The charge  can be either positive or negative. If  is positive, the force  experienced by the charge is the same direct",
+      "structural_section": "Chapter 20: The Second Law of Thermodynamics (Module)",
+      "granular_evidence_ids": [
+        "evid-univ-p726-es-coulomb",
+        "form-evid-es-coulomb"
+      ],
+      "taxonomy_node_ids": [
+        "thermodynamics",
+        "second-law-and-entropy"
+      ],
+      "provenance_role": "UNDERGRADUATE_DEPTH",
+      "audit_verdict": "FULL_MATCH",
+      "notes": "Complete traceability verified with 2 granular evidence records and clean taxonomy mapping."
+    },
+    {
+      "sample_index": 22,
+      "source_id": "src-university-physics-with--0bc11b67",
+      "source_filename": "University Physics with Modern Physics, 13th Edition.pdf",
+      "pdf_page_number": 955,
+      "page_category": "PROBLEM",
+      "page_inventory_found": true,
+      "inventory_quality": "EXCELLENT",
+      "text_length": 3663,
+      "text_snippet": "Putting the pieces together, we \ufb01nd that the magnitude of the total  \ufb01eld is We can integrate this by trigonometric subs",
+      "structural_section": "Chapter 26: Direct-Current Circuits (Module)",
+      "granular_evidence_ids": [
+        "prob-evid-up-ch26-p45"
+      ],
+      "taxonomy_node_ids": [
+        "current-electricity",
+        "dc-circuits"
+      ],
+      "provenance_role": "UNDERGRADUATE_DEPTH",
+      "audit_verdict": "PARTIAL_COVERAGE",
+      "notes": "Partial coverage: 1 granular evidence record (prob-evid-up-ch26-p45) attached to page."
+    },
+    {
+      "sample_index": 23,
+      "source_id": "src-university-physics-with--0bc11b67",
+      "source_filename": "University Physics with Modern Physics, 13th Edition.pdf",
+      "pdf_page_number": 1205,
+      "page_category": "PROBLEM",
+      "page_inventory_found": true,
+      "inventory_quality": "EXCELLENT",
+      "text_length": 4595,
+      "text_snippet": "35.5 The Michelson Interferometer 1179 If a quarter-wavelength thickness of a material with an index of refraction great",
+      "structural_section": "Chapter 33: The Nature and Propagation of Light (Module)",
+      "granular_evidence_ids": [
+        "prob-evid-up-ch33-p19"
+      ],
+      "taxonomy_node_ids": [
+        "ray-optics",
+        "refraction-and-tir"
+      ],
+      "provenance_role": "UNDERGRADUATE_DEPTH",
+      "audit_verdict": "PARTIAL_COVERAGE",
+      "notes": "Partial coverage: 1 granular evidence record (prob-evid-up-ch33-p19) attached to page."
+    },
+    {
+      "sample_index": 24,
+      "source_id": "src-university-physics-with--0bc11b67",
+      "source_filename": "University Physics with Modern Physics, 13th Edition.pdf",
+      "pdf_page_number": 1405,
+      "page_category": "GENERAL_TEXT",
+      "page_inventory_found": true,
+      "inventory_quality": "EXCELLENT",
+      "text_length": 3717,
+      "text_snippet": "41.4 The Zeeman Effect 1379 systems. One example is positronium, in which a positron and an electron orbit each other; a",
+      "structural_section": "Chapter 39: Particles Behaving as Waves (Module)",
+      "granular_evidence_ids": [],
+      "taxonomy_node_ids": [
+        "dual-nature-of-matter-and-radiation",
+        "de-broglie-wavelength"
+      ],
+      "provenance_role": "UNDERGRADUATE_DEPTH",
+      "audit_verdict": "UNEXTRACTED_MISS",
+      "notes": "Section 'Chapter 39: Particles Behaving as Waves (Module)' has valid digital text (len=3717) but granular evidence is not yet extracted."
+    },
+    {
+      "sample_index": 25,
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "source_filename": "problems_in_general_physics_by_i_e_irodov.pdf",
+      "pdf_page_number": 10,
+      "page_category": "PROBLEM",
+      "page_inventory_found": true,
+      "inventory_quality": "EXCELLENT",
+      "text_length": 1370,
+      "text_snippet": "1.1 Kinematics \u25cf Average vectors of velocity and acceleration of a point: v r = \u2206 \u2206t , w v = \u2206 \u2206t , \u2026(1.1a) where \u2206r is ",
+      "structural_section": "1.1 Kinematics",
+      "granular_evidence_ids": [
+        "prob-evid-irodov-1-001"
+      ],
+      "taxonomy_node_ids": [
+        "kinematics"
+      ],
+      "provenance_role": "ADVANCED_PROBLEMS",
+      "audit_verdict": "PARTIAL_COVERAGE",
+      "notes": "Partial coverage: 1 granular evidence record (prob-evid-irodov-1-001) attached to page."
+    },
+    {
+      "sample_index": 26,
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "source_filename": "problems_in_general_physics_by_i_e_irodov.pdf",
+      "pdf_page_number": 48,
+      "page_category": "PROBLEM",
+      "page_inventory_found": true,
+      "inventory_quality": "EXCELLENT",
+      "text_length": 2478,
+      "text_snippet": "246. In the arrangement shown in Fig. 1.56 the mass of the uniform solid cylinder of radius R is equal to m and the mass",
+      "structural_section": "1.5 Dynamics of a Solid Body",
+      "granular_evidence_ids": [
+        "prob-evid-irodov-1-234"
+      ],
+      "taxonomy_node_ids": [
+        "rotational-motion"
+      ],
+      "provenance_role": "ADVANCED_PROBLEMS",
+      "audit_verdict": "PARTIAL_COVERAGE",
+      "notes": "Partial coverage: 1 granular evidence record (prob-evid-irodov-1-234) attached to page."
+    },
+    {
+      "sample_index": 27,
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "source_filename": "problems_in_general_physics_by_i_e_irodov.pdf",
+      "pdf_page_number": 82,
+      "page_category": "PROBLEM",
+      "page_inventory_found": true,
+      "inventory_quality": "EXCELLENT",
+      "text_length": 2717,
+      "text_snippet": "90. Find the fraction of molecules whose velocity projections on the x axis fall within the interval from vx to v dv x x",
+      "structural_section": "2.3 Kinetic Theory of Gases. Boltzmann and Maxwell",
+      "granular_evidence_ids": [
+        "prob-evid-irodov-2-122"
+      ],
+      "taxonomy_node_ids": [
+        "kinetic-theory-of-gases"
+      ],
+      "provenance_role": "ADVANCED_PROBLEMS",
+      "audit_verdict": "PARTIAL_COVERAGE",
+      "notes": "Partial coverage: 1 granular evidence record (prob-evid-irodov-2-122) attached to page."
+    },
+    {
+      "sample_index": 28,
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "source_filename": "problems_in_general_physics_by_i_e_irodov.pdf",
+      "pdf_page_number": 101,
+      "page_category": "PROBLEM",
+      "page_inventory_found": true,
+      "inventory_quality": "EXCELLENT",
+      "text_length": 1666,
+      "text_snippet": "3.1 Constant Electric Field in Vacuum \u25cf Strength and potential of the field of a point charge q : E = \u03b5 1 4 0 3 \u03c0 q r r,",
+      "structural_section": "3.1 Constant Electric Field in Vacuum",
+      "granular_evidence_ids": [
+        "prob-evid-irodov-3-001"
+      ],
+      "taxonomy_node_ids": [
+        "electrostatics"
+      ],
+      "provenance_role": "ADVANCED_PROBLEMS",
+      "audit_verdict": "PARTIAL_COVERAGE",
+      "notes": "Partial coverage: 1 granular evidence record (prob-evid-irodov-3-001) attached to page."
+    },
+    {
+      "sample_index": 29,
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "source_filename": "problems_in_general_physics_by_i_e_irodov.pdf",
+      "pdf_page_number": 147,
+      "page_category": "PROBLEM",
+      "page_inventory_found": true,
+      "inventory_quality": "EXCELLENT",
+      "text_length": 2074,
+      "text_snippet": "301. A long straight wire carries a current I0. At distances a and b from it there are two other wires, parallel to the ",
+      "structural_section": "3.6 Electromagnetic Induction. Maxwell's Equations",
+      "granular_evidence_ids": [
+        "prob-evid-irodov-3-288"
+      ],
+      "taxonomy_node_ids": [
+        "electromagnetic-induction"
+      ],
+      "provenance_role": "ADVANCED_PROBLEMS",
+      "audit_verdict": "PARTIAL_COVERAGE",
+      "notes": "Partial coverage: 1 granular evidence record (prob-evid-irodov-3-288) attached to page."
+    },
+    {
+      "sample_index": 30,
+      "source_id": "src-problems-in-general-phys-6cf0b2b7",
+      "source_filename": "problems_in_general_physics_by_i_e_irodov.pdf",
+      "pdf_page_number": 280,
+      "page_category": "GENERAL_TEXT",
+      "page_inventory_found": true,
+      "inventory_quality": "EXCELLENT",
+      "text_length": 1205,
+      "text_snippet": "Physical Fundamentals of Mechanics 1. v l = = /2\u03c4 3.0 km per hour. 2. v v v v v v v = + + + 2 2 0 1 2 0 1 2 ( )/( ). 3. ",
+      "structural_section": "Answers and Solutions",
+      "granular_evidence_ids": [],
+      "taxonomy_node_ids": [
+        "advanced-problem-solutions"
+      ],
+      "provenance_role": "ADVANCED_PROBLEMS",
+      "audit_verdict": "UNEXTRACTED_MISS",
+      "notes": "Section 'Answers and Solutions' has valid digital text (len=1205) but granular evidence is not yet extracted."
+    },
+    {
+      "sample_index": 31,
+      "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+      "source_filename": "Feynman, Richard P. The Feynman Lectures on Physics.pdf",
+      "pdf_page_number": 15,
+      "page_category": "GENERAL_TEXT",
+      "page_inventory_found": true,
+      "inventory_quality": "EMPTY",
+      "text_length": 0,
+      "text_snippet": null,
+      "structural_section": "Lecture 1 (Scanned Image-Only)",
+      "granular_evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "provenance_role": "CONCEPTUAL_DEPTH",
+      "audit_verdict": "SCANNED_UNEXTRACTED",
+      "notes": "Scanned image-only PDF with 0 extractable digital text characters. Requires OCR / visual review."
+    },
+    {
+      "sample_index": 32,
+      "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+      "source_filename": "Feynman, Richard P. The Feynman Lectures on Physics.pdf",
+      "pdf_page_number": 85,
+      "page_category": "GENERAL_TEXT",
+      "page_inventory_found": true,
+      "inventory_quality": "EMPTY",
+      "text_length": 0,
+      "text_snippet": null,
+      "structural_section": "Lecture 8 (Scanned Image-Only)",
+      "granular_evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "provenance_role": "CONCEPTUAL_DEPTH",
+      "audit_verdict": "SCANNED_UNEXTRACTED",
+      "notes": "Scanned image-only PDF with 0 extractable digital text characters. Requires OCR / visual review."
+    },
+    {
+      "sample_index": 33,
+      "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+      "source_filename": "Feynman, Richard P. The Feynman Lectures on Physics.pdf",
+      "pdf_page_number": 145,
+      "page_category": "GENERAL_TEXT",
+      "page_inventory_found": true,
+      "inventory_quality": "EMPTY",
+      "text_length": 0,
+      "text_snippet": null,
+      "structural_section": "Lecture 14 (Scanned Image-Only)",
+      "granular_evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "provenance_role": "CONCEPTUAL_DEPTH",
+      "audit_verdict": "SCANNED_UNEXTRACTED",
+      "notes": "Scanned image-only PDF with 0 extractable digital text characters. Requires OCR / visual review."
+    },
+    {
+      "sample_index": 34,
+      "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+      "source_filename": "Feynman, Richard P. The Feynman Lectures on Physics.pdf",
+      "pdf_page_number": 230,
+      "page_category": "GENERAL_TEXT",
+      "page_inventory_found": true,
+      "inventory_quality": "EMPTY",
+      "text_length": 0,
+      "text_snippet": null,
+      "structural_section": "Lecture 22 (Scanned Image-Only)",
+      "granular_evidence_ids": [],
+      "taxonomy_node_ids": [],
+      "provenance_role": "CONCEPTUAL_DEPTH",
+      "audit_verdict": "SCANNED_UNEXTRACTED",
+      "notes": "Scanned image-only PDF with 0 extractable digital text characters. Requires OCR / visual review."
+    },
+    {
+      "sample_index": 35,
+      "source_id": "src-jee-main-mock-test-01-20-222525c1",
+      "source_filename": "jee_main_mock_test-01-2024-jan.pdf",
+      "pdf_page_number": 1,
+      "page_category": "MOCK_QUESTION",
+      "page_inventory_found": true,
+      "inventory_quality": "VECTORIZED_GLYPHS",
+      "text_length": 47,
+      "text_snippet": "[Vectorized Mock Exam Page: 1437 drawing paths]",
+      "structural_section": "Section A (MCQs Q1-20) & Section B (Numerical Q21-30)",
+      "granular_evidence_ids": [
+        "mock-q-m1-01",
+        "mock-q-m1-02",
+        "mock-q-m1-03",
+        "mock-q-m1-04",
+        "mock-q-m1-05",
+        "mock-q-m1-06",
+        "mock-q-m1-07",
+        "mock-q-m1-08"
+      ],
+      "taxonomy_node_ids": [
+        "mechanics",
+        "electrodynamics",
+        "thermodynamics",
+        "optics",
+        "modern-physics"
+      ],
+      "provenance_role": "EXAM_ASSESSMENT",
+      "audit_verdict": "VECTOR_UNEXTRACTED",
+      "notes": "Vector stroke drawing glyphs. Indexed as mock question with page-render requirement (8 indexed items)."
+    },
+    {
+      "sample_index": 36,
+      "source_id": "src-jee-main-mock-test-01-20-222525c1",
+      "source_filename": "jee_main_mock_test-01-2024-jan.pdf",
+      "pdf_page_number": 2,
+      "page_category": "MOCK_QUESTION",
+      "page_inventory_found": true,
+      "inventory_quality": "VECTORIZED_GLYPHS",
+      "text_length": 47,
+      "text_snippet": "[Vectorized Mock Exam Page: 1105 drawing paths]",
+      "structural_section": "Section A (MCQs Q1-20) & Section B (Numerical Q21-30)",
+      "granular_evidence_ids": [
+        "mock-q-m1-09",
+        "mock-q-m1-10",
+        "mock-q-m1-11",
+        "mock-q-m1-12",
+        "mock-q-m1-13",
+        "mock-q-m1-14",
+        "mock-q-m1-15"
+      ],
+      "taxonomy_node_ids": [
+        "mechanics",
+        "electrodynamics",
+        "thermodynamics",
+        "optics",
+        "modern-physics"
+      ],
+      "provenance_role": "EXAM_ASSESSMENT",
+      "audit_verdict": "VECTOR_UNEXTRACTED",
+      "notes": "Vector stroke drawing glyphs. Indexed as mock question with page-render requirement (7 indexed items)."
+    },
+    {
+      "sample_index": 37,
+      "source_id": "src-jee-main-mock-test-01-20-222525c1",
+      "source_filename": "jee_main_mock_test-01-2024-jan.pdf",
+      "pdf_page_number": 3,
+      "page_category": "MOCK_QUESTION",
+      "page_inventory_found": true,
+      "inventory_quality": "VECTORIZED_GLYPHS",
+      "text_length": 47,
+      "text_snippet": "[Vectorized Mock Exam Page: 1124 drawing paths]",
+      "structural_section": "Section A (MCQs Q1-20) & Section B (Numerical Q21-30)",
+      "granular_evidence_ids": [
+        "mock-q-m1-16",
+        "mock-q-m1-17",
+        "mock-q-m1-18",
+        "mock-q-m1-19",
+        "mock-q-m1-20",
+        "mock-q-m1-21",
+        "mock-q-m1-22",
+        "mock-q-m1-23",
+        "mock-q-m1-24",
+        "mock-q-m1-25"
+      ],
+      "taxonomy_node_ids": [
+        "mechanics",
+        "electrodynamics",
+        "thermodynamics",
+        "optics",
+        "modern-physics"
+      ],
+      "provenance_role": "EXAM_ASSESSMENT",
+      "audit_verdict": "VECTOR_UNEXTRACTED",
+      "notes": "Vector stroke drawing glyphs. Indexed as mock question with page-render requirement (10 indexed items)."
+    },
+    {
+      "sample_index": 38,
+      "source_id": "src-jee-main-mock-test-01-20-222525c1",
+      "source_filename": "jee_main_mock_test-01-2024-jan.pdf",
+      "pdf_page_number": 4,
+      "page_category": "MOCK_QUESTION",
+      "page_inventory_found": true,
+      "inventory_quality": "VECTORIZED_GLYPHS",
+      "text_length": 47,
+      "text_snippet": "[Vectorized Mock Exam Page: 1503 drawing paths]",
+      "structural_section": "Section A (MCQs Q1-20) & Section B (Numerical Q21-30)",
+      "granular_evidence_ids": [
+        "mock-q-m1-26",
+        "mock-q-m1-27",
+        "mock-q-m1-28",
+        "mock-q-m1-29",
+        "mock-q-m1-30"
+      ],
+      "taxonomy_node_ids": [
+        "mechanics",
+        "electrodynamics",
+        "thermodynamics",
+        "optics",
+        "modern-physics"
+      ],
+      "provenance_role": "EXAM_ASSESSMENT",
+      "audit_verdict": "VECTOR_UNEXTRACTED",
+      "notes": "Vector stroke drawing glyphs. Indexed as mock question with page-render requirement (5 indexed items)."
+    },
+    {
+      "sample_index": 39,
+      "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+      "source_filename": "jee_rank_booster_-02_mock_paper.pdf",
+      "pdf_page_number": 1,
+      "page_category": "MOCK_QUESTION",
+      "page_inventory_found": true,
+      "inventory_quality": "EXCELLENT",
+      "text_length": 1738,
+      "text_snippet": "Section - A 1. N divisions on the main scale of a vernier callipers coincide with N + 1 divisions on the vernier scale. ",
+      "structural_section": "Section A (MCQs Q1-20) & Section B (Numerical Q21-30)",
+      "granular_evidence_ids": [
+        "mock-q-m2-01",
+        "mock-q-m2-02"
+      ],
+      "taxonomy_node_ids": [
+        "mechanics",
+        "electrodynamics",
+        "thermodynamics",
+        "optics",
+        "modern-physics"
+      ],
+      "provenance_role": "EXAM_ASSESSMENT",
+      "audit_verdict": "FULL_MATCH",
+      "notes": "Complete traceability verified with 2 granular evidence records and clean taxonomy mapping."
+    },
+    {
+      "sample_index": 40,
+      "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+      "source_filename": "jee_rank_booster_-02_mock_paper.pdf",
+      "pdf_page_number": 2,
+      "page_category": "MOCK_QUESTION",
+      "page_inventory_found": true,
+      "inventory_quality": "EXCELLENT",
+      "text_length": 2002,
+      "text_snippet": "3. n moles of an ideal gas undergo a process A \u00ae B as shown in the figure. Maximum temperature of the gas during the pro",
+      "structural_section": "Section A (MCQs Q1-20) & Section B (Numerical Q21-30)",
+      "granular_evidence_ids": [
+        "mock-q-m2-03",
+        "mock-q-m2-04",
+        "mock-q-m2-05",
+        "mock-q-m2-06",
+        "mock-q-m2-07",
+        "mock-q-m2-08",
+        "mock-q-m2-09"
+      ],
+      "taxonomy_node_ids": [
+        "mechanics",
+        "electrodynamics",
+        "thermodynamics",
+        "optics",
+        "modern-physics"
+      ],
+      "provenance_role": "EXAM_ASSESSMENT",
+      "audit_verdict": "FULL_MATCH",
+      "notes": "Complete traceability verified with 7 granular evidence records and clean taxonomy mapping."
+    },
+    {
+      "sample_index": 41,
+      "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+      "source_filename": "jee_rank_booster_-02_mock_paper.pdf",
+      "pdf_page_number": 3,
+      "page_category": "MOCK_QUESTION",
+      "page_inventory_found": true,
+      "inventory_quality": "EXCELLENT",
+      "text_length": 1927,
+      "text_snippet": "10. A homogeneous  solid cylinder of length L (L < H/2). Cross-sectional area A/5 is immersed such that it floats with i",
+      "structural_section": "Section A (MCQs Q1-20) & Section B (Numerical Q21-30)",
+      "granular_evidence_ids": [
+        "mock-q-m2-10",
+        "mock-q-m2-11",
+        "mock-q-m2-12",
+        "mock-q-m2-13",
+        "mock-q-m2-14"
+      ],
+      "taxonomy_node_ids": [
+        "mechanics",
+        "electrodynamics",
+        "thermodynamics",
+        "optics",
+        "modern-physics"
+      ],
+      "provenance_role": "EXAM_ASSESSMENT",
+      "audit_verdict": "FULL_MATCH",
+      "notes": "Complete traceability verified with 5 granular evidence records and clean taxonomy mapping."
+    },
+    {
+      "sample_index": 42,
+      "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+      "source_filename": "jee_rank_booster_-02_mock_paper.pdf",
+      "pdf_page_number": 4,
+      "page_category": "MOCK_QUESTION",
+      "page_inventory_found": true,
+      "inventory_quality": "EXCELLENT",
+      "text_length": 1511,
+      "text_snippet": "15. Velocity\u2013time graph for a body of mass 10 kg is shown in figure. Work\u2013done on the body in first two seconds of the m",
+      "structural_section": "Section A (MCQs Q1-20) & Section B (Numerical Q21-30)",
+      "granular_evidence_ids": [
+        "mock-q-m2-15",
+        "mock-q-m2-16",
+        "mock-q-m2-17",
+        "mock-q-m2-18",
+        "mock-q-m2-19",
+        "mock-q-m2-20"
+      ],
+      "taxonomy_node_ids": [
+        "mechanics",
+        "electrodynamics",
+        "thermodynamics",
+        "optics",
+        "modern-physics"
+      ],
+      "provenance_role": "EXAM_ASSESSMENT",
+      "audit_verdict": "FULL_MATCH",
+      "notes": "Complete traceability verified with 6 granular evidence records and clean taxonomy mapping."
+    },
+    {
+      "sample_index": 43,
+      "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+      "source_filename": "jee_rank_booster_-02_mock_paper.pdf",
+      "pdf_page_number": 5,
+      "page_category": "MOCK_QUESTION",
+      "page_inventory_found": true,
+      "inventory_quality": "EXCELLENT",
+      "text_length": 2145,
+      "text_snippet": "Section - B 21. The pulleys and strings shown in the figure are smooth and of negligible mass. For the system to remain ",
+      "structural_section": "Section A & B (Q31-60) [STRICTLY QUARANTINED]",
+      "granular_evidence_ids": [
+        "mock-q-m2-21",
+        "mock-q-m2-22",
+        "mock-q-m2-23",
+        "mock-q-m2-24",
+        "mock-q-m2-25",
+        "mock-q-m2-26",
+        "mock-q-m2-27",
+        "mock-q-m2-28",
+        "mock-q-m2-29",
+        "mock-q-m2-30"
+      ],
+      "taxonomy_node_ids": [],
+      "provenance_role": "EXAM_ASSESSMENT",
+      "audit_verdict": "FULL_MATCH",
+      "notes": "Complete traceability verified with 10 granular evidence records and clean taxonomy mapping."
+    },
+    {
+      "sample_index": 44,
+      "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+      "source_filename": "jee_rank_booster-03_mock_paper.pdf",
+      "pdf_page_number": 1,
+      "page_category": "MOCK_QUESTION",
+      "page_inventory_found": true,
+      "inventory_quality": "EXCELLENT",
+      "text_length": 1668,
+      "text_snippet": "Section - A 1. A glass prism of refractive index 1.5 is immersed in water (refractive index 4 3 ) as shown in figure. A ",
+      "structural_section": "Section A (MCQs Q1-20) & Section B (Numerical Q21-30)",
+      "granular_evidence_ids": [
+        "mock-q-m3-01",
+        "mock-q-m3-02"
+      ],
+      "taxonomy_node_ids": [
+        "mechanics",
+        "electrodynamics",
+        "thermodynamics",
+        "optics",
+        "modern-physics"
+      ],
+      "provenance_role": "EXAM_ASSESSMENT",
+      "audit_verdict": "FULL_MATCH",
+      "notes": "Complete traceability verified with 2 granular evidence records and clean taxonomy mapping."
+    },
+    {
+      "sample_index": 45,
+      "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+      "source_filename": "jee_rank_booster-03_mock_paper.pdf",
+      "pdf_page_number": 3,
+      "page_category": "MOCK_QUESTION",
+      "page_inventory_found": true,
+      "inventory_quality": "EXCELLENT",
+      "text_length": 1566,
+      "text_snippet": "7. The fundamental frequency of a sonometer wire of length l is n0. A bridge is now introduced at a distance of Dl (<< l",
+      "structural_section": "Section A (MCQs Q1-20) & Section B (Numerical Q21-30)",
+      "granular_evidence_ids": [
+        "mock-q-m3-07",
+        "mock-q-m3-08",
+        "mock-q-m3-09",
+        "mock-q-m3-10",
+        "mock-q-m3-11"
+      ],
+      "taxonomy_node_ids": [
+        "mechanics",
+        "electrodynamics",
+        "thermodynamics",
+        "optics",
+        "modern-physics"
+      ],
+      "provenance_role": "EXAM_ASSESSMENT",
+      "audit_verdict": "FULL_MATCH",
+      "notes": "Complete traceability verified with 5 granular evidence records and clean taxonomy mapping."
+    },
+    {
+      "sample_index": 46,
+      "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+      "source_filename": "jee_rank_booster-03_mock_paper.pdf",
+      "pdf_page_number": 5,
+      "page_category": "MOCK_QUESTION",
+      "page_inventory_found": true,
+      "inventory_quality": "EXCELLENT",
+      "text_length": 1933,
+      "text_snippet": "17. A point particle of mass 0.1 kg is executing SHM of amplitude of 0.1m. When the particle passes through the mean pos",
+      "structural_section": "Section A (MCQs Q1-20) & Section B (Numerical Q21-30)",
+      "granular_evidence_ids": [
+        "mock-q-m3-17",
+        "mock-q-m3-18",
+        "mock-q-m3-19",
+        "mock-q-m3-20",
+        "mock-q-m3-21",
+        "mock-q-m3-22"
+      ],
+      "taxonomy_node_ids": [
+        "mechanics",
+        "electrodynamics",
+        "thermodynamics",
+        "optics",
+        "modern-physics"
+      ],
+      "provenance_role": "EXAM_ASSESSMENT",
+      "audit_verdict": "FULL_MATCH",
+      "notes": "Complete traceability verified with 6 granular evidence records and clean taxonomy mapping."
+    },
+    {
+      "sample_index": 47,
+      "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+      "source_filename": "jee_rank_booster-03_mock_paper.pdf",
+      "pdf_page_number": 6,
+      "page_category": "MOCK_QUESTION",
+      "page_inventory_found": true,
+      "inventory_quality": "EXCELLENT",
+      "text_length": 1916,
+      "text_snippet": "Film W 23. A piece of wood from a recently cut tree shows 20 decays per minute. A wooden piece of same size placed in a ",
+      "structural_section": "Section A (MCQs Q1-20) & Section B (Numerical Q21-30)",
+      "granular_evidence_ids": [
+        "mock-q-m3-23",
+        "mock-q-m3-24",
+        "mock-q-m3-25",
+        "mock-q-m3-26",
+        "mock-q-m3-27",
+        "mock-q-m3-28",
+        "mock-q-m3-29"
+      ],
+      "taxonomy_node_ids": [
+        "mechanics",
+        "electrodynamics",
+        "thermodynamics",
+        "optics",
+        "modern-physics"
+      ],
+      "provenance_role": "EXAM_ASSESSMENT",
+      "audit_verdict": "FULL_MATCH",
+      "notes": "Complete traceability verified with 7 granular evidence records and clean taxonomy mapping."
+    },
+    {
+      "sample_index": 48,
+      "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+      "source_filename": "jee_rank_booster-03_mock_paper.pdf",
+      "pdf_page_number": 7,
+      "page_category": "MOCK_QUESTION",
+      "page_inventory_found": true,
+      "inventory_quality": "EXCELLENT",
+      "text_length": 1310,
+      "text_snippet": "The force acting on the conductor B, which is situated at 10 cm distance from A will be x \u00d7 10\u20135 N. Find the value of x.",
+      "structural_section": "Section A (MCQs Q1-20) & Section B (Numerical Q21-30)",
+      "granular_evidence_ids": [
+        "mock-q-m3-30"
+      ],
+      "taxonomy_node_ids": [
+        "mechanics",
+        "electrodynamics",
+        "thermodynamics",
+        "optics",
+        "modern-physics"
+      ],
+      "provenance_role": "EXAM_ASSESSMENT",
+      "audit_verdict": "PARTIAL_COVERAGE",
+      "notes": "Partial coverage: 1 granular evidence record (mock-q-m3-30) attached to page."
+    }
+  ]
+}

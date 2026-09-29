@@ -1,0 +1,929 @@
+{
+  "chapter_id": "kinematics",
+  "chapter_title": "Kinematics: Rest, Motion, and Trajectories",
+  "template_type": "MECHANICS",
+  "order": 2,
+  "taxonomy_references": [
+    {
+      "chapter_id": "kinematics",
+      "topic_id": "rectilinear-motion",
+      "subtopic_id": "distance-displacement"
+    },
+    {
+      "chapter_id": "kinematics",
+      "topic_id": "rectilinear-motion",
+      "subtopic_id": "speed-velocity"
+    },
+    {
+      "chapter_id": "kinematics",
+      "topic_id": "rectilinear-motion",
+      "subtopic_id": "acceleration-and-deceleration"
+    },
+    {
+      "chapter_id": "kinematics",
+      "topic_id": "rectilinear-motion",
+      "subtopic_id": "constant-acceleration-equations"
+    },
+    {
+      "chapter_id": "kinematics",
+      "topic_id": "rectilinear-motion",
+      "subtopic_id": "variable-acceleration-calculus"
+    },
+    {
+      "chapter_id": "kinematics",
+      "topic_id": "rectilinear-motion",
+      "subtopic_id": "motion-under-gravity"
+    },
+    {
+      "chapter_id": "kinematics",
+      "topic_id": "rectilinear-motion",
+      "subtopic_id": "graphs-in-kinematics"
+    },
+    {
+      "chapter_id": "kinematics",
+      "topic_id": "projectile-motion",
+      "subtopic_id": "ground-to-ground-projectile"
+    },
+    {
+      "chapter_id": "kinematics",
+      "topic_id": "projectile-motion",
+      "subtopic_id": "projectile-from-tower"
+    },
+    {
+      "chapter_id": "kinematics",
+      "topic_id": "projectile-motion",
+      "subtopic_id": "motion-on-inclined-plane"
+    },
+    {
+      "chapter_id": "kinematics",
+      "topic_id": "projectile-motion",
+      "subtopic_id": "launch-angle-from-position"
+    },
+    {
+      "chapter_id": "kinematics",
+      "topic_id": "relative-motion",
+      "subtopic_id": "relative-velocity-1d"
+    },
+    {
+      "chapter_id": "kinematics",
+      "topic_id": "relative-motion",
+      "subtopic_id": "relative-motion-2d"
+    },
+    {
+      "chapter_id": "kinematics",
+      "topic_id": "relative-motion",
+      "subtopic_id": "river-swimmer-problems"
+    },
+    {
+      "chapter_id": "kinematics",
+      "topic_id": "relative-motion",
+      "subtopic_id": "rain-umbrella-problems"
+    },
+    {
+      "chapter_id": "kinematics",
+      "topic_id": "relative-motion",
+      "subtopic_id": "shortest-distance-and-collision"
+    }
+  ],
+  "learning_objectives": [
+    "Differentiate between distance and displacement, speed and velocity.",
+    "Formulate and solve problems involving constant and variable acceleration using calculus.",
+    "Analyze motion under gravity as a specific case of uniform acceleration.",
+    "Interpret and construct position-time, velocity-time, and acceleration-time graphs.",
+    "Decompose 2D projectile motion into independent 1D motions.",
+    "Analyze projectile motion on inclined planes.",
+    "Apply relative velocity concepts to solve rain-umbrella and river-swimmer problems.",
+    "Determine conditions for collision and shortest distance of approach between moving bodies."
+  ],
+  "prerequisite_curriculum_nodes": [
+    "units-and-dimensions",
+    "vectors-and-coordinate-systems",
+    "differential-calculus-foundations",
+    "integral-calculus-foundations"
+  ],
+  "concept_sequence": [
+    {
+      "concept_id": "concept-kin-pos-disp-01",
+      "curriculum_id": "kinematics",
+      "role": "FOUNDATION_CONCEPT",
+      "prerequisite_relationship": "none",
+      "explanation_priority": 1,
+      "source_atom_ids": [
+        "atom-kin-001"
+      ],
+      "source_evidence": "HCV1 Ch 3"
+    },
+    {
+      "concept_id": "concept-kin-vel-speed-01",
+      "curriculum_id": "kinematics",
+      "role": "CORE_PRINCIPLE",
+      "prerequisite_relationship": "Requires concept-kin-pos-disp-01",
+      "explanation_priority": 2,
+      "source_atom_ids": [
+        "atom-kin-002"
+      ],
+      "source_evidence": "HCV1 Ch 3"
+    },
+    {
+      "concept_id": "concept-kin-accel-01",
+      "curriculum_id": "kinematics",
+      "role": "CORE_PRINCIPLE",
+      "prerequisite_relationship": "Requires concept-kin-vel-speed-01",
+      "explanation_priority": 3,
+      "source_atom_ids": [
+        "atom-kin-003"
+      ],
+      "source_evidence": "HCV1 Ch 3"
+    },
+    {
+      "concept_id": "concept-kin-gravity-01",
+      "curriculum_id": "kinematics",
+      "role": "CORE_PRINCIPLE",
+      "prerequisite_relationship": "Requires concept-kin-accel-01",
+      "explanation_priority": 4,
+      "source_atom_ids": [
+        "atom-kin-004"
+      ],
+      "source_evidence": "HCV1 Ch 3"
+    },
+    {
+      "concept_id": "concept-kin-projectile-01",
+      "curriculum_id": "kinematics",
+      "role": "CORE_PRINCIPLE",
+      "prerequisite_relationship": "Requires concept-kin-accel-01",
+      "explanation_priority": 5,
+      "source_atom_ids": [
+        "atom-kin-005"
+      ],
+      "source_evidence": "University Physics Ch 3"
+    },
+    {
+      "concept_id": "concept-kin-incline-proj-01",
+      "curriculum_id": "kinematics",
+      "role": "CORE_PRINCIPLE",
+      "prerequisite_relationship": "Requires concept-kin-projectile-01",
+      "explanation_priority": 6,
+      "source_atom_ids": [
+        "atom-kin-006"
+      ],
+      "source_evidence": "University Physics Ch 3"
+    },
+    {
+      "concept_id": "concept-kin-relative-vel-01",
+      "curriculum_id": "kinematics",
+      "role": "CORE_PRINCIPLE",
+      "prerequisite_relationship": "Requires concept-kin-vel-speed-01",
+      "explanation_priority": 7,
+      "source_atom_ids": [
+        "atom-kin-007"
+      ],
+      "source_evidence": "Halliday Ch 4"
+    },
+    {
+      "concept_id": "concept-kin-river-boat-01",
+      "curriculum_id": "kinematics",
+      "role": "CORE_PRINCIPLE",
+      "prerequisite_relationship": "Requires concept-kin-relative-vel-01",
+      "explanation_priority": 8,
+      "source_atom_ids": [
+        "atom-kin-008"
+      ],
+      "source_evidence": "Halliday Ch 4"
+    }
+  ],
+  "formula_sequence": [
+    {
+      "formula_id": "formula-kin-const-accel-v",
+      "title": "Velocity-Time Relation",
+      "equation_latex": "v = u + at",
+      "variables": {
+        "v": "Final velocity",
+        "u": "Initial velocity",
+        "a": "Constant acceleration",
+        "t": "Time interval"
+      },
+      "units_and_dimensions": {
+        "v": "m/s",
+        "u": "m/s",
+        "a": "m/s^2",
+        "t": "s"
+      },
+      "assumptions": [
+        "Acceleration is constant"
+      ],
+      "conditions_of_validity": [
+        "Rectilinear or projectile motion components with constant a"
+      ],
+      "derivation_links": [],
+      "related_concept_ids": [
+        "concept-kin-accel-01"
+      ],
+      "common_misuse_cases": [
+        "Using when acceleration depends on time or position"
+      ],
+      "provenance": [],
+      "verification_status": "VERIFIED"
+    },
+    {
+      "formula_id": "formula-kin-const-accel-s",
+      "title": "Position-Time Relation",
+      "equation_latex": "s = ut + \\frac{1}{2}at^2",
+      "variables": {
+        "s": "Displacement",
+        "u": "Initial velocity",
+        "a": "Constant acceleration",
+        "t": "Time interval"
+      },
+      "units_and_dimensions": {
+        "s": "m",
+        "u": "m/s",
+        "a": "m/s^2",
+        "t": "s"
+      },
+      "assumptions": [
+        "Acceleration is constant"
+      ],
+      "conditions_of_validity": [
+        "Constant a"
+      ],
+      "derivation_links": [],
+      "related_concept_ids": [
+        "concept-kin-accel-01"
+      ],
+      "common_misuse_cases": [
+        "Confusing displacement with distance traveled"
+      ],
+      "provenance": [],
+      "verification_status": "VERIFIED"
+    },
+    {
+      "formula_id": "formula-kin-const-accel-v2",
+      "title": "Velocity-Position Relation",
+      "equation_latex": "v^2 = u^2 + 2as",
+      "variables": {
+        "v": "Final velocity",
+        "u": "Initial velocity",
+        "a": "Constant acceleration",
+        "s": "Displacement"
+      },
+      "units_and_dimensions": {
+        "v": "m/s",
+        "u": "m/s",
+        "a": "m/s^2",
+        "s": "m"
+      },
+      "assumptions": [
+        "Acceleration is constant"
+      ],
+      "conditions_of_validity": [
+        "Constant a"
+      ],
+      "derivation_links": [],
+      "related_concept_ids": [
+        "concept-kin-accel-01"
+      ],
+      "common_misuse_cases": [
+        "Ignoring vector signs for v, u, a, s in 1D"
+      ],
+      "provenance": [],
+      "verification_status": "VERIFIED"
+    },
+    {
+      "formula_id": "formula-kin-nth-second",
+      "title": "Displacement in nth Second",
+      "equation_latex": "s_n = u + \\frac{a}{2}(2n - 1)",
+      "variables": {
+        "s_n": "Displacement in nth second",
+        "u": "Initial velocity",
+        "a": "Constant acceleration",
+        "n": "second number"
+      },
+      "units_and_dimensions": {
+        "s_n": "m",
+        "u": "m/s",
+        "a": "m/s^2",
+        "n": "dimensionless"
+      },
+      "assumptions": [
+        "Acceleration is constant"
+      ],
+      "conditions_of_validity": [
+        "Constant a"
+      ],
+      "derivation_links": [],
+      "related_concept_ids": [
+        "concept-kin-accel-01"
+      ],
+      "common_misuse_cases": [
+        "Confusing with total displacement in n seconds"
+      ],
+      "provenance": [],
+      "verification_status": "VERIFIED"
+    },
+    {
+      "formula_id": "formula-kin-diff-accel",
+      "title": "Acceleration as derivative of velocity w.r.t position",
+      "equation_latex": "a = v \\frac{dv}{dx}",
+      "variables": {
+        "a": "Acceleration",
+        "v": "Velocity",
+        "x": "Position"
+      },
+      "units_and_dimensions": {
+        "a": "m/s^2",
+        "v": "m/s",
+        "x": "m"
+      },
+      "assumptions": [
+        "Motion in 1D"
+      ],
+      "conditions_of_validity": [
+        "Velocity is a function of position"
+      ],
+      "derivation_links": [],
+      "related_concept_ids": [
+        "concept-kin-accel-01"
+      ],
+      "common_misuse_cases": [
+        "Forgetting the v factor"
+      ],
+      "provenance": [],
+      "verification_status": "VERIFIED"
+    },
+    {
+      "formula_id": "formula-kin-projectile-flight-time",
+      "title": "Time of Flight (Ground to Ground)",
+      "equation_latex": "T = \\frac{2u \\sin\\theta}{g}",
+      "variables": {
+        "T": "Time of flight",
+        "u": "Initial speed",
+        "theta": "Angle of projection",
+        "g": "Acceleration due to gravity"
+      },
+      "units_and_dimensions": {
+        "T": "s",
+        "u": "m/s",
+        "theta": "rad",
+        "g": "m/s^2"
+      },
+      "assumptions": [
+        "Level ground",
+        "No air resistance",
+        "Constant g"
+      ],
+      "conditions_of_validity": [
+        "Ground-to-ground projectile"
+      ],
+      "derivation_links": [],
+      "related_concept_ids": [
+        "concept-kin-projectile-01"
+      ],
+      "common_misuse_cases": [
+        "Using for elevated launch"
+      ],
+      "provenance": [],
+      "verification_status": "VERIFIED"
+    },
+    {
+      "formula_id": "formula-kin-projectile-max-height",
+      "title": "Maximum Height",
+      "equation_latex": "H = \\frac{u^2 \\sin^2\\theta}{2g}",
+      "variables": {
+        "H": "Maximum height",
+        "u": "Initial speed",
+        "theta": "Angle of projection",
+        "g": "Acceleration due to gravity"
+      },
+      "units_and_dimensions": {
+        "H": "m",
+        "u": "m/s",
+        "theta": "rad",
+        "g": "m/s^2"
+      },
+      "assumptions": [
+        "Level ground",
+        "No air resistance",
+        "Constant g"
+      ],
+      "conditions_of_validity": [
+        "Ground-to-ground projectile"
+      ],
+      "derivation_links": [],
+      "related_concept_ids": [
+        "concept-kin-projectile-01"
+      ],
+      "common_misuse_cases": [
+        "Forgetting squared terms"
+      ],
+      "provenance": [],
+      "verification_status": "VERIFIED"
+    },
+    {
+      "formula_id": "formula-kin-projectile-range",
+      "title": "Horizontal Range",
+      "equation_latex": "R = \\frac{u^2 \\sin 2\\theta}{g}",
+      "variables": {
+        "R": "Range",
+        "u": "Initial speed",
+        "theta": "Angle of projection",
+        "g": "Acceleration due to gravity"
+      },
+      "units_and_dimensions": {
+        "R": "m",
+        "u": "m/s",
+        "theta": "rad",
+        "g": "m/s^2"
+      },
+      "assumptions": [
+        "Level ground",
+        "No air resistance",
+        "Constant g"
+      ],
+      "conditions_of_validity": [
+        "Ground-to-ground projectile"
+      ],
+      "derivation_links": [],
+      "related_concept_ids": [
+        "concept-kin-projectile-01"
+      ],
+      "common_misuse_cases": [
+        "Using for projectile launched from a height"
+      ],
+      "provenance": [],
+      "verification_status": "VERIFIED"
+    },
+    {
+      "formula_id": "formula-kin-projectile-trajectory",
+      "title": "Equation of Trajectory",
+      "equation_latex": "y = x \\tan\\theta - \\frac{gx^2}{2u^2 \\cos^2\\theta}",
+      "variables": {
+        "y": "Vertical position",
+        "x": "Horizontal position",
+        "u": "Initial speed",
+        "theta": "Angle of projection",
+        "g": "Acceleration due to gravity"
+      },
+      "units_and_dimensions": {
+        "y": "m",
+        "x": "m",
+        "u": "m/s",
+        "theta": "rad",
+        "g": "m/s^2"
+      },
+      "assumptions": [
+        "Origin at launch point",
+        "No air resistance",
+        "Constant g"
+      ],
+      "conditions_of_validity": [
+        "Standard 2D plane launch"
+      ],
+      "derivation_links": [],
+      "related_concept_ids": [
+        "concept-kin-projectile-01"
+      ],
+      "common_misuse_cases": [
+        "Misinterpreting axes"
+      ],
+      "provenance": [],
+      "verification_status": "VERIFIED"
+    },
+    {
+      "formula_id": "formula-kin-incline-range",
+      "title": "Range on Inclined Plane",
+      "equation_latex": "R = \\frac{2u^2 \\sin\\alpha \\cos(\\alpha+\\beta)}{g \\cos^2\\beta}",
+      "variables": {
+        "R": "Range on incline",
+        "u": "Initial speed",
+        "alpha": "Angle of projection with incline",
+        "beta": "Angle of incline",
+        "g": "Acceleration due to gravity"
+      },
+      "units_and_dimensions": {
+        "R": "m",
+        "u": "m/s",
+        "alpha": "rad",
+        "beta": "rad",
+        "g": "m/s^2"
+      },
+      "assumptions": [
+        "Launch up the incline",
+        "No air resistance",
+        "Constant g"
+      ],
+      "conditions_of_validity": [
+        "Incline plane projection"
+      ],
+      "derivation_links": [],
+      "related_concept_ids": [
+        "concept-kin-incline-proj-01"
+      ],
+      "common_misuse_cases": [
+        "Confusing alpha and beta"
+      ],
+      "provenance": [],
+      "verification_status": "VERIFIED"
+    },
+    {
+      "formula_id": "formula-kin-relative-velocity",
+      "title": "Relative Velocity",
+      "equation_latex": "\\vec{v}_{AB} = \\vec{v}_A - \\vec{v}_B",
+      "variables": {
+        "v_{AB}": "Velocity of A w.r.t B",
+        "v_A": "Velocity of A",
+        "v_B": "Velocity of B"
+      },
+      "units_and_dimensions": {
+        "v": "m/s"
+      },
+      "assumptions": [
+        "Inertial frames",
+        "Classical non-relativistic speeds"
+      ],
+      "conditions_of_validity": [
+        "Galilean relativity applies"
+      ],
+      "derivation_links": [],
+      "related_concept_ids": [
+        "concept-kin-relative-vel-01"
+      ],
+      "common_misuse_cases": [
+        "Vector subtraction error"
+      ],
+      "provenance": [],
+      "verification_status": "VERIFIED"
+    },
+    {
+      "formula_id": "formula-kin-river-crossing-time",
+      "title": "River Crossing Time",
+      "equation_latex": "t = \\frac{d}{v_{sr} \\cos\\theta}",
+      "variables": {
+        "t": "Time",
+        "d": "Width of river",
+        "v_{sr}": "Velocity of swimmer w.r.t river",
+        "theta": "Angle with normal"
+      },
+      "units_and_dimensions": {
+        "t": "s",
+        "d": "m",
+        "v_{sr}": "m/s",
+        "theta": "rad"
+      },
+      "assumptions": [
+        "Constant velocities"
+      ],
+      "conditions_of_validity": [
+        "2D relative motion"
+      ],
+      "derivation_links": [],
+      "related_concept_ids": [
+        "concept-kin-river-boat-01"
+      ],
+      "common_misuse_cases": [
+        "Using resultant velocity instead of component"
+      ],
+      "provenance": [],
+      "verification_status": "VERIFIED"
+    }
+  ],
+  "misconception_sequence": [
+    {
+      "misconception_id": "misc-kin-01",
+      "category": "VECTOR_SCALAR_CONFUSION",
+      "statement": "Distance and displacement are always equal in magnitude.",
+      "explanation": "Distance is path length, displacement is shortest distance between initial and final points. They are only equal for unidirectional straight line motion.",
+      "trap_mechanism": "Questions reversing direction",
+      "trigger_conditions": [
+        "Particle turns back"
+      ],
+      "connected_concept_ids": [
+        "concept-kin-pos-disp-01"
+      ],
+      "connected_atom_ids": []
+    },
+    {
+      "misconception_id": "misc-kin-02",
+      "category": "SIGN_MISTAKE",
+      "statement": "Acceleration is always negative when an object is slowing down.",
+      "explanation": "Deceleration means velocity and acceleration have opposite signs. If v is negative, a must be positive to slow down.",
+      "trap_mechanism": "Negative initial velocity",
+      "trigger_conditions": [
+        "v < 0 and slowing down"
+      ],
+      "connected_concept_ids": [
+        "concept-kin-accel-01"
+      ],
+      "connected_atom_ids": []
+    },
+    {
+      "misconception_id": "misc-kin-03",
+      "category": "INVALID_FORMULA_CONDITION",
+      "statement": "Applying v = u + at to variable acceleration.",
+      "explanation": "Kinematic equations strictly require constant acceleration.",
+      "trap_mechanism": "Acceleration given as a function of time or position",
+      "trigger_conditions": [
+        "a = kt"
+      ],
+      "connected_concept_ids": [
+        "concept-kin-accel-01"
+      ],
+      "connected_atom_ids": []
+    },
+    {
+      "misconception_id": "misc-kin-04",
+      "category": "INVALID_FORMULA_CONDITION",
+      "statement": "Using R = u^2 sin2theta/g for projectiles launched from a tower.",
+      "explanation": "Standard range formula only works if initial and final heights are the same.",
+      "trap_mechanism": "Launch from height h",
+      "trigger_conditions": [
+        "h > 0"
+      ],
+      "connected_concept_ids": [
+        "concept-kin-projectile-01"
+      ],
+      "connected_atom_ids": []
+    },
+    {
+      "misconception_id": "misc-kin-05",
+      "category": "VECTOR_SCALAR_CONFUSION",
+      "statement": "In relative motion, speeds always add or subtract directly.",
+      "explanation": "Relative velocity is a vector difference. Magnitudes don't simply add unless in 1D collinear motion.",
+      "trap_mechanism": "2D relative motion",
+      "trigger_conditions": [
+        "Objects moving at an angle"
+      ],
+      "connected_concept_ids": [
+        "concept-kin-relative-vel-01"
+      ],
+      "connected_atom_ids": []
+    }
+  ],
+  "worked_example_sequence": [
+    {
+      "example_id": "ex-kin-calc-motion-01",
+      "problem_statement": "A particle moves such that its position is x = 2t^3 - 3t^2. Find its acceleration when velocity is zero.",
+      "known_quantities": {
+        "x(t)": "2t^3 - 3t^2"
+      },
+      "target_quantity": "a at v=0",
+      "relevant_concepts": [
+        "concept-kin-accel-01"
+      ],
+      "governing_principles": [
+        "v = dx/dt",
+        "a = dv/dt"
+      ],
+      "solution_strategy": "Differentiate x to find v, solve v=0 for t. Differentiate v to find a, substitute t.",
+      "step_by_step_derivation": [
+        "v = 6t^2 - 6t",
+        "6t^2 - 6t = 0 => t = 0, 1",
+        "a = 12t - 6",
+        "At t=0, a=-6. At t=1, a=6"
+      ],
+      "final_answer": "a = -6 m/s^2 or 6 m/s^2",
+      "sanity_checks": [
+        "Dimensional analysis of derivatives"
+      ],
+      "alternate_methods": [],
+      "source_atom_id": "atom-kin-ex-01",
+      "provenance": [],
+      "verification_status": "VERIFIED"
+    },
+    {
+      "example_id": "ex-kin-gravity-balloon-01",
+      "problem_statement": "A stone is dropped from a balloon ascending with constant velocity. Find time to reach ground.",
+      "known_quantities": {
+        "v_balloon": "v_0 upwards",
+        "h": "height"
+      },
+      "target_quantity": "time t",
+      "relevant_concepts": [
+        "concept-kin-gravity-01"
+      ],
+      "governing_principles": [
+        "s = ut + 0.5at^2"
+      ],
+      "solution_strategy": "Use relative frame or ground frame with u = v_0 upwards, s = -h, a = -g.",
+      "step_by_step_derivation": [
+        "-h = v_0 t - 0.5 g t^2",
+        "0.5 g t^2 - v_0 t - h = 0",
+        "Solve quadratic for t"
+      ],
+      "final_answer": "t = (v_0 + sqrt(v_0^2 + 2gh))/g",
+      "sanity_checks": [
+        "If v_0 = 0, t = sqrt(2h/g)"
+      ],
+      "alternate_methods": [],
+      "source_atom_id": "atom-kin-ex-02",
+      "provenance": [],
+      "verification_status": "VERIFIED"
+    },
+    {
+      "example_id": "ex-kin-projectile-max-height",
+      "problem_statement": "Find angle of projection for which horizontal range and maximum height are equal.",
+      "known_quantities": {
+        "R": "H"
+      },
+      "target_quantity": "theta",
+      "relevant_concepts": [
+        "concept-kin-projectile-01"
+      ],
+      "governing_principles": [
+        "R formula",
+        "H formula"
+      ],
+      "solution_strategy": "Equate R and H expressions, simplify to find tan(theta).",
+      "step_by_step_derivation": [
+        "u^2 sin2theta/g = u^2 sin^2theta / (2g)",
+        "2 sin(theta)cos(theta) = sin^2(theta)/2",
+        "tan(theta) = 4"
+      ],
+      "final_answer": "theta = arctan(4)",
+      "sanity_checks": [
+        "Units cancel out"
+      ],
+      "alternate_methods": [],
+      "source_atom_id": "atom-kin-ex-03",
+      "provenance": [],
+      "verification_status": "VERIFIED"
+    },
+    {
+      "example_id": "ex-kin-incline-proj-01",
+      "problem_statement": "Range on an inclined plane.",
+      "known_quantities": {
+        "u": "initial speed",
+        "alpha": "angle",
+        "beta": "incline angle"
+      },
+      "target_quantity": "Range",
+      "relevant_concepts": [
+        "concept-kin-incline-proj-01"
+      ],
+      "governing_principles": [
+        "Components of g"
+      ],
+      "solution_strategy": "Resolve gravity into components parallel and perpendicular to incline.",
+      "step_by_step_derivation": [
+        "T = 2u sin(alpha)/(g cos(beta))",
+        "R = u cos(alpha) T - 0.5 g sin(beta) T^2"
+      ],
+      "final_answer": "R formula",
+      "sanity_checks": [],
+      "alternate_methods": [],
+      "source_atom_id": "atom-kin-ex-04",
+      "provenance": [],
+      "verification_status": "VERIFIED"
+    },
+    {
+      "example_id": "ex-kin-river-swimmer-01",
+      "problem_statement": "Minimum time and shortest path in river crossing.",
+      "known_quantities": {
+        "v_river": "u",
+        "v_swimmer": "v",
+        "d": "width"
+      },
+      "target_quantity": "t_min, drift",
+      "relevant_concepts": [
+        "concept-kin-river-boat-01"
+      ],
+      "governing_principles": [
+        "Relative velocity"
+      ],
+      "solution_strategy": "Resolve velocity vectors.",
+      "step_by_step_derivation": [
+        "t = d / (v cos theta)",
+        "Min time when theta=0",
+        "Drift = (u + v sin theta)t"
+      ],
+      "final_answer": "t_min = d/v",
+      "sanity_checks": [],
+      "alternate_methods": [],
+      "source_atom_id": "atom-kin-ex-05",
+      "provenance": [],
+      "verification_status": "VERIFIED"
+    }
+  ],
+  "question_sequence": [
+    {
+      "atom_id": "kinematics-question-7b4e1d65",
+      "curriculum_id": "curr-kin-02",
+      "chapter_id": "kinematics",
+      "topic_id": "rectilinear-motion",
+      "pedagogical_role": "PRACTICE_QUESTION",
+      "difficulty_dimensions": {
+        "conceptual_difficulty": 2,
+        "mathematical_difficulty": 2,
+        "multistep_reasoning_difficulty": 3,
+        "abstraction_difficulty": 1,
+        "computational_burden": 2,
+        "trap_misconception_difficulty": 2
+      },
+      "prerequisite_concept_ids": [
+        "concept-kin-accel-01"
+      ],
+      "source_provenance": []
+    },
+    {
+      "atom_id": "kinematics-question-b29767c8",
+      "curriculum_id": "curr-kin-03",
+      "chapter_id": "kinematics",
+      "topic_id": "projectile-motion",
+      "pedagogical_role": "PRACTICE_QUESTION",
+      "difficulty_dimensions": {
+        "conceptual_difficulty": 3,
+        "mathematical_difficulty": 3,
+        "multistep_reasoning_difficulty": 3,
+        "abstraction_difficulty": 2,
+        "computational_burden": 2,
+        "trap_misconception_difficulty": 2
+      },
+      "prerequisite_concept_ids": [
+        "concept-kin-projectile-01"
+      ],
+      "source_provenance": []
+    }
+  ],
+  "question_ladders": [
+    {
+      "ladder_id": "ladder-kin-proj-incline-01",
+      "chapter_id": "kinematics",
+      "topic_id": "projectile-motion",
+      "title": "Scaffolding Projectile Motion from Flat Ground to Inclined Obstacles",
+      "physical_system": "Point particle under constant downward gravity g",
+      "rungs": [
+        {
+          "level": 1,
+          "level_name": "Direct application",
+          "atom_id": "prob-hcv1-ch03-ex31",
+          "physical_delta": "Baseline symmetric ground-to-ground projectile motion over horizontal terrain",
+          "reasoning_depth": 2,
+          "concepts_involved": [
+            "concept-kin-projectile-01"
+          ],
+          "mathematical_complexity": "Single-formula evaluation of range, flight time, and apex height",
+          "transfer_requirement": "Resolving initial velocity into orthogonal horizontal and vertical components"
+        },
+        {
+          "level": 2,
+          "level_name": "Standard multi-step",
+          "atom_id": "prob-up-ch03-ex023",
+          "physical_delta": "Asymmetric trajectory from an elevated platform of height h above target level",
+          "reasoning_depth": 3,
+          "concepts_involved": [
+            "concept-kin-projectile-01"
+          ],
+          "mathematical_complexity": "Solving quadratic kinematic equation in time for asymmetric boundary conditions",
+          "transfer_requirement": "Enforcing sign convention for downward displacement y = -h"
+        },
+        {
+          "level": 3,
+          "level_name": "Advanced single-concept",
+          "atom_id": "prob-hcv1-ch03-ex41",
+          "physical_delta": "Landing target situated on an inclined boundary y = x tan(beta)",
+          "reasoning_depth": 4,
+          "concepts_involved": [
+            "concept-kin-projectile-01",
+            "concept-kin-incline-proj-01"
+          ],
+          "mathematical_complexity": "Simultaneous solution of parabolic trajectory and linear boundary constraint",
+          "transfer_requirement": "Parametric intersection of ballistic trajectory with geometric slope"
+        },
+        {
+          "level": 4,
+          "level_name": "Advanced multi-concept synthesis",
+          "atom_id": "prob-irodov-1-025",
+          "physical_delta": "Full inclined coordinate transformation with orthogonal components of gravity along and normal to incline",
+          "reasoning_depth": 5,
+          "concepts_involved": [
+            "concept-kin-incline-proj-01"
+          ],
+          "mathematical_complexity": "2D accelerated motion with non-zero acceleration components on both axes",
+          "transfer_requirement": "Tilted reference frame analysis and optimal launch angle derivation theta = pi/4 + beta/2"
+        }
+      ],
+      "pedagogical_objective": "Scaffold 2D projectile mechanics from elementary symmetric ground launch through asymmetric height offsets to inclined plane projection with tilted reference frames."
+    }
+  ],
+  "revision_checklist": [
+    "Verify signs in constant acceleration equations.",
+    "Ensure x and y motions are treated independently in projectiles.",
+    "Check relative velocity vector directions.",
+    "Ensure 'g' components are correct in inclined plane problems."
+  ],
+  "coverage_requirements": {
+    "min_questions": 50,
+    "target_difficulty_distribution": {
+      "L1": 10,
+      "L2": 15,
+      "L3": 15,
+      "L4": 5,
+      "L5": 5
+    }
+  },
+  "assessment_requirements": {
+    "exam_types": [
+      "JEE_MAIN",
+      "JEE_ADVANCED"
+    ]
+  }
+}

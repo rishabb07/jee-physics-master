@@ -1,0 +1,41 @@
+{
+  "content_id": "concept-kin-incline-proj-01",
+  "curriculum_id": "curr-kin-03",
+  "taxonomy_reference": {
+    "chapter_id": "kinematics",
+    "topic_id": "projectile-motion",
+    "subtopic_id": "motion-on-inclined-plane"
+  },
+  "title": "Projectile Motion on an Inclined Plane",
+  "learning_objective": "Model projectile motion launched onto an inclined plane by orienting coordinate axes parallel and perpendicular to the inclined slope.",
+  "intuition": "When firing a projectile up a hill of slope angle $\\alpha$, gravity no longer pulls straight down relative to the ground you are walking on. By tilting our heads and aligning our coordinate axes so that the $x'$-axis lies along the surface of the hill and the $y'$-axis is perpendicular to it, the problem looks just like a normal projectile problem, except that gravity now has components in both the $x'$ and $y'$ directions.",
+  "formal_definition": "Let a plane be inclined at angle $\\alpha$ to the horizontal. A particle is projected from the base of the plane with speed $u$ at angle $\\theta$ with the horizontal (so the launch angle relative to the incline is $\\beta = \\theta - \\alpha$). Choosing the $x'$-axis along the incline upward and $y'$-axis perpendicular upward, the acceleration components are $a_{x'} = -g\\sin\\alpha$ and $a_{y'} = -g\\cos\\alpha$. Flight time is determined by $y'(T) = 0 \\implies T = \\frac{2 u\\sin(\\theta - \\alpha)}{g\\cos\\alpha}$.",
+  "explanation": "Projectile motion on an inclined plane introduces simultaneous acceleration along both coordinate axes.\n\n### 1. Tilted Coordinate System\n- Initial velocity components:\n  $$u_{x'} = u\\cos(\\theta - \\alpha)$$\n  $$u_{y'} = u\\sin(\\theta - \\alpha)$$\n- Acceleration components:\n  $$a_{x'} = -g\\sin\\alpha$$\n  $$a_{y'} = -g\\cos\\alpha$$\n\n### 2. Time of Flight and Range\nThe projectile lands back on the incline when the perpendicular displacement vanishes: $y'(T) = 0$.\n$$u_{y'} T - \\frac{1}{2} g\\cos\\alpha T^2 = 0 \\implies T = \\frac{2 u\\sin(\\theta - \\alpha)}{g\\cos\\alpha}$$\nThe range along the incline $R_{\\text{up}}$ is given by substituting $T$ into $x'(t)$:\n$$R_{\\text{up}} = u_{x'} T - \\frac{1}{2} g\\sin\\alpha T^2 = \\frac{2 u^2 \\sin(\\theta - \\alpha)\\cos\\theta}{g\\cos^2\\alpha}$$\n\n### 3. Condition for Maximum Range\nUsing trigonometric identity $2\\sin(\\theta - \\alpha)\\cos\\theta = \\sin(2\\theta - \\alpha) - \\sin\\alpha$, the range is maximized when $\\sin(2\\theta - \\alpha) = 1$, which yields:\n$$2\\theta - \\alpha = \\frac{\\pi}{2} \\implies \\theta_{\\text{opt}} = \\frac{\\pi}{4} + \\frac{\\alpha}{2}$$\nThe resulting maximum range up the incline is $R_{\\text{max, up}} = \\frac{u^2}{g(1 + \\sin\\alpha)}$.",
+  "assumptions": [
+    "Incline is planar with constant inclination angle $\\alpha$.",
+    "Uniform downward gravity $\\vec{g}$.",
+    "No bounce or impact dynamics modeled (terminates on contact)."
+  ],
+  "boundary_conditions": [
+    "Reduces to standard flat ground projectile when $\\alpha = 0$, giving $\\theta_{\\text{opt}} = 45^\\circ$ and $R_{\\text{max}} = u^2/g$.",
+    "Valid strictly for $\\theta > \\alpha$ (projectile launched above the incline surface)."
+  ],
+  "related_formula_ids": [
+    "formula-kin-incline-range"
+  ],
+  "prerequisite_refs": [
+    "concept-kin-projectile-01"
+  ],
+  "source_references": [
+    "Concepts of Physics Vol 1 by H.C. Verma (Chapter 3, pp. 58-60)",
+    "University Physics with Modern Physics (Chapter 3, pp. 105-108)"
+  ],
+  "generation_metadata": {
+    "agent": "physics-concept-writer",
+    "version": "1.0",
+    "target_chapter": "kinematics"
+  },
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-concept-kin-incline-proj-01",
+  "content_hash": "a99c4aa1d80fc7c9fe96d626b95ad3e9e60085330520bc3f322b5618ce77aca5"
+}

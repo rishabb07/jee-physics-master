@@ -1,0 +1,47 @@
+{
+  "formula_id": "formula-kin-diff-accel",
+  "chapter_id": "kinematics",
+  "title": "Differential and Calculus Formulations of Acceleration",
+  "equation": "a = \\frac{dv}{dt} = v \\frac{dv}{dx} = \\frac{d^2 x}{dt^2}",
+  "equation_latex": "a = \\frac{dv}{dt} = v \\frac{dv}{dx} = \\frac{d^2 x}{dt^2}",
+  "variables": {
+    "a": "Instantaneous acceleration",
+    "v": "Instantaneous velocity",
+    "x": "Position coordinate",
+    "t": "Time"
+  },
+  "units": {
+    "a": "m/s^2",
+    "v": "m/s",
+    "x": "m",
+    "t": "s"
+  },
+  "dimensions": {
+    "a": "[L][T]^-2",
+    "v": "[L][T]^-1",
+    "x": "[L]",
+    "t": "[T]"
+  },
+  "assumptions": [
+    "Differentiable position function x(t) and velocity function v(x)"
+  ],
+  "validity_conditions": [
+    "Universal kinematic definition valid for arbitrary variable acceleration a(t), a(x), a(v)"
+  ],
+  "derivation_reference": null,
+  "related_concepts": [
+    "concept-kin-accel-01"
+  ],
+  "common_misuse": [
+    "Using a = dv/dt when acceleration is given as a function of position a(x) instead of a = v dv/dx"
+  ],
+  "provenance": [],
+  "generation_metadata": {
+    "agent": "physics-formula-writer",
+    "version": "1.0",
+    "target_chapter": "kinematics"
+  },
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-formula-kin-diff-accel",
+  "content_hash": "c485aff012f16c66f71c3e3f690a5637179483c4f855211334bebe5041a46ed6"
+}

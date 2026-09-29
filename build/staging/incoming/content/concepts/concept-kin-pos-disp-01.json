@@ -1,0 +1,39 @@
+{
+  "content_id": "concept-kin-pos-disp-01",
+  "curriculum_id": "curr-kin-01",
+  "taxonomy_reference": {
+    "chapter_id": "kinematics",
+    "topic_id": "rectilinear-motion",
+    "subtopic_id": "distance-displacement"
+  },
+  "title": "Position, Distance, and Displacement",
+  "learning_objective": "Distinguish between position vector, scalar path length (distance), and vector displacement in one and multiple dimensions.",
+  "intuition": "Imagine walking along a winding mountain trail from a camp to an observation point. The odometer on your boots records the total ground trodden\u2014this is distance, a non-negative scalar that never decreases. In contrast, the direct arrow connecting the camp to where you stand is your displacement vector. If you walk 5 km out and 5 km back, your distance is 10 km, but your net displacement is zero.",
+  "formal_definition": "Let a particle occupy position vector $\\vec{r}_1 = \\vec{r}(t_1)$ at initial time $t_1$ and $\\vec{r}_2 = \\vec{r}(t_2)$ at later time $t_2$. The displacement vector is defined as $\\Delta\\vec{r} = \\vec{r}_2 - \\vec{r}_1$. The distance traversed is the arc length integral $s = \\int_{t_1}^{t_2} |\\vec{v}(t)|\\,dt$. While distance $s$ is a scalar path-dependent quantity ($s \\ge |\\Delta\\vec{r}|$), displacement $\\Delta\\vec{r}$ depends solely on initial and final coordinates.",
+  "explanation": "Kinematics begins with specifying where an object is located relative to an agreed coordinate origin and reference frame.\n\n### 1. Position Vector and Coordinate Frames\nIn a Cartesian frame, the position vector of a particle at point $P(x, y, z)$ is $\\vec{r} = x\\hat{i} + y\\hat{j} + z\\hat{k}$. An object's state of rest or motion is inherently relative to the chosen reference frame. An object at rest with respect to the floor of a moving train carriage is simultaneously moving with respect to an observer standing on the railway platform.\n\n### 2. Distance versus Displacement\n- **Distance ($s$):** The total path length traversed along the actual trajectory. It is always a non-negative scalar ($s \\ge 0$) and monotonically increases with time ($ds/dt \\ge 0$).\n- **Displacement ($\\Delta\\vec{r}$):** The straight-line vector directed from initial position to final position: $\\Delta\\vec{r} = \\vec{r}_f - \\vec{r}_i = (x_f - x_i)\\hat{i} + (y_f - y_i)\\hat{j} + (z_f - z_i)\\hat{k}$.\n\n### 3. Metric Property and Inequality\nBy the triangle inequality applied to infinitesimal displacement segments, $|\\Delta\\vec{r}| \\le s$. The equality $|\\Delta\\vec{r}| = s$ holds if and only if the motion is strictly unidirectional along a straight line without any reversal of direction.",
+  "assumptions": [
+    "Point mass particle assumption (internal degrees of freedom and spatial extent are ignored).",
+    "Continuous and piecewise differentiable trajectory in Euclidean three-space."
+  ],
+  "boundary_conditions": [
+    "Valid for all classical non-relativistic trajectories.",
+    "Distance is invariant under translation and rotation of coordinate axes, whereas position vector is frame-dependent."
+  ],
+  "related_formula_ids": [],
+  "prerequisite_refs": [
+    "units-and-dimensions",
+    "vectors-and-coordinate-systems"
+  ],
+  "source_references": [
+    "Concepts of Physics Vol 1 by H.C. Verma (Chapter 3, pp. 41-44)",
+    "Fundamentals of Physics by Halliday, Resnick & Walker (Chapter 2, pp. 27-30)"
+  ],
+  "generation_metadata": {
+    "agent": "physics-concept-writer",
+    "version": "1.0",
+    "target_chapter": "kinematics"
+  },
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-concept-kin-pos-disp-01",
+  "content_hash": "2278fa311bc5f08ec3d8ec6e8f356ee98fcd41be50d8a4c06982c0f95338d403"
+}

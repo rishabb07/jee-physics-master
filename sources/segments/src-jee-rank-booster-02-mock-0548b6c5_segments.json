@@ -1,0 +1,70 @@
+{
+  "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+  "file_name": "jee_rank_booster_-02_mock_paper.pdf",
+  "segmentation_type": "DETERMINISTIC_PAGE_SEGMENT",
+  "total_segments": 3,
+  "segments": [
+    {
+      "segment_id": "seg-src-jee-rank-booster-02-mock-0548b6c5-001",
+      "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 1,
+      "page_end": 5,
+      "segment_title": "Physics Section A & B (Q1-30)",
+      "segment_summary": "Pages 1-5 of jee_rank_booster_-02_mock_paper.pdf (Physics Section A & B (Q1-30))",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "EXAM_QUESTION",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-jee-rank-booster-02-mock-0548b6c5-002",
+      "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 6,
+      "page_end": 9,
+      "segment_title": "Chemistry Section A & B (Q31-60)",
+      "segment_summary": "Pages 6-9 of jee_rank_booster_-02_mock_paper.pdf (Chemistry Section A & B (Q31-60))",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXCLUDED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "CHEMISTRY",
+        "content_types": [
+          "OTHER"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-jee-rank-booster-02-mock-0548b6c5-003",
+      "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 10,
+      "page_end": 12,
+      "segment_title": "Mathematics Section A & B (Q61-90)",
+      "segment_summary": "Pages 10-12 of jee_rank_booster_-02_mock_paper.pdf (Mathematics Section A & B (Q61-90))",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXCLUDED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "MATHEMATICS",
+        "content_types": [
+          "OTHER"
+        ]
+      }
+    }
+  ],
+  "created_at": "2026-09-29T16:38:11.448793Z"
+}

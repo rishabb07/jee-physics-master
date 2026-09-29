@@ -1,0 +1,45 @@
+{
+  "derivation_id": "derivation-formula-kin-const-accel-v",
+  "target_formula_id": "formula-kin-const-accel-v",
+  "target_equation": "v = u + a t",
+  "starting_principles": [
+    "Definition of instantaneous acceleration a = dv/dt"
+  ],
+  "assumptions": [
+    "Acceleration a is constant over time interval [0, t]",
+    "1D rectilinear motion"
+  ],
+  "ordered_steps": [
+    {
+      "step_number": 1,
+      "action_description": "Express acceleration as first derivative of velocity",
+      "equation_latex": "a = \\frac{dv}{dt} \\implies dv = a \\, dt",
+      "justification": "Definition of instantaneous rate of change of velocity."
+    },
+    {
+      "step_number": 2,
+      "action_description": "Integrate both sides with initial condition v(0) = u and final condition v(t) = v",
+      "equation_latex": "\\int_{u}^{v} dv = \\int_{0}^{t} a \\, dt",
+      "justification": "Definite integration over corresponding physical limits."
+    },
+    {
+      "step_number": 3,
+      "action_description": "Factor constant acceleration out of the integral and evaluate",
+      "equation_latex": "[v]_{u}^{v} = a [t]_{0}^{t} \\implies v - u = a t \\implies v = u + a t",
+      "justification": "Fundamental theorem of calculus for constant integrand a."
+    }
+  ],
+  "final_equation": "v = u + a t",
+  "applicability_conditions": [
+    "Strictly valid only when a is independent of time t"
+  ],
+  "source_references": [
+    "Concepts of Physics Vol 1 by H.C. Verma (Chapter 3, p. 48)"
+  ],
+  "risk_level": "HIGH",
+  "verification_status": "VERIFIED",
+  "verification_record_id": "dual-cvr-derivation-formula-kin-const-accel-v",
+  "generator_identity": "physics-derivation-writer",
+  "generator_conversation_id": "gen-kin-deriv-01",
+  "content_hash": "099694026819a143933cbc4b9ac315a9a4ed4f191ce86a60775aca5de46d8b08"
+}

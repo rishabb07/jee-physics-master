@@ -1,0 +1,48 @@
+{
+  "formula_id": "formula-kin-projectile-flight-time",
+  "chapter_id": "kinematics",
+  "title": "Time of Flight for Ground-to-Ground Projectile",
+  "equation": "T = \\frac{2 u \\sin\\theta}{g}",
+  "equation_latex": "T = \\frac{2 u \\sin\\theta}{g}",
+  "variables": {
+    "T": "Total flight time duration until landing",
+    "u": "Launch speed",
+    "\\theta": "Launch elevation angle with horizontal",
+    "g": "Gravitational acceleration"
+  },
+  "units": {
+    "T": "s",
+    "u": "m/s",
+    "\\theta": "rad or deg",
+    "g": "m/s^2"
+  },
+  "dimensions": {
+    "T": "[T]",
+    "u": "[L][T]^-1",
+    "\\theta": "[1]",
+    "g": "[L][T]^-2"
+  },
+  "assumptions": [
+    "Launch and landing points at same elevation (y = 0)",
+    "Uniform downward gravity g"
+  ],
+  "validity_conditions": [
+    "Fails if projectile lands on elevated ground or cliff"
+  ],
+  "derivation_reference": "derivation-formula-kin-projectile-trajectory",
+  "related_concepts": [
+    "concept-kin-projectile-01"
+  ],
+  "common_misuse": [
+    "Applying standard T to projection from elevated tower"
+  ],
+  "provenance": [],
+  "generation_metadata": {
+    "agent": "physics-formula-writer",
+    "version": "1.0",
+    "target_chapter": "kinematics"
+  },
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-formula-kin-projectile-flight-time",
+  "content_hash": "55b9ef4caedbbc6b340fb748edbc97b019894e52b0fb6c814bc6efc0ed8c83af"
+}

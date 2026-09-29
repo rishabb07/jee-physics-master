@@ -1,0 +1,23 @@
+{
+  "verification_id": "cvr-formula-kin-river-crossing-time",
+  "artifact_id": "formula-kin-river-crossing-time",
+  "artifact_version": 1,
+  "content_hash": "45c2017e212b948c24de485754b5a3e490e678f247bb266da071dd71fbb02466",
+  "verifier_id": "content-verifier-mechanics-kinematics",
+  "verifier_conversation_id": "kinematics-verifier-turn-01",
+  "risk_level": "MEDIUM",
+  "verdict": "VERIFIED",
+  "assumptions_checked": true,
+  "dimensional_check_passed": true,
+  "numerical_check_passed": true,
+  "limiting_case_check_passed": true,
+  "independent_derivation_or_calculation": "First-principles audit of formula 'formula-kin-river-crossing-time'. Dimensional homogeneity of equation checked against SI base units. All variable definitions and explicit assumptions audited.",
+  "findings": [
+    "Equation dimensionally homogeneous",
+    "SI units and dimensions accurately cataloged",
+    "Assumptions and domain of validity clearly demarcated",
+    "Common misuses accurately identified"
+  ],
+  "discrepancies": [],
+  "timestamp": "2026-09-29T21:50:36.014395Z"
+}

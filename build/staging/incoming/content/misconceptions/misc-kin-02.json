@@ -1,0 +1,23 @@
+{
+  "misconception_id": "misc-kin-02",
+  "chapter_id": "kinematics",
+  "concept_id": "concept-kin-accel-01",
+  "title": "Negative Acceleration Always Means Deceleration (Slowing Down)",
+  "category": "SIGN_MISTAKE",
+  "statement": "Negative acceleration always means that the body is slowing down (decelerating).",
+  "incorrect_statement": "Whenever a < 0, the object must be slowing down.",
+  "erroneous_reasoning": "Students associate the word 'negative' with subtraction or decrease, inferring that negative acceleration must decrease the speed of an object.",
+  "why_it_fails": "The sign of acceleration merely indicates its vector direction along the chosen coordinate axis. It has no intrinsic connection to whether speed is increasing or decreasing without comparing it to the sign of velocity.",
+  "correct_physics_explanation": "Speed is the magnitude of velocity: v_speed = |v|. Differentiating gives d(v^2)/dt = 2 v (dv/dt) = 2 v a. An object speeds up whenever velocity and acceleration have the SAME sign (v * a > 0). If a car travels in the negative x-direction (v = -20 m/s) and accelerates in the negative direction (a = -5 m/s^2), its speed increases from 20 m/s to 25 m/s to 30 m/s in the negative direction. Deceleration occurs if and only if v and a have OPPOSITE signs (v * a < 0).",
+  "corrective_explanation": "Deceleration means decreasing speed, which occurs when velocity and acceleration vectors point in opposite directions (v . a < 0). A negative acceleration with negative velocity causes the body to speed up in the negative direction.",
+  "refutation_counterexample": "A stone dropped from rest at x = 0 has v(t) = -gt and a = -g. Both are negative, yet the stone speeds up downward as it falls!",
+  "supporting_evidence": "Halliday & Resnick, Chapter 2: 'Deceleration does not mean acceleration is negative. It means speed is decreasing.'",
+  "diagnostic_check_latex": "\\frac{d}{dt}(|v|) = \\text{sgn}(v) \\cdot a < 0 \\iff v \\cdot a < 0",
+  "diagnostic_symptom": "Student assumes a car moving along -x with a = -2 m/s^2 is slowing down.",
+  "connected_atom_ids": [
+    "kinematics-question-7b4e1d65"
+  ],
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-misc-kin-02",
+  "content_hash": "0774001e4a248ee202d93c3d0cf0d8678be6753518826396d121ebd766936e5f"
+}

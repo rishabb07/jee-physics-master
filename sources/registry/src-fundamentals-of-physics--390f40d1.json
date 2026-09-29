@@ -1,0 +1,44 @@
+{
+  "source_id": "src-fundamentals-of-physics--390f40d1",
+  "source_version": 1,
+  "file_name": "Fundamentals of Physics-Halliday,Resnick,Walker.pdf",
+  "file_path": "Fundamentals of Physics-Halliday,Resnick,Walker.pdf",
+  "file_size_bytes": 71396841,
+  "sha256": "390f40d1f5afa6e23c6c159ca7cdb0762907b858b687dc311b5dc2860fbc16a3",
+  "extension": ".pdf",
+  "mime_type": "application/pdf",
+  "file_format": "pdf",
+  "source_type": "textbook",
+  "total_pages": 1330,
+  "has_extractable_text": true,
+  "is_image_only": false,
+  "is_encrypted": false,
+  "status": "SEGMENTED",
+  "processing_stage": null,
+  "last_error": null,
+  "history": [],
+  "affected_chapters": [],
+  "file_created_at": null,
+  "file_modified_at": null,
+  "metadata": {
+    "source_role": "UNDERGRADUATE_DEPTH",
+    "toc_entries_count": 612,
+    "bibliographic_info": {
+      "title": "Fundamentals of Physics",
+      "authors": [
+        "David Halliday",
+        "Robert Resnick",
+        "Jearl Walker"
+      ],
+      "publisher": "John Wiley & Sons, Inc., Hoboken, NJ",
+      "edition": "9th Edition",
+      "volume": "Extended Edition (Chapters 1 to 44)",
+      "publication_year": 2011,
+      "isbn": "978-0-470-46908-8",
+      "discrepancy_resolution": "RESOLVED DISCREPANCY: Copyright page 8 explicitly states 'Fundamentals of physics / David Halliday, Robert Resnick, Jearl Walker. - 9th ed.' Earlier reports erroneously cited 10th Extended Edition."
+    },
+    "extraction_nature": "DIGITAL_TEXT"
+  },
+  "created_at": "2026-09-29T16:20:07.076026Z",
+  "updated_at": "2026-09-29T16:20:07.076026Z"
+}

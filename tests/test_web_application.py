@@ -43,14 +43,15 @@ def test_web_builder_manifest_and_counts(builder, project_root):
     assert isinstance(manifest, WebBuildManifest)
     assert manifest.scope == "PILOT"
     assert manifest.counts["total_chapters"] == 30
-    assert manifest.counts["pilot_active_chapters"] == 4
-    assert manifest.counts["concepts"] == 12
-    assert manifest.counts["formulas"] == 13
-    assert manifest.counts["derivations"] == 13
-    assert manifest.counts["worked_examples"] == 4
-    assert manifest.counts["misconceptions"] == 8
-    assert manifest.counts["verified_questions"] == 17
-    assert manifest.counts["question_ladders"] == 1
+    assert manifest.counts["total_chapters"] == 30
+    assert manifest.counts["pilot_active_chapters"] == 5
+    assert manifest.counts["concepts"] == 20
+    assert manifest.counts["formulas"] == 25
+    assert manifest.counts["derivations"] == 19
+    assert manifest.counts["worked_examples"] == 9
+    assert manifest.counts["misconceptions"] == 13
+    assert manifest.counts["verified_questions"] == 19
+    assert manifest.counts["question_ladders"] == 2
     assert manifest.counts["search_index_entries"] > 80
 
     # Verify manifest file on disk
@@ -96,7 +97,7 @@ def test_referential_integrity(builder, project_root):
     formulas = {f["formula_id"] for f in json.loads((target_dir / "formulas.json").read_text(encoding="utf-8"))}
     questions = {q["question_id"] for q in json.loads((target_dir / "questions.json").read_text(encoding="utf-8"))}
 
-    pilot_chapters = ["rotational-motion", "thermodynamics", "current-electricity", "ray-optics"]
+    pilot_chapters = ["rotational-motion", "thermodynamics", "current-electricity", "ray-optics", "kinematics"]
     for ch_id in pilot_chapters:
         ch_file = target_dir / f"chapter_{ch_id}.json"
         assert ch_file.exists(), f"Chapter detail missing: {ch_id}"
@@ -153,8 +154,8 @@ def test_taxonomy_30_chapters_and_prerequisites(builder, project_root):
 
     pilot_active = [ch for ch in taxonomy["chapters"] if ch["status"] == "PILOT_ACTIVE"]
     pending = [ch for ch in taxonomy["chapters"] if ch["status"] == "PENDING"]
-    assert len(pilot_active) == 4
-    assert len(pending) == 26
+    assert len(pilot_active) == 5
+    assert len(pending) == 25
 
     prereqs = json.loads((target_dir / "prerequisites.json").read_text(encoding="utf-8"))
     assert "edges" in prereqs

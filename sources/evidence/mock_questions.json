@@ -1,0 +1,2266 @@
+[
+  {
+    "mock_question_id": "mock-q-m2-01",
+    "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+    "page": 1,
+    "question_number": 1,
+    "subject": "PHYSICS",
+    "question_statement": "N divisions on the main scale of a vernier\ncallipers coincide with N + 1 divisions on the\nvernier scale. If each division on the main scale\nis of \u2018a\u2019 units, the least count of the instrument\nis\n(1)\na\nN\n1\n+\n(2)\na\nN\n1\n-\n(3)\n2a\nN\n1\n-\n(4)\n2a\nN\n1\n+",
+    "options": {
+      "A": "a\nN\n1\n+",
+      "B": "a\nN\n1\n-",
+      "C": "2a\nN\n1\n-",
+      "D": "2a\nN\n1\n+"
+    },
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [],
+    "taxonomy_node_ids": [
+      "experimental-physics",
+      "mechanics-experiments"
+    ],
+    "extraction_confidence": 1.0,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "044bb543811d9a3699b79cf8b78b892a1a1ff806766a4d638f3260939a0edeff"
+  },
+  {
+    "mock_question_id": "mock-q-m2-02",
+    "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+    "page": 1,
+    "question_number": 2,
+    "subject": "PHYSICS",
+    "question_statement": "The gravitational field, due to the 'left over part'\nof a uniform sphere (from which a part as shown,\nhas been 'removed out'), at a very far off point, P,\nlocated as shown, would be (nearly) :\nR\nP\nMass of complete\nsphere = M\nRemoved\nPart\nx\nR\n(1)\n2\n5\n6\nGM\nx\n(2)\n2\n8\n9\nGM\nx\n(3)\n2\n7\n8\nGM\nx\n(4)\n2\n6\n7\nGM\nx\nTime : 3 hrs.\nMax. Marks : 300\n2\nPHYSICS",
+    "options": {
+      "A": "2\n5\n6\nGM\nx",
+      "B": "2\n8\n9\nGM\nx",
+      "C": "2\n7\n8\nGM\nx",
+      "D": "2\n6\n7\nGM\nx\nTime : 3 hrs.\nMax. Marks : 300\n2\nPHYSICS"
+    },
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [
+      "fig-mock2-p01-q02"
+    ],
+    "taxonomy_node_ids": [
+      "gravitation",
+      "gravitational-force-and-field"
+    ],
+    "extraction_confidence": 1.0,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "044bb543811d9a3699b79cf8b78b892a1a1ff806766a4d638f3260939a0edeff"
+  },
+  {
+    "mock_question_id": "mock-q-m2-03",
+    "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+    "page": 2,
+    "question_number": 3,
+    "subject": "PHYSICS",
+    "question_statement": "n moles of an ideal gas undergo a process A \u00ae\nB as shown in the figure. Maximum temperature\nof the gas during the process is\nA\nB\nV0\n2V0\nP0\n2P0\nP\nV\n(1)\n0 0\n9P V\nnR\n(2)\n0 0\n3\n2\nP V\nnR\n(3)\n0 0\n9\n2\nP V\nnR\n(4)\n0 0\n9\n4\nP V\nnR",
+    "options": {
+      "A": "0 0\n9P V\nnR",
+      "B": "0 0\n3\n2\nP V\nnR",
+      "C": "0 0\n9\n2\nP V\nnR",
+      "D": "0 0\n9\n4\nP V\nnR"
+    },
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [
+      "fig-mock2-p02-q03"
+    ],
+    "taxonomy_node_ids": [
+      "thermodynamics",
+      "first-law-and-processes"
+    ],
+    "extraction_confidence": 1.0,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "5b5198011ce1115a3871e0b1687561ea7ceb5366bc0ccfa7059d01a5be3c24f0"
+  },
+  {
+    "mock_question_id": "mock-q-m2-04",
+    "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+    "page": 2,
+    "question_number": 4,
+    "subject": "PHYSICS",
+    "question_statement": "Which of these nuclear reactions is possible \u2013\n(1)\n23\n1\n20\n4\n11\n1\n10\n2\nNa\nH\nNe\nHe\n+\n\u00be\u00be\u00ae\n+\n(2)\n10\n4\n13\n1\n5\n2\n7\n1\nB\nHe\nN\nH\n+\n\u00be\u00be\u00ae\n+\n(3)\n10\n1\n11\n5\n0\n5\nB\nn\nB\n-\n+\n\u00be\u00be\u00ae\n+ b + n\n(4)\n14\n1\n12\n7\n1\n6\nN\nH\nC\n-\n+\n\u00be\u00be\u00ae\n+ b + n",
+    "options": {
+      "A": "23\n1\n20\n4\n11\n1\n10\n2\nNa\nH\nNe\nHe\n+\n\u00be\u00be\u00ae\n+",
+      "B": "10\n4\n13\n1\n5\n2\n7\n1\nB\nHe\nN\nH\n+\n\u00be\u00be\u00ae\n+",
+      "C": "10\n1\n11\n5\n0\n5\nB\nn\nB\n-\n+\n\u00be\u00be\u00ae\n+ b + n",
+      "D": "14\n1\n12\n7\n1\n6\nN\nH\nC\n-\n+\n\u00be\u00be\u00ae\n+ b + n"
+    },
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [],
+    "taxonomy_node_ids": [
+      "nuclear-physics",
+      "radioactivity"
+    ],
+    "extraction_confidence": 1.0,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "5b5198011ce1115a3871e0b1687561ea7ceb5366bc0ccfa7059d01a5be3c24f0"
+  },
+  {
+    "mock_question_id": "mock-q-m2-05",
+    "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+    "page": 2,
+    "question_number": 5,
+    "subject": "PHYSICS",
+    "question_statement": "White light is incident on the interface of glass\nand air as shown in the figure. If green light is\njust totally internally reflected then the emerging\nray in air contains\n(1)\nyellow, orange, red\nGreen\nWhite\nGlass\nAir\n(2)\nviolet, indigo, blue\n(3)\nAll colours\n(4)\nAll colours\nexcept green",
+    "options": {
+      "A": "yellow, orange, red\nGreen\nWhite\nGlass\nAir",
+      "B": "violet, indigo, blue",
+      "C": "All colours",
+      "D": "All colours\nexcept green"
+    },
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [
+      "fig-mock2-p02-q05"
+    ],
+    "taxonomy_node_ids": [
+      "ray-optics",
+      "refraction-and-tir"
+    ],
+    "extraction_confidence": 1.0,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "5b5198011ce1115a3871e0b1687561ea7ceb5366bc0ccfa7059d01a5be3c24f0"
+  },
+  {
+    "mock_question_id": "mock-q-m2-06",
+    "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+    "page": 2,
+    "question_number": 6,
+    "subject": "PHYSICS",
+    "question_statement": "What is the conductivity of a semiconductor\nsample having electron concentration of 5 \u00d7 1018\nm\u20133, hole concentration of 5 \u00d7 1019 m\u20133, electron\nmobility of 2.0 m2 V\u20131 s\u20131 and hole mobility of\n0.01 m2 V\u20131 s\u20131 ?\n(Take charge of electron as 1.6 \u00d7 10\u201319 C)\n(1)\n1.68 (W \u2013 m)\u20131\n(2) 1.83 (W \u2013 m)\u20131\n(3)\n0.59 (W \u2013 m)\u20131\n(4) 1.20 (W \u2013 m)\u20131",
+    "options": {
+      "A": "1.68 (W \u2013 m)\u20131",
+      "B": "1.83 (W \u2013 m)\u20131",
+      "C": "0.59 (W \u2013 m)\u20131",
+      "D": "1.20 (W \u2013 m)\u20131"
+    },
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [],
+    "taxonomy_node_ids": [
+      "semiconductors",
+      "charge-carriers"
+    ],
+    "extraction_confidence": 1.0,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "5b5198011ce1115a3871e0b1687561ea7ceb5366bc0ccfa7059d01a5be3c24f0"
+  },
+  {
+    "mock_question_id": "mock-q-m2-07",
+    "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+    "page": 2,
+    "question_number": 7,
+    "subject": "PHYSICS",
+    "question_statement": "A body is executing simple harmonic motion. At a\ndisplacement x from mean position, its potential\nenergy is E1 = 2J and at a displacement y from\nmean position, its potential energy is E2 = 8J.\nThe potential energy E at a displacement (x + y)\nfrom mean position is\n(1)\n10J\n(2) 14J\n(3)\n18J\n(4) 4J",
+    "options": {
+      "A": "10J",
+      "B": "14J",
+      "C": "18J",
+      "D": "4J"
+    },
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [],
+    "taxonomy_node_ids": [
+      "oscillations",
+      "kinematics-of-shm"
+    ],
+    "extraction_confidence": 1.0,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "5b5198011ce1115a3871e0b1687561ea7ceb5366bc0ccfa7059d01a5be3c24f0"
+  },
+  {
+    "mock_question_id": "mock-q-m2-08",
+    "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+    "page": 2,
+    "question_number": 8,
+    "subject": "PHYSICS",
+    "question_statement": "A proton (mass m) accelerated by a potential\ndifference V flies through a uniform transverse\nmagnetic field B. The field occupies a region of\nspace by width \u2018d\u2019. If a be the angle of deviation\nof proton from initial direction of motion (see\nfigure), the value of sin a will be :\n(1)\nBd\nqV\n2m\nB\nd\na\n(2)\nB\nqd\n2\nmV\n(3)\nB\nq\nd\n2mV\n(4)\nq\nBd 2mV",
+    "options": {
+      "A": "Bd\nqV\n2m\nB\nd\na",
+      "B": "B\nqd\n2\nmV",
+      "C": "B\nq\nd\n2mV",
+      "D": "q\nBd 2mV"
+    },
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [
+      "fig-mock2-p02-q08"
+    ],
+    "taxonomy_node_ids": [
+      "magnetic-effects-of-current",
+      "lorentz-force-and-magnetic-field"
+    ],
+    "extraction_confidence": 1.0,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "5b5198011ce1115a3871e0b1687561ea7ceb5366bc0ccfa7059d01a5be3c24f0"
+  },
+  {
+    "mock_question_id": "mock-q-m2-09",
+    "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+    "page": 2,
+    "question_number": 9,
+    "subject": "PHYSICS",
+    "question_statement": "Two wires are made of the same material and\nhave the same volume. However wire 1 has\ncross-sectional area A and wire 2 has cross-\nsectional area 3A. If the length of wire 1 increases\nby Dx on applying force F, how much force is\nneeded to stretch wire 2 by the same amount?\n(1)\n4 F\n(2) 6 F\n(3) 9 F\n(4) F",
+    "options": {
+      "A": "4 F",
+      "B": "6 F",
+      "C": "9 F",
+      "D": "F"
+    },
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [],
+    "taxonomy_node_ids": [
+      "current-electricity",
+      "resistance-and-resistivity"
+    ],
+    "extraction_confidence": 1.0,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "5b5198011ce1115a3871e0b1687561ea7ceb5366bc0ccfa7059d01a5be3c24f0"
+  },
+  {
+    "mock_question_id": "mock-q-m2-10",
+    "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+    "page": 3,
+    "question_number": 10,
+    "subject": "PHYSICS",
+    "question_statement": "A homogeneous  solid cylinder of length L (L <\nH/2). Cross-sectional area A/5 is immersed such\nthat it floats with its axis vertical at the liquid-\nliquid interface with length L/4 in the denser\nliquid as shown in the fig. The lower density\nliquid is open to atmosphere having pressure\nP0. Then density of solid is given by\n(1)\n5\n4 d\nL\n3\n4\nL/\nd\n2d\nH/2\nH/2\n(2)\n4\n5 d\n(3) d\n(4)\n5\nd",
+    "options": {
+      "A": "5\n4 d\nL\n3\n4\nL/\nd\n2d\nH/2\nH/2",
+      "B": "4\n5 d",
+      "C": "d",
+      "D": "5\nd"
+    },
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [
+      "fig-mock2-p03-q10"
+    ],
+    "taxonomy_node_ids": [
+      "fluid-mechanics",
+      "fluid-statics"
+    ],
+    "extraction_confidence": 1.0,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "4054e34d49e7bc0212b95c8d52496316fcfc2b7d08be5f521267e2021e823174"
+  },
+  {
+    "mock_question_id": "mock-q-m2-11",
+    "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+    "page": 3,
+    "question_number": 11,
+    "subject": "PHYSICS",
+    "question_statement": "In a Young\u2019s double slit experiment with light of\nwavelength l, fringe pattern on the screen has\nfringe width b. When two thin transparent glass\n(refractive index m) plates of thickness t1 and t2\n(t1 > t2) are placed in the path of the two beams\nrespectively, the fringe pattern will shift by a\ndistance\n(1)\n(\n)\n1\n2\n1\nb m -\n\u00e6\n\u00f6\n\u00e7\n\u00f7\nl\n\u00e8\n\u00f8\nt\nt\n(2)\n1\n2\nmb\nl\nt\nt\n(3)\n(\n) (\n)\n1\n2\n1\nb m -\n-\nl\nt\nt\n(4) (\n)\n(\n)\n1\n2\n1 l\nm -\n+\nb t\nt",
+    "options": {
+      "A": "(\n)\n1\n2\n1\nb m -\n\u00e6\n\u00f6\n\u00e7\n\u00f7\nl\n\u00e8\n\u00f8\nt\nt",
+      "B": "1\n2\nmb\nl\nt\nt",
+      "C": "(\n) (\n)\n1\n2\n1\nb m -\n-\nl\nt\nt",
+      "D": "(\n)\n(\n)\n1\n2\n1 l\nm -\n+\nb t\nt"
+    },
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [],
+    "taxonomy_node_ids": [
+      "center-of-mass",
+      "collisions-and-impulse"
+    ],
+    "extraction_confidence": 1.0,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "4054e34d49e7bc0212b95c8d52496316fcfc2b7d08be5f521267e2021e823174"
+  },
+  {
+    "mock_question_id": "mock-q-m2-12",
+    "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+    "page": 3,
+    "question_number": 12,
+    "subject": "PHYSICS",
+    "question_statement": "A dipole consisting of two charges +q and \u2013q joined\nby a massless rod of length l, is seen oscillating\nwith a small amplitude in a uniform electric field of\nmagnitude E. The period of oscillation\n(1)\nis proportional to E\n(2)\nis proportional to 1/E\n(3)\nis\nqE\n3\nml\np\n(4)\nis proportional to\nE\n1\n but \u00b9  \nqE\n3\nml\np",
+    "options": {
+      "A": "is proportional to E",
+      "B": "is proportional to 1/E",
+      "C": "is\nqE\n3\nml\np",
+      "D": "is proportional to\nE\n1\n but \u00b9  \nqE\n3\nml\np"
+    },
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [],
+    "taxonomy_node_ids": [
+      "electrostatics",
+      "capacitance-fundamentals"
+    ],
+    "extraction_confidence": 1.0,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "4054e34d49e7bc0212b95c8d52496316fcfc2b7d08be5f521267e2021e823174"
+  },
+  {
+    "mock_question_id": "mock-q-m2-13",
+    "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+    "page": 3,
+    "question_number": 13,
+    "subject": "PHYSICS",
+    "question_statement": "A thin convex lens of focal length \u2018f\u2019 is put on a\nplane mirror as shown in the figure. When an\nobject is kept at a distance \u2018a\u2019 from the lens -\nmirror combination, its image is formed at a\ndistance \na\n3 in front of the combination. The\nvalue of \u2018a\u2019 is :\n(1)\n3f\n(2)\n3\n2 f\n(3)\nf\n(4)\n2f",
+    "options": {
+      "A": "3f",
+      "B": "3\n2 f",
+      "C": "f",
+      "D": "2f"
+    },
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [
+      "fig-mock2-p03-q13"
+    ],
+    "taxonomy_node_ids": [
+      "rotational-motion",
+      "torque-and-rotation"
+    ],
+    "extraction_confidence": 1.0,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "4054e34d49e7bc0212b95c8d52496316fcfc2b7d08be5f521267e2021e823174"
+  },
+  {
+    "mock_question_id": "mock-q-m2-14",
+    "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+    "page": 3,
+    "question_number": 14,
+    "subject": "PHYSICS",
+    "question_statement": "A sinusoidal wave is propagating in negative x-\ndirection in a string stretched along x-axis. A\nparticle of string at  x = 2m is found at its mean\nposition and it is moving in positive y-direction at\nt = 1 sec. The amplitude of the wave, the wavelength\nand the angular frequency of the wave are 0.1 meter,\np/2 meter and 2p rad/sec respectively.\nThe equation of the wave is\n(1)\ny = 0.1 sin (4p (t \u2013 1) + 8 (x \u2013 2))\n(2)\ny = 0.1 sin ((t \u2013 1) \u2013 (x \u2013 2))\n(3)\ny = 0.1 sin (2p (t \u2013 1) + 4 (x \u2013 2))\n(4)\nNone of these",
+    "options": {
+      "A": "y = 0.1 sin (4p (t \u2013 1) + 8 (x \u2013 2))",
+      "B": "y = 0.1 sin ((t \u2013 1) \u2013 (x \u2013 2))",
+      "C": "y = 0.1 sin (2p (t \u2013 1) + 4 (x \u2013 2))",
+      "D": "None of these"
+    },
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [],
+    "taxonomy_node_ids": [
+      "wave-optics",
+      "youngs-double-slit"
+    ],
+    "extraction_confidence": 1.0,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "4054e34d49e7bc0212b95c8d52496316fcfc2b7d08be5f521267e2021e823174"
+  },
+  {
+    "mock_question_id": "mock-q-m2-15",
+    "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+    "page": 4,
+    "question_number": 15,
+    "subject": "PHYSICS",
+    "question_statement": "Velocity\u2013time graph for a body of mass 10 kg is\nshown in figure. Work\u2013done on the body in first\ntwo seconds of the motion is :\n10s        t(s)\n50 ms\n-1\nv (m/s)\n(0,0)\n(1)\n\u2013 9300 J\n(2)\n12000 J\n(3)\n\u20134500 J\n(4)\n\u201312000 J",
+    "options": {
+      "A": "\u2013 9300 J",
+      "B": "12000 J",
+      "C": "\u20134500 J",
+      "D": "\u201312000 J"
+    },
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [
+      "fig-mock2-p04-q15"
+    ],
+    "taxonomy_node_ids": [
+      "work-energy-power",
+      "work-energy-theorem"
+    ],
+    "extraction_confidence": 1.0,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "e5fdbb55879ff3c50d986cac1ab4dfaf57df396991f4c0e48b3d0c6393406e38"
+  },
+  {
+    "mock_question_id": "mock-q-m2-16",
+    "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+    "page": 4,
+    "question_number": 16,
+    "subject": "PHYSICS",
+    "question_statement": "A charged particle of mass m and having a charge\nQ is placed in an electric field E which varies\nwith time as  E = E0 sin wt. What is the amplitude\nof the S.H.M. executed by the particle?\n(1)\n0\n2\nQE\nmw\n(2)\n0\n2\nQE\n1\n2 mw\n(3)\n0\n2\n2QE\nmw\n(4) None of these",
+    "options": {
+      "A": "0\n2\nQE\nmw",
+      "B": "0\n2\nQE\n1\n2 mw",
+      "C": "0\n2\n2QE\nmw",
+      "D": "None of these"
+    },
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [],
+    "taxonomy_node_ids": [
+      "electromagnetic-induction",
+      "faradays-law-and-motional-emf"
+    ],
+    "extraction_confidence": 1.0,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "e5fdbb55879ff3c50d986cac1ab4dfaf57df396991f4c0e48b3d0c6393406e38"
+  },
+  {
+    "mock_question_id": "mock-q-m2-17",
+    "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+    "page": 4,
+    "question_number": 17,
+    "subject": "PHYSICS",
+    "question_statement": "In a photoelectric experiment, with light of\nwavelength l, the fastest electron has speed v.\nIf the exciting wavelength is changed to 3l/4,\nthe speed of the fastest emitted electron will\nbecome \u2013\n(1)\n3\nv\n4\n(2)\n4\nv\n3\n(3)\nless than \n4\nv\n3\n(4) greater than \n4\nv 3",
+    "options": {
+      "A": "3\nv\n4",
+      "B": "4\nv\n3",
+      "C": "less than \n4\nv\n3",
+      "D": "greater than \n4\nv 3"
+    },
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [],
+    "taxonomy_node_ids": [
+      "kinetic-theory-of-gases",
+      "molecular-speed-and-pressure"
+    ],
+    "extraction_confidence": 1.0,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "e5fdbb55879ff3c50d986cac1ab4dfaf57df396991f4c0e48b3d0c6393406e38"
+  },
+  {
+    "mock_question_id": "mock-q-m2-18",
+    "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+    "page": 4,
+    "question_number": 18,
+    "subject": "PHYSICS",
+    "question_statement": "A particle moves along x-axis with initial position\nx = 0. Its velocity varies with x-coordinate as\nshown in graph. The acceleration \u2018a\u2019 of this\nparticle varies with x as \u2013\nv\nx\n(1)\na\nx (2) \na\nx\n(3)\na\nx (4) \na\nx",
+    "options": {
+      "A": "a\nx",
+      "B": "a\nx",
+      "C": "a\nx",
+      "D": "a\nx"
+    },
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [
+      "fig-mock2-p04-q18"
+    ],
+    "taxonomy_node_ids": [
+      "dual-nature-of-matter-and-radiation",
+      "photoelectric-effect"
+    ],
+    "extraction_confidence": 1.0,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "e5fdbb55879ff3c50d986cac1ab4dfaf57df396991f4c0e48b3d0c6393406e38"
+  },
+  {
+    "mock_question_id": "mock-q-m2-19",
+    "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+    "page": 4,
+    "question_number": 19,
+    "subject": "PHYSICS",
+    "question_statement": "A ring of mass M and radius R lies in x-y plane\nwith its centre at origin as shown. The mass\ndistribution of ring is non-uniform such that at\nany point P on the ring, the mass per unit length\nis given by l = l0 cos2q (where l0 is a positive\nconstant). Then the moment of inertia of the ring\nabout z-axis is \u2013\n(1)\nMR2\nx\ny\nq\nM\nR\nP\n(2)\n2\n1 MR\n2\n(3)\n0\n1 M R\n2 l\n(4)\n0\n1 M R\np l",
+    "options": {
+      "A": "MR2\nx\ny\nq\nM\nR\nP",
+      "B": "2\n1 MR\n2",
+      "C": "0\n1 M R\n2 l",
+      "D": "0\n1 M R\np l"
+    },
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [
+      "fig-mock2-p04-q19"
+    ],
+    "taxonomy_node_ids": [
+      "laws-of-motion",
+      "friction"
+    ],
+    "extraction_confidence": 1.0,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "e5fdbb55879ff3c50d986cac1ab4dfaf57df396991f4c0e48b3d0c6393406e38"
+  },
+  {
+    "mock_question_id": "mock-q-m2-20",
+    "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+    "page": 4,
+    "question_number": 20,
+    "subject": "PHYSICS",
+    "question_statement": "The electric potential V is given as a function of\ndistance x by V = (5x2 + 10x \u2013 9) volt.  Value of\nelectric field at x = 1m is\n(1)\n\u201320 V/m\n(2) 6 V/m\n(3)\n11 V/m\n(4) 20 V/m",
+    "options": {
+      "A": "\u201320 V/m",
+      "B": "6 V/m",
+      "C": "11 V/m",
+      "D": "20 V/m"
+    },
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [],
+    "taxonomy_node_ids": [
+      "alternating-current",
+      "lcr-circuits-and-power"
+    ],
+    "extraction_confidence": 1.0,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "e5fdbb55879ff3c50d986cac1ab4dfaf57df396991f4c0e48b3d0c6393406e38"
+  },
+  {
+    "mock_question_id": "mock-q-m2-21",
+    "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+    "page": 5,
+    "question_number": 21,
+    "subject": "PHYSICS",
+    "question_statement": "The pulleys and strings shown in the figure are\nsmooth and of negligible mass. For the system\nto remain in equilibrium, the angle q should be\n_____ degree.\nm\nm\nq\n2m",
+    "options": {},
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [
+      "fig-mock2-p05-q21"
+    ],
+    "taxonomy_node_ids": [
+      "laws-of-motion",
+      "equilibrium-of-particles"
+    ],
+    "extraction_confidence": 1.0,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "d3056e3f7deb7ca82e6a9d914fbc54e0ca86d181689ddfac710dab833d70e1c7"
+  },
+  {
+    "mock_question_id": "mock-q-m2-22",
+    "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+    "page": 5,
+    "question_number": 22,
+    "subject": "PHYSICS",
+    "question_statement": "A current of 4A produces a deflection of 30\u00b0 in\nthe galvanometer. The figure of merit is _____\nA/rad.",
+    "options": {},
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [
+      "fig-mock2-p05-q22"
+    ],
+    "taxonomy_node_ids": [
+      "rotational-motion",
+      "rolling-motion"
+    ],
+    "extraction_confidence": 1.0,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "d3056e3f7deb7ca82e6a9d914fbc54e0ca86d181689ddfac710dab833d70e1c7"
+  },
+  {
+    "mock_question_id": "mock-q-m2-23",
+    "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+    "page": 5,
+    "question_number": 23,
+    "subject": "PHYSICS",
+    "question_statement": "A uniform thin rod AB of length L has linear\nmass density m (x) = a + bx\nL , where x is\nmeasured from A. If the CM of the rod lies at\na distance of \n7\nL\n12\n\u00e6\n\u00f6\n\u00e7\n\u00f7\n\u00e8\n\u00f8\n from A, then a and b are\nrelated as b = xa. Find the value of x.",
+    "options": {},
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [],
+    "taxonomy_node_ids": [
+      "current-electricity",
+      "dc-circuits"
+    ],
+    "extraction_confidence": 1.0,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "d3056e3f7deb7ca82e6a9d914fbc54e0ca86d181689ddfac710dab833d70e1c7"
+  },
+  {
+    "mock_question_id": "mock-q-m2-24",
+    "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+    "page": 5,
+    "question_number": 24,
+    "subject": "PHYSICS",
+    "question_statement": "A transmitting antenna at the top of a tower has\nheight 32 m and height of the receiving antenna\nis 50 m. What is the maximum distance (in km)\nbetween them for satisfactory communication\nin line of sight (LOS) mode?",
+    "options": {},
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [],
+    "taxonomy_node_ids": [
+      "capacitance",
+      "capacitance-fundamentals"
+    ],
+    "extraction_confidence": 1.0,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "d3056e3f7deb7ca82e6a9d914fbc54e0ca86d181689ddfac710dab833d70e1c7"
+  },
+  {
+    "mock_question_id": "mock-q-m2-25",
+    "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+    "page": 5,
+    "question_number": 25,
+    "subject": "PHYSICS",
+    "question_statement": "A ball of mass 160 g is thrown up at an angle\nof 60\u00b0 to the horizontal at a speed of 10 ms\u20131. The\nangular momentum of the ball at the highest point\nof the trajectory with respect to the point from\nwhich the ball is thrown is _____ kg m2/s.\n(g = 10 ms\u20132)",
+    "options": {},
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [],
+    "taxonomy_node_ids": [
+      "thermal-physics",
+      "calorimetry-and-latent-heat"
+    ],
+    "extraction_confidence": 1.0,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "d3056e3f7deb7ca82e6a9d914fbc54e0ca86d181689ddfac710dab833d70e1c7"
+  },
+  {
+    "mock_question_id": "mock-q-m2-26",
+    "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+    "page": 5,
+    "question_number": 26,
+    "subject": "PHYSICS",
+    "question_statement": "A series LR circuit is connected to an ac source\nof frequency w and the inductive reactance is\nequal to 2R. A capacitance of capacitive\nreactance equal to R is added in series with\nL and R. The ratio of the new power factor to the\nold one is \n2\nx. Find the value of x.",
+    "options": {},
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [],
+    "taxonomy_node_ids": [
+      "ray-optics",
+      "lenses-and-mirrors"
+    ],
+    "extraction_confidence": 1.0,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "d3056e3f7deb7ca82e6a9d914fbc54e0ca86d181689ddfac710dab833d70e1c7"
+  },
+  {
+    "mock_question_id": "mock-q-m2-27",
+    "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+    "page": 5,
+    "question_number": 27,
+    "subject": "PHYSICS",
+    "question_statement": "A mass of 50g of water in a closed vessel, with\nsurroundings at a constant temperature takes 2\nminutes to cool from 30\u00b0C to 25\u00b0C. A mass of\n100g of another liquid in an identical vessel with\nidentical surroundings takes the same time to\ncool from 30\u00b0 C to 25\u00b0 C. The specific heat of the\nliquid is _____ kcal/kg.\n(The water equivalent of the vessel is 30g.)",
+    "options": {},
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [],
+    "taxonomy_node_ids": [
+      "atomic-physics",
+      "atomic-models"
+    ],
+    "extraction_confidence": 1.0,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "d3056e3f7deb7ca82e6a9d914fbc54e0ca86d181689ddfac710dab833d70e1c7"
+  },
+  {
+    "mock_question_id": "mock-q-m2-28",
+    "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+    "page": 5,
+    "question_number": 28,
+    "subject": "PHYSICS",
+    "question_statement": "The magnetic field in a travelling electromagnetic\nwave has a peak value of 20 nT. The peak value\nof electric field strength is _____ V/m.",
+    "options": {},
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [],
+    "taxonomy_node_ids": [
+      "properties-of-solids",
+      "stress-strain-relationship"
+    ],
+    "extraction_confidence": 1.0,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "d3056e3f7deb7ca82e6a9d914fbc54e0ca86d181689ddfac710dab833d70e1c7"
+  },
+  {
+    "mock_question_id": "mock-q-m2-29",
+    "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+    "page": 5,
+    "question_number": 29,
+    "subject": "PHYSICS",
+    "question_statement": "An ideal monatomic gas with pressure P, volume\nV and temperature T is expanded isothermally to\na volume 2V and a final pressure Pi. If the same\ngas is expanded adiabatically to a volume 2V,\nthe final pressure is Pa. The ratio a\ni\nP\nP is _____.",
+    "options": {},
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [],
+    "taxonomy_node_ids": [
+      "gravitation",
+      "planetary-motion-and-keplers-laws"
+    ],
+    "extraction_confidence": 1.0,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "d3056e3f7deb7ca82e6a9d914fbc54e0ca86d181689ddfac710dab833d70e1c7"
+  },
+  {
+    "mock_question_id": "mock-q-m2-30",
+    "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+    "page": 5,
+    "question_number": 30,
+    "subject": "PHYSICS",
+    "question_statement": "Six resistors of 10W each are connected as\nshown. The equivalent resistance between\npoints X and Y is _____.\nX\nY",
+    "options": {},
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [
+      "fig-mock2-p05-q30"
+    ],
+    "taxonomy_node_ids": [
+      "electromagnetic-waves",
+      "displacement-current-and-em-waves"
+    ],
+    "extraction_confidence": 1.0,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "d3056e3f7deb7ca82e6a9d914fbc54e0ca86d181689ddfac710dab833d70e1c7"
+  },
+  {
+    "mock_question_id": "mock-q-m3-01",
+    "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+    "page": 1,
+    "question_number": 1,
+    "subject": "PHYSICS",
+    "question_statement": "A glass prism of refractive index 1.5 is immersed\nin water (refractive index 4\n3 ) as shown in figure.\nA light beam incident normally on the face AB is\ntotally reflected to reach the face BC, if\n(1)\n5\nsin\n9\nq \u00b3\nA\nB\nC\nq\n(2)\n2\nsin\n3\nq \u00b3\n(3)\n8\nsin\n9\nq \u00b3\n(4)\n1\nsin\n3\nq \u00b3",
+    "options": {
+      "A": "5\nsin\n9\nq \u00b3\nA\nB\nC\nq",
+      "B": "2\nsin\n3\nq \u00b3",
+      "C": "8\nsin\n9\nq \u00b3",
+      "D": "1\nsin\n3\nq \u00b3"
+    },
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [
+      "fig-mock3-p01-q01"
+    ],
+    "taxonomy_node_ids": [
+      "ray-optics",
+      "refraction-and-tir"
+    ],
+    "extraction_confidence": 1.0,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "65ebe3391bab75e0c635734147686c9afeb4ea904c3d33c469a84eeb087b69ef"
+  },
+  {
+    "mock_question_id": "mock-q-m3-02",
+    "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+    "page": 1,
+    "question_number": 2,
+    "subject": "PHYSICS",
+    "question_statement": "What is the minimum energy required to launch\na satellite of mass m from the surface of a planet\nof mass M and radius R in a circular orbit at an\naltitude of 2R?\n(1)\n5GmM\n6R\n(2)\n2GmM\n3R\n(3)\nGmM\n2R\n(4)\n3GmM\n2R\nTime : 3 hrs.\nMax. Marks : 300\n3\nPHYSICS",
+    "options": {
+      "A": "5GmM\n6R",
+      "B": "2GmM\n3R",
+      "C": "GmM\n2R",
+      "D": "3GmM\n2R\nTime : 3 hrs.\nMax. Marks : 300\n3\nPHYSICS"
+    },
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [],
+    "taxonomy_node_ids": [
+      "gravitation",
+      "gravitational-force-and-field"
+    ],
+    "extraction_confidence": 1.0,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "65ebe3391bab75e0c635734147686c9afeb4ea904c3d33c469a84eeb087b69ef"
+  },
+  {
+    "mock_question_id": "mock-q-m3-03",
+    "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+    "page": 2,
+    "question_number": 3,
+    "subject": "PHYSICS",
+    "question_statement": "What is the maximum value of the force F such\nthat the block shown in the arrangement, does\nnot move?\nkg\n3\nm =\nF\n60\u00ba\n3\n2\n1\n=\nm\n(1)\n20 N\n(2) 10 N\n(3) 12 N\n(4) 15 N",
+    "options": {
+      "A": "20 N",
+      "B": "10 N",
+      "C": "12 N",
+      "D": "15 N"
+    },
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [
+      "fig-mock3-p02-q03"
+    ],
+    "taxonomy_node_ids": [
+      "laws-of-motion",
+      "friction"
+    ],
+    "extraction_confidence": 1.0,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "212a1554f35d7ac9ad3390e2417f12f3cd7c5286a7f048c9cd749604be8df101"
+  },
+  {
+    "mock_question_id": "mock-q-m3-04",
+    "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+    "page": 2,
+    "question_number": 4,
+    "subject": "PHYSICS",
+    "question_statement": "A particle falls freely near the surface of the earth.\nConsider a fixed point O (not vertically below\nthe particle) on the ground. Then pickup the\nincorrect alternative\n(1)\nThe magnitude of angular momentum of the\nparticle about O is increasing\n(2)\nThe magnitude of torque of the\ngravitational force on the particle about O\nis decreasing\n(3)\nThe moment of inertia of the particle about\nO is decreasing\n(4)\nThe magnitude of angular velocity of the\nparticle about O is increasing",
+    "options": {
+      "A": "The magnitude of angular momentum of the\nparticle about O is increasing",
+      "B": "The magnitude of torque of the\ngravitational force on the particle about O\nis decreasing",
+      "C": "The moment of inertia of the particle about\nO is decreasing",
+      "D": "The magnitude of angular velocity of the\nparticle about O is increasing"
+    },
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [],
+    "taxonomy_node_ids": [
+      "rotational-motion",
+      "angular-momentum"
+    ],
+    "extraction_confidence": 1.0,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "212a1554f35d7ac9ad3390e2417f12f3cd7c5286a7f048c9cd749604be8df101"
+  },
+  {
+    "mock_question_id": "mock-q-m3-05",
+    "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+    "page": 2,
+    "question_number": 5,
+    "subject": "PHYSICS",
+    "question_statement": "Consider a spherical shell of radius R at\ntemperature T. The black body radiation inside it\ncan be considered as an ideal gas of photons\nwith internal energy per unit volume u = U\nV \u00b5 T4\nand pressure \n1 U\np\n3 V\n\u00e6\n\u00f6\n=\n\u00e7\n\u00f7\n\u00e8\n\u00f8 . If the shell now\nundergoes an adiabatic expansion the relation\nbetween T and R is :\n(1)\n1\nT\nR\n\u00b5\n(2)\n3\n1\nT\nR\n\u00b5\n(3)\nT \u00b5 e\u2013R\n(4) T \u00b5 e\u20133R",
+    "options": {
+      "A": "1\nT\nR\n\u00b5",
+      "B": "3\n1\nT\nR\n\u00b5",
+      "C": "T \u00b5 e\u2013R",
+      "D": "T \u00b5 e\u20133R"
+    },
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [],
+    "taxonomy_node_ids": [
+      "thermal-physics",
+      "heat-transfer"
+    ],
+    "extraction_confidence": 1.0,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "212a1554f35d7ac9ad3390e2417f12f3cd7c5286a7f048c9cd749604be8df101"
+  },
+  {
+    "mock_question_id": "mock-q-m3-06",
+    "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+    "page": 2,
+    "question_number": 6,
+    "subject": "PHYSICS",
+    "question_statement": "Two particles A and B of equal mass M are\nmoving with the same speed v as shown in the\nfigure. They collide completely inelastically and\nmove as a single particle C. The angle q that the\npath of C makes with the X-axis is given by:\n30\u00b0 45\u00b0\nB\nC\nX\nY\nq\nA\n(1)\ntanq = \n3\n2\n1\n2\n+\n-\n(2)\ntanq = \n3\n2\n1\n2\n-\n-\n(3)\ntanq = \n1\n2\n2(1\n3)\n-\n+\n(4)\ntanq =  1\n3\n1\n2\n-\n+",
+    "options": {
+      "A": "tanq = \n3\n2\n1\n2\n+\n-",
+      "B": "tanq = \n3\n2\n1\n2\n-\n-",
+      "C": "tanq = \n1\n2\n2(1\n3)\n-\n+",
+      "D": "tanq =  1\n3\n1\n2\n-\n+"
+    },
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [
+      "fig-mock3-p02-q06"
+    ],
+    "taxonomy_node_ids": [
+      "rotational-motion",
+      "angular-momentum"
+    ],
+    "extraction_confidence": 1.0,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "212a1554f35d7ac9ad3390e2417f12f3cd7c5286a7f048c9cd749604be8df101"
+  },
+  {
+    "mock_question_id": "mock-q-m3-07",
+    "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+    "page": 3,
+    "question_number": 7,
+    "subject": "PHYSICS",
+    "question_statement": "The fundamental frequency of a sonometer wire\nof length l is n0. A bridge is now introduced at a\ndistance of Dl (<< l) from the centre of the wire.\nThe lengths of wire on the two sides of the bridge\nare now vibrated in their fundamental modes.\nThen, the beat frequency nearly is \u2013\n(1)\nn0Dl/l\n(2) 8n0Dl/l\n(3)\n2n0Dl/l\n(4) n0Dl/2l",
+    "options": {
+      "A": "n0Dl/l",
+      "B": "8n0Dl/l",
+      "C": "2n0Dl/l",
+      "D": "n0Dl/2l"
+    },
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [],
+    "taxonomy_node_ids": [
+      "waves",
+      "standing-waves-and-resonance"
+    ],
+    "extraction_confidence": 1.0,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "3700f5479e745e3fa33a414ff4acc8d236ee82f83ca83408e2a4611b78fd8c80"
+  },
+  {
+    "mock_question_id": "mock-q-m3-08",
+    "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+    "page": 3,
+    "question_number": 8,
+    "subject": "PHYSICS",
+    "question_statement": "In Young's double slit experiment  shown in figure\nS1 and S2 are coherent sources and S is the screen\nhaving a hole at a point 1.0mm away from the\ncentral line. White light (400 to 700nm) is sent\nthrough the slits. Which wavelength passing\nthrough the hole has strong intensity?\nS1\nS2\n0.5mm\n50cm\nhole\n1.0mm\nCentre of\nscreen\nScreen\nS\n(1)\n400 nm\n(2) 700 nm\n(3)\n500 nm\n(4) 667 nm",
+    "options": {
+      "A": "400 nm",
+      "B": "700 nm",
+      "C": "500 nm",
+      "D": "667 nm"
+    },
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [
+      "fig-mock3-p03-q08"
+    ],
+    "taxonomy_node_ids": [
+      "wave-optics",
+      "youngs-double-slit"
+    ],
+    "extraction_confidence": 1.0,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "3700f5479e745e3fa33a414ff4acc8d236ee82f83ca83408e2a4611b78fd8c80"
+  },
+  {
+    "mock_question_id": "mock-q-m3-09",
+    "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+    "page": 3,
+    "question_number": 9,
+    "subject": "PHYSICS",
+    "question_statement": "In the LC circuit, the current in the direction\nshown and the charges on the capacitor plates\nhave the signs shown. At this time\nI\nC\nL\n+Q  \u2013Q\n(1)\nI is increasing and Q is increasing\n(2)\nI is increasing and Q is decreasing\n(3)\nI is decreasing and Q is increasing\n(4)\nI is decreasing and Q is decreasing",
+    "options": {
+      "A": "I is increasing and Q is increasing",
+      "B": "I is increasing and Q is decreasing",
+      "C": "I is decreasing and Q is increasing",
+      "D": "I is decreasing and Q is decreasing"
+    },
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [
+      "fig-mock3-p03-q09"
+    ],
+    "taxonomy_node_ids": [
+      "alternating-current",
+      "lcr-circuits-and-power"
+    ],
+    "extraction_confidence": 1.0,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "3700f5479e745e3fa33a414ff4acc8d236ee82f83ca83408e2a4611b78fd8c80"
+  },
+  {
+    "mock_question_id": "mock-q-m3-10",
+    "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+    "page": 3,
+    "question_number": 10,
+    "subject": "PHYSICS",
+    "question_statement": "Figure shows a network of capacitors where the\nnumbers indicates capacitances in micro Farad. The\nvalue of capacitance C if the equivalent\ncapacitance between point A and B is to be 1 mF is:\nA\nC\n1\n8\n2\n2\n12\n6\n4\nB\n(1)\n32 F\n23m\n(2)\n31 F\n23m\n(3)\n33 F\n23 m\n(4)\n34 F\n23 m",
+    "options": {
+      "A": "32 F\n23m",
+      "B": "31 F\n23m",
+      "C": "33 F\n23 m",
+      "D": "34 F\n23 m"
+    },
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [
+      "fig-mock3-p03-q10"
+    ],
+    "taxonomy_node_ids": [
+      "electrostatics",
+      "electric-flux-and-gauss-law"
+    ],
+    "extraction_confidence": 1.0,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "3700f5479e745e3fa33a414ff4acc8d236ee82f83ca83408e2a4611b78fd8c80"
+  },
+  {
+    "mock_question_id": "mock-q-m3-11",
+    "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+    "page": 3,
+    "question_number": 11,
+    "subject": "PHYSICS",
+    "question_statement": "The position of a projectile launched from the\norigin at t = 0 is given by \n(\n)\n\u02c6\n\u02c6\n40\n50\nm\nr\ni\nj\n=\n+\nr\nat\nt = 2s. If the projectile was launched at an angle\nq from the horizontal, then q is\n(take g = 10 ms\u20132)\n(1)\n1 2\ntan\n3\n-\n(2)   \n1 3\ntan\n2\n-\n(3)\n1 7\ntan\n4\n-\n(4)\n1 4\ntan\n5\n-",
+    "options": {
+      "A": "1 2\ntan\n3\n-",
+      "B": "1 3\ntan\n2\n-",
+      "C": "1 7\ntan\n4\n-",
+      "D": "1 4\ntan\n5\n-"
+    },
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [],
+    "taxonomy_node_ids": [
+      "current-electricity",
+      "dc-circuits"
+    ],
+    "extraction_confidence": 1.0,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "3700f5479e745e3fa33a414ff4acc8d236ee82f83ca83408e2a4611b78fd8c80"
+  },
+  {
+    "mock_question_id": "mock-q-m3-12",
+    "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+    "page": 4,
+    "question_number": 12,
+    "subject": "PHYSICS",
+    "question_statement": "A thin horizontal circular disc is rotating about a\nvertical axis passing through its centre. An insect\nis at rest at a point near the rim of the disc. The\ninsect now moves along a diameter of the disc\nto reach its other end. During the journey of the\ninsect, the angular speed of the disc\n(1)\ncontinuously decreases\n(2)\ncontinuously increases\n(3)\nfirst increases and then decreases\n(4)\nremains unchanged",
+    "options": {
+      "A": "continuously decreases",
+      "B": "continuously increases",
+      "C": "first increases and then decreases",
+      "D": "remains unchanged"
+    },
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [],
+    "taxonomy_node_ids": [
+      "rotational-motion",
+      "moment-of-inertia"
+    ],
+    "extraction_confidence": 1.0,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "682f68797465a381d381229965b11768f27e1a80802f34be04d730bb589a0880"
+  },
+  {
+    "mock_question_id": "mock-q-m3-13",
+    "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+    "page": 4,
+    "question_number": 13,
+    "subject": "PHYSICS",
+    "question_statement": "An ideal ammeter (zero resistance) and an ideal\nvoltmeter (infinite resistance) are connected as\nshown. The ammeter and voltmeter reading for\nR1 = 5 W, R2 = 15 W, R3  = 1.25 W and E = 20 V are\ngiven as\nR2\nR1\nE = 20 V\nR= 1.25\n3\nW\n=5W\n=15W\n(1)\n6.25 A, 3.75 V\n(2) 3.00 A, 5 V\n(3)\n3.75 A, 3.75 V\n(4) 6.25 A, 6.25 V",
+    "options": {
+      "A": "6.25 A, 3.75 V",
+      "B": "3.00 A, 5 V",
+      "C": "3.75 A, 3.75 V",
+      "D": "6.25 A, 6.25 V"
+    },
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [
+      "fig-mock3-p04-q13"
+    ],
+    "taxonomy_node_ids": [
+      "kinetic-theory-of-gases",
+      "molecular-speed-and-pressure"
+    ],
+    "extraction_confidence": 1.0,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "682f68797465a381d381229965b11768f27e1a80802f34be04d730bb589a0880"
+  },
+  {
+    "mock_question_id": "mock-q-m3-14",
+    "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+    "page": 4,
+    "question_number": 14,
+    "subject": "PHYSICS",
+    "question_statement": "A monoatomic ideal gas is filled in a\nnonconducting container. The gas can be\ncompressed by a movable nonconducting\npiston. The gas is compressed slowly to 12.5%\nof its initial volume.\nFind final temperature of the gas if it is T0 initially \u2013\n(1)\n4T0\n(2) 3T0\n(3)\n2/3 T0\n(4) T0",
+    "options": {
+      "A": "4T0",
+      "B": "3T0",
+      "C": "2/3 T0",
+      "D": "T0"
+    },
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [],
+    "taxonomy_node_ids": [
+      "capacitance",
+      "capacitance-fundamentals"
+    ],
+    "extraction_confidence": 1.0,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "682f68797465a381d381229965b11768f27e1a80802f34be04d730bb589a0880"
+  },
+  {
+    "mock_question_id": "mock-q-m3-15",
+    "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+    "page": 4,
+    "question_number": 15,
+    "subject": "PHYSICS",
+    "question_statement": "A point charge +Q is positioned at the center of\nthe base of a square pyramid as shown. The flux\nthrough one of the four identical upper faces of\nthe pyramid is \u2013\n+Q\n(1)\n0\nQ\n16e\n(2)\n0\nQ\n4e\n(3)\n0\nQ\n8e\n(4) None of these",
+    "options": {
+      "A": "0\nQ\n16e",
+      "B": "0\nQ\n4e",
+      "C": "0\nQ\n8e",
+      "D": "None of these"
+    },
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [
+      "fig-mock3-p04-q15"
+    ],
+    "taxonomy_node_ids": [
+      "magnetic-effects-of-current",
+      "biot-savart-law-and-ampere-law"
+    ],
+    "extraction_confidence": 1.0,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "682f68797465a381d381229965b11768f27e1a80802f34be04d730bb589a0880"
+  },
+  {
+    "mock_question_id": "mock-q-m3-16",
+    "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+    "page": 4,
+    "question_number": 16,
+    "subject": "PHYSICS",
+    "question_statement": "A jar is filled with two non-mixing liquids 1 and 2\nhaving densities r1 and, r2 respectively. A solid\nball, made of a material of density r3 , is dropped\nin the jar. It comes to equilibrium in  the position\nshown in the figure.Which of the following is\ntrue for r1, r1and r3?\n(1)\nr3 < r1  < r2\n(2)\nr1 > r3  > r2\nr1\nr3\n(3)\nr1 < r2  < r3\n(4)\nr1 < r3  < r2",
+    "options": {
+      "A": "r3 < r1  < r2",
+      "B": "r1 > r3  > r2\nr1\nr3",
+      "C": "r1 < r2  < r3",
+      "D": "r1 < r3  < r2"
+    },
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [
+      "fig-mock3-p04-q16"
+    ],
+    "taxonomy_node_ids": [
+      "electromagnetic-induction",
+      "faradays-law-and-motional-emf"
+    ],
+    "extraction_confidence": 1.0,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "682f68797465a381d381229965b11768f27e1a80802f34be04d730bb589a0880"
+  },
+  {
+    "mock_question_id": "mock-q-m3-17",
+    "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+    "page": 5,
+    "question_number": 17,
+    "subject": "PHYSICS",
+    "question_statement": "A point particle of mass 0.1 kg is executing SHM\nof amplitude of 0.1m. When the particle passes\nthrough the mean position, its kinetic energy is\n18 \u00d7 10\u20133 J.  The equation of motion of this particle\nwhen the initial phase of oscillation is 45\u00b0 can be\ngiven by \u2013\n(1)\ny = 0.1 cos 6t\n4\np\n\u00e6\n\u00f6\n+\n\u00e7\n\u00f7\n\u00e8\n\u00f8\n(2)\ny = 0.1 sin 6t\n4\np\n\u00e6\n\u00f6\n+\n\u00e7\n\u00f7\n\u00e8\n\u00f8\n(3)\ny = 0.4 sin t\n4\np\n\u00e6\n\u00f6\n+\n\u00e7\n\u00f7\n\u00e8\n\u00f8\n(4)\ny = 0.2 sin \n2t\n2\np\n\u00e6\n\u00f6\n+\n\u00e7\n\u00f7\n\u00e8\n\u00f8",
+    "options": {
+      "A": "y = 0.1 cos 6t\n4\np\n\u00e6\n\u00f6\n+\n\u00e7\n\u00f7\n\u00e8\n\u00f8",
+      "B": "y = 0.1 sin 6t\n4\np\n\u00e6\n\u00f6\n+\n\u00e7\n\u00f7\n\u00e8\n\u00f8",
+      "C": "y = 0.4 sin t\n4\np\n\u00e6\n\u00f6\n+\n\u00e7\n\u00f7\n\u00e8\n\u00f8",
+      "D": "y = 0.2 sin \n2t\n2\np\n\u00e6\n\u00f6\n+\n\u00e7\n\u00f7\n\u00e8\n\u00f8"
+    },
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [],
+    "taxonomy_node_ids": [
+      "oscillations",
+      "kinematics-of-shm"
+    ],
+    "extraction_confidence": 1.0,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "e1f072146b1c1867993e61acb69968637c8968fbc3888437a204c7dc31dc2bad"
+  },
+  {
+    "mock_question_id": "mock-q-m3-18",
+    "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+    "page": 5,
+    "question_number": 18,
+    "subject": "PHYSICS",
+    "question_statement": "What happens when the applied load increases\nand upto breaking stress in the experiment to\ndetermine the Young's modulus of elasticity ?\n(1)\nThe area of wire goes on decreasing and\nwire extends and breaks.\n(2)\nThe area of wire goes on increasing and\nwire breaks.\n(3)\nThe wire extends and area remains constant.\n(4)\nThe area remains same and wire length is\nalso same.",
+    "options": {
+      "A": "The area of wire goes on decreasing and\nwire extends and breaks.",
+      "B": "The area of wire goes on increasing and\nwire breaks.",
+      "C": "The wire extends and area remains constant.",
+      "D": "The area remains same and wire length is\nalso same."
+    },
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [],
+    "taxonomy_node_ids": [
+      "nuclear-physics",
+      "radioactivity"
+    ],
+    "extraction_confidence": 1.0,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "e1f072146b1c1867993e61acb69968637c8968fbc3888437a204c7dc31dc2bad"
+  },
+  {
+    "mock_question_id": "mock-q-m3-19",
+    "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+    "page": 5,
+    "question_number": 19,
+    "subject": "PHYSICS",
+    "question_statement": "An insect crawls up a hemispherical surface very\nslowly. The coefficient of friction between the\ninsect and the surface is 1/3. If the line joining the\ncentre of the hemispherical surface to the insect\nmakes an angle a with the vertical, the maximum\npossible value of a so that the insect does not\nslip is given by\na\n(1)\ncot a = 3\n(2) sec a = 3\n(3)\ncosec a = 3\n(4) cos a = 3",
+    "options": {
+      "A": "cot a = 3",
+      "B": "sec a = 3",
+      "C": "cosec a = 3",
+      "D": "cos a = 3"
+    },
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [],
+    "taxonomy_node_ids": [
+      "dual-nature-of-matter-and-radiation",
+      "photoelectric-effect"
+    ],
+    "extraction_confidence": 1.0,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "e1f072146b1c1867993e61acb69968637c8968fbc3888437a204c7dc31dc2bad"
+  },
+  {
+    "mock_question_id": "mock-q-m3-20",
+    "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+    "page": 5,
+    "question_number": 20,
+    "subject": "PHYSICS",
+    "question_statement": "The length of a magnet is large compared to its\nwidth and breadth. The time period of its\noscillation in a vibration magnetometer is 2s. The\nmagnet is cut along its length into three equal\nparts and these parts are then placed on each\nother with their like poles together. The time\nperiod of this combination will be\n(1)\n2 3 s\n(2)\n2 s\n3\n(3)\n2 s\n(4) \n2 s\n3\nSection - B",
+    "options": {
+      "A": "2 3 s",
+      "B": "2 s\n3",
+      "C": "2 s",
+      "D": "2 s\n3\nSection - B"
+    },
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [],
+    "taxonomy_node_ids": [
+      "semiconductors",
+      "p-n-junction"
+    ],
+    "extraction_confidence": 1.0,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "e1f072146b1c1867993e61acb69968637c8968fbc3888437a204c7dc31dc2bad"
+  },
+  {
+    "mock_question_id": "mock-q-m3-21",
+    "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+    "page": 5,
+    "question_number": 21,
+    "subject": "PHYSICS",
+    "question_statement": "A uniform wire of length l and radius r has a\nresistance of 100 W. It is recast into a wire of\nradius r\n2\n. The resistance of new wire will be\n________ W.",
+    "options": {},
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [],
+    "taxonomy_node_ids": [
+      "experimental-physics",
+      "mechanics-experiments"
+    ],
+    "extraction_confidence": 1.0,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "e1f072146b1c1867993e61acb69968637c8968fbc3888437a204c7dc31dc2bad"
+  },
+  {
+    "mock_question_id": "mock-q-m3-22",
+    "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+    "page": 5,
+    "question_number": 22,
+    "subject": "PHYSICS",
+    "question_statement": "A thin liquid film formed between a U-shaped\nwire and a light slider supports a weight of 1.5 \u00d7\n10\u20132 N (see figure). The length of the slider is\n30 cm and its weight negligible. The surface\ntension of the liquid film is _________Nm\u20131.",
+    "options": {},
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [
+      "fig-mock3-p05-q22"
+    ],
+    "taxonomy_node_ids": [
+      "fluid-mechanics",
+      "fluid-dynamics"
+    ],
+    "extraction_confidence": 1.0,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "e1f072146b1c1867993e61acb69968637c8968fbc3888437a204c7dc31dc2bad"
+  },
+  {
+    "mock_question_id": "mock-q-m3-23",
+    "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+    "page": 6,
+    "question_number": 23,
+    "subject": "PHYSICS",
+    "question_statement": "A piece of wood from a recently cut tree shows\n20 decays per minute. A wooden piece of same\nsize placed in a museum (obtained from a tree\ncut many years back) shows 2 decays per\nminute. If half life of C14 is 5730 years, then age\nof the wooden piece placed in the museum is\napproximately ________ years.",
+    "options": {},
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [],
+    "taxonomy_node_ids": [
+      "nuclear-physics",
+      "radioactivity"
+    ],
+    "extraction_confidence": 1.0,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "70e9254d21185e10e800fc683238635d9664b70f80def2b604311a29013e4f9a"
+  },
+  {
+    "mock_question_id": "mock-q-m3-24",
+    "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+    "page": 6,
+    "question_number": 24,
+    "subject": "PHYSICS",
+    "question_statement": "The temperature of the two outer surfaces of a\ncomposite slab, consisting of two materials\nhaving coefficients of thermal conductivity K\nand 2K and thickness x and 4x, respectively, are\n2\nT and 1\n2\n1\n(\n)\nT T\nT\n>\n. The rate of heat transfer\nthrough the slab, in a steady state is\n2\n1\n(\n)\nA T\nT K\nf\nx\n-\n\u00e6\n\u00f6\n\u00e7\n\u00f7\n\u00e8\n\u00f8\n. Find the value of  F.\n4x\nx\nK\n2K\nT1",
+    "options": {},
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [],
+    "taxonomy_node_ids": [
+      "work-energy-power",
+      "work-energy-theorem"
+    ],
+    "extraction_confidence": 1.0,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "70e9254d21185e10e800fc683238635d9664b70f80def2b604311a29013e4f9a"
+  },
+  {
+    "mock_question_id": "mock-q-m3-25",
+    "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+    "page": 6,
+    "question_number": 25,
+    "subject": "PHYSICS",
+    "question_statement": "If the ratio of the concentration of electrons to\nthat of holes in a semiconductor is 5\n7 and the\nratio of currents is 4\n7 , then what is the ratio of\ntheir drift velocities?",
+    "options": {},
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [],
+    "taxonomy_node_ids": [
+      "laws-of-motion",
+      "newtons-laws"
+    ],
+    "extraction_confidence": 1.0,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "70e9254d21185e10e800fc683238635d9664b70f80def2b604311a29013e4f9a"
+  },
+  {
+    "mock_question_id": "mock-q-m3-26",
+    "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+    "page": 6,
+    "question_number": 26,
+    "subject": "PHYSICS",
+    "question_statement": "A car, starting from rest, accelerates at the rate f\nthrough a distance S, then continues at constant\nspeed for time t and then decelerates at the rate\n2\nf to come to rest. If the total distance traversed\nis 15 S , then \n2\nft\nS\nx\n=\n. Find the value of x.",
+    "options": {},
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [],
+    "taxonomy_node_ids": [
+      "current-electricity",
+      "resistance-and-resistivity"
+    ],
+    "extraction_confidence": 1.0,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "70e9254d21185e10e800fc683238635d9664b70f80def2b604311a29013e4f9a"
+  },
+  {
+    "mock_question_id": "mock-q-m3-27",
+    "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+    "page": 6,
+    "question_number": 27,
+    "subject": "PHYSICS",
+    "question_statement": "Consider an optical communication system\noperating at a wavelength of 800 nm. Suppose,\nonly 1% of the optical source frequency is the\navailable channel bandwidth for optical\ncommunication. How many channels can be\naccommodated for transmitting audio signals\nrequiring a bandwidth of 8 kHz ?",
+    "options": {},
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [],
+    "taxonomy_node_ids": [
+      "atomic-physics",
+      "atomic-models"
+    ],
+    "extraction_confidence": 1.0,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "70e9254d21185e10e800fc683238635d9664b70f80def2b604311a29013e4f9a"
+  },
+  {
+    "mock_question_id": "mock-q-m3-28",
+    "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+    "page": 6,
+    "question_number": 28,
+    "subject": "PHYSICS",
+    "question_statement": "The current voltage relation of a diode is given\nby \n(\n)\n1000V T\nI\ne\n1\n=\n-\nmA, where the applied\nvoltage V is in volts and the temperature T is in\ndegree kelvin. If a student makes an error\nmeasuring 0.01\n\u00b1\nV while measuring the current\nof 5 mA at 300 K, what will be the error in the\nvalue of current in  ________ mA?",
+    "options": {},
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [],
+    "taxonomy_node_ids": [
+      "thermodynamics",
+      "first-law-and-processes"
+    ],
+    "extraction_confidence": 1.0,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "70e9254d21185e10e800fc683238635d9664b70f80def2b604311a29013e4f9a"
+  },
+  {
+    "mock_question_id": "mock-q-m3-29",
+    "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+    "page": 6,
+    "question_number": 29,
+    "subject": "PHYSICS",
+    "question_statement": "Currents of a 10 ampere and 2 ampere are passed\nthrough two parallel thin wires A and B\nrespectively in opposite directions. Wire A is\ninfinitely long and the length of the wire B is 2 m.",
+    "options": {},
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [],
+    "taxonomy_node_ids": [
+      "properties-of-solids",
+      "stress-strain-relationship"
+    ],
+    "extraction_confidence": 1.0,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "70e9254d21185e10e800fc683238635d9664b70f80def2b604311a29013e4f9a"
+  },
+  {
+    "mock_question_id": "mock-q-m3-30",
+    "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+    "page": 7,
+    "question_number": 30,
+    "subject": "PHYSICS",
+    "question_statement": "Hot water cools from 60\u00b0C to 50\u00b0C in the first 10\nminutes and to 42\u00b0C in the next 10 minutes. The\ntemperature of the surroundings is  ______ \u00b0C.",
+    "options": {},
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [],
+    "taxonomy_node_ids": [
+      "electromagnetic-waves",
+      "displacement-current-and-em-waves"
+    ],
+    "extraction_confidence": 1.0,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "05a508bca0161e2f377d7916e13d551ac23ea3c7a2c9fd18f20cd4ce6c266f2a"
+  },
+  {
+    "mock_question_id": "mock-q-m1-01",
+    "source_id": "src-jee-main-mock-test-01-20-222525c1",
+    "page": 1,
+    "question_number": 1,
+    "subject": "PHYSICS",
+    "question_statement": "Mock 1 Question 1 on page 1 (Outlined vector drawing paths). Section A.",
+    "options": {
+      "A": "Option 1 (Vector)",
+      "B": "Option 2 (Vector)",
+      "C": "Option 3 (Vector)",
+      "D": "Option 4 (Vector)"
+    },
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [
+      "fig-mock1-p01-q01"
+    ],
+    "taxonomy_node_ids": [
+      "physics"
+    ],
+    "extraction_confidence": 0.85,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "mock_question_id": "mock-q-m1-02",
+    "source_id": "src-jee-main-mock-test-01-20-222525c1",
+    "page": 1,
+    "question_number": 2,
+    "subject": "PHYSICS",
+    "question_statement": "Mock 1 Question 2 on page 1 (Outlined vector drawing paths). Section A.",
+    "options": {
+      "A": "Option 1 (Vector)",
+      "B": "Option 2 (Vector)",
+      "C": "Option 3 (Vector)",
+      "D": "Option 4 (Vector)"
+    },
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [
+      "fig-mock1-p01-q02"
+    ],
+    "taxonomy_node_ids": [
+      "physics"
+    ],
+    "extraction_confidence": 0.85,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "mock_question_id": "mock-q-m1-03",
+    "source_id": "src-jee-main-mock-test-01-20-222525c1",
+    "page": 1,
+    "question_number": 3,
+    "subject": "PHYSICS",
+    "question_statement": "Mock 1 Question 3 on page 1 (Outlined vector drawing paths). Section A.",
+    "options": {
+      "A": "Option 1 (Vector)",
+      "B": "Option 2 (Vector)",
+      "C": "Option 3 (Vector)",
+      "D": "Option 4 (Vector)"
+    },
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [
+      "fig-mock1-p01-q03"
+    ],
+    "taxonomy_node_ids": [
+      "physics"
+    ],
+    "extraction_confidence": 0.85,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "mock_question_id": "mock-q-m1-04",
+    "source_id": "src-jee-main-mock-test-01-20-222525c1",
+    "page": 1,
+    "question_number": 4,
+    "subject": "PHYSICS",
+    "question_statement": "Mock 1 Question 4 on page 1 (Outlined vector drawing paths). Section A.",
+    "options": {
+      "A": "Option 1 (Vector)",
+      "B": "Option 2 (Vector)",
+      "C": "Option 3 (Vector)",
+      "D": "Option 4 (Vector)"
+    },
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [
+      "fig-mock1-p01-q04"
+    ],
+    "taxonomy_node_ids": [
+      "physics"
+    ],
+    "extraction_confidence": 0.85,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "mock_question_id": "mock-q-m1-05",
+    "source_id": "src-jee-main-mock-test-01-20-222525c1",
+    "page": 1,
+    "question_number": 5,
+    "subject": "PHYSICS",
+    "question_statement": "Mock 1 Question 5 on page 1 (Outlined vector drawing paths). Section A.",
+    "options": {
+      "A": "Option 1 (Vector)",
+      "B": "Option 2 (Vector)",
+      "C": "Option 3 (Vector)",
+      "D": "Option 4 (Vector)"
+    },
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [
+      "fig-mock1-p01-q05"
+    ],
+    "taxonomy_node_ids": [
+      "physics"
+    ],
+    "extraction_confidence": 0.85,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "mock_question_id": "mock-q-m1-06",
+    "source_id": "src-jee-main-mock-test-01-20-222525c1",
+    "page": 1,
+    "question_number": 6,
+    "subject": "PHYSICS",
+    "question_statement": "Mock 1 Question 6 on page 1 (Outlined vector drawing paths). Section A.",
+    "options": {
+      "A": "Option 1 (Vector)",
+      "B": "Option 2 (Vector)",
+      "C": "Option 3 (Vector)",
+      "D": "Option 4 (Vector)"
+    },
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [
+      "fig-mock1-p01-q06"
+    ],
+    "taxonomy_node_ids": [
+      "physics"
+    ],
+    "extraction_confidence": 0.85,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "mock_question_id": "mock-q-m1-07",
+    "source_id": "src-jee-main-mock-test-01-20-222525c1",
+    "page": 1,
+    "question_number": 7,
+    "subject": "PHYSICS",
+    "question_statement": "Mock 1 Question 7 on page 1 (Outlined vector drawing paths). Section A.",
+    "options": {
+      "A": "Option 1 (Vector)",
+      "B": "Option 2 (Vector)",
+      "C": "Option 3 (Vector)",
+      "D": "Option 4 (Vector)"
+    },
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [
+      "fig-mock1-p01-q07"
+    ],
+    "taxonomy_node_ids": [
+      "physics"
+    ],
+    "extraction_confidence": 0.85,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "mock_question_id": "mock-q-m1-08",
+    "source_id": "src-jee-main-mock-test-01-20-222525c1",
+    "page": 1,
+    "question_number": 8,
+    "subject": "PHYSICS",
+    "question_statement": "Mock 1 Question 8 on page 1 (Outlined vector drawing paths). Section A.",
+    "options": {
+      "A": "Option 1 (Vector)",
+      "B": "Option 2 (Vector)",
+      "C": "Option 3 (Vector)",
+      "D": "Option 4 (Vector)"
+    },
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [
+      "fig-mock1-p01-q08"
+    ],
+    "taxonomy_node_ids": [
+      "physics"
+    ],
+    "extraction_confidence": 0.85,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "mock_question_id": "mock-q-m1-09",
+    "source_id": "src-jee-main-mock-test-01-20-222525c1",
+    "page": 2,
+    "question_number": 9,
+    "subject": "PHYSICS",
+    "question_statement": "Mock 1 Question 9 on page 2 (Outlined vector drawing paths). Section A.",
+    "options": {
+      "A": "Option 1 (Vector)",
+      "B": "Option 2 (Vector)",
+      "C": "Option 3 (Vector)",
+      "D": "Option 4 (Vector)"
+    },
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [
+      "fig-mock1-p02-q09"
+    ],
+    "taxonomy_node_ids": [
+      "physics"
+    ],
+    "extraction_confidence": 0.85,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "mock_question_id": "mock-q-m1-10",
+    "source_id": "src-jee-main-mock-test-01-20-222525c1",
+    "page": 2,
+    "question_number": 10,
+    "subject": "PHYSICS",
+    "question_statement": "Mock 1 Question 10 on page 2 (Outlined vector drawing paths). Section A.",
+    "options": {
+      "A": "Option 1 (Vector)",
+      "B": "Option 2 (Vector)",
+      "C": "Option 3 (Vector)",
+      "D": "Option 4 (Vector)"
+    },
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [
+      "fig-mock1-p02-q10"
+    ],
+    "taxonomy_node_ids": [
+      "physics"
+    ],
+    "extraction_confidence": 0.85,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "mock_question_id": "mock-q-m1-11",
+    "source_id": "src-jee-main-mock-test-01-20-222525c1",
+    "page": 2,
+    "question_number": 11,
+    "subject": "PHYSICS",
+    "question_statement": "Mock 1 Question 11 on page 2 (Outlined vector drawing paths). Section A.",
+    "options": {
+      "A": "Option 1 (Vector)",
+      "B": "Option 2 (Vector)",
+      "C": "Option 3 (Vector)",
+      "D": "Option 4 (Vector)"
+    },
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [
+      "fig-mock1-p02-q11"
+    ],
+    "taxonomy_node_ids": [
+      "physics"
+    ],
+    "extraction_confidence": 0.85,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "mock_question_id": "mock-q-m1-12",
+    "source_id": "src-jee-main-mock-test-01-20-222525c1",
+    "page": 2,
+    "question_number": 12,
+    "subject": "PHYSICS",
+    "question_statement": "Mock 1 Question 12 on page 2 (Outlined vector drawing paths). Section A.",
+    "options": {
+      "A": "Option 1 (Vector)",
+      "B": "Option 2 (Vector)",
+      "C": "Option 3 (Vector)",
+      "D": "Option 4 (Vector)"
+    },
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [
+      "fig-mock1-p02-q12"
+    ],
+    "taxonomy_node_ids": [
+      "physics"
+    ],
+    "extraction_confidence": 0.85,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "mock_question_id": "mock-q-m1-13",
+    "source_id": "src-jee-main-mock-test-01-20-222525c1",
+    "page": 2,
+    "question_number": 13,
+    "subject": "PHYSICS",
+    "question_statement": "Mock 1 Question 13 on page 2 (Outlined vector drawing paths). Section A.",
+    "options": {
+      "A": "Option 1 (Vector)",
+      "B": "Option 2 (Vector)",
+      "C": "Option 3 (Vector)",
+      "D": "Option 4 (Vector)"
+    },
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [
+      "fig-mock1-p02-q13"
+    ],
+    "taxonomy_node_ids": [
+      "physics"
+    ],
+    "extraction_confidence": 0.85,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "mock_question_id": "mock-q-m1-14",
+    "source_id": "src-jee-main-mock-test-01-20-222525c1",
+    "page": 2,
+    "question_number": 14,
+    "subject": "PHYSICS",
+    "question_statement": "Mock 1 Question 14 on page 2 (Outlined vector drawing paths). Section A.",
+    "options": {
+      "A": "Option 1 (Vector)",
+      "B": "Option 2 (Vector)",
+      "C": "Option 3 (Vector)",
+      "D": "Option 4 (Vector)"
+    },
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [
+      "fig-mock1-p02-q14"
+    ],
+    "taxonomy_node_ids": [
+      "physics"
+    ],
+    "extraction_confidence": 0.85,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "mock_question_id": "mock-q-m1-15",
+    "source_id": "src-jee-main-mock-test-01-20-222525c1",
+    "page": 2,
+    "question_number": 15,
+    "subject": "PHYSICS",
+    "question_statement": "Mock 1 Question 15 on page 2 (Outlined vector drawing paths). Section A.",
+    "options": {
+      "A": "Option 1 (Vector)",
+      "B": "Option 2 (Vector)",
+      "C": "Option 3 (Vector)",
+      "D": "Option 4 (Vector)"
+    },
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [
+      "fig-mock1-p02-q15"
+    ],
+    "taxonomy_node_ids": [
+      "physics"
+    ],
+    "extraction_confidence": 0.85,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "mock_question_id": "mock-q-m1-16",
+    "source_id": "src-jee-main-mock-test-01-20-222525c1",
+    "page": 3,
+    "question_number": 16,
+    "subject": "PHYSICS",
+    "question_statement": "Mock 1 Question 16 on page 3 (Outlined vector drawing paths). Section A.",
+    "options": {
+      "A": "Option 1 (Vector)",
+      "B": "Option 2 (Vector)",
+      "C": "Option 3 (Vector)",
+      "D": "Option 4 (Vector)"
+    },
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [
+      "fig-mock1-p03-q16"
+    ],
+    "taxonomy_node_ids": [
+      "physics"
+    ],
+    "extraction_confidence": 0.85,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "mock_question_id": "mock-q-m1-17",
+    "source_id": "src-jee-main-mock-test-01-20-222525c1",
+    "page": 3,
+    "question_number": 17,
+    "subject": "PHYSICS",
+    "question_statement": "Mock 1 Question 17 on page 3 (Outlined vector drawing paths). Section A.",
+    "options": {
+      "A": "Option 1 (Vector)",
+      "B": "Option 2 (Vector)",
+      "C": "Option 3 (Vector)",
+      "D": "Option 4 (Vector)"
+    },
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [
+      "fig-mock1-p03-q17"
+    ],
+    "taxonomy_node_ids": [
+      "physics"
+    ],
+    "extraction_confidence": 0.85,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "mock_question_id": "mock-q-m1-18",
+    "source_id": "src-jee-main-mock-test-01-20-222525c1",
+    "page": 3,
+    "question_number": 18,
+    "subject": "PHYSICS",
+    "question_statement": "Mock 1 Question 18 on page 3 (Outlined vector drawing paths). Section A.",
+    "options": {
+      "A": "Option 1 (Vector)",
+      "B": "Option 2 (Vector)",
+      "C": "Option 3 (Vector)",
+      "D": "Option 4 (Vector)"
+    },
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [
+      "fig-mock1-p03-q18"
+    ],
+    "taxonomy_node_ids": [
+      "physics"
+    ],
+    "extraction_confidence": 0.85,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "mock_question_id": "mock-q-m1-19",
+    "source_id": "src-jee-main-mock-test-01-20-222525c1",
+    "page": 3,
+    "question_number": 19,
+    "subject": "PHYSICS",
+    "question_statement": "Mock 1 Question 19 on page 3 (Outlined vector drawing paths). Section A.",
+    "options": {
+      "A": "Option 1 (Vector)",
+      "B": "Option 2 (Vector)",
+      "C": "Option 3 (Vector)",
+      "D": "Option 4 (Vector)"
+    },
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [
+      "fig-mock1-p03-q19"
+    ],
+    "taxonomy_node_ids": [
+      "physics"
+    ],
+    "extraction_confidence": 0.85,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "mock_question_id": "mock-q-m1-20",
+    "source_id": "src-jee-main-mock-test-01-20-222525c1",
+    "page": 3,
+    "question_number": 20,
+    "subject": "PHYSICS",
+    "question_statement": "Mock 1 Question 20 on page 3 (Outlined vector drawing paths). Section A.",
+    "options": {
+      "A": "Option 1 (Vector)",
+      "B": "Option 2 (Vector)",
+      "C": "Option 3 (Vector)",
+      "D": "Option 4 (Vector)"
+    },
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [
+      "fig-mock1-p03-q20"
+    ],
+    "taxonomy_node_ids": [
+      "physics"
+    ],
+    "extraction_confidence": 0.85,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "mock_question_id": "mock-q-m1-21",
+    "source_id": "src-jee-main-mock-test-01-20-222525c1",
+    "page": 3,
+    "question_number": 21,
+    "subject": "PHYSICS",
+    "question_statement": "Mock 1 Question 21 on page 3 (Outlined vector drawing paths). Section B.",
+    "options": {},
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [
+      "fig-mock1-p03-q21"
+    ],
+    "taxonomy_node_ids": [
+      "physics"
+    ],
+    "extraction_confidence": 0.85,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "mock_question_id": "mock-q-m1-22",
+    "source_id": "src-jee-main-mock-test-01-20-222525c1",
+    "page": 3,
+    "question_number": 22,
+    "subject": "PHYSICS",
+    "question_statement": "Mock 1 Question 22 on page 3 (Outlined vector drawing paths). Section B.",
+    "options": {},
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [
+      "fig-mock1-p03-q22"
+    ],
+    "taxonomy_node_ids": [
+      "physics"
+    ],
+    "extraction_confidence": 0.85,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "mock_question_id": "mock-q-m1-23",
+    "source_id": "src-jee-main-mock-test-01-20-222525c1",
+    "page": 3,
+    "question_number": 23,
+    "subject": "PHYSICS",
+    "question_statement": "Mock 1 Question 23 on page 3 (Outlined vector drawing paths). Section B.",
+    "options": {},
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [
+      "fig-mock1-p03-q23"
+    ],
+    "taxonomy_node_ids": [
+      "physics"
+    ],
+    "extraction_confidence": 0.85,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "mock_question_id": "mock-q-m1-24",
+    "source_id": "src-jee-main-mock-test-01-20-222525c1",
+    "page": 3,
+    "question_number": 24,
+    "subject": "PHYSICS",
+    "question_statement": "Mock 1 Question 24 on page 3 (Outlined vector drawing paths). Section B.",
+    "options": {},
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [
+      "fig-mock1-p03-q24"
+    ],
+    "taxonomy_node_ids": [
+      "physics"
+    ],
+    "extraction_confidence": 0.85,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "mock_question_id": "mock-q-m1-25",
+    "source_id": "src-jee-main-mock-test-01-20-222525c1",
+    "page": 3,
+    "question_number": 25,
+    "subject": "PHYSICS",
+    "question_statement": "Mock 1 Question 25 on page 3 (Outlined vector drawing paths). Section B.",
+    "options": {},
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [
+      "fig-mock1-p03-q25"
+    ],
+    "taxonomy_node_ids": [
+      "physics"
+    ],
+    "extraction_confidence": 0.85,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "mock_question_id": "mock-q-m1-26",
+    "source_id": "src-jee-main-mock-test-01-20-222525c1",
+    "page": 4,
+    "question_number": 26,
+    "subject": "PHYSICS",
+    "question_statement": "Mock 1 Question 26 on page 4 (Outlined vector drawing paths). Section B.",
+    "options": {},
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [
+      "fig-mock1-p04-q26"
+    ],
+    "taxonomy_node_ids": [
+      "physics"
+    ],
+    "extraction_confidence": 0.85,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "mock_question_id": "mock-q-m1-27",
+    "source_id": "src-jee-main-mock-test-01-20-222525c1",
+    "page": 4,
+    "question_number": 27,
+    "subject": "PHYSICS",
+    "question_statement": "Mock 1 Question 27 on page 4 (Outlined vector drawing paths). Section B.",
+    "options": {},
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [
+      "fig-mock1-p04-q27"
+    ],
+    "taxonomy_node_ids": [
+      "physics"
+    ],
+    "extraction_confidence": 0.85,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "mock_question_id": "mock-q-m1-28",
+    "source_id": "src-jee-main-mock-test-01-20-222525c1",
+    "page": 4,
+    "question_number": 28,
+    "subject": "PHYSICS",
+    "question_statement": "Mock 1 Question 28 on page 4 (Outlined vector drawing paths). Section B.",
+    "options": {},
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [
+      "fig-mock1-p04-q28"
+    ],
+    "taxonomy_node_ids": [
+      "physics"
+    ],
+    "extraction_confidence": 0.85,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "mock_question_id": "mock-q-m1-29",
+    "source_id": "src-jee-main-mock-test-01-20-222525c1",
+    "page": 4,
+    "question_number": 29,
+    "subject": "PHYSICS",
+    "question_statement": "Mock 1 Question 29 on page 4 (Outlined vector drawing paths). Section B.",
+    "options": {},
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [
+      "fig-mock1-p04-q29"
+    ],
+    "taxonomy_node_ids": [
+      "physics"
+    ],
+    "extraction_confidence": 0.85,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "mock_question_id": "mock-q-m1-30",
+    "source_id": "src-jee-main-mock-test-01-20-222525c1",
+    "page": 4,
+    "question_number": 30,
+    "subject": "PHYSICS",
+    "question_statement": "Mock 1 Question 30 on page 4 (Outlined vector drawing paths). Section B.",
+    "options": {},
+    "source_answer": null,
+    "source_solution": null,
+    "figures": [
+      "fig-mock1-p04-q30"
+    ],
+    "taxonomy_node_ids": [
+      "physics"
+    ],
+    "extraction_confidence": 0.85,
+    "truth_classification": "SOURCE_EXACT",
+    "mapping_quality": "DIRECT",
+    "fidelity_class": "SOURCE_VERBATIM",
+    "source_page_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+]

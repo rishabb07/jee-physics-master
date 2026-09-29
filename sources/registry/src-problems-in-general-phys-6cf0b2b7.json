@@ -1,0 +1,42 @@
+{
+  "source_id": "src-problems-in-general-phys-6cf0b2b7",
+  "source_version": 1,
+  "file_name": "problems_in_general_physics_by_i_e_irodov.pdf",
+  "file_path": "problems_in_general_physics_by_i_e_irodov.pdf",
+  "file_size_bytes": 3230366,
+  "sha256": "6cf0b2b7cbcde19d84f58f64cd1550f719931a9a65fd4489d77c029b94b9200e",
+  "extension": ".pdf",
+  "mime_type": "application/pdf",
+  "file_format": "pdf",
+  "source_type": "problem_book",
+  "total_pages": 385,
+  "has_extractable_text": true,
+  "is_image_only": false,
+  "is_encrypted": false,
+  "status": "SEGMENTED",
+  "processing_stage": null,
+  "last_error": null,
+  "history": [],
+  "affected_chapters": [],
+  "file_created_at": null,
+  "file_modified_at": null,
+  "metadata": {
+    "source_role": "ADVANCED_PROBLEMS",
+    "toc_entries_count": 10,
+    "bibliographic_info": {
+      "title": "Problems in General Physics",
+      "authors": [
+        "I. E. Irodov"
+      ],
+      "publisher": "Mir Publishers Moscow / Arihant Prakashan (Series Reprint), Meerut",
+      "edition": "English Translation (Classic Texts Series)",
+      "volume": "Complete (Parts 1 to 6, 1,877 problems)",
+      "publication_year": 1988,
+      "isbn": "978-93-5176-256-0",
+      "discrepancy_resolution": "None. Digital text stream with embedded answers for Parts 1 to 6 on pages 278-362."
+    },
+    "extraction_nature": "DIGITAL_TEXT"
+  },
+  "created_at": "2026-09-29T16:20:07.730926Z",
+  "updated_at": "2026-09-29T16:20:07.730926Z"
+}

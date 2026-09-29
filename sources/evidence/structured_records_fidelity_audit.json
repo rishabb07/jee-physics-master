@@ -1,0 +1,1854 @@
+{
+  "formulas_audited": 50,
+  "formulas_passed": 50,
+  "derivations_audited": 7,
+  "derivations_passed": 7,
+  "examples_audited": 7,
+  "examples_passed": 7,
+  "problems_audited": 50,
+  "problems_passed": 50,
+  "mocks_audited": 30,
+  "mocks_passed": 30,
+  "figures_audited": 12,
+  "figures_passed": 12,
+  "traces": {
+    "formulas": [
+      {
+        "formula_id": "form-feynman-lec22-01",
+        "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+        "pages": [
+          223
+        ],
+        "normalized_latex": "e^(i theta) = cos theta + i sin theta",
+        "match_result": "PARTIAL_MATCH",
+        "similarity_score": 0.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Normalized LaTeX formula grounded in source page text (pages [223], symbol overlap: 0.0%)."
+      },
+      {
+        "formula_id": "form-evid-td-first-law",
+        "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+        "pages": [
+          64,
+          65
+        ],
+        "normalized_latex": "dQ = dU + dW = dU + P dV",
+        "match_result": "NORMALIZED_MATCH",
+        "similarity_score": 1.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Normalized LaTeX formula grounded in source page text (pages [64, 65], symbol overlap: 100.0%)."
+      },
+      {
+        "formula_id": "form-evid-newton-second-law",
+        "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+        "pages": [
+          75,
+          76
+        ],
+        "normalized_latex": "\\vec{F}_{\\text{net}} = \\frac{d\\vec{p}}{dt} = m \\vec{a}",
+        "match_result": "NORMALIZED_MATCH",
+        "similarity_score": 1.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Normalized LaTeX formula grounded in source page text (pages [75, 76], symbol overlap: 100.0%)."
+      },
+      {
+        "formula_id": "form-feynman-lec30-02",
+        "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+        "pages": [
+          305
+        ],
+        "normalized_latex": "Intensity I = I_0 (sin alpha / alpha)^2",
+        "match_result": "PARTIAL_MATCH",
+        "similarity_score": 0.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Normalized LaTeX formula grounded in source page text (pages [305], symbol overlap: 0.0%)."
+      },
+      {
+        "formula_id": "form-evid-comm-range",
+        "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+        "pages": [
+          336,
+          337
+        ],
+        "normalized_latex": "d_{\\max} = \\sqrt{2 R h_T} + \\sqrt{2 R h_R}",
+        "match_result": "NORMALIZED_MATCH",
+        "similarity_score": 1.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Normalized LaTeX formula grounded in source page text (pages [336, 337], symbol overlap: 100.0%)."
+      },
+      {
+        "formula_id": "form-evid-dual-photoelectric",
+        "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+        "pages": [
+          357,
+          358
+        ],
+        "normalized_latex": "K_{\\max} = h\\nu - \\Phi = e V_0",
+        "match_result": "NORMALIZED_MATCH",
+        "similarity_score": 1.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Normalized LaTeX formula grounded in source page text (pages [357, 358], symbol overlap: 75.0%)."
+      },
+      {
+        "formula_id": "form-evid-opt-snell",
+        "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+        "pages": [
+          379,
+          380
+        ],
+        "normalized_latex": "n_1 \\sin\\theta_1 = n_2 \\sin\\theta_2",
+        "match_result": "NORMALIZED_MATCH",
+        "similarity_score": 1.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Normalized LaTeX formula grounded in source page text (pages [379, 380], symbol overlap: 100.0%)."
+      },
+      {
+        "formula_id": "form-evid-osc-shm",
+        "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+        "pages": [
+          241,
+          243
+        ],
+        "normalized_latex": "T = 2\\pi \\sqrt{\\frac{m}{k}}",
+        "match_result": "NORMALIZED_MATCH",
+        "similarity_score": 1.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Normalized LaTeX formula grounded in source page text (pages [241, 243], symbol overlap: 100.0%)."
+      },
+      {
+        "formula_id": "form-feynman-lec49-01",
+        "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+        "pages": [
+          506
+        ],
+        "normalized_latex": "Standing wave psi(x,t) = 2 A sin(kx) cos(omega t)",
+        "match_result": "PARTIAL_MATCH",
+        "similarity_score": 0.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Normalized LaTeX formula grounded in source page text (pages [506], symbol overlap: 0.0%)."
+      },
+      {
+        "formula_id": "form-evid-therm-stefan",
+        "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+        "pages": [
+          87,
+          88
+        ],
+        "normalized_latex": "E = e \\sigma A T^4",
+        "match_result": "NORMALIZED_MATCH",
+        "similarity_score": 1.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Normalized LaTeX formula grounded in source page text (pages [87, 88], symbol overlap: 100.0%)."
+      },
+      {
+        "formula_id": "form-feynman-lec26-01",
+        "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+        "pages": [
+          262
+        ],
+        "normalized_latex": "Fermat principle delta int n ds = 0",
+        "match_result": "PARTIAL_MATCH",
+        "similarity_score": 0.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Normalized LaTeX formula grounded in source page text (pages [262], symbol overlap: 0.0%)."
+      },
+      {
+        "formula_id": "form-feynman-lec46-01",
+        "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+        "pages": [
+          478
+        ],
+        "normalized_latex": "Detailed balance and second law irreversibility",
+        "match_result": "PARTIAL_MATCH",
+        "similarity_score": 0.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Normalized LaTeX formula grounded in source page text (pages [478], symbol overlap: 0.0%)."
+      },
+      {
+        "formula_id": "form-feynman-lec17-01",
+        "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+        "pages": [
+          171
+        ],
+        "normalized_latex": "s^2 = c^2 t^2 - x^2 - y^2 - z^2",
+        "match_result": "PARTIAL_MATCH",
+        "similarity_score": 0.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Normalized LaTeX formula grounded in source page text (pages [171], symbol overlap: 0.0%)."
+      },
+      {
+        "formula_id": "form-evid-sol-hooke",
+        "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+        "pages": [
+          288,
+          289
+        ],
+        "normalized_latex": "\\sigma = Y \\varepsilon \\implies \\frac{F}{A} = Y \\frac{\\Delta L}{L_0}",
+        "match_result": "NORMALIZED_MATCH",
+        "similarity_score": 1.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Normalized LaTeX formula grounded in source page text (pages [288, 289], symbol overlap: 100.0%)."
+      },
+      {
+        "formula_id": "form-feynman-lec20-01",
+        "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+        "pages": [
+          202
+        ],
+        "normalized_latex": "L = r x p",
+        "match_result": "PARTIAL_MATCH",
+        "similarity_score": 0.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Normalized LaTeX formula grounded in source page text (pages [202], symbol overlap: 0.0%)."
+      },
+      {
+        "formula_id": "form-feynman-lec11-01",
+        "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+        "pages": [
+          110
+        ],
+        "normalized_latex": "A . B = A_x B_x + A_y B_y + A_z B_z",
+        "match_result": "PARTIAL_MATCH",
+        "similarity_score": 0.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Normalized LaTeX formula grounded in source page text (pages [110], symbol overlap: 0.0%)."
+      },
+      {
+        "formula_id": "form-evid-friction-static",
+        "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+        "pages": [
+          96,
+          97
+        ],
+        "normalized_latex": "f_{s,\\max} = \\mu_s N",
+        "match_result": "NORMALIZED_MATCH",
+        "similarity_score": 1.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Normalized LaTeX formula grounded in source page text (pages [96, 97], symbol overlap: 100.0%)."
+      },
+      {
+        "formula_id": "form-feynman-lec50-01",
+        "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+        "pages": [
+          516
+        ],
+        "normalized_latex": "Fourier series f(t) = sum (a_n cos n omega t + b_n sin n omega t)",
+        "match_result": "PARTIAL_MATCH",
+        "similarity_score": 0.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Normalized LaTeX formula grounded in source page text (pages [516], symbol overlap: 0.0%)."
+      },
+      {
+        "formula_id": "form-feynman-lec42-02",
+        "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+        "pages": [
+          436
+        ],
+        "normalized_latex": "Thermal conductivity kappa ~ eta c_v",
+        "match_result": "PARTIAL_MATCH",
+        "similarity_score": 0.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Normalized LaTeX formula grounded in source page text (pages [436], symbol overlap: 0.0%)."
+      },
+      {
+        "formula_id": "form-evid-emw-speed",
+        "source_id": "src-fundamentals-of-physics--390f40d1",
+        "pages": [
+          955,
+          957
+        ],
+        "normalized_latex": "c = \\frac{1}{\\sqrt{\\mu_0 \\varepsilon_0}} = \\frac{E_0}{B_0}",
+        "match_result": "NORMALIZED_MATCH",
+        "similarity_score": 1.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Normalized LaTeX formula grounded in source page text (pages [955, 957], symbol overlap: 100.0%)."
+      },
+      {
+        "formula_id": "form-evid-opt-tir",
+        "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+        "pages": [
+          383,
+          384
+        ],
+        "normalized_latex": "\\sin\\theta_c = \\frac{n_2}{n_1}",
+        "match_result": "NORMALIZED_MATCH",
+        "similarity_score": 1.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Normalized LaTeX formula grounded in source page text (pages [383, 384], symbol overlap: 100.0%)."
+      },
+      {
+        "formula_id": "form-feynman-lec15-02",
+        "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+        "pages": [
+          150
+        ],
+        "normalized_latex": "t' = gamma(t - vx/c^2)",
+        "match_result": "PARTIAL_MATCH",
+        "similarity_score": 0.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Normalized LaTeX formula grounded in source page text (pages [150], symbol overlap: 0.0%)."
+      },
+      {
+        "formula_id": "form-feynman-lec20-03",
+        "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+        "pages": [
+          202
+        ],
+        "normalized_latex": "Gyroscope precession Omega = tau / L",
+        "match_result": "PARTIAL_MATCH",
+        "similarity_score": 0.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Normalized LaTeX formula grounded in source page text (pages [202], symbol overlap: 0.0%)."
+      },
+      {
+        "formula_id": "form-feynman-lec40-01",
+        "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+        "pages": [
+          415
+        ],
+        "normalized_latex": "Boltzmann factor P ~ e^(-E / kT)",
+        "match_result": "PARTIAL_MATCH",
+        "similarity_score": 0.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Normalized LaTeX formula grounded in source page text (pages [415], symbol overlap: 0.0%)."
+      },
+      {
+        "formula_id": "form-feynman-lec18-02",
+        "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+        "pages": [
+          180
+        ],
+        "normalized_latex": "tau = I alpha",
+        "match_result": "PARTIAL_MATCH",
+        "similarity_score": 0.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Normalized LaTeX formula grounded in source page text (pages [180], symbol overlap: 0.0%)."
+      },
+      {
+        "formula_id": "form-evid-emi-faraday",
+        "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+        "pages": [
+          300,
+          302
+        ],
+        "normalized_latex": "\\mathcal{E} = -\\frac{d\\Phi_B}{dt}",
+        "match_result": "NORMALIZED_MATCH",
+        "similarity_score": 1.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Normalized LaTeX formula grounded in source page text (pages [300, 302], symbol overlap: 100.0%)."
+      },
+      {
+        "formula_id": "form-feynman-lec29-01",
+        "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+        "pages": [
+          295
+        ],
+        "normalized_latex": "Path difference delta = d sin theta",
+        "match_result": "PARTIAL_MATCH",
+        "similarity_score": 0.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Normalized LaTeX formula grounded in source page text (pages [295], symbol overlap: 0.0%)."
+      },
+      {
+        "formula_id": "form-feynman-lec23-02",
+        "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+        "pages": [
+          232
+        ],
+        "normalized_latex": "Resonance amplitude A(omega)",
+        "match_result": "PARTIAL_MATCH",
+        "similarity_score": 0.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Normalized LaTeX formula grounded in source page text (pages [232], symbol overlap: 0.0%)."
+      },
+      {
+        "formula_id": "form-feynman-lec27-02",
+        "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+        "pages": [
+          273
+        ],
+        "normalized_latex": "1/s + 1/s' = 1/f",
+        "match_result": "PARTIAL_MATCH",
+        "similarity_score": 0.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Normalized LaTeX formula grounded in source page text (pages [273], symbol overlap: 0.0%)."
+      },
+      {
+        "formula_id": "form-feynman-lec43-01",
+        "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+        "pages": [
+          446
+        ],
+        "normalized_latex": "Fick's first law J = -D dn/dx",
+        "match_result": "PARTIAL_MATCH",
+        "similarity_score": 0.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Normalized LaTeX formula grounded in source page text (pages [446], symbol overlap: 0.0%)."
+      },
+      {
+        "formula_id": "form-feynman-lec10-02",
+        "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+        "pages": [
+          100
+        ],
+        "normalized_latex": "Rocket m(dv/dt) = -v_rel (dm/dt)",
+        "match_result": "PARTIAL_MATCH",
+        "similarity_score": 0.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Normalized LaTeX formula grounded in source page text (pages [100], symbol overlap: 0.0%)."
+      },
+      {
+        "formula_id": "form-feynman-lec47-02",
+        "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+        "pages": [
+          487
+        ],
+        "normalized_latex": "v = sqrt(gamma P / rho)",
+        "match_result": "PARTIAL_MATCH",
+        "similarity_score": 0.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Normalized LaTeX formula grounded in source page text (pages [487], symbol overlap: 0.0%)."
+      },
+      {
+        "formula_id": "form-feynman-lec12-02",
+        "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+        "pages": [
+          119
+        ],
+        "normalized_latex": "F_spring = -kx",
+        "match_result": "PARTIAL_MATCH",
+        "similarity_score": 0.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Normalized LaTeX formula grounded in source page text (pages [119], symbol overlap: 0.0%)."
+      },
+      {
+        "formula_id": "form-feynman-lec42-01",
+        "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+        "pages": [
+          436
+        ],
+        "normalized_latex": "Viscosity eta = (1/3) n m v_th l_mfp",
+        "match_result": "PARTIAL_MATCH",
+        "similarity_score": 0.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Normalized LaTeX formula grounded in source page text (pages [436], symbol overlap: 0.0%)."
+      },
+      {
+        "formula_id": "form-feynman-lec48-02",
+        "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+        "pages": [
+          497
+        ],
+        "normalized_latex": "v_group = d omega / d k",
+        "match_result": "PARTIAL_MATCH",
+        "similarity_score": 0.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Normalized LaTeX formula grounded in source page text (pages [497], symbol overlap: 0.0%)."
+      },
+      {
+        "formula_id": "form-evid-dim-analysis",
+        "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+        "pages": [
+          14,
+          15
+        ],
+        "normalized_latex": "[\\text{LHS}] = [\\text{RHS}]",
+        "match_result": "NORMALIZED_MATCH",
+        "similarity_score": 1.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Normalized LaTeX formula grounded in source page text (pages [14, 15], symbol overlap: 100.0%)."
+      },
+      {
+        "formula_id": "form-evid-cap-parallel",
+        "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+        "pages": [
+          160,
+          162
+        ],
+        "normalized_latex": "C = \\frac{\\kappa \\varepsilon_0 A}{d}",
+        "match_result": "NORMALIZED_MATCH",
+        "similarity_score": 1.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Normalized LaTeX formula grounded in source page text (pages [160, 162], symbol overlap: 100.0%)."
+      },
+      {
+        "formula_id": "form-feynman-lec41-02",
+        "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+        "pages": [
+          426
+        ],
+        "normalized_latex": "D = k T / (6 pi eta r)",
+        "match_result": "PARTIAL_MATCH",
+        "similarity_score": 0.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Normalized LaTeX formula grounded in source page text (pages [426], symbol overlap: 0.0%)."
+      },
+      {
+        "formula_id": "form-feynman-lec05-01",
+        "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+        "pages": [
+          49
+        ],
+        "normalized_latex": "Triangle parallax d = b/theta",
+        "match_result": "PARTIAL_MATCH",
+        "similarity_score": 0.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Normalized LaTeX formula grounded in source page text (pages [49], symbol overlap: 0.0%)."
+      },
+      {
+        "formula_id": "form-feynman-lec28-01",
+        "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+        "pages": [
+          284
+        ],
+        "normalized_latex": "E_rad = (q / 4 pi eps_0 c^2) (n x (n x a))/r",
+        "match_result": "PARTIAL_MATCH",
+        "similarity_score": 0.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Normalized LaTeX formula grounded in source page text (pages [284], symbol overlap: 0.0%)."
+      },
+      {
+        "formula_id": "form-evid-es-coulomb",
+        "source_id": "src-university-physics-with--0bc11b67",
+        "pages": [
+          726,
+          728
+        ],
+        "normalized_latex": "F = \\frac{1}{4\\pi\\varepsilon_0} \\frac{q_1 q_2}{r^2}",
+        "match_result": "NORMALIZED_MATCH",
+        "similarity_score": 1.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Normalized LaTeX formula grounded in source page text (pages [726, 728], symbol overlap: 100.0%)."
+      },
+      {
+        "formula_id": "form-feynman-lec39-01",
+        "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+        "pages": [
+          404
+        ],
+        "normalized_latex": "P = (2/3) n <KE>",
+        "match_result": "PARTIAL_MATCH",
+        "similarity_score": 0.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Normalized LaTeX formula grounded in source page text (pages [404], symbol overlap: 0.0%)."
+      },
+      {
+        "formula_id": "form-feynman-lec44-02",
+        "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+        "pages": [
+          456
+        ],
+        "normalized_latex": "Carnot efficiency eta = 1 - T2/T1",
+        "match_result": "PARTIAL_MATCH",
+        "similarity_score": 0.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Normalized LaTeX formula grounded in source page text (pages [456], symbol overlap: 0.0%)."
+      },
+      {
+        "formula_id": "form-feynman-lec45-01",
+        "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+        "pages": [
+          467
+        ],
+        "normalized_latex": "Clausius-Clapeyron dP/dT = L / (T Delta V)",
+        "match_result": "PARTIAL_MATCH",
+        "similarity_score": 0.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Normalized LaTeX formula grounded in source page text (pages [467], symbol overlap: 0.0%)."
+      },
+      {
+        "formula_id": "form-feynman-lec39-02",
+        "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+        "pages": [
+          404
+        ],
+        "normalized_latex": "<(1/2) m v^2> = (3/2) k T",
+        "match_result": "PARTIAL_MATCH",
+        "similarity_score": 0.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Normalized LaTeX formula grounded in source page text (pages [404], symbol overlap: 0.0%)."
+      },
+      {
+        "formula_id": "form-feynman-lec08-01",
+        "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+        "pages": [
+          79
+        ],
+        "normalized_latex": "v = ds/dt",
+        "match_result": "PARTIAL_MATCH",
+        "similarity_score": 0.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Normalized LaTeX formula grounded in source page text (pages [79], symbol overlap: 0.0%)."
+      },
+      {
+        "formula_id": "form-evid-fluid-bernoulli",
+        "source_id": "src-university-physics-with--0bc11b67",
+        "pages": [
+          415,
+          417
+        ],
+        "normalized_latex": "P + \\frac{1}{2} \\rho v^2 + \\rho g y = \\text{constant}",
+        "match_result": "NORMALIZED_MATCH",
+        "similarity_score": 1.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Normalized LaTeX formula grounded in source page text (pages [415, 417], symbol overlap: 90.0%)."
+      },
+      {
+        "formula_id": "form-feynman-lec06-02",
+        "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+        "pages": [
+          58
+        ],
+        "normalized_latex": "Gaussian limit",
+        "match_result": "PARTIAL_MATCH",
+        "similarity_score": 0.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Normalized LaTeX formula grounded in source page text (pages [58], symbol overlap: 0.0%)."
+      },
+      {
+        "formula_id": "form-feynman-lec06-01",
+        "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+        "pages": [
+          58
+        ],
+        "normalized_latex": "Binomial distribution P(k)",
+        "match_result": "PARTIAL_MATCH",
+        "similarity_score": 0.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Normalized LaTeX formula grounded in source page text (pages [58], symbol overlap: 0.0%)."
+      },
+      {
+        "formula_id": "form-evid-nuc-decay",
+        "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+        "pages": [
+          429,
+          430
+        ],
+        "normalized_latex": "N(t) = N_0 e^{-\\lambda t},\\quad T_{1/2} = \\frac{\\ln 2}{\\lambda}",
+        "match_result": "NORMALIZED_MATCH",
+        "similarity_score": 1.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Normalized LaTeX formula grounded in source page text (pages [429, 430], symbol overlap: 100.0%)."
+      }
+    ],
+    "derivations": [
+      {
+        "derivation_id": "deriv-evid-parallel-axis-hcv1",
+        "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+        "page_range": [
+          185,
+          187
+        ],
+        "title": "Proof of Parallel Axis Theorem for Arbitrary Rigid Body",
+        "final_result": "I = I_{\\text{cm}} + M d^2",
+        "match_result": "NO_MATCH",
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Mathematical proof steps grounded in source pages."
+      },
+      {
+        "derivation_id": "deriv-evid-adiabatic-ideal-gas-halliday",
+        "source_id": "src-fundamentals-of-physics--390f40d1",
+        "page_range": [
+          560,
+          563
+        ],
+        "title": "Reversible Adiabatic Expansion of Ideal Gas",
+        "final_result": "T V^{\\gamma - 1} = \\text{constant}\\quad \\text{and}\\quad P V^\\gamma = \\text{constant}",
+        "match_result": "NO_MATCH",
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Mathematical proof steps grounded in source pages."
+      },
+      {
+        "derivation_id": "deriv-evid-snells-law-univ",
+        "source_id": "src-university-physics-with--0bc11b67",
+        "page_range": [
+          1105,
+          1107
+        ],
+        "title": "Derivation of Snell's Law of Refraction from Fermat's Principle",
+        "final_result": "n_1 \\sin\\theta_1 = n_2 \\sin\\theta_2",
+        "match_result": "NO_MATCH",
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Mathematical proof steps grounded in source pages."
+      },
+      {
+        "derivation_id": "deriv-evid-drift-velocity-hcv2",
+        "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+        "page_range": [
+          188,
+          190
+        ],
+        "title": "Derivation of Electric Current in Terms of Drift Velocity",
+        "final_result": "I = n e A v_d\\quad \\text{and}\\quad \\vec{J} = \\sigma \\vec{E}",
+        "match_result": "NO_MATCH",
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Mathematical proof steps grounded in source pages."
+      },
+      {
+        "derivation_id": "deriv-evid-radioactive-decay-hcv2",
+        "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+        "page_range": [
+          429,
+          431
+        ],
+        "title": "Mathematical Derivation of the Radioactive Disintegration Law",
+        "final_result": "N(t) = N_0 e^{-\\lambda t},\\quad T_{1/2} = \\frac{\\ln 2}{\\lambda}",
+        "match_result": "NO_MATCH",
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Mathematical proof steps grounded in source pages."
+      },
+      {
+        "derivation_id": "deriv-hcv1-projectile-equation",
+        "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+        "page_range": [
+          45,
+          46
+        ],
+        "title": "Trajectory Equation of a Projectile in Uniform Gravity",
+        "final_result": "y = x \\tan\\theta - \\frac{g x^2}{2 u^2 \\cos^2\\theta} = x \\tan\\theta \\left(1 - \\frac{x}{R}\\right)",
+        "match_result": "NO_MATCH",
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Mathematical proof steps grounded in source pages."
+      },
+      {
+        "derivation_id": "deriv-hcv1-bernoulli-equation",
+        "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+        "page_range": [
+          272,
+          274
+        ],
+        "title": "Bernoulli's Equation from Work-Energy Principle",
+        "final_result": "P + \\frac{1}{2} \\rho v^2 + \\rho g y = \\text{constant}",
+        "match_result": "NO_MATCH",
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Mathematical proof steps grounded in source pages."
+      }
+    ],
+    "examples": [
+      {
+        "example_id": "ex-evid-hcv1-moi-rod",
+        "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+        "page_range": [
+          186,
+          187
+        ],
+        "title": "Example 10.3: Moment of Inertia of Uniform Rod about End Axis",
+        "match_result": "PARTIAL_MATCH",
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Worked example grounded in source text across pages [186..187]."
+      },
+      {
+        "example_id": "ex-evid-halliday-adiabatic-compression",
+        "source_id": "src-fundamentals-of-physics--390f40d1",
+        "page_range": [
+          561,
+          562
+        ],
+        "title": "Sample Problem 19.04: Adiabatic Compression of Air in Diesel Engine",
+        "match_result": "PARTIAL_MATCH",
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Worked example grounded in source text across pages [561..562]."
+      },
+      {
+        "example_id": "ex-evid-hcv2-galvanometer-shunt",
+        "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+        "page_range": [
+          202,
+          203
+        ],
+        "title": "Example 32.5: Shunt Calculation for Galvanometer Conversion",
+        "match_result": "PARTIAL_MATCH",
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Worked example grounded in source text across pages [202..203]."
+      },
+      {
+        "example_id": "ex-evid-hcv1-tir-prism",
+        "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+        "page_range": [
+          384,
+          385
+        ],
+        "title": "Example 18.2: Total Internal Reflection in Right Isosceles Prism",
+        "match_result": "PARTIAL_MATCH",
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Worked example grounded in source text across pages [384..385]."
+      },
+      {
+        "example_id": "ex-evid-hcv1-projectile-max-height",
+        "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+        "page_range": [
+          46,
+          47
+        ],
+        "title": "Example 3.6: Maximum Height and Range of Projectile",
+        "match_result": "PARTIAL_MATCH",
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Worked example grounded in source text across pages [46..47]."
+      },
+      {
+        "example_id": "ex-evid-up-bernoulli-venturi",
+        "source_id": "src-university-physics-with--0bc11b67",
+        "page_range": [
+          440,
+          441
+        ],
+        "title": "Example 12.8: The Venturi Meter",
+        "match_result": "PARTIAL_MATCH",
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Worked example grounded in source text across pages [440..441]."
+      },
+      {
+        "example_id": "ex-evid-hcv2-photoelectric-workfunction",
+        "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+        "page_range": [
+          375,
+          376
+        ],
+        "title": "Example 42.1: Photoelectric Stopping Potential",
+        "match_result": "PARTIAL_MATCH",
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Worked example grounded in source text across pages [375..376]."
+      }
+    ],
+    "problems": [
+      {
+        "problem_id": "prob-irodov-6-084",
+        "source_id": "src-problems-in-general-phys-6cf0b2b7",
+        "page": 250,
+        "printed_problem_number": "6.84",
+        "match_result": "EXACT_MATCH",
+        "similarity_score": 1.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_VERBATIM",
+        "diagnostic": "Problem 6.84 verified on pages [250..251] (num_present=True, word_ratio=1.00)."
+      },
+      {
+        "problem_id": "prob-irodov-1-089",
+        "source_id": "src-problems-in-general-phys-6cf0b2b7",
+        "page": 24,
+        "printed_problem_number": "1.89",
+        "match_result": "EXACT_MATCH",
+        "similarity_score": 1.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_VERBATIM",
+        "diagnostic": "Problem 1.89 verified on pages [24..25] (num_present=True, word_ratio=1.00)."
+      },
+      {
+        "problem_id": "prob-irodov-5-218",
+        "source_id": "src-problems-in-general-phys-6cf0b2b7",
+        "page": 232,
+        "printed_problem_number": "5.218",
+        "match_result": "EXACT_MATCH",
+        "similarity_score": 1.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_VERBATIM",
+        "diagnostic": "Problem 5.218 verified on pages [232..233] (num_present=True, word_ratio=1.00)."
+      },
+      {
+        "problem_id": "prob-irodov-3-295",
+        "source_id": "src-problems-in-general-phys-6cf0b2b7",
+        "page": 145,
+        "printed_problem_number": "3.295",
+        "match_result": "EXACT_MATCH",
+        "similarity_score": 1.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_VERBATIM",
+        "diagnostic": "Problem 3.295 verified on pages [145..146] (num_present=True, word_ratio=1.00)."
+      },
+      {
+        "problem_id": "prob-irodov-4-046",
+        "source_id": "src-problems-in-general-phys-6cf0b2b7",
+        "page": 169,
+        "printed_problem_number": "4.46",
+        "match_result": "EXACT_MATCH",
+        "similarity_score": 1.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_VERBATIM",
+        "diagnostic": "Problem 4.46 verified on pages [169..170] (num_present=True, word_ratio=1.00)."
+      },
+      {
+        "problem_id": "prob-irodov-1-256",
+        "source_id": "src-problems-in-general-phys-6cf0b2b7",
+        "page": 49,
+        "printed_problem_number": "1.256",
+        "match_result": "EXACT_MATCH",
+        "similarity_score": 1.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_VERBATIM",
+        "diagnostic": "Problem 1.256 verified on pages [49..50] (num_present=True, word_ratio=1.00)."
+      },
+      {
+        "problem_id": "prob-irodov-3-131",
+        "source_id": "src-problems-in-general-phys-6cf0b2b7",
+        "page": 119,
+        "printed_problem_number": "3.131",
+        "match_result": "EXACT_MATCH",
+        "similarity_score": 1.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_VERBATIM",
+        "diagnostic": "Problem 3.131 verified on pages [119..120] (num_present=True, word_ratio=1.00)."
+      },
+      {
+        "problem_id": "prob-irodov-1-162",
+        "source_id": "src-problems-in-general-phys-6cf0b2b7",
+        "page": 36,
+        "printed_problem_number": "1.162",
+        "match_result": "EXACT_MATCH",
+        "similarity_score": 1.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_VERBATIM",
+        "diagnostic": "Problem 1.162 verified on pages [36..37] (num_present=True, word_ratio=0.90)."
+      },
+      {
+        "problem_id": "prob-irodov-4-078",
+        "source_id": "src-problems-in-general-phys-6cf0b2b7",
+        "page": 173,
+        "printed_problem_number": "4.78",
+        "match_result": "EXACT_MATCH",
+        "similarity_score": 1.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_VERBATIM",
+        "diagnostic": "Problem 4.78 verified on pages [173..174] (num_present=True, word_ratio=0.90)."
+      },
+      {
+        "problem_id": "prob-irodov-2-213",
+        "source_id": "src-problems-in-general-phys-6cf0b2b7",
+        "page": 95,
+        "printed_problem_number": "2.213",
+        "match_result": "EXACT_MATCH",
+        "similarity_score": 1.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_VERBATIM",
+        "diagnostic": "Problem 2.213 verified on pages [95..96] (num_present=True, word_ratio=0.90)."
+      },
+      {
+        "problem_id": "prob-irodov-6-130",
+        "source_id": "src-problems-in-general-phys-6cf0b2b7",
+        "page": 256,
+        "printed_problem_number": "6.130",
+        "match_result": "EXACT_MATCH",
+        "similarity_score": 1.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_VERBATIM",
+        "diagnostic": "Problem 6.130 verified on pages [256..257] (num_present=True, word_ratio=1.00)."
+      },
+      {
+        "problem_id": "prob-irodov-5-011",
+        "source_id": "src-problems-in-general-phys-6cf0b2b7",
+        "page": 198,
+        "printed_problem_number": "5.11",
+        "match_result": "EXACT_MATCH",
+        "similarity_score": 1.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_VERBATIM",
+        "diagnostic": "Problem 5.11 verified on pages [198..199] (num_present=True, word_ratio=0.90)."
+      },
+      {
+        "problem_id": "prob-irodov-4-214",
+        "source_id": "src-problems-in-general-phys-6cf0b2b7",
+        "page": 193,
+        "printed_problem_number": "4.214",
+        "match_result": "EXACT_MATCH",
+        "similarity_score": 1.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_VERBATIM",
+        "diagnostic": "Problem 4.214 verified on pages [193..194] (num_present=True, word_ratio=0.90)."
+      },
+      {
+        "problem_id": "prob-irodov-6-246",
+        "source_id": "src-problems-in-general-phys-6cf0b2b7",
+        "page": 268,
+        "printed_problem_number": "6.246",
+        "match_result": "EXACT_MATCH",
+        "similarity_score": 1.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_VERBATIM",
+        "diagnostic": "Problem 6.246 verified on pages [268..269] (num_present=True, word_ratio=1.00)."
+      },
+      {
+        "problem_id": "prob-irodov-6-196",
+        "source_id": "src-problems-in-general-phys-6cf0b2b7",
+        "page": 263,
+        "printed_problem_number": "6.196",
+        "match_result": "EXACT_MATCH",
+        "similarity_score": 1.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_VERBATIM",
+        "diagnostic": "Problem 6.196 verified on pages [263..264] (num_present=True, word_ratio=1.00)."
+      },
+      {
+        "problem_id": "prob-irodov-3-096",
+        "source_id": "src-problems-in-general-phys-6cf0b2b7",
+        "page": 113,
+        "printed_problem_number": "3.96",
+        "match_result": "EXACT_MATCH",
+        "similarity_score": 1.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_VERBATIM",
+        "diagnostic": "Problem 3.96 verified on pages [113..114] (num_present=True, word_ratio=1.00)."
+      },
+      {
+        "problem_id": "prob-irodov-4-130",
+        "source_id": "src-problems-in-general-phys-6cf0b2b7",
+        "page": 181,
+        "printed_problem_number": "4.130",
+        "match_result": "EXACT_MATCH",
+        "similarity_score": 1.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_VERBATIM",
+        "diagnostic": "Problem 4.130 verified on pages [181..182] (num_present=True, word_ratio=1.00)."
+      },
+      {
+        "problem_id": "prob-irodov-2-006",
+        "source_id": "src-problems-in-general-phys-6cf0b2b7",
+        "page": 72,
+        "printed_problem_number": "2.6",
+        "match_result": "EXACT_MATCH",
+        "similarity_score": 1.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_VERBATIM",
+        "diagnostic": "Problem 2.6 verified on pages [72..73] (num_present=True, word_ratio=1.00)."
+      },
+      {
+        "problem_id": "prob-irodov-5-166",
+        "source_id": "src-problems-in-general-phys-6cf0b2b7",
+        "page": 223,
+        "printed_problem_number": "5.166",
+        "match_result": "EXACT_MATCH",
+        "similarity_score": 1.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_VERBATIM",
+        "diagnostic": "Problem 5.166 verified on pages [223..224] (num_present=True, word_ratio=1.00)."
+      },
+      {
+        "problem_id": "prob-irodov-1-143",
+        "source_id": "src-problems-in-general-phys-6cf0b2b7",
+        "page": 33,
+        "printed_problem_number": "1.143",
+        "match_result": "EXACT_MATCH",
+        "similarity_score": 1.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_VERBATIM",
+        "diagnostic": "Problem 1.143 verified on pages [33..34] (num_present=True, word_ratio=0.90)."
+      },
+      {
+        "problem_id": "prob-irodov-1-094",
+        "source_id": "src-problems-in-general-phys-6cf0b2b7",
+        "page": 25,
+        "printed_problem_number": "1.94",
+        "match_result": "EXACT_MATCH",
+        "similarity_score": 1.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_VERBATIM",
+        "diagnostic": "Problem 1.94 verified on pages [25..26] (num_present=True, word_ratio=1.00)."
+      },
+      {
+        "problem_id": "prob-irodov-5-078",
+        "source_id": "src-problems-in-general-phys-6cf0b2b7",
+        "page": 209,
+        "printed_problem_number": "5.78",
+        "match_result": "EXACT_MATCH",
+        "similarity_score": 1.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_VERBATIM",
+        "diagnostic": "Problem 5.78 verified on pages [209..210] (num_present=True, word_ratio=1.00)."
+      },
+      {
+        "problem_id": "prob-irodov-2-079",
+        "source_id": "src-problems-in-general-phys-6cf0b2b7",
+        "page": 81,
+        "printed_problem_number": "2.79",
+        "match_result": "EXACT_MATCH",
+        "similarity_score": 1.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_VERBATIM",
+        "diagnostic": "Problem 2.79 verified on pages [81..82] (num_present=True, word_ratio=1.00)."
+      },
+      {
+        "problem_id": "prob-irodov-6-015",
+        "source_id": "src-problems-in-general-phys-6cf0b2b7",
+        "page": 243,
+        "printed_problem_number": "6.15",
+        "match_result": "EXACT_MATCH",
+        "similarity_score": 1.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_VERBATIM",
+        "diagnostic": "Problem 6.15 verified on pages [243..244] (num_present=True, word_ratio=1.00)."
+      },
+      {
+        "problem_id": "prob-irodov-2-205",
+        "source_id": "src-problems-in-general-phys-6cf0b2b7",
+        "page": 94,
+        "printed_problem_number": "2.205",
+        "match_result": "EXACT_MATCH",
+        "similarity_score": 1.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_VERBATIM",
+        "diagnostic": "Problem 2.205 verified on pages [94..95] (num_present=True, word_ratio=1.00)."
+      },
+      {
+        "problem_id": "prob-irodov-1-164",
+        "source_id": "src-problems-in-general-phys-6cf0b2b7",
+        "page": 37,
+        "printed_problem_number": "1.164",
+        "match_result": "EXACT_MATCH",
+        "similarity_score": 1.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_VERBATIM",
+        "diagnostic": "Problem 1.164 verified on pages [37..38] (num_present=True, word_ratio=0.90)."
+      },
+      {
+        "problem_id": "prob-irodov-6-183",
+        "source_id": "src-problems-in-general-phys-6cf0b2b7",
+        "page": 262,
+        "printed_problem_number": "6.183",
+        "match_result": "EXACT_MATCH",
+        "similarity_score": 1.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_VERBATIM",
+        "diagnostic": "Problem 6.183 verified on pages [262..263] (num_present=True, word_ratio=1.00)."
+      },
+      {
+        "problem_id": "prob-irodov-2-089",
+        "source_id": "src-problems-in-general-phys-6cf0b2b7",
+        "page": 81,
+        "printed_problem_number": "2.89",
+        "match_result": "EXACT_MATCH",
+        "similarity_score": 1.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_VERBATIM",
+        "diagnostic": "Problem 2.89 verified on pages [81..82] (num_present=True, word_ratio=1.00)."
+      },
+      {
+        "problem_id": "prob-irodov-6-206",
+        "source_id": "src-problems-in-general-phys-6cf0b2b7",
+        "page": 264,
+        "printed_problem_number": "6.206",
+        "match_result": "EXACT_MATCH",
+        "similarity_score": 1.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_VERBATIM",
+        "diagnostic": "Problem 6.206 verified on pages [264..265] (num_present=True, word_ratio=1.00)."
+      },
+      {
+        "problem_id": "prob-irodov-1-207",
+        "source_id": "src-problems-in-general-phys-6cf0b2b7",
+        "page": 43,
+        "printed_problem_number": "1.207",
+        "match_result": "EXACT_MATCH",
+        "similarity_score": 1.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_VERBATIM",
+        "diagnostic": "Problem 1.207 verified on pages [43..44] (num_present=True, word_ratio=1.00)."
+      },
+      {
+        "problem_id": "prob-irodov-3-133",
+        "source_id": "src-problems-in-general-phys-6cf0b2b7",
+        "page": 119,
+        "printed_problem_number": "3.133",
+        "match_result": "EXACT_MATCH",
+        "similarity_score": 1.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_VERBATIM",
+        "diagnostic": "Problem 3.133 verified on pages [119..120] (num_present=True, word_ratio=1.00)."
+      },
+      {
+        "problem_id": "prob-irodov-2-182",
+        "source_id": "src-problems-in-general-phys-6cf0b2b7",
+        "page": 92,
+        "printed_problem_number": "2.182",
+        "match_result": "EXACT_MATCH",
+        "similarity_score": 1.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_VERBATIM",
+        "diagnostic": "Problem 2.182 verified on pages [92..93] (num_present=True, word_ratio=0.90)."
+      },
+      {
+        "problem_id": "prob-irodov-3-283",
+        "source_id": "src-problems-in-general-phys-6cf0b2b7",
+        "page": 142,
+        "printed_problem_number": "3.283",
+        "match_result": "EXACT_MATCH",
+        "similarity_score": 1.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_VERBATIM",
+        "diagnostic": "Problem 3.283 verified on pages [142..143] (num_present=True, word_ratio=1.00)."
+      },
+      {
+        "problem_id": "prob-irodov-5-025",
+        "source_id": "src-problems-in-general-phys-6cf0b2b7",
+        "page": 199,
+        "printed_problem_number": "5.25",
+        "match_result": "EXACT_MATCH",
+        "similarity_score": 1.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_VERBATIM",
+        "diagnostic": "Problem 5.25 verified on pages [199..200] (num_present=True, word_ratio=1.00)."
+      },
+      {
+        "problem_id": "prob-irodov-6-140",
+        "source_id": "src-problems-in-general-phys-6cf0b2b7",
+        "page": 257,
+        "printed_problem_number": "6.140",
+        "match_result": "EXACT_MATCH",
+        "similarity_score": 1.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_VERBATIM",
+        "diagnostic": "Problem 6.140 verified on pages [257..258] (num_present=True, word_ratio=1.00)."
+      },
+      {
+        "problem_id": "prob-irodov-3-103",
+        "source_id": "src-problems-in-general-phys-6cf0b2b7",
+        "page": 114,
+        "printed_problem_number": "3.103",
+        "match_result": "EXACT_MATCH",
+        "similarity_score": 1.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_VERBATIM",
+        "diagnostic": "Problem 3.103 verified on pages [114..115] (num_present=True, word_ratio=1.00)."
+      },
+      {
+        "problem_id": "prob-irodov-1-334",
+        "source_id": "src-problems-in-general-phys-6cf0b2b7",
+        "page": 63,
+        "printed_problem_number": "1.334",
+        "match_result": "EXACT_MATCH",
+        "similarity_score": 1.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_VERBATIM",
+        "diagnostic": "Problem 1.334 verified on pages [63..64] (num_present=True, word_ratio=1.00)."
+      },
+      {
+        "problem_id": "prob-irodov-3-114",
+        "source_id": "src-problems-in-general-phys-6cf0b2b7",
+        "page": 116,
+        "printed_problem_number": "3.114",
+        "match_result": "EXACT_MATCH",
+        "similarity_score": 1.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_VERBATIM",
+        "diagnostic": "Problem 3.114 verified on pages [116..117] (num_present=True, word_ratio=1.00)."
+      },
+      {
+        "problem_id": "prob-irodov-3-083",
+        "source_id": "src-problems-in-general-phys-6cf0b2b7",
+        "page": 111,
+        "printed_problem_number": "3.83",
+        "match_result": "EXACT_MATCH",
+        "similarity_score": 1.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_VERBATIM",
+        "diagnostic": "Problem 3.83 verified on pages [111..112] (num_present=True, word_ratio=1.00)."
+      },
+      {
+        "problem_id": "prob-irodov-2-042",
+        "source_id": "src-problems-in-general-phys-6cf0b2b7",
+        "page": 76,
+        "printed_problem_number": "2.42",
+        "match_result": "EXACT_MATCH",
+        "similarity_score": 1.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_VERBATIM",
+        "diagnostic": "Problem 2.42 verified on pages [76..77] (num_present=True, word_ratio=1.00)."
+      },
+      {
+        "problem_id": "prob-irodov-5-096",
+        "source_id": "src-problems-in-general-phys-6cf0b2b7",
+        "page": 211,
+        "printed_problem_number": "5.96",
+        "match_result": "EXACT_MATCH",
+        "similarity_score": 1.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_VERBATIM",
+        "diagnostic": "Problem 5.96 verified on pages [211..212] (num_present=True, word_ratio=1.00)."
+      },
+      {
+        "problem_id": "prob-irodov-2-159",
+        "source_id": "src-problems-in-general-phys-6cf0b2b7",
+        "page": 89,
+        "printed_problem_number": "2.159",
+        "match_result": "EXACT_MATCH",
+        "similarity_score": 1.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_VERBATIM",
+        "diagnostic": "Problem 2.159 verified on pages [89..90] (num_present=True, word_ratio=1.00)."
+      },
+      {
+        "problem_id": "prob-irodov-5-161",
+        "source_id": "src-problems-in-general-phys-6cf0b2b7",
+        "page": 223,
+        "printed_problem_number": "5.161",
+        "match_result": "EXACT_MATCH",
+        "similarity_score": 1.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_VERBATIM",
+        "diagnostic": "Problem 5.161 verified on pages [223..224] (num_present=True, word_ratio=1.00)."
+      },
+      {
+        "problem_id": "prob-irodov-5-123",
+        "source_id": "src-problems-in-general-phys-6cf0b2b7",
+        "page": 217,
+        "printed_problem_number": "5.123",
+        "match_result": "EXACT_MATCH",
+        "similarity_score": 1.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_VERBATIM",
+        "diagnostic": "Problem 5.123 verified on pages [217..218] (num_present=True, word_ratio=1.00)."
+      },
+      {
+        "problem_id": "prob-irodov-5-051",
+        "source_id": "src-problems-in-general-phys-6cf0b2b7",
+        "page": 203,
+        "printed_problem_number": "5.51",
+        "match_result": "EXACT_MATCH",
+        "similarity_score": 1.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_VERBATIM",
+        "diagnostic": "Problem 5.51 verified on pages [203..204] (num_present=True, word_ratio=1.00)."
+      },
+      {
+        "problem_id": "prob-irodov-1-147",
+        "source_id": "src-problems-in-general-phys-6cf0b2b7",
+        "page": 34,
+        "printed_problem_number": "1.147",
+        "match_result": "EXACT_MATCH",
+        "similarity_score": 1.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_VERBATIM",
+        "diagnostic": "Problem 1.147 verified on pages [34..35] (num_present=True, word_ratio=1.00)."
+      },
+      {
+        "problem_id": "prob-irodov-4-195",
+        "source_id": "src-problems-in-general-phys-6cf0b2b7",
+        "page": 191,
+        "printed_problem_number": "4.195",
+        "match_result": "EXACT_MATCH",
+        "similarity_score": 1.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_VERBATIM",
+        "diagnostic": "Problem 4.195 verified on pages [191..192] (num_present=True, word_ratio=1.00)."
+      },
+      {
+        "problem_id": "prob-irodov-5-024",
+        "source_id": "src-problems-in-general-phys-6cf0b2b7",
+        "page": 199,
+        "printed_problem_number": "5.24",
+        "match_result": "EXACT_MATCH",
+        "similarity_score": 1.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_VERBATIM",
+        "diagnostic": "Problem 5.24 verified on pages [199..200] (num_present=True, word_ratio=1.00)."
+      },
+      {
+        "problem_id": "prob-irodov-1-351",
+        "source_id": "src-problems-in-general-phys-6cf0b2b7",
+        "page": 66,
+        "printed_problem_number": "1.351",
+        "match_result": "EXACT_MATCH",
+        "similarity_score": 1.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_VERBATIM",
+        "diagnostic": "Problem 1.351 verified on pages [66..67] (num_present=True, word_ratio=1.00)."
+      },
+      {
+        "problem_id": "prob-irodov-4-041",
+        "source_id": "src-problems-in-general-phys-6cf0b2b7",
+        "page": 168,
+        "printed_problem_number": "4.41",
+        "match_result": "EXACT_MATCH",
+        "similarity_score": 1.0,
+        "passed": true,
+        "fidelity_class": "SOURCE_VERBATIM",
+        "diagnostic": "Problem 4.41 verified on pages [168..169] (num_present=True, word_ratio=1.00)."
+      }
+    ],
+    "mock_questions": [
+      {
+        "mock_question_id": "mock-q-m3-02",
+        "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+        "page": 1,
+        "question_number": 2,
+        "match_result": "EXACT_MATCH",
+        "passed": true,
+        "fidelity_class": "SOURCE_VERBATIM",
+        "diagnostic": "Verbatim substring match confirmed in source page text."
+      },
+      {
+        "mock_question_id": "mock-q-m2-21",
+        "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+        "page": 5,
+        "question_number": 21,
+        "match_result": "EXACT_MATCH",
+        "passed": true,
+        "fidelity_class": "SOURCE_VERBATIM",
+        "diagnostic": "Verbatim substring match confirmed in source page text."
+      },
+      {
+        "mock_question_id": "mock-q-m3-30",
+        "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+        "page": 7,
+        "question_number": 30,
+        "match_result": "EXACT_MATCH",
+        "passed": true,
+        "fidelity_class": "SOURCE_VERBATIM",
+        "diagnostic": "Verbatim substring match confirmed in source page text."
+      },
+      {
+        "mock_question_id": "mock-q-m3-19",
+        "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+        "page": 5,
+        "question_number": 19,
+        "match_result": "EXACT_MATCH",
+        "passed": true,
+        "fidelity_class": "SOURCE_VERBATIM",
+        "diagnostic": "Verbatim substring match confirmed in source page text."
+      },
+      {
+        "mock_question_id": "mock-q-m3-05",
+        "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+        "page": 2,
+        "question_number": 5,
+        "match_result": "EXACT_MATCH",
+        "passed": true,
+        "fidelity_class": "SOURCE_VERBATIM",
+        "diagnostic": "Verbatim substring match confirmed in source page text."
+      },
+      {
+        "mock_question_id": "mock-q-m1-22",
+        "source_id": "src-jee-main-mock-test-01-20-222525c1",
+        "page": 3,
+        "question_number": 22,
+        "match_result": "VISUAL_ONLY",
+        "passed": true,
+        "fidelity_class": "SOURCE_VISUAL",
+        "diagnostic": "Mock 1 question 22 on page 3 verified via vector scan render stream."
+      },
+      {
+        "mock_question_id": "mock-q-m1-12",
+        "source_id": "src-jee-main-mock-test-01-20-222525c1",
+        "page": 2,
+        "question_number": 12,
+        "match_result": "VISUAL_ONLY",
+        "passed": true,
+        "fidelity_class": "SOURCE_VISUAL",
+        "diagnostic": "Mock 1 question 12 on page 2 verified via vector scan render stream."
+      },
+      {
+        "mock_question_id": "mock-q-m2-29",
+        "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+        "page": 5,
+        "question_number": 29,
+        "match_result": "EXACT_MATCH",
+        "passed": true,
+        "fidelity_class": "SOURCE_VERBATIM",
+        "diagnostic": "Verbatim substring match confirmed in source page text."
+      },
+      {
+        "mock_question_id": "mock-q-m3-12",
+        "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+        "page": 4,
+        "question_number": 12,
+        "match_result": "EXACT_MATCH",
+        "passed": true,
+        "fidelity_class": "SOURCE_VERBATIM",
+        "diagnostic": "Verbatim substring match confirmed in source page text."
+      },
+      {
+        "mock_question_id": "mock-q-m2-08",
+        "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+        "page": 2,
+        "question_number": 8,
+        "match_result": "EXACT_MATCH",
+        "passed": true,
+        "fidelity_class": "SOURCE_VERBATIM",
+        "diagnostic": "Verbatim substring match confirmed in source page text."
+      },
+      {
+        "mock_question_id": "mock-q-m2-30",
+        "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+        "page": 5,
+        "question_number": 30,
+        "match_result": "EXACT_MATCH",
+        "passed": true,
+        "fidelity_class": "SOURCE_VERBATIM",
+        "diagnostic": "Verbatim substring match confirmed in source page text."
+      },
+      {
+        "mock_question_id": "mock-q-m2-05",
+        "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+        "page": 2,
+        "question_number": 5,
+        "match_result": "EXACT_MATCH",
+        "passed": true,
+        "fidelity_class": "SOURCE_VERBATIM",
+        "diagnostic": "Verbatim substring match confirmed in source page text."
+      },
+      {
+        "mock_question_id": "mock-q-m3-11",
+        "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+        "page": 3,
+        "question_number": 11,
+        "match_result": "EXACT_MATCH",
+        "passed": true,
+        "fidelity_class": "SOURCE_VERBATIM",
+        "diagnostic": "Verbatim substring match confirmed in source page text."
+      },
+      {
+        "mock_question_id": "mock-q-m3-22",
+        "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+        "page": 5,
+        "question_number": 22,
+        "match_result": "EXACT_MATCH",
+        "passed": true,
+        "fidelity_class": "SOURCE_VERBATIM",
+        "diagnostic": "Verbatim substring match confirmed in source page text."
+      },
+      {
+        "mock_question_id": "mock-q-m1-26",
+        "source_id": "src-jee-main-mock-test-01-20-222525c1",
+        "page": 4,
+        "question_number": 26,
+        "match_result": "VISUAL_ONLY",
+        "passed": true,
+        "fidelity_class": "SOURCE_VISUAL",
+        "diagnostic": "Mock 1 question 26 on page 4 verified via vector scan render stream."
+      },
+      {
+        "mock_question_id": "mock-q-m2-09",
+        "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+        "page": 2,
+        "question_number": 9,
+        "match_result": "EXACT_MATCH",
+        "passed": true,
+        "fidelity_class": "SOURCE_VERBATIM",
+        "diagnostic": "Verbatim substring match confirmed in source page text."
+      },
+      {
+        "mock_question_id": "mock-q-m2-28",
+        "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+        "page": 5,
+        "question_number": 28,
+        "match_result": "EXACT_MATCH",
+        "passed": true,
+        "fidelity_class": "SOURCE_VERBATIM",
+        "diagnostic": "Verbatim substring match confirmed in source page text."
+      },
+      {
+        "mock_question_id": "mock-q-m1-13",
+        "source_id": "src-jee-main-mock-test-01-20-222525c1",
+        "page": 2,
+        "question_number": 13,
+        "match_result": "VISUAL_ONLY",
+        "passed": true,
+        "fidelity_class": "SOURCE_VISUAL",
+        "diagnostic": "Mock 1 question 13 on page 2 verified via vector scan render stream."
+      },
+      {
+        "mock_question_id": "mock-q-m1-18",
+        "source_id": "src-jee-main-mock-test-01-20-222525c1",
+        "page": 3,
+        "question_number": 18,
+        "match_result": "VISUAL_ONLY",
+        "passed": true,
+        "fidelity_class": "SOURCE_VISUAL",
+        "diagnostic": "Mock 1 question 18 on page 3 verified via vector scan render stream."
+      },
+      {
+        "mock_question_id": "mock-q-m1-14",
+        "source_id": "src-jee-main-mock-test-01-20-222525c1",
+        "page": 2,
+        "question_number": 14,
+        "match_result": "VISUAL_ONLY",
+        "passed": true,
+        "fidelity_class": "SOURCE_VISUAL",
+        "diagnostic": "Mock 1 question 14 on page 2 verified via vector scan render stream."
+      },
+      {
+        "mock_question_id": "mock-q-m1-04",
+        "source_id": "src-jee-main-mock-test-01-20-222525c1",
+        "page": 1,
+        "question_number": 4,
+        "match_result": "VISUAL_ONLY",
+        "passed": true,
+        "fidelity_class": "SOURCE_VISUAL",
+        "diagnostic": "Mock 1 question 4 on page 1 verified via vector scan render stream."
+      },
+      {
+        "mock_question_id": "mock-q-m3-21",
+        "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+        "page": 5,
+        "question_number": 21,
+        "match_result": "EXACT_MATCH",
+        "passed": true,
+        "fidelity_class": "SOURCE_VERBATIM",
+        "diagnostic": "Verbatim substring match confirmed in source page text."
+      },
+      {
+        "mock_question_id": "mock-q-m3-29",
+        "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+        "page": 6,
+        "question_number": 29,
+        "match_result": "EXACT_MATCH",
+        "passed": true,
+        "fidelity_class": "SOURCE_VERBATIM",
+        "diagnostic": "Verbatim substring match confirmed in source page text."
+      },
+      {
+        "mock_question_id": "mock-q-m2-19",
+        "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+        "page": 4,
+        "question_number": 19,
+        "match_result": "EXACT_MATCH",
+        "passed": true,
+        "fidelity_class": "SOURCE_VERBATIM",
+        "diagnostic": "Verbatim substring match confirmed in source page text."
+      },
+      {
+        "mock_question_id": "mock-q-m3-04",
+        "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+        "page": 2,
+        "question_number": 4,
+        "match_result": "EXACT_MATCH",
+        "passed": true,
+        "fidelity_class": "SOURCE_VERBATIM",
+        "diagnostic": "Verbatim substring match confirmed in source page text."
+      },
+      {
+        "mock_question_id": "mock-q-m2-18",
+        "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+        "page": 4,
+        "question_number": 18,
+        "match_result": "EXACT_MATCH",
+        "passed": true,
+        "fidelity_class": "SOURCE_VERBATIM",
+        "diagnostic": "Verbatim substring match confirmed in source page text."
+      },
+      {
+        "mock_question_id": "mock-q-m1-30",
+        "source_id": "src-jee-main-mock-test-01-20-222525c1",
+        "page": 4,
+        "question_number": 30,
+        "match_result": "VISUAL_ONLY",
+        "passed": true,
+        "fidelity_class": "SOURCE_VISUAL",
+        "diagnostic": "Mock 1 question 30 on page 4 verified via vector scan render stream."
+      },
+      {
+        "mock_question_id": "mock-q-m3-18",
+        "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+        "page": 5,
+        "question_number": 18,
+        "match_result": "EXACT_MATCH",
+        "passed": true,
+        "fidelity_class": "SOURCE_VERBATIM",
+        "diagnostic": "Verbatim substring match confirmed in source page text."
+      },
+      {
+        "mock_question_id": "mock-q-m3-06",
+        "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+        "page": 2,
+        "question_number": 6,
+        "match_result": "EXACT_MATCH",
+        "passed": true,
+        "fidelity_class": "SOURCE_VERBATIM",
+        "diagnostic": "Verbatim substring match confirmed in source page text."
+      },
+      {
+        "mock_question_id": "mock-q-m1-16",
+        "source_id": "src-jee-main-mock-test-01-20-222525c1",
+        "page": 3,
+        "question_number": 16,
+        "match_result": "VISUAL_ONLY",
+        "passed": true,
+        "fidelity_class": "SOURCE_VISUAL",
+        "diagnostic": "Mock 1 question 16 on page 3 verified via vector scan render stream."
+      }
+    ],
+    "figures": [
+      {
+        "figure_id": "fig-evid-parallel-axis-hcv1",
+        "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+        "page": 185,
+        "caption": "Figure 10.12: Coordinate geometry for the proof of Parallel Axis Theorem.",
+        "match_result": "EXACT_MATCH",
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Figure fig-evid-parallel-axis-hcv1 located on physical PDF page 185."
+      },
+      {
+        "figure_id": "fig-evid-pv-adiabatic-halliday",
+        "source_id": "src-fundamentals-of-physics--390f40d1",
+        "page": 560,
+        "caption": "Figure 19-15: P-V diagram comparing reversible adiabatic curves (steeper slope) with isotherms.",
+        "match_result": "EXACT_MATCH",
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Figure fig-evid-pv-adiabatic-halliday located on physical PDF page 560."
+      },
+      {
+        "figure_id": "fig-evid-porro-prism-hcv1",
+        "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+        "page": 384,
+        "caption": "Figure 18.9: Total internal reflection inside a 45-90-45 Porro prism turning light by 90 degrees.",
+        "match_result": "EXACT_MATCH",
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Figure fig-evid-porro-prism-hcv1 located on physical PDF page 384."
+      },
+      {
+        "figure_id": "fig-evid-drift-cylinder-hcv2",
+        "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+        "page": 188,
+        "caption": "Figure 32.2: Cylindrical volume element A v_d dt traversed by conduction electrons.",
+        "match_result": "EXACT_MATCH",
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Figure fig-evid-drift-cylinder-hcv2 located on physical PDF page 188."
+      },
+      {
+        "figure_id": "fig-hcv1-p380-snell-prism",
+        "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+        "page": 380,
+        "caption": "Ray refraction through triangular glass prism with angle of incidence i and emergence e",
+        "match_result": "EXACT_MATCH",
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Figure fig-hcv1-p380-snell-prism located on physical PDF page 380."
+      },
+      {
+        "figure_id": "fig-hcv1-p395-lens-conjugate",
+        "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+        "page": 395,
+        "caption": "Conjugate foci and ray geometry for convex thin lens",
+        "match_result": "EXACT_MATCH",
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Figure fig-hcv1-p395-lens-conjugate located on physical PDF page 395."
+      },
+      {
+        "figure_id": "fig-hcv2-p145-gauss-sphere",
+        "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+        "page": 145,
+        "caption": "Spherical Gaussian surface enclosing uniform volume charge density",
+        "match_result": "EXACT_MATCH",
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Figure fig-hcv2-p145-gauss-sphere located on physical PDF page 145."
+      },
+      {
+        "figure_id": "fig-hcv2-p170-parallel-plate",
+        "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+        "page": 170,
+        "caption": "Parallel plate capacitor with dielectric boundary polarization charges",
+        "match_result": "EXACT_MATCH",
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Figure fig-hcv2-p170-parallel-plate located on physical PDF page 170."
+      },
+      {
+        "figure_id": "fig-hcv2-p250-biot-savart-loop",
+        "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+        "page": 250,
+        "caption": "Circular current loop magnetic field along axial line",
+        "match_result": "EXACT_MATCH",
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Figure fig-hcv2-p250-biot-savart-loop located on physical PDF page 250."
+      },
+      {
+        "figure_id": "fig-halliday-p120-fbd-incline",
+        "source_id": "src-fundamentals-of-physics--390f40d1",
+        "page": 120,
+        "caption": "Free body diagram of block on rough inclined plane with normal and friction vectors",
+        "match_result": "EXACT_MATCH",
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Figure fig-halliday-p120-fbd-incline located on physical PDF page 120."
+      },
+      {
+        "figure_id": "fig-halliday-p335-rolling-disc",
+        "source_id": "src-fundamentals-of-physics--390f40d1",
+        "page": 335,
+        "caption": "Kinematic rolling wheel velocity vector superposition: translation + rotation",
+        "match_result": "EXACT_MATCH",
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Figure fig-halliday-p335-rolling-disc located on physical PDF page 335."
+      },
+      {
+        "figure_id": "fig-up-p355-torque-vector",
+        "source_id": "src-university-physics-with--0bc11b67",
+        "page": 355,
+        "caption": "Right hand rule vector cross product r x F producing perpendicular torque",
+        "match_result": "EXACT_MATCH",
+        "passed": true,
+        "fidelity_class": "SOURCE_DERIVED",
+        "diagnostic": "Figure fig-up-p355-torque-vector located on physical PDF page 355."
+      }
+    ]
+  }
+}

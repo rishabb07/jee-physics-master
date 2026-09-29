@@ -1,0 +1,617 @@
+{
+  "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+  "file_name": "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+  "segmentation_type": "DETERMINISTIC_PAGE_SEGMENT",
+  "total_segments": 27,
+  "segments": [
+    {
+      "segment_id": "seg-src-concepts-of-physics-by-h-1fd380f4-001",
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 1,
+      "page_end": 15,
+      "segment_title": "Front Matter & Preface",
+      "segment_summary": "Pages 1-15 of concepts_of_physics_by_h.c._verma_volume_2.pdf (Front Matter & Preface)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXCLUDED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "NON_CONTENT",
+        "content_types": [
+          "OTHER"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-concepts-of-physics-by-h-1fd380f4-002",
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 16,
+      "page_end": 29,
+      "segment_title": "Chapter 23: Heat and Temperature",
+      "segment_summary": "Pages 16-29 of concepts_of_physics_by_h.c._verma_volume_2.pdf (Chapter 23: Heat and Temperature)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "LAW",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-concepts-of-physics-by-h-1fd380f4-003",
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 30,
+      "page_end": 53,
+      "segment_title": "Chapter 24: Kinetic Theory of Gases",
+      "segment_summary": "Pages 30-53 of concepts_of_physics_by_h.c._verma_volume_2.pdf (Chapter 24: Kinetic Theory of Gases)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "LAW",
+          "DERIVATION",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-concepts-of-physics-by-h-1fd380f4-004",
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 54,
+      "page_end": 63,
+      "segment_title": "Chapter 25: Calorimetry",
+      "segment_summary": "Pages 54-63 of concepts_of_physics_by_h.c._verma_volume_2.pdf (Chapter 25: Calorimetry)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "PRINCIPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-concepts-of-physics-by-h-1fd380f4-005",
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 64,
+      "page_end": 79,
+      "segment_title": "Chapter 26: Laws of Thermodynamics",
+      "segment_summary": "Pages 64-79 of concepts_of_physics_by_h.c._verma_volume_2.pdf (Chapter 26: Laws of Thermodynamics)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "LAW",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-concepts-of-physics-by-h-1fd380f4-006",
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 80,
+      "page_end": 95,
+      "segment_title": "Chapter 27: Specific Heat Capacities of Gases",
+      "segment_summary": "Pages 80-95 of concepts_of_physics_by_h.c._verma_volume_2.pdf (Chapter 27: Specific Heat Capacities of Gases)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-concepts-of-physics-by-h-1fd380f4-007",
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 96,
+      "page_end": 118,
+      "segment_title": "Chapter 28: Heat Transfer",
+      "segment_summary": "Pages 96-118 of concepts_of_physics_by_h.c._verma_volume_2.pdf (Chapter 28: Heat Transfer)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "LAW",
+          "DERIVATION",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-concepts-of-physics-by-h-1fd380f4-008",
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 119,
+      "page_end": 141,
+      "segment_title": "Chapter 29: Electric Field and Potential",
+      "segment_summary": "Pages 119-141 of concepts_of_physics_by_h.c._verma_volume_2.pdf (Chapter 29: Electric Field and Potential)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "LAW",
+          "DERIVATION",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-concepts-of-physics-by-h-1fd380f4-009",
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 142,
+      "page_end": 158,
+      "segment_title": "Chapter 30: Gauss's Law",
+      "segment_summary": "Pages 142-158 of concepts_of_physics_by_h.c._verma_volume_2.pdf (Chapter 30: Gauss's Law)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "LAW",
+          "DERIVATION",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-concepts-of-physics-by-h-1fd380f4-010",
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 159,
+      "page_end": 186,
+      "segment_title": "Chapter 31: Capacitors",
+      "segment_summary": "Pages 159-186 of concepts_of_physics_by_h.c._verma_volume_2.pdf (Chapter 31: Capacitors)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-concepts-of-physics-by-h-1fd380f4-011",
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 187,
+      "page_end": 220,
+      "segment_title": "Chapter 32: Electric Current in Conductors",
+      "segment_summary": "Pages 187-220 of concepts_of_physics_by_h.c._verma_volume_2.pdf (Chapter 32: Electric Current in Conductors)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "LAW",
+          "FORMULA",
+          "DERIVATION",
+          "EXAMPLE",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-concepts-of-physics-by-h-1fd380f4-012",
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 221,
+      "page_end": 229,
+      "segment_title": "Chapter 33: Thermal and Chemical Effects of Electric Current",
+      "segment_summary": "Pages 221-229 of concepts_of_physics_by_h.c._verma_volume_2.pdf (Chapter 33: Thermal and Chemical Effects of Electric Current)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "LAW",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-concepts-of-physics-by-h-1fd380f4-013",
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 230,
+      "page_end": 245,
+      "segment_title": "Chapter 34: Magnetic Field",
+      "segment_summary": "Pages 230-245 of concepts_of_physics_by_h.c._verma_volume_2.pdf (Chapter 34: Magnetic Field)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "LAW",
+          "DERIVATION",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-concepts-of-physics-by-h-1fd380f4-014",
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 246,
+      "page_end": 270,
+      "segment_title": "Chapter 35: Magnetic Field due to a Current",
+      "segment_summary": "Pages 246-270 of concepts_of_physics_by_h.c._verma_volume_2.pdf (Chapter 35: Magnetic Field due to a Current)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "LAW",
+          "DERIVATION",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-concepts-of-physics-by-h-1fd380f4-015",
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 271,
+      "page_end": 281,
+      "segment_title": "Chapter 36: Permanent Magnets",
+      "segment_summary": "Pages 271-281 of concepts_of_physics_by_h.c._verma_volume_2.pdf (Chapter 36: Permanent Magnets)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "DEFINITION",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-concepts-of-physics-by-h-1fd380f4-016",
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 282,
+      "page_end": 298,
+      "segment_title": "Chapter 37: Magnetic Properties of Matter",
+      "segment_summary": "Pages 282-298 of concepts_of_physics_by_h.c._verma_volume_2.pdf (Chapter 37: Magnetic Properties of Matter)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "DEFINITION",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-concepts-of-physics-by-h-1fd380f4-017",
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 299,
+      "page_end": 330,
+      "segment_title": "Chapter 38: Electromagnetic Induction",
+      "segment_summary": "Pages 299-330 of concepts_of_physics_by_h.c._verma_volume_2.pdf (Chapter 38: Electromagnetic Induction)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "LAW",
+          "DERIVATION",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-concepts-of-physics-by-h-1fd380f4-018",
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 331,
+      "page_end": 346,
+      "segment_title": "Chapter 39: Alternating Current",
+      "segment_summary": "Pages 331-346 of concepts_of_physics_by_h.c._verma_volume_2.pdf (Chapter 39: Alternating Current)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "FORMULA",
+          "DERIVATION",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-concepts-of-physics-by-h-1fd380f4-019",
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 347,
+      "page_end": 355,
+      "segment_title": "Chapter 40: Electromagnetic Waves",
+      "segment_summary": "Pages 347-355 of concepts_of_physics_by_h.c._verma_volume_2.pdf (Chapter 40: Electromagnetic Waves)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "LAW",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-concepts-of-physics-by-h-1fd380f4-020",
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 356,
+      "page_end": 369,
+      "segment_title": "Chapter 41: Electric Current through Gases",
+      "segment_summary": "Pages 356-369 of concepts_of_physics_by_h.c._verma_volume_2.pdf (Chapter 41: Electric Current through Gases)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "EXPERIMENT_OBSERVATION",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-concepts-of-physics-by-h-1fd380f4-021",
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 370,
+      "page_end": 382,
+      "segment_title": "Chapter 42: Photoelectric Effect and Wave-Particle Duality",
+      "segment_summary": "Pages 370-382 of concepts_of_physics_by_h.c._verma_volume_2.pdf (Chapter 42: Photoelectric Effect and Wave-Particle Duality)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "EXPERIMENT_OBSERVATION",
+          "FORMULA",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-concepts-of-physics-by-h-1fd380f4-022",
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 383,
+      "page_end": 402,
+      "segment_title": "Chapter 43: Bohr's Model and Physics of the Atom",
+      "segment_summary": "Pages 383-402 of concepts_of_physics_by_h.c._verma_volume_2.pdf (Chapter 43: Bohr's Model and Physics of the Atom)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "DERIVATION",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-concepts-of-physics-by-h-1fd380f4-023",
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 403,
+      "page_end": 411,
+      "segment_title": "Chapter 44: X-rays",
+      "segment_summary": "Pages 403-411 of concepts_of_physics_by_h.c._verma_volume_2.pdf (Chapter 44: X-rays)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "LAW",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-concepts-of-physics-by-h-1fd380f4-024",
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 412,
+      "page_end": 436,
+      "segment_title": "Chapter 45: Semiconductors and Semiconductor Devices",
+      "segment_summary": "Pages 412-436 of concepts_of_physics_by_h.c._verma_volume_2.pdf (Chapter 45: Semiconductors and Semiconductor Devices)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "DEFINITION",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-concepts-of-physics-by-h-1fd380f4-025",
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 437,
+      "page_end": 460,
+      "segment_title": "Chapter 46: The Nucleus",
+      "segment_summary": "Pages 437-460 of concepts_of_physics_by_h.c._verma_volume_2.pdf (Chapter 46: The Nucleus)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "LAW",
+          "FORMULA",
+          "DERIVATION",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-concepts-of-physics-by-h-1fd380f4-026",
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 461,
+      "page_end": 475,
+      "segment_title": "Chapter 47: Special Theory of Relativity",
+      "segment_summary": "Pages 461-475 of concepts_of_physics_by_h.c._verma_volume_2.pdf (Chapter 47: Special Theory of Relativity)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXTRACTED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "PHYSICS",
+        "content_types": [
+          "CONCEPT",
+          "DERIVATION",
+          "PROBLEM"
+        ]
+      }
+    },
+    {
+      "segment_id": "seg-src-concepts-of-physics-by-h-1fd380f4-027",
+      "source_id": "src-concepts-of-physics-by-h-1fd380f4",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 476,
+      "page_end": 481,
+      "segment_title": "Appendix & Index",
+      "segment_summary": "Pages 476-481 of concepts_of_physics_by_h.c._verma_volume_2.pdf (Appendix & Index)",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "EXCLUDED",
+      "confidence": 1.0,
+      "metadata": {
+        "subject_type": "NON_CONTENT",
+        "content_types": [
+          "OTHER"
+        ]
+      }
+    }
+  ],
+  "created_at": "2026-09-29T16:20:11.996685Z"
+}

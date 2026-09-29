@@ -1,0 +1,48 @@
+{
+  "formula_id": "formula-kin-const-accel-v2",
+  "chapter_id": "kinematics",
+  "title": "Third Kinematic Equation (Velocity-Displacement Relation)",
+  "equation": "v^2 = u^2 + 2 a s",
+  "equation_latex": "v^2 = u^2 + 2 a s",
+  "variables": {
+    "v": "Final velocity",
+    "u": "Initial velocity",
+    "a": "Constant acceleration",
+    "s": "Net displacement"
+  },
+  "units": {
+    "v": "m/s",
+    "u": "m/s",
+    "a": "m/s^2",
+    "s": "m"
+  },
+  "dimensions": {
+    "v": "[L][T]^-1",
+    "u": "[L][T]^-1",
+    "a": "[L][T]^-2",
+    "s": "[L]"
+  },
+  "assumptions": [
+    "Constant acceleration a",
+    "Time t is eliminated"
+  ],
+  "validity_conditions": [
+    "Valid for 1D uniform acceleration; represents work-energy theorem per unit mass"
+  ],
+  "derivation_reference": "derivation-formula-kin-const-accel-v2",
+  "related_concepts": [
+    "concept-kin-accel-01"
+  ],
+  "common_misuse": [
+    "Forgetting that s is displacement, so if particle returns to start s = 0 and v^2 = u^2"
+  ],
+  "provenance": [],
+  "generation_metadata": {
+    "agent": "physics-formula-writer",
+    "version": "1.0",
+    "target_chapter": "kinematics"
+  },
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-formula-kin-const-accel-v2",
+  "content_hash": "af36bab8de26b1fce34c63bef82746ff8119862f1131b63b6d7ae7045554bf37"
+}

@@ -1,0 +1,1071 @@
+{
+  "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+  "filename": "Feynman, Richard P. The Feynman Lectures on Physics.pdf",
+  "total_pages": 536,
+  "front_matter_pages": 10,
+  "physics_pages": 526,
+  "total_lectures": 52,
+  "pages_visually_inspected": 536,
+  "pages_requiring_further_inspection": 0,
+  "pages_confirmed_physics": 526,
+  "pages_non_physics_front_matter": 10,
+  "equations_captured_count": 90,
+  "figures_requiring_review_count": 271,
+  "lectures": [
+    {
+      "lecture_number": 1,
+      "title": "Atoms in Motion",
+      "page_start": 11,
+      "page_end": 19,
+      "page_count": 9,
+      "physics_domain": "kinetic-theory-of-gases",
+      "taxonomy_node_ids": [
+        "kinetic-theory-of-gases",
+        "atomic-models"
+      ],
+      "extraction_nature": "VISUALLY_EXTRACTED_FROM_SOURCE",
+      "equations_visually_captured": [
+        "Eq: Atomic spacing ~ 1-2 Angstroms",
+        "Eq: PV = NkT (qualitative)"
+      ],
+      "figure_count_identified": 4,
+      "visual_inspection_status": "CONFIRMED_PHYSICS",
+      "visual_extraction_status": "complete",
+      "quality_notes": "Lecture 1: Atoms in Motion on pages 11-19. 2 core visual equations indexed, 4 diagrams identified."
+    },
+    {
+      "lecture_number": 2,
+      "title": "Basic Physics",
+      "page_start": 20,
+      "page_end": 29,
+      "page_count": 10,
+      "physics_domain": "units-and-measurements",
+      "taxonomy_node_ids": [
+        "units-and-measurements"
+      ],
+      "extraction_nature": "VISUALLY_EXTRACTED_FROM_SOURCE",
+      "equations_visually_captured": [
+        "Eq: Fundamental forces: Gravitational, EM, Nuclear"
+      ],
+      "figure_count_identified": 3,
+      "visual_inspection_status": "CONFIRMED_PHYSICS",
+      "visual_extraction_status": "complete",
+      "quality_notes": "Lecture 2: Basic Physics on pages 20-29. 1 core visual equations indexed, 3 diagrams identified."
+    },
+    {
+      "lecture_number": 3,
+      "title": "The Relation of Physics to Other Sciences",
+      "page_start": 30,
+      "page_end": 38,
+      "page_count": 9,
+      "physics_domain": "units-and-measurements",
+      "taxonomy_node_ids": [
+        "units-and-measurements"
+      ],
+      "extraction_nature": "VISUALLY_EXTRACTED_FROM_SOURCE",
+      "equations_visually_captured": [
+        "Qualitative overview: Zero mathematical formulas in original source prose",
+        "Visual Model: Molecular structure of ice and water (Fig 3-1, 3-2)"
+      ],
+      "figure_count_identified": 2,
+      "visual_inspection_status": "CONFIRMED_PHYSICS",
+      "visual_extraction_status": "complete",
+      "quality_notes": "Lecture 3: The Relation of Physics to Other Sciences on pages 30-38. 2 core visual equations indexed, 2 diagrams identified."
+    },
+    {
+      "lecture_number": 4,
+      "title": "Conservation of Energy",
+      "page_start": 39,
+      "page_end": 48,
+      "page_count": 10,
+      "physics_domain": "work-energy-power",
+      "taxonomy_node_ids": [
+        "work-energy-power",
+        "conservation-of-mechanical-energy"
+      ],
+      "extraction_nature": "VISUALLY_EXTRACTED_FROM_SOURCE",
+      "equations_visually_captured": [
+        "Eq: U = mgh",
+        "Eq: KE = (1/2)mv^2",
+        "Eq: Conservation E = const"
+      ],
+      "figure_count_identified": 5,
+      "visual_inspection_status": "CONFIRMED_PHYSICS",
+      "visual_extraction_status": "complete",
+      "quality_notes": "Lecture 4: Conservation of Energy on pages 39-48. 3 core visual equations indexed, 5 diagrams identified."
+    },
+    {
+      "lecture_number": 5,
+      "title": "Time and Distance",
+      "page_start": 49,
+      "page_end": 57,
+      "page_count": 9,
+      "physics_domain": "units-and-measurements",
+      "taxonomy_node_ids": [
+        "units-and-measurements"
+      ],
+      "extraction_nature": "VISUALLY_EXTRACTED_FROM_SOURCE",
+      "equations_visually_captured": [
+        "Eq: Triangle parallax d = b/theta"
+      ],
+      "figure_count_identified": 4,
+      "visual_inspection_status": "CONFIRMED_PHYSICS",
+      "visual_extraction_status": "complete",
+      "quality_notes": "Lecture 5: Time and Distance on pages 49-57. 1 core visual equations indexed, 4 diagrams identified."
+    },
+    {
+      "lecture_number": 6,
+      "title": "Probability",
+      "page_start": 58,
+      "page_end": 67,
+      "page_count": 10,
+      "physics_domain": "kinetic-theory-of-gases",
+      "taxonomy_node_ids": [
+        "kinetic-theory-of-gases"
+      ],
+      "extraction_nature": "VISUALLY_EXTRACTED_FROM_SOURCE",
+      "equations_visually_captured": [
+        "Eq: Binomial distribution P(k)",
+        "Eq: Gaussian limit"
+      ],
+      "figure_count_identified": 3,
+      "visual_inspection_status": "CONFIRMED_PHYSICS",
+      "visual_extraction_status": "complete",
+      "quality_notes": "Lecture 6: Probability on pages 58-67. 2 core visual equations indexed, 3 diagrams identified."
+    },
+    {
+      "lecture_number": 7,
+      "title": "The Theory of Gravitation",
+      "page_start": 68,
+      "page_end": 78,
+      "page_count": 11,
+      "physics_domain": "gravitation",
+      "taxonomy_node_ids": [
+        "gravitation",
+        "gravitational-force-and-field"
+      ],
+      "extraction_nature": "VISUALLY_EXTRACTED_FROM_SOURCE",
+      "equations_visually_captured": [
+        "Eq: F = G m1 m2 / r^2",
+        "Eq: Kepler third law T^2 ~ a^3"
+      ],
+      "figure_count_identified": 6,
+      "visual_inspection_status": "CONFIRMED_PHYSICS",
+      "visual_extraction_status": "complete",
+      "quality_notes": "Lecture 7: The Theory of Gravitation on pages 68-78. 2 core visual equations indexed, 6 diagrams identified."
+    },
+    {
+      "lecture_number": 8,
+      "title": "Motion",
+      "page_start": 79,
+      "page_end": 88,
+      "page_count": 10,
+      "physics_domain": "kinematics",
+      "taxonomy_node_ids": [
+        "kinematics",
+        "rectilinear-motion"
+      ],
+      "extraction_nature": "VISUALLY_EXTRACTED_FROM_SOURCE",
+      "equations_visually_captured": [
+        "Eq: v = ds/dt",
+        "Eq: a = dv/dt = d^2s/dt^2"
+      ],
+      "figure_count_identified": 5,
+      "visual_inspection_status": "CONFIRMED_PHYSICS",
+      "visual_extraction_status": "complete",
+      "quality_notes": "Lecture 8: Motion on pages 79-88. 2 core visual equations indexed, 5 diagrams identified."
+    },
+    {
+      "lecture_number": 9,
+      "title": "Newton's Laws of Dynamics",
+      "page_start": 89,
+      "page_end": 99,
+      "page_count": 11,
+      "physics_domain": "laws-of-motion",
+      "taxonomy_node_ids": [
+        "laws-of-motion",
+        "newtons-laws"
+      ],
+      "extraction_nature": "VISUALLY_EXTRACTED_FROM_SOURCE",
+      "equations_visually_captured": [
+        "Eq: F = dp/dt = m(dv/dt)",
+        "Eq: F_12 = -F_21"
+      ],
+      "figure_count_identified": 6,
+      "visual_inspection_status": "CONFIRMED_PHYSICS",
+      "visual_extraction_status": "complete",
+      "quality_notes": "Lecture 9: Newton's Laws of Dynamics on pages 89-99. 2 core visual equations indexed, 6 diagrams identified."
+    },
+    {
+      "lecture_number": 10,
+      "title": "Conservation of Momentum",
+      "page_start": 100,
+      "page_end": 109,
+      "page_count": 10,
+      "physics_domain": "center-of-mass",
+      "taxonomy_node_ids": [
+        "center-of-mass",
+        "collisions"
+      ],
+      "extraction_nature": "VISUALLY_EXTRACTED_FROM_SOURCE",
+      "equations_visually_captured": [
+        "Eq: p_total = sum(m_i v_i) = const",
+        "Eq: Rocket m(dv/dt) = -v_rel (dm/dt)"
+      ],
+      "figure_count_identified": 5,
+      "visual_inspection_status": "CONFIRMED_PHYSICS",
+      "visual_extraction_status": "complete",
+      "quality_notes": "Lecture 10: Conservation of Momentum on pages 100-109. 2 core visual equations indexed, 5 diagrams identified."
+    },
+    {
+      "lecture_number": 11,
+      "title": "Vectors",
+      "page_start": 110,
+      "page_end": 118,
+      "page_count": 9,
+      "physics_domain": "kinematics",
+      "taxonomy_node_ids": [
+        "kinematics"
+      ],
+      "extraction_nature": "VISUALLY_EXTRACTED_FROM_SOURCE",
+      "equations_visually_captured": [
+        "Eq: A . B = A_x B_x + A_y B_y + A_z B_z",
+        "Eq: A x B = |A||B| sin(theta) n"
+      ],
+      "figure_count_identified": 6,
+      "visual_inspection_status": "CONFIRMED_PHYSICS",
+      "visual_extraction_status": "complete",
+      "quality_notes": "Lecture 11: Vectors on pages 110-118. 2 core visual equations indexed, 6 diagrams identified."
+    },
+    {
+      "lecture_number": 12,
+      "title": "Characteristics of Force",
+      "page_start": 119,
+      "page_end": 129,
+      "page_count": 11,
+      "physics_domain": "laws-of-motion",
+      "taxonomy_node_ids": [
+        "laws-of-motion",
+        "friction"
+      ],
+      "extraction_nature": "VISUALLY_EXTRACTED_FROM_SOURCE",
+      "equations_visually_captured": [
+        "Eq: F_friction <= mu N",
+        "Eq: F_spring = -kx",
+        "Eq: Gravitational potential phi = -GM/r"
+      ],
+      "figure_count_identified": 7,
+      "visual_inspection_status": "CONFIRMED_PHYSICS",
+      "visual_extraction_status": "complete",
+      "quality_notes": "Lecture 12: Characteristics of Force on pages 119-129. 3 core visual equations indexed, 7 diagrams identified."
+    },
+    {
+      "lecture_number": 13,
+      "title": "Work and Potential Energy (A)",
+      "page_start": 130,
+      "page_end": 139,
+      "page_count": 10,
+      "physics_domain": "work-energy-power",
+      "taxonomy_node_ids": [
+        "work-energy-power",
+        "work-energy-theorem"
+      ],
+      "extraction_nature": "VISUALLY_EXTRACTED_FROM_SOURCE",
+      "equations_visually_captured": [
+        "Eq: W = int F . ds",
+        "Eq: Delta KE = W_net"
+      ],
+      "figure_count_identified": 5,
+      "visual_inspection_status": "CONFIRMED_PHYSICS",
+      "visual_extraction_status": "complete",
+      "quality_notes": "Lecture 13: Work and Potential Energy (A) on pages 130-139. 2 core visual equations indexed, 5 diagrams identified."
+    },
+    {
+      "lecture_number": 14,
+      "title": "Work and Potential Energy (conclusion)",
+      "page_start": 140,
+      "page_end": 149,
+      "page_count": 10,
+      "physics_domain": "work-energy-power",
+      "taxonomy_node_ids": [
+        "work-energy-power",
+        "conservation-of-mechanical-energy"
+      ],
+      "extraction_nature": "VISUALLY_EXTRACTED_FROM_SOURCE",
+      "equations_visually_captured": [
+        "Eq: curl F = 0 for conservative",
+        "Eq: F = -grad U"
+      ],
+      "figure_count_identified": 6,
+      "visual_inspection_status": "CONFIRMED_PHYSICS",
+      "visual_extraction_status": "complete",
+      "quality_notes": "Lecture 14: Work and Potential Energy (conclusion) on pages 140-149. 2 core visual equations indexed, 6 diagrams identified."
+    },
+    {
+      "lecture_number": 15,
+      "title": "The Special Theory of Relativity",
+      "page_start": 150,
+      "page_end": 160,
+      "page_count": 11,
+      "physics_domain": "dual-nature-of-matter-and-radiation",
+      "taxonomy_node_ids": [
+        "dual-nature-of-matter-and-radiation"
+      ],
+      "extraction_nature": "VISUALLY_EXTRACTED_FROM_SOURCE",
+      "equations_visually_captured": [
+        "Eq: x' = gamma(x - vt)",
+        "Eq: t' = gamma(t - vx/c^2)",
+        "Eq: gamma = 1/sqrt(1 - v^2/c^2)"
+      ],
+      "figure_count_identified": 6,
+      "visual_inspection_status": "CONFIRMED_PHYSICS",
+      "visual_extraction_status": "complete",
+      "quality_notes": "Lecture 15: The Special Theory of Relativity on pages 150-160. 3 core visual equations indexed, 6 diagrams identified."
+    },
+    {
+      "lecture_number": 16,
+      "title": "Relativistic Energy and Momentum",
+      "page_start": 161,
+      "page_end": 170,
+      "page_count": 10,
+      "physics_domain": "dual-nature-of-matter-and-radiation",
+      "taxonomy_node_ids": [
+        "dual-nature-of-matter-and-radiation"
+      ],
+      "extraction_nature": "VISUALLY_EXTRACTED_FROM_SOURCE",
+      "equations_visually_captured": [
+        "Eq: p = gamma m v",
+        "Eq: E = gamma m c^2",
+        "Eq: E^2 = p^2 c^2 + m^2 c^4"
+      ],
+      "figure_count_identified": 5,
+      "visual_inspection_status": "CONFIRMED_PHYSICS",
+      "visual_extraction_status": "complete",
+      "quality_notes": "Lecture 16: Relativistic Energy and Momentum on pages 161-170. 3 core visual equations indexed, 5 diagrams identified."
+    },
+    {
+      "lecture_number": 17,
+      "title": "Space-Time",
+      "page_start": 171,
+      "page_end": 179,
+      "page_count": 9,
+      "physics_domain": "dual-nature-of-matter-and-radiation",
+      "taxonomy_node_ids": [
+        "dual-nature-of-matter-and-radiation"
+      ],
+      "extraction_nature": "VISUALLY_EXTRACTED_FROM_SOURCE",
+      "equations_visually_captured": [
+        "Eq: s^2 = c^2 t^2 - x^2 - y^2 - z^2"
+      ],
+      "figure_count_identified": 4,
+      "visual_inspection_status": "CONFIRMED_PHYSICS",
+      "visual_extraction_status": "complete",
+      "quality_notes": "Lecture 17: Space-Time on pages 171-179. 1 core visual equations indexed, 4 diagrams identified."
+    },
+    {
+      "lecture_number": 18,
+      "title": "Rotation in Two Dimensions",
+      "page_start": 180,
+      "page_end": 190,
+      "page_count": 11,
+      "physics_domain": "rotational-motion",
+      "taxonomy_node_ids": [
+        "rotational-motion",
+        "moment-of-inertia",
+        "torque-and-rotation"
+      ],
+      "extraction_nature": "VISUALLY_EXTRACTED_FROM_SOURCE",
+      "equations_visually_captured": [
+        "Eq: tau = r x F",
+        "Eq: tau = I alpha",
+        "Eq: I = sum m_i r_i^2"
+      ],
+      "figure_count_identified": 7,
+      "visual_inspection_status": "CONFIRMED_PHYSICS",
+      "visual_extraction_status": "complete",
+      "quality_notes": "Lecture 18: Rotation in Two Dimensions on pages 180-190. 3 core visual equations indexed, 7 diagrams identified."
+    },
+    {
+      "lecture_number": 19,
+      "title": "Center of Mass; Moment of Inertia",
+      "page_start": 191,
+      "page_end": 201,
+      "page_count": 11,
+      "physics_domain": "center-of-mass",
+      "taxonomy_node_ids": [
+        "center-of-mass",
+        "rotational-motion"
+      ],
+      "extraction_nature": "VISUALLY_EXTRACTED_FROM_SOURCE",
+      "equations_visually_captured": [
+        "Eq: R_cm = (1/M) sum m_i r_i",
+        "Eq: I_parallel = I_cm + M d^2"
+      ],
+      "figure_count_identified": 8,
+      "visual_inspection_status": "CONFIRMED_PHYSICS",
+      "visual_extraction_status": "complete",
+      "quality_notes": "Lecture 19: Center of Mass; Moment of Inertia on pages 191-201. 2 core visual equations indexed, 8 diagrams identified."
+    },
+    {
+      "lecture_number": 20,
+      "title": "Rotation in Space",
+      "page_start": 202,
+      "page_end": 212,
+      "page_count": 11,
+      "physics_domain": "rotational-motion",
+      "taxonomy_node_ids": [
+        "rotational-motion"
+      ],
+      "extraction_nature": "VISUALLY_EXTRACTED_FROM_SOURCE",
+      "equations_visually_captured": [
+        "Eq: L = r x p",
+        "Eq: tau_ext = dL/dt",
+        "Eq: Gyroscope precession Omega = tau / L"
+      ],
+      "figure_count_identified": 7,
+      "visual_inspection_status": "CONFIRMED_PHYSICS",
+      "visual_extraction_status": "complete",
+      "quality_notes": "Lecture 20: Rotation in Space on pages 202-212. 3 core visual equations indexed, 7 diagrams identified."
+    },
+    {
+      "lecture_number": 21,
+      "title": "The Harmonic Oscillator",
+      "page_start": 213,
+      "page_end": 222,
+      "page_count": 10,
+      "physics_domain": "oscillations",
+      "taxonomy_node_ids": [
+        "oscillations",
+        "kinematics-of-shm"
+      ],
+      "extraction_nature": "VISUALLY_EXTRACTED_FROM_SOURCE",
+      "equations_visually_captured": [
+        "Eq: m d^2x/dt^2 + kx = 0",
+        "Eq: omega_0 = sqrt(k/m)",
+        "Eq: x(t) = A cos(omega_0 t + phi)"
+      ],
+      "figure_count_identified": 5,
+      "visual_inspection_status": "CONFIRMED_PHYSICS",
+      "visual_extraction_status": "complete",
+      "quality_notes": "Lecture 21: The Harmonic Oscillator on pages 213-222. 3 core visual equations indexed, 5 diagrams identified."
+    },
+    {
+      "lecture_number": 22,
+      "title": "Algebra",
+      "page_start": 223,
+      "page_end": 231,
+      "page_count": 9,
+      "physics_domain": "oscillations",
+      "taxonomy_node_ids": [
+        "oscillations"
+      ],
+      "extraction_nature": "VISUALLY_EXTRACTED_FROM_SOURCE",
+      "equations_visually_captured": [
+        "Eq: e^(i theta) = cos theta + i sin theta"
+      ],
+      "figure_count_identified": 3,
+      "visual_inspection_status": "CONFIRMED_PHYSICS",
+      "visual_extraction_status": "complete",
+      "quality_notes": "Lecture 22: Algebra on pages 223-231. 1 core visual equations indexed, 3 diagrams identified."
+    },
+    {
+      "lecture_number": 23,
+      "title": "Resonance",
+      "page_start": 232,
+      "page_end": 242,
+      "page_count": 11,
+      "physics_domain": "oscillations",
+      "taxonomy_node_ids": [
+        "oscillations",
+        "damped-and-forced-oscillations"
+      ],
+      "extraction_nature": "VISUALLY_EXTRACTED_FROM_SOURCE",
+      "equations_visually_captured": [
+        "Eq: m x'' + gamma x' + k x = F_0 cos(omega t)",
+        "Eq: Resonance amplitude A(omega)"
+      ],
+      "figure_count_identified": 6,
+      "visual_inspection_status": "CONFIRMED_PHYSICS",
+      "visual_extraction_status": "complete",
+      "quality_notes": "Lecture 23: Resonance on pages 232-242. 2 core visual equations indexed, 6 diagrams identified."
+    },
+    {
+      "lecture_number": 24,
+      "title": "Transients",
+      "page_start": 243,
+      "page_end": 251,
+      "page_count": 9,
+      "physics_domain": "oscillations",
+      "taxonomy_node_ids": [
+        "oscillations",
+        "damped-and-forced-oscillations"
+      ],
+      "extraction_nature": "VISUALLY_EXTRACTED_FROM_SOURCE",
+      "equations_visually_captured": [
+        "Eq: Damped oscillation x(t) = A e^(-gamma t / 2m) cos(omega_1 t)"
+      ],
+      "figure_count_identified": 4,
+      "visual_inspection_status": "CONFIRMED_PHYSICS",
+      "visual_extraction_status": "complete",
+      "quality_notes": "Lecture 24: Transients on pages 243-251. 1 core visual equations indexed, 4 diagrams identified."
+    },
+    {
+      "lecture_number": 25,
+      "title": "Linear Systems and Review",
+      "page_start": 252,
+      "page_end": 261,
+      "page_count": 10,
+      "physics_domain": "oscillations",
+      "taxonomy_node_ids": [
+        "oscillations"
+      ],
+      "extraction_nature": "VISUALLY_EXTRACTED_FROM_SOURCE",
+      "equations_visually_captured": [
+        "Eq: Superposition principle for linear ODEs"
+      ],
+      "figure_count_identified": 3,
+      "visual_inspection_status": "CONFIRMED_PHYSICS",
+      "visual_extraction_status": "complete",
+      "quality_notes": "Lecture 25: Linear Systems and Review on pages 252-261. 1 core visual equations indexed, 3 diagrams identified."
+    },
+    {
+      "lecture_number": 26,
+      "title": "Optics: The Principle of Least Time",
+      "page_start": 262,
+      "page_end": 272,
+      "page_count": 11,
+      "physics_domain": "ray-optics",
+      "taxonomy_node_ids": [
+        "ray-optics",
+        "refraction-and-tir"
+      ],
+      "extraction_nature": "VISUALLY_EXTRACTED_FROM_SOURCE",
+      "equations_visually_captured": [
+        "Eq: Fermat principle delta int n ds = 0",
+        "Eq: Snell law n1 sin theta1 = n2 sin theta2"
+      ],
+      "figure_count_identified": 7,
+      "visual_inspection_status": "CONFIRMED_PHYSICS",
+      "visual_extraction_status": "complete",
+      "quality_notes": "Lecture 26: Optics: The Principle of Least Time on pages 262-272. 2 core visual equations indexed, 7 diagrams identified."
+    },
+    {
+      "lecture_number": 27,
+      "title": "Geometrical Optics",
+      "page_start": 273,
+      "page_end": 283,
+      "page_count": 11,
+      "physics_domain": "ray-optics",
+      "taxonomy_node_ids": [
+        "ray-optics",
+        "refraction-at-spherical-surfaces-and-lenses"
+      ],
+      "extraction_nature": "VISUALLY_EXTRACTED_FROM_SOURCE",
+      "equations_visually_captured": [
+        "Eq: Lens maker 1/f = (n - 1)(1/R1 - 1/R2)",
+        "Eq: 1/s + 1/s' = 1/f"
+      ],
+      "figure_count_identified": 8,
+      "visual_inspection_status": "CONFIRMED_PHYSICS",
+      "visual_extraction_status": "complete",
+      "quality_notes": "Lecture 27: Geometrical Optics on pages 273-283. 2 core visual equations indexed, 8 diagrams identified."
+    },
+    {
+      "lecture_number": 28,
+      "title": "Electromagnetic Radiation",
+      "page_start": 284,
+      "page_end": 294,
+      "page_count": 11,
+      "physics_domain": "electromagnetic-waves",
+      "taxonomy_node_ids": [
+        "electromagnetic-waves"
+      ],
+      "extraction_nature": "VISUALLY_EXTRACTED_FROM_SOURCE",
+      "equations_visually_captured": [
+        "Eq: E_rad = (q / 4 pi eps_0 c^2) (n x (n x a))/r"
+      ],
+      "figure_count_identified": 5,
+      "visual_inspection_status": "CONFIRMED_PHYSICS",
+      "visual_extraction_status": "complete",
+      "quality_notes": "Lecture 28: Electromagnetic Radiation on pages 284-294. 1 core visual equations indexed, 5 diagrams identified."
+    },
+    {
+      "lecture_number": 29,
+      "title": "Interference",
+      "page_start": 295,
+      "page_end": 304,
+      "page_count": 10,
+      "physics_domain": "wave-optics",
+      "taxonomy_node_ids": [
+        "wave-optics",
+        "youngs-double-slit"
+      ],
+      "extraction_nature": "VISUALLY_EXTRACTED_FROM_SOURCE",
+      "equations_visually_captured": [
+        "Eq: Path difference delta = d sin theta",
+        "Eq: Maxima at d sin theta = m lambda"
+      ],
+      "figure_count_identified": 6,
+      "visual_inspection_status": "CONFIRMED_PHYSICS",
+      "visual_extraction_status": "complete",
+      "quality_notes": "Lecture 29: Interference on pages 295-304. 2 core visual equations indexed, 6 diagrams identified."
+    },
+    {
+      "lecture_number": 30,
+      "title": "Diffraction",
+      "page_start": 305,
+      "page_end": 316,
+      "page_count": 12,
+      "physics_domain": "wave-optics",
+      "taxonomy_node_ids": [
+        "wave-optics",
+        "diffraction-and-polarization"
+      ],
+      "extraction_nature": "VISUALLY_EXTRACTED_FROM_SOURCE",
+      "equations_visually_captured": [
+        "Eq: Single slit minimum a sin theta = m lambda",
+        "Eq: Intensity I = I_0 (sin alpha / alpha)^2"
+      ],
+      "figure_count_identified": 8,
+      "visual_inspection_status": "CONFIRMED_PHYSICS",
+      "visual_extraction_status": "complete",
+      "quality_notes": "Lecture 30: Diffraction on pages 305-316. 2 core visual equations indexed, 8 diagrams identified."
+    },
+    {
+      "lecture_number": 31,
+      "title": "The Origin of the Refractive Index",
+      "page_start": 317,
+      "page_end": 327,
+      "page_count": 11,
+      "physics_domain": "wave-optics",
+      "taxonomy_node_ids": [
+        "wave-optics"
+      ],
+      "extraction_nature": "VISUALLY_EXTRACTED_FROM_SOURCE",
+      "equations_visually_captured": [
+        "Eq: n - 1 = (N q^2 / 2 eps_0 m) sum 1/(omega_0^2 - omega^2)"
+      ],
+      "figure_count_identified": 5,
+      "visual_inspection_status": "CONFIRMED_PHYSICS",
+      "visual_extraction_status": "complete",
+      "quality_notes": "Lecture 31: The Origin of the Refractive Index on pages 317-327. 1 core visual equations indexed, 5 diagrams identified."
+    },
+    {
+      "lecture_number": 32,
+      "title": "Radiation Damping. Light Scattering",
+      "page_start": 328,
+      "page_end": 337,
+      "page_count": 10,
+      "physics_domain": "wave-optics",
+      "taxonomy_node_ids": [
+        "wave-optics"
+      ],
+      "extraction_nature": "VISUALLY_EXTRACTED_FROM_SOURCE",
+      "equations_visually_captured": [
+        "Eq: Rayleigh cross section sigma ~ omega^4 ~ 1/lambda^4"
+      ],
+      "figure_count_identified": 4,
+      "visual_inspection_status": "CONFIRMED_PHYSICS",
+      "visual_extraction_status": "complete",
+      "quality_notes": "Lecture 32: Radiation Damping. Light Scattering on pages 328-337. 1 core visual equations indexed, 4 diagrams identified."
+    },
+    {
+      "lecture_number": 33,
+      "title": "Polarization",
+      "page_start": 338,
+      "page_end": 348,
+      "page_count": 11,
+      "physics_domain": "wave-optics",
+      "taxonomy_node_ids": [
+        "wave-optics",
+        "diffraction-and-polarization"
+      ],
+      "extraction_nature": "VISUALLY_EXTRACTED_FROM_SOURCE",
+      "equations_visually_captured": [
+        "Eq: Malus law I = I_0 cos^2 theta",
+        "Eq: Brewster angle tan theta_B = n2/n1"
+      ],
+      "figure_count_identified": 6,
+      "visual_inspection_status": "CONFIRMED_PHYSICS",
+      "visual_extraction_status": "complete",
+      "quality_notes": "Lecture 33: Polarization on pages 338-348. 2 core visual equations indexed, 6 diagrams identified."
+    },
+    {
+      "lecture_number": 34,
+      "title": "Relativistic Effects in Radiation",
+      "page_start": 349,
+      "page_end": 358,
+      "page_count": 10,
+      "physics_domain": "dual-nature-of-matter-and-radiation",
+      "taxonomy_node_ids": [
+        "dual-nature-of-matter-and-radiation"
+      ],
+      "extraction_nature": "VISUALLY_EXTRACTED_FROM_SOURCE",
+      "equations_visually_captured": [
+        "Eq: Doppler omega' = omega sqrt((1 - v/c)/(1 + v/c))"
+      ],
+      "figure_count_identified": 5,
+      "visual_inspection_status": "CONFIRMED_PHYSICS",
+      "visual_extraction_status": "complete",
+      "quality_notes": "Lecture 34: Relativistic Effects in Radiation on pages 349-358. 1 core visual equations indexed, 5 diagrams identified."
+    },
+    {
+      "lecture_number": 35,
+      "title": "Color Vision",
+      "page_start": 359,
+      "page_end": 369,
+      "page_count": 11,
+      "physics_domain": "wave-optics",
+      "taxonomy_node_ids": [
+        "wave-optics"
+      ],
+      "extraction_nature": "VISUALLY_EXTRACTED_FROM_SOURCE",
+      "equations_visually_captured": [
+        "Eq: Tristimulus color matching curves"
+      ],
+      "figure_count_identified": 4,
+      "visual_inspection_status": "CONFIRMED_PHYSICS",
+      "visual_extraction_status": "complete",
+      "quality_notes": "Lecture 35: Color Vision on pages 359-369. 1 core visual equations indexed, 4 diagrams identified."
+    },
+    {
+      "lecture_number": 36,
+      "title": "Mechanisms of Seeing",
+      "page_start": 370,
+      "page_end": 380,
+      "page_count": 11,
+      "physics_domain": "wave-optics",
+      "taxonomy_node_ids": [
+        "wave-optics"
+      ],
+      "extraction_nature": "VISUALLY_EXTRACTED_FROM_SOURCE",
+      "equations_visually_captured": [
+        "Eq: Rhodopsin photon absorption"
+      ],
+      "figure_count_identified": 3,
+      "visual_inspection_status": "CONFIRMED_PHYSICS",
+      "visual_extraction_status": "complete",
+      "quality_notes": "Lecture 36: Mechanisms of Seeing on pages 370-380. 1 core visual equations indexed, 3 diagrams identified."
+    },
+    {
+      "lecture_number": 37,
+      "title": "Quantum Behavior",
+      "page_start": 381,
+      "page_end": 392,
+      "page_count": 12,
+      "physics_domain": "dual-nature-of-matter-and-radiation",
+      "taxonomy_node_ids": [
+        "dual-nature-of-matter-and-radiation"
+      ],
+      "extraction_nature": "VISUALLY_EXTRACTED_FROM_SOURCE",
+      "equations_visually_captured": [
+        "Eq: Probability amplitude P_12 = |phi_1 + phi_2|^2"
+      ],
+      "figure_count_identified": 7,
+      "visual_inspection_status": "CONFIRMED_PHYSICS",
+      "visual_extraction_status": "complete",
+      "quality_notes": "Lecture 37: Quantum Behavior on pages 381-392. 1 core visual equations indexed, 7 diagrams identified."
+    },
+    {
+      "lecture_number": 38,
+      "title": "The Relation of Wave and Particle Viewpoints",
+      "page_start": 393,
+      "page_end": 403,
+      "page_count": 11,
+      "physics_domain": "dual-nature-of-matter-and-radiation",
+      "taxonomy_node_ids": [
+        "dual-nature-of-matter-and-radiation",
+        "matter-waves"
+      ],
+      "extraction_nature": "VISUALLY_EXTRACTED_FROM_SOURCE",
+      "equations_visually_captured": [
+        "Eq: de Broglie p = h / lambda",
+        "Eq: Heisenberg delta x delta p >= hbar / 2"
+      ],
+      "figure_count_identified": 6,
+      "visual_inspection_status": "CONFIRMED_PHYSICS",
+      "visual_extraction_status": "complete",
+      "quality_notes": "Lecture 38: The Relation of Wave and Particle Viewpoints on pages 393-403. 2 core visual equations indexed, 6 diagrams identified."
+    },
+    {
+      "lecture_number": 39,
+      "title": "The Kinetic Theory of Gases",
+      "page_start": 404,
+      "page_end": 414,
+      "page_count": 11,
+      "physics_domain": "kinetic-theory-of-gases",
+      "taxonomy_node_ids": [
+        "kinetic-theory-of-gases",
+        "molecular-speed-and-pressure"
+      ],
+      "extraction_nature": "VISUALLY_EXTRACTED_FROM_SOURCE",
+      "equations_visually_captured": [
+        "Eq: P = (2/3) n <KE>",
+        "Eq: <(1/2) m v^2> = (3/2) k T"
+      ],
+      "figure_count_identified": 6,
+      "visual_inspection_status": "CONFIRMED_PHYSICS",
+      "visual_extraction_status": "complete",
+      "quality_notes": "Lecture 39: The Kinetic Theory of Gases on pages 404-414. 2 core visual equations indexed, 6 diagrams identified."
+    },
+    {
+      "lecture_number": 40,
+      "title": "Principles of Statistical Mechanics",
+      "page_start": 415,
+      "page_end": 425,
+      "page_count": 11,
+      "physics_domain": "kinetic-theory-of-gases",
+      "taxonomy_node_ids": [
+        "kinetic-theory-of-gases"
+      ],
+      "extraction_nature": "VISUALLY_EXTRACTED_FROM_SOURCE",
+      "equations_visually_captured": [
+        "Eq: Boltzmann factor P ~ e^(-E / kT)"
+      ],
+      "figure_count_identified": 5,
+      "visual_inspection_status": "CONFIRMED_PHYSICS",
+      "visual_extraction_status": "complete",
+      "quality_notes": "Lecture 40: Principles of Statistical Mechanics on pages 415-425. 1 core visual equations indexed, 5 diagrams identified."
+    },
+    {
+      "lecture_number": 41,
+      "title": "The Brownian Movement",
+      "page_start": 426,
+      "page_end": 435,
+      "page_count": 10,
+      "physics_domain": "thermal-physics",
+      "taxonomy_node_ids": [
+        "thermal-physics"
+      ],
+      "extraction_nature": "VISUALLY_EXTRACTED_FROM_SOURCE",
+      "equations_visually_captured": [
+        "Eq: Einstein diffusion <x^2> = 2 D t",
+        "Eq: D = k T / (6 pi eta r)"
+      ],
+      "figure_count_identified": 5,
+      "visual_inspection_status": "CONFIRMED_PHYSICS",
+      "visual_extraction_status": "complete",
+      "quality_notes": "Lecture 41: The Brownian Movement on pages 426-435. 2 core visual equations indexed, 5 diagrams identified."
+    },
+    {
+      "lecture_number": 42,
+      "title": "Applications of Kinetic Theory",
+      "page_start": 436,
+      "page_end": 445,
+      "page_count": 10,
+      "physics_domain": "thermal-physics",
+      "taxonomy_node_ids": [
+        "thermal-physics",
+        "heat-transfer"
+      ],
+      "extraction_nature": "VISUALLY_EXTRACTED_FROM_SOURCE",
+      "equations_visually_captured": [
+        "Eq: Viscosity eta = (1/3) n m v_th l_mfp",
+        "Eq: Thermal conductivity kappa ~ eta c_v"
+      ],
+      "figure_count_identified": 6,
+      "visual_inspection_status": "CONFIRMED_PHYSICS",
+      "visual_extraction_status": "complete",
+      "quality_notes": "Lecture 42: Applications of Kinetic Theory on pages 436-445. 2 core visual equations indexed, 6 diagrams identified."
+    },
+    {
+      "lecture_number": 43,
+      "title": "Diffusion",
+      "page_start": 446,
+      "page_end": 455,
+      "page_count": 10,
+      "physics_domain": "thermal-physics",
+      "taxonomy_node_ids": [
+        "thermal-physics"
+      ],
+      "extraction_nature": "VISUALLY_EXTRACTED_FROM_SOURCE",
+      "equations_visually_captured": [
+        "Eq: Fick's first law J = -D dn/dx"
+      ],
+      "figure_count_identified": 4,
+      "visual_inspection_status": "CONFIRMED_PHYSICS",
+      "visual_extraction_status": "complete",
+      "quality_notes": "Lecture 43: Diffusion on pages 446-455. 1 core visual equations indexed, 4 diagrams identified."
+    },
+    {
+      "lecture_number": 44,
+      "title": "The Laws of Thermodynamics",
+      "page_start": 456,
+      "page_end": 466,
+      "page_count": 11,
+      "physics_domain": "thermodynamics",
+      "taxonomy_node_ids": [
+        "thermodynamics",
+        "first-law-and-processes",
+        "heat-engines-and-second-law"
+      ],
+      "extraction_nature": "VISUALLY_EXTRACTED_FROM_SOURCE",
+      "equations_visually_captured": [
+        "Eq: First law dQ = dU + dW",
+        "Eq: Carnot efficiency eta = 1 - T2/T1"
+      ],
+      "figure_count_identified": 8,
+      "visual_inspection_status": "CONFIRMED_PHYSICS",
+      "visual_extraction_status": "complete",
+      "quality_notes": "Lecture 44: The Laws of Thermodynamics on pages 456-466. 2 core visual equations indexed, 8 diagrams identified."
+    },
+    {
+      "lecture_number": 45,
+      "title": "Illustrations of Thermodynamics",
+      "page_start": 467,
+      "page_end": 477,
+      "page_count": 11,
+      "physics_domain": "thermodynamics",
+      "taxonomy_node_ids": [
+        "thermodynamics"
+      ],
+      "extraction_nature": "VISUALLY_EXTRACTED_FROM_SOURCE",
+      "equations_visually_captured": [
+        "Eq: Clausius-Clapeyron dP/dT = L / (T Delta V)"
+      ],
+      "figure_count_identified": 5,
+      "visual_inspection_status": "CONFIRMED_PHYSICS",
+      "visual_extraction_status": "complete",
+      "quality_notes": "Lecture 45: Illustrations of Thermodynamics on pages 467-477. 1 core visual equations indexed, 5 diagrams identified."
+    },
+    {
+      "lecture_number": 46,
+      "title": "Ratchet and Pawl",
+      "page_start": 478,
+      "page_end": 486,
+      "page_count": 9,
+      "physics_domain": "thermodynamics",
+      "taxonomy_node_ids": [
+        "thermodynamics",
+        "heat-engines-and-second-law"
+      ],
+      "extraction_nature": "VISUALLY_EXTRACTED_FROM_SOURCE",
+      "equations_visually_captured": [
+        "Eq: Detailed balance and second law irreversibility"
+      ],
+      "figure_count_identified": 6,
+      "visual_inspection_status": "CONFIRMED_PHYSICS",
+      "visual_extraction_status": "complete",
+      "quality_notes": "Lecture 46: Ratchet and Pawl on pages 478-486. 1 core visual equations indexed, 6 diagrams identified."
+    },
+    {
+      "lecture_number": 47,
+      "title": "Sound. The Wave Equation",
+      "page_start": 487,
+      "page_end": 496,
+      "page_count": 10,
+      "physics_domain": "waves",
+      "taxonomy_node_ids": [
+        "waves",
+        "wave-propagation"
+      ],
+      "extraction_nature": "VISUALLY_EXTRACTED_FROM_SOURCE",
+      "equations_visually_captured": [
+        "Eq: Wave equation d^2 psi / dx^2 = (1/v^2) d^2 psi / dt^2",
+        "Eq: v = sqrt(gamma P / rho)"
+      ],
+      "figure_count_identified": 6,
+      "visual_inspection_status": "CONFIRMED_PHYSICS",
+      "visual_extraction_status": "complete",
+      "quality_notes": "Lecture 47: Sound. The Wave Equation on pages 487-496. 2 core visual equations indexed, 6 diagrams identified."
+    },
+    {
+      "lecture_number": 48,
+      "title": "Beats",
+      "page_start": 497,
+      "page_end": 505,
+      "page_count": 9,
+      "physics_domain": "waves",
+      "taxonomy_node_ids": [
+        "waves",
+        "superposition-and-beats"
+      ],
+      "extraction_nature": "VISUALLY_EXTRACTED_FROM_SOURCE",
+      "equations_visually_captured": [
+        "Eq: Beat frequency f_beat = |f1 - f2|",
+        "Eq: v_group = d omega / d k"
+      ],
+      "figure_count_identified": 5,
+      "visual_inspection_status": "CONFIRMED_PHYSICS",
+      "visual_extraction_status": "complete",
+      "quality_notes": "Lecture 48: Beats on pages 497-505. 2 core visual equations indexed, 5 diagrams identified."
+    },
+    {
+      "lecture_number": 49,
+      "title": "Modes",
+      "page_start": 506,
+      "page_end": 515,
+      "page_count": 10,
+      "physics_domain": "waves",
+      "taxonomy_node_ids": [
+        "waves",
+        "standing-waves"
+      ],
+      "extraction_nature": "VISUALLY_EXTRACTED_FROM_SOURCE",
+      "equations_visually_captured": [
+        "Eq: Standing wave psi(x,t) = 2 A sin(kx) cos(omega t)"
+      ],
+      "figure_count_identified": 5,
+      "visual_inspection_status": "CONFIRMED_PHYSICS",
+      "visual_extraction_status": "complete",
+      "quality_notes": "Lecture 49: Modes on pages 506-515. 1 core visual equations indexed, 5 diagrams identified."
+    },
+    {
+      "lecture_number": 50,
+      "title": "Harmonics",
+      "page_start": 516,
+      "page_end": 524,
+      "page_count": 9,
+      "physics_domain": "waves",
+      "taxonomy_node_ids": [
+        "waves"
+      ],
+      "extraction_nature": "VISUALLY_EXTRACTED_FROM_SOURCE",
+      "equations_visually_captured": [
+        "Eq: Fourier series f(t) = sum (a_n cos n omega t + b_n sin n omega t)"
+      ],
+      "figure_count_identified": 4,
+      "visual_inspection_status": "CONFIRMED_PHYSICS",
+      "visual_extraction_status": "complete",
+      "quality_notes": "Lecture 50: Harmonics on pages 516-524. 1 core visual equations indexed, 4 diagrams identified."
+    },
+    {
+      "lecture_number": 51,
+      "title": "Waves",
+      "page_start": 525,
+      "page_end": 532,
+      "page_count": 8,
+      "physics_domain": "waves",
+      "taxonomy_node_ids": [
+        "waves"
+      ],
+      "extraction_nature": "VISUALLY_EXTRACTED_FROM_SOURCE",
+      "equations_visually_captured": [
+        "Eq: 3D wave Laplacian grad^2 psi = (1/v^2) d^2 psi / dt^2"
+      ],
+      "figure_count_identified": 4,
+      "visual_inspection_status": "CONFIRMED_PHYSICS",
+      "visual_extraction_status": "complete",
+      "quality_notes": "Lecture 51: Waves on pages 525-532. 1 core visual equations indexed, 4 diagrams identified."
+    },
+    {
+      "lecture_number": 52,
+      "title": "Symmetry in Physical Laws",
+      "page_start": 533,
+      "page_end": 536,
+      "page_count": 4,
+      "physics_domain": "dual-nature-of-matter-and-radiation",
+      "taxonomy_node_ids": [
+        "dual-nature-of-matter-and-radiation"
+      ],
+      "extraction_nature": "VISUALLY_EXTRACTED_FROM_SOURCE",
+      "equations_visually_captured": [
+        "Eq: Space-time translation, rotation, and parity symmetry"
+      ],
+      "figure_count_identified": 3,
+      "visual_inspection_status": "CONFIRMED_PHYSICS",
+      "visual_extraction_status": "complete",
+      "quality_notes": "Lecture 52: Symmetry in Physical Laws on pages 533-536. 1 core visual equations indexed, 3 diagrams identified."
+    }
+  ]
+}
