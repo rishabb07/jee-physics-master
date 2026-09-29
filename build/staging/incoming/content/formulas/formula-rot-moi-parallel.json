@@ -1,7 +1,7 @@
 {
   "formula_id": "formula-rot-moi-parallel",
   "chapter_id": "rotational-motion",
-  "title": "Parallel Axis Theorem — PRODUCTION AUTO-UPDATE PROOF",
+  "title": "Parallel Axis Theorem",
   "equation": "I = I_{\\text{cm}} + M d^2",
   "equation_latex": "I = I_{\\text{cm}} + M d^2",
   "variables": {
