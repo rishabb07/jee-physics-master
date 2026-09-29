@@ -1,0 +1,51 @@
+{
+  "formula_id": "formula-opt-snells-law",
+  "chapter_id": "ray-optics",
+  "title": "Snell's Law of Refraction",
+  "equation": "n_1 \\sin\\theta_1 = n_2 \\sin\\theta_2",
+  "equation_latex": "n_1 \\sin\\theta_1 = n_2 \\sin\\theta_2",
+  "variables": {
+    "n_1": "Absolute refractive index of medium 1",
+    "\\theta_1": "Angle of incidence",
+    "n_2": "Absolute refractive index of medium 2",
+    "\\theta_2": "Angle of refraction"
+  },
+  "units": {
+    "n_1": "dimensionless",
+    "\\theta_1": "rad or deg",
+    "n_2": "dimensionless",
+    "\\theta_2": "rad or deg"
+  },
+  "dimensions": {
+    "n_1": "[1]",
+    "\\theta_1": "[1]",
+    "n_2": "[1]",
+    "\\theta_2": "[1]"
+  },
+  "assumptions": [
+    "Homogeneous, isotropic, linear optical media",
+    "Planar interface",
+    "Monochromatic light"
+  ],
+  "validity_conditions": [
+    "Universal law of refraction at specular dielectric interfaces"
+  ],
+  "derivation_reference": "derivation-formula-opt-snells-law",
+  "related_concepts": [
+    "concept-opt-snell-01"
+  ],
+  "common_misuse": [
+    "Measuring angles from interface surface instead of normal",
+    "Applying to anisotropic birefringent media without index modification"
+  ],
+  "provenance": [],
+  "generation_metadata": {
+    "agent": "content_generator",
+    "version": "1.0",
+    "target_chapter": "ray-optics"
+  },
+  "verification_status": "UNVERIFIED",
+  "content_hash": "043f6e2c0488f2449cf158a5f855473dae96f444bd4704e5af8fccca6554b701",
+  "verification_record_id": null,
+  "created_at": "2026-09-29T07:50:00Z"
+}

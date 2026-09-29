@@ -1,0 +1,30 @@
+{
+  "verification_id": "verif-current-electricity-question-3a1b8c4d-e5666a",
+  "atom_id": "current-electricity-question-3a1b8c4d",
+  "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+  "atom_version": 1,
+  "content_hash": "5191a1c0c5850b6fa92086f0bf29a9b6544e9692f7cafc452719aebd3abff836",
+  "verification_protocol_version": "1.0.0",
+  "solver_run_ids": [
+    "run-solver_a-current-electricity-question-3a1b8c4d-9c4b2e61",
+    "run-solver_b-current-electricity-question-3a1b8c4d-a4f82c"
+  ],
+  "source_claimed_answer": null,
+  "source_solution": null,
+  "independent_answers": {
+    "solver_a": "B",
+    "solver_b": "B"
+  },
+  "independent_solutions": {
+    "solver_a": "Step 1: Circuit configuration: The circuit is energized by an ideal DC source E = 20 V. An ideal ammeter has zero internal resistance (R_A = 0 Omega), and an ideal voltmeter has infinite internal resistance (R_V = infinity).\nStep 2: Branch 1 resistance: Consists of resistor R_1 = 5 Omega in series with the ideal ammeter. Thus, R_branch1 = R_1 + R_A = 5 + 0 = 5 Omega.\nStep 3: Branch 2 resistance: Consists of resistor R_2 = 15 Omega. Thus, R_branch2 = 15 Omega.",
+    "solver_b": "Step 1: Parse circuit components and topological connections from diagram: EMF source E = 20 V; Branch 1 has R1 = 5 ohms in series with ideal ammeter A (resistance R_A = 0); Branch 2 has R2 = 15 ohms in parallel with Branch 1; this parallel block is connected in series with R3 = 1.25 ohms, across which ideal voltmeter V (resistance R_V -> infinity) is connected.\nStep 2: Calculate equivalent resistance of parallel section: R_p = (R1 * R2) / (R1 + R2) = (5 * 15) / (5 + 15) = 75 / 20 = 3.75 ohms.\nStep 3: Since the voltmeter is ideal, R_V -> infinity, so the parallel combination of R3 and the voltmeter has equivalent resistance R3 = 1.25 ohms."
+  },
+  "consensus_answer": "B",
+  "verdict": "VERIFIED",
+  "confidence": 0.99,
+  "discrepancy_classification": "SOURCE_ANSWER_MISSING",
+  "adjudication_result": null,
+  "created_at": "2026-09-27T20:05:44.405941Z",
+  "completed_at": "2026-09-27T20:05:44.405941Z",
+  "metadata": {}
+}

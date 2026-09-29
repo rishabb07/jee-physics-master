@@ -1,0 +1,56 @@
+{
+  "question_id": "fixture-ambig-multi-numerical-01",
+  "version": 1,
+  "origin": "GENERATED",
+  "provenance_class": "CONTROLLED_TEST_FIXTURE",
+  "curriculum_id": "curr-kin-02",
+  "taxonomy_reference": {
+    "chapter_id": "kinematics",
+    "topic_id": "motion-in-one-dimension",
+    "subtopic_id": "vertical-motion-under-gravity"
+  },
+  "concept_references": [
+    "concept-rot-moi-01"
+  ],
+  "prerequisite_references": [],
+  "target_exam_level": "JEE_MAIN",
+  "question_type": "NUMERICAL",
+  "statement": "A particle is projected vertically upward with initial speed $u = 40\\text{ m/s}$ from ground level. Taking $g = 10\\text{ m/s}^2$, at what time in seconds is its height $y = 60\\text{ m}$ above the ground?",
+  "diagram_references": [],
+  "options": {},
+  "correct_answer": "2.0",
+  "solution_strategy": "Solve quadratic equation for time",
+  "solution": "Ambiguous numerical target: The equation $y = u t - \\frac{1}{2} g t^2 \\implies 5 t^2 - 40 t + 60 = 0 \\implies t^2 - 8 t + 12 = 0$ yields two distinct physical solutions: $t_1 = 2.0\\text{ s}$ (ascending) and $t_2 = 6.0\\text{ s}$ (descending). Because the question omits whether the ascending or descending instant is sought, both $2.0\\text{ s}$ and $6.0\\text{ s}$ are valid answers.",
+  "assumptions": [
+    "ADVERSARIAL_FIXTURE: Multiple valid positive real roots without physical discriminator"
+  ],
+  "numerical_values": {
+    "u": 40.0,
+    "g": 10.0,
+    "y": 60.0
+  },
+  "units": "s",
+  "tolerance": 0.02,
+  "intended_learning_objective": "Test ambiguity gate detection of multiple valid numerical answers",
+  "difficulty_dimensions": {
+    "conceptual_difficulty": 2,
+    "mathematical_difficulty": 2,
+    "multistep_reasoning_difficulty": 2,
+    "abstraction_difficulty": 1,
+    "computational_burden": 1,
+    "trap_misconception_difficulty": 4
+  },
+  "difficulty_band": "L2",
+  "distractor_rationales": [],
+  "source_grounding": {
+    "relationship_type": "NEW_PROBLEM"
+  },
+  "risk_level": "MEDIUM",
+  "generation_metadata": {
+    "fixture_type": "MULTIPLE_NUMERICAL_ANSWERS_TEST_FIXTURE",
+    "expected_verdict": "AMBIGUOUS"
+  },
+  "content_hash": null,
+  "verification_status": "GENERATED",
+  "verification_record_id": null
+}

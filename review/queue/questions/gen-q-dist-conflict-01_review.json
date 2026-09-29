@@ -1,0 +1,218 @@
+{
+  "question_id": "gen-q-dist-conflict-01",
+  "chapter_id": "ray-optics",
+  "question_type": "SINGLE_CORRECT_MCQ",
+  "risk_level": "HIGH",
+  "review_reason": "DISTRACTOR_CONFLICT",
+  "failed_gate": "DISTRACTOR_CONFLICT_GATE",
+  "relevant_verification_opinions": {
+    "solver_id": "solver_a",
+    "conversation_id": "c4b2f200-9d09-4009-8419-85baf0f75544",
+    "independent_interpretation": "A light ray transitions across a planar boundary from air (n_1 = 1) to water (n_2 = 4/3). The question is configured as a single-correct MCQ asking which statement is true among four physical propositions.",
+    "governing_principles": [
+      "Snell's Law of Refraction (n_1 \\sin\\theta_1 = n_2 \\sin\\theta_2)",
+      "Phase Velocity of Light in Dielectric Medium (v = c / n)",
+      "Temporal Boundary Invariance of Wave Frequency (f_1 = f_2)",
+      "Conditions for Total Internal Reflection (TIR requires n_1 > n_2 and \\theta_1 > \\theta_c)"
+    ],
+    "independent_equations": [
+      "\\sin\\theta_2 = \\frac{n_1}{n_2} \\sin\\theta_1 = \\frac{1}{4/3} \\sin\\theta_1 = \\frac{3}{4} \\sin\\theta_1 < \\sin\\theta_1 \\implies \\theta_2 < \\theta_1",
+      "v_1 = c, \\quad v_2 = \\frac{c}{n_2} = \\frac{3}{4} c < c",
+      "f_2 = f_1 = f_0",
+      "n_1 < n_2 \\implies \\text{TIR impossible}"
+    ],
+    "independent_solution_steps": [
+      "Step 1: Analyze Option A using Snell's Law: For non-normal incidence, since n_2 = 4/3 > n_1 = 1, sin(theta_2) = (3/4) sin(theta_1) < sin(theta_1), so theta_2 < theta_1. The refracted ray bends toward the normal. Thus, Option A is physically TRUE.",
+      "Step 2: Analyze Option B: Frequency is an intrinsic property established by the source and preserved across interface boundary conditions (f = f_0). Frequency does not decrease. Thus, Option B is FALSE.",
+      "Step 3: Analyze Option C using the definition of refractive index: The speed of light in water is v_2 = c / n_2 = 3c / 4 approx 2.25 * 10^8 m/s, which is strictly less than c (in air). Thus, the speed of light decreases. Therefore, Option C is ALSO physically TRUE.",
+      "Step 4: Analyze Option D: Total internal reflection strictly requires light propagating from a denser to a rarer optical medium (n_1 > n_2). Here n_1 < n_2, so TIR cannot occur under any angle of incidence. Thus, Option D is FALSE.",
+      "Step 5: Synthesize distractor audit: Because this is designated as a SINGLE_CORRECT_MCQ, having both Option A and Option C physically true creates an irreconcilable distractor conflict."
+    ],
+    "calculated_answer": "A",
+    "dimensional_check_passed": true,
+    "numerical_check_passed": true,
+    "uniqueness_confirmed": false,
+    "conflicting_distractors": [
+      "C"
+    ],
+    "evaluated_difficulty": {
+      "conceptual_difficulty": 2,
+      "mathematical_difficulty": 1,
+      "multistep_reasoning_difficulty": 2,
+      "abstraction_difficulty": 1,
+      "computational_burden": 1,
+      "trap_misconception_difficulty": 4,
+      "derived_difficulty_band": "L1",
+      "weighting_policy": "PEDAGOGICAL_PROJECT_POLICY"
+    },
+    "verdict": "CONFLICT",
+    "notes": "Fatal distractor conflict detected in single-choice question: Option A (ray bends toward the normal) and Option C (speed of light decreases from c to 3c/4) are simultaneously physically correct. Option C cannot serve as a valid distractor.",
+    "record_status": "ACTIVE",
+    "superseded_by": null,
+    "superseded_reason": null,
+    "timestamp": "2026-09-29 08:54:30+05:30"
+  },
+  "provenance": {
+    "origin": "GENERATED",
+    "curriculum_id": "curr-opt-01",
+    "taxonomy": {
+      "chapter_id": "ray-optics",
+      "topic_id": "refraction-at-plane-surfaces",
+      "subtopic_id": "snells-law"
+    }
+  },
+  "current_status": "REVIEW",
+  "review_details": {
+    "failed_gate": "DISTRACTOR_CONFLICT_GATE",
+    "solver_opinion": {
+      "solver_id": "solver_a",
+      "conversation_id": "c4b2f200-9d09-4009-8419-85baf0f75544",
+      "independent_interpretation": "A light ray transitions across a planar boundary from air (n_1 = 1) to water (n_2 = 4/3). The question is configured as a single-correct MCQ asking which statement is true among four physical propositions.",
+      "governing_principles": [
+        "Snell's Law of Refraction (n_1 \\sin\\theta_1 = n_2 \\sin\\theta_2)",
+        "Phase Velocity of Light in Dielectric Medium (v = c / n)",
+        "Temporal Boundary Invariance of Wave Frequency (f_1 = f_2)",
+        "Conditions for Total Internal Reflection (TIR requires n_1 > n_2 and \\theta_1 > \\theta_c)"
+      ],
+      "independent_equations": [
+        "\\sin\\theta_2 = \\frac{n_1}{n_2} \\sin\\theta_1 = \\frac{1}{4/3} \\sin\\theta_1 = \\frac{3}{4} \\sin\\theta_1 < \\sin\\theta_1 \\implies \\theta_2 < \\theta_1",
+        "v_1 = c, \\quad v_2 = \\frac{c}{n_2} = \\frac{3}{4} c < c",
+        "f_2 = f_1 = f_0",
+        "n_1 < n_2 \\implies \\text{TIR impossible}"
+      ],
+      "independent_solution_steps": [
+        "Step 1: Analyze Option A using Snell's Law: For non-normal incidence, since n_2 = 4/3 > n_1 = 1, sin(theta_2) = (3/4) sin(theta_1) < sin(theta_1), so theta_2 < theta_1. The refracted ray bends toward the normal. Thus, Option A is physically TRUE.",
+        "Step 2: Analyze Option B: Frequency is an intrinsic property established by the source and preserved across interface boundary conditions (f = f_0). Frequency does not decrease. Thus, Option B is FALSE.",
+        "Step 3: Analyze Option C using the definition of refractive index: The speed of light in water is v_2 = c / n_2 = 3c / 4 approx 2.25 * 10^8 m/s, which is strictly less than c (in air). Thus, the speed of light decreases. Therefore, Option C is ALSO physically TRUE.",
+        "Step 4: Analyze Option D: Total internal reflection strictly requires light propagating from a denser to a rarer optical medium (n_1 > n_2). Here n_1 < n_2, so TIR cannot occur under any angle of incidence. Thus, Option D is FALSE.",
+        "Step 5: Synthesize distractor audit: Because this is designated as a SINGLE_CORRECT_MCQ, having both Option A and Option C physically true creates an irreconcilable distractor conflict."
+      ],
+      "calculated_answer": "A",
+      "dimensional_check_passed": true,
+      "numerical_check_passed": true,
+      "uniqueness_confirmed": false,
+      "conflicting_distractors": [
+        "C"
+      ],
+      "evaluated_difficulty": {
+        "conceptual_difficulty": 2,
+        "mathematical_difficulty": 1,
+        "multistep_reasoning_difficulty": 2,
+        "abstraction_difficulty": 1,
+        "computational_burden": 1,
+        "trap_misconception_difficulty": 4,
+        "derived_difficulty_band": "L1",
+        "weighting_policy": "PEDAGOGICAL_PROJECT_POLICY"
+      },
+      "verdict": "CONFLICT",
+      "notes": "Fatal distractor conflict detected in single-choice question: Option A (ray bends toward the normal) and Option C (speed of light decreases from c to 3c/4) are simultaneously physically correct. Option C cannot serve as a valid distractor.",
+      "record_status": "ACTIVE",
+      "superseded_by": null,
+      "superseded_reason": null,
+      "timestamp": "2026-09-29 08:54:30+05:30"
+    },
+    "distractor_errors": [
+      "SOLVER_VERDICT_CONFLICT: Solver returned 'CONFLICT' for 'gen-q-dist-conflict-01'",
+      "NON_UNIQUE_ANSWER: Solver reported non-unique solution for 'gen-q-dist-conflict-01'",
+      "DISTRACTOR_CONFLICT: Distractor(s) ['C'] are also physically/mathematically valid"
+    ],
+    "notes": "Fatal distractor conflict detected in single-choice question: Option A (ray bends toward the normal) and Option C (speed of light decreases from c to 3c/4) are simultaneously physically correct. Option C cannot serve as a valid distractor."
+  },
+  "question_payload": {
+    "question_id": "gen-q-dist-conflict-01",
+    "version": 1,
+    "origin": "GENERATED",
+    "curriculum_id": "curr-opt-01",
+    "taxonomy_reference": {
+      "chapter_id": "ray-optics",
+      "topic_id": "refraction-at-plane-surfaces",
+      "subtopic_id": "snells-law"
+    },
+    "concept_references": [
+      "concept-opt-snell-01"
+    ],
+    "prerequisite_references": [
+      "curr-opt-01"
+    ],
+    "target_exam_level": "JEE_MAIN",
+    "question_type": "SINGLE_CORRECT_MCQ",
+    "statement": "A ray of light passes from air ($n_1 = 1$) into water ($n_2 = 4/3$). Which of the following is true?",
+    "diagram_references": [],
+    "options": {
+      "A": "The ray bends toward the normal",
+      "B": "The frequency decreases",
+      "C": "The speed of light decreases",
+      "D": "Total internal reflection occurs"
+    },
+    "correct_answer": "A",
+    "solution_strategy": "Apply Snell's law n_1 sin theta_1 = n_2 sin theta_2 to deduce ray bending toward normal (r < i), while noting deliberate distractor conflict where Option C is also true.",
+    "solution": "1. Snell's Law:\n$$n_1 \\sin i = n_2 \\sin r \\implies \\sin r = \\frac{n_1}{n_2} \\sin i = \\frac{1}{4/3} \\sin i = \\frac{3}{4} \\sin i < \\sin i$$\nSince $r < i$, the refracted ray bends toward the normal. Statement A is true.\n2. Wave Speed:\nIn water with refractive index $n_2 = 4/3$, the speed of light is $v = c / n_2 = \\frac{3}{4} c < c$. Thus, the speed of light also decreases. Statement C is physically true as well!\nNote: This assessment item contains a deliberate distractor conflict designed to test and trigger the question gate distractor conflict audit.",
+    "assumptions": [
+      "Isotropic media",
+      "Planar interface",
+      "Non-normal incidence for direction bending"
+    ],
+    "numerical_values": {
+      "n1": 1.0,
+      "n2": 1.3333
+    },
+    "units": null,
+    "tolerance": null,
+    "intended_learning_objective": "Test distractor conflict detection when multiple options in a single-correct MCQ are physically valid.",
+    "difficulty_dimensions": {
+      "conceptual_difficulty": 2,
+      "mathematical_difficulty": 1,
+      "multistep_reasoning_difficulty": 2,
+      "abstraction_difficulty": 1,
+      "computational_burden": 1,
+      "trap_misconception_difficulty": 4,
+      "derived_difficulty_band": "L2",
+      "weighting_policy": "PEDAGOGICAL_PROJECT_POLICY"
+    },
+    "difficulty_band": "L2",
+    "misconception_targeted": "misc-opt-01",
+    "distractor_rationales": [
+      {
+        "option_key": "B",
+        "distractor_value": "The frequency decreases",
+        "likely_misconception": "misc-opt-02",
+        "student_rationale": "Student believes light frequency drops in denser media.",
+        "physical_error": "Frequency is an invariant characteristic of the source determined by boundary temporal conditions.",
+        "error_category": "INTRINSIC_PROPERTY_VIOLATION"
+      },
+      {
+        "option_key": "C",
+        "distractor_value": "The speed of light decreases",
+        "likely_misconception": "misc-opt-distractor-conflict",
+        "student_rationale": "Student recognizes that v = c / n = 3c / 4 < c, so light speed decreases.",
+        "physical_error": "Author claims this is a distractor, but physically v = c/n indeed decreases, creating a fatal distractor conflict with Option A!",
+        "error_category": "VALID_STATEMENT_AS_DISTRACTOR"
+      },
+      {
+        "option_key": "D",
+        "distractor_value": "Total internal reflection occurs",
+        "likely_misconception": "misc-opt-01",
+        "student_rationale": "Student confuses the denser-to-rarer requirement for TIR.",
+        "physical_error": "Total internal reflection can only occur when light travels from an optically denser medium to an optically rarer medium (n_1 > n_2). Here n_1 < n_2, so TIR is impossible.",
+        "error_category": "CONDITION_VIOLATION"
+      }
+    ],
+    "source_grounding": {
+      "relationship_type": "NEW_PROBLEM",
+      "source_atom_id": null,
+      "transformation_type": null,
+      "what_changed": null,
+      "why_pedagogically_distinct": null
+    },
+    "risk_level": "HIGH",
+    "generation_metadata": {
+      "generator_agent": "physics-question-generator",
+      "author_model": "claude-3-7-sonnet"
+    },
+    "content_hash": "d0521a7493668675b2ed693f4f4b13a85959057abef8cd45bf0a34bb9b614691",
+    "verification_status": "GENERATED",
+    "verification_record_id": null,
+    "created_at": "2026-09-29T08:30:00Z"
+  },
+  "routed_at": "2026-09-29T03:54:46.240239+00:00"
+}

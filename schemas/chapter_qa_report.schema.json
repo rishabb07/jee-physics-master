@@ -1,0 +1,128 @@
+{
+  "$defs": {
+    "ChapterQAFinding": {
+      "description": "An individual issue detected during independent chapter QA audit.",
+      "properties": {
+        "category": {
+          "description": "'PHYSICS' | 'CURRICULUM' | 'EDITORIAL' | 'PEDAGOGY' | 'RENDERING'",
+          "title": "Category",
+          "type": "string"
+        },
+        "severity": {
+          "default": "WARNING",
+          "description": "'CRITICAL' | 'WARNING' | 'INFO'",
+          "title": "Severity",
+          "type": "string"
+        },
+        "location": {
+          "description": "Section, block ID, or line reference",
+          "title": "Location",
+          "type": "string"
+        },
+        "description": {
+          "description": "Description of the issue",
+          "minLength": 5,
+          "title": "Description",
+          "type": "string"
+        },
+        "remediation": {
+          "description": "Suggested fix",
+          "minLength": 5,
+          "title": "Remediation",
+          "type": "string"
+        }
+      },
+      "required": [
+        "category",
+        "location",
+        "description",
+        "remediation"
+      ],
+      "title": "ChapterQAFinding",
+      "type": "object"
+    },
+    "ClaimTraceClass": {
+      "description": "Provenance audit class for every substantive physical statement.",
+      "enum": [
+        "CANONICAL_KB",
+        "SOURCE_DERIVED",
+        "GENERATED_AND_VERIFIED",
+        "EDITORIAL_TRANSITION"
+      ],
+      "title": "ClaimTraceClass",
+      "type": "string"
+    }
+  },
+  "description": "Audit report produced by the Independent Chapter QA Agent.",
+  "properties": {
+    "report_id": {
+      "description": "Unique QA report identifier",
+      "minLength": 1,
+      "title": "Report Id",
+      "type": "string"
+    },
+    "chapter_id": {
+      "description": "Audited chapter slug",
+      "minLength": 1,
+      "title": "Chapter Id",
+      "type": "string"
+    },
+    "verdict": {
+      "default": "PASSED",
+      "description": "'PASSED' | 'FAILED' | 'NEEDS_REVISION'",
+      "title": "Verdict",
+      "type": "string"
+    },
+    "physics_passed": {
+      "description": "Physics accuracy check",
+      "title": "Physics Passed",
+      "type": "boolean"
+    },
+    "curriculum_passed": {
+      "description": "Curriculum specification alignment check",
+      "title": "Curriculum Passed",
+      "type": "boolean"
+    },
+    "editorial_passed": {
+      "description": "Editorial and notation consistency check",
+      "title": "Editorial Passed",
+      "type": "boolean"
+    },
+    "pedagogy_passed": {
+      "description": "Pedagogical scaffolding and flow check",
+      "title": "Pedagogy Passed",
+      "type": "boolean"
+    },
+    "findings": {
+      "description": "List of detected findings",
+      "items": {
+        "$ref": "#/$defs/ChapterQAFinding"
+      },
+      "title": "Findings",
+      "type": "array"
+    },
+    "claim_traces": {
+      "additionalProperties": {
+        "$ref": "#/$defs/ClaimTraceClass"
+      },
+      "description": "Audit trace mapping substantive claims to ClaimTraceClass",
+      "title": "Claim Traces",
+      "type": "object"
+    },
+    "timestamp": {
+      "format": "date-time",
+      "title": "Timestamp",
+      "type": "string"
+    }
+  },
+  "required": [
+    "report_id",
+    "chapter_id",
+    "physics_passed",
+    "curriculum_passed",
+    "editorial_passed",
+    "pedagogy_passed"
+  ],
+  "title": "ChapterQAReport",
+  "type": "object"
+}

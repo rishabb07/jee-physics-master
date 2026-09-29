@@ -1,0 +1,14 @@
+{
+  "promotion_id": "promo-em-induction-question-8a88475e-7d1024",
+  "atom_id": "em-induction-question-8a88475e",
+  "verification_id": "verif-em-induction-question-8a88475e-f97fa2",
+  "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+  "atom_version": 1,
+  "staged_path": "build/staging/atoms/batch_src-jee-rank-booster-03-mock-256f42c6_20260928_031838_7b76.jsonl",
+  "canonical_path": "kb\\atoms\\em-induction-question-8a88475e.json",
+  "verdict": "VERIFIED",
+  "source_claimed_answer": null,
+  "verified_answer": "B",
+  "timestamp": "2026-09-28T03:29:19.643905Z",
+  "promoted_by": "promotion_gate"
+}

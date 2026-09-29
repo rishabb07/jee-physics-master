@@ -1,0 +1,30 @@
+{
+  "verification_id": "verif-waves-question-01c8e233-a525e8",
+  "atom_id": "waves-question-01c8e233",
+  "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+  "atom_version": 1,
+  "content_hash": "432762c6be7aef3d98c00ee89cfb40d3badc150dac127bf90c5fa34c8260355a",
+  "verification_protocol_version": "1.0.0",
+  "solver_run_ids": [
+    "run-solver_a-waves-question-01c8e233-4d554d79",
+    "run-solver_b-waves-question-01c8e233-5d6eeb68"
+  ],
+  "source_claimed_answer": null,
+  "source_solution": null,
+  "independent_answers": {
+    "solver_a": "B",
+    "solver_b": "B"
+  },
+  "independent_solutions": {
+    "solver_a": "Fundamental frequency formulas\nBeat frequency from frequency difference",
+    "solver_b": "n1 = v / (l - 2dl), n2 = v / (l + 2dl). Beat frequency is difference, roughly 8 n0 dl / l."
+  },
+  "consensus_answer": "B",
+  "verdict": "VERIFIED",
+  "confidence": 0.99,
+  "discrepancy_classification": "SOURCE_ANSWER_MISSING",
+  "adjudication_result": null,
+  "created_at": "2026-09-28T03:29:19.611509Z",
+  "completed_at": "2026-09-28T03:29:19.611509Z",
+  "metadata": {}
+}

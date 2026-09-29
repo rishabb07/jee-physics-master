@@ -1,0 +1,32 @@
+{
+  "solver_run_id": "run-solver_a-fluid-mechanics-question-2b8a7f0e-3c7d9a14",
+  "solver_agent_name": "solver_a",
+  "atom_id": "fluid-mechanics-question-2b8a7f0e",
+  "atom_version": 1,
+  "content_hash": "ea5b50dd8af5543e53debcccb88c201bef8bdfa0933269f26ac8830c2aff9d86",
+  "verification_protocol_version": "1.0.0",
+  "blind_package_hash": "c3db04a924be3f413a0d7b5298a34335e49430cf4163f15d5c84773c43ac4f7a",
+  "independent_answer": "D",
+  "raw_answer": "Option D: rho_1 < rho_3 < rho_2",
+  "reasoning_steps": [
+    "Step 1: Fluid layering stability: Liquid 1 (density rho_1) forms the upper layer resting above Liquid 2 (density rho_2). In stable hydrostatic equilibrium under gravity without Rayleigh-Taylor convective mixing, the less dense liquid floats above the denser liquid: rho_1 < rho_2.",
+    "Step 2: Static equilibrium of floating solid ball: The solid ball has total volume V, uniform density rho_3, and mass m = rho_3 * V. Its downward gravitational weight is W = rho_3 * V * g.",
+    "Step 3: Archimedes' principle for stratified fluids: The ball floats in static equilibrium straddling the interface between Liquid 1 and Liquid 2. Let V_1 > 0 be the submerged volume in Liquid 1 and V_2 > 0 be the submerged volume in Liquid 2, such that V_1 + V_2 = V.",
+    "Step 4: Equilibrium force balance: Upward buoyant force balances weight: F_B = rho_1 * V_1 * g + rho_2 * V_2 * g = W = rho_3 * V * g.",
+    "Step 5: Convex combination of densities: Dividing by V * g gives rho_3 = (V_1 / V) * rho_1 + (V_2 / V) * rho_2. Because V_1 > 0 and V_2 > 0 with (V_1 / V) + (V_2 / V) = 1, rho_3 is a strict convex combination of rho_1 and rho_2.",
+    "Step 6: Inequality deduction: Since rho_1 < rho_2 and 0 < V_1/V, V_2/V < 1, rho_3 must lie strictly between rho_1 and rho_2: rho_1 < rho_3 < rho_2.",
+    "Step 7: Verification by limiting cases: If rho_3 <= rho_1, the ball would float entirely within or above Liquid 1. If rho_3 >= rho_2, the ball would sink through Liquid 2 to the bottom. Since it rests in equilibrium at the boundary, rho_1 < rho_3 < rho_2 must hold.",
+    "Step 8: Conclusion: The relation rho_1 < rho_3 < rho_2 corresponds to Option D."
+  ],
+  "assumptions_used": [
+    "Liquids 1 and 2 are immiscible and in stable hydrostatic equilibrium under uniform downward gravity.",
+    "The solid ball is homogeneous with uniform density rho_3.",
+    "The ball floats in static equilibrium straddling the interface with non-zero volume in both liquids."
+  ],
+  "uncertainty": null,
+  "diagram_interpretation": "A container holds two stratified immiscible liquids: Liquid 1 on top and Liquid 2 on the bottom. A solid ball rests partially submerged in Liquid 1 and partially submerged in Liquid 2 at the horizontal interface.",
+  "possible_ambiguities": [
+    "Typographical error in question text: 'rho_1, rho_1 and rho_3' is read as 'rho_1, rho_2 and rho_3', fully resolved by the provided options."
+  ],
+  "created_at": "2026-09-28T01:33:00Z"
+}

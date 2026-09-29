@@ -1,0 +1,113 @@
+{
+  "$defs": {
+    "DedupVariant": {
+      "properties": {
+        "source_id": {
+          "description": "Source document where this duplicate appeared",
+          "title": "Source Id",
+          "type": "string"
+        },
+        "source_locator": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Page / Problem number in that source",
+          "title": "Source Locator"
+        },
+        "notation_notes": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Any notation differences (e.g. angle alpha vs theta)",
+          "title": "Notation Notes"
+        },
+        "solution_difference": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Summary if the source provided an alternative solution",
+          "title": "Solution Difference"
+        }
+      },
+      "required": [
+        "source_id"
+      ],
+      "title": "DedupVariant",
+      "type": "object"
+    }
+  },
+  "properties": {
+    "duplicate_group_id": {
+      "description": "Unique cluster identifier",
+      "minLength": 1,
+      "title": "Duplicate Group Id",
+      "type": "string"
+    },
+    "canonical_atom_id": {
+      "description": "Primary atom representing this equivalence class",
+      "minLength": 1,
+      "title": "Canonical Atom Id",
+      "type": "string"
+    },
+    "reason": {
+      "description": "Explanation of why these atoms are identical physical problems",
+      "title": "Reason",
+      "type": "string"
+    },
+    "variants": {
+      "description": "All known source occurrences",
+      "items": {
+        "$ref": "#/$defs/DedupVariant"
+      },
+      "title": "Variants",
+      "type": "array"
+    },
+    "keep_both_solutions": {
+      "default": true,
+      "description": "True if distinct solution methods should both be retained",
+      "title": "Keep Both Solutions",
+      "type": "boolean"
+    },
+    "merge_action": {
+      "default": "CANONICAL_WITH_MULTI_PROVENANCE",
+      "title": "Merge Action",
+      "type": "string"
+    },
+    "status": {
+      "default": "APPROVED",
+      "description": "PENDING_REVIEW, APPROVED, REJECTED",
+      "title": "Status",
+      "type": "string"
+    },
+    "created_at": {
+      "format": "date-time",
+      "title": "Created At",
+      "type": "string"
+    }
+  },
+  "required": [
+    "duplicate_group_id",
+    "canonical_atom_id",
+    "reason"
+  ],
+  "title": "DedupRecord",
+  "type": "object"
+}

@@ -1,0 +1,11 @@
+{
+  "manifest_id": "stage_adj_adj-magnetism-q20-001",
+  "adjudication_id": "adj-magnetism-q20-001",
+  "atom_id": "magnetism-and-matter-question-3c3af9c7",
+  "verdict": "VERIFIED",
+  "adjudicated_answer": "C",
+  "input_source_file": "C:\\Users\\Win11\\OneDrive\\Desktop\\Rishab\\jee physics master book test\\verification\\incoming\\adjudication_magnetism-and-matter-question-3c3af9c7_adj-magnetism-q20-001.json",
+  "staged_destination_file": "C:\\Users\\Win11\\OneDrive\\Desktop\\Rishab\\jee physics master book test\\verification\\adjudications\\adj-magnetism-q20-001.json",
+  "timestamp": "2026-09-28T03:29:01.549569+00:00",
+  "status": "STAGED"
+}

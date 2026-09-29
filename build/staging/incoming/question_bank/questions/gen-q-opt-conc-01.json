@@ -1,0 +1,93 @@
+{
+  "question_id": "gen-q-opt-conc-01",
+  "version": 1,
+  "origin": "GENERATED",
+  "curriculum_id": "curr-opt-01",
+  "taxonomy_reference": {
+    "chapter_id": "ray-optics",
+    "topic_id": "refraction-at-plane-surfaces",
+    "subtopic_id": "snells-law"
+  },
+  "concept_references": [
+    "concept-opt-snell-01"
+  ],
+  "prerequisite_references": [
+    "curr-opt-01"
+  ],
+  "target_exam_level": "JEE_MAIN",
+  "question_type": "CONCEPTUAL_QUALITATIVE",
+  "statement": "Monochromatic light of frequency $f_0$ enters a denser optical medium of refractive index $n > 1$ from vacuum. Which of the following correctly describes the speed $v$, frequency $f$, and wavelength $\\lambda$ of light in the medium?",
+  "diagram_references": [],
+  "options": {
+    "A": "$v = \\frac{c}{n},\\; f = f_0,\\; \\lambda = \\frac{\\lambda_0}{n}$",
+    "B": "$v = \\frac{c}{n},\\; f = \\frac{f_0}{n},\\; \\lambda = \\lambda_0$",
+    "C": "$v = c,\\; f = f_0,\\; \\lambda = \\frac{\\lambda_0}{n}$",
+    "D": "$v = \\frac{c}{n},\\; f = n f_0,\\; \\lambda = \\lambda_0$"
+  },
+  "correct_answer": "A",
+  "solution_strategy": "Identify frequency as an invariant source characteristic governed by interface temporal boundary conditions, apply phase velocity reduction v = c/n in dielectric media, and deduce wavelength reduction via the fundamental wave relation lambda = v / f.",
+  "solution": "1. Frequency Invariance: The frequency of an electromagnetic wave is determined solely by the periodic oscillation of the radiating source charges. At any dielectric boundary, continuity of the tangential components of electric and magnetic fields forces the temporal oscillation frequency on both sides of the interface to match exactly: $$f = f_0$$\n2. Phase Velocity: Inside an optical medium with absolute refractive index $n = \\sqrt{\\epsilon_r \\mu_r} > 1$, the macroscopic speed of light is slowed by coherent forward scattering: $$v = \\frac{c}{n}$$\n3. Wavelength: Using the fundamental wave relation $v = f \\lambda$: $$\\lambda = \\frac{v}{f} = \\frac{c/n}{f_0} = \\frac{\\lambda_0}{n}$$\nTherefore, $v = c/n$, $f = f_0$, and $\\lambda = \\lambda_0 / n$, which corresponds uniquely to Option A.",
+  "assumptions": [
+    "Linear isotropic non-magnetic dielectric medium",
+    "Monochromatic coherent beam",
+    "Normal or oblique incidence without dispersion or frequency doubling"
+  ],
+  "numerical_values": {},
+  "units": null,
+  "tolerance": null,
+  "intended_learning_objective": "Test physical understanding of wave parameters across dielectric interfaces and the invariant nature of wave frequency.",
+  "difficulty_dimensions": {
+    "conceptual_difficulty": 2,
+    "mathematical_difficulty": 1,
+    "multistep_reasoning_difficulty": 2,
+    "abstraction_difficulty": 2,
+    "computational_burden": 1,
+    "trap_misconception_difficulty": 2,
+    "derived_difficulty_band": "L2",
+    "weighting_policy": "PEDAGOGICAL_PROJECT_POLICY"
+  },
+  "difficulty_band": "L2",
+  "misconception_targeted": "misc-opt-02",
+  "distractor_rationales": [
+    {
+      "option_key": "B",
+      "distractor_value": "$v = \\frac{c}{n},\\; f = \\frac{f_0}{n},\\; \\lambda = \\lambda_0$",
+      "likely_misconception": "misc-opt-02",
+      "student_rationale": "Student assumes wave frequency decreases in a denser medium proportional to speed reduction while wavelength remains unchanged as a geometric constant.",
+      "physical_error": "Frequency is an intrinsic source characteristic determined by the oscillating charges creating the electromagnetic wave; boundary continuity of electric and magnetic fields requires temporal oscillations to remain strictly identical on both sides of the interface (f = f_0). Thus wavelength, not frequency, scales inversely with refractive index.",
+      "error_category": "INTRINSIC_PROPERTY_VIOLATION"
+    },
+    {
+      "option_key": "C",
+      "distractor_value": "$v = c,\\; f = f_0,\\; \\lambda = \\frac{\\lambda_0}{n}$",
+      "likely_misconception": "misc-opt-const-speed",
+      "student_rationale": "Student confuses the universal constant c in vacuum with wave phase velocity inside dielectric matter, assuming photon velocity cannot change.",
+      "physical_error": "In a medium with relative permittivity epsilon_r > 1 and relative permeability mu_r approx 1, the macroscopic phase velocity of the electromagnetic wave is reduced by polarization response to v = 1 / sqrt(epsilon mu) = c / n < c.",
+      "error_category": "SPEED_INVARIANCE_ERROR"
+    },
+    {
+      "option_key": "D",
+      "distractor_value": "$v = \\frac{c}{n},\\; f = n f_0,\\; \\lambda = \\lambda_0$",
+      "likely_misconception": "misc-opt-freq-dilation",
+      "student_rationale": "Student mistakenly applies an inverted scaling f = n f_0, believing optical density compresses time periods or increases frequency.",
+      "physical_error": "Temporal continuity across the dielectric interface requires identical boundary oscillation frequency f = f_0. Inverting frequency scaling to n f_0 violates wave boundary matching and phase continuity.",
+      "error_category": "INVERTED_RATIO"
+    }
+  ],
+  "source_grounding": {
+    "relationship_type": "NEW_PROBLEM",
+    "source_atom_id": null,
+    "transformation_type": null,
+    "what_changed": null,
+    "why_pedagogically_distinct": null
+  },
+  "risk_level": "LOW",
+  "generation_metadata": {
+    "generator_agent": "physics-question-generator",
+    "author_model": "claude-3-7-sonnet"
+  },
+  "content_hash": "b2a2e7dbbc2f5abae144ed6e6866c3d9d5e6218445d83ffaff54817214b1f845",
+  "verification_status": "GENERATED",
+  "verification_record_id": null,
+  "created_at": "2026-09-29T08:30:00Z"
+}

@@ -1,0 +1,690 @@
+{
+  "total_atoms": 35,
+  "atoms": [
+    {
+      "atom_id": "center-of-mass-question-95affcbc",
+      "existing_taxonomy": {
+        "chapter_id": "center-of-mass",
+        "topic_id": "collisions",
+        "subtopic_id": "perfectly-inelastic-collision-2d"
+      },
+      "provenance": {
+        "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+        "page_start": 2,
+        "page_end": 2,
+        "source_locator": "Section - A, Q6"
+      },
+      "question_text": "Two particles $A$ and $B$ of equal mass $M$ are moving with the same speed $v$ as shown in the figure. They collide completely inelastically and move as a single particle $C$. The angle $\\theta$ that the path of $C$ makes with the $X$-axis is given by:",
+      "options": [
+        ": $\\tan\\theta = \\frac{\\sqrt{3} + \\sqrt{2}}{1 - \\sqrt{2}}$",
+        ": $\\tan\\theta = \\frac{\\sqrt{3} - \\sqrt{2}}{1 - \\sqrt{2}}$",
+        ": $\\tan\\theta = \\frac{1 - \\sqrt{2}}{\\sqrt{2}(1 + \\sqrt{3})}$",
+        ": $\\tan\\theta = \\frac{1 - \\sqrt{3}}{1 + \\sqrt{2}}$"
+      ]
+    },
+    {
+      "atom_id": "communication-systems-question-8c5f2e76",
+      "existing_taxonomy": {
+        "chapter_id": "communication-systems",
+        "topic_id": "bandwidth-and-channel-capacity",
+        "subtopic_id": "optical-communication"
+      },
+      "provenance": {
+        "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+        "page_start": 6,
+        "page_end": 6,
+        "source_locator": "Section - B, Q27"
+      },
+      "question_text": "Consider an optical communication system operating at a wavelength of $800\\text{ nm}$. Suppose, only $1\\%$ of the optical source frequency is the available channel bandwidth for optical communication. How many channels can be accommodated for transmitting audio signals requiring a bandwidth of $8\\te",
+      "options": []
+    },
+    {
+      "atom_id": "current-electricity-question-3a1b8c4d",
+      "existing_taxonomy": {
+        "chapter_id": "current-electricity",
+        "topic_id": "dc-circuits",
+        "subtopic_id": "measuring-instruments"
+      },
+      "provenance": {
+        "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+        "page_start": 4,
+        "page_end": 4,
+        "source_locator": "Section - A, Q13"
+      },
+      "question_text": "An ideal ammeter (zero resistance) and an ideal voltmeter (infinite resistance) are connected as shown. The ammeter and voltmeter reading for $R_{1} = 5\\,\\Omega$, $R_{2} = 15\\,\\Omega$, $R_{3} = 1.25\\,\\Omega$ and $E = 20\\text{ V}$ are given as",
+      "options": [
+        ": $6.25\\text{ A},\\; 3.75\\text{ V}$",
+        ": $3.00\\text{ A},\\; 5\\text{ V}$",
+        ": $3.75\\text{ A},\\; 3.75\\text{ V}$",
+        ": $6.25\\text{ A},\\; 6.25\\text{ V}$"
+      ]
+    },
+    {
+      "atom_id": "current-electricity-question-ce6aab7f",
+      "existing_taxonomy": {
+        "chapter_id": "current-electricity",
+        "topic_id": "resistance-and-resistivity",
+        "subtopic_id": "stretching-and-recasting-of-wires"
+      },
+      "provenance": {
+        "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+        "page_start": 5,
+        "page_end": 5,
+        "source_locator": "Section - B, Q21"
+      },
+      "question_text": "A uniform wire of length $l$ and radius $r$ has a resistance of $100\\,\\Omega$. It is recast into a wire of radius $\\frac{r}{2}$. The resistance of new wire will be ________ $\\Omega$.",
+      "options": []
+    },
+    {
+      "atom_id": "current-electricity-question-d2492f7f",
+      "existing_taxonomy": {
+        "chapter_id": "current-electricity",
+        "topic_id": "dc-circuits",
+        "subtopic_id": "measuring-instruments"
+      },
+      "provenance": {
+        "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+        "page_start": 4,
+        "page_end": 4,
+        "source_locator": "Section - A, Q13"
+      },
+      "question_text": "An ideal ammeter (zero resistance) and an ideal voltmeter (infinite resistance) are connected as shown. The ammeter and voltmeter reading for $R_{1} = 5\\,\\Omega$, $R_{2} = 15\\,\\Omega$, $R_{3} = 1.25\\,\\Omega$ and $E = 20\\text{ V}$ are given as",
+      "options": [
+        ": $6.25\\text{ A},\\; 3.75\\text{ V}$",
+        ": $3.00\\text{ A},\\; 5\\text{ V}$",
+        ": $3.75\\text{ A},\\; 3.75\\text{ V}$",
+        ": $6.25\\text{ A},\\; 6.25\\text{ V}$"
+      ]
+    },
+    {
+      "atom_id": "electrostatics-question-132c25d1",
+      "existing_taxonomy": {
+        "chapter_id": "electrostatics",
+        "topic_id": "gausss-law",
+        "subtopic_id": "electric-flux-symmetry"
+      },
+      "provenance": {
+        "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+        "page_start": 4,
+        "page_end": 4,
+        "source_locator": "Section - A, Q15"
+      },
+      "question_text": "A point charge $+Q$ is positioned at the center of the base of a square pyramid as shown. The flux through one of the four identical upper faces of the pyramid is \u2013",
+      "options": [
+        ": $\\frac{Q}{16\\varepsilon_{0}}$",
+        ": $\\frac{Q}{4\\varepsilon_{0}}$",
+        ": $\\frac{Q}{8\\varepsilon_{0}}$",
+        ": None of these"
+      ]
+    },
+    {
+      "atom_id": "electrostatics-question-26848976",
+      "existing_taxonomy": {
+        "chapter_id": "electrostatics",
+        "topic_id": "capacitance",
+        "subtopic_id": "capacitor-network-bridge"
+      },
+      "provenance": {
+        "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+        "page_start": 3,
+        "page_end": 3,
+        "source_locator": "Section - A, Q10"
+      },
+      "question_text": "Figure shows a network of capacitors where the numbers indicate capacitances in micro Farad. The value of capacitance $C$ if the equivalent capacitance between point $A$ and $B$ is to be $1\\text{ }\\mu\\text{F}$ is:",
+      "options": [
+        ": $\\frac{32}{23}\\text{ }\\mu\\text{F}$",
+        ": $\\frac{31}{23}\\text{ }\\mu\\text{F}$",
+        ": $\\frac{33}{23}\\text{ }\\mu\\text{F}$",
+        ": $\\frac{34}{23}\\text{ }\\mu\\text{F}$"
+      ]
+    },
+    {
+      "atom_id": "electrostatics-question-4c9d1e82",
+      "existing_taxonomy": {
+        "chapter_id": "electrostatics",
+        "topic_id": "gausss-law",
+        "subtopic_id": "electric-flux-symmetry"
+      },
+      "provenance": {
+        "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+        "page_start": 4,
+        "page_end": 4,
+        "source_locator": "Section - A, Q15"
+      },
+      "question_text": "A point charge $+Q$ is positioned at the center of the base of a square pyramid as shown. The flux through one of the four identical upper faces of the pyramid is \u2013",
+      "options": [
+        ": $\\frac{Q}{16\\varepsilon_{0}}$",
+        ": $\\frac{Q}{4\\varepsilon_{0}}$",
+        ": $\\frac{Q}{8\\varepsilon_{0}}$",
+        ": None of these"
+      ]
+    },
+    {
+      "atom_id": "em-induction-question-8a88475e",
+      "existing_taxonomy": {
+        "chapter_id": "electromagnetic-induction",
+        "topic_id": "lc-oscillations",
+        "subtopic_id": "lc-circuit-current-charge"
+      },
+      "provenance": {
+        "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+        "page_start": 3,
+        "page_end": 3,
+        "source_locator": "Section - A, Q9"
+      },
+      "question_text": "In the LC circuit, the current in the direction shown and the charges on the capacitor plates have the signs shown. At this time",
+      "options": [
+        ": $I$ is increasing and $Q$ is increasing",
+        ": $I$ is increasing and $Q$ is decreasing",
+        ": $I$ is decreasing and $Q$ is increasing",
+        ": $I$ is decreasing and $Q$ is decreasing"
+      ]
+    },
+    {
+      "atom_id": "fluid-mechanics-question-2b8a7f0e",
+      "existing_taxonomy": {
+        "chapter_id": "fluid-mechanics",
+        "topic_id": "buoyancy-and-floatation",
+        "subtopic_id": "immiscible-fluids-interface"
+      },
+      "provenance": {
+        "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+        "page_start": 4,
+        "page_end": 4,
+        "source_locator": "Section - A, Q16"
+      },
+      "question_text": "A jar is filled with two non-mixing liquids 1 and 2 having densities $\\rho_{1}$ and $\\rho_{2}$ respectively. A solid ball, made of a material of density $\\rho_{3}$, is dropped in the jar. It comes to equilibrium in the position shown in the figure. Which of the following is true for $\\rho_{1}$, $\\rh",
+      "options": [
+        ": $\\rho_{3} < \\rho_{1} < \\rho_{2}$",
+        ": $\\rho_{1} > \\rho_{3} > \\rho_{2}$",
+        ": $\\rho_{1} < \\rho_{2} < \\rho_{3}$",
+        ": $\\rho_{1} < \\rho_{3} < \\rho_{2}$"
+      ]
+    },
+    {
+      "atom_id": "fluid-mechanics-question-71ea5e08",
+      "existing_taxonomy": {
+        "chapter_id": "fluid-mechanics",
+        "topic_id": "buoyancy-and-floatation",
+        "subtopic_id": "immiscible-fluids-interface"
+      },
+      "provenance": {
+        "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+        "page_start": 4,
+        "page_end": 4,
+        "source_locator": "Section - A, Q16"
+      },
+      "question_text": "A jar is filled with two non-mixing liquids 1 and 2 having densities $\\rho_{1}$ and, $\\rho_{2}$ respectively. A solid ball, made of a material of density $\\rho_{3}$, is dropped in the jar. It comes to equilibrium in the position shown in the figure. Which of the following is true for $\\rho_{1}$, $\\r",
+      "options": [
+        ": $\\rho_{3} < \\rho_{1} < \\rho_{2}$",
+        ": $\\rho_{1} > \\rho_{3} > \\rho_{2}$",
+        ": $\\rho_{1} < \\rho_{2} < \\rho_{3}$",
+        ": $\\rho_{1} < \\rho_{3} < \\rho_{2}$"
+      ]
+    },
+    {
+      "atom_id": "fluid-mechanics-question-870c4110",
+      "existing_taxonomy": {
+        "chapter_id": "fluid-mechanics",
+        "topic_id": "surface-tension",
+        "subtopic_id": "liquid-films-and-sliders"
+      },
+      "provenance": {
+        "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+        "page_start": 5,
+        "page_end": 5,
+        "source_locator": "Section - B, Q22"
+      },
+      "question_text": "A thin liquid film formed between a U-shaped wire and a light slider supports a weight of $1.5 \\times 10^{-2}\\text{ N}$ (see figure). The length of the slider is $30\\text{ cm}$ and its weight negligible. The surface tension of the liquid film is ________ $\\text{Nm}^{-1}$.",
+      "options": []
+    },
+    {
+      "atom_id": "gravitation-question-687b3c83",
+      "existing_taxonomy": {
+        "chapter_id": "gravitation",
+        "topic_id": "orbital-mechanics",
+        "subtopic_id": "energy-to-orbit"
+      },
+      "provenance": {
+        "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+        "page_start": 1,
+        "page_end": 1,
+        "source_locator": "Section - A, Q2"
+      },
+      "question_text": "What is the minimum energy required to launch a satellite of mass $m$ from the surface of a planet of mass $M$ and radius $R$ in a circular orbit at an altitude of $2R$?",
+      "options": [
+        ": $\\frac{5GmM}{6R}$",
+        ": $\\frac{2GmM}{3R}$",
+        ": $\\frac{GmM}{2R}$",
+        ": $\\frac{3GmM}{2R}$"
+      ]
+    },
+    {
+      "atom_id": "kinematics-question-7b4e1d65",
+      "existing_taxonomy": {
+        "chapter_id": "kinematics",
+        "topic_id": "rectilinear-motion",
+        "subtopic_id": "acceleration-and-deceleration"
+      },
+      "provenance": {
+        "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+        "page_start": 6,
+        "page_end": 6,
+        "source_locator": "Section - B, Q26"
+      },
+      "question_text": "A car, starting from rest, accelerates at the rate $f$ through a distance $S$, then continues at constant speed for time $t$ and then decelerates at the rate $\\frac{f}{2}$ to come to rest. If the total distance traversed is $15S$, then $S = \\frac{ft^2}{x}$. Find the value of $x$.",
+      "options": []
+    },
+    {
+      "atom_id": "kinematics-question-b29767c8",
+      "existing_taxonomy": {
+        "chapter_id": "kinematics",
+        "topic_id": "projectile-motion",
+        "subtopic_id": "launch-angle-from-position"
+      },
+      "provenance": {
+        "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+        "page_start": 3,
+        "page_end": 3,
+        "source_locator": "Section - A, Q11"
+      },
+      "question_text": "The position of a projectile launched from the origin at $t = 0$ is given by $\\vec{r} = (40\\hat{i} + 50\\hat{j})\\text{ m}$ at $t = 2\\text{ s}$. If the projectile was launched at an angle $\\theta$ from the horizontal, then $\\theta$ is\n(take $g = 10\\text{ ms}^{-2}$)",
+      "options": [
+        ": $\\tan^{-1}\\frac{2}{3}$",
+        ": $\\tan^{-1}\\frac{3}{2}$",
+        ": $\\tan^{-1}\\frac{7}{4}$",
+        ": $\\tan^{-1}\\frac{4}{5}$"
+      ]
+    },
+    {
+      "atom_id": "laws-of-motion-question-ba0b4106",
+      "existing_taxonomy": {
+        "chapter_id": "laws-of-motion",
+        "topic_id": "friction",
+        "subtopic_id": "equilibrium-on-curved-surface"
+      },
+      "provenance": {
+        "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+        "page_start": 5,
+        "page_end": 5,
+        "source_locator": "Section - A, Q19"
+      },
+      "question_text": "An insect crawls up a hemispherical surface very slowly. The coefficient of friction between the insect and the surface is $\\frac{1}{3}$. If the line joining the centre of the hemispherical surface to the insect makes an angle $\\alpha$ with the vertical, the maximum possible value of $\\alpha$ so tha",
+      "options": [
+        ": $\\cot \\alpha = 3$",
+        ": $\\sec \\alpha = 3$",
+        ": $\\operatorname{cosec} \\alpha = 3$",
+        ": $\\cos \\alpha = 3$"
+      ]
+    },
+    {
+      "atom_id": "laws-of-motion-question-e37050bb",
+      "existing_taxonomy": {
+        "chapter_id": "laws-of-motion",
+        "topic_id": "friction",
+        "subtopic_id": "static-friction-limiting"
+      },
+      "provenance": {
+        "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+        "page_start": 2,
+        "page_end": 2,
+        "source_locator": "Section - A, Q3"
+      },
+      "question_text": "What is the maximum value of the force $F$ such that the block shown in the arrangement, does not move?\n\n$m = \\sqrt{3}\\text{ kg}$, $F$ is applied at $60\u00b0$ to the horizontal, $\\mu = \\frac{1}{2\\sqrt{3}}$.",
+      "options": [
+        ": $20\\text{ N}$",
+        ": $10\\text{ N}$",
+        ": $12\\text{ N}$",
+        ": $15\\text{ N}$"
+      ]
+    },
+    {
+      "atom_id": "magnetic-effects-of-current-question-0e7b4a98",
+      "existing_taxonomy": {
+        "chapter_id": "magnetic-effects-of-current",
+        "topic_id": "magnetic-force-between-currents",
+        "subtopic_id": "parallel-current-carrying-wires"
+      },
+      "provenance": {
+        "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+        "page_start": 6,
+        "page_end": 7,
+        "source_locator": "Section - B, Q29"
+      },
+      "question_text": "Currents of a $10\\text{ ampere}$ and $2\\text{ ampere}$ are passed through two parallel thin wires $A$ and $B$ respectively in opposite directions. Wire $A$ is infinitely long and the length of the wire $B$ is $2\\text{ m}$. The force acting on the conductor $B$, which is situated at $10\\text{ cm}$ di",
+      "options": []
+    },
+    {
+      "atom_id": "magnetism-and-matter-question-3c3af9c7",
+      "existing_taxonomy": {
+        "chapter_id": "magnetism-and-matter",
+        "topic_id": "bar-magnet",
+        "subtopic_id": "vibration-magnetometer"
+      },
+      "provenance": {
+        "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+        "page_start": 5,
+        "page_end": 5,
+        "source_locator": "Section - A, Q20"
+      },
+      "question_text": "The length of a magnet is large compared to its width and breadth. The time period of its oscillation in a vibration magnetometer is $2\\text{ s}$. The magnet is cut along its length into three equal parts and these parts are then placed on each other with their like poles together. The time period o",
+      "options": [
+        ": $2\\sqrt{3}\\text{ s}$",
+        ": $\\frac{2}{3}\\text{ s}$",
+        ": $2\\text{ s}$",
+        ": $\\frac{2}{\\sqrt{3}}\\text{ s}$"
+      ]
+    },
+    {
+      "atom_id": "nuclear-physics-question-4e1b8a32",
+      "existing_taxonomy": {
+        "chapter_id": "nuclear-physics",
+        "topic_id": "radioactivity",
+        "subtopic_id": "carbon-dating-and-decay-law"
+      },
+      "provenance": {
+        "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+        "page_start": 6,
+        "page_end": 6,
+        "source_locator": "Section - B, Q23"
+      },
+      "question_text": "A piece of wood from a recently cut tree shows $20\\text{ decays per minute}$. A wooden piece of same size placed in a museum (obtained from a tree cut many years back) shows $2\\text{ decays per minute}$. If half life of $\\text{C}^{14}$ is $5730\\text{ years}$, then age of the wooden piece placed in t",
+      "options": []
+    },
+    {
+      "atom_id": "oscillations-question-d21a08b6",
+      "existing_taxonomy": {
+        "chapter_id": "oscillations",
+        "topic_id": "kinematics-of-shm",
+        "subtopic_id": "equation-of-motion-shm"
+      },
+      "provenance": {
+        "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+        "page_start": 5,
+        "page_end": 5,
+        "source_locator": "Section - A, Q17"
+      },
+      "question_text": "A point particle of mass $0.1\\text{ kg}$ is executing SHM of amplitude of $0.1\\text{ m}$. When the particle passes through the mean position, its kinetic energy is $18 \\times 10^{-3}\\text{ J}$. The equation of motion of this particle when the initial phase of oscillation is $45^{\\circ}$ can be given",
+      "options": [
+        ": $y = 0.1 \\cos\\left(6t + \\frac{\\pi}{4}\\right)$",
+        ": $y = 0.1 \\sin\\left(6t + \\frac{\\pi}{4}\\right)$",
+        ": $y = 0.4 \\sin\\left(t + \\frac{\\pi}{4}\\right)$",
+        ": $y = 0.2 \\sin\\left(\\frac{\\pi}{2} + 2t\\right)$"
+      ]
+    },
+    {
+      "atom_id": "properties-of-solids-question-2d7d920e",
+      "existing_taxonomy": {
+        "chapter_id": "properties-of-solids",
+        "topic_id": "stress-strain-relationship",
+        "subtopic_id": "breaking-stress-and-plasticity"
+      },
+      "provenance": {
+        "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+        "page_start": 5,
+        "page_end": 5,
+        "source_locator": "Section - A, Q18"
+      },
+      "question_text": "What happens when the applied load increases and upto breaking stress in the experiment to determine the Young's modulus of elasticity?",
+      "options": [
+        ": The area of wire goes on decreasing and wire extends and breaks.",
+        ": The area of wire goes on increasing and wire breaks.",
+        ": The wire extends and area remains constant.",
+        ": The area remains same and wire length is also same."
+      ]
+    },
+    {
+      "atom_id": "ray-optics-question-e04c1df3",
+      "existing_taxonomy": {
+        "chapter_id": "ray-optics",
+        "topic_id": "total-internal-reflection",
+        "subtopic_id": "tir-at-interface-with-medium"
+      },
+      "provenance": {
+        "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+        "page_start": 1,
+        "page_end": 1,
+        "source_locator": "Section - A, Q1"
+      },
+      "question_text": "A glass prism of refractive index $1.5$ is immersed in water (refractive index $\\frac{4}{3}$) as shown in figure. A light beam incident normally on the face $AB$ is totally reflected to reach the face $BC$, if",
+      "options": [
+        ": $\\sin\\theta \\ge \\frac{5}{9}$",
+        ": $\\sin\\theta \\ge \\frac{2}{3}$",
+        ": $\\sin\\theta \\ge \\frac{8}{9}$",
+        ": $\\sin\\theta \\ge \\frac{1}{3}$"
+      ]
+    },
+    {
+      "atom_id": "rotational-motion-question-6c7cb960",
+      "existing_taxonomy": {
+        "chapter_id": "rotational-motion",
+        "topic_id": "angular-momentum",
+        "subtopic_id": "angular-momentum-about-external-point"
+      },
+      "provenance": {
+        "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+        "page_start": 2,
+        "page_end": 2,
+        "source_locator": "Section - A, Q4"
+      },
+      "question_text": "A particle falls freely near the surface of the earth. Consider a fixed point $O$ (not vertically below the particle) on the ground. Then pickup the incorrect alternative",
+      "options": [
+        ": The magnitude of angular momentum of the particle about $O$ is increasing",
+        ": The magnitude of torque of the gravitational force on the particle about $O$ is decreasing",
+        ": The moment of inertia of the particle about $O$ is decreasing",
+        ": The magnitude of angular velocity of the particle about $O$ is increasing"
+      ]
+    },
+    {
+      "atom_id": "rotational-motion-question-84f91c20",
+      "existing_taxonomy": {
+        "chapter_id": "rotational-motion",
+        "topic_id": "conservation-of-angular-momentum",
+        "subtopic_id": "variable-moment-of-inertia"
+      },
+      "provenance": {
+        "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+        "page_start": 4,
+        "page_end": 4,
+        "source_locator": "Section - A, Q12"
+      },
+      "question_text": "A thin horizontal circular disc is rotating about a vertical axis passing through its centre. An insect is at rest at a point near the rim of the disc. The insect now moves along a diameter of the disc to reach its other end. During the journey of the insect, the angular speed of the disc",
+      "options": [
+        ": continuously decreases",
+        ": continuously increases",
+        ": first increases and then decreases",
+        ": remains unchanged"
+      ]
+    },
+    {
+      "atom_id": "rotational-motion-question-f7cbecda",
+      "existing_taxonomy": {
+        "chapter_id": "rotational-motion",
+        "topic_id": "conservation-of-angular-momentum",
+        "subtopic_id": "variable-moment-of-inertia"
+      },
+      "provenance": {
+        "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+        "page_start": 4,
+        "page_end": 4,
+        "source_locator": "Section - A, Q12"
+      },
+      "question_text": "A thin horizontal circular disc is rotating about a vertical axis passing through its centre. An insect is at rest at a point near the rim of the disc. The insect now moves along a diameter of the disc to reach its other end. During the journey of the insect, the angular speed of the disc",
+      "options": [
+        ": continuously decreases",
+        ": continuously increases",
+        ": first increases and then decreases",
+        ": remains unchanged"
+      ]
+    },
+    {
+      "atom_id": "semiconductors-question-6a3d0c54",
+      "existing_taxonomy": {
+        "chapter_id": "semiconductors",
+        "topic_id": "charge-carriers",
+        "subtopic_id": "drift-velocity-and-conductivity"
+      },
+      "provenance": {
+        "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+        "page_start": 6,
+        "page_end": 6,
+        "source_locator": "Section - B, Q25"
+      },
+      "question_text": "If the ratio of the concentration of electrons to that of holes in a semiconductor is $\\frac{7}{5}$ and the ratio of currents is $\\frac{7}{4}$, then what is the ratio of their drift velocities?",
+      "options": []
+    },
+    {
+      "atom_id": "semiconductors-question-9d6a3f87",
+      "existing_taxonomy": {
+        "chapter_id": "semiconductors",
+        "topic_id": "junction-diode",
+        "subtopic_id": "diode-characteristics-and-error-analysis"
+      },
+      "provenance": {
+        "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+        "page_start": 6,
+        "page_end": 6,
+        "source_locator": "Section - B, Q28"
+      },
+      "question_text": "The current voltage relation of a diode is given by $I = (e^{1000V/T} - 1)\\text{ mA}$, where the applied voltage $V$ is in volts and the temperature $T$ is in degree kelvin. If a student makes an error measuring $\\pm 0.01\\text{ V}$ while measuring the current of $5\\text{ mA}$ at $300\\text{ K}$, what",
+      "options": []
+    },
+    {
+      "atom_id": "thermal-physics-question-1f8c5ba9",
+      "existing_taxonomy": {
+        "chapter_id": "thermal-physics",
+        "topic_id": "heat-transfer",
+        "subtopic_id": "newtons-law-of-cooling"
+      },
+      "provenance": {
+        "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+        "page_start": 7,
+        "page_end": 7,
+        "source_locator": "Section - B, Q30"
+      },
+      "question_text": "Hot water cools from $60^\\circ\\text{C}$ to $50^\\circ\\text{C}$ in the first $10\\text{ minutes}$ and to $42^\\circ\\text{C}$ in the next $10\\text{ minutes}$. The temperature of the surroundings is ________ $^\\circ\\text{C}$.",
+      "options": []
+    },
+    {
+      "atom_id": "thermal-physics-question-5f2c9b43",
+      "existing_taxonomy": {
+        "chapter_id": "thermal-physics",
+        "topic_id": "heat-transfer",
+        "subtopic_id": "thermal-conduction-composite-slab"
+      },
+      "provenance": {
+        "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+        "page_start": 6,
+        "page_end": 6,
+        "source_locator": "Section - B, Q24"
+      },
+      "question_text": "The temperature of the two outer surfaces of a composite slab, consisting of two materials having coefficients of thermal conductivity $K$ and $2K$ and thickness $x$ and $4x$, respectively, are $T_2$ and $T_1$ ($T_2 > T_1$). The rate of heat transfer through the slab, in a steady state is $\\left(\\fr",
+      "options": []
+    },
+    {
+      "atom_id": "thermodynamics-question-3fe51020",
+      "existing_taxonomy": {
+        "chapter_id": "thermodynamics",
+        "topic_id": "adiabatic-process",
+        "subtopic_id": "radiation-thermodynamics"
+      },
+      "provenance": {
+        "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+        "page_start": 2,
+        "page_end": 2,
+        "source_locator": "Section - A, Q5"
+      },
+      "question_text": "Consider a spherical shell of radius $R$ at temperature $T$. The black body radiation inside it can be considered as an ideal gas of photons with internal energy per unit volume $u = \\frac{U}{V} \\propto T^{4}$ and pressure $p = \\frac{1}{3}\\left(\\frac{U}{V}\\right)$. If the shell now undergoes an adia",
+      "options": [
+        ": $T \\propto \\frac{1}{R}$",
+        ": $T \\propto \\frac{1}{R^{3}}$",
+        ": $T \\propto e^{-R}$",
+        ": $T \\propto e^{-3R}$"
+      ]
+    },
+    {
+      "atom_id": "thermodynamics-question-71b685c0",
+      "existing_taxonomy": {
+        "chapter_id": "thermodynamics",
+        "topic_id": "first-law-and-processes",
+        "subtopic_id": "adiabatic-process"
+      },
+      "provenance": {
+        "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+        "page_start": 4,
+        "page_end": 4,
+        "source_locator": "Section - A, Q14"
+      },
+      "question_text": "A monoatomic ideal gas is filled in a nonconducting container. The gas can be compressed by a movable nonconducting piston. The gas is compressed slowly to $12.5\\%$ of its initial volume.\nFind final temperature of the gas if it is $T_{0}$ initially\u2013",
+      "options": [
+        ": $4T_{0}$",
+        ": $3T_{0}$",
+        ": $\\frac{2}{3}\\,T_{0}$",
+        ": $T_{0}$"
+      ]
+    },
+    {
+      "atom_id": "thermodynamics-question-7e2f5a91",
+      "existing_taxonomy": {
+        "chapter_id": "thermodynamics",
+        "topic_id": "first-law-and-processes",
+        "subtopic_id": "adiabatic-process"
+      },
+      "provenance": {
+        "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+        "page_start": 4,
+        "page_end": 4,
+        "source_locator": "Section - A, Q14"
+      },
+      "question_text": "A monoatomic ideal gas is filled in a nonconducting container. The gas can be compressed by a movable nonconducting piston. The gas is compressed slowly to 12.5% of its initial volume.\nFind final temperature of the gas if it is $T_{0}$ initially\u2013",
+      "options": [
+        ": $4T_{0}$",
+        ": $3T_{0}$",
+        ": $\\frac{2}{3}T_{0}$",
+        ": $T_{0}$"
+      ]
+    },
+    {
+      "atom_id": "wave-optics-question-49253758",
+      "existing_taxonomy": {
+        "chapter_id": "wave-optics",
+        "topic_id": "youngs-double-slit",
+        "subtopic_id": "ydse-white-light-fringe"
+      },
+      "provenance": {
+        "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+        "page_start": 3,
+        "page_end": 3,
+        "source_locator": "Section - A, Q8"
+      },
+      "question_text": "In Young's double slit experiment shown in figure $S_{1}$ and $S_{2}$ are coherent sources and $S$ is the screen having a hole at a point $1.0\\text{ mm}$ away from the central line. White light ($400$ to $700\\text{ nm}$) is sent through the slits. Which wavelength passing through the hole has strong",
+      "options": [
+        ": $400\\text{ nm}$",
+        ": $700\\text{ nm}$",
+        ": $500\\text{ nm}$",
+        ": $667\\text{ nm}$"
+      ]
+    },
+    {
+      "atom_id": "waves-question-01c8e233",
+      "existing_taxonomy": {
+        "chapter_id": "waves",
+        "topic_id": "standing-waves",
+        "subtopic_id": "sonometer-beat-frequency"
+      },
+      "provenance": {
+        "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+        "page_start": 3,
+        "page_end": 3,
+        "source_locator": "Section - A, Q7"
+      },
+      "question_text": "The fundamental frequency of a sonometer wire of length $\\ell$ is $n_{0}$. A bridge is now introduced at a distance of $\\Delta\\ell$ ($\\ll \\ell$) from the centre of the wire. The lengths of wire on the two sides of the bridge are now vibrated in their fundamental modes. Then, the beat frequency nearl",
+      "options": [
+        ": $\\frac{n_{0} \\Delta\\ell}{\\ell}$",
+        ": $\\frac{8 n_{0} \\Delta\\ell}{\\ell}$",
+        ": $\\frac{2 n_{0} \\Delta\\ell}{\\ell}$",
+        ": $\\frac{n_{0} \\Delta\\ell}{2\\ell}$"
+      ]
+    }
+  ]
+}

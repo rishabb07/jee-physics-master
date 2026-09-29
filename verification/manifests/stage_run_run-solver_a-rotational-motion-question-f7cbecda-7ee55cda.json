@@ -1,0 +1,13 @@
+{
+  "manifest_id": "stage_run_run-solver_a-rotational-motion-question-f7cbecda-7ee55cda",
+  "solver_run_id": "run-solver_a-rotational-motion-question-f7cbecda-7ee55cda",
+  "solver_agent_name": "solver_a",
+  "atom_id": "rotational-motion-question-f7cbecda",
+  "atom_version": 1,
+  "content_hash": "729335ea8d2363b7b4f02d4c22c2c28352bc06a5093b5760855b1c5a20a7ff38",
+  "input_source_file": "C:\\Users\\Win11\\OneDrive\\Desktop\\Rishab\\jee physics master book test\\verification\\incoming\\solver_rotational-motion-question-f7cbecda_run-solver_a-rotational-motion-question-f7cbecda-7ee55cda.json",
+  "staged_destination_file": "C:\\Users\\Win11\\OneDrive\\Desktop\\Rishab\\jee physics master book test\\verification\\solver_runs\\run-solver_a-rotational-motion-question-f7cbecda-7ee55cda.json",
+  "independent_answer": "C",
+  "timestamp": "2026-09-28T03:27:23.327388+00:00",
+  "status": "STAGED"
+}

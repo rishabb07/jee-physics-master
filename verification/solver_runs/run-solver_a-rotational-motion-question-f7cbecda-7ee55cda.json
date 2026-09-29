@@ -1,0 +1,28 @@
+{
+  "solver_run_id": "run-solver_a-rotational-motion-question-f7cbecda-7ee55cda",
+  "atom_id": "rotational-motion-question-f7cbecda",
+  "solver_id": "solver_a",
+  "solver_agent_name": "solver_a",
+  "atom_version": 1,
+  "content_hash": "729335ea8d2363b7b4f02d4c22c2c28352bc06a5093b5760855b1c5a20a7ff38",
+  "verification_protocol_version": "1.0.0",
+  "blind_package_hash": "762971ec073a0db8fcac144b5f054efeee108518a11e36347f41c0214d4655fc",
+  "model_name": null,
+  "independent_answer": "C",
+  "raw_answer": "first increases and then decreases",
+  "reasoning_steps": [
+    "1. No external torque acts on the disc-insect system about the vertical axis.",
+    "2. Angular momentum L is conserved. L = I * omega = constant.",
+    "3. As the insect moves from rim to center, the moment of inertia I decreases, so omega increases.",
+    "4. As the insect moves from center to the opposite rim, I increases, so omega decreases.",
+    "5. Thus, angular speed first increases and then decreases."
+  ],
+  "assumptions_used": [
+    "Standard physics assumptions apply"
+  ],
+  "uncertainty": null,
+  "diagram_interpretation": null,
+  "possible_ambiguities": [],
+  "created_at": "2026-09-28T03:22:27.308092Z",
+  "raw_response": null
+}

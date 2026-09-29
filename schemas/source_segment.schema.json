@@ -1,0 +1,128 @@
+{
+  "$defs": {
+    "SegmentType": {
+      "enum": [
+        "DETERMINISTIC_PAGE_SEGMENT",
+        "LLM_PROPOSED_SEMANTIC_SEGMENT"
+      ],
+      "title": "SegmentType",
+      "type": "string"
+    }
+  },
+  "description": "A bounded contiguous page range of a source file allocated for batch extraction.",
+  "properties": {
+    "segment_id": {
+      "description": "Unique segment identifier",
+      "minLength": 1,
+      "title": "Segment Id",
+      "type": "string"
+    },
+    "source_id": {
+      "description": "Parent source ID",
+      "minLength": 1,
+      "title": "Source Id",
+      "type": "string"
+    },
+    "segment_type": {
+      "$ref": "#/$defs/SegmentType",
+      "default": "DETERMINISTIC_PAGE_SEGMENT",
+      "description": "DETERMINISTIC_PAGE_SEGMENT vs LLM_PROPOSED_SEMANTIC_SEGMENT"
+    },
+    "page_start": {
+      "description": "1-based starting page",
+      "minimum": 1,
+      "title": "Page Start",
+      "type": "integer"
+    },
+    "page_end": {
+      "description": "1-based ending page",
+      "minimum": 1,
+      "title": "Page End",
+      "type": "integer"
+    },
+    "segment_title": {
+      "description": "Section title or provisional topic name",
+      "title": "Segment Title",
+      "type": "string"
+    },
+    "segment_summary": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Brief overview of contents in chunk",
+      "title": "Segment Summary"
+    },
+    "provisional_chapter_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Suggested target chapter",
+      "title": "Provisional Chapter Id"
+    },
+    "provisional_topic_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Suggested target topic",
+      "title": "Provisional Topic Id"
+    },
+    "provisional_subtopic_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Suggested target subtopic",
+      "title": "Provisional Subtopic Id"
+    },
+    "extraction_status": {
+      "default": "PENDING",
+      "description": "PENDING, IN_PROGRESS, EXTRACTED, FAILED",
+      "title": "Extraction Status",
+      "type": "string"
+    },
+    "confidence": {
+      "default": 1.0,
+      "maximum": 1.0,
+      "minimum": 0.0,
+      "title": "Confidence",
+      "type": "number"
+    },
+    "metadata": {
+      "additionalProperties": true,
+      "title": "Metadata",
+      "type": "object"
+    }
+  },
+  "required": [
+    "segment_id",
+    "source_id",
+    "page_start",
+    "page_end",
+    "segment_title"
+  ],
+  "title": "SourceSegment",
+  "type": "object"
+}

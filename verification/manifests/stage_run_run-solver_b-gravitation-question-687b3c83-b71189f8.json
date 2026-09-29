@@ -1,0 +1,13 @@
+{
+  "manifest_id": "stage_run_run-solver_b-gravitation-question-687b3c83-b71189f8",
+  "solver_run_id": "run-solver_b-gravitation-question-687b3c83-b71189f8",
+  "solver_agent_name": "solver_b",
+  "atom_id": "gravitation-question-687b3c83",
+  "atom_version": 1,
+  "content_hash": "17d9484453d281ddc16fe6fe441c2654b0ddb9d91ee256efc4c2a49cb7e15c19",
+  "input_source_file": "C:\\Users\\Win11\\OneDrive\\Desktop\\Rishab\\jee physics master book test\\verification\\incoming\\solver_gravitation-question-687b3c83_run-solver_b-gravitation-question-687b3c83-b71189f8.json",
+  "staged_destination_file": "C:\\Users\\Win11\\OneDrive\\Desktop\\Rishab\\jee physics master book test\\verification\\solver_runs\\run-solver_b-gravitation-question-687b3c83-b71189f8.json",
+  "independent_answer": "A",
+  "timestamp": "2026-09-28T03:27:08.089667+00:00",
+  "status": "STAGED"
+}

@@ -1,0 +1,52 @@
+{
+  "formula_id": "formula-td-adiabatic-ideal-gas",
+  "chapter_id": "thermodynamics",
+  "title": "Reversible Adiabatic Process for Ideal Gas",
+  "equation": "T V^{\\gamma - 1} = \\text{constant},\\quad P V^\\gamma = \\text{constant}",
+  "equation_latex": "T V^{\\gamma - 1} = \\text{constant},\\quad P V^\\gamma = \\text{constant}",
+  "variables": {
+    "T": "Absolute temperature",
+    "V": "Gas volume",
+    "P": "Gas pressure",
+    "\\gamma": "Heat capacity ratio C_p/C_v"
+  },
+  "units": {
+    "T": "K",
+    "V": "m^3",
+    "P": "Pa",
+    "\\gamma": "dimensionless"
+  },
+  "dimensions": {
+    "T": "[\\Theta]",
+    "V": "[L]^3",
+    "P": "[M][L]^-1[T]^-2",
+    "\\gamma": "[1]"
+  },
+  "assumptions": [
+    "Ideal gas equation of state P V = n R T",
+    "Reversible quasi-static process",
+    "Zero heat exchange dQ = 0",
+    "Constant heat capacity ratio \\gamma"
+  ],
+  "validity_conditions": [
+    "Applies only to reversible adiabatic processes; fails for irreversible processes like free expansion into vacuum"
+  ],
+  "derivation_reference": "derivation-formula-td-adiabatic-ideal-gas",
+  "related_concepts": [
+    "concept-td-adiabatic-01"
+  ],
+  "common_misuse": [
+    "Applying P V^\\gamma = \\text{const} to adiabatic free expansion into vacuum",
+    "Using temperature in Celsius instead of Kelvin"
+  ],
+  "provenance": [],
+  "generation_metadata": {
+    "agent": "content_generator",
+    "version": "1.0",
+    "target_chapter": "thermodynamics"
+  },
+  "verification_status": "VERIFIED",
+  "content_hash": "84026a90fe4f9693f83ddf90fd107e65bd979dbc5875faac98651fa83fca24bc",
+  "verification_record_id": "cvr-formula-td-adiabatic-ideal-gas",
+  "created_at": "2026-09-29T07:50:00Z"
+}

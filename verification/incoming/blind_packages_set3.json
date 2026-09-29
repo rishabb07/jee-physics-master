@@ -1,0 +1,259 @@
+[
+  {
+    "package_id": "pkg-current-electricity-question-ce6aab7f-2ba69c24",
+    "atom_id": "current-electricity-question-ce6aab7f",
+    "atom_version": 1,
+    "content_hash": "c737abb98f96fd5a98931ffea017b9563d60ac5a8d5c16e9d0b28774ab3a6311",
+    "blind_package_hash": "54db6ed8b54b3819a4e20c40c947ecafe13601e37247acb7bdd925da47f6b310",
+    "statement": "A uniform wire of length $l$ and radius $r$ has a resistance of $100\\,\\Omega$. It is recast into a wire of radius $\\frac{r}{2}$. The resistance of new wire will be ________ $\\Omega$.",
+    "options": [],
+    "figure_refs": [],
+    "difficulty": "L2",
+    "concepts": [
+      "current-electricity",
+      "resistance",
+      "resistivity",
+      "volume-conservation"
+    ],
+    "exam_metadata": {
+      "exam": "JEE Rank Booster Mock",
+      "exam_name": "JEE Rank Booster Mock",
+      "year": null,
+      "paper": 3,
+      "question_number": "21"
+    },
+    "context_notes": null
+  },
+  {
+    "package_id": "pkg-fluid-mechanics-question-870c4110-3f8ff198",
+    "atom_id": "fluid-mechanics-question-870c4110",
+    "atom_version": 1,
+    "content_hash": "b021687f5168f98c0acef601fb431839d0707d01286cc1fb3d2ebdaa880514df",
+    "blind_package_hash": "457d9a4a8e78e558ce9f794aed381c1d56b89cf85e980333626f0427a0d0d42b",
+    "statement": "A thin liquid film formed between a U-shaped wire and a light slider supports a weight of $1.5 \\times 10^{-2}\\text{ N}$ (see figure). The length of the slider is $30\\text{ cm}$ and its weight negligible. The surface tension of the liquid film is ________ $\\text{Nm}^{-1}$.",
+    "options": [],
+    "figure_refs": [],
+    "difficulty": "L2",
+    "concepts": [
+      "fluid-mechanics",
+      "surface-tension",
+      "mechanical-equilibrium"
+    ],
+    "exam_metadata": {
+      "exam": "JEE Rank Booster Mock",
+      "exam_name": "JEE Rank Booster Mock",
+      "year": null,
+      "paper": 3,
+      "question_number": "22"
+    },
+    "context_notes": null
+  },
+  {
+    "package_id": "pkg-nuclear-physics-question-4e1b8a32-55eb7218",
+    "atom_id": "nuclear-physics-question-4e1b8a32",
+    "atom_version": 1,
+    "content_hash": "07c86d3019ecff9986175e541ee4d71c9783cd539a6b2150a8c7b5881ca7f6b1",
+    "blind_package_hash": "687339293f8ef09e307fac8208223afa10c81c96bf571c8d6018b71ba1758279",
+    "statement": "A piece of wood from a recently cut tree shows $20\\text{ decays per minute}$. A wooden piece of same size placed in a museum (obtained from a tree cut many years back) shows $2\\text{ decays per minute}$. If half life of $\\text{C}^{14}$ is $5730\\text{ years}$, then age of the wooden piece placed in the museum is approximately ________ years.",
+    "options": [],
+    "figure_refs": [],
+    "difficulty": "L2",
+    "concepts": [
+      "nuclear-physics",
+      "radioactivity",
+      "radioactive-decay-law",
+      "carbon-dating",
+      "half-life"
+    ],
+    "exam_metadata": {
+      "exam": "JEE Rank Booster Mock",
+      "exam_name": "JEE Rank Booster Mock",
+      "year": null,
+      "paper": 3,
+      "question_number": "23"
+    },
+    "context_notes": null
+  },
+  {
+    "package_id": "pkg-thermal-physics-question-5f2c9b43-2bd49d2d",
+    "atom_id": "thermal-physics-question-5f2c9b43",
+    "atom_version": 1,
+    "content_hash": "842fc2b458cffb798fbd0a736ba4ff7892b846f279e64a755e11237741eb88e7",
+    "blind_package_hash": "ad8e005773f8c426da23e9f1445ba88edc1b57edbc079430e3b18aa31bac56b7",
+    "statement": "The temperature of the two outer surfaces of a composite slab, consisting of two materials having coefficients of thermal conductivity $K$ and $2K$ and thickness $x$ and $4x$, respectively, are $T_2$ and $T_1$ ($T_2 > T_1$). The rate of heat transfer through the slab, in a steady state is $\\left(\\frac{A(T_2 - T_1)K}{x}\\right)f$. Find the value of $F$.",
+    "options": [],
+    "figure_refs": [
+      {
+        "figure_id": "fig-src-jee-rank-booster-03-mock-p06-q24",
+        "caption": "Composite slab consisting of two materials in thermal contact: the first slab of thickness $x$ with thermal conductivity $K$, and the second slab of thickness $4x$ with thermal conductivity $2K$, with outer boundary temperatures $T_2$ and $T_1$.",
+        "alt_text": "Schematic diagram of two conducting slabs placed in series. The left slab has thickness x and thermal conductivity K, with left boundary at temperature T2. The right slab has thickness 4x and thermal conductivity 2K, with right boundary at temperature T1."
+      }
+    ],
+    "difficulty": "L2",
+    "concepts": [
+      "thermal-physics",
+      "heat-transfer",
+      "thermal-conduction",
+      "thermal-resistance",
+      "composite-slab"
+    ],
+    "exam_metadata": {
+      "exam": "JEE Rank Booster Mock",
+      "exam_name": "JEE Rank Booster Mock",
+      "year": null,
+      "paper": 3,
+      "question_number": "24"
+    },
+    "context_notes": null
+  },
+  {
+    "package_id": "pkg-semiconductors-question-6a3d0c54-99ab952e",
+    "atom_id": "semiconductors-question-6a3d0c54",
+    "atom_version": 1,
+    "content_hash": "12fafaa32dfcfc773ebcb9d86ab29b279ae5a3d0a0980974d60cc671a1f9860f",
+    "blind_package_hash": "760f22996ef78aae6639cb2964991216f790da693cd9e548623a12ab079a6d30",
+    "statement": "If the ratio of the concentration of electrons to that of holes in a semiconductor is $\\frac{7}{5}$ and the ratio of currents is $\\frac{7}{4}$, then what is the ratio of their drift velocities?",
+    "options": [],
+    "figure_refs": [],
+    "difficulty": "L2",
+    "concepts": [
+      "semiconductor-physics",
+      "drift-velocity",
+      "carrier-concentration",
+      "electric-current"
+    ],
+    "exam_metadata": {
+      "exam": "JEE Rank Booster Mock",
+      "exam_name": "JEE Rank Booster Mock",
+      "year": null,
+      "paper": 3,
+      "question_number": "25"
+    },
+    "context_notes": null
+  },
+  {
+    "package_id": "pkg-kinematics-question-7b4e1d65-b75cbcfa",
+    "atom_id": "kinematics-question-7b4e1d65",
+    "atom_version": 1,
+    "content_hash": "4f0a71b1a15102e9c1e25ac6f5207de7b6b75ba65b9abd2555ebc3d7a773c595",
+    "blind_package_hash": "a3278f42c32fdd43ccb5af5d1ab45e2626e48cce4d766e6b35110049b9fdab02",
+    "statement": "A car, starting from rest, accelerates at the rate $f$ through a distance $S$, then continues at constant speed for time $t$ and then decelerates at the rate $\\frac{f}{2}$ to come to rest. If the total distance traversed is $15S$, then $S = \\frac{ft^2}{x}$. Find the value of $x$.",
+    "options": [],
+    "figure_refs": [],
+    "difficulty": "L2",
+    "concepts": [
+      "kinematics",
+      "rectilinear-motion",
+      "uniform-acceleration",
+      "speed-time-graph"
+    ],
+    "exam_metadata": {
+      "exam": "JEE Rank Booster Mock",
+      "exam_name": "JEE Rank Booster Mock",
+      "year": null,
+      "paper": 3,
+      "question_number": "26"
+    },
+    "context_notes": null
+  },
+  {
+    "package_id": "pkg-communication-systems-question-8c5f2e76-db9dbae4",
+    "atom_id": "communication-systems-question-8c5f2e76",
+    "atom_version": 1,
+    "content_hash": "711b17be2995ef6a2e7e7c3e452f7c5fd1b60fb2bd5549a7d7a589ff198e57a8",
+    "blind_package_hash": "87ec65acbd8034d6b63e091a78789c48a19da7d6f65677f1da4e8f0c1bd2a410",
+    "statement": "Consider an optical communication system operating at a wavelength of $800\\text{ nm}$. Suppose, only $1\\%$ of the optical source frequency is the available channel bandwidth for optical communication. How many channels can be accommodated for transmitting audio signals requiring a bandwidth of $8\\text{ kHz}$?",
+    "options": [],
+    "figure_refs": [],
+    "difficulty": "L2",
+    "concepts": [
+      "communication-systems",
+      "optical-communication",
+      "channel-bandwidth",
+      "frequency-allocation"
+    ],
+    "exam_metadata": {
+      "exam": "JEE Rank Booster Mock",
+      "exam_name": "JEE Rank Booster Mock",
+      "year": null,
+      "paper": 3,
+      "question_number": "27"
+    },
+    "context_notes": null
+  },
+  {
+    "package_id": "pkg-semiconductors-question-9d6a3f87-7eefa45e",
+    "atom_id": "semiconductors-question-9d6a3f87",
+    "atom_version": 1,
+    "content_hash": "5029c7dcf905e45c26b5aa19ee4e7bba299318600295bfd5821dbcdf7e3b9751",
+    "blind_package_hash": "7590c2edd74fd7ad14de7df1d13a481426f055b5a1476dc6efa2da6d5434dddc",
+    "statement": "The current voltage relation of a diode is given by $I = (e^{1000V/T} - 1)\\text{ mA}$, where the applied voltage $V$ is in volts and the temperature $T$ is in degree kelvin. If a student makes an error measuring $\\pm 0.01\\text{ V}$ while measuring the current of $5\\text{ mA}$ at $300\\text{ K}$, what will be the error in the value of current in ________ $\\text{mA}$?",
+    "options": [],
+    "figure_refs": [],
+    "difficulty": "L3",
+    "concepts": [
+      "semiconductor-devices",
+      "diode-characteristics",
+      "error-analysis",
+      "differential-calculus"
+    ],
+    "exam_metadata": {
+      "exam": "JEE Rank Booster Mock",
+      "exam_name": "JEE Rank Booster Mock",
+      "year": null,
+      "paper": 3,
+      "question_number": "28"
+    },
+    "context_notes": null
+  },
+  {
+    "package_id": "pkg-magnetic-effects-of-current-question-0e7b4a98-c8dbce99",
+    "atom_id": "magnetic-effects-of-current-question-0e7b4a98",
+    "atom_version": 1,
+    "content_hash": "bc8a8d1cc1ce0f9541022dc7af2989d7265431a539599b6df7048d428c523019",
+    "blind_package_hash": "178337982e0318052d4875fd831a3db033b6b325723266897c61103f58ccaecb",
+    "statement": "Currents of a $10\\text{ ampere}$ and $2\\text{ ampere}$ are passed through two parallel thin wires $A$ and $B$ respectively in opposite directions. Wire $A$ is infinitely long and the length of the wire $B$ is $2\\text{ m}$. The force acting on the conductor $B$, which is situated at $10\\text{ cm}$ distance from $A$ will be $x \\times 10^{-5}\\text{ N}$. Find the value of $x$.",
+    "options": [],
+    "figure_refs": [],
+    "difficulty": "L2",
+    "concepts": [
+      "magnetic-effects-of-current",
+      "biot-savart-law",
+      "magnetic-force-between-conductors",
+      "amperes-force-law"
+    ],
+    "exam_metadata": {
+      "exam": "JEE Rank Booster Mock",
+      "exam_name": "JEE Rank Booster Mock",
+      "year": null,
+      "paper": 3,
+      "question_number": "29"
+    },
+    "context_notes": null
+  },
+  {
+    "package_id": "pkg-thermal-physics-question-1f8c5ba9-f4c46306",
+    "atom_id": "thermal-physics-question-1f8c5ba9",
+    "atom_version": 1,
+    "content_hash": "ec6dcd493c95cded2d1b7b6ed8115149a510cdf7596f2d5fc0fff0f0453e9700",
+    "blind_package_hash": "65724aba420261c6adc8a84fd6508274ad83ae14cff8aeb36988597ca2d0aaf3",
+    "statement": "Hot water cools from $60^\\circ\\text{C}$ to $50^\\circ\\text{C}$ in the first $10\\text{ minutes}$ and to $42^\\circ\\text{C}$ in the next $10\\text{ minutes}$. The temperature of the surroundings is ________ $^\\circ\\text{C}$.",
+    "options": [],
+    "figure_refs": [],
+    "difficulty": "L2",
+    "concepts": [
+      "thermal-physics",
+      "heat-transfer",
+      "newtons-law-of-cooling",
+      "differential-rate-equation"
+    ],
+    "exam_metadata": {
+      "exam": "JEE Rank Booster Mock",
+      "exam_name": "JEE Rank Booster Mock",
+      "year": null,
+      "paper": 3,
+      "question_number": "30"
+    },
+    "context_notes": null
+  }
+]

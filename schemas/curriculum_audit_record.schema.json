@@ -1,0 +1,111 @@
+{
+  "description": "Immutable audit trail for curriculum structural modifications.",
+  "properties": {
+    "entry_id": {
+      "description": "Unique audit journal entry ID",
+      "minLength": 1,
+      "title": "Entry Id",
+      "type": "string"
+    },
+    "curriculum_change": {
+      "description": "Operation performed, e.g. 'ADD_PREREQUISITE_EDGE'",
+      "minLength": 1,
+      "title": "Curriculum Change",
+      "type": "string"
+    },
+    "previous_value": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Previous state or value",
+      "title": "Previous Value"
+    },
+    "new_value": {
+      "description": "New state or value",
+      "minLength": 1,
+      "title": "New Value",
+      "type": "string"
+    },
+    "reason": {
+      "description": "Physical or pedagogical justification",
+      "minLength": 5,
+      "title": "Reason",
+      "type": "string"
+    },
+    "agent_identity": {
+      "description": "Subagent role or deterministic process name",
+      "minLength": 1,
+      "title": "Agent Identity",
+      "type": "string"
+    },
+    "conversation_id": {
+      "description": "Antigravity conversation ID",
+      "minLength": 1,
+      "title": "Conversation Id",
+      "type": "string"
+    },
+    "confidence": {
+      "description": "Overall certainty score",
+      "maximum": 1.0,
+      "minimum": 0.0,
+      "title": "Confidence",
+      "type": "number"
+    },
+    "validation_status": {
+      "default": "VALIDATION_PASSED",
+      "description": "Deterministic validation status ('VALIDATION_PASSED', 'FAILED', etc.)",
+      "title": "Validation Status",
+      "type": "string"
+    },
+    "agent_confidence": {
+      "anyOf": [
+        {
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Autonomous subagent self-assessed confidence",
+      "title": "Agent Confidence"
+    },
+    "evidence_strength": {
+      "default": "DETERMINISTIC_GATE_VERIFIED",
+      "description": "Origin of verification evidence ('DETERMINISTIC_GATE_VERIFIED', 'INDEPENDENT_EVALUATION', etc.)",
+      "title": "Evidence Strength",
+      "type": "string"
+    },
+    "evidence": {
+      "description": "Supporting evidence",
+      "minLength": 1,
+      "title": "Evidence",
+      "type": "string"
+    },
+    "timestamp": {
+      "format": "date-time",
+      "title": "Timestamp",
+      "type": "string"
+    }
+  },
+  "required": [
+    "entry_id",
+    "curriculum_change",
+    "new_value",
+    "reason",
+    "agent_identity",
+    "conversation_id",
+    "confidence",
+    "evidence"
+  ],
+  "title": "CurriculumAuditRecord",
+  "type": "object"
+}

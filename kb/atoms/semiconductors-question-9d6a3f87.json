@@ -1,0 +1,63 @@
+{
+  "atom_id": "semiconductors-question-9d6a3f87",
+  "schema_version": "1.0.0",
+  "atom_version": 1,
+  "active": true,
+  "atom_type": "question",
+  "title": "Current measurement error in semiconductor diode from voltage uncertainty",
+  "taxonomy": {
+    "chapter_id": "semiconductors",
+    "topic_id": "junction-diode",
+    "subtopic_id": "diode-characteristics-and-error-analysis"
+  },
+  "provenance": [
+    {
+      "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+      "file_name": "jee_rank_booster-03_mock_paper.pdf",
+      "file_path": "jee_rank_booster-03_mock_paper.pdf",
+      "page_start": 6,
+      "page_end": 6,
+      "source_locator": "Section - B, Q28",
+      "edition": null,
+      "extraction_metadata": {
+        "source_sha256": "256f42c67a9271aaafe4bf637eb34cddd10da959cdf7a66fc6fee76a68d34361"
+      }
+    }
+  ],
+  "confidence": 0.98,
+  "verification_status": "VERIFIED",
+  "content_hash": "5029c7dcf905e45c26b5aa19ee4e7bba299318600295bfd5821dbcdf7e3b9751",
+  "created_at": "2026-09-28T01:00:00Z",
+  "updated_at": "2026-09-28T04:19:50.818711Z",
+  "content": null,
+  "formula": null,
+  "question": {
+    "statement": "The current voltage relation of a diode is given by $I = (e^{1000V/T} - 1)\\text{ mA}$, where the applied voltage $V$ is in volts and the temperature $T$ is in degree kelvin. If a student makes an error measuring $\\pm 0.01\\text{ V}$ while measuring the current of $5\\text{ mA}$ at $300\\text{ K}$, what will be the error in the value of current in ________ $\\text{mA}$?",
+    "options": [],
+    "source_claimed_answer": "0.2",
+    "verified_answer": "0.2",
+    "source_solution": null,
+    "answer": "0.2",
+    "solution_methods": [],
+    "difficulty": "L3",
+    "exam_metadata": {
+      "exam": "JEE Rank Booster Mock",
+      "exam_name": "JEE Rank Booster Mock",
+      "year": null,
+      "paper": 3,
+      "question_number": "28"
+    },
+    "concepts": [
+      "semiconductor-devices",
+      "diode-characteristics",
+      "error-analysis",
+      "differential-calculus"
+    ]
+  },
+  "solved_example": null,
+  "misconception": null,
+  "figure_refs": [],
+  "insight": null,
+  "duplicate_group_id": null,
+  "archive_reason": null
+}

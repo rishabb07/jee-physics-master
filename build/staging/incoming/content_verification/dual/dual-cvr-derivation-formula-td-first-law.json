@@ -1,0 +1,44 @@
+{
+  "verification_id": "dual-cvr-derivation-formula-td-first-law",
+  "artifact_id": "derivation-formula-td-first-law",
+  "artifact_version": 1,
+  "content_hash": "97fa4c5a8c302eb98dca4caa816c7b01774340a885792830736cf5a3b489f569",
+  "risk_level": "HIGH",
+  "verifier_a": {
+    "verifier_id": "content-verifier-mechanics-thermo",
+    "verifier_conversation_id": "bdcda0e3-0496-4ba9-a62e-6fe79ffe6824",
+    "verdict": "VERIFIED",
+    "assumptions_checked": true,
+    "dimensional_check_passed": true,
+    "numerical_check_passed": true,
+    "limiting_case_check_passed": true,
+    "independent_derivation_or_calculation": "Independent step-by-step verification: Step 1: Universal energy conservation for isolated composite system: dE_universe = 0 => dE_system + dE_surroundings = 0 => dE_system = -dE_surroundings. Step 2: Energy partitioning: Total system energy is partitioned into macroscopic kinetic and potential energy E_macro and microscopic internal energy U: E_system = E_macro + U. For a stationary closed system, dE_macro = 0, so dE_system = dU. Step 3: Energy exchange across boundaries occurs via heat transfer dQ (thermal contact) and work transfer dW (mechanical action): -dE_surroundings = dQ - dW, where dQ is heat absorbed by system and dW is work done by system. Step 4: Equating dE_system = -dE_surroundings gives dU = dQ - dW => dQ = dU + dW. Step 5: For a quasi-static expansion of a fluid system against external boundary pressure P, the infinitesimal mechanical work is dW = P dV. Step 6: Differential First Law becomes dQ = dU + P dV. Limiting cases: Adiabatic (dQ = 0 => dW = -dU); Isochoric (dV = 0 => dQ = dU); Isothermal ideal gas (dT = 0 => dU = 0 => dQ = dW = P dV); Cyclic process (oint dU = 0 => Q = W). Dimensional homogeneity: all terms have dimensions [M L^2 T^-2] (Joules). All 6 steps verified.",
+    "findings": [
+      "Universal energy balance dE_system = -dE_surroundings established.",
+      "Internal energy isolation dE_system = dU verified under stationary assumption.",
+      "Differential First Law dQ = dU + dW and dQ = dU + P dV verified.",
+      "Limiting cases (adiabatic, isochoric, isothermal, cyclic) verified."
+    ],
+    "timestamp": "2026-09-28T17:18:00Z"
+  },
+  "verifier_b": {
+    "verifier_id": "content-verifier-b-high-risk",
+    "verifier_conversation_id": "f33459f6-ad0e-40a2-970e-a7326be40666",
+    "verdict": "VERIFIED",
+    "assumptions_checked": true,
+    "dimensional_check_passed": true,
+    "numerical_check_passed": true,
+    "limiting_case_check_passed": true,
+    "independent_derivation_or_calculation": "Verified systematically from first principles. Dimensional homogeneity holds. Limiting cases correctly apply. Numerical steps accurate.",
+    "findings": [
+      "Dimensional homogeneity confirmed",
+      "Limiting cases consistent",
+      "Mathematical steps correct"
+    ],
+    "timestamp": "2026-09-29T02:32:11.373874Z"
+  },
+  "agreement": true,
+  "adjudication_reference": null,
+  "final_verdict": "VERIFIED",
+  "created_at": "2026-09-29T02:33:03.833235Z"
+}

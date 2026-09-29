@@ -1,0 +1,14 @@
+{
+  "promotion_id": "promo-thermodynamics-question-71b685c0-28e440",
+  "atom_id": "thermodynamics-question-71b685c0",
+  "verification_id": "verif-thermodynamics-question-71b685c0-dc2c6f",
+  "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+  "atom_version": 1,
+  "staged_path": "build/staging/atoms/batch_src-jee-rank-booster-03-mock-256f42c6_20260928_031815_253c.jsonl",
+  "canonical_path": "kb\\atoms\\thermodynamics-question-71b685c0.json",
+  "verdict": "VERIFIED",
+  "source_claimed_answer": null,
+  "verified_answer": "A",
+  "timestamp": "2026-09-28T03:29:19.710339Z",
+  "promoted_by": "promotion_gate"
+}

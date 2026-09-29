@@ -1,0 +1,13 @@
+{
+  "manifest_id": "stage_run_run-solver_b-ray-optics-question-e04c1df3-2c07c954",
+  "solver_run_id": "run-solver_b-ray-optics-question-e04c1df3-2c07c954",
+  "solver_agent_name": "solver_b",
+  "atom_id": "ray-optics-question-e04c1df3",
+  "atom_version": 1,
+  "content_hash": "278d0df957f936798ffb65657937ddb8d579af03c01c033cf775f69846ce74fa",
+  "input_source_file": "C:\\Users\\Win11\\OneDrive\\Desktop\\Rishab\\jee physics master book test\\verification\\incoming\\solver_ray-optics-question-e04c1df3_run-solver_b-ray-optics-question-e04c1df3-2c07c954.json",
+  "staged_destination_file": "C:\\Users\\Win11\\OneDrive\\Desktop\\Rishab\\jee physics master book test\\verification\\solver_runs\\run-solver_b-ray-optics-question-e04c1df3-2c07c954.json",
+  "independent_answer": "C",
+  "timestamp": "2026-09-28T03:27:20.327556+00:00",
+  "status": "STAGED"
+}

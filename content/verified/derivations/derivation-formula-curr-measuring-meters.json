@@ -1,0 +1,96 @@
+{
+  "derivation_id": "derivation-formula-curr-measuring-meters",
+  "target_formula_id": "formula-curr-measuring-meters",
+  "target_equation": "$S = \\frac{I_g G}{I - I_g},\\quad R_s = \\frac{V}{I_g} - G,\\quad R_A \\to 0,\\quad R_V \\to \\infty$",
+  "starting_principles": [
+    "Ohm's Law: $V = I R$",
+    "Kirchhoff's Current Law (conservation of charge): $\\sum I_{\\text{in}} = \\sum I_{\\text{out}}$",
+    "Kirchhoff's Voltage Law (conservation of energy): $\\sum \\Delta V = 0$ around any closed loop",
+    "Parallel branch voltage equality: components in parallel share identical potential drop"
+  ],
+  "assumptions": [
+    "D'Arsonval moving-coil galvanometer has linear angular response with internal coil resistance $G$ and full-scale deflection current $I_g$",
+    "Shunt resistor $S$ and multiplier resistor $R_s$ are ideal ohmic resistors with zero temperature drift",
+    "External connecting wires have negligible resistance"
+  ],
+  "ordered_steps": [
+    {
+      "step_number": 1,
+      "description": "Establish parallel circuit configuration and current division for ammeter conversion.",
+      "starting_equation": "$I_{\\text{total}} = I_g + I_S$",
+      "operation": "Express shunt current as $I_S = I - I_g$ and equate potential drops across parallel branches: $V_S = V_G$",
+      "result_equation": "$I_S S = I_g G \\implies (I - I_g) S = I_g G$",
+      "assumptions_applied": [
+        "Parallel branch voltage equality",
+        "Kirchhoff's current law at the input node"
+      ]
+    },
+    {
+      "step_number": 2,
+      "description": "Isolate the required shunt resistance $S$ to measure a maximum current $I$.",
+      "starting_equation": "$(I - I_g) S = I_g G$",
+      "operation": "Divide by $(I - I_g)$ and define the current multiplication factor $n_I = \\frac{I}{I_g}$",
+      "result_equation": "$S = \\frac{I_g G}{I - I_g} = \\frac{G}{n_I - 1},\\quad \\text{where } n_I = \\frac{I}{I_g}$",
+      "assumptions_applied": [
+        "Current range extension requirement $I > I_g$"
+      ]
+    },
+    {
+      "step_number": 3,
+      "description": "Compute the equivalent resistance of the shunted galvanometer and deduce the ideal ammeter condition.",
+      "starting_equation": "\\frac{1}{R_A} = \\frac{1}{G} + \\frac{1}{S}",
+      "operation": "Solve for equivalent resistance $R_A = \\frac{G S}{G + S}$ and take the limit as desired measurement capability $I \\to \\infty \\implies S \\to 0$",
+      "result_equation": "$R_A = \\frac{G S}{G + S} < S;\\quad \\lim_{S \\to 0} R_A = 0 \\implies V_A = I R_A = 0$",
+      "assumptions_applied": [
+        "Zero insertion perturbation condition for non-invasive series measurement"
+      ]
+    },
+    {
+      "step_number": 4,
+      "description": "Establish series circuit configuration and voltage division for voltmeter conversion.",
+      "starting_equation": "$V = V_{R_s} + V_G$",
+      "operation": "Express potential drops using common series current $I_g$ at full-scale deflection",
+      "result_equation": "$V = I_g R_s + I_g G = I_g(R_s + G)$",
+      "assumptions_applied": [
+        "Series current continuity",
+        "Kirchhoff's voltage law"
+      ]
+    },
+    {
+      "step_number": 5,
+      "description": "Isolate the required series multiplier resistance $R_s$ to measure a maximum potential difference $V$.",
+      "starting_equation": "$V = I_g(R_s + G)$",
+      "operation": "Divide by $I_g$, subtract $G$, and define the voltage multiplication factor $n_V = \\frac{V}{I_g G}$",
+      "result_equation": "$R_s = \\frac{V}{I_g} - G = G(n_V - 1),\\quad \\text{where } n_V = \\frac{V}{I_g G}$",
+      "assumptions_applied": [
+        "Voltage range extension requirement $V > I_g G$"
+      ]
+    },
+    {
+      "step_number": 6,
+      "description": "Compute the total internal resistance of the converted voltmeter and deduce the ideal voltmeter condition.",
+      "starting_equation": "$R_V = R_s + G = \\frac{V}{I_g}$",
+      "operation": "Take the limit as target full-scale voltage $V \\to \\infty \\implies R_s \\to \\infty$",
+      "result_equation": "$R_V = R_s + G;\\quad \\lim_{R_s \\to \\infty} R_V = \\infty \\implies I_V = \\lim_{R_V \\to \\infty} \\frac{V}{R_V} = 0$",
+      "assumptions_applied": [
+        "Zero loading perturbation condition for non-invasive parallel measurement"
+      ]
+    }
+  ],
+  "final_equation": "$S = \\frac{I_g G}{I - I_g},\\quad R_s = \\frac{V}{I_g} - G,\\quad R_A \\to 0,\\quad R_V \\to \\infty$",
+  "applicability_conditions": [
+    "Valid for linear DC moving-coil galvanometers",
+    "Purely resistive circuit operating conditions"
+  ],
+  "source_references": [
+    "jee_rank_booster-03_mock_paper.pdf",
+    "concepts_of_physics_by_h.c._verma_volume_2.pdf"
+  ],
+  "risk_level": "HIGH",
+  "verification_status": "VERIFIED",
+  "verification_record_id": "dual-cvr-derivation-formula-curr-measuring-meters",
+  "content_hash": "66dbdf5786d25bb32e3f18c3e8d8b76a82143bbb9af84e75b2a6463fd518923b",
+  "generator_identity": "ContentGeneratorAgent",
+  "generator_conversation_id": "068c12c6-05bc-4521-81c4-e5ff6ad6d7f9",
+  "created_at": "2026-09-28T22:40:00Z"
+}

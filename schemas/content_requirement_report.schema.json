@@ -1,0 +1,163 @@
+{
+  "$defs": {
+    "ContentBlockType": {
+      "description": "Pedagogical content block types within a chapter.",
+      "enum": [
+        "OBJECTIVE",
+        "PREREQUISITE_REFRESH",
+        "INTUITION",
+        "CONCEPT_EXPLANATION",
+        "FORMAL_DEFINITION",
+        "FORMULA",
+        "DERIVATION",
+        "WORKED_EXAMPLE",
+        "MISCONCEPTION",
+        "QUESTION_SET",
+        "SUMMARY",
+        "REVISION_CHECKLIST",
+        "EDITORIAL_TRANSITION"
+      ],
+      "title": "ContentBlockType",
+      "type": "string"
+    },
+    "ContentRequirement": {
+      "description": "A single formal content generation requirement extracted from ChapterSpec / ChapterPlan.",
+      "properties": {
+        "requirement_id": {
+          "description": "Unique requirement identifier",
+          "minLength": 1,
+          "title": "Requirement Id",
+          "type": "string"
+        },
+        "chapter_id": {
+          "description": "Target chapter slug",
+          "minLength": 1,
+          "title": "Chapter Id",
+          "type": "string"
+        },
+        "section_id": {
+          "description": "Target section ID",
+          "minLength": 1,
+          "title": "Section Id",
+          "type": "string"
+        },
+        "content_type": {
+          "$ref": "#/$defs/ContentBlockType",
+          "description": "Target content block type"
+        },
+        "curriculum_node_id": {
+          "description": "Associated curriculum node ID",
+          "minLength": 1,
+          "title": "Curriculum Node Id",
+          "type": "string"
+        },
+        "objective": {
+          "description": "Objective of this content unit",
+          "minLength": 5,
+          "title": "Objective",
+          "type": "string"
+        },
+        "required_source_refs": {
+          "description": "Source references required",
+          "items": {
+            "type": "string"
+          },
+          "title": "Required Source Refs",
+          "type": "array"
+        },
+        "required_prerequisites": {
+          "description": "Prerequisite concepts",
+          "items": {
+            "type": "string"
+          },
+          "title": "Required Prerequisites",
+          "type": "array"
+        },
+        "needs_physics_verification": {
+          "default": true,
+          "description": "Whether independent physics verification is required",
+          "title": "Needs Physics Verification",
+          "type": "boolean"
+        },
+        "can_generate_from_kb": {
+          "default": false,
+          "description": "Whether canonical atoms in kb/atoms/ directly satisfy it",
+          "title": "Can Generate From Kb",
+          "type": "boolean"
+        },
+        "is_unresolved_gap": {
+          "default": false,
+          "description": "Flagged as missing source/content gap",
+          "title": "Is Unresolved Gap",
+          "type": "boolean"
+        },
+        "risk_level": {
+          "$ref": "#/$defs/ContentRiskLevel",
+          "default": "MEDIUM",
+          "description": "Verification risk level"
+        }
+      },
+      "required": [
+        "requirement_id",
+        "chapter_id",
+        "section_id",
+        "content_type",
+        "curriculum_node_id",
+        "objective"
+      ],
+      "title": "ContentRequirement",
+      "type": "object"
+    },
+    "ContentRiskLevel": {
+      "description": "Risk classification for physical content requiring calibrated verification rigor.",
+      "enum": [
+        "LOW",
+        "MEDIUM",
+        "HIGH"
+      ],
+      "title": "ContentRiskLevel",
+      "type": "string"
+    }
+  },
+  "description": "Deterministic catalog of all extracted content generation requirements across chapters.",
+  "properties": {
+    "report_id": {
+      "description": "Unique report identifier",
+      "minLength": 1,
+      "title": "Report Id",
+      "type": "string"
+    },
+    "requirements_count": {
+      "description": "Total requirements cataloged",
+      "minimum": 0,
+      "title": "Requirements Count",
+      "type": "integer"
+    },
+    "gaps_count": {
+      "description": "Requirements flagged as unresolved gaps",
+      "minimum": 0,
+      "title": "Gaps Count",
+      "type": "integer"
+    },
+    "requirements": {
+      "description": "Detailed requirements list",
+      "items": {
+        "$ref": "#/$defs/ContentRequirement"
+      },
+      "title": "Requirements",
+      "type": "array"
+    },
+    "generated_at": {
+      "format": "date-time",
+      "title": "Generated At",
+      "type": "string"
+    }
+  },
+  "required": [
+    "report_id",
+    "requirements_count",
+    "gaps_count"
+  ],
+  "title": "ContentRequirementReport",
+  "type": "object"
+}

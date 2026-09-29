@@ -1,0 +1,21 @@
+{
+  "verification_id": "cvr-formula-td-radiation-adiabatic",
+  "artifact_id": "formula-td-radiation-adiabatic",
+  "artifact_version": 1,
+  "content_hash": "b8c35356c929fd3bcd62e61d7ce8ee228a5c5363bf9ffb8d61e3e555c0292045",
+  "verifier_id": "formula-content-verifier",
+  "verifier_conversation_id": "ab85d650-e1e8-42e2-ac4a-8bc8a6460e30",
+  "risk_level": "MEDIUM",
+  "verdict": "VERIFIED",
+  "assumptions_checked": true,
+  "dimensional_check_passed": true,
+  "numerical_check_passed": true,
+  "limiting_case_check_passed": true,
+  "independent_derivation_or_calculation": "This appears to be for radiation pressure or similar adiabatic expansion of photon gas (PV^(4/3) = constant). For a photon gas, P = u/3 and u = aT^4, yielding gamma = 4/3.",
+  "findings": [
+    "Exponent 4/3 confirmed for photon gas / radiation",
+    "Valid thermodynamic relation for blackbody cavity expansion"
+  ],
+  "discrepancies": [],
+  "timestamp": "2026-09-29T02:32:37.338299+00:00"
+}

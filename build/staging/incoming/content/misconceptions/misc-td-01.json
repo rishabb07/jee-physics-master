@@ -1,0 +1,25 @@
+{
+  "misconception_id": "misc-td-01",
+  "chapter_id": "thermodynamics",
+  "concept_id": "concept-td-first-law-01",
+  "title": "Adiabatic expansion work is positive so internal energy increases",
+  "category": "SIGN_MISTAKE",
+  "statement": "In an adiabatic expansion of an ideal gas, the work done by the gas is positive (W > 0), so the internal energy of the gas must increase and its temperature must rise.",
+  "incorrect_statement": "In an adiabatic expansion of an ideal gas, the work done by the gas is positive (W > 0), so the internal energy of the gas must increase and its temperature must rise.",
+  "erroneous_reasoning": "Students confuse the signs in the First Law of Thermodynamics, erroneously assuming that positive work done by an expanding gas adds energy to the gas (writing \\Delta U = Q + W_by), or confusing the work done BY the gas with the work done ON the gas.",
+  "why_it_fails": "The First Law of Thermodynamics in physics dictates \\Delta U = Q - W_by. For an adiabatic process, Q = 0, meaning \\Delta U = - W_by. When the gas expands, W_by > 0, which directly forces \\Delta U < 0; the internal energy decreases as it is converted into boundary work on the environment.",
+  "correct_physics_explanation": "In standard physics sign convention, the First Law of Thermodynamics is formulated as $dQ = dU + dW_{\\text{by}}$, where $dW_{\\text{by}} = P dV$ is the work performed BY the gas on its surroundings. Rewriting this for the change in internal energy gives $\\Delta U = Q - W_{\\text{by}}$. For an adiabatic process, the system is thermally isolated from its environment, so heat exchange is strictly zero: $Q = 0$. Consequently:\n$$\\Delta U = - W_{\\text{by}}$$\nDuring an expansion ($dV > 0$), the gas performs positive work on the surrounding piston or medium ($W_{\\text{by}} = \\int P dV > 0$). Since no heat energy can enter through the adiabatic boundary to fund this mechanical work, the energy must be extracted entirely from the thermal kinetic energy of the gas molecules. Therefore, $\\Delta U = - W_{\\text{by}} < 0$. For an ideal gas whose internal energy is given by $U = n C_V T$, a decrease in internal energy mandates a decrease in absolute temperature: $\\Delta T = \\Delta U / (n C_V) < 0$. Adiabatic expansion inevitably causes cooling, not heating.",
+  "corrective_explanation": "In standard physics sign convention, the First Law of Thermodynamics is formulated as $dQ = dU + dW_{\\text{by}}$, where $dW_{\\text{by}} = P dV$ is the work performed BY the gas on its surroundings. Rewriting this for the change in internal energy gives $\\Delta U = Q - W_{\\text{by}}$. For an adiabatic process, the system is thermally isolated from its environment, so heat exchange is strictly zero: $Q = 0$. Consequently:\n$$\\Delta U = - W_{\\text{by}}$$\nDuring an expansion ($dV > 0$), the gas performs positive work on the surrounding piston or medium ($W_{\\text{by}} = \\int P dV > 0$). Since no heat energy can enter through the adiabatic boundary to fund this mechanical work, the energy must be extracted entirely from the thermal kinetic energy of the gas molecules. Therefore, $\\Delta U = - W_{\\text{by}} < 0$. For an ideal gas whose internal energy is given by $U = n C_V T$, a decrease in internal energy mandates a decrease in absolute temperature: $\\Delta T = \\Delta U / (n C_V) < 0$. Adiabatic expansion inevitably causes cooling, not heating.",
+  "refutation_counterexample": "Take $1.0\\text{ mol}$ of a monoatomic ideal gas ($\\gamma = 5/3$, $C_V = \\frac{3}{2}R$) initially at $T_0 = 300\\text{ K}$ expanding adiabatically to $8$ times its initial volume ($V_f = 8 V_0$). Using the reversible adiabatic relation $T_f = T_0 (V_0 / V_f)^{\\gamma - 1} = 300 \\times (1/8)^{2/3} = 300 \\times (1/4) = 75\\text{ K}$. The temperature falls from $300\\text{ K}$ to $75\\text{ K}$ ($\\Delta T = -225\\text{ K}$). The change in internal energy is $\\Delta U = n C_V \\Delta T = 1.0 \\times \\frac{3}{2} R \\times (-225) = -337.5 R \\approx -2806\\text{ J} < 0$. The work done by the gas is $W_{\\text{by}} = -\\Delta U = +2806\\text{ J} > 0$. The internal energy has decreased by $2806\\text{ J}$, conclusively disproving the claim that positive expansion work increases internal energy.",
+  "supporting_evidence": "H.C. Verma, Concepts of Physics Vol 2, Chapter 26 (First Law of Thermodynamics), Section 26.5: 'Work Done by an Ideal Gas'; University Physics with Modern Physics, 13th Edition, Section 19.8; Questions thermodynamics-question-71b685c0 and thermodynamics-question-7e2f5a91.",
+  "diagnostic_check_latex": "Q = 0 \\implies \\Delta U = - W_{\\text{by}} = - \\int P\\,dV < 0 \\quad (\\text{for } dV > 0) \\implies \\Delta T < 0",
+  "diagnostic_symptom": "Student concludes that a gas heats up during adiabatic expansion, or writes \\Delta U = + W in their thermodynamic energy balance.",
+  "connected_atom_ids": [
+    "thermodynamics-question-71b685c0",
+    "thermodynamics-question-7e2f5a91"
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification_record_id": null,
+  "content_hash": null,
+  "created_at": "2026-09-28T22:35:00Z"
+}

@@ -1,0 +1,13 @@
+{
+  "manifest_id": "stage_run_run-solver_a-magnetism-and-matter-question-3c3af9c7-fc121896",
+  "solver_run_id": "run-solver_a-magnetism-and-matter-question-3c3af9c7-fc121896",
+  "solver_agent_name": "solver_a",
+  "atom_id": "magnetism-and-matter-question-3c3af9c7",
+  "atom_version": 1,
+  "content_hash": "4f75f153a39d8442a12e351b16adff316cd56e03e4bbdd92bdd30b0ca759faf3",
+  "input_source_file": "C:\\Users\\Win11\\OneDrive\\Desktop\\Rishab\\jee physics master book test\\verification\\incoming\\solver_magnetism-and-matter-question-3c3af9c7_run-solver_a-magnetism-and-matter-question-3c3af9c7-fc121896.json",
+  "staged_destination_file": "C:\\Users\\Win11\\OneDrive\\Desktop\\Rishab\\jee physics master book test\\verification\\solver_runs\\run-solver_a-magnetism-and-matter-question-3c3af9c7-fc121896.json",
+  "independent_answer": "C",
+  "timestamp": "2026-09-28T03:27:14.988770+00:00",
+  "status": "STAGED"
+}

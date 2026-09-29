@@ -1,0 +1,24 @@
+{
+  "misconception_id": "misc-rot-01",
+  "chapter_id": "rotational-motion",
+  "concept_id": "concept-rot-angmom-particle-01",
+  "title": "Straight-line motion cannot have angular momentum",
+  "category": "INVALID_FORMULA_CONDITION",
+  "statement": "A particle moving along a straight line at constant velocity has zero angular momentum because angular momentum only exists for bodies rotating in circles or curved paths.",
+  "incorrect_statement": "A particle moving along a straight line at constant velocity has zero angular momentum because angular momentum only exists for bodies rotating in circles or curved paths.",
+  "erroneous_reasoning": "Students conflate the rotational motion of an extended rigid body with the angular momentum of a point particle. They assume that if an object does not physically rotate on an axle or follow a curved or circular trajectory, it cannot possess angular momentum, completely overlooking the definition of angular momentum as a position-dependent cross product relative to an arbitrary reference point.",
+  "why_it_fails": "Angular momentum is not an intrinsic property of a trajectory; it is defined strictly relative to a chosen reference point O as L_O = r x p. Any particle whose line of motion does not pass through O has a non-zero perpendicular distance r_perp, yielding a non-zero, conserved angular momentum even during uniform rectilinear motion.",
+  "correct_physics_explanation": "The angular momentum of a particle of mass $m$ with linear momentum $\\vec{p} = m\\vec{v}$ relative to a chosen origin $O$ is defined as the cross product $\\vec{L}_O = \\vec{r} \\times \\vec{p}$, where $\\vec{r}$ is the position vector from $O$ to the particle. Its magnitude is given by $L_O = m v r \\sin\\phi = m v r_\\perp$, where $r_\\perp$ is the perpendicular distance (impact parameter) from the reference point $O$ to the particle's line of motion. As long as the line of motion does not intersect point $O$ ($r_\\perp \\neq 0$), the particle possesses non-zero angular momentum about $O$. Furthermore, if the particle moves at constant velocity (zero net external force), $\\vec{\\tau}_O = \\vec{r} \\times \\vec{F} = 0$, which proves via Newton's second law for rotation that $\\vec{L}_O$ is strictly conserved in both magnitude and direction throughout the linear motion.",
+  "corrective_explanation": "The angular momentum of a particle of mass $m$ with linear momentum $\\vec{p} = m\\vec{v}$ relative to a chosen origin $O$ is defined as the cross product $\\vec{L}_O = \\vec{r} \\times \\vec{p}$, where $\\vec{r}$ is the position vector from $O$ to the particle. Its magnitude is given by $L_O = m v r \\sin\\phi = m v r_\\perp$, where $r_\\perp$ is the perpendicular distance (impact parameter) from the reference point $O$ to the particle's line of motion. As long as the line of motion does not intersect point $O$ ($r_\\perp \\neq 0$), the particle possesses non-zero angular momentum about $O$. Furthermore, if the particle moves at constant velocity (zero net external force), $\\vec{\\tau}_O = \\vec{r} \\times \\vec{F} = 0$, which proves via Newton's second law for rotation that $\\vec{L}_O$ is strictly conserved in both magnitude and direction throughout the linear motion.",
+  "refutation_counterexample": "Consider a particle of mass $m = 2\\text{ kg}$ moving with constant velocity $\\vec{v} = 5\\hat{i}\\text{ m/s}$ along the horizontal line $y = 3\\text{ m}$. Choose the origin $O(0,0)$ as the reference point. At any instant $t$, the position vector is $\\vec{r}(t) = x(t)\\hat{i} + 3\\hat{j}$. The angular momentum about $O$ is $\\vec{L}_O = \\vec{r} \\times (m\\vec{v}) = (x\\hat{i} + 3\\hat{j}) \\times (10\\hat{i}) = -30\\hat{k}\\text{ J}\\cdot\\text{s}$. The angular momentum is non-zero, negative (clockwise), and strictly constant for all $t$, directly refuting the claim that straight-line motion implies zero angular momentum.",
+  "supporting_evidence": "H.C. Verma, Concepts of Physics Vol 1, Chapter 10 (Rotational Mechanics), Section 10.15: 'Angular Momentum of a Particle'; Halliday, Resnick, Walker, Fundamentals of Physics, Section 11-6; Question rotational-motion-question-6c7cb960.",
+  "diagnostic_check_latex": "\\vec{L}_O = \\vec{r} \\times \\vec{p} = \\vec{r} \\times (m\\vec{v}), \\quad |\\vec{L}_O| = m v r_\\perp \\neq 0 \\quad (\\text{whenever } r_\\perp > 0)",
+  "diagnostic_symptom": "Student sets L = 0 whenever a particle moves in a straight line, or claims angular momentum can only be computed if a physical axle or circular orbit is present.",
+  "connected_atom_ids": [
+    "rotational-motion-question-6c7cb960"
+  ],
+  "verification_status": "UNVERIFIED",
+  "verification_record_id": null,
+  "content_hash": null,
+  "created_at": "2026-09-28T22:35:00Z"
+}

@@ -1,0 +1,30 @@
+{
+  "verification_id": "verif-thermodynamics-question-7e2f5a91-3e60ce",
+  "atom_id": "thermodynamics-question-7e2f5a91",
+  "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+  "atom_version": 1,
+  "content_hash": "8c521079bd7785f9c5dcc9407efb7a64479712a6fe55265b17182196b1e8b2c2",
+  "verification_protocol_version": "1.0.0",
+  "solver_run_ids": [
+    "run-solver_a-405002c7-8b4e-42e3-9c66-cf37ed24c09a",
+    "run-solver_b-thermodynamics-question-7e2f5a91"
+  ],
+  "source_claimed_answer": null,
+  "source_solution": null,
+  "independent_answers": {
+    "solver_a": "A",
+    "solver_b": "A"
+  },
+  "independent_solutions": {
+    "solver_a": "Step 1: Nonconducting container + slow compression implies reversible adiabatic process.\nStep 2: Monoatomic ideal gas: gamma = 5/3, gamma - 1 = 2/3.\nStep 3: Volume reduction to 12.5% implies V_0 / V_f = 100 / 12.5 = 8.",
+    "solver_b": "Step 1: Nonconducting vessel and slow compression: reversible adiabatic process.\nStep 2: Monoatomic ideal gas: gamma = 5/3, gamma - 1 = 2/3.\nStep 3: V_f = 0.125 * V_i = V_i / 8 => V_i / V_f = 8."
+  },
+  "consensus_answer": "A",
+  "verdict": "VERIFIED",
+  "confidence": 0.99,
+  "discrepancy_classification": "SOURCE_ANSWER_MISSING",
+  "adjudication_result": null,
+  "created_at": "2026-09-27T19:51:06.366351Z",
+  "completed_at": "2026-09-27T19:51:06.366351Z",
+  "metadata": {}
+}

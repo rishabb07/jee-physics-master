@@ -1,0 +1,198 @@
+{
+  "$defs": {
+    "ContentVerificationStatus": {
+      "description": "Lifecycle verification states for generated physics content.",
+      "enum": [
+        "UNVERIFIED",
+        "GENERATED",
+        "STAGED",
+        "VERIFIED",
+        "PROMOTABLE",
+        "REJECTED",
+        "CONFLICT",
+        "REVIEW",
+        "INVALIDATED"
+      ],
+      "title": "ContentVerificationStatus",
+      "type": "string"
+    },
+    "TaxonomyReference": {
+      "description": "Hierarchical positioning in the official JEE syllabus.",
+      "properties": {
+        "chapter_id": {
+          "description": "Normalized chapter slug, e.g., 'kinematics'",
+          "minLength": 1,
+          "title": "Chapter Id",
+          "type": "string"
+        },
+        "topic_id": {
+          "description": "Topic slug, e.g., 'projectile-motion'",
+          "minLength": 1,
+          "title": "Topic Id",
+          "type": "string"
+        },
+        "subtopic_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Optional subtopic slug, e.g., 'motion-on-incline'",
+          "title": "Subtopic Id"
+        }
+      },
+      "required": [
+        "chapter_id",
+        "topic_id"
+      ],
+      "title": "TaxonomyReference",
+      "type": "object"
+    }
+  },
+  "description": "Atomic pedagogical explanation of a physical concept.",
+  "properties": {
+    "content_id": {
+      "description": "Unique content identifier",
+      "minLength": 1,
+      "title": "Content Id",
+      "type": "string"
+    },
+    "curriculum_id": {
+      "description": "Mapped curriculum unit ID",
+      "minLength": 1,
+      "title": "Curriculum Id",
+      "type": "string"
+    },
+    "taxonomy_reference": {
+      "$ref": "#/$defs/TaxonomyReference",
+      "description": "Authoritative taxonomy mapping"
+    },
+    "title": {
+      "description": "Display title of the concept",
+      "minLength": 1,
+      "title": "Title",
+      "type": "string"
+    },
+    "learning_objective": {
+      "description": "Clear statement of what student will learn",
+      "minLength": 5,
+      "title": "Learning Objective",
+      "type": "string"
+    },
+    "explanation": {
+      "description": "Rigorous physical narrative",
+      "minLength": 10,
+      "title": "Explanation",
+      "type": "string"
+    },
+    "intuition": {
+      "description": "Physical intuition, everyday analog, or thought experiment",
+      "minLength": 5,
+      "title": "Intuition",
+      "type": "string"
+    },
+    "formal_definition": {
+      "description": "Precise formal physical definition",
+      "minLength": 5,
+      "title": "Formal Definition",
+      "type": "string"
+    },
+    "assumptions": {
+      "description": "Explicit boundary assumptions",
+      "items": {
+        "type": "string"
+      },
+      "title": "Assumptions",
+      "type": "array"
+    },
+    "boundary_conditions": {
+      "description": "Limits of validity and edge conditions",
+      "items": {
+        "type": "string"
+      },
+      "title": "Boundary Conditions",
+      "type": "array"
+    },
+    "related_formula_ids": {
+      "description": "Associated formula IDs",
+      "items": {
+        "type": "string"
+      },
+      "title": "Related Formula Ids",
+      "type": "array"
+    },
+    "prerequisite_refs": {
+      "description": "Required prerequisite curriculum IDs",
+      "items": {
+        "type": "string"
+      },
+      "title": "Prerequisite Refs",
+      "type": "array"
+    },
+    "source_references": {
+      "description": "Source citations or text references",
+      "items": {
+        "type": "string"
+      },
+      "title": "Source References",
+      "type": "array"
+    },
+    "generation_metadata": {
+      "additionalProperties": true,
+      "description": "Agent identity, prompt, and parameters",
+      "title": "Generation Metadata",
+      "type": "object"
+    },
+    "verification_status": {
+      "$ref": "#/$defs/ContentVerificationStatus",
+      "default": "GENERATED"
+    },
+    "content_hash": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "SHA-256 hash of normalized content payload",
+      "title": "Content Hash"
+    },
+    "verification_record_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Bound verification record ID",
+      "title": "Verification Record Id"
+    },
+    "created_at": {
+      "format": "date-time",
+      "title": "Created At",
+      "type": "string"
+    }
+  },
+  "required": [
+    "content_id",
+    "curriculum_id",
+    "taxonomy_reference",
+    "title",
+    "learning_objective",
+    "explanation",
+    "intuition",
+    "formal_definition"
+  ],
+  "title": "ConceptExplanation",
+  "type": "object"
+}

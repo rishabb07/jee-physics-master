@@ -1,0 +1,30 @@
+{
+  "verification_id": "verif-current-electricity-question-ce6aab7f-8122b1",
+  "atom_id": "current-electricity-question-ce6aab7f",
+  "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+  "atom_version": 1,
+  "content_hash": "c737abb98f96fd5a98931ffea017b9563d60ac5a8d5c16e9d0b28774ab3a6311",
+  "verification_protocol_version": "1.0.0",
+  "solver_run_ids": [
+    "run-solver_a-current-electricity-question-ce6aab7f-001",
+    "run-solver_b-current-electricity-question-ce6aab7f-95526adc"
+  ],
+  "source_claimed_answer": null,
+  "source_solution": null,
+  "independent_answers": {
+    "solver_a": "1600",
+    "solver_b": "1600"
+  },
+  "independent_solutions": {
+    "solver_a": "1. Resistance of the wire is R = rho * l / (pi * r^2) = 100 ohms.\n2. The volume of the wire remains constant during recasting: V = pi * r^2 * l = constant.\n3. When the radius is reduced to r/2, the new area is A' = pi * (r/2)^2 = (pi * r^2) / 4.",
+    "solver_b": "Original resistance $R_1 = \\rho \\frac{l}{\\pi r^2} = 100\\,\\Omega$.\nVolume of the wire is conserved during recasting: $V = \\pi r^2 l = \\pi (r')^2 l'$.\nNew radius $r' = \\frac{r}{2}$, so $(r')^2 = \\frac{r^2}{4}$."
+  },
+  "consensus_answer": "1600",
+  "verdict": "VERIFIED",
+  "confidence": 0.99,
+  "discrepancy_classification": "SOURCE_ANSWER_MISSING",
+  "adjudication_result": null,
+  "created_at": "2026-09-28T03:29:47.831091Z",
+  "completed_at": "2026-09-28T03:29:47.831091Z",
+  "metadata": {}
+}

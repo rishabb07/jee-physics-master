@@ -1,0 +1,30 @@
+{
+  "verification_id": "verif-rotational-motion-question-f7cbecda-6b292a",
+  "atom_id": "rotational-motion-question-f7cbecda",
+  "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+  "atom_version": 1,
+  "content_hash": "729335ea8d2363b7b4f02d4c22c2c28352bc06a5093b5760855b1c5a20a7ff38",
+  "verification_protocol_version": "1.0.0",
+  "solver_run_ids": [
+    "run-solver_a-rotational-motion-question-f7cbecda-7ee55cda",
+    "run-solver_b-rotational-motion-question-f7cbecda-95a15ebc"
+  ],
+  "source_claimed_answer": null,
+  "source_solution": null,
+  "independent_answers": {
+    "solver_a": "C",
+    "solver_b": "C"
+  },
+  "independent_solutions": {
+    "solver_a": "1. No external torque acts on the disc-insect system about the vertical axis.\n2. Angular momentum L is conserved. L = I * omega = constant.\n3. As the insect moves from rim to center, the moment of inertia I decreases, so omega increases.",
+    "solver_b": "Angular momentum L = I omega is conserved since there is no external torque.\nWhen the insect moves from rim to centre, the moment of inertia I decreases.\nSince L is constant, the angular speed omega increases."
+  },
+  "consensus_answer": "C",
+  "verdict": "VERIFIED",
+  "confidence": 0.99,
+  "discrepancy_classification": "SOURCE_ANSWER_MISSING",
+  "adjudication_result": null,
+  "created_at": "2026-09-28T03:29:19.677623Z",
+  "completed_at": "2026-09-28T03:29:19.677623Z",
+  "metadata": {}
+}

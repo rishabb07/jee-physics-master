@@ -1,0 +1,24 @@
+{
+  "solver_run_id": "run-solver_a-b3132dd9-ce88-46f7-ad9f-1bcd518f82b7",
+  "atom_id": "fluid-mechanics-question-2b8a7f0e",
+  "solver_id": "solver_a",
+  "model_name": "independent-first-principles-solver",
+  "independent_answer": "D",
+  "raw_answer": "Option D: \\rho_{1} < \\rho_{3} < \\rho_{2}",
+  "reasoning_steps": [
+    "Step 1: Liquid 1 rests on Liquid 2 without mixing: stable stratification requires rho1 < rho2.",
+    "Step 2: Solid ball of density rho3 floats in static equilibrium straddling interface.",
+    "Step 3: Weight = Buoyant force => rho3 * V = rho1 * V1 + rho2 * V2.",
+    "Step 4: Density rho3 = rho1 * (V1/V) + rho2 * (V2/V) is a strict convex combination with V1 > 0, V2 > 0.",
+    "Step 5: Therefore rho1 < rho3 < rho2, matching Option D."
+  ],
+  "assumptions_used": [
+    "Immiscible liquids under uniform gravity",
+    "Ball straddles interface in static equilibrium"
+  ],
+  "uncertainty": null,
+  "diagram_interpretation": "Jar with two immiscible layers, ball straddling interface.",
+  "possible_ambiguities": [],
+  "created_at": "2026-09-27T19:51:06.329504Z",
+  "raw_response": null
+}

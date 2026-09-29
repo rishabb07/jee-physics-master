@@ -1,0 +1,96 @@
+name: JEE Physics Web CI/CD & Auto-Deploy
+
+on:
+  push:
+    branches: [ master, main ]
+  pull_request:
+    branches: [ master, main ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  validate_and_build:
+    runs-on: ubuntu-latest
+    name: Validate, Audit, and Compile Web Application
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e .
+          pip install pytest pydantic pyyaml
+
+      - name: Run Repository Test Suite
+        run: |
+          pytest -v
+
+      - name: Compile Production Web Distribution
+        run: |
+          python -m jee_physics build-web --clean
+
+      - name: Audit Release Integrity
+        run: |
+          python -c "
+          import json, hashlib
+          from pathlib import Path
+          dist = Path('output/web/data')
+          manifest = json.loads((dist / 'manifest.json').read_text(encoding='utf-8'))
+          assert manifest['scope'] == 'PILOT', 'Invalid scope'
+          for fname, h in manifest['content_hashes'].items():
+              actual = hashlib.sha256((dist / fname).read_text(encoding='utf-8').encode('utf-8')).hexdigest()
+              assert actual == h, f'Hash mismatch on {fname}'
+          qs = json.loads((dist / 'questions.json').read_text(encoding='utf-8'))
+          assert all(q['verification_status'] == 'VERIFIED' for q in qs)
+          forbidden = {'gen-q-ambig-test-01', 'gen-q-dist-conflict-01', 'gen-q-wrong-ans-01'}
+          assert not any(q['question_id'] in forbidden for q in qs)
+          print('Production Release Audit: PASSED')
+          "
+
+      - name: Validate Offline KaTeX Assets
+        run: |
+          python -c "
+          from pathlib import Path
+          katex_dir = Path('output/web/vendor/katex')
+          assert (katex_dir / 'katex.min.js').exists(), 'katex.min.js missing'
+          assert (katex_dir / 'katex.min.css').exists(), 'katex.min.css missing'
+          fonts = list((katex_dir / 'fonts').glob('*.woff2'))
+          assert len(fonts) >= 20, f'Expected >= 20 KaTeX woff2 font files, found {len(fonts)}'
+          print(f'Offline KaTeX Assets: PASSED ({len(fonts)} fonts verified)')
+          "
+
+      - name: Upload Pages Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: output/web/
+
+
+  deploy_production:
+    needs: validate_and_build
+    if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    name: Deploy to Production Web Host
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

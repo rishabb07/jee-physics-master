@@ -1,0 +1,402 @@
+{
+  "chapter_id": "thermodynamics",
+  "chapter_title": "Thermodynamics",
+  "template_type": "THERMODYNAMICS",
+  "order": 11,
+  "taxonomy_references": [
+    {
+      "chapter_id": "thermodynamics",
+      "topic_id": "first-law-and-processes",
+      "subtopic_id": "internal-energy-concept"
+    },
+    {
+      "chapter_id": "thermodynamics",
+      "topic_id": "first-law-and-processes",
+      "subtopic_id": "first-law-statement"
+    },
+    {
+      "chapter_id": "thermodynamics",
+      "topic_id": "first-law-and-processes",
+      "subtopic_id": "isothermal-process"
+    },
+    {
+      "chapter_id": "thermodynamics",
+      "topic_id": "first-law-and-processes",
+      "subtopic_id": "adiabatic-process"
+    },
+    {
+      "chapter_id": "thermodynamics",
+      "topic_id": "first-law-and-processes",
+      "subtopic_id": "pv-diagrams-and-work"
+    },
+    {
+      "chapter_id": "thermodynamics",
+      "topic_id": "special-thermodynamic-processes",
+      "subtopic_id": "radiation-thermodynamics"
+    },
+    {
+      "chapter_id": "thermodynamics",
+      "topic_id": "heat-engines-and-second-law",
+      "subtopic_id": "carnot-engine-and-efficiency"
+    }
+  ],
+  "learning_objectives": [
+    "Understand thermodynamic state variables, equilibrium, and internal energy as an exact differential state function.",
+    "Apply the First Law of Thermodynamics dQ = dU + dW using rigorous physics sign conventions.",
+    "Analyze cyclic and non-cyclic gas processes (isobaric, isochoric, isothermal, adiabatic, polytropic) and calculate boundary work from PV integrals.",
+    "Derive and apply reversible adiabatic scaling relations T V^(gamma-1) = const and P V^gamma = const for ideal gases and relativistic photon gases.",
+    "Evaluate thermal efficiencies of heat engines, Carnot limits, and Second Law formulations."
+  ],
+  "prerequisite_curriculum_nodes": [
+    "curr-therm-01",
+    "curr-wep-01"
+  ],
+  "concept_sequence": [
+    {
+      "concept_id": "concept-td-first-law-01",
+      "curriculum_id": "curr-td-01",
+      "role": "CORE_PRINCIPLE",
+      "prerequisite_relationship": "Requires mechanical work from curr-wep-01 and calorimetry from curr-therm-01",
+      "explanation_priority": 1,
+      "source_atom_ids": [],
+      "source_evidence": "JEE Advanced Official Topic Prescription: First law of thermodynamics"
+    },
+    {
+      "concept_id": "concept-td-adiabatic-01",
+      "curriculum_id": "curr-td-02",
+      "role": "CORE_PRINCIPLE",
+      "prerequisite_relationship": "Requires first law dQ = 0 and differential equations from curr-td-01",
+      "explanation_priority": 2,
+      "source_atom_ids": [
+        "thermodynamics-question-71b685c0",
+        "thermodynamics-question-7e2f5a91"
+      ],
+      "source_evidence": "JEE Advanced Official Topic Prescription: Adiabatic process in ideal gases"
+    },
+    {
+      "concept_id": "concept-td-radiation-01",
+      "curriculum_id": "curr-td-02",
+      "role": "CORE_PRINCIPLE",
+      "prerequisite_relationship": "Extends adiabatic expansion to radiation pressure and photon gas thermodynamics",
+      "explanation_priority": 3,
+      "source_atom_ids": [
+        "thermodynamics-question-3fe51020"
+      ],
+      "source_evidence": "JEE Advanced Official Topic Prescription: Radiation thermodynamics and blackbody radiation"
+    }
+  ],
+  "formula_sequence": [
+    {
+      "formula_id": "formula-td-first-law",
+      "title": "First Law of Thermodynamics",
+      "equation_latex": "dQ = dU + dW",
+      "variables": {
+        "dQ": "Heat exchanged by the system with surroundings",
+        "dU": "Change in internal energy of the system",
+        "dW": "Work done by the system on surroundings"
+      },
+      "units_and_dimensions": {
+        "dQ": "J",
+        "dU": "J",
+        "dW": "J"
+      },
+      "assumptions": [
+        "Closed thermodynamic system",
+        "Quasi-static boundary interaction"
+      ],
+      "conditions_of_validity": [
+        "Valid for any thermodynamic process connecting initial and final equilibrium states"
+      ],
+      "derivation_links": [
+        "curr-td-01"
+      ],
+      "related_concept_ids": [
+        "concept-td-first-law-01"
+      ],
+      "common_misuse_cases": [
+        "Confusing chemistry sign convention (Delta U = q + w) with physics sign convention (dQ = dU + dW) where dW = P dV is work done by the system"
+      ],
+      "provenance": [],
+      "verification_status": "VERIFIED"
+    },
+    {
+      "formula_id": "formula-td-adiabatic-ideal-gas",
+      "title": "Reversible Adiabatic Process for Ideal Gas",
+      "equation_latex": "T V^{\\gamma - 1} = \\text{constant},\\quad P V^{\\gamma} = \\text{constant}",
+      "variables": {
+        "T": "Absolute temperature",
+        "V": "Volume",
+        "P": "Pressure",
+        "\\gamma": "Adiabatic index (C_p / C_v)"
+      },
+      "units_and_dimensions": {
+        "T": "K",
+        "V": "m^3",
+        "P": "N/m^2",
+        "\\gamma": "dimensionless"
+      },
+      "assumptions": [
+        "Ideal gas with constant heat capacities",
+        "Reversible (quasi-static) adiabatic expansion/compression dQ = 0"
+      ],
+      "conditions_of_validity": [
+        "System must be thermally insulated and process must be quasi-static without dissipation"
+      ],
+      "derivation_links": [
+        "curr-td-02"
+      ],
+      "related_concept_ids": [
+        "concept-td-adiabatic-01"
+      ],
+      "common_misuse_cases": [
+        "Using PV^gamma = const for irreversible adiabatic processes such as free expansion into vacuum"
+      ],
+      "provenance": [],
+      "verification_status": "VERIFIED"
+    },
+    {
+      "formula_id": "formula-td-radiation-adiabatic",
+      "title": "Adiabatic Expansion of Photon Gas",
+      "equation_latex": "u = a T^4,\\quad P = \\frac{1}{3} u = \\frac{1}{3} a T^4,\\quad T V^{1/3} = \\text{constant} \\implies T R = \\text{constant}",
+      "variables": {
+        "u": "Internal energy density of blackbody radiation",
+        "T": "Absolute temperature of cavity",
+        "P": "Radiation pressure",
+        "R": "Radius of spherical cavity",
+        "V": "Volume of spherical cavity",
+        "a": "Radiation constant"
+      },
+      "units_and_dimensions": {
+        "u": "J/m^3",
+        "T": "K",
+        "P": "Pa",
+        "R": "m",
+        "V": "m^3"
+      },
+      "assumptions": [
+        "Blackbody radiation in thermodynamic equilibrium with cavity walls",
+        "Isotropic photon gas",
+        "Reversible adiabatic expansion dQ = 0"
+      ],
+      "conditions_of_validity": [
+        "Relativistic photon dispersion relation E = pc yielding P = u/3"
+      ],
+      "derivation_links": [
+        "curr-td-02"
+      ],
+      "related_concept_ids": [
+        "concept-td-radiation-01"
+      ],
+      "common_misuse_cases": [
+        "Applying the classical ideal gas gamma = 5/3 to a photon gas instead of deriving dU = d(uV) with u proportional to T^4"
+      ],
+      "provenance": [],
+      "verification_status": "VERIFIED"
+    }
+  ],
+  "misconception_sequence": [
+    {
+      "misconception_id": "misc-td-01",
+      "category": "SIGN_MISTAKE",
+      "statement": "Work done in adiabatic expansion is positive so internal energy increases.",
+      "explanation": "In an adiabatic expansion (dQ = 0), the First Law states dU = -dW. When the gas expands, dW > 0 (work is done by the gas on surroundings), which means dU < 0. The internal energy decreases, causing the gas temperature to drop, not rise.",
+      "trap_mechanism": "JEE questions test sign traps where compression vs expansion work is inverted, leading to selecting reciprocal temperature ratios (e.g. T_f = T_0 / 4 instead of 4 T_0 for compression).",
+      "trigger_conditions": [
+        "Adiabatic compression or expansion problems with volume ratio specified"
+      ],
+      "connected_concept_ids": [
+        "concept-td-first-law-01",
+        "concept-td-adiabatic-01"
+      ],
+      "connected_atom_ids": [
+        "thermodynamics-question-71b685c0",
+        "thermodynamics-question-7e2f5a91"
+      ]
+    },
+    {
+      "misconception_id": "misc-td-02",
+      "category": "INVALID_FORMULA_CONDITION",
+      "statement": "The adiabatic relation P V^(5/3) = const applies to all systems undergoing adiabatic expansion.",
+      "explanation": "P V^gamma = const applies specifically to classical ideal gases where internal energy depends only on temperature via U = n C_v T. For relativistic systems or photon gases, u = a T^4 and P = u/3, so U = a V T^4. The first law dU = -P dV yields d(a V T^4) = -(1/3 a T^4) dV, giving 4 a T^3 V dT + a T^4 dV = -(1/3) a T^4 dV, which integrates to T V^(1/3) = const, or T R = const for a sphere (since V proportional to R^3). Applying gamma = 5/3 gives incorrect scaling.",
+      "trap_mechanism": "Advanced questions present photon gas or relativistic gas where students blindly quote PV^(5/3) = const instead of integrating dU + P dV = 0.",
+      "trigger_conditions": [
+        "Blackbody cavity or photon gas adiabatic expansion"
+      ],
+      "connected_concept_ids": [
+        "concept-td-radiation-01"
+      ],
+      "connected_atom_ids": [
+        "thermodynamics-question-3fe51020"
+      ]
+    }
+  ],
+  "worked_example_sequence": [
+    {
+      "example_id": "ex-td-adiabatic-compression-01",
+      "problem_statement": "A cylinder containing a monoatomic ideal gas at temperature $T_0$ is insulated thermally from the surroundings. A movable nonconducting piston slowly compresses the gas to $\\frac{1}{8}$ of its initial volume ($12.5\\%$ of initial volume). (a) Calculate the final temperature of the gas in terms of $T_0$. (b) Determine the work done on the gas in terms of the number of moles $n$ and initial temperature $T_0$.",
+      "known_quantities": {
+        "T_i": "T_0 (Initial temperature)",
+        "V_f / V_i": "0.125 = 1/8",
+        "\\gamma": "5/3 for monoatomic ideal gas"
+      },
+      "target_quantity": "Final temperature T_f and work done on gas W_on",
+      "relevant_concepts": [
+        "First law of thermodynamics",
+        "Reversible adiabatic process",
+        "Monoatomic gas degrees of freedom"
+      ],
+      "governing_principles": [
+        "Adiabatic relation for ideal gas: T V^{\\gamma - 1} = \\text{constant}",
+        "Internal energy change: \\Delta U = n C_v \\Delta T"
+      ],
+      "solution_strategy": "Since the container and piston are nonconducting and compression is slow (quasi-static), the process is reversible adiabatic (dQ = 0). Use T_i V_i^(gamma - 1) = T_f V_f^(gamma - 1) to find T_f. Then calculate work done on the gas from W_on = Delta U = n C_v (T_f - T_i).",
+      "step_by_step_derivation": [
+        "Step 1: For a monoatomic ideal gas, degrees of freedom f = 3, so C_v = (3/2) R, C_p = (5/2) R, and gamma = C_p / C_v = 5/3.",
+        "Step 2: The volume ratio is V_f / V_i = 12.5% = 1/8.",
+        "Step 3: Apply the adiabatic temperature-volume relation: T_f V_f^(gamma - 1) = T_i V_i^(gamma - 1) implies T_f = T_0 (V_i / V_f)^(gamma - 1).",
+        "Step 4: Evaluate the exponent: gamma - 1 = 5/3 - 1 = 2/3. Therefore, T_f = T_0 (8)^(2/3) = T_0 (2^3)^(2/3) = T_0 (2^2) = 4 T_0.",
+        "Step 5: Calculate the work done on the gas: By First Law with dQ = 0, W_by = -Delta U = -n C_v (T_f - T_i) = -n ((3/2) R) (4 T_0 - T_0) = -(9/2) n R T_0. Thus, work done ON the gas is W_on = -W_by = (9/2) n R T_0."
+      ],
+      "final_answer": "T_f = 4 T_0,\\quad W_{\\text{on}} = \\frac{9}{2} n R T_0",
+      "sanity_checks": [
+        "Dimensional check: [T_f] = K, [W_on] = n R T has dimensions of Energy (Joules).",
+        "Limiting check: If V_f = V_i, T_f = T_0 and W_on = 0.",
+        "Physical consistency: Slow adiabatic compression requires positive work done on the gas, which directly converts to internal energy, raising the temperature from T_0 to 4 T_0."
+      ],
+      "alternate_methods": [],
+      "source_atom_id": "thermodynamics-question-71b685c0",
+      "provenance": [],
+      "verification_status": "VERIFIED"
+    }
+  ],
+  "question_sequence": [
+    {
+      "atom_id": "thermodynamics-question-71b685c0",
+      "curriculum_id": "curr-td-02",
+      "chapter_id": "thermodynamics",
+      "topic_id": "first-law-and-processes",
+      "pedagogical_role": "PRACTICE_QUESTION",
+      "difficulty_dimensions": {
+        "conceptual_difficulty": 2,
+        "mathematical_difficulty": 2,
+        "multistep_reasoning_difficulty": 2,
+        "abstraction_difficulty": 2,
+        "computational_burden": 1,
+        "trap_misconception_difficulty": 2
+      },
+      "prerequisite_concept_ids": [
+        "concept-td-adiabatic-01"
+      ],
+      "question_ladder_id": null,
+      "question_ladder_position": null,
+      "source_provenance": [
+        {
+          "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+          "file_name": "jee_rank_booster-03_mock_paper.pdf",
+          "file_path": "jee_rank_booster-03_mock_paper.pdf",
+          "page_start": 4,
+          "page_end": 4,
+          "source_locator": "Section - A, Q14",
+          "edition": null,
+          "extraction_metadata": {
+            "source_sha256": "256f42c67a9271aaafe4bf637eb34cddd10da959cdf7a66fc6fee76a68d34361"
+          }
+        }
+      ]
+    },
+    {
+      "atom_id": "thermodynamics-question-7e2f5a91",
+      "curriculum_id": "curr-td-02",
+      "chapter_id": "thermodynamics",
+      "topic_id": "first-law-and-processes",
+      "pedagogical_role": "PRACTICE_QUESTION",
+      "difficulty_dimensions": {
+        "conceptual_difficulty": 2,
+        "mathematical_difficulty": 2,
+        "multistep_reasoning_difficulty": 2,
+        "abstraction_difficulty": 2,
+        "computational_burden": 1,
+        "trap_misconception_difficulty": 2
+      },
+      "prerequisite_concept_ids": [
+        "concept-td-adiabatic-01"
+      ],
+      "question_ladder_id": null,
+      "question_ladder_position": null,
+      "source_provenance": [
+        {
+          "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+          "file_name": "jee_rank_booster-03_mock_paper.pdf",
+          "file_path": "jee_rank_booster-03_mock_paper.pdf",
+          "page_start": 4,
+          "page_end": 4,
+          "source_locator": "Section - A, Q14",
+          "edition": null,
+          "extraction_metadata": {
+            "source_sha256": "256f42c67a9271aaafe4bf637eb34cddd10da959cdf7a66fc6fee76a68d34361"
+          }
+        }
+      ]
+    },
+    {
+      "atom_id": "thermodynamics-question-3fe51020",
+      "curriculum_id": "curr-td-02",
+      "chapter_id": "thermodynamics",
+      "topic_id": "special-thermodynamic-processes",
+      "pedagogical_role": "PRACTICE_QUESTION",
+      "difficulty_dimensions": {
+        "conceptual_difficulty": 4,
+        "mathematical_difficulty": 3,
+        "multistep_reasoning_difficulty": 3,
+        "abstraction_difficulty": 4,
+        "computational_burden": 2,
+        "trap_misconception_difficulty": 3
+      },
+      "prerequisite_concept_ids": [
+        "concept-td-radiation-01"
+      ],
+      "question_ladder_id": null,
+      "question_ladder_position": null,
+      "source_provenance": [
+        {
+          "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+          "file_name": "jee_rank_booster-03_mock_paper.pdf",
+          "file_path": null,
+          "page_start": 2,
+          "page_end": 2,
+          "source_locator": "Section - A, Q5",
+          "edition": null,
+          "extraction_metadata": {}
+        }
+      ]
+    }
+  ],
+  "question_ladders": [],
+  "revision_checklist": [
+    "Zeroth Law of Thermodynamics: Thermal equilibrium and definition of temperature.",
+    "First Law: dQ = dU + dW, where dW = P dV (work done by gas) and dU = n C_v dT.",
+    "State function vs Path function: U is a state function; Q and W are path-dependent.",
+    "Isothermal process: T = const, Delta U = 0, Q = W = n R T ln(V_f / V_i).",
+    "Adiabatic process: dQ = 0, Delta U = -W, P V^gamma = const, T V^(gamma-1) = const.",
+    "Work in adiabatic process: W = (P_i V_i - P_f V_f) / (gamma - 1) = n R (T_i - T_f) / (gamma - 1).",
+    "Molar heat capacities: C_p - C_v = R (Mayer's relation), gamma = C_p / C_v = 1 + 2/f.",
+    "Carnot Engine: eta = 1 - T_C / T_H = W / Q_H; Refrigerator COP beta = Q_C / W.",
+    "Second Law of Thermodynamics: Kelvin-Planck and Clausius statements, Clausius inequality."
+  ],
+  "coverage_requirements": {
+    "min_questions": 3,
+    "target_difficulty_distribution": {
+      "L1": 0,
+      "L2": 2,
+      "L3": 1,
+      "L4": 0,
+      "L5": 0
+    }
+  },
+  "assessment_requirements": {
+    "exam_types": [
+      "JEE_MAIN",
+      "JEE_ADVANCED"
+    ]
+  }
+}

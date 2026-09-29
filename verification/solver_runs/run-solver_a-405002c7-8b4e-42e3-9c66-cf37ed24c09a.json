@@ -1,0 +1,25 @@
+{
+  "solver_run_id": "run-solver_a-405002c7-8b4e-42e3-9c66-cf37ed24c09a",
+  "atom_id": "thermodynamics-question-7e2f5a91",
+  "solver_id": "solver_a",
+  "model_name": "independent-first-principles-solver",
+  "independent_answer": "A",
+  "raw_answer": "Option A: 4T_{0}",
+  "reasoning_steps": [
+    "Step 1: Nonconducting container + slow compression implies reversible adiabatic process.",
+    "Step 2: Monoatomic ideal gas: gamma = 5/3, gamma - 1 = 2/3.",
+    "Step 3: Volume reduction to 12.5% implies V_0 / V_f = 100 / 12.5 = 8.",
+    "Step 4: T_f = T_0 * (V_0 / V_f)^(gamma - 1) = T_0 * 8^(2/3) = T_0 * 4 = 4 T_0.",
+    "Step 5: Matches Option A."
+  ],
+  "assumptions_used": [
+    "Ideal monoatomic gas",
+    "Adiabatic nonconducting walls",
+    "Quasi-static process"
+  ],
+  "uncertainty": null,
+  "diagram_interpretation": null,
+  "possible_ambiguities": [],
+  "created_at": "2026-09-27T19:51:06.329504Z",
+  "raw_response": null
+}

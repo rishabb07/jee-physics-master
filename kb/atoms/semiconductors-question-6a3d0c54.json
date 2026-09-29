@@ -1,0 +1,63 @@
+{
+  "atom_id": "semiconductors-question-6a3d0c54",
+  "schema_version": "1.0.0",
+  "atom_version": 1,
+  "active": true,
+  "atom_type": "question",
+  "title": "Ratio of drift velocities of electrons and holes in a semiconductor",
+  "taxonomy": {
+    "chapter_id": "semiconductors",
+    "topic_id": "charge-carriers",
+    "subtopic_id": "drift-velocity-and-conductivity"
+  },
+  "provenance": [
+    {
+      "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+      "file_name": "jee_rank_booster-03_mock_paper.pdf",
+      "file_path": "jee_rank_booster-03_mock_paper.pdf",
+      "page_start": 6,
+      "page_end": 6,
+      "source_locator": "Section - B, Q25",
+      "edition": null,
+      "extraction_metadata": {
+        "source_sha256": "256f42c67a9271aaafe4bf637eb34cddd10da959cdf7a66fc6fee76a68d34361"
+      }
+    }
+  ],
+  "confidence": 0.99,
+  "verification_status": "VERIFIED",
+  "content_hash": "12fafaa32dfcfc773ebcb9d86ab29b279ae5a3d0a0980974d60cc671a1f9860f",
+  "created_at": "2026-09-28T01:00:00Z",
+  "updated_at": "2026-09-28T04:19:50.815754Z",
+  "content": null,
+  "formula": null,
+  "question": {
+    "statement": "If the ratio of the concentration of electrons to that of holes in a semiconductor is $\\frac{7}{5}$ and the ratio of currents is $\\frac{7}{4}$, then what is the ratio of their drift velocities?",
+    "options": [],
+    "source_claimed_answer": "1.25",
+    "verified_answer": "1.25",
+    "source_solution": null,
+    "answer": "1.25",
+    "solution_methods": [],
+    "difficulty": "L2",
+    "exam_metadata": {
+      "exam": "JEE Rank Booster Mock",
+      "exam_name": "JEE Rank Booster Mock",
+      "year": null,
+      "paper": 3,
+      "question_number": "25"
+    },
+    "concepts": [
+      "semiconductor-physics",
+      "drift-velocity",
+      "carrier-concentration",
+      "electric-current"
+    ]
+  },
+  "solved_example": null,
+  "misconception": null,
+  "figure_refs": [],
+  "insight": null,
+  "duplicate_group_id": null,
+  "archive_reason": null
+}

@@ -1,0 +1,30 @@
+{
+  "verification_id": "verif-electrostatics-question-26848976-b7f7ef",
+  "atom_id": "electrostatics-question-26848976",
+  "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+  "atom_version": 1,
+  "content_hash": "d7020c8e10f9bb41d499b728f1ffe03e59d5938e3d6677fa810e352181960f16",
+  "verification_protocol_version": "1.0.0",
+  "solver_run_ids": [
+    "run-solver_a-electrostatics-question-26848976-bd993d60",
+    "run-solver_b-electrostatics-question-26848976-17d0a6b7"
+  ],
+  "source_claimed_answer": null,
+  "source_solution": null,
+  "independent_answers": {
+    "solver_a": "A",
+    "solver_b": "A"
+  },
+  "independent_solutions": {
+    "solver_a": "Bridge circuit equivalent capacitance\nSeries and parallel combination reduction",
+    "solver_b": "Solved bridge network equivalent capacitance, yielding C = 32/23."
+  },
+  "consensus_answer": "A",
+  "verdict": "VERIFIED",
+  "confidence": 0.99,
+  "discrepancy_classification": "SOURCE_ANSWER_MISSING",
+  "adjudication_result": null,
+  "created_at": "2026-09-28T03:29:19.651612Z",
+  "completed_at": "2026-09-28T03:29:19.651612Z",
+  "metadata": {}
+}

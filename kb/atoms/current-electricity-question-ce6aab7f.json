@@ -1,0 +1,63 @@
+{
+  "atom_id": "current-electricity-question-ce6aab7f",
+  "schema_version": "1.0.0",
+  "atom_version": 1,
+  "active": true,
+  "atom_type": "question",
+  "title": "Resistance of wire recast to half its original radius",
+  "taxonomy": {
+    "chapter_id": "current-electricity",
+    "topic_id": "resistance-and-resistivity",
+    "subtopic_id": "stretching-and-recasting-of-wires"
+  },
+  "provenance": [
+    {
+      "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+      "file_name": "jee_rank_booster-03_mock_paper.pdf",
+      "file_path": "jee_rank_booster-03_mock_paper.pdf",
+      "page_start": 5,
+      "page_end": 5,
+      "source_locator": "Section - B, Q21",
+      "edition": null,
+      "extraction_metadata": {
+        "source_sha256": "256f42c67a9271aaafe4bf637eb34cddd10da959cdf7a66fc6fee76a68d34361"
+      }
+    }
+  ],
+  "confidence": 0.99,
+  "verification_status": "VERIFIED",
+  "content_hash": "c737abb98f96fd5a98931ffea017b9563d60ac5a8d5c16e9d0b28774ab3a6311",
+  "created_at": "2026-09-28T01:00:00Z",
+  "updated_at": "2026-09-28T04:19:50.706739Z",
+  "content": null,
+  "formula": null,
+  "question": {
+    "statement": "A uniform wire of length $l$ and radius $r$ has a resistance of $100\\,\\Omega$. It is recast into a wire of radius $\\frac{r}{2}$. The resistance of new wire will be ________ $\\Omega$.",
+    "options": [],
+    "source_claimed_answer": "1600",
+    "verified_answer": "1600",
+    "source_solution": null,
+    "answer": "1600",
+    "solution_methods": [],
+    "difficulty": "L2",
+    "exam_metadata": {
+      "exam": "JEE Rank Booster Mock",
+      "exam_name": "JEE Rank Booster Mock",
+      "year": null,
+      "paper": 3,
+      "question_number": "21"
+    },
+    "concepts": [
+      "current-electricity",
+      "resistance",
+      "resistivity",
+      "volume-conservation"
+    ]
+  },
+  "solved_example": null,
+  "misconception": null,
+  "figure_refs": [],
+  "insight": null,
+  "duplicate_group_id": null,
+  "archive_reason": null
+}

@@ -1,0 +1,86 @@
+{
+  "atom_id": "electrostatics-question-132c25d1",
+  "schema_version": "1.0.0",
+  "atom_version": 1,
+  "active": true,
+  "atom_type": "question",
+  "title": "Electric flux through upper face of square pyramid with charge at center of base",
+  "taxonomy": {
+    "chapter_id": "electrostatics",
+    "topic_id": "gausss-law",
+    "subtopic_id": "electric-flux-symmetry"
+  },
+  "provenance": [
+    {
+      "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+      "file_name": "jee_rank_booster-03_mock_paper.pdf",
+      "file_path": "jee_rank_booster-03_mock_paper.pdf",
+      "page_start": 4,
+      "page_end": 4,
+      "source_locator": "Section - A, Q15",
+      "edition": null,
+      "extraction_metadata": {
+        "source_sha256": "256f42c67a9271aaafe4bf637eb34cddd10da959cdf7a66fc6fee76a68d34361"
+      }
+    }
+  ],
+  "confidence": 0.99,
+  "verification_status": "VERIFIED",
+  "content_hash": "55511314791636289281fa986d2b38358fd33945eb154d89f87d5bc7ea6a59a7",
+  "created_at": "2026-09-28T01:00:00Z",
+  "updated_at": "2026-09-28T04:19:50.716515Z",
+  "content": null,
+  "formula": null,
+  "question": {
+    "statement": "A point charge $+Q$ is positioned at the center of the base of a square pyramid as shown. The flux through one of the four identical upper faces of the pyramid is –",
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{Q}{16\\varepsilon_{0}}$"
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{Q}{4\\varepsilon_{0}}$"
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{Q}{8\\varepsilon_{0}}$"
+      },
+      {
+        "id": "D",
+        "text": "None of these"
+      }
+    ],
+    "source_claimed_answer": "C",
+    "verified_answer": "C",
+    "source_solution": null,
+    "answer": "C",
+    "solution_methods": [],
+    "difficulty": "L3",
+    "exam_metadata": {
+      "exam": "JEE Rank Booster Mock",
+      "exam_name": "JEE Rank Booster Mock",
+      "year": null,
+      "paper": 3,
+      "question_number": "15"
+    },
+    "concepts": [
+      "electrostatics",
+      "gausss-law",
+      "electric-flux",
+      "symmetry-arguments"
+    ]
+  },
+  "solved_example": null,
+  "misconception": null,
+  "figure_refs": [
+    {
+      "figure_id": "fig-src-jee-rank-booster-03-mock-p04-q15",
+      "caption": "Square pyramid with a point charge $+Q$ at the center of its square base.",
+      "alt_text": "Perspective 3D line drawing of a square pyramid with four triangular upper faces sloping to an apex. A solid dot labeled +Q is placed at the center of the square base."
+    }
+  ],
+  "insight": null,
+  "duplicate_group_id": null,
+  "archive_reason": null
+}

@@ -1,0 +1,78 @@
+{
+  "atom_id": "waves-question-01c8e233",
+  "schema_version": "1.0.0",
+  "atom_version": 1,
+  "active": true,
+  "atom_type": "question",
+  "title": "Beat Frequency of Sonometer Wire with Bridge Near Centre",
+  "taxonomy": {
+    "chapter_id": "waves",
+    "topic_id": "standing-waves",
+    "subtopic_id": "sonometer-beat-frequency"
+  },
+  "provenance": [
+    {
+      "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+      "file_name": "jee_rank_booster-03_mock_paper.pdf",
+      "file_path": null,
+      "page_start": 3,
+      "page_end": 3,
+      "source_locator": "Section - A, Q7",
+      "edition": null,
+      "extraction_metadata": {}
+    }
+  ],
+  "confidence": 0.97,
+  "verification_status": "VERIFIED",
+  "content_hash": "432762c6be7aef3d98c00ee89cfb40d3badc150dac127bf90c5fa34c8260355a",
+  "created_at": "2026-09-28T03:18:38.634782Z",
+  "updated_at": "2026-09-28T04:19:50.853069Z",
+  "content": null,
+  "formula": null,
+  "question": {
+    "statement": "The fundamental frequency of a sonometer wire of length $\\ell$ is $n_{0}$. A bridge is now introduced at a distance of $\\Delta\\ell$ ($\\ll \\ell$) from the centre of the wire. The lengths of wire on the two sides of the bridge are now vibrated in their fundamental modes. Then, the beat frequency nearly is –",
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{n_{0} \\Delta\\ell}{\\ell}$"
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{8 n_{0} \\Delta\\ell}{\\ell}$"
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{2 n_{0} \\Delta\\ell}{\\ell}$"
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{n_{0} \\Delta\\ell}{2\\ell}$"
+      }
+    ],
+    "source_claimed_answer": "B",
+    "verified_answer": "B",
+    "source_solution": null,
+    "answer": "B",
+    "solution_methods": [],
+    "difficulty": "L3",
+    "exam_metadata": {
+      "exam": "JEE Rank Booster Mock",
+      "exam_name": "JEE Rank Booster Mock",
+      "year": null,
+      "paper": 3,
+      "question_number": "7"
+    },
+    "concepts": [
+      "sonometer",
+      "fundamental frequency",
+      "beat frequency",
+      "standing waves on string"
+    ]
+  },
+  "solved_example": null,
+  "misconception": null,
+  "figure_refs": [],
+  "insight": null,
+  "duplicate_group_id": null,
+  "archive_reason": null
+}

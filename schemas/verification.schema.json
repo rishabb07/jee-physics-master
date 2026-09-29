@@ -1,0 +1,304 @@
+{
+  "$defs": {
+    "AdjudicationRecord": {
+      "description": "Structured decision by the adjudication agent reconciling solver runs and source claims.",
+      "properties": {
+        "adjudication_id": {
+          "description": "Unique ID for this adjudication decision",
+          "title": "Adjudication Id",
+          "type": "string"
+        },
+        "atom_id": {
+          "description": "Target atom ID",
+          "title": "Atom Id",
+          "type": "string"
+        },
+        "atom_version": {
+          "default": 1,
+          "description": "Version of the target atom",
+          "minimum": 1,
+          "title": "Atom Version",
+          "type": "integer"
+        },
+        "content_hash": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Content hash of the target atom",
+          "title": "Content Hash"
+        },
+        "adjudicator_id": {
+          "default": "physics-adjudicator",
+          "description": "Identity of the adjudicator",
+          "title": "Adjudicator Id",
+          "type": "string"
+        },
+        "solver_analyses": {
+          "additionalProperties": {
+            "type": "string"
+          },
+          "description": "Critique of each solver run's validity",
+          "title": "Solver Analyses",
+          "type": "object"
+        },
+        "source_claim_analysis": {
+          "description": "Evaluation of source-claimed answer correctness",
+          "title": "Source Claim Analysis",
+          "type": "string"
+        },
+        "physical_reasoning": {
+          "description": "Rigorous physical justification for the final verdict",
+          "title": "Physical Reasoning",
+          "type": "string"
+        },
+        "adjudicated_answer": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Final adjudicated correct answer",
+          "title": "Adjudicated Answer"
+        },
+        "verdict": {
+          "$ref": "#/$defs/VerificationVerdict",
+          "description": "Adjudicated verdict"
+        },
+        "confidence": {
+          "description": "Confidence in the adjudication decision",
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Confidence",
+          "type": "number"
+        },
+        "notes": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Additional context or caveats",
+          "title": "Notes"
+        },
+        "created_at": {
+          "format": "date-time",
+          "title": "Created At",
+          "type": "string"
+        }
+      },
+      "required": [
+        "adjudication_id",
+        "atom_id",
+        "source_claim_analysis",
+        "physical_reasoning",
+        "verdict",
+        "confidence"
+      ],
+      "title": "AdjudicationRecord",
+      "type": "object"
+    },
+    "VerificationVerdict": {
+      "enum": [
+        "VERIFIED",
+        "SOURCE_ERROR",
+        "MODEL_ERROR",
+        "AMBIGUOUS",
+        "UNRESOLVED"
+      ],
+      "title": "VerificationVerdict",
+      "type": "string"
+    }
+  },
+  "description": "Authoritative auditable verification record for a Knowledge Atom.",
+  "properties": {
+    "verification_id": {
+      "description": "Unique verification record ID",
+      "title": "Verification Id",
+      "type": "string"
+    },
+    "atom_id": {
+      "description": "Target atom ID",
+      "title": "Atom Id",
+      "type": "string"
+    },
+    "source_id": {
+      "description": "Original registered source ID",
+      "title": "Source Id",
+      "type": "string"
+    },
+    "atom_version": {
+      "default": 1,
+      "description": "Version of the atom that was verified",
+      "minimum": 1,
+      "title": "Atom Version",
+      "type": "integer"
+    },
+    "content_hash": {
+      "description": "Content hash of the atom at time of verification",
+      "minLength": 16,
+      "title": "Content Hash",
+      "type": "string"
+    },
+    "verification_protocol_version": {
+      "default": "1.0.0",
+      "description": "Version of the verification protocol applied",
+      "title": "Verification Protocol Version",
+      "type": "string"
+    },
+    "solver_run_ids": {
+      "description": "List of solver_run_id instances used",
+      "items": {
+        "type": "string"
+      },
+      "title": "Solver Run Ids",
+      "type": "array"
+    },
+    "source_claimed_answer": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Observed answer key in source, if present",
+      "title": "Source Claimed Answer"
+    },
+    "source_solution": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Observed source-provided solution, if present",
+      "title": "Source Solution"
+    },
+    "independent_answers": {
+      "additionalProperties": {
+        "anyOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "description": "Map of solver_id -> answer",
+      "title": "Independent Answers",
+      "type": "object"
+    },
+    "independent_solutions": {
+      "additionalProperties": {
+        "type": "string"
+      },
+      "description": "Map of solver_id -> solution summary",
+      "title": "Independent Solutions",
+      "type": "object"
+    },
+    "consensus_answer": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Consensus answer if solvers agreed or adjudicated",
+      "title": "Consensus Answer"
+    },
+    "verdict": {
+      "$ref": "#/$defs/VerificationVerdict",
+      "description": "Final verification verdict"
+    },
+    "confidence": {
+      "description": "Overall verification confidence score",
+      "maximum": 1.0,
+      "minimum": 0.0,
+      "title": "Confidence",
+      "type": "number"
+    },
+    "discrepancy_classification": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Classification of disagreement if any",
+      "title": "Discrepancy Classification"
+    },
+    "adjudication_result": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/AdjudicationRecord"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Adjudication record if adjudication occurred"
+    },
+    "created_at": {
+      "format": "date-time",
+      "title": "Created At",
+      "type": "string"
+    },
+    "completed_at": {
+      "anyOf": [
+        {
+          "format": "date-time",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "When verification concluded",
+      "title": "Completed At"
+    },
+    "metadata": {
+      "additionalProperties": true,
+      "description": "Additional runtime or agent metadata",
+      "title": "Metadata",
+      "type": "object"
+    }
+  },
+  "required": [
+    "verification_id",
+    "atom_id",
+    "source_id",
+    "content_hash",
+    "verdict",
+    "confidence"
+  ],
+  "title": "VerificationRecord",
+  "type": "object"
+}

@@ -1,0 +1,25 @@
+{
+  "solver_run_id": "run-solver_a-wave-optics-question-49253758-9a31a61b",
+  "atom_id": "wave-optics-question-49253758",
+  "solver_id": "solver_a",
+  "solver_agent_name": "solver_a",
+  "atom_version": 1,
+  "content_hash": "bddab462c0a49d09ab51a0492b7ee14f5c92a3859d893f01b434892a2b9728db",
+  "verification_protocol_version": "1.0.0",
+  "blind_package_hash": "b4c3d987de5053c0e9a7e454e8feb3b92275f2e57e77fa6df82c37f11e6eb3fa",
+  "model_name": null,
+  "independent_answer": "C",
+  "raw_answer": "Option C",
+  "reasoning_steps": [
+    "Path difference yd/D",
+    "Constructive interference condition n*lambda"
+  ],
+  "assumptions_used": [
+    "Standard physical assumptions"
+  ],
+  "uncertainty": null,
+  "diagram_interpretation": null,
+  "possible_ambiguities": [],
+  "created_at": "2026-09-28T03:26:20.573422Z",
+  "raw_response": null
+}

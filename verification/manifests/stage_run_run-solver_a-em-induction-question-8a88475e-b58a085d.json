@@ -1,0 +1,13 @@
+{
+  "manifest_id": "stage_run_run-solver_a-em-induction-question-8a88475e-b58a085d",
+  "solver_run_id": "run-solver_a-em-induction-question-8a88475e-b58a085d",
+  "solver_agent_name": "solver_a",
+  "atom_id": "em-induction-question-8a88475e",
+  "atom_version": 1,
+  "content_hash": "942c74d99ff0ff318e3829c44a8384058ae5a721ebe4d0c8554b1220b1919149",
+  "input_source_file": "C:\\Users\\Win11\\OneDrive\\Desktop\\Rishab\\jee physics master book test\\verification\\incoming\\solver_em-induction-question-8a88475e_run-solver_a-em-induction-question-8a88475e-b58a085d.json",
+  "staged_destination_file": "C:\\Users\\Win11\\OneDrive\\Desktop\\Rishab\\jee physics master book test\\verification\\solver_runs\\run-solver_a-em-induction-question-8a88475e-b58a085d.json",
+  "independent_answer": "B",
+  "timestamp": "2026-09-28T03:27:02.077236+00:00",
+  "status": "STAGED"
+}

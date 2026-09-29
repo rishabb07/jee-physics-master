@@ -1,0 +1,13 @@
+{
+  "manifest_id": "stage_run_run-solver_a-properties-of-solids-question-2d7d920e-c32e04da",
+  "solver_run_id": "run-solver_a-properties-of-solids-question-2d7d920e-c32e04da",
+  "solver_agent_name": "solver_a",
+  "atom_id": "properties-of-solids-question-2d7d920e",
+  "atom_version": 1,
+  "content_hash": "ac8311ce50f56ee203ac025c2b65c4a7fec09676ff7d9c4603ebeb4feab9422a",
+  "input_source_file": "C:\\Users\\Win11\\OneDrive\\Desktop\\Rishab\\jee physics master book test\\verification\\incoming\\solver_properties-of-solids-question-2d7d920e_run-solver_a-properties-of-solids-question-2d7d920e-c32e04da.json",
+  "staged_destination_file": "C:\\Users\\Win11\\OneDrive\\Desktop\\Rishab\\jee physics master book test\\verification\\solver_runs\\run-solver_a-properties-of-solids-question-2d7d920e-c32e04da.json",
+  "independent_answer": "A",
+  "timestamp": "2026-09-28T03:27:18.507151+00:00",
+  "status": "STAGED"
+}

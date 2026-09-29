@@ -1,0 +1,30 @@
+{
+  "verification_id": "verif-thermodynamics-question-7e2f5a91-ad132f",
+  "atom_id": "thermodynamics-question-7e2f5a91",
+  "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+  "atom_version": 1,
+  "content_hash": "8c521079bd7785f9c5dcc9407efb7a64479712a6fe55265b17182196b1e8b2c2",
+  "verification_protocol_version": "1.0.0",
+  "solver_run_ids": [
+    "run-solver_a-thermodynamics-question-7e2f5a91-4d8a1c93",
+    "run-solver_b-thermodynamics-question-7e2f5a91"
+  ],
+  "source_claimed_answer": null,
+  "source_solution": null,
+  "independent_answers": {
+    "solver_a": "A",
+    "solver_b": "A"
+  },
+  "independent_solutions": {
+    "solver_a": "Step 1: Identify thermodynamic process: The container walls and the movable piston are nonconducting, ensuring zero heat exchange with surroundings (dQ = 0). The compression is performed 'slowly', making the process quasi-static and reversible. Thus, it is a reversible adiabatic process.\nStep 2: Adiabatic index gamma: For a monoatomic ideal gas, there are f = 3 translational degrees of freedom, giving specific heat ratio gamma = 1 + 2/f = 1 + 2/3 = 5/3.\nStep 3: State relation for reversible adiabatic process: For an ideal gas undergoing a reversible adiabatic process, T * V^(gamma - 1) = constant, hence T_i * V_i^(gamma - 1) = T_f * V_f^(gamma - 1).",
+    "solver_b": "Step 1: Nonconducting vessel and slow compression: reversible adiabatic process.\nStep 2: Monoatomic ideal gas: gamma = 5/3, gamma - 1 = 2/3.\nStep 3: V_f = 0.125 * V_i = V_i / 8 => V_i / V_f = 8."
+  },
+  "consensus_answer": "A",
+  "verdict": "VERIFIED",
+  "confidence": 0.99,
+  "discrepancy_classification": "SOURCE_ANSWER_MISSING",
+  "adjudication_result": null,
+  "created_at": "2026-09-27T20:05:28.464683Z",
+  "completed_at": "2026-09-27T20:05:28.464683Z",
+  "metadata": {}
+}

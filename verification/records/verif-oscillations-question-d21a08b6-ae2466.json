@@ -1,0 +1,30 @@
+{
+  "verification_id": "verif-oscillations-question-d21a08b6-ae2466",
+  "atom_id": "oscillations-question-d21a08b6",
+  "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+  "atom_version": 1,
+  "content_hash": "143acbc0d6713ef9815870159f577f998760ee612e2d56405d59f2fc4ec134a4",
+  "verification_protocol_version": "1.0.0",
+  "solver_run_ids": [
+    "run-solver_a-oscillations-question-d21a08b6-5796e69a",
+    "run-solver_b-oscillations-question-d21a08b6-7f600c1c"
+  ],
+  "source_claimed_answer": null,
+  "source_solution": null,
+  "independent_answers": {
+    "solver_a": "B",
+    "solver_b": "B"
+  },
+  "independent_solutions": {
+    "solver_a": "1. Given m = 0.1 kg, A = 0.1 m.\n2. At mean position, velocity is maximum: v_max = A * omega.\n3. Maximum kinetic energy = 1/2 m v_max^2 = 18 * 10^-3 J.",
+    "solver_b": "Maximum kinetic energy is at the mean position: KE_max = 1/2 m omega^2 A^2\n18 * 10^{-3} = 0.5 * 0.1 * omega^2 * (0.1)^2\n0.0005 * omega^2 = 0.018 -> omega^2 = 36 -> omega = 6 rad/s."
+  },
+  "consensus_answer": "B",
+  "verdict": "VERIFIED",
+  "confidence": 0.99,
+  "discrepancy_classification": "SOURCE_ANSWER_MISSING",
+  "adjudication_result": null,
+  "created_at": "2026-09-28T03:29:47.769117Z",
+  "completed_at": "2026-09-28T03:29:47.769117Z",
+  "metadata": {}
+}

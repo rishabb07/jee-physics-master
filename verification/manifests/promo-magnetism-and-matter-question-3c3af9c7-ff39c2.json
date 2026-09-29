@@ -1,0 +1,14 @@
+{
+  "promotion_id": "promo-magnetism-and-matter-question-3c3af9c7-ff39c2",
+  "atom_id": "magnetism-and-matter-question-3c3af9c7",
+  "verification_id": "verif-magnetism-and-matter-question-3c3af9c7-cfbbdc",
+  "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+  "atom_version": 1,
+  "staged_path": "build/staging/atoms/batch_src-jee-rank-booster-03-mock-256f42c6_20260928_031815_253c.jsonl",
+  "canonical_path": "kb\\atoms\\magnetism-and-matter-question-3c3af9c7.json",
+  "verdict": "VERIFIED",
+  "source_claimed_answer": null,
+  "verified_answer": "C",
+  "timestamp": "2026-09-28T03:29:47.822492Z",
+  "promoted_by": "promotion_gate"
+}

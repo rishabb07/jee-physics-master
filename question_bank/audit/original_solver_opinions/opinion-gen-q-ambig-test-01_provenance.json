@@ -1,0 +1,10 @@
+{
+  "target_question_id": "gen-q-ambig-test-01",
+  "original_file_sha256": "5bc58f69e6250bca50e9586d3cf255afc82db00c0a5a3550f76fb87e77237876",
+  "original_verdict": "VERIFIED",
+  "original_timestamp": "2026-09-29T08:54:00+05:30",
+  "original_verifier_id": "solver_a",
+  "original_conversation_id": "c4b2f200-9d09-4009-8419-85baf0f75544",
+  "recovery_mechanism": "Extracted bit-for-bit from step 67 of subagent transcript C:\\Users\\Win11\\.gemini\\antigravity\\brain\\c4b2f200-9d09-4009-8419-85baf0f75544\\.system_generated\\logs\\transcript_full.jsonl",
+  "status": "PRESERVED_HISTORICAL_RECORD"
+}

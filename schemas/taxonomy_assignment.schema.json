@@ -1,0 +1,77 @@
+{
+  "description": "Proposed or approved mapping of an atom into the taxonomy.",
+  "properties": {
+    "atom_id": {
+      "description": "Target atom ID",
+      "minLength": 1,
+      "title": "Atom Id",
+      "type": "string"
+    },
+    "chapter_id": {
+      "description": "Canonical chapter ID in taxonomy",
+      "minLength": 1,
+      "title": "Chapter Id",
+      "type": "string"
+    },
+    "topic_id": {
+      "description": "Canonical topic ID in taxonomy",
+      "minLength": 1,
+      "title": "Topic Id",
+      "type": "string"
+    },
+    "subtopic_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Optional canonical subtopic ID in taxonomy",
+      "title": "Subtopic Id"
+    },
+    "confidence": {
+      "description": "Confidence in this classification",
+      "maximum": 1.0,
+      "minimum": 0.0,
+      "title": "Confidence",
+      "type": "number"
+    },
+    "rationale": {
+      "description": "Physical and pedagogical reasoning for this taxonomy placement",
+      "minLength": 1,
+      "title": "Rationale",
+      "type": "string"
+    },
+    "status": {
+      "default": "PROPOSED",
+      "description": "PROPOSED, APPROVED, or UNMAPPED",
+      "title": "Status",
+      "type": "string"
+    },
+    "notes": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Caveats, cross-topic overlaps, or audit notes",
+      "title": "Notes"
+    }
+  },
+  "required": [
+    "atom_id",
+    "chapter_id",
+    "topic_id",
+    "confidence",
+    "rationale"
+  ],
+  "title": "TaxonomyAssignment",
+  "type": "object"
+}

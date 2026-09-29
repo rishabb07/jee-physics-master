@@ -1,0 +1,774 @@
+{
+  "$defs": {
+    "AtomStatus": {
+      "enum": [
+        "STAGED",
+        "VALIDATED",
+        "VERIFICATION_PENDING",
+        "VERIFIED",
+        "REJECTED",
+        "AMBIGUOUS",
+        "ARCHIVED"
+      ],
+      "title": "AtomStatus",
+      "type": "string"
+    },
+    "AtomType": {
+      "enum": [
+        "theory",
+        "formula",
+        "solved_example",
+        "question",
+        "figure",
+        "insight",
+        "misconception"
+      ],
+      "title": "AtomType",
+      "type": "string"
+    },
+    "DifficultyLevel": {
+      "enum": [
+        "L1",
+        "L2",
+        "L3",
+        "L4",
+        "L5"
+      ],
+      "title": "DifficultyLevel",
+      "type": "string"
+    },
+    "ExamMetadata": {
+      "properties": {
+        "exam": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "e.g. 'JEE Advanced', 'JEE Main', 'AIEEE'",
+          "title": "Exam"
+        },
+        "exam_name": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Alias for exam name",
+          "title": "Exam Name"
+        },
+        "year": {
+          "anyOf": [
+            {
+              "maximum": 2050,
+              "minimum": 1960,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Examination year",
+          "title": "Year"
+        },
+        "paper": {
+          "anyOf": [
+            {},
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Paper number (e.g. 1 or 2)",
+          "title": "Paper"
+        },
+        "question_number": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Question number in that examination paper",
+          "title": "Question Number"
+        }
+      },
+      "title": "ExamMetadata",
+      "type": "object"
+    },
+    "FigureReference": {
+      "properties": {
+        "figure_id": {
+          "description": "Unique figure identifier linking to sources/figures/",
+          "title": "Figure Id",
+          "type": "string"
+        },
+        "caption": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Original or generated caption",
+          "title": "Caption"
+        },
+        "alt_text": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Descriptive alt text for diagram accessibility",
+          "title": "Alt Text"
+        }
+      },
+      "required": [
+        "figure_id"
+      ],
+      "title": "FigureReference",
+      "type": "object"
+    },
+    "FormulaPayload": {
+      "properties": {
+        "formula_latex": {
+          "description": "LaTeX representation of formula",
+          "minLength": 1,
+          "title": "Formula Latex",
+          "type": "string"
+        },
+        "variables": {
+          "additionalProperties": {
+            "type": "string"
+          },
+          "description": "Mapping of variable symbol to physical meaning",
+          "title": "Variables",
+          "type": "object"
+        },
+        "units": {
+          "additionalProperties": {
+            "type": "string"
+          },
+          "description": "SI units for variables",
+          "title": "Units",
+          "type": "object"
+        },
+        "validity_conditions": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Physical bounds (e.g. constant acceleration)",
+          "title": "Validity Conditions"
+        },
+        "physical_meaning": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Pedagogical meaning of the equation",
+          "title": "Physical Meaning"
+        }
+      },
+      "required": [
+        "formula_latex"
+      ],
+      "title": "FormulaPayload",
+      "type": "object"
+    },
+    "MisconceptionPayload": {
+      "properties": {
+        "flawed_statement": {
+          "description": "The common erroneous statement or intuition",
+          "title": "Flawed Statement",
+          "type": "string"
+        },
+        "why_tempting": {
+          "description": "Why students fall into this misconception",
+          "title": "Why Tempting",
+          "type": "string"
+        },
+        "correct_physical_insight": {
+          "description": "The scientifically correct physical reasoning",
+          "title": "Correct Physical Insight",
+          "type": "string"
+        },
+        "counter_example": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "A scenario highlighting the contradiction",
+          "title": "Counter Example"
+        }
+      },
+      "required": [
+        "flawed_statement",
+        "why_tempting",
+        "correct_physical_insight"
+      ],
+      "title": "MisconceptionPayload",
+      "type": "object"
+    },
+    "ProvenanceRecord": {
+      "description": "Represents a specific occurrence and physical location of knowledge within a source file.",
+      "properties": {
+        "source_id": {
+          "description": "Unique identifier of the registered source document",
+          "title": "Source Id",
+          "type": "string"
+        },
+        "file_name": {
+          "description": "Original filename of the source document",
+          "title": "File Name",
+          "type": "string"
+        },
+        "file_path": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Path or relative URI to source document",
+          "title": "File Path"
+        },
+        "page_start": {
+          "anyOf": [
+            {
+              "minimum": 1,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "1-based starting page number where available",
+          "title": "Page Start"
+        },
+        "page_end": {
+          "anyOf": [
+            {
+              "minimum": 1,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "1-based ending page number where available",
+          "title": "Page End"
+        },
+        "source_locator": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Human-readable location (e.g. Chapter 3, Example 12, Q14)",
+          "title": "Source Locator"
+        },
+        "edition": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Edition or printing identifier of the source",
+          "title": "Edition"
+        },
+        "extraction_metadata": {
+          "additionalProperties": true,
+          "description": "Metadata captured during extraction",
+          "title": "Extraction Metadata",
+          "type": "object"
+        }
+      },
+      "required": [
+        "source_id",
+        "file_name"
+      ],
+      "title": "ProvenanceRecord",
+      "type": "object"
+    },
+    "QuestionOption": {
+      "properties": {
+        "id": {
+          "description": "Option identifier (A, B, C, D, etc.)",
+          "title": "Id",
+          "type": "string"
+        },
+        "text": {
+          "description": "Option text, preserving LaTeX notation",
+          "title": "Text",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "text"
+      ],
+      "title": "QuestionOption",
+      "type": "object"
+    },
+    "QuestionPayload": {
+      "properties": {
+        "statement": {
+          "description": "Complete problem statement with LaTeX math",
+          "minLength": 1,
+          "title": "Statement",
+          "type": "string"
+        },
+        "options": {
+          "description": "Multiple choice options if present",
+          "items": {
+            "$ref": "#/$defs/QuestionOption"
+          },
+          "title": "Options",
+          "type": "array"
+        },
+        "source_claimed_answer": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Observed source-claimed answer key (e.g. 'A' or '4.2')",
+          "title": "Source Claimed Answer"
+        },
+        "verified_answer": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Independently verified correct answer",
+          "title": "Verified Answer"
+        },
+        "source_solution": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Observed source-provided solution or derivation",
+          "title": "Source Solution"
+        },
+        "answer": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Legacy/compatibility answer field",
+          "title": "Answer"
+        },
+        "solution_methods": {
+          "description": "All preserved solution methods",
+          "items": {
+            "$ref": "#/$defs/SolutionMethod"
+          },
+          "title": "Solution Methods",
+          "type": "array"
+        },
+        "difficulty": {
+          "$ref": "#/$defs/DifficultyLevel",
+          "description": "Difficulty rating L1 through L5"
+        },
+        "exam_metadata": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/ExamMetadata"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Exam year/paper info if known"
+        },
+        "concepts": {
+          "description": "Core physical concepts required",
+          "items": {
+            "type": "string"
+          },
+          "title": "Concepts",
+          "type": "array"
+        }
+      },
+      "required": [
+        "statement",
+        "difficulty"
+      ],
+      "title": "QuestionPayload",
+      "type": "object"
+    },
+    "SolutionMethod": {
+      "properties": {
+        "method_name": {
+          "default": "Standard Method",
+          "description": "e.g. 'Energy Method', 'Newton's Laws', 'Rotated Axes'",
+          "title": "Method Name",
+          "type": "string"
+        },
+        "steps": {
+          "description": "Step-by-step derivation or reasoning",
+          "title": "Steps",
+          "type": "string"
+        },
+        "source_attributed": {
+          "default": true,
+          "description": "True if this method appeared in the source text",
+          "title": "Source Attributed",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "steps"
+      ],
+      "title": "SolutionMethod",
+      "type": "object"
+    },
+    "SolvedExamplePayload": {
+      "properties": {
+        "problem_statement": {
+          "minLength": 1,
+          "title": "Problem Statement",
+          "type": "string"
+        },
+        "solution_steps": {
+          "items": {
+            "$ref": "#/$defs/SolutionMethod"
+          },
+          "title": "Solution Steps",
+          "type": "array"
+        },
+        "difficulty": {
+          "$ref": "#/$defs/DifficultyLevel",
+          "default": "L2"
+        },
+        "concepts": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Concepts",
+          "type": "array"
+        },
+        "key_takeaway": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Key Takeaway"
+        }
+      },
+      "required": [
+        "problem_statement"
+      ],
+      "title": "SolvedExamplePayload",
+      "type": "object"
+    },
+    "TaxonomyReference": {
+      "description": "Hierarchical positioning in the official JEE syllabus.",
+      "properties": {
+        "chapter_id": {
+          "description": "Normalized chapter slug, e.g., 'kinematics'",
+          "minLength": 1,
+          "title": "Chapter Id",
+          "type": "string"
+        },
+        "topic_id": {
+          "description": "Topic slug, e.g., 'projectile-motion'",
+          "minLength": 1,
+          "title": "Topic Id",
+          "type": "string"
+        },
+        "subtopic_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Optional subtopic slug, e.g., 'motion-on-incline'",
+          "title": "Subtopic Id"
+        }
+      },
+      "required": [
+        "chapter_id",
+        "topic_id"
+      ],
+      "title": "TaxonomyReference",
+      "type": "object"
+    }
+  },
+  "description": "The canonical atomic unit of physics knowledge.",
+  "properties": {
+    "atom_id": {
+      "description": "Deterministic permanent atom ID",
+      "minLength": 1,
+      "title": "Atom Id",
+      "type": "string"
+    },
+    "schema_version": {
+      "default": "1.0.0",
+      "description": "Schema version of this record",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "atom_version": {
+      "default": 1,
+      "description": "Sequential version count for updates",
+      "minimum": 1,
+      "title": "Atom Version",
+      "type": "integer"
+    },
+    "active": {
+      "default": true,
+      "description": "False if superseded by a newer version or decommissioned",
+      "title": "Active",
+      "type": "boolean"
+    },
+    "atom_type": {
+      "$ref": "#/$defs/AtomType",
+      "description": "Classification: theory, formula, question, etc."
+    },
+    "title": {
+      "description": "Concise descriptive title of the atom",
+      "minLength": 1,
+      "title": "Title",
+      "type": "string"
+    },
+    "taxonomy": {
+      "$ref": "#/$defs/TaxonomyReference",
+      "description": "Placement within the JEE syllabus tree"
+    },
+    "provenance": {
+      "description": "List of source occurrences",
+      "items": {
+        "$ref": "#/$defs/ProvenanceRecord"
+      },
+      "minItems": 1,
+      "title": "Provenance",
+      "type": "array"
+    },
+    "confidence": {
+      "description": "Confidence score of extraction/adjudication",
+      "maximum": 1.0,
+      "minimum": 0.0,
+      "title": "Confidence",
+      "type": "number"
+    },
+    "verification_status": {
+      "$ref": "#/$defs/AtomStatus",
+      "default": "STAGED",
+      "description": "Lifecycle status"
+    },
+    "content_hash": {
+      "description": "SHA-256 fingerprint of the core content",
+      "minLength": 16,
+      "title": "Content Hash",
+      "type": "string"
+    },
+    "created_at": {
+      "format": "date-time",
+      "title": "Created At",
+      "type": "string"
+    },
+    "updated_at": {
+      "format": "date-time",
+      "title": "Updated At",
+      "type": "string"
+    },
+    "content": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Text body for theory, insight, or general note",
+      "title": "Content"
+    },
+    "formula": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/FormulaPayload"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Payload for formula atoms"
+    },
+    "question": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/QuestionPayload"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Payload for question atoms"
+    },
+    "solved_example": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/SolvedExamplePayload"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Payload for solved examples"
+    },
+    "misconception": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/MisconceptionPayload"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Payload for misconceptions"
+    },
+    "figure_refs": {
+      "description": "Associated figures",
+      "items": {
+        "$ref": "#/$defs/FigureReference"
+      },
+      "title": "Figure Refs",
+      "type": "array"
+    },
+    "insight": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "'What does this mean physically?' intuition",
+      "title": "Insight"
+    },
+    "duplicate_group_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Cluster ID if part of an equivalence group",
+      "title": "Duplicate Group Id"
+    },
+    "archive_reason": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Documented reason if routed to kb/archive/",
+      "title": "Archive Reason"
+    }
+  },
+  "required": [
+    "atom_id",
+    "atom_type",
+    "title",
+    "taxonomy",
+    "provenance",
+    "confidence",
+    "content_hash"
+  ],
+  "title": "KnowledgeAtom",
+  "type": "object"
+}

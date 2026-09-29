@@ -1,0 +1,14 @@
+{
+  "promotion_id": "promo-kinematics-question-b29767c8-f9f2f6",
+  "atom_id": "kinematics-question-b29767c8",
+  "verification_id": "verif-kinematics-question-b29767c8-7d49f9",
+  "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+  "atom_version": 1,
+  "staged_path": "build/staging/atoms/batch_src-jee-rank-booster-03-mock-256f42c6_20260928_031838_7b76.jsonl",
+  "canonical_path": "kb\\atoms\\kinematics-question-b29767c8.json",
+  "verdict": "VERIFIED",
+  "source_claimed_answer": null,
+  "verified_answer": "C",
+  "timestamp": "2026-09-28T03:29:19.670631Z",
+  "promoted_by": "promotion_gate"
+}

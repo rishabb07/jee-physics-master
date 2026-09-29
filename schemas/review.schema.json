@@ -1,0 +1,184 @@
+{
+  "$defs": {
+    "ReviewIssueType": {
+      "enum": [
+        "OCR_AMBIGUITY",
+        "PHYSICS_CONFLICT",
+        "UNMAPPED_ATOM",
+        "LOW_CONFIDENCE",
+        "SCHEMA_VIOLATION",
+        "CORRUPTED_SOURCE",
+        "OTHER"
+      ],
+      "title": "ReviewIssueType",
+      "type": "string"
+    },
+    "ReviewStatus": {
+      "enum": [
+        "PENDING",
+        "APPROVED",
+        "CORRECTED",
+        "REJECTED",
+        "UNRESOLVED"
+      ],
+      "title": "ReviewStatus",
+      "type": "string"
+    }
+  },
+  "description": "An exception item escalated to the review queue for human or senior adjudicator inspection.",
+  "properties": {
+    "review_id": {
+      "description": "Unique exception ID",
+      "minLength": 1,
+      "title": "Review Id",
+      "type": "string"
+    },
+    "issue_type": {
+      "$ref": "#/$defs/ReviewIssueType",
+      "description": "Classification of the issue"
+    },
+    "atom_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Atom identifier if available",
+      "title": "Atom Id"
+    },
+    "source_id": {
+      "description": "Source where issue originated",
+      "minLength": 1,
+      "title": "Source Id",
+      "type": "string"
+    },
+    "source_file": {
+      "description": "Filename of source",
+      "minLength": 1,
+      "title": "Source File",
+      "type": "string"
+    },
+    "source_page": {
+      "anyOf": [
+        {
+          "minimum": 1,
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Page number",
+      "title": "Source Page"
+    },
+    "crop_image_path": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Path to visual snippet (for OCR/diagram ambiguities)",
+      "title": "Crop Image Path"
+    },
+    "flagged_text": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "The specific transcribed snippet in question",
+      "title": "Flagged Text"
+    },
+    "problem_description": {
+      "description": "Detailed statement of the ambiguity or conflict",
+      "minLength": 1,
+      "title": "Problem Description",
+      "type": "string"
+    },
+    "suggested_action": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Automated recommendation before escalation",
+      "title": "Suggested Action"
+    },
+    "status": {
+      "$ref": "#/$defs/ReviewStatus",
+      "default": "PENDING",
+      "description": "Current resolution status"
+    },
+    "reviewer_decision": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Decision made upon resolution",
+      "title": "Reviewer Decision"
+    },
+    "reviewer_note": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Rationale or corrective instructions",
+      "title": "Reviewer Note"
+    },
+    "created_at": {
+      "format": "date-time",
+      "title": "Created At",
+      "type": "string"
+    },
+    "resolved_at": {
+      "anyOf": [
+        {
+          "format": "date-time",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Timestamp of resolution",
+      "title": "Resolved At"
+    }
+  },
+  "required": [
+    "review_id",
+    "issue_type",
+    "source_id",
+    "source_file",
+    "problem_description"
+  ],
+  "title": "ReviewQueueItem",
+  "type": "object"
+}

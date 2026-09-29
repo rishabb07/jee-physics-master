@@ -1,0 +1,44 @@
+{
+  "content_id": "concept-rot-angmom-particle-01",
+  "curriculum_id": "curr-rot-03",
+  "taxonomy_reference": {
+    "chapter_id": "rotational-motion",
+    "topic_id": "angular-momentum",
+    "subtopic_id": "angular-momentum-of-particle"
+  },
+  "title": "Angular Momentum of a Particle About a Reference Point",
+  "learning_objective": "Define and calculate the angular momentum vector of a single particle moving along an arbitrary trajectory with respect to a chosen reference point, and recognize that straight-line motion can carry non-zero constant angular momentum.",
+  "intuition": "Imagine standing beside a straight high-speed railway track watching a bullet train glide past at constant speed. Even though the train travels in a straight line, your head must continuously turn to follow it. The rate at which your line of sight sweeps out area measures the train's rotational tendency about your location. If you stood directly on the track in front of the train, no turning of your head would be required ($r_\\perp = 0$). Hence, angular momentum is fundamentally an observer-dependent geometric relationship between linear momentum and a chosen pivot.",
+  "formal_definition": "The angular momentum $\\vec{L}_O$ of a point particle of mass $m$ and linear momentum $\\vec{p} = m \\vec{v}$ with respect to a specified origin $O$ is defined as $\\vec{L}_O = \\vec{r} \\times \\vec{p} = m (\\vec{r} \\times \\vec{v})$, where $\\vec{r}$ is the instantaneous position vector of the particle from $O$. The magnitude is given by $L_O = m v r \\sin\\theta = m v r_\\perp = p r_\\perp$, where $r_\\perp$ is the perpendicular distance (impact parameter) from $O$ to the line of the velocity vector. SI unit is $\\text{kg}\\cdot\\text{m}^2/\\text{s} = \\text{J}\\cdot\\text{s}$, with dimensions $[M L^2 T^{-1}]$.",
+  "explanation": "Angular momentum is the rotational analogue of linear momentum, measuring the product of linear momentum and the perpendicular distance to a reference point.\n\n### 1. Mathematical Definition and Origin Dependence\nGiven a particle of mass $m$ at position $\\vec{r}$ moving with velocity $\\vec{v}$, the angular momentum about origin $O$ is:\n$$\\vec{L}_O = \\vec{r} \\times \\vec{p} = m (\\vec{r} \\times \\vec{v})$$\nCrucially, angular momentum is not an intrinsic property of the particle alone; it is strictly defined relative to the chosen reference point $O$. If the origin is translated to a new position $O'$ shifted by vector $\\vec{r}_0$ such that $\\vec{r} = \\vec{r}' + \\vec{r}_0$, the new angular momentum is:\n$$\\vec{L}_{O'} = \\vec{r}' \\times \\vec{p} = (\\vec{r} - \\vec{r}_0) \\times \\vec{p} = \\vec{L}_O - \\vec{r}_0 \\times \\vec{p}$$\n\n### 2. Time Rate of Change and Torque\nDifferentiating $\\vec{L}_O$ with respect to time in an inertial frame yields:\n$$\\frac{d\\vec{L}_O}{dt} = \\frac{d\\vec{r}}{dt} \\times \\vec{p} + \\vec{r} \\times \\frac{d\\vec{p}}{dt} = (\\vec{v} \\times m\\vec{v}) + (\\vec{r} \\times \\vec{F}_{\\text{net}}) = \\vec{0} + \\vec{\\tau}_O = \\vec{\\tau}_O$$\nThis fundamental equation establishes that torque is the exact time rate of change of angular momentum: $\\vec{\\tau}_O = \\frac{d\\vec{L}_O}{dt}$. When net torque about $O$ is zero, $\\vec{L}_O$ is strictly conserved.\n\n### 3. Rectilinear Motion and Misconception Disruption\nA frequent student error is assuming that a particle moving along a straight line at constant velocity has zero angular momentum. In reality, consider a particle moving along $y = b$ with velocity $\\vec{v} = v \\hat{i}$. Its position vector from origin $(0,0)$ is $\\vec{r} = x \\hat{i} + b \\hat{j}$. The angular momentum is:\n$$\\vec{L}_O = (x \\hat{i} + b \\hat{j}) \\times (m v \\hat{i}) = -m v b \\, \\hat{k}$$\nBecause $b$ (the perpendicular distance to the line of motion) is constant, $\\vec{L}_O$ is non-zero, constant, and independent of $x$! This demonstrates that uniform straight-line motion possesses constant, non-zero angular momentum about any origin not located on the line of motion.",
+  "assumptions": [
+    "The particle is treated as a classical point mass.",
+    "The origin $O$ is defined in an inertial reference frame.",
+    "Non-relativistic velocities ($v \\ll c$)."
+  ],
+  "boundary_conditions": [
+    "Always dependent on the choice of reference origin $O$; shifting origin shifts $\\vec{L}$.",
+    "Zero if and only if the velocity vector line passes directly through origin $O$ ($r_\\perp = 0$) or $\\vec{p} = \\vec{0}$.",
+    "Conserved if the net external torque about $O$ vanishes."
+  ],
+  "related_formula_ids": [
+    "formula-rot-angmom-particle"
+  ],
+  "prerequisite_refs": [
+    "curr-kin-02",
+    "curr-rot-02"
+  ],
+  "source_references": [
+    "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+    "jee_rank_booster-03_mock_paper.pdf"
+  ],
+  "generation_metadata": {
+    "agent": "content_generator",
+    "version": "1.0",
+    "target_chapter": "rotational-motion"
+  },
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-concept-rot-angmom-particle-01",
+  "content_hash": "a424961d1cfb60bd420d35c500eacd7af53ad9d704eefdba0963dac124b1651a",
+  "created_at": "2026-09-28T22:30:00Z"
+}

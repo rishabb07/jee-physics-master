@@ -1,0 +1,107 @@
+{
+  "derivation_id": "derivation-formula-td-adiabatic-ideal-gas",
+  "target_formula_id": "formula-td-adiabatic-ideal-gas",
+  "target_equation": "$$T V^{\\gamma - 1} = \\text{constant}$$",
+  "starting_principles": [
+    "First Law of Thermodynamics: $dQ = dU + P dV$",
+    "Adiabatic condition: $dQ = 0$",
+    "Internal energy of an ideal gas (Joule's law): $dU = n C_v dT$",
+    "Ideal gas equation of state: $P V = n R T$",
+    "Mayer's relation: $C_p - C_v = R$, with adiabatic index $\\gamma = C_p / C_v$"
+  ],
+  "assumptions": [
+    "The working gas is an ideal gas obeying $P V = n R T$.",
+    "Heat capacities $C_v$ and $C_p$ are constant over the temperature range.",
+    "The process is quasi-static and reversible (frictionless and without shock waves).",
+    "Thermal insulation is perfect ($dQ = 0$)."
+  ],
+  "ordered_steps": [
+    {
+      "step_number": 1,
+      "description": "Impose the adiabatic condition $dQ = 0$ in the First Law of Thermodynamics.",
+      "starting_equation": "$$dQ = dU + P dV$$",
+      "operation": "Set $dQ = 0$: $0 = dU + P dV \\implies dU = -P dV$.",
+      "result_equation": "$$dU = -P dV$$",
+      "assumptions_applied": [
+        "Adiabatic condition $dQ = 0$."
+      ]
+    },
+    {
+      "step_number": 2,
+      "description": "Substitute the internal energy differential for an ideal gas $dU = n C_v dT$.",
+      "starting_equation": "$$dU = -P dV$$",
+      "operation": "Replace $dU$ by $n C_v dT$: $n C_v dT = -P dV$.",
+      "result_equation": "$$n C_v dT = -P dV$$",
+      "assumptions_applied": [
+        "Ideal gas internal energy depends exclusively on temperature (Joule's law)."
+      ]
+    },
+    {
+      "step_number": 3,
+      "description": "Eliminate pressure $P$ using the ideal gas equation of state $P = \\frac{n R T}{V}$.",
+      "starting_equation": "$$n C_v dT = -P dV$$",
+      "operation": "Substitute $P = \\frac{n R T}{V}$: $n C_v dT = -\\left(\\frac{n R T}{V}\\right) dV$.",
+      "result_equation": "$$n C_v dT = -\\frac{n R T}{V} dV$$",
+      "assumptions_applied": [
+        "Ideal gas equation of state $P V = n R T$."
+      ]
+    },
+    {
+      "step_number": 4,
+      "description": "Separate variables $T$ and $V$ by dividing both sides by $n T$.",
+      "starting_equation": "$$n C_v dT = -\\frac{n R T}{V} dV$$",
+      "operation": "Divide by $n T$ (for $T > 0$): $C_v \\frac{dT}{T} = -R \\frac{dV}{V} \\implies \\frac{dT}{T} + \\frac{R}{C_v} \\frac{dV}{V} = 0$.",
+      "result_equation": "$$\\frac{dT}{T} + \\frac{R}{C_v} \\frac{dV}{V} = 0$$",
+      "assumptions_applied": [
+        "Absolute temperature $T > 0$ and mole number $n > 0$."
+      ]
+    },
+    {
+      "step_number": 5,
+      "description": "Express the ratio $R / C_v$ in terms of the adiabatic index $\\gamma$.",
+      "starting_equation": "$$\\frac{dT}{T} + \\frac{R}{C_v} \\frac{dV}{V} = 0$$",
+      "operation": "Apply Mayer's relation $R = C_p - C_v$ and the definition $\\gamma = C_p / C_v$: $\\frac{R}{C_v} = \\frac{C_p - C_v}{C_v} = \\frac{C_p}{C_v} - 1 = \\gamma - 1$. Substitute into the differential equation.",
+      "result_equation": "$$\\frac{dT}{T} + (\\gamma - 1) \\frac{dV}{V} = 0$$",
+      "assumptions_applied": [
+        "Mayer's relation $C_p - C_v = R$."
+      ]
+    },
+    {
+      "step_number": 6,
+      "description": "Integrate the separated differential equation.",
+      "starting_equation": "$$\\frac{dT}{T} + (\\gamma - 1) \\frac{dV}{V} = 0$$",
+      "operation": "Integrate both sides assuming constant $\\gamma$: $\\int \\frac{dT}{T} + (\\gamma - 1) \\int \\frac{dV}{V} = \\text{constant} \\implies \\ln T + (\\gamma - 1) \\ln V = \\text{constant}$.",
+      "result_equation": "$$\\ln\\left(T V^{\\gamma - 1}\\right) = \\text{constant}$$",
+      "assumptions_applied": [
+        "Adiabatic index $\\gamma$ is constant over the process temperature range."
+      ]
+    },
+    {
+      "step_number": 7,
+      "description": "Exponentiate both sides to obtain the temperature-volume adiabatic relation.",
+      "starting_equation": "$$\\ln\\left(T V^{\\gamma - 1}\\right) = \\text{constant}$$",
+      "operation": "Take the exponential of both sides: $T V^{\\gamma - 1} = \\exp(\\text{constant}) = \\text{constant}$.",
+      "result_equation": "$$T V^{\\gamma - 1} = \\text{constant}$$",
+      "assumptions_applied": [
+        "Reversible thermodynamic path."
+      ]
+    }
+  ],
+  "final_equation": "$$T V^{\\gamma - 1} = \\text{constant}$$",
+  "applicability_conditions": [
+    "Reversible (quasi-static) adiabatic process.",
+    "Ideal gas with constant adiabatic index $\\gamma$.",
+    "Thermally insulated boundaries ($dQ = 0$)."
+  ],
+  "source_references": [
+    "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+    "Fundamentals of Physics-Halliday,Resnick,Walker.pdf"
+  ],
+  "risk_level": "HIGH",
+  "verification_status": "VERIFIED",
+  "verification_record_id": "dual-cvr-derivation-formula-td-adiabatic-ideal-gas",
+  "content_hash": "22b31283ae632af61b36fc3db41a2e915cfdb4ca7c66e5b7d6cacfdd812b135f",
+  "generator_identity": "content_generator_agent",
+  "generator_conversation_id": "126488a8-d6c5-4eb1-953f-9b833f4b917c",
+  "created_at": "2026-09-28T22:30:00Z"
+}

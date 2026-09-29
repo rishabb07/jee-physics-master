@@ -1,0 +1,126 @@
+{
+  "$defs": {
+    "ContentRiskLevel": {
+      "description": "Risk classification for physical content requiring calibrated verification rigor.",
+      "enum": [
+        "LOW",
+        "MEDIUM",
+        "HIGH"
+      ],
+      "title": "ContentRiskLevel",
+      "type": "string"
+    }
+  },
+  "description": "Immutable record of independent physical verification bound to exact content hash.",
+  "properties": {
+    "verification_id": {
+      "description": "Unique verification identifier",
+      "minLength": 1,
+      "title": "Verification Id",
+      "type": "string"
+    },
+    "artifact_id": {
+      "description": "Target content artifact ID",
+      "minLength": 1,
+      "title": "Artifact Id",
+      "type": "string"
+    },
+    "artifact_version": {
+      "default": 1,
+      "description": "Version of the artifact verified",
+      "minimum": 1,
+      "title": "Artifact Version",
+      "type": "integer"
+    },
+    "content_hash": {
+      "description": "SHA-256 hash of the exact verified content payload",
+      "minLength": 8,
+      "title": "Content Hash",
+      "type": "string"
+    },
+    "verifier_id": {
+      "description": "Verifier agent identity",
+      "minLength": 1,
+      "title": "Verifier Id",
+      "type": "string"
+    },
+    "verifier_conversation_id": {
+      "description": "Verifier agent conversation ID",
+      "minLength": 1,
+      "title": "Verifier Conversation Id",
+      "type": "string"
+    },
+    "risk_level": {
+      "$ref": "#/$defs/ContentRiskLevel",
+      "description": "Assessed risk level"
+    },
+    "verdict": {
+      "description": "'VERIFIED' | 'REJECTED' | 'CONFLICT' | 'REVIEW'",
+      "title": "Verdict",
+      "type": "string"
+    },
+    "assumptions_checked": {
+      "description": "Whether assumptions were independently reviewed",
+      "title": "Assumptions Checked",
+      "type": "boolean"
+    },
+    "dimensional_check_passed": {
+      "description": "Whether dimensional analysis verified",
+      "title": "Dimensional Check Passed",
+      "type": "boolean"
+    },
+    "numerical_check_passed": {
+      "description": "Whether numerical values recomputed independently",
+      "title": "Numerical Check Passed",
+      "type": "boolean"
+    },
+    "limiting_case_check_passed": {
+      "description": "Whether physical limits verified",
+      "title": "Limiting Case Check Passed",
+      "type": "boolean"
+    },
+    "independent_derivation_or_calculation": {
+      "description": "Independent verification work",
+      "minLength": 5,
+      "title": "Independent Derivation Or Calculation",
+      "type": "string"
+    },
+    "findings": {
+      "description": "Summary of verifier findings",
+      "items": {
+        "type": "string"
+      },
+      "title": "Findings",
+      "type": "array"
+    },
+    "discrepancies": {
+      "description": "Any detected physical flaws or caveats",
+      "items": {
+        "type": "string"
+      },
+      "title": "Discrepancies",
+      "type": "array"
+    },
+    "timestamp": {
+      "format": "date-time",
+      "title": "Timestamp",
+      "type": "string"
+    }
+  },
+  "required": [
+    "verification_id",
+    "artifact_id",
+    "content_hash",
+    "verifier_id",
+    "verifier_conversation_id",
+    "risk_level",
+    "verdict",
+    "assumptions_checked",
+    "dimensional_check_passed",
+    "numerical_check_passed",
+    "limiting_case_check_passed",
+    "independent_derivation_or_calculation"
+  ],
+  "title": "ContentVerificationRecord",
+  "type": "object"
+}

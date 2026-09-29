@@ -1,0 +1,10 @@
+{
+  "cluster_id": "cluster-qb-gen-q-dup-test-01",
+  "canonical_target_id": "current-electricity-question-ce6aab7f",
+  "duplicate_question_id": "gen-q-dup-test-01",
+  "similarity_score": 0.92,
+  "decision_class": "SEMANTIC_DUPLICATE",
+  "recommended_action": "MERGE",
+  "rationale": "Identical physical problem: copper wire stretched to double length under volume conservation.",
+  "clustered_at": "2026-09-29T03:54:46.254252+00:00"
+}

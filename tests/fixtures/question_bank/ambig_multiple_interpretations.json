@@ -1,0 +1,82 @@
+{
+  "question_id": "fixture-ambig-multi-interp-01",
+  "version": 1,
+  "origin": "GENERATED",
+  "provenance_class": "CONTROLLED_TEST_FIXTURE",
+  "curriculum_id": "curr-com-01",
+  "taxonomy_reference": {
+    "chapter_id": "rotational-motion",
+    "topic_id": "center-of-mass",
+    "subtopic_id": "collisions"
+  },
+  "concept_references": [
+    "concept-rot-moi-01"
+  ],
+  "prerequisite_references": [],
+  "target_exam_level": "JEE_MAIN",
+  "question_type": "SINGLE_CORRECT_MCQ",
+  "statement": "Two spheres of equal mass $m$ moving with velocities $v_1$ and $v_2$ undergo a head-on collision along the x-axis. What is the final velocity of the first sphere?",
+  "diagram_references": [],
+  "options": {
+    "A": "$v_2$",
+    "B": "$(v_1 + v_2)/2$",
+    "C": "$0$",
+    "D": "$-(v_1 + v_2)$"
+  },
+  "correct_answer": "A",
+  "solution_strategy": "Collision analysis",
+  "solution": "Ambiguous: If the collision is perfectly elastic ($e=1$), velocities exchange ($v_1' = v_2$). If the collision is completely inelastic ($e=0$), both move together with $v' = (v_1 + v_2)/2$. The restitution coefficient $e$ is unstated, permitting materially conflicting physical interpretations.",
+  "assumptions": [
+    "ADVERSARIAL_FIXTURE: Collision elasticity (e) unstated"
+  ],
+  "numerical_values": {},
+  "units": null,
+  "tolerance": null,
+  "intended_learning_objective": "Test ambiguity gate detection of multiple valid physical interpretations",
+  "difficulty_dimensions": {
+    "conceptual_difficulty": 3,
+    "mathematical_difficulty": 1,
+    "multistep_reasoning_difficulty": 2,
+    "abstraction_difficulty": 2,
+    "computational_burden": 1,
+    "trap_misconception_difficulty": 4
+  },
+  "difficulty_band": "L2",
+  "distractor_rationales": [
+    {
+      "option_key": "B",
+      "distractor_value": "$(v_1 + v_2)/2$",
+      "likely_misconception": "Inelastic assumption",
+      "student_rationale": "Student assumes completely inelastic collision",
+      "physical_error": "Collision elasticity is not specified",
+      "error_category": "UNSPECIFIED_BOUNDARY_ASSUMPTION"
+    },
+    {
+      "option_key": "C",
+      "distractor_value": "$0$",
+      "likely_misconception": "Zero velocity assumption",
+      "student_rationale": "Student assumes first sphere comes to rest",
+      "physical_error": "Valid only if v2 = 0 in elastic collision",
+      "error_category": "SPECIAL_CASE_GENERALIZATION"
+    },
+    {
+      "option_key": "D",
+      "distractor_value": "$-(v_1 + v_2)$",
+      "likely_misconception": "Sign error",
+      "student_rationale": "Sign error in relative velocity",
+      "physical_error": "Violates momentum conservation",
+      "error_category": "CONSERVATION_VIOLATION"
+    }
+  ],
+  "source_grounding": {
+    "relationship_type": "NEW_PROBLEM"
+  },
+  "risk_level": "MEDIUM",
+  "generation_metadata": {
+    "fixture_type": "MULTIPLE_INTERPRETATIONS_TEST_FIXTURE",
+    "expected_verdict": "AMBIGUOUS"
+  },
+  "content_hash": null,
+  "verification_status": "GENERATED",
+  "verification_record_id": null
+}

@@ -1,0 +1,30 @@
+{
+  "verification_id": "cvr-misc-rot-02",
+  "artifact_id": "misc-rot-02",
+  "target_id": "misc-rot-02",
+  "artifact_version": 1,
+  "content_type": "MISCONCEPTION",
+  "content_hash": "7eeb37b9214dcc917922023e717fc845045211b1c2fddbb48088c2a066489821",
+  "verifier_id": "content-verifier-electrodynamics-optics",
+  "verifier_conversation_id": "e9f3b7da-683c-457e-a22d-d6c43d8f1368",
+  "risk_level": "MEDIUM",
+  "verdict": "VERIFIED",
+  "assumptions_audited": true,
+  "assumptions_checked": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "numerical_check_passed": true,
+  "limiting_cases_audited": true,
+  "limiting_case_check_passed": true,
+  "claim_traces_verified": true,
+  "verification_notes": "Audited from first principles: Misconception equating angular momentum conservation with rotational kinetic energy conservation verified. K_rot = L^2 / (2*I). If moment of inertia I changes due to internal reconfiguration while tau_ext = 0, L is conserved but K_rot scales as 1/I. Work-energy balance verified: internal muscular work or non-conservative friction accounts for the change in kinetic energy Delta K_rot = W_internal. Physical refutation, mathematical counter-proof, and corrective pedagogical exposition verified.",
+  "independent_derivation_or_calculation": "Audited from first principles: Misconception equating angular momentum conservation with rotational kinetic energy conservation verified. K_rot = L^2 / (2*I). If moment of inertia I changes due to internal reconfiguration while tau_ext = 0, L is conserved but K_rot scales as 1/I. Work-energy balance verified: internal muscular work or non-conservative friction accounts for the change in kinetic energy Delta K_rot = W_internal. Physical refutation, mathematical counter-proof, and corrective pedagogical exposition verified.",
+  "findings": [
+    "Independence of external torque condition (tau_ext = 0) and internal work condition (W_nc,int = 0) clarified.",
+    "Inverse scaling of kinetic energy K_rot = L^2/(2*I) with moment of inertia verified.",
+    "Examples (figure skater, crawling insect, clutch plates) physically sound."
+  ],
+  "discrepancies": [],
+  "created_at": "2026-09-28T22:45:35+05:30",
+  "timestamp": "2026-09-28T22:45:35+05:30"
+}

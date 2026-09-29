@@ -1,0 +1,95 @@
+{
+  "derivation_id": "derivation-formula-rot-moi-parallel",
+  "target_formula_id": "formula-rot-moi-parallel",
+  "target_equation": "$$I = I_{\\text{cm}} + M d^2$$",
+  "starting_principles": [
+    "Definition of moment of inertia for continuous mass distributions: $I = \\int r_\\perp^2 \\, dm$",
+    "Definition of center of mass: $\\int \\vec{r}_{\\text{cm}} \\, dm = \\vec{0}$ in the center-of-mass reference frame",
+    "Vector decomposition of position vectors in parallel planes: $\\vec{r}_\\perp = \\vec{r}'_\\perp - \\vec{d}$"
+  ],
+  "assumptions": [
+    "The body is a rigid body with invariant mass density distribution.",
+    "The two axes of rotation are strictly parallel and separated by a perpendicular distance $d$.",
+    "One of the two parallel axes passes through the body's center of mass (CM)."
+  ],
+  "ordered_steps": [
+    {
+      "step_number": 1,
+      "description": "Establish a coordinate frame with origin at the center of mass (CM) and align the $z$-axis with the CM rotation axis.",
+      "starting_equation": "$$I = \\int r_\\perp^2 \\, dm$$",
+      "operation": "Set coordinate system with origin $O$ at the center of mass, taking the rotation axis through CM as the $z$-axis. The parallel axis $z'$ is displaced by a perpendicular vector $\\vec{d} = d_x \\hat{i} + d_y \\hat{j}$ in the $xy$-plane, where $|\\vec{d}| = d = \\sqrt{d_x^2 + d_y^2}$.",
+      "result_equation": "$$\\vec{R}_{\\text{axis}} = \\vec{d} = d_x \\hat{i} + d_y \\hat{j},\\quad |\\vec{d}| = d$$",
+      "assumptions_applied": [
+        "One axis passes through the center of mass.",
+        "The two rotation axes are parallel."
+      ]
+    },
+    {
+      "step_number": 2,
+      "description": "Express the position of a mass element $dm$ relative to the center of mass and relative to the displaced parallel axis.",
+      "starting_equation": "$$\\vec{R}_{\\text{axis}} = \\vec{d}$$",
+      "operation": "Let the position vector of mass element $dm$ in the CM frame be $\\vec{r}' = x' \\hat{i} + y' \\hat{j} + z' \\hat{k}$. Its position vector relative to the parallel axis $z'$ is $\\vec{r} = \\vec{r}' - \\vec{d} = (x' - d_x)\\hat{i} + (y' - d_y)\\hat{j} + z' \\hat{k}$.",
+      "result_equation": "$$\\vec{r}_\\perp = (x' - d_x)\\hat{i} + (y' - d_y)\\hat{j}$$",
+      "assumptions_applied": [
+        "Rigid body mass distribution."
+      ]
+    },
+    {
+      "step_number": 3,
+      "description": "Compute the square of the perpendicular distance from the parallel axis $z'$ to the mass element $dm$.",
+      "starting_equation": "$$\\vec{r}_\\perp = (x' - d_x)\\hat{i} + (y' - d_y)\\hat{j}$$",
+      "operation": "Calculate the squared magnitude $r_\\perp^2 = |\\vec{r}_\\perp|^2 = (x' - d_x)^2 + (y' - d_y)^2$ and expand the binomial terms.",
+      "result_equation": "$$r_\\perp^2 = (x'^2 + y'^2) + (d_x^2 + d_y^2) - 2(x' d_x + y' d_y) = r_\\perp'^2 + d^2 - 2 \\vec{r}'_\\perp \\cdot \\vec{d}$$",
+      "assumptions_applied": [
+        "Euclidean vector geometry in the perpendicular plane."
+      ]
+    },
+    {
+      "step_number": 4,
+      "description": "Integrate the squared perpendicular distance over the entire mass of the rigid body to obtain total moment of inertia.",
+      "starting_equation": "$$r_\\perp^2 = r_\\perp'^2 + d^2 - 2 \\vec{r}'_\\perp \\cdot \\vec{d}$$",
+      "operation": "Integrate with respect to mass element $dm$ across the entire body volume $V$: $I = \\int r_\\perp^2 \\, dm$.",
+      "result_equation": "$$I = \\int r_\\perp'^2 \\, dm + d^2 \\int dm - 2 \\vec{d} \\cdot \\int \\vec{r}'_\\perp \\, dm$$",
+      "assumptions_applied": [
+        "Distance $d$ is constant for all mass elements of the rigid body."
+      ]
+    },
+    {
+      "step_number": 5,
+      "description": "Evaluate the three integral terms using the definitions of $I_{\\text{cm}}$, total mass $M$, and the center of mass reference frame.",
+      "starting_equation": "$$I = \\int r_\\perp'^2 \\, dm + d^2 \\int dm - 2 \\vec{d} \\cdot \\int \\vec{r}'_\\perp \\, dm$$",
+      "operation": "Identify: (1) $\\int r_\\perp'^2 \\, dm = I_{\\text{cm}}$ by definition of moment of inertia about the CM axis. (2) $\\int dm = M$, so $d^2 \\int dm = M d^2$. (3) $\\int \\vec{r}'_\\perp \\, dm = M \\vec{R}_{\\text{cm}, \\perp}' = \\vec{0}$ because the origin was chosen precisely at the center of mass.",
+      "result_equation": "$$\\int r_\\perp'^2 \\, dm = I_{\\text{cm}},\\quad d^2 \\int dm = M d^2,\\quad \\int \\vec{r}'_\\perp \\, dm = \\vec{0}$$",
+      "assumptions_applied": [
+        "Center of mass property: $\\int \\vec{r}' \\, dm = \\vec{0}$ in the CM frame."
+      ]
+    },
+    {
+      "step_number": 6,
+      "description": "Substitute the evaluated integrals into the expansion to establish the parallel axis theorem.",
+      "starting_equation": "$$I = I_{\\text{cm}} + M d^2 - 2 \\vec{d} \\cdot \\vec{0}$$",
+      "operation": "Combine terms to arrive at the final algebraic formula.",
+      "result_equation": "$$I = I_{\\text{cm}} + M d^2$$",
+      "assumptions_applied": [
+        "Cross-term vanishes identically due to CM origin."
+      ]
+    }
+  ],
+  "final_equation": "$$I = I_{\\text{cm}} + M d^2$$",
+  "applicability_conditions": [
+    "Must be applied between a center-of-mass axis and a parallel axis; cannot be applied directly between two arbitrary non-CM axes without passing through CM.",
+    "The two axes must be strictly parallel.",
+    "The body must be rigid."
+  ],
+  "source_references": [
+    "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+    "Fundamentals of Physics-Halliday,Resnick,Walker.pdf"
+  ],
+  "risk_level": "HIGH",
+  "verification_status": "UNVERIFIED",
+  "verification_record_id": null,
+  "generator_identity": "content_generator_agent",
+  "generator_conversation_id": "126488a8-d6c5-4eb1-953f-9b833f4b917c",
+  "content_hash": "b0e382dac7de811c6192c8f7a56368e849f88e16128d3dcafc943c300102f8da",
+  "created_at": "2026-09-28T22:30:00Z"
+}

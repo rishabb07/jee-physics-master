@@ -1,0 +1,30 @@
+{
+  "verification_id": "verif-laws-of-motion-question-e37050bb-89aed4",
+  "atom_id": "laws-of-motion-question-e37050bb",
+  "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+  "atom_version": 1,
+  "content_hash": "4e0f4dafef3070907d4f9ed4ea6168b73b04e49e383e3065ea776ca0e6f1fc3e",
+  "verification_protocol_version": "1.0.0",
+  "solver_run_ids": [
+    "run-solver_a-laws-of-motion-question-e37050bb-a9524e57",
+    "run-solver_b-laws-of-motion-question-e37050bb-ef70ec24"
+  ],
+  "source_claimed_answer": null,
+  "source_solution": null,
+  "independent_answers": {
+    "solver_a": "A",
+    "solver_b": "A"
+  },
+  "independent_solutions": {
+    "solver_a": "Resolution of forces\nStatic friction limits\nNormal force calculation",
+    "solver_b": "Normal force N = mg + F sin 60. Friction f = mu N. Setting F cos 60 <= f gives F <= 20N."
+  },
+  "consensus_answer": "A",
+  "verdict": "VERIFIED",
+  "confidence": 0.99,
+  "discrepancy_classification": "SOURCE_ANSWER_MISSING",
+  "adjudication_result": null,
+  "created_at": "2026-09-28T03:29:47.562328Z",
+  "completed_at": "2026-09-28T03:29:47.562328Z",
+  "metadata": {}
+}

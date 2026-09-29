@@ -1,0 +1,21 @@
+{
+  "verification_id": "cvr-formula-curr-measuring-meters",
+  "artifact_id": "formula-curr-measuring-meters",
+  "artifact_version": 1,
+  "content_hash": "14c3c02f59d61fed6284b0d7ad727896ffda157a86adf6be6edc5353a2f50f21",
+  "verifier_id": "formula-content-verifier",
+  "verifier_conversation_id": "ab85d650-e1e8-42e2-ac4a-8bc8a6460e30",
+  "risk_level": "MEDIUM",
+  "verdict": "VERIFIED",
+  "assumptions_checked": true,
+  "dimensional_check_passed": true,
+  "numerical_check_passed": true,
+  "limiting_case_check_passed": true,
+  "independent_derivation_or_calculation": "Formulas for shunting a galvanometer to make an ammeter (S = I_g G / (I - I_g)) or adding series resistance for a voltmeter (R = V/I_g - G). Standard circuit analysis.",
+  "findings": [
+    "Kirchhoff's laws correctly applied for meter conversion",
+    "Equations mathematically sound"
+  ],
+  "discrepancies": [],
+  "timestamp": "2026-09-29T02:32:37.338299+00:00"
+}

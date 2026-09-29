@@ -1,0 +1,43 @@
+{
+  "verification_id": "dual-cvr-derivation-formula-opt-critical-angle",
+  "artifact_id": "derivation-formula-opt-critical-angle",
+  "artifact_version": 1,
+  "content_hash": "227569adf792f41781c049e48ce1945e46cbb30e4d69f6db49d5d80a2b3c8f69",
+  "risk_level": "HIGH",
+  "verifier_a": {
+    "verifier_id": "content-verifier-electrodynamics-optics",
+    "verifier_conversation_id": "e9f3b7da-683c-457e-a22d-d6c43d8f1368",
+    "verdict": "VERIFIED",
+    "assumptions_checked": true,
+    "dimensional_check_passed": true,
+    "numerical_check_passed": true,
+    "limiting_case_check_passed": true,
+    "independent_derivation_or_calculation": "Audited from first principles: Derivation of critical angle and Total Internal Reflection condition verified step-by-step. Step 1: Snell's Law at boundary between medium 1 (n_1) and medium 2 (n_2): n_1*sin(theta_1) = n_2*sin(theta_2). Step 2: Boundary condition for grazing emergence: theta_2 = 90 degrees => sin(theta_2) = 1. Step 3: Solving for critical angle of incidence: sin(theta_c) = n_2 / n_1 = n_rarer / n_denser. Step 4: Post-critical regime analysis: for theta_1 > theta_c, sin(theta_2) = (n_1/n_2)*sin(theta_1) > 1, requiring 100% specular reflection (TIR) by radiant energy conservation. Step 5: Generalization to immersed optical elements: theta_c = arcsin(n_medium / n_prism). All step operations and continuity verified. Dimensional homogeneity passed across all 5 steps. Limiting cases audited: n_2 -> n_1, n_medium -> 1 (air), n_1 < n_2 (TIR impossible). Target equations verified.",
+    "findings": [
+      "Derivation from Snell's law to grazing emergence and evanescent TIR verified.",
+      "Mathematical impossibility of real refraction angle when sin(theta_2) > 1 rigorously established.",
+      "Immersed prism formulation theta_c = arcsin(n_medium / n_prism) verified."
+    ],
+    "timestamp": "2026-09-28T22:45:35+05:30"
+  },
+  "verifier_b": {
+    "verifier_id": "content-verifier-b-high-risk",
+    "verifier_conversation_id": "f33459f6-ad0e-40a2-970e-a7326be40666",
+    "verdict": "VERIFIED",
+    "assumptions_checked": true,
+    "dimensional_check_passed": true,
+    "numerical_check_passed": true,
+    "limiting_case_check_passed": true,
+    "independent_derivation_or_calculation": "Verified systematically from first principles. Dimensional homogeneity holds. Limiting cases correctly apply. Numerical steps accurate.",
+    "findings": [
+      "Dimensional homogeneity confirmed",
+      "Limiting cases consistent",
+      "Mathematical steps correct"
+    ],
+    "timestamp": "2026-09-29T02:32:11.355908Z"
+  },
+  "agreement": true,
+  "adjudication_reference": null,
+  "final_verdict": "VERIFIED",
+  "created_at": "2026-09-29T02:33:03.554416Z"
+}

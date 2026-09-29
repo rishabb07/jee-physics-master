@@ -1,0 +1,44 @@
+{
+  "content_id": "concept-rot-torque-01",
+  "curriculum_id": "curr-rot-02",
+  "taxonomy_reference": {
+    "chapter_id": "rotational-motion",
+    "topic_id": "torque-and-rotation",
+    "subtopic_id": "torque-moment-of-inertia-relation"
+  },
+  "title": "Torque and Fixed-Axis Rotational Dynamics",
+  "learning_objective": "Formulate the rotational analogue of Newton's second law, $\\tau_{\\text{net}} = I \\alpha$, analyze the moment of force as a vector product, and evaluate rotational equilibrium and angular acceleration for rigid bodies.",
+  "intuition": "When pushing a heavy door open, pushing near the hinges requires enormous force and barely produces rotation, whereas pushing at the outer edge near the handle easily swings the door open. Furthermore, pushing parallel to the door face produces no turning effect whatsoever. The rotational effectiveness of a force depends not merely on its magnitude, but on its lever arm perpendicular to the rotation axis: $\\tau = r_\\perp F$.",
+  "formal_definition": "The torque $\\vec{\\tau}_O$ of a force $\\vec{F}$ acting at a position $\\vec{r}$ relative to a reference point $O$ is defined as the cross product $\\vec{\\tau}_O = \\vec{r} \\times \\vec{F}$. For a rigid body constrained to rotate about a fixed axis $z$, the net external torque component along the axis is directly proportional to the body's angular acceleration $\\alpha$ about that axis: $\\tau_{\\text{net}, z} = I_z \\alpha$, where $I_z$ is the moment of inertia about the axis. SI unit is $\\text{N}\\cdot\\text{m}$, with dimensions $[M L^2 T^{-2}]$.",
+  "explanation": "Torque (also known as the moment of force) is the quantitative measure of the tendency of a force to cause angular acceleration about a specific axis or pivot point.\n\n### 1. Vector Formulation and Lever Arm\nMathematically, the torque exerted by force $\\vec{F}$ applied at position vector $\\vec{r}$ from origin $O$ is:\n$$\\vec{\\tau}_O = \\vec{r} \\times \\vec{F}$$\nThe magnitude is given by:\n$$\\tau = r F \\sin\\theta = r_\\perp F = r F_\\perp$$\nwhere $\\theta$ is the angle between $\\vec{r}$ and $\\vec{F}$, $r_\\perp = r \\sin\\theta$ is the moment arm (perpendicular distance from $O$ to the line of action of $\\vec{F}$), and $F_\\perp = F \\sin\\theta$ is the component of $\\vec{F}$ perpendicular to $\\vec{r}$. The direction is dictated by the right-hand grip rule.\n\n### 2. Rotational Dynamics: $\\tau_{\\text{net}} = I \\alpha$\nBy decomposing a rigid body into infinitesimal mass elements $dm$, each element obeys Newton's second law: $d\\vec{F}_{\\text{net}} = dm \\, \\vec{a}$. The tangential acceleration is $a_t = r_\\perp \\alpha$. Taking the torque about the fixed rotation axis:\n$$d\\tau_z = r_\\perp dF_t = r_\\perp (dm \\, r_\\perp \\alpha) = (r_\\perp^2 \\, dm) \\alpha$$\nIntegrating across the entire body:\n$$\\tau_{\\text{net}, z} = \\left(\\int r_\\perp^2 \\, dm\\right) \\alpha = I_z \\alpha$$\nBy Newton's third law in strong form (forces are equal, opposite, and collinear), internal torques between constituent particles cancel pairwise. Thus, only external torques contribute to angular acceleration: $\\tau_{\\text{net, ext}} = I \\alpha$.\n\n### 3. Rotational Work and Power\nWhen a torque $\\tau$ rotates a rigid body through an infinitesimal angle $d\\theta$, the mechanical work performed is:\n$$dW = \\tau \\, d\\theta$$\nThe instantaneous rotational power delivered is:\n$$P = \\frac{dW}{dt} = \\tau \\frac{d\\theta}{dt} = \\tau \\omega$$",
+  "assumptions": [
+    "The body maintains rigid geometry during rotational motion.",
+    "The rotation axis is fixed in an inertial frame, or is a principal axis through the accelerating center of mass.",
+    "Interatomic forces satisfy Newton's third law in central (strong) form, ensuring internal torques sum to zero."
+  ],
+  "boundary_conditions": [
+    "Valid about a fixed inertial axis or about the center of mass frame (even if accelerating).",
+    "Invalid to use $\\tau = I \\alpha$ about an accelerating non-CM point without incorporating pseudo-force torques.",
+    "Only external torques contribute to $\\tau_{\\text{net}}$."
+  ],
+  "related_formula_ids": [
+    "formula-rot-torque-dyn"
+  ],
+  "prerequisite_refs": [
+    "curr-rot-01",
+    "curr-nl-01"
+  ],
+  "source_references": [
+    "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+    "University Physics with Modern Physics, 13th Edition.pdf"
+  ],
+  "generation_metadata": {
+    "agent": "content_generator",
+    "version": "1.0",
+    "target_chapter": "rotational-motion"
+  },
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-concept-rot-torque-01",
+  "content_hash": "3aeb2177a6a866e311c25ce710d03aae29d0aa8d956c128c2328254493329fc6",
+  "created_at": "2026-09-28T22:30:00Z"
+}

@@ -1,0 +1,144 @@
+{
+  "$defs": {
+    "PageRecord": {
+      "description": "Deterministic inventory entry for a single page in a document.",
+      "properties": {
+        "source_id": {
+          "minLength": 1,
+          "title": "Source Id",
+          "type": "string"
+        },
+        "page_number": {
+          "description": "1-based page index",
+          "minimum": 1,
+          "title": "Page Number",
+          "type": "integer"
+        },
+        "page_hash": {
+          "description": "SHA-256 of text/content on this page",
+          "title": "Page Hash",
+          "type": "string"
+        },
+        "has_text": {
+          "default": false,
+          "title": "Has Text",
+          "type": "boolean"
+        },
+        "approximate_text_length": {
+          "default": 0,
+          "minimum": 0,
+          "title": "Approximate Text Length",
+          "type": "integer"
+        },
+        "has_images": {
+          "default": false,
+          "title": "Has Images",
+          "type": "boolean"
+        },
+        "image_count": {
+          "default": 0,
+          "minimum": 0,
+          "title": "Image Count",
+          "type": "integer"
+        },
+        "dimensions_pt": {
+          "anyOf": [
+            {
+              "items": {
+                "type": "number"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "[width, height] in PDF points",
+          "title": "Dimensions Pt"
+        },
+        "text_snippet": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "First ~200 characters for diagnostic preview",
+          "title": "Text Snippet"
+        }
+      },
+      "required": [
+        "source_id",
+        "page_number",
+        "page_hash"
+      ],
+      "title": "PageRecord",
+      "type": "object"
+    }
+  },
+  "description": "Complete page-by-page inventory of a source document stored under sources/segments/.",
+  "properties": {
+    "source_id": {
+      "minLength": 1,
+      "title": "Source Id",
+      "type": "string"
+    },
+    "file_name": {
+      "minLength": 1,
+      "title": "File Name",
+      "type": "string"
+    },
+    "sha256": {
+      "maxLength": 64,
+      "minLength": 64,
+      "title": "Sha256",
+      "type": "string"
+    },
+    "total_pages": {
+      "minimum": 0,
+      "title": "Total Pages",
+      "type": "integer"
+    },
+    "pages_with_text": {
+      "default": 0,
+      "minimum": 0,
+      "title": "Pages With Text",
+      "type": "integer"
+    },
+    "pages_with_images": {
+      "default": 0,
+      "minimum": 0,
+      "title": "Pages With Images",
+      "type": "integer"
+    },
+    "is_image_only": {
+      "default": false,
+      "title": "Is Image Only",
+      "type": "boolean"
+    },
+    "pages": {
+      "items": {
+        "$ref": "#/$defs/PageRecord"
+      },
+      "title": "Pages",
+      "type": "array"
+    },
+    "created_at": {
+      "format": "date-time",
+      "title": "Created At",
+      "type": "string"
+    }
+  },
+  "required": [
+    "source_id",
+    "file_name",
+    "sha256",
+    "total_pages"
+  ],
+  "title": "SourcePageInventory",
+  "type": "object"
+}

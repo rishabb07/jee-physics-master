@@ -1,0 +1,31 @@
+{
+  "verification_id": "cvr-concept-td-adiabatic-01",
+  "artifact_id": "concept-td-adiabatic-01",
+  "target_id": "concept-td-adiabatic-01",
+  "artifact_version": 1,
+  "content_type": "CONCEPT_EXPLANATION",
+  "content_hash": "f7546718a98188aadf73e9e74842d466363c6549f83cbbf3423e175c85dba88b",
+  "verifier_id": "content-verifier-mechanics-thermo",
+  "verifier_conversation_id": "bdcda0e3-0496-4ba9-a62e-6fe79ffe6824",
+  "risk_level": "MEDIUM",
+  "verdict": "VERIFIED",
+  "assumptions_checked": true,
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_case_check_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "independent_derivation_or_calculation": "Independent verification from first principles: 1. Governing differential equation: dQ = dU + dW = 0 => dU = -P dV. For ideal gas, dU = n C_v dT and P = n R T / V. Hence n C_v dT = - (n R T / V) dV => dT/T + (R / C_v) dV/V = 0. 2. Using Mayer's relation R = C_p - C_v and gamma = C_p / C_v, R / C_v = gamma - 1. Integrating yields ln(T) + (gamma - 1) ln(V) = const => T V^(gamma - 1) = const. 3. Using P V = n R T: P V^gamma = const, and T^gamma P^(1 - gamma) = const. All three equivalent forms verified. 4. Work integral: W = int_{V_1}^{V_2} P dV = K int_{V_1}^{V_2} V^(-gamma) dV = (P_1 V_1 - P_2 V_2) / (gamma - 1) = n R (T_1 - T_2) / (gamma - 1) = -delta U. 5. Indicator slope: (dP/dV)_ad = -gamma P/V = gamma * (dP/dV)_iso. Since gamma > 1, adiabatic is strictly steeper than isothermal.",
+  "verification_notes": "All thermodynamic relations, differential separations, integration steps, work expressions, and indicator diagram slopes verified. Clear and essential distinction between reversible adiabatic expansion (governed by PV^gamma = const) and irreversible free expansion (Joule expansion into vacuum, where delta U = 0, delta T = 0, but PV^gamma is not constant) verified.",
+  "findings": [
+    "Reversible adiabatic equations P V^gamma = const, T V^(gamma-1) = const, and T^gamma P^(1-gamma) = const confirmed.",
+    "Adiabatic work formula W = (P_1 V_1 - P_2 V_2)/(gamma - 1) = -delta U verified dimensionally ([M L^2 T^-2]) and algebraically.",
+    "P-V slope (dP/dV)_ad = -gamma (P/V) verified steeper than isothermal by factor of gamma.",
+    "Reversible vs irreversible (free expansion) boundary distinction correctly maintained."
+  ],
+  "discrepancies": [],
+  "created_at": "2026-09-28T17:18:00Z",
+  "timestamp": "2026-09-28T17:18:00Z"
+}

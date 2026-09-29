@@ -1,0 +1,84 @@
+{
+  "atom_id": "wave-optics-question-49253758",
+  "schema_version": "1.0.0",
+  "atom_version": 1,
+  "active": true,
+  "atom_type": "question",
+  "title": "YDSE White Light — Wavelength with Strong Intensity at Off-Centre Hole",
+  "taxonomy": {
+    "chapter_id": "wave-optics",
+    "topic_id": "youngs-double-slit",
+    "subtopic_id": "ydse-white-light-fringe"
+  },
+  "provenance": [
+    {
+      "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+      "file_name": "jee_rank_booster-03_mock_paper.pdf",
+      "file_path": null,
+      "page_start": 3,
+      "page_end": 3,
+      "source_locator": "Section - A, Q8",
+      "edition": null,
+      "extraction_metadata": {}
+    }
+  ],
+  "confidence": 0.96,
+  "verification_status": "VERIFIED",
+  "content_hash": "bddab462c0a49d09ab51a0492b7ee14f5c92a3859d893f01b434892a2b9728db",
+  "created_at": "2026-09-28T03:18:38.634782Z",
+  "updated_at": "2026-09-28T04:19:50.848852Z",
+  "content": null,
+  "formula": null,
+  "question": {
+    "statement": "In Young's double slit experiment shown in figure $S_{1}$ and $S_{2}$ are coherent sources and $S$ is the screen having a hole at a point $1.0\\text{ mm}$ away from the central line. White light ($400$ to $700\\text{ nm}$) is sent through the slits. Which wavelength passing through the hole has strong intensity?\n\n$d = 0.5\\text{ mm}$, $D = 50\\text{ cm}$.",
+    "options": [
+      {
+        "id": "A",
+        "text": "$400\\text{ nm}$"
+      },
+      {
+        "id": "B",
+        "text": "$700\\text{ nm}$"
+      },
+      {
+        "id": "C",
+        "text": "$500\\text{ nm}$"
+      },
+      {
+        "id": "D",
+        "text": "$667\\text{ nm}$"
+      }
+    ],
+    "source_claimed_answer": "C",
+    "verified_answer": "C",
+    "source_solution": null,
+    "answer": "C",
+    "solution_methods": [],
+    "difficulty": "L2",
+    "exam_metadata": {
+      "exam": "JEE Rank Booster Mock",
+      "exam_name": "JEE Rank Booster Mock",
+      "year": null,
+      "paper": 3,
+      "question_number": "8"
+    },
+    "concepts": [
+      "Young's double slit experiment",
+      "constructive interference",
+      "path difference",
+      "white light fringe"
+    ]
+  },
+  "solved_example": null,
+  "misconception": null,
+  "figure_refs": [
+    {
+      "figure_id": "fig-q8-ydse-setup",
+      "caption": "YDSE setup with slits S1, S2 separated by d = 0.5mm, screen S at D = 50cm, hole at 1.0mm from centre",
+      "alt_text": "A schematic of Young's double slit experiment. Two coherent sources S1 and S2 are separated by 0.5mm. The screen S is at a distance of 50cm. A hole is located on the screen at 1.0mm from the central line. The label 'Centre of screen' is marked at the top of the screen."
+    }
+  ],
+  "insight": null,
+  "duplicate_group_id": null,
+  "archive_reason": null
+}

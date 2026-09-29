@@ -1,0 +1,63 @@
+{
+  "formula_id": "formula-curr-drift-micro",
+  "chapter_id": "current-electricity",
+  "title": "Drift Velocity and Current Density",
+  "equation": "I = n e A v_d,\\quad \\vec{J} = n e \\vec{v}_d = \\sigma \\vec{E}",
+  "equation_latex": "I = n e A v_d,\\quad \\vec{J} = n e \\vec{v}_d = \\sigma \\vec{E}",
+  "variables": {
+    "I": "Electric current",
+    "n": "Free carrier number density",
+    "e": "Elementary charge magnitude",
+    "A": "Conductor cross-sectional area",
+    "v_d": "Mean drift velocity",
+    "J": "Current density",
+    "\\sigma": "Electrical conductivity",
+    "E": "Electric field strength"
+  },
+  "units": {
+    "I": "A",
+    "n": "m^-3",
+    "e": "C",
+    "A": "m^2",
+    "v_d": "m/s",
+    "J": "A/m^2",
+    "\\sigma": "S/m",
+    "E": "V/m"
+  },
+  "dimensions": {
+    "I": "[I]",
+    "n": "[L]^-3",
+    "e": "[I][T]",
+    "A": "[L]^2",
+    "v_d": "[L][T]^-1",
+    "J": "[I][L]^-2",
+    "\\sigma": "[M]^-1[L]^-3[T]^3[I]^2",
+    "E": "[M][L][T]^-3[I]^-1"
+  },
+  "assumptions": [
+    "Drude classical conduction model",
+    "Homogeneous isotropic metallic conductor",
+    "Steady-state electric field"
+  ],
+  "validity_conditions": [
+    "Valid in ohmic regime where drift velocity is small compared to random Fermi/thermal velocity"
+  ],
+  "derivation_reference": "derivation-formula-curr-drift-micro",
+  "related_concepts": [
+    "concept-curr-drift-01"
+  ],
+  "common_misuse": [
+    "Confusing carrier drift velocity (~10^-4 m/s) with signal propagation speed (~c)",
+    "Forgetting negative electron charge vector orientation"
+  ],
+  "provenance": [],
+  "generation_metadata": {
+    "agent": "content_generator",
+    "version": "1.0",
+    "target_chapter": "current-electricity"
+  },
+  "verification_status": "VERIFIED",
+  "content_hash": "6f482d869dee9ff7469e7bd013f64866d508266e0cd3c8b3ee77accf97d41940",
+  "verification_record_id": "cvr-formula-curr-drift-micro",
+  "created_at": "2026-09-29T07:50:00Z"
+}

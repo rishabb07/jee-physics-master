@@ -1,0 +1,21 @@
+{
+  "verification_id": "cvr-formula-rot-moi-parallel",
+  "artifact_id": "formula-rot-moi-parallel",
+  "artifact_version": 1,
+  "content_hash": "5472104e395a301ebd0bdf329b9e79ce75ac31895d4eb8bca6cf9798af3bd07f",
+  "verifier_id": "formula-content-verifier",
+  "verifier_conversation_id": "ab85d650-e1e8-42e2-ac4a-8bc8a6460e30",
+  "risk_level": "MEDIUM",
+  "verdict": "VERIFIED",
+  "assumptions_checked": true,
+  "dimensional_check_passed": true,
+  "numerical_check_passed": true,
+  "limiting_case_check_passed": true,
+  "independent_derivation_or_calculation": "The parallel axis theorem relates the moment of inertia about any axis to that about a parallel axis through the center of mass: I = I_cm + Md^2. Dimensionally, [M][L^2] matches both sides. Applies to any rigid body.",
+  "findings": [
+    "Dimensional homogeneity confirmed ([M][L^2])",
+    "Correct identification of constraints (axes must be parallel, one must pass through COM)"
+  ],
+  "discrepancies": [],
+  "timestamp": "2026-09-29T02:32:37.330284+00:00"
+}

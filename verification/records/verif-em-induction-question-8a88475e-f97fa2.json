@@ -1,0 +1,30 @@
+{
+  "verification_id": "verif-em-induction-question-8a88475e-f97fa2",
+  "atom_id": "em-induction-question-8a88475e",
+  "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+  "atom_version": 1,
+  "content_hash": "942c74d99ff0ff318e3829c44a8384058ae5a721ebe4d0c8554b1220b1919149",
+  "verification_protocol_version": "1.0.0",
+  "solver_run_ids": [
+    "run-solver_a-em-induction-question-8a88475e-b58a085d",
+    "run-solver_b-em-induction-question-8a88475e-e8258508"
+  ],
+  "source_claimed_answer": null,
+  "source_solution": null,
+  "independent_answers": {
+    "solver_a": "B",
+    "solver_b": "B"
+  },
+  "independent_solutions": {
+    "solver_a": "LC circuit oscillations\nCurrent flowing out of positive plate means Q is decreasing",
+    "solver_b": "Current flows out of positive plate, so Q is decreasing. Therefore magnitude of I is increasing."
+  },
+  "consensus_answer": "B",
+  "verdict": "VERIFIED",
+  "confidence": 0.99,
+  "discrepancy_classification": "SOURCE_ANSWER_MISSING",
+  "adjudication_result": null,
+  "created_at": "2026-09-28T03:29:19.637722Z",
+  "completed_at": "2026-09-28T03:29:19.637722Z",
+  "metadata": {}
+}

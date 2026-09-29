@@ -1,0 +1,44 @@
+{
+  "content_id": "concept-rot-angmom-conservation-01",
+  "curriculum_id": "curr-rot-03",
+  "taxonomy_reference": {
+    "chapter_id": "rotational-motion",
+    "topic_id": "angular-momentum",
+    "subtopic_id": "conservation-of-angular-momentum"
+  },
+  "title": "Conservation of Angular Momentum and Systems with Variable Inertia",
+  "learning_objective": "State and apply the principle of conservation of angular momentum to isolated rotational systems, evaluate systems with time-varying moments of inertia, and distinguish between conserved angular momentum and non-conserved rotational kinetic energy.",
+  "intuition": "A spinning figure skater pulls their outstretched arms and leg inward toward their body. Without pushing off the ice, their rotational speed dramatically surges. By pulling their limbs inward, the skater decreases their moment of inertia ($I$). Because no external twisting force (torque) acts on them, their angular momentum $L = I \\omega$ must remain invariant, forcing the angular speed $\\omega$ to increase. Interestingly, the skater does mechanical work using internal muscle contraction, which increases their rotational kinetic energy $K_{\\text{rot}} = \\frac{L^2}{2I}$.",
+  "formal_definition": "If the net external torque acting on a system about a fixed axis or point $O$ is zero ($\\vec{\\tau}_{\\text{ext}, O} = \\vec{0}$), the total angular momentum of the system about that point remains constant in time: $\\frac{d\\vec{L}_{\\text{total}}}{dt} = \\vec{0} \\implies \\vec{L}_{\\text{total}} = \\text{constant}$. For rotation about a fixed axis $z$ where $\\tau_{\\text{ext}, z} = 0$, this implies $I_i \\omega_i = I_f \\omega_f$.",
+  "explanation": "Conservation of angular momentum is one of the foundational universal conservation laws of physics, arising directly from the rotational isotropy of space (Noether's theorem).\n\n### 1. Derivation from Multi-Particle Dynamics\nFor a system of $N$ interacting particles, the total angular momentum about origin $O$ is $\\vec{L} = \\sum_{i=1}^N \\vec{r}_i \\times \\vec{p}_i$. The time derivative is:\n$$\\frac{d\\vec{L}}{dt} = \\sum_{i=1}^N \\vec{r}_i \\times \\vec{F}_{i} = \\sum_{i=1}^N \\vec{r}_i \\times \\vec{F}_{i, \\text{ext}} + \\sum_{i \\neq j} \\vec{r}_i \\times \\vec{F}_{ij}$$\nBy Newton's third law in strong form, inter-particle forces are equal, opposite, and directed along the line joining the particles: $\\vec{F}_{ij} = -\\vec{F}_{ji}$ and $(\\vec{r}_i - \\vec{r}_j) \\times \\vec{F}_{ij} = \\vec{0}$. Hence, all internal torques identically sum to zero:\n$$\\frac{d\\vec{L}}{dt} = \\vec{\\tau}_{\\text{ext}}$$\nWhen $\\vec{\\tau}_{\\text{ext}} = \\vec{0}$, $\\vec{L}$ is conserved.\n\n### 2. Fixed-Axis Systems with Variable Inertia\nFor a system rotating about a fixed symmetry axis $z$, the axial angular momentum is $L_z = I \\omega$. If internal forces redistribute mass radially (e.g. an insect crawling along a spoke, a man walking on a turntable, or a contracting stellar core):\n$$\\tau_{\\text{ext}, z} = 0 \\implies I_i \\omega_i = I_f \\omega_f \\implies \\omega_f = \\omega_i \\left(\\frac{I_i}{I_f}\\right)$$\nIf mass moves inward, $I_f < I_i$, so $\\omega_f > \\omega_i$.\n\n### 3. Kinetic Energy Discrepancy and Internal Work\nA widespread misconception is assuming that rotational kinetic energy must also be conserved. The rotational kinetic energy can be expressed in terms of angular momentum:\n$$K_{\\text{rot}} = \\frac{1}{2} I \\omega^2 = \\frac{L^2}{2I}$$\nSince $L$ is constant, $K_{\\text{rot}} \\propto \\frac{1}{I}$. If the moment of inertia decreases ($I_f < I_i$):\n$$K_f = K_i \\left(\\frac{I_i}{I_f}\\right) > K_i$$\nThe increase in kinetic energy $\\Delta K_{\\text{rot}} = K_f - K_i > 0$ is supplied by the positive internal work performed by the agent (e.g., muscles or tension in a string) pulling the mass inward against the outward centrifugal inertial force.",
+  "assumptions": [
+    "Net external torque about the reference axis or point is strictly zero.",
+    "For fixed-axis scalar application, the axis is an inertial axis of symmetry or fixed axis of rotation.",
+    "Internal forces satisfy Newton's third law in strong form."
+  ],
+  "boundary_conditions": [
+    "Applies component-wise: if torque along a single axis $z$ is zero ($\\tau_z = 0$), $L_z$ is conserved even if $\\tau_x, \\tau_y \\neq 0$.",
+    "Does NOT imply conservation of mechanical kinetic energy when radial redistribution occurs via internal forces.",
+    "Valid in both inertial frames and accelerating center-of-mass frames."
+  ],
+  "related_formula_ids": [
+    "formula-rot-conservation-angmom"
+  ],
+  "prerequisite_refs": [
+    "curr-rot-02",
+    "curr-rot-03"
+  ],
+  "source_references": [
+    "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+    "problems_in_general_physics_by_i_e_irodov.pdf"
+  ],
+  "generation_metadata": {
+    "agent": "content_generator",
+    "version": "1.0",
+    "target_chapter": "rotational-motion"
+  },
+  "verification_status": "UNVERIFIED",
+  "verification_record_id": null,
+  "content_hash": "fe8cf52619bd88c01da074af88167c165fa49f8e037c75c5a73f2f64c1962811",
+  "created_at": "2026-09-28T22:30:00Z"
+}

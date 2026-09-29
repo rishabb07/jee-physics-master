@@ -1,0 +1,21 @@
+{
+  "verification_id": "cvr-formula-rot-torque-dyn",
+  "artifact_id": "formula-rot-torque-dyn",
+  "artifact_version": 1,
+  "content_hash": "57ee922ec2bd6a1920b602360650c8be7d45d70604903ff81df489ce90830ba3",
+  "verifier_id": "formula-content-verifier",
+  "verifier_conversation_id": "ab85d650-e1e8-42e2-ac4a-8bc8a6460e30",
+  "risk_level": "MEDIUM",
+  "verdict": "VERIFIED",
+  "assumptions_checked": true,
+  "dimensional_check_passed": true,
+  "numerical_check_passed": true,
+  "limiting_case_check_passed": true,
+  "independent_derivation_or_calculation": "Torque tau = I * alpha (for a rigid body rotating about a fixed axis). Dimensionally, torque [M][L^2][T^-2] matches I [M][L^2] times alpha [T^-2]. Assumption: fixed axis or axis through COM.",
+  "findings": [
+    "Dimensional homogeneity confirmed ([M][L^2][T^-2])",
+    "Newton's second law for rotation correctly represented"
+  ],
+  "discrepancies": [],
+  "timestamp": "2026-09-29T02:32:37.330284+00:00"
+}

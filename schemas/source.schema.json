@@ -1,0 +1,298 @@
+{
+  "$defs": {
+    "FileFormat": {
+      "enum": [
+        "pdf",
+        "image",
+        "unsupported"
+      ],
+      "title": "FileFormat",
+      "type": "string"
+    },
+    "SourceHistoryEntry": {
+      "description": "Historical snapshot of a source file before a modification.",
+      "properties": {
+        "source_version": {
+          "minimum": 1,
+          "title": "Source Version",
+          "type": "integer"
+        },
+        "sha256": {
+          "maxLength": 64,
+          "minLength": 64,
+          "title": "Sha256",
+          "type": "string"
+        },
+        "file_size_bytes": {
+          "minimum": 0,
+          "title": "File Size Bytes",
+          "type": "integer"
+        },
+        "total_pages": {
+          "anyOf": [
+            {
+              "minimum": 1,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Total Pages"
+        },
+        "recorded_at": {
+          "format": "date-time",
+          "title": "Recorded At",
+          "type": "string"
+        },
+        "change_reason": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Reason or context of file change",
+          "title": "Change Reason"
+        }
+      },
+      "required": [
+        "source_version",
+        "sha256",
+        "file_size_bytes"
+      ],
+      "title": "SourceHistoryEntry",
+      "type": "object"
+    },
+    "SourceStatus": {
+      "enum": [
+        "REGISTERED",
+        "SEGMENTED",
+        "EXTRACTION_PENDING",
+        "EXTRACTION_COMPLETE",
+        "MISSING",
+        "FAILED"
+      ],
+      "title": "SourceStatus",
+      "type": "string"
+    },
+    "SourceType": {
+      "enum": [
+        "textbook",
+        "problem_book",
+        "coaching_notes",
+        "test_paper",
+        "handwritten_notes",
+        "reference_book",
+        "other"
+      ],
+      "title": "SourceType",
+      "type": "string"
+    }
+  },
+  "description": "Tracks raw physics source files deposited into the warehouse.",
+  "properties": {
+    "source_id": {
+      "description": "Deterministic unique source identifier",
+      "minLength": 1,
+      "title": "Source Id",
+      "type": "string"
+    },
+    "source_version": {
+      "default": 1,
+      "description": "Increments on file replacement/hash change",
+      "minimum": 1,
+      "title": "Source Version",
+      "type": "integer"
+    },
+    "file_name": {
+      "description": "Source file name",
+      "minLength": 1,
+      "title": "File Name",
+      "type": "string"
+    },
+    "file_path": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Relative path within sources/raw/",
+      "title": "File Path"
+    },
+    "file_size_bytes": {
+      "description": "Size in bytes",
+      "minimum": 0,
+      "title": "File Size Bytes",
+      "type": "integer"
+    },
+    "sha256": {
+      "description": "Cryptographic SHA-256 fingerprint",
+      "maxLength": 64,
+      "minLength": 64,
+      "title": "Sha256",
+      "type": "string"
+    },
+    "extension": {
+      "default": "",
+      "description": "File extension with leading dot (e.g. '.pdf')",
+      "title": "Extension",
+      "type": "string"
+    },
+    "mime_type": {
+      "default": "application/octet-stream",
+      "description": "MIME type",
+      "title": "Mime Type",
+      "type": "string"
+    },
+    "file_format": {
+      "$ref": "#/$defs/FileFormat",
+      "default": "unsupported",
+      "description": "Classified format (pdf, image, unsupported)"
+    },
+    "source_type": {
+      "$ref": "#/$defs/SourceType",
+      "default": "other",
+      "description": "Provisional source category"
+    },
+    "total_pages": {
+      "anyOf": [
+        {
+          "minimum": 0,
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Total document page count",
+      "title": "Total Pages"
+    },
+    "has_extractable_text": {
+      "default": false,
+      "description": "True if PDF contains digital text streams",
+      "title": "Has Extractable Text",
+      "type": "boolean"
+    },
+    "is_image_only": {
+      "default": false,
+      "description": "True if document appears to be scanned images only",
+      "title": "Is Image Only",
+      "type": "boolean"
+    },
+    "is_encrypted": {
+      "default": false,
+      "description": "True if document is password protected",
+      "title": "Is Encrypted",
+      "type": "boolean"
+    },
+    "status": {
+      "$ref": "#/$defs/SourceStatus",
+      "default": "REGISTERED",
+      "description": "Ingestion lifecycle status"
+    },
+    "processing_stage": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Current sub-stage or cursor",
+      "title": "Processing Stage"
+    },
+    "last_error": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Error trace if status is FAILED",
+      "title": "Last Error"
+    },
+    "history": {
+      "description": "Historical versions prior to changes",
+      "items": {
+        "$ref": "#/$defs/SourceHistoryEntry"
+      },
+      "title": "History",
+      "type": "array"
+    },
+    "affected_chapters": {
+      "description": "Target chapters present in document",
+      "items": {
+        "type": "string"
+      },
+      "title": "Affected Chapters",
+      "type": "array"
+    },
+    "file_created_at": {
+      "anyOf": [
+        {
+          "format": "date-time",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Filesystem creation timestamp",
+      "title": "File Created At"
+    },
+    "file_modified_at": {
+      "anyOf": [
+        {
+          "format": "date-time",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Filesystem modification timestamp",
+      "title": "File Modified At"
+    },
+    "metadata": {
+      "additionalProperties": true,
+      "description": "Arbitrary scanner/extraction metadata",
+      "title": "Metadata",
+      "type": "object"
+    },
+    "created_at": {
+      "format": "date-time",
+      "title": "Created At",
+      "type": "string"
+    },
+    "updated_at": {
+      "format": "date-time",
+      "title": "Updated At",
+      "type": "string"
+    }
+  },
+  "required": [
+    "source_id",
+    "file_name",
+    "file_size_bytes",
+    "sha256"
+  ],
+  "title": "SourceRegistryRecord",
+  "type": "object"
+}

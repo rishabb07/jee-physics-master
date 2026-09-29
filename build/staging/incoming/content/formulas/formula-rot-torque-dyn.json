@@ -1,0 +1,51 @@
+{
+  "formula_id": "formula-rot-torque-dyn",
+  "chapter_id": "rotational-motion",
+  "title": "Torque Dynamic Relation",
+  "equation": "\\vec{\\tau}_{\\text{net, ext}} = I \\vec{\\alpha} = \\frac{d\\vec{L}}{dt}",
+  "equation_latex": "\\vec{\\tau}_{\\text{net, ext}} = I \\vec{\\alpha} = \\frac{d\\vec{L}}{dt}",
+  "variables": {
+    "\\tau": "Net external torque",
+    "I": "Moment of inertia about rotation axis",
+    "\\alpha": "Angular acceleration",
+    "L": "Angular momentum"
+  },
+  "units": {
+    "\\tau": "N m",
+    "I": "kg m^2",
+    "\\alpha": "rad/s^2",
+    "L": "kg m^2/s"
+  },
+  "dimensions": {
+    "\\tau": "[M][L]^2[T]^-2",
+    "I": "[M][L]^2",
+    "\\alpha": "[T]^-2",
+    "L": "[M][L]^2[T]^-1"
+  },
+  "assumptions": [
+    "Rigid body",
+    "Fixed rotation axis or rotation about center of mass",
+    "Axis is principal axis of inertia"
+  ],
+  "validity_conditions": [
+    "Holds in inertial frame or in accelerating frame if pseudo-force torques about CM are accounted for"
+  ],
+  "derivation_reference": "derivation-formula-rot-torque-dyn",
+  "related_concepts": [
+    "concept-rot-torque-01"
+  ],
+  "common_misuse": [
+    "Using \\tau = I \\alpha about an arbitrary accelerating point without pseudo-force torque",
+    "Ignoring non-principal axis cross-products"
+  ],
+  "provenance": [],
+  "generation_metadata": {
+    "agent": "content_generator",
+    "version": "1.0",
+    "target_chapter": "rotational-motion"
+  },
+  "verification_status": "UNVERIFIED",
+  "content_hash": "57ee922ec2bd6a1920b602360650c8be7d45d70604903ff81df489ce90830ba3",
+  "verification_record_id": null,
+  "created_at": "2026-09-29T07:50:00Z"
+}

@@ -1,0 +1,54 @@
+{
+  "formula_id": "formula-curr-recasting-volume",
+  "chapter_id": "current-electricity",
+  "title": "Resistance Under Volume Conservation",
+  "equation": "R = \\rho \\frac{l^2}{V} = \\frac{\\rho V}{\\pi^2 r^4} \\propto \\frac{1}{r^4}",
+  "equation_latex": "R = \\rho \\frac{l^2}{V} = \\frac{\\rho V}{\\pi^2 r^4} \\propto \\frac{1}{r^4}",
+  "variables": {
+    "R": "Conductor resistance",
+    "\\rho": "Material electrical resistivity",
+    "l": "Conductor length",
+    "V": "Conductor volume",
+    "r": "Wire circular radius"
+  },
+  "units": {
+    "R": "\\Omega",
+    "\\rho": "\\Omega m",
+    "l": "m",
+    "V": "m^3",
+    "r": "m"
+  },
+  "dimensions": {
+    "R": "[M][L]^2[T]^-3[I]^-2",
+    "\\rho": "[M][L]^3[T]^-3[I]^-2",
+    "l": "[L]",
+    "V": "[L]^3",
+    "r": "[L]"
+  },
+  "assumptions": [
+    "Incompressible conductor material with volume conservation V = A l = \\text{const}",
+    "Uniform deformation along length",
+    "Constant resistivity \\rho"
+  ],
+  "validity_conditions": [
+    "Wire drawn through dies, stretched, or recast without mass loss at constant temperature"
+  ],
+  "derivation_reference": "derivation-formula-curr-recasting-volume",
+  "related_concepts": [
+    "concept-curr-recasting-01"
+  ],
+  "common_misuse": [
+    "Assuming R \\propto 1/r^2 when wire is stretched instead of the correct 1/r^4",
+    "Ignoring length increase during drawing"
+  ],
+  "provenance": [],
+  "generation_metadata": {
+    "agent": "content_generator",
+    "version": "1.0",
+    "target_chapter": "current-electricity"
+  },
+  "verification_status": "VERIFIED",
+  "content_hash": "7fdca45481b84ecdd49afe3953899c910b430be333aba59a061de3567b9582f9",
+  "verification_record_id": "cvr-formula-curr-recasting-volume",
+  "created_at": "2026-09-29T07:50:00Z"
+}

@@ -1,0 +1,27 @@
+{
+  "solver_run_id": "run-solver_b-thermal-physics-question-1f8c5ba9-fc4a5112",
+  "solver_agent_name": "solver_b",
+  "atom_id": "thermal-physics-question-1f8c5ba9",
+  "atom_version": 1,
+  "content_hash": "ec6dcd493c95cded2d1b7b6ed8115149a510cdf7596f2d5fc0fff0f0453e9700",
+  "verification_protocol_version": "1.0.0",
+  "blind_package_hash": "65724aba420261c6adc8a84fd6508274ad83ae14cff8aeb36988597ca2d0aaf3",
+  "independent_answer": "10",
+  "raw_answer": "10",
+  "reasoning_steps": [
+    "Using exact cooling law: $\\frac{T_1 - T_s}{T_0 - T_s} = e^{-k \\Delta t}$.",
+    "Phase 1: $\\frac{50 - T_s}{60 - T_s} = x$, where $x = e^{-k(10)}$.",
+    "Phase 2: $\\frac{42 - T_s}{50 - T_s} = x$.",
+    "Equating the two: $\\frac{50 - T_s}{60 - T_s} = \\frac{42 - T_s}{50 - T_s}$.",
+    "$(50 - T_s)^2 = (60 - T_s)(42 - T_s)$.",
+    "$2500 - 100 T_s + T_s^2 = 2520 - 102 T_s + T_s^2$.",
+    "$2 T_s = 20 \\implies T_s = 10^\\circ\\text{C}$."
+  ],
+  "assumptions_used": [
+    "Newton's law of cooling applies"
+  ],
+  "diagram_interpretation": null,
+  "uncertainty": null,
+  "possible_ambiguities": [],
+  "created_at": "2026-09-28T03:22:57Z"
+}

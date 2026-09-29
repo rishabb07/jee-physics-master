@@ -1,0 +1,43 @@
+{
+  "content_id": "concept-rot-moi-01",
+  "curriculum_id": "curr-rot-01",
+  "taxonomy_reference": {
+    "chapter_id": "rotational-motion",
+    "topic_id": "moment-of-inertia",
+    "subtopic_id": "moi-of-standard-continuous-bodies"
+  },
+  "title": "Moment of Inertia as Rotational Analogue of Mass",
+  "learning_objective": "Understand moment of inertia as the quantitative measure of rotational inertia, its dependence on mass distribution and the choice of rotation axis, and its mathematical formulation for discrete and continuous systems.",
+  "intuition": "Imagine trying to rotate a heavy dumbbell. If the masses are close to your hand along the axis of rotation, twisting it back and forth is effortless. If the masses are moved outward to the far ends of the rod, twisting it becomes substantially harder—even though the total mass has not changed. This demonstrates that in rotational dynamics, how far the mass is distributed from the axis of rotation ($r$) matters far more than just how much mass there is, scaling quadratically as $r^2$.",
+  "formal_definition": "For a rigid system of discrete particles of masses $m_i$ at perpendicular distances $r_i$ from a specified axis of rotation, the moment of inertia $I$ is defined as $I = \\sum_{i} m_i r_i^2$. For a continuous body of mass density $\\rho(\\vec{r})$ occupying volume $V$, the moment of inertia is the volume integral $I = \\int_{V} r_\\perp^2 \\, dm = \\int_{V} r_\\perp^2 \\rho(\\vec{r}) \\, dV$, where $r_\\perp$ is the perpendicular distance of the infinitesimal mass element $dm$ from the rotation axis. Its SI unit is $\\text{kg}\\cdot\\text{m}^2$, with dimensions $[M L^2]$.",
+  "explanation": "Moment of inertia ($I$) quantifies the rotational inertia of a rigid body, playing the exact mathematical role in rotational mechanics that inertial mass ($m$) plays in linear mechanics.\n\n### 1. Rotational Kinetic Energy\nConsider a rigid body rotating with angular speed $\\omega$ about a fixed axis. Every infinitesimal constituent mass element $dm$ travels in a circular path of radius $r_\\perp$ at instantaneous linear speed $v = \\omega r_\\perp$. The total kinetic energy of the rotating body is the sum over all mass elements:\n$$K_{\\text{rot}} = \\int \\frac{1}{2} v^2 \\, dm = \\int \\frac{1}{2} (\\omega r_\\perp)^2 \\, dm = \\frac{1}{2} \\omega^2 \\int r_\\perp^2 \\, dm = \\frac{1}{2} I \\omega^2$$\nComparing this with translational kinetic energy $K_{\\text{trans}} = \\frac{1}{2} m v^2$, the moment of inertia $I = \\int r_\\perp^2 \\, dm$ directly replaces mass $m$, while angular velocity $\\omega$ replaces linear velocity $v$.\n\n### 2. Geometric and Coordinate Dependence\nUnlike scalar mass, which is an intrinsic property invariant under translation and rotation, the moment of inertia of a body is not a single fixed number. It depends fundamentally on:\n1. The total mass of the body.\n2. The shape and density distribution of the body.\n3. The orientation and position of the axis of rotation relative to the body.\nBecause $I$ depends quadratically on the perpendicular distance ($r_\\perp^2$), shifting mass further from the axis increases $I$ dramatically. For example, a thin cylindrical hoop of mass $M$ and radius $R$ has $I = M R^2$ about its central symmetry axis because all mass is at maximum distance $R$, whereas a uniform solid disc of identical mass and radius has $I = \\frac{1}{2} M R^2$ because mass is distributed continuously from the center outward.\n\n### 3. Radius of Gyration\nThe spatial spread of mass is often represented by the radius of gyration $k$, defined by $I = M k^2$, so that $k = \\sqrt{I/M}$. Physically, $k$ represents the radial distance from the axis at which the entire mass $M$ could be concentrated as a thin cylindrical shell without changing the moment of inertia.",
+  "assumptions": [
+    "The body is perfectly rigid, such that pairwise distances between particles remain invariant under rotation.",
+    "The rotation axis is fixed in orientation or passes through the center of mass in a principal inertial frame.",
+    "Classical non-relativistic regime where mass is constant and Euclidean geometry applies."
+  ],
+  "boundary_conditions": [
+    "Valid for any non-deformable mass distribution about a defined axis.",
+    "Not directly valid as a scalar quantity if the rotation axis changes direction relative to the body without principal axis symmetry (requires full inertia tensor $\\mathbf{I}$).",
+    "Distance $r_\\perp$ must be measured strictly perpendicular to the axis of rotation, not from an arbitrary origin point."
+  ],
+  "related_formula_ids": [
+    "formula-rot-moi-parallel"
+  ],
+  "prerequisite_refs": [
+    "curr-com-01"
+  ],
+  "source_references": [
+    "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+    "Fundamentals of Physics-Halliday,Resnick,Walker.pdf"
+  ],
+  "generation_metadata": {
+    "agent": "content_generator",
+    "version": "1.0",
+    "target_chapter": "rotational-motion"
+  },
+  "verification_status": "UNVERIFIED",
+  "verification_record_id": null,
+  "content_hash": "a449bbc97e7ec307b85186bcd9755f69368d667e7015b272d3bdda2d7a47d7d0",
+  "created_at": "2026-09-28T22:30:00Z"
+}

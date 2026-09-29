@@ -1,0 +1,46 @@
+{
+  "solver_id": "solver_a",
+  "conversation_id": "c4b2f200-9d09-4009-8419-85baf0f75544",
+  "independent_interpretation": "A quasi-static reversible adiabatic expansion of an ideal gas with constant specific heat ratio gamma = C_p / C_v. We audit four thermodynamic propositions concerning state variable trajectories, work-energy relations, and entropy change.",
+  "governing_principles": [
+    "First Law of Thermodynamics (dQ = dU + dW)",
+    "Adiabatic Process Condition (dQ = 0)",
+    "Clausius Theorem and Definition of Thermodynamic Entropy (dS = dQ_rev / T)",
+    "Poisson's Relations for Reversible Adiabatic Processes of an Ideal Gas"
+  ],
+  "independent_equations": [
+    "dQ = 0 \\implies dU + dW = 0 \\implies W = -\\Delta U",
+    "dS = \\frac{dQ_{\\text{rev}}}{T} = 0 \\implies \\Delta S = 0",
+    "dU = n C_v dT, \\quad dW = P dV \\implies n C_v dT + \\frac{n R T}{V} dV = 0",
+    "\\frac{dT}{T} + (\\gamma - 1) \\frac{dV}{V} = 0 \\implies T V^{\\gamma - 1} = \\text{constant}",
+    "P = \\frac{n R T}{V} \\implies P V^\\gamma = \\text{constant}"
+  ],
+  "independent_solution_steps": [
+    "Step 1: Check Proposition B: In an adiabatic process, heat exchange dQ = 0. By the First Law of Thermodynamics, dQ = dU + dW, so dW = -dU. Integrated over the expansion, work done is W = -Delta U (work done equals the decrease in internal energy). Thus, statement B is TRUE.",
+    "Step 2: Check Proposition C: For any reversible path, entropy differential is dS = dQ_rev / T. Since dQ_rev = 0 at every differential step of a reversible adiabatic process, dS = 0, meaning Delta S = 0 (isentropic process). Thus, statement C is TRUE.",
+    "Step 3: Check Proposition A: Using dU = n C_v dT and dW = P dV with the ideal gas law P V = n R T: n C_v dT + (n R T / V) dV = 0. Dividing by n C_v T and using R / C_v = gamma - 1 yields dT/T + (gamma - 1) dV/V = 0. Integrating yields ln(T * V^(gamma - 1)) = const, so T V^(gamma - 1) = const. Thus, statement A is TRUE.",
+    "Step 4: Check Proposition D: Substituting T = P V / (n R) into T V^(gamma - 1) = const yields (P V / n R) * V^(gamma - 1) = const ==> P V^gamma = const. Thus, statement D is TRUE.",
+    "Step 5: Synthesize result: All four statements A, B, C, D are rigorously correct, confirming the multi-correct answer set {A, B, C, D}."
+  ],
+  "calculated_answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "dimensional_check_passed": true,
+  "numerical_check_passed": true,
+  "uniqueness_confirmed": true,
+  "conflicting_distractors": [],
+  "evaluated_difficulty": {
+    "conceptual_difficulty": 4,
+    "mathematical_difficulty": 3,
+    "multistep_reasoning_difficulty": 4,
+    "abstraction_difficulty": 3,
+    "computational_burden": 1,
+    "trap_misconception_difficulty": 3
+  },
+  "verdict": "VERIFIED",
+  "notes": "First-principles thermodynamic derivation confirms that all four statements A, B, C, D are exact physical consequences of a quasi-static reversible adiabatic expansion.",
+  "timestamp": "2026-09-29T08:55:20+05:30"
+}

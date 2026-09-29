@@ -1,0 +1,99 @@
+{
+  "derivation_id": "derivation-formula-curr-drift-micro",
+  "target_formula_id": "formula-curr-drift-micro",
+  "target_equation": "$I = n e A v_d,\\quad \\vec{J} = \\sigma \\vec{E}$",
+  "starting_principles": [
+    "Newton's Second Law for charge carriers under an electric field: $\\vec{F} = q \\vec{E} = m \\vec{a}$",
+    "Classical Drude momentum relaxation time hypothesis: average directed velocity gained between random collisions is $\\vec{v}_d = \\vec{a}\\tau$",
+    "Definition of electric current as charge flux: $I = \\frac{dq}{dt}$",
+    "Definition of current density vector: $\\vec{J} = \\frac{I}{A}\\hat{n}$"
+  ],
+  "assumptions": [
+    "Free electron gas model in a uniform, isotropic metallic conductor",
+    "Randomizing collisions with lattice ions characterized by an average momentum relaxation time $\\tau$",
+    "Isotropic thermal velocity distribution with zero net thermal drift velocity $\\langle \\vec{v}_{\\text{thermal}} \\rangle = \\vec{0}$",
+    "Uniform electric field $\\vec{E}$ and uniform cross-sectional area $A$ along the conductor"
+  ],
+  "ordered_steps": [
+    {
+      "step_number": 1,
+      "description": "Determine the acceleration of a conduction electron of mass $m$ and charge $-e$ in an applied electric field $\\vec{E}$.",
+      "starting_equation": "$\\vec{F} = -e\\vec{E}$",
+      "operation": "Apply Newton's second law $\\vec{F} = m\\vec{a}$ and isolate $\\vec{a}$",
+      "result_equation": "$\\vec{a} = -\\frac{e\\vec{E}}{m}$",
+      "assumptions_applied": [
+        "Classical particle dynamics for conduction electrons",
+        "Homogeneous electric field throughout the conductor cross-section"
+      ]
+    },
+    {
+      "step_number": 2,
+      "description": "Calculate the ensemble-averaged drift velocity $\\vec{v}_d$ accumulated over mean relaxation time $\\tau$.",
+      "starting_equation": "$\\vec{v}(t) = \\vec{v}_{\\text{thermal}} + \\vec{a}t$",
+      "operation": "Take the statistical ensemble average with $\\langle \\vec{v}_{\\text{thermal}} \\rangle = \\vec{0}$ and average collision interval $\\langle t \\rangle = \\tau$",
+      "result_equation": "$\\vec{v}_d = \\langle \\vec{v}(t) \\rangle = \\vec{a}\\tau = -\\frac{e\\tau}{m}\\vec{E}$",
+      "assumptions_applied": [
+        "Isotropic random thermal velocity distribution with zero mean",
+        "Statistical relaxation time approximation"
+      ]
+    },
+    {
+      "step_number": 3,
+      "description": "Relate drift speed magnitude $v_d$ to electric field magnitude $E$ using electron mobility $\\mu$.",
+      "starting_equation": "$v_d = |\\vec{v}_d| = \\frac{e\\tau}{m} E$",
+      "operation": "Define electron mobility $\\mu = \\frac{e\\tau}{m}$ as drift speed per unit field",
+      "result_equation": "$v_d = \\mu E,\\quad \\text{where } \\mu = \\frac{e\\tau}{m}$",
+      "assumptions_applied": [
+        "Definition of carrier mobility"
+      ]
+    },
+    {
+      "step_number": 4,
+      "description": "Calculate the total mobile charge $\\Delta q$ crossing a transverse cross-sectional area $A$ in time $\\Delta t$.",
+      "starting_equation": "$\\Delta q = N_{\\text{electrons}} \\cdot e = (n \\Delta V_{\\text{cyl}}) e$",
+      "operation": "Substitute cylinder volume $\\Delta V_{\\text{cyl}} = A \\Delta x = A (v_d \\Delta t)$ swept by drifting carriers",
+      "result_equation": "$\\Delta q = n e A v_d \\Delta t$",
+      "assumptions_applied": [
+        "Uniform carrier number density $n$",
+        "Uniform cross-sectional area $A$"
+      ]
+    },
+    {
+      "step_number": 5,
+      "description": "Formulate macroscopic electric current $I$ as the time rate of charge transport.",
+      "starting_equation": "$I = \\lim_{\\Delta t \\to 0} \\frac{\\Delta q}{\\Delta t}$",
+      "operation": "Substitute $\\Delta q = n e A v_d \\Delta t$ and take the derivative",
+      "result_equation": "$I = n e A v_d$",
+      "assumptions_applied": [
+        "Steady-state charge flow"
+      ]
+    },
+    {
+      "step_number": 6,
+      "description": "Express current density vector $\\vec{J}$ and derive microscopic Ohm's law.",
+      "starting_equation": "$\\vec{J} = \\frac{I}{A} \\hat{n} = -n e \\vec{v}_d$",
+      "operation": "Substitute $\\vec{v}_d = -\\frac{e\\tau}{m}\\vec{E}$ and define conductivity $\\sigma = \\frac{n e^2\\tau}{m}$",
+      "result_equation": "$\\vec{J} = \\left(\\frac{n e^2\\tau}{m}\\right)\\vec{E} = \\sigma \\vec{E}$",
+      "assumptions_applied": [
+        "Linear constitutive relation between current density and electric field"
+      ]
+    }
+  ],
+  "final_equation": "$I = n e A v_d,\\quad \\vec{J} = \\sigma \\vec{E}$",
+  "applicability_conditions": [
+    "Valid for ohmic metallic conductors in the regime $v_d \\ll v_{\\text{thermal}}$",
+    "Constant temperature maintaining invariant electron relaxation time $\\tau$",
+    "Uniform carrier concentration and cross-sectional area"
+  ],
+  "source_references": [
+    "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+    "Fundamentals of Physics-Halliday,Resnick,Walker.pdf"
+  ],
+  "risk_level": "HIGH",
+  "verification_status": "UNVERIFIED",
+  "verification_record_id": null,
+  "content_hash": null,
+  "generator_identity": "ContentGeneratorAgent",
+  "generator_conversation_id": "068c12c6-05bc-4521-81c4-e5ff6ad6d7f9",
+  "created_at": "2026-09-28T22:40:00Z"
+}

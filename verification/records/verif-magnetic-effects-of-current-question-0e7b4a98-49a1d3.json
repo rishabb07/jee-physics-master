@@ -1,0 +1,30 @@
+{
+  "verification_id": "verif-magnetic-effects-of-current-question-0e7b4a98-49a1d3",
+  "atom_id": "magnetic-effects-of-current-question-0e7b4a98",
+  "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+  "atom_version": 1,
+  "content_hash": "bc8a8d1cc1ce0f9541022dc7af2989d7265431a539599b6df7048d428c523019",
+  "verification_protocol_version": "1.0.0",
+  "solver_run_ids": [
+    "run-solver_a-magnetic-effects-of-current-question-0e7b4a98-001",
+    "run-solver_b-magnetic-effects-of-current-question-0e7b4a98-9f4db31f"
+  ],
+  "source_claimed_answer": null,
+  "source_solution": null,
+  "independent_answers": {
+    "solver_a": "8",
+    "solver_b": "8"
+  },
+  "independent_solutions": {
+    "solver_a": "1. Wire A carries current I_A = 10 A and is infinitely long.\n2. Wire B carries current I_B = 2 A, has length L = 2 m, and is at distance r = 10 cm = 0.1 m.\n3. The magnetic field at the location of wire B due to wire A is B = (mu_0 * I_A) / (2 * pi * r).",
+    "solver_b": "Force between parallel wires: $F = \\frac{\\mu_0 I_1 I_2}{2\\pi d} L$.\nGiven $I_1 = 10$ A, $I_2 = 2$ A, $L = 2$ m, $d = 0.1$ m.\n$F = \\frac{4\\pi \\times 10^{-7} \\times 10 \\times 2}{2\\pi \\times 0.1} \\times 2$."
+  },
+  "consensus_answer": "8",
+  "verdict": "VERIFIED",
+  "confidence": 0.99,
+  "discrepancy_classification": "SOURCE_ANSWER_MISSING",
+  "adjudication_result": null,
+  "created_at": "2026-09-28T03:29:47.957792Z",
+  "completed_at": "2026-09-28T03:29:47.957792Z",
+  "metadata": {}
+}

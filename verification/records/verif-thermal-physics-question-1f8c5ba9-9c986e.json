@@ -1,0 +1,30 @@
+{
+  "verification_id": "verif-thermal-physics-question-1f8c5ba9-9c986e",
+  "atom_id": "thermal-physics-question-1f8c5ba9",
+  "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+  "atom_version": 1,
+  "content_hash": "ec6dcd493c95cded2d1b7b6ed8115149a510cdf7596f2d5fc0fff0f0453e9700",
+  "verification_protocol_version": "1.0.0",
+  "solver_run_ids": [
+    "run-solver_a-thermal-physics-question-1f8c5ba9-001",
+    "run-solver_b-thermal-physics-question-1f8c5ba9-fc4a5112"
+  ],
+  "source_claimed_answer": null,
+  "source_solution": null,
+  "independent_answers": {
+    "solver_a": "10",
+    "solver_b": "10"
+  },
+  "independent_solutions": {
+    "solver_a": "1. According to Newton's Law of Cooling, the rate of cooling is proportional to the difference between the average temperature of the body and the surroundings: (T1 - T2)/t = K * ((T1 + T2)/2 - T_s).\n2. For the first 10 minutes: T1 = 60 C, T2 = 50 C. The rate of cooling is (60 - 50)/10 = 1 C/min. Average temp = 55 C. Equation: 1 = K * (55 - T_s).\n3. For the next 10 minutes: T1 = 50 C, T2 = 42 C. The rate of cooling is (50 - 42)/10 = 0.8 C/min. Average temp = 46 C. Equation: 0.8 = K * (46 - T_s).",
+    "solver_b": "Using exact cooling law: $\\frac{T_1 - T_s}{T_0 - T_s} = e^{-k \\Delta t}$.\nPhase 1: $\\frac{50 - T_s}{60 - T_s} = x$, where $x = e^{-k(10)}$.\nPhase 2: $\\frac{42 - T_s}{50 - T_s} = x$."
+  },
+  "consensus_answer": "10",
+  "verdict": "VERIFIED",
+  "confidence": 0.99,
+  "discrepancy_classification": "SOURCE_ANSWER_MISSING",
+  "adjudication_result": null,
+  "created_at": "2026-09-28T03:29:19.943506Z",
+  "completed_at": "2026-09-28T03:29:19.943506Z",
+  "metadata": {}
+}

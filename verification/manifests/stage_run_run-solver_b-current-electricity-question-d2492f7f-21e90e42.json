@@ -1,0 +1,13 @@
+{
+  "manifest_id": "stage_run_run-solver_b-current-electricity-question-d2492f7f-21e90e42",
+  "solver_run_id": "run-solver_b-current-electricity-question-d2492f7f-21e90e42",
+  "solver_agent_name": "solver_b",
+  "atom_id": "current-electricity-question-d2492f7f",
+  "atom_version": 1,
+  "content_hash": "5191a1c0c5850b6fa92086f0bf29a9b6544e9692f7cafc452719aebd3abff836",
+  "input_source_file": "C:\\Users\\Win11\\OneDrive\\Desktop\\Rishab\\jee physics master book test\\verification\\incoming\\solver_current-electricity-question-d2492f7f_run-solver_b-current-electricity-question-d2492f7f-21e90e42.json",
+  "staged_destination_file": "C:\\Users\\Win11\\OneDrive\\Desktop\\Rishab\\jee physics master book test\\verification\\solver_runs\\run-solver_b-current-electricity-question-d2492f7f-21e90e42.json",
+  "independent_answer": "B",
+  "timestamp": "2026-09-28T03:26:56.766674+00:00",
+  "status": "STAGED"
+}

@@ -1,0 +1,27 @@
+{
+  "classification_id": "sub-class-p11-p11",
+  "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+  "page_start": 11,
+  "page_end": 11,
+  "subject": "MIXED",
+  "confidence": 0.99,
+  "reason": "Transitional boundary page bridging Chemistry and Mathematics. The upper 85% contains Chemistry Section B numerical questions Q51 to Q60: Q51 (organic elimination and alpha-hydrogen count in alkene), Q52 (gas-phase equilibrium Kp for H2 + CO2 <=> CO + H2O), Q53 (spinel crystal lattice tetrahedral and octahedral cation void occupancy in ABnO2n), Q54 (colligative properties, Raoult's law vapour pressure lowering of benzene), Q55 (pH calculation of acetic acid / barium acetate buffer), Q56 (basicity of hypophosphorous acid H3PO2), Q57 (chemical thermodynamics first law, gas expansion against 1 atm), Q58 (metamerism isomer count for C4H10O), Q59 (electrochemical deposition Faraday law for metal salt), and Q60 (redox kinetics rate of disappearance of MnO4- vs appearance of I2). The bottom 15% initiates Mathematics Section A with major header 'MATHEMATICS' / 'Section - A' and Q61 (coordinate geometry: circle chord intercepts on straight lines L1 and L2). Although both subjects are non-physics, this page constitutes a formal inter-subject boundary.",
+  "detected_markers": [
+    "Section - B",
+    "MATHEMATICS",
+    "Section - A",
+    "alpha-H in alkene",
+    "Kp for the reaction",
+    "spinel structure",
+    "vapour pressure of benzene",
+    "pH of buffer",
+    "basicity",
+    "metamers represented by molecular formula C4H10O",
+    "MnO4- ion",
+    "straight line passing through the origin",
+    "circle x2 + y2 - x + 3y = 0"
+  ],
+  "status": "EXCEPTION_PENDING",
+  "classified_at": "2026-09-28T04:04:05Z",
+  "notes": "Inter-subject transitional page between Chemistry Section B (Q51-Q60) and Mathematics Section A (Q61). Contains zero Physics content; entire page excluded from Physics KB."
+}

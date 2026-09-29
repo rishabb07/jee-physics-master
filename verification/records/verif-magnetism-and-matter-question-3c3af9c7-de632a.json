@@ -1,0 +1,30 @@
+{
+  "verification_id": "verif-magnetism-and-matter-question-3c3af9c7-de632a",
+  "atom_id": "magnetism-and-matter-question-3c3af9c7",
+  "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+  "atom_version": 1,
+  "content_hash": "4f75f153a39d8442a12e351b16adff316cd56e03e4bbdd92bdd30b0ca759faf3",
+  "verification_protocol_version": "1.0.0",
+  "solver_run_ids": [
+    "run-solver_a-magnetism-and-matter-question-3c3af9c7-fc121896",
+    "run-solver_b-magnetism-and-matter-question-3c3af9c7-ae3732ce"
+  ],
+  "source_claimed_answer": null,
+  "source_solution": null,
+  "independent_answers": {
+    "solver_a": "C",
+    "solver_b": "B"
+  },
+  "independent_solutions": {
+    "solver_a": "1. Original time period T = 2*pi * sqrt(I / MB) = 2 s.\n2. When the magnet is cut into three equal parts along its length, each part has mass m/3 and magnetic moment M/3.\n3. The moment of inertia of a long bar magnet depends primarily on its length: I approx m*L^2 / 12.",
+    "solver_b": "Original time period T = 2pi sqrt(I / (MB)) = 2 s.\nThe phrase cut along its length into three equal parts in this context implies making cuts along the length, dividing it into three shorter magnets of length L/3 (transverse cuts).\nEach piece has mass m/3, length L/3, and magnetic moment M/3."
+  },
+  "consensus_answer": null,
+  "verdict": "UNRESOLVED",
+  "confidence": 0.8,
+  "discrepancy_classification": "SOLVER_DISAGREEMENT",
+  "adjudication_result": null,
+  "created_at": "2026-09-28T03:29:19.814394Z",
+  "completed_at": "2026-09-28T03:29:19.814394Z",
+  "metadata": {}
+}

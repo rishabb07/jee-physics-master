@@ -1,0 +1,216 @@
+{
+  "$defs": {
+    "ContentRiskLevel": {
+      "description": "Risk classification for physical content requiring calibrated verification rigor.",
+      "enum": [
+        "LOW",
+        "MEDIUM",
+        "HIGH"
+      ],
+      "title": "ContentRiskLevel",
+      "type": "string"
+    },
+    "ContentVerificationStatus": {
+      "description": "Lifecycle verification states for generated physics content.",
+      "enum": [
+        "UNVERIFIED",
+        "GENERATED",
+        "STAGED",
+        "VERIFIED",
+        "PROMOTABLE",
+        "REJECTED",
+        "CONFLICT",
+        "REVIEW",
+        "INVALIDATED"
+      ],
+      "title": "ContentVerificationStatus",
+      "type": "string"
+    },
+    "DerivationStep": {
+      "description": "A single sequential step in a mathematical physics derivation.",
+      "properties": {
+        "step_number": {
+          "description": "1-indexed step sequence",
+          "minimum": 1,
+          "title": "Step Number",
+          "type": "integer"
+        },
+        "description": {
+          "description": "Physical/mathematical operation performed",
+          "minLength": 3,
+          "title": "Description",
+          "type": "string"
+        },
+        "starting_equation": {
+          "description": "Equation prior to transformation",
+          "title": "Starting Equation",
+          "type": "string"
+        },
+        "operation": {
+          "description": "Applied law, substitution, or calculus operation",
+          "title": "Operation",
+          "type": "string"
+        },
+        "result_equation": {
+          "description": "Resulting equation in LaTeX math",
+          "title": "Result Equation",
+          "type": "string"
+        },
+        "assumptions_applied": {
+          "description": "Assumptions invoked in this step",
+          "items": {
+            "type": "string"
+          },
+          "title": "Assumptions Applied",
+          "type": "array"
+        }
+      },
+      "required": [
+        "step_number",
+        "description",
+        "starting_equation",
+        "operation",
+        "result_equation"
+      ],
+      "title": "DerivationStep",
+      "type": "object"
+    }
+  },
+  "description": "First-principles mathematical derivation of a target formula.",
+  "properties": {
+    "derivation_id": {
+      "description": "Unique derivation identifier",
+      "minLength": 1,
+      "title": "Derivation Id",
+      "type": "string"
+    },
+    "target_formula_id": {
+      "description": "Formula ID being derived",
+      "minLength": 1,
+      "title": "Target Formula Id",
+      "type": "string"
+    },
+    "target_equation": {
+      "description": "Target equation in LaTeX math",
+      "minLength": 1,
+      "title": "Target Equation",
+      "type": "string"
+    },
+    "starting_principles": {
+      "description": "Starting axioms, laws, or theorems",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "title": "Starting Principles",
+      "type": "array"
+    },
+    "assumptions": {
+      "description": "Explicit physical assumptions",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "title": "Assumptions",
+      "type": "array"
+    },
+    "ordered_steps": {
+      "description": "Sequential derivation steps",
+      "items": {
+        "$ref": "#/$defs/DerivationStep"
+      },
+      "minItems": 1,
+      "title": "Ordered Steps",
+      "type": "array"
+    },
+    "final_equation": {
+      "description": "Derived final equation",
+      "minLength": 1,
+      "title": "Final Equation",
+      "type": "string"
+    },
+    "applicability_conditions": {
+      "description": "Conditions under which derivation holds",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "title": "Applicability Conditions",
+      "type": "array"
+    },
+    "source_references": {
+      "description": "Source textbook references",
+      "items": {
+        "type": "string"
+      },
+      "title": "Source References",
+      "type": "array"
+    },
+    "risk_level": {
+      "$ref": "#/$defs/ContentRiskLevel",
+      "default": "HIGH",
+      "description": "High risk by default for derivations"
+    },
+    "verification_status": {
+      "$ref": "#/$defs/ContentVerificationStatus",
+      "default": "GENERATED"
+    },
+    "verification_record_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Bound verification record ID",
+      "title": "Verification Record Id"
+    },
+    "content_hash": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "SHA-256 hash of normalized derivation content",
+      "title": "Content Hash"
+    },
+    "generator_identity": {
+      "description": "Authoring agent name",
+      "minLength": 1,
+      "title": "Generator Identity",
+      "type": "string"
+    },
+    "generator_conversation_id": {
+      "description": "Authoring conversation ID",
+      "minLength": 1,
+      "title": "Generator Conversation Id",
+      "type": "string"
+    },
+    "created_at": {
+      "format": "date-time",
+      "title": "Created At",
+      "type": "string"
+    }
+  },
+  "required": [
+    "derivation_id",
+    "target_formula_id",
+    "target_equation",
+    "starting_principles",
+    "assumptions",
+    "ordered_steps",
+    "final_equation",
+    "applicability_conditions",
+    "generator_identity",
+    "generator_conversation_id"
+  ],
+  "title": "DerivationRecord",
+  "type": "object"
+}

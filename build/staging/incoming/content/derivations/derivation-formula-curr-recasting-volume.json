@@ -1,0 +1,95 @@
+{
+  "derivation_id": "derivation-formula-curr-recasting-volume",
+  "target_formula_id": "formula-curr-recasting-volume",
+  "target_equation": "$R = \\rho \\frac{l^2}{V} = \\rho \\frac{V}{\\pi^2 r^4} \\propto \\frac{1}{r^4}$",
+  "starting_principles": [
+    "Macroscopic resistance definition for a uniform conductor: $R = \\rho \\frac{l}{A}$",
+    "Volumetric conservation of an incompressible solid: $V = A \\cdot l = \\text{constant}$",
+    "Cross-sectional area of a uniform circular cylinder of radius $r$: $A = \\pi r^2$"
+  ],
+  "assumptions": [
+    "Zero mass loss during drawing, stretching, or melting and recasting",
+    "Material density $\\rho_m$ is constant, ensuring volume invariance ($V_1 = V_2 = V$)",
+    "Resistivity $\\rho$ remains constant (isothermal condition and microstructural integrity)",
+    "Uniform circular cylindrical shape is maintained throughout the conductor length"
+  ],
+  "ordered_steps": [
+    {
+      "step_number": 1,
+      "description": "State the macroscopic resistance formula for a uniform cylindrical conductor.",
+      "starting_equation": "$R = \\rho \\frac{l}{A}$",
+      "operation": "Express electrical resistance in terms of intrinsic resistivity $\\rho$, conductor length $l$, and cross-sectional area $A$",
+      "result_equation": "$R = \\rho \\frac{l}{A}$",
+      "assumptions_applied": [
+        "Homogeneous material with uniform cross-section"
+      ]
+    },
+    {
+      "step_number": 2,
+      "description": "Formulate the volumetric conservation constraint during recasting or stretching.",
+      "starting_equation": "$V = A \\cdot l$",
+      "operation": "Enforce $V_1 = V_2 = V = \\text{constant}$ under mass and density conservation",
+      "result_equation": "$A_1 l_1 = A_2 l_2 = V$",
+      "assumptions_applied": [
+        "Incompressible material with zero mass loss"
+      ]
+    },
+    {
+      "step_number": 3,
+      "description": "Express electrical resistance as an explicit function of length $l$ under volume conservation.",
+      "starting_equation": "$R = \\rho \\frac{l}{A},\\quad A = \\frac{V}{l}$",
+      "operation": "Substitute $A = \\frac{V}{l}$ into the resistance equation",
+      "result_equation": "$R = \\rho \\frac{l}{\\frac{V}{l}} = \\rho \\frac{l^2}{V} \\implies R \\propto l^2$",
+      "assumptions_applied": [
+        "Constant volume substitution"
+      ]
+    },
+    {
+      "step_number": 4,
+      "description": "Express electrical resistance as an explicit function of cross-sectional area $A$ under volume conservation.",
+      "starting_equation": "$R = \\rho \\frac{l}{A},\\quad l = \\frac{V}{A}$",
+      "operation": "Substitute $l = \\frac{V}{A}$ into the resistance equation",
+      "result_equation": "$R = \\rho \\frac{\\frac{V}{A}}{A} = \\rho \\frac{V}{A^2} \\implies R \\propto \\frac{1}{A^2}$",
+      "assumptions_applied": [
+        "Constant volume substitution"
+      ]
+    },
+    {
+      "step_number": 5,
+      "description": "Substitute circular cylindrical geometry in terms of radius $r$ and diameter $d$.",
+      "starting_equation": "$R = \\rho \\frac{V}{A^2},\\quad A = \\pi r^2 = \\frac{\\pi d^2}{4}$",
+      "operation": "Substitute $A = \\pi r^2$ and $A = \\frac{\\pi d^2}{4}$ into the volume-dependent resistance relation",
+      "result_equation": "$R = \\frac{\\rho V}{\\pi^2 r^4} = \\frac{16\\rho V}{\\pi^2 d^4} \\implies R \\propto \\frac{1}{r^4} \\propto \\frac{1}{d^4}$",
+      "assumptions_applied": [
+        "Circular cross-sectional geometry"
+      ]
+    },
+    {
+      "step_number": 6,
+      "description": "Formulate the scaling ratio connecting initial and final resistances upon wire deformation.",
+      "starting_equation": "$R_1 = \\frac{\\rho V}{\\pi^2 r_1^4},\\quad R_2 = \\frac{\\rho V}{\\pi^2 r_2^4}$",
+      "operation": "Divide $R_2$ by $R_1$ to eliminate common physical constants $\\rho$ and $V$",
+      "result_equation": "$\\frac{R_2}{R_1} = \\left(\\frac{r_1}{r_2}\\right)^4 = \\left(\\frac{d_1}{d_2}\\right)^4 = \\left(\\frac{l_2}{l_1}\\right)^2$",
+      "assumptions_applied": [
+        "Identical material resistivity $\\rho$ before and after recasting"
+      ]
+    }
+  ],
+  "final_equation": "$R = \\rho \\frac{l^2}{V} = \\rho \\frac{V}{\\pi^2 r^4} \\implies \\frac{R_2}{R_1} = \\left(\\frac{r_1}{r_2}\\right)^4 = \\left(\\frac{l_2}{l_1}\\right)^2$",
+  "applicability_conditions": [
+    "Volume conservation holds strictly ($V = A l = \\text{constant}$)",
+    "Resistivity $\\rho$ is invariant during the geometric transformation",
+    "Cross-sectional shape remains uniform along the length of the conductor"
+  ],
+  "source_references": [
+    "jee_rank_booster-03_mock_paper.pdf",
+    "concepts_of_physics_by_h.c._verma_volume_2.pdf"
+  ],
+  "risk_level": "HIGH",
+  "verification_status": "UNVERIFIED",
+  "verification_record_id": null,
+  "content_hash": null,
+  "generator_identity": "ContentGeneratorAgent",
+  "generator_conversation_id": "068c12c6-05bc-4521-81c4-e5ff6ad6d7f9",
+  "created_at": "2026-09-28T22:40:00Z"
+}

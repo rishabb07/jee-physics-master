@@ -1,0 +1,78 @@
+{
+  "atom_id": "kinematics-question-b29767c8",
+  "schema_version": "1.0.0",
+  "atom_version": 1,
+  "active": true,
+  "atom_type": "question",
+  "title": "Projectile Launch Angle from Position Vector at t = 2s",
+  "taxonomy": {
+    "chapter_id": "kinematics",
+    "topic_id": "projectile-motion",
+    "subtopic_id": "launch-angle-from-position"
+  },
+  "provenance": [
+    {
+      "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+      "file_name": "jee_rank_booster-03_mock_paper.pdf",
+      "file_path": null,
+      "page_start": 3,
+      "page_end": 3,
+      "source_locator": "Section - A, Q11",
+      "edition": null,
+      "extraction_metadata": {}
+    }
+  ],
+  "confidence": 0.98,
+  "verification_status": "VERIFIED",
+  "content_hash": "75a50f78ef107d1abfddbc5ccff76b0166dbb7d41f4e877fb6f0fe3032875d5b",
+  "created_at": "2026-09-28T03:18:38.636794Z",
+  "updated_at": "2026-09-28T04:19:50.761900Z",
+  "content": null,
+  "formula": null,
+  "question": {
+    "statement": "The position of a projectile launched from the origin at $t = 0$ is given by $\\vec{r} = (40\\hat{i} + 50\\hat{j})\\text{ m}$ at $t = 2\\text{ s}$. If the projectile was launched at an angle $\\theta$ from the horizontal, then $\\theta$ is\n(take $g = 10\\text{ ms}^{-2}$)",
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\tan^{-1}\\frac{2}{3}$"
+      },
+      {
+        "id": "B",
+        "text": "$\\tan^{-1}\\frac{3}{2}$"
+      },
+      {
+        "id": "C",
+        "text": "$\\tan^{-1}\\frac{7}{4}$"
+      },
+      {
+        "id": "D",
+        "text": "$\\tan^{-1}\\frac{4}{5}$"
+      }
+    ],
+    "source_claimed_answer": "C",
+    "verified_answer": "C",
+    "source_solution": null,
+    "answer": "C",
+    "solution_methods": [],
+    "difficulty": "L2",
+    "exam_metadata": {
+      "exam": "JEE Rank Booster Mock",
+      "exam_name": "JEE Rank Booster Mock",
+      "year": null,
+      "paper": 3,
+      "question_number": "11"
+    },
+    "concepts": [
+      "projectile motion",
+      "position vector",
+      "launch angle",
+      "kinematic equations"
+    ]
+  },
+  "solved_example": null,
+  "misconception": null,
+  "figure_refs": [],
+  "insight": null,
+  "duplicate_group_id": null,
+  "archive_reason": null
+}

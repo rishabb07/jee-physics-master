@@ -1,0 +1,173 @@
+{
+  "$defs": {
+    "CurriculumGapItem": {
+      "description": "A specific identified curriculum gap.",
+      "properties": {
+        "gap_id": {
+          "description": "Unique gap identifier",
+          "minLength": 1,
+          "title": "Gap Id",
+          "type": "string"
+        },
+        "taxonomy_node_id": {
+          "description": "Associated taxonomy node ID",
+          "minLength": 1,
+          "title": "Taxonomy Node Id",
+          "type": "string"
+        },
+        "chapter_id": {
+          "description": "Parent chapter slug",
+          "minLength": 1,
+          "title": "Chapter Id",
+          "type": "string"
+        },
+        "gap_category": {
+          "$ref": "#/$defs/GapCategory",
+          "description": "Gap classification category"
+        },
+        "description": {
+          "description": "Detailed explanation of what is missing",
+          "minLength": 5,
+          "title": "Description",
+          "type": "string"
+        },
+        "severity": {
+          "default": "WARNING",
+          "description": "'CRITICAL', 'WARNING', or 'INFO'",
+          "title": "Severity",
+          "type": "string"
+        },
+        "remediation_action": {
+          "description": "Recommended remediation instruction for content generation",
+          "minLength": 5,
+          "title": "Remediation Action",
+          "type": "string"
+        }
+      },
+      "required": [
+        "gap_id",
+        "taxonomy_node_id",
+        "chapter_id",
+        "gap_category",
+        "description",
+        "remediation_action"
+      ],
+      "title": "CurriculumGapItem",
+      "type": "object"
+    },
+    "GapCategory": {
+      "description": "Classification of pedagogical and content gaps.",
+      "enum": [
+        "NO_CONTENT",
+        "NO_EXPLANATION",
+        "NO_WORKED_EXAMPLE",
+        "NO_BASIC_QUESTION",
+        "NO_ADVANCED_QUESTION",
+        "MISSING_PREREQUISITE",
+        "UNSUPPORTED_EXTENSION",
+        "REVIEW_BLOCKED"
+      ],
+      "title": "GapCategory",
+      "type": "string"
+    }
+  },
+  "description": "Comprehensive deterministic curriculum gap report.",
+  "properties": {
+    "report_id": {
+      "description": "Unique report identifier",
+      "minLength": 1,
+      "title": "Report Id",
+      "type": "string"
+    },
+    "total_taxonomy_nodes": {
+      "default": 460,
+      "description": "Total nodes in syllabus tree including root",
+      "minimum": 0,
+      "title": "Total Taxonomy Nodes",
+      "type": "integer"
+    },
+    "content_bearing_nodes_analyzed": {
+      "default": 459,
+      "description": "Content-bearing syllabus nodes analyzed",
+      "minimum": 0,
+      "title": "Content Bearing Nodes Analyzed",
+      "type": "integer"
+    },
+    "excluded_nodes": {
+      "description": "List of structural nodes excluded from content analysis",
+      "items": {
+        "type": "string"
+      },
+      "title": "Excluded Nodes",
+      "type": "array"
+    },
+    "exclusion_reason": {
+      "default": "Organizational root node (TaxonomyLevel.SUBJECT) excluded; only chapters, topics, and subtopics are content-bearing.",
+      "description": "Justification for excluded nodes",
+      "title": "Exclusion Reason",
+      "type": "string"
+    },
+    "nodes_covered": {
+      "description": "Nodes with at least one verified atom (Taxonomy Presence)",
+      "minimum": 0,
+      "title": "Nodes Covered",
+      "type": "integer"
+    },
+    "nodes_empty": {
+      "description": "Nodes with zero verified atoms",
+      "minimum": 0,
+      "title": "Nodes Empty",
+      "type": "integer"
+    },
+    "nodes_light": {
+      "description": "Nodes with only 1 atom (under-covered)",
+      "minimum": 0,
+      "title": "Nodes Light",
+      "type": "integer"
+    },
+    "taxonomy_presence_nodes": {
+      "default": 0,
+      "description": "Count of nodes having at least one verified atom",
+      "minimum": 0,
+      "title": "Taxonomy Presence Nodes",
+      "type": "integer"
+    },
+    "pedagogical_coverage_breakdown": {
+      "additionalProperties": {
+        "type": "integer"
+      },
+      "description": "Count of nodes satisfying each pedagogical criterion",
+      "title": "Pedagogical Coverage Breakdown",
+      "type": "object"
+    },
+    "gaps_by_category": {
+      "additionalProperties": {
+        "type": "integer"
+      },
+      "description": "Count of gaps per category",
+      "title": "Gaps By Category",
+      "type": "object"
+    },
+    "gap_items": {
+      "description": "Granular gap items",
+      "items": {
+        "$ref": "#/$defs/CurriculumGapItem"
+      },
+      "title": "Gap Items",
+      "type": "array"
+    },
+    "generated_at": {
+      "format": "date-time",
+      "title": "Generated At",
+      "type": "string"
+    }
+  },
+  "required": [
+    "report_id",
+    "nodes_covered",
+    "nodes_empty",
+    "nodes_light"
+  ],
+  "title": "CurriculumGapReport",
+  "type": "object"
+}

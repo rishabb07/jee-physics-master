@@ -1,0 +1,36 @@
+{
+  "ladder_id": "ladder-rot-ang-mom-01",
+  "chapter_id": "rotational-motion",
+  "topic_id": "angular-momentum",
+  "title": "Scaffolding Angular Momentum from Particle to Rigid Disc",
+  "physical_system": "Rotating horizontal disc and particle angular momentum",
+  "pedagogical_objective": "Scaffold understanding of angular momentum from an isolated particle in free fall about an offset origin to a coupled rigid body system (horizontal rotating disc with radial insect motion) undergoing variable moment of inertia and angular momentum conservation.",
+  "rungs": [
+    {
+      "level": 1,
+      "level_name": "Direct application",
+      "atom_id": "rotational-motion-question-6c7cb960",
+      "physical_delta": "Baseline free particle angular momentum about external fixed point",
+      "reasoning_depth": 2,
+      "concepts_involved": [
+        "Angular momentum definition",
+        "Cross product r x p"
+      ],
+      "mathematical_complexity": "Vector cross product",
+      "transfer_requirement": "Evaluating time-dependent angular momentum L = r x p for vertical free fall relative to a fixed ground origin not vertically below the particle."
+    },
+    {
+      "level": 2,
+      "level_name": "Standard multi-step",
+      "atom_id": "rotational-motion-question-84f91c20",
+      "physical_delta": "Coupled rotating disc with radial insect motion causing time-varying moment of inertia",
+      "reasoning_depth": 3,
+      "concepts_involved": [
+        "Conservation of angular momentum",
+        "Variable moment of inertia"
+      ],
+      "mathematical_complexity": "Algebraic angular velocity ratio",
+      "transfer_requirement": "Applying isolated system angular momentum conservation I(t) omega(t) = const where internal mass relocation alters effective moment of inertia."
+    }
+  ]
+}

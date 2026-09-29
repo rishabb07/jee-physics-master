@@ -1,0 +1,94 @@
+{
+  "derivation_id": "derivation-formula-rot-angmom-particle",
+  "target_formula_id": "formula-rot-angmom-particle",
+  "target_equation": "$$\\vec{L}_O = \\vec{r} \\times \\vec{p} = m (\\vec{r} \\times \\vec{v})$$",
+  "starting_principles": [
+    "Definition of linear momentum: $\\vec{p} = m \\vec{v}$",
+    "Vector cross product definition: $\\vec{A} \\times \\vec{B} = |A||B|\\sin\\theta \\, \\hat{n}$",
+    "Rate of change of angular momentum: $\\frac{d\\vec{L}_O}{dt} = \\vec{\\tau}_O = \\vec{r} \\times \\vec{F}$"
+  ],
+  "assumptions": [
+    "The particle is treated as a classical point mass $m$.",
+    "The reference point $O$ is fixed in an inertial frame.",
+    "Classical non-relativistic mechanics where mass $m$ is constant."
+  ],
+  "ordered_steps": [
+    {
+      "step_number": 1,
+      "description": "Define the instantaneous position and linear momentum of a particle relative to a chosen reference origin $O$.",
+      "starting_equation": "$$\\vec{v} = \\frac{d\\vec{r}}{dt}$$",
+      "operation": "Specify the particle's mass $m$ and position vector $\\vec{r}$ measured from origin $O$. Define linear momentum $\\vec{p} = m \\vec{v} = m \\frac{d\\vec{r}}{dt}$.",
+      "result_equation": "$$\\vec{p} = m \\vec{v}$$",
+      "assumptions_applied": [
+        "Classical point mass with invariant mass $m$."
+      ]
+    },
+    {
+      "step_number": 2,
+      "description": "Formulate the moment of momentum (angular momentum) $\\vec{L}_O$ as the vector cross product of position and linear momentum.",
+      "starting_equation": "$$\\vec{p} = m \\vec{v}$$",
+      "operation": "Take the vector cross product of position vector $\\vec{r}$ with linear momentum $\\vec{p}$: $\\vec{L}_O = \\vec{r} \\times \\vec{p} = \\vec{r} \\times (m \\vec{v})$.",
+      "result_equation": "$$\\vec{L}_O = \\vec{r} \\times \\vec{p} = m (\\vec{r} \\times \\vec{v})$$",
+      "assumptions_applied": [
+        "Scalar mass $m$ factors out of the cross product."
+      ]
+    },
+    {
+      "step_number": 3,
+      "description": "Differentiate the angular momentum vector with respect to time to verify dynamic consistency with Newton's second law.",
+      "starting_equation": "$$\\vec{L}_O = \\vec{r} \\times \\vec{p}$$",
+      "operation": "Apply the product rule of vector calculus: $\\frac{d\\vec{L}_O}{dt} = \\frac{d}{dt}(\\vec{r} \\times \\vec{p}) = \\left(\\frac{d\\vec{r}}{dt} \\times \\vec{p}\\right) + \\left(\\vec{r} \\times \\frac{d\\vec{p}}{dt}\\right)$.",
+      "result_equation": "$$\\frac{d\\vec{L}_O}{dt} = (\\vec{v} \\times \\vec{p}) + \\left(\\vec{r} \\times \\frac{d\\vec{p}}{dt}\\right)$$",
+      "assumptions_applied": [
+        "Product rule for vector cross products."
+      ]
+    },
+    {
+      "step_number": 4,
+      "description": "Evaluate the first term $\\vec{v} \\times \\vec{p}$ using the definition of linear momentum.",
+      "starting_equation": "$$\\vec{v} \\times \\vec{p} = \\vec{v} \\times (m \\vec{v})$$",
+      "operation": "Factor out mass $m$: $\\vec{v} \\times (m \\vec{v}) = m (\\vec{v} \\times \\vec{v})$. Since the cross product of any vector with itself is identically zero, this term vanishes.",
+      "result_equation": "$$\\vec{v} \\times \\vec{p} = \\vec{0}$$",
+      "assumptions_applied": [
+        "Collinear vectors produce zero cross product: $\\vec{v} \\times \\vec{v} = \\vec{0}$."
+      ]
+    },
+    {
+      "step_number": 5,
+      "description": "Substitute Newton's second law $\\frac{d\\vec{p}}{dt} = \\vec{F}_{\\text{net}}$ into the second term to prove $\\frac{d\\vec{L}_O}{dt} = \\vec{\\tau}_O$.",
+      "starting_equation": "$$\\frac{d\\vec{L}_O}{dt} = \\vec{0} + \\vec{r} \\times \\frac{d\\vec{p}}{dt}$$",
+      "operation": "Replace $\\frac{d\\vec{p}}{dt}$ with $\\vec{F}_{\\text{net}}$: $\\frac{d\\vec{L}_O}{dt} = \\vec{r} \\times \\vec{F}_{\\text{net}} = \\vec{\\tau}_O$, verifying foundational dynamical consistency.",
+      "result_equation": "$$\\frac{d\\vec{L}_O}{dt} = \\vec{\\tau}_O$$",
+      "assumptions_applied": [
+        "Newton's second law in an inertial reference frame."
+      ]
+    },
+    {
+      "step_number": 6,
+      "description": "Compute the scalar magnitude of angular momentum in terms of the impact parameter $r_\\perp$.",
+      "starting_equation": "$$\\vec{L}_O = m (\\vec{r} \\times \\vec{v})$$",
+      "operation": "Calculate magnitude: $|\\vec{L}_O| = m |\\vec{r}||\\vec{v}|\\sin\\theta = m v (r \\sin\\theta) = m v r_\\perp = p r_\\perp$, where $r_\\perp = r \\sin\\theta$ is the perpendicular distance from $O$ to the line of motion.",
+      "result_equation": "$$L_O = m v r_\\perp = p r_\\perp$$",
+      "assumptions_applied": [
+        "Definition of perpendicular distance (impact parameter) $r_\\perp$."
+      ]
+    }
+  ],
+  "final_equation": "$$\\vec{L}_O = \\vec{r} \\times \\vec{p} = m (\\vec{r} \\times \\vec{v})$$",
+  "applicability_conditions": [
+    "Applies to any point mass particle moving along an arbitrary trajectory in 3D space.",
+    "Reference point $O$ must be explicitly specified.",
+    "Valid in an inertial reference frame."
+  ],
+  "source_references": [
+    "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+    "Fundamentals of Physics-Halliday,Resnick,Walker.pdf"
+  ],
+  "risk_level": "HIGH",
+  "verification_status": "UNVERIFIED",
+  "verification_record_id": null,
+  "generator_identity": "content_generator_agent",
+  "generator_conversation_id": "126488a8-d6c5-4eb1-953f-9b833f4b917c",
+  "content_hash": "fc001db19003208f98550c2819b7d168e48e485b330482f79e6c159316a29daa",
+  "created_at": "2026-09-28T22:30:00Z"
+}

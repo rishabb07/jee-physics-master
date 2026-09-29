@@ -1,0 +1,21 @@
+{
+  "verification_id": "cvr-formula-td-first-law",
+  "artifact_id": "formula-td-first-law",
+  "artifact_version": 1,
+  "content_hash": "7292461710c4af607972e6edbf5a76fab730ee4aa9e0d7eebb12c6790cd8fdda",
+  "verifier_id": "formula-content-verifier",
+  "verifier_conversation_id": "ab85d650-e1e8-42e2-ac4a-8bc8a6460e30",
+  "risk_level": "MEDIUM",
+  "verdict": "VERIFIED",
+  "assumptions_checked": true,
+  "dimensional_check_passed": true,
+  "numerical_check_passed": true,
+  "limiting_case_check_passed": true,
+  "independent_derivation_or_calculation": "First law of thermodynamics: dQ = dU + dW (or deltaQ = deltaU + deltaW). Energy conservation. Dimensions match [M][L^2][T^-2] (Joules).",
+  "findings": [
+    "Dimensional homogeneity confirmed (Energy)",
+    "Energy conservation correctly formulated"
+  ],
+  "discrepancies": [],
+  "timestamp": "2026-09-29T02:32:37.338299+00:00"
+}

@@ -1,0 +1,30 @@
+{
+  "verification_id": "verif-current-electricity-question-3a1b8c4d-d6da24",
+  "atom_id": "current-electricity-question-3a1b8c4d",
+  "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+  "atom_version": 1,
+  "content_hash": "5191a1c0c5850b6fa92086f0bf29a9b6544e9692f7cafc452719aebd3abff836",
+  "verification_protocol_version": "1.0.0",
+  "solver_run_ids": [
+    "run-solver_a-98e34de9-18a6-46c0-8d02-243176236213",
+    "run-solver_b-current-electricity-question-3a1b8c4d"
+  ],
+  "source_claimed_answer": null,
+  "source_solution": null,
+  "independent_answers": {
+    "solver_a": "B",
+    "solver_b": "B"
+  },
+  "independent_solutions": {
+    "solver_a": "Step 1: Circuit with E = 20 V, R1 = 5 ohms in series with ideal ammeter (R_A = 0). Branch 2 has R2 = 15 ohms.\nStep 2: Parallel resistance R_p = (5 * 15) / (5 + 15) = 3.75 ohms.\nStep 3: Total resistance R_eq = R_p + R3 = 3.75 + 1.25 = 5.00 ohms.",
+    "solver_b": "Step 1: Parallel branches R1 = 5 in series with ammeter (R_A=0), and R2 = 15.\nStep 2: Parallel resistance R_p = (5 * 15) / 20 = 3.75 ohms.\nStep 3: Total resistance with R3 = 1.25 ohms: R_tot = 3.75 + 1.25 = 5.00 ohms."
+  },
+  "consensus_answer": "B",
+  "verdict": "VERIFIED",
+  "confidence": 0.99,
+  "discrepancy_classification": "SOURCE_ANSWER_MISSING",
+  "adjudication_result": null,
+  "created_at": "2026-09-27T19:51:06.350051Z",
+  "completed_at": "2026-09-27T19:51:06.350051Z",
+  "metadata": {}
+}

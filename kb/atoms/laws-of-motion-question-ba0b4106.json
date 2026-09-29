@@ -1,0 +1,86 @@
+{
+  "atom_id": "laws-of-motion-question-ba0b4106",
+  "schema_version": "1.0.0",
+  "atom_version": 1,
+  "active": true,
+  "atom_type": "question",
+  "title": "Maximum angle for insect crawling on hemispherical surface without slipping",
+  "taxonomy": {
+    "chapter_id": "laws-of-motion",
+    "topic_id": "friction",
+    "subtopic_id": "equilibrium-on-curved-surface"
+  },
+  "provenance": [
+    {
+      "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+      "file_name": "jee_rank_booster-03_mock_paper.pdf",
+      "file_path": "jee_rank_booster-03_mock_paper.pdf",
+      "page_start": 5,
+      "page_end": 5,
+      "source_locator": "Section - A, Q19",
+      "edition": null,
+      "extraction_metadata": {
+        "source_sha256": "256f42c67a9271aaafe4bf637eb34cddd10da959cdf7a66fc6fee76a68d34361"
+      }
+    }
+  ],
+  "confidence": 0.99,
+  "verification_status": "VERIFIED",
+  "content_hash": "ed05220acebdaf00fbb9dbf39e2a0d8441e4058a97ad7049def7d36dc0f66427",
+  "created_at": "2026-09-28T01:00:00Z",
+  "updated_at": "2026-09-28T04:19:50.765899Z",
+  "content": null,
+  "formula": null,
+  "question": {
+    "statement": "An insect crawls up a hemispherical surface very slowly. The coefficient of friction between the insect and the surface is $\\frac{1}{3}$. If the line joining the centre of the hemispherical surface to the insect makes an angle $\\alpha$ with the vertical, the maximum possible value of $\\alpha$ so that the insect does not slip is given by",
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\cot \\alpha = 3$"
+      },
+      {
+        "id": "B",
+        "text": "$\\sec \\alpha = 3$"
+      },
+      {
+        "id": "C",
+        "text": "$\\operatorname{cosec} \\alpha = 3$"
+      },
+      {
+        "id": "D",
+        "text": "$\\cos \\alpha = 3$"
+      }
+    ],
+    "source_claimed_answer": "A",
+    "verified_answer": "A",
+    "source_solution": null,
+    "answer": "A",
+    "solution_methods": [],
+    "difficulty": "L2",
+    "exam_metadata": {
+      "exam": "JEE Rank Booster Mock",
+      "exam_name": "JEE Rank Booster Mock",
+      "year": null,
+      "paper": 3,
+      "question_number": "19"
+    },
+    "concepts": [
+      "laws-of-motion",
+      "limiting-friction",
+      "circular-geometry",
+      "static-equilibrium"
+    ]
+  },
+  "solved_example": null,
+  "misconception": null,
+  "figure_refs": [
+    {
+      "figure_id": "fig-src-jee-rank-booster-03-mock-p05-q19",
+      "caption": "Insect on a hemispherical surface making angle $\\alpha$ with the vertical from the centre.",
+      "alt_text": "Cross-section of a concave hemispherical bowl with a dashed vertical axis. A small insect rests on the inner curved surface. A dashed radial line from the center of curvature to the insect makes angle alpha with the vertical axis."
+    }
+  ],
+  "insight": null,
+  "duplicate_group_id": null,
+  "archive_reason": null
+}

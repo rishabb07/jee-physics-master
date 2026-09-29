@@ -1,0 +1,260 @@
+{
+  "$defs": {
+    "AtomStatus": {
+      "enum": [
+        "STAGED",
+        "VALIDATED",
+        "VERIFICATION_PENDING",
+        "VERIFIED",
+        "REJECTED",
+        "AMBIGUOUS",
+        "ARCHIVED"
+      ],
+      "title": "AtomStatus",
+      "type": "string"
+    },
+    "ProvenanceRecord": {
+      "description": "Represents a specific occurrence and physical location of knowledge within a source file.",
+      "properties": {
+        "source_id": {
+          "description": "Unique identifier of the registered source document",
+          "title": "Source Id",
+          "type": "string"
+        },
+        "file_name": {
+          "description": "Original filename of the source document",
+          "title": "File Name",
+          "type": "string"
+        },
+        "file_path": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Path or relative URI to source document",
+          "title": "File Path"
+        },
+        "page_start": {
+          "anyOf": [
+            {
+              "minimum": 1,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "1-based starting page number where available",
+          "title": "Page Start"
+        },
+        "page_end": {
+          "anyOf": [
+            {
+              "minimum": 1,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "1-based ending page number where available",
+          "title": "Page End"
+        },
+        "source_locator": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Human-readable location (e.g. Chapter 3, Example 12, Q14)",
+          "title": "Source Locator"
+        },
+        "edition": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Edition or printing identifier of the source",
+          "title": "Edition"
+        },
+        "extraction_metadata": {
+          "additionalProperties": true,
+          "description": "Metadata captured during extraction",
+          "title": "Extraction Metadata",
+          "type": "object"
+        }
+      },
+      "required": [
+        "source_id",
+        "file_name"
+      ],
+      "title": "ProvenanceRecord",
+      "type": "object"
+    },
+    "SolutionMethod": {
+      "properties": {
+        "method_name": {
+          "default": "Standard Method",
+          "description": "e.g. 'Energy Method', 'Newton's Laws', 'Rotated Axes'",
+          "title": "Method Name",
+          "type": "string"
+        },
+        "steps": {
+          "description": "Step-by-step derivation or reasoning",
+          "title": "Steps",
+          "type": "string"
+        },
+        "source_attributed": {
+          "default": true,
+          "description": "True if this method appeared in the source text",
+          "title": "Source Attributed",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "steps"
+      ],
+      "title": "SolutionMethod",
+      "type": "object"
+    }
+  },
+  "description": "A fully-structured worked example with physical setup and sanity checks.",
+  "properties": {
+    "example_id": {
+      "description": "Unique example identifier",
+      "minLength": 1,
+      "title": "Example Id",
+      "type": "string"
+    },
+    "problem_statement": {
+      "description": "Full problem statement with LaTeX math",
+      "minLength": 5,
+      "title": "Problem Statement",
+      "type": "string"
+    },
+    "known_quantities": {
+      "additionalProperties": {
+        "type": "string"
+      },
+      "description": "Explicitly given physical quantities",
+      "title": "Known Quantities",
+      "type": "object"
+    },
+    "target_quantity": {
+      "description": "Quantity to be determined",
+      "minLength": 1,
+      "title": "Target Quantity",
+      "type": "string"
+    },
+    "relevant_concepts": {
+      "description": "Core physical concepts required",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "title": "Relevant Concepts",
+      "type": "array"
+    },
+    "governing_principles": {
+      "description": "Laws or theorems used (e.g. 'Work-Energy Theorem')",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "title": "Governing Principles",
+      "type": "array"
+    },
+    "solution_strategy": {
+      "description": "Teacher-like explanation of the approach",
+      "minLength": 5,
+      "title": "Solution Strategy",
+      "type": "string"
+    },
+    "step_by_step_derivation": {
+      "description": "Step-by-step mathematical steps",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "title": "Step By Step Derivation",
+      "type": "array"
+    },
+    "final_answer": {
+      "description": "Exact verified final result",
+      "minLength": 1,
+      "title": "Final Answer",
+      "type": "string"
+    },
+    "sanity_checks": {
+      "description": "Dimensional checks, limiting cases (e.g. m -> 0)",
+      "items": {
+        "type": "string"
+      },
+      "title": "Sanity Checks",
+      "type": "array"
+    },
+    "alternate_methods": {
+      "description": "Alternative physical derivations",
+      "items": {
+        "$ref": "#/$defs/SolutionMethod"
+      },
+      "title": "Alternate Methods",
+      "type": "array"
+    },
+    "source_atom_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Canonical atom ID if adapted from verified atom",
+      "title": "Source Atom Id"
+    },
+    "provenance": {
+      "description": "Source provenance records",
+      "items": {
+        "$ref": "#/$defs/ProvenanceRecord"
+      },
+      "title": "Provenance",
+      "type": "array"
+    },
+    "verification_status": {
+      "$ref": "#/$defs/AtomStatus",
+      "default": "VERIFIED",
+      "description": "Verification status"
+    }
+  },
+  "required": [
+    "example_id",
+    "problem_statement",
+    "known_quantities",
+    "target_quantity",
+    "relevant_concepts",
+    "governing_principles",
+    "solution_strategy",
+    "step_by_step_derivation",
+    "final_answer"
+  ],
+  "title": "WorkedExampleRecord",
+  "type": "object"
+}

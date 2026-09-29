@@ -1,0 +1,85 @@
+{
+  "derivation_id": "derivation-formula-opt-snells-law",
+  "target_formula_id": "formula-opt-snells-law",
+  "target_equation": "$n_1 \\sin\\theta_1 = n_2 \\sin\\theta_2$",
+  "starting_principles": [
+    "Fermat's Principle of Least Time: an optical ray traversing two fixed endpoints follows a trajectory that renders the total transit time stationary: $\\frac{dt}{dx} = 0$",
+    "Phase velocity of light in an optical medium: $v = \\frac{c}{n}$",
+    "Pythagorean Euclidean distance metric for planar path length: $s = \\sqrt{(\\Delta x)^2 + (\\Delta y)^2}$"
+  ],
+  "assumptions": [
+    "Two homogeneous, isotropic, non-dispersive optical media separated by a flat planar interface at $y = 0$",
+    "Point source $A(0, a)$ located in medium 1 ($n_1$) with $a > 0$",
+    "Observation point $B(d, -b)$ located in medium 2 ($n_2$) with $b > 0$ and lateral separation $d > 0$",
+    "Ray crosses the interface at point $P(x, 0)$ where $0 < x < d$"
+  ],
+  "ordered_steps": [
+    {
+      "step_number": 1,
+      "description": "Formulate the total transit time $t(x)$ for an optical ray traveling from $A(0, a)$ to $P(x, 0)$ in medium 1 and from $P(x, 0)$ to $B(d, -b)$ in medium 2.",
+      "starting_equation": "$t(x) = \\frac{AP}{v_1} + \\frac{PB}{v_2}$",
+      "operation": "Substitute Euclidean lengths $AP = \\sqrt{x^2 + a^2}$ and $PB = \\sqrt{(d - x)^2 + b^2}$, and medium phase velocities $v_1 = \\frac{c}{n_1}, v_2 = \\frac{c}{n_2}$",
+      "result_equation": "$t(x) = \\frac{n_1}{c}\\sqrt{x^2 + a^2} + \\frac{n_2}{c}\\sqrt{(d - x)^2 + b^2}$",
+      "assumptions_applied": [
+        "Planar interface geometry",
+        "Constant media velocities $v_1 = c/n_1$ and $v_2 = c/n_2$"
+      ]
+    },
+    {
+      "step_number": 2,
+      "description": "Differentiate total transit time $t(x)$ with respect to interface coordinate $x$.",
+      "starting_equation": "$\\frac{dt}{dx} = \\frac{d}{dx}\\left[\\frac{n_1}{c}\\sqrt{x^2 + a^2} + \\frac{n_2}{c}\\sqrt{(d - x)^2 + b^2}\\right]$",
+      "operation": "Apply chain rule: $\\frac{d}{dx}\\sqrt{x^2 + a^2} = \\frac{x}{\\sqrt{x^2 + a^2}}$ and $\\frac{d}{dx}\\sqrt{(d - x)^2 + b^2} = -\\frac{d - x}{\\sqrt{(d - x)^2 + b^2}}$",
+      "result_equation": "$\\frac{dt}{dx} = \\frac{n_1}{c}\\frac{x}{\\sqrt{x^2 + a^2}} - \\frac{n_2}{c}\\frac{d - x}{\\sqrt{(d - x)^2 + b^2}}$",
+      "assumptions_applied": [
+        "Continuity and differentiability of the path function"
+      ]
+    },
+    {
+      "step_number": 3,
+      "description": "Apply Fermat's stationary time condition $\\frac{dt}{dx} = 0$.",
+      "starting_equation": "$\\frac{n_1}{c}\\frac{x}{\\sqrt{x^2 + a^2}} - \\frac{n_2}{c}\\frac{d - x}{\\sqrt{(d - x)^2 + b^2}} = 0$",
+      "operation": "Multiply through by $c$ and equate terms",
+      "result_equation": "$n_1 \\frac{x}{\\sqrt{x^2 + a^2}} = n_2 \\frac{d - x}{\\sqrt{(d - x)^2 + b^2}}$",
+      "assumptions_applied": [
+        "Fermat's principle of stationary transit time"
+      ]
+    },
+    {
+      "step_number": 4,
+      "description": "Identify the geometric trigonometric ratios corresponding to angles of incidence and refraction.",
+      "starting_equation": "$\\sin\\theta_1 = \\frac{x}{\\sqrt{x^2 + a^2}},\\quad \\sin\\theta_2 = \\frac{d - x}{\\sqrt{(d - x)^2 + b^2}}$",
+      "operation": "Substitute $\\sin\\theta_1$ and $\\sin\\theta_2$ into the stationary equation",
+      "result_equation": "$n_1 \\sin\\theta_1 = n_2 \\sin\\theta_2$",
+      "assumptions_applied": [
+        "Definition of angles $\\theta_1$ and $\\theta_2$ measured relative to the normal"
+      ]
+    },
+    {
+      "step_number": 5,
+      "description": "Verify that the stationary trajectory corresponds to a strict local minimum transit time.",
+      "starting_equation": "$\\frac{d^2t}{dx^2} = \\frac{d}{dx}\\left[\\frac{n_1}{c}\\frac{x}{\\sqrt{x^2 + a^2}} - \\frac{n_2}{c}\\frac{d - x}{\\sqrt{(d - x)^2 + b^2}}\\right]$",
+      "operation": "Evaluate derivative using quotient rule to obtain $\\frac{d^2t}{dx^2} = \\frac{n_1}{c}\\frac{a^2}{(x^2 + a^2)^{3/2}} + \\frac{n_2}{c}\\frac{b^2}{((d - x)^2 + b^2)^{3/2}}$",
+      "result_equation": "$\\frac{d^2t}{dx^2} > 0 \\implies t(x) \\text{ is a strict global minimum}$",
+      "assumptions_applied": [
+        "Positivity of physical parameters $a, b, n_1, n_2, c > 0$"
+      ]
+    }
+  ],
+  "final_equation": "$n_1 \\sin\\theta_1 = n_2 \\sin\\theta_2$",
+  "applicability_conditions": [
+    "Valid for refraction across smooth planar boundaries separating isotropic optical media",
+    "Ray optics approximation where optical path lengths are much larger than wavelength $\\lambda$"
+  ],
+  "source_references": [
+    "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+    "Fundamentals of Physics-Halliday,Resnick,Walker.pdf"
+  ],
+  "risk_level": "HIGH",
+  "verification_status": "VERIFIED",
+  "verification_record_id": "dual-cvr-derivation-formula-opt-snells-law",
+  "content_hash": "4a4612cc3bfcdd084e1799fe2cbf53b492523d219bfdee47b43e4cbc69f22e91",
+  "generator_identity": "ContentGeneratorAgent",
+  "generator_conversation_id": "068c12c6-05bc-4521-81c4-e5ff6ad6d7f9",
+  "created_at": "2026-09-28T22:40:00Z"
+}

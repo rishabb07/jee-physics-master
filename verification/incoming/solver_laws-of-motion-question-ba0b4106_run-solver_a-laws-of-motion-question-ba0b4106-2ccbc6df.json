@@ -1,0 +1,26 @@
+{
+  "solver_run_id": "run-solver_a-laws-of-motion-question-ba0b4106-2ccbc6df",
+  "solver_agent_name": "solver_a",
+  "atom_id": "laws-of-motion-question-ba0b4106",
+  "atom_version": 1,
+  "content_hash": "ed05220acebdaf00fbb9dbf39e2a0d8441e4058a97ad7049def7d36dc0f66427",
+  "verification_protocol_version": "1.0.0",
+  "blind_package_hash": "21c57352c017f717b7fa7200f76bdec418faca82346575289810f96fe2e9234c",
+  "independent_answer": "A",
+  "raw_answer": "cot alpha = 3",
+  "reasoning_steps": [
+    "1. The normal force on the insect is N = mg * cos(alpha).",
+    "2. The downward tangential force due to gravity is mg * sin(alpha).",
+    "3. For the insect not to slip, the frictional force must balance this: mg * sin(alpha) <= mu * N.",
+    "4. mg * sin(alpha) <= mu * mg * cos(alpha) => tan(alpha) <= mu.",
+    "5. Given mu = 1/3, the maximum angle is when tan(alpha) = 1/3.",
+    "6. Therefore, cot(alpha) = 3."
+  ],
+  "assumptions_used": [
+    "Standard physics assumptions apply"
+  ],
+  "diagram_interpretation": null,
+  "uncertainty": null,
+  "possible_ambiguities": [],
+  "created_at": "2026-09-28T03:22:27.319537Z"
+}

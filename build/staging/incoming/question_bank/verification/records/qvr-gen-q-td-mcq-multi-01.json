@@ -1,0 +1,135 @@
+{
+  "verification_id": "qvr-gen-q-td-mcq-multi-01",
+  "question_id": "gen-q-td-mcq-multi-01",
+  "question_version": 1,
+  "content_hash": "c5eccffbd365e4a331fff024ed88754b3b3af47bbfbacca7263c815ebbaa46b3",
+  "risk_level": "HIGH",
+  "solver_a": {
+    "solver_id": "solver_a",
+    "conversation_id": "c4b2f200-9d09-4009-8419-85baf0f75544",
+    "independent_interpretation": "A quasi-static reversible adiabatic expansion of an ideal gas with constant specific heat ratio gamma = C_p / C_v. We audit four thermodynamic propositions concerning state variable trajectories, work-energy relations, and entropy change.",
+    "governing_principles": [
+      "First Law of Thermodynamics (dQ = dU + dW)",
+      "Adiabatic Process Condition (dQ = 0)",
+      "Clausius Theorem and Definition of Thermodynamic Entropy (dS = dQ_rev / T)",
+      "Poisson's Relations for Reversible Adiabatic Processes of an Ideal Gas"
+    ],
+    "independent_equations": [
+      "dQ = 0 \\implies dU + dW = 0 \\implies W = -\\Delta U",
+      "dS = \\frac{dQ_{\\text{rev}}}{T} = 0 \\implies \\Delta S = 0",
+      "dU = n C_v dT, \\quad dW = P dV \\implies n C_v dT + \\frac{n R T}{V} dV = 0",
+      "\\frac{dT}{T} + (\\gamma - 1) \\frac{dV}{V} = 0 \\implies T V^{\\gamma - 1} = \\text{constant}",
+      "P = \\frac{n R T}{V} \\implies P V^\\gamma = \\text{constant}"
+    ],
+    "independent_solution_steps": [
+      "Step 1: Check Proposition B: In an adiabatic process, heat exchange dQ = 0. By the First Law of Thermodynamics, dQ = dU + dW, so dW = -dU. Integrated over the expansion, work done is W = -Delta U (work done equals the decrease in internal energy). Thus, statement B is TRUE.",
+      "Step 2: Check Proposition C: For any reversible path, entropy differential is dS = dQ_rev / T. Since dQ_rev = 0 at every differential step of a reversible adiabatic process, dS = 0, meaning Delta S = 0 (isentropic process). Thus, statement C is TRUE.",
+      "Step 3: Check Proposition A: Using dU = n C_v dT and dW = P dV with the ideal gas law P V = n R T: n C_v dT + (n R T / V) dV = 0. Dividing by n C_v T and using R / C_v = gamma - 1 yields dT/T + (gamma - 1) dV/V = 0. Integrating yields ln(T * V^(gamma - 1)) = const, so T V^(gamma - 1) = const. Thus, statement A is TRUE.",
+      "Step 4: Check Proposition D: Substituting T = P V / (n R) into T V^(gamma - 1) = const yields (P V / n R) * V^(gamma - 1) = const ==> P V^gamma = const. Thus, statement D is TRUE.",
+      "Step 5: Synthesize result: All four statements A, B, C, D are rigorously correct, confirming the multi-correct answer set {A, B, C, D}."
+    ],
+    "calculated_answer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "dimensional_check_passed": true,
+    "numerical_check_passed": true,
+    "uniqueness_confirmed": true,
+    "conflicting_distractors": [],
+    "evaluated_difficulty": {
+      "conceptual_difficulty": 4,
+      "mathematical_difficulty": 3,
+      "multistep_reasoning_difficulty": 4,
+      "abstraction_difficulty": 3,
+      "computational_burden": 1,
+      "trap_misconception_difficulty": 3,
+      "derived_difficulty_band": "L3",
+      "weighting_policy": "PEDAGOGICAL_PROJECT_POLICY"
+    },
+    "verdict": "VERIFIED",
+    "notes": "First-principles thermodynamic derivation confirms that all four statements A, B, C, D are exact physical consequences of a quasi-static reversible adiabatic expansion.",
+    "record_status": "ACTIVE",
+    "superseded_by": null,
+    "superseded_reason": null,
+    "timestamp": "2026-09-29T08:55:20+05:30"
+  },
+  "solver_b": {
+    "solver_id": "solver_b",
+    "conversation_id": "cb054490-4b17-4baa-a6a9-733fa72bfec3",
+    "independent_interpretation": "An ideal gas with constant specific heat ratio gamma = C_p / C_v undergoes a quasi-static reversible adiabatic expansion. The quasi-static condition ensures the system remains in internal mechanical and thermal equilibrium at each point along the thermodynamic trajectory, ensuring well-defined state coordinates (P, V, T). The reversible adiabatic condition mandates zero heat transfer across the boundary (dQ_rev = 0) at all stages. The problem asks which of four statements concerning state relations (T * V^(gamma - 1) = constant, P * V^gamma = constant), First Law energy balance (W = -Delta U), and Clausius entropy invariance (Delta S = 0) are physically correct.",
+    "governing_principles": [
+      "First Law of Thermodynamics (dQ = dU + dW)",
+      "Reversible Adiabatic Condition (dQ_rev = 0 throughout path)",
+      "Ideal Gas Internal Energy (dU = n * C_v * dT)",
+      "Ideal Gas Equation of State (P * V = n * R * T)",
+      "Poisson's Adiabatic State Equations (P * V^gamma = constant, T * V^(gamma - 1) = constant)",
+      "Second Law of Thermodynamics and Clausius Definition of Entropy (dS = dQ_rev / T)"
+    ],
+    "independent_equations": [
+      "dQ = dU + dW = 0 => dU = -dW",
+      "Delta U = -W => W = -Delta U",
+      "n * C_v * dT + P * dV = 0",
+      "dT / T + (R / C_v) * (dV / V) = 0",
+      "R / C_v = gamma - 1 => ln(T) + (gamma - 1) * ln(V) = const => T * V^(gamma - 1) = constant",
+      "P = n * R * T / V => (P * V / (n * R)) * V^(gamma - 1) = const => P * V^gamma = constant",
+      "dS = dQ_rev / T = 0 / T = 0 => Delta S = integral(dQ_rev / T) = 0"
+    ],
+    "independent_solution_steps": [
+      "Step 1: Analyze Option A (Poisson's T-V relation): Apply the First Law for an infinitesimal quasi-static step: dQ = dU + dW. For an adiabatic process, dQ = 0, so dU + dW = 0. Substituting dU = n C_v dT and dW = P dV gives n C_v dT + P dV = 0. Using P = n R T / V yields n C_v dT + (n R T / V) dV = 0. Dividing by n C_v T gives dT / T + (R / C_v) * dV / V = 0. Using Mayer's relation R / C_v = gamma - 1 and integrating yields T * V^(gamma - 1) = constant. Therefore, Statement A is correct.",
+      "Step 2: Analyze Option B (First Law Work-Energy relation): From the First Law in integral form, Delta U = Q - W. Because the process is adiabatic, net heat transfer Q = 0. Hence Delta U = -W, which rearranges to W = -Delta U. In an expansion, work done by the gas is positive (W > 0), causing a corresponding decrease in internal energy (Delta U < 0). Therefore, the work done equals the decrease in internal energy, making Statement B correct.",
+      "Step 3: Analyze Option C (Entropy Invariance / Isentropic Condition): By the Clausius definition of entropy for a closed system, the change in entropy between states is Delta S = integral(dQ_rev / T). Because the problem specifies that the expansion is both reversible and adiabatic, dQ_rev = 0 along the entire path. Hence Delta S = 0, meaning the process is strictly isentropic. Therefore, Statement C is correct.",
+      "Step 4: Analyze Option D (Poisson's P-V relation): From T * V^(gamma - 1) = constant, substitute the ideal gas law T = P V / (n R). This gives (P V / (n R)) * V^(gamma - 1) = constant, which simplifies to (P * V^gamma) / (n R) = constant. Since n and R are invariant for a closed system, P * V^gamma = constant. Therefore, Statement D is correct.",
+      "Step 5: Conclude that all four statements A, B, C, and D are valid and physically sound. The complete solution set is [\"A\", \"B\", \"C\", \"D\"]."
+    ],
+    "calculated_answer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "dimensional_check_passed": true,
+    "numerical_check_passed": true,
+    "uniqueness_confirmed": true,
+    "conflicting_distractors": [],
+    "evaluated_difficulty": {
+      "conceptual_difficulty": 4,
+      "mathematical_difficulty": 3,
+      "multistep_reasoning_difficulty": 4,
+      "abstraction_difficulty": 3,
+      "computational_burden": 1,
+      "trap_misconception_difficulty": 3,
+      "derived_difficulty_band": "L4",
+      "weighting_policy": "PEDAGOGICAL_PROJECT_POLICY"
+    },
+    "verdict": "VERIFIED",
+    "notes": "All four options are fundamental thermodynamic identities for a quasi-static reversible adiabatic ideal gas expansion. Statement A and D represent Poisson equations, Statement B represents First Law energy conservation under adiabatic constraints, and Statement C represents the Second Law Clausius isentropic condition. There are no invalid options in this multiple-correct item; the full set {A, B, C, D} is verified unique and complete.",
+    "record_status": "ACTIVE",
+    "superseded_by": null,
+    "superseded_reason": null,
+    "timestamp": "2026-09-29T08:52:50Z"
+  },
+  "agreement": true,
+  "uniqueness_verified": true,
+  "distractors_validated": true,
+  "numerical_validated": true,
+  "final_answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "final_verdict": "VERIFIED",
+  "difficulty_calibrated": {
+    "conceptual_difficulty": 4,
+    "mathematical_difficulty": 3,
+    "multistep_reasoning_difficulty": 4,
+    "abstraction_difficulty": 3,
+    "computational_burden": 1,
+    "trap_misconception_difficulty": 3,
+    "derived_difficulty_band": "L3",
+    "weighting_policy": "PEDAGOGICAL_PROJECT_POLICY"
+  },
+  "created_at": "2026-09-29T03:54:46.315735Z"
+}

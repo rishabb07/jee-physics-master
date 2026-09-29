@@ -1,0 +1,165 @@
+{
+  "example_id": "ex-opt-tir-prism-water-01",
+  "chapter_id": "ray-optics",
+  "problem_statement": "A right-angled crown glass prism of refractive index $n_g = 1.5 = \\frac{3}{2}$ has an apex angle $\\theta$ at vertex $B$ (with right angle at vertex $A$, so $\\angle A = 90^\\circ$ and $\\angle C = 90^\\circ - \\theta$). The entire prism is completely immersed in water having refractive index $n_w = \\frac{4}{3}$. A monochromatic parallel beam of light is incident normally on the vertical face $AB$ (angle of incidence $i = 0^\\circ$). The beam passes into the prism and propagates toward the inclined hypotenuse face $AC$.\n(a) Trace the ray at the entrance face $AB$ and determine the angle of incidence $\\theta_1$ at the hypotenuse face $AC$ in terms of the prism angle $\\theta$.\n(b) Calculate the critical angle $\\theta_c$ for the glass-water interface.\n(c) Determine the exact mathematical condition that the apex angle $\\theta$ (or $\\sin\\theta$) must satisfy so that the light beam undergoes Total Internal Reflection (TIR) at face $AC$ and subsequently reaches the base face $BC$.",
+  "diagram_description": "Geometric optics ray-path diagram showing a right-angled prism $ABC$ submerged in a water ambient ($n_w = 4/3$). Vertex $A$ is top-left ($90^\\circ$), vertex $B$ is bottom-left (angle $\\theta$), and vertex $C$ is top-right (angle $90^\\circ - \\theta$). A horizontal ray traveling through water strikes face $AB$ at normal incidence ($90^\\circ$ to the surface). The ray enters without angular deviation along a straight horizontal line. The ray meets the inclined hypotenuse face $AC$ at point $P$. The surface normal $\\hat{N}$ to face $AC$ forms an angle $\\theta_1 = \\theta$ with the horizontal ray. For $\\theta_1 > \\theta_c$, the ray undergoes total internal reflection downward at angle $\\theta$ to the normal toward base face $BC$.",
+  "known_parameters": {
+    "refractive_index_glass": "n_g = 1.5 = 3/2",
+    "refractive_index_water": "n_w = 4/3",
+    "prism_geometry": "Right-angled at A (angle A = 90 deg), apex angle at B = \\theta, angle C = 90 - \\theta",
+    "incidence_on_face_AB": "Normal incidence (i = 0 deg)",
+    "target_face_for_TIR": "Hypotenuse face AC"
+  },
+  "known_quantities": {
+    "refractive_index_glass": "n_g = 1.5 = 3/2",
+    "refractive_index_water": "n_w = 4/3",
+    "prism_geometry": "Right-angled at A (angle A = 90 deg), apex angle at B = \\theta, angle C = 90 - \\theta",
+    "incidence_on_face_AB": "Normal incidence (i = 0 deg)",
+    "target_face_for_TIR": "Hypotenuse face AC"
+  },
+  "target_variable": "\\theta_1, \\sin\\theta_c, \\text{ and condition on } \\sin\\theta \\text{ for TIR}",
+  "target_quantity": "\\theta_1, \\sin\\theta_c, \\text{ and condition on } \\sin\\theta \\text{ for TIR}",
+  "principles_applied": [
+    "Snell's Law of refraction at plane interface: n_1 \\sin i = n_2 \\sin r",
+    "Normal incidence ray behavior: i = 0 \\implies r = 0 (zero angular deviation \\delta = 0)",
+    "Euclidean triangle geometry relating incident angle on hypotenuse to apex angle \\theta",
+    "Condition for Total Internal Reflection (TIR): ray traveling from denser medium (glass) to rarer medium (water) with \\theta_1 > \\theta_c, where \\sin\\theta_c = n_{\\text{rarer}} / n_{\\text{denser}}"
+  ],
+  "governing_principles": [
+    "Snell's Law of refraction at plane interface: n_1 \\sin i = n_2 \\sin r",
+    "Normal incidence ray behavior: i = 0 \\implies r = 0 (zero angular deviation \\delta = 0)",
+    "Euclidean triangle geometry relating incident angle on hypotenuse to apex angle \\theta",
+    "Condition for Total Internal Reflection (TIR): ray traveling from denser medium (glass) to rarer medium (water) with \\theta_1 > \\theta_c, where \\sin\\theta_c = n_{\\text{rarer}} / n_{\\text{denser}}"
+  ],
+  "relevant_concepts": [
+    "ray-optics",
+    "snells-law",
+    "total-internal-reflection",
+    "critical-angle",
+    "prism-optics",
+    "relative-refractive-index"
+  ],
+  "solution_strategy": "1. Analyze ray transmission at the first interface AB: since the ray strikes normally, the angle of incidence is 0, so the angle of refraction is 0, meaning the ray enters undeviated.\n2. Use the geometric angles of the right triangle to determine the angle of incidence \\theta_1 that the horizontal ray makes with the normal to hypotenuse AC.\n3. Formulate the critical angle \\theta_c for the boundary between the denser medium (glass n_g = 1.5) and rarer medium (water n_w = 4/3).\n4. Apply the TIR condition \\theta_1 > \\theta_c (or \\sin\\theta_1 > \\sin\\theta_c) to find the inequality constraint on \\sin\\theta.",
+  "solution_steps": [
+    {
+      "step_number": 1,
+      "concept_applied": "Refraction at normal incidence on face AB",
+      "principle_applied": "Refraction at normal incidence on face AB",
+      "equation_latex": "n_w \\sin(i) = n_g \\sin(r) \\implies \\left(\\frac{4}{3}\\right) \\sin(0^\\circ) = (1.5) \\sin(r) \\implies r = 0^\\circ",
+      "equation": "n_w \\sin(i) = n_g \\sin(r) \\implies (4/3) \\sin(0) = (1.5) \\sin(r) \\implies r = 0",
+      "calculation_details": "Because the ray is perpendicular to face AB, the angle between the ray and the surface normal is i = 0^\\circ. By Snell's Law, the refracted ray continues along the same straight horizontal path into the glass with zero angular deviation (\\delta = 0).",
+      "substitution": "i = 0^\\circ \\implies r = 0^\\circ",
+      "intermediate_result": "The light beam enters face AB undeviated and travels horizontally inside the prism."
+    },
+    {
+      "step_number": 2,
+      "concept_applied": "Geometric determination of angle of incidence on hypotenuse AC",
+      "principle_applied": "Geometric determination of angle of incidence on hypotenuse AC",
+      "equation_latex": "\\theta_1 = \\theta",
+      "equation": "\\theta_1 = \\theta",
+      "calculation_details": "Face AB is vertical and the incident ray is horizontal. The hypotenuse AC makes an angle \\angle B = \\theta with the vertical face AB. Therefore, the normal \\hat{N} to face AC, being perpendicular to AC, makes an angle \\theta with the horizontal. Thus, the angle of incidence \\theta_1 of the horizontal ray onto the normal of face AC is exactly equal to \\theta.",
+      "substitution": "\\theta_1 = \\theta",
+      "intermediate_result": "Angle of incidence on face AC is \\theta_1 = \\theta."
+    },
+    {
+      "step_number": 3,
+      "concept_applied": "Relative critical angle for glass-water interface",
+      "principle_applied": "Relative critical angle for glass-water interface",
+      "equation_latex": "\\sin\\theta_c = \\frac{n_{\\text{rarer}}}{n_{\\text{denser}}} = \\frac{n_w}{n_g} = \\frac{\\frac{4}{3}}{\\frac{3}{2}} = \\frac{4}{3} \\times \\frac{2}{3} = \\frac{8}{9}",
+      "equation": "\\sin\\theta_c = n_w / n_g = (4/3) / (3/2) = 8/9",
+      "calculation_details": "At the critical angle \\theta_c, the refracted ray grazes the interface at r = 90^\\circ. Applying Snell's Law at the glass-water boundary: n_g \\sin\\theta_c = n_w \\sin(90^\\circ) = n_w. Dividing by n_g yields \\sin\\theta_c = n_w / n_g = (4/3) / (3/2) = 8/9.",
+      "substitution": "n_w = \\frac{4}{3}, \\quad n_g = \\frac{3}{2} = 1.5",
+      "intermediate_result": "\\sin\\theta_c = \\frac{8}{9} \\approx 0.8889 \\implies \\theta_c = \\arcsin(8/9) \\approx 62.73^\\circ"
+    },
+    {
+      "step_number": 4,
+      "concept_applied": "TIR condition on angle of incidence",
+      "principle_applied": "TIR condition on angle of incidence",
+      "equation_latex": "\\theta_1 > \\theta_c \\implies \\sin\\theta_1 > \\sin\\theta_c \\implies \\sin\\theta > \\frac{8}{9}",
+      "equation": "\\theta_1 > \\theta_c \\implies \\sin\\theta_1 > \\sin\\theta_c \\implies \\sin\\theta > 8/9",
+      "calculation_details": "Total Internal Reflection occurs if and only if the angle of incidence exceeds the critical angle: \\theta_1 > \\theta_c. Since the sine function is monotonically increasing on [0, 90^\\circ] and \\theta_1 = \\theta, this requires \\sin\\theta > 8/9.",
+      "substitution": "\\sin\\theta_1 = \\sin\\theta, \\quad \\sin\\theta_c = \\frac{8}{9}",
+      "intermediate_result": "\\sin\\theta > \\frac{8}{9} \\quad (\\text{or } \\theta > 62.73^\\circ)"
+    }
+  ],
+  "ordered_steps": [
+    {
+      "step_number": 1,
+      "concept_applied": "Refraction at normal incidence on face AB",
+      "principle_applied": "Refraction at normal incidence on face AB",
+      "equation_latex": "n_w \\sin(i) = n_g \\sin(r) \\implies \\left(\\frac{4}{3}\\right) \\sin(0^\\circ) = (1.5) \\sin(r) \\implies r = 0^\\circ",
+      "equation": "n_w \\sin(i) = n_g \\sin(r) \\implies (4/3) \\sin(0) = (1.5) \\sin(r) \\implies r = 0",
+      "calculation_details": "Because the ray is perpendicular to face AB, the angle between the ray and the surface normal is i = 0^\\circ. By Snell's Law, the refracted ray continues along the same straight horizontal path into the glass with zero angular deviation (\\delta = 0).",
+      "substitution": "i = 0^\\circ \\implies r = 0^\\circ",
+      "intermediate_result": "The light beam enters face AB undeviated and travels horizontally inside the prism."
+    },
+    {
+      "step_number": 2,
+      "concept_applied": "Geometric determination of angle of incidence on hypotenuse AC",
+      "principle_applied": "Geometric determination of angle of incidence on hypotenuse AC",
+      "equation_latex": "\\theta_1 = \\theta",
+      "equation": "\\theta_1 = \\theta",
+      "calculation_details": "Face AB is vertical and the incident ray is horizontal. The hypotenuse AC makes an angle \\angle B = \\theta with the vertical face AB. Therefore, the normal \\hat{N} to face AC, being perpendicular to AC, makes an angle \\theta with the horizontal. Thus, the angle of incidence \\theta_1 of the horizontal ray onto the normal of face AC is exactly equal to \\theta.",
+      "substitution": "\\theta_1 = \\theta",
+      "intermediate_result": "Angle of incidence on face AC is \\theta_1 = \\theta."
+    },
+    {
+      "step_number": 3,
+      "concept_applied": "Relative critical angle for glass-water interface",
+      "principle_applied": "Relative critical angle for glass-water interface",
+      "equation_latex": "\\sin\\theta_c = \\frac{n_{\\text{rarer}}}{n_{\\text{denser}}} = \\frac{n_w}{n_g} = \\frac{\\frac{4}{3}}{\\frac{3}{2}} = \\frac{4}{3} \\times \\frac{2}{3} = \\frac{8}{9}",
+      "equation": "\\sin\\theta_c = n_w / n_g = (4/3) / (3/2) = 8/9",
+      "calculation_details": "At the critical angle \\theta_c, the refracted ray grazes the interface at r = 90^\\circ. Applying Snell's Law at the glass-water boundary: n_g \\sin\\theta_c = n_w \\sin(90^\\circ) = n_w. Dividing by n_g yields \\sin\\theta_c = n_w / n_g = (4/3) / (3/2) = 8/9.",
+      "substitution": "n_w = \\frac{4}{3}, \\quad n_g = \\frac{3}{2} = 1.5",
+      "intermediate_result": "\\sin\\theta_c = \\frac{8}{9} \\approx 0.8889 \\implies \\theta_c = \\arcsin(8/9) \\approx 62.73^\\circ"
+    },
+    {
+      "step_number": 4,
+      "concept_applied": "TIR condition on angle of incidence",
+      "principle_applied": "TIR condition on angle of incidence",
+      "equation_latex": "\\theta_1 > \\theta_c \\implies \\sin\\theta_1 > \\sin\\theta_c \\implies \\sin\\theta > \\frac{8}{9}",
+      "equation": "\\theta_1 > \\theta_c \\implies \\sin\\theta_1 > \\sin\\theta_c \\implies \\sin\\theta > 8/9",
+      "calculation_details": "Total Internal Reflection occurs if and only if the angle of incidence exceeds the critical angle: \\theta_1 > \\theta_c. Since the sine function is monotonically increasing on [0, 90^\\circ] and \\theta_1 = \\theta, this requires \\sin\\theta > 8/9.",
+      "substitution": "\\sin\\theta_1 = \\sin\\theta, \\quad \\sin\\theta_c = \\frac{8}{9}",
+      "intermediate_result": "\\sin\\theta > \\frac{8}{9} \\quad (\\text{or } \\theta > 62.73^\\circ)"
+    }
+  ],
+  "final_answer": "\\sin\\theta > \\frac{8}{9} \\quad \\left(\\text{or } \\theta > \\arcsin\\left(\\frac{8}{9}\\right) \\approx 62.73^\\circ\\right)",
+  "units": "\\text{dimensionless for } \\sin\\theta; \\text{ degrees/radians for } \\theta",
+  "alternative_methods": [
+    "Fermat's Principle of Least Time: Ray path time t(x) = (n_g d_g + n_w d_w) / c. Setting dt/dx = 0 yields Snell's Law. At the boundary where no real physical path exists in water to minimize time without grazing the boundary, the wave is trapped within glass, establishing the same boundary condition \\sin\\theta > n_w / n_g = 8/9."
+  ],
+  "alternate_methods": [
+    "Fermat's Principle of Least Time: Ray path time t(x) = (n_g d_g + n_w d_w) / c. Setting dt/dx = 0 yields Snell's Law. At the boundary where no real physical path exists in water to minimize time without grazing the boundary, the wave is trapped within glass, establishing the same boundary condition \\sin\\theta > n_w / n_g = 8/9."
+  ],
+  "trap_alerts": [
+    "Using air as the surrounding medium instead of water: Calculating \\sin\\theta_c = 1 / 1.5 = 2/3 gives \\theta > 41.81^\\circ, which is incorrect because the prism is fully submerged in water (n_w = 4/3).",
+    "Confusing normal incidence with zero refraction: At face AB, light passes straight through not because refraction doesn't apply, but because i = 0 implies r = 0 by Snell's Law. The phase speed nevertheless drops from c/n_w to c/n_g.",
+    "Reversing the index ratio: Writing \\sin\\theta_c = n_g / n_w = 1.5 / (4/3) = 9/8 > 1, which has no real arcsine solution and violates the mathematical definition of critical angle."
+  ],
+  "sanity_checks": [
+    "Physical medium limit: Since n_g = 1.5 > n_w = 1.333, light moves from optically denser to rarer, satisfying the necessary condition for TIR.",
+    "Immersion comparison: In air \\sin\\theta_c = 2/3 \\approx 0.667. In water \\sin\\theta_c = 8/9 \\approx 0.889. Water has a higher index than air, so the critical angle increases (from 41.8 deg to 62.7 deg), making TIR harder to achieve, as expected physically.",
+    "Real angle existence: Because 8/9 < 1, there exists an angle \\theta < 90^\\circ that can achieve TIR inside the prism."
+  ],
+  "source_atom_id": "ray-optics-question-e04c1df3",
+  "provenance": [
+    {
+      "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+      "file_name": "jee_rank_booster-03_mock_paper.pdf",
+      "file_path": null,
+      "page_start": 3,
+      "page_end": 3,
+      "source_locator": "Section - A, Q11",
+      "edition": null,
+      "extraction_metadata": {}
+    }
+  ],
+  "risk_level": "MEDIUM",
+  "verification_status": "UNVERIFIED",
+  "verification_record_id": null,
+  "content_hash": null,
+  "generator_identity": "ContentGenerator",
+  "generator_conversation_id": "6dce4bbd-45ec-4de0-95e5-461836f2ba08",
+  "created_at": "2026-09-28T22:35:00Z"
+}

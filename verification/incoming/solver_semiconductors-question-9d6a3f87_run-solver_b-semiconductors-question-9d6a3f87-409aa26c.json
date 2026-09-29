@@ -1,0 +1,23 @@
+{
+  "solver_run_id": "run-solver_b-semiconductors-question-9d6a3f87-409aa26c",
+  "solver_agent_name": "solver_b",
+  "atom_id": "semiconductors-question-9d6a3f87",
+  "atom_version": 1,
+  "content_hash": "5029c7dcf905e45c26b5aa19ee4e7bba299318600295bfd5821dbcdf7e3b9751",
+  "verification_protocol_version": "1.0.0",
+  "blind_package_hash": "7590c2edd74fd7ad14de7df1d13a481426f055b5a1476dc6efa2da6d5434dddc",
+  "independent_answer": "0.2",
+  "raw_answer": "0.2",
+  "reasoning_steps": [
+    "Given $I = (e^{1000V/T} - 1)$ mA. At $T=300$ K, $I = e^{10V/3} - 1$.",
+    "When $I = 5$ mA, $e^{10V/3} - 1 = 5 \\implies e^{10V/3} = 6$.",
+    "Differentiating wrt $V$: $dI = \\frac{10}{3} e^{10V/3} dV$.",
+    "Given $dV = \\pm 0.01$ V, $dI = \\frac{10}{3} \\times 6 \\times (\\pm 0.01) = 20 \\times (\\pm 0.01) = \\pm 0.2$ mA.",
+    "Error in value of current is 0.2 mA."
+  ],
+  "assumptions_used": [],
+  "diagram_interpretation": null,
+  "uncertainty": null,
+  "possible_ambiguities": [],
+  "created_at": "2026-09-28T03:22:57Z"
+}

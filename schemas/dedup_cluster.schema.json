@@ -1,0 +1,91 @@
+{
+  "$defs": {
+    "DedupDecisionClass": {
+      "description": "Authoritative decision classes for physical and mathematical deduplication.",
+      "enum": [
+        "EXACT_DUPLICATE",
+        "SEMANTIC_DUPLICATE",
+        "SAME_CONCEPT_DIFFERENT_PROBLEM",
+        "MULTI_METHOD_SAME_PROBLEM",
+        "RELATED_BUT_DISTINCT",
+        "UNCERTAIN"
+      ],
+      "title": "DedupDecisionClass",
+      "type": "string"
+    }
+  },
+  "description": "An equivalence cluster mapping multiple source occurrences to one canonical representative.",
+  "properties": {
+    "cluster_id": {
+      "description": "Unique cluster identifier",
+      "minLength": 1,
+      "title": "Cluster Id",
+      "type": "string"
+    },
+    "canonical_atom_id": {
+      "description": "Deterministically selected canonical atom ID",
+      "minLength": 1,
+      "title": "Canonical Atom Id",
+      "type": "string"
+    },
+    "member_atom_ids": {
+      "description": "All member atoms in this cluster",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "title": "Member Atom Ids",
+      "type": "array"
+    },
+    "cluster_type": {
+      "$ref": "#/$defs/DedupDecisionClass",
+      "description": "Class of equivalence"
+    },
+    "cluster_confidence": {
+      "maximum": 1.0,
+      "minimum": 0.0,
+      "title": "Cluster Confidence",
+      "type": "number"
+    },
+    "decision_ids": {
+      "description": "IDs of deduplication decisions",
+      "items": {
+        "type": "string"
+      },
+      "title": "Decision Ids",
+      "type": "array"
+    },
+    "preserved_provenance": {
+      "description": "All preserved source provenance records",
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "title": "Preserved Provenance",
+      "type": "array"
+    },
+    "preserved_solution_methods": {
+      "description": "All preserved solution methods",
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "title": "Preserved Solution Methods",
+      "type": "array"
+    },
+    "created_at": {
+      "format": "date-time",
+      "title": "Created At",
+      "type": "string"
+    }
+  },
+  "required": [
+    "cluster_id",
+    "canonical_atom_id",
+    "member_atom_ids",
+    "cluster_type",
+    "cluster_confidence"
+  ],
+  "title": "DedupCluster",
+  "type": "object"
+}

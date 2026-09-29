@@ -1,0 +1,84 @@
+{
+  "atom_id": "laws-of-motion-question-e37050bb",
+  "schema_version": "1.0.0",
+  "atom_version": 1,
+  "active": true,
+  "atom_type": "question",
+  "title": "Maximum Force for Block Not to Move on Rough Surface",
+  "taxonomy": {
+    "chapter_id": "laws-of-motion",
+    "topic_id": "friction",
+    "subtopic_id": "static-friction-limiting"
+  },
+  "provenance": [
+    {
+      "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+      "file_name": "jee_rank_booster-03_mock_paper.pdf",
+      "file_path": null,
+      "page_start": 2,
+      "page_end": 2,
+      "source_locator": "Section - A, Q3",
+      "edition": null,
+      "extraction_metadata": {}
+    }
+  ],
+  "confidence": 0.96,
+  "verification_status": "VERIFIED",
+  "content_hash": "4e0f4dafef3070907d4f9ed4ea6168b73b04e49e383e3065ea776ca0e6f1fc3e",
+  "created_at": "2026-09-28T03:18:38.634782Z",
+  "updated_at": "2026-09-28T04:19:50.770328Z",
+  "content": null,
+  "formula": null,
+  "question": {
+    "statement": "What is the maximum value of the force $F$ such that the block shown in the arrangement, does not move?\n\n$m = \\sqrt{3}\\text{ kg}$, $F$ is applied at $60°$ to the horizontal, $\\mu = \\frac{1}{2\\sqrt{3}}$.",
+    "options": [
+      {
+        "id": "A",
+        "text": "$20\\text{ N}$"
+      },
+      {
+        "id": "B",
+        "text": "$10\\text{ N}$"
+      },
+      {
+        "id": "C",
+        "text": "$12\\text{ N}$"
+      },
+      {
+        "id": "D",
+        "text": "$15\\text{ N}$"
+      }
+    ],
+    "source_claimed_answer": "A",
+    "verified_answer": "A",
+    "source_solution": null,
+    "answer": "A",
+    "solution_methods": [],
+    "difficulty": "L2",
+    "exam_metadata": {
+      "exam": "JEE Rank Booster Mock",
+      "exam_name": "JEE Rank Booster Mock",
+      "year": null,
+      "paper": 3,
+      "question_number": "3"
+    },
+    "concepts": [
+      "static friction",
+      "force resolution",
+      "normal force",
+      "equilibrium"
+    ]
+  },
+  "solved_example": null,
+  "misconception": null,
+  "figure_refs": [
+    {
+      "figure_id": "fig-q3-block-force",
+      "caption": "Block of mass sqrt(3) kg on a rough surface with force F applied at 60 degrees above the horizontal",
+      "alt_text": "A block of mass m = sqrt(3) kg rests on a rough horizontal surface (shown with hatching). A force F is applied at 60 degrees above the horizontal. The coefficient of friction mu = 1/(2*sqrt(3)) is indicated."
+    }
+  ],
+  "insight": null,
+  "duplicate_group_id": null,
+  "archive_reason": null
+}

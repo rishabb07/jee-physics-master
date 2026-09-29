@@ -1,0 +1,31 @@
+{
+  "verification_id": "cvr-derivation-formula-rot-torque-dyn",
+  "artifact_id": "derivation-formula-rot-torque-dyn",
+  "target_id": "derivation-formula-rot-torque-dyn",
+  "artifact_version": 1,
+  "content_type": "DERIVATION",
+  "content_hash": "ed0a418ef6ae25bc4bc2d6c2c44e02622f26791eb865906564a55c7c2b0fd857",
+  "verifier_id": "content-verifier-mechanics-thermo",
+  "verifier_conversation_id": "bdcda0e3-0496-4ba9-a62e-6fe79ffe6824",
+  "risk_level": "HIGH",
+  "verdict": "VERIFIED",
+  "assumptions_checked": true,
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_case_check_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "independent_derivation_or_calculation": "Independent step-by-step verification: Step 1: Rigid body constraint: all particles rotate with common angular acceleration alpha = d(omega)/dt about the fixed axis z. The tangential linear acceleration of particle i at radial distance r_i is a_i,t = r_i alpha. Step 2: Newton's second law along the tangential direction for particle i gives net tangential force F_i,t = m_i a_i,t = m_i r_i alpha. Step 3: The axial torque contribution of particle i is tau_i,z = r_i F_i,t = r_i (m_i r_i alpha) = m_i r_i^2 alpha. Step 4: Summing over all N particles gives total net torque tau_net,z = sum_{i=1}^N tau_i,z = (sum_{i=1}^N m_i r_i^2) alpha. Step 5: Net torque consists of external and internal torques: tau_net = tau_net,ext + tau_net,int. By Newton's third law in strong form, internal forces between particles i and j are equal and opposite (F_ij = -F_ji) and collinear with (r_i - r_j), yielding (r_i - r_j) x F_ij = 0. Therefore tau_net,int,z = 0, which implies tau_net,z = tau_net,ext,z. Step 6: Using the definition of moment of inertia I = sum m_i r_i^2 (or int r_perp^2 dm), tau_net,ext = I alpha. Dimensions: [tau] = [M L^2 T^-2], [I][alpha] = [M L^2] * [T^-2] = [M L^2 T^-2]. Homogeneous. Limiting cases: when tau_ext = 0, alpha = 0 (constant angular velocity); when I -> infinity, alpha -> 0. All 6 steps verified.",
+  "verification_notes": "First-principles derivation verified from Newton's laws and rigid kinematics. Every step, summation operation, pairwise internal torque cancellation via strong action-reaction, and definition of moment of inertia are verified to be physically and mathematically complete.",
+  "findings": [
+    "Rigid body tangential acceleration a_t = r * alpha verified.",
+    "Axial torque summation tau_net,z = (sum m_i r_i^2) alpha verified.",
+    "Internal torque cancellation sum tau_int = 0 rigorously confirmed via strong-form Newton's third law.",
+    "Final equation tau_net,ext = I alpha verified dimensionally ([M L^2 T^-2])."
+  ],
+  "discrepancies": [],
+  "created_at": "2026-09-28T17:18:00Z",
+  "timestamp": "2026-09-28T17:18:00Z"
+}

@@ -1,0 +1,14 @@
+{
+  "promotion_id": "promo-wave-optics-question-49253758-57ff58",
+  "atom_id": "wave-optics-question-49253758",
+  "verification_id": "verif-wave-optics-question-49253758-2b96d8",
+  "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+  "atom_version": 1,
+  "staged_path": "build/staging/atoms/batch_src-jee-rank-booster-03-mock-256f42c6_20260928_031838_7b76.jsonl",
+  "canonical_path": "kb\\atoms\\wave-optics-question-49253758.json",
+  "verdict": "VERIFIED",
+  "source_claimed_answer": null,
+  "verified_answer": "C",
+  "timestamp": "2026-09-28T03:29:19.630723Z",
+  "promoted_by": "promotion_gate"
+}

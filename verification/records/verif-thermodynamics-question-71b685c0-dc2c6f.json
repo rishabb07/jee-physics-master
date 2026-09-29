@@ -1,0 +1,30 @@
+{
+  "verification_id": "verif-thermodynamics-question-71b685c0-dc2c6f",
+  "atom_id": "thermodynamics-question-71b685c0",
+  "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+  "atom_version": 1,
+  "content_hash": "989a378467ccf659bd7bd108e19c9956e6d7e862c73e86043bd81d15e4e2aab1",
+  "verification_protocol_version": "1.0.0",
+  "solver_run_ids": [
+    "run-solver_a-thermodynamics-question-71b685c0-da85f867",
+    "run-solver_b-thermodynamics-question-71b685c0-2ca95967"
+  ],
+  "source_claimed_answer": null,
+  "source_solution": null,
+  "independent_answers": {
+    "solver_a": "A",
+    "solver_b": "A"
+  },
+  "independent_solutions": {
+    "solver_a": "1. The container and piston are nonconducting, meaning the process is adiabatic.\n2. For a monoatomic ideal gas, gamma = 5/3.\n3. The relation between temperature and volume in an adiabatic process is T * V^(gamma - 1) = constant.",
+    "solver_b": "The process is adiabatic since the container and piston are nonconducting and gas is compressed slowly.\nFor a monoatomic gas, gamma = 5/3.\nAdiabatic relation between T and V: T_initial * V_initial^{gamma-1} = T_final * V_final^{gamma-1}"
+  },
+  "consensus_answer": "A",
+  "verdict": "VERIFIED",
+  "confidence": 0.99,
+  "discrepancy_classification": "SOURCE_ANSWER_MISSING",
+  "adjudication_result": null,
+  "created_at": "2026-09-28T03:29:19.705157Z",
+  "completed_at": "2026-09-28T03:29:19.705157Z",
+  "metadata": {}
+}

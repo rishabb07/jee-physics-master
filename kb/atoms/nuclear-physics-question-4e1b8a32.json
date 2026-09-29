@@ -1,0 +1,64 @@
+{
+  "atom_id": "nuclear-physics-question-4e1b8a32",
+  "schema_version": "1.0.0",
+  "atom_version": 1,
+  "active": true,
+  "atom_type": "question",
+  "title": "Age of archaeological wooden piece using radiocarbon dating",
+  "taxonomy": {
+    "chapter_id": "nuclear-physics",
+    "topic_id": "radioactivity",
+    "subtopic_id": "carbon-dating-and-decay-law"
+  },
+  "provenance": [
+    {
+      "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+      "file_name": "jee_rank_booster-03_mock_paper.pdf",
+      "file_path": "jee_rank_booster-03_mock_paper.pdf",
+      "page_start": 6,
+      "page_end": 6,
+      "source_locator": "Section - B, Q23",
+      "edition": null,
+      "extraction_metadata": {
+        "source_sha256": "256f42c67a9271aaafe4bf637eb34cddd10da959cdf7a66fc6fee76a68d34361"
+      }
+    }
+  ],
+  "confidence": 0.99,
+  "verification_status": "VERIFIED",
+  "content_hash": "07c86d3019ecff9986175e541ee4d71c9783cd539a6b2150a8c7b5881ca7f6b1",
+  "created_at": "2026-09-28T01:00:00Z",
+  "updated_at": "2026-09-28T04:19:50.784258Z",
+  "content": null,
+  "formula": null,
+  "question": {
+    "statement": "A piece of wood from a recently cut tree shows $20\\text{ decays per minute}$. A wooden piece of same size placed in a museum (obtained from a tree cut many years back) shows $2\\text{ decays per minute}$. If half life of $\\text{C}^{14}$ is $5730\\text{ years}$, then age of the wooden piece placed in the museum is approximately ________ years.",
+    "options": [],
+    "source_claimed_answer": "19035",
+    "verified_answer": "19035",
+    "source_solution": null,
+    "answer": "19035",
+    "solution_methods": [],
+    "difficulty": "L2",
+    "exam_metadata": {
+      "exam": "JEE Rank Booster Mock",
+      "exam_name": "JEE Rank Booster Mock",
+      "year": null,
+      "paper": 3,
+      "question_number": "23"
+    },
+    "concepts": [
+      "nuclear-physics",
+      "radioactivity",
+      "radioactive-decay-law",
+      "carbon-dating",
+      "half-life"
+    ]
+  },
+  "solved_example": null,
+  "misconception": null,
+  "figure_refs": [],
+  "insight": null,
+  "duplicate_group_id": null,
+  "archive_reason": null
+}

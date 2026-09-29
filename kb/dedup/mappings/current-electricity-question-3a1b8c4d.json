@@ -1,0 +1,26 @@
+{
+  "original_atom_id": "current-electricity-question-3a1b8c4d",
+  "canonical_atom_id": "current-electricity-question-3a1b8c4d",
+  "cluster_id": "cluster-current-electricity--6a9e5a72",
+  "reason": "Identical DC circuit bridge network with ideal ammeter (R_A = 0) and ideal voltmeter (R_V = infinity). Resistors R_1 = 5 Ohm, R_2 = 15 Ohm, R_3 = 1.25 Ohm and battery EMF E = 20 V are identical. Both atoms seek ammeter and voltmeter readings with identical options and identical verified answer 'B' (3.00 A, 5 V / 3.75 A, 3.75 V).",
+  "decision_id": "cand-current-elec-current-elec",
+  "classifier_identity": "physics-deduplicator",
+  "conversation_id": "80d33d64-618b-4d64-8dd5-07ad9a017242",
+  "source_provenance": [
+    {
+      "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+      "file_name": "jee_rank_booster-03_mock_paper.pdf",
+      "file_path": "jee_rank_booster-03_mock_paper.pdf",
+      "page_start": 4,
+      "page_end": 4,
+      "source_locator": "Section - A, Q13",
+      "edition": null,
+      "extraction_metadata": {
+        "source_sha256": "256f42c67a9271aaafe4bf637eb34cddd10da959cdf7a66fc6fee76a68d34361"
+      }
+    }
+  ],
+  "atom_version": 1,
+  "content_hash": "5191a1c0c5850b6fa92086f0bf29a9b6544e9692f7cafc452719aebd3abff836",
+  "applied_at": "2026-09-28T04:54:04.488770Z"
+}

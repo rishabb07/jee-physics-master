@@ -1,0 +1,14 @@
+{
+  "promotion_id": "promo-current-electricity-question-3a1b8c4d-ae787a",
+  "atom_id": "current-electricity-question-3a1b8c4d",
+  "verification_id": "verif-current-electricity-question-3a1b8c4d-e5666a",
+  "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+  "atom_version": 1,
+  "staged_path": "build\\staging\\atoms\\batch_src-jee-rank-booster-03-mock-256f42c6_20260927_194151_2268.jsonl",
+  "canonical_path": "kb\\atoms\\current-electricity-question-3a1b8c4d.json",
+  "verdict": "VERIFIED",
+  "source_claimed_answer": null,
+  "verified_answer": "B",
+  "timestamp": "2026-09-27T20:05:44.431060Z",
+  "promoted_by": "promotion_gate"
+}

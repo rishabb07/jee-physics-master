@@ -1,0 +1,54 @@
+project_name: "JEE Physics Master Knowledge System"
+version: "0.1.0"
+environment: "development"
+
+# Confidence and Quality Thresholds
+thresholds:
+  low_confidence: 0.85
+  high_confidence_auto_approve: 0.95
+  max_relative_numerical_tolerance: 0.001  # 0.1% tolerance for floating point answer comparison
+
+# Verification Rules
+verification:
+  risk_based_triggers:
+    min_difficulty_for_mandatory_verification: "L4"
+    verify_all_handwritten: true
+    verify_all_conflicting_answers: true
+    verify_all_mock_questions: true
+  random_sampling_rate: 0.15  # 15% random audit on routine L1-L3 questions
+
+# Model Tier Allocation
+models:
+  extraction: "gemini-2.5-flash"
+  verification: "gemini-2.5-pro"
+  chapter_assembly: "gemini-2.5-pro"
+  remediation: "gemini-2.5-flash"
+
+# Batching & Worker Limits
+batching:
+  max_pages_per_segment: 25
+  max_atoms_per_batch: 50
+  max_retry_attempts: 3
+  backoff_factor_seconds: 2
+
+# Directory Paths
+paths:
+  sources_raw: "sources/raw"
+  sources_registry: "sources/registry"
+  sources_segments: "sources/segments"
+  sources_figures: "sources/figures"
+  kb_atoms: "kb/atoms"
+  kb_taxonomy: "kb/taxonomy"
+  kb_dedup: "kb/dedup"
+  kb_archive: "kb/archive"
+  build_staging: "build/staging"
+  build_drafts: "build/drafts"
+  build_reports: "build/reports"
+  verification_records: "verification/records"
+  review_queue: "review/queue"
+  review_resolved: "review/resolved"
+  curriculum: "curriculum"
+  output_book: "output/book"
+  output_question_bank: "output/question_bank"
+  output_ladders: "output/question_ladders"
+  output_mocks: "output/mock_tests"

@@ -1,0 +1,214 @@
+{
+  "$defs": {
+    "AtomStatus": {
+      "enum": [
+        "STAGED",
+        "VALIDATED",
+        "VERIFICATION_PENDING",
+        "VERIFIED",
+        "REJECTED",
+        "AMBIGUOUS",
+        "ARCHIVED"
+      ],
+      "title": "AtomStatus",
+      "type": "string"
+    },
+    "ProvenanceRecord": {
+      "description": "Represents a specific occurrence and physical location of knowledge within a source file.",
+      "properties": {
+        "source_id": {
+          "description": "Unique identifier of the registered source document",
+          "title": "Source Id",
+          "type": "string"
+        },
+        "file_name": {
+          "description": "Original filename of the source document",
+          "title": "File Name",
+          "type": "string"
+        },
+        "file_path": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Path or relative URI to source document",
+          "title": "File Path"
+        },
+        "page_start": {
+          "anyOf": [
+            {
+              "minimum": 1,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "1-based starting page number where available",
+          "title": "Page Start"
+        },
+        "page_end": {
+          "anyOf": [
+            {
+              "minimum": 1,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "1-based ending page number where available",
+          "title": "Page End"
+        },
+        "source_locator": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Human-readable location (e.g. Chapter 3, Example 12, Q14)",
+          "title": "Source Locator"
+        },
+        "edition": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Edition or printing identifier of the source",
+          "title": "Edition"
+        },
+        "extraction_metadata": {
+          "additionalProperties": true,
+          "description": "Metadata captured during extraction",
+          "title": "Extraction Metadata",
+          "type": "object"
+        }
+      },
+      "required": [
+        "source_id",
+        "file_name"
+      ],
+      "title": "ProvenanceRecord",
+      "type": "object"
+    }
+  },
+  "description": "Structured physical formula record beyond an isolated LaTeX string.",
+  "properties": {
+    "formula_id": {
+      "description": "Unique formula identifier",
+      "minLength": 1,
+      "title": "Formula Id",
+      "type": "string"
+    },
+    "title": {
+      "description": "Formula name (e.g. 'Conservation of Angular Momentum')",
+      "minLength": 1,
+      "title": "Title",
+      "type": "string"
+    },
+    "equation_latex": {
+      "description": "Complete KaTeX-compatible LaTeX equation",
+      "minLength": 1,
+      "title": "Equation Latex",
+      "type": "string"
+    },
+    "variables": {
+      "additionalProperties": {
+        "type": "string"
+      },
+      "description": "Mapping of variable symbol -> physical quantity name",
+      "title": "Variables",
+      "type": "object"
+    },
+    "units_and_dimensions": {
+      "additionalProperties": {
+        "type": "string"
+      },
+      "description": "Mapping of variable/constant -> SI unit and dimension",
+      "title": "Units And Dimensions",
+      "type": "object"
+    },
+    "assumptions": {
+      "description": "Explicit physical assumptions (e.g. 'Rigid body', 'Fixed axis')",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "title": "Assumptions",
+      "type": "array"
+    },
+    "conditions_of_validity": {
+      "description": "Conditions under which this formula holds",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "title": "Conditions Of Validity",
+      "type": "array"
+    },
+    "derivation_links": {
+      "description": "Referenced derivations or parent principles",
+      "items": {
+        "type": "string"
+      },
+      "title": "Derivation Links",
+      "type": "array"
+    },
+    "related_concept_ids": {
+      "description": "Connected curriculum concept IDs",
+      "items": {
+        "type": "string"
+      },
+      "title": "Related Concept Ids",
+      "type": "array"
+    },
+    "common_misuse_cases": {
+      "description": "Common traps where students misapply this formula",
+      "items": {
+        "type": "string"
+      },
+      "title": "Common Misuse Cases",
+      "type": "array"
+    },
+    "provenance": {
+      "description": "Source provenance records",
+      "items": {
+        "$ref": "#/$defs/ProvenanceRecord"
+      },
+      "title": "Provenance",
+      "type": "array"
+    },
+    "verification_status": {
+      "$ref": "#/$defs/AtomStatus",
+      "default": "VERIFIED",
+      "description": "Verification status"
+    }
+  },
+  "required": [
+    "formula_id",
+    "title",
+    "equation_latex",
+    "variables",
+    "units_and_dimensions",
+    "assumptions",
+    "conditions_of_validity"
+  ],
+  "title": "FormulaRecord",
+  "type": "object"
+}

@@ -1,0 +1,26 @@
+{
+  "solver_run_id": "run-solver_a-magnetic-effects-of-current-question-0e7b4a98-001",
+  "solver_agent_name": "solver_a",
+  "atom_id": "magnetic-effects-of-current-question-0e7b4a98",
+  "atom_version": 1,
+  "content_hash": "bc8a8d1cc1ce0f9541022dc7af2989d7265431a539599b6df7048d428c523019",
+  "verification_protocol_version": "1.0.0",
+  "blind_package_hash": "178337982e0318052d4875fd831a3db033b6b325723266897c61103f58ccaecb",
+  "independent_answer": "8",
+  "raw_answer": "8",
+  "reasoning_steps": [
+    "1. Wire A carries current I_A = 10 A and is infinitely long.",
+    "2. Wire B carries current I_B = 2 A, has length L = 2 m, and is at distance r = 10 cm = 0.1 m.",
+    "3. The magnetic field at the location of wire B due to wire A is B = (mu_0 * I_A) / (2 * pi * r).",
+    "4. B = (4 * pi * 10^-7 * 10) / (2 * pi * 0.1) = 2 * 10^-7 * 100 = 2 * 10^-5 T.",
+    "5. The force on wire B is F = B * I_B * L = (2 * 10^-5) * 2 * 2 = 8 * 10^-5 N.",
+    "6. We are given F = x * 10^-5 N, so x = 8."
+  ],
+  "assumptions_used": [
+    "Wires are parallel to each other."
+  ],
+  "diagram_interpretation": null,
+  "uncertainty": null,
+  "possible_ambiguities": [],
+  "created_at": "2026-09-28T08:51:20Z"
+}

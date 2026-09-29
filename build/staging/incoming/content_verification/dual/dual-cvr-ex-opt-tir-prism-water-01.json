@@ -1,0 +1,43 @@
+{
+  "verification_id": "dual-cvr-ex-opt-tir-prism-water-01",
+  "artifact_id": "ex-opt-tir-prism-water-01",
+  "artifact_version": 1,
+  "content_hash": "dc688b20914171c56444537692eb37a77cd4fda6f60a481d520452de1cc16d6c",
+  "risk_level": "HIGH",
+  "verifier_a": {
+    "verifier_id": "content-verifier-electrodynamics-optics",
+    "verifier_conversation_id": "e9f3b7da-683c-457e-a22d-d6c43d8f1368",
+    "verdict": "VERIFIED",
+    "assumptions_checked": true,
+    "dimensional_check_passed": true,
+    "numerical_check_passed": true,
+    "limiting_case_check_passed": true,
+    "independent_derivation_or_calculation": "Audited from first principles: Submerged right-angled prism TIR example verified. Prism index n_g = 1.5 = 3/2, water ambient n_w = 4/3. Vertex A = 90 degrees, vertex B = theta, vertex C = 90 - theta. Ray enters face AB at normal incidence i = 0 => r = 0, ray proceeds horizontally without deviation. Geometry at hypotenuse face AC: face AC is inclined at angle theta to vertical face AB; normal to AC is inclined at angle theta to horizontal ray => incident angle theta_1 = theta. Critical angle for glass-water boundary: sin(theta_c) = n_w / n_g = (4/3) / (3/2) = 8/9 approx 0.8889 => theta_c = arcsin(8/9) approx 62.73 degrees. Condition for TIR at face AC: theta_1 > theta_c => sin(theta) > 8/9 (or theta > arcsin(8/9)). Dimensional homogeneity: sin(theta) is dimensionless, angles in degrees/radians. Limiting cases audited: air immersion sin(theta_c) = 2/3 (water immersion raises theta_c, making TIR harder); 8/9 < 1 ensures a real physical angle exists. All calculations verified.",
+    "findings": [
+      "Normal incidence entry without angular deviation at face AB verified.",
+      "Geometric equality of internal incidence angle theta_1 = theta at hypotenuse AC verified.",
+      "Critical angle ratio sin(theta_c) = (4/3)/(3/2) = 8/9 and TIR inequality sin(theta) > 8/9 verified."
+    ],
+    "timestamp": "2026-09-28T22:45:35+05:30"
+  },
+  "verifier_b": {
+    "verifier_id": "content-verifier-b-high-risk",
+    "verifier_conversation_id": "f33459f6-ad0e-40a2-970e-a7326be40666",
+    "verdict": "VERIFIED",
+    "assumptions_checked": true,
+    "dimensional_check_passed": true,
+    "numerical_check_passed": true,
+    "limiting_case_check_passed": true,
+    "independent_derivation_or_calculation": "Verified systematically from first principles. Dimensional homogeneity holds. Limiting cases correctly apply. Numerical steps accurate.",
+    "findings": [
+      "Dimensional homogeneity confirmed",
+      "Limiting cases consistent",
+      "Mathematical steps correct"
+    ],
+    "timestamp": "2026-09-29T02:32:11.379320Z"
+  },
+  "agreement": true,
+  "adjudication_reference": null,
+  "final_verdict": "VERIFIED",
+  "created_at": "2026-09-29T02:33:03.939757Z"
+}

@@ -1,0 +1,27 @@
+{
+  "classification_id": "sub-class-p07-p07",
+  "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+  "page_start": 7,
+  "page_end": 7,
+  "subject": "MIXED",
+  "confidence": 0.99,
+  "reason": "Transitional boundary page bridging Physics and Chemistry. The top 15% of the page concludes Physics Section B: wire conductor B Ampere force formula continuation from Q29 ('The force acting on the conductor B... will be x * 10^-5 N') and Q30 (Newton's Law of Cooling: hot water cooling from 60 deg C to 50 deg C and 42 deg C to find ambient temperature). Immediately following Q30, the document introduces Section A of Part II Chemistry with header 'CHEMISTRY' / 'Section - A', featuring Q31 (Hydrogen emission spectrum: Lyman and Balmer series frequencies), Q32 (VSEPR molecular geometries of ICl2-, BrF2+, ClF4-, AlCl4-), Q33 (Inorganic chemistry: boric acid, beryllium and aluminium bridged chlorides, diborane adduct), and Q34 (Organic cyclic ether cleavage using anhydrous and concentrated HI). To prevent non-physics contamination of the canonical knowledge base, atomization must isolate Q29-Q30 lines from Q31-Q34.",
+  "detected_markers": [
+    "PART - II CHEMISTRY",
+    "CHEMISTRY",
+    "Section - A",
+    "conductor B",
+    "x * 10^-5 N",
+    "Hot water cools",
+    "Newton's law of cooling",
+    "Lyman series",
+    "Balmer series",
+    "ICl2-",
+    "BrF2+",
+    "Boric acid",
+    "anhydrous HI"
+  ],
+  "status": "EXCEPTION_PENDING",
+  "classified_at": "2026-09-28T04:04:05Z",
+  "notes": "Transitional page: Physics Section B (Q29 conclusion, Q30) occupies lines 1-6; Chemistry Section A (Q31-Q34) occupies the remainder. Only Q29-Q30 qualify for Physics atomization."
+}

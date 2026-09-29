@@ -1,0 +1,26 @@
+{
+  "solver_run_id": "run-solver_b-rotational-motion-question-f7cbecda-95a15ebc",
+  "solver_agent_name": "solver_b",
+  "atom_id": "rotational-motion-question-f7cbecda",
+  "atom_version": 1,
+  "content_hash": "729335ea8d2363b7b4f02d4c22c2c28352bc06a5093b5760855b1c5a20a7ff38",
+  "verification_protocol_version": "1.0.0",
+  "blind_package_hash": "762971ec073a0db8fcac144b5f054efeee108518a11e36347f41c0214d4655fc",
+  "independent_answer": "C",
+  "raw_answer": "Option C: first increases and then decreases",
+  "reasoning_steps": [
+    "Angular momentum L = I omega is conserved since there is no external torque.",
+    "When the insect moves from rim to centre, the moment of inertia I decreases.",
+    "Since L is constant, the angular speed omega increases.",
+    "When the insect moves from the centre to the opposite rim, I increases.",
+    "This causes the angular speed omega to decrease.",
+    "Therefore, the angular speed first increases and then decreases."
+  ],
+  "assumptions_used": [
+    "No external torque on the system"
+  ],
+  "diagram_interpretation": null,
+  "uncertainty": null,
+  "possible_ambiguities": [],
+  "created_at": "2026-09-28T08:51:04Z"
+}

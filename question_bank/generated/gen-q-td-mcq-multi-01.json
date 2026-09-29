@@ -1,0 +1,74 @@
+{
+  "question_id": "gen-q-td-mcq-multi-01",
+  "version": 1,
+  "origin": "GENERATED",
+  "curriculum_id": "curr-td-02",
+  "taxonomy_reference": {
+    "chapter_id": "thermodynamics",
+    "topic_id": "special-thermodynamic-processes",
+    "subtopic_id": "adiabatic-process"
+  },
+  "concept_references": [
+    "concept-td-adiabatic-01"
+  ],
+  "prerequisite_references": [
+    "curr-td-01"
+  ],
+  "target_exam_level": "JEE_ADVANCED",
+  "question_type": "MULTIPLE_CORRECT_MCQ",
+  "statement": "For a quasi-static reversible adiabatic expansion of an ideal gas with constant heat capacity ratio $\\gamma = C_p / C_v$, which of the following statements is/are correct?",
+  "diagram_references": [],
+  "options": {
+    "A": "The quantity $T V^{\\gamma - 1}$ remains constant throughout the expansion.",
+    "B": "The work done by the gas is equal to the decrease in its internal energy ($W = -\\Delta U$).",
+    "C": "The entropy of the gas remains invariant ($\\Delta S = 0$).",
+    "D": "The quantity $P V^\\gamma$ remains constant throughout the expansion."
+  },
+  "correct_answer": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "solution_strategy": "Apply thermodynamic definitions for quasi-static reversible adiabatic paths: zero heat exchange (dQ = 0), First Law differential form dU = -dW, Poisson's state equations (P V^gamma = C, T V^(gamma-1) = C), and Clausius entropy definition dS = dQ_rev / T = 0.",
+  "solution": "1. Analysis of Option A and Option D (Poisson's Relations):\nFor an ideal gas, the First Law of Thermodynamics gives $dQ = dU + dW = n C_v dT + P dV$. In an adiabatic process, $dQ = 0$, so:\n$$n C_v dT = -P dV = -\\frac{n R T}{V} dV$$\n$$\\frac{dT}{T} + \\frac{R}{C_v} \\frac{dV}{V} = 0$$\nSince $R / C_v = \\gamma - 1$, integrating gives:\n$$\\ln T + (\\gamma - 1) \\ln V = \\text{constant} \\implies T V^{\\gamma - 1} = \\text{constant}$$\nUsing the ideal gas equation $P = n R T / V$:\n$$P V^\\gamma = \\text{constant}$$\nThus, both Statement A and Statement D are correct.\n\n2. Analysis of Option B (First Law of Thermodynamics):\nFrom the First Law of Thermodynamics:\n$$\\Delta U = Q - W$$\nSince the process is adiabatic ($Q = 0$):\n$$\\Delta U = -W \\implies W = -\\Delta U$$\nDuring expansion, $W > 0$, so $\\Delta U < 0$ (the work done by the gas equals the decrease in its internal energy). Statement B is correct.\n\n3. Analysis of Option C (Isentropic Property):\nBy definition, the infinitesimal change in entropy for a reversible process is:\n$$dS = \\frac{dQ_{\\text{rev}}}{T}$$\nSince the process is both reversible and adiabatic, $dQ_{\\text{rev}} = 0$ throughout the path:\n$$\\Delta S = \\int \\frac{dQ_{\\text{rev}}}{T} = 0$$\nTherefore, entropy is conserved (the process is isentropic). Statement C is correct.\n\nConclusion: All four statements A, B, C, and D are correct.",
+  "assumptions": [
+    "Ideal gas equation of state P V = n R T",
+    "Quasi-static path with mechanical equilibrium at all stages",
+    "Strict thermal isolation (dQ = 0)",
+    "Constant specific heat ratio gamma across the expansion temperature range"
+  ],
+  "numerical_values": {},
+  "units": null,
+  "tolerance": null,
+  "intended_learning_objective": "Evaluate simultaneous physical, energetic, and entropic consequences of reversible adiabatic paths for ideal gases.",
+  "difficulty_dimensions": {
+    "conceptual_difficulty": 4,
+    "mathematical_difficulty": 3,
+    "multistep_reasoning_difficulty": 4,
+    "abstraction_difficulty": 3,
+    "computational_burden": 1,
+    "trap_misconception_difficulty": 3,
+    "derived_difficulty_band": "L4",
+    "weighting_policy": "PEDAGOGICAL_PROJECT_POLICY"
+  },
+  "difficulty_band": "L4",
+  "misconception_targeted": "misc-td-02",
+  "distractor_rationales": [],
+  "source_grounding": {
+    "relationship_type": "NEW_PROBLEM",
+    "source_atom_id": null,
+    "transformation_type": null,
+    "what_changed": null,
+    "why_pedagogically_distinct": null
+  },
+  "risk_level": "HIGH",
+  "generation_metadata": {
+    "generator_agent": "physics-question-generator",
+    "author_model": "claude-3-7-sonnet"
+  },
+  "content_hash": "c5eccffbd365e4a331fff024ed88754b3b3af47bbfbacca7263c815ebbaa46b3",
+  "verification_status": "VERIFIED",
+  "verification_record_id": "qvr-gen-q-td-mcq-multi-01",
+  "created_at": "2026-09-29T08:30:00Z"
+}

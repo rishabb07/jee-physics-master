@@ -1,0 +1,23 @@
+{
+  "solver_run_id": "run-solver_b-semiconductors-question-6a3d0c54-b98c218b",
+  "solver_agent_name": "solver_b",
+  "atom_id": "semiconductors-question-6a3d0c54",
+  "atom_version": 1,
+  "content_hash": "12fafaa32dfcfc773ebcb9d86ab29b279ae5a3d0a0980974d60cc671a1f9860f",
+  "verification_protocol_version": "1.0.0",
+  "blind_package_hash": "760f22996ef78aae6639cb2964991216f790da693cd9e548623a12ab079a6d30",
+  "independent_answer": "5/4",
+  "raw_answer": "5/4",
+  "reasoning_steps": [
+    "Current formula: $I = n e A v_d$.",
+    "Ratio of currents: $\\frac{I_e}{I_h} = \\frac{n_e e A v_e}{n_h e A v_h} = \\left(\\frac{n_e}{n_h}\\right) \\left(\\frac{v_e}{v_h}\\right)$.",
+    "Given $\\frac{n_e}{n_h} = \\frac{7}{5}$ and $\\frac{I_e}{I_h} = \\frac{7}{4}$.",
+    "Substituting: $\\frac{7}{4} = \\left(\\frac{7}{5}\\right) \\left(\\frac{v_e}{v_h}\\right)$.",
+    "$\\frac{v_e}{v_h} = \\frac{7/4}{7/5} = \\frac{5}{4}$."
+  ],
+  "assumptions_used": [],
+  "diagram_interpretation": null,
+  "uncertainty": null,
+  "possible_ambiguities": [],
+  "created_at": "2026-09-28T03:22:57Z"
+}

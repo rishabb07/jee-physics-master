@@ -1,0 +1,42 @@
+{
+  "solver_id": "solver_a",
+  "conversation_id": "c4b2f200-9d09-4009-8419-85baf0f75544",
+  "independent_interpretation": "A light ray transitions across a planar boundary from air (n_1 = 1) to water (n_2 = 4/3). The question is configured as a single-correct MCQ asking which statement is true among four physical propositions.",
+  "governing_principles": [
+    "Snell's Law of Refraction (n_1 \\sin\\theta_1 = n_2 \\sin\\theta_2)",
+    "Phase Velocity of Light in Dielectric Medium (v = c / n)",
+    "Temporal Boundary Invariance of Wave Frequency (f_1 = f_2)",
+    "Conditions for Total Internal Reflection (TIR requires n_1 > n_2 and \\theta_1 > \\theta_c)"
+  ],
+  "independent_equations": [
+    "\\sin\\theta_2 = \\frac{n_1}{n_2} \\sin\\theta_1 = \\frac{1}{4/3} \\sin\\theta_1 = \\frac{3}{4} \\sin\\theta_1 < \\sin\\theta_1 \\implies \\theta_2 < \\theta_1",
+    "v_1 = c, \\quad v_2 = \\frac{c}{n_2} = \\frac{3}{4} c < c",
+    "f_2 = f_1 = f_0",
+    "n_1 < n_2 \\implies \\text{TIR impossible}"
+  ],
+  "independent_solution_steps": [
+    "Step 1: Analyze Option A using Snell's Law: For non-normal incidence, since n_2 = 4/3 > n_1 = 1, sin(theta_2) = (3/4) sin(theta_1) < sin(theta_1), so theta_2 < theta_1. The refracted ray bends toward the normal. Thus, Option A is physically TRUE.",
+    "Step 2: Analyze Option B: Frequency is an intrinsic property established by the source and preserved across interface boundary conditions (f = f_0). Frequency does not decrease. Thus, Option B is FALSE.",
+    "Step 3: Analyze Option C using the definition of refractive index: The speed of light in water is v_2 = c / n_2 = 3c / 4 approx 2.25 * 10^8 m/s, which is strictly less than c (in air). Thus, the speed of light decreases. Therefore, Option C is ALSO physically TRUE.",
+    "Step 4: Analyze Option D: Total internal reflection strictly requires light propagating from a denser to a rarer optical medium (n_1 > n_2). Here n_1 < n_2, so TIR cannot occur under any angle of incidence. Thus, Option D is FALSE.",
+    "Step 5: Synthesize distractor audit: Because this is designated as a SINGLE_CORRECT_MCQ, having both Option A and Option C physically true creates an irreconcilable distractor conflict."
+  ],
+  "calculated_answer": "A",
+  "dimensional_check_passed": true,
+  "numerical_check_passed": true,
+  "uniqueness_confirmed": false,
+  "conflicting_distractors": [
+    "C"
+  ],
+  "evaluated_difficulty": {
+    "conceptual_difficulty": 2,
+    "mathematical_difficulty": 1,
+    "multistep_reasoning_difficulty": 2,
+    "abstraction_difficulty": 1,
+    "computational_burden": 1,
+    "trap_misconception_difficulty": 4
+  },
+  "verdict": "CONFLICT",
+  "notes": "Fatal distractor conflict detected in single-choice question: Option A (ray bends toward the normal) and Option C (speed of light decreases from c to 3c/4) are simultaneously physically correct. Option C cannot serve as a valid distractor.",
+  "timestamp": "2026-09-29T08:54:30+05:30"
+}

@@ -1,0 +1,87 @@
+{
+  "atom_id": "current-electricity-question-3a1b8c4d",
+  "schema_version": "1.0.0",
+  "atom_version": 1,
+  "active": true,
+  "atom_type": "question",
+  "title": "Ammeter and voltmeter readings in a DC circuit with parallel branches",
+  "taxonomy": {
+    "chapter_id": "current-electricity",
+    "topic_id": "dc-circuits",
+    "subtopic_id": "measuring-instruments"
+  },
+  "provenance": [
+    {
+      "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+      "file_name": "jee_rank_booster-03_mock_paper.pdf",
+      "file_path": "jee_rank_booster-03_mock_paper.pdf",
+      "page_start": 4,
+      "page_end": 4,
+      "source_locator": "Section - A, Q13",
+      "edition": null,
+      "extraction_metadata": {
+        "source_sha256": "256f42c67a9271aaafe4bf637eb34cddd10da959cdf7a66fc6fee76a68d34361"
+      }
+    }
+  ],
+  "confidence": 0.99,
+  "verification_status": "VERIFIED",
+  "content_hash": "5191a1c0c5850b6fa92086f0bf29a9b6544e9692f7cafc452719aebd3abff836",
+  "created_at": "2026-09-28T01:00:00Z",
+  "updated_at": "2026-09-28T04:19:50.701739Z",
+  "content": null,
+  "formula": null,
+  "question": {
+    "statement": "An ideal ammeter (zero resistance) and an ideal voltmeter (infinite resistance) are connected as shown. The ammeter and voltmeter reading for $R_{1} = 5\\,\\Omega$, $R_{2} = 15\\,\\Omega$, $R_{3} = 1.25\\,\\Omega$ and $E = 20\\text{ V}$ are given as",
+    "options": [
+      {
+        "id": "A",
+        "text": "$6.25\\text{ A},\\; 3.75\\text{ V}$"
+      },
+      {
+        "id": "B",
+        "text": "$3.00\\text{ A},\\; 5\\text{ V}$"
+      },
+      {
+        "id": "C",
+        "text": "$3.75\\text{ A},\\; 3.75\\text{ V}$"
+      },
+      {
+        "id": "D",
+        "text": "$6.25\\text{ A},\\; 6.25\\text{ V}$"
+      }
+    ],
+    "source_claimed_answer": "B",
+    "verified_answer": "B",
+    "source_solution": null,
+    "answer": "B",
+    "solution_methods": [],
+    "difficulty": "L2",
+    "exam_metadata": {
+      "exam": "JEE Main Mock",
+      "exam_name": "JEE Main Mock",
+      "year": null,
+      "paper": null,
+      "question_number": "13"
+    },
+    "concepts": [
+      "current-electricity",
+      "ohms-law",
+      "ammeter",
+      "voltmeter",
+      "kirchhoffs-laws"
+    ]
+  },
+  "solved_example": null,
+  "misconception": null,
+  "figure_refs": [
+    {
+      "figure_id": "fig-src-jee-rank-booster-03-mock-p04-q13",
+      "caption": "Circuit diagram showing parallel branches with $R_1 = 5\\,\\Omega$ in series with an ammeter, and $R_2 = 15\\,\\Omega$, connected in series with $R_3 = 1.25\\,\\Omega$ and a parallel voltmeter across $R_3$, powered by an EMF source $E = 20\\text{ V}$.",
+      "alt_text": "Electrical circuit diagram with a DC voltage source of 20 V connected to a network. The network consists of a parallel combination of two branches: one branch containing resistor R1 = 5 ohms in series with an ideal ammeter A, and the second branch containing resistor R2 = 15 ohms. This parallel block is in series with resistor R3 = 1.25 ohms, across which an ideal voltmeter V is connected in parallel."
+    }
+  ],
+  "insight": null,
+  "duplicate_group_id": null,
+  "archive_reason": null
+}

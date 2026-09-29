@@ -1,0 +1,14 @@
+{
+  "promotion_id": "promo-rotational-motion-question-f7cbecda-45d839",
+  "atom_id": "rotational-motion-question-f7cbecda",
+  "verification_id": "verif-rotational-motion-question-f7cbecda-6b292a",
+  "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+  "atom_version": 1,
+  "staged_path": "build/staging/atoms/batch_src-jee-rank-booster-03-mock-256f42c6_20260928_031815_253c.jsonl",
+  "canonical_path": "kb\\atoms\\rotational-motion-question-f7cbecda.json",
+  "verdict": "VERIFIED",
+  "source_claimed_answer": null,
+  "verified_answer": "C",
+  "timestamp": "2026-09-28T03:29:19.683812Z",
+  "promoted_by": "promotion_gate"
+}

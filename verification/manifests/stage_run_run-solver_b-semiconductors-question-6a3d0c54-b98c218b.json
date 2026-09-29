@@ -1,0 +1,13 @@
+{
+  "manifest_id": "stage_run_run-solver_b-semiconductors-question-6a3d0c54-b98c218b",
+  "solver_run_id": "run-solver_b-semiconductors-question-6a3d0c54-b98c218b",
+  "solver_agent_name": "solver_b",
+  "atom_id": "semiconductors-question-6a3d0c54",
+  "atom_version": 1,
+  "content_hash": "12fafaa32dfcfc773ebcb9d86ab29b279ae5a3d0a0980974d60cc671a1f9860f",
+  "input_source_file": "C:\\Users\\Win11\\OneDrive\\Desktop\\Rishab\\jee physics master book test\\verification\\incoming\\solver_semiconductors-question-6a3d0c54_run-solver_b-semiconductors-question-6a3d0c54-b98c218b.json",
+  "staged_destination_file": "C:\\Users\\Win11\\OneDrive\\Desktop\\Rishab\\jee physics master book test\\verification\\solver_runs\\run-solver_b-semiconductors-question-6a3d0c54-b98c218b.json",
+  "independent_answer": "5/4",
+  "timestamp": "2026-09-28T03:27:25.079034+00:00",
+  "status": "STAGED"
+}

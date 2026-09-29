@@ -1,0 +1,817 @@
+[
+  {
+    "candidate_id": "cand-current-elec-current-elec",
+    "atom_a_id": "current-electricity-question-3a1b8c4d",
+    "atom_b_id": "current-electricity-question-d2492f7f",
+    "generation_method": "EXACT_HASH_MATCH",
+    "blocking_signals": [
+      "EXACT_PROBLEM_HASH"
+    ],
+    "atom_a_fingerprint": {
+      "atom_id": "current-electricity-question-3a1b8c4d",
+      "statement_normalized": "An ideal ammeter (zero resistance) and an ideal voltmeter (infinite resistance) are connected as shown. The ammeter and voltmeter reading for $R_{1}=5\\,\\Omega$, $R_{2}=15\\,\\Omega$, $R_{3}=1.25\\,\\Omega$ and $E=20\\text{V}$ are given as",
+      "statement_hash": "effbfe91e38ec8c1b0ca61376bd5cc887ae9bbb53ed63fe10ceaa16b940366d4",
+      "options_normalized": [
+        "$3.00\\text{A},\\; 5\\text{V}$",
+        "$3.75\\text{A},\\; 3.75\\text{V}$",
+        "$6.25\\text{A},\\; 3.75\\text{V}$",
+        "$6.25\\text{A},\\; 6.25\\text{V}$"
+      ],
+      "options_hash": "1bea3cfe74011dc8718fd702e21387c9846b920edff095bf4893a60b3137ea98",
+      "problem_hash": "442f25e1a6de3cca505111f896617b7e4cbce5b9952718f8c68e957cdc7f9b78",
+      "taxonomy_node": "current-electricity/dc-circuits/measuring-instruments",
+      "chapter_id": "current-electricity",
+      "topic_id": "dc-circuits",
+      "subtopic_id": "measuring-instruments",
+      "question_type": "MCQ",
+      "target_quantity": "resistance",
+      "numerical_values": [
+        "1",
+        "5",
+        "2",
+        "15",
+        "3",
+        "1.25",
+        "20"
+      ],
+      "has_figure": true,
+      "physics_skeleton_hash": "e2c90ef91c36f1e74498aa99d17583603b347ef31985909d8cbba4242150179b"
+    },
+    "atom_b_fingerprint": {
+      "atom_id": "current-electricity-question-d2492f7f",
+      "statement_normalized": "An ideal ammeter (zero resistance) and an ideal voltmeter (infinite resistance) are connected as shown. The ammeter and voltmeter reading for $R_{1}=5\\,\\Omega$, $R_{2}=15\\,\\Omega$, $R_{3}=1.25\\,\\Omega$ and $E=20\\text{V}$ are given as",
+      "statement_hash": "effbfe91e38ec8c1b0ca61376bd5cc887ae9bbb53ed63fe10ceaa16b940366d4",
+      "options_normalized": [
+        "$3.00\\text{A},\\; 5\\text{V}$",
+        "$3.75\\text{A},\\; 3.75\\text{V}$",
+        "$6.25\\text{A},\\; 3.75\\text{V}$",
+        "$6.25\\text{A},\\; 6.25\\text{V}$"
+      ],
+      "options_hash": "1bea3cfe74011dc8718fd702e21387c9846b920edff095bf4893a60b3137ea98",
+      "problem_hash": "442f25e1a6de3cca505111f896617b7e4cbce5b9952718f8c68e957cdc7f9b78",
+      "taxonomy_node": "current-electricity/dc-circuits/measuring-instruments",
+      "chapter_id": "current-electricity",
+      "topic_id": "dc-circuits",
+      "subtopic_id": "measuring-instruments",
+      "question_type": "MCQ",
+      "target_quantity": "resistance",
+      "numerical_values": [
+        "1",
+        "5",
+        "2",
+        "15",
+        "3",
+        "1.25",
+        "20"
+      ],
+      "has_figure": true,
+      "physics_skeleton_hash": "e2c90ef91c36f1e74498aa99d17583603b347ef31985909d8cbba4242150179b"
+    },
+    "comparison_features": {
+      "same_target": true,
+      "same_numbers": true,
+      "same_diagram_role": true,
+      "same_answer_structure": true,
+      "lexical_jaccard_similarity": 1.0,
+      "same_physical_setup": true,
+      "same_given_information": true,
+      "same_constraints": true,
+      "same_solution_structure": true,
+      "wording_only_difference": false,
+      "notation_only_difference": false,
+      "numerical_substitution_only": false,
+      "material_problem_difference": false
+    },
+    "candidate_metadata": {
+      "atom_a_statement": "An ideal ammeter (zero resistance) and an ideal voltmeter (infinite resistance) are connected as shown. The ammeter and voltmeter reading for $R_{1} = 5\\,\\Omega$, $R_{2} = 15\\,\\Omega$, $R_{3} = 1.25\\,\\Omega$ and $E = 20\\text{ V}$ are given as",
+      "atom_b_statement": "An ideal ammeter (zero resistance) and an ideal voltmeter (infinite resistance) are connected as shown. The ammeter and voltmeter reading for $R_{1} = 5\\,\\Omega$, $R_{2} = 15\\,\\Omega$, $R_{3} = 1.25\\,\\Omega$ and $E = 20\\text{ V}$ are given as",
+      "atom_a_answer": "B",
+      "atom_b_answer": "B",
+      "atom_a_topic": "current-electricity/dc-circuits",
+      "atom_b_topic": "current-electricity/dc-circuits"
+    },
+    "created_at": "2026-09-28T04:48:17.008098Z"
+  },
+  {
+    "candidate_id": "cand-electrostati-electrostati",
+    "atom_a_id": "electrostatics-question-132c25d1",
+    "atom_b_id": "electrostatics-question-4c9d1e82",
+    "generation_method": "EXACT_HASH_MATCH",
+    "blocking_signals": [
+      "EXACT_PROBLEM_HASH"
+    ],
+    "atom_a_fingerprint": {
+      "atom_id": "electrostatics-question-132c25d1",
+      "statement_normalized": "A point charge $+Q$ is positioned at the center of the base of a square pyramid as shown. The flux through one of the four identical upper faces of the pyramid is -",
+      "statement_hash": "b6cdff139e3f6a3e396a1d0a1ff5dc68adae296261bae1604e7008c8bec4ea09",
+      "options_normalized": [
+        "$\\frac{Q}{16\\varepsilon_{0}}$",
+        "$\\frac{Q}{4\\varepsilon_{0}}$",
+        "$\\frac{Q}{8\\varepsilon_{0}}$",
+        "None of these"
+      ],
+      "options_hash": "bddaaf79e093bbe56b162d251a657e838776f32d788418bf93fcba9561196568",
+      "problem_hash": "2b88410df8de1036ebb397186a524dbc2514cafe5d61b86162e18b4f7c386255",
+      "taxonomy_node": "electrostatics/gausss-law/electric-flux-symmetry",
+      "chapter_id": "electrostatics",
+      "topic_id": "gausss-law",
+      "subtopic_id": "electric-flux-symmetry",
+      "question_type": "MCQ",
+      "target_quantity": null,
+      "numerical_values": [],
+      "has_figure": true,
+      "physics_skeleton_hash": "67f4a8f7c847dc67519a9ce68c3718e06bbfc0b37251c9a5bd766dbf91894469"
+    },
+    "atom_b_fingerprint": {
+      "atom_id": "electrostatics-question-4c9d1e82",
+      "statement_normalized": "A point charge $+Q$ is positioned at the center of the base of a square pyramid as shown. The flux through one of the four identical upper faces of the pyramid is -",
+      "statement_hash": "b6cdff139e3f6a3e396a1d0a1ff5dc68adae296261bae1604e7008c8bec4ea09",
+      "options_normalized": [
+        "$\\frac{Q}{16\\varepsilon_{0}}$",
+        "$\\frac{Q}{4\\varepsilon_{0}}$",
+        "$\\frac{Q}{8\\varepsilon_{0}}$",
+        "None of these"
+      ],
+      "options_hash": "bddaaf79e093bbe56b162d251a657e838776f32d788418bf93fcba9561196568",
+      "problem_hash": "2b88410df8de1036ebb397186a524dbc2514cafe5d61b86162e18b4f7c386255",
+      "taxonomy_node": "electrostatics/gausss-law/electric-flux-symmetry",
+      "chapter_id": "electrostatics",
+      "topic_id": "gausss-law",
+      "subtopic_id": "electric-flux-symmetry",
+      "question_type": "MCQ",
+      "target_quantity": null,
+      "numerical_values": [],
+      "has_figure": true,
+      "physics_skeleton_hash": "67f4a8f7c847dc67519a9ce68c3718e06bbfc0b37251c9a5bd766dbf91894469"
+    },
+    "comparison_features": {
+      "same_target": false,
+      "same_numbers": false,
+      "same_diagram_role": true,
+      "same_answer_structure": true,
+      "lexical_jaccard_similarity": 1.0,
+      "same_physical_setup": true,
+      "same_given_information": true,
+      "same_constraints": true,
+      "same_solution_structure": true,
+      "wording_only_difference": false,
+      "notation_only_difference": false,
+      "numerical_substitution_only": false,
+      "material_problem_difference": false
+    },
+    "candidate_metadata": {
+      "atom_a_statement": "A point charge $+Q$ is positioned at the center of the base of a square pyramid as shown. The flux through one of the four identical upper faces of the pyramid is \u2013",
+      "atom_b_statement": "A point charge $+Q$ is positioned at the center of the base of a square pyramid as shown. The flux through one of the four identical upper faces of the pyramid is \u2013",
+      "atom_a_answer": "C",
+      "atom_b_answer": "C",
+      "atom_a_topic": "electrostatics/gausss-law",
+      "atom_b_topic": "electrostatics/gausss-law"
+    },
+    "created_at": "2026-09-28T04:48:17.008098Z"
+  },
+  {
+    "candidate_id": "cand-rotational-m-rotational-m",
+    "atom_a_id": "rotational-motion-question-84f91c20",
+    "atom_b_id": "rotational-motion-question-f7cbecda",
+    "generation_method": "EXACT_HASH_MATCH",
+    "blocking_signals": [
+      "EXACT_PROBLEM_HASH"
+    ],
+    "atom_a_fingerprint": {
+      "atom_id": "rotational-motion-question-84f91c20",
+      "statement_normalized": "A thin horizontal circular disc is rotating about a vertical axis passing through its centre. An insect is at rest at a point near the rim of the disc. The insect now moves along a diameter of the disc to reach its other end. During the journey of the insect, the angular speed of the disc",
+      "statement_hash": "7d11e82c16cc5747477fa8383840fc386cc44e758717c2c837f2a781bdea96fd",
+      "options_normalized": [
+        "continuously decreases",
+        "continuously increases",
+        "first increases and then decreases",
+        "remains unchanged"
+      ],
+      "options_hash": "c7adfbc0648aaed4e06d5c488eaf6d475710daf1cc3a81026dd7d6d1dca7a5b4",
+      "problem_hash": "0de7c578e94ad3e858956af5e0bafcc9e7d722d0d49fa50d7cec8670d156dd24",
+      "taxonomy_node": "rotational-motion/angular-momentum/variable-moment-of-inertia",
+      "chapter_id": "rotational-motion",
+      "topic_id": "angular-momentum",
+      "subtopic_id": "variable-moment-of-inertia",
+      "question_type": "MCQ",
+      "target_quantity": "speed",
+      "numerical_values": [],
+      "has_figure": false,
+      "physics_skeleton_hash": "727f9f1c6673ae9de956804d8913c7caef699487248a1750fdd5ebbc197a6d4a"
+    },
+    "atom_b_fingerprint": {
+      "atom_id": "rotational-motion-question-f7cbecda",
+      "statement_normalized": "A thin horizontal circular disc is rotating about a vertical axis passing through its centre. An insect is at rest at a point near the rim of the disc. The insect now moves along a diameter of the disc to reach its other end. During the journey of the insect, the angular speed of the disc",
+      "statement_hash": "7d11e82c16cc5747477fa8383840fc386cc44e758717c2c837f2a781bdea96fd",
+      "options_normalized": [
+        "continuously decreases",
+        "continuously increases",
+        "first increases and then decreases",
+        "remains unchanged"
+      ],
+      "options_hash": "c7adfbc0648aaed4e06d5c488eaf6d475710daf1cc3a81026dd7d6d1dca7a5b4",
+      "problem_hash": "0de7c578e94ad3e858956af5e0bafcc9e7d722d0d49fa50d7cec8670d156dd24",
+      "taxonomy_node": "rotational-motion/angular-momentum/variable-moment-of-inertia",
+      "chapter_id": "rotational-motion",
+      "topic_id": "angular-momentum",
+      "subtopic_id": "variable-moment-of-inertia",
+      "question_type": "MCQ",
+      "target_quantity": "speed",
+      "numerical_values": [],
+      "has_figure": false,
+      "physics_skeleton_hash": "727f9f1c6673ae9de956804d8913c7caef699487248a1750fdd5ebbc197a6d4a"
+    },
+    "comparison_features": {
+      "same_target": true,
+      "same_numbers": false,
+      "same_diagram_role": true,
+      "same_answer_structure": true,
+      "lexical_jaccard_similarity": 1.0,
+      "same_physical_setup": true,
+      "same_given_information": true,
+      "same_constraints": true,
+      "same_solution_structure": true,
+      "wording_only_difference": false,
+      "notation_only_difference": false,
+      "numerical_substitution_only": false,
+      "material_problem_difference": false
+    },
+    "candidate_metadata": {
+      "atom_a_statement": "A thin horizontal circular disc is rotating about a vertical axis passing through its centre. An insect is at rest at a point near the rim of the disc. The insect now moves along a diameter of the disc to reach its other end. During the journey of the insect, the angular speed of the disc",
+      "atom_b_statement": "A thin horizontal circular disc is rotating about a vertical axis passing through its centre. An insect is at rest at a point near the rim of the disc. The insect now moves along a diameter of the disc to reach its other end. During the journey of the insect, the angular speed of the disc",
+      "atom_a_answer": "C",
+      "atom_b_answer": "C",
+      "atom_a_topic": "rotational-motion/angular-momentum",
+      "atom_b_topic": "rotational-motion/angular-momentum"
+    },
+    "created_at": "2026-09-28T04:48:17.008098Z"
+  },
+  {
+    "candidate_id": "cand-fluid-mechan-fluid-mechan",
+    "atom_a_id": "fluid-mechanics-question-2b8a7f0e",
+    "atom_b_id": "fluid-mechanics-question-71ea5e08",
+    "generation_method": "TAXONOMY_BLOCKING",
+    "blocking_signals": [
+      "TAXONOMY:fluid-mechanics/buoyancy-and-floatation",
+      "SUBTOPIC:immiscible-fluids-interface",
+      "PHYSICS_SKELETON_HASH_MATCH",
+      "TOKEN_SIMILARITY_96"
+    ],
+    "atom_a_fingerprint": {
+      "atom_id": "fluid-mechanics-question-2b8a7f0e",
+      "statement_normalized": "A jar is filled with two non-mixing liquids 1 and 2 having densities $\\rho_{1}$ and $\\rho_{2}$ respectively. A solid ball, made of a material of density $\\rho_{3}$, is dropped in the jar. It comes to equilibrium in the position shown in the figure. Which of the following is true for $\\rho_{1}$, $\\rho_{1}\\text{and}\\rho_{3}$?",
+      "statement_hash": "e129f5cb8931fcfd2ac78814b3e8a19eaba36dab45d88e0793b83452cc162ced",
+      "options_normalized": [
+        "$\\rho_{1} < \\rho_{2} < \\rho_{3}$",
+        "$\\rho_{1} < \\rho_{3} < \\rho_{2}$",
+        "$\\rho_{1} > \\rho_{3} > \\rho_{2}$",
+        "$\\rho_{3} < \\rho_{1} < \\rho_{2}$"
+      ],
+      "options_hash": "8d7017e5a0e45a3d6978fbfc72603440d276285ecd1fb31775597c8b6b549891",
+      "problem_hash": "0f8fbffc5776e4b5d8d2e564c66b53807243afc61cd797a843003916647c1b55",
+      "taxonomy_node": "fluid-mechanics/buoyancy-and-floatation/immiscible-fluids-interface",
+      "chapter_id": "fluid-mechanics",
+      "topic_id": "buoyancy-and-floatation",
+      "subtopic_id": "immiscible-fluids-interface",
+      "question_type": "MCQ",
+      "target_quantity": null,
+      "numerical_values": [
+        "1",
+        "2",
+        "1",
+        "2",
+        "3",
+        "1",
+        "1",
+        "3"
+      ],
+      "has_figure": true,
+      "physics_skeleton_hash": "677374eb7045e6cc4a4b187aaadcbc81fba786a47fa78a653159adb3d2395bbb"
+    },
+    "atom_b_fingerprint": {
+      "atom_id": "fluid-mechanics-question-71ea5e08",
+      "statement_normalized": "A jar is filled with two non-mixing liquids 1 and 2 having densities $\\rho_{1}$ and, $\\rho_{2}$ respectively. A solid ball, made of a material of density $\\rho_{3}$, is dropped in the jar. It comes to equilibrium in the position shown in the figure. Which of the following is true for $\\rho_{1}$, $\\rho_{1}$ and $\\rho_{3}$?",
+      "statement_hash": "7ee66772b4e1bdab9c8388dfb873f6b05b7afd2d6560deeead146e0a943b35aa",
+      "options_normalized": [
+        "$\\rho_{1} < \\rho_{2} < \\rho_{3}$",
+        "$\\rho_{1} < \\rho_{3} < \\rho_{2}$",
+        "$\\rho_{1} > \\rho_{3} > \\rho_{2}$",
+        "$\\rho_{3} < \\rho_{1} < \\rho_{2}$"
+      ],
+      "options_hash": "8d7017e5a0e45a3d6978fbfc72603440d276285ecd1fb31775597c8b6b549891",
+      "problem_hash": "0d2ad7aff3d801a636554c94fff592235205ff5bac36ff44aee22b47a5aba327",
+      "taxonomy_node": "fluid-mechanics/buoyancy-and-floatation/immiscible-fluids-interface",
+      "chapter_id": "fluid-mechanics",
+      "topic_id": "buoyancy-and-floatation",
+      "subtopic_id": "immiscible-fluids-interface",
+      "question_type": "MCQ",
+      "target_quantity": null,
+      "numerical_values": [
+        "1",
+        "2",
+        "1",
+        "2",
+        "3",
+        "1",
+        "1",
+        "3"
+      ],
+      "has_figure": true,
+      "physics_skeleton_hash": "677374eb7045e6cc4a4b187aaadcbc81fba786a47fa78a653159adb3d2395bbb"
+    },
+    "comparison_features": {
+      "same_target": false,
+      "same_numbers": true,
+      "same_diagram_role": true,
+      "same_answer_structure": true,
+      "lexical_jaccard_similarity": 0.96,
+      "same_physical_setup": true,
+      "same_given_information": true,
+      "same_constraints": null,
+      "same_solution_structure": null,
+      "wording_only_difference": false,
+      "notation_only_difference": null,
+      "numerical_substitution_only": false,
+      "material_problem_difference": true
+    },
+    "candidate_metadata": {
+      "atom_a_statement": "A jar is filled with two non-mixing liquids 1 and 2 having densities $\\rho_{1}$ and $\\rho_{2}$ respectively. A solid ball, made of a material of density $\\rho_{3}$, is dropped in the jar. It comes to equilibrium in the position shown in the figure. Which of the following is true for $\\rho_{1}$, $\\rho_{1}\\text{and }\\rho_{3}$?",
+      "atom_b_statement": "A jar is filled with two non-mixing liquids 1 and 2 having densities $\\rho_{1}$ and, $\\rho_{2}$ respectively. A solid ball, made of a material of density $\\rho_{3}$, is dropped in the jar. It comes to equilibrium in the position shown in the figure. Which of the following is true for $\\rho_{1}$, $\\rho_{1}$ and $\\rho_{3}$?",
+      "atom_a_answer": "D",
+      "atom_b_answer": "D",
+      "atom_a_topic": "fluid-mechanics/buoyancy-and-floatation",
+      "atom_b_topic": "fluid-mechanics/buoyancy-and-floatation"
+    },
+    "created_at": "2026-09-28T04:48:17.008098Z"
+  },
+  {
+    "candidate_id": "cand-thermal-phys-thermal-phys",
+    "atom_a_id": "thermal-physics-question-1f8c5ba9",
+    "atom_b_id": "thermal-physics-question-5f2c9b43",
+    "generation_method": "TAXONOMY_BLOCKING",
+    "blocking_signals": [
+      "TAXONOMY:thermal-physics/heat-transfer",
+      "TARGET_QUANTITY:temperature"
+    ],
+    "atom_a_fingerprint": {
+      "atom_id": "thermal-physics-question-1f8c5ba9",
+      "statement_normalized": "Hot water cools from $60^\\circ\\text{C}$ to $50^\\circ\\text{C}$ in the first $10\\text{minutes}$ and to $42^\\circ\\text{C}$ in the next $10\\text{minutes}$. The temperature of the surroundings is ________ $^\\circ\\text{C}$",
+      "statement_hash": "381b25ef2222f23bcf8dbb7b6ca2fbd754b01e6ef853162b105edb7d7c4def91",
+      "options_normalized": null,
+      "options_hash": null,
+      "problem_hash": "381b25ef2222f23bcf8dbb7b6ca2fbd754b01e6ef853162b105edb7d7c4def91",
+      "taxonomy_node": "thermal-physics/heat-transfer/newtons-law-of-cooling",
+      "chapter_id": "thermal-physics",
+      "topic_id": "heat-transfer",
+      "subtopic_id": "newtons-law-of-cooling",
+      "question_type": "NUMERICAL",
+      "target_quantity": "temperature",
+      "numerical_values": [
+        "60",
+        "50",
+        "10",
+        "42",
+        "10"
+      ],
+      "has_figure": false,
+      "physics_skeleton_hash": "d8273ce1d7b46a5732268705f5a1c8fa35d5fd653f5b9efd658812e74008a3a9"
+    },
+    "atom_b_fingerprint": {
+      "atom_id": "thermal-physics-question-5f2c9b43",
+      "statement_normalized": "The temperature of the two outer surfaces of a composite slab, consisting of two materials having coefficients of thermal conductivity $K$ and $2K$ and thickness $x$ and $4x$, respectively, are $T_2$ and $T_1$ ($T_2 > T_1$). The rate of heat transfer through the slab, in a steady state is $\\left(\\frac{A(T_2-T_1)K}{x}\\right)f$. Find the value of $F$",
+      "statement_hash": "f6cef2f11808f2cc749d39bd2b8597566c4f32d78879f0e44d045409ff2c766b",
+      "options_normalized": null,
+      "options_hash": null,
+      "problem_hash": "f6cef2f11808f2cc749d39bd2b8597566c4f32d78879f0e44d045409ff2c766b",
+      "taxonomy_node": "thermal-physics/heat-transfer/thermal-conduction-composite-slab",
+      "chapter_id": "thermal-physics",
+      "topic_id": "heat-transfer",
+      "subtopic_id": "thermal-conduction-composite-slab",
+      "question_type": "NUMERICAL",
+      "target_quantity": "temperature",
+      "numerical_values": [
+        "2",
+        "4",
+        "2",
+        "1",
+        "2",
+        "1",
+        "2",
+        "1"
+      ],
+      "has_figure": true,
+      "physics_skeleton_hash": "98d7a3afc79222253e3832f5ad4d5dbfc563c50d80318d7a7b291d6413198d9b"
+    },
+    "comparison_features": {
+      "same_target": true,
+      "same_numbers": false,
+      "same_diagram_role": false,
+      "same_answer_structure": true,
+      "lexical_jaccard_similarity": 0.0294,
+      "same_physical_setup": false,
+      "same_given_information": false,
+      "same_constraints": null,
+      "same_solution_structure": null,
+      "wording_only_difference": false,
+      "notation_only_difference": null,
+      "numerical_substitution_only": false,
+      "material_problem_difference": true
+    },
+    "candidate_metadata": {
+      "atom_a_statement": "Hot water cools from $60^\\circ\\text{C}$ to $50^\\circ\\text{C}$ in the first $10\\text{ minutes}$ and to $42^\\circ\\text{C}$ in the next $10\\text{ minutes}$. The temperature of the surroundings is ________ $^\\circ\\text{C}$.",
+      "atom_b_statement": "The temperature of the two outer surfaces of a composite slab, consisting of two materials having coefficients of thermal conductivity $K$ and $2K$ and thickness $x$ and $4x$, respectively, are $T_2$ and $T_1$ ($T_2 > T_1$). The rate of heat transfer through the slab, in a steady state is $\\left(\\frac{A(T_2 - T_1)K}{x}\\right)f$. Find the value of $F$.",
+      "atom_a_answer": "10",
+      "atom_b_answer": "1/3",
+      "atom_a_topic": "thermal-physics/heat-transfer",
+      "atom_b_topic": "thermal-physics/heat-transfer"
+    },
+    "created_at": "2026-09-28T04:48:17.008098Z"
+  },
+  {
+    "candidate_id": "cand-thermodynami-thermodynami",
+    "atom_a_id": "thermodynamics-question-71b685c0",
+    "atom_b_id": "thermodynamics-question-7e2f5a91",
+    "generation_method": "TAXONOMY_BLOCKING",
+    "blocking_signals": [
+      "TAXONOMY:thermodynamics/first-law-and-processes",
+      "SUBTOPIC:adiabatic-process",
+      "TARGET_QUANTITY:temperature",
+      "PHYSICS_SKELETON_HASH_MATCH",
+      "TOKEN_SIMILARITY_100"
+    ],
+    "atom_a_fingerprint": {
+      "atom_id": "thermodynamics-question-71b685c0",
+      "statement_normalized": "A monoatomic ideal gas is filled in a nonconducting container. The gas can be compressed by a movable nonconducting piston. The gas is compressed slowly to $12.5\\%$ of its initial volume. Find final temperature of the gas if it is $T_{0}$ initially-",
+      "statement_hash": "12fbc4997494d6725b85be87c2c5d857962696eb3485b9a478ab110786da461e",
+      "options_normalized": [
+        "$3T_{0}$",
+        "$4T_{0}$",
+        "$T_{0}$",
+        "$\\frac{2}{3}\\,T_{0}$"
+      ],
+      "options_hash": "9efa871b482c7b75262bdafc1f69fb6a7eb6a90f7221428da6e4945a9b084183",
+      "problem_hash": "4c059cd2db573065dd04c4b70de907a0be0b9cd6a0c8599a060c42e5408842ad",
+      "taxonomy_node": "thermodynamics/first-law-and-processes/adiabatic-process",
+      "chapter_id": "thermodynamics",
+      "topic_id": "first-law-and-processes",
+      "subtopic_id": "adiabatic-process",
+      "question_type": "MCQ",
+      "target_quantity": "temperature",
+      "numerical_values": [
+        "12.5",
+        "0"
+      ],
+      "has_figure": false,
+      "physics_skeleton_hash": "e164185f33bd505cf95460dbc42e1aba3799d1e178059936935838248d1bcfb2"
+    },
+    "atom_b_fingerprint": {
+      "atom_id": "thermodynamics-question-7e2f5a91",
+      "statement_normalized": "A monoatomic ideal gas is filled in a nonconducting container. The gas can be compressed by a movable nonconducting piston. The gas is compressed slowly to 12.5% of its initial volume. Find final temperature of the gas if it is $T_{0}$ initially-",
+      "statement_hash": "61de2076e7cd917e8b066c98fe5b5fbb8afd4066bb4d81efc4abd14f79121268",
+      "options_normalized": [
+        "$3T_{0}$",
+        "$4T_{0}$",
+        "$T_{0}$",
+        "$\\frac{2}{3}T_{0}$"
+      ],
+      "options_hash": "4caaff637eec16e933e7359f62c62ec5884a59a94888e8ae10cd13758ae43ff9",
+      "problem_hash": "6c0ba4868eb27aa9263250dd9395961f7a301f2cd0c5e1fa700a10cd187bd8e1",
+      "taxonomy_node": "thermodynamics/first-law-and-processes/adiabatic-process",
+      "chapter_id": "thermodynamics",
+      "topic_id": "first-law-and-processes",
+      "subtopic_id": "adiabatic-process",
+      "question_type": "MCQ",
+      "target_quantity": "temperature",
+      "numerical_values": [
+        "12.5",
+        "0"
+      ],
+      "has_figure": false,
+      "physics_skeleton_hash": "e164185f33bd505cf95460dbc42e1aba3799d1e178059936935838248d1bcfb2"
+    },
+    "comparison_features": {
+      "same_target": true,
+      "same_numbers": true,
+      "same_diagram_role": true,
+      "same_answer_structure": true,
+      "lexical_jaccard_similarity": 1.0,
+      "same_physical_setup": true,
+      "same_given_information": true,
+      "same_constraints": true,
+      "same_solution_structure": true,
+      "wording_only_difference": true,
+      "notation_only_difference": false,
+      "numerical_substitution_only": false,
+      "material_problem_difference": false
+    },
+    "candidate_metadata": {
+      "atom_a_statement": "A monoatomic ideal gas is filled in a nonconducting container. The gas can be compressed by a movable nonconducting piston. The gas is compressed slowly to $12.5\\%$ of its initial volume.\nFind final temperature of the gas if it is $T_{0}$ initially\u2013",
+      "atom_b_statement": "A monoatomic ideal gas is filled in a nonconducting container. The gas can be compressed by a movable nonconducting piston. The gas is compressed slowly to 12.5% of its initial volume.\nFind final temperature of the gas if it is $T_{0}$ initially\u2013",
+      "atom_a_answer": "A",
+      "atom_b_answer": "A",
+      "atom_a_topic": "thermodynamics/first-law-and-processes",
+      "atom_b_topic": "thermodynamics/first-law-and-processes"
+    },
+    "created_at": "2026-09-28T04:48:17.009097Z"
+  },
+  {
+    "candidate_id": "cand-pilot-semantic-magnet-01",
+    "atom_a_id": "magnetism-and-matter-question-3c3af9c7",
+    "atom_b_id": "magnetism-variant-semantic-dup-01",
+    "generation_method": "CONTROLLED_PILOT",
+    "blocking_signals": [
+      "TAXONOMY:magnetism-and-matter/bar-magnet",
+      "TARGET_QUANTITY:time_period",
+      "PHYSICS_SKELETON_HASH_MATCH"
+    ],
+    "atom_a_fingerprint": {
+      "atom_id": "magnetism-and-matter-question-3c3af9c7",
+      "statement_normalized": "The length of a magnet is large compared to its width and breadth. The time period of its oscillation in a vibration magnetometer is $2\\text{s}$. The magnet is cut along its length into three equal parts and these parts are then placed on each other with their like poles together. The time period of this combination will be",
+      "statement_hash": "85f1f83bd489ec2f2e581a103b453458ff128a35d6e1ac3c6d3ab6fb52833704",
+      "options_normalized": [
+        "$2\\sqrt{3}\\text{s}$",
+        "$2\\text{s}$",
+        "$\\frac{2}{3}\\text{s}$",
+        "$\\frac{2}{\\sqrt{3}}\\text{s}$"
+      ],
+      "options_hash": "1bde0c9cc5ab3c7a004860d7d1acfd528a2741954de18f18fcbbb632666545b5",
+      "problem_hash": "471c8d19e358235d1412246b676acf1b242d1cf4ad200ffe77c24d2a0a632529",
+      "taxonomy_node": "magnetism-and-matter/bar-magnet/vibration-magnetometer",
+      "chapter_id": "magnetism-and-matter",
+      "topic_id": "bar-magnet",
+      "subtopic_id": "vibration-magnetometer",
+      "question_type": "MCQ",
+      "target_quantity": "time_period",
+      "numerical_values": [
+        "2"
+      ],
+      "has_figure": false,
+      "physics_skeleton_hash": "eed600bc54778b10a538c7bd098b2c421e8d45daacdd274dee114516337bbc72"
+    },
+    "atom_b_fingerprint": {
+      "atom_id": "magnetism-variant-semantic-dup-01",
+      "statement_normalized": "A thin bar magnet of length L has an oscillation period of 2 s in a vibration magnetometer. It is sliced along its length into 3 equal longitudinal strips which are then stacked together with identical poles aligned. What will be the new oscillation period of the assembly?",
+      "statement_hash": "41fbe8450bb83ef0d94fc237e6b3a03ce998f75eb5a82e0ba53eb5d32fe5e513",
+      "options_normalized": [
+        "$2\\sqrt{3}\\text{s}$",
+        "$2\\text{s}$",
+        "$\\frac{2}{3}\\text{s}$",
+        "$\\frac{2}{\\sqrt{3}}\\text{s}$"
+      ],
+      "options_hash": "1bde0c9cc5ab3c7a004860d7d1acfd528a2741954de18f18fcbbb632666545b5",
+      "problem_hash": "6ac83db65835fafe2d4ae2cc7cc427dc125000fde05b71b7c803461cb68b7466",
+      "taxonomy_node": "magnetism-and-matter/bar-magnet/vibration-magnetometer",
+      "chapter_id": "magnetism-and-matter",
+      "topic_id": "bar-magnet",
+      "subtopic_id": "vibration-magnetometer",
+      "question_type": "MCQ",
+      "target_quantity": null,
+      "numerical_values": [
+        "2",
+        "3"
+      ],
+      "has_figure": false,
+      "physics_skeleton_hash": "45d857eeab2ef4f217abeddc2838f428eaba93fba025fae8fee89d78fec06c89"
+    },
+    "comparison_features": {
+      "same_physical_setup": true,
+      "same_given_information": true,
+      "same_constraints": true,
+      "same_target": true,
+      "same_solution_structure": true,
+      "same_answer_structure": true,
+      "same_diagram_role": true,
+      "notation_only_difference": true,
+      "wording_only_difference": true,
+      "numerical_substitution_only": false,
+      "material_problem_difference": false
+    },
+    "candidate_metadata": {
+      "test_category": "SEMANTIC_DUPLICATE",
+      "atom_a_statement": "The length of a magnet is large compared to its width and breadth. The time period of its oscillation in a vibration magnetometer is $2\\text{ s}$. The magnet is cut along its length into three equal parts and these parts are then placed on each other with their like poles together. The time period of this combination will be",
+      "atom_b_statement": "A thin bar magnet of length L has an oscillation period of 2 s in a vibration magnetometer. It is sliced along its length into 3 equal longitudinal strips which are then stacked together with identical poles aligned. What will be the new oscillation period of the assembly?",
+      "atom_a_answer": "C",
+      "atom_b_answer": "C"
+    },
+    "created_at": "2026-09-28T04:48:17.014510Z"
+  },
+  {
+    "candidate_id": "cand-pilot-multimethod-com-02",
+    "atom_a_id": "center-of-mass-question-95affcbc",
+    "atom_b_id": "center-of-mass-multimethod-dup-02",
+    "generation_method": "CONTROLLED_PILOT",
+    "blocking_signals": [
+      "EXACT_PROBLEM_HASH",
+      "MULTI_METHOD_DETECTED"
+    ],
+    "atom_a_fingerprint": {
+      "atom_id": "center-of-mass-question-95affcbc",
+      "statement_normalized": "Two particles $A$ and $B$ of equal mass $M$ are moving with the same speed $v$ as shown in the figure. They collide completely inelastically and move as a single particle $C$. The angle $\\theta$ that the path of $C$ makes with the $X$-axis is given by",
+      "statement_hash": "ef8c3e3ea0fe8aaab233a6a9093b4c72eb9331688cda4a0e704a502b9f3b2a6e",
+      "options_normalized": [
+        "$\\tan\\theta=\\frac{1-\\sqrt{2}}{\\sqrt{2}(1+\\sqrt{3})}$",
+        "$\\tan\\theta=\\frac{1-\\sqrt{3}}{1+\\sqrt{2}}$",
+        "$\\tan\\theta=\\frac{\\sqrt{3}+\\sqrt{2}}{1-\\sqrt{2}}$",
+        "$\\tan\\theta=\\frac{\\sqrt{3}-\\sqrt{2}}{1-\\sqrt{2}}$"
+      ],
+      "options_hash": "f377f8042ce5dc3c91e0ab06af9c71dede1cf2bd821e6828832092bc7e590629",
+      "problem_hash": "17c604a8a0e01e202b268e3e16ab3ea162a9b7a6d5619349e3a35d93287e9382",
+      "taxonomy_node": "center-of-mass/collisions/perfectly-inelastic-collision-2d",
+      "chapter_id": "center-of-mass",
+      "topic_id": "collisions",
+      "subtopic_id": "perfectly-inelastic-collision-2d",
+      "question_type": "MCQ",
+      "target_quantity": "speed",
+      "numerical_values": [],
+      "has_figure": true,
+      "physics_skeleton_hash": "05c5ee5eed95f60223626c34f8f50da06bc2184cb9202893b85489b4d7470a24"
+    },
+    "atom_b_fingerprint": {
+      "atom_id": "center-of-mass-multimethod-dup-02",
+      "statement_normalized": "Two particles $A$ and $B$ of equal mass $M$ are moving with the same speed $v$ as shown in the figure. They collide completely inelastically and move as a single particle $C$. The angle $\\theta$ that the path of $C$ makes with the $X$-axis is given by",
+      "statement_hash": "ef8c3e3ea0fe8aaab233a6a9093b4c72eb9331688cda4a0e704a502b9f3b2a6e",
+      "options_normalized": [
+        "$\\tan\\theta=\\frac{1-\\sqrt{2}}{\\sqrt{2}(1+\\sqrt{3})}$",
+        "$\\tan\\theta=\\frac{1-\\sqrt{3}}{1+\\sqrt{2}}$",
+        "$\\tan\\theta=\\frac{\\sqrt{3}+\\sqrt{2}}{1-\\sqrt{2}}$",
+        "$\\tan\\theta=\\frac{\\sqrt{3}-\\sqrt{2}}{1-\\sqrt{2}}$"
+      ],
+      "options_hash": "f377f8042ce5dc3c91e0ab06af9c71dede1cf2bd821e6828832092bc7e590629",
+      "problem_hash": "17c604a8a0e01e202b268e3e16ab3ea162a9b7a6d5619349e3a35d93287e9382",
+      "taxonomy_node": "center-of-mass/collisions/perfectly-inelastic-collision-2d",
+      "chapter_id": "center-of-mass",
+      "topic_id": "collisions",
+      "subtopic_id": "perfectly-inelastic-collision-2d",
+      "question_type": "MCQ",
+      "target_quantity": "speed",
+      "numerical_values": [],
+      "has_figure": true,
+      "physics_skeleton_hash": "05c5ee5eed95f60223626c34f8f50da06bc2184cb9202893b85489b4d7470a24"
+    },
+    "comparison_features": {
+      "same_physical_setup": true,
+      "same_given_information": true,
+      "same_constraints": true,
+      "same_target": true,
+      "same_solution_structure": false,
+      "same_answer_structure": true,
+      "same_diagram_role": true,
+      "notation_only_difference": false,
+      "wording_only_difference": false,
+      "numerical_substitution_only": false,
+      "material_problem_difference": false
+    },
+    "candidate_metadata": {
+      "test_category": "MULTI_METHOD_SAME_PROBLEM",
+      "atom_a_statement": "Two particles $A$ and $B$ of equal mass $M$ are moving with the same speed $v$ as shown in the figure. They collide completely inelastically and move as a single particle $C$. The angle $\\theta$ that the path of $C$ makes with the $X$-axis is given by:",
+      "atom_b_statement": "Two particles $A$ and $B$ of equal mass $M$ are moving with the same speed $v$ as shown in the figure. They collide completely inelastically and move as a single particle $C$. The angle $\\theta$ that the path of $C$ makes with the $X$-axis is given by:",
+      "atom_a_answer": "B",
+      "atom_b_answer": "B",
+      "solution_methods_a": [],
+      "solution_methods_b": [
+        "Impulse-Momentum Method"
+      ]
+    },
+    "created_at": "2026-09-28T04:48:17.015501Z"
+  },
+  {
+    "candidate_id": "cand-pilot-uncertain-kin-03",
+    "atom_a_id": "kinematics-question-7b4e1d65",
+    "atom_b_id": "kinematics-ambiguous-candidate-03",
+    "generation_method": "CONTROLLED_PILOT",
+    "blocking_signals": [
+      "TAXONOMY:kinematics/one-dimensional-motion",
+      "TARGET_QUANTITY:velocity"
+    ],
+    "atom_a_fingerprint": {
+      "atom_id": "kinematics-question-7b4e1d65",
+      "statement_normalized": "A car, starting from rest, accelerates at the rate $f$ through a distance $S$, then continues at constant speed for time $t$ and then decelerates at the rate $\\frac{f}{2}$ to come to rest. If the total distance traversed is $15S$, then $S=\\frac{ft^2}{x}$. Find the value of $x$",
+      "statement_hash": "deca66b73c0145415fb46a2353b1d796afc73d7529bfe61e1eb957f7a2be6566",
+      "options_normalized": null,
+      "options_hash": null,
+      "problem_hash": "deca66b73c0145415fb46a2353b1d796afc73d7529bfe61e1eb957f7a2be6566",
+      "taxonomy_node": "kinematics/rectilinear-motion/acceleration-and-deceleration",
+      "chapter_id": "kinematics",
+      "topic_id": "rectilinear-motion",
+      "subtopic_id": "acceleration-and-deceleration",
+      "question_type": "NUMERICAL",
+      "target_quantity": "speed",
+      "numerical_values": [
+        "2",
+        "15",
+        "2"
+      ],
+      "has_figure": false,
+      "physics_skeleton_hash": "7b0522c89d20e3977ff00b0f6c8bd3a41a9ac6bae860c1628bb3b7fb0ce67d48"
+    },
+    "atom_b_fingerprint": {
+      "atom_id": "kinematics-ambiguous-candidate-03",
+      "statement_normalized": "A particle moves along a curved path. What is its velocity after 2 seconds?",
+      "statement_hash": "b15487cf3a34b2dc557d077332674ee2396f3bbe696e4a20c18eb1db7f1d2c62",
+      "options_normalized": null,
+      "options_hash": null,
+      "problem_hash": "b15487cf3a34b2dc557d077332674ee2396f3bbe696e4a20c18eb1db7f1d2c62",
+      "taxonomy_node": "kinematics/rectilinear-motion/acceleration-and-deceleration",
+      "chapter_id": "kinematics",
+      "topic_id": "rectilinear-motion",
+      "subtopic_id": "acceleration-and-deceleration",
+      "question_type": "NUMERICAL",
+      "target_quantity": "velocity",
+      "numerical_values": [
+        "2"
+      ],
+      "has_figure": false,
+      "physics_skeleton_hash": "a6ce891be887628c4de7ad2e2b7072e4d5c04e46dab2dd32ef435ca22bea02af"
+    },
+    "comparison_features": {
+      "same_physical_setup": false,
+      "same_given_information": false,
+      "same_constraints": null,
+      "same_target": true,
+      "material_problem_difference": true
+    },
+    "candidate_metadata": {
+      "test_category": "UNCERTAIN",
+      "atom_a_statement": "A car, starting from rest, accelerates at the rate $f$ through a distance $S$, then continues at constant speed for time $t$ and then decelerates at the rate $\\frac{f}{2}$ to come to rest. If the total distance traversed is $15S$, then $S = \\frac{ft^2}{x}$. Find the value of $x$.",
+      "atom_b_statement": "A particle moves along a curved path. What is its velocity after 2 seconds?",
+      "atom_a_answer": "72",
+      "atom_b_answer": null
+    },
+    "created_at": "2026-09-28T04:48:17.015501Z"
+  },
+  {
+    "candidate_id": "cand-pilot-conflict-es-04",
+    "atom_a_id": "electrostatics-question-26848976",
+    "atom_b_id": "electrostatics-conflict-variant-04",
+    "generation_method": "CONTROLLED_PILOT",
+    "blocking_signals": [
+      "EXACT_PROBLEM_HASH",
+      "ANSWER_CONFLICT_TEST"
+    ],
+    "atom_a_fingerprint": {
+      "atom_id": "electrostatics-question-26848976",
+      "statement_normalized": "Figure shows a network of capacitors where the numbers indicate capacitances in micro Farad. The value of capacitance $C$ if the equivalent capacitance between point $A$ and $B$ is to be $1\\text{}\\mu\\text{F}$ is",
+      "statement_hash": "407be5fc4dbff5516904619c150b6fb1b12d291bcb42c3a338b8a6c50be42180",
+      "options_normalized": [
+        "$\\frac{31}{23}\\text{}\\mu\\text{F}$",
+        "$\\frac{32}{23}\\text{}\\mu\\text{F}$",
+        "$\\frac{33}{23}\\text{}\\mu\\text{F}$",
+        "$\\frac{34}{23}\\text{}\\mu\\text{F}$"
+      ],
+      "options_hash": "2c7fddb0e4090aa2a5adf912632bdb28814efc2372423157bd233fa96d2a3fe6",
+      "problem_hash": "a198992ebdd32b226d323d42b916de73ac5019d2904824d1833e1ead17328257",
+      "taxonomy_node": "capacitance/capacitor-networks-and-circuits/capacitor-network-bridge",
+      "chapter_id": "capacitance",
+      "topic_id": "capacitor-networks-and-circuits",
+      "subtopic_id": "capacitor-network-bridge",
+      "question_type": "MCQ",
+      "target_quantity": "capacitance",
+      "numerical_values": [
+        "1"
+      ],
+      "has_figure": true,
+      "physics_skeleton_hash": "9c87edbda0901d4d00b19be6adb5aee75767bd951e3b9b983bae85762439ae32"
+    },
+    "atom_b_fingerprint": {
+      "atom_id": "electrostatics-conflict-variant-04",
+      "statement_normalized": "Figure shows a network of capacitors where the numbers indicate capacitances in micro Farad. The value of capacitance $C$ if the equivalent capacitance between point $A$ and $B$ is to be $1\\text{}\\mu\\text{F}$ is",
+      "statement_hash": "407be5fc4dbff5516904619c150b6fb1b12d291bcb42c3a338b8a6c50be42180",
+      "options_normalized": [
+        "$\\frac{31}{23}\\text{}\\mu\\text{F}$",
+        "$\\frac{32}{23}\\text{}\\mu\\text{F}$",
+        "$\\frac{33}{23}\\text{}\\mu\\text{F}$",
+        "$\\frac{34}{23}\\text{}\\mu\\text{F}$"
+      ],
+      "options_hash": "2c7fddb0e4090aa2a5adf912632bdb28814efc2372423157bd233fa96d2a3fe6",
+      "problem_hash": "a198992ebdd32b226d323d42b916de73ac5019d2904824d1833e1ead17328257",
+      "taxonomy_node": "capacitance/capacitor-networks-and-circuits/capacitor-network-bridge",
+      "chapter_id": "capacitance",
+      "topic_id": "capacitor-networks-and-circuits",
+      "subtopic_id": "capacitor-network-bridge",
+      "question_type": "MCQ",
+      "target_quantity": "capacitance",
+      "numerical_values": [
+        "1"
+      ],
+      "has_figure": true,
+      "physics_skeleton_hash": "9c87edbda0901d4d00b19be6adb5aee75767bd951e3b9b983bae85762439ae32"
+    },
+    "comparison_features": {
+      "same_physical_setup": true,
+      "same_given_information": true,
+      "same_constraints": true,
+      "same_target": true,
+      "same_solution_structure": true,
+      "same_answer_structure": true,
+      "material_problem_difference": false
+    },
+    "candidate_metadata": {
+      "test_category": "ANSWER_CONFLICT",
+      "atom_a_statement": "Figure shows a network of capacitors where the numbers indicate capacitances in micro Farad. The value of capacitance $C$ if the equivalent capacitance between point $A$ and $B$ is to be $1\\text{ }\\mu\\text{F}$ is:",
+      "atom_b_statement": "Figure shows a network of capacitors where the numbers indicate capacitances in micro Farad. The value of capacitance $C$ if the equivalent capacitance between point $A$ and $B$ is to be $1\\text{ }\\mu\\text{F}$ is:",
+      "atom_a_answer": "A",
+      "atom_b_answer": "D"
+    },
+    "created_at": "2026-09-28T04:48:47.590014Z"
+  }
+]

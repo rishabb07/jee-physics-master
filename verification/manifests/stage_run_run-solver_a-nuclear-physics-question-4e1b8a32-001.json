@@ -1,0 +1,13 @@
+{
+  "manifest_id": "stage_run_run-solver_a-nuclear-physics-question-4e1b8a32-001",
+  "solver_run_id": "run-solver_a-nuclear-physics-question-4e1b8a32-001",
+  "solver_agent_name": "solver_a",
+  "atom_id": "nuclear-physics-question-4e1b8a32",
+  "atom_version": 1,
+  "content_hash": "07c86d3019ecff9986175e541ee4d71c9783cd539a6b2150a8c7b5881ca7f6b1",
+  "input_source_file": "C:\\Users\\Win11\\OneDrive\\Desktop\\Rishab\\jee physics master book test\\verification\\incoming\\solver_nuclear-physics-question-4e1b8a32_run-solver_a-nuclear-physics-question-4e1b8a32-001.json",
+  "staged_destination_file": "C:\\Users\\Win11\\OneDrive\\Desktop\\Rishab\\jee physics master book test\\verification\\solver_runs\\run-solver_a-nuclear-physics-question-4e1b8a32-001.json",
+  "independent_answer": "19035",
+  "timestamp": "2026-09-28T03:27:16.180831+00:00",
+  "status": "STAGED"
+}

@@ -1,0 +1,30 @@
+{
+  "verification_id": "cvr-misc-curr-01",
+  "artifact_id": "misc-curr-01",
+  "target_id": "misc-curr-01",
+  "artifact_version": 1,
+  "content_type": "MISCONCEPTION",
+  "content_hash": "4617155d667632c275723f4dae50fd29bf120f00aae9e90b473801090eb3ad3b",
+  "verifier_id": "content-verifier-electrodynamics-optics",
+  "verifier_conversation_id": "e9f3b7da-683c-457e-a22d-d6c43d8f1368",
+  "risk_level": "MEDIUM",
+  "verdict": "VERIFIED",
+  "assumptions_audited": true,
+  "assumptions_checked": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "numerical_check_passed": true,
+  "limiting_cases_audited": true,
+  "limiting_case_check_passed": true,
+  "claim_traces_verified": true,
+  "verification_notes": "Audited from first principles: Misconception that halving wire radius doubles its resistance verified. Even at constant length, R is proportional to 1/A = 1/(pi*r^2), so halving r quadruples resistance (4x). Under volume conservation V = A*l = constant, halving r reduces A to A/4 and quadruples length to 4*l, compounding to R proportional to 1/r^4. Ratio R_new / R_old = (r_old / (r_old / 2))^4 = 2^4 = 16x increase, not 2x. Physical refutation, mathematical derivation, and corrective pedagogical exposition verified.",
+  "independent_derivation_or_calculation": "Audited from first principles: Misconception that halving wire radius doubles its resistance verified. Even at constant length, R is proportional to 1/A = 1/(pi*r^2), so halving r quadruples resistance (4x). Under volume conservation V = A*l = constant, halving r reduces A to A/4 and quadruples length to 4*l, compounding to R proportional to 1/r^4. Ratio R_new / R_old = (r_old / (r_old / 2))^4 = 2^4 = 16x increase, not 2x. Physical refutation, mathematical derivation, and corrective pedagogical exposition verified.",
+  "findings": [
+    "Dual failure in naive assumption (confusing linear radius with area, and neglecting length elongation under volume conservation) clarified.",
+    "Exact factor of 16 derived from compounding 4x constriction and 4x elongation.",
+    "Distinction between cutting a wire vs recasting/drawing a wire emphasized."
+  ],
+  "discrepancies": [],
+  "created_at": "2026-09-28T22:45:35+05:30",
+  "timestamp": "2026-09-28T22:45:35+05:30"
+}

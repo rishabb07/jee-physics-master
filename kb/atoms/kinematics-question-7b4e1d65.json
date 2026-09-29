@@ -1,0 +1,63 @@
+{
+  "atom_id": "kinematics-question-7b4e1d65",
+  "schema_version": "1.0.0",
+  "atom_version": 1,
+  "active": true,
+  "atom_type": "question",
+  "title": "Distance traversed by car during acceleration, uniform speed, and deceleration",
+  "taxonomy": {
+    "chapter_id": "kinematics",
+    "topic_id": "rectilinear-motion",
+    "subtopic_id": "acceleration-and-deceleration"
+  },
+  "provenance": [
+    {
+      "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+      "file_name": "jee_rank_booster-03_mock_paper.pdf",
+      "file_path": "jee_rank_booster-03_mock_paper.pdf",
+      "page_start": 6,
+      "page_end": 6,
+      "source_locator": "Section - B, Q26",
+      "edition": null,
+      "extraction_metadata": {
+        "source_sha256": "256f42c67a9271aaafe4bf637eb34cddd10da959cdf7a66fc6fee76a68d34361"
+      }
+    }
+  ],
+  "confidence": 0.99,
+  "verification_status": "VERIFIED",
+  "content_hash": "4f0a71b1a15102e9c1e25ac6f5207de7b6b75ba65b9abd2555ebc3d7a773c595",
+  "created_at": "2026-09-28T01:00:00Z",
+  "updated_at": "2026-09-28T04:19:50.757382Z",
+  "content": null,
+  "formula": null,
+  "question": {
+    "statement": "A car, starting from rest, accelerates at the rate $f$ through a distance $S$, then continues at constant speed for time $t$ and then decelerates at the rate $\\frac{f}{2}$ to come to rest. If the total distance traversed is $15S$, then $S = \\frac{ft^2}{x}$. Find the value of $x$.",
+    "options": [],
+    "source_claimed_answer": "72",
+    "verified_answer": "72",
+    "source_solution": null,
+    "answer": "72",
+    "solution_methods": [],
+    "difficulty": "L2",
+    "exam_metadata": {
+      "exam": "JEE Rank Booster Mock",
+      "exam_name": "JEE Rank Booster Mock",
+      "year": null,
+      "paper": 3,
+      "question_number": "26"
+    },
+    "concepts": [
+      "kinematics",
+      "rectilinear-motion",
+      "uniform-acceleration",
+      "speed-time-graph"
+    ]
+  },
+  "solved_example": null,
+  "misconception": null,
+  "figure_refs": [],
+  "insight": null,
+  "duplicate_group_id": null,
+  "archive_reason": null
+}

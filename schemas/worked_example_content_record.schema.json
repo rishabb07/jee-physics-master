@@ -1,0 +1,342 @@
+{
+  "$defs": {
+    "ContentRiskLevel": {
+      "description": "Risk classification for physical content requiring calibrated verification rigor.",
+      "enum": [
+        "LOW",
+        "MEDIUM",
+        "HIGH"
+      ],
+      "title": "ContentRiskLevel",
+      "type": "string"
+    },
+    "ContentVerificationStatus": {
+      "description": "Lifecycle verification states for generated physics content.",
+      "enum": [
+        "UNVERIFIED",
+        "GENERATED",
+        "STAGED",
+        "VERIFIED",
+        "PROMOTABLE",
+        "REJECTED",
+        "CONFLICT",
+        "REVIEW",
+        "INVALIDATED"
+      ],
+      "title": "ContentVerificationStatus",
+      "type": "string"
+    },
+    "ProvenanceRecord": {
+      "description": "Represents a specific occurrence and physical location of knowledge within a source file.",
+      "properties": {
+        "source_id": {
+          "description": "Unique identifier of the registered source document",
+          "title": "Source Id",
+          "type": "string"
+        },
+        "file_name": {
+          "description": "Original filename of the source document",
+          "title": "File Name",
+          "type": "string"
+        },
+        "file_path": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Path or relative URI to source document",
+          "title": "File Path"
+        },
+        "page_start": {
+          "anyOf": [
+            {
+              "minimum": 1,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "1-based starting page number where available",
+          "title": "Page Start"
+        },
+        "page_end": {
+          "anyOf": [
+            {
+              "minimum": 1,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "1-based ending page number where available",
+          "title": "Page End"
+        },
+        "source_locator": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Human-readable location (e.g. Chapter 3, Example 12, Q14)",
+          "title": "Source Locator"
+        },
+        "edition": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Edition or printing identifier of the source",
+          "title": "Edition"
+        },
+        "extraction_metadata": {
+          "additionalProperties": true,
+          "description": "Metadata captured during extraction",
+          "title": "Extraction Metadata",
+          "type": "object"
+        }
+      },
+      "required": [
+        "source_id",
+        "file_name"
+      ],
+      "title": "ProvenanceRecord",
+      "type": "object"
+    },
+    "WorkedExampleSolutionStep": {
+      "description": "An individual step in a worked example solution.",
+      "properties": {
+        "step_number": {
+          "description": "1-indexed step sequence",
+          "minimum": 1,
+          "title": "Step Number",
+          "type": "integer"
+        },
+        "principle_applied": {
+          "description": "Governing physical principle or formula",
+          "title": "Principle Applied",
+          "type": "string"
+        },
+        "equation": {
+          "description": "Symbolic algebraic equation",
+          "title": "Equation",
+          "type": "string"
+        },
+        "substitution": {
+          "description": "Numerical substitution with units",
+          "title": "Substitution",
+          "type": "string"
+        },
+        "intermediate_result": {
+          "description": "Step result with units",
+          "title": "Intermediate Result",
+          "type": "string"
+        }
+      },
+      "required": [
+        "step_number",
+        "principle_applied",
+        "equation",
+        "substitution",
+        "intermediate_result"
+      ],
+      "title": "WorkedExampleSolutionStep",
+      "type": "object"
+    }
+  },
+  "description": "A fully-structured worked example with physical strategy and sanity checks.",
+  "properties": {
+    "example_id": {
+      "description": "Unique example identifier",
+      "minLength": 1,
+      "title": "Example Id",
+      "type": "string"
+    },
+    "problem_statement": {
+      "description": "Problem statement with LaTeX math",
+      "minLength": 5,
+      "title": "Problem Statement",
+      "type": "string"
+    },
+    "known_quantities": {
+      "additionalProperties": {
+        "type": "string"
+      },
+      "description": "Given quantities with symbols and units",
+      "title": "Known Quantities",
+      "type": "object"
+    },
+    "target_quantity": {
+      "description": "Target quantity to calculate",
+      "minLength": 1,
+      "title": "Target Quantity",
+      "type": "string"
+    },
+    "relevant_concepts": {
+      "description": "Core physical concepts exercised",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "title": "Relevant Concepts",
+      "type": "array"
+    },
+    "governing_principles": {
+      "description": "Governing laws or theorems",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "title": "Governing Principles",
+      "type": "array"
+    },
+    "solution_strategy": {
+      "description": "High-level solution strategy",
+      "minLength": 5,
+      "title": "Solution Strategy",
+      "type": "string"
+    },
+    "ordered_steps": {
+      "description": "Solution steps",
+      "items": {
+        "$ref": "#/$defs/WorkedExampleSolutionStep"
+      },
+      "minItems": 1,
+      "title": "Ordered Steps",
+      "type": "array"
+    },
+    "final_answer": {
+      "description": "Exact verified final result",
+      "minLength": 1,
+      "title": "Final Answer",
+      "type": "string"
+    },
+    "units": {
+      "description": "SI units of final result",
+      "minLength": 1,
+      "title": "Units",
+      "type": "string"
+    },
+    "sanity_checks": {
+      "description": "Limiting cases, dimensions, orders of magnitude",
+      "items": {
+        "type": "string"
+      },
+      "title": "Sanity Checks",
+      "type": "array"
+    },
+    "alternate_methods": {
+      "description": "Alternative solution approaches",
+      "items": {
+        "type": "string"
+      },
+      "title": "Alternate Methods",
+      "type": "array"
+    },
+    "source_atom_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Canonical atom ID if adapted from verified atom",
+      "title": "Source Atom Id"
+    },
+    "provenance": {
+      "description": "Source provenance records",
+      "items": {
+        "$ref": "#/$defs/ProvenanceRecord"
+      },
+      "title": "Provenance",
+      "type": "array"
+    },
+    "risk_level": {
+      "$ref": "#/$defs/ContentRiskLevel",
+      "default": "MEDIUM"
+    },
+    "verification_status": {
+      "$ref": "#/$defs/ContentVerificationStatus",
+      "default": "GENERATED"
+    },
+    "verification_record_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Bound verification record ID",
+      "title": "Verification Record Id"
+    },
+    "content_hash": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "SHA-256 hash of normalized example payload",
+      "title": "Content Hash"
+    },
+    "generator_identity": {
+      "description": "Authoring agent name",
+      "minLength": 1,
+      "title": "Generator Identity",
+      "type": "string"
+    },
+    "generator_conversation_id": {
+      "description": "Authoring conversation ID",
+      "minLength": 1,
+      "title": "Generator Conversation Id",
+      "type": "string"
+    },
+    "created_at": {
+      "format": "date-time",
+      "title": "Created At",
+      "type": "string"
+    }
+  },
+  "required": [
+    "example_id",
+    "problem_statement",
+    "known_quantities",
+    "target_quantity",
+    "relevant_concepts",
+    "governing_principles",
+    "solution_strategy",
+    "ordered_steps",
+    "final_answer",
+    "units",
+    "generator_identity",
+    "generator_conversation_id"
+  ],
+  "title": "WorkedExampleContentRecord",
+  "type": "object"
+}

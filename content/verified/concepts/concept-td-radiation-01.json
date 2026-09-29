@@ -1,0 +1,44 @@
+{
+  "content_id": "concept-td-radiation-01",
+  "curriculum_id": "curr-td-02",
+  "taxonomy_reference": {
+    "chapter_id": "thermodynamics",
+    "topic_id": "special-thermodynamic-processes",
+    "subtopic_id": "radiation-thermodynamics"
+  },
+  "title": "Radiation Thermodynamics and the Relativistic Photon Gas",
+  "learning_objective": "Apply the principles of thermodynamics to blackbody electromagnetic radiation (photon gas), derive the energy density $u = a T^4$ and radiation pressure $P = \\frac{1}{3} u$, and determine the adiabatic expansion scaling relation $T^3 V = \\text{constant}$ ($T R = \\text{constant}$).",
+  "intuition": "Imagine an empty spherical cavity with perfectly reflecting, movable walls in thermal equilibrium at temperature $T$. The cavity is not truly empty: it is filled with a gas of photons continuously emitted and absorbed by the walls. Unlike a classical gas of molecules, photons travel at the speed of light ($c$) and carry linear momentum $p = E/c$. Because photons have ultra-relativistic momentum, their collisions with the walls exert an outward radiation pressure $P = \\frac{1}{3} u$, where $u$ is the energy density. If the cavity slowly expands adiabatically, the expanding cavity does work on the walls at the expense of radiant photon energy, causing the radiation to cool according to $T R = \\text{constant}$, which is identical to the cosmological redshift of cosmic microwave background radiation during cosmic expansion.",
+  "formal_definition": "Blackbody radiation enclosed within a volume $V$ in thermal equilibrium at absolute temperature $T$ constitutes a photon gas characterized by an internal energy density $u(T) = a T^4$, where $a = 4\\sigma/c$ is the radiation constant and $\\sigma$ is the Stefan-Boltzmann constant. Due to the relativistic dispersion relation $E = pc$ and isotropic photon flux, the radiation pressure is isotropic and given by $P = \\frac{1}{3} u = \\frac{1}{3} a T^4$. For a reversible adiabatic expansion ($dQ = 0$), the First Law dictates $d(u V) + P dV = 0$, leading to the adiabatic scaling $T^3 V = \\text{constant}$ (or $T V^{1/3} = \\text{constant}$), which for a spherical cavity of radius $R$ corresponds to $T R = \\text{constant}$.",
+  "explanation": "Radiation thermodynamics represents an exquisite bridge connecting classical thermodynamics, electromagnetism, and quantum statistical mechanics.\n\n### 1. Energy Density and Stefan-Boltzmann Law\nAn enclosure maintained at uniform temperature $T$ is filled with isotropic blackbody electromagnetic radiation. The total internal energy $U$ in volume $V$ is given by:\n$$U = u(T) V = a V T^4$$\nwhere $u(T) = a T^4$ is the spectral-integrated energy density, and $a = \\frac{4\\sigma}{c} \\approx 7.5657 \\times 10^{-16} \\text{ J}/(\\text{m}^3\\cdot\\text{K}^4)$. Unlike a classical gas where internal energy depends on the number of particles $N$, here photons are constantly created and destroyed by cavity walls to maintain thermal equilibrium, corresponding to zero chemical potential: $\\mu = 0$.\n\n### 2. Radiation Pressure from Relativistic Kinematics\nEvery photon possesses energy $E$ and relativistic momentum $\\vec{p}$ related by $E = p c$. When an isotropic distribution of photons reflects from a cavity wall, the momentum transferred per unit area per unit time establishes the radiation pressure:\n$$P = \\frac{1}{3} u = \\frac{1}{3} a T^4$$\nNotice the contrast with a non-relativistic monoatomic ideal gas, where $E_k = \\frac{p^2}{2m}$ yields $P = \\frac{2}{3} u_{\\text{kin}}$. For relativistic particles with $E = pc$, the factor is $\\frac{1}{3}$ rather than $\\frac{2}{3}$.\n\n### 3. Reversible Adiabatic Expansion of a Photon Gas\nConsider a cavity with perfectly reflecting walls undergoing a slow, reversible adiabatic expansion ($dQ = 0$). By the First Law of Thermodynamics:\n$$dQ = dU + P dV = 0 \\implies d(u V) + P dV = 0$$\nSubstituting $u = a T^4$ and $P = \\frac{1}{3} a T^4$:\n$$d(a V T^4) + \\frac{1}{3} a T^4 dV = 0$$\nApplying the product rule:\n$$a T^4 dV + 4 a V T^3 dT + \\frac{1}{3} a T^4 dV = 0 \\implies 4 a V T^3 dT + \\frac{4}{3} a T^4 dV = 0$$\nDividing through by $\\frac{4}{3} a V T^4$:\n$$3 \\frac{dT}{T} + \\frac{dV}{V} = 0 \\implies \\frac{dT}{T} + \\frac{1}{3} \\frac{dV}{V} = 0$$\nIntegrating yields:\n$$3 \\ln T + \\ln V = \\text{constant} \\implies \\ln(T^3 V) = \\text{constant} \\implies T^3 V = \\text{constant}$$\nEquivalently, taking the cube root:\n$$T V^{1/3} = \\text{constant}$$\nFor a spherical cavity of radius $R$, the volume is $V = \\frac{4}{3}\\pi R^3 \\propto R^3$. Substituting $V \\propto R^3$:\n$$T (R^3)^{1/3} = \\text{constant} \\implies T R = \\text{constant}$$\nThis explains why cosmic microwave background radiation cools proportionally to $T \\propto 1/R$ as the universe expands!",
+  "assumptions": [
+    "The radiation is blackbody radiation in complete thermodynamic equilibrium with the cavity walls.",
+    "The photon gas is isotropic, unpolarized on average, and obeys Planck's spectral distribution.",
+    "The cavity expansion is quasi-static and adiabatic ($dQ = 0$).",
+    "Photons are ultra-relativistic particles obeying $E = pc$."
+  ],
+  "boundary_conditions": [
+    "Applies to thermal photon gases and ultra-relativistic degenerate gases ($E \\approx pc$).",
+    "Does NOT apply to non-relativistic classical monoatomic or diatomic gases.",
+    "Radiation pressure $P = \\frac{1}{3} a T^4$ requires three spatial dimensions ($d=3$); in $d$ dimensions, $P = u/d$."
+  ],
+  "related_formula_ids": [
+    "formula-td-radiation-adiabatic"
+  ],
+  "prerequisite_refs": [
+    "curr-td-02"
+  ],
+  "source_references": [
+    "Feynman, Richard P. The Feynman Lectures on Physics.pdf",
+    "jee_rank_booster-03_mock_paper.pdf"
+  ],
+  "generation_metadata": {
+    "agent": "content_generator",
+    "version": "1.0",
+    "target_chapter": "thermodynamics"
+  },
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-concept-td-radiation-01",
+  "content_hash": "32ec267c4bfc7e9f6b910d0548c3e6092e7d4fbc239cbcbaa452f1c0e3170ff9",
+  "created_at": "2026-09-28T22:30:00Z"
+}

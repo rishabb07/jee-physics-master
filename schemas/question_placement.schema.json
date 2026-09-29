@@ -1,0 +1,289 @@
+{
+  "$defs": {
+    "DifficultyDimensions": {
+      "description": "Structured multi-dimensional difficulty model.\n\nPrevents reducing cognitive complexity to an arbitrary single score.\nRatings for each dimension range from 1 (minimal) to 5 (extreme).\n\nCRITICAL METHODOLOGICAL DISTINCTION:\n- The six individual dimension ratings (1-5) are rubric-derived pedagogical judgments.\n- The composite scoring formula and weighting constants are project-defined policy (PEDAGOGICAL_PROJECT_POLICY),\n  not an official NTA/IIT JEE standard.\n- Once the six dimension ratings are provided, the composite score and derived difficulty band\n  are deterministically and reproducibly computed by the system.",
+      "properties": {
+        "conceptual_difficulty": {
+          "description": "Depth of physical insight required (1-5)",
+          "maximum": 5,
+          "minimum": 1,
+          "title": "Conceptual Difficulty",
+          "type": "integer"
+        },
+        "mathematical_difficulty": {
+          "description": "Complexity of algebraic or calculus tools (1-5)",
+          "maximum": 5,
+          "minimum": 1,
+          "title": "Mathematical Difficulty",
+          "type": "integer"
+        },
+        "multistep_reasoning_difficulty": {
+          "description": "Number of logical steps and linkages (1-5)",
+          "maximum": 5,
+          "minimum": 1,
+          "title": "Multistep Reasoning Difficulty",
+          "type": "integer"
+        },
+        "abstraction_difficulty": {
+          "description": "Distance from tangible, intuitive intuition (1-5)",
+          "maximum": 5,
+          "minimum": 1,
+          "title": "Abstraction Difficulty",
+          "type": "integer"
+        },
+        "computational_burden": {
+          "description": "Arithmetical density or algebraic length (1-5)",
+          "maximum": 5,
+          "minimum": 1,
+          "title": "Computational Burden",
+          "type": "integer"
+        },
+        "trap_misconception_difficulty": {
+          "description": "Presence of subtle sign/frame/constraint traps (1-5)",
+          "maximum": 5,
+          "minimum": 1,
+          "title": "Trap Misconception Difficulty",
+          "type": "integer"
+        },
+        "derived_difficulty_band": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/DifficultyLevel"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Derived standard difficulty rating L1-L5"
+        },
+        "weighting_policy": {
+          "default": "PEDAGOGICAL_PROJECT_POLICY",
+          "description": "Source of weighting constants: 2.0*Conc + 2.0*Multi + 1.5*Math + 1.5*Abs + 1.0*Trap + 0.8*Comp",
+          "title": "Weighting Policy",
+          "type": "string"
+        }
+      },
+      "required": [
+        "conceptual_difficulty",
+        "mathematical_difficulty",
+        "multistep_reasoning_difficulty",
+        "abstraction_difficulty",
+        "computational_burden",
+        "trap_misconception_difficulty"
+      ],
+      "title": "DifficultyDimensions",
+      "type": "object"
+    },
+    "DifficultyLevel": {
+      "enum": [
+        "L1",
+        "L2",
+        "L3",
+        "L4",
+        "L5"
+      ],
+      "title": "DifficultyLevel",
+      "type": "string"
+    },
+    "PedagogicalRole": {
+      "description": "The learning and narrative role of a curriculum element.",
+      "enum": [
+        "FOUNDATION_CONCEPT",
+        "CORE_PRINCIPLE",
+        "DERIVATION",
+        "WORKED_EXAMPLE",
+        "QUESTION_LADDER",
+        "PRACTICE_QUESTION",
+        "ADVANCED_SYNTHESIS",
+        "COMMON_MISCONCEPTION",
+        "REVISION_SUMMARY",
+        "HISTORICAL_NOTE",
+        "INTUITION_BUILDER"
+      ],
+      "title": "PedagogicalRole",
+      "type": "string"
+    },
+    "ProvenanceRecord": {
+      "description": "Represents a specific occurrence and physical location of knowledge within a source file.",
+      "properties": {
+        "source_id": {
+          "description": "Unique identifier of the registered source document",
+          "title": "Source Id",
+          "type": "string"
+        },
+        "file_name": {
+          "description": "Original filename of the source document",
+          "title": "File Name",
+          "type": "string"
+        },
+        "file_path": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Path or relative URI to source document",
+          "title": "File Path"
+        },
+        "page_start": {
+          "anyOf": [
+            {
+              "minimum": 1,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "1-based starting page number where available",
+          "title": "Page Start"
+        },
+        "page_end": {
+          "anyOf": [
+            {
+              "minimum": 1,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "1-based ending page number where available",
+          "title": "Page End"
+        },
+        "source_locator": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Human-readable location (e.g. Chapter 3, Example 12, Q14)",
+          "title": "Source Locator"
+        },
+        "edition": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Edition or printing identifier of the source",
+          "title": "Edition"
+        },
+        "extraction_metadata": {
+          "additionalProperties": true,
+          "description": "Metadata captured during extraction",
+          "title": "Extraction Metadata",
+          "type": "object"
+        }
+      },
+      "required": [
+        "source_id",
+        "file_name"
+      ],
+      "title": "ProvenanceRecord",
+      "type": "object"
+    }
+  },
+  "description": "Placement of a verified canonical question within a chapter or topic.",
+  "properties": {
+    "atom_id": {
+      "description": "Verified canonical atom ID",
+      "minLength": 1,
+      "title": "Atom Id",
+      "type": "string"
+    },
+    "curriculum_id": {
+      "description": "Curriculum unit ID",
+      "minLength": 1,
+      "title": "Curriculum Id",
+      "type": "string"
+    },
+    "chapter_id": {
+      "description": "Chapter slug",
+      "minLength": 1,
+      "title": "Chapter Id",
+      "type": "string"
+    },
+    "topic_id": {
+      "description": "Topic slug",
+      "minLength": 1,
+      "title": "Topic Id",
+      "type": "string"
+    },
+    "pedagogical_role": {
+      "$ref": "#/$defs/PedagogicalRole",
+      "default": "PRACTICE_QUESTION",
+      "description": "Role of this question"
+    },
+    "difficulty_dimensions": {
+      "$ref": "#/$defs/DifficultyDimensions",
+      "description": "Multi-dimensional difficulty breakdown"
+    },
+    "prerequisite_concept_ids": {
+      "description": "Concept IDs student must know before solving",
+      "items": {
+        "type": "string"
+      },
+      "title": "Prerequisite Concept Ids",
+      "type": "array"
+    },
+    "question_ladder_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "ID of parent ladder if part of a ladder",
+      "title": "Question Ladder Id"
+    },
+    "question_ladder_position": {
+      "anyOf": [
+        {
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Rung position in ladder if applicable",
+      "title": "Question Ladder Position"
+    },
+    "source_provenance": {
+      "description": "Original source provenance",
+      "items": {
+        "$ref": "#/$defs/ProvenanceRecord"
+      },
+      "title": "Source Provenance",
+      "type": "array"
+    }
+  },
+  "required": [
+    "atom_id",
+    "curriculum_id",
+    "chapter_id",
+    "topic_id",
+    "difficulty_dimensions"
+  ],
+  "title": "QuestionPlacement",
+  "type": "object"
+}

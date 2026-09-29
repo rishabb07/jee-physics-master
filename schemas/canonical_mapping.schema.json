@@ -1,0 +1,74 @@
+{
+  "description": "Immutable persistent mapping from an original atom to its canonical representative.",
+  "properties": {
+    "original_atom_id": {
+      "minLength": 1,
+      "title": "Original Atom Id",
+      "type": "string"
+    },
+    "canonical_atom_id": {
+      "minLength": 1,
+      "title": "Canonical Atom Id",
+      "type": "string"
+    },
+    "cluster_id": {
+      "minLength": 1,
+      "title": "Cluster Id",
+      "type": "string"
+    },
+    "reason": {
+      "minLength": 1,
+      "title": "Reason",
+      "type": "string"
+    },
+    "decision_id": {
+      "minLength": 1,
+      "title": "Decision Id",
+      "type": "string"
+    },
+    "classifier_identity": {
+      "title": "Classifier Identity",
+      "type": "string"
+    },
+    "conversation_id": {
+      "title": "Conversation Id",
+      "type": "string"
+    },
+    "source_provenance": {
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "title": "Source Provenance",
+      "type": "array"
+    },
+    "atom_version": {
+      "default": 1,
+      "minimum": 1,
+      "title": "Atom Version",
+      "type": "integer"
+    },
+    "content_hash": {
+      "minLength": 16,
+      "title": "Content Hash",
+      "type": "string"
+    },
+    "applied_at": {
+      "format": "date-time",
+      "title": "Applied At",
+      "type": "string"
+    }
+  },
+  "required": [
+    "original_atom_id",
+    "canonical_atom_id",
+    "cluster_id",
+    "reason",
+    "decision_id",
+    "classifier_identity",
+    "conversation_id",
+    "content_hash"
+  ],
+  "title": "CanonicalMapping",
+  "type": "object"
+}

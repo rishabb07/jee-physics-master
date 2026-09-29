@@ -1,0 +1,14 @@
+{
+  "promotion_id": "promo-ray-optics-question-e04c1df3-012bb8",
+  "atom_id": "ray-optics-question-e04c1df3",
+  "verification_id": "verif-ray-optics-question-e04c1df3-3456b9",
+  "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+  "atom_version": 1,
+  "staged_path": "build/staging/atoms/batch_src-jee-rank-booster-03-mock-256f42c6_20260928_031838_7b76.jsonl",
+  "canonical_path": "kb\\atoms\\ray-optics-question-e04c1df3.json",
+  "verdict": "VERIFIED",
+  "source_claimed_answer": null,
+  "verified_answer": "C",
+  "timestamp": "2026-09-28T03:29:19.532003Z",
+  "promoted_by": "promotion_gate"
+}

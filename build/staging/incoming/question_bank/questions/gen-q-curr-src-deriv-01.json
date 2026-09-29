@@ -1,0 +1,96 @@
+{
+  "question_id": "gen-q-curr-src-deriv-01",
+  "version": 1,
+  "origin": "SOURCE_DERIVATIVE",
+  "curriculum_id": "curr-curr-03",
+  "taxonomy_reference": {
+    "chapter_id": "current-electricity",
+    "topic_id": "dc-circuits",
+    "subtopic_id": "measuring-instruments"
+  },
+  "concept_references": [
+    "concept-curr-meters-01"
+  ],
+  "prerequisite_references": [
+    "curr-curr-02"
+  ],
+  "target_exam_level": "JEE_MAIN",
+  "question_type": "SINGLE_CORRECT_MCQ",
+  "statement": "A moving coil galvanometer has a coil resistance of $G = 50.0\\,\\Omega$ and produces full-scale deflection for a current of $I_g = 2.0\\text{ mA}$. To convert this galvanometer into an ammeter capable of measuring currents up to $I = 5.0\\text{ A}$, the required shunt resistance $S$ to be connected in parallel is approximately:",
+  "diagram_references": [],
+  "options": {
+    "A": "$0.020\\,\\Omega$",
+    "B": "$0.050\\,\\Omega$",
+    "C": "$0.100\\,\\Omega$",
+    "D": "$1.000\\,\\Omega$"
+  },
+  "correct_answer": "A",
+  "solution_strategy": "Equate parallel voltage drops across galvanometer coil and shunt resistor, use Kirchhoff's Current Law I_s = I - I_g, and calculate S = (I_g * G) / (I - I_g).",
+  "solution": "1. Circuit Configuration:\nTo convert a galvanometer of resistance $G$ into an ammeter of range $I$, a small shunt resistor $S$ is connected in parallel with the coil.\n2. Kirchhoff's Current Law:\nThe total current $I$ divides at the input node:\n$$I = I_g + I_s \\implies I_s = I - I_g$$\n3. Parallel Voltage Matching:\nThe potential difference across the parallel branches must be equal:\n$$V_s = V_g \\implies I_s S = I_g G$$\n$$S = \\frac{I_g G}{I - I_g}$$\n4. Substitution:\nGiven $G = 50.0\\,\\Omega$, $I_g = 2.0\\text{ mA} = 2.0 \\times 10^{-3}\\text{ A}$, and $I = 5.0\\text{ A}$:\n$$I - I_g = 5.0 - 0.002 = 4.998\\text{ A}$$\n$$S = \\frac{2.0 \\times 10^{-3} \\times 50.0}{4.998} = \\frac{0.100}{4.998} \\approx 0.020008\\,\\Omega \\approx 0.020\\,\\Omega$$\nThis corresponds uniquely to Option A.",
+  "assumptions": [
+    "Ideal parallel junction with zero lead resistance",
+    "Uniform magnetic field and linear torque-deflection relation in moving coil"
+  ],
+  "numerical_values": {
+    "galvanometer_resistance": 50.0,
+    "full_scale_galvanometer_current": 0.002,
+    "target_ammeter_current": 5.0
+  },
+  "units": "Ohm",
+  "tolerance": 0.02,
+  "intended_learning_objective": "Calculate shunt resistance for galvanometer ammeter conversion across multi-decade current ranges.",
+  "difficulty_dimensions": {
+    "conceptual_difficulty": 2,
+    "mathematical_difficulty": 2,
+    "multistep_reasoning_difficulty": 2,
+    "abstraction_difficulty": 2,
+    "computational_burden": 2,
+    "trap_misconception_difficulty": 2,
+    "derived_difficulty_band": "L2",
+    "weighting_policy": "PEDAGOGICAL_PROJECT_POLICY"
+  },
+  "difficulty_band": "L2",
+  "misconception_targeted": "misc-curr-02",
+  "distractor_rationales": [
+    {
+      "option_key": "B",
+      "distractor_value": "$0.050\\,\\Omega$",
+      "likely_misconception": "misc-curr-series-shunt",
+      "student_rationale": "Student computes S = I_g * G / 2 or makes a decimal point shifting error (multiplying instead of dividing by full scale current).",
+      "physical_error": "Parallel voltage matching requires S (I - I_g) = I_g G. Setting S = 0.050 Ohm yields full-scale range I = I_g (1 + G/S) = 2 mA (1 + 1000) = 2.002 A, which fails to achieve the target 5.0 A measurement range.",
+      "error_category": "ARITHMETIC_SCALING_ERROR"
+    },
+    {
+      "option_key": "C",
+      "distractor_value": "$0.100\\,\\Omega$",
+      "likely_misconception": "misc-curr-volt-drop",
+      "student_rationale": "Student evaluates the full-scale voltage drop V_g = I_g G = 0.002 * 50 = 0.100 V and forgets to divide by the shunt current I - I_g approx 5 A.",
+      "physical_error": "0.100 is the voltage drop V_g in Volts across the galvanometer coil, not the resistance in Ohms. Dividing voltage by unit current instead of 5 A is a dimensional and algebraic omission.",
+      "error_category": "DIMENSIONAL_CONFUSION"
+    },
+    {
+      "option_key": "D",
+      "distractor_value": "$1.000\\,\\Omega$",
+      "likely_misconception": "misc-curr-unit-milli-slip",
+      "student_rationale": "Student forgets the milli prefix (10^-3) on I_g, treating 2.0 mA as 0.1 A or neglects order of magnitude.",
+      "physical_error": "Omitting the 10^-3 factor for milliamperes leads to an overestimate of shunt resistance by a factor of 50, which would draw far too little shunt current and burn out the delicate galvanometer coil.",
+      "error_category": "METRIC_PREFIX_ERROR"
+    }
+  ],
+  "source_grounding": {
+    "relationship_type": "SOURCE_DERIVATIVE",
+    "source_atom_id": "current-electricity-question-3a1b8c4d",
+    "transformation_type": "PARAMETER_VARIATION",
+    "what_changed": "Changed coil resistance from 100 to 50 Ohm and current range to 5A",
+    "why_pedagogically_distinct": "Exercises multi-decade scale difference between mA coil and Ampere shunt"
+  },
+  "risk_level": "MEDIUM",
+  "generation_metadata": {
+    "generator_agent": "physics-question-generator",
+    "author_model": "claude-3-7-sonnet"
+  },
+  "content_hash": "f95f71b98f539d63a414d060f142a5d52ac27037aa703f58ca940e5f83127c25",
+  "verification_status": "GENERATED",
+  "verification_record_id": null,
+  "created_at": "2026-09-29T08:30:00Z"
+}

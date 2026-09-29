@@ -1,0 +1,84 @@
+{
+  "atom_id": "electrostatics-question-26848976",
+  "schema_version": "1.0.0",
+  "atom_version": 1,
+  "active": true,
+  "atom_type": "question",
+  "title": "Capacitor Network — Find C for Given Equivalent Capacitance",
+  "taxonomy": {
+    "chapter_id": "capacitance",
+    "topic_id": "capacitor-networks-and-circuits",
+    "subtopic_id": "capacitor-network-bridge"
+  },
+  "provenance": [
+    {
+      "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+      "file_name": "jee_rank_booster-03_mock_paper.pdf",
+      "file_path": null,
+      "page_start": 3,
+      "page_end": 3,
+      "source_locator": "Section - A, Q10",
+      "edition": null,
+      "extraction_metadata": {}
+    }
+  ],
+  "confidence": 0.95,
+  "verification_status": "VERIFIED",
+  "content_hash": "d7020c8e10f9bb41d499b728f1ffe03e59d5938e3d6677fa810e352181960f16",
+  "created_at": "2026-09-28T03:18:38.636794Z",
+  "updated_at": "2026-09-28T04:19:50.721770Z",
+  "content": null,
+  "formula": null,
+  "question": {
+    "statement": "Figure shows a network of capacitors where the numbers indicate capacitances in micro Farad. The value of capacitance $C$ if the equivalent capacitance between point $A$ and $B$ is to be $1\\text{ }\\mu\\text{F}$ is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{32}{23}\\text{ }\\mu\\text{F}$"
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{31}{23}\\text{ }\\mu\\text{F}$"
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{33}{23}\\text{ }\\mu\\text{F}$"
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{34}{23}\\text{ }\\mu\\text{F}$"
+      }
+    ],
+    "source_claimed_answer": "A",
+    "verified_answer": "A",
+    "source_solution": null,
+    "answer": "A",
+    "solution_methods": [],
+    "difficulty": "L3",
+    "exam_metadata": {
+      "exam": "JEE Rank Booster Mock",
+      "exam_name": "JEE Rank Booster Mock",
+      "year": null,
+      "paper": 3,
+      "question_number": "10"
+    },
+    "concepts": [
+      "capacitor networks",
+      "equivalent capacitance",
+      "series-parallel combination",
+      "Wheatstone bridge analog"
+    ]
+  },
+  "solved_example": null,
+  "misconception": null,
+  "figure_refs": [
+    {
+      "figure_id": "fig-q10-capacitor-network",
+      "caption": "Network of capacitors with values C, 1, 8, 2, 2, 12, 6, 4 μF between terminals A and B",
+      "alt_text": "A complex capacitor network between points A (left) and B (right). From A, the circuit splits into upper and lower branches. The upper branch has capacitor C in series with 1 μF. From the junction after C, 8 μF goes down and 6 μF goes right to a node connecting to 4 μF going to B. The lower branch from A has 2 μF, then from that junction 2 μF goes right, and 12 μF connects between middle nodes. The network forms a bridge-like structure."
+    }
+  ],
+  "insight": null,
+  "duplicate_group_id": null,
+  "archive_reason": null
+}

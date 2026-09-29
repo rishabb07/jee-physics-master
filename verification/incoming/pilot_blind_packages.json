@@ -1,0 +1,225 @@
+[
+  {
+    "package_id": "pkg-rotational-motion-question-84f91c20-3e9d64b3",
+    "atom_id": "rotational-motion-question-84f91c20",
+    "atom_version": 1,
+    "content_hash": "729335ea8d2363b7b4f02d4c22c2c28352bc06a5093b5760855b1c5a20a7ff38",
+    "blind_package_hash": "762971ec073a0db8fcac144b5f054efeee108518a11e36347f41c0214d4655fc",
+    "statement": "A thin horizontal circular disc is rotating about a vertical axis passing through its centre. An insect is at rest at a point near the rim of the disc. The insect now moves along a diameter of the disc to reach its other end. During the journey of the insect, the angular speed of the disc",
+    "options": [
+      {
+        "id": "A",
+        "text": "continuously decreases"
+      },
+      {
+        "id": "B",
+        "text": "continuously increases"
+      },
+      {
+        "id": "C",
+        "text": "first increases and then decreases"
+      },
+      {
+        "id": "D",
+        "text": "remains unchanged"
+      }
+    ],
+    "figure_refs": [],
+    "difficulty": "L2",
+    "concepts": [
+      "rotational-motion",
+      "conservation-of-angular-momentum",
+      "moment-of-inertia"
+    ],
+    "exam_metadata": {
+      "exam": "JEE Main Mock",
+      "year": null,
+      "paper": null,
+      "question_number": "12"
+    },
+    "context_notes": null
+  },
+  {
+    "package_id": "pkg-current-electricity-question-3a1b8c4d-1f29c6fe",
+    "atom_id": "current-electricity-question-3a1b8c4d",
+    "atom_version": 1,
+    "content_hash": "5191a1c0c5850b6fa92086f0bf29a9b6544e9692f7cafc452719aebd3abff836",
+    "blind_package_hash": "a50da228a8a90db355b8e345b17ee15d5cafda983986a14657073602a07847fc",
+    "statement": "An ideal ammeter (zero resistance) and an ideal voltmeter (infinite resistance) are connected as shown. The ammeter and voltmeter reading for $R_{1} = 5\\,\\Omega$, $R_{2} = 15\\,\\Omega$, $R_{3} = 1.25\\,\\Omega$ and $E = 20\\text{ V}$ are given as",
+    "options": [
+      {
+        "id": "A",
+        "text": "$6.25\\text{ A},\\; 3.75\\text{ V}$"
+      },
+      {
+        "id": "B",
+        "text": "$3.00\\text{ A},\\; 5\\text{ V}$"
+      },
+      {
+        "id": "C",
+        "text": "$3.75\\text{ A},\\; 3.75\\text{ V}$"
+      },
+      {
+        "id": "D",
+        "text": "$6.25\\text{ A},\\; 6.25\\text{ V}$"
+      }
+    ],
+    "figure_refs": [
+      {
+        "figure_id": "fig-src-jee-rank-booster-03-mock-p04-q13",
+        "caption": "Circuit diagram showing parallel branches with $R_1 = 5\\,\\Omega$ in series with an ammeter, and $R_2 = 15\\,\\Omega$, connected in series with $R_3 = 1.25\\,\\Omega$ and a parallel voltmeter across $R_3$, powered by an EMF source $E = 20\\text{ V}$.",
+        "alt_text": "Electrical circuit diagram with a DC voltage source of 20 V connected to a network. The network consists of a parallel combination of two branches: one branch containing resistor R1 = 5 ohms in series with an ideal ammeter A, and the second branch containing resistor R2 = 15 ohms. This parallel block is in series with resistor R3 = 1.25 ohms, across which an ideal voltmeter V is connected in parallel."
+      }
+    ],
+    "difficulty": "L2",
+    "concepts": [
+      "current-electricity",
+      "ohms-law",
+      "ammeter",
+      "voltmeter",
+      "kirchhoffs-laws"
+    ],
+    "exam_metadata": {
+      "exam": "JEE Main Mock",
+      "year": null,
+      "paper": null,
+      "question_number": "13"
+    },
+    "context_notes": null
+  },
+  {
+    "package_id": "pkg-thermodynamics-question-7e2f5a91-fca63f1c",
+    "atom_id": "thermodynamics-question-7e2f5a91",
+    "atom_version": 1,
+    "content_hash": "8c521079bd7785f9c5dcc9407efb7a64479712a6fe55265b17182196b1e8b2c2",
+    "blind_package_hash": "9783d1e1cab85cf6960ff0521e9694a4e5f3b62c3bfd30207187ea9177297976",
+    "statement": "A monoatomic ideal gas is filled in a nonconducting container. The gas can be compressed by a movable nonconducting piston. The gas is compressed slowly to 12.5% of its initial volume.\nFind final temperature of the gas if it is $T_{0}$ initially\u2013",
+    "options": [
+      {
+        "id": "A",
+        "text": "$4T_{0}$"
+      },
+      {
+        "id": "B",
+        "text": "$3T_{0}$"
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{2}{3}T_{0}$"
+      },
+      {
+        "id": "D",
+        "text": "$T_{0}$"
+      }
+    ],
+    "figure_refs": [],
+    "difficulty": "L2",
+    "concepts": [
+      "thermodynamics",
+      "adiabatic-process",
+      "ideal-gas",
+      "gamma-ratio"
+    ],
+    "exam_metadata": {
+      "exam": "JEE Main Mock",
+      "year": null,
+      "paper": null,
+      "question_number": "14"
+    },
+    "context_notes": null
+  },
+  {
+    "package_id": "pkg-electrostatics-question-4c9d1e82-e5752c31",
+    "atom_id": "electrostatics-question-4c9d1e82",
+    "atom_version": 1,
+    "content_hash": "55511314791636289281fa986d2b38358fd33945eb154d89f87d5bc7ea6a59a7",
+    "blind_package_hash": "91846f171c1f48c421a73e99e42f12c9c328a74c0634fabdb33047c49b277314",
+    "statement": "A point charge $+Q$ is positioned at the center of the base of a square pyramid as shown. The flux through one of the four identical upper faces of the pyramid is \u2013",
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{Q}{16\\varepsilon_{0}}$"
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{Q}{4\\varepsilon_{0}}$"
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{Q}{8\\varepsilon_{0}}$"
+      },
+      {
+        "id": "D",
+        "text": "None of these"
+      }
+    ],
+    "figure_refs": [
+      {
+        "figure_id": "fig-src-jee-rank-booster-03-mock-p04-q15",
+        "caption": "Square pyramid with point charge $+Q$ at the center of its base.",
+        "alt_text": "Perspective 3D line drawing of a square pyramid with four triangular upper faces sloping up to an apex. A point charge labeled +Q is positioned at the center of the square base."
+      }
+    ],
+    "difficulty": "L3",
+    "concepts": [
+      "electrostatics",
+      "gausss-law",
+      "electric-flux",
+      "symmetry-methods"
+    ],
+    "exam_metadata": {
+      "exam": "JEE Main Mock",
+      "year": null,
+      "paper": null,
+      "question_number": "15"
+    },
+    "context_notes": null
+  },
+  {
+    "package_id": "pkg-fluid-mechanics-question-2b8a7f0e-389bd1cf",
+    "atom_id": "fluid-mechanics-question-2b8a7f0e",
+    "atom_version": 1,
+    "content_hash": "ea5b50dd8af5543e53debcccb88c201bef8bdfa0933269f26ac8830c2aff9d86",
+    "blind_package_hash": "c3db04a924be3f413a0d7b5298a34335e49430cf4163f15d5c84773c43ac4f7a",
+    "statement": "A jar is filled with two non-mixing liquids 1 and 2 having densities $\\rho_{1}$ and $\\rho_{2}$ respectively. A solid ball, made of a material of density $\\rho_{3}$, is dropped in the jar. It comes to equilibrium in the position shown in the figure. Which of the following is true for $\\rho_{1}$, $\\rho_{1}\\text{and }\\rho_{3}$?",
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\rho_{3} < \\rho_{1} < \\rho_{2}$"
+      },
+      {
+        "id": "B",
+        "text": "$\\rho_{1} > \\rho_{3} > \\rho_{2}$"
+      },
+      {
+        "id": "C",
+        "text": "$\\rho_{1} < \\rho_{2} < \\rho_{3}$"
+      },
+      {
+        "id": "D",
+        "text": "$\\rho_{1} < \\rho_{3} < \\rho_{2}$"
+      }
+    ],
+    "figure_refs": [
+      {
+        "figure_id": "fig-src-jee-rank-booster-03-mock-p04-q16",
+        "caption": "Jar with two non-mixing liquid layers of densities $\\rho_1$ and $\\rho_2$ with a solid ball of density $\\rho_3$ in equilibrium at the boundary.",
+        "alt_text": "Cross-section of a jar containing two immiscible liquid layers: Liquid 1 of density rho_1 on top and Liquid 2 of density rho_2 on the bottom. A solid spherical ball of density rho_3 floats in static equilibrium straddling the interface between the two liquids."
+      }
+    ],
+    "difficulty": "L2",
+    "concepts": [
+      "fluid-mechanics",
+      "buoyancy",
+      "archimedes-principle",
+      "relative-density"
+    ],
+    "exam_metadata": {
+      "exam": "JEE Main Mock",
+      "year": null,
+      "paper": null,
+      "question_number": "16"
+    },
+    "context_notes": null
+  }
+]

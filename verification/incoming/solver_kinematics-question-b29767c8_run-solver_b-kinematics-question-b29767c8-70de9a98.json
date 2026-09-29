@@ -1,0 +1,26 @@
+{
+  "solver_run_id": "run-solver_b-kinematics-question-b29767c8-70de9a98",
+  "solver_agent_name": "solver_b",
+  "atom_id": "kinematics-question-b29767c8",
+  "atom_version": 1,
+  "content_hash": "75a50f78ef107d1abfddbc5ccff76b0166dbb7d41f4e877fb6f0fe3032875d5b",
+  "verification_protocol_version": "1.0.0",
+  "blind_package_hash": "7e4d541cd9e3c195682db0f6a15be1b9baa74924aa232d12c0b3128df2b119c7",
+  "independent_answer": "C",
+  "raw_answer": "Option C: \\\\tan^{-1}\\\\frac{7}{4}",
+  "reasoning_steps": [
+    "From equations of motion: x = u_x t",
+    "40 = u_x (2) -> u_x = 20 m/s",
+    "y = u_y t - 0.5 g t^2",
+    "50 = u_y (2) - 0.5(10)(4) -> 2u_y = 70 -> u_y = 35 m/s",
+    "Launch angle theta is tan^{-1}(u_y / u_x) = tan^{-1}(35/20) = tan^{-1}(7/4)"
+  ],
+  "assumptions_used": [
+    "No air resistance",
+    "g = 10 m/s^2"
+  ],
+  "diagram_interpretation": null,
+  "uncertainty": null,
+  "possible_ambiguities": [],
+  "created_at": "2026-09-28T08:51:04Z"
+}

@@ -1,0 +1,44 @@
+{
+  "content_id": "concept-curr-recasting-01",
+  "curriculum_id": "curr-curr-02",
+  "taxonomy_reference": {
+    "chapter_id": "current-electricity",
+    "topic_id": "resistance-and-resistivity",
+    "subtopic_id": "stretching-and-recasting-of-wires"
+  },
+  "title": "Volume Conservation and Geometric Scaling Under Wire Recasting and Stretching",
+  "learning_objective": "Analyze how electrical resistance scales under mechanical stretching, drawing, or thermal recasting of uniform cylindrical conductors by applying strict volumetric conservation.",
+  "explanation": "The macroscopic electrical resistance $R$ of a uniform conductor of length $l$, cross-sectional area $A$, and intrinsic material resistivity $\\rho$ is given by:\n$$R = \\rho \\frac{l}{A}$$\n\nWhen a metallic wire is mechanically stretched (drawn through dies) or melted down and recast into a different geometry with zero loss of material, its total mass $M = \\text{mass}$ and solid volume $V = \\text{volume}$ remain invariant. Under constant material mass density $\\rho_m$, the solid volume is conserved:\n$$V = A \\cdot l = \\text{constant} \\implies A_1 l_1 = A_2 l_2$$\n\nBecause the volume is constant, any change in cross-sectional area $A$ simultaneously forces a reciprocal change in length $l = \\frac{V}{A}$. Substituting this constraint into the resistance expression yields two critical formulations:\n1. In terms of length $l$:\n$$R = \\rho \\frac{l}{\\frac{V}{l}} = \\rho \\frac{l^2}{V} \\implies R \\propto l^2$$\n2. In terms of cross-sectional area $A$:\n$$R = \\rho \\frac{\\frac{V}{A}}{A} = \\rho \\frac{V}{A^2} \\implies R \\propto \\frac{1}{A^2}$$\n\nFor a cylindrical wire with circular cross-section of radius $r$ and diameter $d$, the area is $A = \\pi r^2 = \\frac{\\pi d^2}{4}$. Substituting this area into the volume-conserved resistance formula gives:\n$$R = \\frac{\\rho V}{\\pi^2 r^4} = \\frac{16\\rho V}{\\pi^2 d^4} \\implies R \\propto \\frac{1}{r^4} \\propto \\frac{1}{d^4}$$\n\nHence, if a uniform wire of initial resistance $R_1$ and radius $r_1$ is recast or stretched to a new radius $r_2$, the new resistance $R_2$ satisfies:\n$$\\frac{R_2}{R_1} = \\left(\\frac{r_1}{r_2}\\right)^4 = \\left(\\frac{d_1}{d_2}\\right)^4 = \\left(\\frac{l_2}{l_1}\\right)^2$$\n\nFor example, if a wire of resistance $R_1 = 100\\,\\Omega$ is recast to half its original radius ($r_2 = \\frac{r_1}{2}$), the cross-sectional area decreases by a factor of $4$ ($A_2 = \\frac{A_1}{4}$), which requires the length to increase by a factor of $4$ ($l_2 = 4 l_1$) to preserve volume. The resulting resistance increases by a factor of $2^4 = 16$, yielding $R_2 = 16 \\times 100\\,\\Omega = 1600\\,\\Omega$.\n\nA pervasive error among students is assuming $R \\propto \\frac{1}{A} \\propto \\frac{1}{r^2}$, which falsely predicts $R_2 = 4 R_1 = 400\\,\\Omega$. That inverse-square relationship holds only if the length remains fixed while additional material is added or removed. Under volume conservation, the length must elongate, producing an overall $r^{-4}$ power-law dependence.",
+  "intuition": "Imagine rolling a lump of playdough into a cylinder. If you roll and stretch it until its diameter is cut in half, the playdough must go somewhere—it elongates to exactly 4 times its starting length. For electric current, the charges now face a double penalty: they must squeeze through a pipe that is 4 times narrower (contributing a factor of 4 to resistance) and travel through a corridor that is 4 times longer (contributing another factor of 4). Combining both effects multiplies the resistance by $4 \\times 4 = 16$.",
+  "formal_definition": "Wire recasting and drawing are volume-conserving geometric transformations of an incompressible conductor ($V = A l = \\text{constant}$), under which electrical resistance scales quadratically with length ($R \\propto l^2$) and inversely with the fourth power of radius ($R \\propto r^{-4}$) or diameter ($R \\propto d^{-4}$).",
+  "assumptions": [
+    "Strict conservation of mass and volume ($V_1 = V_2$ with zero material loss)",
+    "Incompressible solid material with constant mass density $\\rho_m$",
+    "Uniform cylindrical geometry maintained throughout the length after deformation",
+    "Constant material resistivity $\\rho$ (isothermal conditions, identical crystalline state)"
+  ],
+  "boundary_conditions": [
+    "Valid for homogeneous plastic deformation, drawing, or complete melting and recasting",
+    "Invalid if necking or localized non-uniform cross-sectional constriction occurs during mechanical stretching",
+    "Invalid if severe cold working or grain-boundary dislocations substantially alter the intrinsic resistivity $\\rho$"
+  ],
+  "related_formula_ids": [
+    "formula-curr-recasting-volume"
+  ],
+  "prerequisite_refs": [
+    "curr-curr-01"
+  ],
+  "source_references": [
+    "jee_rank_booster-03_mock_paper.pdf",
+    "concepts_of_physics_by_h.c._verma_volume_2.pdf"
+  ],
+  "generation_metadata": {
+    "agent": "ContentGeneratorAgent",
+    "model": "gemini-2.5-pro",
+    "task": "author_concept"
+  },
+  "verification_status": "UNVERIFIED",
+  "content_hash": null,
+  "verification_record_id": null,
+  "created_at": "2026-09-28T22:40:00Z"
+}

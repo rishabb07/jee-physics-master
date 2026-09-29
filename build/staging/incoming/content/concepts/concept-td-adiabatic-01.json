@@ -1,0 +1,43 @@
+{
+  "content_id": "concept-td-adiabatic-01",
+  "curriculum_id": "curr-td-02",
+  "taxonomy_reference": {
+    "chapter_id": "thermodynamics",
+    "topic_id": "first-law-and-processes",
+    "subtopic_id": "adiabatic-process"
+  },
+  "title": "Adiabatic Processes and Polytropic Relations in Ideal Gases",
+  "learning_objective": "Derive and apply the reversible adiabatic equations of state ($P V^\\gamma = \\text{const}$, $T V^{\\gamma-1} = \\text{const}$, $T^\\gamma P^{1-\\gamma} = \\text{const}$), calculate adiabatic boundary work, and analyze the thermal consequences of zero heat exchange.",
+  "intuition": "When you pump air into a bicycle tire with a hand pump, the base of the pump quickly becomes noticeably hot. This heating is not primarily due to friction, but due to rapid compression of the gas. The compression happens too quickly for heat to escape through the cylinder walls ($dQ \\approx 0$). By the First Law, the mechanical work done pushing the piston compresses the gas and converts directly into internal thermal energy ($dU = -dW = +W_{\\text{on}}$), forcing the gas temperature to rise.",
+  "formal_definition": "An adiabatic process is a thermodynamic transition during which no heat enters or leaves the system across its boundaries ($dQ = 0$). For a reversible (quasi-static) adiabatic expansion or compression of an ideal gas with constant heat capacities, the process is governed by the relation $P V^\\gamma = \\text{constant}$, where $\\gamma = C_p / C_v$ is the adiabatic index (heat capacity ratio). Equivalent forms are $T V^{\\gamma - 1} = \\text{constant}$ and $P^{1 - \\gamma} T^\\gamma = \\text{constant}$.",
+  "explanation": "An adiabatic process isolates a thermodynamic system from heat exchange with its surroundings.\n\n### 1. First Law Formulation\nImposing $dQ = 0$ in the First Law gives:\n$$0 = dU + dW \\implies dU = -dW = -P dV$$\nFor an ideal gas, $dU = n C_v dT$. Hence:\n$$n C_v dT = -P dV = -\\frac{n R T}{V} dV$$\nSeparating variables and using Mayer's relation $R = C_p - C_v$ and $\\gamma = C_p / C_v$ leads to $\\frac{R}{C_v} = \\gamma - 1$:\n$$\\frac{dT}{T} + (\\gamma - 1)\\frac{dV}{V} = 0 \\implies T V^{\\gamma - 1} = \\text{constant}$$\nUsing the ideal gas equation of state $P V = n R T$ yields the three equivalent reversible adiabatic forms:\n1. $P V^\\gamma = \\text{constant}$\n2. $T V^{\\gamma - 1} = \\text{constant}$\n3. $T^\\gamma P^{1 - \\gamma} = \\text{constant}$\n\n### 2. Work Done in an Adiabatic Process\nThe work done by an expanding ideal gas during an adiabatic process from $(P_1, V_1, T_1)$ to $(P_2, V_2, T_2)$ is:\n$$W = \\int_{V_1}^{V_2} P \\, dV = \\int_{V_1}^{V_2} \\frac{K}{V^\\gamma} \\, dV = \\frac{P_1 V_1 - P_2 V_2}{\\gamma - 1} = \\frac{n R (T_1 - T_2)}{\\gamma - 1} = -\\Delta U$$\nNotice that if the gas expands ($V_2 > V_1$), $W > 0$, so $\\Delta U < 0$ and $T_2 < T_1$ (the gas cools). If the gas is compressed ($V_2 < V_1$), $W < 0$, so $\\Delta U > 0$ and $T_2 > T_1$ (the gas heats up).\n\n### 3. Slope on Indicator ($P-V$) Diagram\nThe slope of a reversible adiabatic curve at any point $(P, V)$ is:\n$$\\left(\\frac{dP}{dV}\\right)_{\\text{adiabatic}} = -\\gamma \\frac{P}{V} = \\gamma \\left(\\frac{dP}{dV}\\right)_{\\text{isothermal}}$$\nBecause $\\gamma > 1$ for all physical gases (e.g. $\\gamma = 5/3 \\approx 1.67$ for monoatomic, $\\gamma = 7/5 = 1.40$ for diatomic), the adiabatic curve is strictly steeper than the isothermal curve passing through the same point.",
+  "assumptions": [
+    "The boundary is thermally insulating (adiabatic enclosure) or the process occurs fast enough that heat exchange is negligible.",
+    "The working substance behaves as an ideal gas with constant specific heat capacities $C_p$ and $C_v$.",
+    "The process is quasi-static and reversible (no dissipative shock waves or friction)."
+  ],
+  "boundary_conditions": [
+    "Reversible adiabatic formula $P V^\\gamma = \\text{const}$ requires quasi-static equilibrium at all points.",
+    "Not valid for irreversible adiabatic processes such as free expansion into vacuum ($W = 0$, $\\Delta U = 0$, $T$ unchanged for ideal gas, yet $P_1 V_1 \\neq P_2 V_2^\\gamma$).",
+    "Adiabatic index $\\gamma > 1$ (monoatomic: $\\gamma = 5/3$, diatomic: $\\gamma = 7/5$, non-linear polyatomic: $\\gamma = 4/3$ at standard temperatures)."
+  ],
+  "related_formula_ids": [
+    "formula-td-adiabatic-ideal-gas"
+  ],
+  "prerequisite_refs": [
+    "curr-td-01"
+  ],
+  "source_references": [
+    "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+    "jee_rank_booster-03_mock_paper.pdf"
+  ],
+  "generation_metadata": {
+    "agent": "content_generator",
+    "version": "1.0",
+    "target_chapter": "thermodynamics"
+  },
+  "verification_status": "UNVERIFIED",
+  "verification_record_id": null,
+  "content_hash": "f7546718a98188aadf73e9e74842d466363c6549f83cbbf3423e175c85dba88b",
+  "created_at": "2026-09-28T22:30:00Z"
+}

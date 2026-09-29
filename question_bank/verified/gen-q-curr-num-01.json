@@ -1,0 +1,66 @@
+{
+  "question_id": "gen-q-curr-num-01",
+  "version": 1,
+  "origin": "GENERATED",
+  "curriculum_id": "curr-curr-02",
+  "taxonomy_reference": {
+    "chapter_id": "current-electricity",
+    "topic_id": "resistance-and-resistivity",
+    "subtopic_id": "temperature-dependence-and-geometry"
+  },
+  "concept_references": [
+    "concept-curr-recasting-01"
+  ],
+  "prerequisite_references": [
+    "curr-curr-01"
+  ],
+  "target_exam_level": "JEE_MAIN",
+  "question_type": "NUMERICAL",
+  "statement": "A cylindrical copper wire of initial resistance $R_1 = 10.0\\,\\Omega$ is drawn uniformly through a series of dies such that its radius is reduced to half its initial radius ($r_2 = r_1 / 2$) without any loss of mass. Assuming the material density and resistivity remain constant, the new resistance of the wire in $\\Omega$ is:",
+  "diagram_references": [],
+  "options": {},
+  "correct_answer": "160.0",
+  "solution_strategy": "Apply mass conservation to enforce constant wire volume, relate cross-sectional area change to wire length extension, and substitute into Ohm's resistance formula to obtain fourth-power inverse scaling with radius.",
+  "solution": "1. Volume Conservation:\nLet the initial length, radius, and cross-sectional area be $L_1$, $r_1$, and $A_1 = \\pi r_1^2$ respectively. With constant density and no loss of mass, the total volume $V = A L$ is strictly conserved:\n$$V_1 = V_2 \\implies A_1 L_1 = A_2 L_2$$\n2. Geometry scaling:\nGiven $r_2 = \\frac{r_1}{2}$, the new cross-sectional area is:\n$$A_2 = \\pi r_2^2 = \\pi \\left(\\frac{r_1}{2}\\right)^2 = \\frac{A_1}{4}$$\nConserving volume:\n$$L_2 = L_1 \\frac{A_1}{A_2} = 4 L_1$$\n3. Resistance calculation:\nThe resistance of a uniform cylindrical conductor is $R = \\rho \\frac{L}{A}$.\nExpressing $R$ in terms of volume $V$ and radius $r$:\n$$R = \\rho \\frac{L A}{A^2} = \\frac{\\rho V}{(\\pi r^2)^2} = \\frac{\\rho V}{\\pi^2 r^4}$$\nThus, $R \\propto \\frac{1}{r^4}$.\n4. Ratio evaluation:\n$$\\frac{R_2}{R_1} = \\left(\\frac{r_1}{r_2}\\right)^4 = \\left(\\frac{r_1}{r_1 / 2}\\right)^4 = 2^4 = 16$$\n$$R_2 = 16 \\times R_1 = 16 \\times 10.0\\,\\Omega = 160.0\\,\\Omega$$\nHence, the new resistance of the wire is 160.0 $\\Omega$.",
+  "assumptions": [
+    "Uniform elongation with circular cross-section preserved",
+    "Incompressibility and constant density of copper during cold drawing",
+    "Constant temperature and isotropic resistivity throughout drawing process"
+  ],
+  "numerical_values": {
+    "initial_resistance": 10.0,
+    "radius_ratio": 0.5
+  },
+  "units": "Ohm",
+  "tolerance": 0.02,
+  "intended_learning_objective": "Evaluate resistance change under plastic deformation drawing with strict volume conservation.",
+  "difficulty_dimensions": {
+    "conceptual_difficulty": 2,
+    "mathematical_difficulty": 2,
+    "multistep_reasoning_difficulty": 2,
+    "abstraction_difficulty": 1,
+    "computational_burden": 2,
+    "trap_misconception_difficulty": 3,
+    "derived_difficulty_band": "L2",
+    "weighting_policy": "PEDAGOGICAL_PROJECT_POLICY"
+  },
+  "difficulty_band": "L2",
+  "misconception_targeted": "misc-curr-01",
+  "distractor_rationales": [],
+  "source_grounding": {
+    "relationship_type": "NEW_PROBLEM",
+    "source_atom_id": null,
+    "transformation_type": null,
+    "what_changed": null,
+    "why_pedagogically_distinct": null
+  },
+  "risk_level": "MEDIUM",
+  "generation_metadata": {
+    "generator_agent": "physics-question-generator",
+    "author_model": "claude-3-7-sonnet"
+  },
+  "content_hash": "f64c9386eeec9a9269cfe4df47eaa7786c10519fab8509a720f7a642bdb71ca3",
+  "verification_status": "VERIFIED",
+  "verification_record_id": "qvr-gen-q-curr-num-01",
+  "created_at": "2026-09-29T08:30:00Z"
+}

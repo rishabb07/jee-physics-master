@@ -1,0 +1,94 @@
+{
+  "question_id": "gen-q-rot-misc-01",
+  "version": 1,
+  "origin": "GENERATED",
+  "curriculum_id": "curr-rot-03",
+  "taxonomy_reference": {
+    "chapter_id": "rotational-motion",
+    "topic_id": "angular-momentum",
+    "subtopic_id": "particle-angular-momentum"
+  },
+  "concept_references": [
+    "concept-rot-angmom-particle-01"
+  ],
+  "prerequisite_references": [
+    "curr-kin-02",
+    "curr-rot-02"
+  ],
+  "target_exam_level": "JEE_MAIN",
+  "question_type": "SINGLE_CORRECT_MCQ",
+  "statement": "A point mass $m$ moves with constant velocity $v$ along the straight line $y = d$ ($d > 0$) in the $xy$-plane. The magnitude of its angular momentum with respect to the origin $O$:",
+  "diagram_references": [],
+  "options": {
+    "A": "is zero because straight-line motion cannot have angular momentum",
+    "B": "increases linearly as the particle moves farther from origin",
+    "C": "is constant and equal to $m v d$ for all time",
+    "D": "depends on the choice of $x$-coordinate and oscillates sinusoidally"
+  },
+  "correct_answer": "C",
+  "solution_strategy": "Apply definition of particle angular momentum L = r x p, use Cartesian coordinates to show L_z = x p_y - y p_x = -m v d, and observe that its magnitude |L| = m v d is time-invariant.",
+  "solution": "1. Position and Velocity Vectors:\nThe particle moves along the line $y = d$ parallel to the $x$-axis with constant velocity $\\vec{v} = v\\hat{i}$.\nAt any instant, its position vector with respect to origin $O$ is:\n$$\\vec{r}(t) = x(t)\\hat{i} + d\\hat{j}$$\nIts linear momentum is:\n$$\\vec{p} = m\\vec{v} = mv\\hat{i}$$\n2. Cross Product Evaluation:\nThe angular momentum about the origin is:\n$$\\vec{L} = \\vec{r} \\times \\vec{p} = (x\\hat{i} + d\\hat{j}) \\times (mv\\hat{i}) = xmv(\\hat{i} \\times \\hat{i}) + dmv(\\hat{j} \\times \\hat{i}) = 0 - mvd\\hat{k} = -mvd\\hat{k}$$\n3. Invariance in Time:\nThe magnitude of the angular momentum is:\n$$|\\vec{L}| = m v d$$\nBecause $m$, $v$, and the perpendicular distance $d$ are constants, $|\\vec{L}|$ is strictly constant and independent of the $x$-coordinate for all time.\nThis directly confirms Option C and deconstructs misconception misc-rot-01.",
+  "assumptions": [
+    "Point mass particle",
+    "Inertial reference frame centered at origin O",
+    "Constant rectilinear velocity with zero net external force"
+  ],
+  "numerical_values": {},
+  "units": null,
+  "tolerance": null,
+  "intended_learning_objective": "Directly dismantle the misconception that rectilinear uniform motion cannot possess angular momentum.",
+  "difficulty_dimensions": {
+    "conceptual_difficulty": 3,
+    "mathematical_difficulty": 2,
+    "multistep_reasoning_difficulty": 2,
+    "abstraction_difficulty": 2,
+    "computational_burden": 1,
+    "trap_misconception_difficulty": 4,
+    "derived_difficulty_band": "L2",
+    "weighting_policy": "PEDAGOGICAL_PROJECT_POLICY"
+  },
+  "difficulty_band": "L2",
+  "misconception_targeted": "misc-rot-01",
+  "distractor_rationales": [
+    {
+      "option_key": "A",
+      "distractor_value": "is zero because straight-line motion cannot have angular momentum",
+      "likely_misconception": "misc-rot-01",
+      "student_rationale": "Student associates angular momentum exclusively with curved, circular, or rotational trajectories, believing rectilinear motion has L = 0.",
+      "physical_error": "Angular momentum of a particle is defined by the cross product L = r x p relative to an origin. Even in rectilinear motion, as long as the line of motion does not pass through the origin (r_perp != 0), the cross product is non-zero (|L| = m v d != 0).",
+      "error_category": "FUNDAMENTAL_DEFINITION_MISUNDERSTANDING"
+    },
+    {
+      "option_key": "B",
+      "distractor_value": "increases linearly as the particle moves farther from origin",
+      "likely_misconception": "misc-rot-dist-scaling",
+      "student_rationale": "Student reasons that because the radial distance r = sqrt(x^2 + d^2) grows as the particle moves away, the magnitude of angular momentum must grow proportionally.",
+      "physical_error": "While radial distance r increases, the sine of the angle between r and v decreases proportionally: sin theta = d / r. Thus the perpendicular distance r_perp = r sin theta = d remains strictly constant: |L| = p r_perp = m v d.",
+      "error_category": "VECTOR_DECOMPOSITION_ERROR"
+    },
+    {
+      "option_key": "D",
+      "distractor_value": "depends on the choice of x-coordinate and oscillates sinusoidally",
+      "likely_misconception": "misc-rot-angle-oscillation",
+      "student_rationale": "Student confuses angular position theta(t) = arctan(d / x(t)) with angular momentum, supposing that because angles change, L must oscillate.",
+      "physical_error": "Torque about the origin is tau = r x F = 0 because velocity is constant (F = 0). By the angular momentum theorem dL/dt = tau = 0, L is strictly conserved in time and cannot oscillate.",
+      "error_category": "CONSERVATION_LAW_VIOLATION"
+    }
+  ],
+  "source_grounding": {
+    "relationship_type": "NEW_PROBLEM",
+    "source_atom_id": null,
+    "transformation_type": null,
+    "what_changed": null,
+    "why_pedagogically_distinct": null
+  },
+  "risk_level": "MEDIUM",
+  "generation_metadata": {
+    "generator_agent": "physics-question-generator",
+    "author_model": "claude-3-7-sonnet"
+  },
+  "content_hash": "00b1c870134c5d9df2cbe76aefa56152337cf863511c2ec26e260ecc3c3f6965",
+  "verification_status": "GENERATED",
+  "verification_record_id": null,
+  "created_at": "2026-09-29T08:30:00Z"
+}

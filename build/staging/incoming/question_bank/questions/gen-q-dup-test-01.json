@@ -1,0 +1,95 @@
+{
+  "question_id": "gen-q-dup-test-01",
+  "version": 1,
+  "origin": "GENERATED",
+  "curriculum_id": "curr-curr-02",
+  "taxonomy_reference": {
+    "chapter_id": "current-electricity",
+    "topic_id": "resistance-and-resistivity",
+    "subtopic_id": "temperature-dependence-and-geometry"
+  },
+  "concept_references": [
+    "concept-curr-recasting-01"
+  ],
+  "prerequisite_references": [
+    "curr-curr-01"
+  ],
+  "target_exam_level": "JEE_MAIN",
+  "question_type": "SINGLE_CORRECT_MCQ",
+  "statement": "A wire of resistance $R$ is stretched uniformly so that its length is doubled while volume remains constant. Its new resistance will be:",
+  "diagram_references": [],
+  "options": {
+    "A": "$2R$",
+    "B": "$4R$",
+    "C": "$R/2$",
+    "D": "$R/4$"
+  },
+  "correct_answer": "B",
+  "solution_strategy": "Apply volume conservation A_1 L_1 = A_2 L_2 to find area halving upon length doubling, then evaluate R = rho * L / A.",
+  "solution": "1. Volume Conservation:\nGiven volume $V = A L = \\text{constant}$:\n$$L_2 = 2 L_1 \\implies A_2 = \\frac{A_1}{2}$$\n2. Resistance scaling:\n$$R_1 = \\rho \\frac{L_1}{A_1}$$\n$$R_2 = \\rho \\frac{L_2}{A_2} = \\rho \\frac{2 L_1}{A_1 / 2} = 4 \\rho \\frac{L_1}{A_1} = 4 R$$\nTherefore, the new resistance is $4R$, matching Option B.",
+  "assumptions": [
+    "Uniform elongation along wire length",
+    "Strict volume conservation with constant material density",
+    "Constant resistivity $\\rho$"
+  ],
+  "numerical_values": {
+    "length_multiplier": 2.0
+  },
+  "units": "Ohm",
+  "tolerance": 0.02,
+  "intended_learning_objective": "Demonstrate volume conservation scaling for stretched conductors.",
+  "difficulty_dimensions": {
+    "conceptual_difficulty": 2,
+    "mathematical_difficulty": 1,
+    "multistep_reasoning_difficulty": 2,
+    "abstraction_difficulty": 1,
+    "computational_burden": 1,
+    "trap_misconception_difficulty": 3,
+    "derived_difficulty_band": "L2",
+    "weighting_policy": "PEDAGOGICAL_PROJECT_POLICY"
+  },
+  "difficulty_band": "L2",
+  "misconception_targeted": "misc-curr-01",
+  "distractor_rationales": [
+    {
+      "option_key": "A",
+      "distractor_value": "$2R$",
+      "likely_misconception": "misc-curr-const-area",
+      "student_rationale": "Student considers only length doubling (L_2 = 2 L_1) and neglects lateral contraction (cross-sectional area reduction).",
+      "physical_error": "Under constant volume V = A L, doubling length (L_2 = 2 L_1) halves cross-sectional area (A_2 = A_1 / 2). Resistance scales as R prop L/A prop L^2, so R_2 = 4 R_1, not 2 R_1.",
+      "error_category": "INCOMPLETE_VARIABLE_COUPLED_CHANGE"
+    },
+    {
+      "option_key": "C",
+      "distractor_value": "$R/2$",
+      "likely_misconception": "misc-curr-inverted-length",
+      "student_rationale": "Student inverts the geometric scaling, mistakenly thinking longer wires have lower resistance.",
+      "physical_error": "Resistance is directly proportional to conductor length. Increasing length cannot reduce resistance for a uniform conductor.",
+      "error_category": "INVERTED_RATIO"
+    },
+    {
+      "option_key": "D",
+      "distractor_value": "$R/4$",
+      "likely_misconception": "misc-curr-inverted-squared",
+      "student_rationale": "Student squares the ratio but inverts the direction of scaling.",
+      "physical_error": "Since L_2 = 2 L_1 and A_2 = A_1 / 2, R_2 / R_1 = (L_2 / L_1)^2 = 4, not 1/4.",
+      "error_category": "INVERTED_RATIO"
+    }
+  ],
+  "source_grounding": {
+    "relationship_type": "NEW_PROBLEM",
+    "source_atom_id": null,
+    "transformation_type": null,
+    "what_changed": null,
+    "why_pedagogically_distinct": null
+  },
+  "risk_level": "MEDIUM",
+  "generation_metadata": {
+    "generator_agent": "physics-question-generator",
+    "author_model": "claude-3-7-sonnet"
+  },
+  "content_hash": "372d628a7000de17d412183534b74233651633369a744f0d0944042ea826d24e",
+  "verification_status": "GENERATED",
+  "verification_record_id": null,
+  "created_at": "2026-09-29T08:30:00Z"
+}

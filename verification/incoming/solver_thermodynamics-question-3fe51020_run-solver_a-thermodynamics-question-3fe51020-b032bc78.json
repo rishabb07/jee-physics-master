@@ -1,0 +1,23 @@
+{
+  "solver_run_id": "run-solver_a-thermodynamics-question-3fe51020-b032bc78",
+  "solver_agent_name": "solver_a",
+  "atom_id": "thermodynamics-question-3fe51020",
+  "atom_version": 1,
+  "content_hash": "9392c1533bb1e9e2e1f478b825a3387e5420ed11a3f4fb75145647943e88bb81",
+  "verification_protocol_version": "1.0.0",
+  "blind_package_hash": "b95cfd495b92dd5dde609387186859e373c6f50cc6b3cd12f353e6ab2e763291",
+  "independent_answer": "A",
+  "raw_answer": "Option A",
+  "reasoning_steps": [
+    "dU + pdV = 0",
+    "u is proportional to T^4",
+    "Adiabatic expansion"
+  ],
+  "assumptions_used": [
+    "Standard physical assumptions"
+  ],
+  "diagram_interpretation": null,
+  "uncertainty": null,
+  "possible_ambiguities": [],
+  "created_at": "2026-09-28T03:26:20.571253Z"
+}

@@ -1,0 +1,47 @@
+{
+  "formula_id": "formula-opt-critical-angle",
+  "chapter_id": "ray-optics",
+  "title": "Critical Angle for Total Internal Reflection",
+  "equation": "\\sin\\theta_c = \\frac{n_2}{n_1} = \\frac{n_{\\text{rarer}}}{n_{\\text{denser}}}",
+  "equation_latex": "\\sin\\theta_c = \\frac{n_2}{n_1} = \\frac{n_{\\text{rarer}}}{n_{\\text{denser}}}",
+  "variables": {
+    "\\theta_c": "Critical angle of incidence",
+    "n_1": "Refractive index of incident (denser) medium",
+    "n_2": "Refractive index of refracting (rarer) medium"
+  },
+  "units": {
+    "\\theta_c": "rad or deg",
+    "n_1": "dimensionless",
+    "n_2": "dimensionless"
+  },
+  "dimensions": {
+    "\\theta_c": "[1]",
+    "n_1": "[1]",
+    "n_2": "[1]"
+  },
+  "assumptions": [
+    "Light propagates from optically denser medium to rarer medium (n_1 > n_2)",
+    "Planar boundary"
+  ],
+  "validity_conditions": [
+    "Holds strictly when n_1 > n_2; total internal reflection occurs for all \\theta_1 > \\theta_c"
+  ],
+  "derivation_reference": "derivation-formula-opt-critical-angle",
+  "related_concepts": [
+    "concept-opt-tir-01"
+  ],
+  "common_misuse": [
+    "Attempting to calculate critical angle when light travels from rarer to denser medium (n_1 < n_2)",
+    "Assuming TIR occurs when \\theta_1 < \\theta_c"
+  ],
+  "provenance": [],
+  "generation_metadata": {
+    "agent": "content_generator",
+    "version": "1.0",
+    "target_chapter": "ray-optics"
+  },
+  "verification_status": "UNVERIFIED",
+  "content_hash": "57cd0ceb179aa6107e721e194c3670e03682b6e163b2850151a7ee30a3fcf270",
+  "verification_record_id": null,
+  "created_at": "2026-09-29T07:50:00Z"
+}

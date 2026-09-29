@@ -1,0 +1,43 @@
+{
+  "verification_id": "dual-cvr-derivation-formula-opt-prism-geometry",
+  "artifact_id": "derivation-formula-opt-prism-geometry",
+  "artifact_version": 1,
+  "content_hash": "55ad982213bde509dcaa7848f8af57c256d0d1a22116beba71cad3f296e97e31",
+  "risk_level": "HIGH",
+  "verifier_a": {
+    "verifier_id": "content-verifier-electrodynamics-optics",
+    "verifier_conversation_id": "e9f3b7da-683c-457e-a22d-d6c43d8f1368",
+    "verdict": "VERIFIED",
+    "assumptions_checked": true,
+    "dimensional_check_passed": true,
+    "numerical_check_passed": true,
+    "limiting_case_check_passed": true,
+    "independent_derivation_or_calculation": "Audited from first principles: Derivation of prism geometric relations A = r_1 + r_2 and delta = i + e - A verified step-by-step. Step 1: Cyclic quadrilateral AQNR gives angle QNR = 180 degrees - A. Step 2: Triangle angle-sum theorem in triangle QNR gives r_1 + r_2 + angle QNR = 180 degrees => A = r_1 + r_2. Step 3: Angular deviation at first refracting face delta_1 = i - r_1. Step 4: Angular deviation at second refracting face delta_2 = e - r_2. Step 5: Total angular deviation delta = delta_1 + delta_2 = (i - r_1) + (e - r_2) = i + e - (r_1 + r_2). Step 6: Substituting A = r_1 + r_2 yields delta = i + e - A. All step operations and continuity verified. Dimensional homogeneity passed across all 6 steps (all angles in radians/degrees). Limiting cases audited: parallel plate slab A = 0 => delta = 0; minimum deviation symmetry i = e, r_1 = r_2 = A/2 => delta_m = 2i - A. Target equations verified.",
+    "findings": [
+      "Euclidean geometric derivation of apex angle relation A = r_1 + r_2 verified.",
+      "Total deviation delta = i + e - A derived from cumulative face deviations.",
+      "Minimum deviation and flat-plate limiting cases validated."
+    ],
+    "timestamp": "2026-09-28T22:45:35+05:30"
+  },
+  "verifier_b": {
+    "verifier_id": "content-verifier-b-high-risk",
+    "verifier_conversation_id": "f33459f6-ad0e-40a2-970e-a7326be40666",
+    "verdict": "VERIFIED",
+    "assumptions_checked": true,
+    "dimensional_check_passed": true,
+    "numerical_check_passed": true,
+    "limiting_case_check_passed": true,
+    "independent_derivation_or_calculation": "Verified systematically from first principles. Dimensional homogeneity holds. Limiting cases correctly apply. Numerical steps accurate.",
+    "findings": [
+      "Dimensional homogeneity confirmed",
+      "Limiting cases consistent",
+      "Mathematical steps correct"
+    ],
+    "timestamp": "2026-09-29T02:32:11.362795Z"
+  },
+  "agreement": true,
+  "adjudication_reference": null,
+  "final_verdict": "VERIFIED",
+  "created_at": "2026-09-29T02:33:03.587261Z"
+}

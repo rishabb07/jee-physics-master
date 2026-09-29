@@ -1,0 +1,21 @@
+{
+  "verification_id": "cvr-formula-curr-recasting-volume",
+  "artifact_id": "formula-curr-recasting-volume",
+  "artifact_version": 1,
+  "content_hash": "7fdca45481b84ecdd49afe3953899c910b430be333aba59a061de3567b9582f9",
+  "verifier_id": "formula-content-verifier",
+  "verifier_conversation_id": "ab85d650-e1e8-42e2-ac4a-8bc8a6460e30",
+  "risk_level": "MEDIUM",
+  "verdict": "VERIFIED",
+  "assumptions_checked": true,
+  "dimensional_check_passed": true,
+  "numerical_check_passed": true,
+  "limiting_case_check_passed": true,
+  "independent_derivation_or_calculation": "When a wire is recast (e.g. stretched), volume is constant. Resistance R = rho L / A. Since V = AL, R = rho L^2 / V or rho V / A^2. Ratio R1/R2 = (L1/L2)^2 or (r2/r1)^4.",
+  "findings": [
+    "Volume conservation correctly applied",
+    "Valid proportionality rules for recasting wire"
+  ],
+  "discrepancies": [],
+  "timestamp": "2026-09-29T02:32:37.338299+00:00"
+}

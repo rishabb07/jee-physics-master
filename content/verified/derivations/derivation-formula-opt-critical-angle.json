@@ -1,0 +1,83 @@
+{
+  "derivation_id": "derivation-formula-opt-critical-angle",
+  "target_formula_id": "formula-opt-critical-angle",
+  "target_equation": "$\\sin\\theta_c = \\frac{n_{\\text{rarer}}}{n_{\\text{denser}}} = \\frac{n_2}{n_1}$",
+  "starting_principles": [
+    "Snell's Law of Refraction: $n_1 \\sin\\theta_1 = n_2 \\sin\\theta_2$",
+    "Physical constraint on real refracted wave angle: $\\theta_2 \\in [0, \\pi/2]$",
+    "Definition of critical condition: threshold of grazing emergence along the interface ($\\theta_2 = 90^\\circ = \\frac{\\pi}{2}$ rad)"
+  ],
+  "assumptions": [
+    "Light propagates from optically denser medium 1 ($n_1 = n_{\\text{denser}}$) to optically rarer medium 2 ($n_2 = n_{\\text{rarer}}$), satisfying $n_1 > n_2$",
+    "Interface between the two dielectric media is flat, smooth, and specular",
+    "Media are transparent, homogeneous, and isotropic"
+  ],
+  "ordered_steps": [
+    {
+      "step_number": 1,
+      "description": "Formulate Snell's Law for propagation from optically denser medium $n_1$ to rarer medium $n_2$.",
+      "starting_equation": "$n_1 \\sin\\theta_1 = n_2 \\sin\\theta_2$",
+      "operation": "Isolate the sine of the angle of refraction $\\sin\\theta_2$",
+      "result_equation": "$\\sin\\theta_2 = \\frac{n_1}{n_2} \\sin\\theta_1$",
+      "assumptions_applied": [
+        "Snell's Law validity across smooth dielectric interface"
+      ]
+    },
+    {
+      "step_number": 2,
+      "description": "Establish the physical maximum bound of refraction angle in the second medium.",
+      "starting_equation": "$\\sin\\theta_2 \\le 1$",
+      "operation": "Set $\\theta_2 = 90^\\circ = \\frac{\\pi}{2}$ rad, corresponding to grazing emergence skimming along the interface",
+      "result_equation": "$\\sin\\theta_2 = \\sin 90^\\circ = 1$",
+      "assumptions_applied": [
+        "Grazing emergence boundary condition"
+      ]
+    },
+    {
+      "step_number": 3,
+      "description": "Solve for the critical angle of incidence $\\theta_c$ corresponding to grazing emergence.",
+      "starting_equation": "$\\frac{n_1}{n_2} \\sin\\theta_c = 1$",
+      "operation": "Multiply both sides by $\\frac{n_2}{n_1}$",
+      "result_equation": "$\\sin\\theta_c = \\frac{n_2}{n_1} = \\frac{n_{\\text{rarer}}}{n_{\\text{denser}}}$",
+      "assumptions_applied": [
+        "Optical condition $n_1 > n_2 > 0$ ensuring $0 < \\sin\\theta_c < 1$"
+      ]
+    },
+    {
+      "step_number": 4,
+      "description": "Analyze the wave behavior when the angle of incidence strictly exceeds the critical angle.",
+      "starting_equation": "$\\theta_1 > \\theta_c \\implies \\sin\\theta_1 > \\sin\\theta_c = \\frac{n_2}{n_1}$",
+      "operation": "Substitute $\\sin\\theta_1 > \\frac{n_2}{n_1}$ into the Snell's relation $\\sin\\theta_2 = \\frac{n_1}{n_2} \\sin\\theta_1$",
+      "result_equation": "$\\sin\\theta_2 > \\frac{n_1}{n_2}\\left(\\frac{n_2}{n_1}\\right) = 1 \\implies \\text{No real angle } \\theta_2 \\text{ exists} \\implies 100\\% \\text{ reflection (TIR)}$",
+      "assumptions_applied": [
+        "Conservation of radiant energy at lossless dielectric interface"
+      ]
+    },
+    {
+      "step_number": 5,
+      "description": "Generalize the critical angle formula for an optical element immersed in an arbitrary surrounding fluid medium.",
+      "starting_equation": "$\\sin\\theta_c = \\frac{n_{\\text{rarer}}}{n_{\\text{denser}}}$",
+      "operation": "Designate $n_{\\text{denser}} = n_{\\text{prism}}$ and $n_{\\text{rarer}} = n_{\\text{medium}}$",
+      "result_equation": "$\\theta_c = \\arcsin\\left(\\frac{n_{\\text{medium}}}{n_{\\text{prism}}}\\right)$",
+      "assumptions_applied": [
+        "Refractive condition $n_{\\text{prism}} > n_{\\text{medium}}$"
+      ]
+    }
+  ],
+  "final_equation": "$\\sin\\theta_c = \\frac{n_{\\text{rarer}}}{n_{\\text{denser}}} = \\frac{n_2}{n_1},\\quad \\theta_c = \\arcsin\\left(\\frac{n_2}{n_1}\\right)$",
+  "applicability_conditions": [
+    "Light travels from an optically denser medium toward an optically rarer medium ($n_1 > n_2$)",
+    "Surrounding medium is non-absorbing and extends at least several optical wavelengths beyond the boundary"
+  ],
+  "source_references": [
+    "jee_rank_booster-03_mock_paper.pdf",
+    "concepts_of_physics_by_h.c._verma_volume_2.pdf"
+  ],
+  "risk_level": "HIGH",
+  "verification_status": "VERIFIED",
+  "verification_record_id": "dual-cvr-derivation-formula-opt-critical-angle",
+  "content_hash": "227569adf792f41781c049e48ce1945e46cbb30e4d69f6db49d5d80a2b3c8f69",
+  "generator_identity": "ContentGeneratorAgent",
+  "generator_conversation_id": "068c12c6-05bc-4521-81c4-e5ff6ad6d7f9",
+  "created_at": "2026-09-28T22:40:00Z"
+}

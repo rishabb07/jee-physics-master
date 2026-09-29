@@ -1,0 +1,412 @@
+{
+  "chapter_id": "current-electricity",
+  "chapter_title": "Current Electricity",
+  "template_type": "ELECTRODYNAMICS",
+  "order": 17,
+  "taxonomy_references": [
+    {
+      "chapter_id": "current-electricity",
+      "topic_id": "electric-current-and-drift",
+      "subtopic_id": "drift-velocity-and-mobility"
+    },
+    {
+      "chapter_id": "current-electricity",
+      "topic_id": "electric-current-and-drift",
+      "subtopic_id": "ohms-law-microscopic-and-macroscopic"
+    },
+    {
+      "chapter_id": "current-electricity",
+      "topic_id": "resistance-and-resistivity",
+      "subtopic_id": "factors-affecting-resistance-and-resistivity"
+    },
+    {
+      "chapter_id": "current-electricity",
+      "topic_id": "resistance-and-resistivity",
+      "subtopic_id": "stretching-and-recasting-of-wires"
+    },
+    {
+      "chapter_id": "current-electricity",
+      "topic_id": "resistance-and-resistivity",
+      "subtopic_id": "combinations-of-resistors"
+    },
+    {
+      "chapter_id": "current-electricity",
+      "topic_id": "dc-circuits",
+      "subtopic_id": "kirchhoffs-laws"
+    },
+    {
+      "chapter_id": "current-electricity",
+      "topic_id": "dc-circuits",
+      "subtopic_id": "measuring-instruments"
+    }
+  ],
+  "learning_objectives": [
+    "Understand electric current as charge flux, define current density J = n q v_d, and derive microscopic Ohm's law J = sigma E.",
+    "Relate macroscopic resistance R = rho L / A to conductor geometry and determine resistance changes under recasting and stretching with volume conservation.",
+    "Analyze linear and non-linear resistor combinations in series and parallel networks.",
+    "Apply Kirchhoff's Current Law (Junction Law) and Kirchhoff's Voltage Law (Loop Law) to multi-loop DC circuits.",
+    "Model ideal and real measuring instruments (ammeter with zero internal resistance, voltmeter with infinite internal resistance) and evaluate branch currents and voltages."
+  ],
+  "prerequisite_curriculum_nodes": [
+    "curr-es-01",
+    "curr-wep-01"
+  ],
+  "concept_sequence": [
+    {
+      "concept_id": "concept-curr-drift-01",
+      "curriculum_id": "curr-curr-01",
+      "role": "FOUNDATION_CONCEPT",
+      "prerequisite_relationship": "Requires electric field acceleration from curr-es-01",
+      "explanation_priority": 1,
+      "source_atom_ids": [],
+      "source_evidence": "JEE Advanced Official Topic Prescription: Drift velocity and mobility"
+    },
+    {
+      "concept_id": "concept-curr-recasting-01",
+      "curriculum_id": "curr-curr-02",
+      "role": "CORE_PRINCIPLE",
+      "prerequisite_relationship": "Requires macroscopic Ohm law and geometric definition R = rho L / A from curr-curr-01",
+      "explanation_priority": 2,
+      "source_atom_ids": [
+        "current-electricity-question-ce6aab7f"
+      ],
+      "source_evidence": "JEE Advanced Official Topic Prescription: Resistance of wires and stretching/recasting"
+    },
+    {
+      "concept_id": "concept-curr-meters-01",
+      "curriculum_id": "curr-curr-03",
+      "role": "CORE_PRINCIPLE",
+      "prerequisite_relationship": "Requires Kirchhoff's laws and resistor network combinations from curr-curr-02",
+      "explanation_priority": 3,
+      "source_atom_ids": [
+        "current-electricity-question-3a1b8c4d",
+        "current-electricity-question-d2492f7f"
+      ],
+      "source_evidence": "JEE Advanced Official Topic Prescription: DC circuits, ammeter and voltmeter in networks"
+    }
+  ],
+  "formula_sequence": [
+    {
+      "formula_id": "formula-curr-drift-micro",
+      "title": "Drift Velocity and Current Density",
+      "equation_latex": "I = n e A v_d,\\quad \\vec{J} = n e \\vec{v}_d = \\sigma \\vec{E}",
+      "variables": {
+        "I": "Electric current",
+        "n": "Free electron number density",
+        "e": "Elementary charge magnitude",
+        "A": "Cross-sectional area",
+        "v_d": "Drift speed",
+        "\\vec{J}": "Current density vector",
+        "\\sigma": "Conductivity",
+        "\\vec{E}": "Electric field"
+      },
+      "units_and_dimensions": {
+        "I": "A",
+        "n": "m^-3",
+        "e": "C",
+        "A": "m^2",
+        "v_d": "m/s",
+        "J": "A/m^2",
+        "\\sigma": "\\Omega^-1 m^-1"
+      },
+      "assumptions": [
+        "Uniform metallic conductor",
+        "Steady state current"
+      ],
+      "conditions_of_validity": [
+        "Valid under constant thermal conditions and classical Drude relaxation time approximation"
+      ],
+      "derivation_links": [
+        "curr-curr-01"
+      ],
+      "related_concept_ids": [
+        "concept-curr-drift-01"
+      ],
+      "common_misuse_cases": [
+        "Confusing drift velocity (~10^-4 m/s) with the speed of electromagnetic signal propagation (~c)"
+      ],
+      "provenance": [],
+      "verification_status": "VERIFIED"
+    },
+    {
+      "formula_id": "formula-curr-recasting-volume",
+      "title": "Resistance Under Volume Conservation (Recasting / Stretching)",
+      "equation_latex": "R = \\rho \\frac{l}{A} = \\rho \\frac{l}{\\pi r^2} = \\rho \\frac{V_{\\text{vol}}}{\\pi^2 r^4} \\propto \\frac{1}{r^4}",
+      "variables": {
+        "R": "Electrical resistance",
+        "\\rho": "Resistivity of the material",
+        "l": "Length of wire",
+        "A": "Cross-sectional area",
+        "r": "Radius of circular cross-section",
+        "V_{\\text{vol}}": "Total volume of wire"
+      },
+      "units_and_dimensions": {
+        "R": "\\Omega",
+        "\\rho": "\\Omega m",
+        "l": "m",
+        "A": "m^2",
+        "r": "m"
+      },
+      "assumptions": [
+        "Material density and mass are conserved during recasting",
+        "Uniform cross-section throughout length",
+        "Temperature remains constant"
+      ],
+      "conditions_of_validity": [
+        "Plastic deformation or melting/recasting with zero mass loss (V = A * l = constant)"
+      ],
+      "derivation_links": [
+        "curr-curr-02"
+      ],
+      "related_concept_ids": [
+        "concept-curr-recasting-01"
+      ],
+      "common_misuse_cases": [
+        "Assuming R proportional to 1/r^2 (forgetting that length l must increase by 4 times when radius is halved to keep volume constant, resulting in R proportional to 1/r^4 = 16x)"
+      ],
+      "provenance": [],
+      "verification_status": "VERIFIED"
+    },
+    {
+      "formula_id": "formula-curr-measuring-meters",
+      "title": "Ideal Ammeter and Voltmeter Branch Equations",
+      "equation_latex": "R_A \\to 0 \\implies V_A = 0,\\quad R_V \\to \\infty \\implies I_V = 0",
+      "variables": {
+        "R_A": "Internal resistance of ammeter",
+        "V_A": "Potential drop across ammeter",
+        "R_V": "Internal resistance of voltmeter",
+        "I_V": "Current through voltmeter branch"
+      },
+      "units_and_dimensions": {
+        "R_A": "\\Omega",
+        "R_V": "\\Omega",
+        "V_A": "V",
+        "I_V": "A"
+      },
+      "assumptions": [
+        "Ideal measuring instruments with zero disturbance to circuit conditions"
+      ],
+      "conditions_of_validity": [
+        "Valid whenever measuring devices are specified as ideal"
+      ],
+      "derivation_links": [
+        "curr-curr-03"
+      ],
+      "related_concept_ids": [
+        "concept-curr-meters-01"
+      ],
+      "common_misuse_cases": [
+        "Treating real meters as ideal or assuming voltmeters draw non-zero current when specified as ideal"
+      ],
+      "provenance": [],
+      "verification_status": "VERIFIED"
+    }
+  ],
+  "misconception_sequence": [
+    {
+      "misconception_id": "misc-curr-01",
+      "category": "INVALID_FORMULA_CONDITION",
+      "statement": "When a wire of radius r is recast into a wire of radius r/2, its resistance doubles or quadruples because R is inversely proportional to cross-sectional area.",
+      "explanation": "R = rho * l / A. When a wire is recast or stretched, its volume V = A * l remains strictly constant. If the radius is halved (r' = r/2), the area decreases by a factor of 4: A' = A / 4. Volume conservation (A' * l' = A * l) requires the length to increase by a factor of 4: l' = 4 l. Thus, R' = rho * (4 l) / (A / 4) = 16 * (rho * l / A) = 16 R. Resistance scales as 1/r^4, not 1/r^2.",
+      "trap_mechanism": "Numerical fill-in-the-blank questions exploit students calculating R' = 4 R (400 ohms) instead of 16 R (1600 ohms).",
+      "trigger_conditions": [
+        "Recasting, drawing, or stretching a wire to change radius or diameter"
+      ],
+      "connected_concept_ids": [
+        "concept-curr-recasting-01"
+      ],
+      "connected_atom_ids": [
+        "current-electricity-question-ce6aab7f"
+      ]
+    },
+    {
+      "misconception_id": "misc-curr-02",
+      "category": "HIDDEN_CONSTRAINT_OMISSION",
+      "statement": "An ammeter in a branch measures the total battery current regardless of parallel branches.",
+      "explanation": "An ammeter connected in series with a specific branch resistor R_1 measures only the branch current I_1 passing through that branch, not the total circuit current leaving the source. The total current splits between parallel branches inversely proportional to their branch resistances.",
+      "trap_mechanism": "Questions place an ammeter inside one branch of a parallel network and offer the total circuit current as a tempting distractor option.",
+      "trigger_conditions": [
+        "Circuit with parallel branches containing branch ammeters"
+      ],
+      "connected_concept_ids": [
+        "concept-curr-meters-01"
+      ],
+      "connected_atom_ids": [
+        "current-electricity-question-3a1b8c4d",
+        "current-electricity-question-d2492f7f"
+      ]
+    }
+  ],
+  "worked_example_sequence": [
+    {
+      "example_id": "ex-curr-recast-wire-01",
+      "problem_statement": "A uniform cylindrical copper wire of length $l$ and radius $r$ has a resistance of $100\\,\\Omega$. It is completely melted down and recast into a uniform wire of radius $\\frac{r}{2}$ without any loss of material. Calculate the resistance of the new wire.",
+      "known_quantities": {
+        "R_1": "100 \\Omega",
+        "r_1": "r",
+        "r_2": "r/2",
+        "\\rho": "Resistivity of copper (constant)"
+      },
+      "target_quantity": "New resistance R_2",
+      "relevant_concepts": [
+        "Definition of resistance R = rho * l / A",
+        "Volume conservation of incompressible solid: V = A * l = constant"
+      ],
+      "governing_principles": [
+        "Conservation of mass and volume during recasting: V_1 = V_2",
+        "Ohm's law resistance relation: R = rho l / A"
+      ],
+      "solution_strategy": "Express initial and final cross-sectional areas in terms of radius. Use volume conservation A_1 l_1 = A_2 l_2 to determine the new length l_2. Then substitute l_2 and A_2 into the resistance formula to determine the ratio R_2 / R_1.",
+      "step_by_step_derivation": [
+        "Step 1: The initial resistance is R_1 = rho (l_1 / A_1) = rho (l_1 / (pi r^2)) = 100 Omega.",
+        "Step 2: The final radius is r_2 = r/2. The final cross-sectional area is A_2 = pi r_2^2 = pi (r/2)^2 = (pi r^2)/4 = A_1 / 4.",
+        "Step 3: Because the wire is recast with no loss of material, volume is conserved: V_1 = V_2 implies A_1 l_1 = A_2 l_2. Substituting A_2 = A_1 / 4 gives l_2 = 4 l_1.",
+        "Step 4: Compute the new resistance: R_2 = rho (l_2 / A_2) = rho (4 l_1 / (A_1 / 4)) = 16 (rho l_1 / A_1) = 16 R_1.",
+        "Step 5: Substitute R_1 = 100 Omega: R_2 = 16 * 100 Omega = 1600 Omega."
+      ],
+      "final_answer": "1600\\,\\Omega",
+      "sanity_checks": [
+        "Dimensional check: [R_2] = Omega.",
+        "Scaling check: R proportional to l / r^2. Since l proportional to 1/r^2 from volume conservation, R proportional to 1/r^4. Halving r multiplies R by 2^4 = 16.",
+        "Limiting check: If r_2 = r, R_2 = 100 Omega."
+      ],
+      "alternate_methods": [],
+      "source_atom_id": "current-electricity-question-ce6aab7f",
+      "provenance": [],
+      "verification_status": "VERIFIED"
+    }
+  ],
+  "question_sequence": [
+    {
+      "atom_id": "current-electricity-question-3a1b8c4d",
+      "curriculum_id": "curr-curr-03",
+      "chapter_id": "current-electricity",
+      "topic_id": "dc-circuits",
+      "pedagogical_role": "PRACTICE_QUESTION",
+      "difficulty_dimensions": {
+        "conceptual_difficulty": 2,
+        "mathematical_difficulty": 2,
+        "multistep_reasoning_difficulty": 2,
+        "abstraction_difficulty": 1,
+        "computational_burden": 2,
+        "trap_misconception_difficulty": 2
+      },
+      "prerequisite_concept_ids": [
+        "concept-curr-meters-01"
+      ],
+      "question_ladder_id": null,
+      "question_ladder_position": null,
+      "source_provenance": [
+        {
+          "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+          "file_name": "jee_rank_booster-03_mock_paper.pdf",
+          "file_path": "jee_rank_booster-03_mock_paper.pdf",
+          "page_start": 4,
+          "page_end": 4,
+          "source_locator": "Section - A, Q13",
+          "edition": null,
+          "extraction_metadata": {
+            "source_sha256": "256f42c67a9271aaafe4bf637eb34cddd10da959cdf7a66fc6fee76a68d34361"
+          }
+        }
+      ]
+    },
+    {
+      "atom_id": "current-electricity-question-ce6aab7f",
+      "curriculum_id": "curr-curr-02",
+      "chapter_id": "current-electricity",
+      "topic_id": "resistance-and-resistivity",
+      "pedagogical_role": "PRACTICE_QUESTION",
+      "difficulty_dimensions": {
+        "conceptual_difficulty": 2,
+        "mathematical_difficulty": 2,
+        "multistep_reasoning_difficulty": 2,
+        "abstraction_difficulty": 2,
+        "computational_burden": 1,
+        "trap_misconception_difficulty": 3
+      },
+      "prerequisite_concept_ids": [
+        "concept-curr-recasting-01"
+      ],
+      "question_ladder_id": null,
+      "question_ladder_position": null,
+      "source_provenance": [
+        {
+          "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+          "file_name": "jee_rank_booster-03_mock_paper.pdf",
+          "file_path": "jee_rank_booster-03_mock_paper.pdf",
+          "page_start": 5,
+          "page_end": 5,
+          "source_locator": "Section - B, Q21",
+          "edition": null,
+          "extraction_metadata": {
+            "source_sha256": "256f42c67a9271aaafe4bf637eb34cddd10da959cdf7a66fc6fee76a68d34361"
+          }
+        }
+      ]
+    },
+    {
+      "atom_id": "current-electricity-question-d2492f7f",
+      "curriculum_id": "curr-curr-03",
+      "chapter_id": "current-electricity",
+      "topic_id": "dc-circuits",
+      "pedagogical_role": "PRACTICE_QUESTION",
+      "difficulty_dimensions": {
+        "conceptual_difficulty": 2,
+        "mathematical_difficulty": 2,
+        "multistep_reasoning_difficulty": 2,
+        "abstraction_difficulty": 1,
+        "computational_burden": 2,
+        "trap_misconception_difficulty": 2
+      },
+      "prerequisite_concept_ids": [
+        "concept-curr-meters-01"
+      ],
+      "question_ladder_id": null,
+      "question_ladder_position": null,
+      "source_provenance": [
+        {
+          "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+          "file_name": "jee_rank_booster-03_mock_paper.pdf",
+          "file_path": "jee_rank_booster-03_mock_paper.pdf",
+          "page_start": 4,
+          "page_end": 4,
+          "source_locator": "Section - A, Q13",
+          "edition": null,
+          "extraction_metadata": {
+            "source_sha256": "256f42c67a9271aaafe4bf637eb34cddd10da959cdf7a66fc6fee76a68d34361"
+          }
+        }
+      ]
+    }
+  ],
+  "question_ladders": [],
+  "revision_checklist": [
+    "Electric current: I = dq/dt = n e A v_d.",
+    "Current density: J = I/A = sigma E = E / rho.",
+    "Resistance: R = rho L / A; for stretching/recasting with volume constant, R proportional to L^2 and R proportional to 1/r^4.",
+    "Temperature dependence: R(T) = R_0 (1 + alpha Delta T).",
+    "Series combination: R_eq = R_1 + R_2 + ...; Parallel combination: 1/R_eq = 1/R_1 + 1/R_2 + ...",
+    "EMF and terminal potential difference: V = E - I r (discharging), V = E + I r (charging).",
+    "Kirchhoff's Laws: Junction Rule (sum I = 0, charge conservation) and Loop Rule (sum Delta V = 0, energy conservation).",
+    "Measuring instruments: Ideal Ammeter has R_A = 0 (connected in series); Ideal Voltmeter has R_V = infty (connected in parallel).",
+    "Wheatstone Bridge: Balanced condition R_1 / R_2 = R_3 / R_4.",
+    "Electrical power: P = V I = I^2 R = V^2 / R; Maximum power transfer theorem: R_L = r."
+  ],
+  "coverage_requirements": {
+    "min_questions": 3,
+    "target_difficulty_distribution": {
+      "L1": 0,
+      "L2": 3,
+      "L3": 0,
+      "L4": 0,
+      "L5": 0
+    }
+  },
+  "assessment_requirements": {
+    "exam_types": [
+      "JEE_MAIN",
+      "JEE_ADVANCED"
+    ]
+  }
+}

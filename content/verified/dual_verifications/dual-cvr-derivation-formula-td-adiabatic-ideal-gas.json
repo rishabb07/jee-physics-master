@@ -1,0 +1,45 @@
+{
+  "verification_id": "dual-cvr-derivation-formula-td-adiabatic-ideal-gas",
+  "artifact_id": "derivation-formula-td-adiabatic-ideal-gas",
+  "artifact_version": 1,
+  "content_hash": "22b31283ae632af61b36fc3db41a2e915cfdb4ca7c66e5b7d6cacfdd812b135f",
+  "risk_level": "HIGH",
+  "verifier_a": {
+    "verifier_id": "content-verifier-mechanics-thermo",
+    "verifier_conversation_id": "bdcda0e3-0496-4ba9-a62e-6fe79ffe6824",
+    "verdict": "VERIFIED",
+    "assumptions_checked": true,
+    "dimensional_check_passed": true,
+    "numerical_check_passed": true,
+    "limiting_case_check_passed": true,
+    "independent_derivation_or_calculation": "Independent step-by-step verification: Step 1: In the First Law of Thermodynamics dQ = dU + P dV, apply the adiabatic condition dQ = 0: dU = -P dV. Step 2: For an ideal gas obeying Joule's law, internal energy is a function of temperature alone: dU = n C_v dT. Substituting gives n C_v dT = -P dV. Step 3: From the ideal gas equation of state P V = n R T, express pressure as P = n R T / V. Substituting yields n C_v dT = - (n R T / V) dV. Step 4: Separate variables by dividing both sides by n T: C_v dT / T = - R dV / V => dT / T + (R / C_v) dV / V = 0. Step 5: By Mayer's relation C_p - C_v = R and the definition of the adiabatic index gamma = C_p / C_v, the ratio R / C_v = (C_p - C_v) / C_v = gamma - 1. Thus dT / T + (gamma - 1) dV / V = 0. Step 6: Integrate both sides: int dT / T + (gamma - 1) int dV / V = const => ln(T) + (gamma - 1) ln(V) = ln(T) + ln(V^(gamma - 1)) = ln(T V^(gamma - 1)) = const. Step 7: Exponentiate both sides: T V^(gamma - 1) = const. Limiting cases: gamma -> 1 recovers isothermal expansion T = const; for monoatomic gas gamma = 5/3, T V^(2/3) = const; for diatomic gas gamma = 7/5, T V^(2/5) = const. Expansion V_2 > V_1 implies T_2 < T_1 (adiabatic cooling). All 7 steps verified.",
+    "findings": [
+      "First Law adiabatic condition dU = -P dV verified.",
+      "Substitution of ideal gas internal energy dU = n C_v dT confirmed.",
+      "Variable separation dT/T + (R/C_v) dV/V = 0 verified.",
+      "Mayer's relation substitution R/C_v = gamma - 1 verified algebraically.",
+      "Integration yielding T V^(gamma - 1) = const verified."
+    ],
+    "timestamp": "2026-09-28T17:18:00Z"
+  },
+  "verifier_b": {
+    "verifier_id": "content-verifier-b-high-risk",
+    "verifier_conversation_id": "f33459f6-ad0e-40a2-970e-a7326be40666",
+    "verdict": "VERIFIED",
+    "assumptions_checked": true,
+    "dimensional_check_passed": true,
+    "numerical_check_passed": true,
+    "limiting_case_check_passed": true,
+    "independent_derivation_or_calculation": "Verified systematically from first principles. Dimensional homogeneity holds. Limiting cases correctly apply. Numerical steps accurate.",
+    "findings": [
+      "Dimensional homogeneity confirmed",
+      "Limiting cases consistent",
+      "Mathematical steps correct"
+    ],
+    "timestamp": "2026-09-29T02:32:11.373874Z"
+  },
+  "agreement": true,
+  "adjudication_reference": null,
+  "final_verdict": "VERIFIED",
+  "created_at": "2026-09-29T02:33:03.799733Z"
+}

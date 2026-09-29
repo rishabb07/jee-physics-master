@@ -1,0 +1,93 @@
+{
+  "derivation_id": "derivation-formula-opt-prism-geometry",
+  "target_formula_id": "formula-opt-prism-geometry",
+  "target_equation": "$A = r_1 + r_2,\\quad \\delta = i + e - A$",
+  "starting_principles": [
+    "Euclidean angle-sum theorem for a planar triangle: sum of interior angles is $180^\\circ$",
+    "Cyclic quadrilateral property: sum of opposite interior angles is $180^\\circ$",
+    "Definition of angular deviation $\\delta$ as the net change in direction between incident ray and emergent ray"
+  ],
+  "assumptions": [
+    "Prism has a triangular cross-section with refracting apex angle $A$ between polished planar faces $AB$ and $AC$",
+    "Optical ray propagates strictly in the principal cross-sectional plane perpendicular to the refracting edge",
+    "Ray undergoes refraction at face $AB$ (angle of incidence $i$, angle of refraction $r_1$) and at face $AC$ (internal angle of incidence $r_2$, emergent angle $e$)"
+  ],
+  "ordered_steps": [
+    {
+      "step_number": 1,
+      "description": "Analyze the geometry of quadrilateral formed by prism apex $A$, refraction points $Q$ and $R$, and the intersection of normals $N$.",
+      "starting_equation": "\\angle AQN = 90^\\circ,\\quad \\angle ARN = 90^\\circ",
+      "operation": "Sum opposite right angles to show quadrilateral $AQNR$ is cyclic: $\\angle A + \\angle QNR = 180^\\circ$",
+      "result_equation": "\\angle QNR = 180^\\circ - A",
+      "assumptions_applied": [
+        "Normals are perpendicular to the respective prism faces"
+      ]
+    },
+    {
+      "step_number": 2,
+      "description": "Apply the triangle angle-sum theorem to $\\triangle QNR$ to relate the apex angle $A$ to internal refraction angles $r_1$ and $r_2$.",
+      "starting_equation": "r_1 + r_2 + \\angle QNR = 180^\\circ",
+      "operation": "Substitute $\\angle QNR = 180^\\circ - A$ into the triangle sum equation",
+      "result_equation": "r_1 + r_2 + (180^\\circ - A) = 180^\\circ \\implies A = r_1 + r_2",
+      "assumptions_applied": [
+        "Planar Euclidean geometry"
+      ]
+    },
+    {
+      "step_number": 3,
+      "description": "Calculate the angular deviation $\\delta_1$ suffered by the ray upon refraction at the first face $AB$.",
+      "starting_equation": "i = r_1 + \\delta_1",
+      "operation": "Subtract $r_1$ from the angle of incidence $i$",
+      "result_equation": "\\delta_1 = i - r_1",
+      "assumptions_applied": [
+        "Linear ray deviation toward normal at first refracting face"
+      ]
+    },
+    {
+      "step_number": 4,
+      "description": "Calculate the angular deviation $\\delta_2$ suffered by the ray upon refraction and emergence at the second face $AC$.",
+      "starting_equation": "e = r_2 + \\delta_2",
+      "operation": "Subtract internal incidence angle $r_2$ from the emergence angle $e$",
+      "result_equation": "\\delta_2 = e - r_2",
+      "assumptions_applied": [
+        "Linear ray deviation away from normal at second refracting face"
+      ]
+    },
+    {
+      "step_number": 5,
+      "description": "Sum the deviations at both faces to compute the net deviation $\\delta$ of the ray.",
+      "starting_equation": "\\delta = \\delta_1 + \\delta_2",
+      "operation": "Substitute $\\delta_1 = i - r_1$ and $\\delta_2 = e - r_2$",
+      "result_equation": "\\delta = (i - r_1) + (e - r_2) = i + e - (r_1 + r_2)",
+      "assumptions_applied": [
+        "Both individual deviations bend the ray in the same rotational sense (toward prism base)"
+      ]
+    },
+    {
+      "step_number": 6,
+      "description": "Substitute the apex angle relation $A = r_1 + r_2$ into the total deviation expression.",
+      "starting_equation": "\\delta = i + e - (r_1 + r_2)",
+      "operation": "Substitute $r_1 + r_2 = A$",
+      "result_equation": "\\delta = i + e - A",
+      "assumptions_applied": [
+        "Geometric relation $A = r_1 + r_2$"
+      ]
+    }
+  ],
+  "final_equation": "$A = r_1 + r_2,\\quad \\delta = i + e - A$",
+  "applicability_conditions": [
+    "Valid for triangular prisms with flat planar faces with rays confined to the principal cross-sectional plane",
+    "Ray successfully transmits across both faces without undergoing total internal reflection at face $AC$"
+  ],
+  "source_references": [
+    "jee_rank_booster-03_mock_paper.pdf",
+    "concepts_of_physics_by_h.c._verma_volume_2.pdf"
+  ],
+  "risk_level": "HIGH",
+  "verification_status": "VERIFIED",
+  "verification_record_id": "dual-cvr-derivation-formula-opt-prism-geometry",
+  "content_hash": "55ad982213bde509dcaa7848f8af57c256d0d1a22116beba71cad3f296e97e31",
+  "generator_identity": "ContentGeneratorAgent",
+  "generator_conversation_id": "068c12c6-05bc-4521-81c4-e5ff6ad6d7f9",
+  "created_at": "2026-09-28T22:40:00Z"
+}

@@ -1,0 +1,21 @@
+{
+  "verification_id": "cvr-formula-curr-drift-micro",
+  "artifact_id": "formula-curr-drift-micro",
+  "artifact_version": 1,
+  "content_hash": "6f482d869dee9ff7469e7bd013f64866d508266e0cd3c8b3ee77accf97d41940",
+  "verifier_id": "formula-content-verifier",
+  "verifier_conversation_id": "ab85d650-e1e8-42e2-ac4a-8bc8a6460e30",
+  "risk_level": "MEDIUM",
+  "verdict": "VERIFIED",
+  "assumptions_checked": true,
+  "dimensional_check_passed": true,
+  "numerical_check_passed": true,
+  "limiting_case_check_passed": true,
+  "independent_derivation_or_calculation": "Drift velocity v_d = I / (n e A). Derived from I = dQ/dt = (n A v_d dt) e / dt. Dimensionally: [A] / ([L^-3] [C] [L^2]) = [L][T^-1] = velocity.",
+  "findings": [
+    "Dimensional homogeneity confirmed ([L][T^-1])",
+    "Microscopic model correctly relates current to drift speed"
+  ],
+  "discrepancies": [],
+  "timestamp": "2026-09-29T02:32:37.338299+00:00"
+}

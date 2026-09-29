@@ -1,0 +1,94 @@
+{
+  "description": "Represents a specific occurrence and physical location of knowledge within a source file.",
+  "properties": {
+    "source_id": {
+      "description": "Unique identifier of the registered source document",
+      "title": "Source Id",
+      "type": "string"
+    },
+    "file_name": {
+      "description": "Original filename of the source document",
+      "title": "File Name",
+      "type": "string"
+    },
+    "file_path": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Path or relative URI to source document",
+      "title": "File Path"
+    },
+    "page_start": {
+      "anyOf": [
+        {
+          "minimum": 1,
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "1-based starting page number where available",
+      "title": "Page Start"
+    },
+    "page_end": {
+      "anyOf": [
+        {
+          "minimum": 1,
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "1-based ending page number where available",
+      "title": "Page End"
+    },
+    "source_locator": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Human-readable location (e.g. Chapter 3, Example 12, Q14)",
+      "title": "Source Locator"
+    },
+    "edition": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Edition or printing identifier of the source",
+      "title": "Edition"
+    },
+    "extraction_metadata": {
+      "additionalProperties": true,
+      "description": "Metadata captured during extraction",
+      "title": "Extraction Metadata",
+      "type": "object"
+    }
+  },
+  "required": [
+    "source_id",
+    "file_name"
+  ],
+  "title": "ProvenanceRecord",
+  "type": "object"
+}

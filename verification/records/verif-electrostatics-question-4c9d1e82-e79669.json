@@ -1,0 +1,30 @@
+{
+  "verification_id": "verif-electrostatics-question-4c9d1e82-e79669",
+  "atom_id": "electrostatics-question-4c9d1e82",
+  "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+  "atom_version": 1,
+  "content_hash": "55511314791636289281fa986d2b38358fd33945eb154d89f87d5bc7ea6a59a7",
+  "verification_protocol_version": "1.0.0",
+  "solver_run_ids": [
+    "run-solver_a-bb4c5937-48e0-4f1f-aa26-7e02ce74a0ba",
+    "run-solver_b-electrostatics-question-4c9d1e82"
+  ],
+  "source_claimed_answer": null,
+  "source_solution": null,
+  "independent_answers": {
+    "solver_a": "C",
+    "solver_b": "C"
+  },
+  "independent_solutions": {
+    "solver_a": "Step 1: Point charge +Q at center of square base of pyramid.\nStep 2: Reflect across base to form closed regular 8-faced octahedron.\nStep 3: Total flux through closed octahedron by Gauss's Law is Q / eps_0.",
+    "solver_b": "Step 1: Point charge +Q at center of square base of pyramid.\nStep 2: Base flux is zero because field lines lie in base plane.\nStep 3: Upper half-space solid angle is 2pi, receiving Q / (2 eps_0)."
+  },
+  "consensus_answer": "C",
+  "verdict": "VERIFIED",
+  "confidence": 0.99,
+  "discrepancy_classification": "SOURCE_ANSWER_MISSING",
+  "adjudication_result": null,
+  "created_at": "2026-09-27T19:51:06.382493Z",
+  "completed_at": "2026-09-27T19:51:06.382493Z",
+  "metadata": {}
+}

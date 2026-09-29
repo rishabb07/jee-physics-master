@@ -1,0 +1,21 @@
+{
+  "verification_id": "cvr-formula-td-adiabatic-ideal-gas",
+  "artifact_id": "formula-td-adiabatic-ideal-gas",
+  "artifact_version": 1,
+  "content_hash": "84026a90fe4f9693f83ddf90fd107e65bd979dbc5875faac98651fa83fca24bc",
+  "verifier_id": "formula-content-verifier",
+  "verifier_conversation_id": "ab85d650-e1e8-42e2-ac4a-8bc8a6460e30",
+  "risk_level": "MEDIUM",
+  "verdict": "VERIFIED",
+  "assumptions_checked": true,
+  "dimensional_check_passed": true,
+  "numerical_check_passed": true,
+  "limiting_case_check_passed": true,
+  "independent_derivation_or_calculation": "PV^gamma = constant for an adiabatic process of an ideal gas. Derived from first law with dQ=0 and ideal gas law. Valid for quasi-static adiabatic process.",
+  "findings": [
+    "Derived relation is standard and correct",
+    "Exponent gamma correctly defined as Cp/Cv"
+  ],
+  "discrepancies": [],
+  "timestamp": "2026-09-29T02:32:37.338299+00:00"
+}

@@ -1,0 +1,30 @@
+{
+  "verification_id": "verif-fluid-mechanics-question-2b8a7f0e-0bcf2c",
+  "atom_id": "fluid-mechanics-question-2b8a7f0e",
+  "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+  "atom_version": 1,
+  "content_hash": "ea5b50dd8af5543e53debcccb88c201bef8bdfa0933269f26ac8830c2aff9d86",
+  "verification_protocol_version": "1.0.0",
+  "solver_run_ids": [
+    "run-solver_a-fluid-mechanics-question-2b8a7f0e-3c7d9a14",
+    "run-solver_b-fluid-mechanics-question-2b8a7f0e"
+  ],
+  "source_claimed_answer": null,
+  "source_solution": null,
+  "independent_answers": {
+    "solver_a": "D",
+    "solver_b": "D"
+  },
+  "independent_solutions": {
+    "solver_a": "Step 1: Fluid layering stability: Liquid 1 (density rho_1) forms the upper layer resting above Liquid 2 (density rho_2). In stable hydrostatic equilibrium under gravity without Rayleigh-Taylor convective mixing, the less dense liquid floats above the denser liquid: rho_1 < rho_2.\nStep 2: Static equilibrium of floating solid ball: The solid ball has total volume V, uniform density rho_3, and mass m = rho_3 * V. Its downward gravitational weight is W = rho_3 * V * g.\nStep 3: Archimedes' principle for stratified fluids: The ball floats in static equilibrium straddling the interface between Liquid 1 and Liquid 2. Let V_1 > 0 be the submerged volume in Liquid 1 and V_2 > 0 be the submerged volume in Liquid 2, such that V_1 + V_2 = V.",
+    "solver_b": "Step 1: Fluid layering stability requires rho1 < rho2.\nStep 2: Static equilibrium: W = F_B => rho3 * V = rho1 * V1 + rho2 * V2.\nStep 3: rho3 = rho1 * (V1/V) + rho2 * (V2/V)."
+  },
+  "consensus_answer": "D",
+  "verdict": "VERIFIED",
+  "confidence": 0.99,
+  "discrepancy_classification": "SOURCE_ANSWER_MISSING",
+  "adjudication_result": null,
+  "created_at": "2026-09-27T20:05:28.529379Z",
+  "completed_at": "2026-09-27T20:05:28.529379Z",
+  "metadata": {}
+}

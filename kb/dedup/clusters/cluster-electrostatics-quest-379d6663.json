@@ -1,0 +1,32 @@
+{
+  "cluster_id": "cluster-electrostatics-quest-379d6663",
+  "canonical_atom_id": "electrostatics-question-132c25d1",
+  "member_atom_ids": [
+    "electrostatics-question-132c25d1",
+    "electrostatics-question-4c9d1e82"
+  ],
+  "cluster_type": "EXACT_DUPLICATE",
+  "cluster_confidence": 1.0,
+  "decision_ids": [
+    "cand-electrostati-electrostati"
+  ],
+  "preserved_provenance": [
+    {
+      "atom_id": "electrostatics-question-132c25d1",
+      "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+      "file_name": "jee_rank_booster-03_mock_paper.pdf",
+      "file_path": "jee_rank_booster-03_mock_paper.pdf",
+      "page_start": 4,
+      "page_end": 4,
+      "source_locator": "Section - A, Q15",
+      "edition": null,
+      "source_claimed_answer": "C",
+      "original_statement": "A point charge $+Q$ is positioned at the center of the base of a square pyramid as shown. The flux through one of the four identical upper faces of the pyramid is –",
+      "extraction_metadata": {
+        "source_sha256": "256f42c67a9271aaafe4bf637eb34cddd10da959cdf7a66fc6fee76a68d34361"
+      }
+    }
+  ],
+  "preserved_solution_methods": [],
+  "created_at": "2026-09-28T04:54:04.496969Z"
+}

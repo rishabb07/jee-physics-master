@@ -1,0 +1,55 @@
+{
+  "question_id": "fixture-ambig-missing-info-01",
+  "version": 1,
+  "origin": "GENERATED",
+  "provenance_class": "CONTROLLED_TEST_FIXTURE",
+  "curriculum_id": "curr-td-01",
+  "taxonomy_reference": {
+    "chapter_id": "thermodynamics",
+    "topic_id": "first-law-of-thermodynamics",
+    "subtopic_id": "work-done"
+  },
+  "concept_references": [
+    "concept-td-first-law-01"
+  ],
+  "prerequisite_references": [],
+  "target_exam_level": "JEE_MAIN",
+  "question_type": "NUMERICAL",
+  "statement": "An ideal gas initially at temperature $T_1 = 300\\text{ K}$ expands and performs $W = 500\\text{ J}$ of work. Find its final temperature.",
+  "diagram_references": [],
+  "options": {},
+  "correct_answer": "UNKNOWN",
+  "solution_strategy": "Attempt First Law calculation",
+  "solution": "Cannot be solved: The process path is completely unspecified (isothermal, adiabatic, isobaric?) and the heat transferred $Q$ is omitted. Therefore, $\\Delta U = Q - W$ cannot be determined.",
+  "assumptions": [
+    "ADVERSARIAL_FIXTURE: Missing heat exchange Q and process path specification"
+  ],
+  "numerical_values": {
+    "T_1": 300.0,
+    "W": 500.0
+  },
+  "units": "K",
+  "tolerance": 0.02,
+  "intended_learning_objective": "Test ambiguity gate detection of missing information in thermodynamic process",
+  "difficulty_dimensions": {
+    "conceptual_difficulty": 3,
+    "mathematical_difficulty": 1,
+    "multistep_reasoning_difficulty": 2,
+    "abstraction_difficulty": 2,
+    "computational_burden": 1,
+    "trap_misconception_difficulty": 4
+  },
+  "difficulty_band": "L2",
+  "distractor_rationales": [],
+  "source_grounding": {
+    "relationship_type": "NEW_PROBLEM"
+  },
+  "risk_level": "MEDIUM",
+  "generation_metadata": {
+    "fixture_type": "MISSING_INFORMATION_TEST_FIXTURE",
+    "expected_verdict": "AMBIGUOUS"
+  },
+  "content_hash": null,
+  "verification_status": "GENERATED",
+  "verification_record_id": null
+}

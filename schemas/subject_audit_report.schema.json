@@ -1,0 +1,168 @@
+{
+  "$defs": {
+    "SubjectClassificationRecord": {
+      "description": "Authoritative subject-boundary classification for a source document or page range.",
+      "properties": {
+        "classification_id": {
+          "description": "Unique ID for this classification record",
+          "title": "Classification Id",
+          "type": "string"
+        },
+        "source_id": {
+          "description": "Target source ID",
+          "title": "Source Id",
+          "type": "string"
+        },
+        "page_start": {
+          "description": "Start page number (1-indexed)",
+          "minimum": 1,
+          "title": "Page Start",
+          "type": "integer"
+        },
+        "page_end": {
+          "description": "End page number (1-indexed)",
+          "minimum": 1,
+          "title": "Page End",
+          "type": "integer"
+        },
+        "subject": {
+          "$ref": "#/$defs/SubjectType",
+          "description": "Classified subject (PHYSICS, CHEMISTRY, MATHEMATICS, etc.)"
+        },
+        "confidence": {
+          "description": "Classification confidence score",
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Confidence",
+          "type": "number"
+        },
+        "reason": {
+          "description": "Reasoning and visual/textual evidence for classification",
+          "minLength": 1,
+          "title": "Reason",
+          "type": "string"
+        },
+        "detected_markers": {
+          "description": "Section headers, subject titles, or formulas observed",
+          "items": {
+            "type": "string"
+          },
+          "title": "Detected Markers",
+          "type": "array"
+        },
+        "status": {
+          "default": "PROPOSED",
+          "description": "'PROPOSED', 'VALIDATED', 'EXCEPTION_PENDING', or 'REJECTED'",
+          "title": "Status",
+          "type": "string"
+        },
+        "classified_at": {
+          "format": "date-time",
+          "title": "Classified At",
+          "type": "string"
+        },
+        "notes": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Boundary nuances, e.g. transitional page",
+          "title": "Notes"
+        }
+      },
+      "required": [
+        "classification_id",
+        "source_id",
+        "page_start",
+        "page_end",
+        "subject",
+        "confidence",
+        "reason"
+      ],
+      "title": "SubjectClassificationRecord",
+      "type": "object"
+    },
+    "SubjectType": {
+      "description": "Authoritative subject-level domain boundaries.",
+      "enum": [
+        "PHYSICS",
+        "CHEMISTRY",
+        "MATHEMATICS",
+        "NON_CONTENT",
+        "OTHER",
+        "MIXED",
+        "UNCERTAIN"
+      ],
+      "title": "SubjectType",
+      "type": "string"
+    }
+  },
+  "description": "Summary report of subject classifications across an entire source document.",
+  "properties": {
+    "source_id": {
+      "description": "Target source ID",
+      "title": "Source Id",
+      "type": "string"
+    },
+    "file_name": {
+      "description": "Source file name",
+      "title": "File Name",
+      "type": "string"
+    },
+    "total_pages": {
+      "description": "Total pages in the source",
+      "minimum": 1,
+      "title": "Total Pages",
+      "type": "integer"
+    },
+    "records": {
+      "description": "List of page classifications",
+      "items": {
+        "$ref": "#/$defs/SubjectClassificationRecord"
+      },
+      "title": "Records",
+      "type": "array"
+    },
+    "physics_pages": {
+      "description": "List of pages classified as PHYSICS",
+      "items": {
+        "type": "integer"
+      },
+      "title": "Physics Pages",
+      "type": "array"
+    },
+    "excluded_pages": {
+      "description": "List of pages excluded from Physics KB",
+      "items": {
+        "type": "integer"
+      },
+      "title": "Excluded Pages",
+      "type": "array"
+    },
+    "uncertain_pages": {
+      "description": "Pages with UNCERTAIN or MIXED classification",
+      "items": {
+        "type": "integer"
+      },
+      "title": "Uncertain Pages",
+      "type": "array"
+    },
+    "created_at": {
+      "format": "date-time",
+      "title": "Created At",
+      "type": "string"
+    }
+  },
+  "required": [
+    "source_id",
+    "file_name",
+    "total_pages"
+  ],
+  "title": "SubjectAuditReport",
+  "type": "object"
+}

@@ -1,0 +1,25 @@
+{
+  "solver_run_id": "run-solver_a-center-of-mass-question-95affcbc-42d559b6",
+  "atom_id": "center-of-mass-question-95affcbc",
+  "solver_id": "solver_a",
+  "solver_agent_name": "solver_a",
+  "atom_version": 1,
+  "content_hash": "fc25a97e998fc48e3725efdd4dd97e4f23a7ad565e0396916cd4edd23e7197d7",
+  "verification_protocol_version": "1.0.0",
+  "blind_package_hash": "44a794b8926c1776ac9554ecb1797658d14c6a3b4795eee6ab0ca3c4a7548b3e",
+  "model_name": null,
+  "independent_answer": "B",
+  "raw_answer": "Option B",
+  "reasoning_steps": [
+    "Conservation of momentum",
+    "Velocity vectors at given angles"
+  ],
+  "assumptions_used": [
+    "Standard physical assumptions"
+  ],
+  "uncertainty": null,
+  "diagram_interpretation": null,
+  "possible_ambiguities": [],
+  "created_at": "2026-09-28T03:26:20.571787Z",
+  "raw_response": null
+}

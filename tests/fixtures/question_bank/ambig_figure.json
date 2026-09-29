@@ -1,0 +1,93 @@
+{
+  "question_id": "fixture-ambig-figure-01",
+  "version": 1,
+  "origin": "GENERATED",
+  "provenance_class": "CONTROLLED_TEST_FIXTURE",
+  "curriculum_id": "curr-curr-02",
+  "taxonomy_reference": {
+    "chapter_id": "current-electricity",
+    "topic_id": "dc-circuits",
+    "subtopic_id": "kirchhoffs-laws"
+  },
+  "concept_references": [
+    "concept-curr-drift-01"
+  ],
+  "prerequisite_references": [],
+  "target_exam_level": "JEE_MAIN",
+  "question_type": "SINGLE_CORRECT_MCQ",
+  "statement": "In the circuit shown in the accompanying diagram, two diagonal connecting branches cross each other between nodes A and B. What is the equivalent resistance between terminals X and Y?",
+  "diagram_references": [
+    {
+      "figure_id": "diag-crossing-ambig-01",
+      "description": "Circuit schematic depicting crossed diagonal wires without a junction dot or bridge hump",
+      "referenced_entities": ["crossing_wires", "resistors", "terminals_X_Y"],
+      "labels": {
+        "X": "Input terminal",
+        "Y": "Output terminal"
+      },
+      "geometry_consistent": false
+    }
+  ],
+  "options": {
+    "A": "$2\\;\\Omega$",
+    "B": "$4\\;\\Omega$",
+    "C": "$6\\;\\Omega$",
+    "D": "$8\\;\\Omega$"
+  },
+  "correct_answer": "A",
+  "solution_strategy": "Circuit reduction",
+  "solution": "Ambiguous figure: The diagram depicts two crossing conductor wires without an explicit solder dot or bridge hump. If connected at the intersection, equivalent resistance is $2\\,\\Omega$; if crossing without electrical contact, equivalent resistance is $4\\,\\Omega$. The diagram is ambiguous.",
+  "assumptions": [
+    "ADVERSARIAL_FIXTURE: Ambiguous schematic junction without solder dot"
+  ],
+  "numerical_values": {},
+  "units": null,
+  "tolerance": null,
+  "intended_learning_objective": "Test ambiguity gate detection of visually ambiguous schematic diagrams",
+  "difficulty_dimensions": {
+    "conceptual_difficulty": 3,
+    "mathematical_difficulty": 1,
+    "multistep_reasoning_difficulty": 2,
+    "abstraction_difficulty": 2,
+    "computational_burden": 1,
+    "trap_misconception_difficulty": 4
+  },
+  "difficulty_band": "L2",
+  "distractor_rationales": [
+    {
+      "option_key": "B",
+      "distractor_value": "$4\\;\\Omega$",
+      "likely_misconception": "No-contact interpretation",
+      "student_rationale": "Assumes crossing wires do not touch",
+      "physical_error": "Schematic convention is unclarified",
+      "error_category": "UNSPECIFIED_BOUNDARY_ASSUMPTION"
+    },
+    {
+      "option_key": "C",
+      "distractor_value": "$6\\;\\Omega$",
+      "likely_misconception": "Series error",
+      "student_rationale": "Adds branch resistances in series",
+      "physical_error": "Ignores parallel topology",
+      "error_category": "CIRCUIT_TOPOLOGY_ERROR"
+    },
+    {
+      "option_key": "D",
+      "distractor_value": "$8\\;\\Omega$",
+      "likely_misconception": "Total sum",
+      "student_rationale": "Sums all resistors",
+      "physical_error": "Violates Kirchhoff node rule",
+      "error_category": "CIRCUIT_TOPOLOGY_ERROR"
+    }
+  ],
+  "source_grounding": {
+    "relationship_type": "NEW_PROBLEM"
+  },
+  "risk_level": "MEDIUM",
+  "generation_metadata": {
+    "fixture_type": "AMBIGUOUS_FIGURE_TEST_FIXTURE",
+    "expected_verdict": "AMBIGUOUS"
+  },
+  "content_hash": null,
+  "verification_status": "GENERATED",
+  "verification_record_id": null
+}

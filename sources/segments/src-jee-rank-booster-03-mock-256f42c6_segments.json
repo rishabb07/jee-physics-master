@@ -1,0 +1,24 @@
+{
+  "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+  "file_name": "jee_rank_booster-03_mock_paper.pdf",
+  "segmentation_type": "DETERMINISTIC_PAGE_SEGMENT",
+  "total_segments": 1,
+  "segments": [
+    {
+      "segment_id": "src-jee-rank-booster-03-mock-256f42c6-seg-0001-0014",
+      "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+      "segment_type": "DETERMINISTIC_PAGE_SEGMENT",
+      "page_start": 1,
+      "page_end": 14,
+      "segment_title": "jee_rank_booster-03_mock_paper.pdf (Pages 1–14)",
+      "segment_summary": "Deterministic chunk covering pages 1 through 14.",
+      "provisional_chapter_id": null,
+      "provisional_topic_id": null,
+      "provisional_subtopic_id": null,
+      "extraction_status": "PENDING",
+      "confidence": 1.0,
+      "metadata": {}
+    }
+  ],
+  "created_at": "2026-09-27T19:04:55.171137Z"
+}

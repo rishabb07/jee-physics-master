@@ -1,0 +1,30 @@
+{
+  "verification_id": "cvr-ex-curr-recast-wire-01",
+  "artifact_id": "ex-curr-recast-wire-01",
+  "target_id": "ex-curr-recast-wire-01",
+  "artifact_version": 1,
+  "content_type": "WORKED_EXAMPLE",
+  "content_hash": "715a0d65f04b3f8d09ccf9a762825420d96bdcac808183c15a037224a9e82979",
+  "verifier_id": "content-verifier-electrodynamics-optics",
+  "verifier_conversation_id": "e9f3b7da-683c-457e-a22d-d6c43d8f1368",
+  "risk_level": "HIGH",
+  "verdict": "VERIFIED",
+  "assumptions_audited": true,
+  "assumptions_checked": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "numerical_check_passed": true,
+  "limiting_cases_audited": true,
+  "limiting_case_check_passed": true,
+  "claim_traces_verified": true,
+  "verification_notes": "Audited from first principles: Recasting and drawing of cylindrical wire example verified. Initial resistance R_1 = 10.0 Ohms, initial radius r_1, final radius r_2 = r_1 / 2. Incompressible volume conservation: V = A_1*l_1 = A_2*l_2 => l_2 = l_1 * (A_1 / A_2) = l_1 * (r_1 / r_2)^2 = l_1 * (2)^2 = 4 l_1. Area transformation: A_2 = pi*(r_1/2)^2 = (pi*r_1^2)/4 = A_1 / 4. Resistance scaling: R_2 = rho * l_2 / A_2 = rho * (4 l_1) / (A_1 / 4) = 16 * (rho * l_1 / A_1) = 16 * R_1. Numerical evaluation: R_2 = 16 * 10.0 Ohms = 160.0 Ohms. Dimensional homogeneity: [l_2] = m, [R_2] = Ohms. Limiting cases audited: r_2 = r_1 yields R_2 = R_1 = 10 Ohms; mass invariance m = d*V verified. All calculations verified.",
+  "independent_derivation_or_calculation": "Audited from first principles: Recasting and drawing of cylindrical wire example verified. Initial resistance R_1 = 10.0 Ohms, initial radius r_1, final radius r_2 = r_1 / 2. Incompressible volume conservation: V = A_1*l_1 = A_2*l_2 => l_2 = l_1 * (A_1 / A_2) = l_1 * (r_1 / r_2)^2 = l_1 * (2)^2 = 4 l_1. Area transformation: A_2 = pi*(r_1/2)^2 = (pi*r_1^2)/4 = A_1 / 4. Resistance scaling: R_2 = rho * l_2 / A_2 = rho * (4 l_1) / (A_1 / 4) = 16 * (rho * l_1 / A_1) = 16 * R_1. Numerical evaluation: R_2 = 16 * 10.0 Ohms = 160.0 Ohms. Dimensional homogeneity: [l_2] = m, [R_2] = Ohms. Limiting cases audited: r_2 = r_1 yields R_2 = R_1 = 10 Ohms; mass invariance m = d*V verified. All calculations verified.",
+  "findings": [
+    "Volume conservation constraint A1*l1 = A2*l2 yields exact elongation l2 = 4*l1.",
+    "Resistance scaling R2/R1 = (r1/r2)^4 = 16 verified algebraically and dimensionally.",
+    "Final numerical resistance R2 = 160.0 Ohms verified."
+  ],
+  "discrepancies": [],
+  "created_at": "2026-09-28T22:45:35+05:30",
+  "timestamp": "2026-09-28T22:45:35+05:30"
+}

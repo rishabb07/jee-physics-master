@@ -1,0 +1,30 @@
+{
+  "verification_id": "verif-ray-optics-question-e04c1df3-90d0f4",
+  "atom_id": "ray-optics-question-e04c1df3",
+  "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+  "atom_version": 1,
+  "content_hash": "278d0df957f936798ffb65657937ddb8d579af03c01c033cf775f69846ce74fa",
+  "verification_protocol_version": "1.0.0",
+  "solver_run_ids": [
+    "run-solver_a-ray-optics-question-e04c1df3-1fc40613",
+    "run-solver_b-ray-optics-question-e04c1df3-2c07c954"
+  ],
+  "source_claimed_answer": null,
+  "source_solution": null,
+  "independent_answers": {
+    "solver_a": "C",
+    "solver_b": "C"
+  },
+  "independent_solutions": {
+    "solver_a": "Using Snells law\nCritical angle for TIR",
+    "solver_b": "By Snell's law and critical angle condition, sin(theta) >= n_water / n_glass = (4/3) / (3/2) = 8/9."
+  },
+  "consensus_answer": "C",
+  "verdict": "VERIFIED",
+  "confidence": 0.99,
+  "discrepancy_classification": "SOURCE_ANSWER_MISSING",
+  "adjudication_result": null,
+  "created_at": "2026-09-28T03:29:47.513337Z",
+  "completed_at": "2026-09-28T03:29:47.513337Z",
+  "metadata": {}
+}

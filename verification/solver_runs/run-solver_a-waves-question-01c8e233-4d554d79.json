@@ -1,0 +1,25 @@
+{
+  "solver_run_id": "run-solver_a-waves-question-01c8e233-4d554d79",
+  "atom_id": "waves-question-01c8e233",
+  "solver_id": "solver_a",
+  "solver_agent_name": "solver_a",
+  "atom_version": 1,
+  "content_hash": "432762c6be7aef3d98c00ee89cfb40d3badc150dac127bf90c5fa34c8260355a",
+  "verification_protocol_version": "1.0.0",
+  "blind_package_hash": "491522ce9dc95bd10bfc4f5aea580d49ab15f0f13a9253f3d1412dec5f0e4455",
+  "model_name": null,
+  "independent_answer": "B",
+  "raw_answer": "Option B",
+  "reasoning_steps": [
+    "Fundamental frequency formulas",
+    "Beat frequency from frequency difference"
+  ],
+  "assumptions_used": [
+    "Standard physical assumptions"
+  ],
+  "uncertainty": null,
+  "diagram_interpretation": null,
+  "possible_ambiguities": [],
+  "created_at": "2026-09-28T03:26:20.572322Z",
+  "raw_response": null
+}

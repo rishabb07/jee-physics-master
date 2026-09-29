@@ -1,0 +1,25 @@
+{
+  "solver_run_id": "run-solver_a-rotational-motion-question-6c7cb960-de8f745b",
+  "atom_id": "rotational-motion-question-6c7cb960",
+  "solver_id": "solver_a",
+  "solver_agent_name": "solver_a",
+  "atom_version": 1,
+  "content_hash": "395260aa1b3e8bbf1c265f16f2707d531c3c499fb8d15076ed368a555127a3fb",
+  "verification_protocol_version": "1.0.0",
+  "blind_package_hash": "073e26962dc0249c943a1fd2e32dc3f46ae383a87fe843fe49d0dd5eaf440f3e",
+  "model_name": null,
+  "independent_answer": "B",
+  "raw_answer": "Option B",
+  "reasoning_steps": [
+    "Angular momentum increases",
+    "Torque is constant (mgd) hence B is incorrect"
+  ],
+  "assumptions_used": [
+    "Standard physical assumptions"
+  ],
+  "uncertainty": null,
+  "diagram_interpretation": null,
+  "possible_ambiguities": [],
+  "created_at": "2026-09-28T03:26:20.570716Z",
+  "raw_response": null
+}

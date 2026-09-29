@@ -1,0 +1,21 @@
+{
+  "verification_id": "cvr-formula-opt-critical-angle",
+  "artifact_id": "formula-opt-critical-angle",
+  "artifact_version": 1,
+  "content_hash": "57cd0ceb179aa6107e721e194c3670e03682b6e163b2850151a7ee30a3fcf270",
+  "verifier_id": "formula-content-verifier",
+  "verifier_conversation_id": "ab85d650-e1e8-42e2-ac4a-8bc8a6460e30",
+  "risk_level": "MEDIUM",
+  "verdict": "VERIFIED",
+  "assumptions_checked": true,
+  "dimensional_check_passed": true,
+  "numerical_check_passed": true,
+  "limiting_case_check_passed": true,
+  "independent_derivation_or_calculation": "Critical angle sin(theta_c) = n2 / n1 (where n1 > n2). Limits of Snell's law when theta2 = 90 degrees.",
+  "findings": [
+    "Limiting case of theta2 = 90 degrees yields correct formula",
+    "Valid condition n1 > n2 required"
+  ],
+  "discrepancies": [],
+  "timestamp": "2026-09-29T02:32:37.347255+00:00"
+}

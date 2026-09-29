@@ -1,0 +1,119 @@
+{
+  "verification_id": "qvr-gen-q-rot-angmom-01",
+  "question_id": "gen-q-rot-angmom-01",
+  "question_version": 1,
+  "content_hash": "e131f920a14d36013ffdf4a6681a88a2e96671ba8009cf19e58d318ab7bc12d5",
+  "risk_level": "HIGH",
+  "solver_a": {
+    "solver_id": "solver_a",
+    "conversation_id": "c4b2f200-9d09-4009-8419-85baf0f75544",
+    "independent_interpretation": "A uniform circular disc of mass M and radius R rotates freely about a fixed frictionless vertical axis through its center with initial angular speed omega_0. An insect of mass m, initially at the center (r = 0), crawls radially outward to the outer rim (r = R). We evaluate the final angular velocity of the combined system.",
+    "governing_principles": [
+      "Conservation of Angular Momentum about a Fixed Axis (tau_ext = 0 ==> L_i = L_f)",
+      "Superposition of Moments of Inertia for Rigid Body and Point Mass (I_total = I_disc + I_particle)"
+    ],
+    "independent_equations": [
+      "I_{\\text{disc}} = \\frac{1}{2} M R^2",
+      "I_{\\text{insect}, i} = m (0)^2 = 0 \\implies I_i = I_{\\text{disc}} = \\frac{1}{2} M R^2",
+      "I_{\\text{insect}, f} = m R^2 \\implies I_f = I_{\\text{disc}} + I_{\\text{insect}, f} = \\frac{1}{2} M R^2 + m R^2 = \\frac{M + 2m}{2} R^2",
+      "L_i = I_i \\omega_0, \\quad L_f = I_f \\omega_f",
+      "L_i = L_f \\implies \\left(\\frac{1}{2} M R^2\\right) \\omega_0 = \\left(\\frac{M + 2m}{2} R^2\\right) \\omega_f \\implies \\omega_f = \\omega_0 \\frac{M}{M + 2m}"
+    ],
+    "independent_solution_steps": [
+      "Step 1: Identify that no external torque acts about the vertical rotation axis (frictionless pivot, radial crawling forces are internal action-reaction pairs), ensuring total angular momentum is conserved: L_i = L_f.",
+      "Step 2: Calculate initial moment of inertia: Disc has I_disc = 1/2 M R^2; insect at center (r = 0) has I_insect = 0. Thus I_i = 1/2 M R^2.",
+      "Step 3: Calculate final moment of inertia when insect reaches rim (r = R): I_f = 1/2 M R^2 + m R^2 = 1/2 (M + 2m) R^2.",
+      "Step 4: Equate initial and final angular momentum: (1/2 M R^2) omega_0 = 1/2 (M + 2m) R^2 omega_f.",
+      "Step 5: Solve for final angular speed: omega_f = omega_0 * (M / (M + 2m)), matching Option B.",
+      "Step 6: Audit distractors: Option A uses I_disc = M R^2 (hoop/ring); Option C inverts angular momentum conservation (suggesting speed increases); Option D uses I_disc = 1/4 M R^2 (diametrical axis error)."
+    ],
+    "calculated_answer": "B",
+    "dimensional_check_passed": true,
+    "numerical_check_passed": true,
+    "uniqueness_confirmed": true,
+    "conflicting_distractors": [],
+    "evaluated_difficulty": {
+      "conceptual_difficulty": 3,
+      "mathematical_difficulty": 2,
+      "multistep_reasoning_difficulty": 3,
+      "abstraction_difficulty": 3,
+      "computational_burden": 2,
+      "trap_misconception_difficulty": 4,
+      "derived_difficulty_band": "L3",
+      "weighting_policy": "PEDAGOGICAL_PROJECT_POLICY"
+    },
+    "verdict": "VERIFIED",
+    "notes": "First-principles angular momentum conservation uniquely yields omega_f = omega_0 * M / (M + 2m). Matches Option B. All distractors are invalid.",
+    "record_status": "ACTIVE",
+    "superseded_by": null,
+    "superseded_reason": null,
+    "timestamp": "2026-09-29T08:55:00+05:30"
+  },
+  "solver_b": {
+    "solver_id": "solver_b",
+    "conversation_id": "cb054490-4b17-4baa-a6a9-733fa72bfec3",
+    "independent_interpretation": "A system consists of a uniform solid circular disc of mass M and radius R and an insect of mass m. The disc is initially rotating freely at angular speed omega_0 about a vertical frictionless axis passing perpendicularly through its center. The insect is initially located at the center of the disc (r = 0) and crawls radially outward to the outer rim (r = R). Gravity acts along the vertical rotation axis, and normal/bearing reaction forces act on or parallel to the axis; hence no external force produces a net torque about the vertical rotation axis (tau_ext,z = 0). Traction and normal forces between the insect's legs and the disc surface are internal to the disc-insect system. By Newton's second law for rotation about a fixed axis, the total angular momentum of the disc-insect system about the rotation axis is conserved throughout the insect's motion.",
+    "governing_principles": [
+      "Principle of Conservation of Angular Momentum about a Fixed Axis (tau_ext,z = 0 implies L_z = constant)",
+      "Moment of Inertia of a Uniform Circular Disc about its Central Perpendicular Axis (I_disc = 1/2 * M * R^2)",
+      "Moment of Inertia of a Point Particle at Radial Distance r (I_point = m * r^2)",
+      "Superposition Principle for Moment of Inertia of Composite Systems (I_total = I_disc + I_insect)"
+    ],
+    "independent_equations": [
+      "tau_ext,z = dL_z / dt = 0 => L_i = L_f",
+      "I_disc = (1/2) * M * R^2",
+      "I_insect(r) = m * r^2",
+      "I_i = I_disc + I_insect(0) = (1/2) * M * R^2 + m * (0)^2 = (1/2) * M * R^2",
+      "I_f = I_disc + I_insect(R) = (1/2) * M * R^2 + m * R^2 = ((M + 2m) / 2) * R^2",
+      "L_i = I_i * omega_0 = ((1/2) * M * R^2) * omega_0",
+      "L_f = I_f * omega_f = (((M + 2m) / 2) * R^2) * omega_f",
+      "L_i = L_f => ((1/2) * M * R^2) * omega_0 = (((M + 2m) / 2) * R^2) * omega_f => omega_f = omega_0 * (M / (M + 2m))"
+    ],
+    "independent_solution_steps": [
+      "Step 1: Isolate the system as the disc plus the insect. Verify that the fixed vertical axis is frictionless and passes through the center of mass of the disc. Because all external forces (gravity, normal support, axis reactions) either act parallel to or intersect the rotation axis, net external torque about the z-axis vanishes: tau_ext,z = 0.",
+      "Step 2: Apply conservation of angular momentum about the fixed rotation axis: L_i = L_f, where L = I_total * omega.",
+      "Step 3: Calculate initial moment of inertia I_i when the insect is at r = 0: I_i = I_disc + I_insect,i = (1/2) * M * R^2 + m * 0^2 = (1/2) * M * R^2.",
+      "Step 4: Calculate final moment of inertia I_f when the insect reaches the perimeter r = R: I_f = I_disc + I_insect,f = (1/2) * M * R^2 + m * R^2 = ((M + 2m) / 2) * R^2.",
+      "Step 5: Equate initial and final angular momenta: ((1/2) * M * R^2) * omega_0 = (((M + 2m) / 2) * R^2) * omega_f. Cancel the common factor (1/2) * R^2 to obtain M * omega_0 = (M + 2m) * omega_f, yielding omega_f = omega_0 * (M / (M + 2m)). This uniquely corresponds to Option B.",
+      "Step 6: Rigorous Distractor Audit: (A) Option A (omega_0 * M / (M + m)) assumes I_disc = M R^2 (confusing solid disc with a thin ring/hoop); invalid. (C) Option C (omega_0 * (M + 2m) / M) inverts the conservation ratio (omega_f / omega_0 = I_f / I_i instead of I_i / I_f), which predicts unphysical rotational speedup when mass moves outward; invalid. (D) Option D (omega_0 * M / (M + 4m)) assumes I_disc = 1/4 M R^2 (confusing polar perpendicular axis with in-plane diametrical axis); invalid. Therefore, all distractors are strictly and uniquely refuted."
+    ],
+    "calculated_answer": "B",
+    "dimensional_check_passed": true,
+    "numerical_check_passed": true,
+    "uniqueness_confirmed": true,
+    "conflicting_distractors": [],
+    "evaluated_difficulty": {
+      "conceptual_difficulty": 3,
+      "mathematical_difficulty": 2,
+      "multistep_reasoning_difficulty": 3,
+      "abstraction_difficulty": 3,
+      "computational_burden": 2,
+      "trap_misconception_difficulty": 4,
+      "derived_difficulty_band": "L3",
+      "weighting_policy": "PEDAGOGICAL_PROJECT_POLICY"
+    },
+    "verdict": "VERIFIED",
+    "notes": "First-principles derivation confirms Option B is the unique physically correct solution. Dimensional check verifies [omega_f] = [omega_0] = rad/s since M / (M + 2m) is dimensionless. Limiting cases hold: as m -> 0, omega_f -> omega_0; as m -> infinity, omega_f -> 0; as M -> 0, omega_f -> 0. Distractor rationales confirmed mathematically invalid.",
+    "record_status": "ACTIVE",
+    "superseded_by": null,
+    "superseded_reason": null,
+    "timestamp": "2026-09-29T08:52:50Z"
+  },
+  "agreement": true,
+  "uniqueness_verified": true,
+  "distractors_validated": true,
+  "numerical_validated": true,
+  "final_answer": "B",
+  "final_verdict": "VERIFIED",
+  "difficulty_calibrated": {
+    "conceptual_difficulty": 3,
+    "mathematical_difficulty": 2,
+    "multistep_reasoning_difficulty": 3,
+    "abstraction_difficulty": 3,
+    "computational_burden": 2,
+    "trap_misconception_difficulty": 4,
+    "derived_difficulty_band": "L3",
+    "weighting_policy": "PEDAGOGICAL_PROJECT_POLICY"
+  },
+  "created_at": "2026-09-29T03:54:46.282455Z"
+}

@@ -1,0 +1,14 @@
+{
+  "promotion_id": "promo-oscillations-question-d21a08b6-931b91",
+  "atom_id": "oscillations-question-d21a08b6",
+  "verification_id": "verif-oscillations-question-d21a08b6-4c906d",
+  "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+  "atom_version": 1,
+  "staged_path": "build/staging/atoms/batch_src-jee-rank-booster-03-mock-256f42c6_20260928_031815_253c.jsonl",
+  "canonical_path": "kb\\atoms\\oscillations-question-d21a08b6.json",
+  "verdict": "VERIFIED",
+  "source_claimed_answer": null,
+  "verified_answer": "B",
+  "timestamp": "2026-09-28T03:29:19.764606Z",
+  "promoted_by": "promotion_gate"
+}

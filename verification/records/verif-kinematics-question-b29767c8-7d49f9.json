@@ -1,0 +1,30 @@
+{
+  "verification_id": "verif-kinematics-question-b29767c8-7d49f9",
+  "atom_id": "kinematics-question-b29767c8",
+  "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+  "atom_version": 1,
+  "content_hash": "75a50f78ef107d1abfddbc5ccff76b0166dbb7d41f4e877fb6f0fe3032875d5b",
+  "verification_protocol_version": "1.0.0",
+  "solver_run_ids": [
+    "run-solver_a-kinematics-question-b29767c8-5ed5754c",
+    "run-solver_b-kinematics-question-b29767c8-70de9a98"
+  ],
+  "source_claimed_answer": null,
+  "source_solution": null,
+  "independent_answers": {
+    "solver_a": "C",
+    "solver_b": "C"
+  },
+  "independent_solutions": {
+    "solver_a": "1. Position vector at t=2s is r = 40i + 50j.\n2. Horizontal motion: x = u*cos(theta)*t => 40 = u*cos(theta)*2 => u*cos(theta) = 20.\n3. Vertical motion: y = u*sin(theta)*t - 1/2*g*t^2 => 50 = u*sin(theta)*2 - 0.5*10*4 => u*sin(theta)*2 = 70 => u*sin(theta) = 35.",
+    "solver_b": "From equations of motion: x = u_x t\n40 = u_x (2) -> u_x = 20 m/s\ny = u_y t - 0.5 g t^2"
+  },
+  "consensus_answer": "C",
+  "verdict": "VERIFIED",
+  "confidence": 0.99,
+  "discrepancy_classification": "SOURCE_ANSWER_MISSING",
+  "adjudication_result": null,
+  "created_at": "2026-09-28T03:29:19.664805Z",
+  "completed_at": "2026-09-28T03:29:19.664805Z",
+  "metadata": {}
+}

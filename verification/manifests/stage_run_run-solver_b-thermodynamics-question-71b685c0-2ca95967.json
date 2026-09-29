@@ -1,0 +1,13 @@
+{
+  "manifest_id": "stage_run_run-solver_b-thermodynamics-question-71b685c0-2ca95967",
+  "solver_run_id": "run-solver_b-thermodynamics-question-71b685c0-2ca95967",
+  "solver_agent_name": "solver_b",
+  "atom_id": "thermodynamics-question-71b685c0",
+  "atom_version": 1,
+  "content_hash": "989a378467ccf659bd7bd108e19c9956e6d7e862c73e86043bd81d15e4e2aab1",
+  "input_source_file": "C:\\Users\\Win11\\OneDrive\\Desktop\\Rishab\\jee physics master book test\\verification\\incoming\\solver_thermodynamics-question-71b685c0_run-solver_b-thermodynamics-question-71b685c0-2ca95967.json",
+  "staged_destination_file": "C:\\Users\\Win11\\OneDrive\\Desktop\\Rishab\\jee physics master book test\\verification\\solver_runs\\run-solver_b-thermodynamics-question-71b685c0-2ca95967.json",
+  "independent_answer": "A",
+  "timestamp": "2026-09-28T03:27:30.908411+00:00",
+  "status": "STAGED"
+}

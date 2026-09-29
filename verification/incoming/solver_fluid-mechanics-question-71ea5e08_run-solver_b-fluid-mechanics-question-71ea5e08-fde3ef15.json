@@ -1,0 +1,22 @@
+{
+  "solver_run_id": "run-solver_b-fluid-mechanics-question-71ea5e08-fde3ef15",
+  "solver_agent_name": "solver_b",
+  "atom_id": "fluid-mechanics-question-71ea5e08",
+  "atom_version": 1,
+  "content_hash": "4f8473663e36491674455ad903d7f97af23d3aca69a7268dff8caa6ecb403a7c",
+  "verification_protocol_version": "1.0.0",
+  "blind_package_hash": "40858b1ef0827664e98fbe8a36d9e4faf6b0d4af88388a457bb57256e73177e9",
+  "independent_answer": "D",
+  "raw_answer": "Option D: \\\\rho_1 < \\\\rho_3 < \\\\rho_2",
+  "reasoning_steps": [
+    "Since liquid 1 is on top of liquid 2, rho_1 < rho_2.",
+    "The ball floats at the interface, so its density rho_3 must be greater than rho_1 (so it sinks in liquid 1).",
+    "It must also be less than rho_2 (so it floats in liquid 2).",
+    "Thus, rho_1 < rho_3 < rho_2."
+  ],
+  "assumptions_used": [],
+  "diagram_interpretation": null,
+  "uncertainty": null,
+  "possible_ambiguities": [],
+  "created_at": "2026-09-28T08:51:04Z"
+}

@@ -1,0 +1,1011 @@
+{
+  "$defs": {
+    "AtomStatus": {
+      "enum": [
+        "STAGED",
+        "VALIDATED",
+        "VERIFICATION_PENDING",
+        "VERIFIED",
+        "REJECTED",
+        "AMBIGUOUS",
+        "ARCHIVED"
+      ],
+      "title": "AtomStatus",
+      "type": "string"
+    },
+    "ChapterTemplateType": {
+      "description": "Specialized chapter layout templates based on physics domain.",
+      "enum": [
+        "MECHANICS",
+        "THERMODYNAMICS",
+        "ELECTRODYNAMICS",
+        "OPTICS",
+        "WAVES_AND_OSCILLATIONS",
+        "MODERN_PHYSICS",
+        "GENERAL"
+      ],
+      "title": "ChapterTemplateType",
+      "type": "string"
+    },
+    "ConceptPlacement": {
+      "description": "Placement of a concept in the chapter narrative structure.",
+      "properties": {
+        "concept_id": {
+          "description": "Unique concept identifier",
+          "minLength": 1,
+          "title": "Concept Id",
+          "type": "string"
+        },
+        "curriculum_id": {
+          "description": "Curriculum unit ID",
+          "minLength": 1,
+          "title": "Curriculum Id",
+          "type": "string"
+        },
+        "role": {
+          "$ref": "#/$defs/PedagogicalRole",
+          "default": "FOUNDATION_CONCEPT",
+          "description": "Pedagogical role"
+        },
+        "prerequisite_relationship": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Prerequisite note or linkage",
+          "title": "Prerequisite Relationship"
+        },
+        "explanation_priority": {
+          "default": 1,
+          "description": "Order of presentation within section",
+          "minimum": 1,
+          "title": "Explanation Priority",
+          "type": "integer"
+        },
+        "source_atom_ids": {
+          "description": "Backing canonical atom IDs if any",
+          "items": {
+            "type": "string"
+          },
+          "title": "Source Atom Ids",
+          "type": "array"
+        },
+        "source_evidence": {
+          "description": "Evidence citation justifying concept inclusion",
+          "minLength": 1,
+          "title": "Source Evidence",
+          "type": "string"
+        }
+      },
+      "required": [
+        "concept_id",
+        "curriculum_id",
+        "source_evidence"
+      ],
+      "title": "ConceptPlacement",
+      "type": "object"
+    },
+    "DifficultyDimensions": {
+      "description": "Structured multi-dimensional difficulty model.\n\nPrevents reducing cognitive complexity to an arbitrary single score.\nRatings for each dimension range from 1 (minimal) to 5 (extreme).\n\nCRITICAL METHODOLOGICAL DISTINCTION:\n- The six individual dimension ratings (1-5) are rubric-derived pedagogical judgments.\n- The composite scoring formula and weighting constants are project-defined policy (PEDAGOGICAL_PROJECT_POLICY),\n  not an official NTA/IIT JEE standard.\n- Once the six dimension ratings are provided, the composite score and derived difficulty band\n  are deterministically and reproducibly computed by the system.",
+      "properties": {
+        "conceptual_difficulty": {
+          "description": "Depth of physical insight required (1-5)",
+          "maximum": 5,
+          "minimum": 1,
+          "title": "Conceptual Difficulty",
+          "type": "integer"
+        },
+        "mathematical_difficulty": {
+          "description": "Complexity of algebraic or calculus tools (1-5)",
+          "maximum": 5,
+          "minimum": 1,
+          "title": "Mathematical Difficulty",
+          "type": "integer"
+        },
+        "multistep_reasoning_difficulty": {
+          "description": "Number of logical steps and linkages (1-5)",
+          "maximum": 5,
+          "minimum": 1,
+          "title": "Multistep Reasoning Difficulty",
+          "type": "integer"
+        },
+        "abstraction_difficulty": {
+          "description": "Distance from tangible, intuitive intuition (1-5)",
+          "maximum": 5,
+          "minimum": 1,
+          "title": "Abstraction Difficulty",
+          "type": "integer"
+        },
+        "computational_burden": {
+          "description": "Arithmetical density or algebraic length (1-5)",
+          "maximum": 5,
+          "minimum": 1,
+          "title": "Computational Burden",
+          "type": "integer"
+        },
+        "trap_misconception_difficulty": {
+          "description": "Presence of subtle sign/frame/constraint traps (1-5)",
+          "maximum": 5,
+          "minimum": 1,
+          "title": "Trap Misconception Difficulty",
+          "type": "integer"
+        },
+        "derived_difficulty_band": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/DifficultyLevel"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Derived standard difficulty rating L1-L5"
+        },
+        "weighting_policy": {
+          "default": "PEDAGOGICAL_PROJECT_POLICY",
+          "description": "Source of weighting constants: 2.0*Conc + 2.0*Multi + 1.5*Math + 1.5*Abs + 1.0*Trap + 0.8*Comp",
+          "title": "Weighting Policy",
+          "type": "string"
+        }
+      },
+      "required": [
+        "conceptual_difficulty",
+        "mathematical_difficulty",
+        "multistep_reasoning_difficulty",
+        "abstraction_difficulty",
+        "computational_burden",
+        "trap_misconception_difficulty"
+      ],
+      "title": "DifficultyDimensions",
+      "type": "object"
+    },
+    "DifficultyLevel": {
+      "enum": [
+        "L1",
+        "L2",
+        "L3",
+        "L4",
+        "L5"
+      ],
+      "title": "DifficultyLevel",
+      "type": "string"
+    },
+    "FormulaRecord": {
+      "description": "Structured physical formula record beyond an isolated LaTeX string.",
+      "properties": {
+        "formula_id": {
+          "description": "Unique formula identifier",
+          "minLength": 1,
+          "title": "Formula Id",
+          "type": "string"
+        },
+        "title": {
+          "description": "Formula name (e.g. 'Conservation of Angular Momentum')",
+          "minLength": 1,
+          "title": "Title",
+          "type": "string"
+        },
+        "equation_latex": {
+          "description": "Complete KaTeX-compatible LaTeX equation",
+          "minLength": 1,
+          "title": "Equation Latex",
+          "type": "string"
+        },
+        "variables": {
+          "additionalProperties": {
+            "type": "string"
+          },
+          "description": "Mapping of variable symbol -> physical quantity name",
+          "title": "Variables",
+          "type": "object"
+        },
+        "units_and_dimensions": {
+          "additionalProperties": {
+            "type": "string"
+          },
+          "description": "Mapping of variable/constant -> SI unit and dimension",
+          "title": "Units And Dimensions",
+          "type": "object"
+        },
+        "assumptions": {
+          "description": "Explicit physical assumptions (e.g. 'Rigid body', 'Fixed axis')",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Assumptions",
+          "type": "array"
+        },
+        "conditions_of_validity": {
+          "description": "Conditions under which this formula holds",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Conditions Of Validity",
+          "type": "array"
+        },
+        "derivation_links": {
+          "description": "Referenced derivations or parent principles",
+          "items": {
+            "type": "string"
+          },
+          "title": "Derivation Links",
+          "type": "array"
+        },
+        "related_concept_ids": {
+          "description": "Connected curriculum concept IDs",
+          "items": {
+            "type": "string"
+          },
+          "title": "Related Concept Ids",
+          "type": "array"
+        },
+        "common_misuse_cases": {
+          "description": "Common traps where students misapply this formula",
+          "items": {
+            "type": "string"
+          },
+          "title": "Common Misuse Cases",
+          "type": "array"
+        },
+        "provenance": {
+          "description": "Source provenance records",
+          "items": {
+            "$ref": "#/$defs/ProvenanceRecord"
+          },
+          "title": "Provenance",
+          "type": "array"
+        },
+        "verification_status": {
+          "$ref": "#/$defs/AtomStatus",
+          "default": "VERIFIED",
+          "description": "Verification status"
+        }
+      },
+      "required": [
+        "formula_id",
+        "title",
+        "equation_latex",
+        "variables",
+        "units_and_dimensions",
+        "assumptions",
+        "conditions_of_validity"
+      ],
+      "title": "FormulaRecord",
+      "type": "object"
+    },
+    "MisconceptionRecord": {
+      "description": "Explicit physical misconception record with trap mechanisms.",
+      "properties": {
+        "misconception_id": {
+          "description": "Unique misconception identifier",
+          "minLength": 1,
+          "title": "Misconception Id",
+          "type": "string"
+        },
+        "category": {
+          "description": "Category: SIGN_MISTAKE, VECTOR_SCALAR_CONFUSION, INVALID_FORMULA_CONDITION, WRONG_CONSERVATION_LAW, FRAME_CONFUSION, HIDDEN_CONSTRAINT_OMISSION, DIMENSIONAL_INCONSISTENCY",
+          "title": "Category",
+          "type": "string"
+        },
+        "statement": {
+          "description": "The incorrect intuitive claim or belief",
+          "minLength": 5,
+          "title": "Statement",
+          "type": "string"
+        },
+        "explanation": {
+          "description": "Rigorous physical explanation of why it is incorrect",
+          "minLength": 5,
+          "title": "Explanation",
+          "type": "string"
+        },
+        "trap_mechanism": {
+          "description": "How JEE exam questions specifically test and exploit this",
+          "minLength": 5,
+          "title": "Trap Mechanism",
+          "type": "string"
+        },
+        "trigger_conditions": {
+          "description": "Specific problem configurations triggering this error",
+          "items": {
+            "type": "string"
+          },
+          "title": "Trigger Conditions",
+          "type": "array"
+        },
+        "connected_concept_ids": {
+          "description": "Connected curriculum concept IDs",
+          "items": {
+            "type": "string"
+          },
+          "title": "Connected Concept Ids",
+          "type": "array"
+        },
+        "connected_atom_ids": {
+          "description": "Verified atom IDs that illustrate this trap",
+          "items": {
+            "type": "string"
+          },
+          "title": "Connected Atom Ids",
+          "type": "array"
+        }
+      },
+      "required": [
+        "misconception_id",
+        "category",
+        "statement",
+        "explanation",
+        "trap_mechanism"
+      ],
+      "title": "MisconceptionRecord",
+      "type": "object"
+    },
+    "PedagogicalRole": {
+      "description": "The learning and narrative role of a curriculum element.",
+      "enum": [
+        "FOUNDATION_CONCEPT",
+        "CORE_PRINCIPLE",
+        "DERIVATION",
+        "WORKED_EXAMPLE",
+        "QUESTION_LADDER",
+        "PRACTICE_QUESTION",
+        "ADVANCED_SYNTHESIS",
+        "COMMON_MISCONCEPTION",
+        "REVISION_SUMMARY",
+        "HISTORICAL_NOTE",
+        "INTUITION_BUILDER"
+      ],
+      "title": "PedagogicalRole",
+      "type": "string"
+    },
+    "ProvenanceRecord": {
+      "description": "Represents a specific occurrence and physical location of knowledge within a source file.",
+      "properties": {
+        "source_id": {
+          "description": "Unique identifier of the registered source document",
+          "title": "Source Id",
+          "type": "string"
+        },
+        "file_name": {
+          "description": "Original filename of the source document",
+          "title": "File Name",
+          "type": "string"
+        },
+        "file_path": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Path or relative URI to source document",
+          "title": "File Path"
+        },
+        "page_start": {
+          "anyOf": [
+            {
+              "minimum": 1,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "1-based starting page number where available",
+          "title": "Page Start"
+        },
+        "page_end": {
+          "anyOf": [
+            {
+              "minimum": 1,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "1-based ending page number where available",
+          "title": "Page End"
+        },
+        "source_locator": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Human-readable location (e.g. Chapter 3, Example 12, Q14)",
+          "title": "Source Locator"
+        },
+        "edition": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Edition or printing identifier of the source",
+          "title": "Edition"
+        },
+        "extraction_metadata": {
+          "additionalProperties": true,
+          "description": "Metadata captured during extraction",
+          "title": "Extraction Metadata",
+          "type": "object"
+        }
+      },
+      "required": [
+        "source_id",
+        "file_name"
+      ],
+      "title": "ProvenanceRecord",
+      "type": "object"
+    },
+    "QuestionLadder": {
+      "description": "A sequence of problems scaffolding understanding across one physical system.",
+      "properties": {
+        "ladder_id": {
+          "description": "Unique ladder identifier",
+          "minLength": 1,
+          "title": "Ladder Id",
+          "type": "string"
+        },
+        "chapter_id": {
+          "description": "Parent chapter slug",
+          "minLength": 1,
+          "title": "Chapter Id",
+          "type": "string"
+        },
+        "topic_id": {
+          "description": "Parent topic slug",
+          "minLength": 1,
+          "title": "Topic Id",
+          "type": "string"
+        },
+        "title": {
+          "description": "Title of the ladder",
+          "minLength": 1,
+          "title": "Title",
+          "type": "string"
+        },
+        "physical_system": {
+          "description": "The shared physical system (e.g. 'Rotating disc with dropping mass')",
+          "minLength": 5,
+          "title": "Physical System",
+          "type": "string"
+        },
+        "rungs": {
+          "description": "Ordered progressive rungs",
+          "items": {
+            "$ref": "#/$defs/QuestionLadderRung"
+          },
+          "minItems": 2,
+          "title": "Rungs",
+          "type": "array"
+        },
+        "pedagogical_objective": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Overall learning takeaway of this ladder",
+          "title": "Pedagogical Objective"
+        }
+      },
+      "required": [
+        "ladder_id",
+        "chapter_id",
+        "topic_id",
+        "title",
+        "physical_system",
+        "rungs"
+      ],
+      "title": "QuestionLadder",
+      "type": "object"
+    },
+    "QuestionLadderRung": {
+      "description": "An individual problem rung in a progressive question ladder.",
+      "properties": {
+        "level": {
+          "description": "Ladder level 0 to 5",
+          "maximum": 5,
+          "minimum": 0,
+          "title": "Level",
+          "type": "integer"
+        },
+        "level_name": {
+          "description": "Level label, e.g. 'Direct application', 'JEE Advanced'",
+          "title": "Level Name",
+          "type": "string"
+        },
+        "atom_id": {
+          "description": "Canonical verified atom ID",
+          "minLength": 1,
+          "title": "Atom Id",
+          "type": "string"
+        },
+        "physical_delta": {
+          "description": "Physical change introduced compared to preceding rung",
+          "minLength": 5,
+          "title": "Physical Delta",
+          "type": "string"
+        },
+        "reasoning_depth": {
+          "default": 1,
+          "description": "Cognitive steps required",
+          "maximum": 5,
+          "minimum": 1,
+          "title": "Reasoning Depth",
+          "type": "integer"
+        },
+        "concepts_involved": {
+          "description": "Physics concepts exercised in this rung",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Concepts Involved",
+          "type": "array"
+        },
+        "mathematical_complexity": {
+          "description": "Mathematical tools involved",
+          "title": "Mathematical Complexity",
+          "type": "string"
+        },
+        "transfer_requirement": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Transfer of knowledge to non-standard geometry/context",
+          "title": "Transfer Requirement"
+        }
+      },
+      "required": [
+        "level",
+        "level_name",
+        "atom_id",
+        "physical_delta",
+        "concepts_involved",
+        "mathematical_complexity"
+      ],
+      "title": "QuestionLadderRung",
+      "type": "object"
+    },
+    "QuestionPlacement": {
+      "description": "Placement of a verified canonical question within a chapter or topic.",
+      "properties": {
+        "atom_id": {
+          "description": "Verified canonical atom ID",
+          "minLength": 1,
+          "title": "Atom Id",
+          "type": "string"
+        },
+        "curriculum_id": {
+          "description": "Curriculum unit ID",
+          "minLength": 1,
+          "title": "Curriculum Id",
+          "type": "string"
+        },
+        "chapter_id": {
+          "description": "Chapter slug",
+          "minLength": 1,
+          "title": "Chapter Id",
+          "type": "string"
+        },
+        "topic_id": {
+          "description": "Topic slug",
+          "minLength": 1,
+          "title": "Topic Id",
+          "type": "string"
+        },
+        "pedagogical_role": {
+          "$ref": "#/$defs/PedagogicalRole",
+          "default": "PRACTICE_QUESTION",
+          "description": "Role of this question"
+        },
+        "difficulty_dimensions": {
+          "$ref": "#/$defs/DifficultyDimensions",
+          "description": "Multi-dimensional difficulty breakdown"
+        },
+        "prerequisite_concept_ids": {
+          "description": "Concept IDs student must know before solving",
+          "items": {
+            "type": "string"
+          },
+          "title": "Prerequisite Concept Ids",
+          "type": "array"
+        },
+        "question_ladder_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "ID of parent ladder if part of a ladder",
+          "title": "Question Ladder Id"
+        },
+        "question_ladder_position": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Rung position in ladder if applicable",
+          "title": "Question Ladder Position"
+        },
+        "source_provenance": {
+          "description": "Original source provenance",
+          "items": {
+            "$ref": "#/$defs/ProvenanceRecord"
+          },
+          "title": "Source Provenance",
+          "type": "array"
+        }
+      },
+      "required": [
+        "atom_id",
+        "curriculum_id",
+        "chapter_id",
+        "topic_id",
+        "difficulty_dimensions"
+      ],
+      "title": "QuestionPlacement",
+      "type": "object"
+    },
+    "SolutionMethod": {
+      "properties": {
+        "method_name": {
+          "default": "Standard Method",
+          "description": "e.g. 'Energy Method', 'Newton's Laws', 'Rotated Axes'",
+          "title": "Method Name",
+          "type": "string"
+        },
+        "steps": {
+          "description": "Step-by-step derivation or reasoning",
+          "title": "Steps",
+          "type": "string"
+        },
+        "source_attributed": {
+          "default": true,
+          "description": "True if this method appeared in the source text",
+          "title": "Source Attributed",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "steps"
+      ],
+      "title": "SolutionMethod",
+      "type": "object"
+    },
+    "TaxonomyReference": {
+      "description": "Hierarchical positioning in the official JEE syllabus.",
+      "properties": {
+        "chapter_id": {
+          "description": "Normalized chapter slug, e.g., 'kinematics'",
+          "minLength": 1,
+          "title": "Chapter Id",
+          "type": "string"
+        },
+        "topic_id": {
+          "description": "Topic slug, e.g., 'projectile-motion'",
+          "minLength": 1,
+          "title": "Topic Id",
+          "type": "string"
+        },
+        "subtopic_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Optional subtopic slug, e.g., 'motion-on-incline'",
+          "title": "Subtopic Id"
+        }
+      },
+      "required": [
+        "chapter_id",
+        "topic_id"
+      ],
+      "title": "TaxonomyReference",
+      "type": "object"
+    },
+    "WorkedExampleRecord": {
+      "description": "A fully-structured worked example with physical setup and sanity checks.",
+      "properties": {
+        "example_id": {
+          "description": "Unique example identifier",
+          "minLength": 1,
+          "title": "Example Id",
+          "type": "string"
+        },
+        "problem_statement": {
+          "description": "Full problem statement with LaTeX math",
+          "minLength": 5,
+          "title": "Problem Statement",
+          "type": "string"
+        },
+        "known_quantities": {
+          "additionalProperties": {
+            "type": "string"
+          },
+          "description": "Explicitly given physical quantities",
+          "title": "Known Quantities",
+          "type": "object"
+        },
+        "target_quantity": {
+          "description": "Quantity to be determined",
+          "minLength": 1,
+          "title": "Target Quantity",
+          "type": "string"
+        },
+        "relevant_concepts": {
+          "description": "Core physical concepts required",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Relevant Concepts",
+          "type": "array"
+        },
+        "governing_principles": {
+          "description": "Laws or theorems used (e.g. 'Work-Energy Theorem')",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Governing Principles",
+          "type": "array"
+        },
+        "solution_strategy": {
+          "description": "Teacher-like explanation of the approach",
+          "minLength": 5,
+          "title": "Solution Strategy",
+          "type": "string"
+        },
+        "step_by_step_derivation": {
+          "description": "Step-by-step mathematical steps",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Step By Step Derivation",
+          "type": "array"
+        },
+        "final_answer": {
+          "description": "Exact verified final result",
+          "minLength": 1,
+          "title": "Final Answer",
+          "type": "string"
+        },
+        "sanity_checks": {
+          "description": "Dimensional checks, limiting cases (e.g. m -> 0)",
+          "items": {
+            "type": "string"
+          },
+          "title": "Sanity Checks",
+          "type": "array"
+        },
+        "alternate_methods": {
+          "description": "Alternative physical derivations",
+          "items": {
+            "$ref": "#/$defs/SolutionMethod"
+          },
+          "title": "Alternate Methods",
+          "type": "array"
+        },
+        "source_atom_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Canonical atom ID if adapted from verified atom",
+          "title": "Source Atom Id"
+        },
+        "provenance": {
+          "description": "Source provenance records",
+          "items": {
+            "$ref": "#/$defs/ProvenanceRecord"
+          },
+          "title": "Provenance",
+          "type": "array"
+        },
+        "verification_status": {
+          "$ref": "#/$defs/AtomStatus",
+          "default": "VERIFIED",
+          "description": "Verification status"
+        }
+      },
+      "required": [
+        "example_id",
+        "problem_statement",
+        "known_quantities",
+        "target_quantity",
+        "relevant_concepts",
+        "governing_principles",
+        "solution_strategy",
+        "step_by_step_derivation",
+        "final_answer"
+      ],
+      "title": "WorkedExampleRecord",
+      "type": "object"
+    }
+  },
+  "description": "Editorial and pedagogical specification for a book chapter.",
+  "properties": {
+    "chapter_id": {
+      "description": "Canonical chapter slug (e.g. 'rotational-motion')",
+      "minLength": 1,
+      "title": "Chapter Id",
+      "type": "string"
+    },
+    "chapter_title": {
+      "description": "Display title for the chapter",
+      "minLength": 1,
+      "title": "Chapter Title",
+      "type": "string"
+    },
+    "template_type": {
+      "$ref": "#/$defs/ChapterTemplateType",
+      "default": "GENERAL",
+      "description": "Domain chapter template"
+    },
+    "order": {
+      "default": 1,
+      "description": "Curriculum presentation order",
+      "minimum": 1,
+      "title": "Order",
+      "type": "integer"
+    },
+    "taxonomy_references": {
+      "description": "Associated taxonomy nodes",
+      "items": {
+        "$ref": "#/$defs/TaxonomyReference"
+      },
+      "title": "Taxonomy References",
+      "type": "array"
+    },
+    "learning_objectives": {
+      "description": "Concrete pedagogical objectives",
+      "items": {
+        "type": "string"
+      },
+      "title": "Learning Objectives",
+      "type": "array"
+    },
+    "prerequisite_curriculum_nodes": {
+      "description": "Required prerequisite curriculum node IDs",
+      "items": {
+        "type": "string"
+      },
+      "title": "Prerequisite Curriculum Nodes",
+      "type": "array"
+    },
+    "concept_sequence": {
+      "description": "Ordered concept placements",
+      "items": {
+        "$ref": "#/$defs/ConceptPlacement"
+      },
+      "title": "Concept Sequence",
+      "type": "array"
+    },
+    "formula_sequence": {
+      "description": "Ordered formula records",
+      "items": {
+        "$ref": "#/$defs/FormulaRecord"
+      },
+      "title": "Formula Sequence",
+      "type": "array"
+    },
+    "misconception_sequence": {
+      "description": "Ordered misconception records",
+      "items": {
+        "$ref": "#/$defs/MisconceptionRecord"
+      },
+      "title": "Misconception Sequence",
+      "type": "array"
+    },
+    "worked_example_sequence": {
+      "description": "Ordered worked examples",
+      "items": {
+        "$ref": "#/$defs/WorkedExampleRecord"
+      },
+      "title": "Worked Example Sequence",
+      "type": "array"
+    },
+    "question_sequence": {
+      "description": "Ordered question placements",
+      "items": {
+        "$ref": "#/$defs/QuestionPlacement"
+      },
+      "title": "Question Sequence",
+      "type": "array"
+    },
+    "question_ladders": {
+      "description": "Structured question ladders",
+      "items": {
+        "$ref": "#/$defs/QuestionLadder"
+      },
+      "title": "Question Ladders",
+      "type": "array"
+    },
+    "revision_checklist": {
+      "description": "Key revision points",
+      "items": {
+        "type": "string"
+      },
+      "title": "Revision Checklist",
+      "type": "array"
+    },
+    "coverage_requirements": {
+      "additionalProperties": true,
+      "description": "Deterministic coverage requirements",
+      "title": "Coverage Requirements",
+      "type": "object"
+    },
+    "assessment_requirements": {
+      "additionalProperties": true,
+      "description": "Target difficulty counts and problem types",
+      "title": "Assessment Requirements",
+      "type": "object"
+    },
+    "created_at": {
+      "format": "date-time",
+      "title": "Created At",
+      "type": "string"
+    }
+  },
+  "required": [
+    "chapter_id",
+    "chapter_title"
+  ],
+  "title": "ChapterSpec",
+  "type": "object"
+}

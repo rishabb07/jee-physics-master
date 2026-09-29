@@ -1,0 +1,30 @@
+{
+  "verification_id": "verif-electrostatics-question-132c25d1-144a33",
+  "atom_id": "electrostatics-question-132c25d1",
+  "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+  "atom_version": 1,
+  "content_hash": "55511314791636289281fa986d2b38358fd33945eb154d89f87d5bc7ea6a59a7",
+  "verification_protocol_version": "1.0.0",
+  "solver_run_ids": [
+    "run-solver_a-electrostatics-question-132c25d1-2a48626d",
+    "run-solver_b-electrostatics-question-132c25d1-c8260e8c"
+  ],
+  "source_claimed_answer": null,
+  "source_solution": null,
+  "independent_answers": {
+    "solver_a": "C",
+    "solver_b": "C"
+  },
+  "independent_solutions": {
+    "solver_a": "1. Place a point charge +Q at the center of the base of the square pyramid.\n2. By symmetry, imagine a second identical pyramid placed inverted below the first one to form a regular octahedron.\n3. The charge Q is now at the center of the octahedron.",
+    "solver_b": "Imagine placing another identical pyramid upside down below the base to enclose the charge at the center.\nBy symmetry, the total flux Q/varepsilon_0 is divided equally between the upper half-space and lower half-space.\nFlux through the 4 upper faces is Q/(2varepsilon_0)."
+  },
+  "consensus_answer": "C",
+  "verdict": "VERIFIED",
+  "confidence": 0.99,
+  "discrepancy_classification": "SOURCE_ANSWER_MISSING",
+  "adjudication_result": null,
+  "created_at": "2026-09-28T03:29:19.718513Z",
+  "completed_at": "2026-09-28T03:29:19.718513Z",
+  "metadata": {}
+}

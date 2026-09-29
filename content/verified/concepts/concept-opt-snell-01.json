@@ -1,0 +1,45 @@
+{
+  "content_id": "concept-opt-snell-01",
+  "curriculum_id": "curr-opt-01",
+  "taxonomy_reference": {
+    "chapter_id": "ray-optics",
+    "topic_id": "refraction-and-tir",
+    "subtopic_id": "snells-law-and-refraction"
+  },
+  "title": "Refraction at Optical Boundaries, Snell's Law, and Optical Path",
+  "learning_objective": "Analyze the refraction of light across a smooth interface between two transparent media, formulate Snell's Law in invariant product form, and calculate optical path length and transit time.",
+  "explanation": "When a light ray encounters the boundary separating two transparent media of different optical densities, its speed of propagation changes discontinuously from $v_1 = \\frac{c}{n_1}$ to $v_2 = \\frac{c}{n_2}$, where $n_1$ and $n_2$ are the absolute refractive indices of the respective media ($n = \\frac{c}{v} \\ge 1$). Because boundary conditions on the electromagnetic field demand temporal continuity across the interface, the temporal frequency $f$ of the wave remains strictly unchanged during transmission: $f_1 = f_2 = f$. Consequently, the optical wavelength scales in direct proportion to the phase velocity:\n$$\\lambda_1 = \\frac{v_1}{f} = \\frac{\\lambda_0}{n_1},\\quad \\lambda_2 = \\frac{v_2}{f} = \\frac{\\lambda_0}{n_2}$$\nwhere $\\lambda_0$ is the vacuum wavelength.\n\nAccording to Fermat's Principle of Least Time, the physical path traversed by an optical ray between two fixed points is one that renders the total optical transit time stationary (typically a local minimum) with respect to variations in the path. At a smooth planar interface separating medium 1 and medium 2, this variational principle requires that the ray path satisfy Snell's Law:\n$$n_1 \\sin\\theta_1 = n_2 \\sin\\theta_2$$\nwhere $\\theta_1$ is the angle of incidence and $\\theta_2$ is the angle of refraction, both measured strictly with respect to the interface normal vector at the point of incidence. Furthermore, the incident ray, the refracted ray, and the interface normal are coplanar (all lying in the plane of incidence).\n\nIf light enters an optically denser medium ($n_2 > n_1$), then $\\sin\\theta_2 = \\frac{n_1}{n_2}\\sin\\theta_1 < \\sin\\theta_1$, causing the ray to bend toward the normal ($\\theta_2 < \\theta_1$). Conversely, entering an optically rarer medium ($n_2 < n_1$) bends the ray away from the normal ($\\theta_2 > \\theta_1$).\n\nA pivotal special case is normal incidence ($\\theta_1 = 0$). Here, Snell's Law yields $n_2 \\sin\\theta_2 = n_1 \\sin(0) = 0 \\implies \\theta_2 = 0$. Thus, a ray incident perpendicularly upon an interface passes straight through without any angular deflection, regardless of the contrast in refractive indices.\n\nThe optical path length (OPL) $\\Delta_{\\text{opt}}$ along a geometric trajectory of length $s$ through a medium of refractive index $n$ is defined by:\n$$\\Delta_{\\text{opt}} = \\int n\\,ds = n s$$\nBecause the physical transit time of light across distance $s$ is $\\Delta t = \\frac{s}{v} = \\frac{n s}{c} = \\frac{\\Delta_{\\text{opt}}}{c}$, the optical path length represents the equivalent distance light would propagate in a vacuum during the identical time interval $\\Delta t$. When light passes through a plane parallel transparent slab of thickness $t$ and refractive index $n$, the effective optical path is $n t$, introducing an optical path difference $\\Delta = (n - 1)t$ relative to propagation through vacuum or air.",
+  "intuition": "Imagine a toy car with two wheels on a single rigid axle rolling from smooth hardwood onto thick carpet at an angle. The moment the right wheel hits the carpet, it slows down because of higher friction, while the left wheel continues spinning fast on hardwood. This difference in wheel speeds naturally swings the car's direction, pivoting the axle toward the perpendicular (the normal line). When the car leaves the carpet back onto hardwood, the first wheel to exit speeds up, pivoting the path away from the normal. At direct head-on (normal) incidence, both wheels enter the carpet at the exact same instant, so neither wheel slows down before the other and the car rolls straight forward without turning.",
+  "formal_definition": "Refraction is the angular deflection and phase-velocity modification of an electromagnetic wave traversing an interface between distinct optical media. Snell's Law states that the product of the absolute refractive index and the sine of the angle relative to the surface normal is invariant across the boundary: $n_1 \\sin\\theta_1 = n_2 \\sin\\theta_2$, with all rays and the interface normal lying in the plane of incidence.",
+  "assumptions": [
+    "Linear, homogeneous, and isotropic optical dielectric media",
+    "Smooth, specular interface of dimensions much greater than optical wavelength",
+    "Geometric optics regime ($\\lambda \\to 0$, negligible diffraction)",
+    "Monochromatic light with invariant temporal frequency $f$"
+  ],
+  "boundary_conditions": [
+    "Angles $\\theta_1$ and $\\theta_2$ must be measured from the surface normal, not the interface plane",
+    "Valid for planar or locally planar interfaces where interface curvature radius $R \\gg \\lambda$",
+    "Invalid in anisotropic birefringent crystals where phase velocity depends on polarization and propagation direction",
+    "Invalid in strongly absorbing media with significant imaginary refractive index component"
+  ],
+  "related_formula_ids": [
+    "formula-opt-snells-law"
+  ],
+  "prerequisite_refs": [
+    "curr-kin-02"
+  ],
+  "source_references": [
+    "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+    "University Physics with Modern Physics, 13th Edition.pdf"
+  ],
+  "generation_metadata": {
+    "agent": "ContentGeneratorAgent",
+    "model": "gemini-2.5-pro",
+    "task": "author_concept"
+  },
+  "verification_status": "VERIFIED",
+  "content_hash": "4886618247783b3469a72e2fdde63ee47781454fee0b92832822a7dd2fd04cd4",
+  "verification_record_id": "cvr-concept-opt-snell-01",
+  "created_at": "2026-09-28T22:40:00Z"
+}

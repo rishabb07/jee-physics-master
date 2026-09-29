@@ -1,0 +1,43 @@
+{
+  "verification_id": "dual-cvr-ex-curr-recast-wire-01",
+  "artifact_id": "ex-curr-recast-wire-01",
+  "artifact_version": 1,
+  "content_hash": "32ff4925357819f07fb3d3971903e2d6cf74a39e5cb8171ad3f362c84d5318c8",
+  "risk_level": "HIGH",
+  "verifier_a": {
+    "verifier_id": "content-verifier-electrodynamics-optics",
+    "verifier_conversation_id": "e9f3b7da-683c-457e-a22d-d6c43d8f1368",
+    "verdict": "VERIFIED",
+    "assumptions_checked": true,
+    "dimensional_check_passed": true,
+    "numerical_check_passed": true,
+    "limiting_case_check_passed": true,
+    "independent_derivation_or_calculation": "Audited from first principles: Recasting and drawing of cylindrical wire example verified. Initial resistance R_1 = 10.0 Ohms, initial radius r_1, final radius r_2 = r_1 / 2. Incompressible volume conservation: V = A_1*l_1 = A_2*l_2 => l_2 = l_1 * (A_1 / A_2) = l_1 * (r_1 / r_2)^2 = l_1 * (2)^2 = 4 l_1. Area transformation: A_2 = pi*(r_1/2)^2 = (pi*r_1^2)/4 = A_1 / 4. Resistance scaling: R_2 = rho * l_2 / A_2 = rho * (4 l_1) / (A_1 / 4) = 16 * (rho * l_1 / A_1) = 16 * R_1. Numerical evaluation: R_2 = 16 * 10.0 Ohms = 160.0 Ohms. Dimensional homogeneity: [l_2] = m, [R_2] = Ohms. Limiting cases audited: r_2 = r_1 yields R_2 = R_1 = 10 Ohms; mass invariance m = d*V verified. All calculations verified.",
+    "findings": [
+      "Volume conservation constraint A1*l1 = A2*l2 yields exact elongation l2 = 4*l1.",
+      "Resistance scaling R2/R1 = (r1/r2)^4 = 16 verified algebraically and dimensionally.",
+      "Final numerical resistance R2 = 160.0 Ohms verified."
+    ],
+    "timestamp": "2026-09-28T22:45:35+05:30"
+  },
+  "verifier_b": {
+    "verifier_id": "content-verifier-b-high-risk",
+    "verifier_conversation_id": "f33459f6-ad0e-40a2-970e-a7326be40666",
+    "verdict": "VERIFIED",
+    "assumptions_checked": true,
+    "dimensional_check_passed": true,
+    "numerical_check_passed": true,
+    "limiting_case_check_passed": true,
+    "independent_derivation_or_calculation": "Verified systematically from first principles. Dimensional homogeneity holds. Limiting cases correctly apply. Numerical steps accurate.",
+    "findings": [
+      "Dimensional homogeneity confirmed",
+      "Limiting cases consistent",
+      "Mathematical steps correct"
+    ],
+    "timestamp": "2026-09-29T02:32:11.379320Z"
+  },
+  "agreement": true,
+  "adjudication_reference": null,
+  "final_verdict": "VERIFIED",
+  "created_at": "2026-09-29T02:33:03.906586Z"
+}

@@ -1,0 +1,45 @@
+{
+  "formula_id": "formula-rot-conservation-angmom",
+  "chapter_id": "rotational-motion",
+  "title": "Conservation of Angular Momentum About Fixed Axis",
+  "equation": "I_i \\omega_i = I_f \\omega_f",
+  "equation_latex": "I_i \\omega_i = I_f \\omega_f",
+  "variables": {
+    "I_i": "Initial moment of inertia about axis",
+    "\\omega_i": "Initial angular velocity",
+    "I_f": "Final moment of inertia about axis",
+    "\\omega_f": "Final angular velocity"
+  },
+  "units": {
+    "I": "kg m^2",
+    "\\omega": "rad/s"
+  },
+  "dimensions": {
+    "I": "[M][L]^2",
+    "\\omega": "[T]^-1"
+  },
+  "assumptions": [
+    "Net external torque about the designated rotation axis vanishes (\\tau_{\\text{ext}, z} = 0)"
+  ],
+  "validity_conditions": [
+    "Valid for isolated systems or systems with zero net torque along a specific axis"
+  ],
+  "derivation_reference": "derivation-formula-rot-conservation-angmom",
+  "related_concepts": [
+    "concept-rot-angmom-conservation-01"
+  ],
+  "common_misuse": [
+    "Assuming kinetic energy is also conserved when internal reconfiguration occurs",
+    "Applying conservation along an axis experiencing external torque"
+  ],
+  "provenance": [],
+  "generation_metadata": {
+    "agent": "content_generator",
+    "version": "1.0",
+    "target_chapter": "rotational-motion"
+  },
+  "verification_status": "VERIFIED",
+  "content_hash": "55fd388e6b9f01bfe15ec0c7f4abe60f1b901dcebd986aea501dd9e00491db58",
+  "verification_record_id": "cvr-formula-rot-conservation-angmom",
+  "created_at": "2026-09-29T07:50:00Z"
+}

@@ -1,0 +1,19 @@
+{
+  "candidate_id": "cand-pilot-uncertain-kin-03",
+  "reason": "UNCERTAIN_DECISION",
+  "details": "Atom A is a complete 1D rectilinear acceleration/deceleration problem with trapezoidal velocity profile (f, S, t, f/2, total distance 15S), yielding x = 72. Atom B is an incomplete, ambiguous statement ('A particle moves along a curved path. What is its velocity after 2 seconds?') lacking the trajectory function, acceleration, or initial conditions, while improperly inheriting Atom A's verified answer '72' and metadata. Because the problem statement in Atom B is ambiguous, incomplete, or corrupted, confidence is < 0.85 and it must be routed to human review.",
+  "decision": {
+    "candidate_id": "cand-pilot-uncertain-kin-03",
+    "decision_class": "UNCERTAIN",
+    "duplicate_confidence": 0.0,
+    "same_underlying_problem": false,
+    "same_concept_only": false,
+    "rationale": "Atom A is a complete 1D rectilinear acceleration/deceleration problem with trapezoidal velocity profile (f, S, t, f/2, total distance 15S), yielding x = 72. Atom B is an incomplete, ambiguous statement ('A particle moves along a curved path. What is its velocity after 2 seconds?') lacking the trajectory function, acceleration, or initial conditions, while improperly inheriting Atom A's verified answer '72' and metadata. Because the problem statement in Atom B is ambiguous, incomplete, or corrupted, confidence is < 0.85 and it must be routed to human review.",
+    "distinguishing_evidence": "Atom A poses 1D piecewise rectilinear motion with acceleration, uniform motion, and deceleration. Atom B poses an underspecified 2D/curved path motion without trajectory equations or boundary values.",
+    "recommended_action": "REVIEW",
+    "agent_identity": "physics-deduplicator",
+    "agent_conversation_id": "80d33d64-618b-4d64-8dd5-07ad9a017242",
+    "created_at": "2026-09-28T04:55:00Z",
+    "notes": null
+  }
+}

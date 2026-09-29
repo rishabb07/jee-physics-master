@@ -1,0 +1,95 @@
+{
+  "question_id": "gen-q-rot-angmom-01",
+  "version": 1,
+  "origin": "GENERATED",
+  "curriculum_id": "curr-rot-04",
+  "taxonomy_reference": {
+    "chapter_id": "rotational-motion",
+    "topic_id": "angular-momentum",
+    "subtopic_id": "conservation-of-angular-momentum"
+  },
+  "concept_references": [
+    "concept-rot-angmom-conservation-01"
+  ],
+  "prerequisite_references": [
+    "curr-rot-01",
+    "curr-rot-03"
+  ],
+  "target_exam_level": "JEE_ADVANCED",
+  "question_type": "SINGLE_CORRECT_MCQ",
+  "statement": "A uniform circular disc of mass $M$ and radius $R$ is rotating freely about a fixed frictionless vertical axis passing through its center with angular velocity $\\omega_0$. An insect of mass $m$ initially at the center begins crawling radially outward toward the edge of the disc. When the insect reaches the outer rim ($r = R$), the final angular velocity of the disc-insect system is:",
+  "diagram_references": [],
+  "options": {
+    "A": "$\\omega_0 \\frac{M}{M + m}$",
+    "B": "$\\omega_0 \\frac{M}{M + 2m}$",
+    "C": "$\\omega_0 \\frac{M + 2m}{M}$",
+    "D": "$\\omega_0 \\frac{M}{M + 4m}$"
+  },
+  "correct_answer": "B",
+  "solution_strategy": "Identify that net external torque about the fixed vertical axis is zero, express initial and final moments of inertia using I_disc = 1/2 M R^2 and I_insect = m r^2, and solve for omega_f by angular momentum conservation.",
+  "solution": "1. Zero External Torque:\nThe disc rotates freely about a vertical frictionless axis through its center. The forces between the insect and the disc (crawling friction and normal reaction) are purely internal to the disc-insect system. The external forces (gravity and axis reaction) have zero torque about the vertical rotation axis:\n$$\\tau_{\\text{ext}, z} = 0 \\implies L_z = \\text{constant}$$\n2. Initial Angular Momentum:\nInitially, the insect is at the center ($r = 0$), so its moment of inertia about the axis is $I_{\\text{insect}, i} = m (0)^2 = 0$.\nThe moment of inertia of the uniform circular disc about the central perpendicular axis is:\n$$I_{\\text{disc}} = \\frac{1}{2} M R^2$$\n$$I_i = I_{\\text{disc}} + I_{\\text{insect}, i} = \\frac{1}{2} M R^2$$\n$$L_i = I_i \\omega_0 = \\left(\\frac{1}{2} M R^2\\right) \\omega_0$$\n3. Final Angular Momentum:\nWhen the insect reaches the rim ($r = R$), treating the insect as a point mass:\n$$I_{\\text{insect}, f} = m R^2$$\n$$I_f = I_{\\text{disc}} + I_{\\text{insect}, f} = \\frac{1}{2} M R^2 + m R^2 = \\left(\\frac{M}{2} + m\\right) R^2 = \\frac{M + 2m}{2} R^2$$\n4. Conservation of Angular Momentum:\n$$I_i \\omega_0 = I_f \\omega_f$$\n$$\\left(\\frac{1}{2} M R^2\\right) \\omega_0 = \\left(\\frac{M + 2m}{2} R^2\\right) \\omega_f$$\n$$\\omega_f = \\omega_0 \\frac{M}{M + 2m}$$\nThis matches Option B.",
+  "assumptions": [
+    "Frictionless fixed vertical axis",
+    "Insect treated as a point mass",
+    "Disc is rigid, planar, and uniform",
+    "Radial motion of the insect is quasi-static relative to tangential speed"
+  ],
+  "numerical_values": {},
+  "units": null,
+  "tolerance": null,
+  "intended_learning_objective": "Analyze conservation of angular momentum for rigid bodies with moving mass distributions and contrast polar vs diametrical moments of inertia.",
+  "difficulty_dimensions": {
+    "conceptual_difficulty": 3,
+    "mathematical_difficulty": 2,
+    "multistep_reasoning_difficulty": 3,
+    "abstraction_difficulty": 3,
+    "computational_burden": 2,
+    "trap_misconception_difficulty": 4,
+    "derived_difficulty_band": "L3",
+    "weighting_policy": "PEDAGOGICAL_PROJECT_POLICY"
+  },
+  "difficulty_band": "L3",
+  "misconception_targeted": "misc-rot-02",
+  "distractor_rationales": [
+    {
+      "option_key": "A",
+      "distractor_value": "$\\omega_0 \\frac{M}{M + m}$",
+      "likely_misconception": "misc-rot-moi-ring",
+      "student_rationale": "Student uses the moment of inertia formula for a thin cylindrical ring/hoop I = M R^2 instead of a solid uniform circular disc I = 1/2 M R^2, yielding I_f = (M + m) R^2.",
+      "physical_error": "A solid uniform circular disc has mass distributed continuously from r = 0 to r = R, resulting in I_disc = 1/2 M R^2. Neglecting the factor of 1/2 overestimates the disc rotational inertia by a factor of 2.",
+      "error_category": "FORMULA_SUBSTITUTION_ERROR"
+    },
+    {
+      "option_key": "C",
+      "distractor_value": "$\\omega_0 \\frac{M + 2m}{M}$",
+      "likely_misconception": "misc-rot-inverted-conservation",
+      "student_rationale": "Student inverts the conservation relation, writing omega_f = omega_0 * (I_f / I_i) instead of omega_f = omega_0 * (I_i / I_f).",
+      "physical_error": "Because I_i omega_i = I_f omega_f, an increase in system moment of inertia (I_f > I_i) strictly requires the angular velocity to decrease (omega_f < omega_0) to conserve total angular momentum. Option C erroneously predicts that angular speed increases when mass moves outward.",
+      "error_category": "INVERTED_RATIO"
+    },
+    {
+      "option_key": "D",
+      "distractor_value": "$\\omega_0 \\frac{M}{M + 4m}$",
+      "likely_misconception": "misc-rot-moi-doubling",
+      "student_rationale": "Student mistakenly halves the insect moment of inertia as well, or uses 1/4 M R^2 for the disc (confusing polar axis with diametrical axis).",
+      "physical_error": "The rotation axis is perpendicular to the disc plane passing through its center. The diametrical moment of inertia 1/4 M R^2 applies only for in-plane rotation. For perpendicular polar axis rotation, I_disc = 1/2 M R^2 and point mass at the rim has I_insect = m R^2.",
+      "error_category": "AXIS_MISIDENTIFICATION"
+    }
+  ],
+  "source_grounding": {
+    "relationship_type": "NEW_PROBLEM",
+    "source_atom_id": null,
+    "transformation_type": null,
+    "what_changed": null,
+    "why_pedagogically_distinct": null
+  },
+  "risk_level": "HIGH",
+  "generation_metadata": {
+    "generator_agent": "physics-question-generator",
+    "author_model": "claude-3-7-sonnet"
+  },
+  "content_hash": "e131f920a14d36013ffdf4a6681a88a2e96671ba8009cf19e58d318ab7bc12d5",
+  "verification_status": "GENERATED",
+  "verification_record_id": null,
+  "created_at": "2026-09-29T08:30:00Z"
+}

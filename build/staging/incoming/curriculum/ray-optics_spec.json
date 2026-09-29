@@ -1,0 +1,320 @@
+{
+  "chapter_id": "ray-optics",
+  "chapter_title": "Ray Optics and Optical Instruments",
+  "template_type": "OPTICS",
+  "order": 23,
+  "taxonomy_references": [
+    {
+      "chapter_id": "ray-optics",
+      "topic_id": "reflection-at-spherical-mirrors",
+      "subtopic_id": "laws-of-reflection"
+    },
+    {
+      "chapter_id": "ray-optics",
+      "topic_id": "reflection-at-spherical-mirrors",
+      "subtopic_id": "mirror-formula-and-magnification"
+    },
+    {
+      "chapter_id": "ray-optics",
+      "topic_id": "refraction-and-tir",
+      "subtopic_id": "snells-law-and-refraction"
+    },
+    {
+      "chapter_id": "ray-optics",
+      "topic_id": "refraction-and-tir",
+      "subtopic_id": "total-internal-reflection"
+    },
+    {
+      "chapter_id": "ray-optics",
+      "topic_id": "refraction-and-tir",
+      "subtopic_id": "critical-angle-calculation"
+    },
+    {
+      "chapter_id": "ray-optics",
+      "topic_id": "refraction-at-spherical-surfaces-and-lenses",
+      "subtopic_id": "prism-refraction-and-minimum-deviation"
+    },
+    {
+      "chapter_id": "ray-optics",
+      "topic_id": "optical-instruments",
+      "subtopic_id": "astronomical-and-terrestrial-telescope"
+    }
+  ],
+  "learning_objectives": [
+    "State Fermat's Principle and apply the Laws of Reflection and Refraction at plane and spherical interfaces.",
+    "Formulate Snell's Law n_1 sin(theta_1) = n_2 sin(theta_2) and establish the conditions for Total Internal Reflection (TIR).",
+    "Determine the critical angle theta_c = arcsin(n_rarer / n_denser) when an optical component is immersed in arbitrary surrounding media.",
+    "Analyze ray geometry in prisms, including normal incidence, internal reflection conditions, angle of deviation, and minimum deviation.",
+    "Derive and solve image formation using the Lens Maker's formula, thin lens equation, and compound optical instruments."
+  ],
+  "prerequisite_curriculum_nodes": [
+    "curr-kin-02"
+  ],
+  "concept_sequence": [
+    {
+      "concept_id": "concept-opt-snell-01",
+      "curriculum_id": "curr-opt-01",
+      "role": "CORE_PRINCIPLE",
+      "prerequisite_relationship": "Requires rectilinear ray paths and plane trigonometry from curr-kin-02",
+      "explanation_priority": 1,
+      "source_atom_ids": [],
+      "source_evidence": "JEE Advanced Official Topic Prescription: Snell's law and plane refraction"
+    },
+    {
+      "concept_id": "concept-opt-tir-01",
+      "curriculum_id": "curr-opt-02",
+      "role": "CORE_PRINCIPLE",
+      "prerequisite_relationship": "Requires Snell's law at dense-to-rare interface from curr-opt-01",
+      "explanation_priority": 2,
+      "source_atom_ids": [
+        "ray-optics-question-e04c1df3"
+      ],
+      "source_evidence": "JEE Advanced Official Topic Prescription: Total internal reflection and critical angle"
+    }
+  ],
+  "formula_sequence": [
+    {
+      "formula_id": "formula-opt-snells-law",
+      "title": "Snell's Law of Refraction",
+      "equation_latex": "n_1 \\sin\\theta_1 = n_2 \\sin\\theta_2",
+      "variables": {
+        "n_1": "Refractive index of incident medium",
+        "\\theta_1": "Angle of incidence measured from surface normal",
+        "n_2": "Refractive index of refracting medium",
+        "\\theta_2": "Angle of refraction measured from surface normal"
+      },
+      "units_and_dimensions": {
+        "n_1": "dimensionless",
+        "\\theta_1": "rad",
+        "n_2": "dimensionless",
+        "\\theta_2": "rad"
+      },
+      "assumptions": [
+        "Isotropic, non-dispersive, homogeneous optical media",
+        "Planar or locally planar interface",
+        "Monochromatic light ray"
+      ],
+      "conditions_of_validity": [
+        "Valid for geometric optics rays at smooth interfaces"
+      ],
+      "derivation_links": [
+        "curr-opt-01"
+      ],
+      "related_concept_ids": [
+        "concept-opt-snell-01"
+      ],
+      "common_misuse_cases": [
+        "Measuring angles of incidence/refraction with respect to the interface surface rather than the normal"
+      ],
+      "provenance": [],
+      "verification_status": "VERIFIED"
+    },
+    {
+      "formula_id": "formula-opt-critical-angle",
+      "title": "Critical Angle for Total Internal Reflection",
+      "equation_latex": "\\sin\\theta_c = \\frac{n_{\\text{rarer}}}{n_{\\text{denser}}}",
+      "variables": {
+        "\\theta_c": "Critical angle of incidence",
+        "n_{\\text{rarer}}": "Refractive index of optically rarer medium",
+        "n_{\\text{denser}}": "Refractive index of optically denser medium"
+      },
+      "units_and_dimensions": {
+        "\\theta_c": "rad",
+        "n": "dimensionless"
+      },
+      "assumptions": [
+        "Light propagates from optically denser to optically rarer medium (n_denser > n_rarer)"
+      ],
+      "conditions_of_validity": [
+        "Angle of incidence theta >= theta_c yields 100% reflection with zero transmitted power into rarer medium"
+      ],
+      "derivation_links": [
+        "curr-opt-02"
+      ],
+      "related_concept_ids": [
+        "concept-opt-tir-01"
+      ],
+      "common_misuse_cases": [
+        "Assuming the rarer medium is always air (n = 1) when the optical device is immersed in water or other liquids (n_rarer = 4/3)"
+      ],
+      "provenance": [],
+      "verification_status": "VERIFIED"
+    },
+    {
+      "formula_id": "formula-opt-prism-geometry",
+      "title": "Prism Ray Geometry and Internal Reflection",
+      "equation_latex": "A = r_1 + r_2,\\quad \\delta = i + e - A",
+      "variables": {
+        "A": "Prism refracting apex angle",
+        "r_1": "Refraction angle at first face",
+        "r_2": "Incidence angle on second face",
+        "i": "Angle of incidence at first face",
+        "e": "Emergence angle from second face",
+        "\\delta": "Net angle of deviation"
+      },
+      "units_and_dimensions": {
+        "A": "rad",
+        "r_1": "rad",
+        "r_2": "rad",
+        "i": "rad",
+        "e": "rad",
+        "\\delta": "rad"
+      },
+      "assumptions": [
+        "Triangular prism with flat planar optical faces",
+        "Rays confined to principal cross-sectional plane"
+      ],
+      "conditions_of_validity": [
+        "Standard geometric optics approximation without diffraction effects"
+      ],
+      "derivation_links": [
+        "curr-opt-02"
+      ],
+      "related_concept_ids": [
+        "concept-opt-tir-01"
+      ],
+      "common_misuse_cases": [
+        "Confusing the angle of incidence on the internal face r_2 with the apex angle or with complementary angles from geometry"
+      ],
+      "provenance": [],
+      "verification_status": "VERIFIED"
+    }
+  ],
+  "misconception_sequence": [
+    {
+      "misconception_id": "misc-opt-01",
+      "category": "INVALID_FORMULA_CONDITION",
+      "statement": "The critical angle for total internal reflection in glass is always sin(theta_c) = 1/n_glass.",
+      "explanation": "The relation sin(theta_c) = 1/n applies ONLY when the surrounding medium is vacuum or air (n_surr = 1). When the prism is immersed in another liquid (such as water with n_w = 4/3), the critical angle is given by sin(theta_c) = n_rarer / n_denser = (4/3) / (1.5) = (4/3) / (3/2) = 8/9. Neglecting the surrounding medium's refractive index causes severe errors.",
+      "trap_mechanism": "JEE questions immerse a glass prism (n = 1.5) into water (n = 4/3) and provide sin(theta) >= 1/1.5 = 2/3 as a trap option (Option B in atom ray-optics-question-e04c1df3), whereas the true answer is sin(theta) >= 8/9 (Option C).",
+      "trigger_conditions": [
+        "Prism or optical fiber immersed in a medium other than air"
+      ],
+      "connected_concept_ids": [
+        "concept-opt-tir-01"
+      ],
+      "connected_atom_ids": [
+        "ray-optics-question-e04c1df3"
+      ]
+    },
+    {
+      "misconception_id": "misc-opt-02",
+      "category": "SIGN_MISTAKE",
+      "statement": "Light incident normally on a boundary is refracted away from the normal.",
+      "explanation": "For normal incidence (angle of incidence i = 0), Snell's law gives n_1 sin(0) = n_2 sin(r) = 0, so r = 0. The ray passes straight through the boundary undeviated, regardless of the refractive indices.",
+      "trap_mechanism": "Prism problems specify normal incidence on the entrance face, testing whether students correctly propagate the straight ray to find the incidence angle at the oblique internal face.",
+      "trigger_conditions": [
+        "Normal incidence on entrance face of prism or block"
+      ],
+      "connected_concept_ids": [
+        "concept-opt-snell-01",
+        "concept-opt-tir-01"
+      ],
+      "connected_atom_ids": [
+        "ray-optics-question-e04c1df3"
+      ]
+    }
+  ],
+  "worked_example_sequence": [
+    {
+      "example_id": "ex-opt-tir-prism-water-01",
+      "problem_statement": "A glass prism with refracting angle $\\theta$ at vertex $A$ has refractive index $n_g = 1.5$. The prism is completely immersed in water of refractive index $n_w = \\frac{4}{3}$. A parallel beam of light is incident normally on face $AB$. Determine the condition on $\\theta$ such that the light undergoes total internal reflection at face $AC$ to reach face $BC$.",
+      "known_quantities": {
+        "n_g": "1.5 = 3/2 (Glass prism refractive index)",
+        "n_w": "4/3 (Water refractive index)",
+        "i_1": "0^\\circ (Normal incidence on face AB)"
+      },
+      "target_quantity": "Condition on sin(theta) for total internal reflection at face AC",
+      "relevant_concepts": [
+        "Snell's Law at normal incidence",
+        "Total Internal Reflection (TIR)",
+        "Critical angle at glass-water interface",
+        "Prism geometry"
+      ],
+      "governing_principles": [
+        "Condition for TIR: sin(i_2) >= sin(theta_c) = n_rarer / n_denser = n_w / n_g"
+      ],
+      "solution_strategy": "1. Trace ray through face AB: Since incidence is normal, ray enters undeviated. 2. Use geometry of triangle to relate the angle of incidence at face AC to the prism angle theta. 3. Apply the TIR condition at the glass-water interface.",
+      "step_by_step_derivation": [
+        "Step 1: The light beam is incident normally on face AB, so angle of incidence at face AB is i_1 = 0 deg. By Snell's law, the angle of refraction is r_1 = 0 deg, meaning the ray travels straight inside the prism towards face AC without deviation.",
+        "Step 2: Consider the right triangle formed by face AB, the incident ray, and face AC. The ray is perpendicular to AB. The angle between face AB and face AC is theta at vertex A. Therefore, the angle between the ray and face AC is 90 deg - theta.",
+        "Step 3: The normal to face AC makes an angle of 90 deg with face AC. Hence, the angle of incidence i_2 of the ray on face AC is i_2 = 90 deg - (90 deg - theta) = theta.",
+        "Step 4: For total internal reflection to occur at face AC, the angle of incidence i_2 must be greater than or equal to the critical angle theta_c at the glass-water interface: i_2 >= theta_c implies sin(i_2) >= sin(theta_c).",
+        "Step 5: Compute the critical angle sine: sin(theta_c) = n_w / n_g = (4/3) / (3/2) = (4/3) * (2/3) = 8/9.",
+        "Step 6: Substituting i_2 = theta gives the required condition: sin(theta) >= 8/9."
+      ],
+      "final_answer": "\\sin\\theta \\ge \\frac{8}{9}",
+      "sanity_checks": [
+        "Dimensional check: Both sides of inequality are dimensionless sines.",
+        "Boundary check: Since n_w < n_g, 8/9 < 1, so a valid real critical angle exists (theta_c approx 62.7 deg).",
+        "Immersion comparison: If immersed in air (n=1), the condition would be sin(theta) >= 1/1.5 = 2/3 (approx 41.8 deg). Since water is denser than air, the critical angle increases, requiring a larger theta for TIR, consistent with 8/9 > 2/3."
+      ],
+      "alternate_methods": [],
+      "source_atom_id": "ray-optics-question-e04c1df3",
+      "provenance": [],
+      "verification_status": "VERIFIED"
+    }
+  ],
+  "question_sequence": [
+    {
+      "atom_id": "ray-optics-question-e04c1df3",
+      "curriculum_id": "curr-opt-02",
+      "chapter_id": "ray-optics",
+      "topic_id": "refraction-and-tir",
+      "pedagogical_role": "PRACTICE_QUESTION",
+      "difficulty_dimensions": {
+        "conceptual_difficulty": 2,
+        "mathematical_difficulty": 2,
+        "multistep_reasoning_difficulty": 2,
+        "abstraction_difficulty": 2,
+        "computational_burden": 1,
+        "trap_misconception_difficulty": 3
+      },
+      "prerequisite_concept_ids": [
+        "concept-opt-tir-01"
+      ],
+      "question_ladder_id": null,
+      "question_ladder_position": null,
+      "source_provenance": [
+        {
+          "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+          "file_name": "jee_rank_booster-03_mock_paper.pdf",
+          "file_path": null,
+          "page_start": 1,
+          "page_end": 1,
+          "source_locator": "Section - A, Q1",
+          "edition": null,
+          "extraction_metadata": {}
+        }
+      ]
+    }
+  ],
+  "question_ladders": [],
+  "revision_checklist": [
+    "Laws of Reflection: Angle of incidence = angle of reflection (i = r); incident, reflected ray, and normal lie in same plane.",
+    "Spherical Mirrors: Mirror formula 1/f = 1/v + 1/u, transverse magnification m = -v/u = f / (f - u).",
+    "Snell's Law: n_1 sin(theta_1) = n_2 sin(theta_2).",
+    "Total Internal Reflection: Occurs when traveling from denser to rarer medium with i >= theta_c, where sin(theta_c) = n_rarer / n_denser.",
+    "Apparent depth and normal shift: d' = d / n_rel, Shift Delta t = t (1 - 1/n).",
+    "Refraction at Spherical Surface: n_2 / v - n_1 / u = (n_2 - n_1) / R.",
+    "Lens Maker's Formula: 1/f = (n_rel - 1) (1/R_1 - 1/R_2); Thin lens equation: 1/f = 1/v - 1/u.",
+    "Prism deviation: delta = i + e - A; Minimum deviation: delta_m = 2 i - A, n = sin((A + delta_m)/2) / sin(A/2).",
+    "Optical Instruments: Compound microscope magnification m = (L / f_o) * (D / f_e); Astronomical telescope magnification m = f_o / f_e, tube length L = f_o + f_e."
+  ],
+  "coverage_requirements": {
+    "min_questions": 1,
+    "target_difficulty_distribution": {
+      "L1": 0,
+      "L2": 1,
+      "L3": 0,
+      "L4": 0,
+      "L5": 0
+    }
+  },
+  "assessment_requirements": {
+    "exam_types": [
+      "JEE_MAIN",
+      "JEE_ADVANCED"
+    ]
+  }
+}

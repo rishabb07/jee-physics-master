@@ -1,0 +1,31 @@
+{
+  "solver_run_id": "run-solver_a-nuclear-physics-question-4e1b8a32-001",
+  "atom_id": "nuclear-physics-question-4e1b8a32",
+  "solver_id": "solver_a",
+  "solver_agent_name": "solver_a",
+  "atom_version": 1,
+  "content_hash": "07c86d3019ecff9986175e541ee4d71c9783cd539a6b2150a8c7b5881ca7f6b1",
+  "verification_protocol_version": "1.0.0",
+  "blind_package_hash": "687339293f8ef09e307fac8208223afa10c81c96bf571c8d6018b71ba1758279",
+  "model_name": null,
+  "independent_answer": "19035",
+  "raw_answer": "19035",
+  "reasoning_steps": [
+    "1. The initial activity A_0 for a freshly cut tree is 20 decays per minute.",
+    "2. The present activity A for the museum piece is 2 decays per minute.",
+    "3. The decay law states A = A_0 (1/2)^(t / T_1/2).",
+    "4. Substituting the values: 2 = 20 (1/2)^(t / 5730) => (1/2)^(t / 5730) = 1/10 => 2^(t / 5730) = 10.",
+    "5. Taking log base 10 on both sides: (t / 5730) * log_10(2) = 1.",
+    "6. Exact calculation gives t = 5730 / log_10(2) = 5730 / 0.30103 = 19034.6 years.",
+    "7. Rounding to the nearest integer gives 19035 years. (Using approximation log_10(2) = 0.3 gives 19100 years, but 19035 is mathematically exact to nearest integer)."
+  ],
+  "assumptions_used": [
+    "Carbon-14 follows first-order radioactive decay.",
+    "Activity per unit mass of living wood remains constant over millennia."
+  ],
+  "uncertainty": null,
+  "diagram_interpretation": null,
+  "possible_ambiguities": [],
+  "created_at": "2026-09-28T08:51:20Z",
+  "raw_response": null
+}

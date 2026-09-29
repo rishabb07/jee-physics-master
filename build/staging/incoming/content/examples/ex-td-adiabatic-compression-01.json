@@ -1,0 +1,193 @@
+{
+  "example_id": "ex-td-adiabatic-compression-01",
+  "chapter_id": "thermodynamics",
+  "problem_statement": "A sample of $n = 2.0\\text{ mol}$ of a diatomic ideal gas (with ratio of specific heats $\\gamma = 1.4 = \\frac{7}{5}$ and constant-volume molar heat capacity $C_V = \\frac{5}{2}R$) is initially at temperature $T_0 = 300\\text{ K}$ and volume $V_0$. The gas is enclosed in a thermally insulated cylinder fitted with a frictionless, non-conducting movable piston. The gas is compressed slowly and quasi-statically to a final volume $V_f = \\frac{V_0}{32}$.\n(a) Determine the final temperature $T_f$ of the gas in kelvin.\n(b) Calculate the work done ON the gas ($W_{\\text{on}}$) during this compression process in kilojoules (take universal gas constant $R = 8.314\\text{ J/(mol}\\cdot\\text{K)}$).\n(c) Verify the First Law of Thermodynamics by evaluating the change in internal energy $\\Delta U$ of the gas.",
+  "diagram_description": "Thermodynamic coordinate diagram illustrating a quasi-static adiabatic compression path on a $PV$-plane from state 1 $(P_0, V_0, T_0)$ to state 2 $(P_f, V_f, T_f)$, where $V_f = V_0 / 32$. The path follows $P V^\\gamma = \\text{constant}$, which is noticeably steeper than the isothermal hyperbola $P V = \\text{constant}$. A mechanical cylinder diagram shows adiabatic insulating cross-hatching around the walls and piston ($dQ = 0$), with an inward compressive force $F_{\\text{ext}}$ reducing the volume.",
+  "known_parameters": {
+    "amount_of_gas": "n = 2.0 mol",
+    "gas_type": "Diatomic ideal gas",
+    "ratio_of_specific_heats": "\\gamma = 1.4 = 7/5",
+    "molar_heat_capacity_Cv": "C_V = (5/2) R",
+    "initial_temperature": "T_0 = 300 K",
+    "initial_volume": "V_0",
+    "final_volume": "V_f = V_0 / 32 = 2^{-5} V_0",
+    "universal_gas_constant": "R = 8.314 J/(mol K)",
+    "boundary_condition": "Thermally insulated cylinder (dQ = 0), quasi-static (reversible)"
+  },
+  "known_quantities": {
+    "amount_of_gas": "n = 2.0 mol",
+    "gas_type": "Diatomic ideal gas",
+    "ratio_of_specific_heats": "\\gamma = 1.4 = 7/5",
+    "molar_heat_capacity_Cv": "C_V = (5/2) R",
+    "initial_temperature": "T_0 = 300 K",
+    "initial_volume": "V_0",
+    "final_volume": "V_f = V_0 / 32 = 2^{-5} V_0",
+    "universal_gas_constant": "R = 8.314 J/(mol K)",
+    "boundary_condition": "Thermally insulated cylinder (dQ = 0), quasi-static (reversible)"
+  },
+  "target_variable": "T_f, W_{\\text{on}}, \\text{ and } \\Delta U",
+  "target_quantity": "T_f, W_{\\text{on}}, \\text{ and } \\Delta U",
+  "principles_applied": [
+    "Reversible adiabatic state relation for ideal gas: T V^{\\gamma - 1} = \\text{constant}",
+    "First Law of Thermodynamics: \\Delta U = Q - W_{\\text{by}} = Q + W_{\\text{on}}",
+    "Ideal gas internal energy formulation: \\Delta U = n C_V \\Delta T",
+    "Reversible adiabatic work expression: W_{\\text{by}} = \\frac{n R (T_0 - T_f)}{\\gamma - 1}"
+  ],
+  "governing_principles": [
+    "Reversible adiabatic state relation for ideal gas: T V^{\\gamma - 1} = \\text{constant}",
+    "First Law of Thermodynamics: \\Delta U = Q - W_{\\text{by}} = Q + W_{\\text{on}}",
+    "Ideal gas internal energy formulation: \\Delta U = n C_V \\Delta T",
+    "Reversible adiabatic work expression: W_{\\text{by}} = \\frac{n R (T_0 - T_f)}{\\gamma - 1}"
+  ],
+  "relevant_concepts": [
+    "thermodynamics",
+    "adiabatic-process",
+    "first-law-of-thermodynamics",
+    "internal-energy",
+    "molar-heat-capacity"
+  ],
+  "solution_strategy": "1. Identify that the cylinder and piston are non-conducting, so Q = 0. Because compression is slow and frictionless, the process is reversible adiabatic.\n2. Apply the adiabatic TV relation T_0 V_0^{\\gamma - 1} = T_f V_f^{\\gamma - 1} with \\gamma = 7/5 to determine T_f.\n3. Calculate the change in internal energy \\Delta U = n C_V (T_f - T_0).\n4. Apply the First Law with Q = 0 to establish W_{\\text{on}} = \\Delta U and W_{\\text{by}} = -\\Delta U.\n5. Cross-check the result using the explicit pressure-volume adiabatic work formula.",
+  "solution_steps": [
+    {
+      "step_number": 1,
+      "concept_applied": "Reversible adiabatic temperature-volume scaling relation",
+      "principle_applied": "Reversible adiabatic temperature-volume scaling relation",
+      "equation_latex": "T V^{\\gamma - 1} = \\text{constant} \\implies T_f = T_0 \\left(\\frac{V_0}{V_f}\\right)^{\\gamma - 1}",
+      "equation": "T V^{\\gamma - 1} = \\text{constant} \\implies T_f = T_0 \\left(\\frac{V_0}{V_f}\\right)^{\\gamma - 1}",
+      "calculation_details": "For an ideal gas undergoing a quasi-static adiabatic process, dQ = 0 implies dU = - P dV. Combining with dU = n C_V dT and P = n R T / V yields dT / T + (R / C_V) dV / V = 0. Integrating gives T V^{\\gamma - 1} = \\text{constant}.",
+      "substitution": "\\gamma = 1.4 = \\frac{7}{5}, \\quad \\gamma - 1 = \\frac{2}{5} = 0.4, \\quad \\frac{V_0}{V_f} = 32 = 2^5",
+      "intermediate_result": "T_f = T_0 (2^5)^{2/5} = T_0 (2^2) = 4 T_0"
+    },
+    {
+      "step_number": 2,
+      "concept_applied": "Numerical evaluation of final temperature",
+      "principle_applied": "Numerical evaluation of final temperature",
+      "equation_latex": "T_f = 4 T_0 = 4 \\times 300\\text{ K} = 1200\\text{ K}",
+      "equation": "T_f = 4 T_0 = 4 \\times 300\\text{ K} = 1200\\text{ K}",
+      "calculation_details": "Substitute initial temperature T_0 = 300 K into the temperature scaling relation T_f = 4 T_0.",
+      "substitution": "T_0 = 300\\text{ K}",
+      "intermediate_result": "Final temperature T_f = 1200 K (an increase of \\Delta T = 900 K)."
+    },
+    {
+      "step_number": 3,
+      "concept_applied": "Change in internal energy from temperature rise",
+      "principle_applied": "Change in internal energy from temperature rise",
+      "equation_latex": "\\Delta U = n C_V \\Delta T = n \\left(\\frac{5}{2} R\\right) (T_f - T_0)",
+      "equation": "\\Delta U = n C_V \\Delta T = n \\left(\\frac{5}{2} R\\right) (T_f - T_0)",
+      "calculation_details": "For an ideal gas, internal energy is exclusively a function of absolute temperature. For a diatomic gas at room temperature with 5 active quadratic degrees of freedom (3 translational + 2 rotational), C_V = (5/2) R.",
+      "substitution": "\\Delta U = (2.0\\text{ mol}) \\times \\left(\\frac{5}{2} \\times 8.314\\text{ J/(mol}\\cdot\\text{K)}\\right) \\times (1200\\text{ K} - 300\\text{ K}) = 5 \\times 8.314 \\times 900 = 37413\\text{ J}",
+      "intermediate_result": "\\Delta U = +37413 J = +37.413 kJ"
+    },
+    {
+      "step_number": 4,
+      "concept_applied": "Work done on the gas via the First Law of Thermodynamics",
+      "principle_applied": "Work done on the gas via the First Law of Thermodynamics",
+      "equation_latex": "Q = \\Delta U + W_{\\text{by}} \\implies 0 = \\Delta U - W_{\\text{on}} \\implies W_{\\text{on}} = \\Delta U",
+      "equation": "Q = \\Delta U + W_{\\text{by}} \\implies 0 = \\Delta U - W_{\\text{on}} \\implies W_{\\text{on}} = \\Delta U",
+      "calculation_details": "Since the system boundary is strictly adiabatic, Q = 0. Work done ON the gas by the compressing piston equals the net increase in internal energy: W_on = +\\Delta U. The work done BY the gas is W_by = -W_on = -37.413 kJ.",
+      "substitution": "W_{\\text{on}} = +37.413\\text{ kJ}, \\quad W_{\\text{by}} = -37.413\\text{ kJ}",
+      "intermediate_result": "Work done on the gas W_on = +37.413 kJ (or +37.4 kJ to 3 significant figures)."
+    },
+    {
+      "step_number": 5,
+      "concept_applied": "Independent validation via direct adiabatic work integration",
+      "principle_applied": "Independent validation via direct adiabatic work integration",
+      "equation_latex": "W_{\\text{by}} = \\frac{n R (T_0 - T_f)}{\\gamma - 1} = \\frac{2.0 \\times 8.314 \\times (300 - 1200)}{1.4 - 1}",
+      "equation": "W_{\\text{by}} = \\frac{n R (T_0 - T_f)}{\\gamma - 1} = \\frac{2.0 \\times 8.314 \\times (300 - 1200)}{1.4 - 1}",
+      "calculation_details": "Evaluating numerator: 2.0 * 8.314 * (-900) = -14965.2 J. Dividing by (\\gamma - 1) = 0.4 yields -37413 J. Thus W_by = -37.413 kJ, exactly confirming W_on = -W_by = +37.413 kJ.",
+      "substitution": "W_{\\text{by}} = \\frac{-14965.2}{0.4} = -37413\\text{ J}",
+      "intermediate_result": "Direct adiabatic integral yields identical result: W_on = +37.413 kJ."
+    }
+  ],
+  "ordered_steps": [
+    {
+      "step_number": 1,
+      "concept_applied": "Reversible adiabatic temperature-volume scaling relation",
+      "principle_applied": "Reversible adiabatic temperature-volume scaling relation",
+      "equation_latex": "T V^{\\gamma - 1} = \\text{constant} \\implies T_f = T_0 \\left(\\frac{V_0}{V_f}\\right)^{\\gamma - 1}",
+      "equation": "T V^{\\gamma - 1} = \\text{constant} \\implies T_f = T_0 \\left(\\frac{V_0}{V_f}\\right)^{\\gamma - 1}",
+      "calculation_details": "For an ideal gas undergoing a quasi-static adiabatic process, dQ = 0 implies dU = - P dV. Combining with dU = n C_V dT and P = n R T / V yields dT / T + (R / C_V) dV / V = 0. Integrating gives T V^{\\gamma - 1} = \\text{constant}.",
+      "substitution": "\\gamma = 1.4 = \\frac{7}{5}, \\quad \\gamma - 1 = \\frac{2}{5} = 0.4, \\quad \\frac{V_0}{V_f} = 32 = 2^5",
+      "intermediate_result": "T_f = T_0 (2^5)^{2/5} = T_0 (2^2) = 4 T_0"
+    },
+    {
+      "step_number": 2,
+      "concept_applied": "Numerical evaluation of final temperature",
+      "principle_applied": "Numerical evaluation of final temperature",
+      "equation_latex": "T_f = 4 T_0 = 4 \\times 300\\text{ K} = 1200\\text{ K}",
+      "equation": "T_f = 4 T_0 = 4 \\times 300\\text{ K} = 1200\\text{ K}",
+      "calculation_details": "Substitute initial temperature T_0 = 300 K into the temperature scaling relation T_f = 4 T_0.",
+      "substitution": "T_0 = 300\\text{ K}",
+      "intermediate_result": "Final temperature T_f = 1200 K (an increase of \\Delta T = 900 K)."
+    },
+    {
+      "step_number": 3,
+      "concept_applied": "Change in internal energy from temperature rise",
+      "principle_applied": "Change in internal energy from temperature rise",
+      "equation_latex": "\\Delta U = n C_V \\Delta T = n \\left(\\frac{5}{2} R\\right) (T_f - T_0)",
+      "equation": "\\Delta U = n C_V \\Delta T = n \\left(\\frac{5}{2} R\\right) (T_f - T_0)",
+      "calculation_details": "For an ideal gas, internal energy is exclusively a function of absolute temperature. For a diatomic gas at room temperature with 5 active quadratic degrees of freedom (3 translational + 2 rotational), C_V = (5/2) R.",
+      "substitution": "\\Delta U = (2.0\\text{ mol}) \\times \\left(\\frac{5}{2} \\times 8.314\\text{ J/(mol}\\cdot\\text{K)}\\right) \\times (1200\\text{ K} - 300\\text{ K}) = 5 \\times 8.314 \\times 900 = 37413\\text{ J}",
+      "intermediate_result": "\\Delta U = +37413 J = +37.413 kJ"
+    },
+    {
+      "step_number": 4,
+      "concept_applied": "Work done on the gas via the First Law of Thermodynamics",
+      "principle_applied": "Work done on the gas via the First Law of Thermodynamics",
+      "equation_latex": "Q = \\Delta U + W_{\\text{by}} \\implies 0 = \\Delta U - W_{\\text{on}} \\implies W_{\\text{on}} = \\Delta U",
+      "equation": "Q = \\Delta U + W_{\\text{by}} \\implies 0 = \\Delta U - W_{\\text{on}} \\implies W_{\\text{on}} = \\Delta U",
+      "calculation_details": "Since the system boundary is strictly adiabatic, Q = 0. Work done ON the gas by the compressing piston equals the net increase in internal energy: W_on = +\\Delta U. The work done BY the gas is W_by = -W_on = -37.413 kJ.",
+      "substitution": "W_{\\text{on}} = +37.413\\text{ kJ}, \\quad W_{\\text{by}} = -37.413\\text{ kJ}",
+      "intermediate_result": "Work done on the gas W_on = +37.413 kJ (or +37.4 kJ to 3 significant figures)."
+    },
+    {
+      "step_number": 5,
+      "concept_applied": "Independent validation via direct adiabatic work integration",
+      "principle_applied": "Independent validation via direct adiabatic work integration",
+      "equation_latex": "W_{\\text{by}} = \\frac{n R (T_0 - T_f)}{\\gamma - 1} = \\frac{2.0 \\times 8.314 \\times (300 - 1200)}{1.4 - 1}",
+      "equation": "W_{\\text{by}} = \\frac{n R (T_0 - T_f)}{\\gamma - 1} = \\frac{2.0 \\times 8.314 \\times (300 - 1200)}{1.4 - 1}",
+      "calculation_details": "Evaluating numerator: 2.0 * 8.314 * (-900) = -14965.2 J. Dividing by (\\gamma - 1) = 0.4 yields -37413 J. Thus W_by = -37.413 kJ, exactly confirming W_on = -W_by = +37.413 kJ.",
+      "substitution": "W_{\\text{by}} = \\frac{-14965.2}{0.4} = -37413\\text{ J}",
+      "intermediate_result": "Direct adiabatic integral yields identical result: W_on = +37.413 kJ."
+    }
+  ],
+  "final_answer": "T_f = 1200\\text{ K}; \\quad W_{\\text{on}} = +37.413\\text{ kJ} \\quad (\\text{or } +37.4\\text{ kJ}); \\quad \\Delta U = +37.413\\text{ kJ}",
+  "units": "\\text{K for temperature}; \\text{ kJ for work and internal energy}",
+  "alternative_methods": [
+    "PV Integral Method: Compute P_f = P_0 (V_0 / V_f)^\\gamma = P_0 (32)^{1.4} = P_0 (2^5)^{1.4} = P_0 (2^7) = 128 P_0. Then integrate W_by = \\int_{V_0}^{V_0/32} P dV = (P_f V_f - P_0 V_0) / (1 - \\gamma) = [ (128 P_0) (V_0/32) - P_0 V_0 ] / (1 - 1.4) = (4 P_0 V_0 - P_0 V_0) / (-0.4) = - 3 P_0 V_0 / 0.4 = - 7.5 P_0 V_0. Since P_0 V_0 = n R T_0, W_by = - 7.5 (2.0) (8.314) (300) = - 37413 J, so W_on = +37.413 kJ."
+  ],
+  "alternate_methods": [
+    "PV Integral Method: Compute P_f = P_0 (V_0 / V_f)^\\gamma = P_0 (32)^{1.4} = P_0 (2^5)^{1.4} = P_0 (2^7) = 128 P_0. Then integrate W_by = \\int_{V_0}^{V_0/32} P dV = (P_f V_f - P_0 V_0) / (1 - \\gamma) = [ (128 P_0) (V_0/32) - P_0 V_0 ] / (1 - 1.4) = (4 P_0 V_0 - P_0 V_0) / (-0.4) = - 3 P_0 V_0 / 0.4 = - 7.5 P_0 V_0. Since P_0 V_0 = n R T_0, W_by = - 7.5 (2.0) (8.314) (300) = - 37413 J, so W_on = +37.413 kJ."
+  ],
+  "trap_alerts": [
+    "Conflating W_on with W_by: Work done BY the gas during compression is negative (dV < 0), so work done ON the gas by the surroundings is positive. Submitting a negative value for W_on loses marks.",
+    "Applying monoatomic gamma = 5/3 instead of diatomic gamma = 7/5 = 1.4: Using 5/3 gives (32)^{2/3} = 2^{10/3} \\approx 10.08, yielding an erroneous T_f \\approx 3024 K.",
+    "Using isothermal relations P V = const: Under adiabatic compression, temperature is not constant; the pressure rises much more steeply (by a factor of 128 rather than 32)."
+  ],
+  "sanity_checks": [
+    "Physical compression heating: Compressing a thermally isolated gas adds external mechanical work which cannot escape as heat, guaranteeing T_f > T_0 (1200 K > 300 K).",
+    "Dimensional consistency: [n C_V \\Delta T] = mol * (J/(mol K)) * K = J, matching [W] = J.",
+    "Limiting check V_f -> V_0: If V_f = V_0, T_f = T_0 (1)^{0.4} = 300 K, \\Delta U = 0, W_on = 0.",
+    "First Law balance: Q = \\Delta U + W_by = 37.413 kJ + (-37.413 kJ) = 0 kJ, exactly satisfying Q = 0."
+  ],
+  "source_atom_id": "thermodynamics-question-71b685c0",
+  "provenance": [
+    {
+      "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+      "file_name": "jee_rank_booster-03_mock_paper.pdf",
+      "file_path": "jee_rank_booster-03_mock_paper.pdf",
+      "page_start": 4,
+      "page_end": 4,
+      "source_locator": "Section - A, Q14",
+      "edition": null,
+      "extraction_metadata": {}
+    }
+  ],
+  "risk_level": "MEDIUM",
+  "verification_status": "UNVERIFIED",
+  "verification_record_id": null,
+  "content_hash": null,
+  "generator_identity": "ContentGenerator",
+  "generator_conversation_id": "6dce4bbd-45ec-4de0-95e5-461836f2ba08",
+  "created_at": "2026-09-28T22:35:00Z"
+}

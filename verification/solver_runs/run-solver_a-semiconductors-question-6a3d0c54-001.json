@@ -1,0 +1,29 @@
+{
+  "solver_run_id": "run-solver_a-semiconductors-question-6a3d0c54-001",
+  "atom_id": "semiconductors-question-6a3d0c54",
+  "solver_id": "solver_a",
+  "solver_agent_name": "solver_a",
+  "atom_version": 1,
+  "content_hash": "12fafaa32dfcfc773ebcb9d86ab29b279ae5a3d0a0980974d60cc671a1f9860f",
+  "verification_protocol_version": "1.0.0",
+  "blind_package_hash": "760f22996ef78aae6639cb2964991216f790da693cd9e548623a12ab079a6d30",
+  "model_name": null,
+  "independent_answer": "1.25",
+  "raw_answer": "5/4",
+  "reasoning_steps": [
+    "1. The current due to a charge carrier is given by I = n * q * A * v_d.",
+    "2. Ratio of electron current to hole current is I_e / I_h = (n_e / n_h) * (v_de / v_dh).",
+    "3. Given I_e / I_h = 7/4 and n_e / n_h = 7/5.",
+    "4. Substituting the values: 7/4 = (7/5) * (v_de / v_dh).",
+    "5. Solving for the ratio of drift velocities: v_de / v_dh = (7/4) / (7/5) = 5/4 = 1.25."
+  ],
+  "assumptions_used": [
+    "Cross-sectional area A is the same for electrons and holes.",
+    "Charge magnitude q is the same for electrons and holes."
+  ],
+  "uncertainty": null,
+  "diagram_interpretation": null,
+  "possible_ambiguities": [],
+  "created_at": "2026-09-28T08:51:20Z",
+  "raw_response": null
+}

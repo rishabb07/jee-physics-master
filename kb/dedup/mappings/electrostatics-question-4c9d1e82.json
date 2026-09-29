@@ -1,0 +1,26 @@
+{
+  "original_atom_id": "electrostatics-question-4c9d1e82",
+  "canonical_atom_id": "electrostatics-question-132c25d1",
+  "cluster_id": "cluster-electrostatics-quest-379d6663",
+  "reason": "Verbatim identical electrostatics problem: point charge +Q located at the center of the square base of a pyramid, calculating the electric flux through one of the four identical triangular upper faces. By reflecting the pyramid across its base, a regular 8-faced octahedron encloses the charge, yielding total flux Q/epsilon_0 and individual face flux Q/(8 epsilon_0). Both atoms have identical options, figure reference, and verified answer 'C'.",
+  "decision_id": "cand-electrostati-electrostati",
+  "classifier_identity": "physics-deduplicator",
+  "conversation_id": "80d33d64-618b-4d64-8dd5-07ad9a017242",
+  "source_provenance": [
+    {
+      "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+      "file_name": "jee_rank_booster-03_mock_paper.pdf",
+      "file_path": "jee_rank_booster-03_mock_paper.pdf",
+      "page_start": 4,
+      "page_end": 4,
+      "source_locator": "Section - A, Q15",
+      "edition": null,
+      "extraction_metadata": {
+        "source_sha256": "256f42c67a9271aaafe4bf637eb34cddd10da959cdf7a66fc6fee76a68d34361"
+      }
+    }
+  ],
+  "atom_version": 1,
+  "content_hash": "55511314791636289281fa986d2b38358fd33945eb154d89f87d5bc7ea6a59a7",
+  "applied_at": "2026-09-28T04:54:04.503285Z"
+}

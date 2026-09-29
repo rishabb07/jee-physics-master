@@ -1,0 +1,14 @@
+{
+  "promotion_id": "promo-fluid-mechanics-question-870c4110-52f0bb",
+  "atom_id": "fluid-mechanics-question-870c4110",
+  "verification_id": "verif-fluid-mechanics-question-870c4110-c65d05",
+  "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+  "atom_version": 1,
+  "staged_path": "build/staging/atoms/batch_src-jee-rank-booster-03-mock-256f42c6_20260928_031815_253c.jsonl",
+  "canonical_path": "kb\\atoms\\fluid-mechanics-question-870c4110.json",
+  "verdict": "VERIFIED",
+  "source_claimed_answer": null,
+  "verified_answer": "0.025",
+  "timestamp": "2026-09-28T03:29:19.842195Z",
+  "promoted_by": "promotion_gate"
+}

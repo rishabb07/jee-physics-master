@@ -1,0 +1,51 @@
+{
+  "formula_id": "formula-rot-moi-parallel",
+  "chapter_id": "rotational-motion",
+  "title": "Parallel Axis Theorem",
+  "equation": "I = I_{\\text{cm}} + M d^2",
+  "equation_latex": "I = I_{\\text{cm}} + M d^2",
+  "variables": {
+    "I": "Moment of inertia about parallel axis",
+    "I_{\\text{cm}}": "Moment of inertia about parallel axis through center of mass",
+    "M": "Total mass of rigid body",
+    "d": "Perpendicular distance between the two parallel axes"
+  },
+  "units": {
+    "I": "kg m^2",
+    "I_{\\text{cm}}": "kg m^2",
+    "M": "kg",
+    "d": "m"
+  },
+  "dimensions": {
+    "I": "[M][L]^2",
+    "I_{\\text{cm}}": "[M][L]^2",
+    "M": "[M]",
+    "d": "[L]"
+  },
+  "assumptions": [
+    "Rigid body assumption",
+    "Both axes are strictly parallel",
+    "One axis passes strictly through the center of mass"
+  ],
+  "validity_conditions": [
+    "Applicable to three-dimensional rigid bodies of arbitrary geometry for any pair of parallel axes where one is a centroidal axis"
+  ],
+  "derivation_reference": "derivation-formula-rot-moi-parallel",
+  "related_concepts": [
+    "concept-rot-moi-01"
+  ],
+  "common_misuse": [
+    "Applying theorem between two arbitrary parallel axes neither of which passes through the center of mass",
+    "Using linear distance instead of perpendicular distance"
+  ],
+  "provenance": [],
+  "generation_metadata": {
+    "agent": "content_generator",
+    "version": "1.0",
+    "target_chapter": "rotational-motion"
+  },
+  "verification_status": "UNVERIFIED",
+  "content_hash": "5472104e395a301ebd0bdf329b9e79ce75ac31895d4eb8bca6cf9798af3bd07f",
+  "verification_record_id": null,
+  "created_at": "2026-09-29T07:50:00Z"
+}

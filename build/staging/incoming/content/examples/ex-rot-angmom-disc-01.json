@@ -1,0 +1,182 @@
+{
+  "example_id": "ex-rot-angmom-disc-01",
+  "chapter_id": "rotational-motion",
+  "problem_statement": "A uniform thin circular disc of mass $M$ and radius $R$ is rotating freely in a horizontal plane about a frictionless fixed vertical axis passing through its center with initial angular velocity $\\omega_0$. An insect of mass $m = \\frac{M}{2}$, initially at the center of the disc ($r = 0$), starts crawling radially outward along a marked radius on the disc at a constant speed $u$ relative to the disc until it reaches the outer periphery ($r = R$).\n(a) Determine the angular velocity $\\omega(r)$ of the disc as a function of the radial distance $r \\in [0, R]$ of the insect from the center.\n(b) Find the angular velocity $\\omega(R)$ when the insect reaches the outer rim $r = R$.\n(c) Evaluate the ratio of the rotational kinetic energy of the system when the insect is at the rim ($r = R$) to its initial rotational kinetic energy ($r = 0$), and provide the physical explanation for any discrepancy in mechanical energy.",
+  "diagram_description": "Top-down schematic view of a uniform circular disc in the $xy$-plane rotating counterclockwise about a frictionless central pivot along the $z$-axis (directed out of page). A marked radial line extends along the disc radius. An insect of mass $m = M/2$ is located at a radial distance $r$ along this radial line, moving outward with relative velocity $\\vec{u}_{\\text{rel}} = u\\hat{r}$. Polar unit vectors $(\\hat{r}, \\hat{\\theta})$ and the angular velocity vector $\\vec{\\omega} = \\omega(r)\\hat{z}$ are defined.",
+  "known_parameters": {
+    "disc_mass": "M",
+    "disc_radius": "R",
+    "disc_moment_of_inertia": "I_disc = (1/2) * M * R^2",
+    "insect_mass": "m = M / 2",
+    "initial_insect_position": "r_0 = 0",
+    "initial_angular_velocity": "\\omega_0",
+    "insect_relative_radial_speed": "u = const",
+    "axis_boundary_condition": "Frictionless fixed vertical axis through disc center (tau_ext = 0)"
+  },
+  "known_quantities": {
+    "disc_mass": "M",
+    "disc_radius": "R",
+    "disc_moment_of_inertia": "I_disc = (1/2) * M * R^2",
+    "insect_mass": "m = M / 2",
+    "initial_insect_position": "r_0 = 0",
+    "initial_angular_velocity": "\\omega_0",
+    "insect_relative_radial_speed": "u = const",
+    "axis_boundary_condition": "Frictionless fixed vertical axis through disc center (tau_ext = 0)"
+  },
+  "target_variable": "\\omega(r), \\omega(R), \\text{ and } K_{\\text{rot}}(R) / K_{\\text{rot}}(0)",
+  "target_quantity": "\\omega(r), \\omega(R), \\text{ and } K_{\\text{rot}}(R) / K_{\\text{rot}}(0)",
+  "principles_applied": [
+    "Conservation of Angular Momentum about a fixed rotation axis under zero external torque",
+    "Additive principle of moment of inertia for composite systems: I_total(r) = I_disc + I_insect(r)",
+    "Rotational kinetic energy formulation: K_rot = (1/2) * I * \\omega^2 = L^2 / (2 * I)",
+    "Work-energy theorem for non-conservative internal forces (Coriolis torque and muscular work)"
+  ],
+  "governing_principles": [
+    "Conservation of Angular Momentum about a fixed rotation axis under zero external torque",
+    "Additive principle of moment of inertia for composite systems: I_total(r) = I_disc + I_insect(r)",
+    "Rotational kinetic energy formulation: K_rot = (1/2) * I * \\omega^2 = L^2 / (2 * I)",
+    "Work-energy theorem for non-conservative internal forces (Coriolis torque and muscular work)"
+  ],
+  "relevant_concepts": [
+    "rotational-motion",
+    "moment-of-inertia",
+    "conservation-of-angular-momentum",
+    "coriolis-force",
+    "rotational-kinetic-energy"
+  ],
+  "solution_strategy": "1. Analyze external torques acting on the combined system (disc + insect) about the vertical rotation axis to establish conservation of angular momentum L_z.\n2. Express the total moment of inertia I(r) as the sum of the disc's rotational inertia and the point-mass insect's inertia at radial distance r.\n3. Apply L_z(r) = L_z(0) to solve for \\omega(r) algebraically and evaluate at r = R.\n4. Compute the initial and final rotational kinetic energies to find the ratio K_rot(R) / K_rot(0).\n5. Identify the internal transverse Coriolis force and muscular work that account for the 50% loss of rotational kinetic energy.",
+  "solution_steps": [
+    {
+      "step_number": 1,
+      "concept_applied": "Torque analysis and conservation of angular momentum",
+      "principle_applied": "Torque analysis and conservation of angular momentum",
+      "equation_latex": "\\tau_{z, \\text{ext}} = \\frac{dL_z}{dt} = 0 \\implies L_z = \\text{constant}",
+      "equation": "\\tau_{z, \\text{ext}} = \\frac{dL_z}{dt} = 0 \\implies L_z = \\text{constant}",
+      "calculation_details": "The vertical pivot supports the normal force against gravity (\\sum F_z = 0), and gravity acts parallel to the z-axis, exerting zero torque about the z-axis. The interaction forces between the crawling insect and the disc are internal forces whose mutual torques sum to zero by Newton's third law. Consequently, the net external torque about the rotation axis is identically zero.",
+      "substitution": "\\tau_{z, \\text{ext}} = 0",
+      "intermediate_result": "Total angular momentum L_z about the central vertical axis is conserved throughout the motion."
+    },
+    {
+      "step_number": 2,
+      "concept_applied": "System moment of inertia as a function of radial coordinate",
+      "principle_applied": "System moment of inertia as a function of radial coordinate",
+      "equation_latex": "I(r) = I_{\\text{disc}} + m r^2 = \\frac{1}{2} M R^2 + \\left(\\frac{M}{2}\\right) r^2 = \\frac{1}{2} M (R^2 + r^2)",
+      "equation": "I(r) = I_{\\text{disc}} + m r^2 = \\frac{1}{2} M R^2 + \\left(\\frac{M}{2}\\right) r^2 = \\frac{1}{2} M (R^2 + r^2)",
+      "calculation_details": "The uniform disc has fixed moment of inertia I_disc = (1/2) * M * R^2. The insect is modeled as a point mass m = M / 2 at a radial distance r from the rotation axis, contributing I_insect(r) = m * r^2. Superposition yields I(r).",
+      "substitution": "I(0) = \\frac{1}{2} M R^2, \\quad I(R) = \\frac{1}{2} M R^2 + \\frac{1}{2} M R^2 = M R^2",
+      "intermediate_result": "Initial inertia I_0 = (1/2) M R^2; final inertia at rim I_f = M R^2 (inertia doubles)."
+    },
+    {
+      "step_number": 3,
+      "concept_applied": "Equating initial and instantaneous angular momentum",
+      "principle_applied": "Equating initial and instantaneous angular momentum",
+      "equation_latex": "I(r) \\omega(r) = I(0) \\omega_0 \\implies \\frac{1}{2} M (R^2 + r^2) \\omega(r) = \\frac{1}{2} M R^2 \\omega_0",
+      "equation": "I(r) \\omega(r) = I(0) \\omega_0 \\implies \\frac{1}{2} M (R^2 + r^2) \\omega(r) = \\frac{1}{2} M R^2 \\omega_0",
+      "calculation_details": "Dividing both sides by (1/2) M yields (R^2 + r^2) \\omega(r) = R^2 \\omega_0. Solving for \\omega(r) gives the angular velocity for any radial position r in [0, R]. Setting r = R gives the rim angular velocity.",
+      "substitution": "\\omega(r) = \\frac{R^2}{R^2 + r^2} \\omega_0, \\quad \\omega(R) = \\frac{R^2}{R^2 + R^2} \\omega_0 = \\frac{1}{2} \\omega_0",
+      "intermediate_result": "\\omega(r) = \\frac{R^2}{R^2 + r^2} \\omega_0; \\quad \\omega(R) = \\frac{\\omega_0}{2}"
+    },
+    {
+      "step_number": 4,
+      "concept_applied": "Rotational kinetic energy ratio evaluation",
+      "principle_applied": "Rotational kinetic energy ratio evaluation",
+      "equation_latex": "K_{\\text{rot}}(r) = \\frac{1}{2} I(r) [\\omega(r)]^2 = \\frac{L_z^2}{2 I(r)}",
+      "equation": "K_{\\text{rot}}(r) = \\frac{1}{2} I(r) [\\omega(r)]^2 = \\frac{L_z^2}{2 I(r)}",
+      "calculation_details": "Expressing rotational kinetic energy in terms of the conserved angular momentum L_z shows that K_rot is inversely proportional to the moment of inertia I(r). Initially at r = 0, K_rot(0) = L_z^2 / (2 I_0) = (1/4) M R^2 \\omega_0^2. At r = R, I(R) = 2 I_0, so K_rot(R) = L_z^2 / (4 I_0) = (1/8) M R^2 \\omega_0^2.",
+      "substitution": "\\frac{K_{\\text{rot}}(R)}{K_{\\text{rot}}(0)} = \\frac{I_0}{I(R)} = \\frac{\\frac{1}{2} M R^2}{M R^2} = \\frac{1}{2}",
+      "intermediate_result": "The rotational kinetic energy ratio is exactly 1/2 (50% reduction in rotational kinetic energy)."
+    },
+    {
+      "step_number": 5,
+      "concept_applied": "Dynamic torque and internal non-conservative work accounting",
+      "principle_applied": "Dynamic torque and internal non-conservative work accounting",
+      "equation_latex": "F_{\\text{cor}} = 2 m \\omega u, \\quad \\tau_{\\text{internal}} = - r F_{\\text{cor}} = - 2 m \\omega u r, \\quad W_{\\text{insect}} = \\Delta K_{\\text{rot}} = -\\frac{1}{8} M R^2 \\omega_0^2",
+      "equation": "F_{\\text{cor}} = 2 m \\omega u, \\quad \\tau_{\\text{internal}} = - r F_{\\text{cor}} = - 2 m \\omega u r, \\quad W_{\\text{insect}} = \\Delta K_{\\text{rot}} = -\\frac{1}{8} M R^2 \\omega_0^2",
+      "calculation_details": "In the rotating frame of the disc, the insect crawling with radial velocity u experiences a transverse Coriolis force 2 m \\omega u. To keep crawling along the marked radius, the disc exerts a forward transverse force on the insect, and by Newton's third law the insect exerts an equal and opposite backward torque on the disc. The mechanical energy lost from rotation is absorbed by the negative work done by the insect's muscles as it resists slipping along the accelerating disc.",
+      "substitution": "\\Delta K_{\\text{rot}} = \\frac{1}{8} M R^2 \\omega_0^2 - \\frac{1}{4} M R^2 \\omega_0^2 = -\\frac{1}{8} M R^2 \\omega_0^2",
+      "intermediate_result": "Mechanical kinetic energy is not conserved; 50% is dissipated/absorbed through internal muscular action."
+    }
+  ],
+  "ordered_steps": [
+    {
+      "step_number": 1,
+      "concept_applied": "Torque analysis and conservation of angular momentum",
+      "principle_applied": "Torque analysis and conservation of angular momentum",
+      "equation_latex": "\\tau_{z, \\text{ext}} = \\frac{dL_z}{dt} = 0 \\implies L_z = \\text{constant}",
+      "equation": "\\tau_{z, \\text{ext}} = \\frac{dL_z}{dt} = 0 \\implies L_z = \\text{constant}",
+      "calculation_details": "The vertical pivot supports the normal force against gravity (\\sum F_z = 0), and gravity acts parallel to the z-axis, exerting zero torque about the z-axis. The interaction forces between the crawling insect and the disc are internal forces whose mutual torques sum to zero by Newton's third law. Consequently, the net external torque about the rotation axis is identically zero.",
+      "substitution": "\\tau_{z, \\text{ext}} = 0",
+      "intermediate_result": "Total angular momentum L_z about the central vertical axis is conserved throughout the motion."
+    },
+    {
+      "step_number": 2,
+      "concept_applied": "System moment of inertia as a function of radial coordinate",
+      "principle_applied": "System moment of inertia as a function of radial coordinate",
+      "equation_latex": "I(r) = I_{\\text{disc}} + m r^2 = \\frac{1}{2} M R^2 + \\left(\\frac{M}{2}\\right) r^2 = \\frac{1}{2} M (R^2 + r^2)",
+      "equation": "I(r) = I_{\\text{disc}} + m r^2 = \\frac{1}{2} M R^2 + \\left(\\frac{M}{2}\\right) r^2 = \\frac{1}{2} M (R^2 + r^2)",
+      "calculation_details": "The uniform disc has fixed moment of inertia I_disc = (1/2) * M * R^2. The insect is modeled as a point mass m = M / 2 at a radial distance r from the rotation axis, contributing I_insect(r) = m * r^2. Superposition yields I(r).",
+      "substitution": "I(0) = \\frac{1}{2} M R^2, \\quad I(R) = \\frac{1}{2} M R^2 + \\frac{1}{2} M R^2 = M R^2",
+      "intermediate_result": "Initial inertia I_0 = (1/2) M R^2; final inertia at rim I_f = M R^2 (inertia doubles)."
+    },
+    {
+      "step_number": 3,
+      "concept_applied": "Equating initial and instantaneous angular momentum",
+      "principle_applied": "Equating initial and instantaneous angular momentum",
+      "equation_latex": "I(r) \\omega(r) = I(0) \\omega_0 \\implies \\frac{1}{2} M (R^2 + r^2) \\omega(r) = \\frac{1}{2} M R^2 \\omega_0",
+      "equation": "I(r) \\omega(r) = I(0) \\omega_0 \\implies \\frac{1}{2} M (R^2 + r^2) \\omega(r) = \\frac{1}{2} M R^2 \\omega_0",
+      "calculation_details": "Dividing both sides by (1/2) M yields (R^2 + r^2) \\omega(r) = R^2 \\omega_0. Solving for \\omega(r) gives the angular velocity for any radial position r in [0, R]. Setting r = R gives the rim angular velocity.",
+      "substitution": "\\omega(r) = \\frac{R^2}{R^2 + r^2} \\omega_0, \\quad \\omega(R) = \\frac{R^2}{R^2 + R^2} \\omega_0 = \\frac{1}{2} \\omega_0",
+      "intermediate_result": "\\omega(r) = \\frac{R^2}{R^2 + r^2} \\omega_0; \\quad \\omega(R) = \\frac{\\omega_0}{2}"
+    },
+    {
+      "step_number": 4,
+      "concept_applied": "Rotational kinetic energy ratio evaluation",
+      "principle_applied": "Rotational kinetic energy ratio evaluation",
+      "equation_latex": "K_{\\text{rot}}(r) = \\frac{1}{2} I(r) [\\omega(r)]^2 = \\frac{L_z^2}{2 I(r)}",
+      "equation": "K_{\\text{rot}}(r) = \\frac{1}{2} I(r) [\\omega(r)]^2 = \\frac{L_z^2}{2 I(r)}",
+      "calculation_details": "Expressing rotational kinetic energy in terms of the conserved angular momentum L_z shows that K_rot is inversely proportional to the moment of inertia I(r). Initially at r = 0, K_rot(0) = L_z^2 / (2 I_0) = (1/4) M R^2 \\omega_0^2. At r = R, I(R) = 2 I_0, so K_rot(R) = L_z^2 / (4 I_0) = (1/8) M R^2 \\omega_0^2.",
+      "substitution": "\\frac{K_{\\text{rot}}(R)}{K_{\\text{rot}}(0)} = \\frac{I_0}{I(R)} = \\frac{\\frac{1}{2} M R^2}{M R^2} = \\frac{1}{2}",
+      "intermediate_result": "The rotational kinetic energy ratio is exactly 1/2 (50% reduction in rotational kinetic energy)."
+    },
+    {
+      "step_number": 5,
+      "concept_applied": "Dynamic torque and internal non-conservative work accounting",
+      "principle_applied": "Dynamic torque and internal non-conservative work accounting",
+      "equation_latex": "F_{\\text{cor}} = 2 m \\omega u, \\quad \\tau_{\\text{internal}} = - r F_{\\text{cor}} = - 2 m \\omega u r, \\quad W_{\\text{insect}} = \\Delta K_{\\text{rot}} = -\\frac{1}{8} M R^2 \\omega_0^2",
+      "equation": "F_{\\text{cor}} = 2 m \\omega u, \\quad \\tau_{\\text{internal}} = - r F_{\\text{cor}} = - 2 m \\omega u r, \\quad W_{\\text{insect}} = \\Delta K_{\\text{rot}} = -\\frac{1}{8} M R^2 \\omega_0^2",
+      "calculation_details": "In the rotating frame of the disc, the insect crawling with radial velocity u experiences a transverse Coriolis force 2 m \\omega u. To keep crawling along the marked radius, the disc exerts a forward transverse force on the insect, and by Newton's third law the insect exerts an equal and opposite backward torque on the disc. The mechanical energy lost from rotation is absorbed by the negative work done by the insect's muscles as it resists slipping along the accelerating disc.",
+      "substitution": "\\Delta K_{\\text{rot}} = \\frac{1}{8} M R^2 \\omega_0^2 - \\frac{1}{4} M R^2 \\omega_0^2 = -\\frac{1}{8} M R^2 \\omega_0^2",
+      "intermediate_result": "Mechanical kinetic energy is not conserved; 50% is dissipated/absorbed through internal muscular action."
+    }
+  ],
+  "final_answer": "\\omega(r) = \\frac{R^2}{R^2 + r^2} \\omega_0; \\quad \\omega(R) = \\frac{\\omega_0}{2}; \\quad \\frac{K_{\\text{rot}}(R)}{K_{\\text{rot}}(0)} = \\frac{1}{2}",
+  "units": "\\text{rad/s for } \\omega; \\text{ dimensionless for energy ratio}",
+  "alternative_methods": [
+    "Differential Torque Integration: Integrate dL_disc / dt = - r * (2 m \\omega dr/dt) with dr = u dt to find d\\omega / dt = - 2 m r \\omega (dr/dt) / I_disc, separating variables gives d\\omega / \\omega = - (2 m r / I_disc) dr = - (2 r / R^2) dr, integrating from 0 to r reproduces \\ln(\\omega / \\omega_0) = - \\ln(1 + r^2/R^2), yielding \\omega(r) = \\omega_0 / (1 + r^2/R^2).",
+    "Lagrangian Mechanics: Formulate L = (1/2) I_disc \\dot{\\theta}^2 + (1/2) m (\\dot{r}^2 + r^2 \\dot{\\theta}^2). Since \\theta is a cyclic coordinate, p_\\theta = \\partial L / \\partial \\dot{\\theta} = (I_disc + m r^2) \\dot{\\theta} = \\text{constant}, immediately recovering conservation of angular momentum."
+  ],
+  "alternate_methods": [
+    "Differential Torque Integration: Integrate dL_disc / dt = - r * (2 m \\omega dr/dt) with dr = u dt to find d\\omega / dt = - 2 m r \\omega (dr/dt) / I_disc, separating variables gives d\\omega / \\omega = - (2 m r / I_disc) dr = - (2 r / R^2) dr, integrating from 0 to r reproduces \\ln(\\omega / \\omega_0) = - \\ln(1 + r^2/R^2), yielding \\omega(r) = \\omega_0 / (1 + r^2/R^2).",
+    "Lagrangian Mechanics: Formulate L = (1/2) I_disc \\dot{\\theta}^2 + (1/2) m (\\dot{r}^2 + r^2 \\dot{\\theta}^2). Since \\theta is a cyclic coordinate, p_\\theta = \\partial L / \\partial \\dot{\\theta} = (I_disc + m r^2) \\dot{\\theta} = \\text{constant}, immediately recovering conservation of angular momentum."
+  ],
+  "trap_alerts": [
+    "Assuming mechanical kinetic energy is conserved: Equating initial and final kinetic energy falsely yields \\omega = \\omega_0 / \\sqrt{2}. Kinetic energy is NOT conserved when internal reconfiguration occurs via muscular or frictional work.",
+    "Neglecting the insect's initial moment of inertia: At r = 0, the insect is on the axis of rotation, so its contribution to rotational inertia is zero. However, its mass M/2 at r = R contributes (1/2) M R^2, doubling the total inertia.",
+    "Ignoring the transverse Coriolis force in rotating-frame analysis: The insect cannot crawl straight radially without a transverse contact force from the disc; the reaction torque from this contact force is what physically slows down the disc."
+  ],
+  "sanity_checks": [
+    "Limiting case r -> 0: \\omega(0) = [R^2 / (R^2 + 0)] \\omega_0 = \\omega_0, recovering the initial undisturbed state.",
+    "Limiting case m -> 0: If the insect is massless, \\omega(r) = \\omega_0 for all r, confirming zero perturbation from a massless crawler.",
+    "Monotonicity: d\\omega / dr = - [2 r R^2 \\omega_0] / (R^2 + r^2)^2 < 0 for all r > 0, ensuring angular velocity strictly decreases as mass moves outward.",
+    "Dimensional homogeneity: [\\omega(r)] = [\\omega_0] = T^{-1}, since R^2 / (R^2 + r^2) is dimensionless."
+  ],
+  "source_atom_id": null,
+  "provenance": [],
+  "risk_level": "HIGH",
+  "verification_status": "UNVERIFIED",
+  "verification_record_id": null,
+  "content_hash": null,
+  "generator_identity": "ContentGenerator",
+  "generator_conversation_id": "6dce4bbd-45ec-4de0-95e5-461836f2ba08",
+  "created_at": "2026-09-28T22:35:00Z"
+}

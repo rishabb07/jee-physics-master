@@ -1,0 +1,78 @@
+{
+  "description": "Standardized representation of a single page prepared for a downstream multimodal agent.",
+  "properties": {
+    "source_id": {
+      "minLength": 1,
+      "title": "Source Id",
+      "type": "string"
+    },
+    "page_number": {
+      "minimum": 1,
+      "title": "Page Number",
+      "type": "integer"
+    },
+    "extracted_text": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Raw text extracted from PDF stream",
+      "title": "Extracted Text"
+    },
+    "page_image_path": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Path to rendered page image if available",
+      "title": "Page Image Path"
+    },
+    "has_images": {
+      "default": false,
+      "title": "Has Images",
+      "type": "boolean"
+    },
+    "image_count": {
+      "default": 0,
+      "minimum": 0,
+      "title": "Image Count",
+      "type": "integer"
+    },
+    "dimensions_pt": {
+      "anyOf": [
+        {
+          "items": {
+            "type": "number"
+          },
+          "type": "array"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Dimensions Pt"
+    },
+    "metadata": {
+      "additionalProperties": true,
+      "title": "Metadata",
+      "type": "object"
+    }
+  },
+  "required": [
+    "source_id",
+    "page_number"
+  ],
+  "title": "PageContentRepresentation",
+  "type": "object"
+}

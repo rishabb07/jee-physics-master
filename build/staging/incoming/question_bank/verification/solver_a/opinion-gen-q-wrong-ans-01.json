@@ -1,0 +1,41 @@
+{
+  "solver_id": "solver_a",
+  "conversation_id": "c4b2f200-9d09-4009-8419-85baf0f75544",
+  "independent_interpretation": "An ideal gas undergoes an isothermal expansion at constant temperature T from volume V_1 to V_2. The problem asks for the change in internal energy Delta U.",
+  "governing_principles": [
+    "Joule's Law of Ideal Gases (Internal energy U is solely a function of temperature: U = U(T))",
+    "Caloric Equation of State for Ideal Gas (dU = n C_v dT)",
+    "First Law of Thermodynamics (dQ = dU + dW)"
+  ],
+  "independent_equations": [
+    "dU = n C_v dT",
+    "T = \\text{constant} \\implies dT = 0 \\implies \\Delta T = 0",
+    "\\Delta U = n C_v \\Delta T = 0",
+    "W = \\int_{V_1}^{V_2} P dV = n R T \\ln\\left(\\frac{V_2}{V_1}\\right)",
+    "Q = \\Delta U + W = 0 + W = n R T \\ln\\left(\\frac{V_2}{V_1}\\right)"
+  ],
+  "independent_solution_steps": [
+    "Step 1: Apply Joule's Second Law for ideal gases: The internal energy of an ideal gas depends exclusively on its absolute temperature, U = U(T), with no dependence on volume or pressure.",
+    "Step 2: Express the change in internal energy: Delta U = integral (n C_v dT). Because the process is isothermal, temperature is held constant throughout (T = const, Delta T = 0).",
+    "Step 3: Evaluate internal energy change: Delta U = n C_v (0) = 0. Therefore, the physically correct answer is exactly 0, which corresponds to Option D.",
+    "Step 4: Audit generator's claimed answer: The generator erroneously claims Option B (n R T ln(V_2 / V_1)). This expression represents the work done by the gas W (and the heat absorbed Q by the First Law), NOT the change in internal energy Delta U.",
+    "Step 5: Audit other distractors: Option A (n R T) represents the thermal energy scale P V; Option C (P Delta V) is isobaric work. None of these equal Delta U.",
+    "Step 6: Conclude fatal conflict: The generator answer (Option B) is physically and mathematically incorrect, directly contradicting Joule's Law. Calculated answer is Option D."
+  ],
+  "calculated_answer": "D",
+  "dimensional_check_passed": true,
+  "numerical_check_passed": true,
+  "uniqueness_confirmed": false,
+  "conflicting_distractors": [],
+  "evaluated_difficulty": {
+    "conceptual_difficulty": 2,
+    "mathematical_difficulty": 1,
+    "multistep_reasoning_difficulty": 2,
+    "abstraction_difficulty": 1,
+    "computational_burden": 1,
+    "trap_misconception_difficulty": 4
+  },
+  "verdict": "CONFLICT",
+  "notes": "Fatal answer conflict detected: The generator claimed Option B (n R T ln(V_2/V_1)), which is the formula for work done W / heat absorbed Q in an isothermal process. For an ideal gas undergoing isothermal expansion, Delta T = 0 strictly requires Delta U = 0 (Option D). Solver independent derivation proves calculated_answer='D'.",
+  "timestamp": "2026-09-29T08:55:40+05:30"
+}

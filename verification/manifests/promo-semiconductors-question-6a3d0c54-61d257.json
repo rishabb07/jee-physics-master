@@ -1,0 +1,14 @@
+{
+  "promotion_id": "promo-semiconductors-question-6a3d0c54-61d257",
+  "atom_id": "semiconductors-question-6a3d0c54",
+  "verification_id": "verif-semiconductors-question-6a3d0c54-c87fd2",
+  "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+  "atom_version": 1,
+  "staged_path": "build/staging/atoms/batch_src-jee-rank-booster-03-mock-256f42c6_20260927_201642_27f4.jsonl",
+  "canonical_path": "kb\\atoms\\semiconductors-question-6a3d0c54.json",
+  "verdict": "VERIFIED",
+  "source_claimed_answer": null,
+  "verified_answer": "1.25",
+  "timestamp": "2026-09-28T03:29:19.882775Z",
+  "promoted_by": "promotion_gate"
+}

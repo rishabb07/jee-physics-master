@@ -1,0 +1,95 @@
+# JEE Physics Knowledge & Learning System
+
+An AI-powered JEE Physics knowledge base, curriculum organizer, and pedagogical publishing pipeline.
+
+---
+
+## Core Invariants
+
+1. **Knowledge Base as Single Truth:** `kb/atoms/` holds canonical, verified physics knowledge. The generated book (`output/book/`) is a disposable projection that can be destroyed and regenerated idempotently.
+2. **Grounding Invariant:** No unsupported generated content may be promoted into the canonical knowledge base or published output. Every statement, formula, question, and solution must trace directly to a verified atom, an inspectable first-principles proof, or an authorized source.
+3. **Staged Extraction:** Extracted material from LLM agents lands in `build/staging/atoms/`. It must pass deterministic schema, syntax, and provenance gates before entering verification. Only verified knowledge enters `kb/atoms/`.
+4. **Exception-Only Human Review:** Routine high-confidence extractions are processed automatically. Escalation proceeds through secondary dual-pass verification and automated adjudication before routing to `review/queue/`.
+5. **Zero Silent Loss & Explicit Archive:** Every extracted atom must be placed in a curriculum product (book, question bank, ladder, mock) or preserved in `kb/archive/` with a machine-readable reason code.
+6. **Risk-Based & Random Verification:** High-risk extractions (low confidence, L4/L5 problems, conflicting keys, handwritten notes) undergo mandatory blind solving; a random sample of routine items is checked to prevent systemic drift.
+
+---
+
+## Phase 2: Source Ingestion & Segmentation
+
+### 1. Source Boundary & Placement
+- Only files explicitly deposited into `sources/raw/` (or subdirectories like `sources/raw/books/`, `sources/raw/tests/`) are treated as eligible physics learning materials.
+- **The system strictly ignores any other PDF or document found elsewhere in the repository** (such as internal system build guides or architectural documentation).
+
+### 2. How Source Registration Works
+Run:
+```bash
+python -m jee_physics register-sources
+```
+When invoked:
+1. It scans exclusively within `sources/raw/`.
+2. Computes the SHA-256 cryptographic fingerprint for each file.
+3. Classifies format (`pdf`, `image`, or `unsupported`) and verifies file integrity without modifying source files.
+4. Categorizes into **new**, **modified**, **unchanged**, or **missing** files.
+5. If unchanged: skips reprocessing (100% idempotent).
+6. If modified: snapshots previous hash/size to `record.history`, increments `source_version`, and sets status to `EXTRACTION_PENDING`.
+7. For valid PDFs: creates a deterministic page inventory (`sources/segments/{source_id}_inventory.json`) and segmentation plan (`sources/segments/{source_id}_segments.json`).
+8. If corrupted or password-protected: registers with `FAILED` status and logs `last_error` without failing the batch.
+
+### 3. How Source IDs Work
+- Stable deterministic ID format: `src-{slug}-{sha256[:8]}` (e.g. `src-jee-rank-booster-03-mock-256f42c6`).
+- Source IDs remain stable over the lifetime of a registered document.
+
+### 4. How to Inspect a Source
+Diagnose any registered source file, view characteristics, segmentation chunks, and preview page text:
+```bash
+# General metadata and segment plan
+python -m jee_physics inspect-source src-jee-rank-booster-03-mock-256f42c6
+
+# Diagnostic page preview for pages 1 through 3
+python -m jee_physics inspect-source src-jee-rank-booster-03-mock-256f42c6 --pages 1-3
+```
+
+### 5. Where Metadata & Segments Live
+- **Source Registry Records:** `sources/registry/{source_id}.json` (file hash, page count, format, status, history).
+- **Page Inventory:** `sources/segments/{source_id}_inventory.json` (per-page text length, image presence, dimensions, hash).
+- **Segmentation Plans:** `sources/segments/{source_id}_segments.json` (contiguous page ranges for batch extraction).
+- **Extracted Figures:** `sources/figures/raw/` (crops and embedded image extracts).
+
+---
+
+## What the System Deliberately Does NOT Do Yet
+
+To preserve architectural discipline, the following cognitive and downstream functions are reserved for later phases:
+- **No LLM Atomization:** Does not yet call Gemini or any LLM to extract theory/questions.
+- **No Optical Character Recognition (OCR):** Does not transcribe handwritten notes yet.
+- **No Semantic Deduplication:** Does not yet compare question semantics across different textbooks.
+- **No Blind Physics Solving:** Verification solvers have not been executed.
+- **No Chapter Generation / Publishing:** The book engine and mock builders are not yet invoked.
+
+---
+
+## Complete CLI Reference
+
+```bash
+# System status summary
+python -m jee_physics status
+
+# Register new or modified sources from sources/raw/
+python -m jee_physics register-sources
+
+# Inspect a registered source and preview pages
+python -m jee_physics inspect-source <source_id> [--pages <start-end>]
+
+# Validate staged atoms against schema and provenance
+python -m jee_physics validate
+
+# Run coverage audit for a chapter
+python -m jee_physics report --chapter <chapter_id>
+
+# Re-generate JSON schemas from Pydantic models
+python -m jee_physics generate-schemas
+
+# Run test suite
+pytest
+```

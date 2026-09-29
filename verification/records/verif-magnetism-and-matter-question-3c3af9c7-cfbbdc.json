@@ -1,0 +1,47 @@
+{
+  "verification_id": "verif-magnetism-and-matter-question-3c3af9c7-cfbbdc",
+  "atom_id": "magnetism-and-matter-question-3c3af9c7",
+  "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+  "atom_version": 1,
+  "content_hash": "4f75f153a39d8442a12e351b16adff316cd56e03e4bbdd92bdd30b0ca759faf3",
+  "verification_protocol_version": "1.0.0",
+  "solver_run_ids": [
+    "run-solver_a-magnetism-and-matter-question-3c3af9c7-fc121896",
+    "run-solver_b-magnetism-and-matter-question-3c3af9c7-ae3732ce"
+  ],
+  "source_claimed_answer": null,
+  "source_solution": null,
+  "independent_answers": {
+    "solver_a": "C",
+    "solver_b": "B"
+  },
+  "independent_solutions": {
+    "solver_a": "1. Original time period T = 2*pi * sqrt(I / MB) = 2 s.\n2. When the magnet is cut into three equal parts along its length, each part has mass m/3 and magnetic moment M/3.\n3. The moment of inertia of a long bar magnet depends primarily on its length: I approx m*L^2 / 12.",
+    "solver_b": "Original time period T = 2pi sqrt(I / (MB)) = 2 s.\nThe phrase cut along its length into three equal parts in this context implies making cuts along the length, dividing it into three shorter magnets of length L/3 (transverse cuts).\nEach piece has mass m/3, length L/3, and magnetic moment M/3."
+  },
+  "consensus_answer": "C",
+  "verdict": "VERIFIED",
+  "confidence": 0.99,
+  "discrepancy_classification": "ADJUDICATED_SOLVER_DISAGREEMENT",
+  "adjudication_result": {
+    "adjudication_id": "adj-magnetism-q20-001",
+    "atom_id": "magnetism-and-matter-question-3c3af9c7",
+    "atom_version": 1,
+    "content_hash": "4f75f153a39d8442a12e351b16adff316cd56e03e4bbdd92bdd30b0ca759faf3",
+    "adjudicator_id": "physics-adjudicator",
+    "solver_analyses": {
+      "solver_a": "Solver A correctly interpreted 'cut along its length' as a longitudinal cut, where the pieces are sliced parallel to the length. The length remains L, mass becomes m/3, and pole strength becomes m'/3 per piece. When stacked, total mass is m, length is L, I' = I, and M' = M. The time period remains 2 s.",
+      "solver_b": "Solver B incorrectly interpreted 'cut along its length' as transverse cuts. In standard JEE contexts, 'cut along its length' strictly means longitudinal slicing."
+    },
+    "source_claim_analysis": "No source answer key published in question pages. Evaluated from physical principles.",
+    "physical_reasoning": "The time period of a vibration magnetometer is T = 2*pi*sqrt(I/(MB)). 'Cut along its length' refers to longitudinal cuts. Each of the 3 parts has length L, mass m/3, and pole strength m'/3. The magnetic moment of each part is M/3. When placed on each other with like poles together, the combination has total mass m, length L. Thus, the total moment of inertia I' = I. The total magnetic moment M' = 3*(M/3) = M. Since both I and M are unchanged, T' = 2*pi*sqrt(I'/M'B) = 2*pi*sqrt(I/MB) = T = 2 s.",
+    "adjudicated_answer": "C",
+    "verdict": "VERIFIED",
+    "confidence": 0.99,
+    "notes": "Resolved solver discrepancy between longitudinal vs transverse cutting interpretation.",
+    "created_at": "2026-09-28T03:30:00Z"
+  },
+  "created_at": "2026-09-28T03:29:47.815602Z",
+  "completed_at": "2026-09-28T03:29:47.815602Z",
+  "metadata": {}
+}

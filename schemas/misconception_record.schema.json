@@ -1,0 +1,67 @@
+{
+  "description": "Explicit physical misconception record with trap mechanisms.",
+  "properties": {
+    "misconception_id": {
+      "description": "Unique misconception identifier",
+      "minLength": 1,
+      "title": "Misconception Id",
+      "type": "string"
+    },
+    "category": {
+      "description": "Category: SIGN_MISTAKE, VECTOR_SCALAR_CONFUSION, INVALID_FORMULA_CONDITION, WRONG_CONSERVATION_LAW, FRAME_CONFUSION, HIDDEN_CONSTRAINT_OMISSION, DIMENSIONAL_INCONSISTENCY",
+      "title": "Category",
+      "type": "string"
+    },
+    "statement": {
+      "description": "The incorrect intuitive claim or belief",
+      "minLength": 5,
+      "title": "Statement",
+      "type": "string"
+    },
+    "explanation": {
+      "description": "Rigorous physical explanation of why it is incorrect",
+      "minLength": 5,
+      "title": "Explanation",
+      "type": "string"
+    },
+    "trap_mechanism": {
+      "description": "How JEE exam questions specifically test and exploit this",
+      "minLength": 5,
+      "title": "Trap Mechanism",
+      "type": "string"
+    },
+    "trigger_conditions": {
+      "description": "Specific problem configurations triggering this error",
+      "items": {
+        "type": "string"
+      },
+      "title": "Trigger Conditions",
+      "type": "array"
+    },
+    "connected_concept_ids": {
+      "description": "Connected curriculum concept IDs",
+      "items": {
+        "type": "string"
+      },
+      "title": "Connected Concept Ids",
+      "type": "array"
+    },
+    "connected_atom_ids": {
+      "description": "Verified atom IDs that illustrate this trap",
+      "items": {
+        "type": "string"
+      },
+      "title": "Connected Atom Ids",
+      "type": "array"
+    }
+  },
+  "required": [
+    "misconception_id",
+    "category",
+    "statement",
+    "explanation",
+    "trap_mechanism"
+  ],
+  "title": "MisconceptionRecord",
+  "type": "object"
+}

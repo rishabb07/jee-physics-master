@@ -1,0 +1,30 @@
+{
+  "verification_id": "verif-rotational-motion-question-84f91c20-ce69e9",
+  "atom_id": "rotational-motion-question-84f91c20",
+  "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+  "atom_version": 1,
+  "content_hash": "729335ea8d2363b7b4f02d4c22c2c28352bc06a5093b5760855b1c5a20a7ff38",
+  "verification_protocol_version": "1.0.0",
+  "solver_run_ids": [
+    "run-solver_a-22fc04b9-aea2-4e8c-b95d-044f881b982f",
+    "run-solver_b-rotational-motion-question-84f91c20"
+  ],
+  "source_claimed_answer": null,
+  "source_solution": null,
+  "independent_answers": {
+    "solver_a": "C",
+    "solver_b": "C"
+  },
+  "independent_solutions": {
+    "solver_a": "Step 1: Consider the isolated system consisting of the thin horizontal circular disc plus the insect rotating about a vertical axis passing through its center.\nStep 2: No external torque acts on the system about the vertical axis of rotation. Total angular momentum is strictly conserved: L = I * omega = const.\nStep 3: Moment of inertia I(r) = (1/2) M R^2 + m r^2.",
+    "solver_b": "Step 1: Disc plus insect rotating about vertical axis with zero external torque.\nStep 2: Angular momentum L = I(r) * omega(r) is constant.\nStep 3: I(r) = I_disc + m * r^2."
+  },
+  "consensus_answer": "C",
+  "verdict": "VERIFIED",
+  "confidence": 0.99,
+  "discrepancy_classification": "SOURCE_ANSWER_MISSING",
+  "adjudication_result": null,
+  "created_at": "2026-09-27T19:51:06.329504Z",
+  "completed_at": "2026-09-27T19:51:06.329504Z",
+  "metadata": {}
+}

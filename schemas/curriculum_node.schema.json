@@ -1,0 +1,307 @@
+{
+  "$defs": {
+    "CurriculumNodeType": {
+      "description": "Granular level of an element in the pedagogical curriculum hierarchy.",
+      "enum": [
+        "SUBJECT",
+        "CHAPTER",
+        "TOPIC",
+        "SUBTOPIC",
+        "CONCEPT",
+        "PRINCIPLE",
+        "FORMULA",
+        "WORKED_EXAMPLE",
+        "QUESTION",
+        "COMMON_ERROR"
+      ],
+      "title": "CurriculumNodeType",
+      "type": "string"
+    },
+    "DifficultyLevel": {
+      "enum": [
+        "L1",
+        "L2",
+        "L3",
+        "L4",
+        "L5"
+      ],
+      "title": "DifficultyLevel",
+      "type": "string"
+    },
+    "ExamTargetLevel": {
+      "description": "Target examination level relevance.",
+      "enum": [
+        "JEE_MAIN",
+        "JEE_ADVANCED",
+        "OLYMPIAD_EXTENSION"
+      ],
+      "title": "ExamTargetLevel",
+      "type": "string"
+    },
+    "PedagogicalRole": {
+      "description": "The learning and narrative role of a curriculum element.",
+      "enum": [
+        "FOUNDATION_CONCEPT",
+        "CORE_PRINCIPLE",
+        "DERIVATION",
+        "WORKED_EXAMPLE",
+        "QUESTION_LADDER",
+        "PRACTICE_QUESTION",
+        "ADVANCED_SYNTHESIS",
+        "COMMON_MISCONCEPTION",
+        "REVISION_SUMMARY",
+        "HISTORICAL_NOTE",
+        "INTUITION_BUILDER"
+      ],
+      "title": "PedagogicalRole",
+      "type": "string"
+    },
+    "ProvenanceRecord": {
+      "description": "Represents a specific occurrence and physical location of knowledge within a source file.",
+      "properties": {
+        "source_id": {
+          "description": "Unique identifier of the registered source document",
+          "title": "Source Id",
+          "type": "string"
+        },
+        "file_name": {
+          "description": "Original filename of the source document",
+          "title": "File Name",
+          "type": "string"
+        },
+        "file_path": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Path or relative URI to source document",
+          "title": "File Path"
+        },
+        "page_start": {
+          "anyOf": [
+            {
+              "minimum": 1,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "1-based starting page number where available",
+          "title": "Page Start"
+        },
+        "page_end": {
+          "anyOf": [
+            {
+              "minimum": 1,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "1-based ending page number where available",
+          "title": "Page End"
+        },
+        "source_locator": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Human-readable location (e.g. Chapter 3, Example 12, Q14)",
+          "title": "Source Locator"
+        },
+        "edition": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Edition or printing identifier of the source",
+          "title": "Edition"
+        },
+        "extraction_metadata": {
+          "additionalProperties": true,
+          "description": "Metadata captured during extraction",
+          "title": "Extraction Metadata",
+          "type": "object"
+        }
+      },
+      "required": [
+        "source_id",
+        "file_name"
+      ],
+      "title": "ProvenanceRecord",
+      "type": "object"
+    },
+    "TaxonomyReference": {
+      "description": "Hierarchical positioning in the official JEE syllabus.",
+      "properties": {
+        "chapter_id": {
+          "description": "Normalized chapter slug, e.g., 'kinematics'",
+          "minLength": 1,
+          "title": "Chapter Id",
+          "type": "string"
+        },
+        "topic_id": {
+          "description": "Topic slug, e.g., 'projectile-motion'",
+          "minLength": 1,
+          "title": "Topic Id",
+          "type": "string"
+        },
+        "subtopic_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Optional subtopic slug, e.g., 'motion-on-incline'",
+          "title": "Subtopic Id"
+        }
+      },
+      "required": [
+        "chapter_id",
+        "topic_id"
+      ],
+      "title": "TaxonomyReference",
+      "type": "object"
+    }
+  },
+  "description": "An explicit unit of learning in the curriculum hierarchy.",
+  "properties": {
+    "curriculum_id": {
+      "description": "Unique curriculum identifier, e.g. 'curr-rot-01'",
+      "minLength": 1,
+      "title": "Curriculum Id",
+      "type": "string"
+    },
+    "taxonomy_reference": {
+      "$ref": "#/$defs/TaxonomyReference",
+      "description": "Mapping to authoritative syllabus taxonomy"
+    },
+    "node_type": {
+      "$ref": "#/$defs/CurriculumNodeType",
+      "description": "Granular curriculum element type"
+    },
+    "title": {
+      "description": "Pedagogical title",
+      "minLength": 1,
+      "title": "Title",
+      "type": "string"
+    },
+    "description": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Scope definition or narrative explanation",
+      "title": "Description"
+    },
+    "prerequisite_ids": {
+      "description": "IDs of prerequisite curriculum units",
+      "items": {
+        "type": "string"
+      },
+      "title": "Prerequisite Ids",
+      "type": "array"
+    },
+    "dependent_ids": {
+      "description": "IDs of downstream curriculum units",
+      "items": {
+        "type": "string"
+      },
+      "title": "Dependent Ids",
+      "type": "array"
+    },
+    "mathematical_prerequisites": {
+      "description": "Mathematical tools required (e.g. 'cross-product', 'integration')",
+      "items": {
+        "type": "string"
+      },
+      "title": "Mathematical Prerequisites",
+      "type": "array"
+    },
+    "target_exam_levels": {
+      "description": "Relevant exam tiers",
+      "items": {
+        "$ref": "#/$defs/ExamTargetLevel"
+      },
+      "title": "Target Exam Levels",
+      "type": "array"
+    },
+    "pedagogical_role": {
+      "$ref": "#/$defs/PedagogicalRole",
+      "default": "FOUNDATION_CONCEPT",
+      "description": "Pedagogical role"
+    },
+    "recommended_learning_position": {
+      "default": 1,
+      "description": "Topological sequence position in learning order",
+      "minimum": 1,
+      "title": "Recommended Learning Position",
+      "type": "integer"
+    },
+    "estimated_learning_weight": {
+      "default": 1.0,
+      "description": "Relative study effort weight",
+      "maximum": 10.0,
+      "minimum": 0.1,
+      "title": "Estimated Learning Weight",
+      "type": "number"
+    },
+    "difficulty_band": {
+      "$ref": "#/$defs/DifficultyLevel",
+      "default": "L2",
+      "description": "Representative difficulty band"
+    },
+    "confidence": {
+      "default": 1.0,
+      "description": "Curriculum assignment confidence",
+      "maximum": 1.0,
+      "minimum": 0.0,
+      "title": "Confidence",
+      "type": "number"
+    },
+    "provenance": {
+      "description": "Source provenance citations",
+      "items": {
+        "$ref": "#/$defs/ProvenanceRecord"
+      },
+      "title": "Provenance",
+      "type": "array"
+    }
+  },
+  "required": [
+    "curriculum_id",
+    "taxonomy_reference",
+    "node_type",
+    "title"
+  ],
+  "title": "CurriculumNode",
+  "type": "object"
+}

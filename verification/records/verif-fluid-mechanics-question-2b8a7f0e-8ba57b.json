@@ -1,0 +1,30 @@
+{
+  "verification_id": "verif-fluid-mechanics-question-2b8a7f0e-8ba57b",
+  "atom_id": "fluid-mechanics-question-2b8a7f0e",
+  "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+  "atom_version": 1,
+  "content_hash": "ea5b50dd8af5543e53debcccb88c201bef8bdfa0933269f26ac8830c2aff9d86",
+  "verification_protocol_version": "1.0.0",
+  "solver_run_ids": [
+    "run-solver_a-b3132dd9-ce88-46f7-ad9f-1bcd518f82b7",
+    "run-solver_b-fluid-mechanics-question-2b8a7f0e"
+  ],
+  "source_claimed_answer": null,
+  "source_solution": null,
+  "independent_answers": {
+    "solver_a": "D",
+    "solver_b": "D"
+  },
+  "independent_solutions": {
+    "solver_a": "Step 1: Liquid 1 rests on Liquid 2 without mixing: stable stratification requires rho1 < rho2.\nStep 2: Solid ball of density rho3 floats in static equilibrium straddling interface.\nStep 3: Weight = Buoyant force => rho3 * V = rho1 * V1 + rho2 * V2.",
+    "solver_b": "Step 1: Fluid layering stability requires rho1 < rho2.\nStep 2: Static equilibrium: W = F_B => rho3 * V = rho1 * V1 + rho2 * V2.\nStep 3: rho3 = rho1 * (V1/V) + rho2 * (V2/V)."
+  },
+  "consensus_answer": "D",
+  "verdict": "VERIFIED",
+  "confidence": 0.99,
+  "discrepancy_classification": "SOURCE_ANSWER_MISSING",
+  "adjudication_result": null,
+  "created_at": "2026-09-27T19:51:06.400042Z",
+  "completed_at": "2026-09-27T19:51:06.400042Z",
+  "metadata": {}
+}

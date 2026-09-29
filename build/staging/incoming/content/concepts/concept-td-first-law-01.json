@@ -1,0 +1,44 @@
+{
+  "content_id": "concept-td-first-law-01",
+  "curriculum_id": "curr-td-01",
+  "taxonomy_reference": {
+    "chapter_id": "thermodynamics",
+    "topic_id": "first-law-and-processes",
+    "subtopic_id": "first-law-statement"
+  },
+  "title": "The First Law of Thermodynamics: Internal Energy, Heat, and Work",
+  "learning_objective": "Formulate the First Law of Thermodynamics as an exact statement of energy conservation for closed systems, distinguish between state functions (internal energy) and path functions (heat and work), and master standard physics sign conventions.",
+  "intuition": "Think of a system's internal energy as the balance in a bank account. You can increase your balance by depositing money (adding heat $dQ$) or decrease it by spending money on bills (doing work on the surroundings $dW$). While deposits ($dQ$) and expenses ($dW$) describe transactions along a path, the net balance in the account ($U$) depends strictly on your current financial state. Regardless of whether money arrived via salary or interest, the balance changes by exactly $\\Delta U = Q - W$.",
+  "formal_definition": "The First Law of Thermodynamics states that energy cannot be created or destroyed, only transformed. For an infinitesimal quasi-static transition in a closed thermodynamic system: $dQ = dU + dW$, where $dQ$ is the inexact differential of heat added to the system, $dU$ is the exact differential of internal energy, and $dW = P dV$ is the inexact differential of work performed BY the system on its surroundings. In integrated form: $Q = \\Delta U + W$. In SI units, all quantities have dimensions of energy $[M L^2 T^{-2}]$ and are measured in Joules ($\\text{J}$).",
+  "explanation": "The First Law of Thermodynamics is the rigorous extension of the law of conservation of mechanical energy to include microscopic thermal energy interactions.\n\n### 1. State Functions vs Path Functions\nA thermodynamic system at macroscopic equilibrium is characterized by state variables such as pressure ($P$), volume ($V$), and temperature ($T$).\n- **Internal Energy ($U$) is a State Function**: $U$ depends exclusively on the current equilibrium thermodynamic state, not on the prior history or trajectory. For an arbitrary cyclic process returning to its initial state, $\\oint dU = 0$. For any transition from state 1 to state 2, $\\Delta U = U_2 - U_1$ is path-independent.\n- **Heat ($Q$) and Work ($W$) are Path Functions**: Neither $Q$ nor $W$ is an intrinsic property of the system; there is no such quantity as 'heat content' or 'work content'. They represent energy in transit across boundaries. Consequently, $dQ$ and $dW$ are inexact differentials (often written as $\\delta Q$ and $\\delta W$).\n\n### 2. Sign Conventions: Physics vs Chemistry\nIn physics (specifically throughout the JEE syllabus and standard classical physics):\n- $dQ > 0$: Heat absorbed by the system from surroundings.\n- $dQ < 0$: Heat released by the system to surroundings.\n- $dW > 0$: Work done BY the system on surroundings ($dW = P dV > 0$ for expansion).\n- $dW < 0$: Work done ON the system by surroundings ($dW = P dV < 0$ for compression).\nUnder this convention:\n$$dQ = dU + dW \\iff dU = dQ - dW$$\nNote: In IUPAC chemical thermodynamics, work is defined as work done ON the system ($W_{\\text{chem}} = -W_{\\text{phys}}$), leading to $\\Delta U = Q + W_{\\text{chem}}$. Awareness of this distinction prevents catastrophic sign errors.\n\n### 3. Internal Energy of an Ideal Gas\nJoule's porous plug and free expansion experiments showed that the internal energy of an ideal gas depends solely on its absolute temperature $T$, completely independent of volume $V$ or pressure $P$:\n$$U = U(T) \\implies dU = n C_v dT$$\nThis relation holds for ANY process (isobaric, isochoric, isothermal, adiabatic, or polytropic) for an ideal gas.",
+  "assumptions": [
+    "The system is closed, with no mass transfer across system boundaries.",
+    "Kinetic and potential energy of the macroscopic system as a whole remain constant (internal energy change only).",
+    "Quasi-static thermodynamic states with well-defined pressure, volume, and temperature."
+  ],
+  "boundary_conditions": [
+    "Valid for any thermodynamic process connecting equilibrium states, whether reversible or irreversible.",
+    "For irreversible processes, $dW \\neq P dV$ during intermediate states, but $\\Delta U = Q - W$ remains strictly exact.",
+    "$U$ is a single-valued state function: $\\oint dU = 0$ over any closed cycle."
+  ],
+  "related_formula_ids": [
+    "formula-td-first-law"
+  ],
+  "prerequisite_refs": [
+    "curr-therm-01",
+    "curr-wep-01"
+  ],
+  "source_references": [
+    "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+    "Fundamentals of Physics-Halliday,Resnick,Walker.pdf"
+  ],
+  "generation_metadata": {
+    "agent": "content_generator",
+    "version": "1.0",
+    "target_chapter": "thermodynamics"
+  },
+  "verification_status": "UNVERIFIED",
+  "verification_record_id": null,
+  "content_hash": "7328e9b6b2062b287dda82d14910901049303d12572931289f7ec36a7d0e6d4e",
+  "created_at": "2026-09-28T22:30:00Z"
+}

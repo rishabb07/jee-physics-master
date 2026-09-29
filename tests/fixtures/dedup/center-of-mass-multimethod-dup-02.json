@@ -1,0 +1,92 @@
+{
+  "atom_id": "center-of-mass-multimethod-dup-02",
+  "schema_version": "1.0.0",
+  "atom_version": 1,
+  "active": true,
+  "atom_type": "question",
+  "title": "Inelastic Collision of Two Particles \u2014 Direction of Combined Particle",
+  "taxonomy": {
+    "chapter_id": "center-of-mass",
+    "topic_id": "collisions",
+    "subtopic_id": "perfectly-inelastic-collision-2d"
+  },
+  "provenance": [
+    {
+      "source_id": "src-advanced-mechanics-2024",
+      "file_name": "jee_rank_booster-03_mock_paper.pdf",
+      "file_path": null,
+      "page_start": 2,
+      "page_end": 2,
+      "source_locator": "Advanced Problem Set 4, Q12",
+      "edition": null,
+      "extraction_metadata": {}
+    }
+  ],
+  "confidence": 0.95,
+  "verification_status": "VERIFIED",
+  "content_hash": "fc25a97e998fc48e3725efdd4dd97e4f23a7ad565e0396916cd4edd23e7197d7",
+  "created_at": "2026-09-28T03:18:38.634782Z",
+  "updated_at": "2026-09-28T04:19:50.693522Z",
+  "content": null,
+  "formula": null,
+  "question": {
+    "statement": "Two particles $A$ and $B$ of equal mass $M$ are moving with the same speed $v$ as shown in the figure. They collide completely inelastically and move as a single particle $C$. The angle $\\theta$ that the path of $C$ makes with the $X$-axis is given by:",
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\tan\\theta = \\frac{\\sqrt{3} + \\sqrt{2}}{1 - \\sqrt{2}}$"
+      },
+      {
+        "id": "B",
+        "text": "$\\tan\\theta = \\frac{\\sqrt{3} - \\sqrt{2}}{1 - \\sqrt{2}}$"
+      },
+      {
+        "id": "C",
+        "text": "$\\tan\\theta = \\frac{1 - \\sqrt{2}}{\\sqrt{2}(1 + \\sqrt{3})}$"
+      },
+      {
+        "id": "D",
+        "text": "$\\tan\\theta = \\frac{1 - \\sqrt{3}}{1 + \\sqrt{2}}$"
+      }
+    ],
+    "source_claimed_answer": "B",
+    "verified_answer": "B",
+    "source_solution": null,
+    "answer": "B",
+    "solution_methods": [
+      {
+        "method_name": "Impulse-Momentum Method",
+        "steps": "By integrating external impulse over the duration of the impact, total momentum change equals zero in the horizontal plane, yielding the exact center-of-mass displacement directly without integrating coordinates.",
+        "source_attributed": true
+      }
+    ],
+    "difficulty": "L3",
+    "exam_metadata": {
+      "exam": "JEE Rank Booster Mock",
+      "exam_name": "JEE Rank Booster Mock",
+      "year": null,
+      "paper": 3,
+      "question_number": "6"
+    },
+    "concepts": [
+      "conservation of linear momentum",
+      "inelastic collision",
+      "vector addition",
+      "2D momentum"
+    ]
+  },
+  "solved_example": null,
+  "misconception": null,
+  "figure_refs": [
+    {
+      "figure_id": "fig-q6-collision-particles",
+      "caption": "Two particles A and B moving at angles 30\u00b0 and 45\u00b0 to the X-axis, colliding to form particle C at angle theta",
+      "alt_text": "A coordinate system with X and Y axes. Particle A moves upward and to the right at 30 degrees to the positive X-axis. Particle B moves downward and to the left at 45 degrees below the negative X-axis. Particle C moves upward to the right at angle theta to the positive X-axis after the collision."
+    }
+  ],
+  "insight": null,
+  "duplicate_group_id": null,
+  "archive_reason": null,
+  "is_test_fixture": true,
+  "fixture_category": "CONTROLLED_PILOT_FIXTURE"
+}

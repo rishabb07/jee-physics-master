@@ -1,0 +1,13 @@
+{
+  "manifest_id": "stage_run_run-solver_a-oscillations-question-d21a08b6-5796e69a",
+  "solver_run_id": "run-solver_a-oscillations-question-d21a08b6-5796e69a",
+  "solver_agent_name": "solver_a",
+  "atom_id": "oscillations-question-d21a08b6",
+  "atom_version": 1,
+  "content_hash": "143acbc0d6713ef9815870159f577f998760ee612e2d56405d59f2fc4ec134a4",
+  "input_source_file": "C:\\Users\\Win11\\OneDrive\\Desktop\\Rishab\\jee physics master book test\\verification\\incoming\\solver_oscillations-question-d21a08b6_run-solver_a-oscillations-question-d21a08b6-5796e69a.json",
+  "staged_destination_file": "C:\\Users\\Win11\\OneDrive\\Desktop\\Rishab\\jee physics master book test\\verification\\solver_runs\\run-solver_a-oscillations-question-d21a08b6-5796e69a.json",
+  "independent_answer": "B",
+  "timestamp": "2026-09-28T03:27:17.327154+00:00",
+  "status": "STAGED"
+}

@@ -1,0 +1,58 @@
+{
+  "description": "Deterministic rendering QA report checking LaTeX, references, and layout integrity.",
+  "properties": {
+    "report_id": {
+      "description": "Unique rendering QA report identifier",
+      "minLength": 1,
+      "title": "Report Id",
+      "type": "string"
+    },
+    "chapter_id": {
+      "description": "Audited chapter slug",
+      "minLength": 1,
+      "title": "Chapter Id",
+      "type": "string"
+    },
+    "latex_errors": {
+      "description": "LaTeX syntax or delimiter balance errors",
+      "items": {
+        "type": "string"
+      },
+      "title": "Latex Errors",
+      "type": "array"
+    },
+    "broken_references": {
+      "description": "Unresolved section, formula, or figure references",
+      "items": {
+        "type": "string"
+      },
+      "title": "Broken References",
+      "type": "array"
+    },
+    "empty_sections": {
+      "description": "Sections with zero content blocks",
+      "items": {
+        "type": "string"
+      },
+      "title": "Empty Sections",
+      "type": "array"
+    },
+    "passed": {
+      "description": "True if zero critical rendering errors",
+      "title": "Passed",
+      "type": "boolean"
+    },
+    "timestamp": {
+      "format": "date-time",
+      "title": "Timestamp",
+      "type": "string"
+    }
+  },
+  "required": [
+    "report_id",
+    "chapter_id",
+    "passed"
+  ],
+  "title": "RenderingQAReport",
+  "type": "object"
+}

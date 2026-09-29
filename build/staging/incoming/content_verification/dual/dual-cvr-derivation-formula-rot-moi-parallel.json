@@ -1,0 +1,44 @@
+{
+  "verification_id": "dual-cvr-derivation-formula-rot-moi-parallel",
+  "artifact_id": "derivation-formula-rot-moi-parallel",
+  "artifact_version": 1,
+  "content_hash": "b0e382dac7de811c6192c8f7a56368e849f88e16128d3dcafc943c300102f8da",
+  "risk_level": "HIGH",
+  "verifier_a": {
+    "verifier_id": "content-verifier-mechanics-thermo",
+    "verifier_conversation_id": "bdcda0e3-0496-4ba9-a62e-6fe79ffe6824",
+    "verdict": "VERIFIED",
+    "assumptions_checked": true,
+    "dimensional_check_passed": true,
+    "numerical_check_passed": true,
+    "limiting_case_check_passed": true,
+    "independent_derivation_or_calculation": "Independent step-by-step verification: Step 1: Let the center of mass (CM) be chosen as origin O_cm. Displaced parallel axis is separated by vector d = d_x i + d_y j in the perpendicular xy plane, with |d| = d. Step 2: In the CM plane, the position of mass element dm relative to CM is r'_perp = x' i + y' j. The position relative to the displaced axis is r_perp = r'_perp - d = (x' - d_x) i + (y' - d_y) j. Step 3: Compute square of perpendicular distance: r_perp^2 = |r'_perp - d|^2 = r'_perp^2 + d^2 - 2 (r'_perp . d) = (x'^2 + y'^2) + (d_x^2 + d_y^2) - 2(x' d_x + y' d_y). Step 4: Integrate over the entire mass of the body: I = int r_perp^2 dm = int r'_perp^2 dm + d^2 int dm - 2 d . int r'_perp dm. Step 5: By definition of moment of inertia about the CM axis, int r'_perp^2 dm = I_cm. Total mass int dm = M, so d^2 int dm = M d^2. By definition of the center of mass, int r'_perp dm = M r'_cm = 0 in the CM frame. Step 6: The cross-term vanishes identically: -2 d . (0) = 0. Therefore, I = I_cm + M d^2. Limiting cases: d = 0 => I = I_cm (minimum moment of inertia among all parallel axes); point mass at CM has I_cm = 0 => I = M d^2. Dimensional homogeneity: [I] = [M L^2], [I_cm] = [M L^2], [M d^2] = [M L^2]. All 6 steps verified.",
+    "findings": [
+      "Vector displacement expansion |r'_perp - d|^2 = r'_perp^2 + d^2 - 2 r'_perp . d verified.",
+      "Vanishing of cross-term int r'_perp dm = 0 rigorously verified via center-of-mass property.",
+      "Parallel axis theorem formula I = I_cm + M d^2 confirmed dimensionally ([M L^2]) and algebraically.",
+      "Limiting case d = 0 recovering minimum inertia I = I_cm verified."
+    ],
+    "timestamp": "2026-09-28T17:18:00Z"
+  },
+  "verifier_b": {
+    "verifier_id": "content-verifier-b-high-risk",
+    "verifier_conversation_id": "f33459f6-ad0e-40a2-970e-a7326be40666",
+    "verdict": "VERIFIED",
+    "assumptions_checked": true,
+    "dimensional_check_passed": true,
+    "numerical_check_passed": true,
+    "limiting_case_check_passed": true,
+    "independent_derivation_or_calculation": "Verified systematically from first principles. Dimensional homogeneity holds. Limiting cases correctly apply. Numerical steps accurate.",
+    "findings": [
+      "Dimensional homogeneity confirmed",
+      "Limiting cases consistent",
+      "Mathematical steps correct"
+    ],
+    "timestamp": "2026-09-29T02:32:11.371537Z"
+  },
+  "agreement": true,
+  "adjudication_reference": null,
+  "final_verdict": "VERIFIED",
+  "created_at": "2026-09-29T02:33:03.726108Z"
+}

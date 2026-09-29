@@ -1,0 +1,86 @@
+{
+  "question_id": "fixture-well-posed-01",
+  "version": 1,
+  "origin": "GENERATED",
+  "provenance_class": "CONTROLLED_TEST_FIXTURE",
+  "curriculum_id": "curr-opt-01",
+  "taxonomy_reference": {
+    "chapter_id": "ray-optics",
+    "topic_id": "refraction-at-plane-surfaces",
+    "subtopic_id": "snells-law"
+  },
+  "concept_references": [
+    "concept-opt-snell-01"
+  ],
+  "prerequisite_references": [],
+  "target_exam_level": "JEE_MAIN",
+  "question_type": "SINGLE_CORRECT_MCQ",
+  "statement": "A light ray in air is incident at an angle $\\theta_1 = 30^\\circ$ on a flat glass plate of refractive index $n = 1.5$. The sine of the angle of refraction $\\sin\\theta_2$ inside the glass is:",
+  "diagram_references": [],
+  "options": {
+    "A": "$1/3$",
+    "B": "$1/2$",
+    "C": "$2/3$",
+    "D": "$3/4$"
+  },
+  "correct_answer": "A",
+  "solution_strategy": "Apply Snell's Law directly: n1 sin(theta1) = n2 sin(theta2)",
+  "solution": "From Snell's Law, $1 \\cdot \\sin 30^\\circ = 1.5 \\cdot \\sin\\theta_2 \\implies 0.5 = 1.5 \\sin\\theta_2 \\implies \\sin\\theta_2 = 0.5 / 1.5 = 1/3$. Unique and unambiguous answer is Option A.",
+  "assumptions": [
+    "Planar interface, monochromatic light, linear isotropic media"
+  ],
+  "numerical_values": {
+    "theta_1_deg": 30.0,
+    "n_1": 1.0,
+    "n_2": 1.5
+  },
+  "units": null,
+  "tolerance": null,
+  "intended_learning_objective": "Test baseline Snell's Law calculation in well-posed problem",
+  "difficulty_dimensions": {
+    "conceptual_difficulty": 1,
+    "mathematical_difficulty": 1,
+    "multistep_reasoning_difficulty": 1,
+    "abstraction_difficulty": 1,
+    "computational_burden": 1,
+    "trap_misconception_difficulty": 1
+  },
+  "difficulty_band": "L1",
+  "distractor_rationales": [
+    {
+      "option_key": "B",
+      "distractor_value": "$1/2$",
+      "likely_misconception": "No refraction",
+      "student_rationale": "Assumes angle of refraction equals angle of incidence",
+      "physical_error": "Ignores refractive index ratio n1/n2",
+      "error_category": "FORMULA_OMISSION"
+    },
+    {
+      "option_key": "C",
+      "distractor_value": "$2/3$",
+      "likely_misconception": "Inverted index",
+      "student_rationale": "Multiplies by n2 instead of dividing",
+      "physical_error": "Inverts Snell's Law ratio",
+      "error_category": "FORMULA_INVERSION"
+    },
+    {
+      "option_key": "D",
+      "distractor_value": "$3/4$",
+      "likely_misconception": "Random fraction",
+      "student_rationale": "Arithmetic confusion",
+      "physical_error": "Arithmetic error",
+      "error_category": "CALCULATION_ERROR"
+    }
+  ],
+  "source_grounding": {
+    "relationship_type": "NEW_PROBLEM"
+  },
+  "risk_level": "LOW",
+  "generation_metadata": {
+    "fixture_type": "WELL_POSED_CONTROLLED_FIXTURE",
+    "expected_verdict": "VERIFIED"
+  },
+  "content_hash": null,
+  "verification_status": "GENERATED",
+  "verification_record_id": null
+}

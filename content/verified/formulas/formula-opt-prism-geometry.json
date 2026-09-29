@@ -1,0 +1,57 @@
+{
+  "formula_id": "formula-opt-prism-geometry",
+  "chapter_id": "ray-optics",
+  "title": "Prism Ray Geometry and Net Deviation",
+  "equation": "A = r_1 + r_2,\\quad \\delta = i + e - A",
+  "equation_latex": "A = r_1 + r_2,\\quad \\delta = i + e - A",
+  "variables": {
+    "A": "Prism apex refracting angle",
+    "r_1": "Angle of refraction at first face",
+    "r_2": "Angle of incidence at second face",
+    "i": "Angle of incidence at first face",
+    "e": "Angle of emergence at second face",
+    "\\delta": "Net angular ray deviation"
+  },
+  "units": {
+    "A": "deg",
+    "r_1": "deg",
+    "r_2": "deg",
+    "i": "deg",
+    "e": "deg",
+    "\\delta": "deg"
+  },
+  "dimensions": {
+    "A": "[1]",
+    "r_1": "[1]",
+    "r_2": "[1]",
+    "i": "[1]",
+    "e": "[1]",
+    "\\delta": "[1]"
+  },
+  "assumptions": [
+    "Triangular optical prism with planar non-parallel refracting faces",
+    "Ray coplanar with principal prism cross-section"
+  ],
+  "validity_conditions": [
+    "Universal geometric ray relation for transmission through any prism cross-section"
+  ],
+  "derivation_reference": "derivation-formula-opt-prism-geometry",
+  "related_concepts": [
+    "concept-opt-snell-01",
+    "concept-opt-tir-01"
+  ],
+  "common_misuse": [
+    "Assuming minimum deviation formula \\delta_m = (n-1)A applies to large-angle prisms",
+    "Confusing apex angle A with base angle"
+  ],
+  "provenance": [],
+  "generation_metadata": {
+    "agent": "content_generator",
+    "version": "1.0",
+    "target_chapter": "ray-optics"
+  },
+  "verification_status": "VERIFIED",
+  "content_hash": "1635efb3f5fa03e4055291eca37e951e41649bb0867bc8e26ee793c5319f7ddc",
+  "verification_record_id": "cvr-formula-opt-prism-geometry",
+  "created_at": "2026-09-29T07:50:00Z"
+}

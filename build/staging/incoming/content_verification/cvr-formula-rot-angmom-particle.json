@@ -1,0 +1,21 @@
+{
+  "verification_id": "cvr-formula-rot-angmom-particle",
+  "artifact_id": "formula-rot-angmom-particle",
+  "artifact_version": 1,
+  "content_hash": "0e3eba418c6304ec7a13eeb08f439e8bf8f103df36fc5772ccc534a9a67c5382",
+  "verifier_id": "formula-content-verifier",
+  "verifier_conversation_id": "ab85d650-e1e8-42e2-ac4a-8bc8a6460e30",
+  "risk_level": "MEDIUM",
+  "verdict": "VERIFIED",
+  "assumptions_checked": true,
+  "dimensional_check_passed": true,
+  "numerical_check_passed": true,
+  "limiting_case_check_passed": true,
+  "independent_derivation_or_calculation": "Angular momentum L = r x p. Dimensionally, [L] x [M][L][T^-1] = [M][L^2][T^-1]. Valid for a particle relative to a chosen origin.",
+  "findings": [
+    "Dimensional homogeneity confirmed ([M][L^2][T^-1])",
+    "Cross product correctly represents vector nature"
+  ],
+  "discrepancies": [],
+  "timestamp": "2026-09-29T02:32:37.330284+00:00"
+}

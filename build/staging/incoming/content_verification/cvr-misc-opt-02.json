@@ -1,0 +1,30 @@
+{
+  "verification_id": "cvr-misc-opt-02",
+  "artifact_id": "misc-opt-02",
+  "target_id": "misc-opt-02",
+  "artifact_version": 1,
+  "content_type": "MISCONCEPTION",
+  "content_hash": "d5d7474ea8401a5fa81e327c0895043efe3c6c25b076b52fc522a46c1dbab6e6",
+  "verifier_id": "content-verifier-electrodynamics-optics",
+  "verifier_conversation_id": "e9f3b7da-683c-457e-a22d-d6c43d8f1368",
+  "risk_level": "MEDIUM",
+  "verdict": "VERIFIED",
+  "assumptions_audited": true,
+  "assumptions_checked": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "numerical_check_passed": true,
+  "limiting_cases_audited": true,
+  "limiting_case_check_passed": true,
+  "claim_traces_verified": true,
+  "verification_notes": "Audited from first principles: Misconception that normal incidence light experiences no refraction verified. Refraction is fundamentally defined by change in phase velocity v = c/n and wavelength lambda = lambda_0 / n. At normal incidence (i = 0), Snell's Law yields r = 0, giving zero angular deviation delta = |i - r| = 0. However, phase speed decreases by factor n_1 / n_2 and wavelength compresses by factor n_1 / n_2. Partial transmission and reflection occur according to Fresnel's normal incidence equations R = ((n_1 - n_2)/(n_1 + n_2))^2. Physical refutation, distinction between wave refraction and geometric ray deviation, and corrective pedagogical exposition verified.",
+  "independent_derivation_or_calculation": "Audited from first principles: Misconception that normal incidence light experiences no refraction verified. Refraction is fundamentally defined by change in phase velocity v = c/n and wavelength lambda = lambda_0 / n. At normal incidence (i = 0), Snell's Law yields r = 0, giving zero angular deviation delta = |i - r| = 0. However, phase speed decreases by factor n_1 / n_2 and wavelength compresses by factor n_1 / n_2. Partial transmission and reflection occur according to Fresnel's normal incidence equations R = ((n_1 - n_2)/(n_1 + n_2))^2. Physical refutation, distinction between wave refraction and geometric ray deviation, and corrective pedagogical exposition verified.",
+  "findings": [
+    "Clear conceptual demarcation between fundamental refraction (phase velocity change) and ray deviation (geometric artifact of oblique wavefronts) verified.",
+    "Invariance of wave frequency f across boundary and wavelength compression lambda = lambda_0/n verified.",
+    "Fresnel normal reflectance R = ((n1 - n2)/(n1 + n2))^2 demonstrates interface boundary interaction even at i = 0."
+  ],
+  "discrepancies": [],
+  "created_at": "2026-09-28T22:45:35+05:30",
+  "timestamp": "2026-09-28T22:45:35+05:30"
+}

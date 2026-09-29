@@ -1,0 +1,14 @@
+{
+  "promotion_id": "promo-thermal-physics-question-5f2c9b43-9b6896",
+  "atom_id": "thermal-physics-question-5f2c9b43",
+  "verification_id": "verif-thermal-physics-question-5f2c9b43-6a01e3",
+  "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+  "atom_version": 1,
+  "staged_path": "build/staging/atoms/batch_src-jee-rank-booster-03-mock-256f42c6_20260927_201642_27f4.jsonl",
+  "canonical_path": "kb\\atoms\\thermal-physics-question-5f2c9b43.json",
+  "verdict": "VERIFIED",
+  "source_claimed_answer": null,
+  "verified_answer": "1/3",
+  "timestamp": "2026-09-28T03:29:19.868915Z",
+  "promoted_by": "promotion_gate"
+}

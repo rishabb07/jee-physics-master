@@ -1,0 +1,27 @@
+{
+  "original_atom_id": "fluid-mechanics-question-2b8a7f0e",
+  "canonical_atom_id": "fluid-mechanics-question-2b8a7f0e",
+  "cluster_id": "cluster-fluid-mechanics-ques-76ec62a6",
+  "reason": "Identical fluid mechanics problem derived from the same source question (Section A, Q16). A solid sphere of density rho_3 floats in static equilibrium straddling the boundary of two immiscible liquids of densities rho_1 (top) and rho_2 (bottom). Buoyancy requires rho_1 < rho_3 < rho_2. The minor discrepancies between atoms are non-substantive punctuation and LaTeX formatting ('and, rho_2' vs 'and rho_2', and inline text delimiter formatting). Options, figure references, and verified answer 'D' are identical.",
+  "decision_id": "cand-fluid-mechan-fluid-mechan",
+  "classifier_identity": "physics-deduplicator",
+  "conversation_id": "80d33d64-618b-4d64-8dd5-07ad9a017242",
+  "source_provenance": [
+    {
+      "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+      "file_name": "jee_rank_booster-03_mock_paper.pdf",
+      "file_path": "jee_rank_booster-03_mock_paper.pdf",
+      "page_start": 4,
+      "page_end": 4,
+      "source_locator": "Section - A, Q16",
+      "edition": null,
+      "extraction_metadata": {
+        "source_sha256": "256f42c67a9271aaafe4bf637eb34cddd10da959cdf7a66fc6fee76a68d34361",
+        "source_misprint": "Source text states '\\rho_1, \\rho_1 and \\rho_3' instead of '\\rho_1, \\rho_2 and \\rho_3'; faithfully preserved per Zero Pre-Verification rule."
+      }
+    }
+  ],
+  "atom_version": 1,
+  "content_hash": "ea5b50dd8af5543e53debcccb88c201bef8bdfa0933269f26ac8830c2aff9d86",
+  "applied_at": "2026-09-28T04:54:04.519960Z"
+}

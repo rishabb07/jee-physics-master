@@ -1,0 +1,26 @@
+{
+  "solver_run_id": "run-solver_a-semiconductors-question-9d6a3f87-001",
+  "solver_agent_name": "solver_a",
+  "atom_id": "semiconductors-question-9d6a3f87",
+  "atom_version": 1,
+  "content_hash": "5029c7dcf905e45c26b5aa19ee4e7bba299318600295bfd5821dbcdf7e3b9751",
+  "verification_protocol_version": "1.0.0",
+  "blind_package_hash": "7590c2edd74fd7ad14de7df1d13a481426f055b5a1476dc6efa2da6d5434dddc",
+  "independent_answer": "0.2",
+  "raw_answer": "0.2",
+  "reasoning_steps": [
+    "1. The current is given by I = e^(1000V / T) - 1, where I is in mA.",
+    "2. We are given T = 300 K, I = 5 mA, and error in V is dV = +/- 0.01 V.",
+    "3. First, find e^(1000V / T): since I = 5 mA, 5 = e^(1000V / 300) - 1, so e^(1000V / 300) = 6.",
+    "4. To find the error in I, differentiate I with respect to V: dI/dV = (1000/T) * e^(1000V / T).",
+    "5. The error dI = (1000 / 300) * 6 * dV.",
+    "6. dI = (10 / 3) * 6 * 0.01 = 20 * 0.01 = 0.2 mA."
+  ],
+  "assumptions_used": [
+    "The error is small enough that differential approximation dI = (dI/dV) * dV is valid."
+  ],
+  "diagram_interpretation": null,
+  "uncertainty": null,
+  "possible_ambiguities": [],
+  "created_at": "2026-09-28T08:51:20Z"
+}

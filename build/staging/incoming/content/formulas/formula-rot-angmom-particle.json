@@ -1,0 +1,53 @@
+{
+  "formula_id": "formula-rot-angmom-particle",
+  "chapter_id": "rotational-motion",
+  "title": "Particle Angular Momentum",
+  "equation": "\\vec{L}_O = \\vec{r} \\times \\vec{p} = m (\\vec{r} \\times \\vec{v})",
+  "equation_latex": "\\vec{L}_O = \\vec{r} \\times \\vec{p} = m (\\vec{r} \\times \\vec{v})",
+  "variables": {
+    "L_O": "Angular momentum about origin O",
+    "r": "Position vector from origin O to particle",
+    "p": "Linear momentum vector",
+    "m": "Particle mass",
+    "v": "Particle velocity vector"
+  },
+  "units": {
+    "L_O": "kg m^2/s",
+    "r": "m",
+    "p": "kg m/s",
+    "m": "kg",
+    "v": "m/s"
+  },
+  "dimensions": {
+    "L_O": "[M][L]^2[T]^-1",
+    "r": "[L]",
+    "p": "[M][L][T]^-1",
+    "m": "[M]",
+    "v": "[L][T]^-1"
+  },
+  "assumptions": [
+    "Point mass particle",
+    "Reference point O is explicitly specified in an inertial frame"
+  ],
+  "validity_conditions": [
+    "Universal definition for point mass particle in classical mechanics"
+  ],
+  "derivation_reference": "derivation-formula-rot-angmom-particle",
+  "related_concepts": [
+    "concept-rot-angmom-particle-01"
+  ],
+  "common_misuse": [
+    "Assuming a particle moving in a straight line has zero angular momentum",
+    "Omitting origin dependency"
+  ],
+  "provenance": [],
+  "generation_metadata": {
+    "agent": "content_generator",
+    "version": "1.0",
+    "target_chapter": "rotational-motion"
+  },
+  "verification_status": "UNVERIFIED",
+  "content_hash": "0e3eba418c6304ec7a13eeb08f439e8bf8f103df36fc5772ccc534a9a67c5382",
+  "verification_record_id": null,
+  "created_at": "2026-09-29T07:50:00Z"
+}

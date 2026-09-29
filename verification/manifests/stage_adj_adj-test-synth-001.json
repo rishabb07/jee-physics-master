@@ -1,0 +1,11 @@
+{
+  "manifest_id": "stage_adj_adj-test-synth-001",
+  "adjudication_id": "adj-test-synth-001",
+  "atom_id": "rotational-motion-question-84f91c20",
+  "verdict": "SOURCE_ERROR",
+  "adjudicated_answer": "C",
+  "input_source_file": "C:\\Users\\Win11\\OneDrive\\Desktop\\Rishab\\jee physics master book test\\verification\\incoming\\adjudication_rotational-motion-question-84f91c20_adj-test-synth-001.json",
+  "staged_destination_file": "C:\\Users\\Win11\\OneDrive\\Desktop\\Rishab\\jee physics master book test\\verification\\adjudications\\adj-test-synth-001.json",
+  "timestamp": "2026-09-27T20:05:17.780752+00:00",
+  "status": "STAGED"
+}

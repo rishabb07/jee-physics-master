@@ -1,0 +1,954 @@
+{
+  "graph_id": "jee-physics-pilot-curriculum-dag",
+  "scope": "PILOT",
+  "metadata": {
+    "pilot_scope": true,
+    "description": "Phase 7 Pilot Core Curriculum Graph covering foundational mechanics trunk and the 4 pilot chapters (rotational-motion, thermodynamics, current-electricity, ray-optics). Downstream systems must NOT treat this as the full 30-chapter global graph.",
+    "covered_pilot_chapters": [
+      "rotational-motion",
+      "thermodynamics",
+      "current-electricity",
+      "ray-optics"
+    ],
+    "covered_curriculum_units": 22,
+    "total_syllabus_chapters": 30,
+    "omitted_syllabus_chapters_count": 26,
+    "omission_classification": "PILOT_SCOPE_LIMITATION",
+    "authorship": "PROJECT_ENGINEERING_DESIGN",
+    "author_notes": "Constructed by project curriculum engineers based on standard IIT-JEE pedagogical progressions to serve as an architectural constraint for subagent chapter planning."
+  },
+  "nodes": {
+    "curr-units-01": {
+      "curriculum_id": "curr-units-01",
+      "taxonomy_reference": {
+        "chapter_id": "units-and-measurements",
+        "topic_id": "dimensions-and-errors",
+        "subtopic_id": "dimensional-analysis"
+      },
+      "node_type": "CONCEPT",
+      "title": "Dimensional Analysis & Error Propagation",
+      "description": "Pedagogical unit for Dimensional Analysis & Error Propagation",
+      "prerequisite_ids": [],
+      "dependent_ids": [],
+      "mathematical_prerequisites": [
+        "algebra"
+      ],
+      "target_exam_levels": [
+        "JEE_MAIN",
+        "JEE_ADVANCED"
+      ],
+      "pedagogical_role": "FOUNDATION_CONCEPT",
+      "recommended_learning_position": 1,
+      "estimated_learning_weight": 1.0,
+      "difficulty_band": "L2",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    "curr-kin-01": {
+      "curriculum_id": "curr-kin-01",
+      "taxonomy_reference": {
+        "chapter_id": "kinematics",
+        "topic_id": "rectilinear-motion",
+        "subtopic_id": "motion-in-1d"
+      },
+      "node_type": "CONCEPT",
+      "title": "1D Rectilinear Motion & Kinematics Equations",
+      "description": "Pedagogical unit for 1D Rectilinear Motion & Kinematics Equations",
+      "prerequisite_ids": [
+        "curr-units-01"
+      ],
+      "dependent_ids": [],
+      "mathematical_prerequisites": [
+        "differentiation",
+        "integration"
+      ],
+      "target_exam_levels": [
+        "JEE_MAIN",
+        "JEE_ADVANCED"
+      ],
+      "pedagogical_role": "FOUNDATION_CONCEPT",
+      "recommended_learning_position": 2,
+      "estimated_learning_weight": 1.5,
+      "difficulty_band": "L2",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    "curr-kin-02": {
+      "curriculum_id": "curr-kin-02",
+      "taxonomy_reference": {
+        "chapter_id": "kinematics",
+        "topic_id": "projectile-motion",
+        "subtopic_id": "2d-projectile-motion"
+      },
+      "node_type": "CONCEPT",
+      "title": "Projectile Motion & Planar Kinematics",
+      "description": "Pedagogical unit for Projectile Motion & Planar Kinematics",
+      "prerequisite_ids": [
+        "curr-kin-01"
+      ],
+      "dependent_ids": [],
+      "mathematical_prerequisites": [
+        "vectors",
+        "quadratic-equations"
+      ],
+      "target_exam_levels": [
+        "JEE_MAIN",
+        "JEE_ADVANCED"
+      ],
+      "pedagogical_role": "CORE_PRINCIPLE",
+      "recommended_learning_position": 3,
+      "estimated_learning_weight": 2.0,
+      "difficulty_band": "L2",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    "curr-nl-01": {
+      "curriculum_id": "curr-nl-01",
+      "taxonomy_reference": {
+        "chapter_id": "laws-of-motion",
+        "topic_id": "newtons-laws",
+        "subtopic_id": "free-body-diagrams"
+      },
+      "node_type": "PRINCIPLE",
+      "title": "Newton's Laws & Free Body Equilibrium",
+      "description": "Pedagogical unit for Newton's Laws & Free Body Equilibrium",
+      "prerequisite_ids": [
+        "curr-kin-01",
+        "curr-kin-02"
+      ],
+      "dependent_ids": [],
+      "mathematical_prerequisites": [
+        "vector-resolution"
+      ],
+      "target_exam_levels": [
+        "JEE_MAIN",
+        "JEE_ADVANCED"
+      ],
+      "pedagogical_role": "CORE_PRINCIPLE",
+      "recommended_learning_position": 4,
+      "estimated_learning_weight": 2.5,
+      "difficulty_band": "L2",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    "curr-nl-02": {
+      "curriculum_id": "curr-nl-02",
+      "taxonomy_reference": {
+        "chapter_id": "laws-of-motion",
+        "topic_id": "friction",
+        "subtopic_id": "static-and-kinetic-friction"
+      },
+      "node_type": "CONCEPT",
+      "title": "Friction & Non-Conservative Contact Forces",
+      "description": "Pedagogical unit for Friction & Non-Conservative Contact Forces",
+      "prerequisite_ids": [
+        "curr-nl-01"
+      ],
+      "dependent_ids": [],
+      "mathematical_prerequisites": [
+        "inequalities"
+      ],
+      "target_exam_levels": [
+        "JEE_MAIN",
+        "JEE_ADVANCED"
+      ],
+      "pedagogical_role": "CORE_PRINCIPLE",
+      "recommended_learning_position": 5,
+      "estimated_learning_weight": 2.0,
+      "difficulty_band": "L2",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    "curr-wep-01": {
+      "curriculum_id": "curr-wep-01",
+      "taxonomy_reference": {
+        "chapter_id": "work-energy-power",
+        "topic_id": "work-energy-theorem",
+        "subtopic_id": "kinetic-energy-theorem"
+      },
+      "node_type": "PRINCIPLE",
+      "title": "Work-Energy Theorem & Conservative Fields",
+      "description": "Pedagogical unit for Work-Energy Theorem & Conservative Fields",
+      "prerequisite_ids": [
+        "curr-nl-01",
+        "curr-nl-02"
+      ],
+      "dependent_ids": [],
+      "mathematical_prerequisites": [
+        "line-integrals",
+        "dot-product"
+      ],
+      "target_exam_levels": [
+        "JEE_MAIN",
+        "JEE_ADVANCED"
+      ],
+      "pedagogical_role": "CORE_PRINCIPLE",
+      "recommended_learning_position": 6,
+      "estimated_learning_weight": 2.5,
+      "difficulty_band": "L2",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    "curr-com-01": {
+      "curriculum_id": "curr-com-01",
+      "taxonomy_reference": {
+        "chapter_id": "center-of-mass",
+        "topic_id": "center-of-mass-definition",
+        "subtopic_id": "discrete-and-continuous-com"
+      },
+      "node_type": "PRINCIPLE",
+      "title": "Center of Mass & Linear Momentum Conservation",
+      "description": "Pedagogical unit for Center of Mass & Linear Momentum Conservation",
+      "prerequisite_ids": [
+        "curr-nl-01",
+        "curr-wep-01"
+      ],
+      "dependent_ids": [],
+      "mathematical_prerequisites": [
+        "definite-integrals"
+      ],
+      "target_exam_levels": [
+        "JEE_MAIN",
+        "JEE_ADVANCED"
+      ],
+      "pedagogical_role": "CORE_PRINCIPLE",
+      "recommended_learning_position": 7,
+      "estimated_learning_weight": 2.5,
+      "difficulty_band": "L2",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    "curr-rot-01": {
+      "curriculum_id": "curr-rot-01",
+      "taxonomy_reference": {
+        "chapter_id": "rotational-motion",
+        "topic_id": "moment-of-inertia",
+        "subtopic_id": "parallel-and-perpendicular-axis-theorems"
+      },
+      "node_type": "CONCEPT",
+      "title": "Rotational Kinematics & Moment of Inertia",
+      "description": "Pedagogical unit for Rotational Kinematics & Moment of Inertia",
+      "prerequisite_ids": [
+        "curr-kin-02",
+        "curr-com-01"
+      ],
+      "dependent_ids": [],
+      "mathematical_prerequisites": [
+        "volume-integrals"
+      ],
+      "target_exam_levels": [
+        "JEE_MAIN",
+        "JEE_ADVANCED"
+      ],
+      "pedagogical_role": "FOUNDATION_CONCEPT",
+      "recommended_learning_position": 8,
+      "estimated_learning_weight": 2.5,
+      "difficulty_band": "L2",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    "curr-rot-02": {
+      "curriculum_id": "curr-rot-02",
+      "taxonomy_reference": {
+        "chapter_id": "rotational-motion",
+        "topic_id": "torque-and-angular-acceleration",
+        "subtopic_id": "dynamics-of-rigid-body"
+      },
+      "node_type": "PRINCIPLE",
+      "title": "Torque, Angular Acceleration & Rigid Dynamics",
+      "description": "Pedagogical unit for Torque, Angular Acceleration & Rigid Dynamics",
+      "prerequisite_ids": [
+        "curr-rot-01",
+        "curr-nl-01"
+      ],
+      "dependent_ids": [],
+      "mathematical_prerequisites": [
+        "cross-product"
+      ],
+      "target_exam_levels": [
+        "JEE_MAIN",
+        "JEE_ADVANCED"
+      ],
+      "pedagogical_role": "CORE_PRINCIPLE",
+      "recommended_learning_position": 9,
+      "estimated_learning_weight": 3.0,
+      "difficulty_band": "L2",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    "curr-rot-03": {
+      "curriculum_id": "curr-rot-03",
+      "taxonomy_reference": {
+        "chapter_id": "rotational-motion",
+        "topic_id": "angular-momentum",
+        "subtopic_id": "conservation-of-angular-momentum"
+      },
+      "node_type": "PRINCIPLE",
+      "title": "Angular Momentum & Fixed Axis Conservation",
+      "description": "Pedagogical unit for Angular Momentum & Fixed Axis Conservation",
+      "prerequisite_ids": [
+        "curr-rot-02",
+        "curr-com-01"
+      ],
+      "dependent_ids": [],
+      "mathematical_prerequisites": [
+        "cross-product",
+        "conservation-laws"
+      ],
+      "target_exam_levels": [
+        "JEE_MAIN",
+        "JEE_ADVANCED"
+      ],
+      "pedagogical_role": "CORE_PRINCIPLE",
+      "recommended_learning_position": 10,
+      "estimated_learning_weight": 3.5,
+      "difficulty_band": "L2",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    "curr-fluid-01": {
+      "curriculum_id": "curr-fluid-01",
+      "taxonomy_reference": {
+        "chapter_id": "fluid-mechanics",
+        "topic_id": "fluid-statics",
+        "subtopic_id": "pressure-and-pascal-law"
+      },
+      "node_type": "CONCEPT",
+      "title": "Fluid Statics, Hydrostatic Pressure & Pascal's Law",
+      "description": "Pedagogical unit for Fluid Statics, Hydrostatic Pressure & Pascal's Law",
+      "prerequisite_ids": [
+        "curr-nl-01"
+      ],
+      "dependent_ids": [],
+      "mathematical_prerequisites": [
+        "algebra"
+      ],
+      "target_exam_levels": [
+        "JEE_MAIN",
+        "JEE_ADVANCED"
+      ],
+      "pedagogical_role": "FOUNDATION_CONCEPT",
+      "recommended_learning_position": 11,
+      "estimated_learning_weight": 2.0,
+      "difficulty_band": "L2",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    "curr-fluid-02": {
+      "curriculum_id": "curr-fluid-02",
+      "taxonomy_reference": {
+        "chapter_id": "fluid-mechanics",
+        "topic_id": "buoyancy-and-floatation",
+        "subtopic_id": "archimedes-principle"
+      },
+      "node_type": "PRINCIPLE",
+      "title": "Archimedes' Principle & Immiscible Liquid Equilibrium",
+      "description": "Pedagogical unit for Archimedes' Principle & Immiscible Liquid Equilibrium",
+      "prerequisite_ids": [
+        "curr-fluid-01",
+        "curr-nl-01"
+      ],
+      "dependent_ids": [],
+      "mathematical_prerequisites": [
+        "force-balance"
+      ],
+      "target_exam_levels": [
+        "JEE_MAIN",
+        "JEE_ADVANCED"
+      ],
+      "pedagogical_role": "CORE_PRINCIPLE",
+      "recommended_learning_position": 12,
+      "estimated_learning_weight": 2.5,
+      "difficulty_band": "L2",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    "curr-therm-01": {
+      "curriculum_id": "curr-therm-01",
+      "taxonomy_reference": {
+        "chapter_id": "thermal-physics",
+        "topic_id": "thermal-expansion-and-calorimetry",
+        "subtopic_id": "specific-heat-capacity"
+      },
+      "node_type": "CONCEPT",
+      "title": "Temperature, Thermal Expansion & Calorimetry",
+      "description": "Pedagogical unit for Temperature, Thermal Expansion & Calorimetry",
+      "prerequisite_ids": [
+        "curr-units-01"
+      ],
+      "dependent_ids": [],
+      "mathematical_prerequisites": [
+        "proportions"
+      ],
+      "target_exam_levels": [
+        "JEE_MAIN",
+        "JEE_ADVANCED"
+      ],
+      "pedagogical_role": "FOUNDATION_CONCEPT",
+      "recommended_learning_position": 13,
+      "estimated_learning_weight": 1.5,
+      "difficulty_band": "L2",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    "curr-td-01": {
+      "curriculum_id": "curr-td-01",
+      "taxonomy_reference": {
+        "chapter_id": "thermodynamics",
+        "topic_id": "first-law-and-processes",
+        "subtopic_id": "first-law-statement"
+      },
+      "node_type": "PRINCIPLE",
+      "title": "First Law of Thermodynamics & Internal Energy",
+      "description": "Pedagogical unit for First Law of Thermodynamics & Internal Energy",
+      "prerequisite_ids": [
+        "curr-therm-01",
+        "curr-wep-01"
+      ],
+      "dependent_ids": [],
+      "mathematical_prerequisites": [
+        "pv-diagrams",
+        "integration"
+      ],
+      "target_exam_levels": [
+        "JEE_MAIN",
+        "JEE_ADVANCED"
+      ],
+      "pedagogical_role": "CORE_PRINCIPLE",
+      "recommended_learning_position": 14,
+      "estimated_learning_weight": 2.5,
+      "difficulty_band": "L2",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    "curr-td-02": {
+      "curriculum_id": "curr-td-02",
+      "taxonomy_reference": {
+        "chapter_id": "thermodynamics",
+        "topic_id": "first-law-and-processes",
+        "subtopic_id": "adiabatic-process"
+      },
+      "node_type": "CONCEPT",
+      "title": "Adiabatic, Isothermal & Polytropic Gas Processes",
+      "description": "Pedagogical unit for Adiabatic, Isothermal & Polytropic Gas Processes",
+      "prerequisite_ids": [
+        "curr-td-01"
+      ],
+      "dependent_ids": [],
+      "mathematical_prerequisites": [
+        "differential-equations"
+      ],
+      "target_exam_levels": [
+        "JEE_MAIN",
+        "JEE_ADVANCED"
+      ],
+      "pedagogical_role": "CORE_PRINCIPLE",
+      "recommended_learning_position": 15,
+      "estimated_learning_weight": 3.0,
+      "difficulty_band": "L2",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    "curr-es-01": {
+      "curriculum_id": "curr-es-01",
+      "taxonomy_reference": {
+        "chapter_id": "electrostatics",
+        "topic_id": "coulombs-law-and-field",
+        "subtopic_id": "electric-field-intensity"
+      },
+      "node_type": "PRINCIPLE",
+      "title": "Coulomb's Law, Electric Fields & Superposition",
+      "description": "Pedagogical unit for Coulomb's Law, Electric Fields & Superposition",
+      "prerequisite_ids": [
+        "curr-nl-01",
+        "curr-wep-01"
+      ],
+      "dependent_ids": [],
+      "mathematical_prerequisites": [
+        "vector-integration"
+      ],
+      "target_exam_levels": [
+        "JEE_MAIN",
+        "JEE_ADVANCED"
+      ],
+      "pedagogical_role": "CORE_PRINCIPLE",
+      "recommended_learning_position": 16,
+      "estimated_learning_weight": 2.5,
+      "difficulty_band": "L2",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    "curr-es-02": {
+      "curriculum_id": "curr-es-02",
+      "taxonomy_reference": {
+        "chapter_id": "electrostatics",
+        "topic_id": "gausss-law",
+        "subtopic_id": "flux-calculation"
+      },
+      "node_type": "PRINCIPLE",
+      "title": "Gauss's Law & Symmetrical Charge Distributions",
+      "description": "Pedagogical unit for Gauss's Law & Symmetrical Charge Distributions",
+      "prerequisite_ids": [
+        "curr-es-01"
+      ],
+      "dependent_ids": [],
+      "mathematical_prerequisites": [
+        "surface-integrals",
+        "solid-angle"
+      ],
+      "target_exam_levels": [
+        "JEE_MAIN",
+        "JEE_ADVANCED"
+      ],
+      "pedagogical_role": "CORE_PRINCIPLE",
+      "recommended_learning_position": 17,
+      "estimated_learning_weight": 3.0,
+      "difficulty_band": "L2",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    "curr-curr-01": {
+      "curriculum_id": "curr-curr-01",
+      "taxonomy_reference": {
+        "chapter_id": "current-electricity",
+        "topic_id": "electric-current-and-drift",
+        "subtopic_id": "drift-velocity-and-mobility"
+      },
+      "node_type": "CONCEPT",
+      "title": "Drift Velocity, Current Density & Microscopic Ohm's Law",
+      "description": "Pedagogical unit for Drift Velocity, Current Density & Microscopic Ohm's Law",
+      "prerequisite_ids": [
+        "curr-es-01"
+      ],
+      "dependent_ids": [],
+      "mathematical_prerequisites": [
+        "algebra"
+      ],
+      "target_exam_levels": [
+        "JEE_MAIN",
+        "JEE_ADVANCED"
+      ],
+      "pedagogical_role": "FOUNDATION_CONCEPT",
+      "recommended_learning_position": 18,
+      "estimated_learning_weight": 2.0,
+      "difficulty_band": "L2",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    "curr-curr-02": {
+      "curriculum_id": "curr-curr-02",
+      "taxonomy_reference": {
+        "chapter_id": "current-electricity",
+        "topic_id": "resistance-and-resistivity",
+        "subtopic_id": "stretching-and-recasting-of-wires"
+      },
+      "node_type": "CONCEPT",
+      "title": "Resistance, Resistivity & Temperature Dependence",
+      "description": "Pedagogical unit for Resistance, Resistivity & Temperature Dependence",
+      "prerequisite_ids": [
+        "curr-curr-01"
+      ],
+      "dependent_ids": [],
+      "mathematical_prerequisites": [
+        "ratios-and-scaling"
+      ],
+      "target_exam_levels": [
+        "JEE_MAIN",
+        "JEE_ADVANCED"
+      ],
+      "pedagogical_role": "CORE_PRINCIPLE",
+      "recommended_learning_position": 19,
+      "estimated_learning_weight": 2.0,
+      "difficulty_band": "L2",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    "curr-curr-03": {
+      "curriculum_id": "curr-curr-03",
+      "taxonomy_reference": {
+        "chapter_id": "current-electricity",
+        "topic_id": "dc-circuits",
+        "subtopic_id": "kirchhoffs-laws"
+      },
+      "node_type": "PRINCIPLE",
+      "title": "Kirchhoff's Laws, DC Circuit Analysis & Measuring Meters",
+      "description": "Pedagogical unit for Kirchhoff's Laws, DC Circuit Analysis & Measuring Meters",
+      "prerequisite_ids": [
+        "curr-curr-02",
+        "curr-wep-01"
+      ],
+      "dependent_ids": [],
+      "mathematical_prerequisites": [
+        "linear-systems"
+      ],
+      "target_exam_levels": [
+        "JEE_MAIN",
+        "JEE_ADVANCED"
+      ],
+      "pedagogical_role": "CORE_PRINCIPLE",
+      "recommended_learning_position": 20,
+      "estimated_learning_weight": 3.0,
+      "difficulty_band": "L2",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    "curr-opt-01": {
+      "curriculum_id": "curr-opt-01",
+      "taxonomy_reference": {
+        "chapter_id": "ray-optics",
+        "topic_id": "reflection-and-refraction",
+        "subtopic_id": "snells-law-at-plane-interface"
+      },
+      "node_type": "PRINCIPLE",
+      "title": "Fermat's Principle, Snell's Law & Plane Refraction",
+      "description": "Pedagogical unit for Fermat's Principle, Snell's Law & Plane Refraction",
+      "prerequisite_ids": [
+        "curr-kin-02"
+      ],
+      "dependent_ids": [],
+      "mathematical_prerequisites": [
+        "trigonometry"
+      ],
+      "target_exam_levels": [
+        "JEE_MAIN",
+        "JEE_ADVANCED"
+      ],
+      "pedagogical_role": "CORE_PRINCIPLE",
+      "recommended_learning_position": 21,
+      "estimated_learning_weight": 2.0,
+      "difficulty_band": "L2",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    "curr-opt-02": {
+      "curriculum_id": "curr-opt-02",
+      "taxonomy_reference": {
+        "chapter_id": "ray-optics",
+        "topic_id": "refraction-and-tir",
+        "subtopic_id": "total-internal-reflection"
+      },
+      "node_type": "CONCEPT",
+      "title": "Total Internal Reflection & Prism Dispersion",
+      "description": "Pedagogical unit for Total Internal Reflection & Prism Dispersion",
+      "prerequisite_ids": [
+        "curr-opt-01"
+      ],
+      "dependent_ids": [],
+      "mathematical_prerequisites": [
+        "critical-angle-trigonometry"
+      ],
+      "target_exam_levels": [
+        "JEE_MAIN",
+        "JEE_ADVANCED"
+      ],
+      "pedagogical_role": "CORE_PRINCIPLE",
+      "recommended_learning_position": 22,
+      "estimated_learning_weight": 2.5,
+      "difficulty_band": "L2",
+      "confidence": 1.0,
+      "provenance": []
+    }
+  },
+  "edges": [
+    {
+      "from_node_id": "curr-units-01",
+      "to_node_id": "curr-kin-01",
+      "relationship_type": "STRICT_CONCEPTUAL",
+      "provenance_type": "DETERMINISTIC_STRUCTURAL",
+      "evidence": "Physical quantities in 1D motion require dimensional consistency",
+      "rationale": "Displacement, velocity, and acceleration are defined with specific dimensional units.",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    {
+      "from_node_id": "curr-kin-01",
+      "to_node_id": "curr-kin-02",
+      "relationship_type": "STRICT_CONCEPTUAL",
+      "provenance_type": "DETERMINISTIC_STRUCTURAL",
+      "evidence": "Projectile motion is two independent orthogonal 1D rectilinear motions",
+      "rationale": "Galilean independence of x and y axes requires 1D kinematic equations.",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    {
+      "from_node_id": "curr-kin-01",
+      "to_node_id": "curr-nl-01",
+      "relationship_type": "STRICT_CONCEPTUAL",
+      "provenance_type": "DETERMINISTIC_STRUCTURAL",
+      "evidence": "Acceleration from kinematics is coupled to net force in Newton's second law",
+      "rationale": "Kinematic acceleration is the dynamical effect caused by net external force.",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    {
+      "from_node_id": "curr-kin-02",
+      "to_node_id": "curr-nl-01",
+      "relationship_type": "PEDAGOGICAL_PREPARATION",
+      "provenance_type": "PEDAGOGICAL_JUDGMENT",
+      "evidence": "2D vector resolution required for resolving forces along perpendicular axes",
+      "rationale": "Free body diagram force decomposition relies on 2D planar vector components.",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    {
+      "from_node_id": "curr-nl-01",
+      "to_node_id": "curr-nl-02",
+      "relationship_type": "STRICT_CONCEPTUAL",
+      "provenance_type": "PEDAGOGICAL_JUDGMENT",
+      "evidence": "Normal reaction force from Newton's laws determines maximum static friction",
+      "rationale": "Frictional limits depend directly on normal contact force determined via FBD equilibrium.",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    {
+      "from_node_id": "curr-nl-01",
+      "to_node_id": "curr-wep-01",
+      "relationship_type": "STRICT_CONCEPTUAL",
+      "provenance_type": "PEDAGOGICAL_JUDGMENT",
+      "evidence": "Work-Energy theorem is derived from Newton's second law via line integration",
+      "rationale": "Integrating F = m dv/dt with respect to spatial displacement yields the Work-Energy Theorem.",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    {
+      "from_node_id": "curr-nl-02",
+      "to_node_id": "curr-wep-01",
+      "relationship_type": "PEDAGOGICAL_PREPARATION",
+      "provenance_type": "PEDAGOGICAL_JUDGMENT",
+      "evidence": "Dissipative non-conservative work requires friction concept",
+      "rationale": "Energy conservation accounting requires identifying non-conservative friction work.",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    {
+      "from_node_id": "curr-nl-01",
+      "to_node_id": "curr-com-01",
+      "relationship_type": "STRICT_CONCEPTUAL",
+      "provenance_type": "DETERMINISTIC_STRUCTURAL",
+      "evidence": "Center of mass dynamics follows Newton's second law for a system of particles",
+      "rationale": "Internal forces cancel in pairs by Newton's third law, giving F_ext = M a_cm.",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    {
+      "from_node_id": "curr-wep-01",
+      "to_node_id": "curr-com-01",
+      "relationship_type": "PEDAGOGICAL_PREPARATION",
+      "provenance_type": "PEDAGOGICAL_JUDGMENT",
+      "evidence": "Collision mechanics requires simultaneous energy and momentum balance",
+      "rationale": "Elastic and inelastic collisions partition kinetic energy in the CM frame.",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    {
+      "from_node_id": "curr-kin-02",
+      "to_node_id": "curr-rot-01",
+      "relationship_type": "STRICT_CONCEPTUAL",
+      "provenance_type": "PEDAGOGICAL_JUDGMENT",
+      "evidence": "Rotational kinematics maps circular arc length and tangential velocity to angle",
+      "rationale": "Rigid body rotation extends circular motion kinematics to continuous mass distributions.",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    {
+      "from_node_id": "curr-com-01",
+      "to_node_id": "curr-rot-01",
+      "relationship_type": "STRICT_CONCEPTUAL",
+      "provenance_type": "PEDAGOGICAL_JUDGMENT",
+      "evidence": "Parallel axis theorem requires moment of inertia about the center of mass",
+      "rationale": "I = I_cm + M d^2 relies fundamentally on center of mass definition.",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    {
+      "from_node_id": "curr-rot-01",
+      "to_node_id": "curr-rot-02",
+      "relationship_type": "STRICT_CONCEPTUAL",
+      "provenance_type": "DETERMINISTIC_STRUCTURAL",
+      "evidence": "Rotational dynamics equation tau = I alpha requires moment of inertia",
+      "rationale": "Moment of inertia I is the rotational inertia resisting angular acceleration.",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    {
+      "from_node_id": "curr-nl-01",
+      "to_node_id": "curr-rot-02",
+      "relationship_type": "STRICT_CONCEPTUAL",
+      "provenance_type": "PEDAGOGICAL_JUDGMENT",
+      "evidence": "Torque is the rotational analog of force tau = r x F",
+      "rationale": "Newton's laws applied to individual particle elements yield torque balance.",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    {
+      "from_node_id": "curr-rot-02",
+      "to_node_id": "curr-rot-03",
+      "relationship_type": "STRICT_CONCEPTUAL",
+      "provenance_type": "PEDAGOGICAL_JUDGMENT",
+      "evidence": "Conservation of angular momentum requires tau_ext = dL/dt = 0",
+      "rationale": "Zero net external torque is the governing condition for angular momentum conservation.",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    {
+      "from_node_id": "curr-com-01",
+      "to_node_id": "curr-rot-03",
+      "relationship_type": "INTUITIVE_ANALOG",
+      "provenance_type": "PEDAGOGICAL_JUDGMENT",
+      "evidence": "Angular momentum conservation is the rotational analog of linear momentum conservation",
+      "rationale": "Rotational invariance of physical laws yields angular momentum conservation by Noether's theorem.",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    {
+      "from_node_id": "curr-nl-01",
+      "to_node_id": "curr-fluid-01",
+      "relationship_type": "STRICT_CONCEPTUAL",
+      "provenance_type": "PEDAGOGICAL_JUDGMENT",
+      "evidence": "Hydrostatic pressure equilibrium is derived from static force balance",
+      "rationale": "Pressure variation dP = -rho g dy balances the weight of a fluid element.",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    {
+      "from_node_id": "curr-fluid-01",
+      "to_node_id": "curr-fluid-02",
+      "relationship_type": "STRICT_CONCEPTUAL",
+      "provenance_type": "PEDAGOGICAL_JUDGMENT",
+      "evidence": "Archimedes principle is the surface pressure integral over a submerged body",
+      "rationale": "Buoyant force is the net upward hydrostatic pressure force on the body surface.",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    {
+      "from_node_id": "curr-units-01",
+      "to_node_id": "curr-therm-01",
+      "relationship_type": "STRICT_CONCEPTUAL",
+      "provenance_type": "PEDAGOGICAL_JUDGMENT",
+      "evidence": "Calorimetry and thermal expansion rely on fundamental thermal units",
+      "rationale": "Heat capacity and temperature scales require clear dimensional framing.",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    {
+      "from_node_id": "curr-therm-01",
+      "to_node_id": "curr-td-01",
+      "relationship_type": "STRICT_CONCEPTUAL",
+      "provenance_type": "PEDAGOGICAL_JUDGMENT",
+      "evidence": "Heat transfer Q in first law is quantified via calorimetry and heat capacities",
+      "rationale": "First law dQ = dU + dW relates thermal heat transfer to mechanical work.",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    {
+      "from_node_id": "curr-wep-01",
+      "to_node_id": "curr-td-01",
+      "relationship_type": "STRICT_CONCEPTUAL",
+      "provenance_type": "PEDAGOGICAL_JUDGMENT",
+      "evidence": "Thermodynamic boundary work dW = P dV is mechanical work on moving boundary",
+      "rationale": "Boundary work connects thermal system expansion to mechanical force displacement.",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    {
+      "from_node_id": "curr-td-01",
+      "to_node_id": "curr-td-02",
+      "relationship_type": "STRICT_CONCEPTUAL",
+      "provenance_type": "PEDAGOGICAL_JUDGMENT",
+      "evidence": "Adiabatic process is the dQ = 0 condition of the first law of thermodynamics",
+      "rationale": "dU = -dW leads to P V^gamma = constant for reversible adiabatic expansions.",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    {
+      "from_node_id": "curr-nl-01",
+      "to_node_id": "curr-es-01",
+      "relationship_type": "STRICT_CONCEPTUAL",
+      "provenance_type": "PEDAGOGICAL_JUDGMENT",
+      "evidence": "Electrostatic force follows inverse square vector force law",
+      "rationale": "Electrostatic equilibrium requires vector balance of Coulomb and mechanical forces.",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    {
+      "from_node_id": "curr-wep-01",
+      "to_node_id": "curr-es-01",
+      "relationship_type": "STRICT_CONCEPTUAL",
+      "provenance_type": "PEDAGOGICAL_JUDGMENT",
+      "evidence": "Electric potential is conservative potential energy per unit charge",
+      "rationale": "Conservative electrostatic field integral yields potential difference delta V.",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    {
+      "from_node_id": "curr-es-01",
+      "to_node_id": "curr-es-02",
+      "relationship_type": "STRICT_CONCEPTUAL",
+      "provenance_type": "PEDAGOGICAL_JUDGMENT",
+      "evidence": "Gauss's law is the flux formulation of Coulomb inverse square field",
+      "rationale": "Flux of inverse square central field over closed surface gives enclosed charge / epsilon_0.",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    {
+      "from_node_id": "curr-es-01",
+      "to_node_id": "curr-curr-01",
+      "relationship_type": "STRICT_CONCEPTUAL",
+      "provenance_type": "PEDAGOGICAL_JUDGMENT",
+      "evidence": "Internal electric field in conductor drives steady drift velocity",
+      "rationale": "Electric force F = q E accelerates conduction electrons between lattice collisions.",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    {
+      "from_node_id": "curr-curr-01",
+      "to_node_id": "curr-curr-02",
+      "relationship_type": "STRICT_CONCEPTUAL",
+      "provenance_type": "DETERMINISTIC_STRUCTURAL",
+      "evidence": "Resistance R = rho L / A derives from microscopic current density J = sigma E",
+      "rationale": "Macroscopic Ohm's law V = IR integrates microscopic field along wire geometry.",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    {
+      "from_node_id": "curr-curr-02",
+      "to_node_id": "curr-curr-03",
+      "relationship_type": "STRICT_CONCEPTUAL",
+      "provenance_type": "PEDAGOGICAL_JUDGMENT",
+      "evidence": "Kirchhoff's loop and junction laws require resistive potential drops and junctions",
+      "rationale": "Circuit analysis models components with discrete resistances obeying V = IR.",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    {
+      "from_node_id": "curr-wep-01",
+      "to_node_id": "curr-curr-03",
+      "relationship_type": "STRICT_CONCEPTUAL",
+      "provenance_type": "PEDAGOGICAL_JUDGMENT",
+      "evidence": "Kirchhoff's Voltage Law is energy conservation around closed loop",
+      "rationale": "Net work done in moving unit charge around closed electrostatic loop is zero.",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    {
+      "from_node_id": "curr-kin-02",
+      "to_node_id": "curr-opt-01",
+      "relationship_type": "INTUITIVE_ANALOG",
+      "provenance_type": "PEDAGOGICAL_JUDGMENT",
+      "evidence": "Ray paths trace particle trajectories in optical media",
+      "rationale": "Geometric optics rectilinear propagation models light as ray trajectories.",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    {
+      "from_node_id": "curr-opt-01",
+      "to_node_id": "curr-opt-02",
+      "relationship_type": "STRICT_CONCEPTUAL",
+      "provenance_type": "PEDAGOGICAL_JUDGMENT",
+      "evidence": "Total internal reflection occurs when angle of refraction exceeds 90 degrees",
+      "rationale": "Setting r = 90 in Snell's law n1 sin(i) = n2 sin(r) yields critical angle sin(theta_c) = n2/n1.",
+      "confidence": 1.0,
+      "provenance": []
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "verification_id": "verif-semiconductors-question-9d6a3f87-e0fb6d",
+  "atom_id": "semiconductors-question-9d6a3f87",
+  "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+  "atom_version": 1,
+  "content_hash": "5029c7dcf905e45c26b5aa19ee4e7bba299318600295bfd5821dbcdf7e3b9751",
+  "verification_protocol_version": "1.0.0",
+  "solver_run_ids": [
+    "run-solver_a-semiconductors-question-9d6a3f87-001",
+    "run-solver_b-semiconductors-question-9d6a3f87-409aa26c"
+  ],
+  "source_claimed_answer": null,
+  "source_solution": null,
+  "independent_answers": {
+    "solver_a": "0.2",
+    "solver_b": "0.2"
+  },
+  "independent_solutions": {
+    "solver_a": "1. The current is given by I = e^(1000V / T) - 1, where I is in mA.\n2. We are given T = 300 K, I = 5 mA, and error in V is dV = +/- 0.01 V.\n3. First, find e^(1000V / T): since I = 5 mA, 5 = e^(1000V / 300) - 1, so e^(1000V / 300) = 6.",
+    "solver_b": "Given $I = (e^{1000V/T} - 1)$ mA. At $T=300$ K, $I = e^{10V/3} - 1$.\nWhen $I = 5$ mA, $e^{10V/3} - 1 = 5 \\implies e^{10V/3} = 6$.\nDifferentiating wrt $V$: $dI = \\frac{10}{3} e^{10V/3} dV$."
+  },
+  "consensus_answer": "0.2",
+  "verdict": "VERIFIED",
+  "confidence": 0.99,
+  "discrepancy_classification": "SOURCE_ANSWER_MISSING",
+  "adjudication_result": null,
+  "created_at": "2026-09-28T03:29:19.917639Z",
+  "completed_at": "2026-09-28T03:29:19.917639Z",
+  "metadata": {}
+}

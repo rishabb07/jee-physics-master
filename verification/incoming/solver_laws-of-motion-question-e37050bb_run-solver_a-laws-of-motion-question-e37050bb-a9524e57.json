@@ -1,0 +1,23 @@
+{
+  "solver_run_id": "run-solver_a-laws-of-motion-question-e37050bb-a9524e57",
+  "solver_agent_name": "solver_a",
+  "atom_id": "laws-of-motion-question-e37050bb",
+  "atom_version": 1,
+  "content_hash": "4e0f4dafef3070907d4f9ed4ea6168b73b04e49e383e3065ea776ca0e6f1fc3e",
+  "verification_protocol_version": "1.0.0",
+  "blind_package_hash": "bd81fe6c3dc5fd227b6ba86b8fc7f256669b7411a0c6fd2a228e506bc3a9d7ca",
+  "independent_answer": "A",
+  "raw_answer": "Option A",
+  "reasoning_steps": [
+    "Resolution of forces",
+    "Static friction limits",
+    "Normal force calculation"
+  ],
+  "assumptions_used": [
+    "Standard physical assumptions"
+  ],
+  "diagram_interpretation": null,
+  "uncertainty": null,
+  "possible_ambiguities": [],
+  "created_at": "2026-09-28T03:26:20.568884Z"
+}

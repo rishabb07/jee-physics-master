@@ -1,0 +1,30 @@
+{
+  "verification_id": "verif-rotational-motion-question-84f91c20-267bff",
+  "atom_id": "rotational-motion-question-84f91c20",
+  "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+  "atom_version": 1,
+  "content_hash": "729335ea8d2363b7b4f02d4c22c2c28352bc06a5093b5760855b1c5a20a7ff38",
+  "verification_protocol_version": "1.0.0",
+  "solver_run_ids": [
+    "run-solver_a-rotational-motion-question-84f91c20-7f3e1a82",
+    "run-solver_b-rotational-motion-question-84f91c20-b7e19d"
+  ],
+  "source_claimed_answer": null,
+  "source_solution": null,
+  "independent_answers": {
+    "solver_a": "C",
+    "solver_b": "C"
+  },
+  "independent_solutions": {
+    "solver_a": "Step 1: System definition: Consider the disc and the insect as a combined mechanical system rotating about the fixed vertical axis through the center of the disc.\nStep 2: External torque: There are no external horizontal torques acting on the system about the vertical axis of rotation (assuming frictionless axle/bearing), so the net external torque about the vertical axis is zero: tau_{ext, z} = 0.\nStep 3: Conservation of angular momentum: The total angular momentum of the system about the vertical axis is conserved: L_z = I_{total}(r) * omega(r) = constant.",
+    "solver_b": "Step 1: Identify the physical system comprising the thin horizontal circular disc of mass M and radius R and an insect of mass m moving along a diameter.\nStep 2: Check for external torques about the vertical axis passing through the centre of the disc. Assuming ideal frictionless bearings, there is no net external torque about the rotation axis (tau_ext = 0). The frictional and contact forces between the insect and disc are internal to the system.\nStep 3: By the principle of conservation of angular momentum about the fixed vertical axis of rotation: L_z = I_total(r) * omega(r) = constant."
+  },
+  "consensus_answer": "C",
+  "verdict": "VERIFIED",
+  "confidence": 0.99,
+  "discrepancy_classification": "SOURCE_ANSWER_MISSING",
+  "adjudication_result": null,
+  "created_at": "2026-09-27T20:05:44.376246Z",
+  "completed_at": "2026-09-27T20:05:44.376246Z",
+  "metadata": {}
+}

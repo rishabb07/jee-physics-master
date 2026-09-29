@@ -1,0 +1,14 @@
+{
+  "promotion_id": "promo-properties-of-solids-question-2d7d920e-fd97f7",
+  "atom_id": "properties-of-solids-question-2d7d920e",
+  "verification_id": "verif-properties-of-solids-question-2d7d920e-ddc23b",
+  "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+  "atom_version": 1,
+  "staged_path": "build/staging/atoms/batch_src-jee-rank-booster-03-mock-256f42c6_20260928_031815_253c.jsonl",
+  "canonical_path": "kb\\atoms\\properties-of-solids-question-2d7d920e.json",
+  "verdict": "VERIFIED",
+  "source_claimed_answer": null,
+  "verified_answer": "A",
+  "timestamp": "2026-09-28T03:29:19.779049Z",
+  "promoted_by": "promotion_gate"
+}

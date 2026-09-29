@@ -1,0 +1,68 @@
+{
+  "verification_id": "qvr-gen-q-opt-conc-01",
+  "question_id": "gen-q-opt-conc-01",
+  "question_version": 1,
+  "content_hash": "b2a2e7dbbc2f5abae144ed6e6866c3d9d5e6218445d83ffaff54817214b1f845",
+  "risk_level": "LOW",
+  "solver_a": {
+    "solver_id": "solver_a",
+    "conversation_id": "c4b2f200-9d09-4009-8419-85baf0f75544",
+    "independent_interpretation": "Monochromatic light of frequency f_0 and vacuum wavelength lambda_0 enters an optically denser linear isotropic dielectric medium with refractive index n > 1 from vacuum. The question asks for the correct expressions for phase velocity v, frequency f, and wavelength lambda inside the medium.",
+    "governing_principles": [
+      "Definition of Refractive Index and Phase Velocity (v = c / n)",
+      "Continuity of Electromagnetic Fields and Temporal Boundary Invariance of Frequency (f = f_0)",
+      "Fundamental Kinematic Wave Relation (v = f * lambda)"
+    ],
+    "independent_equations": [
+      "v = \\frac{c}{n}",
+      "f = f_0",
+      "\\lambda = \\frac{v}{f} = \\frac{c / n}{f_0} = \\frac{c}{f_0} \\frac{1}{n} = \\frac{\\lambda_0}{n}"
+    ],
+    "independent_solution_steps": [
+      "Step 1: Phase velocity in a non-magnetic dielectric medium is given by Maxwell's equations as v = 1 / sqrt(epsilon * mu) = c / n. Since n > 1, v = c / n.",
+      "Step 2: Frequency is determined by the temporal oscillation rate of the emitting source. Electromagnetic boundary conditions across any spatial interface mandate temporal continuity of the oscillating fields, ensuring f = f_0 remains invariant.",
+      "Step 3: Relate wavelength to speed and frequency: lambda = v / f = (c / n) / f_0 = (c / f_0) / n = lambda_0 / n.",
+      "Step 4: Audit Option A: Correctly combines v = c / n, f = f_0, and lambda = lambda_0 / n.",
+      "Step 5: Audit distractors: Option B erroneously claims frequency changes to f_0 / n; Option C claims velocity remains c in matter; Option D claims frequency dilates to n * f_0. All distractors violate fundamental wave mechanics."
+    ],
+    "calculated_answer": "A",
+    "dimensional_check_passed": true,
+    "numerical_check_passed": true,
+    "uniqueness_confirmed": true,
+    "conflicting_distractors": [],
+    "evaluated_difficulty": {
+      "conceptual_difficulty": 2,
+      "mathematical_difficulty": 1,
+      "multistep_reasoning_difficulty": 2,
+      "abstraction_difficulty": 2,
+      "computational_burden": 1,
+      "trap_misconception_difficulty": 2,
+      "derived_difficulty_band": "L1",
+      "weighting_policy": "PEDAGOGICAL_PROJECT_POLICY"
+    },
+    "verdict": "VERIFIED",
+    "notes": "First-principles wave optics derivation confirms v = c/n, f = f_0, lambda = lambda_0/n. Option A is unique, all distractors are physically invalid.",
+    "record_status": "ACTIVE",
+    "superseded_by": null,
+    "superseded_reason": null,
+    "timestamp": "2026-09-29T08:54:50+05:30"
+  },
+  "solver_b": null,
+  "agreement": true,
+  "uniqueness_verified": true,
+  "distractors_validated": true,
+  "numerical_validated": true,
+  "final_answer": "A",
+  "final_verdict": "VERIFIED",
+  "difficulty_calibrated": {
+    "conceptual_difficulty": 2,
+    "mathematical_difficulty": 1,
+    "multistep_reasoning_difficulty": 2,
+    "abstraction_difficulty": 2,
+    "computational_burden": 1,
+    "trap_misconception_difficulty": 2,
+    "derived_difficulty_band": "L1",
+    "weighting_policy": "PEDAGOGICAL_PROJECT_POLICY"
+  },
+  "created_at": "2026-09-29T03:54:46.270304Z"
+}

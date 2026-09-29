@@ -1,0 +1,119 @@
+{
+  "$defs": {
+    "ContentVerificationStatus": {
+      "description": "Lifecycle verification states for generated physics content.",
+      "enum": [
+        "UNVERIFIED",
+        "GENERATED",
+        "STAGED",
+        "VERIFIED",
+        "PROMOTABLE",
+        "REJECTED",
+        "CONFLICT",
+        "REVIEW",
+        "INVALIDATED"
+      ],
+      "title": "ContentVerificationStatus",
+      "type": "string"
+    }
+  },
+  "description": "Structured physical misconception record with trap mechanisms and correction.",
+  "properties": {
+    "misconception_id": {
+      "description": "Unique misconception identifier",
+      "minLength": 1,
+      "title": "Misconception Id",
+      "type": "string"
+    },
+    "concept_id": {
+      "description": "Mapped concept ID",
+      "minLength": 1,
+      "title": "Concept Id",
+      "type": "string"
+    },
+    "title": {
+      "description": "Descriptive title of the misconception",
+      "minLength": 1,
+      "title": "Title",
+      "type": "string"
+    },
+    "category": {
+      "description": "SIGN_MISTAKE, VECTOR_SCALAR_CONFUSION, INVALID_FORMULA_CONDITION, etc.",
+      "title": "Category",
+      "type": "string"
+    },
+    "incorrect_statement": {
+      "description": "The flawed intuitive belief",
+      "minLength": 5,
+      "title": "Incorrect Statement",
+      "type": "string"
+    },
+    "why_it_fails": {
+      "description": "Rigorous physical explanation of why it fails",
+      "minLength": 5,
+      "title": "Why It Fails",
+      "type": "string"
+    },
+    "diagnostic_symptom": {
+      "description": "How to spot this error in student thinking",
+      "minLength": 5,
+      "title": "Diagnostic Symptom",
+      "type": "string"
+    },
+    "corrective_explanation": {
+      "description": "Correct physical principle to apply",
+      "minLength": 5,
+      "title": "Corrective Explanation",
+      "type": "string"
+    },
+    "supporting_evidence": {
+      "description": "Textbook or experimental evidence",
+      "minLength": 5,
+      "title": "Supporting Evidence",
+      "type": "string"
+    },
+    "connected_atom_ids": {
+      "description": "Canonical atom IDs illustrating this",
+      "items": {
+        "type": "string"
+      },
+      "title": "Connected Atom Ids",
+      "type": "array"
+    },
+    "verification_status": {
+      "$ref": "#/$defs/ContentVerificationStatus",
+      "default": "GENERATED"
+    },
+    "content_hash": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "SHA-256 hash of normalized misconception",
+      "title": "Content Hash"
+    },
+    "created_at": {
+      "format": "date-time",
+      "title": "Created At",
+      "type": "string"
+    }
+  },
+  "required": [
+    "misconception_id",
+    "concept_id",
+    "title",
+    "category",
+    "incorrect_statement",
+    "why_it_fails",
+    "diagnostic_symptom",
+    "corrective_explanation",
+    "supporting_evidence"
+  ],
+  "title": "MisconceptionContentRecord",
+  "type": "object"
+}

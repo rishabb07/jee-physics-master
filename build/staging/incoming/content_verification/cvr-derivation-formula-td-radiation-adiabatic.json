@@ -1,0 +1,32 @@
+{
+  "verification_id": "cvr-derivation-formula-td-radiation-adiabatic",
+  "artifact_id": "derivation-formula-td-radiation-adiabatic",
+  "target_id": "derivation-formula-td-radiation-adiabatic",
+  "artifact_version": 1,
+  "content_type": "DERIVATION",
+  "content_hash": "101a4c30904f59d47f2cd4b29418c92da1fc75db2471bbaf4970d65eb3576271",
+  "verifier_id": "content-verifier-mechanics-thermo",
+  "verifier_conversation_id": "bdcda0e3-0496-4ba9-a62e-6fe79ffe6824",
+  "risk_level": "HIGH",
+  "verdict": "VERIFIED",
+  "assumptions_checked": true,
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_case_check_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "independent_derivation_or_calculation": "Independent step-by-step verification: Step 1: Total internal energy of blackbody cavity of volume V at temperature T is U = u(T) V = a V T^4, where a = 4 sigma / c. Dimensions: [U] = [M L^2 T^-2]. Step 2: Differentiating U(V, T) via multivariable chain/product rule: dU = (partial U / partial V)_T dV + (partial U / partial T)_V dT = a T^4 dV + 4 a V T^3 dT. Step 3: Ultra-relativistic photon kinematics (E = pc) in 3 dimensions gives isotropic radiation pressure P = (1/3) u = (1/3) a T^4. Infinitesimal mechanical work done during expansion: dW = P dV = (1/3) a T^4 dV. Step 4: First Law for reversible adiabatic process (dQ = 0): dQ = dU + dW = 0 => (a T^4 dV + 4 a V T^3 dT) + (1/3) a T^4 dV = 0 => 4 a V T^3 dT + (1 + 1/3) a T^4 dV = 0. Step 5: Combining dV coefficients: 4 a V T^3 dT + (4/3) a T^4 dV = 0. Step 6: Separate variables by dividing by (4/3) a V T^4: (4 a V T^3 dT) / ((4/3) a V T^4) + ((4/3) a T^4 dV) / ((4/3) a V T^4) = 0 => 3 (dT / T) + (dV / V) = 0 => dT / T + (1/3) dV / V = 0. Step 7: Integrating both sides: 3 ln(T) + ln(V) = const => ln(T^3 V) = const => T^3 V = const, or T V^(1/3) = const. Equivalent polytropic form: with P proportional to T^4, T proportional to P^(1/4), so (P^(1/4))^3 V = const => P^(3/4) V = const => P V^(4/3) = const (effective gamma = 4/3). Step 8: For a 3D spherical cavity of radius R, V = (4/3) pi R^3 proportional to R^3. Substituting: T ((4/3) pi R^3)^(1/3) = const => T R = const. Limiting cases: as R -> infinity, T -> 0, precisely describing cosmic microwave background expansion redshift. All 8 steps verified.",
+  "verification_notes": "First-principles derivation verified from the Stefan-Boltzmann law, relativistic kinetic theory (P = u/3), and the First Law of Thermodynamics. All multivariable differentials, product rule evaluations, variable separations, and spherical geometry scalings are mathematically rigorous and dimensionally verified.",
+  "findings": [
+    "Multivariable differential dU = a T^4 dV + 4 a V T^3 dT verified.",
+    "Relativistic radiation pressure dW = (1/3) a T^4 dV verified.",
+    "Differential First Law combination 4 a V T^3 dT + (4/3) a T^4 dV = 0 confirmed.",
+    "Scaling laws T^3 V = const, T V^(1/3) = const, and T R = const verified.",
+    "Equivalence to polytropic adiabatic exponent gamma_photon = 4/3 confirmed."
+  ],
+  "discrepancies": [],
+  "created_at": "2026-09-28T17:18:00Z",
+  "timestamp": "2026-09-28T17:18:00Z"
+}

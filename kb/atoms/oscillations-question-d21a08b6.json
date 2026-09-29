@@ -1,0 +1,80 @@
+{
+  "atom_id": "oscillations-question-d21a08b6",
+  "schema_version": "1.0.0",
+  "atom_version": 1,
+  "active": true,
+  "atom_type": "question",
+  "title": "Equation of motion for particle executing SHM with given kinetic energy at mean position",
+  "taxonomy": {
+    "chapter_id": "oscillations",
+    "topic_id": "kinematics-of-shm",
+    "subtopic_id": "equation-of-motion-shm"
+  },
+  "provenance": [
+    {
+      "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+      "file_name": "jee_rank_booster-03_mock_paper.pdf",
+      "file_path": "jee_rank_booster-03_mock_paper.pdf",
+      "page_start": 5,
+      "page_end": 5,
+      "source_locator": "Section - A, Q17",
+      "edition": null,
+      "extraction_metadata": {
+        "source_sha256": "256f42c67a9271aaafe4bf637eb34cddd10da959cdf7a66fc6fee76a68d34361"
+      }
+    }
+  ],
+  "confidence": 0.99,
+  "verification_status": "VERIFIED",
+  "content_hash": "143acbc0d6713ef9815870159f577f998760ee612e2d56405d59f2fc4ec134a4",
+  "created_at": "2026-09-28T01:00:00Z",
+  "updated_at": "2026-09-28T04:19:50.789260Z",
+  "content": null,
+  "formula": null,
+  "question": {
+    "statement": "A point particle of mass $0.1\\text{ kg}$ is executing SHM of amplitude of $0.1\\text{ m}$. When the particle passes through the mean position, its kinetic energy is $18 \\times 10^{-3}\\text{ J}$. The equation of motion of this particle when the initial phase of oscillation is $45^{\\circ}$ can be given by –",
+    "options": [
+      {
+        "id": "A",
+        "text": "$y = 0.1 \\cos\\left(6t + \\frac{\\pi}{4}\\right)$"
+      },
+      {
+        "id": "B",
+        "text": "$y = 0.1 \\sin\\left(6t + \\frac{\\pi}{4}\\right)$"
+      },
+      {
+        "id": "C",
+        "text": "$y = 0.4 \\sin\\left(t + \\frac{\\pi}{4}\\right)$"
+      },
+      {
+        "id": "D",
+        "text": "$y = 0.2 \\sin\\left(\\frac{\\pi}{2} + 2t\\right)$"
+      }
+    ],
+    "source_claimed_answer": "B",
+    "verified_answer": "B",
+    "source_solution": null,
+    "answer": "B",
+    "solution_methods": [],
+    "difficulty": "L2",
+    "exam_metadata": {
+      "exam": "JEE Rank Booster Mock",
+      "exam_name": "JEE Rank Booster Mock",
+      "year": null,
+      "paper": 3,
+      "question_number": "17"
+    },
+    "concepts": [
+      "simple-harmonic-motion",
+      "kinetic-energy",
+      "angular-frequency",
+      "phase-constant"
+    ]
+  },
+  "solved_example": null,
+  "misconception": null,
+  "figure_refs": [],
+  "insight": null,
+  "duplicate_group_id": null,
+  "archive_reason": null
+}

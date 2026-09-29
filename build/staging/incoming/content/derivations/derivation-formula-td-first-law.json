@@ -1,0 +1,95 @@
+{
+  "derivation_id": "derivation-formula-td-first-law",
+  "target_formula_id": "formula-td-first-law",
+  "target_equation": "$$dQ = dU + dW$$",
+  "starting_principles": [
+    "Global conservation of energy for an isolated system: $\\Delta E_{\\text{universe}} = 0$",
+    "Partition of system energy: $E_{\\text{system}} = E_{\\text{macro}} + U$",
+    "Mechanical boundary work for a quasi-static expansion: $dW = P dV$",
+    "Equivalence of mechanical work and thermal energy transfer (Joule's principle)"
+  ],
+  "assumptions": [
+    "The thermodynamic system is closed (no mass transfer across system boundaries).",
+    "Macroscopic kinetic and potential energies of the system as a whole are constant ($dE_{\\text{macro}} = 0$).",
+    "Thermodynamic states are well-defined equilibrium states."
+  ],
+  "ordered_steps": [
+    {
+      "step_number": 1,
+      "description": "Formulate the universal conservation of energy for the isolated composite system comprising the thermodynamic system and its surroundings.",
+      "starting_equation": "$$\\Delta E_{\\text{system}} + \\Delta E_{\\text{surroundings}} = 0$$",
+      "operation": "Express the conservation principle in differential form: $dE_{\\text{system}} + dE_{\\text{surroundings}} = 0$.",
+      "result_equation": "$$dE_{\\text{system}} = -dE_{\\text{surroundings}}$$",
+      "assumptions_applied": [
+        "Combined universe (system + surroundings) is an isolated system."
+      ]
+    },
+    {
+      "step_number": 2,
+      "description": "Partition system energy into macroscopic mechanical energy and microscopic internal energy $U$.",
+      "starting_equation": "$$E_{\\text{system}} = K_{\\text{macro}} + \\Phi_{\\text{macro}} + U$$",
+      "operation": "Set macroscopic mechanical energy variations to zero ($dK_{\\text{macro}} = 0$, $d\\Phi_{\\text{macro}} = 0$) for a stationary system at rest in the laboratory frame: $dE_{\\text{system}} = dU$.",
+      "result_equation": "$$dE_{\\text{system}} = dU$$",
+      "assumptions_applied": [
+        "The system center of mass is stationary with zero macroscopic acceleration."
+      ]
+    },
+    {
+      "step_number": 3,
+      "description": "Classify boundary energy transfers into mechanical work $dW$ performed by the system and heat $dQ$ absorbed by the system.",
+      "starting_equation": "$$dE_{\\text{surroundings}} = dW - dQ$$",
+      "operation": "By definition of energy conservation at the boundary, energy gained by surroundings consists of mechanical work done on them ($+dW$) minus thermal energy transferred from them into the system ($-dQ$): $-dE_{\\text{surroundings}} = dQ - dW$.",
+      "result_equation": "$$-dE_{\\text{surroundings}} = dQ - dW$$",
+      "assumptions_applied": [
+        "Energy crossing the boundary occurs exclusively via mechanical work and heat conduction/radiation."
+      ]
+    },
+    {
+      "step_number": 4,
+      "description": "Equate the internal energy change $dU$ to the net boundary energy transfer.",
+      "starting_equation": "$$dU = -dE_{\\text{surroundings}}$$",
+      "operation": "Substitute $-dE_{\\text{surroundings}} = dQ - dW$ into the energy balance: $dU = dQ - dW$.",
+      "result_equation": "$$dQ = dU + dW$$",
+      "assumptions_applied": [
+        "Physics sign convention: $dQ$ into system is positive, $dW$ by system is positive."
+      ]
+    },
+    {
+      "step_number": 5,
+      "description": "Express mechanical boundary work in terms of pressure and volume change for a quasi-static process.",
+      "starting_equation": "$$dW = \\vec{F}_{\\text{ext}} \\cdot d\\vec{s}$$",
+      "operation": "For an outward displacement $dx$ of a piston of cross-sectional area $A$ against internal pressure $P$: $dW = (P A) dx = P (A dx) = P dV$.",
+      "result_equation": "$$dW = P dV$$",
+      "assumptions_applied": [
+        "Quasi-static boundary displacement without turbulence or viscous shock."
+      ]
+    },
+    {
+      "step_number": 6,
+      "description": "Combine expressions to write the differential First Law with state and path distinctions.",
+      "starting_equation": "$$dQ = dU + dW$$",
+      "operation": "Substitute $dW = P dV$: $dQ = dU + P dV$. Note that $dU$ is an exact differential of state ($\\oint dU = 0$), whereas $dQ$ and $dW$ are inexact path-dependent differentials.",
+      "result_equation": "$$dQ = dU + P dV$$",
+      "assumptions_applied": [
+        "Internal energy $U$ is a single-valued state function."
+      ]
+    }
+  ],
+  "final_equation": "$$dQ = dU + dW$$",
+  "applicability_conditions": [
+    "Valid for all closed thermodynamic systems.",
+    "Sign convention: $dQ > 0$ for heat absorbed by the system, $dW > 0$ for work performed by the system.",
+    "Valid for reversible and irreversible processes (with $dW = P dV$ applying strictly in quasi-static conditions)."
+  ],
+  "source_references": [
+    "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+    "Fundamentals of Physics-Halliday,Resnick,Walker.pdf"
+  ],
+  "risk_level": "HIGH",
+  "verification_status": "UNVERIFIED",
+  "verification_record_id": null,
+  "generator_identity": "content_generator_agent",
+  "generator_conversation_id": "126488a8-d6c5-4eb1-953f-9b833f4b917c",
+  "content_hash": "97fa4c5a8c302eb98dca4caa816c7b01774340a885792830736cf5a3b489f569",
+  "created_at": "2026-09-28T22:30:00Z"
+}

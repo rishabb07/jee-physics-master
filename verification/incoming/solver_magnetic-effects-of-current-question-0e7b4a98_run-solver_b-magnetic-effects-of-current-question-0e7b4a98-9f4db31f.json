@@ -1,0 +1,23 @@
+{
+  "solver_run_id": "run-solver_b-magnetic-effects-of-current-question-0e7b4a98-9f4db31f",
+  "solver_agent_name": "solver_b",
+  "atom_id": "magnetic-effects-of-current-question-0e7b4a98",
+  "atom_version": 1,
+  "content_hash": "bc8a8d1cc1ce0f9541022dc7af2989d7265431a539599b6df7048d428c523019",
+  "verification_protocol_version": "1.0.0",
+  "blind_package_hash": "178337982e0318052d4875fd831a3db033b6b325723266897c61103f58ccaecb",
+  "independent_answer": "8",
+  "raw_answer": "8",
+  "reasoning_steps": [
+    "Force between parallel wires: $F = \\frac{\\mu_0 I_1 I_2}{2\\pi d} L$.",
+    "Given $I_1 = 10$ A, $I_2 = 2$ A, $L = 2$ m, $d = 0.1$ m.",
+    "$F = \\frac{4\\pi \\times 10^{-7} \\times 10 \\times 2}{2\\pi \\times 0.1} \\times 2$.",
+    "$F = \\frac{2 \\times 10^{-7} \\times 20}{0.1} \\times 2 = 800 \\times 10^{-7} = 8 \\times 10^{-5}$ N.",
+    "Comparing with $x \\times 10^{-5}$, we find $x = 8$."
+  ],
+  "assumptions_used": [],
+  "diagram_interpretation": null,
+  "uncertainty": null,
+  "possible_ambiguities": [],
+  "created_at": "2026-09-28T03:22:57Z"
+}

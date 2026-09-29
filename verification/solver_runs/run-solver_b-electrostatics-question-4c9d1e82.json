@@ -1,0 +1,29 @@
+{
+  "solver_run_id": "run-solver_b-electrostatics-question-4c9d1e82",
+  "atom_id": "electrostatics-question-4c9d1e82",
+  "solver_id": "solver_b",
+  "solver_agent_name": "solver_b",
+  "atom_version": 1,
+  "content_hash": null,
+  "verification_protocol_version": "1.0.0",
+  "blind_package_hash": null,
+  "model_name": "independent-solver-b",
+  "independent_answer": "C",
+  "raw_answer": "Option C: Q / (8 * \\varepsilon_{0})",
+  "reasoning_steps": [
+    "Step 1: Point charge +Q at center of square base of pyramid.",
+    "Step 2: Base flux is zero because field lines lie in base plane.",
+    "Step 3: Upper half-space solid angle is 2pi, receiving Q / (2 eps_0).",
+    "Step 4: 4 identical upper triangular faces share this flux equally.",
+    "Step 5: Flux per face = (Q / (2 eps_0)) / 4 = Q / (8 eps_0)."
+  ],
+  "assumptions_used": [
+    "Regular square pyramid",
+    "Point charge at center of base"
+  ],
+  "uncertainty": null,
+  "diagram_interpretation": "Square pyramid with point charge +Q at base center.",
+  "possible_ambiguities": [],
+  "created_at": "2026-09-27T19:51:06.329504Z",
+  "raw_response": null
+}

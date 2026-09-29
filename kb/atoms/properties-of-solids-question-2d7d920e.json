@@ -1,0 +1,80 @@
+{
+  "atom_id": "properties-of-solids-question-2d7d920e",
+  "schema_version": "1.0.0",
+  "atom_version": 1,
+  "active": true,
+  "atom_type": "question",
+  "title": "Behavior of wire area and extension when load increases up to breaking stress",
+  "taxonomy": {
+    "chapter_id": "properties-of-solids",
+    "topic_id": "stress-strain-relationship",
+    "subtopic_id": "breaking-stress-and-plasticity"
+  },
+  "provenance": [
+    {
+      "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+      "file_name": "jee_rank_booster-03_mock_paper.pdf",
+      "file_path": "jee_rank_booster-03_mock_paper.pdf",
+      "page_start": 5,
+      "page_end": 5,
+      "source_locator": "Section - A, Q18",
+      "edition": null,
+      "extraction_metadata": {
+        "source_sha256": "256f42c67a9271aaafe4bf637eb34cddd10da959cdf7a66fc6fee76a68d34361"
+      }
+    }
+  ],
+  "confidence": 0.99,
+  "verification_status": "VERIFIED",
+  "content_hash": "ac8311ce50f56ee203ac025c2b65c4a7fec09676ff7d9c4603ebeb4feab9422a",
+  "created_at": "2026-09-28T01:00:00Z",
+  "updated_at": "2026-09-28T04:19:50.792405Z",
+  "content": null,
+  "formula": null,
+  "question": {
+    "statement": "What happens when the applied load increases and upto breaking stress in the experiment to determine the Young's modulus of elasticity?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The area of wire goes on decreasing and wire extends and breaks."
+      },
+      {
+        "id": "B",
+        "text": "The area of wire goes on increasing and wire breaks."
+      },
+      {
+        "id": "C",
+        "text": "The wire extends and area remains constant."
+      },
+      {
+        "id": "D",
+        "text": "The area remains same and wire length is also same."
+      }
+    ],
+    "source_claimed_answer": "A",
+    "verified_answer": "A",
+    "source_solution": null,
+    "answer": "A",
+    "solution_methods": [],
+    "difficulty": "L1",
+    "exam_metadata": {
+      "exam": "JEE Rank Booster Mock",
+      "exam_name": "JEE Rank Booster Mock",
+      "year": null,
+      "paper": 3,
+      "question_number": "18"
+    },
+    "concepts": [
+      "elasticity",
+      "youngs-modulus",
+      "breaking-stress",
+      "necking"
+    ]
+  },
+  "solved_example": null,
+  "misconception": null,
+  "figure_refs": [],
+  "insight": null,
+  "duplicate_group_id": null,
+  "archive_reason": null
+}

@@ -1,0 +1,30 @@
+{
+  "verification_id": "verif-properties-of-solids-question-2d7d920e-533c80",
+  "atom_id": "properties-of-solids-question-2d7d920e",
+  "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+  "atom_version": 1,
+  "content_hash": "ac8311ce50f56ee203ac025c2b65c4a7fec09676ff7d9c4603ebeb4feab9422a",
+  "verification_protocol_version": "1.0.0",
+  "solver_run_ids": [
+    "run-solver_a-properties-of-solids-question-2d7d920e-c32e04da",
+    "run-solver_b-properties-of-solids-question-2d7d920e-fcc0faa4"
+  ],
+  "source_claimed_answer": null,
+  "source_solution": null,
+  "independent_answers": {
+    "solver_a": "A",
+    "solver_b": "A"
+  },
+  "independent_solutions": {
+    "solver_a": "1. When the applied load increases up to breaking stress, the material passes the yield point and undergoes plastic deformation.\n2. During this plastic phase, particularly near the ultimate tensile strength, necking occurs.\n3. Necking causes the cross-sectional area of the wire to decrease rapidly as it extends further.",
+    "solver_b": "As applied load increases beyond the yield point towards breaking stress, the material enters the plastic region.\nIn this region, the wire undergoes significant plastic extension.\nThis extension is accompanied by a localized reduction in cross-sectional area, known as necking."
+  },
+  "consensus_answer": "A",
+  "verdict": "VERIFIED",
+  "confidence": 0.99,
+  "discrepancy_classification": "SOURCE_ANSWER_MISSING",
+  "adjudication_result": null,
+  "created_at": "2026-09-28T03:29:47.786211Z",
+  "completed_at": "2026-09-28T03:29:47.786211Z",
+  "metadata": {}
+}

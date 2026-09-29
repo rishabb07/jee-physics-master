@@ -1,0 +1,23 @@
+{
+  "solver_run_id": "run-solver_a-gravitation-question-687b3c83-167bc128",
+  "solver_agent_name": "solver_a",
+  "atom_id": "gravitation-question-687b3c83",
+  "atom_version": 1,
+  "content_hash": "17d9484453d281ddc16fe6fe441c2654b0ddb9d91ee256efc4c2a49cb7e15c19",
+  "verification_protocol_version": "1.0.0",
+  "blind_package_hash": "de2bec2e35f7abdfd96e3f66f6bf9c1554c27a15808bf4dc53e18dab82c43824",
+  "independent_answer": "A",
+  "raw_answer": "Option A",
+  "reasoning_steps": [
+    "Conservation of energy",
+    "Initial energy at surface",
+    "Final energy in circular orbit"
+  ],
+  "assumptions_used": [
+    "Standard physical assumptions"
+  ],
+  "diagram_interpretation": null,
+  "uncertainty": null,
+  "possible_ambiguities": [],
+  "created_at": "2026-09-28T03:26:20.567250Z"
+}

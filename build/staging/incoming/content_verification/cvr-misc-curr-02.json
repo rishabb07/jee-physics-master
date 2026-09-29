@@ -1,0 +1,30 @@
+{
+  "verification_id": "cvr-misc-curr-02",
+  "artifact_id": "misc-curr-02",
+  "target_id": "misc-curr-02",
+  "artifact_version": 1,
+  "content_type": "MISCONCEPTION",
+  "content_hash": "c1463ff9979172f5228cba46fee17c6f5f2609ab231db1d0cfbccf45959be05c",
+  "verifier_id": "content-verifier-electrodynamics-optics",
+  "verifier_conversation_id": "e9f3b7da-683c-457e-a22d-d6c43d8f1368",
+  "risk_level": "MEDIUM",
+  "verdict": "VERIFIED",
+  "assumptions_audited": true,
+  "assumptions_checked": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "numerical_check_passed": true,
+  "limiting_cases_audited": true,
+  "limiting_case_check_passed": true,
+  "claim_traces_verified": true,
+  "verification_notes": "Audited from first principles: Misconception that an ideal ammeter in a branch measures total battery current verified. An ammeter measures strictly the charge flux traversing its internal sensing coil: I_meter = I_branch. By Kirchhoff's Current Law, junction current divides: I_total = sum(I_k). Zero internal resistance (R_A = 0) prevents perturbing the branch impedance, but does not bypass or aggregate current from parallel branches. Physical refutation, circuit schematic logic, and corrective pedagogical exposition verified.",
+  "independent_derivation_or_calculation": "Audited from first principles: Misconception that an ideal ammeter in a branch measures total battery current verified. An ammeter measures strictly the charge flux traversing its internal sensing coil: I_meter = I_branch. By Kirchhoff's Current Law, junction current divides: I_total = sum(I_k). Zero internal resistance (R_A = 0) prevents perturbing the branch impedance, but does not bypass or aggregate current from parallel branches. Physical refutation, circuit schematic logic, and corrective pedagogical exposition verified.",
+  "findings": [
+    "Fundamental measurement principle (ammeter reads only through-current, not total circuit current) verified.",
+    "Role of zero internal resistance R_A = 0 explained as non-invasive measurement condition, not shorting parallel branches.",
+    "Kirchhoff's junction rule application in parallel networks verified."
+  ],
+  "discrepancies": [],
+  "created_at": "2026-09-28T22:45:35+05:30",
+  "timestamp": "2026-09-28T22:45:35+05:30"
+}

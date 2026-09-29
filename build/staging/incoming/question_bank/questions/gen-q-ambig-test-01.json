@@ -1,0 +1,93 @@
+{
+  "question_id": "gen-q-ambig-test-01",
+  "version": 1,
+  "origin": "GENERATED",
+  "curriculum_id": "curr-rot-01",
+  "taxonomy_reference": {
+    "chapter_id": "rotational-motion",
+    "topic_id": "rolling-motion",
+    "subtopic_id": "pure-rolling-kinematics"
+  },
+  "concept_references": [
+    "concept-rot-moi-01"
+  ],
+  "prerequisite_references": [
+    "curr-kin-02"
+  ],
+  "target_exam_level": "JEE_MAIN",
+  "question_type": "SINGLE_CORRECT_MCQ",
+  "statement": "A solid cylinder is released from rest on an inclined plane. What is its acceleration down the incline?",
+  "diagram_references": [],
+  "options": {
+    "A": "$g \\sin \\theta$",
+    "B": "$\\frac{2}{3} g \\sin \\theta$",
+    "C": "$\\frac{1}{2} g \\sin \\theta$",
+    "D": "Cannot be determined without friction coefficient"
+  },
+  "correct_answer": "D",
+  "solution_strategy": "Identify that the lack of friction specification renders the motion regime (pure sliding, pure rolling, or rolling with slipping) completely undefined, making Option D the only defensible answer.",
+  "solution": "1. Motion Regimes:\nThe acceleration of a solid cylinder on an incline depends strictly on the friction condition at the contact surface:\n- Case 1: Perfectly smooth surface ($\\mu = 0$): No torque acts about the center of mass, so the cylinder slips without rolling with acceleration $a = g \\sin \\theta$.\n- Case 2: Sufficiently rough surface ($\\mu_s \\ge \\frac{1}{3} \\tan \\theta$): The cylinder rolls without slipping with acceleration $a = \\frac{g \\sin \\theta}{1 + I_{\\text{cm}} / (M R^2)} = \\frac{2}{3} g \\sin \\theta$.\n- Case 3: Insufficient kinetic friction ($0 < \\mu_k < \\frac{1}{3} \\tan \\theta$): The cylinder rolls and slips simultaneously with acceleration $a = g (\\sin \\theta - \\mu_k \\cos \\theta)$.\n2. Ambiguity Analysis:\nBecause the problem statement does not provide the coefficient of friction $\\mu$ or state whether the incline is rough or smooth, the acceleration cannot be determined. Therefore, Option D is the uniquely correct answer.",
+  "assumptions": [
+    "Rigid uniform solid cylinder",
+    "Planar inclined plane inclined at angle theta",
+    "Surface friction unspecified intentionally to probe ambiguity gating"
+  ],
+  "numerical_values": {},
+  "units": null,
+  "tolerance": null,
+  "intended_learning_objective": "Test physical awareness of friction constraints in rolling dynamics and diagnose unstated boundary conditions.",
+  "difficulty_dimensions": {
+    "conceptual_difficulty": 3,
+    "mathematical_difficulty": 1,
+    "multistep_reasoning_difficulty": 2,
+    "abstraction_difficulty": 2,
+    "computational_burden": 1,
+    "trap_misconception_difficulty": 5,
+    "derived_difficulty_band": "L2",
+    "weighting_policy": "PEDAGOGICAL_PROJECT_POLICY"
+  },
+  "difficulty_band": "L2",
+  "misconception_targeted": "misc-rot-ambig-friction",
+  "distractor_rationales": [
+    {
+      "option_key": "A",
+      "distractor_value": "$g \\sin \\theta$",
+      "likely_misconception": "misc-rot-frictionless-slip",
+      "student_rationale": "Student assumes the incline is completely frictionless (smooth), leading to pure sliding without any rotation: a = g sin theta.",
+      "physical_error": "The problem statement does not specify whether the incline is frictionless, perfectly rough (pure rolling), or has finite friction (mu). Without stating surface roughness, assuming frictionless sliding is an unverified assumption.",
+      "error_category": "UNSPECIFIED_BOUNDARY_ASSUMPTION"
+    },
+    {
+      "option_key": "B",
+      "distractor_value": "$\\frac{2}{3} g \\sin \\theta$",
+      "likely_misconception": "misc-rot-assume-pure-rolling",
+      "student_rationale": "Student assumes pure rolling without slipping occurs automatically, using a = (g sin theta) / (1 + I / (M R^2)) = 2/3 g sin theta.",
+      "physical_error": "Pure rolling requires sufficient static friction: mu_s >= 1/3 tan theta. Because neither mu_s nor the roughness of the incline is specified, one cannot assume pure rolling occurs.",
+      "error_category": "UNSPECIFIED_CONSTRAINT_ASSUMPTION"
+    },
+    {
+      "option_key": "C",
+      "distractor_value": "$\\frac{1}{2} g \\sin \\theta$",
+      "likely_misconception": "misc-rot-wrong-moi-accel",
+      "student_rationale": "Student uses I / (M R^2) = 1 (like a thin cylindrical shell) or an incorrect dynamic rolling formula.",
+      "physical_error": "Even if pure rolling were assumed, for a solid cylinder I = 1/2 M R^2, giving a = 2/3 g sin theta, not 1/2 g sin theta.",
+      "error_category": "FORMULA_SUBSTITUTION_ERROR"
+    }
+  ],
+  "source_grounding": {
+    "relationship_type": "NEW_PROBLEM",
+    "source_atom_id": null,
+    "transformation_type": null,
+    "what_changed": null,
+    "why_pedagogically_distinct": null
+  },
+  "risk_level": "MEDIUM",
+  "generation_metadata": {
+    "generator_agent": "physics-question-generator",
+    "author_model": "claude-3-7-sonnet"
+  },
+  "content_hash": "b68130b11376d2e2056f62240292c8b11937d966e15b357a7aeb4f2029028448",
+  "verification_status": "GENERATED",
+  "verification_record_id": null,
+  "created_at": "2026-09-29T08:30:00Z"
+}

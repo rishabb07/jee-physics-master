@@ -1,0 +1,21 @@
+{
+  "verification_id": "cvr-formula-rot-conservation-angmom",
+  "artifact_id": "formula-rot-conservation-angmom",
+  "artifact_version": 1,
+  "content_hash": "55fd388e6b9f01bfe15ec0c7f4abe60f1b901dcebd986aea501dd9e00491db58",
+  "verifier_id": "formula-content-verifier",
+  "verifier_conversation_id": "ab85d650-e1e8-42e2-ac4a-8bc8a6460e30",
+  "risk_level": "MEDIUM",
+  "verdict": "VERIFIED",
+  "assumptions_checked": true,
+  "dimensional_check_passed": true,
+  "numerical_check_passed": true,
+  "limiting_case_check_passed": true,
+  "independent_derivation_or_calculation": "If net external torque is zero, dL/dt = 0, so L is conserved. Valid under no external torque condition.",
+  "findings": [
+    "Limiting case of zero torque properly results in constant L",
+    "Conceptually and physically sound"
+  ],
+  "discrepancies": [],
+  "timestamp": "2026-09-29T02:32:37.330284+00:00"
+}

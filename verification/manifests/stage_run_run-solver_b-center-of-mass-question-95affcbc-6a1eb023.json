@@ -1,0 +1,13 @@
+{
+  "manifest_id": "stage_run_run-solver_b-center-of-mass-question-95affcbc-6a1eb023",
+  "solver_run_id": "run-solver_b-center-of-mass-question-95affcbc-6a1eb023",
+  "solver_agent_name": "solver_b",
+  "atom_id": "center-of-mass-question-95affcbc",
+  "atom_version": 1,
+  "content_hash": "fc25a97e998fc48e3725efdd4dd97e4f23a7ad565e0396916cd4edd23e7197d7",
+  "input_source_file": "C:\\Users\\Win11\\OneDrive\\Desktop\\Rishab\\jee physics master book test\\verification\\incoming\\solver_center-of-mass-question-95affcbc_run-solver_b-center-of-mass-question-95affcbc-6a1eb023.json",
+  "staged_destination_file": "C:\\Users\\Win11\\OneDrive\\Desktop\\Rishab\\jee physics master book test\\verification\\solver_runs\\run-solver_b-center-of-mass-question-95affcbc-6a1eb023.json",
+  "independent_answer": "B",
+  "timestamp": "2026-09-28T03:26:51.325784+00:00",
+  "status": "STAGED"
+}

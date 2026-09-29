@@ -1,0 +1,63 @@
+{
+  "atom_id": "thermal-physics-question-1f8c5ba9",
+  "schema_version": "1.0.0",
+  "atom_version": 1,
+  "active": true,
+  "atom_type": "question",
+  "title": "Surroundings temperature determination using Newton's law of cooling",
+  "taxonomy": {
+    "chapter_id": "thermal-physics",
+    "topic_id": "heat-transfer",
+    "subtopic_id": "newtons-law-of-cooling"
+  },
+  "provenance": [
+    {
+      "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+      "file_name": "jee_rank_booster-03_mock_paper.pdf",
+      "file_path": "jee_rank_booster-03_mock_paper.pdf",
+      "page_start": 7,
+      "page_end": 7,
+      "source_locator": "Section - B, Q30",
+      "edition": null,
+      "extraction_metadata": {
+        "source_sha256": "256f42c67a9271aaafe4bf637eb34cddd10da959cdf7a66fc6fee76a68d34361"
+      }
+    }
+  ],
+  "confidence": 0.99,
+  "verification_status": "VERIFIED",
+  "content_hash": "ec6dcd493c95cded2d1b7b6ed8115149a510cdf7596f2d5fc0fff0f0453e9700",
+  "created_at": "2026-09-28T01:00:00Z",
+  "updated_at": "2026-09-28T04:19:50.824011Z",
+  "content": null,
+  "formula": null,
+  "question": {
+    "statement": "Hot water cools from $60^\\circ\\text{C}$ to $50^\\circ\\text{C}$ in the first $10\\text{ minutes}$ and to $42^\\circ\\text{C}$ in the next $10\\text{ minutes}$. The temperature of the surroundings is ________ $^\\circ\\text{C}$.",
+    "options": [],
+    "source_claimed_answer": "10",
+    "verified_answer": "10",
+    "source_solution": null,
+    "answer": "10",
+    "solution_methods": [],
+    "difficulty": "L2",
+    "exam_metadata": {
+      "exam": "JEE Rank Booster Mock",
+      "exam_name": "JEE Rank Booster Mock",
+      "year": null,
+      "paper": 3,
+      "question_number": "30"
+    },
+    "concepts": [
+      "thermal-physics",
+      "heat-transfer",
+      "newtons-law-of-cooling",
+      "differential-rate-equation"
+    ]
+  },
+  "solved_example": null,
+  "misconception": null,
+  "figure_refs": [],
+  "insight": null,
+  "duplicate_group_id": null,
+  "archive_reason": null
+}

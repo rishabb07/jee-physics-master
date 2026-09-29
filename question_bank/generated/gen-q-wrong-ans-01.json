@@ -1,0 +1,92 @@
+{
+  "question_id": "gen-q-wrong-ans-01",
+  "version": 1,
+  "origin": "GENERATED",
+  "curriculum_id": "curr-td-01",
+  "taxonomy_reference": {
+    "chapter_id": "thermodynamics",
+    "topic_id": "special-thermodynamic-processes",
+    "subtopic_id": "isothermal-process"
+  },
+  "concept_references": [
+    "concept-td-first-law-01"
+  ],
+  "prerequisite_references": [
+    "curr-td-01"
+  ],
+  "target_exam_level": "JEE_MAIN",
+  "question_type": "SINGLE_CORRECT_MCQ",
+  "statement": "In an isothermal expansion of an ideal gas at temperature $T$, the change in internal energy $\\Delta U$ is:",
+  "diagram_references": [],
+  "options": {
+    "A": "$n R T$",
+    "B": "$n R T \\ln(V_2 / V_1)$",
+    "C": "$P \\Delta V$",
+    "D": "$0$"
+  },
+  "correct_answer": "B",
+  "solution_strategy": "Generator erroneously claims internal energy change equals work done in isothermal expansion W = n R T ln(V_2/V_1), setting up a deliberate answer mismatch test for the verifier.",
+  "solution": "Generator's flawed claim: In an isothermal process, heat is converted to expansion work $W = n R T \\ln(V_2 / V_1)$, and generator errs by asserting $\\Delta U = n R T \\ln(V_2 / V_1)$ (Option B).\nActual physical fact: For an ideal gas, internal energy is purely a function of temperature: $U = U(T)$. In an isothermal process, $\\Delta T = 0$, so $\\Delta U = n C_v \\Delta T = 0$ (Option D). The generator's answer key is deliberately set to 'B' to test the independent verifier's answer mismatch detection gate.",
+  "assumptions": [
+    "Ideal gas",
+    "Reversible isothermal process"
+  ],
+  "numerical_values": {},
+  "units": "J",
+  "tolerance": null,
+  "intended_learning_objective": "Test question verifier capability to flag erroneous generator answer keys.",
+  "difficulty_dimensions": {
+    "conceptual_difficulty": 2,
+    "mathematical_difficulty": 1,
+    "multistep_reasoning_difficulty": 2,
+    "abstraction_difficulty": 1,
+    "computational_burden": 1,
+    "trap_misconception_difficulty": 4,
+    "derived_difficulty_band": "L2",
+    "weighting_policy": "PEDAGOGICAL_PROJECT_POLICY"
+  },
+  "difficulty_band": "L2",
+  "misconception_targeted": "misc-td-01",
+  "distractor_rationales": [
+    {
+      "option_key": "A",
+      "distractor_value": "$n R T$",
+      "likely_misconception": "misc-td-pv-energy",
+      "student_rationale": "Student confuses internal energy with total thermal energy scale P V = n R T.",
+      "physical_error": "Change in internal energy is Delta U = n C_v Delta T, not n R T.",
+      "error_category": "DIMENSIONAL_CONFUSION"
+    },
+    {
+      "option_key": "C",
+      "distractor_value": "$P \\Delta V$",
+      "likely_misconception": "misc-td-work-equals-u",
+      "student_rationale": "Student assumes constant pressure work formula applies to internal energy change.",
+      "physical_error": "Pressure varies continuously during isothermal expansion (P prop 1/V); furthermore, work done does not equal internal energy change.",
+      "error_category": "PATH_FUNCTION_CONFUSION"
+    },
+    {
+      "option_key": "D",
+      "distractor_value": "$0$",
+      "likely_misconception": "misc-td-zero-energy",
+      "student_rationale": "Student identifies Joule's law that internal energy of an ideal gas depends solely on temperature: since Delta T = 0, Delta U = 0.",
+      "physical_error": "Author claims this is a distractor because author incorrectly marked B (the work done formula W = n R T ln(V_2/V_1)) as the change in internal energy!",
+      "error_category": "CLAIMED_CORRECT_ANSWER_IS_PHYSICALLY_WRONG"
+    }
+  ],
+  "source_grounding": {
+    "relationship_type": "NEW_PROBLEM",
+    "source_atom_id": null,
+    "transformation_type": null,
+    "what_changed": null,
+    "why_pedagogically_distinct": null
+  },
+  "risk_level": "HIGH",
+  "generation_metadata": {
+    "generator_agent": "physics-question-generator",
+    "author_model": "claude-3-7-sonnet"
+  },
+  "content_hash": "2f874098540b6cb3d0ad144e0abb527c33900f04e435be14072805cf8281064b",
+  "verification_status": "REVIEW",
+  "verification_record_id": null,
+  "created_at": "2026-09-29T08:30:00Z"
+}

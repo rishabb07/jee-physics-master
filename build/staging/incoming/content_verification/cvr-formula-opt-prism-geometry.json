@@ -1,0 +1,21 @@
+{
+  "verification_id": "cvr-formula-opt-prism-geometry",
+  "artifact_id": "formula-opt-prism-geometry",
+  "artifact_version": 1,
+  "content_hash": "1635efb3f5fa03e4055291eca37e951e41649bb0867bc8e26ee793c5319f7ddc",
+  "verifier_id": "formula-content-verifier",
+  "verifier_conversation_id": "ab85d650-e1e8-42e2-ac4a-8bc8a6460e30",
+  "risk_level": "MEDIUM",
+  "verdict": "VERIFIED",
+  "assumptions_checked": true,
+  "dimensional_check_passed": true,
+  "numerical_check_passed": true,
+  "limiting_case_check_passed": true,
+  "independent_derivation_or_calculation": "Prism formulas: A = r1 + r2, delta = i + e - A. Based on geometry of quadrilateral and triangle inside the prism.",
+  "findings": [
+    "Geometric derivation sound",
+    "Standard angles correctly related"
+  ],
+  "discrepancies": [],
+  "timestamp": "2026-09-29T02:32:37.347255+00:00"
+}

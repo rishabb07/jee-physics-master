@@ -1,0 +1,95 @@
+{
+  "derivation_id": "derivation-formula-rot-torque-dyn",
+  "target_formula_id": "formula-rot-torque-dyn",
+  "target_equation": "$$\\tau_{\\text{net, ext}} = I \\alpha$$",
+  "starting_principles": [
+    "Newton's second law for a particle: $\\vec{F}_i = m_i \\vec{a}_i$",
+    "Definition of torque for a particle: $\\vec{\\tau}_i = \\vec{r}_i \\times \\vec{F}_i$",
+    "Kinematics of rigid circular motion: $a_{i, \\text{tan}} = r_i \\alpha$",
+    "Newton's third law in strong form: internal forces are collinear with particle separation"
+  ],
+  "assumptions": [
+    "The body is perfectly rigid.",
+    "Rotation occurs about a fixed axis in an inertial reference frame.",
+    "All particles share a common angular acceleration $\\alpha$."
+  ],
+  "ordered_steps": [
+    {
+      "step_number": 1,
+      "description": "Discretize the rigid body into $N$ particles of mass $m_i$ rotating in planes perpendicular to the fixed axis $z$ at radial distances $r_i$.",
+      "starting_equation": "$$\\vec{F}_{i} = m_i \\vec{a}_i$$",
+      "operation": "Decompose the acceleration of each particle $i$ into tangential and radial components: $\\vec{a}_i = a_{i, t} \\hat{\\theta}_i + a_{i, r} \\hat{r}_i$, where $a_{i, t} = r_i \\alpha$ and $a_{i, r} = -r_i \\omega^2$.",
+      "result_equation": "$$a_{i, t} = r_i \\alpha$$",
+      "assumptions_applied": [
+        "Rigid body condition: all particles share identical angular velocity $\\omega$ and angular acceleration $\\alpha$."
+      ]
+    },
+    {
+      "step_number": 2,
+      "description": "Apply Newton's second law along the tangential direction for particle $i$.",
+      "starting_equation": "$$a_{i, t} = r_i \\alpha$$",
+      "operation": "Multiply tangential acceleration by particle mass $m_i$ to find the net tangential force component acting on particle $i$: $F_{i, t} = m_i a_{i, t}$.",
+      "result_equation": "$$F_{i, t} = m_i r_i \\alpha$$",
+      "assumptions_applied": [
+        "Newton's second law in an inertial reference frame."
+      ]
+    },
+    {
+      "step_number": 3,
+      "description": "Calculate the axial component of torque $\\tau_{i, z}$ acting on particle $i$ about the rotation axis.",
+      "starting_equation": "$$F_{i, t} = m_i r_i \\alpha$$",
+      "operation": "Take the moment of force about the axis $z$: $\\tau_{i, z} = r_i F_{i, t} = r_i (m_i r_i \\alpha)$.",
+      "result_equation": "$$\\tau_{i, z} = m_i r_i^2 \\alpha$$",
+      "assumptions_applied": [
+        "Radial force component passes through the axis and produces zero axial torque."
+      ]
+    },
+    {
+      "step_number": 4,
+      "description": "Sum the torques over all constituent particles of the rigid body.",
+      "starting_equation": "$$\\tau_{i, z} = m_i r_i^2 \\alpha$$",
+      "operation": "Sum both sides from $i=1$ to $N$ and factor out the common angular acceleration $\\alpha$: $\\tau_{\\text{net}, z} = \\sum_{i=1}^N \\tau_{i, z} = \\sum_{i=1}^N (m_i r_i^2 \\alpha) = \\left(\\sum_{i=1}^N m_i r_i^2\\right) \\alpha$.",
+      "result_equation": "$$\\tau_{\\text{net}, z} = \\left(\\sum_{i=1}^N m_i r_i^2\\right) \\alpha$$",
+      "assumptions_applied": [
+        "Angular acceleration $\\alpha$ is uniform across all elements of the rigid body."
+      ]
+    },
+    {
+      "step_number": 5,
+      "description": "Demonstrate that internal torques between constituent particles cancel pairwise.",
+      "starting_equation": "$$\\tau_{\\text{net}, z} = \\tau_{\\text{ext}, z} + \\tau_{\\text{int}, z}$$",
+      "operation": "Decompose total torque into external and internal contributions: $\\vec{\\tau}_{\\text{net}} = \\vec{\\tau}_{\\text{ext}} + \\sum_{i < j} (\\vec{r}_i \\times \\vec{F}_{ij} + \\vec{r}_j \\times \\vec{F}_{ji}) = \\vec{\\tau}_{\\text{ext}} + \\sum_{i < j} (\\vec{r}_i - \\vec{r}_j) \\times \\vec{F}_{ij}$. By Newton's third law in strong form, $\\vec{F}_{ij}$ acts along $(\\vec{r}_i - \\vec{r}_j)$, so $(\\vec{r}_i - \\vec{r}_j) \\times \\vec{F}_{ij} = \\vec{0}$.",
+      "result_equation": "$$\\tau_{\\text{int}, z} = 0 \\implies \\tau_{\\text{net}, z} = \\tau_{\\text{net, ext}, z}$$",
+      "assumptions_applied": [
+        "Newton's third law in strong (central force) form."
+      ]
+    },
+    {
+      "step_number": 6,
+      "description": "Substitute the definition of moment of inertia $I = \\sum_{i=1}^N m_i r_i^2$ (or $\\int r_\\perp^2 \\, dm$) to finalize the equation.",
+      "starting_equation": "$$\\tau_{\\text{net, ext}, z} = \\left(\\sum_{i=1}^N m_i r_i^2\\right) \\alpha$$",
+      "operation": "Replace $\\sum_{i=1}^N m_i r_i^2$ by the moment of inertia $I$.",
+      "result_equation": "$$\\tau_{\\text{net, ext}} = I \\alpha$$",
+      "assumptions_applied": [
+        "Definition of moment of inertia $I$."
+      ]
+    }
+  ],
+  "final_equation": "$$\\tau_{\\text{net, ext}} = I \\alpha$$",
+  "applicability_conditions": [
+    "Valid for rotation about a fixed axis in an inertial frame.",
+    "Valid about an axis passing through the center of mass even if the center of mass is accelerating.",
+    "Invalid for an accelerating non-CM point unless pseudo-force torque is included."
+  ],
+  "source_references": [
+    "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+    "University Physics with Modern Physics, 13th Edition.pdf"
+  ],
+  "risk_level": "HIGH",
+  "verification_status": "UNVERIFIED",
+  "verification_record_id": null,
+  "generator_identity": "content_generator_agent",
+  "generator_conversation_id": "126488a8-d6c5-4eb1-953f-9b833f4b917c",
+  "content_hash": "ed0a418ef6ae25bc4bc2d6c2c44e02622f26791eb865906564a55c7c2b0fd857",
+  "created_at": "2026-09-28T22:30:00Z"
+}

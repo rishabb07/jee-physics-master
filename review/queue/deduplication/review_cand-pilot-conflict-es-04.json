@@ -1,0 +1,19 @@
+{
+  "candidate_id": "cand-pilot-conflict-es-04",
+  "reason": "UNCERTAIN_DECISION",
+  "details": "Atom A and Atom B present identical capacitor network statements, diagrams, and options seeking capacitance C for C_eq = 1 muF, but assert contradictory verified answers: Atom A asserts 'A' (32/23 muF) while Atom B asserts 'D' (34/23 muF). Under Invariant 2 (Grounding & Physical Truth Invariant), candidate duplicates with conflicting verified answers or physical contradictions must never be silently merged. The pair is classified as UNCERTAIN and routed to the deduplication review queue for expert resolution.",
+  "decision": {
+    "candidate_id": "cand-pilot-conflict-es-04",
+    "decision_class": "UNCERTAIN",
+    "duplicate_confidence": 0.0,
+    "same_underlying_problem": false,
+    "same_concept_only": false,
+    "rationale": "Atom A and Atom B present identical capacitor network statements, diagrams, and options seeking capacitance C for C_eq = 1 muF, but assert contradictory verified answers: Atom A asserts 'A' (32/23 muF) while Atom B asserts 'D' (34/23 muF). Under Invariant 2 (Grounding & Physical Truth Invariant), candidate duplicates with conflicting verified answers or physical contradictions must never be silently merged. The pair is classified as UNCERTAIN and routed to the deduplication review queue for expert resolution.",
+    "distinguishing_evidence": "Direct verified answer contradiction: Atom A verified_answer = 'A' (32/23 muF) vs Atom B verified_answer = 'D' (34/23 muF).",
+    "recommended_action": "REVIEW",
+    "agent_identity": "physics-deduplicator",
+    "agent_conversation_id": "80d33d64-618b-4d64-8dd5-07ad9a017242",
+    "created_at": "2026-09-28T04:55:00Z",
+    "notes": null
+  }
+}

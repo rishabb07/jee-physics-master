@@ -1,0 +1,14 @@
+{
+  "promotion_id": "promo-center-of-mass-question-95affcbc-686039",
+  "atom_id": "center-of-mass-question-95affcbc",
+  "verification_id": "verif-center-of-mass-question-95affcbc-bc65f5",
+  "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+  "atom_version": 1,
+  "staged_path": "build/staging/atoms/batch_src-jee-rank-booster-03-mock-256f42c6_20260928_031838_7b76.jsonl",
+  "canonical_path": "kb\\atoms\\center-of-mass-question-95affcbc.json",
+  "verdict": "VERIFIED",
+  "source_claimed_answer": null,
+  "verified_answer": "B",
+  "timestamp": "2026-09-28T03:29:19.604342Z",
+  "promoted_by": "promotion_gate"
+}

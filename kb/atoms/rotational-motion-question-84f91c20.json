@@ -1,0 +1,79 @@
+{
+  "atom_id": "rotational-motion-question-84f91c20",
+  "schema_version": "1.0.0",
+  "atom_version": 1,
+  "active": true,
+  "atom_type": "question",
+  "title": "Angular speed variation of rotating disc as insect traverses diameter",
+  "taxonomy": {
+    "chapter_id": "rotational-motion",
+    "topic_id": "angular-momentum",
+    "subtopic_id": "variable-moment-of-inertia"
+  },
+  "provenance": [
+    {
+      "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+      "file_name": "jee_rank_booster-03_mock_paper.pdf",
+      "file_path": "jee_rank_booster-03_mock_paper.pdf",
+      "page_start": 4,
+      "page_end": 4,
+      "source_locator": "Section - A, Q12",
+      "edition": null,
+      "extraction_metadata": {
+        "source_sha256": "256f42c67a9271aaafe4bf637eb34cddd10da959cdf7a66fc6fee76a68d34361"
+      }
+    }
+  ],
+  "confidence": 0.99,
+  "verification_status": "VERIFIED",
+  "content_hash": "729335ea8d2363b7b4f02d4c22c2c28352bc06a5093b5760855b1c5a20a7ff38",
+  "created_at": "2026-09-28T01:00:00Z",
+  "updated_at": "2026-09-28T04:19:50.806587Z",
+  "content": null,
+  "formula": null,
+  "question": {
+    "statement": "A thin horizontal circular disc is rotating about a vertical axis passing through its centre. An insect is at rest at a point near the rim of the disc. The insect now moves along a diameter of the disc to reach its other end. During the journey of the insect, the angular speed of the disc",
+    "options": [
+      {
+        "id": "A",
+        "text": "continuously decreases"
+      },
+      {
+        "id": "B",
+        "text": "continuously increases"
+      },
+      {
+        "id": "C",
+        "text": "first increases and then decreases"
+      },
+      {
+        "id": "D",
+        "text": "remains unchanged"
+      }
+    ],
+    "source_claimed_answer": "C",
+    "verified_answer": "C",
+    "source_solution": null,
+    "answer": "C",
+    "solution_methods": [],
+    "difficulty": "L2",
+    "exam_metadata": {
+      "exam": "JEE Main Mock",
+      "exam_name": "JEE Main Mock",
+      "year": null,
+      "paper": null,
+      "question_number": "12"
+    },
+    "concepts": [
+      "rotational-motion",
+      "conservation-of-angular-momentum",
+      "moment-of-inertia"
+    ]
+  },
+  "solved_example": null,
+  "misconception": null,
+  "figure_refs": [],
+  "insight": null,
+  "duplicate_group_id": null,
+  "archive_reason": null
+}

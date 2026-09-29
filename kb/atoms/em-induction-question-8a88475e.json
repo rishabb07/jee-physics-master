@@ -1,0 +1,84 @@
+{
+  "atom_id": "em-induction-question-8a88475e",
+  "schema_version": "1.0.0",
+  "atom_version": 1,
+  "active": true,
+  "atom_type": "question",
+  "title": "LC Circuit — Current and Charge Behaviour at Given Instant",
+  "taxonomy": {
+    "chapter_id": "electromagnetic-induction",
+    "topic_id": "lc-oscillations",
+    "subtopic_id": "lc-circuit-current-charge"
+  },
+  "provenance": [
+    {
+      "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+      "file_name": "jee_rank_booster-03_mock_paper.pdf",
+      "file_path": null,
+      "page_start": 3,
+      "page_end": 3,
+      "source_locator": "Section - A, Q9",
+      "edition": null,
+      "extraction_metadata": {}
+    }
+  ],
+  "confidence": 0.96,
+  "verification_status": "VERIFIED",
+  "content_hash": "942c74d99ff0ff318e3829c44a8384058ae5a721ebe4d0c8554b1220b1919149",
+  "created_at": "2026-09-28T03:18:38.634782Z",
+  "updated_at": "2026-09-28T04:19:50.734026Z",
+  "content": null,
+  "formula": null,
+  "question": {
+    "statement": "In the LC circuit, the current in the direction shown and the charges on the capacitor plates have the signs shown. At this time",
+    "options": [
+      {
+        "id": "A",
+        "text": "$I$ is increasing and $Q$ is increasing"
+      },
+      {
+        "id": "B",
+        "text": "$I$ is increasing and $Q$ is decreasing"
+      },
+      {
+        "id": "C",
+        "text": "$I$ is decreasing and $Q$ is increasing"
+      },
+      {
+        "id": "D",
+        "text": "$I$ is decreasing and $Q$ is decreasing"
+      }
+    ],
+    "source_claimed_answer": "B",
+    "verified_answer": "B",
+    "source_solution": null,
+    "answer": "B",
+    "solution_methods": [],
+    "difficulty": "L2",
+    "exam_metadata": {
+      "exam": "JEE Rank Booster Mock",
+      "exam_name": "JEE Rank Booster Mock",
+      "year": null,
+      "paper": 3,
+      "question_number": "9"
+    },
+    "concepts": [
+      "LC oscillation",
+      "capacitor discharge",
+      "inductor current",
+      "electromagnetic oscillation"
+    ]
+  },
+  "solved_example": null,
+  "misconception": null,
+  "figure_refs": [
+    {
+      "figure_id": "fig-q9-lc-circuit",
+      "caption": "LC circuit with capacitor showing +Q and -Q charges and current I direction indicated by arrow",
+      "alt_text": "An LC circuit consisting of a capacitor C (top) and an inductor L (right). The capacitor plates show +Q on the left plate and -Q on the right plate. Current I flows leftward through the top wire from the capacitor toward the inductor. An arrow indicates the current direction."
+    }
+  ],
+  "insight": null,
+  "duplicate_group_id": null,
+  "archive_reason": null
+}

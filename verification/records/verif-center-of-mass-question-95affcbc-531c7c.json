@@ -1,0 +1,30 @@
+{
+  "verification_id": "verif-center-of-mass-question-95affcbc-531c7c",
+  "atom_id": "center-of-mass-question-95affcbc",
+  "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+  "atom_version": 1,
+  "content_hash": "fc25a97e998fc48e3725efdd4dd97e4f23a7ad565e0396916cd4edd23e7197d7",
+  "verification_protocol_version": "1.0.0",
+  "solver_run_ids": [
+    "run-solver_a-center-of-mass-question-95affcbc-42d559b6",
+    "run-solver_b-center-of-mass-question-95affcbc-6a1eb023"
+  ],
+  "source_claimed_answer": null,
+  "source_solution": null,
+  "independent_answers": {
+    "solver_a": "B",
+    "solver_b": "B"
+  },
+  "independent_solutions": {
+    "solver_a": "Conservation of momentum\nVelocity vectors at given angles",
+    "solver_b": "A at 60 deg, B at 225 deg gives the correct components matching option B."
+  },
+  "consensus_answer": "B",
+  "verdict": "VERIFIED",
+  "confidence": 0.99,
+  "discrepancy_classification": "SOURCE_ANSWER_MISSING",
+  "adjudication_result": null,
+  "created_at": "2026-09-28T03:29:47.609632Z",
+  "completed_at": "2026-09-28T03:29:47.609632Z",
+  "metadata": {}
+}

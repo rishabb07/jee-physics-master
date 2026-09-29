@@ -1,0 +1,143 @@
+{
+  "$defs": {
+    "QuestionLadderRung": {
+      "description": "An individual problem rung in a progressive question ladder.",
+      "properties": {
+        "level": {
+          "description": "Ladder level 0 to 5",
+          "maximum": 5,
+          "minimum": 0,
+          "title": "Level",
+          "type": "integer"
+        },
+        "level_name": {
+          "description": "Level label, e.g. 'Direct application', 'JEE Advanced'",
+          "title": "Level Name",
+          "type": "string"
+        },
+        "atom_id": {
+          "description": "Canonical verified atom ID",
+          "minLength": 1,
+          "title": "Atom Id",
+          "type": "string"
+        },
+        "physical_delta": {
+          "description": "Physical change introduced compared to preceding rung",
+          "minLength": 5,
+          "title": "Physical Delta",
+          "type": "string"
+        },
+        "reasoning_depth": {
+          "default": 1,
+          "description": "Cognitive steps required",
+          "maximum": 5,
+          "minimum": 1,
+          "title": "Reasoning Depth",
+          "type": "integer"
+        },
+        "concepts_involved": {
+          "description": "Physics concepts exercised in this rung",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Concepts Involved",
+          "type": "array"
+        },
+        "mathematical_complexity": {
+          "description": "Mathematical tools involved",
+          "title": "Mathematical Complexity",
+          "type": "string"
+        },
+        "transfer_requirement": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Transfer of knowledge to non-standard geometry/context",
+          "title": "Transfer Requirement"
+        }
+      },
+      "required": [
+        "level",
+        "level_name",
+        "atom_id",
+        "physical_delta",
+        "concepts_involved",
+        "mathematical_complexity"
+      ],
+      "title": "QuestionLadderRung",
+      "type": "object"
+    }
+  },
+  "description": "A sequence of problems scaffolding understanding across one physical system.",
+  "properties": {
+    "ladder_id": {
+      "description": "Unique ladder identifier",
+      "minLength": 1,
+      "title": "Ladder Id",
+      "type": "string"
+    },
+    "chapter_id": {
+      "description": "Parent chapter slug",
+      "minLength": 1,
+      "title": "Chapter Id",
+      "type": "string"
+    },
+    "topic_id": {
+      "description": "Parent topic slug",
+      "minLength": 1,
+      "title": "Topic Id",
+      "type": "string"
+    },
+    "title": {
+      "description": "Title of the ladder",
+      "minLength": 1,
+      "title": "Title",
+      "type": "string"
+    },
+    "physical_system": {
+      "description": "The shared physical system (e.g. 'Rotating disc with dropping mass')",
+      "minLength": 5,
+      "title": "Physical System",
+      "type": "string"
+    },
+    "rungs": {
+      "description": "Ordered progressive rungs",
+      "items": {
+        "$ref": "#/$defs/QuestionLadderRung"
+      },
+      "minItems": 2,
+      "title": "Rungs",
+      "type": "array"
+    },
+    "pedagogical_objective": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Overall learning takeaway of this ladder",
+      "title": "Pedagogical Objective"
+    }
+  },
+  "required": [
+    "ladder_id",
+    "chapter_id",
+    "topic_id",
+    "title",
+    "physical_system",
+    "rungs"
+  ],
+  "title": "QuestionLadder",
+  "type": "object"
+}

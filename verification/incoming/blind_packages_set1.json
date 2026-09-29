@@ -1,0 +1,458 @@
+[
+  {
+    "package_id": "pkg-ray-optics-question-e04c1df3-a1d25359",
+    "atom_id": "ray-optics-question-e04c1df3",
+    "atom_version": 1,
+    "content_hash": "278d0df957f936798ffb65657937ddb8d579af03c01c033cf775f69846ce74fa",
+    "blind_package_hash": "9801684aad847888031a54c200fae63048cde8194983839fe891f4251fea791a",
+    "statement": "A glass prism of refractive index $1.5$ is immersed in water (refractive index $\\frac{4}{3}$) as shown in figure. A light beam incident normally on the face $AB$ is totally reflected to reach the face $BC$, if",
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\sin\\theta \\ge \\frac{5}{9}$"
+      },
+      {
+        "id": "B",
+        "text": "$\\sin\\theta \\ge \\frac{2}{3}$"
+      },
+      {
+        "id": "C",
+        "text": "$\\sin\\theta \\ge \\frac{8}{9}$"
+      },
+      {
+        "id": "D",
+        "text": "$\\sin\\theta \\ge \\frac{1}{3}$"
+      }
+    ],
+    "figure_refs": [
+      {
+        "figure_id": "fig-q1-prism-abc",
+        "caption": "Glass prism ABC immersed in water with angle theta at vertex A, light incident normally on face AB",
+        "alt_text": "A triangular prism with vertices B (top-left), A (top-right), and C (bottom). The prism is shown with hatching indicating glass. Angle theta is marked at vertex A between face BA and face AC. Light enters normally on face AB."
+      }
+    ],
+    "difficulty": "L2",
+    "concepts": [
+      "total internal reflection",
+      "Snell's law",
+      "prism optics",
+      "refractive index"
+    ],
+    "exam_metadata": {
+      "exam": "JEE Rank Booster Mock",
+      "exam_name": "JEE Rank Booster Mock",
+      "year": null,
+      "paper": 3,
+      "question_number": "1"
+    },
+    "context_notes": null
+  },
+  {
+    "package_id": "pkg-gravitation-question-687b3c83-554bdd66",
+    "atom_id": "gravitation-question-687b3c83",
+    "atom_version": 1,
+    "content_hash": "17d9484453d281ddc16fe6fe441c2654b0ddb9d91ee256efc4c2a49cb7e15c19",
+    "blind_package_hash": "de2bec2e35f7abdfd96e3f66f6bf9c1554c27a15808bf4dc53e18dab82c43824",
+    "statement": "What is the minimum energy required to launch a satellite of mass $m$ from the surface of a planet of mass $M$ and radius $R$ in a circular orbit at an altitude of $2R$?",
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{5GmM}{6R}$"
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{2GmM}{3R}$"
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{GmM}{2R}$"
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{3GmM}{2R}$"
+      }
+    ],
+    "figure_refs": [],
+    "difficulty": "L2",
+    "concepts": [
+      "gravitational potential energy",
+      "orbital energy",
+      "circular orbit",
+      "escape energy"
+    ],
+    "exam_metadata": {
+      "exam": "JEE Rank Booster Mock",
+      "exam_name": "JEE Rank Booster Mock",
+      "year": null,
+      "paper": 3,
+      "question_number": "2"
+    },
+    "context_notes": null
+  },
+  {
+    "package_id": "pkg-laws-of-motion-question-e37050bb-d326c7ae",
+    "atom_id": "laws-of-motion-question-e37050bb",
+    "atom_version": 1,
+    "content_hash": "4e0f4dafef3070907d4f9ed4ea6168b73b04e49e383e3065ea776ca0e6f1fc3e",
+    "blind_package_hash": "bd81fe6c3dc5fd227b6ba86b8fc7f256669b7411a0c6fd2a228e506bc3a9d7ca",
+    "statement": "What is the maximum value of the force $F$ such that the block shown in the arrangement, does not move?\n\n$m = \\sqrt{3}\\text{ kg}$, $F$ is applied at $60\u00b0$ to the horizontal, $\\mu = \\frac{1}{2\\sqrt{3}}$.",
+    "options": [
+      {
+        "id": "A",
+        "text": "$20\\text{ N}$"
+      },
+      {
+        "id": "B",
+        "text": "$10\\text{ N}$"
+      },
+      {
+        "id": "C",
+        "text": "$12\\text{ N}$"
+      },
+      {
+        "id": "D",
+        "text": "$15\\text{ N}$"
+      }
+    ],
+    "figure_refs": [
+      {
+        "figure_id": "fig-q3-block-force",
+        "caption": "Block of mass sqrt(3) kg on a rough surface with force F applied at 60 degrees above the horizontal",
+        "alt_text": "A block of mass m = sqrt(3) kg rests on a rough horizontal surface (shown with hatching). A force F is applied at 60 degrees above the horizontal. The coefficient of friction mu = 1/(2*sqrt(3)) is indicated."
+      }
+    ],
+    "difficulty": "L2",
+    "concepts": [
+      "static friction",
+      "force resolution",
+      "normal force",
+      "equilibrium"
+    ],
+    "exam_metadata": {
+      "exam": "JEE Rank Booster Mock",
+      "exam_name": "JEE Rank Booster Mock",
+      "year": null,
+      "paper": 3,
+      "question_number": "3"
+    },
+    "context_notes": null
+  },
+  {
+    "package_id": "pkg-rotational-motion-question-6c7cb960-a49598e0",
+    "atom_id": "rotational-motion-question-6c7cb960",
+    "atom_version": 1,
+    "content_hash": "395260aa1b3e8bbf1c265f16f2707d531c3c499fb8d15076ed368a555127a3fb",
+    "blind_package_hash": "073e26962dc0249c943a1fd2e32dc3f46ae383a87fe843fe49d0dd5eaf440f3e",
+    "statement": "A particle falls freely near the surface of the earth. Consider a fixed point $O$ (not vertically below the particle) on the ground. Then pickup the incorrect alternative",
+    "options": [
+      {
+        "id": "A",
+        "text": "The magnitude of angular momentum of the particle about $O$ is increasing"
+      },
+      {
+        "id": "B",
+        "text": "The magnitude of torque of the gravitational force on the particle about $O$ is decreasing"
+      },
+      {
+        "id": "C",
+        "text": "The moment of inertia of the particle about $O$ is decreasing"
+      },
+      {
+        "id": "D",
+        "text": "The magnitude of angular velocity of the particle about $O$ is increasing"
+      }
+    ],
+    "figure_refs": [],
+    "difficulty": "L3",
+    "concepts": [
+      "angular momentum",
+      "torque",
+      "moment of inertia",
+      "free fall"
+    ],
+    "exam_metadata": {
+      "exam": "JEE Rank Booster Mock",
+      "exam_name": "JEE Rank Booster Mock",
+      "year": null,
+      "paper": 3,
+      "question_number": "4"
+    },
+    "context_notes": null
+  },
+  {
+    "package_id": "pkg-thermodynamics-question-3fe51020-7d669a2c",
+    "atom_id": "thermodynamics-question-3fe51020",
+    "atom_version": 1,
+    "content_hash": "9392c1533bb1e9e2e1f478b825a3387e5420ed11a3f4fb75145647943e88bb81",
+    "blind_package_hash": "b95cfd495b92dd5dde609387186859e373c6f50cc6b3cd12f353e6ab2e763291",
+    "statement": "Consider a spherical shell of radius $R$ at temperature $T$. The black body radiation inside it can be considered as an ideal gas of photons with internal energy per unit volume $u = \\frac{U}{V} \\propto T^{4}$ and pressure $p = \\frac{1}{3}\\left(\\frac{U}{V}\\right)$. If the shell now undergoes an adiabatic expansion the relation between $T$ and $R$ is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "$T \\propto \\frac{1}{R}$"
+      },
+      {
+        "id": "B",
+        "text": "$T \\propto \\frac{1}{R^{3}}$"
+      },
+      {
+        "id": "C",
+        "text": "$T \\propto e^{-R}$"
+      },
+      {
+        "id": "D",
+        "text": "$T \\propto e^{-3R}$"
+      }
+    ],
+    "figure_refs": [],
+    "difficulty": "L3",
+    "concepts": [
+      "black body radiation",
+      "adiabatic expansion",
+      "photon gas",
+      "Stefan-Boltzmann law"
+    ],
+    "exam_metadata": {
+      "exam": "JEE Rank Booster Mock",
+      "exam_name": "JEE Rank Booster Mock",
+      "year": null,
+      "paper": 3,
+      "question_number": "5"
+    },
+    "context_notes": null
+  },
+  {
+    "package_id": "pkg-center-of-mass-question-95affcbc-41ef1f76",
+    "atom_id": "center-of-mass-question-95affcbc",
+    "atom_version": 1,
+    "content_hash": "fc25a97e998fc48e3725efdd4dd97e4f23a7ad565e0396916cd4edd23e7197d7",
+    "blind_package_hash": "44a794b8926c1776ac9554ecb1797658d14c6a3b4795eee6ab0ca3c4a7548b3e",
+    "statement": "Two particles $A$ and $B$ of equal mass $M$ are moving with the same speed $v$ as shown in the figure. They collide completely inelastically and move as a single particle $C$. The angle $\\theta$ that the path of $C$ makes with the $X$-axis is given by:",
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\tan\\theta = \\frac{\\sqrt{3} + \\sqrt{2}}{1 - \\sqrt{2}}$"
+      },
+      {
+        "id": "B",
+        "text": "$\\tan\\theta = \\frac{\\sqrt{3} - \\sqrt{2}}{1 - \\sqrt{2}}$"
+      },
+      {
+        "id": "C",
+        "text": "$\\tan\\theta = \\frac{1 - \\sqrt{2}}{\\sqrt{2}(1 + \\sqrt{3})}$"
+      },
+      {
+        "id": "D",
+        "text": "$\\tan\\theta = \\frac{1 - \\sqrt{3}}{1 + \\sqrt{2}}$"
+      }
+    ],
+    "figure_refs": [
+      {
+        "figure_id": "fig-q6-collision-particles",
+        "caption": "Two particles A and B moving at angles 30\u00b0 and 45\u00b0 to the X-axis, colliding to form particle C at angle theta",
+        "alt_text": "A coordinate system with X and Y axes. Particle A moves upward and to the right at 30 degrees to the positive X-axis. Particle B moves downward and to the left at 45 degrees below the negative X-axis. Particle C moves upward to the right at angle theta to the positive X-axis after the collision."
+      }
+    ],
+    "difficulty": "L3",
+    "concepts": [
+      "conservation of linear momentum",
+      "inelastic collision",
+      "vector addition",
+      "2D momentum"
+    ],
+    "exam_metadata": {
+      "exam": "JEE Rank Booster Mock",
+      "exam_name": "JEE Rank Booster Mock",
+      "year": null,
+      "paper": 3,
+      "question_number": "6"
+    },
+    "context_notes": null
+  },
+  {
+    "package_id": "pkg-waves-question-01c8e233-e43c7b41",
+    "atom_id": "waves-question-01c8e233",
+    "atom_version": 1,
+    "content_hash": "432762c6be7aef3d98c00ee89cfb40d3badc150dac127bf90c5fa34c8260355a",
+    "blind_package_hash": "491522ce9dc95bd10bfc4f5aea580d49ab15f0f13a9253f3d1412dec5f0e4455",
+    "statement": "The fundamental frequency of a sonometer wire of length $\\ell$ is $n_{0}$. A bridge is now introduced at a distance of $\\Delta\\ell$ ($\\ll \\ell$) from the centre of the wire. The lengths of wire on the two sides of the bridge are now vibrated in their fundamental modes. Then, the beat frequency nearly is \u2013",
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{n_{0} \\Delta\\ell}{\\ell}$"
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{8 n_{0} \\Delta\\ell}{\\ell}$"
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{2 n_{0} \\Delta\\ell}{\\ell}$"
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{n_{0} \\Delta\\ell}{2\\ell}$"
+      }
+    ],
+    "figure_refs": [],
+    "difficulty": "L3",
+    "concepts": [
+      "sonometer",
+      "fundamental frequency",
+      "beat frequency",
+      "standing waves on string"
+    ],
+    "exam_metadata": {
+      "exam": "JEE Rank Booster Mock",
+      "exam_name": "JEE Rank Booster Mock",
+      "year": null,
+      "paper": 3,
+      "question_number": "7"
+    },
+    "context_notes": null
+  },
+  {
+    "package_id": "pkg-wave-optics-question-49253758-9063456f",
+    "atom_id": "wave-optics-question-49253758",
+    "atom_version": 1,
+    "content_hash": "bddab462c0a49d09ab51a0492b7ee14f5c92a3859d893f01b434892a2b9728db",
+    "blind_package_hash": "b4c3d987de5053c0e9a7e454e8feb3b92275f2e57e77fa6df82c37f11e6eb3fa",
+    "statement": "In Young's double slit experiment shown in figure $S_{1}$ and $S_{2}$ are coherent sources and $S$ is the screen having a hole at a point $1.0\\text{ mm}$ away from the central line. White light ($400$ to $700\\text{ nm}$) is sent through the slits. Which wavelength passing through the hole has strong intensity?\n\n$d = 0.5\\text{ mm}$, $D = 50\\text{ cm}$.",
+    "options": [
+      {
+        "id": "A",
+        "text": "$400\\text{ nm}$"
+      },
+      {
+        "id": "B",
+        "text": "$700\\text{ nm}$"
+      },
+      {
+        "id": "C",
+        "text": "$500\\text{ nm}$"
+      },
+      {
+        "id": "D",
+        "text": "$667\\text{ nm}$"
+      }
+    ],
+    "figure_refs": [
+      {
+        "figure_id": "fig-q8-ydse-setup",
+        "caption": "YDSE setup with slits S1, S2 separated by d = 0.5mm, screen S at D = 50cm, hole at 1.0mm from centre",
+        "alt_text": "A schematic of Young's double slit experiment. Two coherent sources S1 and S2 are separated by 0.5mm. The screen S is at a distance of 50cm. A hole is located on the screen at 1.0mm from the central line. The label 'Centre of screen' is marked at the top of the screen."
+      }
+    ],
+    "difficulty": "L2",
+    "concepts": [
+      "Young's double slit experiment",
+      "constructive interference",
+      "path difference",
+      "white light fringe"
+    ],
+    "exam_metadata": {
+      "exam": "JEE Rank Booster Mock",
+      "exam_name": "JEE Rank Booster Mock",
+      "year": null,
+      "paper": 3,
+      "question_number": "8"
+    },
+    "context_notes": null
+  },
+  {
+    "package_id": "pkg-em-induction-question-8a88475e-ac39c733",
+    "atom_id": "em-induction-question-8a88475e",
+    "atom_version": 1,
+    "content_hash": "942c74d99ff0ff318e3829c44a8384058ae5a721ebe4d0c8554b1220b1919149",
+    "blind_package_hash": "320aeed0bf76080502e0407ee211db261103a1fd65336f78aa2d60e244068b30",
+    "statement": "In the LC circuit, the current in the direction shown and the charges on the capacitor plates have the signs shown. At this time",
+    "options": [
+      {
+        "id": "A",
+        "text": "$I$ is increasing and $Q$ is increasing"
+      },
+      {
+        "id": "B",
+        "text": "$I$ is increasing and $Q$ is decreasing"
+      },
+      {
+        "id": "C",
+        "text": "$I$ is decreasing and $Q$ is increasing"
+      },
+      {
+        "id": "D",
+        "text": "$I$ is decreasing and $Q$ is decreasing"
+      }
+    ],
+    "figure_refs": [
+      {
+        "figure_id": "fig-q9-lc-circuit",
+        "caption": "LC circuit with capacitor showing +Q and -Q charges and current I direction indicated by arrow",
+        "alt_text": "An LC circuit consisting of a capacitor C (top) and an inductor L (right). The capacitor plates show +Q on the left plate and -Q on the right plate. Current I flows leftward through the top wire from the capacitor toward the inductor. An arrow indicates the current direction."
+      }
+    ],
+    "difficulty": "L2",
+    "concepts": [
+      "LC oscillation",
+      "capacitor discharge",
+      "inductor current",
+      "electromagnetic oscillation"
+    ],
+    "exam_metadata": {
+      "exam": "JEE Rank Booster Mock",
+      "exam_name": "JEE Rank Booster Mock",
+      "year": null,
+      "paper": 3,
+      "question_number": "9"
+    },
+    "context_notes": null
+  },
+  {
+    "package_id": "pkg-electrostatics-question-26848976-9343941b",
+    "atom_id": "electrostatics-question-26848976",
+    "atom_version": 1,
+    "content_hash": "d7020c8e10f9bb41d499b728f1ffe03e59d5938e3d6677fa810e352181960f16",
+    "blind_package_hash": "75da52e0daa97ee113399a3c2a6179fd4dcfc38056b4e45fe9489abbef06d105",
+    "statement": "Figure shows a network of capacitors where the numbers indicate capacitances in micro Farad. The value of capacitance $C$ if the equivalent capacitance between point $A$ and $B$ is to be $1\\text{ }\\mu\\text{F}$ is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{32}{23}\\text{ }\\mu\\text{F}$"
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{31}{23}\\text{ }\\mu\\text{F}$"
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{33}{23}\\text{ }\\mu\\text{F}$"
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{34}{23}\\text{ }\\mu\\text{F}$"
+      }
+    ],
+    "figure_refs": [
+      {
+        "figure_id": "fig-q10-capacitor-network",
+        "caption": "Network of capacitors with values C, 1, 8, 2, 2, 12, 6, 4 \u03bcF between terminals A and B",
+        "alt_text": "A complex capacitor network between points A (left) and B (right). From A, the circuit splits into upper and lower branches. The upper branch has capacitor C in series with 1 \u03bcF. From the junction after C, 8 \u03bcF goes down and 6 \u03bcF goes right to a node connecting to 4 \u03bcF going to B. The lower branch from A has 2 \u03bcF, then from that junction 2 \u03bcF goes right, and 12 \u03bcF connects between middle nodes. The network forms a bridge-like structure."
+      }
+    ],
+    "difficulty": "L3",
+    "concepts": [
+      "capacitor networks",
+      "equivalent capacitance",
+      "series-parallel combination",
+      "Wheatstone bridge analog"
+    ],
+    "exam_metadata": {
+      "exam": "JEE Rank Booster Mock",
+      "exam_name": "JEE Rank Booster Mock",
+      "year": null,
+      "paper": 3,
+      "question_number": "10"
+    },
+    "context_notes": null
+  }
+]

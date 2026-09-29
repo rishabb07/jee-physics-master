@@ -1,0 +1,25 @@
+{
+  "solver_run_id": "run-solver_a-kinematics-question-b29767c8-5ed5754c",
+  "solver_agent_name": "solver_a",
+  "atom_id": "kinematics-question-b29767c8",
+  "atom_version": 1,
+  "content_hash": "75a50f78ef107d1abfddbc5ccff76b0166dbb7d41f4e877fb6f0fe3032875d5b",
+  "verification_protocol_version": "1.0.0",
+  "blind_package_hash": "7e4d541cd9e3c195682db0f6a15be1b9baa74924aa232d12c0b3128df2b119c7",
+  "independent_answer": "C",
+  "raw_answer": "tan^-1(7/4)",
+  "reasoning_steps": [
+    "1. Position vector at t=2s is r = 40i + 50j.",
+    "2. Horizontal motion: x = u*cos(theta)*t => 40 = u*cos(theta)*2 => u*cos(theta) = 20.",
+    "3. Vertical motion: y = u*sin(theta)*t - 1/2*g*t^2 => 50 = u*sin(theta)*2 - 0.5*10*4 => u*sin(theta)*2 = 70 => u*sin(theta) = 35.",
+    "4. tan(theta) = (u*sin(theta)) / (u*cos(theta)) = 35 / 20 = 7/4.",
+    "5. theta = tan^-1(7/4)."
+  ],
+  "assumptions_used": [
+    "Standard physics assumptions apply"
+  ],
+  "diagram_interpretation": null,
+  "uncertainty": null,
+  "possible_ambiguities": [],
+  "created_at": "2026-09-28T03:22:27.307586Z"
+}

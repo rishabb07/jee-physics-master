@@ -1,0 +1,30 @@
+{
+  "verification_id": "cvr-derivation-formula-opt-snells-law",
+  "artifact_id": "derivation-formula-opt-snells-law",
+  "target_id": "derivation-formula-opt-snells-law",
+  "artifact_version": 1,
+  "content_type": "DERIVATION",
+  "content_hash": "4a4612cc3bfcdd084e1799fe2cbf53b492523d219bfdee47b43e4cbc69f22e91",
+  "verifier_id": "content-verifier-electrodynamics-optics",
+  "verifier_conversation_id": "e9f3b7da-683c-457e-a22d-d6c43d8f1368",
+  "risk_level": "HIGH",
+  "verdict": "VERIFIED",
+  "assumptions_audited": true,
+  "assumptions_checked": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "numerical_check_passed": true,
+  "limiting_cases_audited": true,
+  "limiting_case_check_passed": true,
+  "claim_traces_verified": true,
+  "verification_notes": "Audited from first principles: Variational derivation of Snell's Law from Fermat's Principle of least time verified step-by-step. Step 1: Total transit time functional t(x) = (n_1/c)*sqrt(x^2 + a^2) + (n_2/c)*sqrt((d - x)^2 + b^2). Step 2: Differentiation dt/dx = (n_1/c)*(x / sqrt(x^2 + a^2)) - (n_2/c)*((d - x) / sqrt((d - x)^2 + b^2)). Step 3: Fermat's stationary time condition dt/dx = 0 yields n_1*(x / sqrt(x^2 + a^2)) = n_2*((d - x) / sqrt((d - x)^2 + b^2)). Step 4: Geometric identification of sin(theta_1) = x / sqrt(x^2 + a^2) and sin(theta_2) = (d - x) / sqrt((d - x)^2 + b^2) yields n_1*sin(theta_1) = n_2*sin(theta_2). Step 5: Second derivative d^2t/dx^2 = (n_1/c)*(a^2 / (x^2 + a^2)^(3/2)) + (n_2/c)*(b^2 / ((d - x)^2 + b^2)^(3/2)) > 0, confirming a strict global minimum. All step operations and continuity verified. Dimensional homogeneity passed across all 5 steps ([t] = s, [dt/dx] = s/m, [n*sin(theta)] = 1). Limiting cases audited: n_1 = n_2 (straight ray), normal incidence theta_1 = 0 => theta_2 = 0. Target equation verified.",
+  "independent_derivation_or_calculation": "Audited from first principles: Variational derivation of Snell's Law from Fermat's Principle of least time verified step-by-step. Step 1: Total transit time functional t(x) = (n_1/c)*sqrt(x^2 + a^2) + (n_2/c)*sqrt((d - x)^2 + b^2). Step 2: Differentiation dt/dx = (n_1/c)*(x / sqrt(x^2 + a^2)) - (n_2/c)*((d - x) / sqrt((d - x)^2 + b^2)). Step 3: Fermat's stationary time condition dt/dx = 0 yields n_1*(x / sqrt(x^2 + a^2)) = n_2*((d - x) / sqrt((d - x)^2 + b^2)). Step 4: Geometric identification of sin(theta_1) = x / sqrt(x^2 + a^2) and sin(theta_2) = (d - x) / sqrt((d - x)^2 + b^2) yields n_1*sin(theta_1) = n_2*sin(theta_2). Step 5: Second derivative d^2t/dx^2 = (n_1/c)*(a^2 / (x^2 + a^2)^(3/2)) + (n_2/c)*(b^2 / ((d - x)^2 + b^2)^(3/2)) > 0, confirming a strict global minimum. All step operations and continuity verified. Dimensional homogeneity passed across all 5 steps ([t] = s, [dt/dx] = s/m, [n*sin(theta)] = 1). Limiting cases audited: n_1 = n_2 (straight ray), normal incidence theta_1 = 0 => theta_2 = 0. Target equation verified.",
+  "findings": [
+    "Fermat's variational principle formulation and stationary derivative dt/dx = 0 verified.",
+    "Trigonometric substitution directly establishes n_1*sin(theta_1) = n_2*sin(theta_2).",
+    "Second derivative strictly positive, proving the physical trajectory is a global minimum of transit time."
+  ],
+  "discrepancies": [],
+  "created_at": "2026-09-28T22:45:35+05:30",
+  "timestamp": "2026-09-28T22:45:35+05:30"
+}

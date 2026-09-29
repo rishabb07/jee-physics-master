@@ -1,0 +1,78 @@
+{
+  "atom_id": "rotational-motion-question-6c7cb960",
+  "schema_version": "1.0.0",
+  "atom_version": 1,
+  "active": true,
+  "atom_type": "question",
+  "title": "Angular Momentum of Freely Falling Particle About Fixed Point O",
+  "taxonomy": {
+    "chapter_id": "rotational-motion",
+    "topic_id": "angular-momentum",
+    "subtopic_id": "angular-momentum-about-external-point"
+  },
+  "provenance": [
+    {
+      "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+      "file_name": "jee_rank_booster-03_mock_paper.pdf",
+      "file_path": null,
+      "page_start": 2,
+      "page_end": 2,
+      "source_locator": "Section - A, Q4",
+      "edition": null,
+      "extraction_metadata": {}
+    }
+  ],
+  "confidence": 0.97,
+  "verification_status": "VERIFIED",
+  "content_hash": "395260aa1b3e8bbf1c265f16f2707d531c3c499fb8d15076ed368a555127a3fb",
+  "created_at": "2026-09-28T03:18:38.634782Z",
+  "updated_at": "2026-09-28T04:19:50.802438Z",
+  "content": null,
+  "formula": null,
+  "question": {
+    "statement": "A particle falls freely near the surface of the earth. Consider a fixed point $O$ (not vertically below the particle) on the ground. Then pickup the incorrect alternative",
+    "options": [
+      {
+        "id": "A",
+        "text": "The magnitude of angular momentum of the particle about $O$ is increasing"
+      },
+      {
+        "id": "B",
+        "text": "The magnitude of torque of the gravitational force on the particle about $O$ is decreasing"
+      },
+      {
+        "id": "C",
+        "text": "The moment of inertia of the particle about $O$ is decreasing"
+      },
+      {
+        "id": "D",
+        "text": "The magnitude of angular velocity of the particle about $O$ is increasing"
+      }
+    ],
+    "source_claimed_answer": "B",
+    "verified_answer": "B",
+    "source_solution": null,
+    "answer": "B",
+    "solution_methods": [],
+    "difficulty": "L3",
+    "exam_metadata": {
+      "exam": "JEE Rank Booster Mock",
+      "exam_name": "JEE Rank Booster Mock",
+      "year": null,
+      "paper": 3,
+      "question_number": "4"
+    },
+    "concepts": [
+      "angular momentum",
+      "torque",
+      "moment of inertia",
+      "free fall"
+    ]
+  },
+  "solved_example": null,
+  "misconception": null,
+  "figure_refs": [],
+  "insight": null,
+  "duplicate_group_id": null,
+  "archive_reason": null
+}

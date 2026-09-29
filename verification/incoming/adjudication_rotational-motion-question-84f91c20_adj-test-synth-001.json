@@ -1,0 +1,18 @@
+{
+  "adjudication_id": "adj-test-synth-001",
+  "atom_id": "rotational-motion-question-84f91c20",
+  "atom_version": 1,
+  "content_hash": "729335ea8d2363b7b4f02d4c22c2c28352bc06a5093b5760855b1c5a20a7ff38",
+  "adjudicator_id": "physics-adjudicator",
+  "solver_analyses": {
+    "solver_a": "Solver A correctly identified the physical reality: moving from rim to rim along a diameter means the insect's distance to the center r decreases to 0, then increases to R. Thus, I decreases then increases. With conserved angular momentum (L = Iω), ω must increase then decrease.",
+    "solver_b": "Solver B incorrectly assumed r increases monotonically, which physically contradicts moving along a diameter from one end to the other."
+  },
+  "source_claim_analysis": "The source claim (Option A) is factually incorrect because it erroneously assumes the moment of inertia increases continuously throughout the entire motion.",
+  "physical_reasoning": "Since no external torque acts on the system about the vertical axis, angular momentum L = Iω is conserved. The total moment of inertia is I = I_disc + I_insect = I_disc + m*r^2. As the insect travels along the diameter, r decreases from R to 0, minimizing at the center, then increases from 0 to R. Consequently, I first decreases then increases. To maintain constant L, the angular speed ω must first increase and then decrease. Thus, Option C is correct.",
+  "adjudicated_answer": "C",
+  "verdict": "SOURCE_ERROR",
+  "confidence": 0.99,
+  "notes": "Synthetic test proving custom adjudicator execution",
+  "created_at": "2026-09-28T01:34:00Z"
+}

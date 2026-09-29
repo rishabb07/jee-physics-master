@@ -1,0 +1,95 @@
+{
+  "example_id": "ex-curr-recast-wire-01",
+  "problem_statement": "A uniform cylindrical copper wire has an initial resistance $R_1 = 10.0\\,\\Omega$, length $l_1$, and cross-sectional radius $r_1$. The wire is drawn through a drawing die (stretched/recast) so that its radius is reduced uniformly by a factor of 2, resulting in a final radius $r_2 = \\frac{r_1}{2}$. Assuming that the density and material resistivity $\\rho$ of copper remain strictly constant throughout the deformation process:\n(a) Determine the new length $l_2$ of the wire in terms of $l_1$ under the constraint of volume conservation.\n(b) Derive the general scaling law relating resistance $R$ to radius $r$ when the volume of the conductor is held constant.\n(c) Calculate the exact numerical value of the new electrical resistance $R_2$ in ohms ($\\Omega$).",
+  "known_quantities": {
+    "initial_resistance": "R_1 = 10.0 \\Omega",
+    "initial_radius": "r_1",
+    "final_radius": "r_2 = r_1 / 2",
+    "material_resistivity": "\\rho = \\text{constant}",
+    "material_density": "d = \\text{constant}",
+    "geometric_constraint": "Conservation of volume: V = A_1 * l_1 = A_2 * l_2 = constant"
+  },
+  "target_quantity": "l_2, R_2 / R_1, \\text{ and } R_2",
+  "relevant_concepts": [
+    "current-electricity",
+    "resistance-and-resistivity",
+    "volume-conservation",
+    "wire-recasting",
+    "geometric-scaling"
+  ],
+  "governing_principles": [
+    "Macroscopic definition of electrical resistance: R = \\rho * l / A",
+    "Cylindrical cross-sectional area: A = \\pi * r^2",
+    "Mass and volume conservation of an incompressible solid: V = A * l = \\text{constant}",
+    "Scaling relation for resistance under constant volume: R \\propto 1 / r^4"
+  ],
+  "solution_strategy": "1. Express the initial resistance in terms of resistivity \\rho, initial length l_1, and initial cross-sectional area A_1 = \\pi r_1^2.\n2. Enforce the physical condition of volume conservation (V_1 = V_2) to relate the final length l_2 to the initial length l_1 as a function of the radius ratio r_1 / r_2.\n3. Express the final resistance R_2 in terms of l_2 and A_2.\n4. Formulate the general 1/r^4 scaling law and evaluate the numerical multiplier for r_2 = r_1 / 2.\n5. Compute the final numerical resistance R_2 = 16 R_1.",
+  "ordered_steps": [
+    {
+      "step_number": 1,
+      "principle_applied": "Resistance formula for a uniform cylindrical conductor",
+      "equation": "R_1 = \\rho \\frac{l_1}{A_1} = \\rho \\frac{l_1}{\\pi r_1^2} = 10.0\\,\\Omega",
+      "substitution": "R_1 = 10.0\\,\\Omega",
+      "intermediate_result": "Initial resistance R_1 = \\rho l_1 / (\\pi r_1^2) = 10.0 \\Omega."
+    },
+    {
+      "step_number": 2,
+      "principle_applied": "Volume conservation during drawing / stretching",
+      "equation": "V_1 = V_2 \\implies A_1 l_1 = A_2 l_2 \\implies \\pi r_1^2 l_1 = \\pi r_2^2 l_2",
+      "substitution": "r_2 = \\frac{r_1}{2} \\implies \\frac{r_1}{r_2} = 2 \\implies l_2 = l_1 (2)^2 = 4 l_1",
+      "intermediate_result": "Final length is four times the initial length: l_2 = 4 l_1."
+    },
+    {
+      "step_number": 3,
+      "principle_applied": "Calculation of deformed cross-sectional area",
+      "equation": "A_2 = \\pi r_2^2 = \\pi \\left(\\frac{r_1}{2}\\right)^2 = \\frac{\\pi r_1^2}{4} = \\frac{A_1}{4}",
+      "substitution": "r_2 = \\frac{r_1}{2} \\implies A_2 = \\frac{A_1}{4}",
+      "intermediate_result": "Final cross-sectional area is one-fourth the initial area: A_2 = A_1 / 4."
+    },
+    {
+      "step_number": 4,
+      "principle_applied": "Resistance scaling under volume conservation",
+      "equation": "R = \\rho \\frac{l}{A} = \\rho \\frac{l \\cdot A}{A^2} = \\frac{\\rho V}{A^2} = \\frac{\\rho V}{\\pi^2 r^4} \\implies R \\propto \\frac{1}{r^4}",
+      "substitution": "\\frac{R_2}{R_1} = \\left(\\frac{r_1}{r_1 / 2}\\right)^4 = 2^4 = 16",
+      "intermediate_result": "R_2 = 16 R_1 (resistance increases by a factor of 16)."
+    },
+    {
+      "step_number": 5,
+      "principle_applied": "Numerical computation of new resistance",
+      "equation": "R_2 = 16 R_1 = 16 \\times 10.0\\,\\Omega = 160.0\\,\\Omega",
+      "substitution": "R_1 = 10.0\\,\\Omega \\implies R_2 = 16 \\times 10.0 = 160\\,\\Omega",
+      "intermediate_result": "New resistance R_2 = 160 \\Omega."
+    }
+  ],
+  "final_answer": "l_2 = 4 l_1; \\quad R_2 = 16 R_1 = 160\\,\\Omega",
+  "units": "\\Omega \\text{ (ohms)}",
+  "sanity_checks": [
+    "Limiting check r_2 -> r_1: If no deformation occurs (r_2 = r_1), R_2 = (1)^4 R_1 = 10.0 \\Omega.",
+    "Physical direction: Making a conductor both 4 times longer and 4 times thinner must compound resistance, giving a much larger resistance (160 \\Omega > 10 \\Omega).",
+    "Dimensional check: [R_2] = [\\rho l / A] = (\\Omega m) * m / m^2 = \\Omega, verified.",
+    "Mass invariance: Mass m = d * V = d * A_1 l_1 = d * (A_1/4) (4 l_1) = d * A_2 l_2, mass is strictly conserved."
+  ],
+  "alternate_methods": [
+    "Length-based formulation: From volume conservation, A_2 = V / l_2 = (A_1 l_1) / l_2. Substituting into R_2 = \\rho l_2 / A_2 gives R_2 = \\rho l_2^2 / V \\implies R \\propto l^2. Since l_2 = 4 l_1, R_2 = (4)^2 R_1 = 16 R_1 = 160 \\Omega."
+  ],
+  "source_atom_id": "current-electricity-question-ce6aab7f",
+  "provenance": [
+    {
+      "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+      "file_name": "jee_rank_booster-03_mock_paper.pdf",
+      "file_path": null,
+      "page_start": 3,
+      "page_end": 3,
+      "source_locator": "Section - B, Q2",
+      "edition": null,
+      "extraction_metadata": {}
+    }
+  ],
+  "risk_level": "MEDIUM",
+  "verification_status": "VERIFIED",
+  "verification_record_id": "dual-cvr-ex-curr-recast-wire-01",
+  "content_hash": "32ff4925357819f07fb3d3971903e2d6cf74a39e5cb8171ad3f362c84d5318c8",
+  "generator_identity": "ContentGenerator",
+  "generator_conversation_id": "6dce4bbd-45ec-4de0-95e5-461836f2ba08",
+  "created_at": "2026-09-28T22:35:00Z"
+}

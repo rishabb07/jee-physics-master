@@ -1,0 +1,2 @@
+[console_scripts]
+jee-physics = jee_physics.cli:main

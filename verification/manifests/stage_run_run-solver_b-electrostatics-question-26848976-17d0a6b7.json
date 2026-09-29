@@ -1,0 +1,13 @@
+{
+  "manifest_id": "stage_run_run-solver_b-electrostatics-question-26848976-17d0a6b7",
+  "solver_run_id": "run-solver_b-electrostatics-question-26848976-17d0a6b7",
+  "solver_agent_name": "solver_b",
+  "atom_id": "electrostatics-question-26848976",
+  "atom_version": 1,
+  "content_hash": "d7020c8e10f9bb41d499b728f1ffe03e59d5938e3d6677fa810e352181960f16",
+  "input_source_file": "C:\\Users\\Win11\\OneDrive\\Desktop\\Rishab\\jee physics master book test\\verification\\incoming\\solver_electrostatics-question-26848976_run-solver_b-electrostatics-question-26848976-17d0a6b7.json",
+  "staged_destination_file": "C:\\Users\\Win11\\OneDrive\\Desktop\\Rishab\\jee physics master book test\\verification\\solver_runs\\run-solver_b-electrostatics-question-26848976-17d0a6b7.json",
+  "independent_answer": "A",
+  "timestamp": "2026-09-28T03:26:59.850741+00:00",
+  "status": "STAGED"
+}

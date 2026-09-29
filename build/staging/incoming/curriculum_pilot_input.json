@@ -1,0 +1,3564 @@
+{
+  "pilot_chapters": [
+    "rotational-motion",
+    "thermodynamics",
+    "current-electricity",
+    "ray-optics"
+  ],
+  "pilot_atoms": [
+    {
+      "atom_id": "current-electricity-question-3a1b8c4d",
+      "schema_version": "1.0.0",
+      "atom_version": 1,
+      "active": true,
+      "atom_type": "question",
+      "title": "Ammeter and voltmeter readings in a DC circuit with parallel branches",
+      "taxonomy": {
+        "chapter_id": "current-electricity",
+        "topic_id": "dc-circuits",
+        "subtopic_id": "measuring-instruments"
+      },
+      "provenance": [
+        {
+          "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+          "file_name": "jee_rank_booster-03_mock_paper.pdf",
+          "file_path": "jee_rank_booster-03_mock_paper.pdf",
+          "page_start": 4,
+          "page_end": 4,
+          "source_locator": "Section - A, Q13",
+          "edition": null,
+          "extraction_metadata": {
+            "source_sha256": "256f42c67a9271aaafe4bf637eb34cddd10da959cdf7a66fc6fee76a68d34361"
+          }
+        }
+      ],
+      "confidence": 0.99,
+      "verification_status": "VERIFIED",
+      "content_hash": "5191a1c0c5850b6fa92086f0bf29a9b6544e9692f7cafc452719aebd3abff836",
+      "created_at": "2026-09-28T01:00:00Z",
+      "updated_at": "2026-09-28T04:19:50.701739Z",
+      "content": null,
+      "formula": null,
+      "question": {
+        "statement": "An ideal ammeter (zero resistance) and an ideal voltmeter (infinite resistance) are connected as shown. The ammeter and voltmeter reading for $R_{1} = 5\\,\\Omega$, $R_{2} = 15\\,\\Omega$, $R_{3} = 1.25\\,\\Omega$ and $E = 20\\text{ V}$ are given as",
+        "options": [
+          {
+            "id": "A",
+            "text": "$6.25\\text{ A},\\; 3.75\\text{ V}$"
+          },
+          {
+            "id": "B",
+            "text": "$3.00\\text{ A},\\; 5\\text{ V}$"
+          },
+          {
+            "id": "C",
+            "text": "$3.75\\text{ A},\\; 3.75\\text{ V}$"
+          },
+          {
+            "id": "D",
+            "text": "$6.25\\text{ A},\\; 6.25\\text{ V}$"
+          }
+        ],
+        "source_claimed_answer": "B",
+        "verified_answer": "B",
+        "source_solution": null,
+        "answer": "B",
+        "solution_methods": [],
+        "difficulty": "L2",
+        "exam_metadata": {
+          "exam": "JEE Main Mock",
+          "exam_name": "JEE Main Mock",
+          "year": null,
+          "paper": null,
+          "question_number": "13"
+        },
+        "concepts": [
+          "current-electricity",
+          "ohms-law",
+          "ammeter",
+          "voltmeter",
+          "kirchhoffs-laws"
+        ]
+      },
+      "solved_example": null,
+      "misconception": null,
+      "figure_refs": [
+        {
+          "figure_id": "fig-src-jee-rank-booster-03-mock-p04-q13",
+          "caption": "Circuit diagram showing parallel branches with $R_1 = 5\\,\\Omega$ in series with an ammeter, and $R_2 = 15\\,\\Omega$, connected in series with $R_3 = 1.25\\,\\Omega$ and a parallel voltmeter across $R_3$, powered by an EMF source $E = 20\\text{ V}$.",
+          "alt_text": "Electrical circuit diagram with a DC voltage source of 20 V connected to a network. The network consists of a parallel combination of two branches: one branch containing resistor R1 = 5 ohms in series with an ideal ammeter A, and the second branch containing resistor R2 = 15 ohms. This parallel block is in series with resistor R3 = 1.25 ohms, across which an ideal voltmeter V is connected in parallel."
+        }
+      ],
+      "insight": null,
+      "duplicate_group_id": null,
+      "archive_reason": null
+    },
+    {
+      "atom_id": "current-electricity-question-ce6aab7f",
+      "schema_version": "1.0.0",
+      "atom_version": 1,
+      "active": true,
+      "atom_type": "question",
+      "title": "Resistance of wire recast to half its original radius",
+      "taxonomy": {
+        "chapter_id": "current-electricity",
+        "topic_id": "resistance-and-resistivity",
+        "subtopic_id": "stretching-and-recasting-of-wires"
+      },
+      "provenance": [
+        {
+          "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+          "file_name": "jee_rank_booster-03_mock_paper.pdf",
+          "file_path": "jee_rank_booster-03_mock_paper.pdf",
+          "page_start": 5,
+          "page_end": 5,
+          "source_locator": "Section - B, Q21",
+          "edition": null,
+          "extraction_metadata": {
+            "source_sha256": "256f42c67a9271aaafe4bf637eb34cddd10da959cdf7a66fc6fee76a68d34361"
+          }
+        }
+      ],
+      "confidence": 0.99,
+      "verification_status": "VERIFIED",
+      "content_hash": "c737abb98f96fd5a98931ffea017b9563d60ac5a8d5c16e9d0b28774ab3a6311",
+      "created_at": "2026-09-28T01:00:00Z",
+      "updated_at": "2026-09-28T04:19:50.706739Z",
+      "content": null,
+      "formula": null,
+      "question": {
+        "statement": "A uniform wire of length $l$ and radius $r$ has a resistance of $100\\,\\Omega$. It is recast into a wire of radius $\\frac{r}{2}$. The resistance of new wire will be ________ $\\Omega$.",
+        "options": [],
+        "source_claimed_answer": "1600",
+        "verified_answer": "1600",
+        "source_solution": null,
+        "answer": "1600",
+        "solution_methods": [],
+        "difficulty": "L2",
+        "exam_metadata": {
+          "exam": "JEE Rank Booster Mock",
+          "exam_name": "JEE Rank Booster Mock",
+          "year": null,
+          "paper": 3,
+          "question_number": "21"
+        },
+        "concepts": [
+          "current-electricity",
+          "resistance",
+          "resistivity",
+          "volume-conservation"
+        ]
+      },
+      "solved_example": null,
+      "misconception": null,
+      "figure_refs": [],
+      "insight": null,
+      "duplicate_group_id": null,
+      "archive_reason": null
+    },
+    {
+      "atom_id": "current-electricity-question-d2492f7f",
+      "schema_version": "1.0.0",
+      "atom_version": 1,
+      "active": true,
+      "atom_type": "question",
+      "title": "Ammeter and voltmeter readings in a DC circuit with parallel and series resistors",
+      "taxonomy": {
+        "chapter_id": "current-electricity",
+        "topic_id": "dc-circuits",
+        "subtopic_id": "measuring-instruments"
+      },
+      "provenance": [
+        {
+          "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+          "file_name": "jee_rank_booster-03_mock_paper.pdf",
+          "file_path": "jee_rank_booster-03_mock_paper.pdf",
+          "page_start": 4,
+          "page_end": 4,
+          "source_locator": "Section - A, Q13",
+          "edition": null,
+          "extraction_metadata": {
+            "source_sha256": "256f42c67a9271aaafe4bf637eb34cddd10da959cdf7a66fc6fee76a68d34361"
+          }
+        }
+      ],
+      "confidence": 0.99,
+      "verification_status": "VERIFIED",
+      "content_hash": "5191a1c0c5850b6fa92086f0bf29a9b6544e9692f7cafc452719aebd3abff836",
+      "created_at": "2026-09-28T01:00:00Z",
+      "updated_at": "2026-09-28T04:19:50.712533Z",
+      "content": null,
+      "formula": null,
+      "question": {
+        "statement": "An ideal ammeter (zero resistance) and an ideal voltmeter (infinite resistance) are connected as shown. The ammeter and voltmeter reading for $R_{1} = 5\\,\\Omega$, $R_{2} = 15\\,\\Omega$, $R_{3} = 1.25\\,\\Omega$ and $E = 20\\text{ V}$ are given as",
+        "options": [
+          {
+            "id": "A",
+            "text": "$6.25\\text{ A},\\; 3.75\\text{ V}$"
+          },
+          {
+            "id": "B",
+            "text": "$3.00\\text{ A},\\; 5\\text{ V}$"
+          },
+          {
+            "id": "C",
+            "text": "$3.75\\text{ A},\\; 3.75\\text{ V}$"
+          },
+          {
+            "id": "D",
+            "text": "$6.25\\text{ A},\\; 6.25\\text{ V}$"
+          }
+        ],
+        "source_claimed_answer": "B",
+        "verified_answer": "B",
+        "source_solution": null,
+        "answer": "B",
+        "solution_methods": [],
+        "difficulty": "L2",
+        "exam_metadata": {
+          "exam": "JEE Rank Booster Mock",
+          "exam_name": "JEE Rank Booster Mock",
+          "year": null,
+          "paper": 3,
+          "question_number": "13"
+        },
+        "concepts": [
+          "current-electricity",
+          "ohms-law",
+          "ammeter",
+          "voltmeter",
+          "kirchhoffs-laws"
+        ]
+      },
+      "solved_example": null,
+      "misconception": null,
+      "figure_refs": [
+        {
+          "figure_id": "fig-src-jee-rank-booster-03-mock-p04-q13",
+          "caption": "Circuit diagram with $R_1 = 5\\,\\Omega$ and $R_2 = 15\\,\\Omega$ in parallel, each branch containing a resistor, with an ammeter (A) in series with $R_1$. This parallel combination is connected in series with $R_3 = 1.25\\,\\Omega$, across which a voltmeter (V) is connected. The circuit is powered by an EMF source $E = 20\\text{ V}$.",
+          "alt_text": "Electrical circuit diagram with a DC voltage source E = 20 V. Two resistors R1 = 5 ohms (with ammeter A in series) and R2 = 15 ohms are connected in parallel. This parallel block is connected in series with R3 = 1.25 ohms. A voltmeter V is connected in parallel across the R1-R2 parallel combination."
+        }
+      ],
+      "insight": null,
+      "duplicate_group_id": null,
+      "archive_reason": null
+    },
+    {
+      "atom_id": "ray-optics-question-e04c1df3",
+      "schema_version": "1.0.0",
+      "atom_version": 1,
+      "active": true,
+      "atom_type": "question",
+      "title": "TIR in Glass Prism Immersed in Water",
+      "taxonomy": {
+        "chapter_id": "ray-optics",
+        "topic_id": "refraction-and-tir",
+        "subtopic_id": "total-internal-reflection"
+      },
+      "provenance": [
+        {
+          "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+          "file_name": "jee_rank_booster-03_mock_paper.pdf",
+          "file_path": null,
+          "page_start": 1,
+          "page_end": 1,
+          "source_locator": "Section - A, Q1",
+          "edition": null,
+          "extraction_metadata": {}
+        }
+      ],
+      "confidence": 0.96,
+      "verification_status": "VERIFIED",
+      "content_hash": "278d0df957f936798ffb65657937ddb8d579af03c01c033cf775f69846ce74fa",
+      "created_at": "2026-09-28T03:18:38.634782Z",
+      "updated_at": "2026-09-28T04:19:50.797399Z",
+      "content": null,
+      "formula": null,
+      "question": {
+        "statement": "A glass prism of refractive index $1.5$ is immersed in water (refractive index $\\frac{4}{3}$) as shown in figure. A light beam incident normally on the face $AB$ is totally reflected to reach the face $BC$, if",
+        "options": [
+          {
+            "id": "A",
+            "text": "$\\sin\\theta \\ge \\frac{5}{9}$"
+          },
+          {
+            "id": "B",
+            "text": "$\\sin\\theta \\ge \\frac{2}{3}$"
+          },
+          {
+            "id": "C",
+            "text": "$\\sin\\theta \\ge \\frac{8}{9}$"
+          },
+          {
+            "id": "D",
+            "text": "$\\sin\\theta \\ge \\frac{1}{3}$"
+          }
+        ],
+        "source_claimed_answer": "C",
+        "verified_answer": "C",
+        "source_solution": null,
+        "answer": "C",
+        "solution_methods": [],
+        "difficulty": "L2",
+        "exam_metadata": {
+          "exam": "JEE Rank Booster Mock",
+          "exam_name": "JEE Rank Booster Mock",
+          "year": null,
+          "paper": 3,
+          "question_number": "1"
+        },
+        "concepts": [
+          "total internal reflection",
+          "Snell's law",
+          "prism optics",
+          "refractive index"
+        ]
+      },
+      "solved_example": null,
+      "misconception": null,
+      "figure_refs": [
+        {
+          "figure_id": "fig-q1-prism-abc",
+          "caption": "Glass prism ABC immersed in water with angle theta at vertex A, light incident normally on face AB",
+          "alt_text": "A triangular prism with vertices B (top-left), A (top-right), and C (bottom). The prism is shown with hatching indicating glass. Angle theta is marked at vertex A between face BA and face AC. Light enters normally on face AB."
+        }
+      ],
+      "insight": null,
+      "duplicate_group_id": null,
+      "archive_reason": null
+    },
+    {
+      "atom_id": "rotational-motion-question-6c7cb960",
+      "schema_version": "1.0.0",
+      "atom_version": 1,
+      "active": true,
+      "atom_type": "question",
+      "title": "Angular Momentum of Freely Falling Particle About Fixed Point O",
+      "taxonomy": {
+        "chapter_id": "rotational-motion",
+        "topic_id": "angular-momentum",
+        "subtopic_id": "angular-momentum-about-external-point"
+      },
+      "provenance": [
+        {
+          "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+          "file_name": "jee_rank_booster-03_mock_paper.pdf",
+          "file_path": null,
+          "page_start": 2,
+          "page_end": 2,
+          "source_locator": "Section - A, Q4",
+          "edition": null,
+          "extraction_metadata": {}
+        }
+      ],
+      "confidence": 0.97,
+      "verification_status": "VERIFIED",
+      "content_hash": "395260aa1b3e8bbf1c265f16f2707d531c3c499fb8d15076ed368a555127a3fb",
+      "created_at": "2026-09-28T03:18:38.634782Z",
+      "updated_at": "2026-09-28T04:19:50.802438Z",
+      "content": null,
+      "formula": null,
+      "question": {
+        "statement": "A particle falls freely near the surface of the earth. Consider a fixed point $O$ (not vertically below the particle) on the ground. Then pickup the incorrect alternative",
+        "options": [
+          {
+            "id": "A",
+            "text": "The magnitude of angular momentum of the particle about $O$ is increasing"
+          },
+          {
+            "id": "B",
+            "text": "The magnitude of torque of the gravitational force on the particle about $O$ is decreasing"
+          },
+          {
+            "id": "C",
+            "text": "The moment of inertia of the particle about $O$ is decreasing"
+          },
+          {
+            "id": "D",
+            "text": "The magnitude of angular velocity of the particle about $O$ is increasing"
+          }
+        ],
+        "source_claimed_answer": "B",
+        "verified_answer": "B",
+        "source_solution": null,
+        "answer": "B",
+        "solution_methods": [],
+        "difficulty": "L3",
+        "exam_metadata": {
+          "exam": "JEE Rank Booster Mock",
+          "exam_name": "JEE Rank Booster Mock",
+          "year": null,
+          "paper": 3,
+          "question_number": "4"
+        },
+        "concepts": [
+          "angular momentum",
+          "torque",
+          "moment of inertia",
+          "free fall"
+        ]
+      },
+      "solved_example": null,
+      "misconception": null,
+      "figure_refs": [],
+      "insight": null,
+      "duplicate_group_id": null,
+      "archive_reason": null
+    },
+    {
+      "atom_id": "rotational-motion-question-84f91c20",
+      "schema_version": "1.0.0",
+      "atom_version": 1,
+      "active": true,
+      "atom_type": "question",
+      "title": "Angular speed variation of rotating disc as insect traverses diameter",
+      "taxonomy": {
+        "chapter_id": "rotational-motion",
+        "topic_id": "angular-momentum",
+        "subtopic_id": "variable-moment-of-inertia"
+      },
+      "provenance": [
+        {
+          "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+          "file_name": "jee_rank_booster-03_mock_paper.pdf",
+          "file_path": "jee_rank_booster-03_mock_paper.pdf",
+          "page_start": 4,
+          "page_end": 4,
+          "source_locator": "Section - A, Q12",
+          "edition": null,
+          "extraction_metadata": {
+            "source_sha256": "256f42c67a9271aaafe4bf637eb34cddd10da959cdf7a66fc6fee76a68d34361"
+          }
+        }
+      ],
+      "confidence": 0.99,
+      "verification_status": "VERIFIED",
+      "content_hash": "729335ea8d2363b7b4f02d4c22c2c28352bc06a5093b5760855b1c5a20a7ff38",
+      "created_at": "2026-09-28T01:00:00Z",
+      "updated_at": "2026-09-28T04:19:50.806587Z",
+      "content": null,
+      "formula": null,
+      "question": {
+        "statement": "A thin horizontal circular disc is rotating about a vertical axis passing through its centre. An insect is at rest at a point near the rim of the disc. The insect now moves along a diameter of the disc to reach its other end. During the journey of the insect, the angular speed of the disc",
+        "options": [
+          {
+            "id": "A",
+            "text": "continuously decreases"
+          },
+          {
+            "id": "B",
+            "text": "continuously increases"
+          },
+          {
+            "id": "C",
+            "text": "first increases and then decreases"
+          },
+          {
+            "id": "D",
+            "text": "remains unchanged"
+          }
+        ],
+        "source_claimed_answer": "C",
+        "verified_answer": "C",
+        "source_solution": null,
+        "answer": "C",
+        "solution_methods": [],
+        "difficulty": "L2",
+        "exam_metadata": {
+          "exam": "JEE Main Mock",
+          "exam_name": "JEE Main Mock",
+          "year": null,
+          "paper": null,
+          "question_number": "12"
+        },
+        "concepts": [
+          "rotational-motion",
+          "conservation-of-angular-momentum",
+          "moment-of-inertia"
+        ]
+      },
+      "solved_example": null,
+      "misconception": null,
+      "figure_refs": [],
+      "insight": null,
+      "duplicate_group_id": null,
+      "archive_reason": null
+    },
+    {
+      "atom_id": "rotational-motion-question-f7cbecda",
+      "schema_version": "1.0.0",
+      "atom_version": 1,
+      "active": true,
+      "atom_type": "question",
+      "title": "Angular speed variation of rotating disc as insect traverses diameter",
+      "taxonomy": {
+        "chapter_id": "rotational-motion",
+        "topic_id": "angular-momentum",
+        "subtopic_id": "variable-moment-of-inertia"
+      },
+      "provenance": [
+        {
+          "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+          "file_name": "jee_rank_booster-03_mock_paper.pdf",
+          "file_path": "jee_rank_booster-03_mock_paper.pdf",
+          "page_start": 4,
+          "page_end": 4,
+          "source_locator": "Section - A, Q12",
+          "edition": null,
+          "extraction_metadata": {
+            "source_sha256": "256f42c67a9271aaafe4bf637eb34cddd10da959cdf7a66fc6fee76a68d34361"
+          }
+        }
+      ],
+      "confidence": 0.99,
+      "verification_status": "VERIFIED",
+      "content_hash": "729335ea8d2363b7b4f02d4c22c2c28352bc06a5093b5760855b1c5a20a7ff38",
+      "created_at": "2026-09-28T01:00:00Z",
+      "updated_at": "2026-09-28T04:19:50.810582Z",
+      "content": null,
+      "formula": null,
+      "question": {
+        "statement": "A thin horizontal circular disc is rotating about a vertical axis passing through its centre. An insect is at rest at a point near the rim of the disc. The insect now moves along a diameter of the disc to reach its other end. During the journey of the insect, the angular speed of the disc",
+        "options": [
+          {
+            "id": "A",
+            "text": "continuously decreases"
+          },
+          {
+            "id": "B",
+            "text": "continuously increases"
+          },
+          {
+            "id": "C",
+            "text": "first increases and then decreases"
+          },
+          {
+            "id": "D",
+            "text": "remains unchanged"
+          }
+        ],
+        "source_claimed_answer": "C",
+        "verified_answer": "C",
+        "source_solution": null,
+        "answer": "C",
+        "solution_methods": [],
+        "difficulty": "L2",
+        "exam_metadata": {
+          "exam": "JEE Rank Booster Mock",
+          "exam_name": "JEE Rank Booster Mock",
+          "year": null,
+          "paper": 3,
+          "question_number": "12"
+        },
+        "concepts": [
+          "rotational-motion",
+          "conservation-of-angular-momentum",
+          "moment-of-inertia"
+        ]
+      },
+      "solved_example": null,
+      "misconception": null,
+      "figure_refs": [],
+      "insight": null,
+      "duplicate_group_id": null,
+      "archive_reason": null
+    },
+    {
+      "atom_id": "thermodynamics-question-3fe51020",
+      "schema_version": "1.0.0",
+      "atom_version": 1,
+      "active": true,
+      "atom_type": "question",
+      "title": "Photon Gas in Spherical Shell Undergoing Adiabatic Expansion",
+      "taxonomy": {
+        "chapter_id": "thermodynamics",
+        "topic_id": "special-thermodynamic-processes",
+        "subtopic_id": "radiation-thermodynamics"
+      },
+      "provenance": [
+        {
+          "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+          "file_name": "jee_rank_booster-03_mock_paper.pdf",
+          "file_path": null,
+          "page_start": 2,
+          "page_end": 2,
+          "source_locator": "Section - A, Q5",
+          "edition": null,
+          "extraction_metadata": {}
+        }
+      ],
+      "confidence": 0.96,
+      "verification_status": "VERIFIED",
+      "content_hash": "9392c1533bb1e9e2e1f478b825a3387e5420ed11a3f4fb75145647943e88bb81",
+      "created_at": "2026-09-28T03:18:38.634782Z",
+      "updated_at": "2026-09-28T04:19:50.835359Z",
+      "content": null,
+      "formula": null,
+      "question": {
+        "statement": "Consider a spherical shell of radius $R$ at temperature $T$. The black body radiation inside it can be considered as an ideal gas of photons with internal energy per unit volume $u = \\frac{U}{V} \\propto T^{4}$ and pressure $p = \\frac{1}{3}\\left(\\frac{U}{V}\\right)$. If the shell now undergoes an adiabatic expansion the relation between $T$ and $R$ is:",
+        "options": [
+          {
+            "id": "A",
+            "text": "$T \\propto \\frac{1}{R}$"
+          },
+          {
+            "id": "B",
+            "text": "$T \\propto \\frac{1}{R^{3}}$"
+          },
+          {
+            "id": "C",
+            "text": "$T \\propto e^{-R}$"
+          },
+          {
+            "id": "D",
+            "text": "$T \\propto e^{-3R}$"
+          }
+        ],
+        "source_claimed_answer": "A",
+        "verified_answer": "A",
+        "source_solution": null,
+        "answer": "A",
+        "solution_methods": [],
+        "difficulty": "L3",
+        "exam_metadata": {
+          "exam": "JEE Rank Booster Mock",
+          "exam_name": "JEE Rank Booster Mock",
+          "year": null,
+          "paper": 3,
+          "question_number": "5"
+        },
+        "concepts": [
+          "black body radiation",
+          "adiabatic expansion",
+          "photon gas",
+          "Stefan-Boltzmann law"
+        ]
+      },
+      "solved_example": null,
+      "misconception": null,
+      "figure_refs": [],
+      "insight": null,
+      "duplicate_group_id": null,
+      "archive_reason": null
+    },
+    {
+      "atom_id": "thermodynamics-question-71b685c0",
+      "schema_version": "1.0.0",
+      "atom_version": 1,
+      "active": true,
+      "atom_type": "question",
+      "title": "Adiabatic compression of monoatomic ideal gas to 12.5% of initial volume",
+      "taxonomy": {
+        "chapter_id": "thermodynamics",
+        "topic_id": "first-law-and-processes",
+        "subtopic_id": "adiabatic-process"
+      },
+      "provenance": [
+        {
+          "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+          "file_name": "jee_rank_booster-03_mock_paper.pdf",
+          "file_path": "jee_rank_booster-03_mock_paper.pdf",
+          "page_start": 4,
+          "page_end": 4,
+          "source_locator": "Section - A, Q14",
+          "edition": null,
+          "extraction_metadata": {
+            "source_sha256": "256f42c67a9271aaafe4bf637eb34cddd10da959cdf7a66fc6fee76a68d34361"
+          }
+        }
+      ],
+      "confidence": 0.99,
+      "verification_status": "VERIFIED",
+      "content_hash": "989a378467ccf659bd7bd108e19c9956e6d7e862c73e86043bd81d15e4e2aab1",
+      "created_at": "2026-09-28T01:00:00Z",
+      "updated_at": "2026-09-28T04:19:50.839382Z",
+      "content": null,
+      "formula": null,
+      "question": {
+        "statement": "A monoatomic ideal gas is filled in a nonconducting container. The gas can be compressed by a movable nonconducting piston. The gas is compressed slowly to $12.5\\%$ of its initial volume.\nFind final temperature of the gas if it is $T_{0}$ initially\u2013",
+        "options": [
+          {
+            "id": "A",
+            "text": "$4T_{0}$"
+          },
+          {
+            "id": "B",
+            "text": "$3T_{0}$"
+          },
+          {
+            "id": "C",
+            "text": "$\\frac{2}{3}\\,T_{0}$"
+          },
+          {
+            "id": "D",
+            "text": "$T_{0}$"
+          }
+        ],
+        "source_claimed_answer": "A",
+        "verified_answer": "A",
+        "source_solution": null,
+        "answer": "A",
+        "solution_methods": [],
+        "difficulty": "L2",
+        "exam_metadata": {
+          "exam": "JEE Rank Booster Mock",
+          "exam_name": "JEE Rank Booster Mock",
+          "year": null,
+          "paper": 3,
+          "question_number": "14"
+        },
+        "concepts": [
+          "thermodynamics",
+          "adiabatic-process",
+          "ideal-gas",
+          "gamma-monoatomic"
+        ]
+      },
+      "solved_example": null,
+      "misconception": null,
+      "figure_refs": [],
+      "insight": null,
+      "duplicate_group_id": null,
+      "archive_reason": null
+    },
+    {
+      "atom_id": "thermodynamics-question-7e2f5a91",
+      "schema_version": "1.0.0",
+      "atom_version": 1,
+      "active": true,
+      "atom_type": "question",
+      "title": "Adiabatic compression of monoatomic ideal gas to 12.5 percent volume",
+      "taxonomy": {
+        "chapter_id": "thermodynamics",
+        "topic_id": "first-law-and-processes",
+        "subtopic_id": "adiabatic-process"
+      },
+      "provenance": [
+        {
+          "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+          "file_name": "jee_rank_booster-03_mock_paper.pdf",
+          "file_path": "jee_rank_booster-03_mock_paper.pdf",
+          "page_start": 4,
+          "page_end": 4,
+          "source_locator": "Section - A, Q14",
+          "edition": null,
+          "extraction_metadata": {
+            "source_sha256": "256f42c67a9271aaafe4bf637eb34cddd10da959cdf7a66fc6fee76a68d34361"
+          }
+        }
+      ],
+      "confidence": 0.99,
+      "verification_status": "VERIFIED",
+      "content_hash": "8c521079bd7785f9c5dcc9407efb7a64479712a6fe55265b17182196b1e8b2c2",
+      "created_at": "2026-09-28T01:00:00Z",
+      "updated_at": "2026-09-28T04:19:50.844369Z",
+      "content": null,
+      "formula": null,
+      "question": {
+        "statement": "A monoatomic ideal gas is filled in a nonconducting container. The gas can be compressed by a movable nonconducting piston. The gas is compressed slowly to 12.5% of its initial volume.\nFind final temperature of the gas if it is $T_{0}$ initially\u2013",
+        "options": [
+          {
+            "id": "A",
+            "text": "$4T_{0}$"
+          },
+          {
+            "id": "B",
+            "text": "$3T_{0}$"
+          },
+          {
+            "id": "C",
+            "text": "$\\frac{2}{3}T_{0}$"
+          },
+          {
+            "id": "D",
+            "text": "$T_{0}$"
+          }
+        ],
+        "source_claimed_answer": "A",
+        "verified_answer": "A",
+        "source_solution": null,
+        "answer": "A",
+        "solution_methods": [],
+        "difficulty": "L2",
+        "exam_metadata": {
+          "exam": "JEE Main Mock",
+          "exam_name": "JEE Main Mock",
+          "year": null,
+          "paper": null,
+          "question_number": "14"
+        },
+        "concepts": [
+          "thermodynamics",
+          "adiabatic-process",
+          "ideal-gas",
+          "gamma-ratio"
+        ]
+      },
+      "solved_example": null,
+      "misconception": null,
+      "figure_refs": [],
+      "insight": null,
+      "duplicate_group_id": null,
+      "archive_reason": null
+    }
+  ],
+  "taxonomy_nodes": {
+    "rotational-motion": {
+      "id": "rotational-motion",
+      "name": "Rotational Motion",
+      "level": "CHAPTER",
+      "parent_id": "physics",
+      "subject": "PHYSICS",
+      "aliases": [
+        "rotation",
+        "rigid-body-dynamics",
+        "rbd"
+      ],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 6,
+      "provenance_class": "OFFICIAL_EXAM_COVERAGE",
+      "syllabus_sources": [
+        {
+          "authority": "JEE_ADVANCED",
+          "edition": "2026",
+          "document_ref": "JEE (Advanced) 2026 Information Brochure - Physics Syllabus"
+        },
+        {
+          "authority": "JEE_MAIN",
+          "edition": "2026",
+          "document_ref": "NTA JEE (Main) 2026 Information Bulletin - Physics Syllabus"
+        }
+      ]
+    },
+    "moment-of-inertia": {
+      "id": "moment-of-inertia",
+      "name": "Moment of Inertia",
+      "level": "TOPIC",
+      "parent_id": "rotational-motion",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 1,
+      "provenance_class": "OFFICIAL_EXAM_COVERAGE",
+      "syllabus_sources": [
+        {
+          "authority": "JEE_ADVANCED",
+          "edition": "2026",
+          "document_ref": "JEE (Advanced) Official Topic Prescriptions"
+        },
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 30/33"
+        }
+      ]
+    },
+    "moi-of-point-masses": {
+      "id": "moi-of-point-masses",
+      "name": "Moi Of Point Masses",
+      "level": "SUBTOPIC",
+      "parent_id": "moment-of-inertia",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 1,
+      "provenance_class": "PEDAGOGICAL_GROUPING",
+      "syllabus_sources": [
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 27 (Granular Subtopics)"
+        }
+      ]
+    },
+    "moi-of-standard-continuous-bodies": {
+      "id": "moi-of-standard-continuous-bodies",
+      "name": "Moi Of Standard Continuous Bodies",
+      "level": "SUBTOPIC",
+      "parent_id": "moment-of-inertia",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 2,
+      "provenance_class": "PEDAGOGICAL_GROUPING",
+      "syllabus_sources": [
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 27 (Granular Subtopics)"
+        }
+      ]
+    },
+    "parallel-axis-theorem": {
+      "id": "parallel-axis-theorem",
+      "name": "Parallel Axis Theorem",
+      "level": "SUBTOPIC",
+      "parent_id": "moment-of-inertia",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 3,
+      "provenance_class": "PEDAGOGICAL_GROUPING",
+      "syllabus_sources": [
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 27 (Granular Subtopics)"
+        }
+      ]
+    },
+    "perpendicular-axis-theorem": {
+      "id": "perpendicular-axis-theorem",
+      "name": "Perpendicular Axis Theorem",
+      "level": "SUBTOPIC",
+      "parent_id": "moment-of-inertia",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 4,
+      "provenance_class": "PEDAGOGICAL_GROUPING",
+      "syllabus_sources": [
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 27 (Granular Subtopics)"
+        }
+      ]
+    },
+    "radius-of-gyration": {
+      "id": "radius-of-gyration",
+      "name": "Radius Of Gyration",
+      "level": "SUBTOPIC",
+      "parent_id": "moment-of-inertia",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 5,
+      "provenance_class": "PEDAGOGICAL_GROUPING",
+      "syllabus_sources": [
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 27 (Granular Subtopics)"
+        }
+      ]
+    },
+    "torque-and-rotation": {
+      "id": "torque-and-rotation",
+      "name": "Torque and Fixed Axis Rotation",
+      "level": "TOPIC",
+      "parent_id": "rotational-motion",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 2,
+      "provenance_class": "OFFICIAL_EXAM_COVERAGE",
+      "syllabus_sources": [
+        {
+          "authority": "JEE_ADVANCED",
+          "edition": "2026",
+          "document_ref": "JEE (Advanced) Official Topic Prescriptions"
+        },
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 30/33"
+        }
+      ]
+    },
+    "torque-definition": {
+      "id": "torque-definition",
+      "name": "Torque Definition",
+      "level": "SUBTOPIC",
+      "parent_id": "torque-and-rotation",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 1,
+      "provenance_class": "PEDAGOGICAL_GROUPING",
+      "syllabus_sources": [
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 27 (Granular Subtopics)"
+        }
+      ]
+    },
+    "rotational-equations-of-motion": {
+      "id": "rotational-equations-of-motion",
+      "name": "Rotational Equations Of Motion",
+      "level": "SUBTOPIC",
+      "parent_id": "torque-and-rotation",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 2,
+      "provenance_class": "PEDAGOGICAL_GROUPING",
+      "syllabus_sources": [
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 27 (Granular Subtopics)"
+        }
+      ]
+    },
+    "torque-moment-of-inertia-relation": {
+      "id": "torque-moment-of-inertia-relation",
+      "name": "Torque Moment Of Inertia Relation",
+      "level": "SUBTOPIC",
+      "parent_id": "torque-and-rotation",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 3,
+      "provenance_class": "PEDAGOGICAL_GROUPING",
+      "syllabus_sources": [
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 27 (Granular Subtopics)"
+        }
+      ]
+    },
+    "work-and-energy-in-rotation": {
+      "id": "work-and-energy-in-rotation",
+      "name": "Work And Energy In Rotation",
+      "level": "SUBTOPIC",
+      "parent_id": "torque-and-rotation",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 4,
+      "provenance_class": "PEDAGOGICAL_GROUPING",
+      "syllabus_sources": [
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 27 (Granular Subtopics)"
+        }
+      ]
+    },
+    "angular-momentum": {
+      "id": "angular-momentum",
+      "name": "Angular Momentum",
+      "level": "TOPIC",
+      "parent_id": "rotational-motion",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 3,
+      "provenance_class": "OFFICIAL_EXAM_COVERAGE",
+      "syllabus_sources": [
+        {
+          "authority": "JEE_ADVANCED",
+          "edition": "2026",
+          "document_ref": "JEE (Advanced) Official Topic Prescriptions"
+        },
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 30/33"
+        }
+      ]
+    },
+    "angular-momentum-of-particle": {
+      "id": "angular-momentum-of-particle",
+      "name": "Angular Momentum Of Particle",
+      "level": "SUBTOPIC",
+      "parent_id": "angular-momentum",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 1,
+      "provenance_class": "PEDAGOGICAL_GROUPING",
+      "syllabus_sources": [
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 27 (Granular Subtopics)"
+        }
+      ]
+    },
+    "angular-momentum-about-external-point": {
+      "id": "angular-momentum-about-external-point",
+      "name": "Angular Momentum About External Point",
+      "level": "SUBTOPIC",
+      "parent_id": "angular-momentum",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 2,
+      "provenance_class": "PEDAGOGICAL_GROUPING",
+      "syllabus_sources": [
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 27 (Granular Subtopics)"
+        }
+      ]
+    },
+    "angular-momentum-of-rigid-body": {
+      "id": "angular-momentum-of-rigid-body",
+      "name": "Angular Momentum Of Rigid Body",
+      "level": "SUBTOPIC",
+      "parent_id": "angular-momentum",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 3,
+      "provenance_class": "PEDAGOGICAL_GROUPING",
+      "syllabus_sources": [
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 27 (Granular Subtopics)"
+        }
+      ]
+    },
+    "conservation-of-angular-momentum": {
+      "id": "conservation-of-angular-momentum",
+      "name": "Conservation Of Angular Momentum",
+      "level": "SUBTOPIC",
+      "parent_id": "angular-momentum",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 4,
+      "provenance_class": "PEDAGOGICAL_GROUPING",
+      "syllabus_sources": [
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 27 (Granular Subtopics)"
+        }
+      ]
+    },
+    "variable-moment-of-inertia": {
+      "id": "variable-moment-of-inertia",
+      "name": "Variable Moment Of Inertia",
+      "level": "SUBTOPIC",
+      "parent_id": "angular-momentum",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 5,
+      "provenance_class": "PEDAGOGICAL_GROUPING",
+      "syllabus_sources": [
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 27 (Granular Subtopics)"
+        }
+      ]
+    },
+    "rolling-motion": {
+      "id": "rolling-motion",
+      "name": "Rolling Motion",
+      "level": "TOPIC",
+      "parent_id": "rotational-motion",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 4,
+      "provenance_class": "OFFICIAL_EXAM_COVERAGE",
+      "syllabus_sources": [
+        {
+          "authority": "JEE_ADVANCED",
+          "edition": "2026",
+          "document_ref": "JEE (Advanced) Official Topic Prescriptions"
+        },
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 30/33"
+        }
+      ]
+    },
+    "pure-rolling-kinematics": {
+      "id": "pure-rolling-kinematics",
+      "name": "Pure Rolling Kinematics",
+      "level": "SUBTOPIC",
+      "parent_id": "rolling-motion",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 1,
+      "provenance_class": "PEDAGOGICAL_GROUPING",
+      "syllabus_sources": [
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 27 (Granular Subtopics)"
+        }
+      ]
+    },
+    "pure-rolling-on-horizontal-surface": {
+      "id": "pure-rolling-on-horizontal-surface",
+      "name": "Pure Rolling On Horizontal Surface",
+      "level": "SUBTOPIC",
+      "parent_id": "rolling-motion",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 2,
+      "provenance_class": "PEDAGOGICAL_GROUPING",
+      "syllabus_sources": [
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 27 (Granular Subtopics)"
+        }
+      ]
+    },
+    "rolling-on-inclined-plane": {
+      "id": "rolling-on-inclined-plane",
+      "name": "Rolling On Inclined Plane",
+      "level": "SUBTOPIC",
+      "parent_id": "rolling-motion",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 3,
+      "provenance_class": "PEDAGOGICAL_GROUPING",
+      "syllabus_sources": [
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 27 (Granular Subtopics)"
+        }
+      ]
+    },
+    "toppling-condition": {
+      "id": "toppling-condition",
+      "name": "Toppling Condition",
+      "level": "SUBTOPIC",
+      "parent_id": "rolling-motion",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 4,
+      "provenance_class": "PEDAGOGICAL_GROUPING",
+      "syllabus_sources": [
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 27 (Granular Subtopics)"
+        }
+      ]
+    },
+    "thermodynamics": {
+      "id": "thermodynamics",
+      "name": "Thermodynamics",
+      "level": "CHAPTER",
+      "parent_id": "physics",
+      "subject": "PHYSICS",
+      "aliases": [
+        "thermal-processes"
+      ],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 11,
+      "provenance_class": "OFFICIAL_EXAM_COVERAGE",
+      "syllabus_sources": [
+        {
+          "authority": "JEE_ADVANCED",
+          "edition": "2026",
+          "document_ref": "JEE (Advanced) 2026 Information Brochure - Physics Syllabus"
+        },
+        {
+          "authority": "JEE_MAIN",
+          "edition": "2026",
+          "document_ref": "NTA JEE (Main) 2026 Information Bulletin - Physics Syllabus"
+        }
+      ]
+    },
+    "first-law-and-processes": {
+      "id": "first-law-and-processes",
+      "name": "First Law of Thermodynamics",
+      "level": "TOPIC",
+      "parent_id": "thermodynamics",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 1,
+      "provenance_class": "OFFICIAL_EXAM_COVERAGE",
+      "syllabus_sources": [
+        {
+          "authority": "JEE_ADVANCED",
+          "edition": "2026",
+          "document_ref": "JEE (Advanced) Official Topic Prescriptions"
+        },
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 30/33"
+        }
+      ]
+    },
+    "internal-energy-concept": {
+      "id": "internal-energy-concept",
+      "name": "Internal Energy Concept",
+      "level": "SUBTOPIC",
+      "parent_id": "first-law-and-processes",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 1,
+      "provenance_class": "PEDAGOGICAL_GROUPING",
+      "syllabus_sources": [
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 27 (Granular Subtopics)"
+        }
+      ]
+    },
+    "first-law-statement": {
+      "id": "first-law-statement",
+      "name": "First Law Statement",
+      "level": "SUBTOPIC",
+      "parent_id": "first-law-and-processes",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 2,
+      "provenance_class": "PEDAGOGICAL_GROUPING",
+      "syllabus_sources": [
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 27 (Granular Subtopics)"
+        }
+      ]
+    },
+    "isobaric-process": {
+      "id": "isobaric-process",
+      "name": "Isobaric Process",
+      "level": "SUBTOPIC",
+      "parent_id": "first-law-and-processes",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 3,
+      "provenance_class": "PEDAGOGICAL_GROUPING",
+      "syllabus_sources": [
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 27 (Granular Subtopics)"
+        }
+      ]
+    },
+    "isochoric-process": {
+      "id": "isochoric-process",
+      "name": "Isochoric Process",
+      "level": "SUBTOPIC",
+      "parent_id": "first-law-and-processes",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 4,
+      "provenance_class": "PEDAGOGICAL_GROUPING",
+      "syllabus_sources": [
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 27 (Granular Subtopics)"
+        }
+      ]
+    },
+    "isothermal-process": {
+      "id": "isothermal-process",
+      "name": "Isothermal Process",
+      "level": "SUBTOPIC",
+      "parent_id": "first-law-and-processes",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 5,
+      "provenance_class": "PEDAGOGICAL_GROUPING",
+      "syllabus_sources": [
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 27 (Granular Subtopics)"
+        }
+      ]
+    },
+    "adiabatic-process": {
+      "id": "adiabatic-process",
+      "name": "Adiabatic Process",
+      "level": "SUBTOPIC",
+      "parent_id": "first-law-and-processes",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 6,
+      "provenance_class": "PEDAGOGICAL_GROUPING",
+      "syllabus_sources": [
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 27 (Granular Subtopics)"
+        }
+      ]
+    },
+    "polytropic-processes": {
+      "id": "polytropic-processes",
+      "name": "Polytropic Processes",
+      "level": "SUBTOPIC",
+      "parent_id": "first-law-and-processes",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 7,
+      "provenance_class": "PEDAGOGICAL_GROUPING",
+      "syllabus_sources": [
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 27 (Granular Subtopics)"
+        }
+      ]
+    },
+    "pv-diagrams-and-work": {
+      "id": "pv-diagrams-and-work",
+      "name": "Pv Diagrams And Work",
+      "level": "SUBTOPIC",
+      "parent_id": "first-law-and-processes",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 8,
+      "provenance_class": "PEDAGOGICAL_GROUPING",
+      "syllabus_sources": [
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 27 (Granular Subtopics)"
+        }
+      ]
+    },
+    "heat-engines-and-second-law": {
+      "id": "heat-engines-and-second-law",
+      "name": "Heat Engines and Second Law",
+      "level": "TOPIC",
+      "parent_id": "thermodynamics",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 2,
+      "provenance_class": "OFFICIAL_EXAM_COVERAGE",
+      "syllabus_sources": [
+        {
+          "authority": "JEE_ADVANCED",
+          "edition": "2026",
+          "document_ref": "JEE (Advanced) Official Topic Prescriptions"
+        },
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 30/33"
+        }
+      ]
+    },
+    "carnot-engine-and-efficiency": {
+      "id": "carnot-engine-and-efficiency",
+      "name": "Carnot Engine And Efficiency",
+      "level": "SUBTOPIC",
+      "parent_id": "heat-engines-and-second-law",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 1,
+      "provenance_class": "PEDAGOGICAL_GROUPING",
+      "syllabus_sources": [
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 27 (Granular Subtopics)"
+        }
+      ]
+    },
+    "refrigerator-and-cop": {
+      "id": "refrigerator-and-cop",
+      "name": "Refrigerator And Cop",
+      "level": "SUBTOPIC",
+      "parent_id": "heat-engines-and-second-law",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 2,
+      "provenance_class": "PEDAGOGICAL_GROUPING",
+      "syllabus_sources": [
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 27 (Granular Subtopics)"
+        }
+      ]
+    },
+    "second-law-of-thermodynamics": {
+      "id": "second-law-of-thermodynamics",
+      "name": "Second Law Of Thermodynamics",
+      "level": "SUBTOPIC",
+      "parent_id": "heat-engines-and-second-law",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 3,
+      "provenance_class": "PEDAGOGICAL_GROUPING",
+      "syllabus_sources": [
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 27 (Granular Subtopics)"
+        }
+      ]
+    },
+    "special-thermodynamic-processes": {
+      "id": "special-thermodynamic-processes",
+      "name": "Special Thermodynamic Processes",
+      "level": "TOPIC",
+      "parent_id": "thermodynamics",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 3,
+      "provenance_class": "OFFICIAL_EXAM_COVERAGE",
+      "syllabus_sources": [
+        {
+          "authority": "JEE_ADVANCED",
+          "edition": "2026",
+          "document_ref": "JEE (Advanced) Official Topic Prescriptions"
+        },
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 30/33"
+        }
+      ]
+    },
+    "adiabatic-compression-work": {
+      "id": "adiabatic-compression-work",
+      "name": "Adiabatic Compression Work",
+      "level": "SUBTOPIC",
+      "parent_id": "special-thermodynamic-processes",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 1,
+      "provenance_class": "PEDAGOGICAL_GROUPING",
+      "syllabus_sources": [
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 27 (Granular Subtopics)"
+        }
+      ]
+    },
+    "radiation-thermodynamics": {
+      "id": "radiation-thermodynamics",
+      "name": "Radiation Thermodynamics",
+      "level": "SUBTOPIC",
+      "parent_id": "special-thermodynamic-processes",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 2,
+      "provenance_class": "PEDAGOGICAL_GROUPING",
+      "syllabus_sources": [
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 27 (Granular Subtopics)"
+        }
+      ]
+    },
+    "current-electricity": {
+      "id": "current-electricity",
+      "name": "Current Electricity",
+      "level": "CHAPTER",
+      "parent_id": "physics",
+      "subject": "PHYSICS",
+      "aliases": [
+        "current"
+      ],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 17,
+      "provenance_class": "OFFICIAL_EXAM_COVERAGE",
+      "syllabus_sources": [
+        {
+          "authority": "JEE_ADVANCED",
+          "edition": "2026",
+          "document_ref": "JEE (Advanced) 2026 Information Brochure - Physics Syllabus"
+        },
+        {
+          "authority": "JEE_MAIN",
+          "edition": "2026",
+          "document_ref": "NTA JEE (Main) 2026 Information Bulletin - Physics Syllabus"
+        }
+      ]
+    },
+    "electric-current-and-drift": {
+      "id": "electric-current-and-drift",
+      "name": "Electric Current and Drift",
+      "level": "TOPIC",
+      "parent_id": "current-electricity",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 1,
+      "provenance_class": "OFFICIAL_EXAM_COVERAGE",
+      "syllabus_sources": [
+        {
+          "authority": "JEE_ADVANCED",
+          "edition": "2026",
+          "document_ref": "JEE (Advanced) Official Topic Prescriptions"
+        },
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 30/33"
+        }
+      ]
+    },
+    "electric-current-and-current-density": {
+      "id": "electric-current-and-current-density",
+      "name": "Electric Current And Current Density",
+      "level": "SUBTOPIC",
+      "parent_id": "electric-current-and-drift",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 1,
+      "provenance_class": "PEDAGOGICAL_GROUPING",
+      "syllabus_sources": [
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 27 (Granular Subtopics)"
+        }
+      ]
+    },
+    "drift-velocity-and-mobility": {
+      "id": "drift-velocity-and-mobility",
+      "name": "Drift Velocity And Mobility",
+      "level": "SUBTOPIC",
+      "parent_id": "electric-current-and-drift",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 2,
+      "provenance_class": "PEDAGOGICAL_GROUPING",
+      "syllabus_sources": [
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 27 (Granular Subtopics)"
+        }
+      ]
+    },
+    "ohms-law-microscopic-and-macroscopic": {
+      "id": "ohms-law-microscopic-and-macroscopic",
+      "name": "Ohms Law Microscopic And Macroscopic",
+      "level": "SUBTOPIC",
+      "parent_id": "electric-current-and-drift",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 3,
+      "provenance_class": "PEDAGOGICAL_GROUPING",
+      "syllabus_sources": [
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 27 (Granular Subtopics)"
+        }
+      ]
+    },
+    "resistance-and-resistivity": {
+      "id": "resistance-and-resistivity",
+      "name": "Resistance and Networks",
+      "level": "TOPIC",
+      "parent_id": "current-electricity",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 2,
+      "provenance_class": "OFFICIAL_EXAM_COVERAGE",
+      "syllabus_sources": [
+        {
+          "authority": "JEE_ADVANCED",
+          "edition": "2026",
+          "document_ref": "JEE (Advanced) Official Topic Prescriptions"
+        },
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 30/33"
+        }
+      ]
+    },
+    "factors-affecting-resistance-and-resistivity": {
+      "id": "factors-affecting-resistance-and-resistivity",
+      "name": "Factors Affecting Resistance And Resistivity",
+      "level": "SUBTOPIC",
+      "parent_id": "resistance-and-resistivity",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 1,
+      "provenance_class": "PEDAGOGICAL_GROUPING",
+      "syllabus_sources": [
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 27 (Granular Subtopics)"
+        }
+      ]
+    },
+    "temperature-dependence-of-resistance": {
+      "id": "temperature-dependence-of-resistance",
+      "name": "Temperature Dependence Of Resistance",
+      "level": "SUBTOPIC",
+      "parent_id": "resistance-and-resistivity",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 2,
+      "provenance_class": "PEDAGOGICAL_GROUPING",
+      "syllabus_sources": [
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 27 (Granular Subtopics)"
+        }
+      ]
+    },
+    "stretching-and-recasting-of-wires": {
+      "id": "stretching-and-recasting-of-wires",
+      "name": "Stretching And Recasting Of Wires",
+      "level": "SUBTOPIC",
+      "parent_id": "resistance-and-resistivity",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 3,
+      "provenance_class": "PEDAGOGICAL_GROUPING",
+      "syllabus_sources": [
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 27 (Granular Subtopics)"
+        }
+      ]
+    },
+    "combinations-of-resistors": {
+      "id": "combinations-of-resistors",
+      "name": "Combinations Of Resistors",
+      "level": "SUBTOPIC",
+      "parent_id": "resistance-and-resistivity",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 4,
+      "provenance_class": "PEDAGOGICAL_GROUPING",
+      "syllabus_sources": [
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 27 (Granular Subtopics)"
+        }
+      ]
+    },
+    "dc-circuits": {
+      "id": "dc-circuits",
+      "name": "DC Circuits and Kirchhoff's Laws",
+      "level": "TOPIC",
+      "parent_id": "current-electricity",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 3,
+      "provenance_class": "OFFICIAL_EXAM_COVERAGE",
+      "syllabus_sources": [
+        {
+          "authority": "JEE_ADVANCED",
+          "edition": "2026",
+          "document_ref": "JEE (Advanced) Official Topic Prescriptions"
+        },
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 30/33"
+        }
+      ]
+    },
+    "emf-internal-resistance-terminal-voltage": {
+      "id": "emf-internal-resistance-terminal-voltage",
+      "name": "Emf Internal Resistance Terminal Voltage",
+      "level": "SUBTOPIC",
+      "parent_id": "dc-circuits",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 1,
+      "provenance_class": "PEDAGOGICAL_GROUPING",
+      "syllabus_sources": [
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 27 (Granular Subtopics)"
+        }
+      ]
+    },
+    "grouping-of-cells-series-and-parallel": {
+      "id": "grouping-of-cells-series-and-parallel",
+      "name": "Grouping Of Cells Series And Parallel",
+      "level": "SUBTOPIC",
+      "parent_id": "dc-circuits",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 2,
+      "provenance_class": "PEDAGOGICAL_GROUPING",
+      "syllabus_sources": [
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 27 (Granular Subtopics)"
+        }
+      ]
+    },
+    "kirchhoffs-laws": {
+      "id": "kirchhoffs-laws",
+      "name": "Kirchhoffs Laws",
+      "level": "SUBTOPIC",
+      "parent_id": "dc-circuits",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 3,
+      "provenance_class": "PEDAGOGICAL_GROUPING",
+      "syllabus_sources": [
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 27 (Granular Subtopics)"
+        }
+      ]
+    },
+    "measuring-instruments": {
+      "id": "measuring-instruments",
+      "name": "Measuring Instruments",
+      "level": "SUBTOPIC",
+      "parent_id": "dc-circuits",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 4,
+      "provenance_class": "PEDAGOGICAL_GROUPING",
+      "syllabus_sources": [
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 27 (Granular Subtopics)"
+        }
+      ]
+    },
+    "galvanometer-as-ammeter-and-voltmeter": {
+      "id": "galvanometer-as-ammeter-and-voltmeter",
+      "name": "Galvanometer As Ammeter And Voltmeter",
+      "level": "SUBTOPIC",
+      "parent_id": "dc-circuits",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 5,
+      "provenance_class": "PEDAGOGICAL_GROUPING",
+      "syllabus_sources": [
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 27 (Granular Subtopics)"
+        }
+      ]
+    },
+    "wheatstone-bridge": {
+      "id": "wheatstone-bridge",
+      "name": "Wheatstone Bridge",
+      "level": "SUBTOPIC",
+      "parent_id": "dc-circuits",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 6,
+      "provenance_class": "PEDAGOGICAL_GROUPING",
+      "syllabus_sources": [
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 27 (Granular Subtopics)"
+        }
+      ]
+    },
+    "meter-bridge-and-potentiometer": {
+      "id": "meter-bridge-and-potentiometer",
+      "name": "Meter Bridge And Potentiometer",
+      "level": "SUBTOPIC",
+      "parent_id": "dc-circuits",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 7,
+      "provenance_class": "PEDAGOGICAL_GROUPING",
+      "syllabus_sources": [
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 27 (Granular Subtopics)"
+        }
+      ]
+    },
+    "electrical-power-and-heating": {
+      "id": "electrical-power-and-heating",
+      "name": "Electrical Power and Heating",
+      "level": "TOPIC",
+      "parent_id": "current-electricity",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 4,
+      "provenance_class": "OFFICIAL_EXAM_COVERAGE",
+      "syllabus_sources": [
+        {
+          "authority": "JEE_ADVANCED",
+          "edition": "2026",
+          "document_ref": "JEE (Advanced) Official Topic Prescriptions"
+        },
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 30/33"
+        }
+      ]
+    },
+    "joules-heating-law": {
+      "id": "joules-heating-law",
+      "name": "Joules Heating Law",
+      "level": "SUBTOPIC",
+      "parent_id": "electrical-power-and-heating",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 1,
+      "provenance_class": "PEDAGOGICAL_GROUPING",
+      "syllabus_sources": [
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 27 (Granular Subtopics)"
+        }
+      ]
+    },
+    "electric-power-and-maximum-power-transfer": {
+      "id": "electric-power-and-maximum-power-transfer",
+      "name": "Electric Power And Maximum Power Transfer",
+      "level": "SUBTOPIC",
+      "parent_id": "electrical-power-and-heating",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 2,
+      "provenance_class": "PEDAGOGICAL_GROUPING",
+      "syllabus_sources": [
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 27 (Granular Subtopics)"
+        }
+      ]
+    },
+    "ray-optics": {
+      "id": "ray-optics",
+      "name": "Ray Optics and Optical Instruments",
+      "level": "CHAPTER",
+      "parent_id": "physics",
+      "subject": "PHYSICS",
+      "aliases": [
+        "geometric-optics",
+        "geometrical-optics"
+      ],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 23,
+      "provenance_class": "OFFICIAL_EXAM_COVERAGE",
+      "syllabus_sources": [
+        {
+          "authority": "JEE_ADVANCED",
+          "edition": "2026",
+          "document_ref": "JEE (Advanced) 2026 Information Brochure - Physics Syllabus"
+        },
+        {
+          "authority": "JEE_MAIN",
+          "edition": "2026",
+          "document_ref": "NTA JEE (Main) 2026 Information Bulletin - Physics Syllabus"
+        }
+      ]
+    },
+    "reflection-at-spherical-mirrors": {
+      "id": "reflection-at-spherical-mirrors",
+      "name": "Reflection of Light",
+      "level": "TOPIC",
+      "parent_id": "ray-optics",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 1,
+      "provenance_class": "OFFICIAL_EXAM_COVERAGE",
+      "syllabus_sources": [
+        {
+          "authority": "JEE_ADVANCED",
+          "edition": "2026",
+          "document_ref": "JEE (Advanced) Official Topic Prescriptions"
+        },
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 30/33"
+        }
+      ]
+    },
+    "laws-of-reflection": {
+      "id": "laws-of-reflection",
+      "name": "Laws Of Reflection",
+      "level": "SUBTOPIC",
+      "parent_id": "reflection-at-spherical-mirrors",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 1,
+      "provenance_class": "PEDAGOGICAL_GROUPING",
+      "syllabus_sources": [
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 27 (Granular Subtopics)"
+        }
+      ]
+    },
+    "mirror-formula-and-magnification": {
+      "id": "mirror-formula-and-magnification",
+      "name": "Mirror Formula And Magnification",
+      "level": "SUBTOPIC",
+      "parent_id": "reflection-at-spherical-mirrors",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 2,
+      "provenance_class": "PEDAGOGICAL_GROUPING",
+      "syllabus_sources": [
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 27 (Granular Subtopics)"
+        }
+      ]
+    },
+    "refraction-and-tir": {
+      "id": "refraction-and-tir",
+      "name": "Refraction and Total Internal Reflection",
+      "level": "TOPIC",
+      "parent_id": "ray-optics",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 2,
+      "provenance_class": "OFFICIAL_EXAM_COVERAGE",
+      "syllabus_sources": [
+        {
+          "authority": "JEE_ADVANCED",
+          "edition": "2026",
+          "document_ref": "JEE (Advanced) Official Topic Prescriptions"
+        },
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 30/33"
+        }
+      ]
+    },
+    "snells-law-and-refraction": {
+      "id": "snells-law-and-refraction",
+      "name": "Snells Law And Refraction",
+      "level": "SUBTOPIC",
+      "parent_id": "refraction-and-tir",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 1,
+      "provenance_class": "PEDAGOGICAL_GROUPING",
+      "syllabus_sources": [
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 27 (Granular Subtopics)"
+        }
+      ]
+    },
+    "apparent-depth-and-normal-shift": {
+      "id": "apparent-depth-and-normal-shift",
+      "name": "Apparent Depth And Normal Shift",
+      "level": "SUBTOPIC",
+      "parent_id": "refraction-and-tir",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 2,
+      "provenance_class": "PEDAGOGICAL_GROUPING",
+      "syllabus_sources": [
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 27 (Granular Subtopics)"
+        }
+      ]
+    },
+    "total-internal-reflection": {
+      "id": "total-internal-reflection",
+      "name": "Total Internal Reflection",
+      "level": "SUBTOPIC",
+      "parent_id": "refraction-and-tir",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 3,
+      "provenance_class": "PEDAGOGICAL_GROUPING",
+      "syllabus_sources": [
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 27 (Granular Subtopics)"
+        }
+      ]
+    },
+    "tir-at-interface-with-medium": {
+      "id": "tir-at-interface-with-medium",
+      "name": "Tir At Interface With Medium",
+      "level": "SUBTOPIC",
+      "parent_id": "refraction-and-tir",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 4,
+      "provenance_class": "PEDAGOGICAL_GROUPING",
+      "syllabus_sources": [
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 27 (Granular Subtopics)"
+        }
+      ]
+    },
+    "critical-angle-calculation": {
+      "id": "critical-angle-calculation",
+      "name": "Critical Angle Calculation",
+      "level": "SUBTOPIC",
+      "parent_id": "refraction-and-tir",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 5,
+      "provenance_class": "PEDAGOGICAL_GROUPING",
+      "syllabus_sources": [
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 27 (Granular Subtopics)"
+        }
+      ]
+    },
+    "refraction-at-spherical-surfaces-and-lenses": {
+      "id": "refraction-at-spherical-surfaces-and-lenses",
+      "name": "Lenses and Prisms",
+      "level": "TOPIC",
+      "parent_id": "ray-optics",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 3,
+      "provenance_class": "OFFICIAL_EXAM_COVERAGE",
+      "syllabus_sources": [
+        {
+          "authority": "JEE_ADVANCED",
+          "edition": "2026",
+          "document_ref": "JEE (Advanced) Official Topic Prescriptions"
+        },
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 30/33"
+        }
+      ]
+    },
+    "refraction-at-single-spherical-surface": {
+      "id": "refraction-at-single-spherical-surface",
+      "name": "Refraction At Single Spherical Surface",
+      "level": "SUBTOPIC",
+      "parent_id": "refraction-at-spherical-surfaces-and-lenses",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 1,
+      "provenance_class": "PEDAGOGICAL_GROUPING",
+      "syllabus_sources": [
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 27 (Granular Subtopics)"
+        }
+      ]
+    },
+    "lens-makers-formula-and-thin-lenses": {
+      "id": "lens-makers-formula-and-thin-lenses",
+      "name": "Lens Makers Formula And Thin Lenses",
+      "level": "SUBTOPIC",
+      "parent_id": "refraction-at-spherical-surfaces-and-lenses",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 2,
+      "provenance_class": "PEDAGOGICAL_GROUPING",
+      "syllabus_sources": [
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 27 (Granular Subtopics)"
+        }
+      ]
+    },
+    "combination-of-thin-lenses": {
+      "id": "combination-of-thin-lenses",
+      "name": "Combination Of Thin Lenses",
+      "level": "SUBTOPIC",
+      "parent_id": "refraction-at-spherical-surfaces-and-lenses",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 3,
+      "provenance_class": "PEDAGOGICAL_GROUPING",
+      "syllabus_sources": [
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 27 (Granular Subtopics)"
+        }
+      ]
+    },
+    "prism-refraction-and-minimum-deviation": {
+      "id": "prism-refraction-and-minimum-deviation",
+      "name": "Prism Refraction And Minimum Deviation",
+      "level": "SUBTOPIC",
+      "parent_id": "refraction-at-spherical-surfaces-and-lenses",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 4,
+      "provenance_class": "PEDAGOGICAL_GROUPING",
+      "syllabus_sources": [
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 27 (Granular Subtopics)"
+        }
+      ]
+    },
+    "dispersion-through-prism": {
+      "id": "dispersion-through-prism",
+      "name": "Dispersion Through Prism",
+      "level": "SUBTOPIC",
+      "parent_id": "refraction-at-spherical-surfaces-and-lenses",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 5,
+      "provenance_class": "PEDAGOGICAL_GROUPING",
+      "syllabus_sources": [
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 27 (Granular Subtopics)"
+        }
+      ]
+    },
+    "optical-instruments": {
+      "id": "optical-instruments",
+      "name": "Optical Instruments",
+      "level": "TOPIC",
+      "parent_id": "ray-optics",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 4,
+      "provenance_class": "OFFICIAL_EXAM_COVERAGE",
+      "syllabus_sources": [
+        {
+          "authority": "JEE_ADVANCED",
+          "edition": "2026",
+          "document_ref": "JEE (Advanced) Official Topic Prescriptions"
+        },
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 30/33"
+        }
+      ]
+    },
+    "simple-and-compound-microscope": {
+      "id": "simple-and-compound-microscope",
+      "name": "Simple And Compound Microscope",
+      "level": "SUBTOPIC",
+      "parent_id": "optical-instruments",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 1,
+      "provenance_class": "PEDAGOGICAL_GROUPING",
+      "syllabus_sources": [
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 27 (Granular Subtopics)"
+        }
+      ]
+    },
+    "astronomical-and-terrestrial-telescope": {
+      "id": "astronomical-and-terrestrial-telescope",
+      "name": "Astronomical And Terrestrial Telescope",
+      "level": "SUBTOPIC",
+      "parent_id": "optical-instruments",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 2,
+      "provenance_class": "PEDAGOGICAL_GROUPING",
+      "syllabus_sources": [
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 27 (Granular Subtopics)"
+        }
+      ]
+    },
+    "resolving-power-of-microscope-and-telescope": {
+      "id": "resolving-power-of-microscope-and-telescope",
+      "name": "Resolving Power Of Microscope And Telescope",
+      "level": "SUBTOPIC",
+      "parent_id": "optical-instruments",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": null,
+      "prerequisites": [],
+      "extension_olympiad": false,
+      "active": true,
+      "order": 3,
+      "provenance_class": "PEDAGOGICAL_GROUPING",
+      "syllabus_sources": [
+        {
+          "authority": "PROJECT_BUILD_GUIDE",
+          "edition": "BUILD_GUIDE_V2",
+          "document_ref": "The Fool-Proof Google-Only JEE Physics Master Book Guide Part 27 (Granular Subtopics)"
+        }
+      ]
+    },
+    "advanced-rigid-body-dynamics": {
+      "id": "advanced-rigid-body-dynamics",
+      "name": "Advanced Rigid Body Dynamics (Olympiad Tier)",
+      "level": "EXTENSION",
+      "parent_id": "rotational-motion",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": "Gyroscopic precession, inertia tensor, asymmetric top rotation (Irodov / INPhO / IPhO)",
+      "prerequisites": [
+        "rotational-motion"
+      ],
+      "extension_olympiad": true,
+      "active": true,
+      "order": 1,
+      "provenance_class": "EXTENSION_OLYMPIAD",
+      "syllabus_sources": [
+        {
+          "authority": "OLYMPIAD",
+          "edition": "IPHO_INPHO",
+          "document_ref": "International/National Physics Olympiad & Irodov Advanced Problems"
+        }
+      ]
+    },
+    "radiation-thermodynamics-advanced": {
+      "id": "radiation-thermodynamics-advanced",
+      "name": "Advanced Radiation Thermodynamics (Extension Tier)",
+      "level": "EXTENSION",
+      "parent_id": "thermodynamics",
+      "subject": "PHYSICS",
+      "aliases": [],
+      "description": "Photon gas entropy, radiation pressure on curved surfaces, cavity radiation thermodynamics",
+      "prerequisites": [
+        "thermodynamics"
+      ],
+      "extension_olympiad": true,
+      "active": true,
+      "order": 3,
+      "provenance_class": "EXTENSION_OLYMPIAD",
+      "syllabus_sources": [
+        {
+          "authority": "OLYMPIAD",
+          "edition": "IPHO_INPHO",
+          "document_ref": "International/National Physics Olympiad & Irodov Advanced Problems"
+        }
+      ]
+    }
+  },
+  "dag_nodes": {
+    "curr-units-01": {
+      "curriculum_id": "curr-units-01",
+      "taxonomy_reference": {
+        "chapter_id": "units-and-measurements",
+        "topic_id": "dimensions-and-errors",
+        "subtopic_id": "dimensional-analysis"
+      },
+      "node_type": "CONCEPT",
+      "title": "Dimensional Analysis & Error Propagation",
+      "description": "Pedagogical unit for Dimensional Analysis & Error Propagation",
+      "prerequisite_ids": [],
+      "dependent_ids": [],
+      "mathematical_prerequisites": [
+        "algebra"
+      ],
+      "target_exam_levels": [
+        "JEE_MAIN",
+        "JEE_ADVANCED"
+      ],
+      "pedagogical_role": "FOUNDATION_CONCEPT",
+      "recommended_learning_position": 1,
+      "estimated_learning_weight": 1.0,
+      "difficulty_band": "L2",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    "curr-kin-01": {
+      "curriculum_id": "curr-kin-01",
+      "taxonomy_reference": {
+        "chapter_id": "kinematics",
+        "topic_id": "rectilinear-motion",
+        "subtopic_id": "motion-in-1d"
+      },
+      "node_type": "CONCEPT",
+      "title": "1D Rectilinear Motion & Kinematics Equations",
+      "description": "Pedagogical unit for 1D Rectilinear Motion & Kinematics Equations",
+      "prerequisite_ids": [
+        "curr-units-01"
+      ],
+      "dependent_ids": [],
+      "mathematical_prerequisites": [
+        "differentiation",
+        "integration"
+      ],
+      "target_exam_levels": [
+        "JEE_MAIN",
+        "JEE_ADVANCED"
+      ],
+      "pedagogical_role": "FOUNDATION_CONCEPT",
+      "recommended_learning_position": 2,
+      "estimated_learning_weight": 1.5,
+      "difficulty_band": "L2",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    "curr-kin-02": {
+      "curriculum_id": "curr-kin-02",
+      "taxonomy_reference": {
+        "chapter_id": "kinematics",
+        "topic_id": "projectile-motion",
+        "subtopic_id": "2d-projectile-motion"
+      },
+      "node_type": "CONCEPT",
+      "title": "Projectile Motion & Planar Kinematics",
+      "description": "Pedagogical unit for Projectile Motion & Planar Kinematics",
+      "prerequisite_ids": [
+        "curr-kin-01"
+      ],
+      "dependent_ids": [],
+      "mathematical_prerequisites": [
+        "vectors",
+        "quadratic-equations"
+      ],
+      "target_exam_levels": [
+        "JEE_MAIN",
+        "JEE_ADVANCED"
+      ],
+      "pedagogical_role": "CORE_PRINCIPLE",
+      "recommended_learning_position": 3,
+      "estimated_learning_weight": 2.0,
+      "difficulty_band": "L2",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    "curr-nl-01": {
+      "curriculum_id": "curr-nl-01",
+      "taxonomy_reference": {
+        "chapter_id": "laws-of-motion",
+        "topic_id": "newtons-laws",
+        "subtopic_id": "free-body-diagrams"
+      },
+      "node_type": "PRINCIPLE",
+      "title": "Newton's Laws & Free Body Equilibrium",
+      "description": "Pedagogical unit for Newton's Laws & Free Body Equilibrium",
+      "prerequisite_ids": [
+        "curr-kin-01",
+        "curr-kin-02"
+      ],
+      "dependent_ids": [],
+      "mathematical_prerequisites": [
+        "vector-resolution"
+      ],
+      "target_exam_levels": [
+        "JEE_MAIN",
+        "JEE_ADVANCED"
+      ],
+      "pedagogical_role": "CORE_PRINCIPLE",
+      "recommended_learning_position": 4,
+      "estimated_learning_weight": 2.5,
+      "difficulty_band": "L2",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    "curr-nl-02": {
+      "curriculum_id": "curr-nl-02",
+      "taxonomy_reference": {
+        "chapter_id": "laws-of-motion",
+        "topic_id": "friction",
+        "subtopic_id": "static-and-kinetic-friction"
+      },
+      "node_type": "CONCEPT",
+      "title": "Friction & Non-Conservative Contact Forces",
+      "description": "Pedagogical unit for Friction & Non-Conservative Contact Forces",
+      "prerequisite_ids": [
+        "curr-nl-01"
+      ],
+      "dependent_ids": [],
+      "mathematical_prerequisites": [
+        "inequalities"
+      ],
+      "target_exam_levels": [
+        "JEE_MAIN",
+        "JEE_ADVANCED"
+      ],
+      "pedagogical_role": "CORE_PRINCIPLE",
+      "recommended_learning_position": 5,
+      "estimated_learning_weight": 2.0,
+      "difficulty_band": "L2",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    "curr-wep-01": {
+      "curriculum_id": "curr-wep-01",
+      "taxonomy_reference": {
+        "chapter_id": "work-energy-power",
+        "topic_id": "work-energy-theorem",
+        "subtopic_id": "kinetic-energy-theorem"
+      },
+      "node_type": "PRINCIPLE",
+      "title": "Work-Energy Theorem & Conservative Fields",
+      "description": "Pedagogical unit for Work-Energy Theorem & Conservative Fields",
+      "prerequisite_ids": [
+        "curr-nl-01",
+        "curr-nl-02"
+      ],
+      "dependent_ids": [],
+      "mathematical_prerequisites": [
+        "line-integrals",
+        "dot-product"
+      ],
+      "target_exam_levels": [
+        "JEE_MAIN",
+        "JEE_ADVANCED"
+      ],
+      "pedagogical_role": "CORE_PRINCIPLE",
+      "recommended_learning_position": 6,
+      "estimated_learning_weight": 2.5,
+      "difficulty_band": "L2",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    "curr-com-01": {
+      "curriculum_id": "curr-com-01",
+      "taxonomy_reference": {
+        "chapter_id": "center-of-mass",
+        "topic_id": "center-of-mass-definition",
+        "subtopic_id": "discrete-and-continuous-com"
+      },
+      "node_type": "PRINCIPLE",
+      "title": "Center of Mass & Linear Momentum Conservation",
+      "description": "Pedagogical unit for Center of Mass & Linear Momentum Conservation",
+      "prerequisite_ids": [
+        "curr-nl-01",
+        "curr-wep-01"
+      ],
+      "dependent_ids": [],
+      "mathematical_prerequisites": [
+        "definite-integrals"
+      ],
+      "target_exam_levels": [
+        "JEE_MAIN",
+        "JEE_ADVANCED"
+      ],
+      "pedagogical_role": "CORE_PRINCIPLE",
+      "recommended_learning_position": 7,
+      "estimated_learning_weight": 2.5,
+      "difficulty_band": "L2",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    "curr-rot-01": {
+      "curriculum_id": "curr-rot-01",
+      "taxonomy_reference": {
+        "chapter_id": "rotational-motion",
+        "topic_id": "moment-of-inertia",
+        "subtopic_id": "parallel-and-perpendicular-axis-theorems"
+      },
+      "node_type": "CONCEPT",
+      "title": "Rotational Kinematics & Moment of Inertia",
+      "description": "Pedagogical unit for Rotational Kinematics & Moment of Inertia",
+      "prerequisite_ids": [
+        "curr-kin-02",
+        "curr-com-01"
+      ],
+      "dependent_ids": [],
+      "mathematical_prerequisites": [
+        "volume-integrals"
+      ],
+      "target_exam_levels": [
+        "JEE_MAIN",
+        "JEE_ADVANCED"
+      ],
+      "pedagogical_role": "FOUNDATION_CONCEPT",
+      "recommended_learning_position": 8,
+      "estimated_learning_weight": 2.5,
+      "difficulty_band": "L2",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    "curr-rot-02": {
+      "curriculum_id": "curr-rot-02",
+      "taxonomy_reference": {
+        "chapter_id": "rotational-motion",
+        "topic_id": "torque-and-angular-acceleration",
+        "subtopic_id": "dynamics-of-rigid-body"
+      },
+      "node_type": "PRINCIPLE",
+      "title": "Torque, Angular Acceleration & Rigid Dynamics",
+      "description": "Pedagogical unit for Torque, Angular Acceleration & Rigid Dynamics",
+      "prerequisite_ids": [
+        "curr-rot-01",
+        "curr-nl-01"
+      ],
+      "dependent_ids": [],
+      "mathematical_prerequisites": [
+        "cross-product"
+      ],
+      "target_exam_levels": [
+        "JEE_MAIN",
+        "JEE_ADVANCED"
+      ],
+      "pedagogical_role": "CORE_PRINCIPLE",
+      "recommended_learning_position": 9,
+      "estimated_learning_weight": 3.0,
+      "difficulty_band": "L2",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    "curr-rot-03": {
+      "curriculum_id": "curr-rot-03",
+      "taxonomy_reference": {
+        "chapter_id": "rotational-motion",
+        "topic_id": "angular-momentum",
+        "subtopic_id": "conservation-of-angular-momentum"
+      },
+      "node_type": "PRINCIPLE",
+      "title": "Angular Momentum & Fixed Axis Conservation",
+      "description": "Pedagogical unit for Angular Momentum & Fixed Axis Conservation",
+      "prerequisite_ids": [
+        "curr-rot-02",
+        "curr-com-01"
+      ],
+      "dependent_ids": [],
+      "mathematical_prerequisites": [
+        "cross-product",
+        "conservation-laws"
+      ],
+      "target_exam_levels": [
+        "JEE_MAIN",
+        "JEE_ADVANCED"
+      ],
+      "pedagogical_role": "CORE_PRINCIPLE",
+      "recommended_learning_position": 10,
+      "estimated_learning_weight": 3.5,
+      "difficulty_band": "L2",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    "curr-fluid-01": {
+      "curriculum_id": "curr-fluid-01",
+      "taxonomy_reference": {
+        "chapter_id": "fluid-mechanics",
+        "topic_id": "fluid-statics",
+        "subtopic_id": "pressure-and-pascal-law"
+      },
+      "node_type": "CONCEPT",
+      "title": "Fluid Statics, Hydrostatic Pressure & Pascal's Law",
+      "description": "Pedagogical unit for Fluid Statics, Hydrostatic Pressure & Pascal's Law",
+      "prerequisite_ids": [
+        "curr-nl-01"
+      ],
+      "dependent_ids": [],
+      "mathematical_prerequisites": [
+        "algebra"
+      ],
+      "target_exam_levels": [
+        "JEE_MAIN",
+        "JEE_ADVANCED"
+      ],
+      "pedagogical_role": "FOUNDATION_CONCEPT",
+      "recommended_learning_position": 11,
+      "estimated_learning_weight": 2.0,
+      "difficulty_band": "L2",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    "curr-fluid-02": {
+      "curriculum_id": "curr-fluid-02",
+      "taxonomy_reference": {
+        "chapter_id": "fluid-mechanics",
+        "topic_id": "buoyancy-and-floatation",
+        "subtopic_id": "archimedes-principle"
+      },
+      "node_type": "PRINCIPLE",
+      "title": "Archimedes' Principle & Immiscible Liquid Equilibrium",
+      "description": "Pedagogical unit for Archimedes' Principle & Immiscible Liquid Equilibrium",
+      "prerequisite_ids": [
+        "curr-fluid-01",
+        "curr-nl-01"
+      ],
+      "dependent_ids": [],
+      "mathematical_prerequisites": [
+        "force-balance"
+      ],
+      "target_exam_levels": [
+        "JEE_MAIN",
+        "JEE_ADVANCED"
+      ],
+      "pedagogical_role": "CORE_PRINCIPLE",
+      "recommended_learning_position": 12,
+      "estimated_learning_weight": 2.5,
+      "difficulty_band": "L2",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    "curr-therm-01": {
+      "curriculum_id": "curr-therm-01",
+      "taxonomy_reference": {
+        "chapter_id": "thermal-physics",
+        "topic_id": "thermal-expansion-and-calorimetry",
+        "subtopic_id": "specific-heat-capacity"
+      },
+      "node_type": "CONCEPT",
+      "title": "Temperature, Thermal Expansion & Calorimetry",
+      "description": "Pedagogical unit for Temperature, Thermal Expansion & Calorimetry",
+      "prerequisite_ids": [
+        "curr-units-01"
+      ],
+      "dependent_ids": [],
+      "mathematical_prerequisites": [
+        "proportions"
+      ],
+      "target_exam_levels": [
+        "JEE_MAIN",
+        "JEE_ADVANCED"
+      ],
+      "pedagogical_role": "FOUNDATION_CONCEPT",
+      "recommended_learning_position": 13,
+      "estimated_learning_weight": 1.5,
+      "difficulty_band": "L2",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    "curr-td-01": {
+      "curriculum_id": "curr-td-01",
+      "taxonomy_reference": {
+        "chapter_id": "thermodynamics",
+        "topic_id": "first-law-and-processes",
+        "subtopic_id": "first-law-statement"
+      },
+      "node_type": "PRINCIPLE",
+      "title": "First Law of Thermodynamics & Internal Energy",
+      "description": "Pedagogical unit for First Law of Thermodynamics & Internal Energy",
+      "prerequisite_ids": [
+        "curr-therm-01",
+        "curr-wep-01"
+      ],
+      "dependent_ids": [],
+      "mathematical_prerequisites": [
+        "pv-diagrams",
+        "integration"
+      ],
+      "target_exam_levels": [
+        "JEE_MAIN",
+        "JEE_ADVANCED"
+      ],
+      "pedagogical_role": "CORE_PRINCIPLE",
+      "recommended_learning_position": 14,
+      "estimated_learning_weight": 2.5,
+      "difficulty_band": "L2",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    "curr-td-02": {
+      "curriculum_id": "curr-td-02",
+      "taxonomy_reference": {
+        "chapter_id": "thermodynamics",
+        "topic_id": "first-law-and-processes",
+        "subtopic_id": "adiabatic-process"
+      },
+      "node_type": "CONCEPT",
+      "title": "Adiabatic, Isothermal & Polytropic Gas Processes",
+      "description": "Pedagogical unit for Adiabatic, Isothermal & Polytropic Gas Processes",
+      "prerequisite_ids": [
+        "curr-td-01"
+      ],
+      "dependent_ids": [],
+      "mathematical_prerequisites": [
+        "differential-equations"
+      ],
+      "target_exam_levels": [
+        "JEE_MAIN",
+        "JEE_ADVANCED"
+      ],
+      "pedagogical_role": "CORE_PRINCIPLE",
+      "recommended_learning_position": 15,
+      "estimated_learning_weight": 3.0,
+      "difficulty_band": "L2",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    "curr-es-01": {
+      "curriculum_id": "curr-es-01",
+      "taxonomy_reference": {
+        "chapter_id": "electrostatics",
+        "topic_id": "coulombs-law-and-field",
+        "subtopic_id": "electric-field-intensity"
+      },
+      "node_type": "PRINCIPLE",
+      "title": "Coulomb's Law, Electric Fields & Superposition",
+      "description": "Pedagogical unit for Coulomb's Law, Electric Fields & Superposition",
+      "prerequisite_ids": [
+        "curr-nl-01",
+        "curr-wep-01"
+      ],
+      "dependent_ids": [],
+      "mathematical_prerequisites": [
+        "vector-integration"
+      ],
+      "target_exam_levels": [
+        "JEE_MAIN",
+        "JEE_ADVANCED"
+      ],
+      "pedagogical_role": "CORE_PRINCIPLE",
+      "recommended_learning_position": 16,
+      "estimated_learning_weight": 2.5,
+      "difficulty_band": "L2",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    "curr-es-02": {
+      "curriculum_id": "curr-es-02",
+      "taxonomy_reference": {
+        "chapter_id": "electrostatics",
+        "topic_id": "gausss-law",
+        "subtopic_id": "flux-calculation"
+      },
+      "node_type": "PRINCIPLE",
+      "title": "Gauss's Law & Symmetrical Charge Distributions",
+      "description": "Pedagogical unit for Gauss's Law & Symmetrical Charge Distributions",
+      "prerequisite_ids": [
+        "curr-es-01"
+      ],
+      "dependent_ids": [],
+      "mathematical_prerequisites": [
+        "surface-integrals",
+        "solid-angle"
+      ],
+      "target_exam_levels": [
+        "JEE_MAIN",
+        "JEE_ADVANCED"
+      ],
+      "pedagogical_role": "CORE_PRINCIPLE",
+      "recommended_learning_position": 17,
+      "estimated_learning_weight": 3.0,
+      "difficulty_band": "L2",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    "curr-curr-01": {
+      "curriculum_id": "curr-curr-01",
+      "taxonomy_reference": {
+        "chapter_id": "current-electricity",
+        "topic_id": "electric-current-and-drift",
+        "subtopic_id": "drift-velocity-and-mobility"
+      },
+      "node_type": "CONCEPT",
+      "title": "Drift Velocity, Current Density & Microscopic Ohm's Law",
+      "description": "Pedagogical unit for Drift Velocity, Current Density & Microscopic Ohm's Law",
+      "prerequisite_ids": [
+        "curr-es-01"
+      ],
+      "dependent_ids": [],
+      "mathematical_prerequisites": [
+        "algebra"
+      ],
+      "target_exam_levels": [
+        "JEE_MAIN",
+        "JEE_ADVANCED"
+      ],
+      "pedagogical_role": "FOUNDATION_CONCEPT",
+      "recommended_learning_position": 18,
+      "estimated_learning_weight": 2.0,
+      "difficulty_band": "L2",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    "curr-curr-02": {
+      "curriculum_id": "curr-curr-02",
+      "taxonomy_reference": {
+        "chapter_id": "current-electricity",
+        "topic_id": "resistance-and-resistivity",
+        "subtopic_id": "stretching-and-recasting-of-wires"
+      },
+      "node_type": "CONCEPT",
+      "title": "Resistance, Resistivity & Temperature Dependence",
+      "description": "Pedagogical unit for Resistance, Resistivity & Temperature Dependence",
+      "prerequisite_ids": [
+        "curr-curr-01"
+      ],
+      "dependent_ids": [],
+      "mathematical_prerequisites": [
+        "ratios-and-scaling"
+      ],
+      "target_exam_levels": [
+        "JEE_MAIN",
+        "JEE_ADVANCED"
+      ],
+      "pedagogical_role": "CORE_PRINCIPLE",
+      "recommended_learning_position": 19,
+      "estimated_learning_weight": 2.0,
+      "difficulty_band": "L2",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    "curr-curr-03": {
+      "curriculum_id": "curr-curr-03",
+      "taxonomy_reference": {
+        "chapter_id": "current-electricity",
+        "topic_id": "dc-circuits",
+        "subtopic_id": "kirchhoffs-laws"
+      },
+      "node_type": "PRINCIPLE",
+      "title": "Kirchhoff's Laws, DC Circuit Analysis & Measuring Meters",
+      "description": "Pedagogical unit for Kirchhoff's Laws, DC Circuit Analysis & Measuring Meters",
+      "prerequisite_ids": [
+        "curr-curr-02",
+        "curr-wep-01"
+      ],
+      "dependent_ids": [],
+      "mathematical_prerequisites": [
+        "linear-systems"
+      ],
+      "target_exam_levels": [
+        "JEE_MAIN",
+        "JEE_ADVANCED"
+      ],
+      "pedagogical_role": "CORE_PRINCIPLE",
+      "recommended_learning_position": 20,
+      "estimated_learning_weight": 3.0,
+      "difficulty_band": "L2",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    "curr-opt-01": {
+      "curriculum_id": "curr-opt-01",
+      "taxonomy_reference": {
+        "chapter_id": "ray-optics",
+        "topic_id": "reflection-and-refraction",
+        "subtopic_id": "snells-law-at-plane-interface"
+      },
+      "node_type": "PRINCIPLE",
+      "title": "Fermat's Principle, Snell's Law & Plane Refraction",
+      "description": "Pedagogical unit for Fermat's Principle, Snell's Law & Plane Refraction",
+      "prerequisite_ids": [
+        "curr-kin-02"
+      ],
+      "dependent_ids": [],
+      "mathematical_prerequisites": [
+        "trigonometry"
+      ],
+      "target_exam_levels": [
+        "JEE_MAIN",
+        "JEE_ADVANCED"
+      ],
+      "pedagogical_role": "CORE_PRINCIPLE",
+      "recommended_learning_position": 21,
+      "estimated_learning_weight": 2.0,
+      "difficulty_band": "L2",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    "curr-opt-02": {
+      "curriculum_id": "curr-opt-02",
+      "taxonomy_reference": {
+        "chapter_id": "ray-optics",
+        "topic_id": "refraction-and-tir",
+        "subtopic_id": "total-internal-reflection"
+      },
+      "node_type": "CONCEPT",
+      "title": "Total Internal Reflection & Prism Dispersion",
+      "description": "Pedagogical unit for Total Internal Reflection & Prism Dispersion",
+      "prerequisite_ids": [
+        "curr-opt-01"
+      ],
+      "dependent_ids": [],
+      "mathematical_prerequisites": [
+        "critical-angle-trigonometry"
+      ],
+      "target_exam_levels": [
+        "JEE_MAIN",
+        "JEE_ADVANCED"
+      ],
+      "pedagogical_role": "CORE_PRINCIPLE",
+      "recommended_learning_position": 22,
+      "estimated_learning_weight": 2.5,
+      "difficulty_band": "L2",
+      "confidence": 1.0,
+      "provenance": []
+    }
+  },
+  "dag_edges": [
+    {
+      "from_node_id": "curr-units-01",
+      "to_node_id": "curr-kin-01",
+      "relationship_type": "STRICT_CONCEPTUAL",
+      "evidence": "Physical quantities in 1D motion require dimensional consistency",
+      "rationale": "Displacement, velocity, and acceleration are defined with specific dimensional units.",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    {
+      "from_node_id": "curr-kin-01",
+      "to_node_id": "curr-kin-02",
+      "relationship_type": "STRICT_CONCEPTUAL",
+      "evidence": "Projectile motion is two independent orthogonal 1D rectilinear motions",
+      "rationale": "Galilean independence of x and y axes requires 1D kinematic equations.",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    {
+      "from_node_id": "curr-kin-01",
+      "to_node_id": "curr-nl-01",
+      "relationship_type": "STRICT_CONCEPTUAL",
+      "evidence": "Acceleration from kinematics is coupled to net force in Newton's second law",
+      "rationale": "Kinematic acceleration is the dynamical effect caused by net external force.",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    {
+      "from_node_id": "curr-kin-02",
+      "to_node_id": "curr-nl-01",
+      "relationship_type": "PEDAGOGICAL_PREPARATION",
+      "evidence": "2D vector resolution required for resolving forces along perpendicular axes",
+      "rationale": "Free body diagram force decomposition relies on 2D planar vector components.",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    {
+      "from_node_id": "curr-nl-01",
+      "to_node_id": "curr-nl-02",
+      "relationship_type": "STRICT_CONCEPTUAL",
+      "evidence": "Normal reaction force from Newton's laws determines maximum static friction",
+      "rationale": "Frictional limits depend directly on normal contact force determined via FBD equilibrium.",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    {
+      "from_node_id": "curr-nl-01",
+      "to_node_id": "curr-wep-01",
+      "relationship_type": "STRICT_CONCEPTUAL",
+      "evidence": "Work-Energy theorem is derived from Newton's second law via line integration",
+      "rationale": "Integrating F = m dv/dt with respect to spatial displacement yields the Work-Energy Theorem.",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    {
+      "from_node_id": "curr-nl-02",
+      "to_node_id": "curr-wep-01",
+      "relationship_type": "PEDAGOGICAL_PREPARATION",
+      "evidence": "Dissipative non-conservative work requires friction concept",
+      "rationale": "Energy conservation accounting requires identifying non-conservative friction work.",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    {
+      "from_node_id": "curr-nl-01",
+      "to_node_id": "curr-com-01",
+      "relationship_type": "STRICT_CONCEPTUAL",
+      "evidence": "Center of mass dynamics follows Newton's second law for a system of particles",
+      "rationale": "Internal forces cancel in pairs by Newton's third law, giving F_ext = M a_cm.",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    {
+      "from_node_id": "curr-wep-01",
+      "to_node_id": "curr-com-01",
+      "relationship_type": "PEDAGOGICAL_PREPARATION",
+      "evidence": "Collision mechanics requires simultaneous energy and momentum balance",
+      "rationale": "Elastic and inelastic collisions partition kinetic energy in the CM frame.",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    {
+      "from_node_id": "curr-kin-02",
+      "to_node_id": "curr-rot-01",
+      "relationship_type": "STRICT_CONCEPTUAL",
+      "evidence": "Rotational kinematics maps circular arc length and tangential velocity to angle",
+      "rationale": "Rigid body rotation extends circular motion kinematics to continuous mass distributions.",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    {
+      "from_node_id": "curr-com-01",
+      "to_node_id": "curr-rot-01",
+      "relationship_type": "STRICT_CONCEPTUAL",
+      "evidence": "Parallel axis theorem requires moment of inertia about the center of mass",
+      "rationale": "I = I_cm + M d^2 relies fundamentally on center of mass definition.",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    {
+      "from_node_id": "curr-rot-01",
+      "to_node_id": "curr-rot-02",
+      "relationship_type": "STRICT_CONCEPTUAL",
+      "evidence": "Rotational dynamics equation tau = I alpha requires moment of inertia",
+      "rationale": "Moment of inertia I is the rotational inertia resisting angular acceleration.",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    {
+      "from_node_id": "curr-nl-01",
+      "to_node_id": "curr-rot-02",
+      "relationship_type": "STRICT_CONCEPTUAL",
+      "evidence": "Torque is the rotational analog of force tau = r x F",
+      "rationale": "Newton's laws applied to individual particle elements yield torque balance.",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    {
+      "from_node_id": "curr-rot-02",
+      "to_node_id": "curr-rot-03",
+      "relationship_type": "STRICT_CONCEPTUAL",
+      "evidence": "Conservation of angular momentum requires tau_ext = dL/dt = 0",
+      "rationale": "Zero net external torque is the governing condition for angular momentum conservation.",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    {
+      "from_node_id": "curr-com-01",
+      "to_node_id": "curr-rot-03",
+      "relationship_type": "INTUITIVE_ANALOG",
+      "evidence": "Angular momentum conservation is the rotational analog of linear momentum conservation",
+      "rationale": "Rotational invariance of physical laws yields angular momentum conservation by Noether's theorem.",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    {
+      "from_node_id": "curr-nl-01",
+      "to_node_id": "curr-fluid-01",
+      "relationship_type": "STRICT_CONCEPTUAL",
+      "evidence": "Hydrostatic pressure equilibrium is derived from static force balance",
+      "rationale": "Pressure variation dP = -rho g dy balances the weight of a fluid element.",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    {
+      "from_node_id": "curr-fluid-01",
+      "to_node_id": "curr-fluid-02",
+      "relationship_type": "STRICT_CONCEPTUAL",
+      "evidence": "Archimedes principle is the surface pressure integral over a submerged body",
+      "rationale": "Buoyant force is the net upward hydrostatic pressure force on the body surface.",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    {
+      "from_node_id": "curr-units-01",
+      "to_node_id": "curr-therm-01",
+      "relationship_type": "STRICT_CONCEPTUAL",
+      "evidence": "Calorimetry and thermal expansion rely on fundamental thermal units",
+      "rationale": "Heat capacity and temperature scales require clear dimensional framing.",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    {
+      "from_node_id": "curr-therm-01",
+      "to_node_id": "curr-td-01",
+      "relationship_type": "STRICT_CONCEPTUAL",
+      "evidence": "Heat transfer Q in first law is quantified via calorimetry and heat capacities",
+      "rationale": "First law dQ = dU + dW relates thermal heat transfer to mechanical work.",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    {
+      "from_node_id": "curr-wep-01",
+      "to_node_id": "curr-td-01",
+      "relationship_type": "STRICT_CONCEPTUAL",
+      "evidence": "Thermodynamic boundary work dW = P dV is mechanical work on moving boundary",
+      "rationale": "Boundary work connects thermal system expansion to mechanical force displacement.",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    {
+      "from_node_id": "curr-td-01",
+      "to_node_id": "curr-td-02",
+      "relationship_type": "STRICT_CONCEPTUAL",
+      "evidence": "Adiabatic process is the dQ = 0 condition of the first law of thermodynamics",
+      "rationale": "dU = -dW leads to P V^gamma = constant for reversible adiabatic expansions.",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    {
+      "from_node_id": "curr-nl-01",
+      "to_node_id": "curr-es-01",
+      "relationship_type": "STRICT_CONCEPTUAL",
+      "evidence": "Electrostatic force follows inverse square vector force law",
+      "rationale": "Electrostatic equilibrium requires vector balance of Coulomb and mechanical forces.",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    {
+      "from_node_id": "curr-wep-01",
+      "to_node_id": "curr-es-01",
+      "relationship_type": "STRICT_CONCEPTUAL",
+      "evidence": "Electric potential is conservative potential energy per unit charge",
+      "rationale": "Conservative electrostatic field integral yields potential difference delta V.",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    {
+      "from_node_id": "curr-es-01",
+      "to_node_id": "curr-es-02",
+      "relationship_type": "STRICT_CONCEPTUAL",
+      "evidence": "Gauss's law is the flux formulation of Coulomb inverse square field",
+      "rationale": "Flux of inverse square central field over closed surface gives enclosed charge / epsilon_0.",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    {
+      "from_node_id": "curr-es-01",
+      "to_node_id": "curr-curr-01",
+      "relationship_type": "STRICT_CONCEPTUAL",
+      "evidence": "Internal electric field in conductor drives steady drift velocity",
+      "rationale": "Electric force F = q E accelerates conduction electrons between lattice collisions.",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    {
+      "from_node_id": "curr-curr-01",
+      "to_node_id": "curr-curr-02",
+      "relationship_type": "STRICT_CONCEPTUAL",
+      "evidence": "Resistance R = rho L / A derives from microscopic current density J = sigma E",
+      "rationale": "Macroscopic Ohm's law V = IR integrates microscopic field along wire geometry.",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    {
+      "from_node_id": "curr-curr-02",
+      "to_node_id": "curr-curr-03",
+      "relationship_type": "STRICT_CONCEPTUAL",
+      "evidence": "Kirchhoff's loop and junction laws require resistive potential drops and junctions",
+      "rationale": "Circuit analysis models components with discrete resistances obeying V = IR.",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    {
+      "from_node_id": "curr-wep-01",
+      "to_node_id": "curr-curr-03",
+      "relationship_type": "STRICT_CONCEPTUAL",
+      "evidence": "Kirchhoff's Voltage Law is energy conservation around closed loop",
+      "rationale": "Net work done in moving unit charge around closed electrostatic loop is zero.",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    {
+      "from_node_id": "curr-kin-02",
+      "to_node_id": "curr-opt-01",
+      "relationship_type": "INTUITIVE_ANALOG",
+      "evidence": "Ray paths trace particle trajectories in optical media",
+      "rationale": "Geometric optics rectilinear propagation models light as ray trajectories.",
+      "confidence": 1.0,
+      "provenance": []
+    },
+    {
+      "from_node_id": "curr-opt-01",
+      "to_node_id": "curr-opt-02",
+      "relationship_type": "STRICT_CONCEPTUAL",
+      "evidence": "Total internal reflection occurs when angle of refraction exceeds 90 degrees",
+      "rationale": "Setting r = 90 in Snell's law n1 sin(i) = n2 sin(r) yields critical angle sin(theta_c) = n2/n1.",
+      "confidence": 1.0,
+      "provenance": []
+    }
+  ]
+}

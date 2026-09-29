@@ -1,0 +1,13 @@
+{
+  "manifest_id": "stage_run_run-solver_a-communication-systems-question-8c5f2e76-001",
+  "solver_run_id": "run-solver_a-communication-systems-question-8c5f2e76-001",
+  "solver_agent_name": "solver_a",
+  "atom_id": "communication-systems-question-8c5f2e76",
+  "atom_version": 1,
+  "content_hash": "711b17be2995ef6a2e7e7c3e452f7c5fd1b60fb2bd5549a7d7a589ff198e57a8",
+  "input_source_file": "C:\\Users\\Win11\\OneDrive\\Desktop\\Rishab\\jee physics master book test\\verification\\incoming\\solver_communication-systems-question-8c5f2e76_run-solver_a-communication-systems-question-8c5f2e76-001.json",
+  "staged_destination_file": "C:\\Users\\Win11\\OneDrive\\Desktop\\Rishab\\jee physics master book test\\verification\\solver_runs\\run-solver_a-communication-systems-question-8c5f2e76-001.json",
+  "independent_answer": "468750000",
+  "timestamp": "2026-09-28T03:26:51.991912+00:00",
+  "status": "STAGED"
+}

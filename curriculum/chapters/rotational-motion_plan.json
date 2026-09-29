@@ -1,0 +1,155 @@
+{
+  "plan_id": "plan-rotational-motion-001",
+  "chapter_id": "rotational-motion",
+  "title": "Rotational Motion",
+  "template_type": "MECHANICS",
+  "sections": [
+    {
+      "section_id": "sec-01-moment-of-inertia",
+      "section_order": 1,
+      "title": "Moment of Inertia and the Parallel Axis Theorem",
+      "pedagogical_purpose": "Establish rotational inertia for discrete and continuous mass distributions and apply the parallel axis theorem rigorously through the center of mass.",
+      "concepts": [
+        "concept-rot-moi-01"
+      ],
+      "formula_ids": [
+        "formula-rot-moi-parallel"
+      ],
+      "worked_example_ids": [],
+      "question_atom_ids": [],
+      "misconception_ids": [],
+      "prerequisite_refs": [
+        "curr-com-01"
+      ],
+      "source_references": [
+        "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+        "Fundamentals of Physics-Halliday,Resnick,Walker.pdf"
+      ],
+      "unresolved_gaps": [
+        "Lacks canonical worked examples for perpendicular axis theorem and continuous integration of standard planar bodies in current KB.",
+        "No verified canonical question atoms for standalone parallel axis theorem calculations in current staging."
+      ]
+    },
+    {
+      "section_id": "sec-02-torque-and-rotational-dynamics",
+      "section_order": 2,
+      "title": "Torque and Fixed-Axis Rotational Dynamics",
+      "pedagogical_purpose": "Formulate the dynamical relation tau_net = I alpha for rigid bodies rotating about a fixed axis or accelerating through the center of mass.",
+      "concepts": [
+        "concept-rot-torque-01"
+      ],
+      "formula_ids": [
+        "formula-rot-torque-dyn"
+      ],
+      "worked_example_ids": [],
+      "question_atom_ids": [],
+      "misconception_ids": [],
+      "prerequisite_refs": [
+        "curr-rot-01",
+        "curr-nl-01"
+      ],
+      "source_references": [
+        "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+        "University Physics with Modern Physics, 13th Edition.pdf"
+      ],
+      "unresolved_gaps": [
+        "Missing worked example demonstrating tau = I alpha for coupled pulley-mass systems.",
+        "Absence of verified canonical question atoms for fixed-axis rotational dynamics in current staging."
+      ]
+    },
+    {
+      "section_id": "sec-03-angular-momentum-particle",
+      "section_order": 3,
+      "title": "Angular Momentum of a Particle About Fixed Reference Points",
+      "pedagogical_purpose": "Define angular momentum as a cross product L = r x p and deconstruct the misconception that rectilinear uniform or accelerated motion implies zero angular momentum.",
+      "concepts": [
+        "concept-rot-angmom-particle-01"
+      ],
+      "formula_ids": [
+        "formula-rot-angmom-particle"
+      ],
+      "worked_example_ids": [],
+      "question_atom_ids": [
+        "rotational-motion-question-6c7cb960"
+      ],
+      "misconception_ids": [
+        "misc-rot-01"
+      ],
+      "prerequisite_refs": [
+        "curr-kin-02",
+        "curr-rot-02"
+      ],
+      "source_references": [
+        "jee_rank_booster-03_mock_paper.pdf",
+        "concepts_of_physics_by_h.c._verma_volume_1.pdf"
+      ],
+      "unresolved_gaps": []
+    },
+    {
+      "section_id": "sec-04-angular-momentum-conservation",
+      "section_order": 4,
+      "title": "Conservation of Angular Momentum and Systems with Variable Inertia",
+      "pedagogical_purpose": "Analyze rotational systems under zero external torque, derive angular velocity scaling for variable mass distributions, and contrast angular momentum conservation with non-conservation of mechanical kinetic energy.",
+      "concepts": [
+        "concept-rot-angmom-conservation-01"
+      ],
+      "formula_ids": [
+        "formula-rot-conservation-angmom"
+      ],
+      "worked_example_ids": [
+        "ex-rot-angmom-disc-01"
+      ],
+      "question_atom_ids": [
+        "rotational-motion-question-84f91c20",
+        "rotational-motion-question-f7cbecda"
+      ],
+      "misconception_ids": [
+        "misc-rot-02"
+      ],
+      "prerequisite_refs": [
+        "curr-rot-02",
+        "curr-rot-03"
+      ],
+      "source_references": [
+        "jee_rank_booster-03_mock_paper.pdf",
+        "problems_in_general_physics_by_i_e_irodov.pdf"
+      ],
+      "unresolved_gaps": []
+    },
+    {
+      "section_id": "sec-05-pure-rolling-kinematics",
+      "section_order": 5,
+      "title": "Pure Rolling Kinematics and Energy Methods",
+      "pedagogical_purpose": "Connect translational and rotational kinematics under the non-slip constraint v_cm = R omega, analyze instantaneous center of rotation, and formulate combined kinetic energy.",
+      "concepts": [],
+      "formula_ids": [],
+      "worked_example_ids": [],
+      "question_atom_ids": [],
+      "misconception_ids": [],
+      "prerequisite_refs": [
+        "curr-rot-01",
+        "curr-rot-02",
+        "curr-kin-02"
+      ],
+      "source_references": [
+        "concepts_of_physics_by_h.c._verma_volume_1.pdf"
+      ],
+      "unresolved_gaps": [
+        "Pure rolling subtopic has no approved concept nodes, formula records, worked examples, or question atoms in ChapterSpec.",
+        "Need canonical atoms for rolling friction direction and acceleration on an inclined plane."
+      ]
+    }
+  ],
+  "pedagogical_synthesis_notes": [
+    "Mechanics Template: Progression follows structural hierarchy from rotational inertia (mass analog) to dynamics (tau = I alpha) to state quantities (L = r x p), culminating in conservation principles and variable inertia systems.",
+    "Scaffolded Progression: Section 3 and Section 4 leverage question ladder 'ladder-rot-ang-mom-01', taking students from single-particle trajectory angular momentum to complex two-body variable inertia conservation.",
+    "Misconception Disruption: Section 3 directly targets misc-rot-01 (straight-line motion having zero L), while Section 4 systematically breaks misc-rot-02 (mistaken assumption of kinetic energy conservation during radial mass redistribution)."
+  ],
+  "unresolved_gaps": [
+    "Gap in Topic 'moment-of-inertia': No canonical question atoms or worked examples currently staged for continuous mass integration or parallel/perpendicular axis theorem application.",
+    "Gap in Topic 'torque-and-rotation': Missing verified question atoms and worked examples for rotational equilibrium and fixed-axis dynamic torque problems (tau = I alpha).",
+    "Gap in Topic 'rolling-motion': Subtopic pure-rolling-kinematics in taxonomy references has zero approved concept placements, formulas, worked examples, or question atoms in the ChapterSpec.",
+    "Difficulty distribution gap: L4/L5 advanced synthesis questions (e.g. combined collision and rotation, rolling with sliding transition) are missing to satisfy top-percentile JEE Advanced preparation."
+  ],
+  "created_at": "2026-09-28T22:15:00Z"
+}

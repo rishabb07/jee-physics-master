@@ -1,0 +1,103 @@
+{
+  "$defs": {
+    "SubjectType": {
+      "description": "Authoritative subject-level domain boundaries.",
+      "enum": [
+        "PHYSICS",
+        "CHEMISTRY",
+        "MATHEMATICS",
+        "NON_CONTENT",
+        "OTHER",
+        "MIXED",
+        "UNCERTAIN"
+      ],
+      "title": "SubjectType",
+      "type": "string"
+    }
+  },
+  "description": "Authoritative subject-boundary classification for a source document or page range.",
+  "properties": {
+    "classification_id": {
+      "description": "Unique ID for this classification record",
+      "title": "Classification Id",
+      "type": "string"
+    },
+    "source_id": {
+      "description": "Target source ID",
+      "title": "Source Id",
+      "type": "string"
+    },
+    "page_start": {
+      "description": "Start page number (1-indexed)",
+      "minimum": 1,
+      "title": "Page Start",
+      "type": "integer"
+    },
+    "page_end": {
+      "description": "End page number (1-indexed)",
+      "minimum": 1,
+      "title": "Page End",
+      "type": "integer"
+    },
+    "subject": {
+      "$ref": "#/$defs/SubjectType",
+      "description": "Classified subject (PHYSICS, CHEMISTRY, MATHEMATICS, etc.)"
+    },
+    "confidence": {
+      "description": "Classification confidence score",
+      "maximum": 1.0,
+      "minimum": 0.0,
+      "title": "Confidence",
+      "type": "number"
+    },
+    "reason": {
+      "description": "Reasoning and visual/textual evidence for classification",
+      "minLength": 1,
+      "title": "Reason",
+      "type": "string"
+    },
+    "detected_markers": {
+      "description": "Section headers, subject titles, or formulas observed",
+      "items": {
+        "type": "string"
+      },
+      "title": "Detected Markers",
+      "type": "array"
+    },
+    "status": {
+      "default": "PROPOSED",
+      "description": "'PROPOSED', 'VALIDATED', 'EXCEPTION_PENDING', or 'REJECTED'",
+      "title": "Status",
+      "type": "string"
+    },
+    "classified_at": {
+      "format": "date-time",
+      "title": "Classified At",
+      "type": "string"
+    },
+    "notes": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Boundary nuances, e.g. transitional page",
+      "title": "Notes"
+    }
+  },
+  "required": [
+    "classification_id",
+    "source_id",
+    "page_start",
+    "page_end",
+    "subject",
+    "confidence",
+    "reason"
+  ],
+  "title": "SubjectClassificationRecord",
+  "type": "object"
+}

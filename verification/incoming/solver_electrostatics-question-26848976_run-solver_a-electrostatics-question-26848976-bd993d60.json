@@ -1,0 +1,22 @@
+{
+  "solver_run_id": "run-solver_a-electrostatics-question-26848976-bd993d60",
+  "solver_agent_name": "solver_a",
+  "atom_id": "electrostatics-question-26848976",
+  "atom_version": 1,
+  "content_hash": "d7020c8e10f9bb41d499b728f1ffe03e59d5938e3d6677fa810e352181960f16",
+  "verification_protocol_version": "1.0.0",
+  "blind_package_hash": "75da52e0daa97ee113399a3c2a6179fd4dcfc38056b4e45fe9489abbef06d105",
+  "independent_answer": "A",
+  "raw_answer": "Option A",
+  "reasoning_steps": [
+    "Bridge circuit equivalent capacitance",
+    "Series and parallel combination reduction"
+  ],
+  "assumptions_used": [
+    "Standard physical assumptions"
+  ],
+  "diagram_interpretation": null,
+  "uncertainty": null,
+  "possible_ambiguities": [],
+  "created_at": "2026-09-28T03:26:20.575325Z"
+}

@@ -1,0 +1,446 @@
+[
+  {
+    "package_id": "pkg-kinematics-question-b29767c8-fb1f592f",
+    "atom_id": "kinematics-question-b29767c8",
+    "atom_version": 1,
+    "content_hash": "75a50f78ef107d1abfddbc5ccff76b0166dbb7d41f4e877fb6f0fe3032875d5b",
+    "blind_package_hash": "7e4d541cd9e3c195682db0f6a15be1b9baa74924aa232d12c0b3128df2b119c7",
+    "statement": "The position of a projectile launched from the origin at $t = 0$ is given by $\\vec{r} = (40\\hat{i} + 50\\hat{j})\\text{ m}$ at $t = 2\\text{ s}$. If the projectile was launched at an angle $\\theta$ from the horizontal, then $\\theta$ is\n(take $g = 10\\text{ ms}^{-2}$)",
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\tan^{-1}\\frac{2}{3}$"
+      },
+      {
+        "id": "B",
+        "text": "$\\tan^{-1}\\frac{3}{2}$"
+      },
+      {
+        "id": "C",
+        "text": "$\\tan^{-1}\\frac{7}{4}$"
+      },
+      {
+        "id": "D",
+        "text": "$\\tan^{-1}\\frac{4}{5}$"
+      }
+    ],
+    "figure_refs": [],
+    "difficulty": "L2",
+    "concepts": [
+      "projectile motion",
+      "position vector",
+      "launch angle",
+      "kinematic equations"
+    ],
+    "exam_metadata": {
+      "exam": "JEE Rank Booster Mock",
+      "exam_name": "JEE Rank Booster Mock",
+      "year": null,
+      "paper": 3,
+      "question_number": "11"
+    },
+    "context_notes": null
+  },
+  {
+    "package_id": "pkg-rotational-motion-question-f7cbecda-a28ee2a5",
+    "atom_id": "rotational-motion-question-f7cbecda",
+    "atom_version": 1,
+    "content_hash": "729335ea8d2363b7b4f02d4c22c2c28352bc06a5093b5760855b1c5a20a7ff38",
+    "blind_package_hash": "762971ec073a0db8fcac144b5f054efeee108518a11e36347f41c0214d4655fc",
+    "statement": "A thin horizontal circular disc is rotating about a vertical axis passing through its centre. An insect is at rest at a point near the rim of the disc. The insect now moves along a diameter of the disc to reach its other end. During the journey of the insect, the angular speed of the disc",
+    "options": [
+      {
+        "id": "A",
+        "text": "continuously decreases"
+      },
+      {
+        "id": "B",
+        "text": "continuously increases"
+      },
+      {
+        "id": "C",
+        "text": "first increases and then decreases"
+      },
+      {
+        "id": "D",
+        "text": "remains unchanged"
+      }
+    ],
+    "figure_refs": [],
+    "difficulty": "L2",
+    "concepts": [
+      "rotational-motion",
+      "conservation-of-angular-momentum",
+      "moment-of-inertia"
+    ],
+    "exam_metadata": {
+      "exam": "JEE Rank Booster Mock",
+      "exam_name": "JEE Rank Booster Mock",
+      "year": null,
+      "paper": 3,
+      "question_number": "12"
+    },
+    "context_notes": null
+  },
+  {
+    "package_id": "pkg-current-electricity-question-d2492f7f-0d41874e",
+    "atom_id": "current-electricity-question-d2492f7f",
+    "atom_version": 1,
+    "content_hash": "5191a1c0c5850b6fa92086f0bf29a9b6544e9692f7cafc452719aebd3abff836",
+    "blind_package_hash": "45c1c1eb3d4e364aeca7d798e2a54c3109f195567ed7069c90ed7ca749afd1c5",
+    "statement": "An ideal ammeter (zero resistance) and an ideal voltmeter (infinite resistance) are connected as shown. The ammeter and voltmeter reading for $R_{1} = 5\\,\\Omega$, $R_{2} = 15\\,\\Omega$, $R_{3} = 1.25\\,\\Omega$ and $E = 20\\text{ V}$ are given as",
+    "options": [
+      {
+        "id": "A",
+        "text": "$6.25\\text{ A},\\; 3.75\\text{ V}$"
+      },
+      {
+        "id": "B",
+        "text": "$3.00\\text{ A},\\; 5\\text{ V}$"
+      },
+      {
+        "id": "C",
+        "text": "$3.75\\text{ A},\\; 3.75\\text{ V}$"
+      },
+      {
+        "id": "D",
+        "text": "$6.25\\text{ A},\\; 6.25\\text{ V}$"
+      }
+    ],
+    "figure_refs": [
+      {
+        "figure_id": "fig-src-jee-rank-booster-03-mock-p04-q13",
+        "caption": "Circuit diagram with $R_1 = 5\\,\\Omega$ and $R_2 = 15\\,\\Omega$ in parallel, each branch containing a resistor, with an ammeter (A) in series with $R_1$. This parallel combination is connected in series with $R_3 = 1.25\\,\\Omega$, across which a voltmeter (V) is connected. The circuit is powered by an EMF source $E = 20\\text{ V}$.",
+        "alt_text": "Electrical circuit diagram with a DC voltage source E = 20 V. Two resistors R1 = 5 ohms (with ammeter A in series) and R2 = 15 ohms are connected in parallel. This parallel block is connected in series with R3 = 1.25 ohms. A voltmeter V is connected in parallel across the R1-R2 parallel combination."
+      }
+    ],
+    "difficulty": "L2",
+    "concepts": [
+      "current-electricity",
+      "ohms-law",
+      "ammeter",
+      "voltmeter",
+      "kirchhoffs-laws"
+    ],
+    "exam_metadata": {
+      "exam": "JEE Rank Booster Mock",
+      "exam_name": "JEE Rank Booster Mock",
+      "year": null,
+      "paper": 3,
+      "question_number": "13"
+    },
+    "context_notes": null
+  },
+  {
+    "package_id": "pkg-thermodynamics-question-71b685c0-7b7c58d3",
+    "atom_id": "thermodynamics-question-71b685c0",
+    "atom_version": 1,
+    "content_hash": "989a378467ccf659bd7bd108e19c9956e6d7e862c73e86043bd81d15e4e2aab1",
+    "blind_package_hash": "5f271ba083f0adbb2d9731efd6f6b9139643f42845a7bccda05536255a66cdde",
+    "statement": "A monoatomic ideal gas is filled in a nonconducting container. The gas can be compressed by a movable nonconducting piston. The gas is compressed slowly to $12.5\\%$ of its initial volume.\nFind final temperature of the gas if it is $T_{0}$ initially\u2013",
+    "options": [
+      {
+        "id": "A",
+        "text": "$4T_{0}$"
+      },
+      {
+        "id": "B",
+        "text": "$3T_{0}$"
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{2}{3}\\,T_{0}$"
+      },
+      {
+        "id": "D",
+        "text": "$T_{0}$"
+      }
+    ],
+    "figure_refs": [],
+    "difficulty": "L2",
+    "concepts": [
+      "thermodynamics",
+      "adiabatic-process",
+      "ideal-gas",
+      "gamma-monoatomic"
+    ],
+    "exam_metadata": {
+      "exam": "JEE Rank Booster Mock",
+      "exam_name": "JEE Rank Booster Mock",
+      "year": null,
+      "paper": 3,
+      "question_number": "14"
+    },
+    "context_notes": null
+  },
+  {
+    "package_id": "pkg-electrostatics-question-132c25d1-f7a2f45d",
+    "atom_id": "electrostatics-question-132c25d1",
+    "atom_version": 1,
+    "content_hash": "55511314791636289281fa986d2b38358fd33945eb154d89f87d5bc7ea6a59a7",
+    "blind_package_hash": "a3b434e1bb06f04e4336a43dd2f351b10012aaa683b6d2ad099379cca44e8e62",
+    "statement": "A point charge $+Q$ is positioned at the center of the base of a square pyramid as shown. The flux through one of the four identical upper faces of the pyramid is \u2013",
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{Q}{16\\varepsilon_{0}}$"
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{Q}{4\\varepsilon_{0}}$"
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{Q}{8\\varepsilon_{0}}$"
+      },
+      {
+        "id": "D",
+        "text": "None of these"
+      }
+    ],
+    "figure_refs": [
+      {
+        "figure_id": "fig-src-jee-rank-booster-03-mock-p04-q15",
+        "caption": "Square pyramid with a point charge $+Q$ at the center of its square base.",
+        "alt_text": "Perspective 3D line drawing of a square pyramid with four triangular upper faces sloping to an apex. A solid dot labeled +Q is placed at the center of the square base."
+      }
+    ],
+    "difficulty": "L3",
+    "concepts": [
+      "electrostatics",
+      "gausss-law",
+      "electric-flux",
+      "symmetry-arguments"
+    ],
+    "exam_metadata": {
+      "exam": "JEE Rank Booster Mock",
+      "exam_name": "JEE Rank Booster Mock",
+      "year": null,
+      "paper": 3,
+      "question_number": "15"
+    },
+    "context_notes": null
+  },
+  {
+    "package_id": "pkg-fluid-mechanics-question-71ea5e08-39cbb946",
+    "atom_id": "fluid-mechanics-question-71ea5e08",
+    "atom_version": 1,
+    "content_hash": "4f8473663e36491674455ad903d7f97af23d3aca69a7268dff8caa6ecb403a7c",
+    "blind_package_hash": "40858b1ef0827664e98fbe8a36d9e4faf6b0d4af88388a457bb57256e73177e9",
+    "statement": "A jar is filled with two non-mixing liquids 1 and 2 having densities $\\rho_{1}$ and, $\\rho_{2}$ respectively. A solid ball, made of a material of density $\\rho_{3}$, is dropped in the jar. It comes to equilibrium in the position shown in the figure. Which of the following is true for $\\rho_{1}$, $\\rho_{1}$ and $\\rho_{3}$?",
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\rho_{3} < \\rho_{1} < \\rho_{2}$"
+      },
+      {
+        "id": "B",
+        "text": "$\\rho_{1} > \\rho_{3} > \\rho_{2}$"
+      },
+      {
+        "id": "C",
+        "text": "$\\rho_{1} < \\rho_{2} < \\rho_{3}$"
+      },
+      {
+        "id": "D",
+        "text": "$\\rho_{1} < \\rho_{3} < \\rho_{2}$"
+      }
+    ],
+    "figure_refs": [
+      {
+        "figure_id": "fig-src-jee-rank-booster-03-mock-p04-q16",
+        "caption": "Jar with two non-mixing liquid layers: Liquid 1 (density $\\rho_1$) on top and Liquid 2 (density $\\rho_2$) on bottom, with a solid ball of density $\\rho_3$ in equilibrium at the interface.",
+        "alt_text": "Cross-section of a rectangular jar containing two immiscible liquid layers. The upper layer is labeled 'Liquid 1: rho_1' and the lower layer is labeled 'Liquid 2: rho_2'. A shaded spherical ball is shown floating at the boundary between the two liquids, partially submerged in each."
+      }
+    ],
+    "difficulty": "L2",
+    "concepts": [
+      "fluid-mechanics",
+      "buoyancy",
+      "archimedes-principle",
+      "relative-density"
+    ],
+    "exam_metadata": {
+      "exam": "JEE Rank Booster Mock",
+      "exam_name": "JEE Rank Booster Mock",
+      "year": null,
+      "paper": 3,
+      "question_number": "16"
+    },
+    "context_notes": null
+  },
+  {
+    "package_id": "pkg-oscillations-question-d21a08b6-02e75177",
+    "atom_id": "oscillations-question-d21a08b6",
+    "atom_version": 1,
+    "content_hash": "143acbc0d6713ef9815870159f577f998760ee612e2d56405d59f2fc4ec134a4",
+    "blind_package_hash": "1f2fce38a58935b23e192153d58d1a5dc3c680101635042ce002aabadfaf7843",
+    "statement": "A point particle of mass $0.1\\text{ kg}$ is executing SHM of amplitude of $0.1\\text{ m}$. When the particle passes through the mean position, its kinetic energy is $18 \\times 10^{-3}\\text{ J}$. The equation of motion of this particle when the initial phase of oscillation is $45^{\\circ}$ can be given by \u2013",
+    "options": [
+      {
+        "id": "A",
+        "text": "$y = 0.1 \\cos\\left(6t + \\frac{\\pi}{4}\\right)$"
+      },
+      {
+        "id": "B",
+        "text": "$y = 0.1 \\sin\\left(6t + \\frac{\\pi}{4}\\right)$"
+      },
+      {
+        "id": "C",
+        "text": "$y = 0.4 \\sin\\left(t + \\frac{\\pi}{4}\\right)$"
+      },
+      {
+        "id": "D",
+        "text": "$y = 0.2 \\sin\\left(\\frac{\\pi}{2} + 2t\\right)$"
+      }
+    ],
+    "figure_refs": [],
+    "difficulty": "L2",
+    "concepts": [
+      "simple-harmonic-motion",
+      "kinetic-energy",
+      "angular-frequency",
+      "phase-constant"
+    ],
+    "exam_metadata": {
+      "exam": "JEE Rank Booster Mock",
+      "exam_name": "JEE Rank Booster Mock",
+      "year": null,
+      "paper": 3,
+      "question_number": "17"
+    },
+    "context_notes": null
+  },
+  {
+    "package_id": "pkg-properties-of-solids-question-2d7d920e-40627c7f",
+    "atom_id": "properties-of-solids-question-2d7d920e",
+    "atom_version": 1,
+    "content_hash": "ac8311ce50f56ee203ac025c2b65c4a7fec09676ff7d9c4603ebeb4feab9422a",
+    "blind_package_hash": "5ddfc16a3fdbd4067d8f908d226324203e02d8c89b7a6bb525e7469fad0155dd",
+    "statement": "What happens when the applied load increases and upto breaking stress in the experiment to determine the Young's modulus of elasticity?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The area of wire goes on decreasing and wire extends and breaks."
+      },
+      {
+        "id": "B",
+        "text": "The area of wire goes on increasing and wire breaks."
+      },
+      {
+        "id": "C",
+        "text": "The wire extends and area remains constant."
+      },
+      {
+        "id": "D",
+        "text": "The area remains same and wire length is also same."
+      }
+    ],
+    "figure_refs": [],
+    "difficulty": "L1",
+    "concepts": [
+      "elasticity",
+      "youngs-modulus",
+      "breaking-stress",
+      "necking"
+    ],
+    "exam_metadata": {
+      "exam": "JEE Rank Booster Mock",
+      "exam_name": "JEE Rank Booster Mock",
+      "year": null,
+      "paper": 3,
+      "question_number": "18"
+    },
+    "context_notes": null
+  },
+  {
+    "package_id": "pkg-laws-of-motion-question-ba0b4106-b1b924ec",
+    "atom_id": "laws-of-motion-question-ba0b4106",
+    "atom_version": 1,
+    "content_hash": "ed05220acebdaf00fbb9dbf39e2a0d8441e4058a97ad7049def7d36dc0f66427",
+    "blind_package_hash": "21c57352c017f717b7fa7200f76bdec418faca82346575289810f96fe2e9234c",
+    "statement": "An insect crawls up a hemispherical surface very slowly. The coefficient of friction between the insect and the surface is $\\frac{1}{3}$. If the line joining the centre of the hemispherical surface to the insect makes an angle $\\alpha$ with the vertical, the maximum possible value of $\\alpha$ so that the insect does not slip is given by",
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\cot \\alpha = 3$"
+      },
+      {
+        "id": "B",
+        "text": "$\\sec \\alpha = 3$"
+      },
+      {
+        "id": "C",
+        "text": "$\\operatorname{cosec} \\alpha = 3$"
+      },
+      {
+        "id": "D",
+        "text": "$\\cos \\alpha = 3$"
+      }
+    ],
+    "figure_refs": [
+      {
+        "figure_id": "fig-src-jee-rank-booster-03-mock-p05-q19",
+        "caption": "Insect on a hemispherical surface making angle $\\alpha$ with the vertical from the centre.",
+        "alt_text": "Cross-section of a concave hemispherical bowl with a dashed vertical axis. A small insect rests on the inner curved surface. A dashed radial line from the center of curvature to the insect makes angle alpha with the vertical axis."
+      }
+    ],
+    "difficulty": "L2",
+    "concepts": [
+      "laws-of-motion",
+      "limiting-friction",
+      "circular-geometry",
+      "static-equilibrium"
+    ],
+    "exam_metadata": {
+      "exam": "JEE Rank Booster Mock",
+      "exam_name": "JEE Rank Booster Mock",
+      "year": null,
+      "paper": 3,
+      "question_number": "19"
+    },
+    "context_notes": null
+  },
+  {
+    "package_id": "pkg-magnetism-and-matter-question-3c3af9c7-a8ab0aff",
+    "atom_id": "magnetism-and-matter-question-3c3af9c7",
+    "atom_version": 1,
+    "content_hash": "4f75f153a39d8442a12e351b16adff316cd56e03e4bbdd92bdd30b0ca759faf3",
+    "blind_package_hash": "39db62574ec8bef81a53ffc7130cbdd22529fb8fdba14b2c82ba0202ee27254a",
+    "statement": "The length of a magnet is large compared to its width and breadth. The time period of its oscillation in a vibration magnetometer is $2\\text{ s}$. The magnet is cut along its length into three equal parts and these parts are then placed on each other with their like poles together. The time period of this combination will be",
+    "options": [
+      {
+        "id": "A",
+        "text": "$2\\sqrt{3}\\text{ s}$"
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{2}{3}\\text{ s}$"
+      },
+      {
+        "id": "C",
+        "text": "$2\\text{ s}$"
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{2}{\\sqrt{3}}\\text{ s}$"
+      }
+    ],
+    "figure_refs": [],
+    "difficulty": "L3",
+    "concepts": [
+      "magnetism",
+      "vibration-magnetometer",
+      "magnetic-dipole-moment",
+      "moment-of-inertia"
+    ],
+    "exam_metadata": {
+      "exam": "JEE Rank Booster Mock",
+      "exam_name": "JEE Rank Booster Mock",
+      "year": null,
+      "paper": 3,
+      "question_number": "20"
+    },
+    "context_notes": null
+  }
+]

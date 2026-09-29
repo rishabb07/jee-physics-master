@@ -1,0 +1,14 @@
+{
+  "promotion_id": "promo-nuclear-physics-question-4e1b8a32-87ba2b",
+  "atom_id": "nuclear-physics-question-4e1b8a32",
+  "verification_id": "verif-nuclear-physics-question-4e1b8a32-db488d",
+  "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+  "atom_version": 1,
+  "staged_path": "build/staging/atoms/batch_src-jee-rank-booster-03-mock-256f42c6_20260927_201642_27f4.jsonl",
+  "canonical_path": "kb\\atoms\\nuclear-physics-question-4e1b8a32.json",
+  "verdict": "VERIFIED",
+  "source_claimed_answer": null,
+  "verified_answer": "19035",
+  "timestamp": "2026-09-28T03:29:19.855500Z",
+  "promoted_by": "promotion_gate"
+}

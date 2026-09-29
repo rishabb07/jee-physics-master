@@ -1,0 +1,30 @@
+{
+  "verification_id": "verif-laws-of-motion-question-ba0b4106-8ef998",
+  "atom_id": "laws-of-motion-question-ba0b4106",
+  "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+  "atom_version": 1,
+  "content_hash": "ed05220acebdaf00fbb9dbf39e2a0d8441e4058a97ad7049def7d36dc0f66427",
+  "verification_protocol_version": "1.0.0",
+  "solver_run_ids": [
+    "run-solver_a-laws-of-motion-question-ba0b4106-2ccbc6df",
+    "run-solver_b-laws-of-motion-question-ba0b4106-1eb814c6"
+  ],
+  "source_claimed_answer": null,
+  "source_solution": null,
+  "independent_answers": {
+    "solver_a": "A",
+    "solver_b": "A"
+  },
+  "independent_solutions": {
+    "solver_a": "1. The normal force on the insect is N = mg * cos(alpha).\n2. The downward tangential force due to gravity is mg * sin(alpha).\n3. For the insect not to slip, the frictional force must balance this: mg * sin(alpha) <= mu * N.",
+    "solver_b": "The normal force on the insect is N = mg cos(alpha).\nThe tangential component of gravity trying to pull the insect down is mg sin(alpha).\nFor the insect not to slip, the static friction must balance this tangential force: f = mg sin(alpha)."
+  },
+  "consensus_answer": "A",
+  "verdict": "VERIFIED",
+  "confidence": 0.99,
+  "discrepancy_classification": "SOURCE_ANSWER_MISSING",
+  "adjudication_result": null,
+  "created_at": "2026-09-28T03:29:19.796189Z",
+  "completed_at": "2026-09-28T03:29:19.796189Z",
+  "metadata": {}
+}

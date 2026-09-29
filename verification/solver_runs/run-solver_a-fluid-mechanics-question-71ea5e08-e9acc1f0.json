@@ -1,0 +1,27 @@
+{
+  "solver_run_id": "run-solver_a-fluid-mechanics-question-71ea5e08-e9acc1f0",
+  "atom_id": "fluid-mechanics-question-71ea5e08",
+  "solver_id": "solver_a",
+  "solver_agent_name": "solver_a",
+  "atom_version": 1,
+  "content_hash": "4f8473663e36491674455ad903d7f97af23d3aca69a7268dff8caa6ecb403a7c",
+  "verification_protocol_version": "1.0.0",
+  "blind_package_hash": "40858b1ef0827664e98fbe8a36d9e4faf6b0d4af88388a457bb57256e73177e9",
+  "model_name": null,
+  "independent_answer": "D",
+  "raw_answer": "rho_1 < rho_3 < rho_2",
+  "reasoning_steps": [
+    "1. The ball comes to equilibrium at the interface between liquid 1 and liquid 2.",
+    "2. It sinks in liquid 1, meaning its density is greater than liquid 1: rho_3 > rho_1.",
+    "3. It floats on liquid 2, meaning its density is less than liquid 2: rho_3 < rho_2.",
+    "4. Therefore, rho_1 < rho_3 < rho_2."
+  ],
+  "assumptions_used": [
+    "Standard physics assumptions apply"
+  ],
+  "uncertainty": null,
+  "diagram_interpretation": null,
+  "possible_ambiguities": [],
+  "created_at": "2026-09-28T03:22:27.316186Z",
+  "raw_response": null
+}

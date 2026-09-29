@@ -1,0 +1,154 @@
+{
+  "$defs": {
+    "ClaimTraceClass": {
+      "description": "Provenance audit class for every substantive physical statement.",
+      "enum": [
+        "CANONICAL_KB",
+        "SOURCE_DERIVED",
+        "GENERATED_AND_VERIFIED",
+        "EDITORIAL_TRANSITION"
+      ],
+      "title": "ClaimTraceClass",
+      "type": "string"
+    },
+    "ContentBlockType": {
+      "description": "Pedagogical content block types within a chapter.",
+      "enum": [
+        "OBJECTIVE",
+        "PREREQUISITE_REFRESH",
+        "INTUITION",
+        "CONCEPT_EXPLANATION",
+        "FORMAL_DEFINITION",
+        "FORMULA",
+        "DERIVATION",
+        "WORKED_EXAMPLE",
+        "MISCONCEPTION",
+        "QUESTION_SET",
+        "SUMMARY",
+        "REVISION_CHECKLIST",
+        "EDITORIAL_TRANSITION"
+      ],
+      "title": "ContentBlockType",
+      "type": "string"
+    },
+    "ContentVerificationStatus": {
+      "description": "Lifecycle verification states for generated physics content.",
+      "enum": [
+        "UNVERIFIED",
+        "GENERATED",
+        "STAGED",
+        "VERIFIED",
+        "PROMOTABLE",
+        "REJECTED",
+        "CONFLICT",
+        "REVIEW",
+        "INVALIDATED"
+      ],
+      "title": "ContentVerificationStatus",
+      "type": "string"
+    }
+  },
+  "description": "A typed atomic content block ready for editorial sequencing into chapter drafts.",
+  "properties": {
+    "block_id": {
+      "description": "Unique content block ID",
+      "minLength": 1,
+      "title": "Block Id",
+      "type": "string"
+    },
+    "block_type": {
+      "$ref": "#/$defs/ContentBlockType",
+      "description": "Typed content block variant"
+    },
+    "chapter_id": {
+      "description": "Parent chapter slug",
+      "minLength": 1,
+      "title": "Chapter Id",
+      "type": "string"
+    },
+    "section_id": {
+      "description": "Parent section ID from ChapterPlan",
+      "minLength": 1,
+      "title": "Section Id",
+      "type": "string"
+    },
+    "order_in_section": {
+      "description": "Sequential order within section",
+      "minimum": 1,
+      "title": "Order In Section",
+      "type": "integer"
+    },
+    "payload_id": {
+      "description": "ID of backing atomic record (concept, formula, derivation, etc.)",
+      "minLength": 1,
+      "title": "Payload Id",
+      "type": "string"
+    },
+    "payload_type": {
+      "description": "Model type name of backing payload",
+      "title": "Payload Type",
+      "type": "string"
+    },
+    "title": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Block header title if rendered",
+      "title": "Title"
+    },
+    "rendered_markdown": {
+      "description": "Formatted pedagogical markdown",
+      "minLength": 1,
+      "title": "Rendered Markdown",
+      "type": "string"
+    },
+    "trace_class": {
+      "$ref": "#/$defs/ClaimTraceClass",
+      "default": "GENERATED_AND_VERIFIED",
+      "description": "Claim provenance trace"
+    },
+    "source_atom_ids": {
+      "description": "Canonical atom IDs supporting this block",
+      "items": {
+        "type": "string"
+      },
+      "title": "Source Atom Ids",
+      "type": "array"
+    },
+    "verification_status": {
+      "$ref": "#/$defs/ContentVerificationStatus",
+      "default": "VERIFIED"
+    },
+    "content_hash": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "SHA-256 hash of rendered markdown",
+      "title": "Content Hash"
+    }
+  },
+  "required": [
+    "block_id",
+    "block_type",
+    "chapter_id",
+    "section_id",
+    "order_in_section",
+    "payload_id",
+    "payload_type",
+    "rendered_markdown"
+  ],
+  "title": "ChapterContentBlock",
+  "type": "object"
+}

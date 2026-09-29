@@ -1,0 +1,32 @@
+{
+  "cluster_id": "cluster-current-electricity--6a9e5a72",
+  "canonical_atom_id": "current-electricity-question-3a1b8c4d",
+  "member_atom_ids": [
+    "current-electricity-question-3a1b8c4d",
+    "current-electricity-question-d2492f7f"
+  ],
+  "cluster_type": "EXACT_DUPLICATE",
+  "cluster_confidence": 1.0,
+  "decision_ids": [
+    "cand-current-elec-current-elec"
+  ],
+  "preserved_provenance": [
+    {
+      "atom_id": "current-electricity-question-3a1b8c4d",
+      "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+      "file_name": "jee_rank_booster-03_mock_paper.pdf",
+      "file_path": "jee_rank_booster-03_mock_paper.pdf",
+      "page_start": 4,
+      "page_end": 4,
+      "source_locator": "Section - A, Q13",
+      "edition": null,
+      "source_claimed_answer": "B",
+      "original_statement": "An ideal ammeter (zero resistance) and an ideal voltmeter (infinite resistance) are connected as shown. The ammeter and voltmeter reading for $R_{1} = 5\\,\\Omega$, $R_{2} = 15\\,\\Omega$, $R_{3} = 1.25\\,\\Omega$ and $E = 20\\text{ V}$ are given as",
+      "extraction_metadata": {
+        "source_sha256": "256f42c67a9271aaafe4bf637eb34cddd10da959cdf7a66fc6fee76a68d34361"
+      }
+    }
+  ],
+  "preserved_solution_methods": [],
+  "created_at": "2026-09-28T04:54:04.484774Z"
+}

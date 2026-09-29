@@ -1,0 +1,69 @@
+{
+  "question_id": "gen-q-td-multi-01",
+  "version": 1,
+  "origin": "GENERATED",
+  "curriculum_id": "curr-td-02",
+  "taxonomy_reference": {
+    "chapter_id": "thermodynamics",
+    "topic_id": "special-thermodynamic-processes",
+    "subtopic_id": "adiabatic-process"
+  },
+  "concept_references": [
+    "concept-td-adiabatic-01"
+  ],
+  "prerequisite_references": [
+    "curr-td-01"
+  ],
+  "target_exam_level": "JEE_ADVANCED",
+  "question_type": "NUMERICAL",
+  "statement": "One mole of an ideal diatomic gas ($\\gamma = 1.4$, $C_v = 2.5\\,R$) at initial temperature $T_1 = 300\\text{ K}$ is compressed adiabatically and reversibly such that its volume decreases by a factor of 32 ($V_2 = V_1 / 32$). Taking $R = 8.314\\text{ J/(mol K)}$, calculate the final temperature $T_2$ of the gas in Kelvin.",
+  "diagram_references": [],
+  "options": {},
+  "correct_answer": "1200.0",
+  "solution_strategy": "Apply Poisson's relation for reversible adiabatic expansion T V^(gamma - 1) = constant, evaluate the fractional power 32^0.4 = (2^5)^(2/5) = 4, and calculate final temperature T_2 = 4 * 300 K = 1200 K.",
+  "solution": "1. Governing Equation:\nFor a reversible quasi-static adiabatic process of an ideal gas with constant adiabatic index $\\gamma$, the thermodynamic path follows:\n$$T V^{\\gamma - 1} = \\text{constant}$$\n2. Temperature-Volume Relation:\n$$T_1 V_1^{\\gamma - 1} = T_2 V_2^{\\gamma - 1} \\implies T_2 = T_1 \\left(\\frac{V_1}{V_2}\\right)^{\\gamma - 1}$$\n3. Numerical Evaluation:\nGiven $V_1 / V_2 = 32$, $\\gamma = 1.4$, we have:\n$$\\gamma - 1 = 1.4 - 1 = 0.4 = \\frac{2}{5}$$\n$$\\left(\\frac{V_1}{V_2}\\right)^{\\gamma - 1} = (32)^{2/5} = (2^5)^{2/5} = 2^2 = 4$$\n4. Final Temperature:\n$$T_2 = 300\\text{ K} \\times 4 = 1200.0\\text{ K}$$\nThus, the final temperature of the diatomic gas is 1200.0 K.",
+  "assumptions": [
+    "Ideal gas behavior holds across the entire compression range",
+    "Reversible adiabatic process with zero heat transfer (dQ = 0)",
+    "Constant heat capacities C_v and C_p over the temperature range 300 K to 1200 K (no vibrational excitation)"
+  ],
+  "numerical_values": {
+    "gamma": 1.4,
+    "volume_ratio": 32.0,
+    "initial_temperature": 300.0,
+    "moles": 1.0,
+    "gas_constant_R": 8.314
+  },
+  "units": "K",
+  "tolerance": 0.02,
+  "intended_learning_objective": "Apply Poisson's adiabatic temperature-volume law and evaluate fractional exponential powers for diatomic gases.",
+  "difficulty_dimensions": {
+    "conceptual_difficulty": 3,
+    "mathematical_difficulty": 3,
+    "multistep_reasoning_difficulty": 3,
+    "abstraction_difficulty": 2,
+    "computational_burden": 2,
+    "trap_misconception_difficulty": 3,
+    "derived_difficulty_band": "L3",
+    "weighting_policy": "PEDAGOGICAL_PROJECT_POLICY"
+  },
+  "difficulty_band": "L3",
+  "misconception_targeted": "misc-td-02",
+  "distractor_rationales": [],
+  "source_grounding": {
+    "relationship_type": "NEW_PROBLEM",
+    "source_atom_id": null,
+    "transformation_type": null,
+    "what_changed": null,
+    "why_pedagogically_distinct": null
+  },
+  "risk_level": "HIGH",
+  "generation_metadata": {
+    "generator_agent": "physics-question-generator",
+    "author_model": "claude-3-7-sonnet"
+  },
+  "content_hash": "0df11d39689e10947d30e9ebced69916e734a38c57244b48af029af64d8f7982",
+  "verification_status": "GENERATED",
+  "verification_record_id": null,
+  "created_at": "2026-09-29T08:30:00Z"
+}

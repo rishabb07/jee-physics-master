@@ -1,0 +1,116 @@
+{
+  "derivation_id": "derivation-formula-td-radiation-adiabatic",
+  "target_formula_id": "formula-td-radiation-adiabatic",
+  "target_equation": "$$T^3 V = \\text{constant}$$",
+  "starting_principles": [
+    "First Law of Thermodynamics: $dQ = dU + P dV$",
+    "Stefan-Boltzmann law for blackbody energy density: $u(T) = a T^4$, where $U = u V = a V T^4$",
+    "Radiation pressure from relativistic photon momentum: $P = \\frac{1}{3} u = \\frac{1}{3} a T^4$",
+    "Adiabatic condition: $dQ = 0$"
+  ],
+  "assumptions": [
+    "Blackbody radiation in thermal equilibrium with cavity walls.",
+    "Photons are ultra-relativistic ($E = pc$) with zero chemical potential $\\mu = 0$.",
+    "The cavity expands quasi-statically and reversibly with no heat exchange ($dQ = 0$).",
+    "Cavity geometry is three-dimensional."
+  ],
+  "ordered_steps": [
+    {
+      "step_number": 1,
+      "description": "Express total internal energy $U$ of blackbody radiation in cavity volume $V$ at temperature $T$.",
+      "starting_equation": "$$u(T) = a T^4$$",
+      "operation": "Multiply energy density $u(T) = a T^4$ by volume $V$ to find total radiant energy: $U = u V = a V T^4$, where $a = 4\\sigma/c$ is the radiation constant.",
+      "result_equation": "$$U = a V T^4$$",
+      "assumptions_applied": [
+        "Isotropic thermal equilibrium radiation in a 3D cavity."
+      ]
+    },
+    {
+      "step_number": 2,
+      "description": "Calculate the total differential of internal energy $dU$ using the multivariable product rule.",
+      "starting_equation": "$$U = a V T^4$$",
+      "operation": "Differentiate $U(V, T)$ with respect to independent state variables $V$ and $T$: $dU = d(a V T^4) = a T^4 dV + 4 a V T^3 dT$.",
+      "result_equation": "$$dU = a T^4 dV + 4 a V T^3 dT$$",
+      "assumptions_applied": [
+        "Both volume $V$ and temperature $T$ vary during the expansion."
+      ]
+    },
+    {
+      "step_number": 3,
+      "description": "Formulate the boundary mechanical work $dW$ using the relativistic radiation pressure equation of state.",
+      "starting_equation": "$$P = \\frac{1}{3} u$$",
+      "operation": "Substitute $u = a T^4$ into radiation pressure $P = \\frac{1}{3} u = \\frac{1}{3} a T^4$. The quasi-static boundary work is $dW = P dV = \\frac{1}{3} a T^4 dV$.",
+      "result_equation": "$$dW = \\frac{1}{3} a T^4 dV$$",
+      "assumptions_applied": [
+        "Relativistic dispersion relation $E = pc$ yielding $P = u/3$."
+      ]
+    },
+    {
+      "step_number": 4,
+      "description": "Apply the First Law of Thermodynamics for a reversible adiabatic expansion ($dQ = 0$).",
+      "starting_equation": "$$dQ = dU + dW = 0$$",
+      "operation": "Substitute $dU$ and $dW$ into $0 = dU + dW$: $0 = (a T^4 dV + 4 a V T^3 dT) + \\frac{1}{3} a T^4 dV$.",
+      "result_equation": "$$4 a V T^3 dT + \\left(1 + \\frac{1}{3}\\right) a T^4 dV = 0$$",
+      "assumptions_applied": [
+        "Adiabatic condition $dQ = 0$."
+      ]
+    },
+    {
+      "step_number": 5,
+      "description": "Combine the volume differential terms.",
+      "starting_equation": "$$4 a V T^3 dT + \\left(1 + \\frac{1}{3}\\right) a T^4 dV = 0$$",
+      "operation": "Simplify $1 + \\frac{1}{3} = \\frac{4}{3}$: $4 a V T^3 dT + \\frac{4}{3} a T^4 dV = 0$.",
+      "result_equation": "$$4 a V T^3 dT + \\frac{4}{3} a T^4 dV = 0$$",
+      "assumptions_applied": [
+        "Algebraic combination of $dV$ terms."
+      ]
+    },
+    {
+      "step_number": 6,
+      "description": "Separate variables by dividing by $\\frac{4}{3} a V T^4$.",
+      "starting_equation": "$$4 a V T^3 dT + \\frac{4}{3} a T^4 dV = 0$$",
+      "operation": "Divide by $\\frac{4}{3} a V T^4$ (assuming $T > 0$ and $V > 0$): $3 \\frac{dT}{T} + \\frac{dV}{V} = 0 \\implies \\frac{dT}{T} + \\frac{1}{3} \\frac{dV}{V} = 0$.",
+      "result_equation": "$$\\frac{dT}{T} + \\frac{1}{3} \\frac{dV}{V} = 0$$",
+      "assumptions_applied": [
+        "Temperature $T > 0$ and cavity volume $V > 0$."
+      ]
+    },
+    {
+      "step_number": 7,
+      "description": "Integrate the separated differential equation to establish the photon gas scaling laws.",
+      "starting_equation": "$$\\frac{dT}{T} + \\frac{1}{3} \\frac{dV}{V} = 0$$",
+      "operation": "Integrate both sides: $\\ln T + \\frac{1}{3} \\ln V = \\text{constant} \\implies \\ln(T V^{1/3}) = \\text{constant} \\implies T V^{1/3} = \\text{constant}$. Cubing both sides yields $T^3 V = \\text{constant}$.",
+      "result_equation": "$$T^3 V = \\text{constant}$$",
+      "assumptions_applied": [
+        "Reversible expansion path."
+      ]
+    },
+    {
+      "step_number": 8,
+      "description": "Specialize to a spherical cavity of radius $R$ to derive the radial temperature scaling.",
+      "starting_equation": "$$T V^{1/3} = \\text{constant}$$",
+      "operation": "For a sphere, $V = \\frac{4}{3}\\pi R^3$. Then $V^{1/3} = \\left(\\frac{4}{3}\\pi\\right)^{1/3} R$. Substituting into $T V^{1/3} = \\text{constant}$ yields $T R = \\text{constant}$.",
+      "result_equation": "$$T R = \\text{constant}$$",
+      "assumptions_applied": [
+        "Spherical cavity geometry $V \\propto R^3$."
+      ]
+    }
+  ],
+  "final_equation": "$$T^3 V = \\text{constant} \\iff T V^{1/3} = \\text{constant} \\iff T R = \\text{constant}$$",
+  "applicability_conditions": [
+    "Reversible adiabatic expansion of blackbody radiation/photon gas in 3D cavity.",
+    "Relativistic energy-momentum relation $E = pc$ ensuring $P = u/3$.",
+    "Thermally insulated cavity with reflecting or absorbing/emitting walls in equilibrium."
+  ],
+  "source_references": [
+    "Feynman, Richard P. The Feynman Lectures on Physics.pdf",
+    "jee_rank_booster-03_mock_paper.pdf"
+  ],
+  "risk_level": "HIGH",
+  "verification_status": "VERIFIED",
+  "verification_record_id": "dual-cvr-derivation-formula-td-radiation-adiabatic",
+  "content_hash": "101a4c30904f59d47f2cd4b29418c92da1fc75db2471bbaf4970d65eb3576271",
+  "generator_identity": "content_generator_agent",
+  "generator_conversation_id": "126488a8-d6c5-4eb1-953f-9b833f4b917c",
+  "created_at": "2026-09-28T22:30:00Z"
+}

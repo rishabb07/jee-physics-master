@@ -1,0 +1,26 @@
+{
+  "solver_run_id": "run-solver_a-thermodynamics-question-71b685c0-da85f867",
+  "solver_agent_name": "solver_a",
+  "atom_id": "thermodynamics-question-71b685c0",
+  "atom_version": 1,
+  "content_hash": "989a378467ccf659bd7bd108e19c9956e6d7e862c73e86043bd81d15e4e2aab1",
+  "verification_protocol_version": "1.0.0",
+  "blind_package_hash": "5f271ba083f0adbb2d9731efd6f6b9139643f42845a7bccda05536255a66cdde",
+  "independent_answer": "A",
+  "raw_answer": "4T_0",
+  "reasoning_steps": [
+    "1. The container and piston are nonconducting, meaning the process is adiabatic.",
+    "2. For a monoatomic ideal gas, gamma = 5/3.",
+    "3. The relation between temperature and volume in an adiabatic process is T * V^(gamma - 1) = constant.",
+    "4. T_f = T_i * (V_i / V_f)^(gamma - 1).",
+    "5. V_f = 12.5% of V_i = V_i / 8.",
+    "6. T_f = T_0 * (8)^(5/3 - 1) = T_0 * 8^(2/3) = T_0 * 4 = 4T_0."
+  ],
+  "assumptions_used": [
+    "Standard physics assumptions apply"
+  ],
+  "diagram_interpretation": null,
+  "uncertainty": null,
+  "possible_ambiguities": [],
+  "created_at": "2026-09-28T03:22:27.309853Z"
+}

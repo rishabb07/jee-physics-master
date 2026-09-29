@@ -1,0 +1,31 @@
+{
+  "verification_id": "cvr-concept-rot-angmom-conservation-01",
+  "artifact_id": "concept-rot-angmom-conservation-01",
+  "target_id": "concept-rot-angmom-conservation-01",
+  "artifact_version": 1,
+  "content_type": "CONCEPT_EXPLANATION",
+  "content_hash": "fe8cf52619bd88c01da074af88167c165fa49f8e037c75c5a73f2f64c1962811",
+  "verifier_id": "content-verifier-mechanics-thermo",
+  "verifier_conversation_id": "bdcda0e3-0496-4ba9-a62e-6fe79ffe6824",
+  "risk_level": "MEDIUM",
+  "verdict": "VERIFIED",
+  "assumptions_checked": true,
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_case_check_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "independent_derivation_or_calculation": "Independent verification from first principles: 1. Fundamental conservation theorem: Starting from the multi-particle angular momentum dL/dt = sum(r_i x F_i_ext) + sum_{i<j} (r_i - r_j) x F_ij. Under Newton's third law in strong form, inter-particle forces are central and collinear with separation (r_i - r_j) x F_ij = 0, proving internal torques sum identically to zero. Thus dL/dt = tau_ext. When tau_ext = 0, L is conserved. 2. Fixed-axis variable inertia: L_z = I(t) omega(t) = const implies omega_f = omega_i (I_i / I_f). 3. Work-energy audit: K = L^2 / (2I). When I_f < I_i, K_f = K_i (I_i / I_f) > K_i. The delta K is supplied by positive internal radial work W_int = int F_internal dr against centrifugal force, confirming complete thermodynamic and mechanical consistency.",
+  "verification_notes": "All physical assumptions, dimensional homogeneity ([M L^2 T^-1] for angular momentum), boundary conditions, and limiting cases (constant moment of inertia recovering uniform rotation; radial mass concentration yielding omega scaling inversely with moment of inertia) verified from first principles. Non-conservation of rotational kinetic energy under variable inertia correctly explained via internal work.",
+  "findings": [
+    "Axial torque equation dL_z/dt = tau_ext,z verified with pairwise internal torque cancellation.",
+    "Variable inertia relation I_i * omega_i = I_f * omega_f verified dimensionally and algebraically.",
+    "Kinetic energy discrepancy correctly grounded in internal mechanical work W_int = delta K.",
+    "Limiting cases I_f -> I_i and extreme radial contraction verified."
+  ],
+  "discrepancies": [],
+  "created_at": "2026-09-28T17:18:00Z",
+  "timestamp": "2026-09-28T17:18:00Z"
+}

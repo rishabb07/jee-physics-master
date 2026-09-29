@@ -1,0 +1,151 @@
+{
+  "plan_id": "plan-thermodynamics-001",
+  "chapter_id": "thermodynamics",
+  "title": "Thermodynamics",
+  "template_type": "THERMODYNAMICS",
+  "sections": [
+    {
+      "section_id": "sec-01-first-law-and-internal-energy",
+      "section_order": 1,
+      "title": "Thermodynamic State Variables, Internal Energy, and the First Law",
+      "pedagogical_purpose": "Define thermodynamic equilibrium, establish internal energy U as an exact state function, and formulate the First Law of Thermodynamics dQ = dU + dW using consistent physics sign conventions.",
+      "concepts": [
+        "concept-td-first-law-01"
+      ],
+      "formula_ids": [
+        "formula-td-first-law"
+      ],
+      "worked_example_ids": [],
+      "question_atom_ids": [],
+      "misconception_ids": [],
+      "prerequisite_refs": [
+        "curr-therm-01",
+        "curr-wep-01"
+      ],
+      "source_references": [
+        "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+        "Fundamentals of Physics-Halliday,Resnick,Walker.pdf"
+      ],
+      "unresolved_gaps": [
+        "No standalone canonical question atoms or worked examples for First Law sign convention and PV work integration in current staging.",
+        "Missing questions distinguishing chemistry vs physics sign conventions for work."
+      ]
+    },
+    {
+      "section_id": "sec-02-gas-processes-and-pv-diagrams",
+      "section_order": 2,
+      "title": "Standard Gas Processes and Work on PV Diagrams",
+      "pedagogical_purpose": "Systematize isobaric, isochoric, and isothermal processes, calculating boundary work from integral P dV and analyzing closed indicator diagrams.",
+      "concepts": [],
+      "formula_ids": [],
+      "worked_example_ids": [],
+      "question_atom_ids": [],
+      "misconception_ids": [],
+      "prerequisite_refs": [
+        "curr-td-01"
+      ],
+      "source_references": [
+        "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+        "University Physics with Modern Physics, 13th Edition.pdf"
+      ],
+      "unresolved_gaps": [
+        "Missing approved formula records for isothermal work (W = n R T ln(V2/V1)) and isobaric heat capacities (Cp, Cv, Mayer's relation) in ChapterSpec.",
+        "No verified question atoms for cyclic PV processes staged in current KB."
+      ]
+    },
+    {
+      "section_id": "sec-03-adiabatic-processes-ideal-gas",
+      "section_order": 3,
+      "title": "Reversible Adiabatic Processes in Classical Ideal Gases",
+      "pedagogical_purpose": "Derive and apply reversible adiabatic scaling relations T V^(gamma-1) = const and P V^gamma = const, compute boundary work, and resolve sign misconceptions regarding internal energy variation.",
+      "concepts": [
+        "concept-td-adiabatic-01"
+      ],
+      "formula_ids": [
+        "formula-td-adiabatic-ideal-gas"
+      ],
+      "worked_example_ids": [
+        "ex-td-adiabatic-compression-01"
+      ],
+      "question_atom_ids": [
+        "thermodynamics-question-71b685c0",
+        "thermodynamics-question-7e2f5a91"
+      ],
+      "misconception_ids": [
+        "misc-td-01"
+      ],
+      "prerequisite_refs": [
+        "curr-td-01",
+        "curr-td-02"
+      ],
+      "source_references": [
+        "jee_rank_booster-03_mock_paper.pdf",
+        "concepts_of_physics_by_h.c._verma_volume_2.pdf"
+      ],
+      "unresolved_gaps": []
+    },
+    {
+      "section_id": "sec-04-radiation-thermodynamics",
+      "section_order": 4,
+      "title": "Radiation Thermodynamics and Photon Gas Adiabatic Expansion",
+      "pedagogical_purpose": "Extend thermodynamics beyond classical non-relativistic matter to relativistic blackbody radiation, deriving u = a T^4, radiation pressure P = u/3, and adiabatic scaling T V^(1/3) = const.",
+      "concepts": [
+        "concept-td-radiation-01"
+      ],
+      "formula_ids": [
+        "formula-td-radiation-adiabatic"
+      ],
+      "worked_example_ids": [],
+      "question_atom_ids": [
+        "thermodynamics-question-3fe51020"
+      ],
+      "misconception_ids": [
+        "misc-td-02"
+      ],
+      "prerequisite_refs": [
+        "curr-td-02"
+      ],
+      "source_references": [
+        "jee_rank_booster-03_mock_paper.pdf",
+        "Feynman, Richard P. The Feynman Lectures on Physics.pdf"
+      ],
+      "unresolved_gaps": [
+        "Missing dedicated step-by-step worked example demonstrating the derivation of T R = constant from d(uV) + P dV = 0."
+      ]
+    },
+    {
+      "section_id": "sec-05-heat-engines-and-second-law",
+      "section_order": 5,
+      "title": "Heat Engines, the Carnot Cycle, and Second Law Formulations",
+      "pedagogical_purpose": "Analyze thermal cycles, calculate theoretical engine efficiency eta = 1 - T_C / T_H, and examine Kelvin-Planck and Clausius statements of the Second Law.",
+      "concepts": [],
+      "formula_ids": [],
+      "worked_example_ids": [],
+      "question_atom_ids": [],
+      "misconception_ids": [],
+      "prerequisite_refs": [
+        "curr-td-01",
+        "curr-td-02"
+      ],
+      "source_references": [
+        "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+        "University Physics with Modern Physics, 13th Edition.pdf"
+      ],
+      "unresolved_gaps": [
+        "Topic 'heat-engines-and-second-law' has no approved concept records, formula records, or question atoms in current ChapterSpec.",
+        "Need canonical atoms for Carnot cycle and refrigerator coefficient of performance (COP)."
+      ]
+    }
+  ],
+  "pedagogical_synthesis_notes": [
+    "Thermodynamics Template: Structured around the First Law as the foundational energy-accounting framework, branching into classical ideal gas adiabatic transitions and advanced radiation pressure extensions.",
+    "Misconception Neutralization: Section 3 directly targets misc-td-01 (conflation of adiabatic work signs with temperature change), ensuring students grasp that compression work done ON the gas increases internal energy and elevates temperature.",
+    "Modern Extension and Rigor: Section 4 bridges classical thermodynamics to relativistic and quantum physics by demonstrating how the First Law applies to photon gases where energy density is a function of temperature alone (u = a T^4), shattering the false generalization of PV^(5/3) = const (misc-td-02)."
+  ],
+  "unresolved_gaps": [
+    "Gap in Topic 'first-law-and-processes': Subtopics 'isothermal-process' and 'pv-diagrams-and-work' lack approved formula records and question atoms in ChapterSpec.",
+    "Gap in Topic 'special-thermodynamic-processes': Lacks a canonical worked example for the adiabatic expansion of photon gas cavity.",
+    "Gap in Topic 'heat-engines-and-second-law': Zero canonical questions, formulas, or worked examples for Carnot efficiency and refrigerator COP."
+  ],
+  "created_at": "2026-09-28T22:15:00Z"
+}

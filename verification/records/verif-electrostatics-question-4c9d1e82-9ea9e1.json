@@ -1,0 +1,30 @@
+{
+  "verification_id": "verif-electrostatics-question-4c9d1e82-9ea9e1",
+  "atom_id": "electrostatics-question-4c9d1e82",
+  "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+  "atom_version": 1,
+  "content_hash": "55511314791636289281fa986d2b38358fd33945eb154d89f87d5bc7ea6a59a7",
+  "verification_protocol_version": "1.0.0",
+  "solver_run_ids": [
+    "run-solver_a-electrostatics-question-4c9d1e82-6b1f8d35",
+    "run-solver_b-electrostatics-question-4c9d1e82"
+  ],
+  "source_claimed_answer": null,
+  "source_solution": null,
+  "independent_answers": {
+    "solver_a": "C",
+    "solver_b": "C"
+  },
+  "independent_solutions": {
+    "solver_a": "Step 1: Problem configuration: A point charge +Q is located at the center of the square base of a right square pyramid with 4 identical triangular upper faces meeting at an apex.\nStep 2: Gaussian surface construction via reflection symmetry: Consider an identical inverted square pyramid placed base-to-base below the existing pyramid. Together, the two pyramids form a closed 8-faced bipyramid (regular octahedron if face angles match) enclosing charge +Q at its exact center.\nStep 3: Enclosed charge and Gauss's Law: The charge +Q is completely enclosed inside this 8-faced closed surface. By Gauss's Law, the total electric flux emerging through the entire closed surface is Phi_total = Q / varepsilon_0.",
+    "solver_b": "Step 1: Point charge +Q at center of square base of pyramid.\nStep 2: Base flux is zero because field lines lie in base plane.\nStep 3: Upper half-space solid angle is 2pi, receiving Q / (2 eps_0)."
+  },
+  "consensus_answer": "C",
+  "verdict": "VERIFIED",
+  "confidence": 0.99,
+  "discrepancy_classification": "SOURCE_ANSWER_MISSING",
+  "adjudication_result": null,
+  "created_at": "2026-09-27T20:05:28.561312Z",
+  "completed_at": "2026-09-27T20:05:28.561312Z",
+  "metadata": {}
+}

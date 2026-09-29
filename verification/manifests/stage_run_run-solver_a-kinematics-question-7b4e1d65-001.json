@@ -1,0 +1,13 @@
+{
+  "manifest_id": "stage_run_run-solver_a-kinematics-question-7b4e1d65-001",
+  "solver_run_id": "run-solver_a-kinematics-question-7b4e1d65-001",
+  "solver_agent_name": "solver_a",
+  "atom_id": "kinematics-question-7b4e1d65",
+  "atom_version": 1,
+  "content_hash": "4f0a71b1a15102e9c1e25ac6f5207de7b6b75ba65b9abd2555ebc3d7a773c595",
+  "input_source_file": "C:\\Users\\Win11\\OneDrive\\Desktop\\Rishab\\jee physics master book test\\verification\\incoming\\solver_kinematics-question-7b4e1d65_run-solver_a-kinematics-question-7b4e1d65-001.json",
+  "staged_destination_file": "C:\\Users\\Win11\\OneDrive\\Desktop\\Rishab\\jee physics master book test\\verification\\solver_runs\\run-solver_a-kinematics-question-7b4e1d65-001.json",
+  "independent_answer": "72",
+  "timestamp": "2026-09-28T03:27:09.023832+00:00",
+  "status": "STAGED"
+}

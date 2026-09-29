@@ -1,0 +1,489 @@
+{
+  "chapter_id": "rotational-motion",
+  "chapter_title": "Rotational Motion",
+  "template_type": "MECHANICS",
+  "order": 6,
+  "taxonomy_references": [
+    {
+      "chapter_id": "rotational-motion",
+      "topic_id": "moment-of-inertia",
+      "subtopic_id": "moi-of-standard-continuous-bodies"
+    },
+    {
+      "chapter_id": "rotational-motion",
+      "topic_id": "moment-of-inertia",
+      "subtopic_id": "parallel-axis-theorem"
+    },
+    {
+      "chapter_id": "rotational-motion",
+      "topic_id": "torque-and-rotation",
+      "subtopic_id": "torque-moment-of-inertia-relation"
+    },
+    {
+      "chapter_id": "rotational-motion",
+      "topic_id": "angular-momentum",
+      "subtopic_id": "angular-momentum-about-external-point"
+    },
+    {
+      "chapter_id": "rotational-motion",
+      "topic_id": "angular-momentum",
+      "subtopic_id": "conservation-of-angular-momentum"
+    },
+    {
+      "chapter_id": "rotational-motion",
+      "topic_id": "angular-momentum",
+      "subtopic_id": "variable-moment-of-inertia"
+    },
+    {
+      "chapter_id": "rotational-motion",
+      "topic_id": "rolling-motion",
+      "subtopic_id": "pure-rolling-kinematics"
+    }
+  ],
+  "learning_objectives": [
+    "Calculate moment of inertia for discrete point masses and continuous bodies using integration and the parallel/perpendicular axis theorems.",
+    "Formulate rotational equations of motion tau = I alpha and apply work-energy principles to fixed axis rotation.",
+    "Determine the angular momentum of particles and rigid bodies about fixed reference points and instantaneous axes of rotation.",
+    "Apply the principle of conservation of angular momentum to isolated systems with time-varying moments of inertia.",
+    "Analyze pure rolling kinematics and dynamics on horizontal and inclined surfaces under static friction constraints."
+  ],
+  "prerequisite_curriculum_nodes": [
+    "curr-kin-02",
+    "curr-com-01",
+    "curr-nl-01"
+  ],
+  "concept_sequence": [
+    {
+      "concept_id": "concept-rot-moi-01",
+      "curriculum_id": "curr-rot-01",
+      "role": "FOUNDATION_CONCEPT",
+      "prerequisite_relationship": "Requires center of mass and continuous mass integration from curr-com-01",
+      "explanation_priority": 1,
+      "source_atom_ids": [],
+      "source_evidence": "JEE Advanced Official Topic Prescription: Moment of inertia of continuous bodies"
+    },
+    {
+      "concept_id": "concept-rot-torque-01",
+      "curriculum_id": "curr-rot-02",
+      "role": "CORE_PRINCIPLE",
+      "prerequisite_relationship": "Requires moment of inertia from curr-rot-01 and Newton second law from curr-nl-01",
+      "explanation_priority": 2,
+      "source_atom_ids": [],
+      "source_evidence": "JEE Advanced Official Topic Prescription: Torque and angular acceleration relation"
+    },
+    {
+      "concept_id": "concept-rot-angmom-particle-01",
+      "curriculum_id": "curr-rot-03",
+      "role": "CORE_PRINCIPLE",
+      "prerequisite_relationship": "Requires vector cross product and planar kinematics from curr-kin-02",
+      "explanation_priority": 3,
+      "source_atom_ids": [
+        "rotational-motion-question-6c7cb960"
+      ],
+      "source_evidence": "JEE Advanced Official Topic Prescription: Angular momentum of a particle"
+    },
+    {
+      "concept_id": "concept-rot-angmom-conservation-01",
+      "curriculum_id": "curr-rot-03",
+      "role": "CORE_PRINCIPLE",
+      "prerequisite_relationship": "Requires torque definition and rigid body moment of inertia from curr-rot-02",
+      "explanation_priority": 4,
+      "source_atom_ids": [
+        "rotational-motion-question-84f91c20",
+        "rotational-motion-question-f7cbecda"
+      ],
+      "source_evidence": "JEE Advanced Official Topic Prescription: Conservation of angular momentum"
+    }
+  ],
+  "formula_sequence": [
+    {
+      "formula_id": "formula-rot-moi-parallel",
+      "title": "Parallel Axis Theorem",
+      "equation_latex": "I = I_{\\text{cm}} + M d^2",
+      "variables": {
+        "I": "Moment of inertia about arbitrary parallel axis",
+        "I_{\\text{cm}}": "Moment of inertia about parallel axis through center of mass",
+        "M": "Total mass of rigid body",
+        "d": "Perpendicular distance between parallel axes"
+      },
+      "units_and_dimensions": {
+        "I": "kg m^2",
+        "M": "kg",
+        "d": "m"
+      },
+      "assumptions": [
+        "Rigid body with constant mass distribution",
+        "Axes must be strictly parallel"
+      ],
+      "conditions_of_validity": [
+        "One axis must pass strictly through the center of mass"
+      ],
+      "derivation_links": [
+        "curr-rot-01"
+      ],
+      "related_concept_ids": [
+        "concept-rot-moi-01"
+      ],
+      "common_misuse_cases": [
+        "Applying parallel axis theorem between two arbitrary parallel axes neither of which passes through the center of mass"
+      ],
+      "provenance": [],
+      "verification_status": "VERIFIED"
+    },
+    {
+      "formula_id": "formula-rot-torque-dyn",
+      "title": "Fixed Axis Rotational Dynamics",
+      "equation_latex": "\\tau_{\\text{net, ext}} = I \\alpha",
+      "variables": {
+        "\\tau_{\\text{net, ext}}": "Net external torque about fixed rotation axis",
+        "I": "Moment of inertia about rotation axis",
+        "\\alpha": "Angular acceleration about axis"
+      },
+      "units_and_dimensions": {
+        "\\tau": "N m",
+        "I": "kg m^2",
+        "\\alpha": "rad/s^2"
+      },
+      "assumptions": [
+        "Fixed rotation axis or axis passing through CM in principal orientation",
+        "Rigid body"
+      ],
+      "conditions_of_validity": [
+        "Valid about a fixed inertial axis or about the center of mass even if accelerating"
+      ],
+      "derivation_links": [
+        "curr-rot-02"
+      ],
+      "related_concept_ids": [
+        "concept-rot-torque-01"
+      ],
+      "common_misuse_cases": [
+        "Applying tau = I alpha about an arbitrary accelerating point other than the center of mass"
+      ],
+      "provenance": [],
+      "verification_status": "VERIFIED"
+    },
+    {
+      "formula_id": "formula-rot-angmom-particle",
+      "title": "Angular Momentum of a Particle",
+      "equation_latex": "\\vec{L}_O = \\vec{r} \\times \\vec{p} = m (\\vec{r} \\times \\vec{v})",
+      "variables": {
+        "\\vec{L}_O": "Angular momentum vector about point O",
+        "\\vec{r}": "Position vector of particle relative to O",
+        "\\vec{p}": "Linear momentum vector",
+        "m": "Mass of particle",
+        "\\vec{v}": "Velocity vector"
+      },
+      "units_and_dimensions": {
+        "\\vec{L}_O": "kg m^2 / s",
+        "m": "kg",
+        "\\vec{v}": "m/s",
+        "\\vec{r}": "m"
+      },
+      "assumptions": [
+        "Point mass particle",
+        "Reference point O is an inertial point or specified origin"
+      ],
+      "conditions_of_validity": [
+        "Valid for any particle trajectory in 3D Euclidean space"
+      ],
+      "derivation_links": [
+        "curr-rot-03"
+      ],
+      "related_concept_ids": [
+        "concept-rot-angmom-particle-01"
+      ],
+      "common_misuse_cases": [
+        "Assuming angular momentum is zero for a particle moving in a straight line; it is non-zero about any origin not on the trajectory line"
+      ],
+      "provenance": [],
+      "verification_status": "VERIFIED"
+    },
+    {
+      "formula_id": "formula-rot-conservation-angmom",
+      "title": "Conservation of Angular Momentum About Fixed Axis",
+      "equation_latex": "I_i \\omega_i = I_f \\omega_f",
+      "variables": {
+        "I_i": "Initial moment of inertia about axis",
+        "\\omega_i": "Initial angular velocity",
+        "I_f": "Final moment of inertia about axis",
+        "\\omega_f": "Final angular velocity"
+      },
+      "units_and_dimensions": {
+        "I": "kg m^2",
+        "\\omega": "rad/s"
+      },
+      "assumptions": [
+        "System rotates about a fixed axis",
+        "Mass redistribution does not introduce external torque along axis"
+      ],
+      "conditions_of_validity": [
+        "Net external torque component along the axis of rotation must be zero (tau_ext,z = 0)"
+      ],
+      "derivation_links": [
+        "curr-rot-03"
+      ],
+      "related_concept_ids": [
+        "concept-rot-angmom-conservation-01"
+      ],
+      "common_misuse_cases": [
+        "Assuming conservation of kinetic energy when moment of inertia changes due to internal work, e.g. crawling insect or pulling string"
+      ],
+      "provenance": [],
+      "verification_status": "VERIFIED"
+    }
+  ],
+  "misconception_sequence": [
+    {
+      "misconception_id": "misc-rot-01",
+      "category": "INVALID_FORMULA_CONDITION",
+      "statement": "A particle moving along a straight line at constant velocity has zero angular momentum.",
+      "explanation": "Angular momentum is defined as L = r x p. For straight-line motion, L = m v r_perp, where r_perp is the impact parameter (perpendicular distance from origin to line of motion). As long as the line of motion does not pass through the reference point O, r_perp is non-zero, and L is constant and non-zero.",
+      "trap_mechanism": "Exam questions ask about angular momentum of a freely falling body or particle in straight line about an offset point, expecting students to equate linear motion with zero rotational quantities.",
+      "trigger_conditions": [
+        "Particle moving in vertical free fall near earth",
+        "Origin chosen on the ground but not directly beneath the release point"
+      ],
+      "connected_concept_ids": [
+        "concept-rot-angmom-particle-01"
+      ],
+      "connected_atom_ids": [
+        "rotational-motion-question-6c7cb960"
+      ]
+    },
+    {
+      "misconception_id": "misc-rot-02",
+      "category": "WRONG_CONSERVATION_LAW",
+      "statement": "When a system conserves angular momentum under internal reconfiguration, mechanical energy is also conserved.",
+      "explanation": "Internal forces that alter mass distribution (such as an insect walking radially on a rotating disc or an ice skater pulling in their arms) do work. Consequently, rotational kinetic energy K = L^2 / (2 I) varies inversely with I. Energy is NOT conserved, even though angular momentum is strictly conserved because internal forces exert zero net external torque.",
+      "trap_mechanism": "Questions test whether students attempt to equate initial and final kinetic energies when mass distribution changes, leading to incorrect velocity calculations.",
+      "trigger_conditions": [
+        "Insect crawling on rotating turntable or disc",
+        "Radial movement of sliding collar on rotating rod"
+      ],
+      "connected_concept_ids": [
+        "concept-rot-angmom-conservation-01"
+      ],
+      "connected_atom_ids": [
+        "rotational-motion-question-84f91c20",
+        "rotational-motion-question-f7cbecda"
+      ]
+    }
+  ],
+  "worked_example_sequence": [
+    {
+      "example_id": "ex-rot-angmom-disc-01",
+      "problem_statement": "A uniform circular disc of mass $M$ and radius $R$ is rotating horizontally about a frictionless vertical axle passing through its center with angular velocity $\\omega_0$. A small insect of mass $m$ is initially at the center of the disc. The insect crawls slowly along a radial line towards the rim of the disc until it reaches the edge. (a) Determine the angular velocity $\\omega(r)$ of the disc as a function of the insect's radial distance $r$ from the center. (b) Find the ratio of the final rotational kinetic energy to the initial rotational kinetic energy when the insect reaches $r = R$.",
+      "known_quantities": {
+        "M": "Mass of uniform circular disc",
+        "R": "Radius of circular disc",
+        "m": "Mass of insect",
+        "\\omega_0": "Initial angular velocity at r = 0",
+        "r": "Radial position of insect from center"
+      },
+      "target_quantity": "Angular velocity omega(r) and kinetic energy ratio K_f / K_i",
+      "relevant_concepts": [
+        "Moment of inertia of disc",
+        "Point mass moment of inertia",
+        "Conservation of angular momentum",
+        "Rotational kinetic energy"
+      ],
+      "governing_principles": [
+        "Conservation of Angular Momentum: sum tau_ext,z = 0 implies L_z = constant"
+      ],
+      "solution_strategy": "Identify that no external torque acts about the vertical rotation axis. Apply conservation of angular momentum L_i = L_f to find omega as a function of r. Then express rotational kinetic energy K = (1/2) I omega^2 = L^2 / (2 I) to find the energy ratio directly.",
+      "step_by_step_derivation": [
+        "Step 1: Compute initial moment of inertia I_i when insect is at r = 0: I_i = I_disc + m(0)^2 = (1/2) M R^2.",
+        "Step 2: Compute moment of inertia I(r) when insect is at radial distance r: I(r) = (1/2) M R^2 + m r^2.",
+        "Step 3: Conserve angular momentum about the vertical axle: L = I_i omega_0 = I(r) omega(r). Thus, omega(r) = (I_i / I(r)) omega_0 = ((1/2) M R^2 / ((1/2) M R^2 + m r^2)) omega_0 = (M R^2 / (M R^2 + 2 m r^2)) omega_0.",
+        "Step 4: At the rim r = R, I_f = (1/2) M R^2 + m R^2 = ((M + 2m) / 2) R^2. The final angular velocity is omega_f = (M / (M + 2m)) omega_0.",
+        "Step 5: The rotational kinetic energy is K = L^2 / (2 I). Since L is constant, K_f / K_i = I_i / I_f = ((1/2) M R^2) / (((M + 2m)/2) R^2) = M / (M + 2m)."
+      ],
+      "final_answer": "\\omega(r) = \\frac{M R^2}{M R^2 + 2 m r^2} \\omega_0,\\quad \\frac{K_f}{K_i} = \\frac{M}{M + 2m}",
+      "sanity_checks": [
+        "Dimensional check: [omega] = T^-1, [K_f/K_i] is dimensionless.",
+        "Limiting case m -> 0: omega(r) -> omega_0 and K_f/K_i -> 1 as expected.",
+        "Limiting case r -> 0: omega(0) = omega_0.",
+        "Physical consistency: As insect moves outwards, I increases so omega decreases and rotational kinetic energy decreases because insect does negative work resisting centrifugal effects."
+      ],
+      "alternate_methods": [],
+      "source_atom_id": null,
+      "provenance": [],
+      "verification_status": "VERIFIED"
+    }
+  ],
+  "question_sequence": [
+    {
+      "atom_id": "rotational-motion-question-6c7cb960",
+      "curriculum_id": "curr-rot-03",
+      "chapter_id": "rotational-motion",
+      "topic_id": "angular-momentum",
+      "pedagogical_role": "QUESTION_LADDER",
+      "difficulty_dimensions": {
+        "conceptual_difficulty": 3,
+        "mathematical_difficulty": 2,
+        "multistep_reasoning_difficulty": 3,
+        "abstraction_difficulty": 3,
+        "computational_burden": 1,
+        "trap_misconception_difficulty": 4,
+        "derived_difficulty_band": "L2",
+        "weighting_policy": "PEDAGOGICAL_PROJECT_POLICY"
+      },
+      "prerequisite_concept_ids": [
+        "concept-rot-angmom-particle-01"
+      ],
+      "question_ladder_id": "ladder-rot-ang-mom-01",
+      "question_ladder_position": 1,
+      "source_provenance": [
+        {
+          "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+          "file_name": "jee_rank_booster-03_mock_paper.pdf",
+          "file_path": null,
+          "page_start": 2,
+          "page_end": 2,
+          "source_locator": "Section - A, Q4",
+          "edition": null,
+          "extraction_metadata": {}
+        }
+      ]
+    },
+    {
+      "atom_id": "rotational-motion-question-84f91c20",
+      "curriculum_id": "curr-rot-03",
+      "chapter_id": "rotational-motion",
+      "topic_id": "angular-momentum",
+      "pedagogical_role": "QUESTION_LADDER",
+      "difficulty_dimensions": {
+        "conceptual_difficulty": 2,
+        "mathematical_difficulty": 2,
+        "multistep_reasoning_difficulty": 2,
+        "abstraction_difficulty": 2,
+        "computational_burden": 1,
+        "trap_misconception_difficulty": 2,
+        "derived_difficulty_band": "L2",
+        "weighting_policy": "PEDAGOGICAL_PROJECT_POLICY"
+      },
+      "prerequisite_concept_ids": [
+        "concept-rot-angmom-conservation-01"
+      ],
+      "question_ladder_id": "ladder-rot-ang-mom-01",
+      "question_ladder_position": 2,
+      "source_provenance": [
+        {
+          "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+          "file_name": "jee_rank_booster-03_mock_paper.pdf",
+          "file_path": "jee_rank_booster-03_mock_paper.pdf",
+          "page_start": 4,
+          "page_end": 4,
+          "source_locator": "Section - A, Q12",
+          "edition": null,
+          "extraction_metadata": {
+            "source_sha256": "256f42c67a9271aaafe4bf637eb34cddd10da959cdf7a66fc6fee76a68d34361"
+          }
+        }
+      ]
+    },
+    {
+      "atom_id": "rotational-motion-question-f7cbecda",
+      "curriculum_id": "curr-rot-03",
+      "chapter_id": "rotational-motion",
+      "topic_id": "angular-momentum",
+      "pedagogical_role": "PRACTICE_QUESTION",
+      "difficulty_dimensions": {
+        "conceptual_difficulty": 2,
+        "mathematical_difficulty": 2,
+        "multistep_reasoning_difficulty": 2,
+        "abstraction_difficulty": 2,
+        "computational_burden": 1,
+        "trap_misconception_difficulty": 2,
+        "derived_difficulty_band": "L2",
+        "weighting_policy": "PEDAGOGICAL_PROJECT_POLICY"
+      },
+      "prerequisite_concept_ids": [
+        "concept-rot-angmom-conservation-01"
+      ],
+      "question_ladder_id": null,
+      "question_ladder_position": null,
+      "source_provenance": [
+        {
+          "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+          "file_name": "jee_rank_booster-03_mock_paper.pdf",
+          "file_path": "jee_rank_booster-03_mock_paper.pdf",
+          "page_start": 4,
+          "page_end": 4,
+          "source_locator": "Section - A, Q12",
+          "edition": null,
+          "extraction_metadata": {
+            "source_sha256": "256f42c67a9271aaafe4bf637eb34cddd10da959cdf7a66fc6fee76a68d34361"
+          }
+        }
+      ]
+    }
+  ],
+  "question_ladders": [
+    {
+      "ladder_id": "ladder-rot-ang-mom-01",
+      "chapter_id": "rotational-motion",
+      "topic_id": "angular-momentum",
+      "title": "Scaffolding Angular Momentum from Particle to Rigid Disc",
+      "physical_system": "Rotating horizontal disc and particle angular momentum",
+      "rungs": [
+        {
+          "level": 1,
+          "level_name": "Direct application",
+          "atom_id": "rotational-motion-question-6c7cb960",
+          "physical_delta": "Baseline free particle angular momentum about external fixed point",
+          "reasoning_depth": 2,
+          "concepts_involved": [
+            "Angular momentum definition",
+            "Cross product r x p"
+          ],
+          "mathematical_complexity": "Vector cross product",
+          "transfer_requirement": "Evaluating time-dependent angular momentum L = r x p for vertical free fall relative to a fixed ground origin not vertically below the particle."
+        },
+        {
+          "level": 2,
+          "level_name": "Standard multi-step",
+          "atom_id": "rotational-motion-question-84f91c20",
+          "physical_delta": "Coupled rotating disc with radial insect motion causing time-varying moment of inertia",
+          "reasoning_depth": 3,
+          "concepts_involved": [
+            "Conservation of angular momentum",
+            "Variable moment of inertia"
+          ],
+          "mathematical_complexity": "Algebraic angular velocity ratio",
+          "transfer_requirement": "Applying isolated system angular momentum conservation I(t) omega(t) = const where internal mass relocation alters effective moment of inertia."
+        }
+      ],
+      "pedagogical_objective": "Scaffold understanding of angular momentum from an isolated particle in free fall about an offset origin to a coupled rigid body system (horizontal rotating disc with radial insect motion) undergoing variable moment of inertia and angular momentum conservation."
+    }
+  ],
+  "revision_checklist": [
+    "Moment of Inertia formulas for standard geometric bodies (rod, ring, disc, sphere, cylinder).",
+    "Parallel Axis Theorem: I = I_cm + M d^2 (must pass strictly through CM).",
+    "Perpendicular Axis Theorem: I_z = I_x + I_y (planar bodies only).",
+    "Torque: tau = r x F, and rotational dynamics tau_ext = I alpha (valid about fixed axis or CM).",
+    "Angular Momentum of a particle: L = r x p = m v r_perp.",
+    "Angular Momentum of a rigid body: L = I omega.",
+    "Conservation of Angular Momentum: dL/dt = tau_ext = 0 implies L_i = L_f.",
+    "Work done in rotation: W = int tau d theta, Kinetic energy K = (1/2) I omega^2.",
+    "Pure rolling condition: v_cm = R omega, a_cm = R alpha (point of contact instantaneously at rest)."
+  ],
+  "coverage_requirements": {
+    "min_questions": 3,
+    "target_difficulty_distribution": {
+      "L1": 0,
+      "L2": 2,
+      "L3": 1,
+      "L4": 0,
+      "L5": 0
+    }
+  },
+  "assessment_requirements": {
+    "exam_types": [
+      "JEE_MAIN",
+      "JEE_ADVANCED"
+    ]
+  },
+  "created_at": "2026-09-28T16:55:31.514241Z"
+}

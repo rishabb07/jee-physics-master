@@ -1,0 +1,30 @@
+{
+  "verification_id": "verif-nuclear-physics-question-4e1b8a32-db2349",
+  "atom_id": "nuclear-physics-question-4e1b8a32",
+  "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+  "atom_version": 1,
+  "content_hash": "07c86d3019ecff9986175e541ee4d71c9783cd539a6b2150a8c7b5881ca7f6b1",
+  "verification_protocol_version": "1.0.0",
+  "solver_run_ids": [
+    "run-solver_a-nuclear-physics-question-4e1b8a32-001",
+    "run-solver_b-nuclear-physics-question-4e1b8a32-6f517e15"
+  ],
+  "source_claimed_answer": null,
+  "source_solution": null,
+  "independent_answers": {
+    "solver_a": "19035",
+    "solver_b": "19035"
+  },
+  "independent_solutions": {
+    "solver_a": "1. The initial activity A_0 for a freshly cut tree is 20 decays per minute.\n2. The present activity A for the museum piece is 2 decays per minute.\n3. The decay law states A = A_0 (1/2)^(t / T_1/2).",
+    "solver_b": "Initial activity $A_0 = 20\\text{ decays/min}$.\nCurrent activity $A = 2\\text{ decays/min}$.\nUsing the decay law: $A = A_0 e^{-\\lambda t} \\implies 2 = 20 e^{-\\lambda t} \\implies e^{\\lambda t} = 10$."
+  },
+  "consensus_answer": "19035",
+  "verdict": "VERIFIED",
+  "confidence": 0.99,
+  "discrepancy_classification": "SOURCE_ANSWER_MISSING",
+  "adjudication_result": null,
+  "created_at": "2026-09-28T03:29:47.861777Z",
+  "completed_at": "2026-09-28T03:29:47.861777Z",
+  "metadata": {}
+}

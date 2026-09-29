@@ -1,0 +1,197 @@
+{
+  "$defs": {
+    "NodeProvenanceClass": {
+      "description": "Authority/provenance classification for a taxonomy node.",
+      "enum": [
+        "OFFICIAL_EXAM_COVERAGE",
+        "PEDAGOGICAL_GROUPING",
+        "EXTENSION_OLYMPIAD",
+        "INFERRED_ORGANIZATION"
+      ],
+      "title": "NodeProvenanceClass",
+      "type": "string"
+    },
+    "SubjectType": {
+      "description": "Authoritative subject-level domain boundaries.",
+      "enum": [
+        "PHYSICS",
+        "CHEMISTRY",
+        "MATHEMATICS",
+        "NON_CONTENT",
+        "OTHER",
+        "MIXED",
+        "UNCERTAIN"
+      ],
+      "title": "SubjectType",
+      "type": "string"
+    },
+    "SyllabusSource": {
+      "description": "Specific official syllabus document or brochure reference.",
+      "properties": {
+        "authority": {
+          "$ref": "#/$defs/SyllabusSourceAuthority",
+          "description": "Authority justifying syllabus presence"
+        },
+        "edition": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Syllabus edition or year (e.g. '2026', 'BUILD_GUIDE_V2')",
+          "title": "Edition"
+        },
+        "document_ref": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Official syllabus document or brochure section reference",
+          "title": "Document Ref"
+        }
+      },
+      "required": [
+        "authority"
+      ],
+      "title": "SyllabusSource",
+      "type": "object"
+    },
+    "SyllabusSourceAuthority": {
+      "description": "Authoritative institutions or specifications justifying coverage.",
+      "enum": [
+        "JEE_ADVANCED",
+        "JEE_MAIN",
+        "PROJECT_BUILD_GUIDE",
+        "OLYMPIAD"
+      ],
+      "title": "SyllabusSourceAuthority",
+      "type": "string"
+    },
+    "TaxonomyLevel": {
+      "description": "Hierarchy depth levels within the syllabus tree.",
+      "enum": [
+        "SUBJECT",
+        "CHAPTER",
+        "TOPIC",
+        "SUBTOPIC",
+        "EXTENSION"
+      ],
+      "title": "TaxonomyLevel",
+      "type": "string"
+    }
+  },
+  "description": "A node in the authoritative syllabus taxonomy hierarchy.",
+  "properties": {
+    "id": {
+      "description": "Stable, permanent slug ID (e.g. 'kinematics')",
+      "minLength": 1,
+      "title": "Id",
+      "type": "string"
+    },
+    "name": {
+      "description": "Display name / title",
+      "minLength": 1,
+      "title": "Name",
+      "type": "string"
+    },
+    "level": {
+      "$ref": "#/$defs/TaxonomyLevel",
+      "description": "Hierarchy level"
+    },
+    "parent_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Parent node ID. None only for the root subject node",
+      "title": "Parent Id"
+    },
+    "subject": {
+      "$ref": "#/$defs/SubjectType",
+      "default": "PHYSICS",
+      "description": "Parent subject classification"
+    },
+    "aliases": {
+      "description": "Alternative recognized slugs / historical IDs",
+      "items": {
+        "type": "string"
+      },
+      "title": "Aliases",
+      "type": "array"
+    },
+    "description": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Scope definition or syllabus boundary",
+      "title": "Description"
+    },
+    "prerequisites": {
+      "description": "IDs of prerequisite taxonomy nodes",
+      "items": {
+        "type": "string"
+      },
+      "title": "Prerequisites",
+      "type": "array"
+    },
+    "provenance_class": {
+      "$ref": "#/$defs/NodeProvenanceClass",
+      "default": "PEDAGOGICAL_GROUPING",
+      "description": "Provenance category of this node"
+    },
+    "syllabus_sources": {
+      "description": "Official or authoritative source citations justifying this node",
+      "items": {
+        "$ref": "#/$defs/SyllabusSource"
+      },
+      "title": "Syllabus Sources",
+      "type": "array"
+    },
+    "extension_olympiad": {
+      "default": false,
+      "description": "True if beyond standard JEE syllabus (Olympiad / Irodov tier)",
+      "title": "Extension Olympiad",
+      "type": "boolean"
+    },
+    "active": {
+      "default": true,
+      "description": "False if deprecated or decommissioned",
+      "title": "Active",
+      "type": "boolean"
+    },
+    "order": {
+      "default": 1,
+      "description": "Curriculum presentation order among siblings",
+      "minimum": 1,
+      "title": "Order",
+      "type": "integer"
+    }
+  },
+  "required": [
+    "id",
+    "name",
+    "level"
+  ],
+  "title": "TaxonomyNode",
+  "type": "object"
+}

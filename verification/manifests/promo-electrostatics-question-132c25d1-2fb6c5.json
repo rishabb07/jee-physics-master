@@ -1,0 +1,14 @@
+{
+  "promotion_id": "promo-electrostatics-question-132c25d1-2fb6c5",
+  "atom_id": "electrostatics-question-132c25d1",
+  "verification_id": "verif-electrostatics-question-132c25d1-144a33",
+  "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+  "atom_version": 1,
+  "staged_path": "build/staging/atoms/batch_src-jee-rank-booster-03-mock-256f42c6_20260928_031815_253c.jsonl",
+  "canonical_path": "kb\\atoms\\electrostatics-question-132c25d1.json",
+  "verdict": "VERIFIED",
+  "source_claimed_answer": null,
+  "verified_answer": "C",
+  "timestamp": "2026-09-28T03:29:19.723681Z",
+  "promoted_by": "promotion_gate"
+}

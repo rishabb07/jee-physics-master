@@ -1,0 +1,31 @@
+{
+  "verification_id": "cvr-concept-td-first-law-01",
+  "artifact_id": "concept-td-first-law-01",
+  "target_id": "concept-td-first-law-01",
+  "artifact_version": 1,
+  "content_type": "CONCEPT_EXPLANATION",
+  "content_hash": "7328e9b6b2062b287dda82d14910901049303d12572931289f7ec36a7d0e6d4e",
+  "verifier_id": "content-verifier-mechanics-thermo",
+  "verifier_conversation_id": "bdcda0e3-0496-4ba9-a62e-6fe79ffe6824",
+  "risk_level": "MEDIUM",
+  "verdict": "VERIFIED",
+  "assumptions_checked": true,
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_case_check_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "independent_derivation_or_calculation": "Independent verification from first principles: 1. Energy conservation: dE_universe = 0 => dE_system + dE_surroundings = 0. Partitioning system energy into macroscopic mechanical energy E_macro and internal microscopic energy U: with dE_macro = 0, dE_system = dU. 2. Inexact boundary transfers: Heat absorbed dQ and work done by system dW = P dV satisfy -dE_surroundings = dQ - dW => dQ = dU + dW. Dimensions: [M L^2 T^-2] (Joules). 3. Mathematical structure: U is an exact differential (state function) so oint dU = 0 for any closed path, and delta U depends solely on endpoints. In contrast, dQ and dW are path-dependent inexact differentials. 4. Ideal gas internal energy: Joule's experiment confirms U = U(T) only, so dU = n C_v dT for any arbitrary process of an ideal gas.",
+  "verification_notes": "All thermodynamic concepts, exact versus inexact differential classifications, physical sign conventions (physics convention dQ = dU + dW vs chemical IUPAC convention delta U = Q + W_chem), and ideal gas internal energy expressions verified from first principles. Complete dimensional consistency ([M L^2 T^-2]).",
+  "findings": [
+    "Differential First Law dQ = dU + dW and integrated Q = delta U + W verified.",
+    "State function U (oint dU = 0) vs path functions Q and W rigorously established.",
+    "Physics vs Chemistry sign conventions explicitly contrasted to prevent JEE student sign errors.",
+    "Ideal gas internal energy dU = n C_v dT verified as universally valid across all thermodynamic paths."
+  ],
+  "discrepancies": [],
+  "created_at": "2026-09-28T17:18:00Z",
+  "timestamp": "2026-09-28T17:18:00Z"
+}

@@ -1,0 +1,183 @@
+{
+  "$defs": {
+    "ChapterSectionPlan": {
+      "description": "Blueprint for a single section within a chapter.",
+      "properties": {
+        "section_id": {
+          "description": "Section slug, e.g. 'sec-01-torque'",
+          "minLength": 1,
+          "title": "Section Id",
+          "type": "string"
+        },
+        "section_order": {
+          "description": "Sequence order within chapter",
+          "minimum": 1,
+          "title": "Section Order",
+          "type": "integer"
+        },
+        "title": {
+          "description": "Section heading",
+          "minLength": 1,
+          "title": "Title",
+          "type": "string"
+        },
+        "pedagogical_purpose": {
+          "description": "Specific learning goal for this section",
+          "minLength": 5,
+          "title": "Pedagogical Purpose",
+          "type": "string"
+        },
+        "concepts": {
+          "description": "Concept titles or IDs",
+          "items": {
+            "type": "string"
+          },
+          "title": "Concepts",
+          "type": "array"
+        },
+        "formula_ids": {
+          "description": "Referenced formula IDs",
+          "items": {
+            "type": "string"
+          },
+          "title": "Formula Ids",
+          "type": "array"
+        },
+        "worked_example_ids": {
+          "description": "Referenced worked example IDs",
+          "items": {
+            "type": "string"
+          },
+          "title": "Worked Example Ids",
+          "type": "array"
+        },
+        "question_atom_ids": {
+          "description": "Referenced canonical question atom IDs",
+          "items": {
+            "type": "string"
+          },
+          "title": "Question Atom Ids",
+          "type": "array"
+        },
+        "misconception_ids": {
+          "description": "Referenced misconception IDs",
+          "items": {
+            "type": "string"
+          },
+          "title": "Misconception Ids",
+          "type": "array"
+        },
+        "prerequisite_refs": {
+          "description": "Section prerequisites",
+          "items": {
+            "type": "string"
+          },
+          "title": "Prerequisite Refs",
+          "type": "array"
+        },
+        "source_references": {
+          "description": "Source provenance citations",
+          "items": {
+            "type": "string"
+          },
+          "title": "Source References",
+          "type": "array"
+        },
+        "unresolved_gaps": {
+          "description": "Identified pedagogical gaps in this section",
+          "items": {
+            "type": "string"
+          },
+          "title": "Unresolved Gaps",
+          "type": "array"
+        }
+      },
+      "required": [
+        "section_id",
+        "section_order",
+        "title",
+        "pedagogical_purpose"
+      ],
+      "title": "ChapterSectionPlan",
+      "type": "object"
+    },
+    "ChapterTemplateType": {
+      "description": "Specialized chapter layout templates based on physics domain.",
+      "enum": [
+        "MECHANICS",
+        "THERMODYNAMICS",
+        "ELECTRODYNAMICS",
+        "OPTICS",
+        "WAVES_AND_OSCILLATIONS",
+        "MODERN_PHYSICS",
+        "GENERAL"
+      ],
+      "title": "ChapterTemplateType",
+      "type": "string"
+    }
+  },
+  "description": "Complete structured blueprint for assembling a chapter.",
+  "properties": {
+    "plan_id": {
+      "description": "Unique plan identifier",
+      "minLength": 1,
+      "title": "Plan Id",
+      "type": "string"
+    },
+    "chapter_id": {
+      "description": "Target chapter slug",
+      "minLength": 1,
+      "title": "Chapter Id",
+      "type": "string"
+    },
+    "title": {
+      "description": "Full chapter title",
+      "minLength": 1,
+      "title": "Title",
+      "type": "string"
+    },
+    "template_type": {
+      "$ref": "#/$defs/ChapterTemplateType",
+      "default": "GENERAL",
+      "description": "Domain chapter template"
+    },
+    "sections": {
+      "description": "Ordered section plans",
+      "items": {
+        "$ref": "#/$defs/ChapterSectionPlan"
+      },
+      "minItems": 1,
+      "title": "Sections",
+      "type": "array"
+    },
+    "pedagogical_synthesis_notes": {
+      "description": "Synthesis strategies across multiple sources",
+      "items": {
+        "type": "string"
+      },
+      "title": "Pedagogical Synthesis Notes",
+      "type": "array"
+    },
+    "unresolved_gaps": {
+      "description": "Gaps identified during assembly planning",
+      "items": {
+        "type": "string"
+      },
+      "title": "Unresolved Gaps",
+      "type": "array"
+    },
+    "created_at": {
+      "format": "date-time",
+      "title": "Created At",
+      "type": "string"
+    }
+  },
+  "required": [
+    "plan_id",
+    "chapter_id",
+    "title",
+    "sections"
+  ],
+  "title": "ChapterPlan",
+  "type": "object"
+}

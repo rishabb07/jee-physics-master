@@ -1,0 +1,141 @@
+{
+  "plan_id": "plan-ray-optics-001",
+  "chapter_id": "ray-optics",
+  "title": "Ray Optics and Optical Instruments",
+  "template_type": "OPTICS",
+  "sections": [
+    {
+      "section_id": "sec-01-reflection-and-spherical-mirrors",
+      "section_order": 1,
+      "title": "Fermat's Principle and Reflection at Plane and Spherical Surfaces",
+      "pedagogical_purpose": "Establish rectilinear ray propagation from Fermat's principle, define Cartesian sign conventions, and analyze image formation by concave and convex spherical mirrors using the mirror formula.",
+      "concepts": [],
+      "formula_ids": [],
+      "worked_example_ids": [],
+      "question_atom_ids": [],
+      "misconception_ids": [],
+      "prerequisite_refs": [
+        "curr-kin-02"
+      ],
+      "source_references": [
+        "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+        "Fundamentals of Physics-Halliday,Resnick,Walker.pdf"
+      ],
+      "unresolved_gaps": [
+        "Topic 'reflection-at-spherical-mirrors' lacks approved formula records (mirror formula 1/f = 1/v + 1/u) and canonical question atoms in ChapterSpec.",
+        "No worked examples for longitudinal or transverse magnification in spherical mirrors."
+      ]
+    },
+    {
+      "section_id": "sec-02-snells-law-and-plane-refraction",
+      "section_order": 2,
+      "title": "Refraction at Plane Interfaces and Snell's Law",
+      "pedagogical_purpose": "Formulate Snell's Law n1 sin(theta1) = n2 sin(theta2), resolve normal incidence behavior (i = 0 implies r = 0, no deviation), and calculate lateral and normal shift through transparent slabs.",
+      "concepts": [
+        "concept-opt-snell-01"
+      ],
+      "formula_ids": [
+        "formula-opt-snells-law"
+      ],
+      "worked_example_ids": [],
+      "question_atom_ids": [],
+      "misconception_ids": [
+        "misc-opt-02"
+      ],
+      "prerequisite_refs": [
+        "curr-opt-01"
+      ],
+      "source_references": [
+        "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+        "University Physics with Modern Physics, 13th Edition.pdf"
+      ],
+      "unresolved_gaps": [
+        "No standalone canonical question atom for apparent depth or lateral displacement in plane slabs currently staged."
+      ]
+    },
+    {
+      "section_id": "sec-03-tir-and-prism-geometry",
+      "section_order": 3,
+      "title": "Total Internal Reflection, Relative Critical Angle, and Prism Geometry",
+      "pedagogical_purpose": "Derive the generalized critical angle condition sin(theta_c) = n_rarer / n_denser for immersed optical components, analyze internal beam deflection in prisms, and resolve misconceptions ignoring surrounding media.",
+      "concepts": [
+        "concept-opt-tir-01"
+      ],
+      "formula_ids": [
+        "formula-opt-critical-angle",
+        "formula-opt-prism-geometry"
+      ],
+      "worked_example_ids": [
+        "ex-opt-tir-prism-water-01"
+      ],
+      "question_atom_ids": [
+        "ray-optics-question-e04c1df3"
+      ],
+      "misconception_ids": [
+        "misc-opt-01",
+        "misc-opt-02"
+      ],
+      "prerequisite_refs": [
+        "curr-opt-01",
+        "curr-opt-02"
+      ],
+      "source_references": [
+        "jee_rank_booster-03_mock_paper.pdf",
+        "concepts_of_physics_by_h.c._verma_volume_2.pdf"
+      ],
+      "unresolved_gaps": []
+    },
+    {
+      "section_id": "sec-04-spherical-refraction-and-lenses",
+      "section_order": 4,
+      "title": "Refraction at Spherical Surfaces and Thin Lens Theory",
+      "pedagogical_purpose": "Derive single spherical surface refraction n2/v - n1/u = (n2 - n1)/R, establish the Lens Maker's formula, and calculate focal length shifts when lenses are immersed in fluids.",
+      "concepts": [],
+      "formula_ids": [],
+      "worked_example_ids": [],
+      "question_atom_ids": [],
+      "misconception_ids": [],
+      "prerequisite_refs": [
+        "curr-opt-02"
+      ],
+      "source_references": [
+        "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+        "University Physics with Modern Physics, 13th Edition.pdf"
+      ],
+      "unresolved_gaps": [
+        "Subtopic 'refraction-at-spherical-surfaces-and-lenses' lacks approved formula records (Lens Maker's formula, thin lens equation) and canonical question atoms in ChapterSpec."
+      ]
+    },
+    {
+      "section_id": "sec-05-optical-instruments",
+      "section_order": 5,
+      "title": "Compound Optical Instruments: Microscopes and Telescopes",
+      "pedagogical_purpose": "Analyze compound ray geometry in astronomical and terrestrial telescopes, determine angular magnification in normal adjustment and near-point adjustment, and calculate overall tube length.",
+      "concepts": [],
+      "formula_ids": [],
+      "worked_example_ids": [],
+      "question_atom_ids": [],
+      "misconception_ids": [],
+      "prerequisite_refs": [
+        "curr-opt-02"
+      ],
+      "source_references": [
+        "concepts_of_physics_by_h.c._verma_volume_2.pdf"
+      ],
+      "unresolved_gaps": [
+        "Subtopic 'astronomical-and-terrestrial-telescope' lacks approved formula records (m = fo / fe, L = fo + fe) and canonical question atoms in ChapterSpec."
+      ]
+    }
+  ],
+  "pedagogical_synthesis_notes": [
+    "Optics Template: Progression flows from plane interface refraction to boundary-trapping phenomena (TIR), prism dispersion geometry, curved refracting surfaces (lenses), and compound multi-element optical instruments.",
+    "Relative Index Immersion Invariant: Section 3 tackles misc-opt-01 head-on through ex-opt-tir-prism-water-01 and ray-optics-question-e04c1df3, training students to evaluate the relative refractive index n_rarer / n_denser rather than reflexively setting n_rarer = 1.",
+    "Normal Incidence Demystification: Addresses misc-opt-02 across Section 2 and Section 3, establishing that normal incidence (i = 0) produces zero refraction deviation at the first interface, leaving ray redirection purely to internal geometric encounters."
+  ],
+  "unresolved_gaps": [
+    "Gap in Topic 'reflection-at-spherical-mirrors': No approved formulas or question atoms in ChapterSpec for concave/convex mirror calculations.",
+    "Gap in Topic 'refraction-at-spherical-surfaces-and-lenses': Lens Maker's formula and thin lens combinations lack formula records and question atoms in ChapterSpec.",
+    "Gap in Topic 'optical-instruments': Telescopes and microscopes lack canonical question atoms, formulas, and worked examples in current staging."
+  ],
+  "created_at": "2026-09-28T22:15:00Z"
+}

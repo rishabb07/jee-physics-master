@@ -1,0 +1,80 @@
+{
+  "atom_id": "thermodynamics-question-7e2f5a91",
+  "schema_version": "1.0.0",
+  "atom_version": 1,
+  "active": true,
+  "atom_type": "question",
+  "title": "Adiabatic compression of monoatomic ideal gas to 12.5 percent volume",
+  "taxonomy": {
+    "chapter_id": "thermodynamics",
+    "topic_id": "first-law-and-processes",
+    "subtopic_id": "adiabatic-process"
+  },
+  "provenance": [
+    {
+      "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+      "file_name": "jee_rank_booster-03_mock_paper.pdf",
+      "file_path": "jee_rank_booster-03_mock_paper.pdf",
+      "page_start": 4,
+      "page_end": 4,
+      "source_locator": "Section - A, Q14",
+      "edition": null,
+      "extraction_metadata": {
+        "source_sha256": "256f42c67a9271aaafe4bf637eb34cddd10da959cdf7a66fc6fee76a68d34361"
+      }
+    }
+  ],
+  "confidence": 0.99,
+  "verification_status": "VERIFIED",
+  "content_hash": "8c521079bd7785f9c5dcc9407efb7a64479712a6fe55265b17182196b1e8b2c2",
+  "created_at": "2026-09-28T01:00:00Z",
+  "updated_at": "2026-09-28T04:19:50.844369Z",
+  "content": null,
+  "formula": null,
+  "question": {
+    "statement": "A monoatomic ideal gas is filled in a nonconducting container. The gas can be compressed by a movable nonconducting piston. The gas is compressed slowly to 12.5% of its initial volume.\nFind final temperature of the gas if it is $T_{0}$ initially–",
+    "options": [
+      {
+        "id": "A",
+        "text": "$4T_{0}$"
+      },
+      {
+        "id": "B",
+        "text": "$3T_{0}$"
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{2}{3}T_{0}$"
+      },
+      {
+        "id": "D",
+        "text": "$T_{0}$"
+      }
+    ],
+    "source_claimed_answer": "A",
+    "verified_answer": "A",
+    "source_solution": null,
+    "answer": "A",
+    "solution_methods": [],
+    "difficulty": "L2",
+    "exam_metadata": {
+      "exam": "JEE Main Mock",
+      "exam_name": "JEE Main Mock",
+      "year": null,
+      "paper": null,
+      "question_number": "14"
+    },
+    "concepts": [
+      "thermodynamics",
+      "adiabatic-process",
+      "ideal-gas",
+      "gamma-ratio"
+    ]
+  },
+  "solved_example": null,
+  "misconception": null,
+  "figure_refs": [],
+  "insight": null,
+  "duplicate_group_id": null,
+  "archive_reason": null
+}

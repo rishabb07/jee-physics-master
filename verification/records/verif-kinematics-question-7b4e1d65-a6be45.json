@@ -1,0 +1,30 @@
+{
+  "verification_id": "verif-kinematics-question-7b4e1d65-a6be45",
+  "atom_id": "kinematics-question-7b4e1d65",
+  "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+  "atom_version": 1,
+  "content_hash": "4f0a71b1a15102e9c1e25ac6f5207de7b6b75ba65b9abd2555ebc3d7a773c595",
+  "verification_protocol_version": "1.0.0",
+  "solver_run_ids": [
+    "run-solver_a-kinematics-question-7b4e1d65-001",
+    "run-solver_b-kinematics-question-7b4e1d65-62726a4b"
+  ],
+  "source_claimed_answer": null,
+  "source_solution": null,
+  "independent_answers": {
+    "solver_a": "72",
+    "solver_b": "72"
+  },
+  "independent_solutions": {
+    "solver_a": "1. Acceleration phase: Initial velocity u=0, acceleration=f, distance=S. Final velocity v1 = sqrt(2fS).\n2. Constant speed phase: Velocity=v1, time=t. Distance S2 = v1 * t = sqrt(2fS) * t.\n3. Deceleration phase: Initial velocity=v1, deceleration=f/2, final velocity=0. Distance S3 = v1^2 / (2 * (f/2)) = v1^2 / f = 2fS / f = 2S.",
+    "solver_b": "Phase 1: Accel $f$, dist $S$. Max velocity $v = \\sqrt{2fS}$.\nPhase 3: Decel $f/2$ to rest from $v$. Dist $S_3 = \\frac{v^2}{2(f/2)} = \\frac{2fS}{f} = 2S$.\nPhase 2: Const speed $v$ for time $t$. Dist $S_2 = v t = t\\sqrt{2fS}$."
+  },
+  "consensus_answer": "72",
+  "verdict": "VERIFIED",
+  "confidence": 0.99,
+  "discrepancy_classification": "SOURCE_ANSWER_MISSING",
+  "adjudication_result": null,
+  "created_at": "2026-09-28T03:29:47.906467Z",
+  "completed_at": "2026-09-28T03:29:47.906467Z",
+  "metadata": {}
+}

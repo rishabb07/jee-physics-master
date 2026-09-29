@@ -1,0 +1,53 @@
+{
+  "formula_id": "formula-td-first-law",
+  "chapter_id": "thermodynamics",
+  "title": "First Law of Thermodynamics",
+  "equation": "dQ = dU + dW = dU + P dV",
+  "equation_latex": "dQ = dU + dW = dU + P dV",
+  "variables": {
+    "Q": "Heat transferred to system",
+    "U": "Internal energy of system",
+    "W": "Work done by system",
+    "P": "Pressure",
+    "V": "Volume"
+  },
+  "units": {
+    "Q": "J",
+    "U": "J",
+    "W": "J",
+    "P": "Pa",
+    "V": "m^3"
+  },
+  "dimensions": {
+    "Q": "[M][L]^2[T]^-2",
+    "U": "[M][L]^2[T]^-2",
+    "W": "[M][L]^2[T]^-2",
+    "P": "[M][L]^-1[T]^-2",
+    "V": "[L]^3"
+  },
+  "assumptions": [
+    "Closed stationary thermodynamic system",
+    "Negligible bulk kinetic/potential energy changes"
+  ],
+  "validity_conditions": [
+    "Quasi-static boundary work dW = P dV holds for reversible processes; universal energy conservation holds generally"
+  ],
+  "derivation_reference": "derivation-formula-td-first-law",
+  "related_concepts": [
+    "concept-td-first-law-01"
+  ],
+  "common_misuse": [
+    "Confusing chemistry sign convention (\\Delta U = Q + W) with physics convention (\\Delta U = Q - W)",
+    "Treating Q and W as state functions"
+  ],
+  "provenance": [],
+  "generation_metadata": {
+    "agent": "content_generator",
+    "version": "1.0",
+    "target_chapter": "thermodynamics"
+  },
+  "verification_status": "VERIFIED",
+  "content_hash": "7292461710c4af607972e6edbf5a76fab730ee4aa9e0d7eebb12c6790cd8fdda",
+  "verification_record_id": "cvr-formula-td-first-law",
+  "created_at": "2026-09-29T07:50:00Z"
+}

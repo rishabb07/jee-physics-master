@@ -1,0 +1,147 @@
+{
+  "plan_id": "plan-current-electricity-001",
+  "chapter_id": "current-electricity",
+  "title": "Current Electricity",
+  "template_type": "ELECTRODYNAMICS",
+  "sections": [
+    {
+      "section_id": "sec-01-drift-velocity-and-ohms-law",
+      "section_order": 1,
+      "title": "Microscopic Electric Current, Drift Velocity, and Ohm's Law",
+      "pedagogical_purpose": "Establish the microscopic mechanism of conduction electrons, derive I = n e A v_d, formulate current density J = sigma E, and distinguish thermal electronic motion from collective drift velocity.",
+      "concepts": [
+        "concept-curr-drift-01"
+      ],
+      "formula_ids": [
+        "formula-curr-drift-micro"
+      ],
+      "worked_example_ids": [],
+      "question_atom_ids": [],
+      "misconception_ids": [],
+      "prerequisite_refs": [
+        "curr-es-01"
+      ],
+      "source_references": [
+        "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+        "Fundamentals of Physics-Halliday,Resnick,Walker.pdf"
+      ],
+      "unresolved_gaps": [
+        "No verified canonical question atoms or worked examples for numerical drift velocity calculation in current staging."
+      ]
+    },
+    {
+      "section_id": "sec-02-resistance-and-recasting",
+      "section_order": 2,
+      "title": "Macroscopic Resistance, Material Resistivity, and Wire Recasting",
+      "pedagogical_purpose": "Relate resistance to conductor geometry R = rho l / A and analyze resistance scaling under volume conservation during wire stretching and recasting, explicitly disproving 1/r^2 area-only scaling.",
+      "concepts": [
+        "concept-curr-recasting-01"
+      ],
+      "formula_ids": [
+        "formula-curr-recasting-volume"
+      ],
+      "worked_example_ids": [
+        "ex-curr-recast-wire-01"
+      ],
+      "question_atom_ids": [
+        "current-electricity-question-ce6aab7f"
+      ],
+      "misconception_ids": [
+        "misc-curr-01"
+      ],
+      "prerequisite_refs": [
+        "curr-curr-01"
+      ],
+      "source_references": [
+        "jee_rank_booster-03_mock_paper.pdf",
+        "concepts_of_physics_by_h.c._verma_volume_2.pdf"
+      ],
+      "unresolved_gaps": []
+    },
+    {
+      "section_id": "sec-03-resistor-combinations-networks",
+      "section_order": 3,
+      "title": "Resistor Networks, Symmetry Reductions, and Equivalent Resistance",
+      "pedagogical_purpose": "Master series and parallel reductions, delta-wye transformations, and nodal symmetry methods for complex resistor lattices.",
+      "concepts": [],
+      "formula_ids": [],
+      "worked_example_ids": [],
+      "question_atom_ids": [],
+      "misconception_ids": [],
+      "prerequisite_refs": [
+        "curr-curr-02"
+      ],
+      "source_references": [
+        "concepts_of_physics_by_h.c._verma_volume_2.pdf",
+        "University Physics with Modern Physics, 13th Edition.pdf"
+      ],
+      "unresolved_gaps": [
+        "Subtopic 'combinations-of-resistors' has no approved formula records or question atoms in ChapterSpec.",
+        "Lacks bridge circuit questions and symmetry reduction examples in current KB."
+      ]
+    },
+    {
+      "section_id": "sec-04-kirchhoffs-laws-multiloop-circuits",
+      "section_order": 4,
+      "title": "Kirchhoff's Laws and Multi-Loop DC Circuit Analysis",
+      "pedagogical_purpose": "Apply Kirchhoff's Current Law (conservation of charge) and Voltage Law (conservation of energy) systematically using branch-current and node-voltage methods.",
+      "concepts": [],
+      "formula_ids": [],
+      "worked_example_ids": [],
+      "question_atom_ids": [],
+      "misconception_ids": [],
+      "prerequisite_refs": [
+        "curr-curr-02",
+        "curr-wep-01"
+      ],
+      "source_references": [
+        "concepts_of_physics_by_h.c._verma_volume_2.pdf"
+      ],
+      "unresolved_gaps": [
+        "Subtopic 'kirchhoffs-laws' lacks approved formula records (sum I = 0, sum V = 0) and canonical question atoms in ChapterSpec."
+      ]
+    },
+    {
+      "section_id": "sec-05-measuring-instruments-meters",
+      "section_order": 5,
+      "title": "Electrical Measuring Instruments: Ideal and Real Ammeters and Voltmeters",
+      "pedagogical_purpose": "Model circuit instrumentation, establish the ideal ammeter (R_A -> 0) and ideal voltmeter (R_V -> infty) boundary conditions, and eliminate the misconception that branch ammeters read total battery current.",
+      "concepts": [
+        "concept-curr-meters-01"
+      ],
+      "formula_ids": [
+        "formula-curr-measuring-meters"
+      ],
+      "worked_example_ids": [],
+      "question_atom_ids": [
+        "current-electricity-question-3a1b8c4d",
+        "current-electricity-question-d2492f7f"
+      ],
+      "misconception_ids": [
+        "misc-curr-02"
+      ],
+      "prerequisite_refs": [
+        "curr-curr-02",
+        "curr-curr-03"
+      ],
+      "source_references": [
+        "jee_rank_booster-03_mock_paper.pdf",
+        "concepts_of_physics_by_h.c._verma_volume_2.pdf"
+      ],
+      "unresolved_gaps": [
+        "Need a dedicated worked example for galvanometer conversion to ammeter (shunt resistance) and voltmeter (multiplier resistance)."
+      ]
+    }
+  ],
+  "pedagogical_synthesis_notes": [
+    "Electrodynamics Template: Progression moves logically from microscopic carrier kinetics (v_d, J, sigma) to macroscopic geometrical resistance (R = rho L / A), network topology, and experimental measurement instrumentation.",
+    "Misconception-Driven Instruction: Section 2 aggressively targets misc-curr-01 via worked example ex-curr-recast-wire-01 and question current-electricity-question-ce6aab7f, cementing the 1/r^4 scaling law resulting from volume conservation.",
+    "Network Branching & Measurement: Section 5 eliminates misc-curr-02 through dual practice atoms current-electricity-question-3a1b8c4d and current-electricity-question-d2492f7f, instilling rigorous nodal current splitting principles before instrument readings."
+  ],
+  "unresolved_gaps": [
+    "Gap in Topic 'electric-current-and-drift': Lacks canonical questions for electron drift velocity and mobility calculations.",
+    "Gap in Topic 'resistance-and-resistivity': Missing formula records and questions for temperature coefficient of resistance (alpha) and color code/standard combinations.",
+    "Gap in Topic 'dc-circuits': Kirchhoff's laws and potentiometer/Wheatstone bridge lack canonical formula records and worked examples in current ChapterSpec."
+  ],
+  "created_at": "2026-09-28T22:15:00Z"
+}

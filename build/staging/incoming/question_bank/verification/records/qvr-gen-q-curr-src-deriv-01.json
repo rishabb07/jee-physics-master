@@ -1,0 +1,68 @@
+{
+  "verification_id": "qvr-gen-q-curr-src-deriv-01",
+  "question_id": "gen-q-curr-src-deriv-01",
+  "question_version": 1,
+  "content_hash": "f95f71b98f539d63a414d060f142a5d52ac27037aa703f58ca940e5f83127c25",
+  "risk_level": "MEDIUM",
+  "solver_a": {
+    "solver_id": "solver_a",
+    "conversation_id": "c4b2f200-9d09-4009-8419-85baf0f75544",
+    "independent_interpretation": "A moving-coil galvanometer with internal resistance G = 50.0 Ohm and full-scale deflection current I_g = 2.0 mA is converted into an ammeter of maximum current rating I = 5.0 A by connecting a shunt resistance S in parallel.",
+    "governing_principles": [
+      "Kirchhoff's Current Law (KCL) at parallel node",
+      "Kirchhoff's Voltage Law (KVL) / Parallel branch equipotentiality",
+      "Ammeter Shunt Principle"
+    ],
+    "independent_equations": [
+      "I = I_g + I_s \\implies I_s = I - I_g",
+      "V_s = V_g \\implies I_s S = I_g G",
+      "S = \\frac{I_g G}{I - I_g} = \\frac{I_g G}{I_s}"
+    ],
+    "independent_solution_steps": [
+      "Step 1: Set up current division: Total maximum measurable current I splits into galvanometer branch current I_g and shunt branch current I_s: I_s = I - I_g = 5.0 A - 0.002 A = 4.998 A.",
+      "Step 2: Equate parallel branch voltages: The potential difference across the galvanometer is V_g = I_g * G = 2.0 * 10^-3 A * 50.0 Ohm = 0.100 V.",
+      "Step 3: Solve for required shunt resistance S: S = V_g / I_s = 0.100 V / 4.998 A = 0.020008 Ohm.",
+      "Step 4: Approximate to relevant significant figures: S approx 0.020 Ohm, corresponding precisely to Option A.",
+      "Step 5: Audit distractors: Option B (0.050 Ohm) fails parallel voltage condition; Option C (0.100 Ohm) confuses voltage drop in Volts (0.100 V) with resistance; Option D (1.000 Ohm) represents a metric prefix omission error (using 0.1 A instead of 2 mA)."
+    ],
+    "calculated_answer": "A",
+    "dimensional_check_passed": true,
+    "numerical_check_passed": true,
+    "uniqueness_confirmed": true,
+    "conflicting_distractors": [],
+    "evaluated_difficulty": {
+      "conceptual_difficulty": 2,
+      "mathematical_difficulty": 2,
+      "multistep_reasoning_difficulty": 2,
+      "abstraction_difficulty": 2,
+      "computational_burden": 2,
+      "trap_misconception_difficulty": 2,
+      "derived_difficulty_band": "L2",
+      "weighting_policy": "PEDAGOGICAL_PROJECT_POLICY"
+    },
+    "verdict": "VERIFIED",
+    "notes": "First-principles derivation yields S = (I_g * G) / (I - I_g) = 0.100 / 4.998 = 0.020008 Ohm. Matches Option A (0.020 Ohm). Distractors B, C, D are mathematically and physically invalid.",
+    "record_status": "ACTIVE",
+    "superseded_by": null,
+    "superseded_reason": null,
+    "timestamp": "2026-09-29T08:54:20+05:30"
+  },
+  "solver_b": null,
+  "agreement": true,
+  "uniqueness_verified": true,
+  "distractors_validated": true,
+  "numerical_validated": true,
+  "final_answer": "A",
+  "final_verdict": "VERIFIED",
+  "difficulty_calibrated": {
+    "conceptual_difficulty": 2,
+    "mathematical_difficulty": 2,
+    "multistep_reasoning_difficulty": 2,
+    "abstraction_difficulty": 2,
+    "computational_burden": 2,
+    "trap_misconception_difficulty": 2,
+    "derived_difficulty_band": "L2",
+    "weighting_policy": "PEDAGOGICAL_PROJECT_POLICY"
+  },
+  "created_at": "2026-09-29T03:54:46.228770Z"
+}

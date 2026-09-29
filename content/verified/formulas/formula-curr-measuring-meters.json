@@ -1,0 +1,56 @@
+{
+  "formula_id": "formula-curr-measuring-meters",
+  "chapter_id": "current-electricity",
+  "title": "Ideal Ammeter and Voltmeter Branch Equations",
+  "equation": "S = \\frac{I_g G}{I - I_g},\\quad R_s = \\frac{V}{I_g} - G",
+  "equation_latex": "S = \\frac{I_g G}{I - I_g},\\quad R_s = \\frac{V}{I_g} - G",
+  "variables": {
+    "S": "Shunt resistance for ammeter",
+    "R_s": "Series multiplier resistance for voltmeter",
+    "G": "Galvanometer coil resistance",
+    "I_g": "Full-scale deflection current",
+    "I": "Maximum current range",
+    "V": "Maximum voltage range"
+  },
+  "units": {
+    "S": "\\Omega",
+    "R_s": "\\Omega",
+    "G": "\\Omega",
+    "I_g": "A",
+    "I": "A",
+    "V": "V"
+  },
+  "dimensions": {
+    "S": "[M][L]^2[T]^-3[I]^-2",
+    "R_s": "[M][L]^2[T]^-3[I]^-2",
+    "G": "[M][L]^2[T]^-3[I]^-2",
+    "I_g": "[I]",
+    "I": "[I]",
+    "V": "[M][L]^2[T]^-3[I]^-1"
+  },
+  "assumptions": [
+    "Linear magnetic deflection torque proportional to current",
+    "Temperature-independent resistance"
+  ],
+  "validity_conditions": [
+    "Applies to moving coil galvanometer conversion to ammeters and voltmeters"
+  ],
+  "derivation_reference": "derivation-formula-curr-measuring-meters",
+  "related_concepts": [
+    "concept-curr-meters-01"
+  ],
+  "common_misuse": [
+    "Connecting shunt in series or multiplier in parallel",
+    "Confusing galvanometer coil current I_g with total branch current I"
+  ],
+  "provenance": [],
+  "generation_metadata": {
+    "agent": "content_generator",
+    "version": "1.0",
+    "target_chapter": "current-electricity"
+  },
+  "verification_status": "VERIFIED",
+  "content_hash": "14c3c02f59d61fed6284b0d7ad727896ffda157a86adf6be6edc5353a2f50f21",
+  "verification_record_id": "cvr-formula-curr-measuring-meters",
+  "created_at": "2026-09-29T07:50:00Z"
+}

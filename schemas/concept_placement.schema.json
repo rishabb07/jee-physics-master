@@ -1,0 +1,83 @@
+{
+  "$defs": {
+    "PedagogicalRole": {
+      "description": "The learning and narrative role of a curriculum element.",
+      "enum": [
+        "FOUNDATION_CONCEPT",
+        "CORE_PRINCIPLE",
+        "DERIVATION",
+        "WORKED_EXAMPLE",
+        "QUESTION_LADDER",
+        "PRACTICE_QUESTION",
+        "ADVANCED_SYNTHESIS",
+        "COMMON_MISCONCEPTION",
+        "REVISION_SUMMARY",
+        "HISTORICAL_NOTE",
+        "INTUITION_BUILDER"
+      ],
+      "title": "PedagogicalRole",
+      "type": "string"
+    }
+  },
+  "description": "Placement of a concept in the chapter narrative structure.",
+  "properties": {
+    "concept_id": {
+      "description": "Unique concept identifier",
+      "minLength": 1,
+      "title": "Concept Id",
+      "type": "string"
+    },
+    "curriculum_id": {
+      "description": "Curriculum unit ID",
+      "minLength": 1,
+      "title": "Curriculum Id",
+      "type": "string"
+    },
+    "role": {
+      "$ref": "#/$defs/PedagogicalRole",
+      "default": "FOUNDATION_CONCEPT",
+      "description": "Pedagogical role"
+    },
+    "prerequisite_relationship": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Prerequisite note or linkage",
+      "title": "Prerequisite Relationship"
+    },
+    "explanation_priority": {
+      "default": 1,
+      "description": "Order of presentation within section",
+      "minimum": 1,
+      "title": "Explanation Priority",
+      "type": "integer"
+    },
+    "source_atom_ids": {
+      "description": "Backing canonical atom IDs if any",
+      "items": {
+        "type": "string"
+      },
+      "title": "Source Atom Ids",
+      "type": "array"
+    },
+    "source_evidence": {
+      "description": "Evidence citation justifying concept inclusion",
+      "minLength": 1,
+      "title": "Source Evidence",
+      "type": "string"
+    }
+  },
+  "required": [
+    "concept_id",
+    "curriculum_id",
+    "source_evidence"
+  ],
+  "title": "ConceptPlacement",
+  "type": "object"
+}

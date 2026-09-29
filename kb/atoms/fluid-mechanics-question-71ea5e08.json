@@ -1,0 +1,87 @@
+{
+  "atom_id": "fluid-mechanics-question-71ea5e08",
+  "schema_version": "1.0.0",
+  "atom_version": 1,
+  "active": true,
+  "atom_type": "question",
+  "title": "Density relation for ball floating at interface of two immiscible liquids",
+  "taxonomy": {
+    "chapter_id": "fluid-mechanics",
+    "topic_id": "buoyancy-and-floatation",
+    "subtopic_id": "immiscible-fluids-interface"
+  },
+  "provenance": [
+    {
+      "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+      "file_name": "jee_rank_booster-03_mock_paper.pdf",
+      "file_path": "jee_rank_booster-03_mock_paper.pdf",
+      "page_start": 4,
+      "page_end": 4,
+      "source_locator": "Section - A, Q16",
+      "edition": null,
+      "extraction_metadata": {
+        "source_sha256": "256f42c67a9271aaafe4bf637eb34cddd10da959cdf7a66fc6fee76a68d34361",
+        "source_note": "Source text prints 'true for rho_1, rho_1 and rho_3' but contextually means 'rho_1, rho_2 and rho_3'. Transcribed as visually present per Zero Pre-Verification rule."
+      }
+    }
+  ],
+  "confidence": 0.95,
+  "verification_status": "VERIFIED",
+  "content_hash": "4f8473663e36491674455ad903d7f97af23d3aca69a7268dff8caa6ecb403a7c",
+  "created_at": "2026-09-28T01:00:00Z",
+  "updated_at": "2026-09-28T04:19:50.742382Z",
+  "content": null,
+  "formula": null,
+  "question": {
+    "statement": "A jar is filled with two non-mixing liquids 1 and 2 having densities $\\rho_{1}$ and, $\\rho_{2}$ respectively. A solid ball, made of a material of density $\\rho_{3}$, is dropped in the jar. It comes to equilibrium in the position shown in the figure. Which of the following is true for $\\rho_{1}$, $\\rho_{1}$ and $\\rho_{3}$?",
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\rho_{3} < \\rho_{1} < \\rho_{2}$"
+      },
+      {
+        "id": "B",
+        "text": "$\\rho_{1} > \\rho_{3} > \\rho_{2}$"
+      },
+      {
+        "id": "C",
+        "text": "$\\rho_{1} < \\rho_{2} < \\rho_{3}$"
+      },
+      {
+        "id": "D",
+        "text": "$\\rho_{1} < \\rho_{3} < \\rho_{2}$"
+      }
+    ],
+    "source_claimed_answer": "D",
+    "verified_answer": "D",
+    "source_solution": null,
+    "answer": "D",
+    "solution_methods": [],
+    "difficulty": "L2",
+    "exam_metadata": {
+      "exam": "JEE Rank Booster Mock",
+      "exam_name": "JEE Rank Booster Mock",
+      "year": null,
+      "paper": 3,
+      "question_number": "16"
+    },
+    "concepts": [
+      "fluid-mechanics",
+      "buoyancy",
+      "archimedes-principle",
+      "relative-density"
+    ]
+  },
+  "solved_example": null,
+  "misconception": null,
+  "figure_refs": [
+    {
+      "figure_id": "fig-src-jee-rank-booster-03-mock-p04-q16",
+      "caption": "Jar with two non-mixing liquid layers: Liquid 1 (density $\\rho_1$) on top and Liquid 2 (density $\\rho_2$) on bottom, with a solid ball of density $\\rho_3$ in equilibrium at the interface.",
+      "alt_text": "Cross-section of a rectangular jar containing two immiscible liquid layers. The upper layer is labeled 'Liquid 1: rho_1' and the lower layer is labeled 'Liquid 2: rho_2'. A shaded spherical ball is shown floating at the boundary between the two liquids, partially submerged in each."
+    }
+  ],
+  "insight": null,
+  "duplicate_group_id": null,
+  "archive_reason": null
+}

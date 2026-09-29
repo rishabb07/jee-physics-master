@@ -1,0 +1,120 @@
+{
+  "$defs": {
+    "DedupAction": {
+      "description": "Deterministic actions resulting from deduplication evaluation.",
+      "enum": [
+        "MERGE",
+        "KEEP_SEPARATE",
+        "REVIEW"
+      ],
+      "title": "DedupAction",
+      "type": "string"
+    },
+    "DedupDecisionClass": {
+      "description": "Authoritative decision classes for physical and mathematical deduplication.",
+      "enum": [
+        "EXACT_DUPLICATE",
+        "SEMANTIC_DUPLICATE",
+        "SAME_CONCEPT_DIFFERENT_PROBLEM",
+        "MULTI_METHOD_SAME_PROBLEM",
+        "RELATED_BUT_DISTINCT",
+        "UNCERTAIN"
+      ],
+      "title": "DedupDecisionClass",
+      "type": "string"
+    }
+  },
+  "description": "Cognitive decision produced by the physics-deduplicator subagent.",
+  "properties": {
+    "candidate_id": {
+      "description": "Target candidate ID",
+      "minLength": 1,
+      "title": "Candidate Id",
+      "type": "string"
+    },
+    "decision_class": {
+      "$ref": "#/$defs/DedupDecisionClass",
+      "description": "Decision classification"
+    },
+    "duplicate_confidence": {
+      "description": "Confidence in this classification",
+      "maximum": 1.0,
+      "minimum": 0.0,
+      "title": "Duplicate Confidence",
+      "type": "number"
+    },
+    "same_underlying_problem": {
+      "description": "True if mathematically the identical problem",
+      "title": "Same Underlying Problem",
+      "type": "boolean"
+    },
+    "same_concept_only": {
+      "description": "True if only shares physics concepts but different questions",
+      "title": "Same Concept Only",
+      "type": "boolean"
+    },
+    "rationale": {
+      "description": "Detailed physical/mathematical justification",
+      "minLength": 1,
+      "title": "Rationale",
+      "type": "string"
+    },
+    "distinguishing_evidence": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Differences in givens, target, or physics",
+      "title": "Distinguishing Evidence"
+    },
+    "recommended_action": {
+      "$ref": "#/$defs/DedupAction",
+      "description": "MERGE, KEEP_SEPARATE, or REVIEW"
+    },
+    "agent_identity": {
+      "default": "physics-deduplicator",
+      "description": "Agent that performed evaluation",
+      "title": "Agent Identity",
+      "type": "string"
+    },
+    "agent_conversation_id": {
+      "description": "Subagent conversation ID for chain-of-custody",
+      "title": "Agent Conversation Id",
+      "type": "string"
+    },
+    "created_at": {
+      "format": "date-time",
+      "title": "Created At",
+      "type": "string"
+    },
+    "notes": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Notes"
+    }
+  },
+  "required": [
+    "candidate_id",
+    "decision_class",
+    "duplicate_confidence",
+    "same_underlying_problem",
+    "same_concept_only",
+    "rationale",
+    "recommended_action",
+    "agent_conversation_id"
+  ],
+  "title": "DedupDecision",
+  "type": "object"
+}

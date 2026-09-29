@@ -1,0 +1,45 @@
+{
+  "content_id": "concept-opt-tir-01",
+  "curriculum_id": "curr-opt-02",
+  "taxonomy_reference": {
+    "chapter_id": "ray-optics",
+    "topic_id": "refraction-and-tir",
+    "subtopic_id": "total-internal-reflection"
+  },
+  "title": "Total Internal Reflection, Relative Critical Angle, and Evanescent Confinement",
+  "learning_objective": "Establish the physical criteria for Total Internal Reflection (TIR), derive the relative critical angle for an optical component immersed in an arbitrary medium, and analyze ray steering inside prisms and optical waveguides.",
+  "explanation": "When a light ray propagates from an optically denser medium of refractive index $n_1 = n_{\\text{denser}}$ into an optically rarer medium of refractive index $n_2 = n_{\\text{rarer}} < n_1$, Snell's Law requires that the refracted ray bend away from the interface normal:\n$$\\sin\\theta_2 = \\frac{n_1}{n_2}\\sin\\theta_1 > \\sin\\theta_1$$\nAs the angle of incidence $\\theta_1$ increases, the angle of refraction $\\theta_2$ approaches its theoretical upper limit of $\\frac{\\pi}{2}$ rad ($90^\\circ$), where the refracted wave skims along the boundary interface (grazing emergence). The specific angle of incidence that produces this grazing emergence is called the critical angle $\\theta_c$:\n$$n_1 \\sin\\theta_c = n_2 \\sin(90^\\circ) = n_2 \\implies \\sin\\theta_c = \\frac{n_2}{n_1} = \\frac{n_{\\text{rarer}}}{n_{\\text{denser}}}$$\n\nIf the angle of incidence strictly exceeds the critical angle ($\\theta_1 > \\theta_c$), then evaluating Snell's Law formally gives $\\sin\\theta_2 = \\frac{n_1}{n_2}\\sin\\theta_1 > 1$. Because the sine of a real angle cannot exceed unity, no propagating wave can transmit into the second medium in the framework of geometric optics. Instead, 100% of the incident radiant power is reflected back into the denser medium at an angle of reflection equal to the angle of incidence ($\\theta_r = \\theta_1$), satisfying the specular law of reflection. This lossless phenomenon is known as Total Internal Reflection (TIR).\n\nA vital distinction in JEE Advanced physics is that the critical angle is fundamentally determined by the ratio of refractive indices of both media, not just the dense medium alone:\n$$\\sin\\theta_c = \\frac{n_{\\text{surrounding}}}{n_{\\text{core}}}$$\nFor instance, a crown glass prism ($n_g = 1.5 = \\frac{3}{2}$) in air ($n_{\\text{air}} = 1$) has $\\sin\\theta_c = \\frac{1}{1.5} = \\frac{2}{3} \\approx 0.667$ (giving $\\theta_c \\approx 41.8^\\circ$). However, when the exact same glass prism is submerged in water ($n_w = \\frac{4}{3}$), the critical angle shifts significantly to:\n$$\\sin\\theta_c = \\frac{n_w}{n_g} = \\frac{\\frac{4}{3}}{\\frac{3}{2}} = \\frac{8}{9} \\approx 0.889 \\implies \\theta_c \\approx 62.7^\\circ$$\nNeglecting the refractive index of the surrounding liquid leads to erroneous critical angle calculations in immersed prisms and optical fibers.\n\nIn prism optics, TIR is utilized to deflect light beams by $90^\\circ$ or $180^\\circ$ (Porro prisms) without the reflective degradation and silvering oxidation associated with metallic mirrors. At normal incidence on the entrance face of a right-angled prism, the ray enters undeflected ($i_1 = 0 \\implies r_1 = 0$) and strikes the internal hypotenuse face at an angle of incidence equal to the prism apex angle ($i_2 = \\theta$). TIR occurs if and only if $\\sin\\theta \\ge \\frac{n_{\\text{surr}}}{n_{\\text{prism}}}$.",
+  "intuition": "Imagine throwing pebbles upward at the surface of a swimming pool from underwater. If you throw a pebble straight up or at a steep angle toward the surface, it breaks through into the air. But if you throw it at a very shallow, skimming angle relative to the water surface (a large angle relative to the vertical normal), the surface tension and boundary geometry cause the pebble to skip completely off the water-air boundary and ricochet back underwater, exactly like skipping a stone on a lake. Similarly, when light strikes an interface from inside the denser medium at a sufficiently shallow angle to the surface (exceeding the critical angle to the normal), it cannot escape into the rarer medium and reflects back with 100% efficiency.",
+  "formal_definition": "Total Internal Reflection (TIR) is an optical boundary phenomenon occurring when an electromagnetic wave traveling in a medium of refractive index $n_1$ strikes an interface with a medium of lower refractive index $n_2 < n_1$ at an angle of incidence $\\theta_1 \\ge \\theta_c = \\arcsin\\left(\\frac{n_2}{n_1}\\right)$, resulting in zero transmitted power into the second medium and complete specular reflection within the incident medium.",
+  "assumptions": [
+    "Light originates in the optically denser medium ($n_{\\text{denser}} > n_{\\text{rarer}}$)",
+    "Planar or locally planar dielectric interface with radius of curvature much larger than optical wavelength",
+    "Surrounding rarer medium has semi-infinite spatial extent (ruling out frustrated total internal reflection)",
+    "Dielectric media are non-absorbing and transparent"
+  ],
+  "boundary_conditions": [
+    "TIR is physically impossible if light approaches the boundary from the rarer medium ($n_1 < n_2$)",
+    "At the exact threshold $\\theta_1 = \\theta_c$, the refracted ray grazes the interface at $\\theta_2 = 90^\\circ$",
+    "Valid for all incident angles satisfying $\\theta_1 \\ge \\theta_c = \\arcsin\\left(\\frac{n_{\\text{rarer}}}{n_{\\text{denser}}}\\right)$"
+  ],
+  "related_formula_ids": [
+    "formula-opt-critical-angle",
+    "formula-opt-prism-geometry"
+  ],
+  "prerequisite_refs": [
+    "curr-opt-01"
+  ],
+  "source_references": [
+    "jee_rank_booster-03_mock_paper.pdf",
+    "concepts_of_physics_by_h.c._verma_volume_2.pdf"
+  ],
+  "generation_metadata": {
+    "agent": "ContentGeneratorAgent",
+    "model": "gemini-2.5-pro",
+    "task": "author_concept"
+  },
+  "verification_status": "VERIFIED",
+  "content_hash": "adddb2a2aa1de1bd6d4245cfafdc21050b5e1f49be2cab48f84db7ac5e92786a",
+  "verification_record_id": "cvr-concept-opt-tir-01",
+  "created_at": "2026-09-28T22:40:00Z"
+}

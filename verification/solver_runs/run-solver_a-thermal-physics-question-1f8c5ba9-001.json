@@ -1,0 +1,31 @@
+{
+  "solver_run_id": "run-solver_a-thermal-physics-question-1f8c5ba9-001",
+  "atom_id": "thermal-physics-question-1f8c5ba9",
+  "solver_id": "solver_a",
+  "solver_agent_name": "solver_a",
+  "atom_version": 1,
+  "content_hash": "ec6dcd493c95cded2d1b7b6ed8115149a510cdf7596f2d5fc0fff0f0453e9700",
+  "verification_protocol_version": "1.0.0",
+  "blind_package_hash": "65724aba420261c6adc8a84fd6508274ad83ae14cff8aeb36988597ca2d0aaf3",
+  "model_name": null,
+  "independent_answer": "10",
+  "raw_answer": "10",
+  "reasoning_steps": [
+    "1. According to Newton's Law of Cooling, the rate of cooling is proportional to the difference between the average temperature of the body and the surroundings: (T1 - T2)/t = K * ((T1 + T2)/2 - T_s).",
+    "2. For the first 10 minutes: T1 = 60 C, T2 = 50 C. The rate of cooling is (60 - 50)/10 = 1 C/min. Average temp = 55 C. Equation: 1 = K * (55 - T_s).",
+    "3. For the next 10 minutes: T1 = 50 C, T2 = 42 C. The rate of cooling is (50 - 42)/10 = 0.8 C/min. Average temp = 46 C. Equation: 0.8 = K * (46 - T_s).",
+    "4. Dividing the first equation by the second gives: 1 / 0.8 = (55 - T_s) / (46 - T_s).",
+    "5. 1.25 = 5 / 4 = (55 - T_s) / (46 - T_s).",
+    "6. Cross-multiplying: 5 * (46 - T_s) = 4 * (55 - T_s).",
+    "7. 230 - 5 * T_s = 220 - 4 * T_s.",
+    "8. Solving for T_s gives T_s = 230 - 220 = 10 C."
+  ],
+  "assumptions_used": [
+    "Newton's Law of Cooling is applicable (temperature difference is not extremely large)."
+  ],
+  "uncertainty": null,
+  "diagram_interpretation": null,
+  "possible_ambiguities": [],
+  "created_at": "2026-09-28T08:51:20Z",
+  "raw_response": null
+}

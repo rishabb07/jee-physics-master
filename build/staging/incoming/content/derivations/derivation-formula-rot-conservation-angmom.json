@@ -1,0 +1,94 @@
+{
+  "derivation_id": "derivation-formula-rot-conservation-angmom",
+  "target_formula_id": "formula-rot-conservation-angmom",
+  "target_equation": "$$I_i \\omega_i = I_f \\omega_f$$",
+  "starting_principles": [
+    "Rotational equation of motion for a system: $\\vec{\\tau}_{\\text{net, ext}} = \\frac{d\\vec{L}}{dt}$",
+    "Fixed-axis rigid body angular momentum: $L_z = I_z \\omega$",
+    "Work-energy theorem for rotational kinetic energy: $K = \\frac{L^2}{2I}$"
+  ],
+  "assumptions": [
+    "The system rotates about a specified fixed axis (e.g. $z$-axis).",
+    "The net external torque component along this axis is zero: $\\tau_{\\text{ext}, z} = 0$.",
+    "Changes in moment of inertia occur solely through internal mechanisms."
+  ],
+  "ordered_steps": [
+    {
+      "step_number": 1,
+      "description": "State the fundamental dynamical equation relating external torque to the rate of change of total angular momentum.",
+      "starting_equation": "$$\\vec{\\tau}_{\\text{net, ext}} = \\frac{d\\vec{L}}{dt}$$",
+      "operation": "Project the vector equation onto the fixed axis of rotation (taken as the $z$-axis): $\\tau_{\\text{net, ext}, z} = \\frac{dL_z}{dt}$.",
+      "result_equation": "$$\\tau_{\\text{net, ext}, z} = \\frac{dL_z}{dt}$$",
+      "assumptions_applied": [
+        "Axis of rotation is fixed in orientation."
+      ]
+    },
+    {
+      "step_number": 2,
+      "description": "Apply the physical condition of zero net external torque along the rotation axis.",
+      "starting_equation": "$$\\tau_{\\text{net, ext}, z} = \\frac{dL_z}{dt}$$",
+      "operation": "Set $\\tau_{\\text{net, ext}, z} = 0$, giving $\\frac{dL_z}{dt} = 0$.",
+      "result_equation": "$$\\frac{dL_z}{dt} = 0 \\implies L_z(t) = \\text{constant}$$",
+      "assumptions_applied": [
+        "System is isolated from external torques about the $z$-axis."
+      ]
+    },
+    {
+      "step_number": 3,
+      "description": "Integrate the rate equation between initial state ($t_i$) and final state ($t_f$).",
+      "starting_equation": "$$\\frac{dL_z}{dt} = 0$$",
+      "operation": "Integrate both sides from $t_i$ to $t_f$: $\\int_{t_i}^{t_f} \\frac{dL_z}{dt} \\, dt = 0 \\implies L_z(t_f) - L_z(t_i) = 0$.",
+      "result_equation": "$$L_{z, i} = L_{z, f}$$",
+      "assumptions_applied": [
+        "Continuity of angular momentum across the time interval."
+      ]
+    },
+    {
+      "step_number": 4,
+      "description": "Substitute the constitutive relationship for fixed-axis rotation $L_z = I \\omega$ at both states.",
+      "starting_equation": "$$L_{z, i} = L_{z, f}$$",
+      "operation": "Substitute initial state $L_{z, i} = I_i \\omega_i$ and final state $L_{z, f} = I_f \\omega_f$ into the conservation relation.",
+      "result_equation": "$$I_i \\omega_i = I_f \\omega_f$$",
+      "assumptions_applied": [
+        "Fixed axis rotation where $L_z = I \\omega$."
+      ]
+    },
+    {
+      "step_number": 5,
+      "description": "Solve for the final angular velocity in terms of the initial state and the ratio of moments of inertia.",
+      "starting_equation": "$$I_i \\omega_i = I_f \\omega_f$$",
+      "operation": "Divide both sides by $I_f$ (where $I_f > 0$): $\\omega_f = \\left(\\frac{I_i}{I_f}\\right) \\omega_i$.",
+      "result_equation": "$$\\omega_f = \\frac{I_i}{I_f} \\omega_i$$",
+      "assumptions_applied": [
+        "Non-zero final moment of inertia $I_f > 0$."
+      ]
+    },
+    {
+      "step_number": 6,
+      "description": "Examine the non-conservation of rotational kinetic energy to verify physical work-energy consistency.",
+      "starting_equation": "$$K_i = \\frac{L^2}{2 I_i},\\quad K_f = \\frac{L^2}{2 I_f}$$",
+      "operation": "Express kinetic energy ratio using constant $L$: $\\frac{K_f}{K_i} = \\frac{I_i}{I_f}$. If moment of inertia decreases ($I_f < I_i$), kinetic energy increases: $\\Delta K = K_f - K_i = W_{\\text{internal}} > 0$.",
+      "result_equation": "$$K_f = \\frac{I_i}{I_f} K_i,\\quad \\Delta K_{\\text{rot}} = W_{\\text{internal}}$$",
+      "assumptions_applied": [
+        "Internal forces perform work during mass redistribution."
+      ]
+    }
+  ],
+  "final_equation": "$$I_i \\omega_i = I_f \\omega_f$$",
+  "applicability_conditions": [
+    "Net external torque along the axis of rotation must be zero during the entire transition.",
+    "Does not require mechanical energy conservation.",
+    "Applies to deformable bodies, coupled spinning discs, or systems with internal radial motion."
+  ],
+  "source_references": [
+    "concepts_of_physics_by_h.c._verma_volume_1.pdf",
+    "problems_in_general_physics_by_i_e_irodov.pdf"
+  ],
+  "risk_level": "HIGH",
+  "verification_status": "UNVERIFIED",
+  "verification_record_id": null,
+  "generator_identity": "content_generator_agent",
+  "generator_conversation_id": "126488a8-d6c5-4eb1-953f-9b833f4b917c",
+  "content_hash": "f701d7b8b006e9adea34489af1327609f5aa375086d0437e972fdce98dd4f9d8",
+  "created_at": "2026-09-28T22:30:00Z"
+}

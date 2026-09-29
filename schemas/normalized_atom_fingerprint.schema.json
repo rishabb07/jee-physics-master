@@ -1,0 +1,163 @@
+{
+  "description": "Deterministic auxiliary fingerprint of an atom without mutating source truth.",
+  "properties": {
+    "atom_id": {
+      "description": "Original atom ID",
+      "minLength": 1,
+      "title": "Atom Id",
+      "type": "string"
+    },
+    "statement_normalized": {
+      "description": "Cleaned, normalized statement",
+      "title": "Statement Normalized",
+      "type": "string"
+    },
+    "statement_hash": {
+      "description": "SHA-256 of normalized statement",
+      "minLength": 16,
+      "title": "Statement Hash",
+      "type": "string"
+    },
+    "options_normalized": {
+      "anyOf": [
+        {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Normalized option texts if present",
+      "title": "Options Normalized"
+    },
+    "options_hash": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "SHA-256 of combined normalized options",
+      "title": "Options Hash"
+    },
+    "problem_hash": {
+      "description": "SHA-256 of full problem statement + options",
+      "minLength": 16,
+      "title": "Problem Hash",
+      "type": "string"
+    },
+    "taxonomy_node": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Combined chapter/topic/subtopic slug",
+      "title": "Taxonomy Node"
+    },
+    "chapter_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Taxonomy chapter ID",
+      "title": "Chapter Id"
+    },
+    "topic_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Taxonomy topic ID",
+      "title": "Topic Id"
+    },
+    "subtopic_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Taxonomy subtopic ID",
+      "title": "Subtopic Id"
+    },
+    "question_type": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "e.g. MCQ, NUMERICAL",
+      "title": "Question Type"
+    },
+    "target_quantity": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Physical quantity sought e.g. time_period, acceleration",
+      "title": "Target Quantity"
+    },
+    "numerical_values": {
+      "description": "Extracted numerical constants/values",
+      "items": {
+        "type": "string"
+      },
+      "title": "Numerical Values",
+      "type": "array"
+    },
+    "has_figure": {
+      "default": false,
+      "description": "Whether problem requires or includes a figure",
+      "title": "Has Figure",
+      "type": "boolean"
+    },
+    "physics_skeleton_hash": {
+      "description": "Abstracted structural hash of variables and target",
+      "title": "Physics Skeleton Hash",
+      "type": "string"
+    }
+  },
+  "required": [
+    "atom_id",
+    "statement_normalized",
+    "statement_hash",
+    "problem_hash",
+    "physics_skeleton_hash"
+  ],
+  "title": "NormalizedAtomFingerprint",
+  "type": "object"
+}

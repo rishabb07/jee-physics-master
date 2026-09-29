@@ -1,0 +1,28 @@
+{
+  "solver_run_id": "run-solver_b-fluid-mechanics-question-2b8a7f0e",
+  "atom_id": "fluid-mechanics-question-2b8a7f0e",
+  "solver_id": "solver_b",
+  "solver_agent_name": "solver_b",
+  "atom_version": 1,
+  "content_hash": null,
+  "verification_protocol_version": "1.0.0",
+  "blind_package_hash": null,
+  "model_name": "independent-solver-b",
+  "independent_answer": "D",
+  "raw_answer": "Option D: \\rho_{1} < \\rho_{3} < \\rho_{2}",
+  "reasoning_steps": [
+    "Step 1: Fluid layering stability requires rho1 < rho2.",
+    "Step 2: Static equilibrium: W = F_B => rho3 * V = rho1 * V1 + rho2 * V2.",
+    "Step 3: rho3 = rho1 * (V1/V) + rho2 * (V2/V).",
+    "Step 4: Convex combination of rho1 and rho2 with positive weights yields rho1 < rho3 < rho2."
+  ],
+  "assumptions_used": [
+    "Immiscible fluids in static equilibrium",
+    "Ball straddles interface"
+  ],
+  "uncertainty": null,
+  "diagram_interpretation": "Ball in static equilibrium at boundary between Liquid 1 and Liquid 2.",
+  "possible_ambiguities": [],
+  "created_at": "2026-09-27T19:51:06.329504Z",
+  "raw_response": null
+}
