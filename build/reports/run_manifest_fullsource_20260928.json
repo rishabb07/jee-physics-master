@@ -1,0 +1,104 @@
+{
+  "manifest_id": "run-fullsource-jee-rank-booster-03-20260928",
+  "job_type": "FULL_SOURCE_END_TO_END",
+  "stage": "CANONICAL_PROMOTION",
+  "pipeline_version": "1.0.0",
+  "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+  "input_files": [
+    {
+      "file_path": "sources/raw/jee_rank_booster-03_mock_paper.pdf",
+      "sha256": "256f42c67a9271aaafe4bf637eb34cddd10da959cdf7a66fc6fee76a68d34361",
+      "size_bytes": 1018268
+    }
+  ],
+  "page_inventory": {
+    "total_pages": 14,
+    "physics_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "chemistry_pages": [
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "mathematics_pages": [
+      11,
+      12,
+      13,
+      14
+    ],
+    "rendered_page_count": 14
+  },
+  "status": "COMPLETED",
+  "created_at": "2026-09-27T20:10:32.660238+00:00",
+  "metadata": {
+    "source_title": "JEE Rank Booster Mock Paper 03",
+    "execution_mode": "STRICT_AUTONOMOUS_SUBAGENTS"
+  },
+  "completed_at": "2026-09-28T03:30:40.363381+00:00",
+  "results": {
+    "total_pages_processed": 14,
+    "physics_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "chemistry_pages_excluded": [
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "mathematics_pages_excluded": [
+      11,
+      12,
+      13,
+      14
+    ],
+    "batches_staged": [
+      "batch_src-jee-rank-booster-03-mock-256f42c6_20260928_031838_7b76",
+      "batch_src-jee-rank-booster-03-mock-256f42c6_20260928_031815_253c",
+      "batch_src-jee-rank-booster-03-mock-256f42c6_20260927_201642_27f4"
+    ],
+    "total_staged_atoms": 32,
+    "staged_questions": 30,
+    "staged_theories": 2,
+    "figures_detected": 11,
+    "total_solver_runs_staged": 60,
+    "solver_agreement_count": 29,
+    "solver_agreement_rate": 0.967,
+    "adjudications_required": 1,
+    "adjudications_completed": 1,
+    "questions_verified": 30,
+    "questions_promoted_canonical": 30,
+    "theories_preserved_staging": 2,
+    "canonical_kb_final_count": 35,
+    "pytest_passed": 75,
+    "pytest_failed": 0
+  },
+  "subagents": {
+    "atomizer_seg1": "b7b35d6a-00a0-4025-a2ba-1d970016aefc",
+    "atomizer_seg2": "cea71e73-264d-4775-b1a2-a7cdbf6bf49d",
+    "atomizer_seg3": "7433a1e6-674e-4429-a71a-31a2611233fe",
+    "solver_a_set1": "723b0063-b157-49d9-8423-7ec67caa7350",
+    "solver_b_set1": "3ee001fe-a17d-47c2-aa42-215fe8b9df9d",
+    "solver_a_set2": "1a80e8ce-e0d4-4678-a7be-5aa888b8370e",
+    "solver_b_set2": "396a065c-b96d-4a9e-ab25-92c255b22f7e",
+    "solver_a_set3": "0ac305f5-d6dd-4f07-ac9b-80e9cce38300",
+    "solver_b_set3": "8c11ca2b-2f98-4b9c-9883-44138aa8b4d5",
+    "adjudicator_q20": "3f053572-1574-4b1f-9b94-387f5f418312"
+  }
+}

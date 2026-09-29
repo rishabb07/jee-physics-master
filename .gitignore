@@ -12,15 +12,9 @@ __pycache__/
 .coverage
 htmlcov/
 
-# Build and staging artifacts
-build/drafts/*
-!build/drafts/.gitkeep
-build/staging/atoms/*
-!build/staging/atoms/.gitkeep
-build/staging/manifests/*
-!build/staging/manifests/.gitkeep
-build/reports/*
-!build/reports/.gitkeep
+# Staging and disposable web caches
+build/web/*
+!build/web/.gitkeep
 
 # Output artifacts (disposable projections)
 output/book/*

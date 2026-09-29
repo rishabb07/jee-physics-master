@@ -1,0 +1,34 @@
+{
+  "rotational-motion": {
+    "verdict": "PASSED",
+    "physics_passed": true,
+    "curriculum_passed": true,
+    "rendering_passed": true,
+    "latex_errors": [],
+    "findings_count": 0
+  },
+  "thermodynamics": {
+    "verdict": "PASSED",
+    "physics_passed": true,
+    "curriculum_passed": true,
+    "rendering_passed": true,
+    "latex_errors": [],
+    "findings_count": 0
+  },
+  "current-electricity": {
+    "verdict": "PASSED",
+    "physics_passed": true,
+    "curriculum_passed": true,
+    "rendering_passed": true,
+    "latex_errors": [],
+    "findings_count": 0
+  },
+  "ray-optics": {
+    "verdict": "PASSED",
+    "physics_passed": true,
+    "curriculum_passed": true,
+    "rendering_passed": true,
+    "latex_errors": [],
+    "findings_count": 0
+  }
+}

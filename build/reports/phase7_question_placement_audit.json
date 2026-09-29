@@ -1,0 +1,201 @@
+{
+  "total_placements": 10,
+  "valid_placements": 10,
+  "duplicated_placements": 0,
+  "missing_atoms": 0,
+  "unverified_atoms": 0,
+  "subject_violations": 0,
+  "taxonomy_violations": 0,
+  "placements": [
+    {
+      "atom_id": "rotational-motion-question-6c7cb960",
+      "chapter_id": "rotational-motion",
+      "topic_id": "angular-momentum",
+      "curriculum_id": "curr-rot-03",
+      "pedagogical_role": "QUESTION_LADDER",
+      "difficulty_dimensions": {
+        "conceptual_difficulty": 3,
+        "mathematical_difficulty": 2,
+        "multistep_reasoning_difficulty": 3,
+        "abstraction_difficulty": 3,
+        "computational_burden": 1,
+        "trap_misconception_difficulty": 4,
+        "derived_difficulty_band": "L2",
+        "weighting_policy": "PEDAGOGICAL_PROJECT_POLICY"
+      },
+      "is_valid": true,
+      "violations": []
+    },
+    {
+      "atom_id": "rotational-motion-question-84f91c20",
+      "chapter_id": "rotational-motion",
+      "topic_id": "angular-momentum",
+      "curriculum_id": "curr-rot-03",
+      "pedagogical_role": "QUESTION_LADDER",
+      "difficulty_dimensions": {
+        "conceptual_difficulty": 2,
+        "mathematical_difficulty": 2,
+        "multistep_reasoning_difficulty": 2,
+        "abstraction_difficulty": 2,
+        "computational_burden": 1,
+        "trap_misconception_difficulty": 2,
+        "derived_difficulty_band": "L2",
+        "weighting_policy": "PEDAGOGICAL_PROJECT_POLICY"
+      },
+      "is_valid": true,
+      "violations": []
+    },
+    {
+      "atom_id": "rotational-motion-question-f7cbecda",
+      "chapter_id": "rotational-motion",
+      "topic_id": "angular-momentum",
+      "curriculum_id": "curr-rot-03",
+      "pedagogical_role": "PRACTICE_QUESTION",
+      "difficulty_dimensions": {
+        "conceptual_difficulty": 2,
+        "mathematical_difficulty": 2,
+        "multistep_reasoning_difficulty": 2,
+        "abstraction_difficulty": 2,
+        "computational_burden": 1,
+        "trap_misconception_difficulty": 2,
+        "derived_difficulty_band": "L2",
+        "weighting_policy": "PEDAGOGICAL_PROJECT_POLICY"
+      },
+      "is_valid": true,
+      "violations": []
+    },
+    {
+      "atom_id": "thermodynamics-question-71b685c0",
+      "chapter_id": "thermodynamics",
+      "topic_id": "first-law-and-processes",
+      "curriculum_id": "curr-td-02",
+      "pedagogical_role": "PRACTICE_QUESTION",
+      "difficulty_dimensions": {
+        "conceptual_difficulty": 2,
+        "mathematical_difficulty": 2,
+        "multistep_reasoning_difficulty": 2,
+        "abstraction_difficulty": 2,
+        "computational_burden": 1,
+        "trap_misconception_difficulty": 2,
+        "derived_difficulty_band": "L2",
+        "weighting_policy": "PEDAGOGICAL_PROJECT_POLICY"
+      },
+      "is_valid": true,
+      "violations": []
+    },
+    {
+      "atom_id": "thermodynamics-question-7e2f5a91",
+      "chapter_id": "thermodynamics",
+      "topic_id": "first-law-and-processes",
+      "curriculum_id": "curr-td-02",
+      "pedagogical_role": "PRACTICE_QUESTION",
+      "difficulty_dimensions": {
+        "conceptual_difficulty": 2,
+        "mathematical_difficulty": 2,
+        "multistep_reasoning_difficulty": 2,
+        "abstraction_difficulty": 2,
+        "computational_burden": 1,
+        "trap_misconception_difficulty": 2,
+        "derived_difficulty_band": "L2",
+        "weighting_policy": "PEDAGOGICAL_PROJECT_POLICY"
+      },
+      "is_valid": true,
+      "violations": []
+    },
+    {
+      "atom_id": "thermodynamics-question-3fe51020",
+      "chapter_id": "thermodynamics",
+      "topic_id": "special-thermodynamic-processes",
+      "curriculum_id": "curr-td-02",
+      "pedagogical_role": "PRACTICE_QUESTION",
+      "difficulty_dimensions": {
+        "conceptual_difficulty": 4,
+        "mathematical_difficulty": 3,
+        "multistep_reasoning_difficulty": 3,
+        "abstraction_difficulty": 4,
+        "computational_burden": 2,
+        "trap_misconception_difficulty": 3,
+        "derived_difficulty_band": "L3",
+        "weighting_policy": "PEDAGOGICAL_PROJECT_POLICY"
+      },
+      "is_valid": true,
+      "violations": []
+    },
+    {
+      "atom_id": "current-electricity-question-3a1b8c4d",
+      "chapter_id": "current-electricity",
+      "topic_id": "dc-circuits",
+      "curriculum_id": "curr-curr-03",
+      "pedagogical_role": "PRACTICE_QUESTION",
+      "difficulty_dimensions": {
+        "conceptual_difficulty": 2,
+        "mathematical_difficulty": 2,
+        "multistep_reasoning_difficulty": 2,
+        "abstraction_difficulty": 1,
+        "computational_burden": 2,
+        "trap_misconception_difficulty": 2,
+        "derived_difficulty_band": "L2",
+        "weighting_policy": "PEDAGOGICAL_PROJECT_POLICY"
+      },
+      "is_valid": true,
+      "violations": []
+    },
+    {
+      "atom_id": "current-electricity-question-ce6aab7f",
+      "chapter_id": "current-electricity",
+      "topic_id": "resistance-and-resistivity",
+      "curriculum_id": "curr-curr-02",
+      "pedagogical_role": "PRACTICE_QUESTION",
+      "difficulty_dimensions": {
+        "conceptual_difficulty": 2,
+        "mathematical_difficulty": 2,
+        "multistep_reasoning_difficulty": 2,
+        "abstraction_difficulty": 2,
+        "computational_burden": 1,
+        "trap_misconception_difficulty": 3,
+        "derived_difficulty_band": "L2",
+        "weighting_policy": "PEDAGOGICAL_PROJECT_POLICY"
+      },
+      "is_valid": true,
+      "violations": []
+    },
+    {
+      "atom_id": "current-electricity-question-d2492f7f",
+      "chapter_id": "current-electricity",
+      "topic_id": "dc-circuits",
+      "curriculum_id": "curr-curr-03",
+      "pedagogical_role": "PRACTICE_QUESTION",
+      "difficulty_dimensions": {
+        "conceptual_difficulty": 2,
+        "mathematical_difficulty": 2,
+        "multistep_reasoning_difficulty": 2,
+        "abstraction_difficulty": 1,
+        "computational_burden": 2,
+        "trap_misconception_difficulty": 2,
+        "derived_difficulty_band": "L2",
+        "weighting_policy": "PEDAGOGICAL_PROJECT_POLICY"
+      },
+      "is_valid": true,
+      "violations": []
+    },
+    {
+      "atom_id": "ray-optics-question-e04c1df3",
+      "chapter_id": "ray-optics",
+      "topic_id": "refraction-and-tir",
+      "curriculum_id": "curr-opt-02",
+      "pedagogical_role": "PRACTICE_QUESTION",
+      "difficulty_dimensions": {
+        "conceptual_difficulty": 2,
+        "mathematical_difficulty": 2,
+        "multistep_reasoning_difficulty": 2,
+        "abstraction_difficulty": 2,
+        "computational_burden": 1,
+        "trap_misconception_difficulty": 3,
+        "derived_difficulty_band": "L2",
+        "weighting_policy": "PEDAGOGICAL_PROJECT_POLICY"
+      },
+      "is_valid": true,
+      "violations": []
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "manifest_id": "man-batch_src-jee-rank-booster-03-mock-256f42c6_20260927_194151_2268",
+  "job_type": "ATOMIZE",
+  "stage": "EXTRACTION",
+  "input_files": [
+    {
+      "file_path": "sources/raw/jee_rank_booster-03_mock_paper.pdf",
+      "sha256": "256f42c67a9271aaafe4bf637eb34cddd10da959cdf7a66fc6fee76a68d34361",
+      "size_bytes": 1018268
+    }
+  ],
+  "output_files": [
+    {
+      "file_path": "build/staging/atoms/batch_src-jee-rank-booster-03-mock-256f42c6_20260927_194151_2268.jsonl",
+      "sha256": "c8d580c2849057bed97077dc3feb04ae2f10c0669374dd8616c3dc8ae5073842",
+      "size_bytes": 11010
+    }
+  ],
+  "generated_atom_ids": [
+    "rotational-motion-question-84f91c20",
+    "current-electricity-question-3a1b8c4d",
+    "thermodynamics-question-7e2f5a91",
+    "electrostatics-question-4c9d1e82",
+    "fluid-mechanics-question-2b8a7f0e"
+  ],
+  "status": "COMPLETED",
+  "error_message": null,
+  "metadata": {
+    "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+    "source_version": 1,
+    "worker_id": "physics-atomizer",
+    "pages_processed": [
+      4
+    ],
+    "validation_failures": 0,
+    "review_items_queued": 0
+  },
+  "created_at": "2026-09-27T19:41:51.064175Z",
+  "completed_at": null
+}

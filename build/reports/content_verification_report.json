@@ -1,0 +1,353 @@
+{
+  "report_id": "content-verification-report-20260928-202956",
+  "total_artifacts_verified": 37,
+  "breakdown": {
+    "concepts": 12,
+    "derivations": 13,
+    "examples": 4,
+    "misconceptions": 8
+  },
+  "risk_levels": {
+    "HIGH": 17,
+    "MEDIUM": 20,
+    "LOW": 0
+  },
+  "verdict": "ALL_VERIFIED",
+  "hash_binding_pass_rate": 1.0,
+  "records": [
+    {
+      "artifact_id": "concept-curr-drift-01",
+      "category": "concepts",
+      "risk_level": "MEDIUM",
+      "verdict": "VERIFIED",
+      "content_hash": "f044396fd28e9ab1aacde384b352f5a87d751007f35863e3133a97074bb04fd8",
+      "verification_record_id": "cvr-concept-curr-drift-01",
+      "destination": "content\\verified\\concepts\\concept-curr-drift-01.json"
+    },
+    {
+      "artifact_id": "concept-curr-meters-01",
+      "category": "concepts",
+      "risk_level": "MEDIUM",
+      "verdict": "VERIFIED",
+      "content_hash": "21f1717f36dbb574e0550107bf727e42b1bc6fdf61878eeae850d797f8700bac",
+      "verification_record_id": "cvr-concept-curr-meters-01",
+      "destination": "content\\verified\\concepts\\concept-curr-meters-01.json"
+    },
+    {
+      "artifact_id": "concept-curr-recasting-01",
+      "category": "concepts",
+      "risk_level": "MEDIUM",
+      "verdict": "VERIFIED",
+      "content_hash": "3988ddc544563ad5db4ffb3f60d05ebfda63beafc95501bc996b675c8d4a263d",
+      "verification_record_id": "cvr-concept-curr-recasting-01",
+      "destination": "content\\verified\\concepts\\concept-curr-recasting-01.json"
+    },
+    {
+      "artifact_id": "concept-opt-snell-01",
+      "category": "concepts",
+      "risk_level": "MEDIUM",
+      "verdict": "VERIFIED",
+      "content_hash": "4886618247783b3469a72e2fdde63ee47781454fee0b92832822a7dd2fd04cd4",
+      "verification_record_id": "cvr-concept-opt-snell-01",
+      "destination": "content\\verified\\concepts\\concept-opt-snell-01.json"
+    },
+    {
+      "artifact_id": "concept-opt-tir-01",
+      "category": "concepts",
+      "risk_level": "MEDIUM",
+      "verdict": "VERIFIED",
+      "content_hash": "adddb2a2aa1de1bd6d4245cfafdc21050b5e1f49be2cab48f84db7ac5e92786a",
+      "verification_record_id": "cvr-concept-opt-tir-01",
+      "destination": "content\\verified\\concepts\\concept-opt-tir-01.json"
+    },
+    {
+      "artifact_id": "concept-rot-angmom-conservation-01",
+      "category": "concepts",
+      "risk_level": "MEDIUM",
+      "verdict": "VERIFIED",
+      "content_hash": "fe8cf52619bd88c01da074af88167c165fa49f8e037c75c5a73f2f64c1962811",
+      "verification_record_id": "cvr-concept-rot-angmom-conservation-01",
+      "destination": "content\\verified\\concepts\\concept-rot-angmom-conservation-01.json"
+    },
+    {
+      "artifact_id": "concept-rot-angmom-particle-01",
+      "category": "concepts",
+      "risk_level": "MEDIUM",
+      "verdict": "VERIFIED",
+      "content_hash": "a424961d1cfb60bd420d35c500eacd7af53ad9d704eefdba0963dac124b1651a",
+      "verification_record_id": "cvr-concept-rot-angmom-particle-01",
+      "destination": "content\\verified\\concepts\\concept-rot-angmom-particle-01.json"
+    },
+    {
+      "artifact_id": "concept-rot-moi-01",
+      "category": "concepts",
+      "risk_level": "MEDIUM",
+      "verdict": "VERIFIED",
+      "content_hash": "a449bbc97e7ec307b85186bcd9755f69368d667e7015b272d3bdda2d7a47d7d0",
+      "verification_record_id": "cvr-concept-rot-moi-01",
+      "destination": "content\\verified\\concepts\\concept-rot-moi-01.json"
+    },
+    {
+      "artifact_id": "concept-rot-torque-01",
+      "category": "concepts",
+      "risk_level": "MEDIUM",
+      "verdict": "VERIFIED",
+      "content_hash": "3aeb2177a6a866e311c25ce710d03aae29d0aa8d956c128c2328254493329fc6",
+      "verification_record_id": "cvr-concept-rot-torque-01",
+      "destination": "content\\verified\\concepts\\concept-rot-torque-01.json"
+    },
+    {
+      "artifact_id": "concept-td-adiabatic-01",
+      "category": "concepts",
+      "risk_level": "MEDIUM",
+      "verdict": "VERIFIED",
+      "content_hash": "f7546718a98188aadf73e9e74842d466363c6549f83cbbf3423e175c85dba88b",
+      "verification_record_id": "cvr-concept-td-adiabatic-01",
+      "destination": "content\\verified\\concepts\\concept-td-adiabatic-01.json"
+    },
+    {
+      "artifact_id": "concept-td-first-law-01",
+      "category": "concepts",
+      "risk_level": "MEDIUM",
+      "verdict": "VERIFIED",
+      "content_hash": "7328e9b6b2062b287dda82d14910901049303d12572931289f7ec36a7d0e6d4e",
+      "verification_record_id": "cvr-concept-td-first-law-01",
+      "destination": "content\\verified\\concepts\\concept-td-first-law-01.json"
+    },
+    {
+      "artifact_id": "concept-td-radiation-01",
+      "category": "concepts",
+      "risk_level": "MEDIUM",
+      "verdict": "VERIFIED",
+      "content_hash": "32ec267c4bfc7e9f6b910d0548c3e6092e7d4fbc239cbcbaa452f1c0e3170ff9",
+      "verification_record_id": "cvr-concept-td-radiation-01",
+      "destination": "content\\verified\\concepts\\concept-td-radiation-01.json"
+    },
+    {
+      "artifact_id": "derivation-formula-curr-drift-micro",
+      "category": "derivations",
+      "risk_level": "HIGH",
+      "verdict": "VERIFIED",
+      "content_hash": "3e04750e09d4cef631b308db57f36e90ced19ef068036e78f5bff23ffe1a8d28",
+      "verification_record_id": "cvr-derivation-formula-curr-drift-micro",
+      "destination": "content\\verified\\derivations\\derivation-formula-curr-drift-micro.json"
+    },
+    {
+      "artifact_id": "derivation-formula-curr-measuring-meters",
+      "category": "derivations",
+      "risk_level": "HIGH",
+      "verdict": "VERIFIED",
+      "content_hash": "66dbdf5786d25bb32e3f18c3e8d8b76a82143bbb9af84e75b2a6463fd518923b",
+      "verification_record_id": "cvr-derivation-formula-curr-measuring-meters",
+      "destination": "content\\verified\\derivations\\derivation-formula-curr-measuring-meters.json"
+    },
+    {
+      "artifact_id": "derivation-formula-curr-recasting-volume",
+      "category": "derivations",
+      "risk_level": "HIGH",
+      "verdict": "VERIFIED",
+      "content_hash": "c161b223a1ed84677b324d512e2be60d41b9abffa00937c5f574e02e10eb7115",
+      "verification_record_id": "cvr-derivation-formula-curr-recasting-volume",
+      "destination": "content\\verified\\derivations\\derivation-formula-curr-recasting-volume.json"
+    },
+    {
+      "artifact_id": "derivation-formula-opt-critical-angle",
+      "category": "derivations",
+      "risk_level": "HIGH",
+      "verdict": "VERIFIED",
+      "content_hash": "227569adf792f41781c049e48ce1945e46cbb30e4d69f6db49d5d80a2b3c8f69",
+      "verification_record_id": "cvr-derivation-formula-opt-critical-angle",
+      "destination": "content\\verified\\derivations\\derivation-formula-opt-critical-angle.json"
+    },
+    {
+      "artifact_id": "derivation-formula-opt-prism-geometry",
+      "category": "derivations",
+      "risk_level": "HIGH",
+      "verdict": "VERIFIED",
+      "content_hash": "55ad982213bde509dcaa7848f8af57c256d0d1a22116beba71cad3f296e97e31",
+      "verification_record_id": "cvr-derivation-formula-opt-prism-geometry",
+      "destination": "content\\verified\\derivations\\derivation-formula-opt-prism-geometry.json"
+    },
+    {
+      "artifact_id": "derivation-formula-opt-snells-law",
+      "category": "derivations",
+      "risk_level": "HIGH",
+      "verdict": "VERIFIED",
+      "content_hash": "4a4612cc3bfcdd084e1799fe2cbf53b492523d219bfdee47b43e4cbc69f22e91",
+      "verification_record_id": "cvr-derivation-formula-opt-snells-law",
+      "destination": "content\\verified\\derivations\\derivation-formula-opt-snells-law.json"
+    },
+    {
+      "artifact_id": "derivation-formula-rot-angmom-particle",
+      "category": "derivations",
+      "risk_level": "HIGH",
+      "verdict": "VERIFIED",
+      "content_hash": "fc001db19003208f98550c2819b7d168e48e485b330482f79e6c159316a29daa",
+      "verification_record_id": "cvr-derivation-formula-rot-angmom-particle",
+      "destination": "content\\verified\\derivations\\derivation-formula-rot-angmom-particle.json"
+    },
+    {
+      "artifact_id": "derivation-formula-rot-conservation-angmom",
+      "category": "derivations",
+      "risk_level": "HIGH",
+      "verdict": "VERIFIED",
+      "content_hash": "f701d7b8b006e9adea34489af1327609f5aa375086d0437e972fdce98dd4f9d8",
+      "verification_record_id": "cvr-derivation-formula-rot-conservation-angmom",
+      "destination": "content\\verified\\derivations\\derivation-formula-rot-conservation-angmom.json"
+    },
+    {
+      "artifact_id": "derivation-formula-rot-moi-parallel",
+      "category": "derivations",
+      "risk_level": "HIGH",
+      "verdict": "VERIFIED",
+      "content_hash": "b0e382dac7de811c6192c8f7a56368e849f88e16128d3dcafc943c300102f8da",
+      "verification_record_id": "cvr-derivation-formula-rot-moi-parallel",
+      "destination": "content\\verified\\derivations\\derivation-formula-rot-moi-parallel.json"
+    },
+    {
+      "artifact_id": "derivation-formula-rot-torque-dyn",
+      "category": "derivations",
+      "risk_level": "HIGH",
+      "verdict": "VERIFIED",
+      "content_hash": "ed0a418ef6ae25bc4bc2d6c2c44e02622f26791eb865906564a55c7c2b0fd857",
+      "verification_record_id": "cvr-derivation-formula-rot-torque-dyn",
+      "destination": "content\\verified\\derivations\\derivation-formula-rot-torque-dyn.json"
+    },
+    {
+      "artifact_id": "derivation-formula-td-adiabatic-ideal-gas",
+      "category": "derivations",
+      "risk_level": "HIGH",
+      "verdict": "VERIFIED",
+      "content_hash": "22b31283ae632af61b36fc3db41a2e915cfdb4ca7c66e5b7d6cacfdd812b135f",
+      "verification_record_id": "cvr-derivation-formula-td-adiabatic-ideal-gas",
+      "destination": "content\\verified\\derivations\\derivation-formula-td-adiabatic-ideal-gas.json"
+    },
+    {
+      "artifact_id": "derivation-formula-td-first-law",
+      "category": "derivations",
+      "risk_level": "HIGH",
+      "verdict": "VERIFIED",
+      "content_hash": "97fa4c5a8c302eb98dca4caa816c7b01774340a885792830736cf5a3b489f569",
+      "verification_record_id": "cvr-derivation-formula-td-first-law",
+      "destination": "content\\verified\\derivations\\derivation-formula-td-first-law.json"
+    },
+    {
+      "artifact_id": "derivation-formula-td-radiation-adiabatic",
+      "category": "derivations",
+      "risk_level": "HIGH",
+      "verdict": "VERIFIED",
+      "content_hash": "101a4c30904f59d47f2cd4b29418c92da1fc75db2471bbaf4970d65eb3576271",
+      "verification_record_id": "cvr-derivation-formula-td-radiation-adiabatic",
+      "destination": "content\\verified\\derivations\\derivation-formula-td-radiation-adiabatic.json"
+    },
+    {
+      "artifact_id": "ex-curr-recast-wire-01",
+      "category": "examples",
+      "risk_level": "HIGH",
+      "verdict": "VERIFIED",
+      "content_hash": "715a0d65f04b3f8d09ccf9a762825420d96bdcac808183c15a037224a9e82979",
+      "verification_record_id": "cvr-ex-curr-recast-wire-01",
+      "destination": "content\\verified\\examples\\ex-curr-recast-wire-01.json"
+    },
+    {
+      "artifact_id": "ex-opt-tir-prism-water-01",
+      "category": "examples",
+      "risk_level": "HIGH",
+      "verdict": "VERIFIED",
+      "content_hash": "1280d4e62b92646460c95f42cac83f7990d0f367d0f982c94cad97862d04f19a",
+      "verification_record_id": "cvr-ex-opt-tir-prism-water-01",
+      "destination": "content\\verified\\examples\\ex-opt-tir-prism-water-01.json"
+    },
+    {
+      "artifact_id": "ex-rot-angmom-disc-01",
+      "category": "examples",
+      "risk_level": "HIGH",
+      "verdict": "VERIFIED",
+      "content_hash": "79253a91340dd62a26aa3481d45c192cd535273f715330184158e2755375b978",
+      "verification_record_id": "cvr-ex-rot-angmom-disc-01",
+      "destination": "content\\verified\\examples\\ex-rot-angmom-disc-01.json"
+    },
+    {
+      "artifact_id": "ex-td-adiabatic-compression-01",
+      "category": "examples",
+      "risk_level": "HIGH",
+      "verdict": "VERIFIED",
+      "content_hash": "60568b7360de09cbc073ee87fad596841dc681bdbf7ef7f49a1c4c50922aad13",
+      "verification_record_id": "cvr-ex-td-adiabatic-compression-01",
+      "destination": "content\\verified\\examples\\ex-td-adiabatic-compression-01.json"
+    },
+    {
+      "artifact_id": "misc-curr-01",
+      "category": "misconceptions",
+      "risk_level": "MEDIUM",
+      "verdict": "VERIFIED",
+      "content_hash": "4617155d667632c275723f4dae50fd29bf120f00aae9e90b473801090eb3ad3b",
+      "verification_record_id": "cvr-misc-curr-01",
+      "destination": "content\\verified\\misconceptions\\concept-curr-recasting-01.json"
+    },
+    {
+      "artifact_id": "misc-curr-02",
+      "category": "misconceptions",
+      "risk_level": "MEDIUM",
+      "verdict": "VERIFIED",
+      "content_hash": "c1463ff9979172f5228cba46fee17c6f5f2609ab231db1d0cfbccf45959be05c",
+      "verification_record_id": "cvr-misc-curr-02",
+      "destination": "content\\verified\\misconceptions\\concept-curr-meters-01.json"
+    },
+    {
+      "artifact_id": "misc-opt-01",
+      "category": "misconceptions",
+      "risk_level": "MEDIUM",
+      "verdict": "VERIFIED",
+      "content_hash": "88983a187df4843df556df2ac77564672c39359c42776a244a82075d6f18f8cf",
+      "verification_record_id": "cvr-misc-opt-01",
+      "destination": "content\\verified\\misconceptions\\concept-opt-tir-01.json"
+    },
+    {
+      "artifact_id": "misc-opt-02",
+      "category": "misconceptions",
+      "risk_level": "MEDIUM",
+      "verdict": "VERIFIED",
+      "content_hash": "d5d7474ea8401a5fa81e327c0895043efe3c6c25b076b52fc522a46c1dbab6e6",
+      "verification_record_id": "cvr-misc-opt-02",
+      "destination": "content\\verified\\misconceptions\\concept-opt-snell-01.json"
+    },
+    {
+      "artifact_id": "misc-rot-01",
+      "category": "misconceptions",
+      "risk_level": "MEDIUM",
+      "verdict": "VERIFIED",
+      "content_hash": "3d0a06bb67d0690bf961a6bb73486e357983652e30ce56b68b1444997d26fdb2",
+      "verification_record_id": "cvr-misc-rot-01",
+      "destination": "content\\verified\\misconceptions\\concept-rot-angmom-particle-01.json"
+    },
+    {
+      "artifact_id": "misc-rot-02",
+      "category": "misconceptions",
+      "risk_level": "MEDIUM",
+      "verdict": "VERIFIED",
+      "content_hash": "7eeb37b9214dcc917922023e717fc845045211b1c2fddbb48088c2a066489821",
+      "verification_record_id": "cvr-misc-rot-02",
+      "destination": "content\\verified\\misconceptions\\concept-rot-angmom-conservation-01.json"
+    },
+    {
+      "artifact_id": "misc-td-01",
+      "category": "misconceptions",
+      "risk_level": "MEDIUM",
+      "verdict": "VERIFIED",
+      "content_hash": "ab9a4802debad9c4f3c7b1646498cd22c06696cdbee899e252ed77d3de7c400b",
+      "verification_record_id": "cvr-misc-td-01",
+      "destination": "content\\verified\\misconceptions\\concept-td-first-law-01.json"
+    },
+    {
+      "artifact_id": "misc-td-02",
+      "category": "misconceptions",
+      "risk_level": "MEDIUM",
+      "verdict": "VERIFIED",
+      "content_hash": "320161b29f7dfa7dee8b511e675887622b87d0273201e7f73c7a0874c9de0a8c",
+      "verification_record_id": "cvr-misc-td-02",
+      "destination": "content\\verified\\misconceptions\\concept-td-adiabatic-01.json"
+    }
+  ],
+  "generated_at": "2026-09-28T20:29:56.153420+00:00"
+}

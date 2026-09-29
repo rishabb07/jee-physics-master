@@ -1,0 +1,133 @@
+{
+  "report_id": "qgen-report-20260929-035446",
+  "total_generated": 11,
+  "by_type": {
+    "SINGLE_CORRECT_MCQ": 7,
+    "NUMERICAL": 2,
+    "CONCEPTUAL_QUALITATIVE": 1,
+    "MULTIPLE_CORRECT_MCQ": 1
+  },
+  "by_risk_level": {
+    "MEDIUM": 5,
+    "HIGH": 5,
+    "LOW": 1
+  },
+  "by_origin": {
+    "GENERATED": 10,
+    "SOURCE_DERIVATIVE": 1
+  },
+  "by_chapter": {
+    "rotational-motion": 3,
+    "current-electricity": 3,
+    "ray-optics": 2,
+    "thermodynamics": 3
+  },
+  "staged_directory": "build\\staging\\incoming\\question_bank\\questions",
+  "questions_catalog": [
+    {
+      "question_id": "gen-q-ambig-test-01",
+      "chapter_id": "rotational-motion",
+      "type": "SINGLE_CORRECT_MCQ",
+      "risk_level": "MEDIUM",
+      "origin": "GENERATED",
+      "correct_answer": "D",
+      "content_hash": "50e141242b2aa66d8784ecd5fb85538b8c23f94250685724d8508489f87680a4"
+    },
+    {
+      "question_id": "gen-q-curr-num-01",
+      "chapter_id": "current-electricity",
+      "type": "NUMERICAL",
+      "risk_level": "MEDIUM",
+      "origin": "GENERATED",
+      "correct_answer": "160.0",
+      "content_hash": "f64c9386eeec9a9269cfe4df47eaa7786c10519fab8509a720f7a642bdb71ca3"
+    },
+    {
+      "question_id": "gen-q-curr-src-deriv-01",
+      "chapter_id": "current-electricity",
+      "type": "SINGLE_CORRECT_MCQ",
+      "risk_level": "MEDIUM",
+      "origin": "SOURCE_DERIVATIVE",
+      "correct_answer": "A",
+      "content_hash": "f95f71b98f539d63a414d060f142a5d52ac27037aa703f58ca940e5f83127c25"
+    },
+    {
+      "question_id": "gen-q-dist-conflict-01",
+      "chapter_id": "ray-optics",
+      "type": "SINGLE_CORRECT_MCQ",
+      "risk_level": "HIGH",
+      "origin": "GENERATED",
+      "correct_answer": "A",
+      "content_hash": "d0521a7493668675b2ed693f4f4b13a85959057abef8cd45bf0a34bb9b614691"
+    },
+    {
+      "question_id": "gen-q-dup-test-01",
+      "chapter_id": "current-electricity",
+      "type": "SINGLE_CORRECT_MCQ",
+      "risk_level": "MEDIUM",
+      "origin": "GENERATED",
+      "correct_answer": "B",
+      "content_hash": "372d628a7000de17d412183534b74233651633369a744f0d0944042ea826d24e"
+    },
+    {
+      "question_id": "gen-q-opt-conc-01",
+      "chapter_id": "ray-optics",
+      "type": "CONCEPTUAL_QUALITATIVE",
+      "risk_level": "LOW",
+      "origin": "GENERATED",
+      "correct_answer": "A",
+      "content_hash": "b2a2e7dbbc2f5abae144ed6e6866c3d9d5e6218445d83ffaff54817214b1f845"
+    },
+    {
+      "question_id": "gen-q-rot-angmom-01",
+      "chapter_id": "rotational-motion",
+      "type": "SINGLE_CORRECT_MCQ",
+      "risk_level": "HIGH",
+      "origin": "GENERATED",
+      "correct_answer": "B",
+      "content_hash": "e131f920a14d36013ffdf4a6681a88a2e96671ba8009cf19e58d318ab7bc12d5"
+    },
+    {
+      "question_id": "gen-q-rot-misc-01",
+      "chapter_id": "rotational-motion",
+      "type": "SINGLE_CORRECT_MCQ",
+      "risk_level": "MEDIUM",
+      "origin": "GENERATED",
+      "correct_answer": "C",
+      "content_hash": "00b1c870134c5d9df2cbe76aefa56152337cf863511c2ec26e260ecc3c3f6965"
+    },
+    {
+      "question_id": "gen-q-td-mcq-multi-01",
+      "chapter_id": "thermodynamics",
+      "type": "MULTIPLE_CORRECT_MCQ",
+      "risk_level": "HIGH",
+      "origin": "GENERATED",
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "content_hash": "c5eccffbd365e4a331fff024ed88754b3b3af47bbfbacca7263c815ebbaa46b3"
+    },
+    {
+      "question_id": "gen-q-td-multi-01",
+      "chapter_id": "thermodynamics",
+      "type": "NUMERICAL",
+      "risk_level": "HIGH",
+      "origin": "GENERATED",
+      "correct_answer": "1200.0",
+      "content_hash": "0df11d39689e10947d30e9ebced69916e734a38c57244b48af029af64d8f7982"
+    },
+    {
+      "question_id": "gen-q-wrong-ans-01",
+      "chapter_id": "thermodynamics",
+      "type": "SINGLE_CORRECT_MCQ",
+      "risk_level": "HIGH",
+      "origin": "GENERATED",
+      "correct_answer": "B",
+      "content_hash": "2f874098540b6cb3d0ad144e0abb527c33900f04e435be14072805cf8281064b"
+    }
+  ],
+  "generated_at": "2026-09-29T03:54:46.443620+00:00"
+}

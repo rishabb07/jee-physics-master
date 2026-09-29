@@ -1,0 +1,62 @@
+{
+  "rotational-motion": {
+    "total_blocks": 21,
+    "blocks_path": "build\\drafts\\rotational-motion\\rotational-motion_blocks.json",
+    "draft_path": "build\\drafts\\rotational-motion\\rotational-motion_draft.md",
+    "block_types_distribution": {
+      "WORKED_EXAMPLE": 1,
+      "SUMMARY": 1,
+      "CONCEPT_EXPLANATION": 4,
+      "QUESTION_SET": 3,
+      "DERIVATION": 4,
+      "OBJECTIVE": 1,
+      "EDITORIAL_TRANSITION": 5,
+      "MISCONCEPTION": 2
+    }
+  },
+  "thermodynamics": {
+    "total_blocks": 19,
+    "blocks_path": "build\\drafts\\thermodynamics\\thermodynamics_blocks.json",
+    "draft_path": "build\\drafts\\thermodynamics\\thermodynamics_draft.md",
+    "block_types_distribution": {
+      "WORKED_EXAMPLE": 1,
+      "SUMMARY": 1,
+      "CONCEPT_EXPLANATION": 3,
+      "QUESTION_SET": 3,
+      "DERIVATION": 3,
+      "OBJECTIVE": 1,
+      "EDITORIAL_TRANSITION": 5,
+      "MISCONCEPTION": 2
+    }
+  },
+  "current-electricity": {
+    "total_blocks": 19,
+    "blocks_path": "build\\drafts\\current-electricity\\current-electricity_blocks.json",
+    "draft_path": "build\\drafts\\current-electricity\\current-electricity_draft.md",
+    "block_types_distribution": {
+      "WORKED_EXAMPLE": 1,
+      "SUMMARY": 1,
+      "CONCEPT_EXPLANATION": 3,
+      "QUESTION_SET": 3,
+      "DERIVATION": 3,
+      "OBJECTIVE": 1,
+      "EDITORIAL_TRANSITION": 5,
+      "MISCONCEPTION": 2
+    }
+  },
+  "ray-optics": {
+    "total_blocks": 17,
+    "blocks_path": "build\\drafts\\ray-optics\\ray-optics_blocks.json",
+    "draft_path": "build\\drafts\\ray-optics\\ray-optics_draft.md",
+    "block_types_distribution": {
+      "WORKED_EXAMPLE": 1,
+      "SUMMARY": 1,
+      "CONCEPT_EXPLANATION": 2,
+      "QUESTION_SET": 1,
+      "DERIVATION": 3,
+      "OBJECTIVE": 1,
+      "EDITORIAL_TRANSITION": 5,
+      "MISCONCEPTION": 3
+    }
+  }
+}

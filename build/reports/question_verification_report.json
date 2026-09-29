@@ -1,0 +1,667 @@
+{
+  "report_id": "qverif-report-20260929-035446",
+  "total_audited": 11,
+  "verified_promoted_count": 7,
+  "duplicate_count": 1,
+  "routed_to_review_count": 3,
+  "dual_verification_count": 3,
+  "dual_verification_agreement_rate": 1.0,
+  "negative_tests_caught": {
+    "distractor_conflict": true,
+    "wrong_answer_mismatch": true,
+    "deduplication_detected": true
+  },
+  "records": [
+    {
+      "verification_id": "qvr-gen-q-curr-num-01",
+      "question_id": "gen-q-curr-num-01",
+      "question_version": 1,
+      "content_hash": "f64c9386eeec9a9269cfe4df47eaa7786c10519fab8509a720f7a642bdb71ca3",
+      "risk_level": "MEDIUM",
+      "solver_a": {
+        "solver_id": "solver_a",
+        "conversation_id": "c4b2f200-9d09-4009-8419-85baf0f75544",
+        "independent_interpretation": "A cylindrical copper wire with initial resistance R_1 = 10.0 Ohm is drawn uniformly through dies such that its radius is halved (r_2 = r_1 / 2) with constant mass, constant density, and constant resistivity rho. The question asks for the new resistance R_2 in Ohms.",
+        "governing_principles": [
+          "Law of Conservation of Mass for Incompressible Solids",
+          "Geometry of Circular Cylinders (Volume V = A * L = pi * r^2 * L)",
+          "Constitutive Law of Electrical Resistance (R = rho * L / A)"
+        ],
+        "independent_equations": [
+          "V_1 = V_2 \\implies A_1 L_1 = A_2 L_2",
+          "A_1 = \\pi r_1^2, \\quad A_2 = \\pi r_2^2 = \\pi (r_1 / 2)^2 = \\frac{A_1}{4}",
+          "L_2 = L_1 \\frac{A_1}{A_2} = 4 L_1",
+          "R_2 = \\rho \\frac{L_2}{A_2} = \\rho \\frac{4 L_1}{A_1 / 4} = 16 \\left(\\rho \\frac{L_1}{A_1}\\right) = 16 R_1"
+        ],
+        "independent_solution_steps": [
+          "Step 1: Apply mass conservation with constant density: Volume V remains invariant during the drawing process (V_1 = V_2).",
+          "Step 2: Relate cross-sectional areas before and after drawing: A_1 = pi * r_1^2, A_2 = pi * (r_1/2)^2 = A_1 / 4.",
+          "Step 3: Relate lengths using constant volume: L_2 = V / A_2 = V / (A_1 / 4) = 4 L_1. The wire length increases by a factor of 4.",
+          "Step 4: Express resistance in terms of geometry: R = rho * L / A. Substituting L_2 and A_2 gives R_2 = rho * (4 L_1) / (A_1 / 4) = 16 * (rho * L_1 / A_1) = 16 R_1.",
+          "Step 5: Compute the numerical value with R_1 = 10.0 Ohm: R_2 = 16 * 10.0 Ohm = 160.0 Ohm."
+        ],
+        "calculated_answer": "160.0",
+        "dimensional_check_passed": true,
+        "numerical_check_passed": true,
+        "uniqueness_confirmed": true,
+        "conflicting_distractors": [],
+        "evaluated_difficulty": {
+          "conceptual_difficulty": 2,
+          "mathematical_difficulty": 2,
+          "multistep_reasoning_difficulty": 2,
+          "abstraction_difficulty": 1,
+          "computational_burden": 2,
+          "trap_misconception_difficulty": 3,
+          "derived_difficulty_band": "L2",
+          "weighting_policy": "PEDAGOGICAL_PROJECT_POLICY"
+        },
+        "verdict": "VERIFIED",
+        "notes": "First-principles derivation confirms R scales inversely with the fourth power of radius under constant volume (R prop 1/r^4). Halving the radius increases resistance by a factor of 2^4 = 16. Numerical result 160.0 Ohm is exact and verified.",
+        "record_status": "ACTIVE",
+        "superseded_by": null,
+        "superseded_reason": null,
+        "timestamp": "2026-09-29T08:54:10+05:30"
+      },
+      "solver_b": null,
+      "agreement": true,
+      "uniqueness_verified": true,
+      "distractors_validated": true,
+      "numerical_validated": true,
+      "final_answer": "160.0",
+      "final_verdict": "VERIFIED",
+      "difficulty_calibrated": {
+        "conceptual_difficulty": 2,
+        "mathematical_difficulty": 2,
+        "multistep_reasoning_difficulty": 2,
+        "abstraction_difficulty": 1,
+        "computational_burden": 2,
+        "trap_misconception_difficulty": 3,
+        "derived_difficulty_band": "L2",
+        "weighting_policy": "PEDAGOGICAL_PROJECT_POLICY"
+      },
+      "created_at": "2026-09-29T03:54:46.215324Z"
+    },
+    {
+      "verification_id": "qvr-gen-q-curr-src-deriv-01",
+      "question_id": "gen-q-curr-src-deriv-01",
+      "question_version": 1,
+      "content_hash": "f95f71b98f539d63a414d060f142a5d52ac27037aa703f58ca940e5f83127c25",
+      "risk_level": "MEDIUM",
+      "solver_a": {
+        "solver_id": "solver_a",
+        "conversation_id": "c4b2f200-9d09-4009-8419-85baf0f75544",
+        "independent_interpretation": "A moving-coil galvanometer with internal resistance G = 50.0 Ohm and full-scale deflection current I_g = 2.0 mA is converted into an ammeter of maximum current rating I = 5.0 A by connecting a shunt resistance S in parallel.",
+        "governing_principles": [
+          "Kirchhoff's Current Law (KCL) at parallel node",
+          "Kirchhoff's Voltage Law (KVL) / Parallel branch equipotentiality",
+          "Ammeter Shunt Principle"
+        ],
+        "independent_equations": [
+          "I = I_g + I_s \\implies I_s = I - I_g",
+          "V_s = V_g \\implies I_s S = I_g G",
+          "S = \\frac{I_g G}{I - I_g} = \\frac{I_g G}{I_s}"
+        ],
+        "independent_solution_steps": [
+          "Step 1: Set up current division: Total maximum measurable current I splits into galvanometer branch current I_g and shunt branch current I_s: I_s = I - I_g = 5.0 A - 0.002 A = 4.998 A.",
+          "Step 2: Equate parallel branch voltages: The potential difference across the galvanometer is V_g = I_g * G = 2.0 * 10^-3 A * 50.0 Ohm = 0.100 V.",
+          "Step 3: Solve for required shunt resistance S: S = V_g / I_s = 0.100 V / 4.998 A = 0.020008 Ohm.",
+          "Step 4: Approximate to relevant significant figures: S approx 0.020 Ohm, corresponding precisely to Option A.",
+          "Step 5: Audit distractors: Option B (0.050 Ohm) fails parallel voltage condition; Option C (0.100 Ohm) confuses voltage drop in Volts (0.100 V) with resistance; Option D (1.000 Ohm) represents a metric prefix omission error (using 0.1 A instead of 2 mA)."
+        ],
+        "calculated_answer": "A",
+        "dimensional_check_passed": true,
+        "numerical_check_passed": true,
+        "uniqueness_confirmed": true,
+        "conflicting_distractors": [],
+        "evaluated_difficulty": {
+          "conceptual_difficulty": 2,
+          "mathematical_difficulty": 2,
+          "multistep_reasoning_difficulty": 2,
+          "abstraction_difficulty": 2,
+          "computational_burden": 2,
+          "trap_misconception_difficulty": 2,
+          "derived_difficulty_band": "L2",
+          "weighting_policy": "PEDAGOGICAL_PROJECT_POLICY"
+        },
+        "verdict": "VERIFIED",
+        "notes": "First-principles derivation yields S = (I_g * G) / (I - I_g) = 0.100 / 4.998 = 0.020008 Ohm. Matches Option A (0.020 Ohm). Distractors B, C, D are mathematically and physically invalid.",
+        "record_status": "ACTIVE",
+        "superseded_by": null,
+        "superseded_reason": null,
+        "timestamp": "2026-09-29T08:54:20+05:30"
+      },
+      "solver_b": null,
+      "agreement": true,
+      "uniqueness_verified": true,
+      "distractors_validated": true,
+      "numerical_validated": true,
+      "final_answer": "A",
+      "final_verdict": "VERIFIED",
+      "difficulty_calibrated": {
+        "conceptual_difficulty": 2,
+        "mathematical_difficulty": 2,
+        "multistep_reasoning_difficulty": 2,
+        "abstraction_difficulty": 2,
+        "computational_burden": 2,
+        "trap_misconception_difficulty": 2,
+        "derived_difficulty_band": "L2",
+        "weighting_policy": "PEDAGOGICAL_PROJECT_POLICY"
+      },
+      "created_at": "2026-09-29T03:54:46.228770Z"
+    },
+    {
+      "verification_id": "qvr-gen-q-opt-conc-01",
+      "question_id": "gen-q-opt-conc-01",
+      "question_version": 1,
+      "content_hash": "b2a2e7dbbc2f5abae144ed6e6866c3d9d5e6218445d83ffaff54817214b1f845",
+      "risk_level": "LOW",
+      "solver_a": {
+        "solver_id": "solver_a",
+        "conversation_id": "c4b2f200-9d09-4009-8419-85baf0f75544",
+        "independent_interpretation": "Monochromatic light of frequency f_0 and vacuum wavelength lambda_0 enters an optically denser linear isotropic dielectric medium with refractive index n > 1 from vacuum. The question asks for the correct expressions for phase velocity v, frequency f, and wavelength lambda inside the medium.",
+        "governing_principles": [
+          "Definition of Refractive Index and Phase Velocity (v = c / n)",
+          "Continuity of Electromagnetic Fields and Temporal Boundary Invariance of Frequency (f = f_0)",
+          "Fundamental Kinematic Wave Relation (v = f * lambda)"
+        ],
+        "independent_equations": [
+          "v = \\frac{c}{n}",
+          "f = f_0",
+          "\\lambda = \\frac{v}{f} = \\frac{c / n}{f_0} = \\frac{c}{f_0} \\frac{1}{n} = \\frac{\\lambda_0}{n}"
+        ],
+        "independent_solution_steps": [
+          "Step 1: Phase velocity in a non-magnetic dielectric medium is given by Maxwell's equations as v = 1 / sqrt(epsilon * mu) = c / n. Since n > 1, v = c / n.",
+          "Step 2: Frequency is determined by the temporal oscillation rate of the emitting source. Electromagnetic boundary conditions across any spatial interface mandate temporal continuity of the oscillating fields, ensuring f = f_0 remains invariant.",
+          "Step 3: Relate wavelength to speed and frequency: lambda = v / f = (c / n) / f_0 = (c / f_0) / n = lambda_0 / n.",
+          "Step 4: Audit Option A: Correctly combines v = c / n, f = f_0, and lambda = lambda_0 / n.",
+          "Step 5: Audit distractors: Option B erroneously claims frequency changes to f_0 / n; Option C claims velocity remains c in matter; Option D claims frequency dilates to n * f_0. All distractors violate fundamental wave mechanics."
+        ],
+        "calculated_answer": "A",
+        "dimensional_check_passed": true,
+        "numerical_check_passed": true,
+        "uniqueness_confirmed": true,
+        "conflicting_distractors": [],
+        "evaluated_difficulty": {
+          "conceptual_difficulty": 2,
+          "mathematical_difficulty": 1,
+          "multistep_reasoning_difficulty": 2,
+          "abstraction_difficulty": 2,
+          "computational_burden": 1,
+          "trap_misconception_difficulty": 2,
+          "derived_difficulty_band": "L1",
+          "weighting_policy": "PEDAGOGICAL_PROJECT_POLICY"
+        },
+        "verdict": "VERIFIED",
+        "notes": "First-principles wave optics derivation confirms v = c/n, f = f_0, lambda = lambda_0/n. Option A is unique, all distractors are physically invalid.",
+        "record_status": "ACTIVE",
+        "superseded_by": null,
+        "superseded_reason": null,
+        "timestamp": "2026-09-29T08:54:50+05:30"
+      },
+      "solver_b": null,
+      "agreement": true,
+      "uniqueness_verified": true,
+      "distractors_validated": true,
+      "numerical_validated": true,
+      "final_answer": "A",
+      "final_verdict": "VERIFIED",
+      "difficulty_calibrated": {
+        "conceptual_difficulty": 2,
+        "mathematical_difficulty": 1,
+        "multistep_reasoning_difficulty": 2,
+        "abstraction_difficulty": 2,
+        "computational_burden": 1,
+        "trap_misconception_difficulty": 2,
+        "derived_difficulty_band": "L1",
+        "weighting_policy": "PEDAGOGICAL_PROJECT_POLICY"
+      },
+      "created_at": "2026-09-29T03:54:46.270304Z"
+    },
+    {
+      "verification_id": "qvr-gen-q-rot-angmom-01",
+      "question_id": "gen-q-rot-angmom-01",
+      "question_version": 1,
+      "content_hash": "e131f920a14d36013ffdf4a6681a88a2e96671ba8009cf19e58d318ab7bc12d5",
+      "risk_level": "HIGH",
+      "solver_a": {
+        "solver_id": "solver_a",
+        "conversation_id": "c4b2f200-9d09-4009-8419-85baf0f75544",
+        "independent_interpretation": "A uniform circular disc of mass M and radius R rotates freely about a fixed frictionless vertical axis through its center with initial angular speed omega_0. An insect of mass m, initially at the center (r = 0), crawls radially outward to the outer rim (r = R). We evaluate the final angular velocity of the combined system.",
+        "governing_principles": [
+          "Conservation of Angular Momentum about a Fixed Axis (tau_ext = 0 ==> L_i = L_f)",
+          "Superposition of Moments of Inertia for Rigid Body and Point Mass (I_total = I_disc + I_particle)"
+        ],
+        "independent_equations": [
+          "I_{\\text{disc}} = \\frac{1}{2} M R^2",
+          "I_{\\text{insect}, i} = m (0)^2 = 0 \\implies I_i = I_{\\text{disc}} = \\frac{1}{2} M R^2",
+          "I_{\\text{insect}, f} = m R^2 \\implies I_f = I_{\\text{disc}} + I_{\\text{insect}, f} = \\frac{1}{2} M R^2 + m R^2 = \\frac{M + 2m}{2} R^2",
+          "L_i = I_i \\omega_0, \\quad L_f = I_f \\omega_f",
+          "L_i = L_f \\implies \\left(\\frac{1}{2} M R^2\\right) \\omega_0 = \\left(\\frac{M + 2m}{2} R^2\\right) \\omega_f \\implies \\omega_f = \\omega_0 \\frac{M}{M + 2m}"
+        ],
+        "independent_solution_steps": [
+          "Step 1: Identify that no external torque acts about the vertical rotation axis (frictionless pivot, radial crawling forces are internal action-reaction pairs), ensuring total angular momentum is conserved: L_i = L_f.",
+          "Step 2: Calculate initial moment of inertia: Disc has I_disc = 1/2 M R^2; insect at center (r = 0) has I_insect = 0. Thus I_i = 1/2 M R^2.",
+          "Step 3: Calculate final moment of inertia when insect reaches rim (r = R): I_f = 1/2 M R^2 + m R^2 = 1/2 (M + 2m) R^2.",
+          "Step 4: Equate initial and final angular momentum: (1/2 M R^2) omega_0 = 1/2 (M + 2m) R^2 omega_f.",
+          "Step 5: Solve for final angular speed: omega_f = omega_0 * (M / (M + 2m)), matching Option B.",
+          "Step 6: Audit distractors: Option A uses I_disc = M R^2 (hoop/ring); Option C inverts angular momentum conservation (suggesting speed increases); Option D uses I_disc = 1/4 M R^2 (diametrical axis error)."
+        ],
+        "calculated_answer": "B",
+        "dimensional_check_passed": true,
+        "numerical_check_passed": true,
+        "uniqueness_confirmed": true,
+        "conflicting_distractors": [],
+        "evaluated_difficulty": {
+          "conceptual_difficulty": 3,
+          "mathematical_difficulty": 2,
+          "multistep_reasoning_difficulty": 3,
+          "abstraction_difficulty": 3,
+          "computational_burden": 2,
+          "trap_misconception_difficulty": 4,
+          "derived_difficulty_band": "L3",
+          "weighting_policy": "PEDAGOGICAL_PROJECT_POLICY"
+        },
+        "verdict": "VERIFIED",
+        "notes": "First-principles angular momentum conservation uniquely yields omega_f = omega_0 * M / (M + 2m). Matches Option B. All distractors are invalid.",
+        "record_status": "ACTIVE",
+        "superseded_by": null,
+        "superseded_reason": null,
+        "timestamp": "2026-09-29T08:55:00+05:30"
+      },
+      "solver_b": {
+        "solver_id": "solver_b",
+        "conversation_id": "cb054490-4b17-4baa-a6a9-733fa72bfec3",
+        "independent_interpretation": "A system consists of a uniform solid circular disc of mass M and radius R and an insect of mass m. The disc is initially rotating freely at angular speed omega_0 about a vertical frictionless axis passing perpendicularly through its center. The insect is initially located at the center of the disc (r = 0) and crawls radially outward to the outer rim (r = R). Gravity acts along the vertical rotation axis, and normal/bearing reaction forces act on or parallel to the axis; hence no external force produces a net torque about the vertical rotation axis (tau_ext,z = 0). Traction and normal forces between the insect's legs and the disc surface are internal to the disc-insect system. By Newton's second law for rotation about a fixed axis, the total angular momentum of the disc-insect system about the rotation axis is conserved throughout the insect's motion.",
+        "governing_principles": [
+          "Principle of Conservation of Angular Momentum about a Fixed Axis (tau_ext,z = 0 implies L_z = constant)",
+          "Moment of Inertia of a Uniform Circular Disc about its Central Perpendicular Axis (I_disc = 1/2 * M * R^2)",
+          "Moment of Inertia of a Point Particle at Radial Distance r (I_point = m * r^2)",
+          "Superposition Principle for Moment of Inertia of Composite Systems (I_total = I_disc + I_insect)"
+        ],
+        "independent_equations": [
+          "tau_ext,z = dL_z / dt = 0 => L_i = L_f",
+          "I_disc = (1/2) * M * R^2",
+          "I_insect(r) = m * r^2",
+          "I_i = I_disc + I_insect(0) = (1/2) * M * R^2 + m * (0)^2 = (1/2) * M * R^2",
+          "I_f = I_disc + I_insect(R) = (1/2) * M * R^2 + m * R^2 = ((M + 2m) / 2) * R^2",
+          "L_i = I_i * omega_0 = ((1/2) * M * R^2) * omega_0",
+          "L_f = I_f * omega_f = (((M + 2m) / 2) * R^2) * omega_f",
+          "L_i = L_f => ((1/2) * M * R^2) * omega_0 = (((M + 2m) / 2) * R^2) * omega_f => omega_f = omega_0 * (M / (M + 2m))"
+        ],
+        "independent_solution_steps": [
+          "Step 1: Isolate the system as the disc plus the insect. Verify that the fixed vertical axis is frictionless and passes through the center of mass of the disc. Because all external forces (gravity, normal support, axis reactions) either act parallel to or intersect the rotation axis, net external torque about the z-axis vanishes: tau_ext,z = 0.",
+          "Step 2: Apply conservation of angular momentum about the fixed rotation axis: L_i = L_f, where L = I_total * omega.",
+          "Step 3: Calculate initial moment of inertia I_i when the insect is at r = 0: I_i = I_disc + I_insect,i = (1/2) * M * R^2 + m * 0^2 = (1/2) * M * R^2.",
+          "Step 4: Calculate final moment of inertia I_f when the insect reaches the perimeter r = R: I_f = I_disc + I_insect,f = (1/2) * M * R^2 + m * R^2 = ((M + 2m) / 2) * R^2.",
+          "Step 5: Equate initial and final angular momenta: ((1/2) * M * R^2) * omega_0 = (((M + 2m) / 2) * R^2) * omega_f. Cancel the common factor (1/2) * R^2 to obtain M * omega_0 = (M + 2m) * omega_f, yielding omega_f = omega_0 * (M / (M + 2m)). This uniquely corresponds to Option B.",
+          "Step 6: Rigorous Distractor Audit: (A) Option A (omega_0 * M / (M + m)) assumes I_disc = M R^2 (confusing solid disc with a thin ring/hoop); invalid. (C) Option C (omega_0 * (M + 2m) / M) inverts the conservation ratio (omega_f / omega_0 = I_f / I_i instead of I_i / I_f), which predicts unphysical rotational speedup when mass moves outward; invalid. (D) Option D (omega_0 * M / (M + 4m)) assumes I_disc = 1/4 M R^2 (confusing polar perpendicular axis with in-plane diametrical axis); invalid. Therefore, all distractors are strictly and uniquely refuted."
+        ],
+        "calculated_answer": "B",
+        "dimensional_check_passed": true,
+        "numerical_check_passed": true,
+        "uniqueness_confirmed": true,
+        "conflicting_distractors": [],
+        "evaluated_difficulty": {
+          "conceptual_difficulty": 3,
+          "mathematical_difficulty": 2,
+          "multistep_reasoning_difficulty": 3,
+          "abstraction_difficulty": 3,
+          "computational_burden": 2,
+          "trap_misconception_difficulty": 4,
+          "derived_difficulty_band": "L3",
+          "weighting_policy": "PEDAGOGICAL_PROJECT_POLICY"
+        },
+        "verdict": "VERIFIED",
+        "notes": "First-principles derivation confirms Option B is the unique physically correct solution. Dimensional check verifies [omega_f] = [omega_0] = rad/s since M / (M + 2m) is dimensionless. Limiting cases hold: as m -> 0, omega_f -> omega_0; as m -> infinity, omega_f -> 0; as M -> 0, omega_f -> 0. Distractor rationales confirmed mathematically invalid.",
+        "record_status": "ACTIVE",
+        "superseded_by": null,
+        "superseded_reason": null,
+        "timestamp": "2026-09-29T08:52:50Z"
+      },
+      "agreement": true,
+      "uniqueness_verified": true,
+      "distractors_validated": true,
+      "numerical_validated": true,
+      "final_answer": "B",
+      "final_verdict": "VERIFIED",
+      "difficulty_calibrated": {
+        "conceptual_difficulty": 3,
+        "mathematical_difficulty": 2,
+        "multistep_reasoning_difficulty": 3,
+        "abstraction_difficulty": 3,
+        "computational_burden": 2,
+        "trap_misconception_difficulty": 4,
+        "derived_difficulty_band": "L3",
+        "weighting_policy": "PEDAGOGICAL_PROJECT_POLICY"
+      },
+      "created_at": "2026-09-29T03:54:46.282455Z"
+    },
+    {
+      "verification_id": "qvr-gen-q-rot-misc-01",
+      "question_id": "gen-q-rot-misc-01",
+      "question_version": 1,
+      "content_hash": "00b1c870134c5d9df2cbe76aefa56152337cf863511c2ec26e260ecc3c3f6965",
+      "risk_level": "MEDIUM",
+      "solver_a": {
+        "solver_id": "solver_a",
+        "conversation_id": "c4b2f200-9d09-4009-8419-85baf0f75544",
+        "independent_interpretation": "A point particle of mass m moves with constant rectilinear velocity v along the line y = d (d > 0) in the xy-plane. We determine the magnitude and time-dependence of the particle's angular momentum with respect to the origin O.",
+        "governing_principles": [
+          "Vector Definition of Particle Angular Momentum (L = r x p)",
+          "Geometric Formulation of Angular Momentum (|L| = p * r_perp)",
+          "Angular Momentum Theorem (dL/dt = tau_ext = r x F_ext)"
+        ],
+        "independent_equations": [
+          "\\vec{r}(t) = x(t) \\hat{i} + d \\hat{j}",
+          "\\vec{p} = m \\vec{v} = m v \\hat{i}",
+          "\\vec{L} = \\vec{r} \\times \\vec{p} = (x \\hat{i} + d \\hat{j}) \\times (m v \\hat{i}) = -m v d \\hat{k}",
+          "|\\vec{L}| = m v d = \\text{constant}",
+          "\\frac{d\\vec{L}}{dt} = \\vec{r} \\times \\vec{F} = \\vec{r} \\times \\vec{0} = \\vec{0} \\implies \\vec{L} = \\text{const}"
+        ],
+        "independent_solution_steps": [
+          "Step 1: Set up the particle position vector relative to the origin O in Cartesian coordinates: r(t) = x(t) i + d j.",
+          "Step 2: Express the momentum vector: Since velocity is constant along the line y = d, v = v i, giving p = m v i.",
+          "Step 3: Evaluate the cross product: L = r x p = (x i + d j) x (m v i) = x m v (i x i) + d m v (j x i) = - m v d k.",
+          "Step 4: Take the magnitude: |L| = m v d. Notice that the x-coordinate drops out entirely because the perpendicular distance from O to the trajectory line is invariant (r_perp = d).",
+          "Step 5: Check dynamic conservation: Since v is constant, net force F = m dv/dt = 0, which means net torque tau = r x F = 0. Therefore, dL/dt = 0, proving L is strictly conserved for all time.",
+          "Step 6: Audit distractors: Option A is based on the misconception that rectilinear motion implies zero angular momentum; Option B confuses radial distance r = sqrt(x^2+d^2) with lever arm r_perp; Option D falsely claims angular position changes cause oscillation in L."
+        ],
+        "calculated_answer": "C",
+        "dimensional_check_passed": true,
+        "numerical_check_passed": true,
+        "uniqueness_confirmed": true,
+        "conflicting_distractors": [],
+        "evaluated_difficulty": {
+          "conceptual_difficulty": 3,
+          "mathematical_difficulty": 2,
+          "multistep_reasoning_difficulty": 2,
+          "abstraction_difficulty": 2,
+          "computational_burden": 1,
+          "trap_misconception_difficulty": 4,
+          "derived_difficulty_band": "L2",
+          "weighting_policy": "PEDAGOGICAL_PROJECT_POLICY"
+        },
+        "verdict": "VERIFIED",
+        "notes": "First-principles evaluation confirms |L| = m v d is strictly constant for all time. Option C is unique and correct. All distractors are invalid.",
+        "record_status": "ACTIVE",
+        "superseded_by": null,
+        "superseded_reason": null,
+        "timestamp": "2026-09-29T08:55:10+05:30"
+      },
+      "solver_b": null,
+      "agreement": true,
+      "uniqueness_verified": true,
+      "distractors_validated": true,
+      "numerical_validated": true,
+      "final_answer": "C",
+      "final_verdict": "VERIFIED",
+      "difficulty_calibrated": {
+        "conceptual_difficulty": 3,
+        "mathematical_difficulty": 2,
+        "multistep_reasoning_difficulty": 2,
+        "abstraction_difficulty": 2,
+        "computational_burden": 1,
+        "trap_misconception_difficulty": 4,
+        "derived_difficulty_band": "L2",
+        "weighting_policy": "PEDAGOGICAL_PROJECT_POLICY"
+      },
+      "created_at": "2026-09-29T03:54:46.295177Z"
+    },
+    {
+      "verification_id": "qvr-gen-q-td-mcq-multi-01",
+      "question_id": "gen-q-td-mcq-multi-01",
+      "question_version": 1,
+      "content_hash": "c5eccffbd365e4a331fff024ed88754b3b3af47bbfbacca7263c815ebbaa46b3",
+      "risk_level": "HIGH",
+      "solver_a": {
+        "solver_id": "solver_a",
+        "conversation_id": "c4b2f200-9d09-4009-8419-85baf0f75544",
+        "independent_interpretation": "A quasi-static reversible adiabatic expansion of an ideal gas with constant specific heat ratio gamma = C_p / C_v. We audit four thermodynamic propositions concerning state variable trajectories, work-energy relations, and entropy change.",
+        "governing_principles": [
+          "First Law of Thermodynamics (dQ = dU + dW)",
+          "Adiabatic Process Condition (dQ = 0)",
+          "Clausius Theorem and Definition of Thermodynamic Entropy (dS = dQ_rev / T)",
+          "Poisson's Relations for Reversible Adiabatic Processes of an Ideal Gas"
+        ],
+        "independent_equations": [
+          "dQ = 0 \\implies dU + dW = 0 \\implies W = -\\Delta U",
+          "dS = \\frac{dQ_{\\text{rev}}}{T} = 0 \\implies \\Delta S = 0",
+          "dU = n C_v dT, \\quad dW = P dV \\implies n C_v dT + \\frac{n R T}{V} dV = 0",
+          "\\frac{dT}{T} + (\\gamma - 1) \\frac{dV}{V} = 0 \\implies T V^{\\gamma - 1} = \\text{constant}",
+          "P = \\frac{n R T}{V} \\implies P V^\\gamma = \\text{constant}"
+        ],
+        "independent_solution_steps": [
+          "Step 1: Check Proposition B: In an adiabatic process, heat exchange dQ = 0. By the First Law of Thermodynamics, dQ = dU + dW, so dW = -dU. Integrated over the expansion, work done is W = -Delta U (work done equals the decrease in internal energy). Thus, statement B is TRUE.",
+          "Step 2: Check Proposition C: For any reversible path, entropy differential is dS = dQ_rev / T. Since dQ_rev = 0 at every differential step of a reversible adiabatic process, dS = 0, meaning Delta S = 0 (isentropic process). Thus, statement C is TRUE.",
+          "Step 3: Check Proposition A: Using dU = n C_v dT and dW = P dV with the ideal gas law P V = n R T: n C_v dT + (n R T / V) dV = 0. Dividing by n C_v T and using R / C_v = gamma - 1 yields dT/T + (gamma - 1) dV/V = 0. Integrating yields ln(T * V^(gamma - 1)) = const, so T V^(gamma - 1) = const. Thus, statement A is TRUE.",
+          "Step 4: Check Proposition D: Substituting T = P V / (n R) into T V^(gamma - 1) = const yields (P V / n R) * V^(gamma - 1) = const ==> P V^gamma = const. Thus, statement D is TRUE.",
+          "Step 5: Synthesize result: All four statements A, B, C, D are rigorously correct, confirming the multi-correct answer set {A, B, C, D}."
+        ],
+        "calculated_answer": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "dimensional_check_passed": true,
+        "numerical_check_passed": true,
+        "uniqueness_confirmed": true,
+        "conflicting_distractors": [],
+        "evaluated_difficulty": {
+          "conceptual_difficulty": 4,
+          "mathematical_difficulty": 3,
+          "multistep_reasoning_difficulty": 4,
+          "abstraction_difficulty": 3,
+          "computational_burden": 1,
+          "trap_misconception_difficulty": 3,
+          "derived_difficulty_band": "L3",
+          "weighting_policy": "PEDAGOGICAL_PROJECT_POLICY"
+        },
+        "verdict": "VERIFIED",
+        "notes": "First-principles thermodynamic derivation confirms that all four statements A, B, C, D are exact physical consequences of a quasi-static reversible adiabatic expansion.",
+        "record_status": "ACTIVE",
+        "superseded_by": null,
+        "superseded_reason": null,
+        "timestamp": "2026-09-29T08:55:20+05:30"
+      },
+      "solver_b": {
+        "solver_id": "solver_b",
+        "conversation_id": "cb054490-4b17-4baa-a6a9-733fa72bfec3",
+        "independent_interpretation": "An ideal gas with constant specific heat ratio gamma = C_p / C_v undergoes a quasi-static reversible adiabatic expansion. The quasi-static condition ensures the system remains in internal mechanical and thermal equilibrium at each point along the thermodynamic trajectory, ensuring well-defined state coordinates (P, V, T). The reversible adiabatic condition mandates zero heat transfer across the boundary (dQ_rev = 0) at all stages. The problem asks which of four statements concerning state relations (T * V^(gamma - 1) = constant, P * V^gamma = constant), First Law energy balance (W = -Delta U), and Clausius entropy invariance (Delta S = 0) are physically correct.",
+        "governing_principles": [
+          "First Law of Thermodynamics (dQ = dU + dW)",
+          "Reversible Adiabatic Condition (dQ_rev = 0 throughout path)",
+          "Ideal Gas Internal Energy (dU = n * C_v * dT)",
+          "Ideal Gas Equation of State (P * V = n * R * T)",
+          "Poisson's Adiabatic State Equations (P * V^gamma = constant, T * V^(gamma - 1) = constant)",
+          "Second Law of Thermodynamics and Clausius Definition of Entropy (dS = dQ_rev / T)"
+        ],
+        "independent_equations": [
+          "dQ = dU + dW = 0 => dU = -dW",
+          "Delta U = -W => W = -Delta U",
+          "n * C_v * dT + P * dV = 0",
+          "dT / T + (R / C_v) * (dV / V) = 0",
+          "R / C_v = gamma - 1 => ln(T) + (gamma - 1) * ln(V) = const => T * V^(gamma - 1) = constant",
+          "P = n * R * T / V => (P * V / (n * R)) * V^(gamma - 1) = const => P * V^gamma = constant",
+          "dS = dQ_rev / T = 0 / T = 0 => Delta S = integral(dQ_rev / T) = 0"
+        ],
+        "independent_solution_steps": [
+          "Step 1: Analyze Option A (Poisson's T-V relation): Apply the First Law for an infinitesimal quasi-static step: dQ = dU + dW. For an adiabatic process, dQ = 0, so dU + dW = 0. Substituting dU = n C_v dT and dW = P dV gives n C_v dT + P dV = 0. Using P = n R T / V yields n C_v dT + (n R T / V) dV = 0. Dividing by n C_v T gives dT / T + (R / C_v) * dV / V = 0. Using Mayer's relation R / C_v = gamma - 1 and integrating yields T * V^(gamma - 1) = constant. Therefore, Statement A is correct.",
+          "Step 2: Analyze Option B (First Law Work-Energy relation): From the First Law in integral form, Delta U = Q - W. Because the process is adiabatic, net heat transfer Q = 0. Hence Delta U = -W, which rearranges to W = -Delta U. In an expansion, work done by the gas is positive (W > 0), causing a corresponding decrease in internal energy (Delta U < 0). Therefore, the work done equals the decrease in internal energy, making Statement B correct.",
+          "Step 3: Analyze Option C (Entropy Invariance / Isentropic Condition): By the Clausius definition of entropy for a closed system, the change in entropy between states is Delta S = integral(dQ_rev / T). Because the problem specifies that the expansion is both reversible and adiabatic, dQ_rev = 0 along the entire path. Hence Delta S = 0, meaning the process is strictly isentropic. Therefore, Statement C is correct.",
+          "Step 4: Analyze Option D (Poisson's P-V relation): From T * V^(gamma - 1) = constant, substitute the ideal gas law T = P V / (n R). This gives (P V / (n R)) * V^(gamma - 1) = constant, which simplifies to (P * V^gamma) / (n R) = constant. Since n and R are invariant for a closed system, P * V^gamma = constant. Therefore, Statement D is correct.",
+          "Step 5: Conclude that all four statements A, B, C, and D are valid and physically sound. The complete solution set is [\"A\", \"B\", \"C\", \"D\"]."
+        ],
+        "calculated_answer": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "dimensional_check_passed": true,
+        "numerical_check_passed": true,
+        "uniqueness_confirmed": true,
+        "conflicting_distractors": [],
+        "evaluated_difficulty": {
+          "conceptual_difficulty": 4,
+          "mathematical_difficulty": 3,
+          "multistep_reasoning_difficulty": 4,
+          "abstraction_difficulty": 3,
+          "computational_burden": 1,
+          "trap_misconception_difficulty": 3,
+          "derived_difficulty_band": "L4",
+          "weighting_policy": "PEDAGOGICAL_PROJECT_POLICY"
+        },
+        "verdict": "VERIFIED",
+        "notes": "All four options are fundamental thermodynamic identities for a quasi-static reversible adiabatic ideal gas expansion. Statement A and D represent Poisson equations, Statement B represents First Law energy conservation under adiabatic constraints, and Statement C represents the Second Law Clausius isentropic condition. There are no invalid options in this multiple-correct item; the full set {A, B, C, D} is verified unique and complete.",
+        "record_status": "ACTIVE",
+        "superseded_by": null,
+        "superseded_reason": null,
+        "timestamp": "2026-09-29T08:52:50Z"
+      },
+      "agreement": true,
+      "uniqueness_verified": true,
+      "distractors_validated": true,
+      "numerical_validated": true,
+      "final_answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "final_verdict": "VERIFIED",
+      "difficulty_calibrated": {
+        "conceptual_difficulty": 4,
+        "mathematical_difficulty": 3,
+        "multistep_reasoning_difficulty": 4,
+        "abstraction_difficulty": 3,
+        "computational_burden": 1,
+        "trap_misconception_difficulty": 3,
+        "derived_difficulty_band": "L3",
+        "weighting_policy": "PEDAGOGICAL_PROJECT_POLICY"
+      },
+      "created_at": "2026-09-29T03:54:46.315735Z"
+    },
+    {
+      "verification_id": "qvr-gen-q-td-multi-01",
+      "question_id": "gen-q-td-multi-01",
+      "question_version": 1,
+      "content_hash": "0df11d39689e10947d30e9ebced69916e734a38c57244b48af029af64d8f7982",
+      "risk_level": "HIGH",
+      "solver_a": {
+        "solver_id": "solver_a",
+        "conversation_id": "c4b2f200-9d09-4009-8419-85baf0f75544",
+        "independent_interpretation": "One mole of an ideal diatomic gas with specific heat ratio gamma = 1.4 is compressed reversibly and adiabatically from initial temperature T_1 = 300 K such that the volume is compressed by a factor of 32 (V_2 = V_1 / 32). We calculate the final temperature T_2 in Kelvin.",
+        "governing_principles": [
+          "Poisson's Equation of State for Reversible Adiabatic Processes (T * V^(gamma - 1) = constant)",
+          "Equation of State of Ideal Gas"
+        ],
+        "independent_equations": [
+          "T_1 V_1^{\\gamma - 1} = T_2 V_2^{\\gamma - 1}",
+          "T_2 = T_1 \\left(\\frac{V_1}{V_2}\\right)^{\\gamma - 1}",
+          "\\gamma = 1.4 = \\frac{7}{5} \\implies \\gamma - 1 = 0.4 = \\frac{2}{5}",
+          "\\frac{V_1}{V_2} = 32 = 2^5",
+          "\\left(\\frac{V_1}{V_2}\\right)^{\\gamma - 1} = (2^5)^{2/5} = 2^2 = 4",
+          "T_2 = 300 \\times 4 = 1200\\text{ K}"
+        ],
+        "independent_solution_steps": [
+          "Step 1: Identify the process as a reversible adiabatic compression of an ideal gas governed by Poisson's relation: T * V^(gamma - 1) = constant.",
+          "Step 2: Relate initial and final states: T_2 = T_1 * (V_1 / V_2)^(gamma - 1).",
+          "Step 3: Evaluate the exponent and volumetric ratio: gamma - 1 = 1.4 - 1 = 0.4 = 2/5. Given V_2 = V_1 / 32, the compression ratio is V_1 / V_2 = 32.",
+          "Step 4: Compute the scaling factor: 32^(0.4) = (2^5)^(2/5) = 2^(5 * 2/5) = 2^2 = 4.",
+          "Step 5: Compute final temperature: T_2 = 300 K * 4 = 1200 K = 1200.0 K.",
+          "Step 6: Verify contextual data: Gas constant R = 8.314 J/(mol K) and n = 1 mole are consistent thermodynamic parameters; the temperature ratio is purely determined by the adiabatic index and volume ratio."
+        ],
+        "calculated_answer": "1200.0",
+        "dimensional_check_passed": true,
+        "numerical_check_passed": true,
+        "uniqueness_confirmed": true,
+        "conflicting_distractors": [],
+        "evaluated_difficulty": {
+          "conceptual_difficulty": 3,
+          "mathematical_difficulty": 3,
+          "multistep_reasoning_difficulty": 3,
+          "abstraction_difficulty": 2,
+          "computational_burden": 2,
+          "trap_misconception_difficulty": 3,
+          "derived_difficulty_band": "L2",
+          "weighting_policy": "PEDAGOGICAL_PROJECT_POLICY"
+        },
+        "verdict": "VERIFIED",
+        "notes": "First-principles derivation yields exact final temperature T_2 = 300 * 32^0.4 = 1200.0 K. Calculation is exact and uniquely verified.",
+        "record_status": "ACTIVE",
+        "superseded_by": null,
+        "superseded_reason": null,
+        "timestamp": "2026-09-29T08:55:30+05:30"
+      },
+      "solver_b": {
+        "solver_id": "solver_b",
+        "conversation_id": "cb054490-4b17-4baa-a6a9-733fa72bfec3",
+        "independent_interpretation": "A thermodynamic system consisting of one mole of an ideal diatomic gas with heat capacity ratio gamma = 1.4 (Cv = 2.5 R) starts from an initial thermodynamic equilibrium state at temperature T_1 = 300 K. The gas undergoes a quasi-static reversible adiabatic compression, during which the gas volume decreases by a factor of 32 (V_2 = V_1 / 32). In a reversible adiabatic process for an ideal gas with constant specific heat capacities, no heat is exchanged across the system boundary (dQ = 0). Under the First Law of Thermodynamics, all work done on the gas during compression increases its internal thermal energy, driving an increase in temperature according to Poisson's temperature-volume relation T * V^(gamma - 1) = constant. The task is to calculate the final absolute temperature T_2 of the gas in Kelvin.",
+        "governing_principles": [
+          "First Law of Thermodynamics (dQ = dU + dW)",
+          "Reversible Adiabatic Path Condition (dQ = 0 implies dU = -dW)",
+          "Ideal Gas Internal Energy (dU = n * C_v * dT)",
+          "Ideal Gas Equation of State (P * V = n * R * T)",
+          "Poisson's Relation for Reversible Adiabatic Processes (T * V^(gamma - 1) = constant)"
+        ],
+        "independent_equations": [
+          "dQ = dU + dW = 0",
+          "dU = n * C_v * dT",
+          "dW = P * dV = (n * R * T / V) * dV",
+          "n * C_v * dT + (n * R * T / V) * dV = 0 => (dT / T) + (R / C_v) * (dV / V) = 0",
+          "gamma - 1 = (C_p - C_v) / C_v = R / C_v = 1.4 - 1.0 = 0.4 = 2/5",
+          "T_1 * V_1^(gamma - 1) = T_2 * V_2^(gamma - 1)",
+          "T_2 = T_1 * (V_1 / V_2)^(gamma - 1) = T_1 * (32)^(0.4)"
+        ],
+        "independent_solution_steps": [
+          "Step 1: Formulate the governing differential equation from the First Law of Thermodynamics for a reversible adiabatic process: dQ = dU + dW = 0, where dU = n C_v dT and dW = P dV.",
+          "Step 2: Substitute the ideal gas equation P = n R T / V into the First Law: n C_v dT = - (n R T / V) dV. Dividing by n C_v T separates variables: dT / T + (R / C_v) * dV / V = 0.",
+          "Step 3: Recognize that for an ideal diatomic gas with gamma = 1.4, R / C_v = gamma - 1 = 1.4 - 1.0 = 0.4 = 2/5. Integrating yields ln(T) + (gamma - 1) ln(V) = constant, hence T * V^(gamma - 1) = constant.",
+          "Step 4: Express the final temperature in terms of initial state and volume compression ratio: T_2 = T_1 * (V_1 / V_2)^(gamma - 1).",
+          "Step 5: Substitute the given numerical values: T_1 = 300 K, V_1 / V_2 = 32, and exponent gamma - 1 = 2/5. Evaluate the exponential factor: (32)^(2/5) = (2^5)^(2/5) = 2^2 = 4.0.",
+          "Step 6: Compute the final temperature: T_2 = 300 K * 4.0 = 1200.0 K."
+        ],
+        "calculated_answer": "1200.0",
+        "dimensional_check_passed": true,
+        "numerical_check_passed": true,
+        "uniqueness_confirmed": true,
+        "conflicting_distractors": [],
+        "evaluated_difficulty": {
+          "conceptual_difficulty": 3,
+          "mathematical_difficulty": 3,
+          "multistep_reasoning_difficulty": 3,
+          "abstraction_difficulty": 2,
+          "computational_burden": 2,
+          "trap_misconception_difficulty": 3,
+          "derived_difficulty_band": "L3",
+          "weighting_policy": "PEDAGOGICAL_PROJECT_POLICY"
+        },
+        "verdict": "VERIFIED",
+        "notes": "Problem statement is fully well-posed, complete, and mathematically unambiguous. Dimensional analysis confirms [T_2] = [T_1] = Kelvin. The exponent calculation (32)^(2/5) = 4 is exact. Numerical result 1200.0 K is uniquely determined under the ideal gas reversible adiabatic framework.",
+        "record_status": "ACTIVE",
+        "superseded_by": null,
+        "superseded_reason": null,
+        "timestamp": "2026-09-29T08:52:50Z"
+      },
+      "agreement": true,
+      "uniqueness_verified": true,
+      "distractors_validated": true,
+      "numerical_validated": true,
+      "final_answer": "1200.0",
+      "final_verdict": "VERIFIED",
+      "difficulty_calibrated": {
+        "conceptual_difficulty": 3,
+        "mathematical_difficulty": 3,
+        "multistep_reasoning_difficulty": 3,
+        "abstraction_difficulty": 2,
+        "computational_burden": 2,
+        "trap_misconception_difficulty": 3,
+        "derived_difficulty_band": "L2",
+        "weighting_policy": "PEDAGOGICAL_PROJECT_POLICY"
+      },
+      "created_at": "2026-09-29T03:54:46.328695Z"
+    }
+  ],
+  "generated_at": "2026-09-29T03:54:46.445324+00:00"
+}

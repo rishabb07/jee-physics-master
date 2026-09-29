@@ -1,0 +1,1105 @@
+{
+  "report_id": "content-reqs-20260928-170025",
+  "requirements_count": 63,
+  "gaps_count": 13,
+  "requirements": [
+    {
+      "requirement_id": "req-current-electricity-concept-concept-curr-drift-01",
+      "chapter_id": "current-electricity",
+      "section_id": "sec-current-electricity-01",
+      "content_type": "CONCEPT_EXPLANATION",
+      "curriculum_node_id": "curr-curr-01",
+      "objective": "Explain concept 'concept-curr-drift-01' with physical intuition and formal definition",
+      "required_source_refs": [
+        "JEE Advanced Official Topic Prescription: Drift velocity and mobility"
+      ],
+      "required_prerequisites": [
+        "Requires electric field acceleration from curr-es-01"
+      ],
+      "needs_physics_verification": true,
+      "can_generate_from_kb": false,
+      "is_unresolved_gap": false,
+      "risk_level": "MEDIUM"
+    },
+    {
+      "requirement_id": "req-current-electricity-concept-concept-curr-recasting-01",
+      "chapter_id": "current-electricity",
+      "section_id": "sec-current-electricity-02",
+      "content_type": "CONCEPT_EXPLANATION",
+      "curriculum_node_id": "curr-curr-02",
+      "objective": "Explain concept 'concept-curr-recasting-01' with physical intuition and formal definition",
+      "required_source_refs": [
+        "current-electricity-question-ce6aab7f"
+      ],
+      "required_prerequisites": [
+        "Requires macroscopic Ohm law and geometric definition R = rho L / A from curr-curr-01"
+      ],
+      "needs_physics_verification": true,
+      "can_generate_from_kb": true,
+      "is_unresolved_gap": false,
+      "risk_level": "MEDIUM"
+    },
+    {
+      "requirement_id": "req-current-electricity-concept-concept-curr-meters-01",
+      "chapter_id": "current-electricity",
+      "section_id": "sec-current-electricity-03",
+      "content_type": "CONCEPT_EXPLANATION",
+      "curriculum_node_id": "curr-curr-03",
+      "objective": "Explain concept 'concept-curr-meters-01' with physical intuition and formal definition",
+      "required_source_refs": [
+        "current-electricity-question-3a1b8c4d",
+        "current-electricity-question-d2492f7f"
+      ],
+      "required_prerequisites": [
+        "Requires Kirchhoff's laws and resistor network combinations from curr-curr-02"
+      ],
+      "needs_physics_verification": true,
+      "can_generate_from_kb": true,
+      "is_unresolved_gap": false,
+      "risk_level": "MEDIUM"
+    },
+    {
+      "requirement_id": "req-current-electricity-formula-formula-curr-drift-micro",
+      "chapter_id": "current-electricity",
+      "section_id": "sec-current-electricity-formula",
+      "content_type": "FORMULA",
+      "curriculum_node_id": "concept-curr-drift-01",
+      "objective": "Formalize equation and validity conditions for 'Drift Velocity and Current Density'",
+      "required_source_refs": [
+        "formula-curr-drift-micro"
+      ],
+      "required_prerequisites": [
+        "concept-curr-drift-01"
+      ],
+      "needs_physics_verification": true,
+      "can_generate_from_kb": true,
+      "is_unresolved_gap": false,
+      "risk_level": "MEDIUM"
+    },
+    {
+      "requirement_id": "req-current-electricity-derivation-formula-curr-drift-micro",
+      "chapter_id": "current-electricity",
+      "section_id": "sec-current-electricity-derivation",
+      "content_type": "DERIVATION",
+      "curriculum_node_id": "concept-curr-drift-01",
+      "objective": "Derive 'Drift Velocity and Current Density' (I = n e A v_d,\\quad \\vec{J} = n e \\vec{v}_d = \\sigma \\vec{E}) from first principles",
+      "required_source_refs": [
+        "curr-curr-01"
+      ],
+      "required_prerequisites": [
+        "concept-curr-drift-01"
+      ],
+      "needs_physics_verification": true,
+      "can_generate_from_kb": false,
+      "is_unresolved_gap": false,
+      "risk_level": "HIGH"
+    },
+    {
+      "requirement_id": "req-current-electricity-formula-formula-curr-recasting-volume",
+      "chapter_id": "current-electricity",
+      "section_id": "sec-current-electricity-formula",
+      "content_type": "FORMULA",
+      "curriculum_node_id": "concept-curr-recasting-01",
+      "objective": "Formalize equation and validity conditions for 'Resistance Under Volume Conservation (Recasting / Stretching)'",
+      "required_source_refs": [
+        "formula-curr-recasting-volume"
+      ],
+      "required_prerequisites": [
+        "concept-curr-recasting-01"
+      ],
+      "needs_physics_verification": true,
+      "can_generate_from_kb": true,
+      "is_unresolved_gap": false,
+      "risk_level": "MEDIUM"
+    },
+    {
+      "requirement_id": "req-current-electricity-derivation-formula-curr-recasting-volume",
+      "chapter_id": "current-electricity",
+      "section_id": "sec-current-electricity-derivation",
+      "content_type": "DERIVATION",
+      "curriculum_node_id": "concept-curr-recasting-01",
+      "objective": "Derive 'Resistance Under Volume Conservation (Recasting / Stretching)' (R = \\rho \\frac{l}{A} = \\rho \\frac{l}{\\pi r^2} = \\rho \\frac{V_{\\text{vol}}}{\\pi^2 r^4} \\propto \\frac{1}{r^4}) from first principles",
+      "required_source_refs": [
+        "curr-curr-02"
+      ],
+      "required_prerequisites": [
+        "concept-curr-recasting-01"
+      ],
+      "needs_physics_verification": true,
+      "can_generate_from_kb": false,
+      "is_unresolved_gap": false,
+      "risk_level": "HIGH"
+    },
+    {
+      "requirement_id": "req-current-electricity-formula-formula-curr-measuring-meters",
+      "chapter_id": "current-electricity",
+      "section_id": "sec-current-electricity-formula",
+      "content_type": "FORMULA",
+      "curriculum_node_id": "concept-curr-meters-01",
+      "objective": "Formalize equation and validity conditions for 'Ideal Ammeter and Voltmeter Branch Equations'",
+      "required_source_refs": [
+        "formula-curr-measuring-meters"
+      ],
+      "required_prerequisites": [
+        "concept-curr-meters-01"
+      ],
+      "needs_physics_verification": true,
+      "can_generate_from_kb": true,
+      "is_unresolved_gap": false,
+      "risk_level": "MEDIUM"
+    },
+    {
+      "requirement_id": "req-current-electricity-derivation-formula-curr-measuring-meters",
+      "chapter_id": "current-electricity",
+      "section_id": "sec-current-electricity-derivation",
+      "content_type": "DERIVATION",
+      "curriculum_node_id": "concept-curr-meters-01",
+      "objective": "Derive 'Ideal Ammeter and Voltmeter Branch Equations' (R_A \\to 0 \\implies V_A = 0,\\quad R_V \\to \\infty \\implies I_V = 0) from first principles",
+      "required_source_refs": [
+        "curr-curr-03"
+      ],
+      "required_prerequisites": [
+        "concept-curr-meters-01"
+      ],
+      "needs_physics_verification": true,
+      "can_generate_from_kb": false,
+      "is_unresolved_gap": false,
+      "risk_level": "HIGH"
+    },
+    {
+      "requirement_id": "req-current-electricity-example-ex-curr-recast-wire-01",
+      "chapter_id": "current-electricity",
+      "section_id": "sec-current-electricity-examples",
+      "content_type": "WORKED_EXAMPLE",
+      "curriculum_node_id": "curr-current-electricity",
+      "objective": "Structured worked example for target 'New resistance R_2': Express initial and final cross-sectional areas in terms of ...",
+      "required_source_refs": [
+        "current-electricity-question-ce6aab7f"
+      ],
+      "required_prerequisites": [
+        "Definition of resistance R = rho * l / A",
+        "Volume conservation of incompressible solid: V = A * l = constant"
+      ],
+      "needs_physics_verification": true,
+      "can_generate_from_kb": true,
+      "is_unresolved_gap": false,
+      "risk_level": "MEDIUM"
+    },
+    {
+      "requirement_id": "req-current-electricity-misc-misc-curr-01",
+      "chapter_id": "current-electricity",
+      "section_id": "sec-current-electricity-misconceptions",
+      "content_type": "MISCONCEPTION",
+      "curriculum_node_id": "curr-current-electricity",
+      "objective": "Misconception inoculation (INVALID_FORMULA_CONDITION): When a wire of radius r is recast into a wire of radius r/2,...",
+      "required_source_refs": [
+        "current-electricity-question-ce6aab7f"
+      ],
+      "required_prerequisites": [
+        "concept-curr-recasting-01"
+      ],
+      "needs_physics_verification": true,
+      "can_generate_from_kb": true,
+      "is_unresolved_gap": false,
+      "risk_level": "MEDIUM"
+    },
+    {
+      "requirement_id": "req-current-electricity-misc-misc-curr-02",
+      "chapter_id": "current-electricity",
+      "section_id": "sec-current-electricity-misconceptions",
+      "content_type": "MISCONCEPTION",
+      "curriculum_node_id": "curr-current-electricity",
+      "objective": "Misconception inoculation (HIDDEN_CONSTRAINT_OMISSION): An ammeter in a branch measures the total battery current re...",
+      "required_source_refs": [
+        "current-electricity-question-3a1b8c4d",
+        "current-electricity-question-d2492f7f"
+      ],
+      "required_prerequisites": [
+        "concept-curr-meters-01"
+      ],
+      "needs_physics_verification": true,
+      "can_generate_from_kb": true,
+      "is_unresolved_gap": false,
+      "risk_level": "MEDIUM"
+    },
+    {
+      "requirement_id": "req-current-electricity-gap-01",
+      "chapter_id": "current-electricity",
+      "section_id": "sec-current-electricity-gap",
+      "content_type": "CONCEPT_EXPLANATION",
+      "curriculum_node_id": "curr-current-electricity",
+      "objective": "Gap in Topic 'electric-current-and-drift': Lacks canonical questions for electron drift velocity and mobility calculations.",
+      "required_source_refs": [],
+      "required_prerequisites": [],
+      "needs_physics_verification": true,
+      "can_generate_from_kb": false,
+      "is_unresolved_gap": true,
+      "risk_level": "HIGH"
+    },
+    {
+      "requirement_id": "req-current-electricity-gap-02",
+      "chapter_id": "current-electricity",
+      "section_id": "sec-current-electricity-gap",
+      "content_type": "CONCEPT_EXPLANATION",
+      "curriculum_node_id": "curr-current-electricity",
+      "objective": "Gap in Topic 'resistance-and-resistivity': Missing formula records and questions for temperature coefficient of resistance (alpha) and color code/standard combinations.",
+      "required_source_refs": [],
+      "required_prerequisites": [],
+      "needs_physics_verification": true,
+      "can_generate_from_kb": false,
+      "is_unresolved_gap": true,
+      "risk_level": "HIGH"
+    },
+    {
+      "requirement_id": "req-current-electricity-gap-03",
+      "chapter_id": "current-electricity",
+      "section_id": "sec-current-electricity-gap",
+      "content_type": "CONCEPT_EXPLANATION",
+      "curriculum_node_id": "curr-current-electricity",
+      "objective": "Gap in Topic 'dc-circuits': Kirchhoff's laws and potentiometer/Wheatstone bridge lack canonical formula records and worked examples in current ChapterSpec.",
+      "required_source_refs": [],
+      "required_prerequisites": [],
+      "needs_physics_verification": true,
+      "can_generate_from_kb": false,
+      "is_unresolved_gap": true,
+      "risk_level": "HIGH"
+    },
+    {
+      "requirement_id": "req-ray-optics-concept-concept-opt-snell-01",
+      "chapter_id": "ray-optics",
+      "section_id": "sec-ray-optics-01",
+      "content_type": "CONCEPT_EXPLANATION",
+      "curriculum_node_id": "curr-opt-01",
+      "objective": "Explain concept 'concept-opt-snell-01' with physical intuition and formal definition",
+      "required_source_refs": [
+        "JEE Advanced Official Topic Prescription: Snell's law and plane refraction"
+      ],
+      "required_prerequisites": [
+        "Requires rectilinear ray paths and plane trigonometry from curr-kin-02"
+      ],
+      "needs_physics_verification": true,
+      "can_generate_from_kb": false,
+      "is_unresolved_gap": false,
+      "risk_level": "MEDIUM"
+    },
+    {
+      "requirement_id": "req-ray-optics-concept-concept-opt-tir-01",
+      "chapter_id": "ray-optics",
+      "section_id": "sec-ray-optics-02",
+      "content_type": "CONCEPT_EXPLANATION",
+      "curriculum_node_id": "curr-opt-02",
+      "objective": "Explain concept 'concept-opt-tir-01' with physical intuition and formal definition",
+      "required_source_refs": [
+        "ray-optics-question-e04c1df3"
+      ],
+      "required_prerequisites": [
+        "Requires Snell's law at dense-to-rare interface from curr-opt-01"
+      ],
+      "needs_physics_verification": true,
+      "can_generate_from_kb": true,
+      "is_unresolved_gap": false,
+      "risk_level": "MEDIUM"
+    },
+    {
+      "requirement_id": "req-ray-optics-formula-formula-opt-snells-law",
+      "chapter_id": "ray-optics",
+      "section_id": "sec-ray-optics-formula",
+      "content_type": "FORMULA",
+      "curriculum_node_id": "concept-opt-snell-01",
+      "objective": "Formalize equation and validity conditions for 'Snell's Law of Refraction'",
+      "required_source_refs": [
+        "formula-opt-snells-law"
+      ],
+      "required_prerequisites": [
+        "concept-opt-snell-01"
+      ],
+      "needs_physics_verification": true,
+      "can_generate_from_kb": true,
+      "is_unresolved_gap": false,
+      "risk_level": "MEDIUM"
+    },
+    {
+      "requirement_id": "req-ray-optics-derivation-formula-opt-snells-law",
+      "chapter_id": "ray-optics",
+      "section_id": "sec-ray-optics-derivation",
+      "content_type": "DERIVATION",
+      "curriculum_node_id": "concept-opt-snell-01",
+      "objective": "Derive 'Snell's Law of Refraction' (n_1 \\sin\\theta_1 = n_2 \\sin\\theta_2) from first principles",
+      "required_source_refs": [
+        "curr-opt-01"
+      ],
+      "required_prerequisites": [
+        "concept-opt-snell-01"
+      ],
+      "needs_physics_verification": true,
+      "can_generate_from_kb": false,
+      "is_unresolved_gap": false,
+      "risk_level": "HIGH"
+    },
+    {
+      "requirement_id": "req-ray-optics-formula-formula-opt-critical-angle",
+      "chapter_id": "ray-optics",
+      "section_id": "sec-ray-optics-formula",
+      "content_type": "FORMULA",
+      "curriculum_node_id": "concept-opt-tir-01",
+      "objective": "Formalize equation and validity conditions for 'Critical Angle for Total Internal Reflection'",
+      "required_source_refs": [
+        "formula-opt-critical-angle"
+      ],
+      "required_prerequisites": [
+        "concept-opt-tir-01"
+      ],
+      "needs_physics_verification": true,
+      "can_generate_from_kb": true,
+      "is_unresolved_gap": false,
+      "risk_level": "MEDIUM"
+    },
+    {
+      "requirement_id": "req-ray-optics-derivation-formula-opt-critical-angle",
+      "chapter_id": "ray-optics",
+      "section_id": "sec-ray-optics-derivation",
+      "content_type": "DERIVATION",
+      "curriculum_node_id": "concept-opt-tir-01",
+      "objective": "Derive 'Critical Angle for Total Internal Reflection' (\\sin\\theta_c = \\frac{n_{\\text{rarer}}}{n_{\\text{denser}}}) from first principles",
+      "required_source_refs": [
+        "curr-opt-02"
+      ],
+      "required_prerequisites": [
+        "concept-opt-tir-01"
+      ],
+      "needs_physics_verification": true,
+      "can_generate_from_kb": false,
+      "is_unresolved_gap": false,
+      "risk_level": "HIGH"
+    },
+    {
+      "requirement_id": "req-ray-optics-formula-formula-opt-prism-geometry",
+      "chapter_id": "ray-optics",
+      "section_id": "sec-ray-optics-formula",
+      "content_type": "FORMULA",
+      "curriculum_node_id": "concept-opt-tir-01",
+      "objective": "Formalize equation and validity conditions for 'Prism Ray Geometry and Internal Reflection'",
+      "required_source_refs": [
+        "formula-opt-prism-geometry"
+      ],
+      "required_prerequisites": [
+        "concept-opt-tir-01"
+      ],
+      "needs_physics_verification": true,
+      "can_generate_from_kb": true,
+      "is_unresolved_gap": false,
+      "risk_level": "MEDIUM"
+    },
+    {
+      "requirement_id": "req-ray-optics-derivation-formula-opt-prism-geometry",
+      "chapter_id": "ray-optics",
+      "section_id": "sec-ray-optics-derivation",
+      "content_type": "DERIVATION",
+      "curriculum_node_id": "concept-opt-tir-01",
+      "objective": "Derive 'Prism Ray Geometry and Internal Reflection' (A = r_1 + r_2,\\quad \\delta = i + e - A) from first principles",
+      "required_source_refs": [
+        "curr-opt-02"
+      ],
+      "required_prerequisites": [
+        "concept-opt-tir-01"
+      ],
+      "needs_physics_verification": true,
+      "can_generate_from_kb": false,
+      "is_unresolved_gap": false,
+      "risk_level": "HIGH"
+    },
+    {
+      "requirement_id": "req-ray-optics-example-ex-opt-tir-prism-water-01",
+      "chapter_id": "ray-optics",
+      "section_id": "sec-ray-optics-examples",
+      "content_type": "WORKED_EXAMPLE",
+      "curriculum_node_id": "curr-ray-optics",
+      "objective": "Structured worked example for target 'Condition on sin(theta) for total internal reflection at face AC': 1. Trace ray through face AB: Since incidence is normal, ray...",
+      "required_source_refs": [
+        "ray-optics-question-e04c1df3"
+      ],
+      "required_prerequisites": [
+        "Snell's Law at normal incidence",
+        "Total Internal Reflection (TIR)",
+        "Critical angle at glass-water interface",
+        "Prism geometry"
+      ],
+      "needs_physics_verification": true,
+      "can_generate_from_kb": true,
+      "is_unresolved_gap": false,
+      "risk_level": "MEDIUM"
+    },
+    {
+      "requirement_id": "req-ray-optics-misc-misc-opt-01",
+      "chapter_id": "ray-optics",
+      "section_id": "sec-ray-optics-misconceptions",
+      "content_type": "MISCONCEPTION",
+      "curriculum_node_id": "curr-ray-optics",
+      "objective": "Misconception inoculation (INVALID_FORMULA_CONDITION): The critical angle for total internal reflection in glass is...",
+      "required_source_refs": [
+        "ray-optics-question-e04c1df3"
+      ],
+      "required_prerequisites": [
+        "concept-opt-tir-01"
+      ],
+      "needs_physics_verification": true,
+      "can_generate_from_kb": true,
+      "is_unresolved_gap": false,
+      "risk_level": "MEDIUM"
+    },
+    {
+      "requirement_id": "req-ray-optics-misc-misc-opt-02",
+      "chapter_id": "ray-optics",
+      "section_id": "sec-ray-optics-misconceptions",
+      "content_type": "MISCONCEPTION",
+      "curriculum_node_id": "curr-ray-optics",
+      "objective": "Misconception inoculation (SIGN_MISTAKE): Light incident normally on a boundary is refracted away from...",
+      "required_source_refs": [
+        "ray-optics-question-e04c1df3"
+      ],
+      "required_prerequisites": [
+        "concept-opt-snell-01",
+        "concept-opt-tir-01"
+      ],
+      "needs_physics_verification": true,
+      "can_generate_from_kb": true,
+      "is_unresolved_gap": false,
+      "risk_level": "MEDIUM"
+    },
+    {
+      "requirement_id": "req-ray-optics-gap-01",
+      "chapter_id": "ray-optics",
+      "section_id": "sec-ray-optics-gap",
+      "content_type": "CONCEPT_EXPLANATION",
+      "curriculum_node_id": "curr-ray-optics",
+      "objective": "Gap in Topic 'reflection-at-spherical-mirrors': No approved formulas or question atoms in ChapterSpec for concave/convex mirror calculations.",
+      "required_source_refs": [],
+      "required_prerequisites": [],
+      "needs_physics_verification": true,
+      "can_generate_from_kb": false,
+      "is_unresolved_gap": true,
+      "risk_level": "HIGH"
+    },
+    {
+      "requirement_id": "req-ray-optics-gap-02",
+      "chapter_id": "ray-optics",
+      "section_id": "sec-ray-optics-gap",
+      "content_type": "CONCEPT_EXPLANATION",
+      "curriculum_node_id": "curr-ray-optics",
+      "objective": "Gap in Topic 'refraction-at-spherical-surfaces-and-lenses': Lens Maker's formula and thin lens combinations lack formula records and question atoms in ChapterSpec.",
+      "required_source_refs": [],
+      "required_prerequisites": [],
+      "needs_physics_verification": true,
+      "can_generate_from_kb": false,
+      "is_unresolved_gap": true,
+      "risk_level": "HIGH"
+    },
+    {
+      "requirement_id": "req-ray-optics-gap-03",
+      "chapter_id": "ray-optics",
+      "section_id": "sec-ray-optics-gap",
+      "content_type": "CONCEPT_EXPLANATION",
+      "curriculum_node_id": "curr-ray-optics",
+      "objective": "Gap in Topic 'optical-instruments': Telescopes and microscopes lack canonical question atoms, formulas, and worked examples in current staging.",
+      "required_source_refs": [],
+      "required_prerequisites": [],
+      "needs_physics_verification": true,
+      "can_generate_from_kb": false,
+      "is_unresolved_gap": true,
+      "risk_level": "HIGH"
+    },
+    {
+      "requirement_id": "req-rotational-motion-concept-concept-rot-moi-01",
+      "chapter_id": "rotational-motion",
+      "section_id": "sec-rotational-motion-01",
+      "content_type": "CONCEPT_EXPLANATION",
+      "curriculum_node_id": "curr-rot-01",
+      "objective": "Explain concept 'concept-rot-moi-01' with physical intuition and formal definition",
+      "required_source_refs": [
+        "JEE Advanced Official Topic Prescription: Moment of inertia of continuous bodies"
+      ],
+      "required_prerequisites": [
+        "Requires center of mass and continuous mass integration from curr-com-01"
+      ],
+      "needs_physics_verification": true,
+      "can_generate_from_kb": false,
+      "is_unresolved_gap": false,
+      "risk_level": "MEDIUM"
+    },
+    {
+      "requirement_id": "req-rotational-motion-concept-concept-rot-torque-01",
+      "chapter_id": "rotational-motion",
+      "section_id": "sec-rotational-motion-02",
+      "content_type": "CONCEPT_EXPLANATION",
+      "curriculum_node_id": "curr-rot-02",
+      "objective": "Explain concept 'concept-rot-torque-01' with physical intuition and formal definition",
+      "required_source_refs": [
+        "JEE Advanced Official Topic Prescription: Torque and angular acceleration relation"
+      ],
+      "required_prerequisites": [
+        "Requires moment of inertia from curr-rot-01 and Newton second law from curr-nl-01"
+      ],
+      "needs_physics_verification": true,
+      "can_generate_from_kb": false,
+      "is_unresolved_gap": false,
+      "risk_level": "MEDIUM"
+    },
+    {
+      "requirement_id": "req-rotational-motion-concept-concept-rot-angmom-particle-01",
+      "chapter_id": "rotational-motion",
+      "section_id": "sec-rotational-motion-03",
+      "content_type": "CONCEPT_EXPLANATION",
+      "curriculum_node_id": "curr-rot-03",
+      "objective": "Explain concept 'concept-rot-angmom-particle-01' with physical intuition and formal definition",
+      "required_source_refs": [
+        "rotational-motion-question-6c7cb960"
+      ],
+      "required_prerequisites": [
+        "Requires vector cross product and planar kinematics from curr-kin-02"
+      ],
+      "needs_physics_verification": true,
+      "can_generate_from_kb": true,
+      "is_unresolved_gap": false,
+      "risk_level": "MEDIUM"
+    },
+    {
+      "requirement_id": "req-rotational-motion-concept-concept-rot-angmom-conservation-01",
+      "chapter_id": "rotational-motion",
+      "section_id": "sec-rotational-motion-04",
+      "content_type": "CONCEPT_EXPLANATION",
+      "curriculum_node_id": "curr-rot-03",
+      "objective": "Explain concept 'concept-rot-angmom-conservation-01' with physical intuition and formal definition",
+      "required_source_refs": [
+        "rotational-motion-question-84f91c20",
+        "rotational-motion-question-f7cbecda"
+      ],
+      "required_prerequisites": [
+        "Requires torque definition and rigid body moment of inertia from curr-rot-02"
+      ],
+      "needs_physics_verification": true,
+      "can_generate_from_kb": true,
+      "is_unresolved_gap": false,
+      "risk_level": "MEDIUM"
+    },
+    {
+      "requirement_id": "req-rotational-motion-formula-formula-rot-moi-parallel",
+      "chapter_id": "rotational-motion",
+      "section_id": "sec-rotational-motion-formula",
+      "content_type": "FORMULA",
+      "curriculum_node_id": "concept-rot-moi-01",
+      "objective": "Formalize equation and validity conditions for 'Parallel Axis Theorem'",
+      "required_source_refs": [
+        "formula-rot-moi-parallel"
+      ],
+      "required_prerequisites": [
+        "concept-rot-moi-01"
+      ],
+      "needs_physics_verification": true,
+      "can_generate_from_kb": true,
+      "is_unresolved_gap": false,
+      "risk_level": "MEDIUM"
+    },
+    {
+      "requirement_id": "req-rotational-motion-derivation-formula-rot-moi-parallel",
+      "chapter_id": "rotational-motion",
+      "section_id": "sec-rotational-motion-derivation",
+      "content_type": "DERIVATION",
+      "curriculum_node_id": "concept-rot-moi-01",
+      "objective": "Derive 'Parallel Axis Theorem' (I = I_{\\text{cm}} + M d^2) from first principles",
+      "required_source_refs": [
+        "curr-rot-01"
+      ],
+      "required_prerequisites": [
+        "concept-rot-moi-01"
+      ],
+      "needs_physics_verification": true,
+      "can_generate_from_kb": false,
+      "is_unresolved_gap": false,
+      "risk_level": "HIGH"
+    },
+    {
+      "requirement_id": "req-rotational-motion-formula-formula-rot-torque-dyn",
+      "chapter_id": "rotational-motion",
+      "section_id": "sec-rotational-motion-formula",
+      "content_type": "FORMULA",
+      "curriculum_node_id": "concept-rot-torque-01",
+      "objective": "Formalize equation and validity conditions for 'Fixed Axis Rotational Dynamics'",
+      "required_source_refs": [
+        "formula-rot-torque-dyn"
+      ],
+      "required_prerequisites": [
+        "concept-rot-torque-01"
+      ],
+      "needs_physics_verification": true,
+      "can_generate_from_kb": true,
+      "is_unresolved_gap": false,
+      "risk_level": "MEDIUM"
+    },
+    {
+      "requirement_id": "req-rotational-motion-derivation-formula-rot-torque-dyn",
+      "chapter_id": "rotational-motion",
+      "section_id": "sec-rotational-motion-derivation",
+      "content_type": "DERIVATION",
+      "curriculum_node_id": "concept-rot-torque-01",
+      "objective": "Derive 'Fixed Axis Rotational Dynamics' (\\tau_{\\text{net, ext}} = I \\alpha) from first principles",
+      "required_source_refs": [
+        "curr-rot-02"
+      ],
+      "required_prerequisites": [
+        "concept-rot-torque-01"
+      ],
+      "needs_physics_verification": true,
+      "can_generate_from_kb": false,
+      "is_unresolved_gap": false,
+      "risk_level": "HIGH"
+    },
+    {
+      "requirement_id": "req-rotational-motion-formula-formula-rot-angmom-particle",
+      "chapter_id": "rotational-motion",
+      "section_id": "sec-rotational-motion-formula",
+      "content_type": "FORMULA",
+      "curriculum_node_id": "concept-rot-angmom-particle-01",
+      "objective": "Formalize equation and validity conditions for 'Angular Momentum of a Particle'",
+      "required_source_refs": [
+        "formula-rot-angmom-particle"
+      ],
+      "required_prerequisites": [
+        "concept-rot-angmom-particle-01"
+      ],
+      "needs_physics_verification": true,
+      "can_generate_from_kb": true,
+      "is_unresolved_gap": false,
+      "risk_level": "MEDIUM"
+    },
+    {
+      "requirement_id": "req-rotational-motion-derivation-formula-rot-angmom-particle",
+      "chapter_id": "rotational-motion",
+      "section_id": "sec-rotational-motion-derivation",
+      "content_type": "DERIVATION",
+      "curriculum_node_id": "concept-rot-angmom-particle-01",
+      "objective": "Derive 'Angular Momentum of a Particle' (\\vec{L}_O = \\vec{r} \\times \\vec{p} = m (\\vec{r} \\times \\vec{v})) from first principles",
+      "required_source_refs": [
+        "curr-rot-03"
+      ],
+      "required_prerequisites": [
+        "concept-rot-angmom-particle-01"
+      ],
+      "needs_physics_verification": true,
+      "can_generate_from_kb": false,
+      "is_unresolved_gap": false,
+      "risk_level": "HIGH"
+    },
+    {
+      "requirement_id": "req-rotational-motion-formula-formula-rot-conservation-angmom",
+      "chapter_id": "rotational-motion",
+      "section_id": "sec-rotational-motion-formula",
+      "content_type": "FORMULA",
+      "curriculum_node_id": "concept-rot-angmom-conservation-01",
+      "objective": "Formalize equation and validity conditions for 'Conservation of Angular Momentum About Fixed Axis'",
+      "required_source_refs": [
+        "formula-rot-conservation-angmom"
+      ],
+      "required_prerequisites": [
+        "concept-rot-angmom-conservation-01"
+      ],
+      "needs_physics_verification": true,
+      "can_generate_from_kb": true,
+      "is_unresolved_gap": false,
+      "risk_level": "MEDIUM"
+    },
+    {
+      "requirement_id": "req-rotational-motion-derivation-formula-rot-conservation-angmom",
+      "chapter_id": "rotational-motion",
+      "section_id": "sec-rotational-motion-derivation",
+      "content_type": "DERIVATION",
+      "curriculum_node_id": "concept-rot-angmom-conservation-01",
+      "objective": "Derive 'Conservation of Angular Momentum About Fixed Axis' (I_i \\omega_i = I_f \\omega_f) from first principles",
+      "required_source_refs": [
+        "curr-rot-03"
+      ],
+      "required_prerequisites": [
+        "concept-rot-angmom-conservation-01"
+      ],
+      "needs_physics_verification": true,
+      "can_generate_from_kb": false,
+      "is_unresolved_gap": false,
+      "risk_level": "HIGH"
+    },
+    {
+      "requirement_id": "req-rotational-motion-example-ex-rot-angmom-disc-01",
+      "chapter_id": "rotational-motion",
+      "section_id": "sec-rotational-motion-examples",
+      "content_type": "WORKED_EXAMPLE",
+      "curriculum_node_id": "curr-rotational-motion",
+      "objective": "Structured worked example for target 'Angular velocity omega(r) and kinetic energy ratio K_f / K_i': Identify that no external torque acts about the vertical rot...",
+      "required_source_refs": [],
+      "required_prerequisites": [
+        "Moment of inertia of disc",
+        "Point mass moment of inertia",
+        "Conservation of angular momentum",
+        "Rotational kinetic energy"
+      ],
+      "needs_physics_verification": true,
+      "can_generate_from_kb": false,
+      "is_unresolved_gap": false,
+      "risk_level": "HIGH"
+    },
+    {
+      "requirement_id": "req-rotational-motion-misc-misc-rot-01",
+      "chapter_id": "rotational-motion",
+      "section_id": "sec-rotational-motion-misconceptions",
+      "content_type": "MISCONCEPTION",
+      "curriculum_node_id": "curr-rotational-motion",
+      "objective": "Misconception inoculation (INVALID_FORMULA_CONDITION): A particle moving along a straight line at constant velocity...",
+      "required_source_refs": [
+        "rotational-motion-question-6c7cb960"
+      ],
+      "required_prerequisites": [
+        "concept-rot-angmom-particle-01"
+      ],
+      "needs_physics_verification": true,
+      "can_generate_from_kb": true,
+      "is_unresolved_gap": false,
+      "risk_level": "MEDIUM"
+    },
+    {
+      "requirement_id": "req-rotational-motion-misc-misc-rot-02",
+      "chapter_id": "rotational-motion",
+      "section_id": "sec-rotational-motion-misconceptions",
+      "content_type": "MISCONCEPTION",
+      "curriculum_node_id": "curr-rotational-motion",
+      "objective": "Misconception inoculation (WRONG_CONSERVATION_LAW): When a system conserves angular momentum under internal reco...",
+      "required_source_refs": [
+        "rotational-motion-question-84f91c20",
+        "rotational-motion-question-f7cbecda"
+      ],
+      "required_prerequisites": [
+        "concept-rot-angmom-conservation-01"
+      ],
+      "needs_physics_verification": true,
+      "can_generate_from_kb": true,
+      "is_unresolved_gap": false,
+      "risk_level": "MEDIUM"
+    },
+    {
+      "requirement_id": "req-rotational-motion-gap-01",
+      "chapter_id": "rotational-motion",
+      "section_id": "sec-rotational-motion-gap",
+      "content_type": "CONCEPT_EXPLANATION",
+      "curriculum_node_id": "curr-rotational-motion",
+      "objective": "Gap in Topic 'moment-of-inertia': No canonical question atoms or worked examples currently staged for continuous mass integration or parallel/perpendicular axis theorem application.",
+      "required_source_refs": [],
+      "required_prerequisites": [],
+      "needs_physics_verification": true,
+      "can_generate_from_kb": false,
+      "is_unresolved_gap": true,
+      "risk_level": "HIGH"
+    },
+    {
+      "requirement_id": "req-rotational-motion-gap-02",
+      "chapter_id": "rotational-motion",
+      "section_id": "sec-rotational-motion-gap",
+      "content_type": "CONCEPT_EXPLANATION",
+      "curriculum_node_id": "curr-rotational-motion",
+      "objective": "Gap in Topic 'torque-and-rotation': Missing verified question atoms and worked examples for rotational equilibrium and fixed-axis dynamic torque problems (tau = I alpha).",
+      "required_source_refs": [],
+      "required_prerequisites": [],
+      "needs_physics_verification": true,
+      "can_generate_from_kb": false,
+      "is_unresolved_gap": true,
+      "risk_level": "HIGH"
+    },
+    {
+      "requirement_id": "req-rotational-motion-gap-03",
+      "chapter_id": "rotational-motion",
+      "section_id": "sec-rotational-motion-gap",
+      "content_type": "CONCEPT_EXPLANATION",
+      "curriculum_node_id": "curr-rotational-motion",
+      "objective": "Gap in Topic 'rolling-motion': Subtopic pure-rolling-kinematics in taxonomy references has zero approved concept placements, formulas, worked examples, or question atoms in the ChapterSpec.",
+      "required_source_refs": [],
+      "required_prerequisites": [],
+      "needs_physics_verification": true,
+      "can_generate_from_kb": false,
+      "is_unresolved_gap": true,
+      "risk_level": "HIGH"
+    },
+    {
+      "requirement_id": "req-rotational-motion-gap-04",
+      "chapter_id": "rotational-motion",
+      "section_id": "sec-rotational-motion-gap",
+      "content_type": "CONCEPT_EXPLANATION",
+      "curriculum_node_id": "curr-rotational-motion",
+      "objective": "Difficulty distribution gap: L4/L5 advanced synthesis questions (e.g. combined collision and rotation, rolling with sliding transition) are missing to satisfy top-percentile JEE Advanced preparation.",
+      "required_source_refs": [],
+      "required_prerequisites": [],
+      "needs_physics_verification": true,
+      "can_generate_from_kb": false,
+      "is_unresolved_gap": true,
+      "risk_level": "HIGH"
+    },
+    {
+      "requirement_id": "req-thermodynamics-concept-concept-td-first-law-01",
+      "chapter_id": "thermodynamics",
+      "section_id": "sec-thermodynamics-01",
+      "content_type": "CONCEPT_EXPLANATION",
+      "curriculum_node_id": "curr-td-01",
+      "objective": "Explain concept 'concept-td-first-law-01' with physical intuition and formal definition",
+      "required_source_refs": [
+        "JEE Advanced Official Topic Prescription: First law of thermodynamics"
+      ],
+      "required_prerequisites": [
+        "Requires mechanical work from curr-wep-01 and calorimetry from curr-therm-01"
+      ],
+      "needs_physics_verification": true,
+      "can_generate_from_kb": false,
+      "is_unresolved_gap": false,
+      "risk_level": "MEDIUM"
+    },
+    {
+      "requirement_id": "req-thermodynamics-concept-concept-td-adiabatic-01",
+      "chapter_id": "thermodynamics",
+      "section_id": "sec-thermodynamics-02",
+      "content_type": "CONCEPT_EXPLANATION",
+      "curriculum_node_id": "curr-td-02",
+      "objective": "Explain concept 'concept-td-adiabatic-01' with physical intuition and formal definition",
+      "required_source_refs": [
+        "thermodynamics-question-71b685c0",
+        "thermodynamics-question-7e2f5a91"
+      ],
+      "required_prerequisites": [
+        "Requires first law dQ = 0 and differential equations from curr-td-01"
+      ],
+      "needs_physics_verification": true,
+      "can_generate_from_kb": true,
+      "is_unresolved_gap": false,
+      "risk_level": "MEDIUM"
+    },
+    {
+      "requirement_id": "req-thermodynamics-concept-concept-td-radiation-01",
+      "chapter_id": "thermodynamics",
+      "section_id": "sec-thermodynamics-03",
+      "content_type": "CONCEPT_EXPLANATION",
+      "curriculum_node_id": "curr-td-02",
+      "objective": "Explain concept 'concept-td-radiation-01' with physical intuition and formal definition",
+      "required_source_refs": [
+        "thermodynamics-question-3fe51020"
+      ],
+      "required_prerequisites": [
+        "Extends adiabatic expansion to radiation pressure and photon gas thermodynamics"
+      ],
+      "needs_physics_verification": true,
+      "can_generate_from_kb": true,
+      "is_unresolved_gap": false,
+      "risk_level": "MEDIUM"
+    },
+    {
+      "requirement_id": "req-thermodynamics-formula-formula-td-first-law",
+      "chapter_id": "thermodynamics",
+      "section_id": "sec-thermodynamics-formula",
+      "content_type": "FORMULA",
+      "curriculum_node_id": "concept-td-first-law-01",
+      "objective": "Formalize equation and validity conditions for 'First Law of Thermodynamics'",
+      "required_source_refs": [
+        "formula-td-first-law"
+      ],
+      "required_prerequisites": [
+        "concept-td-first-law-01"
+      ],
+      "needs_physics_verification": true,
+      "can_generate_from_kb": true,
+      "is_unresolved_gap": false,
+      "risk_level": "MEDIUM"
+    },
+    {
+      "requirement_id": "req-thermodynamics-derivation-formula-td-first-law",
+      "chapter_id": "thermodynamics",
+      "section_id": "sec-thermodynamics-derivation",
+      "content_type": "DERIVATION",
+      "curriculum_node_id": "concept-td-first-law-01",
+      "objective": "Derive 'First Law of Thermodynamics' (dQ = dU + dW) from first principles",
+      "required_source_refs": [
+        "curr-td-01"
+      ],
+      "required_prerequisites": [
+        "concept-td-first-law-01"
+      ],
+      "needs_physics_verification": true,
+      "can_generate_from_kb": false,
+      "is_unresolved_gap": false,
+      "risk_level": "HIGH"
+    },
+    {
+      "requirement_id": "req-thermodynamics-formula-formula-td-adiabatic-ideal-gas",
+      "chapter_id": "thermodynamics",
+      "section_id": "sec-thermodynamics-formula",
+      "content_type": "FORMULA",
+      "curriculum_node_id": "concept-td-adiabatic-01",
+      "objective": "Formalize equation and validity conditions for 'Reversible Adiabatic Process for Ideal Gas'",
+      "required_source_refs": [
+        "formula-td-adiabatic-ideal-gas"
+      ],
+      "required_prerequisites": [
+        "concept-td-adiabatic-01"
+      ],
+      "needs_physics_verification": true,
+      "can_generate_from_kb": true,
+      "is_unresolved_gap": false,
+      "risk_level": "MEDIUM"
+    },
+    {
+      "requirement_id": "req-thermodynamics-derivation-formula-td-adiabatic-ideal-gas",
+      "chapter_id": "thermodynamics",
+      "section_id": "sec-thermodynamics-derivation",
+      "content_type": "DERIVATION",
+      "curriculum_node_id": "concept-td-adiabatic-01",
+      "objective": "Derive 'Reversible Adiabatic Process for Ideal Gas' (T V^{\\gamma - 1} = \\text{constant},\\quad P V^{\\gamma} = \\text{constant}) from first principles",
+      "required_source_refs": [
+        "curr-td-02"
+      ],
+      "required_prerequisites": [
+        "concept-td-adiabatic-01"
+      ],
+      "needs_physics_verification": true,
+      "can_generate_from_kb": false,
+      "is_unresolved_gap": false,
+      "risk_level": "HIGH"
+    },
+    {
+      "requirement_id": "req-thermodynamics-formula-formula-td-radiation-adiabatic",
+      "chapter_id": "thermodynamics",
+      "section_id": "sec-thermodynamics-formula",
+      "content_type": "FORMULA",
+      "curriculum_node_id": "concept-td-radiation-01",
+      "objective": "Formalize equation and validity conditions for 'Adiabatic Expansion of Photon Gas'",
+      "required_source_refs": [
+        "formula-td-radiation-adiabatic"
+      ],
+      "required_prerequisites": [
+        "concept-td-radiation-01"
+      ],
+      "needs_physics_verification": true,
+      "can_generate_from_kb": true,
+      "is_unresolved_gap": false,
+      "risk_level": "MEDIUM"
+    },
+    {
+      "requirement_id": "req-thermodynamics-derivation-formula-td-radiation-adiabatic",
+      "chapter_id": "thermodynamics",
+      "section_id": "sec-thermodynamics-derivation",
+      "content_type": "DERIVATION",
+      "curriculum_node_id": "concept-td-radiation-01",
+      "objective": "Derive 'Adiabatic Expansion of Photon Gas' (u = a T^4,\\quad P = \\frac{1}{3} u = \\frac{1}{3} a T^4,\\quad T V^{1/3} = \\text{constant} \\implies T R = \\text{constant}) from first principles",
+      "required_source_refs": [
+        "curr-td-02"
+      ],
+      "required_prerequisites": [
+        "concept-td-radiation-01"
+      ],
+      "needs_physics_verification": true,
+      "can_generate_from_kb": false,
+      "is_unresolved_gap": false,
+      "risk_level": "HIGH"
+    },
+    {
+      "requirement_id": "req-thermodynamics-example-ex-td-adiabatic-compression-01",
+      "chapter_id": "thermodynamics",
+      "section_id": "sec-thermodynamics-examples",
+      "content_type": "WORKED_EXAMPLE",
+      "curriculum_node_id": "curr-thermodynamics",
+      "objective": "Structured worked example for target 'Final temperature T_f and work done on gas W_on': Since the container and piston are nonconducting and compres...",
+      "required_source_refs": [
+        "thermodynamics-question-71b685c0"
+      ],
+      "required_prerequisites": [
+        "First law of thermodynamics",
+        "Reversible adiabatic process",
+        "Monoatomic gas degrees of freedom"
+      ],
+      "needs_physics_verification": true,
+      "can_generate_from_kb": true,
+      "is_unresolved_gap": false,
+      "risk_level": "MEDIUM"
+    },
+    {
+      "requirement_id": "req-thermodynamics-misc-misc-td-01",
+      "chapter_id": "thermodynamics",
+      "section_id": "sec-thermodynamics-misconceptions",
+      "content_type": "MISCONCEPTION",
+      "curriculum_node_id": "curr-thermodynamics",
+      "objective": "Misconception inoculation (SIGN_MISTAKE): Work done in adiabatic expansion is positive so internal ene...",
+      "required_source_refs": [
+        "thermodynamics-question-71b685c0",
+        "thermodynamics-question-7e2f5a91"
+      ],
+      "required_prerequisites": [
+        "concept-td-first-law-01",
+        "concept-td-adiabatic-01"
+      ],
+      "needs_physics_verification": true,
+      "can_generate_from_kb": true,
+      "is_unresolved_gap": false,
+      "risk_level": "MEDIUM"
+    },
+    {
+      "requirement_id": "req-thermodynamics-misc-misc-td-02",
+      "chapter_id": "thermodynamics",
+      "section_id": "sec-thermodynamics-misconceptions",
+      "content_type": "MISCONCEPTION",
+      "curriculum_node_id": "curr-thermodynamics",
+      "objective": "Misconception inoculation (INVALID_FORMULA_CONDITION): The adiabatic relation P V^(5/3) = const applies to all syst...",
+      "required_source_refs": [
+        "thermodynamics-question-3fe51020"
+      ],
+      "required_prerequisites": [
+        "concept-td-radiation-01"
+      ],
+      "needs_physics_verification": true,
+      "can_generate_from_kb": true,
+      "is_unresolved_gap": false,
+      "risk_level": "MEDIUM"
+    },
+    {
+      "requirement_id": "req-thermodynamics-gap-01",
+      "chapter_id": "thermodynamics",
+      "section_id": "sec-thermodynamics-gap",
+      "content_type": "CONCEPT_EXPLANATION",
+      "curriculum_node_id": "curr-thermodynamics",
+      "objective": "Gap in Topic 'first-law-and-processes': Subtopics 'isothermal-process' and 'pv-diagrams-and-work' lack approved formula records and question atoms in ChapterSpec.",
+      "required_source_refs": [],
+      "required_prerequisites": [],
+      "needs_physics_verification": true,
+      "can_generate_from_kb": false,
+      "is_unresolved_gap": true,
+      "risk_level": "HIGH"
+    },
+    {
+      "requirement_id": "req-thermodynamics-gap-02",
+      "chapter_id": "thermodynamics",
+      "section_id": "sec-thermodynamics-gap",
+      "content_type": "CONCEPT_EXPLANATION",
+      "curriculum_node_id": "curr-thermodynamics",
+      "objective": "Gap in Topic 'special-thermodynamic-processes': Lacks a canonical worked example for the adiabatic expansion of photon gas cavity.",
+      "required_source_refs": [],
+      "required_prerequisites": [],
+      "needs_physics_verification": true,
+      "can_generate_from_kb": false,
+      "is_unresolved_gap": true,
+      "risk_level": "HIGH"
+    },
+    {
+      "requirement_id": "req-thermodynamics-gap-03",
+      "chapter_id": "thermodynamics",
+      "section_id": "sec-thermodynamics-gap",
+      "content_type": "CONCEPT_EXPLANATION",
+      "curriculum_node_id": "curr-thermodynamics",
+      "objective": "Gap in Topic 'heat-engines-and-second-law': Zero canonical questions, formulas, or worked examples for Carnot efficiency and refrigerator COP.",
+      "required_source_refs": [],
+      "required_prerequisites": [],
+      "needs_physics_verification": true,
+      "can_generate_from_kb": false,
+      "is_unresolved_gap": true,
+      "risk_level": "HIGH"
+    }
+  ],
+  "generated_at": "2026-09-28T17:00:25.440297Z"
+}

@@ -1,0 +1,314 @@
+{
+  "report_type": "DEDUPLICATION_DECISION_REPORT",
+  "timestamp": "2026-09-28T04:54:04.566022+00:00",
+  "total_decisions_processed": 10,
+  "total_clusters_created": 7,
+  "total_canonical_mappings": 14,
+  "total_kept_separate": 1,
+  "total_routed_to_review": 2,
+  "total_rejected": 0,
+  "clusters": [
+    {
+      "cluster_id": "cluster-current-electricity--6a9e5a72",
+      "canonical_atom_id": "current-electricity-question-3a1b8c4d",
+      "member_atom_ids": [
+        "current-electricity-question-3a1b8c4d",
+        "current-electricity-question-d2492f7f"
+      ],
+      "cluster_type": "EXACT_DUPLICATE",
+      "cluster_confidence": 1.0,
+      "decision_ids": [
+        "cand-current-elec-current-elec"
+      ],
+      "preserved_provenance": [
+        {
+          "atom_id": "current-electricity-question-3a1b8c4d",
+          "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+          "file_name": "jee_rank_booster-03_mock_paper.pdf",
+          "file_path": "jee_rank_booster-03_mock_paper.pdf",
+          "page_start": 4,
+          "page_end": 4,
+          "source_locator": "Section - A, Q13",
+          "edition": null,
+          "source_claimed_answer": "B",
+          "original_statement": "An ideal ammeter (zero resistance) and an ideal voltmeter (infinite resistance) are connected as shown. The ammeter and voltmeter reading for $R_{1} = 5\\,\\Omega$, $R_{2} = 15\\,\\Omega$, $R_{3} = 1.25\\,\\Omega$ and $E = 20\\text{ V}$ are given as",
+          "extraction_metadata": {
+            "source_sha256": "256f42c67a9271aaafe4bf637eb34cddd10da959cdf7a66fc6fee76a68d34361"
+          }
+        }
+      ],
+      "preserved_solution_methods": [],
+      "created_at": "2026-09-28T04:54:04.484774Z"
+    },
+    {
+      "cluster_id": "cluster-electrostatics-quest-379d6663",
+      "canonical_atom_id": "electrostatics-question-132c25d1",
+      "member_atom_ids": [
+        "electrostatics-question-132c25d1",
+        "electrostatics-question-4c9d1e82"
+      ],
+      "cluster_type": "EXACT_DUPLICATE",
+      "cluster_confidence": 1.0,
+      "decision_ids": [
+        "cand-electrostati-electrostati"
+      ],
+      "preserved_provenance": [
+        {
+          "atom_id": "electrostatics-question-132c25d1",
+          "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+          "file_name": "jee_rank_booster-03_mock_paper.pdf",
+          "file_path": "jee_rank_booster-03_mock_paper.pdf",
+          "page_start": 4,
+          "page_end": 4,
+          "source_locator": "Section - A, Q15",
+          "edition": null,
+          "source_claimed_answer": "C",
+          "original_statement": "A point charge $+Q$ is positioned at the center of the base of a square pyramid as shown. The flux through one of the four identical upper faces of the pyramid is –",
+          "extraction_metadata": {
+            "source_sha256": "256f42c67a9271aaafe4bf637eb34cddd10da959cdf7a66fc6fee76a68d34361"
+          }
+        }
+      ],
+      "preserved_solution_methods": [],
+      "created_at": "2026-09-28T04:54:04.496969Z"
+    },
+    {
+      "cluster_id": "cluster-rotational-motion-qu-3f0337b3",
+      "canonical_atom_id": "rotational-motion-question-84f91c20",
+      "member_atom_ids": [
+        "rotational-motion-question-84f91c20",
+        "rotational-motion-question-f7cbecda"
+      ],
+      "cluster_type": "EXACT_DUPLICATE",
+      "cluster_confidence": 1.0,
+      "decision_ids": [
+        "cand-rotational-m-rotational-m"
+      ],
+      "preserved_provenance": [
+        {
+          "atom_id": "rotational-motion-question-84f91c20",
+          "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+          "file_name": "jee_rank_booster-03_mock_paper.pdf",
+          "file_path": "jee_rank_booster-03_mock_paper.pdf",
+          "page_start": 4,
+          "page_end": 4,
+          "source_locator": "Section - A, Q12",
+          "edition": null,
+          "source_claimed_answer": "C",
+          "original_statement": "A thin horizontal circular disc is rotating about a vertical axis passing through its centre. An insect is at rest at a point near the rim of the disc. The insect now moves along a diameter of the disc to reach its other end. During the journey of the insect, the angular speed of the disc",
+          "extraction_metadata": {
+            "source_sha256": "256f42c67a9271aaafe4bf637eb34cddd10da959cdf7a66fc6fee76a68d34361"
+          }
+        }
+      ],
+      "preserved_solution_methods": [],
+      "created_at": "2026-09-28T04:54:04.506276Z"
+    },
+    {
+      "cluster_id": "cluster-fluid-mechanics-ques-76ec62a6",
+      "canonical_atom_id": "fluid-mechanics-question-2b8a7f0e",
+      "member_atom_ids": [
+        "fluid-mechanics-question-2b8a7f0e",
+        "fluid-mechanics-question-71ea5e08"
+      ],
+      "cluster_type": "EXACT_DUPLICATE",
+      "cluster_confidence": 1.0,
+      "decision_ids": [
+        "cand-fluid-mechan-fluid-mechan"
+      ],
+      "preserved_provenance": [
+        {
+          "atom_id": "fluid-mechanics-question-2b8a7f0e",
+          "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+          "file_name": "jee_rank_booster-03_mock_paper.pdf",
+          "file_path": "jee_rank_booster-03_mock_paper.pdf",
+          "page_start": 4,
+          "page_end": 4,
+          "source_locator": "Section - A, Q16",
+          "edition": null,
+          "source_claimed_answer": "D",
+          "original_statement": "A jar is filled with two non-mixing liquids 1 and 2 having densities $\\rho_{1}$ and $\\rho_{2}$ respectively. A solid ball, made of a material of density $\\rho_{3}$, is dropped in the jar. It comes to equilibrium in the position shown in the figure. Which of the following is true for $\\rho_{1}$, $\\rho_{1}\\text{and }\\rho_{3}$?",
+          "extraction_metadata": {
+            "source_sha256": "256f42c67a9271aaafe4bf637eb34cddd10da959cdf7a66fc6fee76a68d34361",
+            "source_misprint": "Source text states '\\rho_1, \\rho_1 and \\rho_3' instead of '\\rho_1, \\rho_2 and \\rho_3'; faithfully preserved per Zero Pre-Verification rule."
+          }
+        }
+      ],
+      "preserved_solution_methods": [],
+      "created_at": "2026-09-28T04:54:04.517642Z"
+    },
+    {
+      "cluster_id": "cluster-thermodynamics-quest-aa28aaff",
+      "canonical_atom_id": "thermodynamics-question-71b685c0",
+      "member_atom_ids": [
+        "thermodynamics-question-71b685c0",
+        "thermodynamics-question-7e2f5a91"
+      ],
+      "cluster_type": "EXACT_DUPLICATE",
+      "cluster_confidence": 1.0,
+      "decision_ids": [
+        "cand-thermodynami-thermodynami"
+      ],
+      "preserved_provenance": [
+        {
+          "atom_id": "thermodynamics-question-71b685c0",
+          "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+          "file_name": "jee_rank_booster-03_mock_paper.pdf",
+          "file_path": "jee_rank_booster-03_mock_paper.pdf",
+          "page_start": 4,
+          "page_end": 4,
+          "source_locator": "Section - A, Q14",
+          "edition": null,
+          "source_claimed_answer": "A",
+          "original_statement": "A monoatomic ideal gas is filled in a nonconducting container. The gas can be compressed by a movable nonconducting piston. The gas is compressed slowly to $12.5\\%$ of its initial volume.\nFind final temperature of the gas if it is $T_{0}$ initially–",
+          "extraction_metadata": {
+            "source_sha256": "256f42c67a9271aaafe4bf637eb34cddd10da959cdf7a66fc6fee76a68d34361"
+          }
+        }
+      ],
+      "preserved_solution_methods": [],
+      "created_at": "2026-09-28T04:54:04.526982Z"
+    },
+    {
+      "cluster_id": "cluster-magnetism-and-matter-3d164a75",
+      "canonical_atom_id": "magnetism-and-matter-question-3c3af9c7",
+      "member_atom_ids": [
+        "magnetism-and-matter-question-3c3af9c7",
+        "magnetism-variant-semantic-dup-01"
+      ],
+      "cluster_type": "SEMANTIC_DUPLICATE",
+      "cluster_confidence": 1.0,
+      "decision_ids": [
+        "cand-pilot-semantic-magnet-01"
+      ],
+      "preserved_provenance": [
+        {
+          "atom_id": "magnetism-and-matter-question-3c3af9c7",
+          "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+          "file_name": "jee_rank_booster-03_mock_paper.pdf",
+          "file_path": "jee_rank_booster-03_mock_paper.pdf",
+          "page_start": 5,
+          "page_end": 5,
+          "source_locator": "Section - A, Q20",
+          "edition": null,
+          "source_claimed_answer": "C",
+          "original_statement": "The length of a magnet is large compared to its width and breadth. The time period of its oscillation in a vibration magnetometer is $2\\text{ s}$. The magnet is cut along its length into three equal parts and these parts are then placed on each other with their like poles together. The time period of this combination will be",
+          "extraction_metadata": {
+            "source_sha256": "256f42c67a9271aaafe4bf637eb34cddd10da959cdf7a66fc6fee76a68d34361"
+          }
+        },
+        {
+          "atom_id": "magnetism-variant-semantic-dup-01",
+          "source_id": "src-jee-physics-archive-vol2",
+          "file_name": "jee_rank_booster-03_mock_paper.pdf",
+          "file_path": "jee_rank_booster-03_mock_paper.pdf",
+          "page_start": 5,
+          "page_end": 5,
+          "source_locator": "Test Bank Vol 2, Q104",
+          "edition": null,
+          "source_claimed_answer": "C",
+          "original_statement": "A thin bar magnet of length L has an oscillation period of 2 s in a vibration magnetometer. It is sliced along its length into 3 equal longitudinal strips which are then stacked together with identical poles aligned. What will be the new oscillation period of the assembly?",
+          "extraction_metadata": {
+            "source_sha256": "256f42c67a9271aaafe4bf637eb34cddd10da959cdf7a66fc6fee76a68d34361"
+          }
+        }
+      ],
+      "preserved_solution_methods": [],
+      "created_at": "2026-09-28T04:54:04.538594Z"
+    },
+    {
+      "cluster_id": "cluster-center-of-mass-multi-e2278290",
+      "canonical_atom_id": "center-of-mass-multimethod-dup-02",
+      "member_atom_ids": [
+        "center-of-mass-multimethod-dup-02",
+        "center-of-mass-question-95affcbc"
+      ],
+      "cluster_type": "MULTI_METHOD_SAME_PROBLEM",
+      "cluster_confidence": 1.0,
+      "decision_ids": [
+        "cand-pilot-multimethod-com-02"
+      ],
+      "preserved_provenance": [
+        {
+          "atom_id": "center-of-mass-multimethod-dup-02",
+          "source_id": "src-advanced-mechanics-2024",
+          "file_name": "jee_rank_booster-03_mock_paper.pdf",
+          "file_path": null,
+          "page_start": 2,
+          "page_end": 2,
+          "source_locator": "Advanced Problem Set 4, Q12",
+          "edition": null,
+          "source_claimed_answer": "B",
+          "original_statement": "Two particles $A$ and $B$ of equal mass $M$ are moving with the same speed $v$ as shown in the figure. They collide completely inelastically and move as a single particle $C$. The angle $\\theta$ that the path of $C$ makes with the $X$-axis is given by:",
+          "extraction_metadata": {}
+        },
+        {
+          "atom_id": "center-of-mass-question-95affcbc",
+          "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+          "file_name": "jee_rank_booster-03_mock_paper.pdf",
+          "file_path": null,
+          "page_start": 2,
+          "page_end": 2,
+          "source_locator": "Section - A, Q6",
+          "edition": null,
+          "source_claimed_answer": "B",
+          "original_statement": "Two particles $A$ and $B$ of equal mass $M$ are moving with the same speed $v$ as shown in the figure. They collide completely inelastically and move as a single particle $C$. The angle $\\theta$ that the path of $C$ makes with the $X$-axis is given by:",
+          "extraction_metadata": {}
+        }
+      ],
+      "preserved_solution_methods": [
+        {
+          "method_id": "sm-center-of-ma-1",
+          "source_atom_id": "center-of-mass-multimethod-dup-02",
+          "source_id": "src-advanced-mechanics-2024",
+          "method_name": "Impulse-Momentum Method",
+          "steps": "By integrating external impulse over the duration of the impact, total momentum change equals zero in the horizontal plane, yielding the exact center-of-mass displacement directly without integrating coordinates.",
+          "source_attributed": true,
+          "verified": true
+        }
+      ],
+      "created_at": "2026-09-28T04:54:04.548934Z"
+    }
+  ],
+  "review_items": [
+    {
+      "candidate_id": "cand-pilot-uncertain-kin-03",
+      "reason": "UNCERTAIN_DECISION",
+      "details": "Atom A is a complete 1D rectilinear acceleration/deceleration problem with trapezoidal velocity profile (f, S, t, f/2, total distance 15S), yielding x = 72. Atom B is an incomplete, ambiguous statement ('A particle moves along a curved path. What is its velocity after 2 seconds?') lacking the trajectory function, acceleration, or initial conditions, while improperly inheriting Atom A's verified answer '72' and metadata. Because the problem statement in Atom B is ambiguous, incomplete, or corrupted, confidence is < 0.85 and it must be routed to human review.",
+      "decision": {
+        "candidate_id": "cand-pilot-uncertain-kin-03",
+        "decision_class": "UNCERTAIN",
+        "duplicate_confidence": 0.0,
+        "same_underlying_problem": false,
+        "same_concept_only": false,
+        "rationale": "Atom A is a complete 1D rectilinear acceleration/deceleration problem with trapezoidal velocity profile (f, S, t, f/2, total distance 15S), yielding x = 72. Atom B is an incomplete, ambiguous statement ('A particle moves along a curved path. What is its velocity after 2 seconds?') lacking the trajectory function, acceleration, or initial conditions, while improperly inheriting Atom A's verified answer '72' and metadata. Because the problem statement in Atom B is ambiguous, incomplete, or corrupted, confidence is < 0.85 and it must be routed to human review.",
+        "distinguishing_evidence": "Atom A poses 1D piecewise rectilinear motion with acceleration, uniform motion, and deceleration. Atom B poses an underspecified 2D/curved path motion without trajectory equations or boundary values.",
+        "recommended_action": "REVIEW",
+        "agent_identity": "physics-deduplicator",
+        "agent_conversation_id": "80d33d64-618b-4d64-8dd5-07ad9a017242",
+        "created_at": "2026-09-28T04:55:00Z",
+        "notes": null
+      }
+    },
+    {
+      "candidate_id": "cand-pilot-conflict-es-04",
+      "reason": "UNCERTAIN_DECISION",
+      "details": "Atom A and Atom B present identical capacitor network statements, diagrams, and options seeking capacitance C for C_eq = 1 muF, but assert contradictory verified answers: Atom A asserts 'A' (32/23 muF) while Atom B asserts 'D' (34/23 muF). Under Invariant 2 (Grounding & Physical Truth Invariant), candidate duplicates with conflicting verified answers or physical contradictions must never be silently merged. The pair is classified as UNCERTAIN and routed to the deduplication review queue for expert resolution.",
+      "decision": {
+        "candidate_id": "cand-pilot-conflict-es-04",
+        "decision_class": "UNCERTAIN",
+        "duplicate_confidence": 0.0,
+        "same_underlying_problem": false,
+        "same_concept_only": false,
+        "rationale": "Atom A and Atom B present identical capacitor network statements, diagrams, and options seeking capacitance C for C_eq = 1 muF, but assert contradictory verified answers: Atom A asserts 'A' (32/23 muF) while Atom B asserts 'D' (34/23 muF). Under Invariant 2 (Grounding & Physical Truth Invariant), candidate duplicates with conflicting verified answers or physical contradictions must never be silently merged. The pair is classified as UNCERTAIN and routed to the deduplication review queue for expert resolution.",
+        "distinguishing_evidence": "Direct verified answer contradiction: Atom A verified_answer = 'A' (32/23 muF) vs Atom B verified_answer = 'D' (34/23 muF).",
+        "recommended_action": "REVIEW",
+        "agent_identity": "physics-deduplicator",
+        "agent_conversation_id": "80d33d64-618b-4d64-8dd5-07ad9a017242",
+        "created_at": "2026-09-28T04:55:00Z",
+        "notes": null
+      }
+    }
+  ],
+  "rejected_items": []
+}

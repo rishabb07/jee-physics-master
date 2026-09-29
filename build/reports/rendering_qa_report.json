@@ -1,0 +1,44 @@
+{
+  "report_id": "rendering-qa-consolidated-20260928-203123",
+  "total_chapters_audited": 4,
+  "clean_rendering_pass_all": true,
+  "chapters": {
+    "rotational-motion": {
+      "report_id": "rendering-qa-rotational-motion",
+      "chapter_id": "rotational-motion",
+      "latex_errors": [],
+      "broken_references": [],
+      "empty_sections": [],
+      "passed": true,
+      "timestamp": "2026-09-28T20:31:23.222543Z"
+    },
+    "thermodynamics": {
+      "report_id": "rendering-qa-thermodynamics",
+      "chapter_id": "thermodynamics",
+      "latex_errors": [],
+      "broken_references": [],
+      "empty_sections": [],
+      "passed": true,
+      "timestamp": "2026-09-28T20:31:23.222543Z"
+    },
+    "current-electricity": {
+      "report_id": "rendering-qa-current-electricity",
+      "chapter_id": "current-electricity",
+      "latex_errors": [],
+      "broken_references": [],
+      "empty_sections": [],
+      "passed": true,
+      "timestamp": "2026-09-28T20:31:23.230809Z"
+    },
+    "ray-optics": {
+      "report_id": "rendering-qa-ray-optics",
+      "chapter_id": "ray-optics",
+      "latex_errors": [],
+      "broken_references": [],
+      "empty_sections": [],
+      "passed": true,
+      "timestamp": "2026-09-28T20:31:23.230809Z"
+    }
+  },
+  "generated_at": "2026-09-28T20:31:23.271136+00:00"
+}

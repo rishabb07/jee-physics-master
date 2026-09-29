@@ -1,0 +1,437 @@
+{
+  "report_id": "question-dependency-graph-pilot",
+  "total_nodes": 36,
+  "total_edges": 33,
+  "all_references_valid": true,
+  "broken_references": [],
+  "nodes": [
+    {
+      "node_id": "gen-q-ambig-test-01",
+      "node_type": "QUESTION",
+      "label": "A solid cylinder is released from rest on an inclined plane....",
+      "metadata": {
+        "type": "SINGLE_CORRECT_MCQ",
+        "difficulty": "DifficultyLevel.L2",
+        "chapter": "rotational-motion"
+      }
+    },
+    {
+      "node_id": "curr-rot-01",
+      "node_type": "CURRICULUM_NODE",
+      "label": "Curriculum Unit: curr-rot-01",
+      "metadata": {}
+    },
+    {
+      "node_id": "concept-rot-moi-01",
+      "node_type": "CONCEPT",
+      "label": "Concept: concept-rot-moi-01",
+      "metadata": {}
+    },
+    {
+      "node_id": "misc-rot-ambig-friction",
+      "node_type": "MISCONCEPTION",
+      "label": "Misconception Trap: misc-rot-ambig-friction",
+      "metadata": {}
+    },
+    {
+      "node_id": "gen-q-curr-num-01",
+      "node_type": "QUESTION",
+      "label": "A cylindrical copper wire of initial resistance $R_1 = 10.0\\...",
+      "metadata": {
+        "type": "NUMERICAL",
+        "difficulty": "DifficultyLevel.L2",
+        "chapter": "current-electricity"
+      }
+    },
+    {
+      "node_id": "curr-curr-02",
+      "node_type": "CURRICULUM_NODE",
+      "label": "Curriculum Unit: curr-curr-02",
+      "metadata": {}
+    },
+    {
+      "node_id": "concept-curr-recasting-01",
+      "node_type": "CONCEPT",
+      "label": "Concept: concept-curr-recasting-01",
+      "metadata": {}
+    },
+    {
+      "node_id": "misc-curr-01",
+      "node_type": "MISCONCEPTION",
+      "label": "Misconception Trap: misc-curr-01",
+      "metadata": {}
+    },
+    {
+      "node_id": "gen-q-curr-src-deriv-01",
+      "node_type": "QUESTION",
+      "label": "A moving coil galvanometer has a coil resistance of $G = 50....",
+      "metadata": {
+        "type": "SINGLE_CORRECT_MCQ",
+        "difficulty": "DifficultyLevel.L2",
+        "chapter": "current-electricity"
+      }
+    },
+    {
+      "node_id": "curr-curr-03",
+      "node_type": "CURRICULUM_NODE",
+      "label": "Curriculum Unit: curr-curr-03",
+      "metadata": {}
+    },
+    {
+      "node_id": "concept-curr-meters-01",
+      "node_type": "CONCEPT",
+      "label": "Concept: concept-curr-meters-01",
+      "metadata": {}
+    },
+    {
+      "node_id": "misc-curr-02",
+      "node_type": "MISCONCEPTION",
+      "label": "Misconception Trap: misc-curr-02",
+      "metadata": {}
+    },
+    {
+      "node_id": "gen-q-dist-conflict-01",
+      "node_type": "QUESTION",
+      "label": "A ray of light passes from air ($n_1 = 1$) into water ($n_2 ...",
+      "metadata": {
+        "type": "SINGLE_CORRECT_MCQ",
+        "difficulty": "DifficultyLevel.L2",
+        "chapter": "ray-optics"
+      }
+    },
+    {
+      "node_id": "curr-opt-01",
+      "node_type": "CURRICULUM_NODE",
+      "label": "Curriculum Unit: curr-opt-01",
+      "metadata": {}
+    },
+    {
+      "node_id": "concept-opt-snell-01",
+      "node_type": "CONCEPT",
+      "label": "Concept: concept-opt-snell-01",
+      "metadata": {}
+    },
+    {
+      "node_id": "misc-opt-01",
+      "node_type": "MISCONCEPTION",
+      "label": "Misconception Trap: misc-opt-01",
+      "metadata": {}
+    },
+    {
+      "node_id": "gen-q-dup-test-01",
+      "node_type": "QUESTION",
+      "label": "A wire of resistance $R$ is stretched uniformly so that its ...",
+      "metadata": {
+        "type": "SINGLE_CORRECT_MCQ",
+        "difficulty": "DifficultyLevel.L2",
+        "chapter": "current-electricity"
+      }
+    },
+    {
+      "node_id": "gen-q-opt-conc-01",
+      "node_type": "QUESTION",
+      "label": "Monochromatic light of frequency $f_0$ enters a denser optic...",
+      "metadata": {
+        "type": "CONCEPTUAL_QUALITATIVE",
+        "difficulty": "DifficultyLevel.L2",
+        "chapter": "ray-optics"
+      }
+    },
+    {
+      "node_id": "misc-opt-02",
+      "node_type": "MISCONCEPTION",
+      "label": "Misconception Trap: misc-opt-02",
+      "metadata": {}
+    },
+    {
+      "node_id": "gen-q-rot-angmom-01",
+      "node_type": "QUESTION",
+      "label": "A uniform circular disc of mass $M$ and radius $R$ is rotati...",
+      "metadata": {
+        "type": "SINGLE_CORRECT_MCQ",
+        "difficulty": "DifficultyLevel.L3",
+        "chapter": "rotational-motion"
+      }
+    },
+    {
+      "node_id": "curr-rot-04",
+      "node_type": "CURRICULUM_NODE",
+      "label": "Curriculum Unit: curr-rot-04",
+      "metadata": {}
+    },
+    {
+      "node_id": "concept-rot-angmom-conservation-01",
+      "node_type": "CONCEPT",
+      "label": "Concept: concept-rot-angmom-conservation-01",
+      "metadata": {}
+    },
+    {
+      "node_id": "misc-rot-02",
+      "node_type": "MISCONCEPTION",
+      "label": "Misconception Trap: misc-rot-02",
+      "metadata": {}
+    },
+    {
+      "node_id": "gen-q-rot-misc-01",
+      "node_type": "QUESTION",
+      "label": "A point mass $m$ moves with constant velocity $v$ along the ...",
+      "metadata": {
+        "type": "SINGLE_CORRECT_MCQ",
+        "difficulty": "DifficultyLevel.L2",
+        "chapter": "rotational-motion"
+      }
+    },
+    {
+      "node_id": "curr-rot-03",
+      "node_type": "CURRICULUM_NODE",
+      "label": "Curriculum Unit: curr-rot-03",
+      "metadata": {}
+    },
+    {
+      "node_id": "concept-rot-angmom-particle-01",
+      "node_type": "CONCEPT",
+      "label": "Concept: concept-rot-angmom-particle-01",
+      "metadata": {}
+    },
+    {
+      "node_id": "misc-rot-01",
+      "node_type": "MISCONCEPTION",
+      "label": "Misconception Trap: misc-rot-01",
+      "metadata": {}
+    },
+    {
+      "node_id": "gen-q-td-mcq-multi-01",
+      "node_type": "QUESTION",
+      "label": "For a quasi-static reversible adiabatic expansion of an idea...",
+      "metadata": {
+        "type": "MULTIPLE_CORRECT_MCQ",
+        "difficulty": "DifficultyLevel.L4",
+        "chapter": "thermodynamics"
+      }
+    },
+    {
+      "node_id": "curr-td-02",
+      "node_type": "CURRICULUM_NODE",
+      "label": "Curriculum Unit: curr-td-02",
+      "metadata": {}
+    },
+    {
+      "node_id": "concept-td-adiabatic-01",
+      "node_type": "CONCEPT",
+      "label": "Concept: concept-td-adiabatic-01",
+      "metadata": {}
+    },
+    {
+      "node_id": "misc-td-02",
+      "node_type": "MISCONCEPTION",
+      "label": "Misconception Trap: misc-td-02",
+      "metadata": {}
+    },
+    {
+      "node_id": "gen-q-td-multi-01",
+      "node_type": "QUESTION",
+      "label": "One mole of an ideal diatomic gas ($\\gamma = 1.4$, $C_v = 2....",
+      "metadata": {
+        "type": "NUMERICAL",
+        "difficulty": "DifficultyLevel.L3",
+        "chapter": "thermodynamics"
+      }
+    },
+    {
+      "node_id": "gen-q-wrong-ans-01",
+      "node_type": "QUESTION",
+      "label": "In an isothermal expansion of an ideal gas at temperature $T...",
+      "metadata": {
+        "type": "SINGLE_CORRECT_MCQ",
+        "difficulty": "DifficultyLevel.L2",
+        "chapter": "thermodynamics"
+      }
+    },
+    {
+      "node_id": "curr-td-01",
+      "node_type": "CURRICULUM_NODE",
+      "label": "Curriculum Unit: curr-td-01",
+      "metadata": {}
+    },
+    {
+      "node_id": "concept-td-first-law-01",
+      "node_type": "CONCEPT",
+      "label": "Concept: concept-td-first-law-01",
+      "metadata": {}
+    },
+    {
+      "node_id": "misc-td-01",
+      "node_type": "MISCONCEPTION",
+      "label": "Misconception Trap: misc-td-01",
+      "metadata": {}
+    }
+  ],
+  "edges": [
+    {
+      "source_id": "curr-rot-01",
+      "target_id": "gen-q-ambig-test-01",
+      "edge_type": "EVALUATES"
+    },
+    {
+      "source_id": "concept-rot-moi-01",
+      "target_id": "gen-q-ambig-test-01",
+      "edge_type": "EXERCISED_IN"
+    },
+    {
+      "source_id": "gen-q-ambig-test-01",
+      "target_id": "misc-rot-ambig-friction",
+      "edge_type": "DIAGNOSES"
+    },
+    {
+      "source_id": "curr-curr-02",
+      "target_id": "gen-q-curr-num-01",
+      "edge_type": "EVALUATES"
+    },
+    {
+      "source_id": "concept-curr-recasting-01",
+      "target_id": "gen-q-curr-num-01",
+      "edge_type": "EXERCISED_IN"
+    },
+    {
+      "source_id": "gen-q-curr-num-01",
+      "target_id": "misc-curr-01",
+      "edge_type": "DIAGNOSES"
+    },
+    {
+      "source_id": "curr-curr-03",
+      "target_id": "gen-q-curr-src-deriv-01",
+      "edge_type": "EVALUATES"
+    },
+    {
+      "source_id": "concept-curr-meters-01",
+      "target_id": "gen-q-curr-src-deriv-01",
+      "edge_type": "EXERCISED_IN"
+    },
+    {
+      "source_id": "gen-q-curr-src-deriv-01",
+      "target_id": "misc-curr-02",
+      "edge_type": "DIAGNOSES"
+    },
+    {
+      "source_id": "curr-opt-01",
+      "target_id": "gen-q-dist-conflict-01",
+      "edge_type": "EVALUATES"
+    },
+    {
+      "source_id": "concept-opt-snell-01",
+      "target_id": "gen-q-dist-conflict-01",
+      "edge_type": "EXERCISED_IN"
+    },
+    {
+      "source_id": "gen-q-dist-conflict-01",
+      "target_id": "misc-opt-01",
+      "edge_type": "DIAGNOSES"
+    },
+    {
+      "source_id": "curr-curr-02",
+      "target_id": "gen-q-dup-test-01",
+      "edge_type": "EVALUATES"
+    },
+    {
+      "source_id": "concept-curr-recasting-01",
+      "target_id": "gen-q-dup-test-01",
+      "edge_type": "EXERCISED_IN"
+    },
+    {
+      "source_id": "gen-q-dup-test-01",
+      "target_id": "misc-curr-01",
+      "edge_type": "DIAGNOSES"
+    },
+    {
+      "source_id": "curr-opt-01",
+      "target_id": "gen-q-opt-conc-01",
+      "edge_type": "EVALUATES"
+    },
+    {
+      "source_id": "concept-opt-snell-01",
+      "target_id": "gen-q-opt-conc-01",
+      "edge_type": "EXERCISED_IN"
+    },
+    {
+      "source_id": "gen-q-opt-conc-01",
+      "target_id": "misc-opt-02",
+      "edge_type": "DIAGNOSES"
+    },
+    {
+      "source_id": "curr-rot-04",
+      "target_id": "gen-q-rot-angmom-01",
+      "edge_type": "EVALUATES"
+    },
+    {
+      "source_id": "concept-rot-angmom-conservation-01",
+      "target_id": "gen-q-rot-angmom-01",
+      "edge_type": "EXERCISED_IN"
+    },
+    {
+      "source_id": "gen-q-rot-angmom-01",
+      "target_id": "misc-rot-02",
+      "edge_type": "DIAGNOSES"
+    },
+    {
+      "source_id": "curr-rot-03",
+      "target_id": "gen-q-rot-misc-01",
+      "edge_type": "EVALUATES"
+    },
+    {
+      "source_id": "concept-rot-angmom-particle-01",
+      "target_id": "gen-q-rot-misc-01",
+      "edge_type": "EXERCISED_IN"
+    },
+    {
+      "source_id": "gen-q-rot-misc-01",
+      "target_id": "misc-rot-01",
+      "edge_type": "DIAGNOSES"
+    },
+    {
+      "source_id": "curr-td-02",
+      "target_id": "gen-q-td-mcq-multi-01",
+      "edge_type": "EVALUATES"
+    },
+    {
+      "source_id": "concept-td-adiabatic-01",
+      "target_id": "gen-q-td-mcq-multi-01",
+      "edge_type": "EXERCISED_IN"
+    },
+    {
+      "source_id": "gen-q-td-mcq-multi-01",
+      "target_id": "misc-td-02",
+      "edge_type": "DIAGNOSES"
+    },
+    {
+      "source_id": "curr-td-02",
+      "target_id": "gen-q-td-multi-01",
+      "edge_type": "EVALUATES"
+    },
+    {
+      "source_id": "concept-td-adiabatic-01",
+      "target_id": "gen-q-td-multi-01",
+      "edge_type": "EXERCISED_IN"
+    },
+    {
+      "source_id": "gen-q-td-multi-01",
+      "target_id": "misc-td-02",
+      "edge_type": "DIAGNOSES"
+    },
+    {
+      "source_id": "curr-td-01",
+      "target_id": "gen-q-wrong-ans-01",
+      "edge_type": "EVALUATES"
+    },
+    {
+      "source_id": "concept-td-first-law-01",
+      "target_id": "gen-q-wrong-ans-01",
+      "edge_type": "EXERCISED_IN"
+    },
+    {
+      "source_id": "gen-q-wrong-ans-01",
+      "target_id": "misc-td-01",
+      "edge_type": "DIAGNOSES"
+    }
+  ],
+  "generated_at": "2026-09-29T03:54:46.439664Z"
+}

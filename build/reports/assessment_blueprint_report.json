@@ -1,0 +1,144 @@
+{
+  "report_id": "assessment-blueprint-report-pilot",
+  "blueprint_valid": true,
+  "blueprint_title": "JEE Advanced Physics Pilot Mock Paper 1",
+  "target_exam": "JEE_ADVANCED",
+  "total_sections": 3,
+  "total_marks": 18.0,
+  "time_limit_minutes": 60,
+  "chapter_coverage_matched": true,
+  "difficulty_distribution_matched": true,
+  "assembled_paper": {
+    "paper_id": "paper-blueprint-jee-adv-pilot-01",
+    "blueprint_id": "blueprint-jee-adv-pilot-01",
+    "title": "JEE Advanced Physics Pilot Mock Paper 1",
+    "target_exam": "JEE_ADVANCED",
+    "total_time_minutes": 60,
+    "total_marks": 18.0,
+    "total_questions": 5,
+    "sections": [
+      {
+        "section_name": "Section 1 - Single Choice",
+        "question_type": "SINGLE_CORRECT_MCQ",
+        "allocated_count": 2,
+        "target_count": 2
+      },
+      {
+        "section_name": "Section 2 - Multiple Choice",
+        "question_type": "MULTIPLE_CORRECT_MCQ",
+        "allocated_count": 1,
+        "target_count": 1
+      },
+      {
+        "section_name": "Section 3 - Numerical",
+        "question_type": "NUMERICAL",
+        "allocated_count": 2,
+        "target_count": 2
+      }
+    ],
+    "items": [
+      {
+        "item_number": 1,
+        "section_name": "Section 1 - Single Choice",
+        "question_id": "gen-q-curr-src-deriv-01",
+        "question_type": "SINGLE_CORRECT_MCQ",
+        "chapter_id": "current-electricity",
+        "difficulty_band": "L2",
+        "marks": 3.0,
+        "negative_marks": -1.0,
+        "statement": "A moving coil galvanometer has a coil resistance of $G = 50.0\\,\\Omega$ and produces full-scale deflection for a current of $I_g = 2.0\\text{ mA}$. To convert this galvanometer into an ammeter capable of measuring currents up to $I = 5.0\\text{ A}$, the required shunt resistance $S$ to be connected in parallel is approximately:",
+        "options": {
+          "A": "$0.020\\,\\Omega$",
+          "B": "$0.050\\,\\Omega$",
+          "C": "$0.100\\,\\Omega$",
+          "D": "$1.000\\,\\Omega$"
+        },
+        "correct_answer": "A"
+      },
+      {
+        "item_number": 2,
+        "section_name": "Section 1 - Single Choice",
+        "question_id": "gen-q-rot-angmom-01",
+        "question_type": "SINGLE_CORRECT_MCQ",
+        "chapter_id": "rotational-motion",
+        "difficulty_band": "L3",
+        "marks": 3.0,
+        "negative_marks": -1.0,
+        "statement": "A uniform circular disc of mass $M$ and radius $R$ is rotating freely about a fixed frictionless vertical axis passing through its center with angular velocity $\\omega_0$. An insect of mass $m$ initially at the center begins crawling radially outward toward the edge of the disc. When the insect reaches the outer rim ($r = R$), the final angular velocity of the disc-insect system is:",
+        "options": {
+          "A": "$\\omega_0 \\frac{M}{M + m}$",
+          "B": "$\\omega_0 \\frac{M}{M + 2m}$",
+          "C": "$\\omega_0 \\frac{M + 2m}{M}$",
+          "D": "$\\omega_0 \\frac{M}{M + 4m}$"
+        },
+        "correct_answer": "B"
+      },
+      {
+        "item_number": 3,
+        "section_name": "Section 2 - Multiple Choice",
+        "question_id": "gen-q-td-mcq-multi-01",
+        "question_type": "MULTIPLE_CORRECT_MCQ",
+        "chapter_id": "thermodynamics",
+        "difficulty_band": "L4",
+        "marks": 4.0,
+        "negative_marks": -2.0,
+        "statement": "For a quasi-static reversible adiabatic expansion of an ideal gas with constant heat capacity ratio $\\gamma = C_p / C_v$, which of the following statements is/are correct?",
+        "options": {
+          "A": "The quantity $T V^{\\gamma - 1}$ remains constant throughout the expansion.",
+          "B": "The work done by the gas is equal to the decrease in its internal energy ($W = -\\Delta U$).",
+          "C": "The entropy of the gas remains invariant ($\\Delta S = 0$).",
+          "D": "The quantity $P V^\\gamma$ remains constant throughout the expansion."
+        },
+        "correct_answer": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      {
+        "item_number": 4,
+        "section_name": "Section 3 - Numerical",
+        "question_id": "gen-q-curr-num-01",
+        "question_type": "NUMERICAL",
+        "chapter_id": "current-electricity",
+        "difficulty_band": "L2",
+        "marks": 4.0,
+        "negative_marks": 0.0,
+        "statement": "A cylindrical copper wire of initial resistance $R_1 = 10.0\\,\\Omega$ is drawn uniformly through a series of dies such that its radius is reduced to half its initial radius ($r_2 = r_1 / 2$) without any loss of mass. Assuming the material density and resistivity remain constant, the new resistance of the wire in $\\Omega$ is:",
+        "options": {},
+        "correct_answer": "160.0"
+      },
+      {
+        "item_number": 5,
+        "section_name": "Section 3 - Numerical",
+        "question_id": "gen-q-td-multi-01",
+        "question_type": "NUMERICAL",
+        "chapter_id": "thermodynamics",
+        "difficulty_band": "L3",
+        "marks": 4.0,
+        "negative_marks": 0.0,
+        "statement": "One mole of an ideal diatomic gas ($\\gamma = 1.4$, $C_v = 2.5\\,R$) at initial temperature $T_1 = 300\\text{ K}$ is compressed adiabatically and reversibly such that its volume decreases by a factor of 32 ($V_2 = V_1 / 32$). Taking $R = 8.314\\text{ J/(mol K)}$, calculate the final temperature $T_2$ of the gas in Kelvin.",
+        "options": {},
+        "correct_answer": "1200.0"
+      }
+    ],
+    "chapter_distribution": {
+      "current-electricity": 2,
+      "rotational-motion": 1,
+      "thermodynamics": 2
+    },
+    "difficulty_distribution": {
+      "L2": 2,
+      "L3": 2,
+      "L4": 1
+    },
+    "generated_at": "2026-09-29T03:54:46.437779Z"
+  },
+  "validation_notes": [
+    "Blueprint 'JEE Advanced Physics Pilot Mock Paper 1' validated successfully.",
+    "Sections defined: 3, target marks: 18.0.",
+    "Scoring and negative marking rules conform to JEE Advanced structure."
+  ],
+  "generated_at": "2026-09-29T03:54:46.437779Z"
+}

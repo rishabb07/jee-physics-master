@@ -1,0 +1,36 @@
+{
+  "audit_id": "web-rel-audit-pilot-001",
+  "timestamp": "2026-09-29T20:33:15Z",
+  "auditor_id": "physics-web-release-auditor",
+  "status": "PASS",
+  "verdict": "PASSED",
+  "inspected_distribution_dir": "output/web",
+  "canonical_kb_immutable": true,
+  "canonical_atoms_count": 35,
+  "zero_unverified_questions_leaked": true,
+  "review_queue_strictly_excluded": true,
+  "manifest_integrity_verified": true,
+  "manifest_scope": "PILOT",
+  "total_chapters_represented": 30,
+  "active_pilot_chapters_count": 4,
+  "pending_chapters_count": 26,
+  "referential_integrity_verified": true,
+  "audit_details": {
+    "verified_questions_count": 17,
+    "concepts_count": 12,
+    "formulas_count": 13,
+    "derivations_count": 13,
+    "worked_examples_count": 4,
+    "misconceptions_count": 8,
+    "question_ladders_count": 1,
+    "search_index_entries_count": 84
+  },
+  "findings": [
+    "Canonical kb/atoms/ verified untouched (35 canonical atoms intact).",
+    "Zero unverified questions or review queue items leaked into output/web/data/questions.json.",
+    "Manifest cryptographic SHA-256 digests match 100% of generated data files.",
+    "Referential integrity verified: all formulas and questions referenced in chapter detail documents exist in canonical indexes.",
+    "KaTeX assets and 20 woff2 font files verified present for fully offline mathematical typesetting."
+  ],
+  "discrepancies": []
+}

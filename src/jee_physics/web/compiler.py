@@ -26,7 +26,7 @@ class WebCompiler:
         target_dir = output_dir or self.default_output_dir
 
         if clean and target_dir.exists():
-            shutil.rmtree(target_dir)
+            shutil.rmtree(target_dir, ignore_errors=True)
 
         target_dir.mkdir(parents=True, exist_ok=True)
 
@@ -39,27 +39,20 @@ class WebCompiler:
 
         # css/
         dest_css = target_dir / "css"
-        if dest_css.exists():
-            shutil.rmtree(dest_css)
-        shutil.copytree(self.web_src_dir / "css", dest_css)
+        shutil.copytree(self.web_src_dir / "css", dest_css, dirs_exist_ok=True)
 
         # js/
         dest_js = target_dir / "js"
-        if dest_js.exists():
-            shutil.rmtree(dest_js)
-        shutil.copytree(self.web_src_dir / "js", dest_js)
+        shutil.copytree(self.web_src_dir / "js", dest_js, dirs_exist_ok=True)
 
         # vendor/
         dest_vendor = target_dir / "vendor"
-        if dest_vendor.exists():
-            shutil.rmtree(dest_vendor)
-        shutil.copytree(self.web_src_dir / "vendor", dest_vendor)
+        shutil.copytree(self.web_src_dir / "vendor", dest_vendor, dirs_exist_ok=True)
 
         # 3. Copy compiled data bundle
         dest_data = target_dir / "data"
-        if dest_data.exists():
-            shutil.rmtree(dest_data)
-        shutil.copytree(self.build_data_dir, dest_data)
+        shutil.copytree(self.build_data_dir, dest_data, dirs_exist_ok=True)
+
 
         # 4. Strict validation of compiled production bundle
         self._validate_distribution(target_dir)

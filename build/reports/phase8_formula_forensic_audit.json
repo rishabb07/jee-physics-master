@@ -1,0 +1,416 @@
+{
+  "report_id": "phase8-formula-forensic-audit",
+  "audit_objective": "Forensic audit of all 13 standalone FormulaRecords proving authoring and verification provenance",
+  "total_formulas": 13,
+  "verified_and_promoted_count": 13,
+  "formula_writer_conversation_id": "afe5bcb6-93b3-4ed7-bae6-9489343cc25d",
+  "formula_verifier_conversation_id": "ab85d650-e1e8-42e2-ac4a-8bc8a6460e30",
+  "separation_of_authoring_and_verification": true,
+  "audit_records": [
+    {
+      "formula_id": "formula-curr-drift-micro",
+      "chapter_id": "current-electricity",
+      "title": "Drift Velocity and Current Density",
+      "equation_latex": "I = n e A v_d,\\quad \\vec{J} = n e \\vec{v}_d = \\sigma \\vec{E}",
+      "substantive_hash": "6f482d869dee9ff7469e7bd013f64866d508266e0cd3c8b3ee77accf97d41940",
+      "variables_count": 8,
+      "units_defined": 8,
+      "dimensions_defined": 8,
+      "assumptions_count": 3,
+      "validity_conditions_count": 1,
+      "derivation_reference": "derivation-formula-curr-drift-micro",
+      "related_concepts": [
+        "concept-curr-drift-01"
+      ],
+      "writer_subagent": {
+        "role": "Physics Formula Writer",
+        "conversation_id": "afe5bcb6-93b3-4ed7-bae6-9489343cc25d"
+      },
+      "verifier_subagent": {
+        "role": "Formula Content Verifier",
+        "conversation_id": "ab85d650-e1e8-42e2-ac4a-8bc8a6460e30",
+        "verifier_id": "formula-content-verifier",
+        "verdict": "VERIFIED",
+        "dimensional_check_passed": true,
+        "assumptions_checked": true,
+        "timestamp": "2026-09-29T02:32:37.338299+00:00"
+      },
+      "verification_record_id": "cvr-formula-curr-drift-micro",
+      "promotion_status": "PROMOTED_AND_VERIFIED"
+    },
+    {
+      "formula_id": "formula-curr-measuring-meters",
+      "chapter_id": "current-electricity",
+      "title": "Ideal Ammeter and Voltmeter Branch Equations",
+      "equation_latex": "S = \\frac{I_g G}{I - I_g},\\quad R_s = \\frac{V}{I_g} - G",
+      "substantive_hash": "14c3c02f59d61fed6284b0d7ad727896ffda157a86adf6be6edc5353a2f50f21",
+      "variables_count": 6,
+      "units_defined": 6,
+      "dimensions_defined": 6,
+      "assumptions_count": 2,
+      "validity_conditions_count": 1,
+      "derivation_reference": "derivation-formula-curr-measuring-meters",
+      "related_concepts": [
+        "concept-curr-meters-01"
+      ],
+      "writer_subagent": {
+        "role": "Physics Formula Writer",
+        "conversation_id": "afe5bcb6-93b3-4ed7-bae6-9489343cc25d"
+      },
+      "verifier_subagent": {
+        "role": "Formula Content Verifier",
+        "conversation_id": "ab85d650-e1e8-42e2-ac4a-8bc8a6460e30",
+        "verifier_id": "formula-content-verifier",
+        "verdict": "VERIFIED",
+        "dimensional_check_passed": true,
+        "assumptions_checked": true,
+        "timestamp": "2026-09-29T02:32:37.338299+00:00"
+      },
+      "verification_record_id": "cvr-formula-curr-measuring-meters",
+      "promotion_status": "PROMOTED_AND_VERIFIED"
+    },
+    {
+      "formula_id": "formula-curr-recasting-volume",
+      "chapter_id": "current-electricity",
+      "title": "Resistance Under Volume Conservation",
+      "equation_latex": "R = \\rho \\frac{l^2}{V} = \\frac{\\rho V}{\\pi^2 r^4} \\propto \\frac{1}{r^4}",
+      "substantive_hash": "7fdca45481b84ecdd49afe3953899c910b430be333aba59a061de3567b9582f9",
+      "variables_count": 5,
+      "units_defined": 5,
+      "dimensions_defined": 5,
+      "assumptions_count": 3,
+      "validity_conditions_count": 1,
+      "derivation_reference": "derivation-formula-curr-recasting-volume",
+      "related_concepts": [
+        "concept-curr-recasting-01"
+      ],
+      "writer_subagent": {
+        "role": "Physics Formula Writer",
+        "conversation_id": "afe5bcb6-93b3-4ed7-bae6-9489343cc25d"
+      },
+      "verifier_subagent": {
+        "role": "Formula Content Verifier",
+        "conversation_id": "ab85d650-e1e8-42e2-ac4a-8bc8a6460e30",
+        "verifier_id": "formula-content-verifier",
+        "verdict": "VERIFIED",
+        "dimensional_check_passed": true,
+        "assumptions_checked": true,
+        "timestamp": "2026-09-29T02:32:37.338299+00:00"
+      },
+      "verification_record_id": "cvr-formula-curr-recasting-volume",
+      "promotion_status": "PROMOTED_AND_VERIFIED"
+    },
+    {
+      "formula_id": "formula-opt-critical-angle",
+      "chapter_id": "ray-optics",
+      "title": "Critical Angle for Total Internal Reflection",
+      "equation_latex": "\\sin\\theta_c = \\frac{n_2}{n_1} = \\frac{n_{\\text{rarer}}}{n_{\\text{denser}}}",
+      "substantive_hash": "57cd0ceb179aa6107e721e194c3670e03682b6e163b2850151a7ee30a3fcf270",
+      "variables_count": 3,
+      "units_defined": 3,
+      "dimensions_defined": 3,
+      "assumptions_count": 2,
+      "validity_conditions_count": 1,
+      "derivation_reference": "derivation-formula-opt-critical-angle",
+      "related_concepts": [
+        "concept-opt-tir-01"
+      ],
+      "writer_subagent": {
+        "role": "Physics Formula Writer",
+        "conversation_id": "afe5bcb6-93b3-4ed7-bae6-9489343cc25d"
+      },
+      "verifier_subagent": {
+        "role": "Formula Content Verifier",
+        "conversation_id": "ab85d650-e1e8-42e2-ac4a-8bc8a6460e30",
+        "verifier_id": "formula-content-verifier",
+        "verdict": "VERIFIED",
+        "dimensional_check_passed": true,
+        "assumptions_checked": true,
+        "timestamp": "2026-09-29T02:32:37.347255+00:00"
+      },
+      "verification_record_id": "cvr-formula-opt-critical-angle",
+      "promotion_status": "PROMOTED_AND_VERIFIED"
+    },
+    {
+      "formula_id": "formula-opt-prism-geometry",
+      "chapter_id": "ray-optics",
+      "title": "Prism Ray Geometry and Net Deviation",
+      "equation_latex": "A = r_1 + r_2,\\quad \\delta = i + e - A",
+      "substantive_hash": "1635efb3f5fa03e4055291eca37e951e41649bb0867bc8e26ee793c5319f7ddc",
+      "variables_count": 6,
+      "units_defined": 6,
+      "dimensions_defined": 6,
+      "assumptions_count": 2,
+      "validity_conditions_count": 1,
+      "derivation_reference": "derivation-formula-opt-prism-geometry",
+      "related_concepts": [
+        "concept-opt-snell-01",
+        "concept-opt-tir-01"
+      ],
+      "writer_subagent": {
+        "role": "Physics Formula Writer",
+        "conversation_id": "afe5bcb6-93b3-4ed7-bae6-9489343cc25d"
+      },
+      "verifier_subagent": {
+        "role": "Formula Content Verifier",
+        "conversation_id": "ab85d650-e1e8-42e2-ac4a-8bc8a6460e30",
+        "verifier_id": "formula-content-verifier",
+        "verdict": "VERIFIED",
+        "dimensional_check_passed": true,
+        "assumptions_checked": true,
+        "timestamp": "2026-09-29T02:32:37.347255+00:00"
+      },
+      "verification_record_id": "cvr-formula-opt-prism-geometry",
+      "promotion_status": "PROMOTED_AND_VERIFIED"
+    },
+    {
+      "formula_id": "formula-opt-snells-law",
+      "chapter_id": "ray-optics",
+      "title": "Snell's Law of Refraction",
+      "equation_latex": "n_1 \\sin\\theta_1 = n_2 \\sin\\theta_2",
+      "substantive_hash": "043f6e2c0488f2449cf158a5f855473dae96f444bd4704e5af8fccca6554b701",
+      "variables_count": 4,
+      "units_defined": 4,
+      "dimensions_defined": 4,
+      "assumptions_count": 3,
+      "validity_conditions_count": 1,
+      "derivation_reference": "derivation-formula-opt-snells-law",
+      "related_concepts": [
+        "concept-opt-snell-01"
+      ],
+      "writer_subagent": {
+        "role": "Physics Formula Writer",
+        "conversation_id": "afe5bcb6-93b3-4ed7-bae6-9489343cc25d"
+      },
+      "verifier_subagent": {
+        "role": "Formula Content Verifier",
+        "conversation_id": "ab85d650-e1e8-42e2-ac4a-8bc8a6460e30",
+        "verifier_id": "formula-content-verifier",
+        "verdict": "VERIFIED",
+        "dimensional_check_passed": true,
+        "assumptions_checked": true,
+        "timestamp": "2026-09-29T02:32:37.347255+00:00"
+      },
+      "verification_record_id": "cvr-formula-opt-snells-law",
+      "promotion_status": "PROMOTED_AND_VERIFIED"
+    },
+    {
+      "formula_id": "formula-rot-angmom-particle",
+      "chapter_id": "rotational-motion",
+      "title": "Particle Angular Momentum",
+      "equation_latex": "\\vec{L}_O = \\vec{r} \\times \\vec{p} = m (\\vec{r} \\times \\vec{v})",
+      "substantive_hash": "0e3eba418c6304ec7a13eeb08f439e8bf8f103df36fc5772ccc534a9a67c5382",
+      "variables_count": 5,
+      "units_defined": 5,
+      "dimensions_defined": 5,
+      "assumptions_count": 2,
+      "validity_conditions_count": 1,
+      "derivation_reference": "derivation-formula-rot-angmom-particle",
+      "related_concepts": [
+        "concept-rot-angmom-particle-01"
+      ],
+      "writer_subagent": {
+        "role": "Physics Formula Writer",
+        "conversation_id": "afe5bcb6-93b3-4ed7-bae6-9489343cc25d"
+      },
+      "verifier_subagent": {
+        "role": "Formula Content Verifier",
+        "conversation_id": "ab85d650-e1e8-42e2-ac4a-8bc8a6460e30",
+        "verifier_id": "formula-content-verifier",
+        "verdict": "VERIFIED",
+        "dimensional_check_passed": true,
+        "assumptions_checked": true,
+        "timestamp": "2026-09-29T02:32:37.330284+00:00"
+      },
+      "verification_record_id": "cvr-formula-rot-angmom-particle",
+      "promotion_status": "PROMOTED_AND_VERIFIED"
+    },
+    {
+      "formula_id": "formula-rot-conservation-angmom",
+      "chapter_id": "rotational-motion",
+      "title": "Conservation of Angular Momentum About Fixed Axis",
+      "equation_latex": "I_i \\omega_i = I_f \\omega_f",
+      "substantive_hash": "55fd388e6b9f01bfe15ec0c7f4abe60f1b901dcebd986aea501dd9e00491db58",
+      "variables_count": 4,
+      "units_defined": 2,
+      "dimensions_defined": 2,
+      "assumptions_count": 1,
+      "validity_conditions_count": 1,
+      "derivation_reference": "derivation-formula-rot-conservation-angmom",
+      "related_concepts": [
+        "concept-rot-angmom-conservation-01"
+      ],
+      "writer_subagent": {
+        "role": "Physics Formula Writer",
+        "conversation_id": "afe5bcb6-93b3-4ed7-bae6-9489343cc25d"
+      },
+      "verifier_subagent": {
+        "role": "Formula Content Verifier",
+        "conversation_id": "ab85d650-e1e8-42e2-ac4a-8bc8a6460e30",
+        "verifier_id": "formula-content-verifier",
+        "verdict": "VERIFIED",
+        "dimensional_check_passed": true,
+        "assumptions_checked": true,
+        "timestamp": "2026-09-29T02:32:37.330284+00:00"
+      },
+      "verification_record_id": "cvr-formula-rot-conservation-angmom",
+      "promotion_status": "PROMOTED_AND_VERIFIED"
+    },
+    {
+      "formula_id": "formula-rot-moi-parallel",
+      "chapter_id": "rotational-motion",
+      "title": "Parallel Axis Theorem",
+      "equation_latex": "I = I_{\\text{cm}} + M d^2",
+      "substantive_hash": "5472104e395a301ebd0bdf329b9e79ce75ac31895d4eb8bca6cf9798af3bd07f",
+      "variables_count": 4,
+      "units_defined": 4,
+      "dimensions_defined": 4,
+      "assumptions_count": 3,
+      "validity_conditions_count": 1,
+      "derivation_reference": "derivation-formula-rot-moi-parallel",
+      "related_concepts": [
+        "concept-rot-moi-01"
+      ],
+      "writer_subagent": {
+        "role": "Physics Formula Writer",
+        "conversation_id": "afe5bcb6-93b3-4ed7-bae6-9489343cc25d"
+      },
+      "verifier_subagent": {
+        "role": "Formula Content Verifier",
+        "conversation_id": "ab85d650-e1e8-42e2-ac4a-8bc8a6460e30",
+        "verifier_id": "formula-content-verifier",
+        "verdict": "VERIFIED",
+        "dimensional_check_passed": true,
+        "assumptions_checked": true,
+        "timestamp": "2026-09-29T02:32:37.330284+00:00"
+      },
+      "verification_record_id": "cvr-formula-rot-moi-parallel",
+      "promotion_status": "PROMOTED_AND_VERIFIED"
+    },
+    {
+      "formula_id": "formula-rot-torque-dyn",
+      "chapter_id": "rotational-motion",
+      "title": "Torque Dynamic Relation",
+      "equation_latex": "\\vec{\\tau}_{\\text{net, ext}} = I \\vec{\\alpha} = \\frac{d\\vec{L}}{dt}",
+      "substantive_hash": "57ee922ec2bd6a1920b602360650c8be7d45d70604903ff81df489ce90830ba3",
+      "variables_count": 4,
+      "units_defined": 4,
+      "dimensions_defined": 4,
+      "assumptions_count": 3,
+      "validity_conditions_count": 1,
+      "derivation_reference": "derivation-formula-rot-torque-dyn",
+      "related_concepts": [
+        "concept-rot-torque-01"
+      ],
+      "writer_subagent": {
+        "role": "Physics Formula Writer",
+        "conversation_id": "afe5bcb6-93b3-4ed7-bae6-9489343cc25d"
+      },
+      "verifier_subagent": {
+        "role": "Formula Content Verifier",
+        "conversation_id": "ab85d650-e1e8-42e2-ac4a-8bc8a6460e30",
+        "verifier_id": "formula-content-verifier",
+        "verdict": "VERIFIED",
+        "dimensional_check_passed": true,
+        "assumptions_checked": true,
+        "timestamp": "2026-09-29T02:32:37.330284+00:00"
+      },
+      "verification_record_id": "cvr-formula-rot-torque-dyn",
+      "promotion_status": "PROMOTED_AND_VERIFIED"
+    },
+    {
+      "formula_id": "formula-td-adiabatic-ideal-gas",
+      "chapter_id": "thermodynamics",
+      "title": "Reversible Adiabatic Process for Ideal Gas",
+      "equation_latex": "T V^{\\gamma - 1} = \\text{constant},\\quad P V^\\gamma = \\text{constant}",
+      "substantive_hash": "84026a90fe4f9693f83ddf90fd107e65bd979dbc5875faac98651fa83fca24bc",
+      "variables_count": 4,
+      "units_defined": 4,
+      "dimensions_defined": 4,
+      "assumptions_count": 4,
+      "validity_conditions_count": 1,
+      "derivation_reference": "derivation-formula-td-adiabatic-ideal-gas",
+      "related_concepts": [
+        "concept-td-adiabatic-01"
+      ],
+      "writer_subagent": {
+        "role": "Physics Formula Writer",
+        "conversation_id": "afe5bcb6-93b3-4ed7-bae6-9489343cc25d"
+      },
+      "verifier_subagent": {
+        "role": "Formula Content Verifier",
+        "conversation_id": "ab85d650-e1e8-42e2-ac4a-8bc8a6460e30",
+        "verifier_id": "formula-content-verifier",
+        "verdict": "VERIFIED",
+        "dimensional_check_passed": true,
+        "assumptions_checked": true,
+        "timestamp": "2026-09-29T02:32:37.338299+00:00"
+      },
+      "verification_record_id": "cvr-formula-td-adiabatic-ideal-gas",
+      "promotion_status": "PROMOTED_AND_VERIFIED"
+    },
+    {
+      "formula_id": "formula-td-first-law",
+      "chapter_id": "thermodynamics",
+      "title": "First Law of Thermodynamics",
+      "equation_latex": "dQ = dU + dW = dU + P dV",
+      "substantive_hash": "7292461710c4af607972e6edbf5a76fab730ee4aa9e0d7eebb12c6790cd8fdda",
+      "variables_count": 5,
+      "units_defined": 5,
+      "dimensions_defined": 5,
+      "assumptions_count": 2,
+      "validity_conditions_count": 1,
+      "derivation_reference": "derivation-formula-td-first-law",
+      "related_concepts": [
+        "concept-td-first-law-01"
+      ],
+      "writer_subagent": {
+        "role": "Physics Formula Writer",
+        "conversation_id": "afe5bcb6-93b3-4ed7-bae6-9489343cc25d"
+      },
+      "verifier_subagent": {
+        "role": "Formula Content Verifier",
+        "conversation_id": "ab85d650-e1e8-42e2-ac4a-8bc8a6460e30",
+        "verifier_id": "formula-content-verifier",
+        "verdict": "VERIFIED",
+        "dimensional_check_passed": true,
+        "assumptions_checked": true,
+        "timestamp": "2026-09-29T02:32:37.338299+00:00"
+      },
+      "verification_record_id": "cvr-formula-td-first-law",
+      "promotion_status": "PROMOTED_AND_VERIFIED"
+    },
+    {
+      "formula_id": "formula-td-radiation-adiabatic",
+      "chapter_id": "thermodynamics",
+      "title": "Adiabatic Expansion of Photon Gas",
+      "equation_latex": "T^3 V = \\text{constant},\\quad u = a T^4,\\quad P = \\frac{1}{3} u",
+      "substantive_hash": "b8c35356c929fd3bcd62e61d7ce8ee228a5c5363bf9ffb8d61e3e555c0292045",
+      "variables_count": 5,
+      "units_defined": 5,
+      "dimensions_defined": 5,
+      "assumptions_count": 3,
+      "validity_conditions_count": 1,
+      "derivation_reference": "derivation-formula-td-radiation-adiabatic",
+      "related_concepts": [
+        "concept-td-radiation-01"
+      ],
+      "writer_subagent": {
+        "role": "Physics Formula Writer",
+        "conversation_id": "afe5bcb6-93b3-4ed7-bae6-9489343cc25d"
+      },
+      "verifier_subagent": {
+        "role": "Formula Content Verifier",
+        "conversation_id": "ab85d650-e1e8-42e2-ac4a-8bc8a6460e30",
+        "verifier_id": "formula-content-verifier",
+        "verdict": "VERIFIED",
+        "dimensional_check_passed": true,
+        "assumptions_checked": true,
+        "timestamp": "2026-09-29T02:32:37.338299+00:00"
+      },
+      "verification_record_id": "cvr-formula-td-radiation-adiabatic",
+      "promotion_status": "PROMOTED_AND_VERIFIED"
+    }
+  ],
+  "generated_at": "2026-09-29T02:49:56.427179+00:00"
+}

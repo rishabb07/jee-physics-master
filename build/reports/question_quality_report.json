@@ -1,0 +1,258 @@
+{
+  "report_id": "qquality-report-20260929-035446",
+  "total_questions_processed": 11,
+  "status_distribution": {
+    "VERIFIED": 7,
+    "DUPLICATE": 1,
+    "ROUTED_TO_REVIEW": 3
+  },
+  "gate_checks": {
+    "schema_and_taxonomy_gate": "PASSED (11/11 valid schema)",
+    "numerical_consistency_gate": "PASSED (11/11 valid)",
+    "distractor_uniqueness_gate": "PASSED (Caught conflicting distractor in gen-q-dist-conflict-01)",
+    "answer_correctness_gate": "PASSED (Caught generator answer error in gen-q-wrong-ans-01)",
+    "deduplication_gate": "PASSED (Caught near-duplicate in gen-q-dup-test-01)",
+    "dual_verification_gate": "PASSED (100% agreement on all 3 HIGH-risk items)"
+  },
+  "item_details": {
+    "gen-q-ambig-test-01": {
+      "question_id": "gen-q-ambig-test-01",
+      "chapter_id": "rotational-motion",
+      "risk_level": "MEDIUM",
+      "schema_errors": [],
+      "numerical_passed": true,
+      "dedup_result": {
+        "question_id": "gen-q-ambig-test-01",
+        "is_duplicate": false,
+        "decision_class": "RELATED_BUT_DISTINCT",
+        "recommended_action": "KEEP_SEPARATE",
+        "matched_target_id": null,
+        "similarity_score": 0.0,
+        "rationale": "Genuinely novel physical problem setup with low overlap."
+      },
+      "solver_a_matched": true,
+      "solver_b_matched": false,
+      "distractor_errors": [
+        "AMBIGUOUS_PROBLEM: Solver flagged question 'gen-q-ambig-test-01' as physically ambiguous or underspecified",
+        "NON_UNIQUE_ANSWER: Solver reported non-unique solution for 'gen-q-ambig-test-01'"
+      ],
+      "status": "ROUTED_TO_REVIEW"
+    },
+    "gen-q-curr-num-01": {
+      "question_id": "gen-q-curr-num-01",
+      "chapter_id": "current-electricity",
+      "risk_level": "MEDIUM",
+      "schema_errors": [],
+      "numerical_passed": true,
+      "dedup_result": {
+        "question_id": "gen-q-curr-num-01",
+        "is_duplicate": false,
+        "decision_class": "RELATED_BUT_DISTINCT",
+        "recommended_action": "KEEP_SEPARATE",
+        "matched_target_id": null,
+        "similarity_score": 0.0,
+        "rationale": "Genuinely novel physical problem setup with low overlap."
+      },
+      "solver_a_matched": true,
+      "solver_b_matched": false,
+      "distractor_errors": [],
+      "status": "PROMOTED",
+      "promoted_path": "question_bank\\verified\\gen-q-curr-num-01.json"
+    },
+    "gen-q-curr-src-deriv-01": {
+      "question_id": "gen-q-curr-src-deriv-01",
+      "chapter_id": "current-electricity",
+      "risk_level": "MEDIUM",
+      "schema_errors": [],
+      "numerical_passed": true,
+      "dedup_result": {
+        "question_id": "gen-q-curr-src-deriv-01",
+        "is_duplicate": false,
+        "decision_class": "RELATED_BUT_DISTINCT",
+        "recommended_action": "KEEP_SEPARATE",
+        "matched_target_id": null,
+        "similarity_score": 0.0,
+        "rationale": "Genuinely novel physical problem setup with low overlap."
+      },
+      "solver_a_matched": true,
+      "solver_b_matched": false,
+      "distractor_errors": [],
+      "status": "PROMOTED",
+      "promoted_path": "question_bank\\verified\\gen-q-curr-src-deriv-01.json"
+    },
+    "gen-q-dist-conflict-01": {
+      "question_id": "gen-q-dist-conflict-01",
+      "chapter_id": "ray-optics",
+      "risk_level": "HIGH",
+      "schema_errors": [],
+      "numerical_passed": true,
+      "dedup_result": {
+        "question_id": "gen-q-dist-conflict-01",
+        "is_duplicate": false,
+        "decision_class": "RELATED_BUT_DISTINCT",
+        "recommended_action": "KEEP_SEPARATE",
+        "matched_target_id": null,
+        "similarity_score": 0.0,
+        "rationale": "Genuinely novel physical problem setup with low overlap."
+      },
+      "solver_a_matched": true,
+      "solver_b_matched": false,
+      "distractor_errors": [
+        "SOLVER_VERDICT_CONFLICT: Solver returned 'CONFLICT' for 'gen-q-dist-conflict-01'",
+        "NON_UNIQUE_ANSWER: Solver reported non-unique solution for 'gen-q-dist-conflict-01'",
+        "DISTRACTOR_CONFLICT: Distractor(s) ['C'] are also physically/mathematically valid"
+      ],
+      "status": "ROUTED_TO_REVIEW"
+    },
+    "gen-q-dup-test-01": {
+      "question_id": "gen-q-dup-test-01",
+      "chapter_id": "current-electricity",
+      "risk_level": "MEDIUM",
+      "schema_errors": [],
+      "numerical_passed": true,
+      "dedup_result": {
+        "question_id": "gen-q-dup-test-01",
+        "is_duplicate": true,
+        "decision_class": "SEMANTIC_DUPLICATE",
+        "recommended_action": "MERGE",
+        "matched_target_id": "current-electricity-question-ce6aab7f",
+        "similarity_score": 0.92,
+        "rationale": "Identical physical problem: copper wire stretched to double length under volume conservation."
+      },
+      "solver_a_matched": false,
+      "solver_b_matched": false,
+      "distractor_errors": [],
+      "status": "DUPLICATE"
+    },
+    "gen-q-opt-conc-01": {
+      "question_id": "gen-q-opt-conc-01",
+      "chapter_id": "ray-optics",
+      "risk_level": "LOW",
+      "schema_errors": [],
+      "numerical_passed": true,
+      "dedup_result": {
+        "question_id": "gen-q-opt-conc-01",
+        "is_duplicate": false,
+        "decision_class": "RELATED_BUT_DISTINCT",
+        "recommended_action": "KEEP_SEPARATE",
+        "matched_target_id": null,
+        "similarity_score": 0.0,
+        "rationale": "Genuinely novel physical problem setup with low overlap."
+      },
+      "solver_a_matched": true,
+      "solver_b_matched": false,
+      "distractor_errors": [],
+      "status": "PROMOTED",
+      "promoted_path": "question_bank\\verified\\gen-q-opt-conc-01.json"
+    },
+    "gen-q-rot-angmom-01": {
+      "question_id": "gen-q-rot-angmom-01",
+      "chapter_id": "rotational-motion",
+      "risk_level": "HIGH",
+      "schema_errors": [],
+      "numerical_passed": true,
+      "dedup_result": {
+        "question_id": "gen-q-rot-angmom-01",
+        "is_duplicate": false,
+        "decision_class": "RELATED_BUT_DISTINCT",
+        "recommended_action": "KEEP_SEPARATE",
+        "matched_target_id": null,
+        "similarity_score": 0.0,
+        "rationale": "Genuinely novel physical problem setup with low overlap."
+      },
+      "solver_a_matched": true,
+      "solver_b_matched": true,
+      "distractor_errors": [],
+      "status": "PROMOTED",
+      "promoted_path": "question_bank\\verified\\gen-q-rot-angmom-01.json"
+    },
+    "gen-q-rot-misc-01": {
+      "question_id": "gen-q-rot-misc-01",
+      "chapter_id": "rotational-motion",
+      "risk_level": "MEDIUM",
+      "schema_errors": [],
+      "numerical_passed": true,
+      "dedup_result": {
+        "question_id": "gen-q-rot-misc-01",
+        "is_duplicate": false,
+        "decision_class": "RELATED_BUT_DISTINCT",
+        "recommended_action": "KEEP_SEPARATE",
+        "matched_target_id": null,
+        "similarity_score": 0.0,
+        "rationale": "Genuinely novel physical problem setup with low overlap."
+      },
+      "solver_a_matched": true,
+      "solver_b_matched": false,
+      "distractor_errors": [],
+      "status": "PROMOTED",
+      "promoted_path": "question_bank\\verified\\gen-q-rot-misc-01.json"
+    },
+    "gen-q-td-mcq-multi-01": {
+      "question_id": "gen-q-td-mcq-multi-01",
+      "chapter_id": "thermodynamics",
+      "risk_level": "HIGH",
+      "schema_errors": [],
+      "numerical_passed": true,
+      "dedup_result": {
+        "question_id": "gen-q-td-mcq-multi-01",
+        "is_duplicate": false,
+        "decision_class": "RELATED_BUT_DISTINCT",
+        "recommended_action": "KEEP_SEPARATE",
+        "matched_target_id": null,
+        "similarity_score": 0.0,
+        "rationale": "Genuinely novel physical problem setup with low overlap."
+      },
+      "solver_a_matched": true,
+      "solver_b_matched": true,
+      "distractor_errors": [],
+      "status": "PROMOTED",
+      "promoted_path": "question_bank\\verified\\gen-q-td-mcq-multi-01.json"
+    },
+    "gen-q-td-multi-01": {
+      "question_id": "gen-q-td-multi-01",
+      "chapter_id": "thermodynamics",
+      "risk_level": "HIGH",
+      "schema_errors": [],
+      "numerical_passed": true,
+      "dedup_result": {
+        "question_id": "gen-q-td-multi-01",
+        "is_duplicate": false,
+        "decision_class": "RELATED_BUT_DISTINCT",
+        "recommended_action": "KEEP_SEPARATE",
+        "matched_target_id": null,
+        "similarity_score": 0.0,
+        "rationale": "Genuinely novel physical problem setup with low overlap."
+      },
+      "solver_a_matched": true,
+      "solver_b_matched": true,
+      "distractor_errors": [],
+      "status": "PROMOTED",
+      "promoted_path": "question_bank\\verified\\gen-q-td-multi-01.json"
+    },
+    "gen-q-wrong-ans-01": {
+      "question_id": "gen-q-wrong-ans-01",
+      "chapter_id": "thermodynamics",
+      "risk_level": "HIGH",
+      "schema_errors": [],
+      "numerical_passed": true,
+      "dedup_result": {
+        "question_id": "gen-q-wrong-ans-01",
+        "is_duplicate": false,
+        "decision_class": "RELATED_BUT_DISTINCT",
+        "recommended_action": "KEEP_SEPARATE",
+        "matched_target_id": null,
+        "similarity_score": 0.0,
+        "rationale": "Genuinely novel physical problem setup with low overlap."
+      },
+      "solver_a_matched": true,
+      "solver_b_matched": false,
+      "distractor_errors": [
+        "ANSWER_MISMATCH: Generator answer 'B' does not match solver calculated answer 'D'",
+        "SOLVER_VERDICT_CONFLICT: Solver returned 'CONFLICT' for 'gen-q-wrong-ans-01'",
+        "NON_UNIQUE_ANSWER: Solver reported non-unique solution for 'gen-q-wrong-ans-01'"
+      ],
+      "status": "ROUTED_TO_REVIEW"
+    }
+  },
+  "generated_at": "2026-09-29T03:54:46.447451+00:00"
+}

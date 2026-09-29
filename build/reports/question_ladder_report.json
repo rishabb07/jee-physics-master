@@ -1,0 +1,52 @@
+{
+  "report_id": "ladder-audit-report-01",
+  "ladder_id": "ladder-rot-angmom-cognitive-01",
+  "title": "Cognitive Scaffolding Ladder: Angular Momentum from Particle to Composite Rigid Disc",
+  "total_rungs": 4,
+  "errors": [],
+  "valid": true,
+  "rungs": [
+    {
+      "rung_number": 1,
+      "cognitive_level": "DIRECT_APPLICATION",
+      "question_id": "rotational-motion-question-6c7cb960",
+      "prerequisite_rungs": [],
+      "cognitive_delta": "Direct application of L = r x p = m v d for linear motion past origin",
+      "pedagogical_purpose": "Establish baseline definition and origin dependence of particle angular momentum"
+    },
+    {
+      "rung_number": 2,
+      "cognitive_level": "RECOGNITION",
+      "question_id": "gen-q-rot-misc-01",
+      "prerequisite_rungs": [
+        1
+      ],
+      "cognitive_delta": "Confront pitfall that straight-line motion supposedly has zero angular momentum",
+      "pedagogical_purpose": "Eliminate common misconception and solidify coordinate independence of perpendicular distance"
+    },
+    {
+      "rung_number": 3,
+      "cognitive_level": "CONCEPT_COMBINATION",
+      "question_id": "gen-q-rot-angmom-01",
+      "prerequisite_rungs": [
+        1,
+        2
+      ],
+      "cognitive_delta": "Combine rigid body disc moment of inertia with moving point mass and conservation law",
+      "pedagogical_purpose": "Bridge particle angular momentum to rotating rigid bodies with time-varying geometry"
+    },
+    {
+      "rung_number": 4,
+      "cognitive_level": "ADVANCED_SYNTHESIS",
+      "question_id": "rotational-motion-question-84f91c20",
+      "prerequisite_rungs": [
+        1,
+        2,
+        3
+      ],
+      "cognitive_delta": "Synthesize continuous time-dependent radial motion omega(t) with mechanical energy transformation",
+      "pedagogical_purpose": "Master JEE Advanced multi-concept synthesis under non-conservative internal forces"
+    }
+  ],
+  "generated_at": "2026-09-29T03:54:46.438925+00:00"
+}

@@ -1,0 +1,153 @@
+[
+  {
+    "atom_id": "ray-optics-question-e04c1df3",
+    "locator": "Section - A, Q1",
+    "status": "ALREADY_CANONICAL"
+  },
+  {
+    "atom_id": "gravitation-question-687b3c83",
+    "locator": "Section - A, Q2",
+    "status": "ALREADY_CANONICAL"
+  },
+  {
+    "atom_id": "laws-of-motion-question-e37050bb",
+    "locator": "Section - A, Q3",
+    "status": "ALREADY_CANONICAL"
+  },
+  {
+    "atom_id": "rotational-motion-question-6c7cb960",
+    "locator": "Section - A, Q4",
+    "status": "ALREADY_CANONICAL"
+  },
+  {
+    "atom_id": "thermodynamics-question-3fe51020",
+    "locator": "Section - A, Q5",
+    "status": "ALREADY_CANONICAL"
+  },
+  {
+    "atom_id": "center-of-mass-question-95affcbc",
+    "locator": "Section - A, Q6",
+    "status": "ALREADY_CANONICAL"
+  },
+  {
+    "atom_id": "waves-question-01c8e233",
+    "locator": "Section - A, Q7",
+    "status": "ALREADY_CANONICAL"
+  },
+  {
+    "atom_id": "wave-optics-question-49253758",
+    "locator": "Section - A, Q8",
+    "status": "ALREADY_CANONICAL"
+  },
+  {
+    "atom_id": "em-induction-question-8a88475e",
+    "locator": "Section - A, Q9",
+    "status": "ALREADY_CANONICAL"
+  },
+  {
+    "atom_id": "electrostatics-question-26848976",
+    "locator": "Section - A, Q10",
+    "status": "ALREADY_CANONICAL"
+  },
+  {
+    "atom_id": "kinematics-question-b29767c8",
+    "locator": "Section - A, Q11",
+    "status": "ALREADY_CANONICAL"
+  },
+  {
+    "atom_id": "rotational-motion-question-f7cbecda",
+    "locator": "Section - A, Q12",
+    "status": "ALREADY_CANONICAL"
+  },
+  {
+    "atom_id": "current-electricity-question-d2492f7f",
+    "locator": "Section - A, Q13",
+    "status": "ALREADY_CANONICAL"
+  },
+  {
+    "atom_id": "thermodynamics-question-71b685c0",
+    "locator": "Section - A, Q14",
+    "status": "ALREADY_CANONICAL"
+  },
+  {
+    "atom_id": "electrostatics-question-132c25d1",
+    "locator": "Section - A, Q15",
+    "status": "ALREADY_CANONICAL"
+  },
+  {
+    "atom_id": "fluid-mechanics-question-71ea5e08",
+    "locator": "Section - A, Q16",
+    "status": "ALREADY_CANONICAL"
+  },
+  {
+    "atom_id": "oscillations-question-d21a08b6",
+    "locator": "Section - A, Q17",
+    "status": "ALREADY_CANONICAL"
+  },
+  {
+    "atom_id": "properties-of-solids-question-2d7d920e",
+    "locator": "Section - A, Q18",
+    "status": "ALREADY_CANONICAL"
+  },
+  {
+    "atom_id": "laws-of-motion-question-ba0b4106",
+    "locator": "Section - A, Q19",
+    "status": "ALREADY_CANONICAL"
+  },
+  {
+    "atom_id": "magnetism-and-matter-question-3c3af9c7",
+    "locator": "Section - A, Q20",
+    "status": "PROMOTED",
+    "answer": "C"
+  },
+  {
+    "atom_id": "current-electricity-question-ce6aab7f",
+    "locator": "Section - B, Q21",
+    "status": "ALREADY_CANONICAL"
+  },
+  {
+    "atom_id": "fluid-mechanics-question-870c4110",
+    "locator": "Section - B, Q22",
+    "status": "ALREADY_CANONICAL"
+  },
+  {
+    "atom_id": "nuclear-physics-question-4e1b8a32",
+    "locator": "Section - B, Q23",
+    "status": "ALREADY_CANONICAL"
+  },
+  {
+    "atom_id": "thermal-physics-question-5f2c9b43",
+    "locator": "Section - B, Q24",
+    "status": "ALREADY_CANONICAL"
+  },
+  {
+    "atom_id": "semiconductors-question-6a3d0c54",
+    "locator": "Section - B, Q25",
+    "status": "ALREADY_CANONICAL"
+  },
+  {
+    "atom_id": "kinematics-question-7b4e1d65",
+    "locator": "Section - B, Q26",
+    "status": "ALREADY_CANONICAL"
+  },
+  {
+    "atom_id": "communication-systems-question-8c5f2e76",
+    "locator": "Section - B, Q27",
+    "status": "ALREADY_CANONICAL"
+  },
+  {
+    "atom_id": "semiconductors-question-9d6a3f87",
+    "locator": "Section - B, Q28",
+    "status": "ALREADY_CANONICAL"
+  },
+  {
+    "atom_id": "magnetic-effects-of-current-question-0e7b4a98",
+    "locator": "Section - B, Q29",
+    "status": "ALREADY_CANONICAL"
+  },
+  {
+    "atom_id": "thermal-physics-question-1f8c5ba9",
+    "locator": "Section - B, Q30",
+    "status": "ALREADY_CANONICAL"
+  }
+]

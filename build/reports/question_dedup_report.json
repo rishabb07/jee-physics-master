@@ -1,0 +1,109 @@
+{
+  "report_id": "qdedup-report-20260929-035446",
+  "total_evaluated": 11,
+  "duplicates_detected": 1,
+  "distinct_approved": 10,
+  "uncertain_routed_to_review": 0,
+  "results": [
+    {
+      "question_id": "gen-q-ambig-test-01",
+      "is_duplicate": false,
+      "decision_class": "RELATED_BUT_DISTINCT",
+      "recommended_action": "KEEP_SEPARATE",
+      "matched_target_id": null,
+      "similarity_score": 0.0,
+      "rationale": "Genuinely novel physical problem setup with low overlap."
+    },
+    {
+      "question_id": "gen-q-curr-num-01",
+      "is_duplicate": false,
+      "decision_class": "RELATED_BUT_DISTINCT",
+      "recommended_action": "KEEP_SEPARATE",
+      "matched_target_id": null,
+      "similarity_score": 0.0,
+      "rationale": "Genuinely novel physical problem setup with low overlap."
+    },
+    {
+      "question_id": "gen-q-curr-src-deriv-01",
+      "is_duplicate": false,
+      "decision_class": "RELATED_BUT_DISTINCT",
+      "recommended_action": "KEEP_SEPARATE",
+      "matched_target_id": null,
+      "similarity_score": 0.0,
+      "rationale": "Genuinely novel physical problem setup with low overlap."
+    },
+    {
+      "question_id": "gen-q-dist-conflict-01",
+      "is_duplicate": false,
+      "decision_class": "RELATED_BUT_DISTINCT",
+      "recommended_action": "KEEP_SEPARATE",
+      "matched_target_id": null,
+      "similarity_score": 0.0,
+      "rationale": "Genuinely novel physical problem setup with low overlap."
+    },
+    {
+      "question_id": "gen-q-dup-test-01",
+      "is_duplicate": true,
+      "decision_class": "SEMANTIC_DUPLICATE",
+      "recommended_action": "MERGE",
+      "matched_target_id": "current-electricity-question-ce6aab7f",
+      "similarity_score": 0.92,
+      "rationale": "Identical physical problem: copper wire stretched to double length under volume conservation."
+    },
+    {
+      "question_id": "gen-q-opt-conc-01",
+      "is_duplicate": false,
+      "decision_class": "RELATED_BUT_DISTINCT",
+      "recommended_action": "KEEP_SEPARATE",
+      "matched_target_id": null,
+      "similarity_score": 0.0,
+      "rationale": "Genuinely novel physical problem setup with low overlap."
+    },
+    {
+      "question_id": "gen-q-rot-angmom-01",
+      "is_duplicate": false,
+      "decision_class": "RELATED_BUT_DISTINCT",
+      "recommended_action": "KEEP_SEPARATE",
+      "matched_target_id": null,
+      "similarity_score": 0.0,
+      "rationale": "Genuinely novel physical problem setup with low overlap."
+    },
+    {
+      "question_id": "gen-q-rot-misc-01",
+      "is_duplicate": false,
+      "decision_class": "RELATED_BUT_DISTINCT",
+      "recommended_action": "KEEP_SEPARATE",
+      "matched_target_id": null,
+      "similarity_score": 0.0,
+      "rationale": "Genuinely novel physical problem setup with low overlap."
+    },
+    {
+      "question_id": "gen-q-td-mcq-multi-01",
+      "is_duplicate": false,
+      "decision_class": "RELATED_BUT_DISTINCT",
+      "recommended_action": "KEEP_SEPARATE",
+      "matched_target_id": null,
+      "similarity_score": 0.0,
+      "rationale": "Genuinely novel physical problem setup with low overlap."
+    },
+    {
+      "question_id": "gen-q-td-multi-01",
+      "is_duplicate": false,
+      "decision_class": "RELATED_BUT_DISTINCT",
+      "recommended_action": "KEEP_SEPARATE",
+      "matched_target_id": null,
+      "similarity_score": 0.0,
+      "rationale": "Genuinely novel physical problem setup with low overlap."
+    },
+    {
+      "question_id": "gen-q-wrong-ans-01",
+      "is_duplicate": false,
+      "decision_class": "RELATED_BUT_DISTINCT",
+      "recommended_action": "KEEP_SEPARATE",
+      "matched_target_id": null,
+      "similarity_score": 0.0,
+      "rationale": "Genuinely novel physical problem setup with low overlap."
+    }
+  ],
+  "generated_at": "2026-09-29T03:54:46.430695Z"
+}

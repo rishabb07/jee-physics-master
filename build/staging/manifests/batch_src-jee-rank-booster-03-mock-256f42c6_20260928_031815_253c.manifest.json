@@ -1,0 +1,48 @@
+{
+  "manifest_id": "man-batch_src-jee-rank-booster-03-mock-256f42c6_20260928_031815_253c",
+  "job_type": "ATOMIZE",
+  "stage": "EXTRACTION",
+  "input_files": [
+    {
+      "file_path": "sources/raw/jee_rank_booster-03_mock_paper.pdf",
+      "sha256": "256f42c67a9271aaafe4bf637eb34cddd10da959cdf7a66fc6fee76a68d34361",
+      "size_bytes": 1018268
+    }
+  ],
+  "output_files": [
+    {
+      "file_path": "build/staging/atoms/batch_src-jee-rank-booster-03-mock-256f42c6_20260928_031815_253c.jsonl",
+      "sha256": "4497d99cc09ed473ece66156846fa77c8ab6401f84e4ffbddacb358c0127b36c",
+      "size_bytes": 25192
+    }
+  ],
+  "generated_atom_ids": [
+    "rotational-motion-question-f7cbecda",
+    "current-electricity-question-d2492f7f",
+    "thermodynamics-question-71b685c0",
+    "electrostatics-question-132c25d1",
+    "fluid-mechanics-question-71ea5e08",
+    "oscillations-question-d21a08b6",
+    "properties-of-solids-question-2d7d920e",
+    "laws-of-motion-question-ba0b4106",
+    "magnetism-and-matter-question-3c3af9c7",
+    "units-and-measurements-theory-3c64e93e",
+    "current-electricity-question-ce6aab7f",
+    "fluid-mechanics-question-870c4110"
+  ],
+  "status": "COMPLETED",
+  "error_message": null,
+  "metadata": {
+    "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+    "source_version": 1,
+    "worker_id": "physics-atomizer",
+    "pages_processed": [
+      4,
+      5
+    ],
+    "validation_failures": 0,
+    "review_items_queued": 0
+  },
+  "created_at": "2026-09-28T03:18:15.167873Z",
+  "completed_at": null
+}

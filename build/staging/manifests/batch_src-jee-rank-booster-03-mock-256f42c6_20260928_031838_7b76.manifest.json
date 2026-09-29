@@ -1,0 +1,49 @@
+{
+  "manifest_id": "man-batch_src-jee-rank-booster-03-mock-256f42c6_20260928_031838_7b76",
+  "job_type": "ATOMIZE",
+  "stage": "EXTRACTION",
+  "input_files": [
+    {
+      "file_path": "sources/raw/jee_rank_booster-03_mock_paper.pdf",
+      "sha256": "256f42c67a9271aaafe4bf637eb34cddd10da959cdf7a66fc6fee76a68d34361",
+      "size_bytes": 1018268
+    }
+  ],
+  "output_files": [
+    {
+      "file_path": "build/staging/atoms/batch_src-jee-rank-booster-03-mock-256f42c6_20260928_031838_7b76.jsonl",
+      "sha256": "9d7f40061da08473908fe1c45b9347c089a361340631045049832b0225da70b7",
+      "size_bytes": 25587
+    }
+  ],
+  "generated_atom_ids": [
+    "general-theory-45133a4c",
+    "ray-optics-question-e04c1df3",
+    "gravitation-question-687b3c83",
+    "laws-of-motion-question-e37050bb",
+    "rotational-motion-question-6c7cb960",
+    "thermodynamics-question-3fe51020",
+    "center-of-mass-question-95affcbc",
+    "waves-question-01c8e233",
+    "wave-optics-question-49253758",
+    "em-induction-question-8a88475e",
+    "electrostatics-question-26848976",
+    "kinematics-question-b29767c8"
+  ],
+  "status": "COMPLETED",
+  "error_message": null,
+  "metadata": {
+    "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+    "source_version": 1,
+    "worker_id": "physics-atomizer",
+    "pages_processed": [
+      1,
+      2,
+      3
+    ],
+    "validation_failures": 0,
+    "review_items_queued": 0
+  },
+  "created_at": "2026-09-28T03:18:38.658648Z",
+  "completed_at": null
+}

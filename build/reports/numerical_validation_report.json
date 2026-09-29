@@ -1,0 +1,162 @@
+{
+  "report_id": "numerical-validation-phase8-pilot",
+  "total_examples_audited": 4,
+  "passed_count": 4,
+  "failed_count": 0,
+  "examples": [
+    {
+      "example_id": "ex-rot-angmom-disc-01",
+      "chapter_id": "rotational-motion",
+      "all_checks_passed": true,
+      "arithmetic_valid": true,
+      "dimensions_valid": true,
+      "units_valid": true,
+      "limits_valid": true,
+      "checks": [
+        {
+          "check_name": "conservation_ratio_formula",
+          "passed": true,
+          "expected_value": "M / (M + 2m) = 0.8333",
+          "computed_value": "0.8333",
+          "tolerance": 0.0001,
+          "notes": "Angular velocity decreases strictly because moment of inertia increases"
+        },
+        {
+          "check_name": "kinetic_energy_loss_check",
+          "passed": true,
+          "expected_value": "Delta K = K_i * (2m / (M + 2m))",
+          "computed_value": "K_i=12.50 J, K_f=10.42 J, loss=2.08 J",
+          "tolerance": 0.0001,
+          "notes": "Mechanical energy is not conserved due to internal radial work by insect"
+        },
+        {
+          "check_name": "limiting_case_zero_insect_mass",
+          "passed": true,
+          "expected_value": "10.0 rad/s",
+          "computed_value": "10.0 rad/s",
+          "tolerance": 0.0001,
+          "notes": "Zero mass insect produces zero angular speed perturbation"
+        }
+      ],
+      "verified_answer": "\\omega_f = \\omega_0 \\frac{M}{M + 2m}"
+    },
+    {
+      "example_id": "ex-td-adiabatic-compression-01",
+      "chapter_id": "thermodynamics",
+      "all_checks_passed": true,
+      "arithmetic_valid": true,
+      "dimensions_valid": true,
+      "units_valid": true,
+      "limits_valid": true,
+      "checks": [
+        {
+          "check_name": "adiabatic_temperature_ratio",
+          "passed": true,
+          "expected_value": "32^0.4 = 4.0",
+          "computed_value": "4.0000",
+          "tolerance": 0.0001,
+          "notes": "Exact integer power 4.0 confirmed from 2^(5 * 0.4) = 2^2 = 4"
+        },
+        {
+          "check_name": "final_temperature_value",
+          "passed": true,
+          "expected_value": "1200 K",
+          "computed_value": "1200.0 K",
+          "tolerance": 0.0001,
+          "notes": "T2 = 300 * 4 = 1200 K exactly"
+        },
+        {
+          "check_name": "adiabatic_pressure_ratio",
+          "passed": true,
+          "expected_value": "32^1.4 = 128.0",
+          "computed_value": "128.0",
+          "tolerance": 0.0001,
+          "notes": "Exact power 2^7 = 128 confirmed"
+        },
+        {
+          "check_name": "compression_work_sign_and_value",
+          "passed": true,
+          "expected_value": "-18706.5 J/mol",
+          "computed_value": "-18706.5 J/mol",
+          "tolerance": 0.0001,
+          "notes": "Work is done on the gas, so work done by gas is negative"
+        }
+      ],
+      "verified_answer": "T_2 = 1200\\text{ K},\\quad W = -18.71\\text{ kJ/mol}"
+    },
+    {
+      "example_id": "ex-curr-recast-wire-01",
+      "chapter_id": "current-electricity",
+      "all_checks_passed": true,
+      "arithmetic_valid": true,
+      "dimensions_valid": true,
+      "units_valid": true,
+      "limits_valid": true,
+      "checks": [
+        {
+          "check_name": "volume_conservation_elongation",
+          "passed": true,
+          "expected_value": "L2 / L1 = (r1 / r2)^2 = 4.0",
+          "computed_value": "4.0",
+          "tolerance": 0.0001,
+          "notes": "Wire length quadruples when radius is halved under volume conservation"
+        },
+        {
+          "check_name": "resistance_fourth_power_law",
+          "passed": true,
+          "expected_value": "(r1 / r2)^4 = 16.0",
+          "computed_value": "16.0",
+          "tolerance": 0.0001,
+          "notes": "Resistance scales inversely with the 4th power of radius"
+        },
+        {
+          "check_name": "final_resistance_value",
+          "passed": true,
+          "expected_value": "160.0 Ohm",
+          "computed_value": "160.0 Ohm",
+          "tolerance": 0.0001,
+          "notes": "Correctly refutes intuitive trap value 40 Ohm"
+        }
+      ],
+      "verified_answer": "R_2 = 160\\,\\Omega"
+    },
+    {
+      "example_id": "ex-opt-tir-prism-water-01",
+      "chapter_id": "ray-optics",
+      "all_checks_passed": true,
+      "arithmetic_valid": true,
+      "dimensions_valid": true,
+      "units_valid": true,
+      "limits_valid": true,
+      "checks": [
+        {
+          "check_name": "critical_angle_calculation",
+          "passed": true,
+          "expected_value": "sin(theta_c) = 8/9 ~ 0.8889, theta_c ~ 62.73 deg",
+          "computed_value": "sin=0.8889, theta_c=62.73 deg",
+          "tolerance": 0.0001,
+          "notes": "Critical angle in water is 62.73 deg"
+        },
+        {
+          "check_name": "tir_condition_check",
+          "passed": true,
+          "expected_value": "TIR does NOT occur (theta_i = 45 deg < theta_c = 62.73 deg)",
+          "computed_value": "theta_i=45.0 deg < theta_c=62.73 deg -> TIR False",
+          "tolerance": 0.0001,
+          "notes": "Refutes false intuition that 45 deg prism always reflects totally"
+        },
+        {
+          "check_name": "angle_of_refraction_calculation",
+          "passed": true,
+          "expected_value": "sin(r) = 9/(8*sqrt(2)) ~ 0.7955 -> r ~ 52.70 deg",
+          "computed_value": "sin(r)=0.7955, r=52.70 deg",
+          "tolerance": 0.0001,
+          "notes": "Light emerges refracted into water at 52.70 deg to the normal"
+        }
+      ],
+      "verified_answer": "\\text{No TIR, } r = 52.70^\\circ"
+    }
+  ],
+  "all_passed": true,
+  "generated_at": "2026-09-29T15:17:25.836255Z"
+}

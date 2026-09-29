@@ -1,0 +1,28 @@
+{
+  "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+  "file_name": "jee_rank_booster-03_mock_paper.pdf",
+  "batch_id": "batch_src-jee-rank-booster-03-mock-256f42c6_20260928_031815_253c",
+  "pages_processed": [
+    4,
+    5
+  ],
+  "total_atoms_staged": 12,
+  "atoms_by_type": {
+    "question": 11,
+    "theory": 1
+  },
+  "confidence_distribution": {
+    "HIGH": 12,
+    "MEDIUM": 0,
+    "LOW": 0
+  },
+  "questions_extracted": 11,
+  "figures_detected": 4,
+  "validation_failures": 0,
+  "review_items_queued": 0,
+  "warnings": [],
+  "pages_with_no_atoms": [],
+  "staged_atoms_file": "build/staging/atoms/batch_src-jee-rank-booster-03-mock-256f42c6_20260928_031815_253c.jsonl",
+  "manifest_file": "build/staging/manifests/batch_src-jee-rank-booster-03-mock-256f42c6_20260928_031815_253c.manifest.json",
+  "created_at": "2026-09-28T03:18:15.173107+00:00"
+}

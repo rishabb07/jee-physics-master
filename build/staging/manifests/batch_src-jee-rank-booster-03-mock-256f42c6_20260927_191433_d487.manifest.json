@@ -1,0 +1,49 @@
+{
+  "manifest_id": "man-batch_src-jee-rank-booster-03-mock-256f42c6_20260927_191433_d487",
+  "job_type": "ATOMIZE",
+  "stage": "EXTRACTION",
+  "input_files": [
+    {
+      "file_path": "sources/raw/jee_rank_booster-03_mock_paper.pdf",
+      "sha256": "256f42c67a9271aaafe4bf637eb34cddd10da959cdf7a66fc6fee76a68d34361",
+      "size_bytes": 1018268
+    }
+  ],
+  "output_files": [
+    {
+      "file_path": "build/staging/atoms/batch_src-jee-rank-booster-03-mock-256f42c6_20260927_191433_d487.jsonl",
+      "sha256": "7869d4970242445b1a371eaca60bab5c71476f1bd94664bd8dc118cfcead530f",
+      "size_bytes": 21735
+    }
+  ],
+  "generated_atom_ids": [
+    "general-physics-theory-61b36f06",
+    "optics-question-7b47aba9",
+    "gravitation-question-08b97029",
+    "mechanics-question-dd1e197a",
+    "mechanics-question-5f0c1d6f",
+    "thermal-physics-question-10cd565a",
+    "mechanics-question-eba7bc2d",
+    "waves-question-e3a450f3",
+    "optics-question-6cd74209",
+    "electrodynamics-question-2d514999",
+    "electrodynamics-question-84e9bba3",
+    "mechanics-question-1a3244f6"
+  ],
+  "status": "COMPLETED",
+  "error_message": null,
+  "metadata": {
+    "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+    "source_version": 1,
+    "worker_id": "physics-atomizer-v1",
+    "pages_processed": [
+      1,
+      2,
+      3
+    ],
+    "validation_failures": 0,
+    "review_items_queued": 0
+  },
+  "created_at": "2026-09-27T19:14:33.911821Z",
+  "completed_at": null
+}

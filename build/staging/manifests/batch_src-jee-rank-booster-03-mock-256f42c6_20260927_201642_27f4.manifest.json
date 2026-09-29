@@ -1,0 +1,44 @@
+{
+  "manifest_id": "man-batch_src-jee-rank-booster-03-mock-256f42c6_20260927_201642_27f4",
+  "job_type": "ATOMIZE",
+  "stage": "EXTRACTION",
+  "input_files": [
+    {
+      "file_path": "sources/raw/jee_rank_booster-03_mock_paper.pdf",
+      "sha256": "256f42c67a9271aaafe4bf637eb34cddd10da959cdf7a66fc6fee76a68d34361",
+      "size_bytes": 1018268
+    }
+  ],
+  "output_files": [
+    {
+      "file_path": "build/staging/atoms/batch_src-jee-rank-booster-03-mock-256f42c6_20260927_201642_27f4.jsonl",
+      "sha256": "c75d4cc877522aa30c0dbfbd6b8b3ab4ed3275e3956bb15f83d453e6a0187aed",
+      "size_bytes": 15385
+    }
+  ],
+  "generated_atom_ids": [
+    "nuclear-physics-question-4e1b8a32",
+    "thermal-physics-question-5f2c9b43",
+    "semiconductors-question-6a3d0c54",
+    "kinematics-question-7b4e1d65",
+    "communication-systems-question-8c5f2e76",
+    "semiconductors-question-9d6a3f87",
+    "magnetic-effects-of-current-question-0e7b4a98",
+    "thermal-physics-question-1f8c5ba9"
+  ],
+  "status": "COMPLETED",
+  "error_message": null,
+  "metadata": {
+    "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+    "source_version": 1,
+    "worker_id": "physics-atomizer",
+    "pages_processed": [
+      6,
+      7
+    ],
+    "validation_failures": 0,
+    "review_items_queued": 0
+  },
+  "created_at": "2026-09-27T20:16:42.551959Z",
+  "completed_at": null
+}
