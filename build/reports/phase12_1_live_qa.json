@@ -1,0 +1,246 @@
+{
+  "deployment_metadata": {
+    "git_commit": "43e1adc",
+    "version": "1.0.0-pilot",
+    "scope": "PILOT",
+    "generated_at": null,
+    "files_count": 13
+  },
+  "network_asset_integrity": {
+    "index.html": {
+      "status": "HTTP_200_OK",
+      "size_bytes": 3822
+    },
+    "css/app.css": {
+      "status": "HTTP_200_OK",
+      "size_bytes": 17231
+    },
+    "js/app.js": {
+      "status": "HTTP_200_OK",
+      "size_bytes": 6092
+    },
+    "vendor/katex/katex.min.js": {
+      "status": "HTTP_200_OK",
+      "size_bytes": 277038
+    },
+    "vendor/katex/katex.min.css": {
+      "status": "HTTP_200_OK",
+      "size_bytes": 23196
+    },
+    "vendor/katex/fonts/KaTeX_Main-Regular.woff2": {
+      "status": "HTTP_200_OK",
+      "size_bytes": 26272
+    },
+    "vendor/katex/fonts/KaTeX_Math-Italic.woff2": {
+      "status": "HTTP_200_OK",
+      "size_bytes": 16440
+    },
+    "vendor/katex/fonts/KaTeX_Size1-Regular.woff2": {
+      "status": "HTTP_200_OK",
+      "size_bytes": 5468
+    },
+    "vendor/katex/fonts/KaTeX_AMS-Regular.woff2": {
+      "status": "HTTP_200_OK",
+      "size_bytes": 28076
+    },
+    "vendor/katex/fonts/KaTeX_Caligraphic-Regular.woff2": {
+      "status": "HTTP_200_OK",
+      "size_bytes": 6908
+    }
+  },
+  "data_bundle_hashes": {
+    "total_files": 13,
+    "matches": 13,
+    "mismatches": 0,
+    "details": {
+      "prerequisites.json": {
+        "status": "MATCH",
+        "sha256": "41ccc9974491bd48795049b94be3ed291288be73803cd614ff953baddde6daec",
+        "size": 33324
+      },
+      "concepts.json": {
+        "status": "MATCH",
+        "sha256": "967de6cc9d6f92f3e12552b62c6e871d9cfa29b34ed7bbed6666be8cd794b3d1",
+        "size": 60327
+      },
+      "chapter_rotational-motion.json": {
+        "status": "MATCH",
+        "sha256": "cd9e62df92f8973122d5b58daabddd59063fa8851eef3f66e2058e559ca02597",
+        "size": 63780
+      },
+      "taxonomy.json": {
+        "status": "MATCH",
+        "sha256": "676eb4f0ba356519e28659905f8be01137dd3b2f3998155256108f6661991d38",
+        "size": 33955
+      },
+      "chapter_current-electricity.json": {
+        "status": "MATCH",
+        "sha256": "86c3d6aa44e5694f7d78b06bfaefb988e09291c7a707c2e2fbadc611947be43b",
+        "size": 54531
+      },
+      "chapter_thermodynamics.json": {
+        "status": "MATCH",
+        "sha256": "23c5ccd0147fe2e67b162ea918664f650e00be670026901341b8ea9bc9971a34",
+        "size": 53259
+      },
+      "ladders.json": {
+        "status": "MATCH",
+        "sha256": "4ed30e8dcccd7a41accbcb28297f2fdaf1c1739b84f76719bedc8ee61b752181",
+        "size": 3460
+      },
+      "chapter_ray-optics.json": {
+        "status": "MATCH",
+        "sha256": "0c412f668ae9ba81932f21da0b5bf9084b8c2ba83101ce6bceb872448eeaeb2b",
+        "size": 49503
+      },
+      "questions.json": {
+        "status": "MATCH",
+        "sha256": "aceef36f23da278e4c495d3c591d671c489abfa2dad01f51048684fc76cbd557",
+        "size": 31853
+      },
+      "search_index.json": {
+        "status": "MATCH",
+        "sha256": "1d07da68d235a9460a78140e7ba1c7f25f7fb71f54fc7f01c9278c0112128d74",
+        "size": 226569
+      },
+      "chapter_kinematics.json": {
+        "status": "MATCH",
+        "sha256": "50fa1e1c60890469c96183c0b756d6a38eb9a7eb28938bef94a753ecd1f36a7f",
+        "size": 84944
+      },
+      "chapters.json": {
+        "status": "MATCH",
+        "sha256": "28e25dc6661705d625eb09b69723c53e3a9f4a8154eaef42189713f686efa6cf",
+        "size": 14414
+      },
+      "formulas.json": {
+        "status": "MATCH",
+        "sha256": "bd97233ff447c3fa942d9302ac96ebd02d349df9e0f275eae23a28fed159f386",
+        "size": 28387
+      }
+    }
+  },
+  "route_smoke_tests": {
+    "/": {
+      "label": "Home / Overview",
+      "dom_bytes": 23241,
+      "katex_elements_count": 5,
+      "missing_expected_strings": [],
+      "verdict": "PASSED"
+    },
+    "/curriculum": {
+      "label": "Curriculum DAG View",
+      "dom_bytes": 61025,
+      "katex_elements_count": 5,
+      "missing_expected_strings": [],
+      "verdict": "PASSED"
+    },
+    "/formulas": {
+      "label": "Formula Sheet",
+      "dom_bytes": 189584,
+      "katex_elements_count": 105,
+      "missing_expected_strings": [],
+      "verdict": "PASSED"
+    },
+    "/practice": {
+      "label": "Practice Question Bank",
+      "dom_bytes": 453878,
+      "katex_elements_count": 663,
+      "missing_expected_strings": [],
+      "verdict": "PASSED"
+    },
+    "/ladders": {
+      "label": "Question Ladders",
+      "dom_bytes": 26545,
+      "katex_elements_count": 5,
+      "missing_expected_strings": [],
+      "verdict": "PASSED"
+    },
+    "/chapter/kinematics": {
+      "label": "Kinematics Flagship Chapter",
+      "dom_bytes": 880360,
+      "katex_elements_count": 708,
+      "missing_expected_strings": [],
+      "verdict": "PASSED"
+    },
+    "/chapter/rotational-motion": {
+      "label": "Pilot Chapter: Rotational Motion",
+      "dom_bytes": 549729,
+      "katex_elements_count": 707,
+      "missing_expected_strings": [],
+      "verdict": "PASSED"
+    },
+    "/chapter/thermodynamics": {
+      "label": "Pilot Chapter: Thermodynamics",
+      "dom_bytes": 443833,
+      "katex_elements_count": 787,
+      "missing_expected_strings": [],
+      "verdict": "PASSED"
+    },
+    "/chapter/current-electricity": {
+      "label": "Pilot Chapter: Current Electricity",
+      "dom_bytes": 509877,
+      "katex_elements_count": 691,
+      "missing_expected_strings": [],
+      "verdict": "PASSED"
+    },
+    "/chapter/ray-optics": {
+      "label": "Pilot Chapter: Ray Optics",
+      "dom_bytes": 420764,
+      "katex_elements_count": 634,
+      "missing_expected_strings": [],
+      "verdict": "PASSED"
+    }
+  },
+  "responsive_layout_tests": {
+    "mobile_375x667": {
+      "dom_bytes": 880360,
+      "katex_count": 708,
+      "has_kinematics_title": true,
+      "has_all_sections": true,
+      "verdict": "PASSED"
+    },
+    "desktop_1440x900": {
+      "dom_bytes": 880360,
+      "katex_count": 708,
+      "has_kinematics_title": true,
+      "has_all_sections": true,
+      "verdict": "PASSED"
+    }
+  },
+  "search_verification": {
+    "total_items": 135,
+    "entity_type_breakdown": {
+      "chapter": 30,
+      "concept": 20,
+      "formula": 25,
+      "derivation": 19,
+      "example": 9,
+      "misconception": 13,
+      "question": 19
+    },
+    "kinematics_items_total": 39,
+    "kinematics_keyword_matches": 42,
+    "kinematics_entity_breakdown": {
+      "chapter": 1,
+      "concept": 8,
+      "formula": 12,
+      "derivation": 6,
+      "example": 5,
+      "misconception": 5,
+      "question": 2
+    },
+    "verdict": "PASSED"
+  },
+  "interactive_elements_audit": {
+    "formula_blocks_present": true,
+    "worked_examples_present": true,
+    "misconceptions_present": true,
+    "practice_questions_present": true,
+    "interactive_controls_present": true,
+    "total_katex_instances_in_kinematics": 708,
+    "verdict": "PASSED"
+  },
+  "all_checks_passed": true,
+  "final_verdict": "PHASE_12_1_LIVE_QA_PROVEN"
+}
