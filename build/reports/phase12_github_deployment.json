@@ -1,0 +1,116 @@
+{
+  "report_id": "phase12-github-deployment-20261002-075700",
+  "phase": "PHASE_12",
+  "status": "PHASE_12_LIVE_DEPLOYMENT_PROVEN",
+  "timestamp": "2026-10-02T07:57:00Z",
+  "repository": {
+    "url": "https://github.com/rishabb07/jee-physics-master",
+    "branch": "master",
+    "latest_commit_sha": "05571839c4a45a337851333ea644eb976ec4830a",
+    "commit_short_sha": "0557183",
+    "commit_message": "fix(ci): add pythonpath to pytest config, use dynamic port in devserver, and capture annotations",
+    "feature_commit_sha": "6f4a3da2e82372f018c70dcc6845a8c679177816",
+    "feature_commit_message": "feat: add verified kinematics chapter",
+    "push_result": "SUCCESS"
+  },
+  "github_actions": {
+    "run_id": 36980990389,
+    "run_url": "https://github.com/rishabb07/jee-physics-master/actions/runs/36980990389",
+    "status": "completed",
+    "conclusion": "success",
+    "jobs": [
+      {
+        "name": "Validate, Audit, and Compile Web Application",
+        "job_id": 110754877797,
+        "status": "completed",
+        "conclusion": "success",
+        "steps": [
+          {"name": "Set up job", "conclusion": "success"},
+          {"name": "Checkout Repository", "conclusion": "success"},
+          {"name": "Set up Python 3.12", "conclusion": "success"},
+          {"name": "Install Dependencies", "conclusion": "success"},
+          {"name": "Run Repository Test Suite", "conclusion": "success"},
+          {"name": "Compile Production Web Distribution", "conclusion": "success"},
+          {"name": "Audit Release Integrity", "conclusion": "success"},
+          {"name": "Validate Offline KaTeX Assets", "conclusion": "success"},
+          {"name": "Upload Pages Artifact", "conclusion": "success"}
+        ]
+      },
+      {
+        "name": "Deploy to Production Web Host",
+        "job_id": 110755088289,
+        "status": "completed",
+        "conclusion": "success",
+        "steps": [
+          {"name": "Set up job", "conclusion": "success"},
+          {"name": "Deploy to GitHub Pages", "conclusion": "success"}
+        ]
+      }
+    ]
+  },
+  "deployment": {
+    "environment": "github-pages",
+    "live_url": "https://rishabb07.github.io/jee-physics-master/#/",
+    "deployment_conclusion": "success"
+  },
+  "local_validation": {
+    "total_tests": 263,
+    "passed_tests": 263,
+    "failed_tests": 0,
+    "headless_ci_simulation_passed": true,
+    "release_audit_passed": true,
+    "offline_katex_fonts_count": 20,
+    "canonical_kb_immutable": true,
+    "taxonomy_immutable": true
+  },
+  "live_site_validation": {
+    "manifest_url": "https://rishabb07.github.io/jee-physics-master/data/manifest.json",
+    "scope": "PILOT",
+    "total_chapters": 30,
+    "pilot_active_chapters_count": 5,
+    "pilot_active_chapters": [
+      "kinematics",
+      "rotational-motion",
+      "thermodynamics",
+      "current-electricity",
+      "ray-optics"
+    ],
+    "hash_parity_verified": true,
+    "total_hashed_files_verified": 13,
+    "kinematics_chapter": {
+      "chapter_id": "kinematics",
+      "title": "Kinematics: Rest, Motion, and Trajectories",
+      "branch": "Mechanics",
+      "status": "PILOT_ACTIVE",
+      "sections_count": 4,
+      "concepts_count": 8,
+      "formulas_count": 12,
+      "derivations_count": 9,
+      "worked_examples_count": 5,
+      "misconceptions_count": 5,
+      "questions_count": 2,
+      "sections": [
+        "sec-01-rectilinear-kinematics",
+        "sec-02-acceleration-and-gravity",
+        "sec-03-projectile-motion",
+        "sec-04-relative-motion"
+      ]
+    },
+    "question_bank": {
+      "total_verified_questions": 19,
+      "unverified_leaks": 0,
+      "forbidden_questions_in_production": 0
+    },
+    "search_index": {
+      "total_entries": 116,
+      "kinematics_entries": 12
+    },
+    "previous_pilot_chapters_verified": [
+      {"chapter_id": "rotational-motion", "sections": 5, "status": "VERIFIED_ACTIVE"},
+      {"chapter_id": "thermodynamics", "sections": 5, "status": "VERIFIED_ACTIVE"},
+      {"chapter_id": "current-electricity", "sections": 5, "status": "VERIFIED_ACTIVE"},
+      {"chapter_id": "ray-optics", "sections": 5, "status": "VERIFIED_ACTIVE"}
+    ]
+  },
+  "verdict": "PHASE_12_LIVE_DEPLOYMENT_PROVEN"
+}
