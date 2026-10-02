@@ -10,7 +10,7 @@ import uuid
 import re
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Dict, List, Any, Optional, Set
+from typing import Dict, List, Any, Optional, Set, Tuple
 import yaml
 
 from jee_physics.web.models import (
@@ -115,7 +115,7 @@ class WebDataBuilder:
         )
 
         search_items = self.build_search_index(
-            out_dir, taxonomy_tree, chapters_detail, concepts, formulas, examples, misconceptions, questions
+            out_dir, taxonomy_tree, chapters_detail, concepts, formulas, derivations, examples, misconceptions, questions
         )
 
         # Build manifest
@@ -645,11 +645,30 @@ class WebDataBuilder:
         chapters: List[WebChapterDetail],
         concepts: List[WebConceptBlock],
         formulas: List[WebFormulaBlock],
+        derivations: List[WebDerivationBlock],
         examples: List[WebWorkedExampleBlock],
         misconceptions: List[WebMisconceptionBlock],
         questions: List[WebQuestionBlock],
     ) -> List[WebSearchItem]:
         items: List[WebSearchItem] = []
+        chapter_titles = {ch.chapter_id: ch.title for ch in taxonomy_tree.chapters}
+
+        def _resolve_chapter(item_id: str, fallback_ch: str = "") -> Tuple[str, str]:
+            if fallback_ch and fallback_ch in chapter_titles:
+                return fallback_ch, chapter_titles[fallback_ch]
+            tokens = item_id.split("-")
+            for t in tokens:
+                if t in {"kin", "kinematics"}:
+                    return "kinematics", chapter_titles.get("kinematics", "Kinematics")
+                if t in {"rot", "rotational"}:
+                    return "rotational-motion", chapter_titles.get("rotational-motion", "Rotational Motion")
+                if t in {"td", "thermo", "thermodynamics"}:
+                    return "thermodynamics", chapter_titles.get("thermodynamics", "Thermodynamics")
+                if t in {"curr", "current"}:
+                    return "current-electricity", chapter_titles.get("current-electricity", "Current Electricity")
+                if t in {"opt", "optics", "ray"}:
+                    return "ray-optics", chapter_titles.get("ray-optics", "Ray Optics")
+            return fallback_ch or "", chapter_titles.get(fallback_ch, "")
 
         # 1. Chapters
         for ch in taxonomy_tree.chapters:
@@ -669,80 +688,112 @@ class WebDataBuilder:
 
         # 2. Concepts
         for c in concepts:
+            ch_id, ch_title = _resolve_chapter(c.concept_id)
             text = f"{c.title} {c.statement} {c.physical_intuition}"
             items.append(
                 WebSearchItem(
                     id=c.concept_id,
                     title=c.title,
                     entity_type="concept",
-                    chapter_id=c.concept_id.split("-")[1] if len(c.concept_id.split("-")) > 1 else "",
-                    chapter_title=c.title,
+                    chapter_id=ch_id,
+                    chapter_title=ch_title or c.title,
                     snippet=c.statement[:160] + "..." if len(c.statement) > 160 else c.statement,
-                    keywords=_tokenize(text),
+                    keywords=_tokenize(f"{text} {ch_title} {ch_id}"),
                     route=f"#/concept/{c.concept_id}",
                 )
             )
 
         # 3. Formulas
         for f in formulas:
+            ch_id, ch_title = _resolve_chapter(f.formula_id, getattr(f, "chapter_id", ""))
             text = f"{f.title} {f.equation_latex} {' '.join(f.variables.keys())} {' '.join(f.variables.values())}"
             items.append(
                 WebSearchItem(
                     id=f.formula_id,
                     title=f.title,
                     entity_type="formula",
-                    chapter_id=f.formula_id.split("-")[1] if len(f.formula_id.split("-")) > 1 else "",
-                    chapter_title=f.title,
+                    chapter_id=ch_id,
+                    chapter_title=ch_title or f.title,
                     snippet=f"Equation: {f.equation_latex} | Assumptions: {', '.join(f.assumptions[:2])}",
-                    keywords=_tokenize(text),
+                    keywords=_tokenize(f"{text} {ch_title} {ch_id}"),
                     route=f"#/formulas?id={f.formula_id}",
                 )
             )
 
-        # 4. Worked Examples
+        # 4. Derivations
+        for d in derivations:
+            ch_id, ch_title = _resolve_chapter(d.derivation_id)
+            step_texts = []
+            for s in d.steps:
+                if isinstance(s, dict):
+                    eq = s.get("equation_latex") or s.get("step_equation") or ""
+                    exp = s.get("explanation") or s.get("step_description") or s.get("justification") or ""
+                else:
+                    eq = getattr(s, "equation_latex", "") or ""
+                    exp = getattr(s, "explanation", "") or ""
+                step_texts.append(f"{eq} {exp}".strip())
+            steps_text = " ".join(step_texts)
+            text = f"{d.title} {d.target_formula} {steps_text}"
+            items.append(
+                WebSearchItem(
+                    id=d.derivation_id,
+                    title=f"Derivation: {d.title}",
+                    entity_type="derivation",
+                    chapter_id=ch_id,
+                    chapter_title=ch_title or d.title,
+                    snippet=f"Proof of {d.target_formula} ({len(d.steps)} steps)",
+                    keywords=_tokenize(f"{text} {ch_title} {ch_id}"),
+                    route=f"#/chapter/{ch_id}",
+                )
+            )
+
+        # 5. Worked Examples
         for ex in examples:
+            ch_id, ch_title = _resolve_chapter(ex.example_id, getattr(ex, "chapter_id", ""))
             text = f"{ex.problem_statement} {ex.solution_strategy} {ex.final_answer}"
             items.append(
                 WebSearchItem(
                     id=ex.example_id,
                     title=f"Worked Example: {ex.example_id}",
                     entity_type="example",
-                    chapter_id=ex.example_id.split("-")[1] if len(ex.example_id.split("-")) > 1 else "",
-                    chapter_title=ex.example_id,
+                    chapter_id=ch_id,
+                    chapter_title=ch_title or ex.example_id,
                     snippet=ex.problem_statement[:160] + "...",
-                    keywords=_tokenize(text),
-                    route=f"#/chapter/{ex.example_id.split('-')[1] if len(ex.example_id.split('-')) > 1 else ''}",
+                    keywords=_tokenize(f"{text} {ch_title} {ch_id}"),
+                    route=f"#/chapter/{ch_id}",
                 )
             )
 
-        # 5. Misconceptions
+        # 6. Misconceptions
         for m in misconceptions:
+            ch_id, ch_title = _resolve_chapter(m.misconception_id, getattr(m, "chapter_id", ""))
             text = f"{m.statement} {m.erroneous_reasoning} {m.correct_physics_explanation}"
             items.append(
                 WebSearchItem(
                     id=m.misconception_id,
                     title=f"Misconception: {m.category}",
                     entity_type="misconception",
-                    chapter_id=m.misconception_id.split("-")[1] if len(m.misconception_id.split("-")) > 1 else "",
-                    chapter_title=m.category,
+                    chapter_id=ch_id,
+                    chapter_title=ch_title or m.category,
                     snippet=m.statement[:160] + "...",
-                    keywords=_tokenize(text),
-                    route=f"#/chapter/{m.misconception_id.split('-')[1] if len(m.misconception_id.split('-')) > 1 else ''}",
+                    keywords=_tokenize(f"{text} {ch_title} {ch_id}"),
+                    route=f"#/chapter/{ch_id}",
                 )
             )
 
-        # 6. Questions
+        # 7. Questions
         for q in questions:
+            ch_id, ch_title = _resolve_chapter(q.question_id, q.chapter_id)
             text = f"{q.problem_statement} {q.solution_explanation}"
             items.append(
                 WebSearchItem(
                     id=q.question_id,
                     title=f"Question: {q.question_id}",
                     entity_type="question",
-                    chapter_id=q.chapter_id,
-                    chapter_title=q.chapter_id.replace("-", " ").title(),
+                    chapter_id=ch_id,
+                    chapter_title=ch_title or q.chapter_id.replace("-", " ").title(),
                     snippet=q.problem_statement[:160] + "...",
-                    keywords=_tokenize(text),
+                    keywords=_tokenize(f"{text} {ch_title} {ch_id}"),
                     route=f"#/practice?q={q.question_id}",
                 )
             )
