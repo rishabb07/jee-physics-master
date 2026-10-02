@@ -18,6 +18,8 @@ from jee_physics.models.evidence import (
     SourceFidelityClass,
 )
 
+PHYSICAL_PDFS_PRESENT = any(Path(".").glob("*.pdf"))
+
 
 @pytest.fixture
 def checker():
@@ -60,6 +62,7 @@ def test_altered_formula_rejection(checker):
     assert res_tau["match_result"] == FidelityMatchResult.NO_MATCH.value
 
 
+@pytest.mark.skipif(not PHYSICAL_PDFS_PRESENT, reason="Requires physical source PDF corpus (not tracked in Git)")
 def test_altered_number_and_minus_sign_rejection(checker):
     """Verifies that altering a number or sign causes rejection from SOURCE_VERBATIM."""
     sid_hcv1 = "src-concepts-of-physics-by-h-a489bb6e"
@@ -144,6 +147,7 @@ def test_source_derived_vs_verbatim_distinction():
     assert metadata_cnt == 647
 
 
+@pytest.mark.skipif(not PHYSICAL_PDFS_PRESENT, reason="Requires physical source PDF corpus (not tracked in Git)")
 def test_adversarial_alteration_intercept_rate(auditor):
     """Verifies that 100% of adversarial fixtures (16 mutation families) are intercepted."""
     adv_res = auditor.run_adversarial_alteration_tests()
@@ -218,6 +222,7 @@ def test_canonical_kb_immutability():
     assert "syllabus" in syllabus or "chapters" in syllabus or "physics" in str(syllabus).lower()
 
 
+@pytest.mark.skipif(not PHYSICAL_PDFS_PRESENT, reason="Requires physical source PDF corpus (not tracked in Git)")
 def test_source_fidelity_failure_ledger_remediation(checker):
     """Verifies that all 10 inspected items in the failure ledger are 100% remediated with zero outstanding failures."""
     ledger_path = Path("build/reports/source_fidelity_failure_ledger.json")
@@ -265,6 +270,7 @@ def test_source_fidelity_failure_ledger_remediation(checker):
         assert p["fidelity_class"] == SourceFidelityClass.INDEX_METADATA.value
 
 
+@pytest.mark.skipif(not PHYSICAL_PDFS_PRESENT, reason="Requires physical source PDF corpus (not tracked in Git)")
 def test_stratified_100_exposition_zero_failures(auditor):
     """Verifies that the stratified 100 exposition audit achieves 100% exact matches with zero partial or missed items."""
     summary = auditor.audit_100_exposition_records()
