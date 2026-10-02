@@ -55,6 +55,7 @@ class DevServer:
 
         socketserver.TCPServer.allow_reuse_address = True
         with socketserver.TCPServer((self.host, self.port), lambda *args, **kwargs: Handler(*args, directory=self.dist_dir, **kwargs)) as httpd:
+            self.port = httpd.server_address[1]
             httpd.timeout = 0.5
             self._server_ready.set()
             print(f"JEE Physics Web Dev Server running at http://{self.host}:{self.port}/")

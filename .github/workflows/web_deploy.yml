@@ -39,7 +39,13 @@ jobs:
 
       - name: Run Repository Test Suite
         run: |
-          pytest -v
+          pytest -v --tb=short 2>&1 | tee /tmp/pytest.log || {
+            echo "::error::Pytest execution failed on runner!"
+            tail -n 60 /tmp/pytest.log | while IFS= read -r line; do
+              echo "::error::$line"
+            done
+            exit 1
+          }
 
       - name: Compile Production Web Distribution
         run: |

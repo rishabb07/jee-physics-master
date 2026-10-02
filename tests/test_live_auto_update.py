@@ -16,7 +16,7 @@ from jee_physics.web.server import DevServer
 
 def test_live_dev_server_auto_update_end_to_end():
     root = Path.cwd()
-    port = 8080
+    port = 0
     host = "127.0.0.1"
     server = DevServer(root_dir=root, port=port, host=host)
 
@@ -26,6 +26,7 @@ def test_live_dev_server_auto_update_end_to_end():
 
     # Wait for server to be ready
     assert server._server_ready.wait(timeout=5.0), "DevServer failed to start within 5 seconds"
+    port = server.port
 
     formula_path = root / "build" / "staging" / "incoming" / "content" / "formulas" / "formula-rot-moi-parallel.json"
     assert formula_path.exists(), "Target formula file does not exist"
