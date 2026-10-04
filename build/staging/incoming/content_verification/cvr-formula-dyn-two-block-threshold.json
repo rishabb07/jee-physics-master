@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-formula-dyn-two-block-threshold",
+  "content_type": "FORMULA",
+  "target_id": "formula-dyn-two-block-threshold",
+  "content_hash": "05ebed02445fe8f385339552e57ecc56b8251b73746054fd5713f8a88ea25bfe",
+  "risk_level": "MEDIUM",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Verified algebraic formulation, dimensional homogeneity, and domain boundaries for Two-Block Threshold Slip Force.",
+  "verifier_id": "physics-content-verifier-dynamics",
+  "created_at": "2026-10-02T10:05:00Z"
+}

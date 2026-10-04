@@ -1,0 +1,22 @@
+{
+  "concept_id": "concept-dyn-centripetal-force-01",
+  "chapter_id": "laws-of-motion",
+  "title": "Centripetal Acceleration and Radial Dynamics in Curved Paths",
+  "formal_definition": "A particle of mass $m$ traversing a curved trajectory of instantaneous radius of curvature $R$ with speed $v$ experiences radial acceleration $a_c = v^2/R$, requiring a net inward radial force $F_c = m v^2 / R = m \\omega^2 R$.",
+  "physical_intuition": "Centripetal force is not an additional physical force; it is the resultant inward component of real physical forces (gravity, normal reaction, tension, friction) necessary to continually bend the velocity vector.",
+  "assumptions": [
+    "Curved trajectory with local radius of curvature $R$",
+    "Inertial reference frame"
+  ],
+  "validity_boundaries": [
+    "If real forces cannot provide $m v^2/R$, the particle cannot sustain the circular trajectory and slides outward"
+  ],
+  "mathematical_representation": "\\sum F_{\\text{radial, inward}} = \\frac{m v^2}{R} = m \\omega^2 R",
+  "claim_traces": [
+    "HCV1 Ch 7 p. 111; HRW Ch 6 p. 154"
+  ],
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-concept-dyn-centripetal-force-01",
+  "created_at": "2026-10-02T10:00:00Z",
+  "content_hash": "d675e5005741219055589d0c53d93629a30f7309c7f37e439b9d35c42f743752"
+}

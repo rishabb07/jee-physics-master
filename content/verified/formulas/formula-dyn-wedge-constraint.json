@@ -1,0 +1,32 @@
+{
+  "formula_id": "formula-dyn-wedge-constraint",
+  "chapter_id": "laws-of-motion",
+  "title": "Wedge Normal Acceleration Constraint",
+  "equation_latex": "(\\vec{a}_{\\text{block}} - \\vec{a}_{\\text{wedge}}) \\cdot \\hat{n} = 0",
+  "variables": {
+    "\\vec{a}_{\\text{block}}": "Acceleration of block",
+    "\\vec{a}_{\\text{wedge}}": "Acceleration of wedge",
+    "\\hat{n}": "Unit normal to contact face"
+  },
+  "units": {
+    "\\vec{a}": "m s^-2"
+  },
+  "dimensions": {
+    "\\vec{a}": "[L][T]^-2"
+  },
+  "assumptions": [
+    "Rigid body non-penetration condition",
+    "Persistent surface contact"
+  ],
+  "conditions_of_validity": [
+    "Valid while contact normal force N > 0"
+  ],
+  "common_misuse": [
+    "Assuming accelerations are equal in horizontal instead of normal direction"
+  ],
+  "derivation_reference": null,
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-formula-dyn-wedge-constraint",
+  "created_at": "2026-10-02T10:00:00Z",
+  "content_hash": "1c8daeed6f90fccaf28e856584553152955eac3c9707b13e3f9b49ce15791df7"
+}

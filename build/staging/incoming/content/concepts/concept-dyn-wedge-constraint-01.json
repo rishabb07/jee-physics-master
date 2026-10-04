@@ -1,0 +1,22 @@
+{
+  "concept_id": "concept-dyn-wedge-constraint-01",
+  "chapter_id": "laws-of-motion",
+  "title": "Wedge Boundary Constraints and Relative Motion",
+  "formal_definition": "The kinematic boundary condition requiring that two rigid bodies in continuous sliding contact must have identical velocity and acceleration components along the direction normal to the common contact interface.",
+  "physical_intuition": "A block resting on a moving wedge can slide freely along the incline face, but it cannot penetrate the wedge or fly off the face while contact is maintained; hence their perpendicular motions are locked.",
+  "assumptions": [
+    "Continuous rigid surface contact without separation",
+    "Planar interface"
+  ],
+  "validity_boundaries": [
+    "Valid only while contact normal force $N > 0$; fails upon liftoff"
+  ],
+  "mathematical_representation": "(\\vec{v}_A - \\vec{v}_B) \\cdot \\hat{n} = 0, \\quad (\\vec{a}_A - \\vec{a}_B) \\cdot \\hat{n} = 0",
+  "claim_traces": [
+    "HCV1 Ch 5 p. 85; Irodov Prob 1.73"
+  ],
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-concept-dyn-wedge-constraint-01",
+  "created_at": "2026-10-02T10:00:00Z",
+  "content_hash": "2ffbfa59e24d5fe5feac7be61c4f25c8e3206fa607bcbd7462a1ec9333ce4819"
+}

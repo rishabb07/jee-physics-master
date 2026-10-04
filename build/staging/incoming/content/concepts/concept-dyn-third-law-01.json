@@ -1,0 +1,22 @@
+{
+  "concept_id": "concept-dyn-third-law-01",
+  "chapter_id": "laws-of-motion",
+  "title": "Action-Reaction Pairs and Newton's Third Law",
+  "formal_definition": "Whenever body A exerts a force on body B, body B simultaneously exerts an equal and opposite force on body A: $\\vec{F}_{BA} = -\\vec{F}_{AB}$.",
+  "physical_intuition": "Forces are mutual interactions between pairs of distinct bodies. Single, isolated forces do not exist in nature. Action and reaction forces never act on the same body and therefore never cancel each other out.",
+  "assumptions": [
+    "Simultaneous action-at-a-distance (classical limit)",
+    "Distinct interacting bodies A and B"
+  ],
+  "validity_boundaries": [
+    "Modified in electrodynamics when electromagnetic field carries momentum ($p_{\\text{field}}$), though total momentum of charges plus radiation remains strictly conserved"
+  ],
+  "mathematical_representation": "\\vec{F}_{A \\to B} + \\vec{F}_{B \\to A} = 0",
+  "claim_traces": [
+    "HCV1 Ch 5 p. 77; HRW Ch 5 p. 124; UP Ch 4 p. 142"
+  ],
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-concept-dyn-third-law-01",
+  "created_at": "2026-10-02T10:00:00Z",
+  "content_hash": "ce8e3e4730883638623647cff025cd44b1febc745fff8189e3bed2d78fa70884"
+}

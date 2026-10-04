@@ -1,0 +1,17 @@
+{
+  "misconception_id": "misc-dyn-06",
+  "chapter_id": "laws-of-motion",
+  "category": "PSEUDO_FORCE_IN_INERTIAL_FRAME",
+  "statement": "Pseudo-forces (like centrifugal force) exist and act on bodies when observed from an inertial ground frame.",
+  "erroneous_reasoning": "Applying non-inertial frame fictitious corrections when solving problems from ground reference frame.",
+  "correct_physics_explanation": "Pseudo-forces are mathematical constructs that arise strictly when describing motion from non-inertial accelerating or rotating reference frames. In an inertial reference frame, pseudo-forces are zero. A car turning a corner experiences inward friction; an occupant feels pushed outward only in the car's rotating non-inertial frame.",
+  "refutation_counterexample": "From ground frame, a pendulum in an accelerating truck is deflected backward because string tension has a forward component accelerating the bob: T sin(theta) = m a_0.",
+  "diagnostic_check_latex": "\\vec{F}_{\\text{pseudo}} = -m \\vec{a}_0 \\quad (\\text{ONLY in frame accelerating with } \\vec{a}_0). \\quad \\text{In ground frame: } \\vec{F}_{\\text{pseudo}} = 0.",
+  "claim_traces": [
+    "HCV1 Ch 5 p. 88; Feynman Lec 12 p. 12-11"
+  ],
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-misc-dyn-06",
+  "created_at": "2026-10-02T10:00:00Z",
+  "content_hash": "fe8ee474abf6a2cd5d397352ad2a60d2239c605e520fe09ce1c2a17290a14225"
+}

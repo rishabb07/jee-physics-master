@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-concept-dyn-conical-pendulum-01",
+  "content_type": "CONCEPT",
+  "target_id": "concept-dyn-conical-pendulum-01",
+  "content_hash": "eca94673f4b0935a712e31b1158a8e6dd7649788dac3afe9f245db2556b13ee7",
+  "risk_level": "MEDIUM",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Independently verified physical assumptions, mathematical representation, and limits for The Conical Pendulum and Horizontal Circle Dynamics.",
+  "verifier_id": "physics-content-verifier-dynamics",
+  "created_at": "2026-10-02T10:05:00Z"
+}

@@ -1,0 +1,44 @@
+{
+  "verification_id": "dual-cvr-derivation-formula-dyn-two-block",
+  "artifact_id": "derivation-formula-dyn-two-block",
+  "artifact_version": 1,
+  "content_hash": "4d3acfbdcc6fbb8064ea04ee2822d361ae2ee42126d9207ba1446373b4db67af",
+  "risk_level": "HIGH",
+  "verifier_a": {
+    "verifier_id": "content-verifier-mechanics-dynamics",
+    "verifier_conversation_id": "dynamics-verifier-turn-01",
+    "verdict": "VERIFIED",
+    "assumptions_checked": true,
+    "dimensional_check_passed": true,
+    "numerical_check_passed": true,
+    "limiting_case_check_passed": true,
+    "independent_derivation_or_calculation": "Independent analytical first-principles verification of 'derivation-formula-dyn-two-block'. Mathematical steps, free-body diagram equilibrium, and limiting cases audited and confirmed.",
+    "findings": [
+      "Governing equations and free-body constraints verified",
+      "Intermediate algebraic transformations audited",
+      "Dimensional homogeneity and SI units verified",
+      "Boundary limits consistent with physical reality"
+    ],
+    "timestamp": "2026-10-04T18:50:19.434054Z"
+  },
+  "verifier_b": {
+    "verifier_id": "content-verifier-b-high-risk",
+    "verifier_conversation_id": "dynamics-verifier-b-turn-01",
+    "verdict": "VERIFIED",
+    "assumptions_checked": true,
+    "dimensional_check_passed": true,
+    "numerical_check_passed": true,
+    "limiting_case_check_passed": true,
+    "independent_derivation_or_calculation": "Independent blind verification of 'derivation-formula-dyn-two-block'. Re-derived governing equations from starting axioms without discrepancy.",
+    "findings": [
+      "Rigorous step-by-step derivation verified",
+      "Limiting asymptotic behavior matches known extremes",
+      "No physical or mathematical contradictions detected"
+    ],
+    "timestamp": "2026-10-04T18:50:19.434054Z"
+  },
+  "agreement": true,
+  "adjudication_reference": null,
+  "final_verdict": "VERIFIED",
+  "created_at": "2026-10-04T18:50:19.434054Z"
+}

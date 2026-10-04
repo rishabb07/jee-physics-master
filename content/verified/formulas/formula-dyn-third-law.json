@@ -1,0 +1,30 @@
+{
+  "formula_id": "formula-dyn-third-law",
+  "chapter_id": "laws-of-motion",
+  "title": "Newton's Third Law (Action-Reaction)",
+  "equation_latex": "\\vec{F}_{AB} = -\\vec{F}_{BA}",
+  "variables": {
+    "\\vec{F}_{AB}": "Force exerted on body A by body B",
+    "\\vec{F}_{BA}": "Force exerted on body B by body A"
+  },
+  "units": {
+    "\\vec{F}": "N"
+  },
+  "dimensions": {
+    "\\vec{F}": "[M][L][T]^-2"
+  },
+  "assumptions": [
+    "Pairwise physical interaction between two distinct bodies A and B"
+  ],
+  "conditions_of_validity": [
+    "Collinear central mutual interaction in classical mechanics"
+  ],
+  "common_misuse": [
+    "Assuming action and reaction act on the same body and cancel each other"
+  ],
+  "derivation_reference": null,
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-formula-dyn-third-law",
+  "created_at": "2026-10-02T10:00:00Z",
+  "content_hash": "1e617f977f6e1182766e20e2331b59df17784b7f8fba016cdf4ab1c65f076233"
+}

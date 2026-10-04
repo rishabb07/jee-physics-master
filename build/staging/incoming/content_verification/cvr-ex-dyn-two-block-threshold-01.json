@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-ex-dyn-two-block-threshold-01",
+  "content_type": "WORKED_EXAMPLE",
+  "target_id": "ex-dyn-two-block-threshold-01",
+  "content_hash": "679f7dc8d59668fef01b9114aa59c6b1430f3d4849176130673e572a535aa84c",
+  "risk_level": "HIGH",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Independently recalculated all numerical steps, dimensional homogeneity, and limiting cases for ex-dyn-two-block-threshold-01.",
+  "verifier_id": "physics-content-verifier-dynamics",
+  "created_at": "2026-10-02T10:05:00Z"
+}

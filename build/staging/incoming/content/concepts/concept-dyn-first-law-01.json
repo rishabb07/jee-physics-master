@@ -1,0 +1,23 @@
+{
+  "concept_id": "concept-dyn-first-law-01",
+  "chapter_id": "laws-of-motion",
+  "title": "Galileo's Principle of Inertia and Newton's First Law",
+  "formal_definition": "A body remains at rest or in a state of uniform rectilinear motion unless acted upon by a non-zero net external force: $\\sum \\vec{F}_{\\text{ext}} = 0 \\iff \\frac{d\\vec{v}}{dt} = 0$.",
+  "physical_intuition": "Inertia is the intrinsic reluctance of any material body with mass to alter its velocity vector. Forces do not cause motion; forces cause deviations from uniform motion.",
+  "assumptions": [
+    "Inertial reference frame",
+    "Classical non-relativistic regime ($v \\ll c$)"
+  ],
+  "validity_boundaries": [
+    "Fails in non-inertial accelerating or rotating reference frames without pseudo-forces",
+    "Invalid at quantum atomic scales"
+  ],
+  "mathematical_representation": "\\sum \\vec{F}_{\\text{ext}} = 0 \\implies \\vec{v} = \\text{constant}",
+  "claim_traces": [
+    "HCV1 Ch 5 p. 74; HRW Ch 5 p. 116"
+  ],
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-concept-dyn-first-law-01",
+  "created_at": "2026-10-02T10:00:00Z",
+  "content_hash": "7dd513712c88fc0b15a9810cbfe5bab29f41df187f644ff6bd37bd8cb1f5b434"
+}

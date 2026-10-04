@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-derivation-formula-dyn-angle-repose",
+  "content_type": "DERIVATION",
+  "target_id": "derivation-formula-dyn-angle-repose",
+  "content_hash": "936f347aa03dbea20b888f495e42272aea61c10aceca1b6194034e6eb44e0914",
+  "risk_level": "HIGH",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Independently re-derived every step from first principles and verified limit behavior for Derivation of Angle of Repose on Rough Incline.",
+  "verifier_id": "physics-content-verifier-dynamics",
+  "created_at": "2026-10-02T10:05:00Z"
+}

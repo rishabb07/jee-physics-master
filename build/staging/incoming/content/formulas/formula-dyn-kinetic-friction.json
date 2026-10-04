@@ -1,0 +1,36 @@
+{
+  "formula_id": "formula-dyn-kinetic-friction",
+  "chapter_id": "laws-of-motion",
+  "title": "Kinetic Friction Law",
+  "equation_latex": "f_k = \\mu_k N",
+  "variables": {
+    "f_k": "Kinetic friction magnitude",
+    "\\mu_k": "Kinetic friction coefficient",
+    "N": "Normal contact force"
+  },
+  "units": {
+    "f_k": "N",
+    "\\mu_k": "dimensionless",
+    "N": "N"
+  },
+  "dimensions": {
+    "f_k": "[M][L][T]^-2",
+    "\\mu_k": "[1]",
+    "N": "[M][L][T]^-2"
+  },
+  "assumptions": [
+    "Active relative sliding motion between contact surfaces",
+    "\\mu_k \\le \\mu_s"
+  ],
+  "conditions_of_validity": [
+    "Applies whenever relative sliding velocity is non-zero"
+  ],
+  "common_misuse": [
+    "Assuming friction opposes direction of motion instead of direction of relative surface velocity"
+  ],
+  "derivation_reference": null,
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-formula-dyn-kinetic-friction",
+  "created_at": "2026-10-02T10:00:00Z",
+  "content_hash": "f318a1ce17159b7de8d54639725c4a2824f1173137f2dedfdc3b991b8e16e332"
+}

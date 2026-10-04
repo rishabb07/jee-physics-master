@@ -1,0 +1,44 @@
+{
+  "example_id": "ex-dyn-atwood-pulley-01",
+  "chapter_id": "laws-of-motion",
+  "problem_statement": "In a modified Atwood machine, two masses $m_1 = 2.0\\text{ kg}$ and $m_2 = 3.0\\text{ kg}$ are connected by a light inextensible string passing over a frictionless light pulley. Find the common acceleration $a$ of the masses and the tension $T$ in the string when released from rest. (Take $g = 9.8\\text{ m/s}^2$).",
+  "known_parameters": {
+    "m_1": 2.0,
+    "m_2": 3.0,
+    "g": 9.8
+  },
+  "target_variable": "a, T",
+  "solution_strategy": "Formulate separate equations of motion for $m_1$ moving upward and $m_2$ moving downward, utilizing identical tension $T$ and acceleration magnitude $a$.",
+  "solution_steps": [
+    {
+      "step_number": 1,
+      "explanation": "Write dynamic equations for each body along direction of acceleration.",
+      "equation_latex": "m_2 g - T = m_2 a, \\quad T - m_1 g = m_1 a"
+    },
+    {
+      "step_number": 2,
+      "explanation": "Add the equations to eliminate internal tension T and solve for acceleration a.",
+      "equation_latex": "(m_2 - m_1) g = (m_1 + m_2) a \\implies a = \\frac{m_2 - m_1}{m_1 + m_2} g = \\frac{3.0 - 2.0}{3.0 + 2.0} \\times 9.8 = \\frac{1}{5} \\times 9.8 = 1.96\\text{ m/s}^2"
+    },
+    {
+      "step_number": 3,
+      "explanation": "Substitute a back into the equation for m1 to determine tension T.",
+      "equation_latex": "T = m_1 (g + a) = 2.0 \\times (9.8 + 1.96) = 2.0 \\times 11.76 = 23.52\\text{ N}"
+    }
+  ],
+  "final_answer": "a = 1.96\\text{ m/s}^2, \\quad T = 23.52\\text{ N}",
+  "trap_alerts": [
+    "Assuming tension T = m2 g or T = (m1 + m2)g instead of accounting for accelerated dynamics"
+  ],
+  "sanity_checks": [
+    "Tension satisfies m1 g < T < m2 g (19.6 N < 23.52 N < 29.4 N), as required for upward/downward acceleration",
+    "When m1 = m2, a = 0 and T = mg"
+  ],
+  "claim_traces": [
+    "HCV1 Ch 5 Example 5.3; HRW Ch 5 Example 5.06"
+  ],
+  "verification_status": "VERIFIED",
+  "verification_record_id": "dual-cvr-ex-dyn-atwood-pulley-01",
+  "created_at": "2026-10-02T10:00:00Z",
+  "content_hash": "6a0dc586d54799c1a621d329c2e9092ecb14f4c838613ffa3c319a7446a22ff2"
+}

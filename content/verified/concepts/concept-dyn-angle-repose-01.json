@@ -1,0 +1,22 @@
+{
+  "concept_id": "concept-dyn-angle-repose-01",
+  "chapter_id": "laws-of-motion",
+  "title": "Angle of Repose and Angle of Contact Friction",
+  "formal_definition": "The angle of repose $\\theta_R$ is the maximum incline angle for which a body placed on an inclined plane remains at rest without slipping: $\\theta_R = \\arctan(\\mu_s)$. The angle of friction $\\lambda$ is the angle made by the resultant contact reaction with the normal: $\\tan\\lambda = \\mu$.",
+  "physical_intuition": "As an incline is tilted, the downslope gravity component $mg\\sin\\theta$ grows while the normal clamp $mg\\cos\\theta$ shrinks. At $\\tan\\theta = \\mu_s$, available static grip is fully exhausted.",
+  "assumptions": [
+    "Homogeneous plane inclination",
+    "Uniform coefficient $\\mu_s$"
+  ],
+  "validity_boundaries": [
+    "Only valid for block on plane under gravity alone without external pulling cords or pseudo-forces"
+  ],
+  "mathematical_representation": "\\tan(\\theta_R) = \\mu_s \\iff \\theta_R = \\arctan(\\mu_s)",
+  "claim_traces": [
+    "HCV1 Ch 6 p. 104; UP Ch 5 p. 190"
+  ],
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-concept-dyn-angle-repose-01",
+  "created_at": "2026-10-02T10:00:00Z",
+  "content_hash": "272f42f0c286916b1b1fde858c42c6c86875dc131e79a2261a2e3bfbc61d40fc"
+}

@@ -1,0 +1,22 @@
+{
+  "concept_id": "concept-dyn-two-block-01",
+  "chapter_id": "laws-of-motion",
+  "title": "Stacked Multi-Body Systems and Threshold Slipping",
+  "formal_definition": "In stacked multi-body systems, friction at the mutual contact interface accelerates the passive block. There exists a threshold driving force $F_{\\text{threshold}}$ below which both blocks move with common acceleration $a$, and above which relative slipping occurs.",
+  "physical_intuition": "The top block can only accelerate as fast as the maximum static friction from the bottom block allows: $a_{\\text{max}} = \\mu_s g$. If the system acceleration exceeds this, the top block slips backward relative to the bottom block.",
+  "assumptions": [
+    "Rigid block stacking",
+    "Dry friction interface"
+  ],
+  "validity_boundaries": [
+    "Bifurcation between 1-body lumped dynamics and 2-body independent kinematic equations"
+  ],
+  "mathematical_representation": "a_{\\text{max, upper}} = \\mu_s g, \\quad F_{\\text{thresh}} = \\mu_s (m_1 + m_2) g",
+  "claim_traces": [
+    "HCV1 Ch 6 p. 101; Irodov Prob 1.85"
+  ],
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-concept-dyn-two-block-01",
+  "created_at": "2026-10-02T10:00:00Z",
+  "content_hash": "fefdd09a3a9872b7c20bad9976cce70c11e62583b92f0c4987a2020c21b8990d"
+}

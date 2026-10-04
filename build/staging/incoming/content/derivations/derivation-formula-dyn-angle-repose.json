@@ -1,0 +1,44 @@
+{
+  "derivation_id": "derivation-formula-dyn-angle-repose",
+  "chapter_id": "laws-of-motion",
+  "title": "Derivation of Angle of Repose on Rough Incline",
+  "target_formula_id": "formula-dyn-angle-repose",
+  "target_equation": "\\tan\\theta_R = \\mu_s",
+  "assumptions": [
+    "Rigid block resting on plane inclined at angle theta",
+    "Uniform gravitational field g",
+    "Coulomb friction model"
+  ],
+  "starting_principles": [
+    "Component equilibrium parallel and perpendicular to incline",
+    "Limiting friction condition f_s = mu_s N"
+  ],
+  "ordered_steps": [
+    {
+      "step_number": 1,
+      "explanation": "Set up equilibrium of forces perpendicular to the inclined plane.",
+      "equation_latex": "\\sum F_{\\perp} = N - mg \\cos\\theta = 0 \\implies N = mg \\cos\\theta"
+    },
+    {
+      "step_number": 2,
+      "explanation": "Set up equilibrium of forces parallel to the inclined plane at critical angle theta_R.",
+      "equation_latex": "\\sum F_{\\parallel} = mg \\sin\\theta_R - f_{s,\\text{max}} = 0 \\implies f_{s,\\text{max}} = mg \\sin\\theta_R"
+    },
+    {
+      "step_number": 3,
+      "explanation": "Substitute limiting friction relation f_s,max = mu_s N and solve for tan(theta_R).",
+      "equation_latex": "mg \\sin\\theta_R = \\mu_s (mg \\cos\\theta_R) \\implies \\tan\\theta_R = \\mu_s \\iff \\theta_R = \\arctan(\\mu_s)"
+    }
+  ],
+  "limiting_cases": [
+    "For frictionless plane mu_s = 0, theta_R = 0 (block slips at any tilt)",
+    "As mu_s -> infty, theta_R -> 90 deg"
+  ],
+  "claim_traces": [
+    "HCV1 Ch 6 p. 104; UP Ch 5 p. 190"
+  ],
+  "verification_status": "VERIFIED",
+  "verification_record_id": "dual-cvr-derivation-formula-dyn-angle-repose",
+  "created_at": "2026-10-02T10:00:00Z",
+  "content_hash": "936f347aa03dbea20b888f495e42272aea61c10aceca1b6194034e6eb44e0914"
+}

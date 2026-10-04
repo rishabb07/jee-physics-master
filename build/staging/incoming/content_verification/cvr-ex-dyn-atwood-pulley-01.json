@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-ex-dyn-atwood-pulley-01",
+  "content_type": "WORKED_EXAMPLE",
+  "target_id": "ex-dyn-atwood-pulley-01",
+  "content_hash": "6a0dc586d54799c1a621d329c2e9092ecb14f4c838613ffa3c319a7446a22ff2",
+  "risk_level": "HIGH",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Independently recalculated all numerical steps, dimensional homogeneity, and limiting cases for ex-dyn-atwood-pulley-01.",
+  "verifier_id": "physics-content-verifier-dynamics",
+  "created_at": "2026-10-02T10:05:00Z"
+}

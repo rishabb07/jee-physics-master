@@ -1,0 +1,44 @@
+{
+  "example_id": "ex-dyn-conical-pendulum-01",
+  "chapter_id": "laws-of-motion",
+  "problem_statement": "A conical pendulum consists of a bob of mass $m = 0.50\\text{ kg}$ suspended by a light string of length $L = 1.20\\text{ m}$. The bob revolves in a horizontal circle such that the string makes a constant angle $\\theta = 30^\\circ$ with the vertical. Taking $g = 9.8\\text{ m/s}^2$, find: (a) the tension $T$ in the string, (b) the linear speed $v$ of the bob, and (c) the period $\\tau$ of revolution.",
+  "known_parameters": {
+    "m": 0.5,
+    "L": 1.2,
+    "theta_deg": 30.0,
+    "g": 9.8
+  },
+  "target_variable": "T, v, tau",
+  "solution_strategy": "Resolve string tension into vertical balancing component and horizontal centripetal radial component.",
+  "solution_steps": [
+    {
+      "step_number": 1,
+      "explanation": "Vertical force equilibrium yields tension T.",
+      "equation_latex": "T \\cos 30^\\circ = mg \\implies T = \\frac{0.50 \\times 9.8}{\\cos 30^\\circ} = \\frac{4.9}{0.8660} \\approx 5.658\\text{ N}"
+    },
+    {
+      "step_number": 2,
+      "explanation": "Determine horizontal circle radius R and centripetal speed v.",
+      "equation_latex": "R = L \\sin 30^\\circ = 1.20 \\times 0.5 = 0.60\\text{ m}, \\quad T \\sin 30^\\circ = \\frac{m v^2}{R} \\implies v = \\sqrt{\\frac{R T \\sin 30^\\circ}{m}} = \\sqrt{\\frac{0.60 \\times 5.658 \\times 0.5}{0.50}} = \\sqrt{3.395} \\approx 1.843\\text{ m/s}"
+    },
+    {
+      "step_number": 3,
+      "explanation": "Calculate period of revolution tau = 2 pi sqrt(L cos(theta) / g).",
+      "equation_latex": "\\tau = 2\\pi \\sqrt{\\frac{1.20 \\times \\cos 30^\\circ}{9.8}} = 2\\pi \\sqrt{\\frac{1.20 \\times 0.8660}{9.8}} = 2\\pi \\sqrt{\\frac{1.0392}{9.8}} = 2\\pi \\sqrt{0.10604} = 2\\pi \\times 0.3256 \\approx 2.046\\text{ s}"
+    }
+  ],
+  "final_answer": "T \\approx 5.66\\text{ N}, \\quad v \\approx 1.84\\text{ m/s}, \\quad \\tau \\approx 2.05\\text{ s}",
+  "trap_alerts": [
+    "Using L instead of horizontal radius R = L sin(theta) in centripetal formula"
+  ],
+  "sanity_checks": [
+    "Circumference check: 2 pi R / v = 2 pi (0.60) / 1.843 = 3.7699 / 1.843 = 2.046 s, agreeing exactly with period formula"
+  ],
+  "claim_traces": [
+    "UP Ch 5 Example 5.21; HCV1 Ch 7 Example 7.3"
+  ],
+  "verification_status": "VERIFIED",
+  "verification_record_id": "dual-cvr-ex-dyn-conical-pendulum-01",
+  "created_at": "2026-10-02T10:00:00Z",
+  "content_hash": "362e794c948bdc4f0178a0471074f29e1b9caf77e092c04703724e2d50f2ad8d"
+}

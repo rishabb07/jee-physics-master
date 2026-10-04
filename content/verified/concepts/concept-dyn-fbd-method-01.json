@@ -1,0 +1,22 @@
+{
+  "concept_id": "concept-dyn-fbd-method-01",
+  "chapter_id": "laws-of-motion",
+  "title": "Free-Body Diagram Isolation and Component Projection",
+  "formal_definition": "A systematic analytical procedure wherein a chosen mechanical body is isolated from its environment, and every external force acting ON the body is represented as an applied vector at its contact or center point.",
+  "physical_intuition": "To calculate acceleration via $\\sum \\vec{F} = m\\vec{a}$, one must rigorously exclude internal forces between constituent parts of the isolated body and include all external contact and field forces.",
+  "assumptions": [
+    "Rigid body or particle idealization",
+    "Inertial coordinate axes"
+  ],
+  "validity_boundaries": [
+    "Only external forces exerted ON the body must be drawn; forces exerted BY the body on other objects must be excluded"
+  ],
+  "mathematical_representation": "\\sum F_x = m a_x, \\quad \\sum F_y = m a_y, \\quad \\sum F_z = m a_z",
+  "claim_traces": [
+    "HCV1 Ch 5 p. 78; UP Ch 5 p. 170"
+  ],
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-concept-dyn-fbd-method-01",
+  "created_at": "2026-10-02T10:00:00Z",
+  "content_hash": "7e5886b186035f1276d9c997f6f9f41fff128f8d376099b5c24ffaf213740c10"
+}

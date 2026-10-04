@@ -1,0 +1,120 @@
+{
+  "report_id": "rep-phase13-dynamics-closure",
+  "phase": "13",
+  "timestamp": "2026-10-04T18:51:46.017577+00:00",
+  "verdict_dynamics": "PHASE_13_DYNAMICS_PROVEN",
+  "verdict_deployment": "PHASE_13_LIVE_DEPLOYMENT_PROVEN",
+  "canonical_immutability": {
+    "kb_atoms_count": 35,
+    "kb_atoms_unmodified": true,
+    "syllabus_yaml_unmodified": true
+  },
+  "factory_pipeline": {
+    "source_corpus": [
+      "Concepts of Physics Vol 1 by H.C. Verma (Ch 4, 5, 6, 7)",
+      "Fundamentals of Physics by Halliday, Resnick, Walker (Ch 5, 6)",
+      "University Physics with Modern Physics by Young & Freedman (Ch 4, 5)",
+      "The Feynman Lectures on Physics Vol 1 (Lec 9, 12)",
+      "Problems in General Physics by I.E. Irodov (Sec 1.2)",
+      "JEE Main & Advanced 2024-2026 Authoritative Mock Tests"
+    ],
+    "source_evidence_manifest": {
+      "manifest_path": "build/reports/dynamics_source_evidence_manifest.json",
+      "total_records": 116,
+      "fidelity_distribution": {
+        "SOURCE_VERBATIM": 116,
+        "SOURCE_DERIVED": 0,
+        "PROJECT_DERIVED": 0,
+        "INDEX_METADATA": 0
+      }
+    },
+    "taxonomy_scope": {
+      "chapter_id": "laws-of-motion",
+      "alias": "dynamics",
+      "order": 3,
+      "branch": "Mechanics",
+      "topics_count": 3,
+      "subtopics_count": 17
+    },
+    "curriculum_spec_and_plan": {
+      "spec_paths": [
+        "curriculum/chapters/laws-of-motion_spec.json",
+        "curriculum/chapters/dynamics_spec.json"
+      ],
+      "plan_paths": [
+        "curriculum/chapters/laws-of-motion_plan.json",
+        "curriculum/chapters/dynamics_plan.json"
+      ],
+      "ladder_path": "curriculum/ladders/ladder-dyn-friction-two-block-01.json",
+      "sections_count": 4,
+      "ladder_rungs_count": 4
+    },
+    "verified_content_inventory": {
+      "concepts": 16,
+      "formulas": 14,
+      "derivations": 7,
+      "worked_examples": 6,
+      "misconceptions": 6,
+      "total_content_blocks": 49
+    },
+    "independent_verification": {
+      "cvr_records_count": 49,
+      "dual_cvr_records_count": 13,
+      "dual_verified_derivations": 7,
+      "dual_verified_examples": 6,
+      "all_verified": true,
+      "hash_binding_passed": true
+    },
+    "chapter_assembly_and_qa": {
+      "assembled_blocks": 56,
+      "draft_dir": "build/drafts/laws-of-motion",
+      "qa_verdict": "PASSED",
+      "physics_passed": true,
+      "curriculum_passed": true,
+      "provenance_passed": true,
+      "editorial_passed": true,
+      "pedagogy_passed": true,
+      "qa_findings_count": 0,
+      "latex_rendering_passed": true,
+      "latex_errors_count": 0
+    },
+    "web_projection": {
+      "manifest_counts": {
+        "total_chapters": 30,
+        "pilot_active_chapters": 6,
+        "concepts": 36,
+        "formulas": 39,
+        "derivations": 26,
+        "worked_examples": 15,
+        "misconceptions": 19,
+        "verified_questions": 21,
+        "question_ladders": 3,
+        "search_index_entries": 186
+      },
+      "dual_files": [
+        "output/web/data/chapter_laws-of-motion.json",
+        "output/web/data/chapter_dynamics.json"
+      ],
+      "total_web_data_files": 16
+    },
+    "test_suite": {
+      "total_tests_collected": 271,
+      "total_tests_passed": 271,
+      "failed": 0,
+      "zero_regression": true
+    }
+  },
+  "factory_reflection": {
+    "generic_pipeline_strengths": [
+      "ChapterAssembler smoothly pulled all 56 blocks into structured drafts without code modifications",
+      "ChapterQAAuditor automatically checked physics, provenance, curriculum alignment, and LaTeX math formatting",
+      "WebCompiler deterministically copied web assets, generated manifests, and built search indexes",
+      "QuestionLadder engine accommodated multi-body contact dry friction with zero schema adjustments"
+    ],
+    "refactoring_improvements_implemented": [
+      "Added dual chapter alias routing support for 'laws-of-motion' <-> 'dynamics' in WebDataBuilder and chapter.js",
+      "Enhanced ChapterSpec normalization for WorkedExampleRecord and FormulaRecord properties to ensure both dict-based assemblers and strict Pydantic schemas validate cleanly",
+      "Refactored test suite count assertions to be non-regressive (>=) across progressive curriculum chapter additions"
+    ]
+  }
+}

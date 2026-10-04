@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-concept-dyn-fbd-method-01",
+  "content_type": "CONCEPT",
+  "target_id": "concept-dyn-fbd-method-01",
+  "content_hash": "7e5886b186035f1276d9c997f6f9f41fff128f8d376099b5c24ffaf213740c10",
+  "risk_level": "MEDIUM",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Independently verified physical assumptions, mathematical representation, and limits for Free-Body Diagram Isolation and Component Projection.",
+  "verifier_id": "physics-content-verifier-dynamics",
+  "created_at": "2026-10-02T10:05:00Z"
+}

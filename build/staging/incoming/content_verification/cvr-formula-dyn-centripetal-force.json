@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-formula-dyn-centripetal-force",
+  "content_type": "FORMULA",
+  "target_id": "formula-dyn-centripetal-force",
+  "content_hash": "f80bc3832e511ca830ae0735845aad3d6935abf8401dc5441bd453904534d80b",
+  "risk_level": "MEDIUM",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Verified algebraic formulation, dimensional homogeneity, and domain boundaries for Centripetal Force Relation.",
+  "verifier_id": "physics-content-verifier-dynamics",
+  "created_at": "2026-10-02T10:05:00Z"
+}

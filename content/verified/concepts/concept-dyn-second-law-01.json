@@ -1,0 +1,22 @@
+{
+  "concept_id": "concept-dyn-second-law-01",
+  "chapter_id": "laws-of-motion",
+  "title": "Linear Momentum, Impulse, and Newton's Second Law",
+  "formal_definition": "The time rate of change of linear momentum of a particle equals the net external force acting on it: $\\vec{F}_{\\text{net}} = \\frac{d\\vec{p}}{dt} = \\frac{d(m\\vec{v})}{dt}$. For invariant mass $m$, $\\vec{F}_{\\text{net}} = m \\vec{a}$.",
+  "physical_intuition": "Net force is an instantaneous vector cause producing an instantaneous vector acceleration inversely proportional to inertia. Impulse $\\vec{J} = \\int \\vec{F} dt$ measures the accumulated momentum transfer.",
+  "assumptions": [
+    "Point particle or center of mass translation",
+    "Invariant rest mass ($dm/dt = 0$)"
+  ],
+  "validity_boundaries": [
+    "For variable-mass systems (e.g. rockets), the full reactive momentum equation $\\vec{F}_{\\text{ext}} + \\vec{v}_{\\text{rel}}\\frac{dm}{dt} = m\\frac{d\\vec{v}}{dt}$ must be applied"
+  ],
+  "mathematical_representation": "\\vec{F}_{\\text{net}} = m \\vec{a} = m \\frac{d^2 \\vec{r}}{dt^2}",
+  "claim_traces": [
+    "HCV1 Ch 5 p. 75; HRW Ch 5 p. 120; Feynman Lec 9 p. 9-1"
+  ],
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-concept-dyn-second-law-01",
+  "created_at": "2026-10-02T10:00:00Z",
+  "content_hash": "ae27a821c23438e66ea24e1a22d8e196b564604b4e53bbb125fc3150b01d980d"
+}

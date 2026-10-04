@@ -1,0 +1,42 @@
+{
+  "formula_id": "formula-dyn-centripetal-force",
+  "chapter_id": "laws-of-motion",
+  "title": "Centripetal Force Relation",
+  "equation_latex": "F_c = \\frac{m v^2}{R} = m \\omega^2 R",
+  "variables": {
+    "F_c": "Net inward radial force",
+    "m": "Mass",
+    "v": "Speed",
+    "R": "Radius of curvature",
+    "\\omega": "Angular velocity"
+  },
+  "units": {
+    "F_c": "N",
+    "m": "kg",
+    "v": "m s^-1",
+    "R": "m",
+    "\\omega": "rad s^-1"
+  },
+  "dimensions": {
+    "F_c": "[M][L][T]^-2",
+    "m": "[M]",
+    "v": "[L][T]^-1",
+    "R": "[L]",
+    "\\omega": "[T]^-1"
+  },
+  "assumptions": [
+    "Curved trajectory of instantaneous radius R",
+    "Inertial frame of reference"
+  ],
+  "conditions_of_validity": [
+    "Universal for any 2D or 3D curved trajectory"
+  ],
+  "common_misuse": [
+    "Adding centripetal force as a separate physical entity on an inertial free body diagram"
+  ],
+  "derivation_reference": null,
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-formula-dyn-centripetal-force",
+  "created_at": "2026-10-02T10:00:00Z",
+  "content_hash": "f80bc3832e511ca830ae0735845aad3d6935abf8401dc5441bd453904534d80b"
+}

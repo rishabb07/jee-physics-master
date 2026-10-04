@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-concept-dyn-second-law-01",
+  "content_type": "CONCEPT",
+  "target_id": "concept-dyn-second-law-01",
+  "content_hash": "ae27a821c23438e66ea24e1a22d8e196b564604b4e53bbb125fc3150b01d980d",
+  "risk_level": "MEDIUM",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Independently verified physical assumptions, mathematical representation, and limits for Linear Momentum, Impulse, and Newton's Second Law.",
+  "verifier_id": "physics-content-verifier-dynamics",
+  "created_at": "2026-10-02T10:05:00Z"
+}

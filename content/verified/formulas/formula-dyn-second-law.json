@@ -1,0 +1,38 @@
+{
+  "formula_id": "formula-dyn-second-law",
+  "chapter_id": "laws-of-motion",
+  "title": "Newton's Second Law for Constant Mass",
+  "equation_latex": "\\vec{F}_{\\text{net}} = m \\vec{a} = m \\frac{d^2 \\vec{r}}{dt^2}",
+  "variables": {
+    "\\vec{F}_{\\text{net}}": "Net external force vector",
+    "m": "Inertial mass",
+    "\\vec{a}": "Acceleration vector"
+  },
+  "units": {
+    "\\vec{F}": "N (kg m s^-2)",
+    "m": "kg",
+    "\\vec{a}": "m s^-2"
+  },
+  "dimensions": {
+    "\\vec{F}": "[M][L][T]^-2",
+    "m": "[M]",
+    "\\vec{a}": "[L][T]^-2"
+  },
+  "assumptions": [
+    "Inertial frame of reference",
+    "Constant mass system dm/dt = 0",
+    "Non-relativistic regime"
+  ],
+  "conditions_of_validity": [
+    "Universal for translation of point mass or center of mass in classical mechanics"
+  ],
+  "common_misuse": [
+    "Using F = ma in accelerating frame without pseudo-force",
+    "Applying F = ma to variable-mass systems directly"
+  ],
+  "derivation_reference": "derivation-formula-dyn-second-law",
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-formula-dyn-second-law",
+  "created_at": "2026-10-02T10:00:00Z",
+  "content_hash": "4b7df732da8ef657f411c0efa8f0496ff4e7cb10d289c483676a0f9fdc02cd2d"
+}

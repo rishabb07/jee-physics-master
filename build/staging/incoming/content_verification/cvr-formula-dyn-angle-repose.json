@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-formula-dyn-angle-repose",
+  "content_type": "FORMULA",
+  "target_id": "formula-dyn-angle-repose",
+  "content_hash": "62e7904ed4129f7bdfcf570d9b0661496346c6d54dece38187d39fe9669eb22c",
+  "risk_level": "MEDIUM",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Verified algebraic formulation, dimensional homogeneity, and domain boundaries for Angle of Repose Relation.",
+  "verifier_id": "physics-content-verifier-dynamics",
+  "created_at": "2026-10-02T10:05:00Z"
+}

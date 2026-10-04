@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-concept-dyn-friction-origin-01",
+  "content_type": "CONCEPT",
+  "target_id": "concept-dyn-friction-origin-01",
+  "content_hash": "b6e35bc7d628b570a4100c866a8dd7432e2c2754e695ced0b2ed29192ca0a95d",
+  "risk_level": "MEDIUM",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Independently verified physical assumptions, mathematical representation, and limits for Microscopic Mechanism and Nature of Dry Friction.",
+  "verifier_id": "physics-content-verifier-dynamics",
+  "created_at": "2026-10-02T10:05:00Z"
+}

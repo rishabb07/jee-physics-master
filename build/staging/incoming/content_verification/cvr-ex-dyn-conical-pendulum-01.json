@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-ex-dyn-conical-pendulum-01",
+  "content_type": "WORKED_EXAMPLE",
+  "target_id": "ex-dyn-conical-pendulum-01",
+  "content_hash": "362e794c948bdc4f0178a0471074f29e1b9caf77e092c04703724e2d50f2ad8d",
+  "risk_level": "HIGH",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Independently recalculated all numerical steps, dimensional homogeneity, and limiting cases for ex-dyn-conical-pendulum-01.",
+  "verifier_id": "physics-content-verifier-dynamics",
+  "created_at": "2026-10-02T10:05:00Z"
+}

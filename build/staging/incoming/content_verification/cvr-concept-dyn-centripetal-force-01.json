@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-concept-dyn-centripetal-force-01",
+  "content_type": "CONCEPT",
+  "target_id": "concept-dyn-centripetal-force-01",
+  "content_hash": "d675e5005741219055589d0c53d93629a30f7309c7f37e439b9d35c42f743752",
+  "risk_level": "MEDIUM",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Independently verified physical assumptions, mathematical representation, and limits for Centripetal Acceleration and Radial Dynamics in Curved Paths.",
+  "verifier_id": "physics-content-verifier-dynamics",
+  "created_at": "2026-10-02T10:05:00Z"
+}

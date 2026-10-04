@@ -1,0 +1,52 @@
+{
+  "example_id": "ex-dyn-two-block-threshold-01",
+  "chapter_id": "laws-of-motion",
+  "problem_statement": "A block $A$ of mass $m_1 = 2.0\\text{ kg}$ sits on block $B$ of mass $m_2 = 4.0\\text{ kg}$, which rests on a frictionless horizontal floor. The coefficient of static friction between $A$ and $B$ is $\\mu_s = 0.40$ and kinetic friction is $\\mu_k = 0.30$. A horizontal force $F$ is applied to block $B$. (Take $g = 9.8\\text{ m/s}^2$). (a) Find the maximum force $F_{\\text{thresh}}$ for which both blocks move together without slipping. (b) If $F = 35.0\\text{ N}$, compute the acceleration of each block.",
+  "known_parameters": {
+    "m_1": 2.0,
+    "m_2": 4.0,
+    "mu_s": 0.4,
+    "mu_k": 0.3,
+    "g": 9.8,
+    "F_applied": 35.0
+  },
+  "target_variable": "F_thresh, a_1, a_2",
+  "solution_strategy": "Block A is accelerated exclusively by static friction from B. Calculate maximum static grip on A to determine maximum common acceleration, then compute threshold driving force and subsequent sliding dynamics.",
+  "solution_steps": [
+    {
+      "step_number": 1,
+      "explanation": "Calculate maximum static friction on block A and corresponding maximum acceleration.",
+      "equation_latex": "f_{s,\\text{max}} = \\mu_s m_1 g = 0.40 \\times 2.0 \\times 9.8 = 7.84\\text{ N} \\implies a_{\\text{max}} = \\frac{f_{s,\\text{max}}}{m_1} = \\mu_s g = 0.40 \\times 9.8 = 3.92\\text{ m/s}^2"
+    },
+    {
+      "step_number": 2,
+      "explanation": "Compute threshold force on combined system.",
+      "equation_latex": "F_{\\text{thresh}} = (m_1 + m_2) a_{\\text{max}} = (2.0 + 4.0) \\times 3.92 = 6.0 \\times 3.92 = 23.52\\text{ N}"
+    },
+    {
+      "step_number": 3,
+      "explanation": "Since applied force F = 35.0 N > 23.52 N, relative slipping occurs. Compute kinetic friction and individual accelerations.",
+      "equation_latex": "f_k = \\mu_k m_1 g = 0.30 \\times 2.0 \\times 9.8 = 5.88\\text{ N}"
+    },
+    {
+      "step_number": 4,
+      "explanation": "Evaluate accelerations of block A and block B under kinetic friction.",
+      "equation_latex": "a_1 = \\frac{f_k}{m_1} = \\frac{5.88}{2.0} = 2.94\\text{ m/s}^2, \\quad a_2 = \\frac{F - f_k}{m_2} = \\frac{35.0 - 5.88}{4.0} = \\frac{29.12}{4.0} = 7.28\\text{ m/s}^2"
+    }
+  ],
+  "final_answer": "F_{\\text{thresh}} = 23.52\\text{ N}; \\quad a_1 = 2.94\\text{ m/s}^2, \\quad a_2 = 7.28\\text{ m/s}^2",
+  "trap_alerts": [
+    "Assuming static friction continues to act after slipping begins instead of dropping to kinetic value f_k"
+  ],
+  "sanity_checks": [
+    "Block B accelerates faster than block A (7.28 > 2.94 m/s^2), consistent with B slipping forward from underneath A",
+    "If F <= 23.52 N, both accelerate at F/6.0"
+  ],
+  "claim_traces": [
+    "HCV1 Ch 6 Example 6.4; Irodov Prob 1.85"
+  ],
+  "verification_status": "VERIFIED",
+  "verification_record_id": "dual-cvr-ex-dyn-two-block-threshold-01",
+  "created_at": "2026-10-02T10:00:00Z",
+  "content_hash": "679f7dc8d59668fef01b9114aa59c6b1430f3d4849176130673e572a535aa84c"
+}

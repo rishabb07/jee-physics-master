@@ -1,0 +1,192 @@
+{
+  "chapter_id": "laws-of-motion",
+  "chapter_title": "Newton's Laws of Motion & Dynamics",
+  "template_type": "MECHANICS",
+  "taxonomy_node_id": "laws-of-motion",
+  "topics": [
+    {
+      "topic_id": "newtons-laws",
+      "title": "Newton's Laws of Motion and Force Systems",
+      "subtopics": [
+        {
+          "subtopic_id": "inertia-and-first-law",
+          "title": "Inertia, Inertial Reference Frames, and the First Law",
+          "description": "Galileo's principle of inertia; operational definition of inertial frames; zero net force implies constant velocity."
+        },
+        {
+          "subtopic_id": "momentum-and-second-law",
+          "title": "Linear Momentum, Impulse, and the Second Law",
+          "description": "Differential relation F_net = dp/dt = m dv/dt = m a for constant mass; vector decomposition; impulse J = int F dt = delta p."
+        },
+        {
+          "subtopic_id": "action-reaction-third-law",
+          "title": "Action-Reaction Pairs and the Third Law",
+          "description": "Mutual interaction forces F_AB = -F_BA; distinct points of application; impossibility of self-canceling internal pairs."
+        },
+        {
+          "subtopic_id": "free-body-diagrams",
+          "title": "Free-Body Diagrams and Component Equations",
+          "description": "Systematic isolation of bodies; classification of contact forces (normal, tension, spring) and field forces (weight mg); orthogonal coordinate projection."
+        },
+        {
+          "subtopic_id": "string-and-pulley-constraints",
+          "title": "String and Pulley Kinematic Constraints",
+          "description": "Ideal massless inextensible strings; massless frictionless pulleys; length preservation sum(l_i) = const; virtual work constraint sum(T_i . a_i) = 0."
+        },
+        {
+          "subtopic_id": "wedge-constraints",
+          "title": "Wedge and Incline Surface Constraints",
+          "description": "Rigid boundary non-penetration condition; perpendicular velocity and acceleration equality at movable contact interfaces."
+        },
+        {
+          "subtopic_id": "pseudo-force-in-accelerating-frame",
+          "title": "Non-Inertial Reference Frames and Pseudo-Forces",
+          "description": "Linearly accelerating observers; inertial force F_pseudo = -m a_0; apparent weight in accelerating elevators; equilibrium analysis in accelerating frames."
+        }
+      ]
+    },
+    {
+      "topic_id": "friction",
+      "title": "Frictional Forces and Surface Interaction",
+      "subtopics": [
+        {
+          "subtopic_id": "origin-of-friction",
+          "title": "Microscopic Origin and Nature of Friction",
+          "description": "Intermolecular adhesion at microscopic asperities; cold-welding; normal force proportionality; independence of macroscopic contact area."
+        },
+        {
+          "subtopic_id": "static-friction-limiting",
+          "title": "Static Friction and Limiting Value",
+          "description": "Self-adjusting tangential force 0 <= f_s <= f_s,max = mu_s N; onset of relative motion."
+        },
+        {
+          "subtopic_id": "kinetic-friction",
+          "title": "Kinetic (Sliding) Friction",
+          "description": "Constant dynamic resisting force f_k = mu_k N opposing relative sliding velocity; mu_k <= mu_s."
+        },
+        {
+          "subtopic_id": "two-block-problems",
+          "title": "Stacked Multi-Body Systems (Two-Block Problems)",
+          "description": "Friction between moving bodies; threshold driving force for relative slip; transition from unified acceleration to independent sliding accelerations."
+        },
+        {
+          "subtopic_id": "equilibrium-on-curved-surface",
+          "title": "Friction and Limiting Equilibrium on Curved Surfaces",
+          "description": "Equilibrium of particle on rough hemispherical or cylinder bowl; local tangent and normal resolution; angle bounds."
+        },
+        {
+          "subtopic_id": "angle-of-repose",
+          "title": "Angle of Repose and Angle of Friction",
+          "description": "Critical incline angle theta_R = arctan(mu_s) for sliding onset; resultant contact reaction force angle lambda = arctan(mu)."
+        }
+      ]
+    },
+    {
+      "topic_id": "circular-dynamics",
+      "title": "Dynamics of Circular Motion",
+      "subtopics": [
+        {
+          "subtopic_id": "centripetal-acceleration",
+          "title": "Centripetal Force and Radial Dynamics",
+          "description": "Net inward radial force F_r = m v^2 / R = m omega^2 R sustaining curved trajectory; physical identification of inward agent."
+        },
+        {
+          "subtopic_id": "banking-of-roads",
+          "title": "Banking of Roads and Tracks",
+          "description": "Optimum design speed v_0 = sqrt(R g tan(theta)) without lateral friction; safe speed envelopes [v_min, v_max] under static friction mu_s."
+        },
+        {
+          "subtopic_id": "centrifugal-force",
+          "title": "Centrifugal Force in Rotating Frames",
+          "description": "Outward pseudo-force m omega^2 r in uniformly rotating coordinate frame; centrifugal potential and static equilibrium in rotating tubes."
+        },
+        {
+          "subtopic_id": "conical-pendulum",
+          "title": "The Conical Pendulum",
+          "description": "String tension horizontal component T sin(theta) supplying centripetal acceleration; vertical equilibrium T cos(theta) = mg; revolution period T = 2 pi sqrt(L cos(theta) / g)."
+        }
+      ]
+    }
+  ],
+  "explicit_exclusions": [
+    {
+      "topic": "Work-Energy Theorem and Conservative Potential Energy",
+      "rationale": "Reserved strictly for Chapter 4: Work, Energy and Power."
+    },
+    {
+      "topic": "Vertical Circular Motion Energy Conservation",
+      "rationale": "Non-uniform circular motion requiring conservation of mechanical energy belongs to Chapter 4: Work, Energy and Power."
+    },
+    {
+      "topic": "Multi-Particle Collisions and Center of Mass Momentum",
+      "rationale": "Internal impulse, center of mass kinematics, and restitution coefficients belong to Chapter 5: Center of Mass and Linear Momentum."
+    },
+    {
+      "topic": "Rotational Torque and Moment of Inertia",
+      "rationale": "Rigid body rotational dynamics tau = I alpha and angular momentum belong to Chapter 6: Rotational Motion."
+    },
+    {
+      "topic": "Universal Gravitation and Orbital Dynamics",
+      "rationale": "Inverse square gravitational law and Keplerian orbits belong to Chapter 7: Gravitation."
+    }
+  ],
+  "prerequisites": [
+    "units-and-measurements",
+    "vectors-and-coordinate-systems",
+    "differential-calculus-foundations",
+    "kinematics"
+  ],
+  "source_grounding_summary": {
+    "primary_sources": [
+      {
+        "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+        "title": "Concepts of Physics Vol 1 by H.C. Verma",
+        "coverage": "Chapter 4: The Forces (pp. 66-73), Chapter 5: Newton's Laws of Motion (pp. 74-94), Chapter 6: Friction (pp. 95-110), Chapter 7: Circular Motion (pp. 111-125)",
+        "role": "Rigorous definition of inertial frames, free-body diagram isolation, friction mechanisms, pulley-incline systems, worked examples, exercise problems"
+      },
+      {
+        "source_id": "src-fundamentals-of-physics--390f40d1",
+        "title": "Fundamentals of Physics (Halliday, Resnick & Walker)",
+        "coverage": "Chapter 5: Force and Motion—I (pp. 115-144) & Chapter 6: Force and Motion—II (pp. 145-172)",
+        "role": "Calculus-based dynamics, static/kinetic friction transitions, drag forces, banking of curves, uniform circular dynamics"
+      },
+      {
+        "source_id": "src-university-physics-with--0bc11b67",
+        "title": "University Physics with Modern Physics (Young & Freedman)",
+        "coverage": "Chapter 4: Newton's Laws of Motion (pp. 131-168) & Chapter 5: Applying Newton's Laws (pp. 169-214)",
+        "role": "Systematic free-body methodology, multi-body coupled constraints, banking angle derivations, conical pendulum dynamics"
+      },
+      {
+        "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+        "title": "The Feynman Lectures on Physics, Vol. 1",
+        "coverage": "Lecture 9: Newton's Laws of Dynamics & Lecture 12: Characteristics of Force",
+        "role": "Fundamental physical intuition on force as interaction, operational limits of classical mechanics, non-inertial pseudo-forces"
+      },
+      {
+        "source_id": "src-problems-in-general-phys-6cf0b2b7",
+        "title": "Problems in General Physics by I.E. Irodov",
+        "coverage": "Part 1, Section 1.2: The Fundamental Equation of Dynamics (pp. 17-26, Problems 1.59 to 1.120)",
+        "role": "Advanced constraint problems, movable wedges, two-block threshold friction, circular dynamics under friction"
+      },
+      {
+        "source_id": "src-jee-main-mock-test-01-20-222525c1",
+        "title": "JEE Main Mock Test 01",
+        "coverage": "Dynamics and constraint problems (Q12, Q22)",
+        "role": "Official exam format multiple choice and numerical questions"
+      },
+      {
+        "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+        "title": "JEE Main Rank Booster Mock Test 02",
+        "coverage": "Friction and wedge constraint questions (Q14, Q28)",
+        "role": "Exam-format multi-body dynamics assessment questions"
+      },
+      {
+        "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+        "title": "JEE Main Rank Booster Mock Test 03",
+        "coverage": "Banking of roads and circular dynamics questions (Q19, Q27)",
+        "role": "Exam-format assessment questions"
+      }
+    ]
+  },
+  "created_at": "2026-10-02T09:25:00Z"
+}

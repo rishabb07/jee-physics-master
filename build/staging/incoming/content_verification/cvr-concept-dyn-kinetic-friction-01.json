@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-concept-dyn-kinetic-friction-01",
+  "content_type": "CONCEPT",
+  "target_id": "concept-dyn-kinetic-friction-01",
+  "content_hash": "b1b90d6036aaf787b000eab3b44afaefded757bc69fac7f6af7c7ed3c0a97c9b",
+  "risk_level": "MEDIUM",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Independently verified physical assumptions, mathematical representation, and limits for Kinetic Sliding Friction and Relative Velocity Opposition.",
+  "verifier_id": "physics-content-verifier-dynamics",
+  "created_at": "2026-10-02T10:05:00Z"
+}

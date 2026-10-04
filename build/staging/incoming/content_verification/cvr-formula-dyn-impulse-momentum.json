@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-formula-dyn-impulse-momentum",
+  "content_type": "FORMULA",
+  "target_id": "formula-dyn-impulse-momentum",
+  "content_hash": "83157f845a61d799e95bea02399ddf692595c772ee732155bac5009a5a87981c",
+  "risk_level": "MEDIUM",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Verified algebraic formulation, dimensional homogeneity, and domain boundaries for Impulse-Momentum Theorem.",
+  "verifier_id": "physics-content-verifier-dynamics",
+  "created_at": "2026-10-02T10:05:00Z"
+}

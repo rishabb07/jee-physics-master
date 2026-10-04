@@ -1,0 +1,39 @@
+{
+  "formula_id": "formula-dyn-banking-optimum",
+  "chapter_id": "laws-of-motion",
+  "title": "Optimum Banking Angle Formula",
+  "equation_latex": "v_0 = \\sqrt{R g \\tan\\theta} \\iff \\tan\\theta = \\frac{v_0^2}{R g}",
+  "variables": {
+    "v_0": "Optimum design speed",
+    "R": "Curve radius",
+    "g": "Gravitational acceleration",
+    "\\theta": "Incline banking angle"
+  },
+  "units": {
+    "v_0": "m s^-1",
+    "R": "m",
+    "g": "m s^-2",
+    "\\theta": "rad or deg"
+  },
+  "dimensions": {
+    "v_0": "[L][T]^-1",
+    "R": "[L]",
+    "g": "[L][T]^-2",
+    "\\theta": "[1]"
+  },
+  "assumptions": [
+    "Circular curve of radius R",
+    "Zero sideways lateral friction required"
+  ],
+  "conditions_of_validity": [
+    "Applies at exact optimum rated design speed"
+  ],
+  "common_misuse": [
+    "Using tangent of angle measured from vertical instead of horizontal"
+  ],
+  "derivation_reference": "derivation-formula-dyn-banking-optimum",
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-formula-dyn-banking-optimum",
+  "created_at": "2026-10-02T10:00:00Z",
+  "content_hash": "c6b26a48863f1cecbcc34d85d76eaa65187e040703be5988f2851bc6afd34669"
+}

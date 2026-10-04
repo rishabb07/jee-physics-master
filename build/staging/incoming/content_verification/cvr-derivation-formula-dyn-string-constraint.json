@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-derivation-formula-dyn-string-constraint",
+  "content_type": "DERIVATION",
+  "target_id": "derivation-formula-dyn-string-constraint",
+  "content_hash": "6b9bd391ed17641705f15c1a22291a3816e4e1a20371b462a8d2dfa38088b9c1",
+  "risk_level": "HIGH",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Independently re-derived every step from first principles and verified limit behavior for Derivation of Pulley Virtual Work Constraint.",
+  "verifier_id": "physics-content-verifier-dynamics",
+  "created_at": "2026-10-02T10:05:00Z"
+}

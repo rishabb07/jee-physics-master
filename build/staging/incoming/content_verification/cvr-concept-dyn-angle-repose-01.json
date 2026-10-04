@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-concept-dyn-angle-repose-01",
+  "content_type": "CONCEPT",
+  "target_id": "concept-dyn-angle-repose-01",
+  "content_hash": "272f42f0c286916b1b1fde858c42c6c86875dc131e79a2261a2e3bfbc61d40fc",
+  "risk_level": "MEDIUM",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Independently verified physical assumptions, mathematical representation, and limits for Angle of Repose and Angle of Contact Friction.",
+  "verifier_id": "physics-content-verifier-dynamics",
+  "created_at": "2026-10-02T10:05:00Z"
+}

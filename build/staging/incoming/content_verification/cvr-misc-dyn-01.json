@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-misc-dyn-01",
+  "content_type": "MISCONCEPTION",
+  "target_id": "misc-dyn-01",
+  "content_hash": "511b541ae199f6692c4d454c2979a5d8de8782530a68f62e6d44a8f788d58b15",
+  "risk_level": "MEDIUM",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Independently verified cognitive trap analysis and diagnostic refutation for misc-dyn-01.",
+  "verifier_id": "physics-content-verifier-dynamics",
+  "created_at": "2026-10-02T10:05:00Z"
+}

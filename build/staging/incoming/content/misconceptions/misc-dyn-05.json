@@ -1,0 +1,17 @@
+{
+  "misconception_id": "misc-dyn-05",
+  "chapter_id": "laws-of-motion",
+  "category": "CENTRIPETAL_FORCE_AS_PHYSICAL_ENTITY",
+  "statement": "Centripetal force is a distinct physical force that must be added to a free-body diagram in circular motion.",
+  "erroneous_reasoning": "Treating m v^2 / R as an independent active interaction like gravity or tension.",
+  "correct_physics_explanation": "Centripetal force is not an independent physical force; it is simply the mass times centripetal acceleration m a_c on the right-hand side of Newton's second law: sum F_radial = m v^2 / R. It is provided by real physical agents (tension, gravity, normal reaction, friction). Adding an extra 'centripetal force' vector double-counts the net force.",
+  "refutation_counterexample": "For a satellite in circular orbit, gravity is the ONLY physical force acting. Gravity provides the required centripetal acceleration G M m / r^2 = m v^2 / r.",
+  "diagnostic_check_latex": "\\sum \\vec{F}_{\\text{real, radial}} = \\frac{m v^2}{R} \\hat{r}_{\\text{inward}}. \\quad \\text{Never draw } \\vec{F}_c \\text{ as a separate force!}",
+  "claim_traces": [
+    "HCV1 Ch 7 p. 111; HRW Ch 6 p. 154"
+  ],
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-misc-dyn-05",
+  "created_at": "2026-10-02T10:00:00Z",
+  "content_hash": "9c55fb574e5d14ba7689aa68d04121cd5ea3cea58305996b84be8f4211546cc3"
+}

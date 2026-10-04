@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-formula-dyn-string-constraint",
+  "content_type": "FORMULA",
+  "target_id": "formula-dyn-string-constraint",
+  "content_hash": "c4cf91ea0472141c01f9b2c694e81592be3c2c8bcb0063975292bade240fd1e1",
+  "risk_level": "MEDIUM",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Verified algebraic formulation, dimensional homogeneity, and domain boundaries for Virtual Work Pulley Constraint Relation.",
+  "verifier_id": "physics-content-verifier-dynamics",
+  "created_at": "2026-10-02T10:05:00Z"
+}

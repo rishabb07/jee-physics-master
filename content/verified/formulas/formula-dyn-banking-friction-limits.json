@@ -1,0 +1,39 @@
+{
+  "formula_id": "formula-dyn-banking-friction-limits",
+  "chapter_id": "laws-of-motion",
+  "title": "Banked Curve Safe Speed Limits with Friction",
+  "equation_latex": "v_{\\text{max}} = \\sqrt{R g \\left( \\frac{\\tan\\theta + \\mu_s}{1 - \\mu_s \\tan\\theta} \\right)}, \\quad v_{\\text{min}} = \\sqrt{R g \\left( \\frac{\\tan\\theta - \\mu_s}{1 + \\mu_s \\tan\\theta} \\right)}",
+  "variables": {
+    "v_{\\text{max}}": "Maximum speed before skidding outward",
+    "v_{\\text{min}}": "Minimum speed before slipping inward",
+    "\\mu_s": "Static friction coefficient",
+    "\\theta": "Banking angle"
+  },
+  "units": {
+    "v": "m s^-1",
+    "R": "m",
+    "g": "m s^-2",
+    "\\mu_s": "dimensionless"
+  },
+  "dimensions": {
+    "v": "[L][T]^-1",
+    "R": "[L]",
+    "g": "[L][T]^-2",
+    "\\mu_s": "[1]"
+  },
+  "assumptions": [
+    "Static friction coefficient mu_s < cot(theta) for non-zero v_min",
+    "Rigid circular road bed"
+  ],
+  "conditions_of_validity": [
+    "Defines the safe non-skid speed envelope [v_min, v_max]"
+  ],
+  "common_misuse": [
+    "Failing to account for downslope vs upslope friction direction reversals"
+  ],
+  "derivation_reference": "derivation-formula-dyn-banking-optimum",
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-formula-dyn-banking-friction-limits",
+  "created_at": "2026-10-02T10:00:00Z",
+  "content_hash": "26246f78dd5a89f0fb18fdfc5d428956b76c935baef1e173e8dee966ed4dbaf6"
+}

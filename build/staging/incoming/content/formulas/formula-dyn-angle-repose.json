@@ -1,0 +1,33 @@
+{
+  "formula_id": "formula-dyn-angle-repose",
+  "chapter_id": "laws-of-motion",
+  "title": "Angle of Repose Relation",
+  "equation_latex": "\\theta_R = \\arctan(\\mu_s) \\iff \\tan\\theta_R = \\mu_s",
+  "variables": {
+    "\\theta_R": "Critical angle of repose",
+    "\\mu_s": "Static friction coefficient"
+  },
+  "units": {
+    "\\theta_R": "rad or deg",
+    "\\mu_s": "dimensionless"
+  },
+  "dimensions": {
+    "\\theta_R": "[1]",
+    "\\mu_s": "[1]"
+  },
+  "assumptions": [
+    "Uniform inclined plane under gravity alone",
+    "Block at rest on verge of slipping"
+  ],
+  "conditions_of_validity": [
+    "Applies to block on rough incline with no external cords or forces"
+  ],
+  "common_misuse": [
+    "Applying formula when external forces or acceleration are present"
+  ],
+  "derivation_reference": "derivation-formula-dyn-angle-repose",
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-formula-dyn-angle-repose",
+  "created_at": "2026-10-02T10:00:00Z",
+  "content_hash": "62e7904ed4129f7bdfcf570d9b0661496346c6d54dece38187d39fe9669eb22c"
+}

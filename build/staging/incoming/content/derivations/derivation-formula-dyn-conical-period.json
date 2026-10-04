@@ -1,0 +1,42 @@
+{
+  "derivation_id": "derivation-formula-dyn-conical-period",
+  "chapter_id": "laws-of-motion",
+  "title": "Derivation of Conical Pendulum Revolution Period",
+  "target_formula_id": "formula-dyn-conical-period",
+  "target_equation": "T = 2\\pi \\sqrt{\\frac{L \\cos\\theta}{g}}",
+  "assumptions": [
+    "Light inextensible string of length L",
+    "Constant angular speed omega in horizontal circle of radius R = L sin(theta)"
+  ],
+  "starting_principles": [
+    "Vertical equilibrium T cos(theta) = mg",
+    "Horizontal centripetal force T sin(theta) = m omega^2 R"
+  ],
+  "ordered_steps": [
+    {
+      "step_number": 1,
+      "explanation": "Write vertical and horizontal dynamical equations for string tension T.",
+      "equation_latex": "T \\cos\\theta = mg, \\quad T \\sin\\theta = m \\omega^2 (L \\sin\\theta)"
+    },
+    {
+      "step_number": 2,
+      "explanation": "Solve for angular velocity omega from the horizontal equation.",
+      "equation_latex": "T = m \\omega^2 L \\implies \\left(\\frac{mg}{\\cos\\theta}\\right) = m \\omega^2 L \\implies \\omega = \\sqrt{\\frac{g}{L \\cos\\theta}}"
+    },
+    {
+      "step_number": 3,
+      "explanation": "Compute the revolution period T = 2 pi / omega.",
+      "equation_latex": "T = \\frac{2\\pi}{\\omega} = 2\\pi \\sqrt{\\frac{L \\cos\\theta}{g}}"
+    }
+  ],
+  "limiting_cases": [
+    "As theta -> 0 (small oscillations), period approaches simple pendulum 2 pi sqrt(L/g)"
+  ],
+  "claim_traces": [
+    "HCV1 Ch 7 p. 116; UP Ch 5 p. 180"
+  ],
+  "verification_status": "VERIFIED",
+  "verification_record_id": "dual-cvr-derivation-formula-dyn-conical-period",
+  "created_at": "2026-10-02T10:00:00Z",
+  "content_hash": "25890795ada2a2255685c85514a20762885c9eea06b3820d0d4f5775af167ec5"
+}

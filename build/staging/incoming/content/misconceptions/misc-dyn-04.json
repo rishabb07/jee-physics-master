@@ -1,0 +1,17 @@
+{
+  "misconception_id": "misc-dyn-04",
+  "chapter_id": "laws-of-motion",
+  "category": "STATIC_FRICTION_IS_ALWAYS_MAXIMAL",
+  "statement": "The static friction force acting on a stationary object is always equal to mu_s N.",
+  "erroneous_reasoning": "Using the formula f_s = mu_s N as an equality rather than an inequality bound.",
+  "correct_physics_explanation": "Static friction is a self-adjusting force: it only takes on the exact value required to maintain equilibrium, satisfying 0 <= f_s <= mu_s N. If an object of mass 10 kg (mu_s = 0.5, N = 98 N, f_s,max = 49 N) is pushed horizontally with 10 N, static friction is exactly 10 N, not 49 N.",
+  "refutation_counterexample": "A book at rest on a horizontal desk with no horizontal applied force has static friction f_s = 0, even though mu_s N is non-zero.",
+  "diagnostic_check_latex": "f_s = F_{\\text{applied}} \\quad \\text{for } F_{\\text{applied}} \\le \\mu_s N. \\quad f_s = \\mu_s N \\text{ ONLY at verge of slipping.}",
+  "claim_traces": [
+    "HCV1 Ch 6 p. 97; UP Ch 5 p. 187"
+  ],
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-misc-dyn-04",
+  "created_at": "2026-10-02T10:00:00Z",
+  "content_hash": "ccc56481cef1644efcee337004041df846f9f302c61bcb87dd2fc0a81e5564bf"
+}

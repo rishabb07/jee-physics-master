@@ -1,0 +1,42 @@
+{
+  "derivation_id": "derivation-formula-dyn-pseudo-force",
+  "chapter_id": "laws-of-motion",
+  "title": "Proof of Equation of Motion in Linearly Accelerating Frame",
+  "target_formula_id": "formula-dyn-pseudo-force",
+  "target_equation": "m \\vec{a}' = \\vec{F}_{\\text{real}} - m \\vec{a}_0",
+  "assumptions": [
+    "Frame S' moves with linear acceleration a_0 relative to inertial frame S",
+    "Zero frame rotation"
+  ],
+  "starting_principles": [
+    "Galilean relative acceleration relation",
+    "Newton's second law in inertial frame"
+  ],
+  "ordered_steps": [
+    {
+      "step_number": 1,
+      "explanation": "Relate position vectors r and r' via origin displacement R_0.",
+      "equation_latex": "\\vec{r} = \\vec{R}_0 + \\vec{r}'"
+    },
+    {
+      "step_number": 2,
+      "explanation": "Differentiate twice with respect to time to relate accelerations.",
+      "equation_latex": "\\vec{a} = \\vec{a}_0 + \\vec{a}' \\implies \\vec{a}' = \\vec{a} - \\vec{a}_0"
+    },
+    {
+      "step_number": 3,
+      "explanation": "Multiply by mass m and substitute inertial second law F_real = m a.",
+      "equation_latex": "m \\vec{a}' = m \\vec{a} - m \\vec{a}_0 = \\vec{F}_{\\text{real}} - m \\vec{a}_0 = \\vec{F}_{\\text{real}} + \\vec{F}_{\\text{pseudo}}"
+    }
+  ],
+  "limiting_cases": [
+    "When a_0 = 0, frame is inertial and F_pseudo vanishes"
+  ],
+  "claim_traces": [
+    "HCV1 Ch 5 p. 88; Feynman Lec 12 p. 12-11"
+  ],
+  "verification_status": "VERIFIED",
+  "verification_record_id": "dual-cvr-derivation-formula-dyn-pseudo-force",
+  "created_at": "2026-10-02T10:00:00Z",
+  "content_hash": "9d7a784b24b59cb6195910906686bc3cfb647b47a09b6fd37e1fe41a67843489"
+}

@@ -1,0 +1,40 @@
+{
+  "formula_id": "formula-dyn-conical-period",
+  "chapter_id": "laws-of-motion",
+  "title": "Conical Pendulum Revolution Period",
+  "equation_latex": "T = 2\\pi \\sqrt{\\frac{L \\cos\\theta}{g}}",
+  "variables": {
+    "T": "Period of revolution",
+    "L": "String length",
+    "\\theta": "Semi-vertical angle",
+    "g": "Gravitational acceleration"
+  },
+  "units": {
+    "T": "s",
+    "L": "m",
+    "\\theta": "rad or deg",
+    "g": "m s^-2"
+  },
+  "dimensions": {
+    "T": "[T]",
+    "L": "[L]",
+    "\\theta": "[1]",
+    "g": "[L][T]^-2"
+  },
+  "assumptions": [
+    "Inextensible light string",
+    "Constant speed revolution in horizontal circle",
+    "Uniform vertical gravity"
+  ],
+  "conditions_of_validity": [
+    "Valid for 0 < theta < pi/2"
+  ],
+  "common_misuse": [
+    "Using simple pendulum formula 2 pi sqrt(L/g) without the cos(theta) factor"
+  ],
+  "derivation_reference": "derivation-formula-dyn-conical-period",
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-formula-dyn-conical-period",
+  "created_at": "2026-10-02T10:00:00Z",
+  "content_hash": "acc4d0afcb7425ac1913e2636bb042527b67faaafdd178325d70e855ea4852cc"
+}

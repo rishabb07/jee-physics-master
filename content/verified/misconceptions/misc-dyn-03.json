@@ -1,0 +1,17 @@
+{
+  "misconception_id": "misc-dyn-03",
+  "chapter_id": "laws-of-motion",
+  "category": "FRICTION_ALWAYS_OPPOSES_MOTION",
+  "statement": "Friction always acts in the opposite direction of motion and slows objects down.",
+  "erroneous_reasoning": "Confusing 'motion of a body relative to ground' with 'relative motion of the contact surfaces'.",
+  "correct_physics_explanation": "Friction opposes relative sliding between contact surfaces, NOT the motion of the body relative to ground. Friction is often the driving force that accelerates objects forward. When walking, static friction from ground pushes foot forward. In an accelerating truck, static friction between floor and a crate accelerates the crate forward.",
+  "refutation_counterexample": "When a car accelerates forward from rest, the rear tires push backward on the road, and road friction pushes forward on the tires, accelerating the car forward.",
+  "diagnostic_check_latex": "\\vec{f}_k = -\\mu_k N \\frac{\\vec{v}_{\\text{rel}}}{|\\vec{v}_{\\text{rel}}|}, \\quad \\text{opposes } \\vec{v}_{\\text{rel}} = \\vec{v}_{\\text{contact 1}} - \\vec{v}_{\\text{contact 2}}.",
+  "claim_traces": [
+    "HCV1 Ch 6 p. 95; HRW Ch 6 p. 146"
+  ],
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-misc-dyn-03",
+  "created_at": "2026-10-02T10:00:00Z",
+  "content_hash": "5697e686f38b177e2356d5ad4cff683eef808144835f1ed5b7d8d9a90b0d78bf"
+}

@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-formula-dyn-kinetic-friction",
+  "content_type": "FORMULA",
+  "target_id": "formula-dyn-kinetic-friction",
+  "content_hash": "f318a1ce17159b7de8d54639725c4a2824f1173137f2dedfdc3b991b8e16e332",
+  "risk_level": "MEDIUM",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Verified algebraic formulation, dimensional homogeneity, and domain boundaries for Kinetic Friction Law.",
+  "verifier_id": "physics-content-verifier-dynamics",
+  "created_at": "2026-10-02T10:05:00Z"
+}

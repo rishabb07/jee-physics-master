@@ -1,0 +1,43 @@
+{
+  "derivation_id": "derivation-formula-dyn-two-block",
+  "chapter_id": "laws-of-motion",
+  "title": "Derivation of Stacked Two-Block Slipping Threshold",
+  "target_formula_id": "formula-dyn-two-block-threshold",
+  "target_equation": "F_{\\text{thresh}} = \\mu_s (m_1 + m_2) g",
+  "assumptions": [
+    "Top block m1 rests on bottom block m2",
+    "Friction coefficient mu_s between blocks",
+    "Frictionless horizontal floor"
+  ],
+  "starting_principles": [
+    "Newton's second law for top block isolated",
+    "System acceleration under common motion"
+  ],
+  "ordered_steps": [
+    {
+      "step_number": 1,
+      "explanation": "Analyze top block m1: only horizontal force is static friction f_s from m2.",
+      "equation_latex": "f_s = m_1 a, \\quad N_1 = m_1 g \\implies f_{s,\\text{max}} = \\mu_s m_1 g"
+    },
+    {
+      "step_number": 2,
+      "explanation": "Determine maximum acceleration of top block without slipping.",
+      "equation_latex": "a_{\\text{max}} = \\frac{f_{s,\\text{max}}}{m_1} = \\frac{\\mu_s m_1 g}{m_1} = \\mu_s g"
+    },
+    {
+      "step_number": 3,
+      "explanation": "Apply second law to combined system of mass (m1 + m2) moving with acceleration a_max.",
+      "equation_latex": "F_{\\text{thresh}} = (m_1 + m_2) a_{\\text{max}} = \\mu_s (m_1 + m_2) g"
+    }
+  ],
+  "limiting_cases": [
+    "If F <= F_thresh, a = F/(m1 + m2); if F > F_thresh, a1 = mu_k g and a2 = (F - mu_k m1 g)/m2"
+  ],
+  "claim_traces": [
+    "HCV1 Ch 6 p. 101; Irodov Prob 1.85"
+  ],
+  "verification_status": "VERIFIED",
+  "verification_record_id": "dual-cvr-derivation-formula-dyn-two-block",
+  "created_at": "2026-10-02T10:00:00Z",
+  "content_hash": "4d3acfbdcc6fbb8064ea04ee2822d361ae2ee42126d9207ba1446373b4db67af"
+}

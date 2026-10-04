@@ -1,0 +1,22 @@
+{
+  "concept_id": "concept-dyn-pulley-constraint-01",
+  "chapter_id": "laws-of-motion",
+  "title": "String-Pulley Kinematic Constraints and Virtual Work",
+  "formal_definition": "The kinematic relation linking the displacements, velocities, and accelerations of bodies connected by inextensible strings passing over fixed or movable pulleys, expressed by length preservation $\\sum l_i = \\text{const}$ or virtual work $\\sum \\vec{T}_i \\cdot \\vec{a}_i = 0$.",
+  "physical_intuition": "Because strings cannot stretch, the motion of one mass mechanically dictates the motion of all connected masses. Movable pulleys trade acceleration magnitude for mechanical tension advantage.",
+  "assumptions": [
+    "Inextensible string ($dl/dt = 0$)",
+    "Massless string and pulley"
+  ],
+  "validity_boundaries": [
+    "Holds strictly while strings remain taut ($T > 0$); fails if any segment becomes slack"
+  ],
+  "mathematical_representation": "\\sum_{i=1}^n \\vec{T}_i \\cdot \\vec{a}_i = 0 \\implies \\sum_{i=1}^n T_i a_i \\cos(\\theta_i) = 0",
+  "claim_traces": [
+    "HCV1 Ch 5 p. 82; Irodov Sec 1.2"
+  ],
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-concept-dyn-pulley-constraint-01",
+  "created_at": "2026-10-02T10:00:00Z",
+  "content_hash": "14eb29bb11dc81146e6ad7238f72ee7048b69b8d4ef8509c0e75fbf912234315"
+}

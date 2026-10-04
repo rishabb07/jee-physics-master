@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-concept-dyn-pseudo-force-01",
+  "content_type": "CONCEPT",
+  "target_id": "concept-dyn-pseudo-force-01",
+  "content_hash": "306ed94b1148a36f2f4b10ffdb90c9c59d641a8773fed8dd96ec58fb505c2412",
+  "risk_level": "MEDIUM",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Independently verified physical assumptions, mathematical representation, and limits for Non-Inertial Reference Frames and Inertial Pseudo-Forces.",
+  "verifier_id": "physics-content-verifier-dynamics",
+  "created_at": "2026-10-02T10:05:00Z"
+}

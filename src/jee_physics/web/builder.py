@@ -38,6 +38,7 @@ PILOT_CHAPTER_IDS = [
     "current-electricity",
     "ray-optics",
     "kinematics",
+    "laws-of-motion",
 ]
 
 CHAPTER_BRANCH_MAPPING = {
@@ -502,7 +503,11 @@ class WebDataBuilder:
         for tax_ch in taxonomy_tree.chapters:
             ch_id = tax_ch.chapter_id
             spec_file = self.staging_curr_dir / f"{ch_id}_spec.json"
+            if not spec_file.exists():
+                spec_file = self.curriculum_dir / "chapters" / f"{ch_id}_spec.json"
             plan_file = self.staging_curr_dir / f"{ch_id}_plan.json"
+            if not plan_file.exists():
+                plan_file = self.curriculum_dir / "chapters" / f"{ch_id}_plan.json"
             draft_blocks_file = self.drafts_dir / ch_id / f"{ch_id}_blocks.json"
 
             if ch_id in PILOT_CHAPTER_IDS and spec_file.exists():
@@ -590,6 +595,11 @@ class WebDataBuilder:
                 ch_file.write_text(ch_detail.model_dump_json(indent=2), encoding="utf-8")
                 chapters_detail.append(ch_detail)
 
+                # Dual compatibility: if laws-of-motion, also emit chapter_dynamics.json
+                if ch_id == "laws-of-motion":
+                    dyn_file = out_dir / "chapter_dynamics.json"
+                    dyn_file.write_text(ch_detail.model_dump_json(indent=2), encoding="utf-8")
+
                 # Chapter Summary
                 tot_concepts = sum(len(s.concepts) for s in sections)
                 tot_formulas = sum(len(s.formulas) for s in sections)
@@ -654,12 +664,16 @@ class WebDataBuilder:
         chapter_titles = {ch.chapter_id: ch.title for ch in taxonomy_tree.chapters}
 
         def _resolve_chapter(item_id: str, fallback_ch: str = "") -> Tuple[str, str]:
+            if fallback_ch in {"dynamics", "laws-of-motion"}:
+                return "laws-of-motion", chapter_titles.get("laws-of-motion", "Laws of Motion")
             if fallback_ch and fallback_ch in chapter_titles:
                 return fallback_ch, chapter_titles[fallback_ch]
             tokens = item_id.split("-")
             for t in tokens:
                 if t in {"kin", "kinematics"}:
                     return "kinematics", chapter_titles.get("kinematics", "Kinematics")
+                if t in {"dyn", "dynamics", "motion"}:
+                    return "laws-of-motion", chapter_titles.get("laws-of-motion", "Laws of Motion")
                 if t in {"rot", "rotational"}:
                     return "rotational-motion", chapter_titles.get("rotational-motion", "Rotational Motion")
                 if t in {"td", "thermo", "thermodynamics"}:

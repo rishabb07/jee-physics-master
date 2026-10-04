@@ -1,0 +1,17 @@
+{
+  "misconception_id": "misc-dyn-01",
+  "chapter_id": "laws-of-motion",
+  "category": "CONFUSING_ACTION_REACTION_PAIR",
+  "statement": "Action and reaction forces cancel each other out, so bodies should never be able to accelerate.",
+  "erroneous_reasoning": "Because Newton's Third Law states F_AB = -F_BA, the sum F_AB + F_BA = 0, so the net force in the universe is zero and nothing moves.",
+  "correct_physics_explanation": "Action and reaction forces act on strictly DIFFERENT bodies. When computing the acceleration of body A via sum F = m_A a_A, ONLY forces exerted ON body A enter the equation. The reaction force F_BA is exerted on body B and cannot cancel forces acting on body A.",
+  "refutation_counterexample": "When a horse pulls a cart, the horse exerts forward force F_cart on the cart, accelerating the cart forward. The cart exerts equal backward reaction force F_horse on the horse; the horse accelerates forward because the ground exerts a larger forward static friction force on the horse's hooves.",
+  "diagnostic_check_latex": "\\vec{F}_{A \\to B} \\text{ acts on } B, \\quad \\vec{F}_{B \\to A} \\text{ acts on } A. \\quad \\text{They never appear on the same free-body diagram!}",
+  "claim_traces": [
+    "HCV1 Ch 5 p. 77; UP Ch 4 p. 143"
+  ],
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-misc-dyn-01",
+  "created_at": "2026-10-02T10:00:00Z",
+  "content_hash": "511b541ae199f6692c4d454c2979a5d8de8782530a68f62e6d44a8f788d58b15"
+}

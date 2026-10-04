@@ -1,0 +1,43 @@
+{
+  "derivation_id": "derivation-formula-dyn-second-law",
+  "chapter_id": "laws-of-motion",
+  "title": "First-Principles Proof of Newton's Second Law and Impulse Theorem",
+  "target_formula_id": "formula-dyn-second-law",
+  "target_equation": "\\vec{F}_{\\text{net}} = m \\vec{a}, \\quad \\vec{J} = \\Delta \\vec{p}",
+  "assumptions": [
+    "Inertial reference frame",
+    "Constant rest mass m",
+    "Smooth differential trajectory"
+  ],
+  "starting_principles": [
+    "Definition of linear momentum \\vec{p} = m \\vec{v}",
+    "Newton's definition of net force as rate of change of momentum"
+  ],
+  "ordered_steps": [
+    {
+      "step_number": 1,
+      "explanation": "State the fundamental definition of force as time rate of change of momentum.",
+      "equation_latex": "\\vec{F}_{\\text{net}} = \\frac{d\\vec{p}}{dt} = \\frac{d(m\\vec{v})}{dt}"
+    },
+    {
+      "step_number": 2,
+      "explanation": "Apply product rule of differentiation under invariant mass assumption dm/dt = 0.",
+      "equation_latex": "\\vec{F}_{\\text{net}} = m \\frac{d\\vec{v}}{dt} + \\vec{v} \\frac{dm}{dt} = m \\vec{a} + 0 = m \\vec{a}"
+    },
+    {
+      "step_number": 3,
+      "explanation": "Integrate both sides with respect to time over interval [t_1, t_2] to yield the impulse-momentum theorem.",
+      "equation_latex": "\\vec{J} = \\int_{t_1}^{t_2} \\vec{F}_{\\text{net}} \\, dt = \\int_{\\vec{p}_1}^{\\vec{p}_2} d\\vec{p} = \\vec{p}_2 - \\vec{p}_1 = m \\vec{v}_2 - m \\vec{v}_1"
+    }
+  ],
+  "limiting_cases": [
+    "When net force is zero, dp/dt = 0 yielding constant velocity (Newton's First Law)"
+  ],
+  "claim_traces": [
+    "HCV1 Ch 5 p. 75; HRW Ch 5 p. 120"
+  ],
+  "verification_status": "VERIFIED",
+  "verification_record_id": "dual-cvr-derivation-formula-dyn-second-law",
+  "created_at": "2026-10-02T10:00:00Z",
+  "content_hash": "dd24759a1578728419ba4fd64f45e0c565fb4215af3cd4321efde6d91f04a135"
+}

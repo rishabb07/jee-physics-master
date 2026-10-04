@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-formula-dyn-banking-friction-limits",
+  "content_type": "FORMULA",
+  "target_id": "formula-dyn-banking-friction-limits",
+  "content_hash": "26246f78dd5a89f0fb18fdfc5d428956b76c935baef1e173e8dee966ed4dbaf6",
+  "risk_level": "MEDIUM",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Verified algebraic formulation, dimensional homogeneity, and domain boundaries for Banked Curve Safe Speed Limits with Friction.",
+  "verifier_id": "physics-content-verifier-dynamics",
+  "created_at": "2026-10-02T10:05:00Z"
+}

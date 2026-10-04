@@ -1,0 +1,40 @@
+{
+  "example_id": "ex-dyn-banking-curve-01",
+  "chapter_id": "laws-of-motion",
+  "problem_statement": "A highway curve of radius $R = 200\\text{ m}$ is banked at an angle $\\theta = 15^\\circ$. The coefficient of static friction between the road and tires is $\\mu_s = 0.25$. Taking $g = 9.8\\text{ m/s}^2$, calculate: (a) the optimum rated speed $v_0$ where no lateral friction is needed, and (b) the maximum safe speed $v_{\\text{max}}$ before skidding outward.",
+  "known_parameters": {
+    "R": 200.0,
+    "theta_deg": 15.0,
+    "mu_s": 0.25,
+    "g": 9.8
+  },
+  "target_variable": "v_0, v_max",
+  "solution_strategy": "Apply radial centripetal dynamic equilibrium for banked curve with zero friction for part (a) and maximum downslope static friction for part (b).",
+  "solution_steps": [
+    {
+      "step_number": 1,
+      "explanation": "Compute optimum design speed v_0 = sqrt(R g tan theta).",
+      "equation_latex": "v_0 = \\sqrt{200 \\times 9.8 \\times \\tan 15^\\circ} = \\sqrt{1960 \\times 0.26795} = \\sqrt{525.18} \\approx 22.92\\text{ m/s} \\approx 82.5\\text{ km/h}"
+    },
+    {
+      "step_number": 2,
+      "explanation": "Compute maximum speed before outward skidding using v_max formula.",
+      "equation_latex": "v_{\\text{max}} = \\sqrt{R g \\left( \\frac{\\tan\\theta + \\mu_s}{1 - \\mu_s \\tan\\theta} \\right)} = \\sqrt{1960 \\times \\left( \\frac{0.26795 + 0.25}{1 - 0.25 \\times 0.26795} \\right)} = \\sqrt{1960 \\times \\frac{0.51795}{0.93301}} = \\sqrt{1960 \\times 0.55514} = \\sqrt{1088.07} \\approx 32.99\\text{ m/s} \\approx 118.7\\text{ km/h}"
+    }
+  ],
+  "final_answer": "v_0 \\approx 22.9\\text{ m/s} \\; (82.5\\text{ km/h}), \\quad v_{\\text{max}} \\approx 33.0\\text{ m/s} \\; (118.7\\text{ km/h})",
+  "trap_alerts": [
+    "Confusing tangent argument in friction modifier formula or using degrees instead of radians in trigonometric function"
+  ],
+  "sanity_checks": [
+    "v_max (33.0 m/s) is strictly greater than rated speed v_0 (22.9 m/s)",
+    "When mu_s = 0, v_max collapses to v_0"
+  ],
+  "claim_traces": [
+    "UP Ch 5 Example 5.23; HRW Ch 6 Example 6.07"
+  ],
+  "verification_status": "VERIFIED",
+  "verification_record_id": "dual-cvr-ex-dyn-banking-curve-01",
+  "created_at": "2026-10-02T10:00:00Z",
+  "content_hash": "ce45489f54ab510ec17e670048a92e905214a2e882e6be6edf3e941fcf94b5d5"
+}

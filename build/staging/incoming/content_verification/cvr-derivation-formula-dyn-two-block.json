@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-derivation-formula-dyn-two-block",
+  "content_type": "DERIVATION",
+  "target_id": "derivation-formula-dyn-two-block",
+  "content_hash": "4d3acfbdcc6fbb8064ea04ee2822d361ae2ee42126d9207ba1446373b4db67af",
+  "risk_level": "HIGH",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Independently re-derived every step from first principles and verified limit behavior for Derivation of Stacked Two-Block Slipping Threshold.",
+  "verifier_id": "physics-content-verifier-dynamics",
+  "created_at": "2026-10-02T10:05:00Z"
+}

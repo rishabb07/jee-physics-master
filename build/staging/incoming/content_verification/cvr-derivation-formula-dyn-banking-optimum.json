@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-derivation-formula-dyn-banking-optimum",
+  "content_type": "DERIVATION",
+  "target_id": "derivation-formula-dyn-banking-optimum",
+  "content_hash": "25081a6b33ae8ea19c324ccf550e3a5d34b40ff11adbe1de08fef688058823c1",
+  "risk_level": "HIGH",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Independently re-derived every step from first principles and verified limit behavior for Derivation of Optimum Banking Angle on Curved Tracks.",
+  "verifier_id": "physics-content-verifier-dynamics",
+  "created_at": "2026-10-02T10:05:00Z"
+}

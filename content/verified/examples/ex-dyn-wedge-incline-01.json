@@ -1,0 +1,50 @@
+{
+  "example_id": "ex-dyn-wedge-incline-01",
+  "chapter_id": "laws-of-motion",
+  "problem_statement": "A wedge of mass $M = 4.0\\text{ kg}$ with incline angle $\\alpha = 30^\\circ$ rests on a smooth horizontal floor. A block of mass $m = 1.0\\text{ kg}$ is placed on the smooth incline. Find the horizontal acceleration $A$ of the wedge. (Take $g = 9.8\\text{ m/s}^2$).",
+  "known_parameters": {
+    "M": 4.0,
+    "m": 1.0,
+    "alpha_deg": 30.0,
+    "g": 9.8
+  },
+  "target_variable": "A",
+  "solution_strategy": "Analyze wedge in ground frame under normal force $N$ from block, and analyze block in non-inertial frame of the wedge with pseudo-force $m A$ directed horizontally opposite to wedge motion.",
+  "solution_steps": [
+    {
+      "step_number": 1,
+      "explanation": "Horizontal equation of motion for wedge of mass M in ground frame.",
+      "equation_latex": "N \\sin\\alpha = M A \\implies N = \\frac{M A}{\\sin\\alpha}"
+    },
+    {
+      "step_number": 2,
+      "explanation": "Perpendicular equation of motion for block m in frame of the wedge (relative perpendicular acceleration is zero).",
+      "equation_latex": "N - m g \\cos\\alpha - m A \\sin\\alpha = 0 \\implies N = m(g \\cos\\alpha + A \\sin\\alpha)"
+    },
+    {
+      "step_number": 3,
+      "explanation": "Equate expressions for N and solve for A.",
+      "equation_latex": "\\frac{M A}{\\sin\\alpha} = m(g \\cos\\alpha + A \\sin\\alpha) \\implies A \\left( \\frac{M}{\\sin\\alpha} - m \\sin\\alpha \\right) = m g \\cos\\alpha \\implies A = \\frac{m g \\sin\\alpha \\cos\\alpha}{M + m \\sin^2\\alpha}"
+    },
+    {
+      "step_number": 4,
+      "explanation": "Substitute numerical values M=4.0, m=1.0, alpha=30 deg, g=9.8.",
+      "equation_latex": "A = \\frac{1.0 \\times 9.8 \\times 0.5 \\times \\frac{\\sqrt{3}}{2}}{4.0 + 1.0 \\times (0.5)^2} = \\frac{9.8 \\times 0.4330}{4.0 + 0.25} = \\frac{4.2435}{4.25} \\approx 0.9985\\text{ m/s}^2"
+    }
+  ],
+  "final_answer": "A = \\frac{m g \\sin\\alpha \\cos\\alpha}{M + m \\sin^2\\alpha} \\approx 1.00\\text{ m/s}^2",
+  "trap_alerts": [
+    "Neglecting pseudo-force m A on block in non-inertial wedge frame or assuming normal force is simply mg cos(alpha)"
+  ],
+  "sanity_checks": [
+    "As M -> infty (fixed wedge), A -> 0",
+    "As alpha -> 0 or 90 deg, horizontal coupling vanishes A -> 0"
+  ],
+  "claim_traces": [
+    "Irodov Prob 1.73; HCV1 Ch 5 Example 5.12"
+  ],
+  "verification_status": "VERIFIED",
+  "verification_record_id": "dual-cvr-ex-dyn-wedge-incline-01",
+  "created_at": "2026-10-02T10:00:00Z",
+  "content_hash": "e8032c99fc0d70d975e9c876a979d97f26eaee5c2f27ff03e374c597b1f7b906"
+}

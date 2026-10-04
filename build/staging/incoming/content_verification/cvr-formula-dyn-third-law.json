@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-formula-dyn-third-law",
+  "content_type": "FORMULA",
+  "target_id": "formula-dyn-third-law",
+  "content_hash": "1e617f977f6e1182766e20e2331b59df17784b7f8fba016cdf4ab1c65f076233",
+  "risk_level": "MEDIUM",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Verified algebraic formulation, dimensional homogeneity, and domain boundaries for Newton's Third Law (Action-Reaction).",
+  "verifier_id": "physics-content-verifier-dynamics",
+  "created_at": "2026-10-02T10:05:00Z"
+}

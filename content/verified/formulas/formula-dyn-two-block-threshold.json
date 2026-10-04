@@ -1,0 +1,38 @@
+{
+  "formula_id": "formula-dyn-two-block-threshold",
+  "chapter_id": "laws-of-motion",
+  "title": "Two-Block Threshold Slip Force",
+  "equation_latex": "F_{\\text{thresh}} = \\mu_s (m_1 + m_2) g",
+  "variables": {
+    "F_{\\text{thresh}}": "Maximum horizontal force on bottom block for common motion",
+    "m_1": "Top block mass",
+    "m_2": "Bottom block mass",
+    "\\mu_s": "Static friction coefficient between blocks"
+  },
+  "units": {
+    "F": "N",
+    "m": "kg",
+    "g": "m s^-2"
+  },
+  "dimensions": {
+    "F": "[M][L][T]^-2",
+    "m": "[M]",
+    "g": "[L][T]^-2"
+  },
+  "assumptions": [
+    "Smooth floor under bottom block",
+    "Friction only between blocks 1 and 2",
+    "Horizontal pulling force on lower block m2"
+  ],
+  "conditions_of_validity": [
+    "For F <= F_thresh both blocks accelerate together with a = F/(m1 + m2)"
+  ],
+  "common_misuse": [
+    "Assuming top block slips immediately upon applying any non-zero force"
+  ],
+  "derivation_reference": "derivation-formula-dyn-two-block",
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-formula-dyn-two-block-threshold",
+  "created_at": "2026-10-02T10:00:00Z",
+  "content_hash": "05ebed02445fe8f385339552e57ecc56b8251b73746054fd5713f8a88ea25bfe"
+}

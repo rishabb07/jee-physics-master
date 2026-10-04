@@ -1,0 +1,23 @@
+{
+  "concept_id": "concept-dyn-normal-tension-01",
+  "chapter_id": "laws-of-motion",
+  "title": "Normal Reaction, String Tension, and Ideal Springs",
+  "formal_definition": "Normal force $N$ is the perpendicular electromagnetic repulsive contact reaction preventing interpenetration of solid surfaces. Tension $T$ is the state of pulling stress transmitted along a string, which is uniform along massless, frictionless strings.",
+  "physical_intuition": "Normal force is an adjusting constraint force: it takes on whatever value is needed to enforce non-penetration ($a_{\\perp} = 0$) until surfaces break contact ($N \\ge 0$). Tension pulls inward at both string ends.",
+  "assumptions": [
+    "Ideal massless inextensible string",
+    "Massless frictionless pulley"
+  ],
+  "validity_boundaries": [
+    "Strings cannot sustain compressive stress ($T \\ge 0$); slack strings have $T = 0$",
+    "Non-penetration constraint implies $N \\ge 0$"
+  ],
+  "mathematical_representation": "N \\ge 0, \\quad T \\ge 0, \\quad F_{\\text{spring}} = -k x",
+  "claim_traces": [
+    "HCV1 Ch 4 p. 66; UP Ch 4 p. 136"
+  ],
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-concept-dyn-normal-tension-01",
+  "created_at": "2026-10-02T10:00:00Z",
+  "content_hash": "e6e07c7cdc1667af5e68ef97db5a00520508be5f2fe39fecf57011e279a0de50"
+}

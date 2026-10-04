@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-concept-dyn-pulley-constraint-01",
+  "content_type": "CONCEPT",
+  "target_id": "concept-dyn-pulley-constraint-01",
+  "content_hash": "14eb29bb11dc81146e6ad7238f72ee7048b69b8d4ef8509c0e75fbf912234315",
+  "risk_level": "MEDIUM",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Independently verified physical assumptions, mathematical representation, and limits for String-Pulley Kinematic Constraints and Virtual Work.",
+  "verifier_id": "physics-content-verifier-dynamics",
+  "created_at": "2026-10-02T10:05:00Z"
+}

@@ -1,0 +1,22 @@
+{
+  "concept_id": "concept-dyn-banking-roads-01",
+  "chapter_id": "laws-of-motion",
+  "title": "Optimum Banking of Roads and Friction Safe Envelopes",
+  "formal_definition": "Tilting a curved roadway by an angle $\\theta$ allows the horizontal component of the normal reaction $N\\sin\\theta$ to provide the centripetal acceleration, defining an optimum speed $v_0 = \\sqrt{R g \\tan\\theta}$ requiring zero lateral friction.",
+  "physical_intuition": "At optimum speed, tires experience zero sideways frictional wear. At speeds above $v_0$, friction acts downslope to prevent outward skidding; below $v_0$, friction acts upslope to prevent slipping inward.",
+  "assumptions": [
+    "Circular curve of radius $R$",
+    "Planar incline angle $\\theta$"
+  ],
+  "validity_boundaries": [
+    "Safe speed interval exists only when $\\mu_s < \\cot\\theta$; if $\\mu_s \\ge \\cot\\theta$, minimum speed is zero"
+  ],
+  "mathematical_representation": "v_0 = \\sqrt{R g \\tan\\theta}, \\quad v_{\\text{max}} = \\sqrt{R g \\frac{\\tan\\theta + \\mu_s}{1 - \\mu_s \\tan\\theta}}",
+  "claim_traces": [
+    "HCV1 Ch 7 p. 115; UP Ch 5 p. 182"
+  ],
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-concept-dyn-banking-roads-01",
+  "created_at": "2026-10-02T10:00:00Z",
+  "content_hash": "89489557901a629c3ab1511eae06cafb52a9116a010547231ea1a87d6e00cb59"
+}

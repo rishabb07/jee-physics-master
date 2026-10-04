@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-derivation-formula-dyn-second-law",
+  "content_type": "DERIVATION",
+  "target_id": "derivation-formula-dyn-second-law",
+  "content_hash": "dd24759a1578728419ba4fd64f45e0c565fb4215af3cd4321efde6d91f04a135",
+  "risk_level": "HIGH",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Independently re-derived every step from first principles and verified limit behavior for First-Principles Proof of Newton's Second Law and Impulse Theorem.",
+  "verifier_id": "physics-content-verifier-dynamics",
+  "created_at": "2026-10-02T10:05:00Z"
+}

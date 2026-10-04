@@ -1,0 +1,42 @@
+{
+  "derivation_id": "derivation-formula-dyn-string-constraint",
+  "chapter_id": "laws-of-motion",
+  "title": "Derivation of Pulley Virtual Work Constraint",
+  "target_formula_id": "formula-dyn-string-constraint",
+  "target_equation": "\\sum_{i=1}^n \\vec{T}_i \\cdot \\vec{a}_i = 0",
+  "assumptions": [
+    "Inextensible string of fixed length L",
+    "Massless string and massless frictionless pulleys"
+  ],
+  "starting_principles": [
+    "Length preservation of string",
+    "Virtual work done by internal tension vanishes"
+  ],
+  "ordered_steps": [
+    {
+      "step_number": 1,
+      "explanation": "Express the total length L of string as sum of segment lengths between pulleys and masses.",
+      "equation_latex": "L = \\sum_{k} x_k + \\text{constant}"
+    },
+    {
+      "step_number": 2,
+      "explanation": "Differentiate length twice with respect to time, using dL/dt = 0 and d^2L/dt^2 = 0.",
+      "equation_latex": "\\frac{dL}{dt} = \\sum_{k} v_k = 0, \\quad \\frac{d^2L}{dt^2} = \\sum_{k} a_k = 0"
+    },
+    {
+      "step_number": 3,
+      "explanation": "Since internal tension does zero net work on the massless string, virtual work by all tension forces vanishes.",
+      "equation_latex": "\\delta W = \\sum_{i=1}^n \\vec{T}_i \\cdot \\delta \\vec{r}_i = 0 \\implies \\sum_{i=1}^n \\vec{T}_i \\cdot \\vec{a}_i = 0"
+    }
+  ],
+  "limiting_cases": [
+    "For fixed pulley with two masses, T a_1 + T a_2 = 0 yielding a_1 = -a_2"
+  ],
+  "claim_traces": [
+    "HCV1 Ch 5 p. 82; Irodov Sec 1.2"
+  ],
+  "verification_status": "VERIFIED",
+  "verification_record_id": "dual-cvr-derivation-formula-dyn-string-constraint",
+  "created_at": "2026-10-02T10:00:00Z",
+  "content_hash": "6b9bd391ed17641705f15c1a22291a3816e4e1a20371b462a8d2dfa38088b9c1"
+}

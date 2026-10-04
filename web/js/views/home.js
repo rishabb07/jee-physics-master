@@ -81,10 +81,32 @@ export async function renderHome(container) {
           Production Pilot Chapters
         </h2>
         <p style="color: var(--text-muted); margin-bottom: 1.5rem;">
-          The Phase 10 pilot encompasses four complete, rigorously verified chapters across four primary subject branches.
+          Production chapters encompass complete, rigorously verified modules across primary subject branches.
         </p>
 
         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.25rem;">
+          <a href="#/chapter/kinematics" class="card" style="display: block; transition: transform 0.15s ease;" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='none'">
+            <div style="display: flex; justify-content: space-between; align-items: start; margin-bottom: 0.5rem;">
+              <span class="badge badge-primary">Mechanics</span>
+              <span class="badge badge-active">Production: live</span>
+            </div>
+            <h3 style="font-size: 1.15rem; margin-bottom: 0.4rem; color: var(--text-main);">Kinematics</h3>
+            <p style="font-size: 0.85rem; color: var(--text-muted);">
+              Rectilinear motion, calculus rates, gravity free-fall, projectile trajectories, and relative velocity.
+            </p>
+          </a>
+
+          <a href="#/chapter/laws-of-motion" class="card" style="display: block; transition: transform 0.15s ease;" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='none'">
+            <div style="display: flex; justify-content: space-between; align-items: start; margin-bottom: 0.5rem;">
+              <span class="badge badge-primary">Mechanics</span>
+              <span class="badge badge-active">Production: live</span>
+            </div>
+            <h3 style="font-size: 1.15rem; margin-bottom: 0.4rem; color: var(--text-main);">Laws of Motion / Dynamics</h3>
+            <p style="font-size: 0.85rem; color: var(--text-muted);">
+              Newton's three laws, free-body diagrams, pulley constraints, dry friction, and circular dynamics.
+            </p>
+          </a>
+
           <a href="#/chapter/rotational-motion" class="card" style="display: block; transition: transform 0.15s ease;" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='none'">
             <div style="display: flex; justify-content: space-between; align-items: start; margin-bottom: 0.5rem;">
               <span class="badge badge-primary">Mechanics</span>

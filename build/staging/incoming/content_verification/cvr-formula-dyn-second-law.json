@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-formula-dyn-second-law",
+  "content_type": "FORMULA",
+  "target_id": "formula-dyn-second-law",
+  "content_hash": "4b7df732da8ef657f411c0efa8f0496ff4e7cb10d289c483676a0f9fdc02cd2d",
+  "risk_level": "MEDIUM",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Verified algebraic formulation, dimensional homogeneity, and domain boundaries for Newton's Second Law for Constant Mass.",
+  "verifier_id": "physics-content-verifier-dynamics",
+  "created_at": "2026-10-02T10:05:00Z"
+}

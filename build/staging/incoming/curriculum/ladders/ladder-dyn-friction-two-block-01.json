@@ -1,0 +1,60 @@
+{
+  "ladder_id": "ladder-dyn-friction-two-block-01",
+  "chapter_id": "laws-of-motion",
+  "topic_id": "friction",
+  "title": "Scaffolding Dry Friction from Elementary Slip to Multi-Body Stacks",
+  "physical_system": "Multi-body contact system governed by Coulomb-Amontons dry friction",
+  "rungs": [
+    {
+      "level": 1,
+      "level_name": "Single block limiting threshold",
+      "atom_id": "laws-of-motion-question-e37050bb",
+      "physical_delta": "Single body on a rough horizontal surface under external pulling force",
+      "reasoning_depth": 2,
+      "concepts_involved": [
+        "concept-dyn-static-friction-01"
+      ],
+      "mathematical_complexity": "Linear inequality evaluation f_s <= mu_s N",
+      "transfer_requirement": "Enforcing normal reaction balance N = mg and static friction bound"
+    },
+    {
+      "level": 2,
+      "level_name": "Curved surface limiting equilibrium",
+      "atom_id": "laws-of-motion-question-ba0b4106",
+      "physical_delta": "Particle crawling on rough curved hemispherical surface under varying inclination",
+      "reasoning_depth": 3,
+      "concepts_involved": [
+        "concept-dyn-angle-repose-01"
+      ],
+      "mathematical_complexity": "Trigonometric equilibrium condition tan(theta) <= mu_s",
+      "transfer_requirement": "Resolving local tangent and normal reaction components on curved boundary"
+    },
+    {
+      "level": 3,
+      "level_name": "Movable wedge constraint",
+      "atom_id": "prob-irodov-1-073",
+      "physical_delta": "Block sliding on movable wedge resting on frictionless floor",
+      "reasoning_depth": 4,
+      "concepts_involved": [
+        "concept-dyn-wedge-constraint-01",
+        "concept-dyn-pseudo-force-01"
+      ],
+      "mathematical_complexity": "Coupled 2-DOF dynamic equations with geometric non-penetration constraint",
+      "transfer_requirement": "Coordinate transformation into non-inertial frame of the wedge with pseudo-force"
+    },
+    {
+      "level": 4,
+      "level_name": "Stacked two-block slipping transition",
+      "atom_id": "prob-irodov-1-085",
+      "physical_delta": "Two-body stacked system with friction between blocks and driving force on bottom block",
+      "reasoning_depth": 5,
+      "concepts_involved": [
+        "concept-dyn-two-block-01",
+        "concept-dyn-kinetic-friction-01"
+      ],
+      "mathematical_complexity": "Bifurcation between unified acceleration a_common and differential sliding accelerations",
+      "transfer_requirement": "Identifying upper block maximum contact friction as the sole physical drive"
+    }
+  ],
+  "pedagogical_objective": "Systematically progress force analysis from single-body static thresholds to curved surface equilibria, coupled wedge constraints, and multi-body stacked friction bifurcations."
+}

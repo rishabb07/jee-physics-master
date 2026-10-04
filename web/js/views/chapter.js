@@ -12,7 +12,12 @@ export async function renderChapter(container, chapterId) {
 
   let chapter = null;
   try {
-    const res = await fetch(`data/chapter_${chapterId}.json`);
+    let res = await fetch(`data/chapter_${chapterId}.json`);
+    if (!res.ok && chapterId === "dynamics") {
+      res = await fetch("data/chapter_laws-of-motion.json");
+    } else if (!res.ok && chapterId === "laws-of-motion") {
+      res = await fetch("data/chapter_dynamics.json");
+    }
     if (res.ok) {
       chapter = await res.json();
     }

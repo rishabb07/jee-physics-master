@@ -1,0 +1,36 @@
+{
+  "formula_id": "formula-dyn-static-friction-max",
+  "chapter_id": "laws-of-motion",
+  "title": "Coulomb Limiting Static Friction",
+  "equation_latex": "f_{s,\\text{max}} = \\mu_s N",
+  "variables": {
+    "f_{s,\\text{max}}": "Maximum static friction magnitude",
+    "\\mu_s": "Static friction coefficient",
+    "N": "Normal contact force"
+  },
+  "units": {
+    "f": "N",
+    "\\mu_s": "dimensionless",
+    "N": "N"
+  },
+  "dimensions": {
+    "f": "[M][L][T]^-2",
+    "\\mu_s": "[1]",
+    "N": "[M][L][T]^-2"
+  },
+  "assumptions": [
+    "Dry solid-solid contact",
+    "Surfaces at relative rest"
+  ],
+  "conditions_of_validity": [
+    "Governs the onset of relative slipping"
+  ],
+  "common_misuse": [
+    "Assuming static friction is always equal to mu_s N regardless of applied force"
+  ],
+  "derivation_reference": null,
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-formula-dyn-static-friction-max",
+  "created_at": "2026-10-02T10:00:00Z",
+  "content_hash": "153aa2fcfd31b346c2dc51c2e121807e6623924e2fc6110ec0b16411bf5bc1fb"
+}

@@ -1,0 +1,44 @@
+{
+  "derivation_id": "derivation-formula-dyn-banking-optimum",
+  "chapter_id": "laws-of-motion",
+  "title": "Derivation of Optimum Banking Angle on Curved Tracks",
+  "target_formula_id": "formula-dyn-banking-optimum",
+  "target_equation": "\\tan\\theta = \\frac{v_0^2}{R g}",
+  "assumptions": [
+    "Circular curve of radius R",
+    "Roadway inclined at angle theta",
+    "Zero lateral friction at design speed"
+  ],
+  "starting_principles": [
+    "Vertical force equilibrium",
+    "Horizontal radial Newton second law F_r = m v^2 / R"
+  ],
+  "ordered_steps": [
+    {
+      "step_number": 1,
+      "explanation": "Resolve normal force N into vertical and horizontal components.",
+      "equation_latex": "N_y = N \\cos\\theta, \\quad N_x = N \\sin\\theta"
+    },
+    {
+      "step_number": 2,
+      "explanation": "Enforce vertical equilibrium since vertical acceleration is zero.",
+      "equation_latex": "\\sum F_y = N \\cos\\theta - mg = 0 \\implies N = \\frac{mg}{\\cos\\theta}"
+    },
+    {
+      "step_number": 3,
+      "explanation": "Equate horizontal normal component to centripetal force and divide equations.",
+      "equation_latex": "N \\sin\\theta = \\frac{m v_0^2}{R} \\implies \\left(\\frac{mg}{\\cos\\theta}\\right)\\sin\\theta = \\frac{m v_0^2}{R} \\implies \\tan\\theta = \\frac{v_0^2}{R g}"
+    }
+  ],
+  "limiting_cases": [
+    "For flat unbanked track theta = 0, required v_0 = 0 (friction entirely required)",
+    "As R -> infty, theta -> 0"
+  ],
+  "claim_traces": [
+    "HCV1 Ch 7 p. 115; UP Ch 5 p. 182"
+  ],
+  "verification_status": "VERIFIED",
+  "verification_record_id": "dual-cvr-derivation-formula-dyn-banking-optimum",
+  "created_at": "2026-10-02T10:00:00Z",
+  "content_hash": "25081a6b33ae8ea19c324ccf550e3a5d34b40ff11adbe1de08fef688058823c1"
+}

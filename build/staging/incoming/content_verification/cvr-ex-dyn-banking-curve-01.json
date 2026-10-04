@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-ex-dyn-banking-curve-01",
+  "content_type": "WORKED_EXAMPLE",
+  "target_id": "ex-dyn-banking-curve-01",
+  "content_hash": "ce45489f54ab510ec17e670048a92e905214a2e882e6be6edf3e941fcf94b5d5",
+  "risk_level": "HIGH",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Independently recalculated all numerical steps, dimensional homogeneity, and limiting cases for ex-dyn-banking-curve-01.",
+  "verifier_id": "physics-content-verifier-dynamics",
+  "created_at": "2026-10-02T10:05:00Z"
+}

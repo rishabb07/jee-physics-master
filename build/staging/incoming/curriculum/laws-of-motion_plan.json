@@ -1,0 +1,159 @@
+{
+  "plan_id": "plan-dynamics-001",
+  "chapter_id": "laws-of-motion",
+  "title": "Newton's Laws of Motion & Dynamics",
+  "template_type": "MECHANICS",
+  "sections": [
+    {
+      "section_id": "sec-01-newtons-laws-and-equilibrium",
+      "section_order": 1,
+      "title": "Principles of Inertia, Momentum, and the Laws of Motion",
+      "pedagogical_purpose": "Establish Galileo's inertia, Newton's three laws, inertial reference frames, action-reaction pairs, and free-body diagram isolation.",
+      "concepts": [
+        "concept-dyn-first-law-01",
+        "concept-dyn-second-law-01",
+        "concept-dyn-third-law-01",
+        "concept-dyn-fbd-method-01",
+        "concept-dyn-normal-tension-01"
+      ],
+      "formula_ids": [
+        "formula-dyn-second-law",
+        "formula-dyn-third-law",
+        "formula-dyn-impulse-momentum"
+      ],
+      "worked_example_ids": [
+        "ex-dyn-fbd-equilibrium-01"
+      ],
+      "question_atom_ids": [],
+      "misconception_ids": [
+        "misc-dyn-01",
+        "misc-dyn-02"
+      ],
+      "prerequisite_refs": [
+        "vectors-and-coordinate-systems",
+        "kinematics"
+      ],
+      "source_references": [
+        "HCV1 Ch 4",
+        "HCV1 Ch 5",
+        "HRW Ch 5",
+        "UP Ch 4"
+      ],
+      "unresolved_gaps": []
+    },
+    {
+      "section_id": "sec-02-constraints-and-accelerating-frames",
+      "section_order": 2,
+      "title": "String-Pulley Constraints, Wedges, and Non-Inertial Reference Frames",
+      "pedagogical_purpose": "Formulate kinematic constraints for multi-body connected systems (pulleys, movable wedges) and analyze dynamics in linearly accelerating frames using pseudo-forces.",
+      "concepts": [
+        "concept-dyn-pulley-constraint-01",
+        "concept-dyn-wedge-constraint-01",
+        "concept-dyn-pseudo-force-01"
+      ],
+      "formula_ids": [
+        "formula-dyn-string-constraint",
+        "formula-dyn-wedge-constraint",
+        "formula-dyn-pseudo-force"
+      ],
+      "worked_example_ids": [
+        "ex-dyn-atwood-pulley-01",
+        "ex-dyn-wedge-incline-01"
+      ],
+      "question_atom_ids": [],
+      "misconception_ids": [
+        "misc-dyn-06"
+      ],
+      "prerequisite_refs": [
+        "sec-01-newtons-laws-and-equilibrium"
+      ],
+      "source_references": [
+        "HCV1 Ch 5",
+        "Irodov Prob 1.73"
+      ],
+      "unresolved_gaps": []
+    },
+    {
+      "section_id": "sec-03-frictional-dynamics",
+      "section_order": 3,
+      "title": "Static, Limiting, and Kinetic Friction in Multi-Body Systems",
+      "pedagogical_purpose": "Differentiate static self-adjusting friction from kinetic dynamic friction, analyze angle of repose, and solve threshold slipping in stacked two-block systems.",
+      "concepts": [
+        "concept-dyn-friction-origin-01",
+        "concept-dyn-static-friction-01",
+        "concept-dyn-kinetic-friction-01",
+        "concept-dyn-angle-repose-01",
+        "concept-dyn-two-block-01"
+      ],
+      "formula_ids": [
+        "formula-dyn-static-friction-max",
+        "formula-dyn-kinetic-friction",
+        "formula-dyn-angle-repose",
+        "formula-dyn-two-block-threshold"
+      ],
+      "worked_example_ids": [
+        "ex-dyn-two-block-threshold-01"
+      ],
+      "question_atom_ids": [
+        "laws-of-motion-question-e37050bb",
+        "laws-of-motion-question-ba0b4106"
+      ],
+      "misconception_ids": [
+        "misc-dyn-03",
+        "misc-dyn-04"
+      ],
+      "prerequisite_refs": [
+        "sec-01-newtons-laws-and-equilibrium"
+      ],
+      "source_references": [
+        "HCV1 Ch 6",
+        "HRW Ch 6",
+        "Irodov Prob 1.85"
+      ],
+      "unresolved_gaps": []
+    },
+    {
+      "section_id": "sec-04-circular-dynamics",
+      "section_order": 4,
+      "title": "Dynamics of Circular Motion, Banking of Roads, and Conical Pendulum",
+      "pedagogical_purpose": "Analyze radial dynamics, centripetal acceleration, optimum banking angles with and without friction, and conical pendulum geometry.",
+      "concepts": [
+        "concept-dyn-centripetal-force-01",
+        "concept-dyn-banking-roads-01",
+        "concept-dyn-conical-pendulum-01"
+      ],
+      "formula_ids": [
+        "formula-dyn-centripetal-force",
+        "formula-dyn-banking-optimum",
+        "formula-dyn-banking-friction-limits",
+        "formula-dyn-conical-period"
+      ],
+      "worked_example_ids": [
+        "ex-dyn-banking-curve-01",
+        "ex-dyn-conical-pendulum-01"
+      ],
+      "question_atom_ids": [],
+      "misconception_ids": [
+        "misc-dyn-05"
+      ],
+      "prerequisite_refs": [
+        "sec-01-newtons-laws-and-equilibrium",
+        "sec-03-frictional-dynamics"
+      ],
+      "source_references": [
+        "HCV1 Ch 7",
+        "UP Ch 5",
+        "HRW Ch 6"
+      ],
+      "unresolved_gaps": []
+    }
+  ],
+  "pedagogical_synthesis_notes": [
+    "Synthesize definitions of inertial reference frames from Galileo, Newton, and modern Einsteinian perspective.",
+    "Unify virtual work string constraints and differential length constraints into a single systematic problem-solving tool.",
+    "Ground dry Coulomb friction deeply into microscopic intermolecular cold-welding mechanisms from HCV1 and HRW.",
+    "Bridge rectilinear acceleration and rotational banking into conical pendulum horizontal dynamics."
+  ],
+  "unresolved_gaps": [],
+  "created_at": "2026-10-02T10:00:00Z"
+}

@@ -1,0 +1,39 @@
+{
+  "example_id": "ex-dyn-fbd-equilibrium-01",
+  "chapter_id": "laws-of-motion",
+  "problem_statement": "A sphere of mass $M = 10\\text{ kg}$ is held suspended by a light string attached to a smooth vertical wall. The string makes an angle $\\theta = 30^\\circ$ with the vertical. Determine the tension $T$ in the string and the normal reaction force $N$ exerted by the wall on the sphere. (Take $g = 9.8\\text{ m/s}^2$).",
+  "known_parameters": {
+    "M": 10.0,
+    "theta_deg": 30.0,
+    "g": 9.8
+  },
+  "target_variable": "T, N",
+  "solution_strategy": "Isolate the sphere with a free-body diagram under three concurrent coplanar forces: downward gravity $Mg$, perpendicular wall normal reaction $N$, and string tension $T$ along the cord.",
+  "solution_steps": [
+    {
+      "step_number": 1,
+      "explanation": "Set up vertical force balance.",
+      "equation_latex": "\\sum F_y = T \\cos 30^\\circ - Mg = 0 \\implies T = \\frac{10 \\times 9.8}{\\cos 30^\\circ} = \\frac{98}{\\sqrt{3}/2} \\approx 113.16\\text{ N}"
+    },
+    {
+      "step_number": 2,
+      "explanation": "Set up horizontal force balance.",
+      "equation_latex": "\\sum F_x = N - T \\sin 30^\\circ = 0 \\implies N = 113.16 \\times 0.5 = 56.58\\text{ N}"
+    }
+  ],
+  "final_answer": "T \\approx 113.2\\text{ N}, \\quad N \\approx 56.6\\text{ N}",
+  "trap_alerts": [
+    "Failing to recognize that smooth wall produces normal reaction strictly perpendicular to the vertical wall surface"
+  ],
+  "sanity_checks": [
+    "As theta -> 0, T -> Mg = 98 N and N -> 0, matching vertical hanging limit",
+    "Normal force is positive confirming contact is maintained"
+  ],
+  "claim_traces": [
+    "HCV1 Ch 4 Example 4.1; UP Ch 5 Example 5.1"
+  ],
+  "verification_status": "VERIFIED",
+  "verification_record_id": "dual-cvr-ex-dyn-fbd-equilibrium-01",
+  "created_at": "2026-10-02T10:00:00Z",
+  "content_hash": "0759387f4703231a3cf61a65fa3092ae3899254b40d033d964d153d3b679af1a"
+}
