@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-formula-mom-com-continuous",
+  "content_type": "FORMULA",
+  "target_id": "formula-mom-com-continuous",
+  "content_hash": "53cb8e1dd5aeee79b898684249733a7dae1ae1c515cec19a608db891b8de7e61",
+  "risk_level": "MEDIUM",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Independently verified dimensional homogeneity and limiting cases for Continuous Center of Mass Integral.",
+  "verifier_id": "content-verifier-mom-formulas",
+  "created_at": "2026-10-05T01:30:00Z"
+}

@@ -1,0 +1,43 @@
+{
+  "phase": "PHASE_15",
+  "chapter_id": "center-of-mass",
+  "aliases": ["momentum-collisions", "com-and-momentum", "com"],
+  "chapter_title": "Center of Mass, Momentum, and Collisions",
+  "order": 5,
+  "timestamp": "2026-10-04T20:20:00Z",
+  "verdicts": {
+    "phase_verdict": "PHASE_15_MOMENTUM_COLLISIONS_PROVEN",
+    "deployment_verdict": "PHASE_15_LIVE_DEPLOYMENT_PROVEN"
+  },
+  "metrics": {
+    "evidence_records": 111,
+    "concepts": 16,
+    "formulas": 19,
+    "derivations": 7,
+    "worked_examples": 7,
+    "misconceptions": 6,
+    "practice_questions": 2,
+    "question_ladders": 1,
+    "assembled_blocks": 58,
+    "qa_findings": 0,
+    "latex_errors": 0,
+    "pilot_active_chapters": 8,
+    "total_projected_concepts": 69,
+    "total_projected_formulas": 71,
+    "total_projected_derivations": 40,
+    "total_projected_examples": 28,
+    "total_projected_misconceptions": 31,
+    "total_projected_questions": 26,
+    "search_index_entries": 295,
+    "test_suite_passed": 287,
+    "test_suite_failed": 0
+  },
+  "invariants_checked": {
+    "canonical_kb_immutability": true,
+    "canonical_atom_count": 35,
+    "syllabus_yaml_untouched": true,
+    "zero_synthetic_physics": true,
+    "dual_independent_verification_passed": true,
+    "bit_for_bit_alias_parity": true
+  }
+}

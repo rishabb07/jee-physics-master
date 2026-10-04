@@ -1,0 +1,50 @@
+{
+  "example_id": "ex-mom-elastic-target-masses-01",
+  "chapter_id": "center-of-mass",
+  "problem_statement": "In a nuclear reactor moderator, a fast neutron of mass $m_1 = 1.0\\text{ u}$ moving with speed $u$ undergoes a head-on elastic collision with a stationary moderator nucleus of mass $m_2$ at rest ($u_2 = 0$). Calculate the fractional kinetic energy retained by the neutron when the moderator nucleus is: (a) a hydrogen nucleus ($m_2 = 1.0\\text{ u}$), and (b) a carbon nucleus ($m_2 = 12.0\\text{ u}$).",
+  "known_parameters": {
+    "m_1": 1.0,
+    "m_H": 1.0,
+    "m_C": 12.0,
+    "e": 1.0
+  },
+  "target_variable": "K_f / K_i",
+  "solution_strategy": "Use the 1D elastic collision formula for post-collision velocity v1 of the projectile colliding with stationary target.",
+  "solution_steps": [
+    {
+      "step_number": 1,
+      "explanation": "Express post-collision velocity of mass 1 with stationary target u2 = 0.",
+      "equation_latex": "v_1 = \\left(\\frac{m_1 - m_2}{m_1 + m_2}\\right) u"
+    },
+    {
+      "step_number": 2,
+      "explanation": "Express fractional kinetic energy retained by neutron.",
+      "equation_latex": "\\frac{K_f}{K_i} = \\frac{\\frac{1}{2} m_1 v_1^2}{\\frac{1}{2} m_1 u^2} = \\left(\\frac{v_1}{u}\\right)^2 = \\left(\\frac{m_1 - m_2}{m_1 + m_2}\\right)^2"
+    },
+    {
+      "step_number": 3,
+      "explanation": "Evaluate for hydrogen nucleus m2 = 1.0 u.",
+      "equation_latex": "\\frac{K_f}{K_i} = \\left(\\frac{1.0 - 1.0}{1.0 + 1.0}\\right)^2 = 0.0 \\quad (0\\% \\text{ retained, } 100\\% \\text{ transferred})"
+    },
+    {
+      "step_number": 4,
+      "explanation": "Evaluate for carbon nucleus m2 = 12.0 u.",
+      "equation_latex": "\\frac{K_f}{K_i} = \\left(\\frac{1.0 - 12.0}{1.0 + 12.0}\\right)^2 = \\left(-\\frac{11.0}{13.0}\\right)^2 = \\frac{121}{169} \\approx 0.716 \\quad (71.6\\% \\text{ retained, } 28.4\\% \\text{ transferred})"
+    }
+  ],
+  "final_answer": "(a) Hydrogen: 0.0 (100\\% transferred); (b) Carbon: 121/169 approx 71.6\\% retained",
+  "trap_alerts": [
+    "Forgetting to square the velocity ratio to obtain kinetic energy ratio",
+    "Assuming heavy nuclei absorb more energy (heavier targets cause elastic rebounds with minimal energy transfer!)"
+  ],
+  "sanity_checks": [
+    "Energy transfer fraction is 4 m1 m2 / (m1 + m2)^2; for m1=m2=1, 4(1)(1)/(2)^2 = 1.0. For carbon: 4(1)(12)/(13)^2 = 48/169 = 0.284.",
+    "Sum of retained + transferred = 121/169 + 48/169 = 169/169 = 1.0 identically."
+  ],
+  "claim_traces": [
+    "HCV1 Ch 9 p. 166; HRW Ch 9 p. 248; UP Ch 8 p. 280"
+  ],
+  "verification_status": "VERIFIED",
+  "verification_record_id": "dual-cvr-ex-mom-elastic-target-masses-01",
+  "created_at": "2026-10-05T01:30:00Z"
+}

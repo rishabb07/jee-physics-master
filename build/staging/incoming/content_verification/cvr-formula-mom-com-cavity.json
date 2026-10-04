@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-formula-mom-com-cavity",
+  "content_type": "FORMULA",
+  "target_id": "formula-mom-com-cavity",
+  "content_hash": "879b1ace7c111dceaad73d372e07320af94fda30d463d412a1b2faf20fed67f0",
+  "risk_level": "MEDIUM",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Independently verified dimensional homogeneity and limiting cases for Center of Mass of Body with Cavity (Negative Mass Superposition).",
+  "verifier_id": "content-verifier-mom-formulas",
+  "created_at": "2026-10-05T01:30:00Z"
+}

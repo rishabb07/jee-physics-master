@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-formula-mom-recoil-velocity",
+  "content_type": "FORMULA",
+  "target_id": "formula-mom-recoil-velocity",
+  "content_hash": "1bd5a29ea97d5aa854aa65b1ab533f1c61971ed5bc1defa7d8bd25d9dd0eca88",
+  "risk_level": "MEDIUM",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Independently verified dimensional homogeneity and limiting cases for Recoil Velocity of Gun in 1D Firing.",
+  "verifier_id": "content-verifier-mom-formulas",
+  "created_at": "2026-10-05T01:30:00Z"
+}

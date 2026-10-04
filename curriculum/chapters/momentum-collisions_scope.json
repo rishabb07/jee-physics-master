@@ -1,0 +1,150 @@
+{
+  "chapter_id": "center-of-mass",
+  "chapter_title": "Center of Mass, Momentum, and Collisions",
+  "template_type": "MECHANICS",
+  "taxonomy_node_id": "center-of-mass",
+  "order": 5,
+  "aliases": ["momentum-collisions", "com-and-momentum", "com"],
+  "canonical_taxonomy_mapping": {
+    "authoritative_source": "kb/taxonomy/syllabus.yaml",
+    "chapter_node": "center-of-mass",
+    "chapter_name": "Center of Mass and Linear Momentum",
+    "topics_in_scope": [
+      "center-of-mass-fundamentals",
+      "linear-momentum-and-impulse",
+      "collisions"
+    ],
+    "explicit_subtopic_placements": {
+      "linear_momentum": "center-of-mass/linear-momentum-and-impulse/conservation-of-linear-momentum",
+      "impulse": "center-of-mass/linear-momentum-and-impulse/impulse-momentum-theorem",
+      "conservation_of_momentum": "center-of-mass/linear-momentum-and-impulse/conservation-of-linear-momentum",
+      "collisions": "center-of-mass/collisions",
+      "elastic_collisions": "center-of-mass/collisions/elastic-collision-1d",
+      "inelastic_collisions": "center-of-mass/collisions/inelastic-collision-1d",
+      "coefficient_of_restitution": "center-of-mass/collisions/coefficient-of-restitution",
+      "explosion_recoil": "center-of-mass/linear-momentum-and-impulse/conservation-of-linear-momentum",
+      "variable_mass_systems": "center-of-mass/linear-momentum-and-impulse/variable-mass-systems-and-rocket-propulsion",
+      "center_of_mass": "center-of-mass/center-of-mass-fundamentals",
+      "rocket_motion": "center-of-mass/linear-momentum-and-impulse/variable-mass-systems-and-rocket-propulsion"
+    }
+  },
+  "topics": [
+    {
+      "topic_id": "center-of-mass-fundamentals",
+      "title": "Center of Mass Calculation and System Dynamics",
+      "subtopics": [
+        {
+          "subtopic_id": "com-of-discrete-particles",
+          "title": "Center of Mass of Discrete Particle Systems",
+          "description": "Weighted average position vector R_cm = sum(m_i r_i) / sum(m_i); Cartesian coordinate components x_cm, y_cm, z_cm; two-particle internal division ratio r1/r2 = m2/m1."
+        },
+        {
+          "subtopic_id": "com-of-continuous-bodies",
+          "title": "Center of Mass of Continuous Bodies via Integration",
+          "description": "Volume/surface/linear density mass element formulation dm = rho dV = sigma dA = lambda dl; integral formulation R_cm = 1/M int r dm; standard symmetric geometries: uniform rod (L/2), semicircular ring (2R/pi), semicircular disc (4R/3pi), solid hemisphere (3R/8), hollow hemisphere (R/2), solid cone (h/4), hollow cone (h/3)."
+        },
+        {
+          "subtopic_id": "motion-of-center-of-mass",
+          "title": "Motion of Center of Mass and System Newton's Law",
+          "description": "Time differentiation yielding V_cm = sum(m_i v_i) / M = P_total / M; acceleration A_cm = sum(m_i a_i) / M; internal cancellation by Newton's Third Law sum(F_int) = 0; governing dynamical theorem M A_cm = F_net,ext."
+        },
+        {
+          "subtopic_id": "shift-in-com-and-cavity-problems",
+          "title": "Shift in Center of Mass and Cavity Problems",
+          "description": "Negative mass superposition method for bodies with holes/cavities; shift in center of mass when parts of an isolated system relocate (Delta X_cm = 0 under zero external horizontal force); man-on-plank and boat-shore problems."
+        }
+      ]
+    },
+    {
+      "topic_id": "linear-momentum-and-impulse",
+      "title": "Linear Momentum, Impulse, and Variable Mass Systems",
+      "subtopics": [
+        {
+          "subtopic_id": "conservation-of-linear-momentum",
+          "title": "Conservation of Linear Momentum",
+          "description": "System linear momentum P = M V_cm; constancy dP/dt = F_net,ext = 0 implying P_initial = P_final for isolated systems; directional conservation along unconstrained axes; explosion of projectiles and gun recoil dynamics."
+        },
+        {
+          "subtopic_id": "impulse-momentum-theorem",
+          "title": "Impulse and the Impulse-Momentum Theorem",
+          "description": "Definition of impulse vector J = int F dt; impulse-momentum theorem J_net = Delta p; area under force-time F-t curves; distinction between impulsive forces (tensions, normal impacts, explosions) and finite non-impulsive forces (gravity, gentle spring forces) over infinitesimal impact durations."
+        },
+        {
+          "subtopic_id": "variable-mass-systems-and-rocket-propulsion",
+          "title": "Variable Mass Systems and Rocket Propulsion",
+          "description": "Differential momentum balance for open systems acquiring or ejecting mass; relative exhaust velocity v_rel; reactive thrust force F_thrust = v_rel * (dm/dt); Tsiolkovsky rocket equation v(t) = v_0 + v_rel ln(m_0 / m(t)) - g t; sand leaking on conveyor belts and railcars."
+        }
+      ]
+    },
+    {
+      "topic_id": "collisions",
+      "title": "Collisions in One and Two Dimensions",
+      "subtopics": [
+        {
+          "subtopic_id": "elastic-collision-1d",
+          "title": "One-Dimensional Head-On Elastic Collisions",
+          "description": "Simultaneous conservation of linear momentum and total mechanical kinetic energy; relative speed of separation equals relative speed of approach; closed-form post-collision velocities v1, v2; velocity exchange for equal masses m1 = m2; heavy target and heavy projectile limiting cases."
+        },
+        {
+          "subtopic_id": "inelastic-collision-1d",
+          "title": "One-Dimensional Inelastic Collisions and Energy Dissipation",
+          "description": "Momentum conserved with kinetic energy partially transformed into internal thermal/deformation energy; formula for kinetic energy loss Delta K = 1/2 * (m1 m2)/(m1 + m2) * (1 - e^2) * (u1 - u2)^2; maximum energy loss in perfectly inelastic collision."
+        },
+        {
+          "subtopic_id": "perfectly-inelastic-collision-2d",
+          "title": "Completely Inelastic Collisions and Ballistic Pendulum",
+          "description": "Colliding bodies coalesce and move with common velocity v_f = V_cm; ballistic pendulum energy conversion and swing height measurement."
+        },
+        {
+          "subtopic_id": "coefficient-of-restitution",
+          "title": "Coefficient of Restitution and Newton's Experimental Law",
+          "description": "Definition e = v_sep / v_app along line of impact; limits e = 1 (elastic), 0 < e < 1 (inelastic), e = 0 (perfectly inelastic); multi-bounce geometric damping off flat floors."
+        },
+        {
+          "subtopic_id": "oblique-collisions",
+          "title": "Two-Dimensional Oblique Collisions",
+          "description": "Separation of dynamics into Line of Impact (common normal) and Line of Contact (common tangent); normal impulse changes normal momentum governed by restitution e; smooth surfaces imply zero tangential impulse so tangential velocity components remain invariant; 90 degree scattering angle for identical elastic spheres with stationary target."
+        }
+      ]
+    }
+  ],
+  "explicit_exclusions": [
+    {
+      "topic": "Rigid Body Rotational Dynamics and Moment of Inertia",
+      "rationale": "Rotational kinetic energy, moment of inertia tensors, torque tau = I alpha, and angular momentum L = I omega belong to Chapter 6: Rotational Motion."
+    },
+    {
+      "topic": "Universal Gravitation and Two-Body Orbital Mechanics",
+      "rationale": "Keplerian orbits, reduced mass in central gravitational fields, and escape velocity belong to Chapter 7: Gravitation."
+    },
+    {
+      "topic": "Relativistic Four-Momentum and Invariant Mass",
+      "rationale": "Four-momentum p_mu and Lorentz transformations belong to advanced Modern Physics / Relativity outside classical JEE syllabus."
+    }
+  ],
+  "prerequisites": [
+    "vectors-and-coordinate-systems",
+    "differential-calculus-foundations",
+    "integral-calculus-foundations",
+    "kinematics",
+    "laws-of-motion",
+    "work-energy-power"
+  ],
+  "downstream_dependencies": [
+    "rotational-motion",
+    "gravitation",
+    "oscillations"
+  ],
+  "source_evidence_summary": {
+    "total_records": 111,
+    "manifest_file": "build/reports/momentum_collisions_source_evidence_manifest.json",
+    "sources_utilized": [
+      "H.C. Verma Vol 1 (Chapter 9)",
+      "Halliday, Resnick & Walker (Chapter 9)",
+      "University Physics (Chapter 8)",
+      "Feynman Lectures Vol 1 (Chapters 10 & 19)",
+      "Irodov (Section 1.3)",
+      "JEE Main & Rank Booster Mock Papers"
+    ]
+  }
+}

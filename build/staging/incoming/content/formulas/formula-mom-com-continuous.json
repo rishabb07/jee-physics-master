@@ -1,0 +1,43 @@
+{
+  "formula_id": "formula-mom-com-continuous",
+  "chapter_id": "center-of-mass",
+  "topic_id": "center-of-mass-fundamentals",
+  "title": "Continuous Center of Mass Integral",
+  "latex": "\\vec{R}_{\\text{cm}} = \\frac{1}{M} \\int_{\\text{body}} \\vec{r} \\, dm",
+  "variables": {
+    "\\vec{R}_{\\text{cm}}": "Center of mass position vector",
+    "M": "Total mass of continuous body",
+    "\\vec{r}": "Position vector of differential mass element",
+    "dm": "Differential mass element (\\rho dV, \\sigma dA, or \\lambda dl)"
+  },
+  "units": {
+    "\\vec{R}_{\\text{cm}}": "m",
+    "M": "kg",
+    "\\vec{r}": "m",
+    "dm": "kg"
+  },
+  "dimensions": {
+    "\\vec{R}_{\\text{cm}}": "[L]",
+    "M": "[M]",
+    "\\vec{r}": "[L]",
+    "dm": "[M]"
+  },
+  "assumptions": [
+    "Continuous rigid mass distribution",
+    "Well-defined density function"
+  ],
+  "validity_conditions": [
+    "Riemann integrable mass density across domain"
+  ],
+  "related_concepts": [
+    "concept-mom-com-continuous-01"
+  ],
+  "common_misuse": [
+    "Integrating with non-centroidal mass element positions",
+    "Forgetting to normalize by total mass M"
+  ],
+  "source_provenance": "HCV1 Ch 9 p. 151 eq. 9.4",
+  "verification_status": "VERIFIED",
+  "created_at": "2026-10-05T01:30:00Z",
+  "equation_latex": "\\vec{R}_{\\text{cm}} = \\frac{1}{M} \\int_{\\text{body}} \\vec{r} \\, dm"
+}

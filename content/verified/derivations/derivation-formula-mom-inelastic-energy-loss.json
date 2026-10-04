@@ -1,0 +1,89 @@
+{
+  "derivation_id": "derivation-formula-mom-inelastic-energy-loss",
+  "target_formula_id": "formula-mom-inelastic-energy-loss",
+  "chapter_id": "center-of-mass",
+  "title": "Derivation of Kinetic Energy Dissipation in Inelastic 1D Collisions",
+  "governing_principles": [
+    "Kinetic energy decomposition in Center of Mass frame K = K_{\\text{cm}} + K_{\\text{rel}}",
+    "Conservation of center of mass kinetic energy K_{\\text{cm}} = \\frac{1}{2} M V_{\\text{cm}}^2 = \\text{constant}",
+    "Restitution reduction of relative velocity v_{\\text{rel}} = e u_{\\text{rel}}"
+  ],
+  "assumptions": [
+    "1D head-on collision",
+    "Coefficient of restitution e strictly constant during impact",
+    "Zero external work"
+  ],
+  "derivation_steps": [
+    {
+      "step_number": 1,
+      "equation": "K = \\frac{1}{2} M V_{\\text{cm}}^2 + \\frac{1}{2} \\mu u_{\\text{rel}}^2, \\quad \\mu = \\frac{m_1 m_2}{m_1 + m_2}",
+      "description": "Express total kinetic energy as sum of center of mass kinetic energy and relative kinetic energy (two-body reduced mass theorem)."
+    },
+    {
+      "step_number": 2,
+      "equation": "K_i = \\frac{1}{2} M V_{\\text{cm}}^2 + \\frac{1}{2} \\mu (u_1 - u_2)^2",
+      "description": "Initial kinetic energy before collision."
+    },
+    {
+      "step_number": 3,
+      "equation": "K_f = \\frac{1}{2} M V_{\\text{cm}}^2 + \\frac{1}{2} \\mu (v_2 - v_1)^2",
+      "description": "Final kinetic energy after collision. Because momentum is conserved, V_cm is unchanged."
+    },
+    {
+      "step_number": 4,
+      "equation": "v_2 - v_1 = e (u_1 - u_2)",
+      "description": "Substitute Newton's coefficient of restitution for relative separation speed."
+    },
+    {
+      "step_number": 5,
+      "equation": "K_f = \\frac{1}{2} M V_{\\text{cm}}^2 + \\frac{1}{2} \\mu e^2 (u_1 - u_2)^2",
+      "description": "Express final kinetic energy in terms of initial relative velocity and e."
+    },
+    {
+      "step_number": 6,
+      "equation": "\\Delta K = K_i - K_f = \\frac{1}{2} \\mu (u_1 - u_2)^2 - \\frac{1}{2} \\mu e^2 (u_1 - u_2)^2 = \\frac{1}{2} \\left(\\frac{m_1 m_2}{m_1 + m_2}\\right) (1 - e^2) (u_1 - u_2)^2",
+      "description": "Subtract final kinetic energy from initial to find the dissipated energy Delta K."
+    }
+  ],
+  "limiting_cases": [
+    "e = 1: Delta K = 0 (perfectly elastic, zero dissipation).",
+    "e = 0: Delta K_max = 1/2 mu u_rel^2 (perfectly inelastic, maximum dissipation)."
+  ],
+  "dimensional_check": "Dimensions of mu u^2 are [M][L]^2[T]^-2 (Energy, Joules).",
+  "source_provenance": "HCV1 Ch 9 p. 168 eq. 9.25; HRW Ch 9 p. 244",
+  "verification_status": "VERIFIED",
+  "created_at": "2026-10-05T01:30:00Z",
+  "ordered_steps": [
+    {
+      "step_number": 1,
+      "equation": "K = \\frac{1}{2} M V_{\\text{cm}}^2 + \\frac{1}{2} \\mu u_{\\text{rel}}^2, \\quad \\mu = \\frac{m_1 m_2}{m_1 + m_2}",
+      "description": "Express total kinetic energy as sum of center of mass kinetic energy and relative kinetic energy (two-body reduced mass theorem)."
+    },
+    {
+      "step_number": 2,
+      "equation": "K_i = \\frac{1}{2} M V_{\\text{cm}}^2 + \\frac{1}{2} \\mu (u_1 - u_2)^2",
+      "description": "Initial kinetic energy before collision."
+    },
+    {
+      "step_number": 3,
+      "equation": "K_f = \\frac{1}{2} M V_{\\text{cm}}^2 + \\frac{1}{2} \\mu (v_2 - v_1)^2",
+      "description": "Final kinetic energy after collision. Because momentum is conserved, V_cm is unchanged."
+    },
+    {
+      "step_number": 4,
+      "equation": "v_2 - v_1 = e (u_1 - u_2)",
+      "description": "Substitute Newton's coefficient of restitution for relative separation speed."
+    },
+    {
+      "step_number": 5,
+      "equation": "K_f = \\frac{1}{2} M V_{\\text{cm}}^2 + \\frac{1}{2} \\mu e^2 (u_1 - u_2)^2",
+      "description": "Express final kinetic energy in terms of initial relative velocity and e."
+    },
+    {
+      "step_number": 6,
+      "equation": "\\Delta K = K_i - K_f = \\frac{1}{2} \\mu (u_1 - u_2)^2 - \\frac{1}{2} \\mu e^2 (u_1 - u_2)^2 = \\frac{1}{2} \\left(\\frac{m_1 m_2}{m_1 + m_2}\\right) (1 - e^2) (u_1 - u_2)^2",
+      "description": "Subtract final kinetic energy from initial to find the dissipated energy Delta K."
+    }
+  ],
+  "target_equation": "\\Delta K = K_i - K_f = \\frac{1}{2} \\mu (u_1 - u_2)^2 - \\frac{1}{2} \\mu e^2 (u_1 - u_2)^2 = \\frac{1}{2} \\left(\\frac{m_1 m_2}{m_1 + m_2}\\right) (1 - e^2) (u_1 - u_2)^2"
+}

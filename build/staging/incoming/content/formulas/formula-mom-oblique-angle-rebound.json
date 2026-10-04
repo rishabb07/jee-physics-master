@@ -1,0 +1,47 @@
+{
+  "formula_id": "formula-mom-oblique-angle-rebound",
+  "chapter_id": "center-of-mass",
+  "topic_id": "collisions",
+  "title": "Oblique Collision Rebound Angle and Velocity Relations",
+  "latex": "\\tan\\beta = e \\tan\\alpha, \\quad v_t = u_t, \\quad v_n = e u_n",
+  "variables": {
+    "\\beta": "Angle of rebound with common normal",
+    "\\alpha": "Angle of incidence with common normal",
+    "e": "Coefficient of restitution",
+    "v_t, u_t": "Tangential velocities before and after impact",
+    "v_n, u_n": "Normal velocities before and after impact"
+  },
+  "units": {
+    "\\beta": "rad",
+    "\\alpha": "rad",
+    "e": "dimensionless",
+    "v": "m/s",
+    "u": "m/s"
+  },
+  "dimensions": {
+    "\\beta": "[1]",
+    "\\alpha": "[1]",
+    "e": "[1]",
+    "v": "[L][T]^-1",
+    "u": "[L][T]^-1"
+  },
+  "assumptions": [
+    "Smooth colliding surfaces (zero tangential friction)",
+    "Line of impact along common normal"
+  ],
+  "validity_conditions": [
+    "Valid for oblique impact against stationary smooth barrier or sphere"
+  ],
+  "related_concepts": [
+    "concept-mom-oblique-collision-01"
+  ],
+  "common_misuse": [
+    "Measuring angles from tangent surface instead of normal",
+    "Assuming tangential velocity changes without friction"
+  ],
+  "source_provenance": "HCV1 Ch 9 p. 172; HRW Ch 9 p. 251",
+  "verification_status": "VERIFIED",
+  "created_at": "2026-10-05T01:30:00Z",
+  "equation_latex": "\\tan\\beta = e \\tan\\alpha, \\quad v_t = u_t, \\quad v_n = e u_n",
+  "derivation_reference": "derivation-formula-mom-identical-oblique-90deg"
+}

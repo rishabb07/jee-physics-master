@@ -1,0 +1,366 @@
+{
+  "chapter_id": "center-of-mass",
+  "chapter_title": "Center of Mass, Momentum, and Collisions",
+  "template_type": "MECHANICS",
+  "order": 5,
+  "taxonomy_references": [
+    {
+      "chapter_id": "center-of-mass",
+      "topic_id": "center-of-mass-fundamentals",
+      "subtopic_id": "com-of-discrete-particles"
+    },
+    {
+      "chapter_id": "center-of-mass",
+      "topic_id": "center-of-mass-fundamentals",
+      "subtopic_id": "com-of-continuous-bodies"
+    },
+    {
+      "chapter_id": "center-of-mass",
+      "topic_id": "center-of-mass-fundamentals",
+      "subtopic_id": "motion-of-center-of-mass"
+    },
+    {
+      "chapter_id": "center-of-mass",
+      "topic_id": "center-of-mass-fundamentals",
+      "subtopic_id": "shift-in-com-and-cavity-problems"
+    },
+    {
+      "chapter_id": "center-of-mass",
+      "topic_id": "linear-momentum-and-impulse",
+      "subtopic_id": "conservation-of-linear-momentum"
+    },
+    {
+      "chapter_id": "center-of-mass",
+      "topic_id": "linear-momentum-and-impulse",
+      "subtopic_id": "impulse-momentum-theorem"
+    },
+    {
+      "chapter_id": "center-of-mass",
+      "topic_id": "linear-momentum-and-impulse",
+      "subtopic_id": "variable-mass-systems-and-rocket-propulsion"
+    },
+    {
+      "chapter_id": "center-of-mass",
+      "topic_id": "collisions",
+      "subtopic_id": "elastic-collision-1d"
+    },
+    {
+      "chapter_id": "center-of-mass",
+      "topic_id": "collisions",
+      "subtopic_id": "inelastic-collision-1d"
+    },
+    {
+      "chapter_id": "center-of-mass",
+      "topic_id": "collisions",
+      "subtopic_id": "perfectly-inelastic-collision-2d"
+    },
+    {
+      "chapter_id": "center-of-mass",
+      "topic_id": "collisions",
+      "subtopic_id": "coefficient-of-restitution"
+    },
+    {
+      "chapter_id": "center-of-mass",
+      "topic_id": "collisions",
+      "subtopic_id": "oblique-collisions"
+    }
+  ],
+  "learning_objectives": [
+    "Compute the center of mass for discrete multi-particle systems and continuous symmetric bodies using integral calculus.",
+    "Apply negative mass superposition to calculate shifts in the center of mass for bodies with hollow cavities.",
+    "Master Newton's Second Law for systems of particles M A_cm = F_net,ext and analyze motion in the center of mass reference frame.",
+    "Formulate the Impulse-Momentum Theorem J_net = Delta p and differentiate impulsive from non-impulsive forces.",
+    "Apply the Principle of Conservation of Linear Momentum to isolated systems, explosions, gun recoil, and unconstrained coordinate axes.",
+    "Derive reactive thrust forces and the Tsiolkovsky rocket equation for variable-mass flight.",
+    "Analyze 1D elastic and inelastic collisions using Newton's experimental law of restitution e = v_sep / v_app.",
+    "Calculate mechanical energy dissipation in inelastic impacts and analyze ballistic pendulums.",
+    "Decompose 2D oblique collisions into line of impact and common tangential components, proving the 90 degree scattering angle for identical elastic spheres."
+  ],
+  "prerequisite_curriculum_nodes": [
+    "vectors-and-coordinate-systems",
+    "differential-calculus-foundations",
+    "integral-calculus-foundations",
+    "kinematics",
+    "laws-of-motion",
+    "work-energy-power"
+  ],
+  "concept_sequence": [
+    {
+      "concept_id": "concept-mom-com-discrete-01",
+      "pedagogical_role": "CORE_PRINCIPLE",
+      "section_id": "sec-01-center-of-mass-dynamics"
+    },
+    {
+      "concept_id": "concept-mom-com-continuous-01",
+      "pedagogical_role": "CORE_PRINCIPLE",
+      "section_id": "sec-01-center-of-mass-dynamics"
+    },
+    {
+      "concept_id": "concept-mom-com-motion-01",
+      "pedagogical_role": "CORE_PRINCIPLE",
+      "section_id": "sec-01-center-of-mass-dynamics"
+    },
+    {
+      "concept_id": "concept-mom-cavity-shift-01",
+      "pedagogical_role": "CORE_PRINCIPLE",
+      "section_id": "sec-01-center-of-mass-dynamics"
+    },
+    {
+      "concept_id": "concept-mom-momentum-def-01",
+      "pedagogical_role": "CORE_PRINCIPLE",
+      "section_id": "sec-02-impulse-and-momentum"
+    },
+    {
+      "concept_id": "concept-mom-impulse-def-01",
+      "pedagogical_role": "CORE_PRINCIPLE",
+      "section_id": "sec-02-impulse-and-momentum"
+    },
+    {
+      "concept_id": "concept-mom-impulse-forces-01",
+      "pedagogical_role": "CORE_PRINCIPLE",
+      "section_id": "sec-02-impulse-and-momentum"
+    },
+    {
+      "concept_id": "concept-mom-conservation-01",
+      "pedagogical_role": "CORE_PRINCIPLE",
+      "section_id": "sec-03-conservation-and-variable-mass"
+    },
+    {
+      "concept_id": "concept-mom-explosion-recoil-01",
+      "pedagogical_role": "CORE_PRINCIPLE",
+      "section_id": "sec-03-conservation-and-variable-mass"
+    },
+    {
+      "concept_id": "concept-mom-variable-mass-01",
+      "pedagogical_role": "CORE_PRINCIPLE",
+      "section_id": "sec-03-conservation-and-variable-mass"
+    },
+    {
+      "concept_id": "concept-mom-collision-types-01",
+      "pedagogical_role": "CORE_PRINCIPLE",
+      "section_id": "sec-04-collisions-and-restitution"
+    },
+    {
+      "concept_id": "concept-mom-restitution-01",
+      "pedagogical_role": "CORE_PRINCIPLE",
+      "section_id": "sec-04-collisions-and-restitution"
+    },
+    {
+      "concept_id": "concept-mom-elastic-1d-01",
+      "pedagogical_role": "CORE_PRINCIPLE",
+      "section_id": "sec-04-collisions-and-restitution"
+    },
+    {
+      "concept_id": "concept-mom-inelastic-energy-loss-01",
+      "pedagogical_role": "CORE_PRINCIPLE",
+      "section_id": "sec-04-collisions-and-restitution"
+    },
+    {
+      "concept_id": "concept-mom-inelastic-ballistic-01",
+      "pedagogical_role": "CORE_PRINCIPLE",
+      "section_id": "sec-04-collisions-and-restitution"
+    },
+    {
+      "concept_id": "concept-mom-oblique-collision-01",
+      "pedagogical_role": "CORE_PRINCIPLE",
+      "section_id": "sec-04-collisions-and-restitution"
+    }
+  ],
+  "formula_sequence": [
+    {
+      "formula_id": "formula-mom-com-discrete",
+      "pedagogical_role": "CORE_PRINCIPLE",
+      "section_id": "sec-01-center-of-mass-dynamics"
+    },
+    {
+      "formula_id": "formula-mom-com-continuous",
+      "pedagogical_role": "CORE_PRINCIPLE",
+      "section_id": "sec-01-center-of-mass-dynamics"
+    },
+    {
+      "formula_id": "formula-mom-com-hemisphere",
+      "pedagogical_role": "CORE_PRINCIPLE",
+      "section_id": "sec-01-center-of-mass-dynamics"
+    },
+    {
+      "formula_id": "formula-mom-com-cone",
+      "pedagogical_role": "CORE_PRINCIPLE",
+      "section_id": "sec-01-center-of-mass-dynamics"
+    },
+    {
+      "formula_id": "formula-mom-com-cavity",
+      "pedagogical_role": "CORE_PRINCIPLE",
+      "section_id": "sec-01-center-of-mass-dynamics"
+    },
+    {
+      "formula_id": "formula-mom-com-velocity",
+      "pedagogical_role": "CORE_PRINCIPLE",
+      "section_id": "sec-01-center-of-mass-dynamics"
+    },
+    {
+      "formula_id": "formula-mom-com-acceleration",
+      "pedagogical_role": "CORE_PRINCIPLE",
+      "section_id": "sec-01-center-of-mass-dynamics"
+    },
+    {
+      "formula_id": "formula-mom-momentum-vector",
+      "pedagogical_role": "CORE_PRINCIPLE",
+      "section_id": "sec-02-impulse-and-momentum"
+    },
+    {
+      "formula_id": "formula-mom-impulse-integral",
+      "pedagogical_role": "CORE_PRINCIPLE",
+      "section_id": "sec-02-impulse-and-momentum"
+    },
+    {
+      "formula_id": "formula-mom-impulse-momentum-thm",
+      "pedagogical_role": "CORE_PRINCIPLE",
+      "section_id": "sec-02-impulse-and-momentum"
+    },
+    {
+      "formula_id": "formula-mom-conservation",
+      "pedagogical_role": "CORE_PRINCIPLE",
+      "section_id": "sec-03-conservation-and-variable-mass"
+    },
+    {
+      "formula_id": "formula-mom-recoil-velocity",
+      "pedagogical_role": "CORE_PRINCIPLE",
+      "section_id": "sec-03-conservation-and-variable-mass"
+    },
+    {
+      "formula_id": "formula-mom-rocket-thrust",
+      "pedagogical_role": "CORE_PRINCIPLE",
+      "section_id": "sec-03-conservation-and-variable-mass"
+    },
+    {
+      "formula_id": "formula-mom-rocket-tsiolkovsky",
+      "pedagogical_role": "CORE_PRINCIPLE",
+      "section_id": "sec-03-conservation-and-variable-mass"
+    },
+    {
+      "formula_id": "formula-mom-elastic-1d-v1",
+      "pedagogical_role": "CORE_PRINCIPLE",
+      "section_id": "sec-04-collisions-and-restitution"
+    },
+    {
+      "formula_id": "formula-mom-elastic-1d-v2",
+      "pedagogical_role": "CORE_PRINCIPLE",
+      "section_id": "sec-04-collisions-and-restitution"
+    },
+    {
+      "formula_id": "formula-mom-restitution-def",
+      "pedagogical_role": "CORE_PRINCIPLE",
+      "section_id": "sec-04-collisions-and-restitution"
+    },
+    {
+      "formula_id": "formula-mom-inelastic-energy-loss",
+      "pedagogical_role": "CORE_PRINCIPLE",
+      "section_id": "sec-04-collisions-and-restitution"
+    },
+    {
+      "formula_id": "formula-mom-oblique-angle-rebound",
+      "pedagogical_role": "CORE_PRINCIPLE",
+      "section_id": "sec-04-collisions-and-restitution"
+    }
+  ],
+  "misconception_sequence": [
+    {
+      "misconception_id": "misc-mom-01",
+      "pedagogical_role": "COMMON_MISCONCEPTION",
+      "section_id": "sec-01-center-of-mass-dynamics"
+    },
+    {
+      "misconception_id": "misc-mom-03",
+      "pedagogical_role": "COMMON_MISCONCEPTION",
+      "section_id": "sec-02-impulse-and-momentum"
+    },
+    {
+      "misconception_id": "misc-mom-02",
+      "pedagogical_role": "COMMON_MISCONCEPTION",
+      "section_id": "sec-03-conservation-and-variable-mass"
+    },
+    {
+      "misconception_id": "misc-mom-05",
+      "pedagogical_role": "COMMON_MISCONCEPTION",
+      "section_id": "sec-03-conservation-and-variable-mass"
+    },
+    {
+      "misconception_id": "misc-mom-04",
+      "pedagogical_role": "COMMON_MISCONCEPTION",
+      "section_id": "sec-04-collisions-and-restitution"
+    },
+    {
+      "misconception_id": "misc-mom-06",
+      "pedagogical_role": "COMMON_MISCONCEPTION",
+      "section_id": "sec-04-collisions-and-restitution"
+    }
+  ],
+  "worked_example_sequence": [
+    {
+      "example_id": "ex-mom-disc-cavity-01",
+      "pedagogical_role": "WORKED_EXAMPLE",
+      "section_id": "sec-01-center-of-mass-dynamics"
+    },
+    {
+      "example_id": "ex-mom-man-plank-01",
+      "pedagogical_role": "WORKED_EXAMPLE",
+      "section_id": "sec-01-center-of-mass-dynamics"
+    },
+    {
+      "example_id": "ex-mom-ball-wall-impulse-01",
+      "pedagogical_role": "WORKED_EXAMPLE",
+      "section_id": "sec-02-impulse-and-momentum"
+    },
+    {
+      "example_id": "ex-mom-rocket-vertical-climb-01",
+      "pedagogical_role": "WORKED_EXAMPLE",
+      "section_id": "sec-03-conservation-and-variable-mass"
+    },
+    {
+      "example_id": "ex-mom-elastic-target-masses-01",
+      "pedagogical_role": "WORKED_EXAMPLE",
+      "section_id": "sec-04-collisions-and-restitution"
+    },
+    {
+      "example_id": "ex-mom-ballistic-pendulum-01",
+      "pedagogical_role": "WORKED_EXAMPLE",
+      "section_id": "sec-04-collisions-and-restitution"
+    },
+    {
+      "example_id": "ex-mom-oblique-two-disc-01",
+      "pedagogical_role": "WORKED_EXAMPLE",
+      "section_id": "sec-04-collisions-and-restitution"
+    }
+  ],
+  "question_sequence": [
+    {
+      "question_id": "center-of-mass-question-e38050cc",
+      "pedagogical_role": "PRACTICE_QUESTION",
+      "section_id": "sec-01-center-of-mass-dynamics"
+    },
+    {
+      "question_id": "center-of-mass-question-ba1b4107",
+      "pedagogical_role": "PRACTICE_QUESTION",
+      "section_id": "sec-04-collisions-and-restitution"
+    }
+  ],
+  "question_ladders": [
+    "ladder-mom-collision-restitution-01"
+  ],
+  "revision_checklist": [
+    "Discrete center of mass position vector R_cm = sum(m_i r_i) / M",
+    "Continuous center of mass integral R_cm = 1/M int r dm (Hemisphere: 3R/8, Cone: h/4)",
+    "Cavity displacement by negative mass superposition",
+    "System dynamics theorem M A_cm = F_net,ext (Internal forces cancel in pairs)",
+    "Zero external force displacement invariance Delta X_cm = 0",
+    "Linear momentum P = M V_cm and conservation dP/dt = 0 when F_net,ext = 0",
+    "Impulse integral J = int F dt = Delta p and area under F-t curve",
+    "Variable mass thrust F_thrust = v_rel (dm/dt) and rocket equation v = v0 + v_rel ln(m0/m) - gt",
+    "1D head-on elastic collision velocities and equal-mass velocity exchange",
+    "Restitution coefficient e = v_sep / v_app along line of impact",
+    "Kinetic energy loss Delta K = 1/2 mu (1 - e^2) u_rel^2",
+    "2D oblique impact: normal restitution with invariant tangential velocity component",
+    "Identical elastic spheres scatter at 90 degrees when target is stationary"
+  ],
+  "created_at": "2026-10-05T01:30:00Z"
+}

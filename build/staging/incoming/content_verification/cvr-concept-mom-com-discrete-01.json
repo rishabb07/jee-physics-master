@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-concept-mom-com-discrete-01",
+  "content_type": "CONCEPT",
+  "target_id": "concept-mom-com-discrete-01",
+  "content_hash": "7c937570641ad8af142a3587faf31af951aed69d74d3f67e9174e87f7a62df7a",
+  "risk_level": "MEDIUM",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Independently verified physical grounding for Center of Mass of Discrete Particle Systems against audited sources.",
+  "verifier_id": "content-verifier-mom-concepts",
+  "created_at": "2026-10-05T01:30:00Z"
+}

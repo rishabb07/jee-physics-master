@@ -1,0 +1,12 @@
+{
+  "concept_id": "concept-mom-cavity-shift-01",
+  "chapter_id": "center-of-mass",
+  "topic_id": "center-of-mass-fundamentals",
+  "title": "Superposition, Negative Mass, and Relative Displacement",
+  "explanation": "When a hole or cavity is cut out from a uniform geometric body, the remaining mass distribution can be modeled using the superposition principle by treating the cavity as a superimposed entity possessing negative mass $m_{\\text{cav}} = -\\rho V_{\\text{cav}}$ located at the centroid of the cavity $\\vec{r}_{\\text{cav}}$: $$\\vec{r}_{\\text{rem}} = \\frac{M \\vec{r}_{\\text{orig}} - m_{\\text{cav}} \\vec{r}_{\\text{cav}}}{M - m_{\\text{cav}}}$$ Furthermore, for an isolated system experiencing zero net external force along a given axis (e.g. horizontal floor or calm water), the acceleration of the center of mass vanishes: $A_{\\text{cm}, x} = 0$. If the system is initially released from rest, the center of mass remains strictly stationary: $\\Delta X_{\\text{cm}} = 0$, implying: $$\\sum m_i \\Delta x_i = 0 \\implies m_1 \\Delta x_1 + m_2 \\Delta x_2 + \\dots = 0$$ This governs the displacement of boats, floating planks, and mobile wedges during internal rearrangement.",
+  "physical_intuition": "When a person walks forward on a frictionless plank, the plank must slide backward such that the system's mass-weighted position remains completely invariant in space.",
+  "scope_and_applicability": "Valid in any inertial frame where net external force along the designated direction vanishes.",
+  "source_provenance": "HCV1 Ch 9 pp. 155-157; Irodov Prob 1.180",
+  "verification_status": "VERIFIED",
+  "created_at": "2026-10-05T01:30:00Z"
+}

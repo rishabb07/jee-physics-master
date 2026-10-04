@@ -1,0 +1,12 @@
+{
+  "concept_id": "concept-mom-explosion-recoil-01",
+  "chapter_id": "center-of-mass",
+  "topic_id": "linear-momentum-and-impulse",
+  "title": "Explosion, Gun Recoil, and Internal Explosive Energy",
+  "explanation": "When an initially stationary object of mass $M$ explodes into fragments or a rifle of mass $M$ fires a bullet of mass $m$, the initial total linear momentum is zero: $\\vec{P}_i = \\vec{0}$. In the absence of external impulsive forces, momentum conservation dictates: $$\\vec{P}_f = M \\vec{V}_{\\text{gun}} + m \\vec{v}_{\\text{bullet}} = \\vec{0} \\implies \\vec{V}_{\\text{gun}} = -\\frac{m}{M} \\vec{v}_{\\text{bullet}}$$ The ratio of kinetic energies imparted to the gun and the bullet is inversely proportional to their masses: $$\\frac{K_{\\text{gun}}}{K_{\\text{bullet}}} = \\frac{\\frac{1}{2} M V_{\\text{gun}}^2}{\\frac{1}{2} m v_{\\text{bullet}}^2} = \\frac{m}{M}$$ Because $M \\gg m$, the vast majority of chemical explosive energy is transferred to the lighter projectile as kinetic energy.",
+  "physical_intuition": "The bullet and rifle experience identical magnitudes of momentum change, but the light bullet carries almost all the destructive kinetic energy.",
+  "scope_and_applicability": "Universal recoil and explosive fragmentation model in isolated systems.",
+  "source_provenance": "HCV1 Ch 9 pp. 158-159; UP Ch 8 pp. 272-273",
+  "verification_status": "VERIFIED",
+  "created_at": "2026-10-05T01:30:00Z"
+}

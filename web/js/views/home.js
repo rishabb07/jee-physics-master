@@ -16,7 +16,7 @@ export async function renderHome(container) {
 
   const counts = manifest ? manifest.counts : {
     total_chapters: 30,
-    pilot_active_chapters: 4,
+    pilot_active_chapters: 8,
     concepts: 12,
     formulas: 13,
     derivations: 13,
@@ -115,6 +115,17 @@ export async function renderHome(container) {
             <h3 style="font-size: 1.15rem; margin-bottom: 0.4rem; color: var(--text-main);">Work, Energy & Power</h3>
             <p style="font-size: 0.85rem; color: var(--text-muted);">
               Work line integrals, work-energy theorem, potential energy gradients, mechanical conservation, power, and vertical circular motion.
+            </p>
+          </a>
+
+          <a href="#/chapter/center-of-mass" class="card" style="display: block; transition: transform 0.15s ease;" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='none'">
+            <div style="display: flex; justify-content: space-between; align-items: start; margin-bottom: 0.5rem;">
+              <span class="badge badge-primary">Mechanics</span>
+              <span class="badge badge-active">Production: live</span>
+            </div>
+            <h3 style="font-size: 1.15rem; margin-bottom: 0.4rem; color: var(--text-main);">Center of Mass & Momentum</h3>
+            <p style="font-size: 0.85rem; color: var(--text-muted);">
+              Discrete and continuous mass centers, impulse-momentum theorem, elastic/inelastic collisions, and variable-mass rockets.
             </p>
           </a>
 

@@ -1,0 +1,12 @@
+{
+  "concept_id": "concept-mom-elastic-1d-01",
+  "chapter_id": "center-of-mass",
+  "topic_id": "collisions",
+  "title": "One-Dimensional Head-On Elastic Collisions",
+  "explanation": "In a 1D head-on elastic collision of two masses $m_1$ and $m_2$ with initial velocities $u_1$ and $u_2$, simultaneous solution of linear momentum conservation and kinetic energy conservation (equivalent to $e = 1$) yields unique closed-form post-collision velocities: $$v_1 = \\left(\\frac{m_1 - m_2}{m_1 + m_2}\\right)u_1 + \\left(\\frac{2m_2}{m_1 + m_2}\\right)u_2$$ $$v_2 = \\left(\\frac{2m_1}{m_1 + m_2}\\right)u_1 + \\left(\\frac{m_2 - m_1}{m_1 + m_2}\\right)u_2$$ Crucial limiting cases: (a) Equal masses ($m_1 = m_2$): the particles completely exchange their velocities ($v_1 = u_2, v_2 = u_1$). (b) Heavy target ($m_2 \\gg m_1$, $u_2 = 0$): the light particle rebounds with reversed speed ($v_1 \\approx -u_1$), while the heavy target remains essentially at rest ($v_2 \\approx 0$). (c) Massive projectile ($m_1 \\gg m_2$, $u_2 = 0$): the heavy particle continues almost unaffected ($v_1 \\approx u_1$), and the light target is ejected forward at twice the projectile speed ($v_2 \\approx 2u_1$).",
+  "physical_intuition": "In an elastic collision of identical billiard balls, the moving ball comes to a dead stop while the stationary ball shoots forward with the full initial velocity.",
+  "scope_and_applicability": "Exact closed-form solution for 1D head-on non-relativistic elastic impact.",
+  "source_provenance": "HCV1 Ch 9 pp. 165-167; HRW Ch 9 pp. 246-248; UP Ch 8 pp. 279-281",
+  "verification_status": "VERIFIED",
+  "created_at": "2026-10-05T01:30:00Z"
+}

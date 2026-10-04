@@ -1,0 +1,12 @@
+{
+  "concept_id": "concept-mom-restitution-01",
+  "chapter_id": "center-of-mass",
+  "topic_id": "collisions",
+  "title": "Newton's Coefficient of Restitution",
+  "explanation": "Newton's empirical law of restitution relates the relative velocity of separation of two colliding bodies along their common normal (line of impact) to their relative velocity of approach: $$e = \\frac{\\text{relative speed of separation along line of impact}}{\\text{relative speed of approach along line of impact}} = \\frac{v_{2n} - v_{1n}}{u_{1n} - u_{2n}}$$ The coefficient of restitution $e$ is a dimensionless property of the contacting materials: (1) $e = 1$: Perfectly elastic collision. (2) $0 < e < 1$: Inelastic collision. (3) $e = 0$: Completely inelastic collision (no rebound separation along normal line). (4) $e > 1$: Super-elastic collision (occurs only if stored internal chemical/elastic potential energy is explosively released during impact).",
+  "physical_intuition": "The coefficient $e$ quantifies the fractional elastic recovery of shape along the contact normal during the restitution phase after maximum compression.",
+  "scope_and_applicability": "Applies strictly along the line of impact (common normal at point of contact).",
+  "source_provenance": "HCV1 Ch 9 pp. 167-168; HRW Ch 9 pp. 244-245; UP Ch 8 p. 279",
+  "verification_status": "VERIFIED",
+  "created_at": "2026-10-05T01:30:00Z"
+}

@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-formula-mom-restitution-def",
+  "content_type": "FORMULA",
+  "target_id": "formula-mom-restitution-def",
+  "content_hash": "d0a11b7f3a851b3bed006c7942637eab41134b1034164baa2a3544b460b126c8",
+  "risk_level": "MEDIUM",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Independently verified dimensional homogeneity and limiting cases for Newton's Coefficient of Restitution Definition.",
+  "verifier_id": "content-verifier-mom-formulas",
+  "created_at": "2026-10-05T01:30:00Z"
+}

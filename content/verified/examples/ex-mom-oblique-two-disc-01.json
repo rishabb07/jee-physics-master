@@ -1,0 +1,58 @@
+{
+  "example_id": "ex-mom-oblique-two-disc-01",
+  "chapter_id": "center-of-mass",
+  "problem_statement": "Two identical smooth billiard balls A and B of mass $m$ and radius $R$ lie on a smooth horizontal table. Ball B is initially at rest. Ball A moves with initial velocity $\\vec{u}_1 = u_0 \\hat{i}$ with impact parameter $b = R$ (the distance between their initial parallel velocity line and the center of B). The collision is perfectly elastic ($e = 1$). Find the velocity vectors of both balls after the collision.",
+  "known_parameters": {
+    "m_A": "m",
+    "m_B": "m",
+    "u_A": "u_0",
+    "u_B": 0.0,
+    "b": "R",
+    "R_ball": "R",
+    "e": 1.0
+  },
+  "target_variable": "vec_v_A, vec_v_B",
+  "solution_strategy": "At the instant of impact, the distance between ball centers is 2R. Determine the angle theta between the line of centers (line of impact) and initial velocity vector. Decompose velocities along the line of impact and the common tangent.",
+  "solution_steps": [
+    {
+      "step_number": 1,
+      "explanation": "Determine geometry of contact. The center-to-center distance is 2R, and the perpendicular offset is b = R.",
+      "equation_latex": "\\sin\\theta = \\frac{b}{2R} = \\frac{R}{2R} = \\frac{1}{2} \\implies \\theta = 30.0^\\circ, \\quad \\cos\\theta = \\frac{\\sqrt{3}}{2}"
+    },
+    {
+      "step_number": 2,
+      "explanation": "Decompose initial velocity of ball A along line of centers (normal n) and perpendicular common tangent (t).",
+      "equation_latex": "u_{1n} = u_0 \\cos 30^\\circ = \\frac{\\sqrt{3}}{2} u_0, \\quad u_{1t} = u_0 \\sin 30^\\circ = \\frac{1}{2} u_0"
+    },
+    {
+      "step_number": 3,
+      "explanation": "Ball B is at rest initially: u_2n = 0, u_2t = 0. Along the smooth common tangent, forces are zero so tangential velocities are unchanged.",
+      "equation_latex": "v_{1t} = u_{1t} = \\frac{1}{2} u_0, \\quad v_{2t} = 0"
+    },
+    {
+      "step_number": 4,
+      "explanation": "Along the line of centers, identical masses collide head-on elastically, completely exchanging normal velocities.",
+      "equation_latex": "v_{1n} = u_{2n} = 0, \\quad v_{2n} = u_{1n} = \\frac{\\sqrt{3}}{2} u_0"
+    },
+    {
+      "step_number": 5,
+      "explanation": "Compute the final speed of each ball.",
+      "equation_latex": "v_A = \\sqrt{v_{1n}^2 + v_{1t}^2} = \\frac{1}{2} u_0, \\quad v_B = \\sqrt{v_{2n}^2 + v_{2t}^2} = \\frac{\\sqrt{3}}{2} u_0"
+    }
+  ],
+  "final_answer": "v_A = \\frac{1}{2} u_0 \\quad (\\text{along tangent}), \\quad v_B = \\frac{\\sqrt{3}}{2} u_0 \\quad (\\text{along line of centers})",
+  "trap_alerts": [
+    "Forgetting that center-to-center distance at impact is 2R, not R",
+    "Assuming normal velocities don't exchange for equal masses"
+  ],
+  "sanity_checks": [
+    "Total final kinetic energy = 1/2 m (u0/2)^2 + 1/2 m (sqrt(3)/2 u0)^2 = 1/2 m u0^2 (1/4 + 3/4) = 1/2 m u0^2 = K_i (exact energy conservation).",
+    "Scattering angle: vec(v)_A is along tangent and vec(v)_B is along normal, which are perpendicular (scattering angle exactly 90 degrees!)."
+  ],
+  "claim_traces": [
+    "HCV1 Ch 9 p. 172 Example 9.14; HRW Ch 9 p. 251"
+  ],
+  "verification_status": "VERIFIED",
+  "verification_record_id": "dual-cvr-ex-mom-oblique-two-disc-01",
+  "created_at": "2026-10-05T01:30:00Z"
+}

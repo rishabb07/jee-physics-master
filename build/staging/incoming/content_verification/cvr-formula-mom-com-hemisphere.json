@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-formula-mom-com-hemisphere",
+  "content_type": "FORMULA",
+  "target_id": "formula-mom-com-hemisphere",
+  "content_hash": "e83a8aa47e6769690e180be5b87d0287ece1f50d96959f1fbb8079dc93f4ca7f",
+  "risk_level": "MEDIUM",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Independently verified dimensional homogeneity and limiting cases for Center of Mass of Solid Uniform Hemisphere.",
+  "verifier_id": "content-verifier-mom-formulas",
+  "created_at": "2026-10-05T01:30:00Z"
+}

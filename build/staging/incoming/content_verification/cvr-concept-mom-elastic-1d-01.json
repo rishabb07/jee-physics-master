@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-concept-mom-elastic-1d-01",
+  "content_type": "CONCEPT",
+  "target_id": "concept-mom-elastic-1d-01",
+  "content_hash": "5962effbb6bde7107602ac7b020bfd8aae3397198839ef78b7d3939f7854c102",
+  "risk_level": "MEDIUM",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Independently verified physical grounding for One-Dimensional Head-On Elastic Collisions against audited sources.",
+  "verifier_id": "content-verifier-mom-concepts",
+  "created_at": "2026-10-05T01:30:00Z"
+}

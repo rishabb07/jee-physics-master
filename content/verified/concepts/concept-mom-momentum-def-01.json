@@ -1,0 +1,12 @@
+{
+  "concept_id": "concept-mom-momentum-def-01",
+  "chapter_id": "center-of-mass",
+  "topic_id": "linear-momentum-and-impulse",
+  "title": "System Linear Momentum and Reference Frames",
+  "explanation": "The linear momentum of a single particle of mass $m$ moving with velocity $\\vec{v}$ is defined as the vector quantity $\\vec{p} = m \\vec{v}$. For an extended system of $N$ particles, the total linear momentum is the vector sum of individual momenta: $$\\vec{P} = \\sum_{i=1}^N \\vec{p}_i = \\sum_{i=1}^N m_i \\vec{v}_i = M \\vec{V}_{\\text{cm}}$$ In the center of mass reference frame (zero-momentum frame or CM frame), the center of mass velocity is identically zero ($\\vec{V}_{\\text{cm}}' = \\vec{0}$), and therefore the total linear momentum in the CM frame vanishes identically: $$\\vec{P}_{\\text{cm}} = \\sum m_i \\vec{v}_i' = \\vec{0}$$ This property makes the center of mass frame the most mathematically symmetrical frame for analyzing collisions and multi-body interactions.",
+  "physical_intuition": "Viewing an interaction from the CM frame removes the overall translational motion, reducing complex multi-body trajectories to pure relative internal motion.",
+  "scope_and_applicability": "Valid across all classical non-relativistic mechanics.",
+  "source_provenance": "HCV1 Ch 9 p. 157; HRW Ch 9 pp. 234-236; UP Ch 8 p. 267",
+  "verification_status": "VERIFIED",
+  "created_at": "2026-10-05T01:30:00Z"
+}

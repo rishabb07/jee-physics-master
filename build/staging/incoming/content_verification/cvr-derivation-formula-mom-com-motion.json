@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-derivation-formula-mom-com-motion",
+  "content_type": "DERIVATION",
+  "target_id": "derivation-formula-mom-com-motion",
+  "content_hash": "2b9dd765f40ac0aaf52a71eb14fe69507b67d8b58e33f659faf4d409143e707c",
+  "risk_level": "HIGH",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Rigorous first-principles derivation audit for Proof that Internal Forces Cancel yielding M A_cm = F_net,ext. Step-by-step logic, intermediate algebra, and limiting cases verified.",
+  "verifier_id": "content-verifier-mom-derivations",
+  "created_at": "2026-10-05T01:30:00Z"
+}

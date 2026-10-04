@@ -1,0 +1,49 @@
+{
+  "example_id": "ex-mom-ball-wall-impulse-01",
+  "chapter_id": "center-of-mass",
+  "problem_statement": "A rubber ball of mass $m = 0.25\\text{ kg}$ moving at speed $u = 20.0\\text{ m/s}$ strikes a rigid vertical wall at an angle of incidence $\\theta = 30.0^\\circ$ to the normal. It rebounds elastically with the same speed and angle. The contact duration is $\\Delta t = 0.010\\text{ s}$. Find the average force exerted by the wall on the ball.",
+  "known_parameters": {
+    "m": 0.25,
+    "u": 20.0,
+    "theta": 30.0,
+    "Delta_t": 0.01
+  },
+  "target_variable": "F_avg",
+  "solution_strategy": "Resolve velocity vectors into normal (x) and tangential (y) components. Use the Impulse-Momentum Theorem along each axis to calculate impulse and average force.",
+  "solution_steps": [
+    {
+      "step_number": 1,
+      "explanation": "Write initial velocity vector taking x-axis pointing away from wall.",
+      "equation_latex": "\\vec{u} = -u \\cos\\theta \\hat{i} + u \\sin\\theta \\hat{j} = -(20.0 \\cos 30^\\circ) \\hat{i} + (20.0 \\sin 30^\\circ) \\hat{j} = -10\\sqrt{3} \\hat{i} + 10 \\hat{j}\\text{ m/s}"
+    },
+    {
+      "step_number": 2,
+      "explanation": "Write final rebound velocity vector after specular elastic reflection.",
+      "equation_latex": "\\vec{v} = +u \\cos\\theta \\hat{i} + u \\sin\\theta \\hat{j} = +10\\sqrt{3} \\hat{i} + 10 \\hat{j}\\text{ m/s}"
+    },
+    {
+      "step_number": 3,
+      "explanation": "Compute the vector change in linear momentum Delta p.",
+      "equation_latex": "\\Delta\\vec{p} = m(\\vec{v} - \\vec{u}) = m(2 u \\cos\\theta \\hat{i}) = (0.25)(2 \\times 20.0 \\times \\cos 30^\\circ) \\hat{i} = (0.25)(40.0 \\times 0.866) \\hat{i} = 8.66 \\hat{i}\\text{ N s}"
+    },
+    {
+      "step_number": 4,
+      "explanation": "Calculate average normal force exerted during contact duration Delta t.",
+      "equation_latex": "\\vec{F}_{\\text{avg}} = \\frac{\\Delta\\vec{p}}{\\Delta t} = \\frac{8.66 \\hat{i}}{0.010} = 866 \\hat{i}\\text{ N}"
+    }
+  ],
+  "final_answer": "F_{\\text{avg}} = 866\\text{ N} \\quad (\\text{normal to the wall})",
+  "trap_alerts": [
+    "Using speed difference u - v = 0 instead of vector change 2 u cos(theta)",
+    "Using sin(theta) instead of cos(theta) when angle is defined with respect to the normal"
+  ],
+  "sanity_checks": [
+    "Tangential force is identically zero since wall is smooth and tangential velocity is unchanged.",
+    "Impulse magnitude 8.66 N s produces sensible force 866 N over 10 ms impact."
+  ],
+  "claim_traces": [
+    "HCV1 Ch 9 p. 160 Example 9.8; HRW Ch 9 p. 240"
+  ],
+  "verification_status": "VERIFIED",
+  "created_at": "2026-10-05T01:30:00Z"
+}

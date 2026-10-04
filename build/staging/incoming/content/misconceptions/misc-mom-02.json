@@ -1,0 +1,15 @@
+{
+  "misconception_id": "misc-mom-02",
+  "chapter_id": "center-of-mass",
+  "category": "WRONG_CONSERVATION_LAW",
+  "statement": "Linear momentum is conserved only if mechanical kinetic energy is also conserved.",
+  "erroneous_reasoning": "Students conflate the conservation of momentum with the conservation of mechanical energy, assuming that any loss of kinetic energy invalidates momentum conservation.",
+  "correct_physics_explanation": "Conservation of linear momentum depends SOLELY on the condition that net external force is zero (F_net,ext = 0). It does not depend on whether the collision is elastic or inelastic! In completely inelastic collisions, explosions, or sticky impacts, kinetic energy is drastically altered, but linear momentum is 100% conserved.",
+  "refutation_counterexample": "A bullet embedding into a wooden block at rest loses over 99% of its kinetic energy to thermal dissipation and wood deformation, yet total horizontal linear momentum before and after impact is exactly identical.",
+  "diagnostic_check_latex": "\\Delta\\vec{P} = \\int \\vec{F}_{\\text{ext}} \\, dt = \\vec{0} \\quad \\text{holds even when } \\Delta K \\neq 0.",
+  "claim_traces": [
+    "HCV1 Ch 9 p. 164; UP Ch 8 p. 275"
+  ],
+  "verification_status": "VERIFIED",
+  "created_at": "2026-10-05T01:30:00Z"
+}

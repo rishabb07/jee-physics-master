@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-ex-mom-disc-cavity-01",
+  "content_type": "EXAMPLE",
+  "target_id": "ex-mom-disc-cavity-01",
+  "content_hash": "0da37499c90271aeb3c7bdde30d31d56339905eec6160ec00e6f145fdb55df88",
+  "risk_level": "HIGH",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Independently verified physical calculations, boundary checks, and intermediate steps for ex-mom-disc-cavity-01.",
+  "verifier_id": "content-verifier-mom-examples",
+  "created_at": "2026-10-05T01:30:00Z"
+}

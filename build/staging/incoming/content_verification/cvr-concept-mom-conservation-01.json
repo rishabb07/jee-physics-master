@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-concept-mom-conservation-01",
+  "content_type": "CONCEPT",
+  "target_id": "concept-mom-conservation-01",
+  "content_hash": "816bc8a761aa9c793b0f680d716419eff2189e951f78a39bf3dd82b5c40864e7",
+  "risk_level": "MEDIUM",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Independently verified physical grounding for Conservation of Linear Momentum in Isolated Systems against audited sources.",
+  "verifier_id": "content-verifier-mom-concepts",
+  "created_at": "2026-10-05T01:30:00Z"
+}

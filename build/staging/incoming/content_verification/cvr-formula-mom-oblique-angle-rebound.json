@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-formula-mom-oblique-angle-rebound",
+  "content_type": "FORMULA",
+  "target_id": "formula-mom-oblique-angle-rebound",
+  "content_hash": "0407d3cd6d9be5412ff50db593a4537912e800e5d476875d51b51b575a0e904b",
+  "risk_level": "MEDIUM",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Independently verified dimensional homogeneity and limiting cases for Oblique Collision Rebound Angle and Velocity Relations.",
+  "verifier_id": "content-verifier-mom-formulas",
+  "created_at": "2026-10-05T01:30:00Z"
+}

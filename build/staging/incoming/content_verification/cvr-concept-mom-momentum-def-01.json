@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-concept-mom-momentum-def-01",
+  "content_type": "CONCEPT",
+  "target_id": "concept-mom-momentum-def-01",
+  "content_hash": "996582a13a59c17f9e17c943d3a2e4f60104e8cc7906dfba89c0cbd4b4691cb9",
+  "risk_level": "MEDIUM",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Independently verified physical grounding for System Linear Momentum and Reference Frames against audited sources.",
+  "verifier_id": "content-verifier-mom-concepts",
+  "created_at": "2026-10-05T01:30:00Z"
+}

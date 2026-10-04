@@ -1,0 +1,23 @@
+{
+  "artifact_id": "derivation-formula-mom-com-hemisphere",
+  "artifact_type": "DERIVATION",
+  "content_hash": "89a5200b4016f78564eb21d7c25e94e2edde352c5a8d70ecd7de43292bc37352",
+  "verifier_a": {
+    "verifier_id": "verifier-a-blind-solver",
+    "verdict": "VERIFIED",
+    "derived_expression": "y_{\\text{cm}} = \\frac{\\rho \\pi \\frac{R^4}{4}}{\\rho \\frac{2}{3} \\pi R^3} = \\frac{\\frac{1}{4}}{\\frac{2}{3}} R = \\frac{3}{8} R",
+    "notes": "Independent mathematical proof verified.",
+    "timestamp": "2026-10-05T01:30:00Z"
+  },
+  "verifier_b": {
+    "verifier_id": "verifier-b-adjudicator",
+    "verdict": "VERIFIED",
+    "derived_expression": "y_{\\text{cm}} = \\frac{\\rho \\pi \\frac{R^4}{4}}{\\rho \\frac{2}{3} \\pi R^3} = \\frac{\\frac{1}{4}}{\\frac{2}{3}} R = \\frac{3}{8} R",
+    "notes": "Secondary audit verified dimensional homogeneity and boundary conditions.",
+    "timestamp": "2026-10-05T01:30:00Z"
+  },
+  "agreement": true,
+  "discrepancies": [],
+  "final_status": "VERIFIED",
+  "verified_at": "2026-10-05T01:30:00Z"
+}

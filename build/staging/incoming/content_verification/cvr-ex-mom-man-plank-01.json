@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-ex-mom-man-plank-01",
+  "content_type": "EXAMPLE",
+  "target_id": "ex-mom-man-plank-01",
+  "content_hash": "9fe293d5b690441679b24b8c7d26c2362e1d4ae0268edc65d906bfb2aed26242",
+  "risk_level": "HIGH",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Independently verified physical calculations, boundary checks, and intermediate steps for ex-mom-man-plank-01.",
+  "verifier_id": "content-verifier-mom-examples",
+  "created_at": "2026-10-05T01:30:00Z"
+}

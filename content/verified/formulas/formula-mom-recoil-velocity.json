@@ -1,0 +1,43 @@
+{
+  "formula_id": "formula-mom-recoil-velocity",
+  "chapter_id": "center-of-mass",
+  "topic_id": "linear-momentum-and-impulse",
+  "title": "Recoil Velocity of Gun in 1D Firing",
+  "latex": "\\vec{V}_{\\text{gun}} = -\\frac{m}{M} \\vec{v}_{\\text{bullet}}",
+  "variables": {
+    "\\vec{V}_{\\text{gun}}": "Recoil velocity vector of gun",
+    "M": "Mass of gun",
+    "m": "Mass of bullet",
+    "\\vec{v}_{\\text{bullet}}": "Muzzle velocity vector of bullet relative to ground"
+  },
+  "units": {
+    "\\vec{V}": "m/s",
+    "M": "kg",
+    "m": "kg",
+    "\\vec{v}": "m/s"
+  },
+  "dimensions": {
+    "\\vec{V}": "[L][T]^-1",
+    "\\vec{v}": "[L][T]^-1",
+    "M": "[M]",
+    "m": "[M]"
+  },
+  "assumptions": [
+    "Gun and bullet initially at rest",
+    "Zero horizontal external forces during explosion"
+  ],
+  "validity_conditions": [
+    "Bullet velocity measured in ground inertial frame"
+  ],
+  "related_concepts": [
+    "concept-mom-explosion-recoil-01"
+  ],
+  "common_misuse": [
+    "Using relative muzzle velocity without correcting for gun backward recoil",
+    "Forgetting the minus sign indicating backward recoil"
+  ],
+  "source_provenance": "HCV1 Ch 9 p. 158; UP Ch 8 p. 272",
+  "verification_status": "VERIFIED",
+  "created_at": "2026-10-05T01:30:00Z",
+  "equation_latex": "\\vec{V}_{\\text{gun}} = -\\frac{m}{M} \\vec{v}_{\\text{bullet}}"
+}

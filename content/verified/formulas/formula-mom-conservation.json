@@ -1,0 +1,38 @@
+{
+  "formula_id": "formula-mom-conservation",
+  "chapter_id": "center-of-mass",
+  "topic_id": "linear-momentum-and-impulse",
+  "title": "Principle of Conservation of Linear Momentum",
+  "latex": "\\vec{P}_{\\text{initial}} = \\vec{P}_{\\text{final}} \\quad \\text{when} \\quad \\vec{F}_{\\text{net, ext}} = \\vec{0}",
+  "variables": {
+    "\\vec{P}_{\\text{initial}}": "Total initial linear momentum vector",
+    "\\vec{P}_{\\text{final}}": "Total final linear momentum vector",
+    "\\vec{F}_{\\text{net, ext}}": "Net external force acting on system"
+  },
+  "units": {
+    "\\vec{P}": "kg m/s",
+    "\\vec{F}": "N"
+  },
+  "dimensions": {
+    "\\vec{P}": "[M][L][T]^-1",
+    "\\vec{F}": "[M][L][T]^-2"
+  },
+  "assumptions": [
+    "Isolated system (zero net external force)",
+    "Holds along any coordinate axis where external force component vanishes"
+  ],
+  "validity_conditions": [
+    "Universal physical conservation law in classical mechanics"
+  ],
+  "related_concepts": [
+    "concept-mom-conservation-01"
+  ],
+  "common_misuse": [
+    "Applying momentum conservation when external impulsive forces act",
+    "Applying momentum conservation along an axis experiencing non-zero external force"
+  ],
+  "source_provenance": "HCV1 Ch 9 p. 157 eq. 9.13; HRW Ch 9 p. 236; UP Ch 8 p. 271",
+  "verification_status": "VERIFIED",
+  "created_at": "2026-10-05T01:30:00Z",
+  "equation_latex": "\\vec{P}_{\\text{initial}} = \\vec{P}_{\\text{final}} \\quad \\text{when} \\quad \\vec{F}_{\\text{net, ext}} = \\vec{0}"
+}

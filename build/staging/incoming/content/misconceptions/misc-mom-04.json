@@ -1,0 +1,15 @@
+{
+  "misconception_id": "misc-mom-04",
+  "chapter_id": "center-of-mass",
+  "category": "INVALID_FORMULA_CONDITION",
+  "statement": "The coefficient of restitution applies to velocity magnitudes in any arbitrary coordinate direction.",
+  "erroneous_reasoning": "Students take total speed after collision divided by total speed before collision in 2D problems.",
+  "correct_physics_explanation": "Newton's experimental law of restitution e = v_sep / v_app is defined STRICTLY along the line of impact (the common normal perpendicular to the contact surface at the point of collision). Velocities tangential to the contact interface are completely unaffected by restitution and remain invariant if the surfaces are frictionless.",
+  "refutation_counterexample": "A ball striking a smooth floor at 45 degrees with e = 0.5 only has its vertical normal velocity reduced by factor 0.5. Its horizontal tangential velocity is completely unchanged.",
+  "diagnostic_check_latex": "e = \\frac{v_{2n} - v_{1n}}{u_{1n} - u_{2n}} \\quad \\text{applies strictly along } \\hat{n}, \\text{ while } v_{1t} = u_{1t} \\text{ along } \\hat{t}.",
+  "claim_traces": [
+    "HCV1 Ch 9 p. 167; UP Ch 8 p. 279"
+  ],
+  "verification_status": "VERIFIED",
+  "created_at": "2026-10-05T01:30:00Z"
+}

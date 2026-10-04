@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-formula-mom-com-discrete",
+  "content_type": "FORMULA",
+  "target_id": "formula-mom-com-discrete",
+  "content_hash": "605432c11814f6c5085aae0554a3144eb67159daf27a3a41d8da22de39912e21",
+  "risk_level": "MEDIUM",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Independently verified dimensional homogeneity and limiting cases for Discrete Center of Mass Position Vector.",
+  "verifier_id": "content-verifier-mom-formulas",
+  "created_at": "2026-10-05T01:30:00Z"
+}

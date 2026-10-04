@@ -1,0 +1,40 @@
+{
+  "formula_id": "formula-mom-momentum-vector",
+  "chapter_id": "center-of-mass",
+  "topic_id": "linear-momentum-and-impulse",
+  "title": "System Linear Momentum Vector",
+  "latex": "\\vec{P} = \\sum_{i=1}^N m_i \\vec{v}_i = M \\vec{V}_{\\text{cm}}",
+  "variables": {
+    "\\vec{P}": "Total system linear momentum vector",
+    "M": "Total system mass",
+    "\\vec{V}_{\\text{cm}}": "Velocity of system center of mass"
+  },
+  "units": {
+    "\\vec{P}": "kg m/s",
+    "M": "kg",
+    "\\vec{V}_{\\text{cm}}": "m/s"
+  },
+  "dimensions": {
+    "\\vec{P}": "[M][L][T]^-1",
+    "M": "[M]",
+    "\\vec{V}_{\\text{cm}}": "[L][T]^-1"
+  },
+  "assumptions": [
+    "Classical mechanics",
+    "Summation over all system components"
+  ],
+  "validity_conditions": [
+    "Universal definition of linear momentum for particle systems"
+  ],
+  "related_concepts": [
+    "concept-mom-momentum-def-01"
+  ],
+  "common_misuse": [
+    "Confusing system momentum P with individual particle momentum",
+    "Treating momentum as a scalar magnitude"
+  ],
+  "source_provenance": "HCV1 Ch 9 p. 157; HRW Ch 9 p. 234",
+  "verification_status": "VERIFIED",
+  "created_at": "2026-10-05T01:30:00Z",
+  "equation_latex": "\\vec{P} = \\sum_{i=1}^N m_i \\vec{v}_i = M \\vec{V}_{\\text{cm}}"
+}

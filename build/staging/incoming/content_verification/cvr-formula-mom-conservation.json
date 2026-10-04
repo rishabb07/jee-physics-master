@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-formula-mom-conservation",
+  "content_type": "FORMULA",
+  "target_id": "formula-mom-conservation",
+  "content_hash": "93c63ebc3271f761fcf2661421acdf445db54e305ece42ce7682379323add457",
+  "risk_level": "MEDIUM",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Independently verified dimensional homogeneity and limiting cases for Principle of Conservation of Linear Momentum.",
+  "verifier_id": "content-verifier-mom-formulas",
+  "created_at": "2026-10-05T01:30:00Z"
+}

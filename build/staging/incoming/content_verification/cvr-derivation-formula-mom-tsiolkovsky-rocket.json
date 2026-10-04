@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-derivation-formula-mom-tsiolkovsky-rocket",
+  "content_type": "DERIVATION",
+  "target_id": "derivation-formula-mom-tsiolkovsky-rocket",
+  "content_hash": "3dc053ddd1c6b98e3faf0755971ba7f811ae7f8b15a6aba2c17ac7572943e0e3",
+  "risk_level": "HIGH",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Rigorous first-principles derivation audit for Derivation of Tsiolkovsky Rocket Equation under Gravity. Step-by-step logic, intermediate algebra, and limiting cases verified.",
+  "verifier_id": "content-verifier-mom-derivations",
+  "created_at": "2026-10-05T01:30:00Z"
+}

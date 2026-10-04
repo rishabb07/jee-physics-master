@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-formula-mom-elastic-1d-v2",
+  "content_type": "FORMULA",
+  "target_id": "formula-mom-elastic-1d-v2",
+  "content_hash": "e129d764aa69e3a86351f1261afb2f327f497161d3e757dcee2dc62e1786b3c6",
+  "risk_level": "MEDIUM",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Independently verified dimensional homogeneity and limiting cases for Post-Collision Velocity v2 in 1D Head-on Elastic Collision.",
+  "verifier_id": "content-verifier-mom-formulas",
+  "created_at": "2026-10-05T01:30:00Z"
+}

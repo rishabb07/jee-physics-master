@@ -1,0 +1,62 @@
+{
+  "ladder_id": "ladder-mom-collision-restitution-01",
+  "chapter_id": "center-of-mass",
+  "topic_id": "collisions",
+  "title": "Scaffolding Collisions from Direct Head-On Restitution to Successive Multi-Bounce Wall and Floor Trajectories",
+  "physical_system": "Colliding smooth spherical masses m1 and m2 governed by linear momentum conservation and Newton's coefficient of restitution e",
+  "rungs": [
+    {
+      "level": 1,
+      "level_name": "Direct 1D head-on elastic collision and velocity exchange",
+      "atom_id": "center-of-mass-question-e38050cc",
+      "physical_delta": "Two smooth particles collide elastically (e = 1) along a line without rotation, solving for post-collision speeds",
+      "reasoning_depth": 2,
+      "concepts_involved": [
+        "concept-mom-elastic-1d-01",
+        "concept-mom-conservation-01"
+      ],
+      "mathematical_complexity": "Linear system of equations combining momentum conservation and relative velocity separation condition v2 - v1 = u1 - u2",
+      "transfer_requirement": "Recognizing complete velocity exchange when masses are identical (m1 = m2)"
+    },
+    {
+      "level": 2,
+      "level_name": "Inelastic head-on collision and kinetic energy dissipation",
+      "atom_id": "center-of-mass-question-ba1b4107",
+      "physical_delta": "Head-on collision with coefficient of restitution 0 < e < 1, computing final velocities and fraction of mechanical energy dissipated as heat",
+      "reasoning_depth": 3,
+      "concepts_involved": [
+        "concept-mom-restitution-01",
+        "concept-mom-collision-types-01"
+      ],
+      "mathematical_complexity": "Algebraic calculation of kinetic energy loss Delta K = 1/2 * (m1 m2)/(m1 + m2) * (1 - e^2) * (u1 - u2)^2",
+      "transfer_requirement": "Proving that maximum kinetic energy is dissipated in a perfectly inelastic collision (e = 0)"
+    },
+    {
+      "level": 3,
+      "level_name": "2D oblique inelastic rebound off flat barrier",
+      "atom_id": "prob-irodov-1-145",
+      "physical_delta": "Particle strikes stationary smooth flat floor at incidence angle alpha with restitution e, resolving normal and tangential components",
+      "reasoning_depth": 4,
+      "concepts_involved": [
+        "concept-mom-oblique-collision-01",
+        "concept-mom-restitution-01"
+      ],
+      "mathematical_complexity": "Invariance of tangential velocity component v_t = u_t coupled with normal restitution v_n = e u_n yielding rebound angle tan(beta) = (1/e) tan(alpha)",
+      "transfer_requirement": "Understanding that zero tangential impulse at smooth interface preserves the parallel velocity component"
+    },
+    {
+      "level": 4,
+      "level_name": "Infinite geometric bouncing scaffolding and total cessation time",
+      "atom_id": "prob-irodov-1-148",
+      "physical_delta": "Particle repeatedly rebounds vertically from floor under gravity with coefficient of restitution e, evaluating infinite geometric progressions",
+      "reasoning_depth": 5,
+      "concepts_involved": [
+        "concept-mom-restitution-01",
+        "concept-mom-impulse-def-01"
+      ],
+      "mathematical_complexity": "Summing infinite geometric series for rebound heights h_n = e^(2n) h_0 and flight times t_n = 2 e^n sqrt(2h_0/g) to find total time T_tot = sqrt(2h_0/g) * (1+e)/(1-e) and total distance S_tot = h_0 * (1+e^2)/(1-e^2)",
+      "transfer_requirement": "Synthesizing impulse, restitution decay, and infinite series convergence in classical mechanics"
+    }
+  ],
+  "pedagogical_objective": "Systematically scaffold collision physics from one-dimensional elastic velocity exchange to inelastic energy dissipation, 2D oblique normal/tangential resolution, and cumulative geometric rebound damping."
+}

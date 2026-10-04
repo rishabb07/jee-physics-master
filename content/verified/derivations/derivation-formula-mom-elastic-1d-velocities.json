@@ -1,0 +1,98 @@
+{
+  "derivation_id": "derivation-formula-mom-elastic-1d-velocities",
+  "target_formula_id": "formula-mom-elastic-1d-v1",
+  "chapter_id": "center-of-mass",
+  "title": "Derivation of Final Velocities in 1D Head-on Elastic Collision",
+  "governing_principles": [
+    "Conservation of Linear Momentum: m_1 u_1 + m_2 u_2 = m_1 v_1 + m_2 v_2",
+    "Conservation of Kinetic Energy: \\frac{1}{2} m_1 u_1^2 + \\frac{1}{2} m_2 u_2^2 = \\frac{1}{2} m_1 v_1^2 + \\frac{1}{2} m_2 v_2^2"
+  ],
+  "assumptions": [
+    "One-dimensional motion along straight line",
+    "Perfect elasticity (no energy converted to heat or deformation)",
+    "Zero external impulsive forces"
+  ],
+  "derivation_steps": [
+    {
+      "step_number": 1,
+      "equation": "m_1 (u_1 - v_1) = m_2 (v_2 - u_2)",
+      "description": "Rearrange the linear momentum conservation equation."
+    },
+    {
+      "step_number": 2,
+      "equation": "m_1 (u_1^2 - v_1^2) = m_2 (v_2^2 - u_2^2)",
+      "description": "Rearrange the kinetic energy conservation equation."
+    },
+    {
+      "step_number": 3,
+      "equation": "m_1 (u_1 - v_1)(u_1 + v_1) = m_2 (v_2 - u_2)(v_2 + u_2)",
+      "description": "Factor the difference of squares."
+    },
+    {
+      "step_number": 4,
+      "equation": "u_1 + v_1 = v_2 + u_2 \\implies u_1 - u_2 = v_2 - v_1",
+      "description": "Divide step 3 by step 1 (assuming v1 != u1), proving that relative speed of approach equals relative speed of separation."
+    },
+    {
+      "step_number": 5,
+      "equation": "v_2 = v_1 + u_1 - u_2",
+      "description": "Express v2 in terms of v1."
+    },
+    {
+      "step_number": 6,
+      "equation": "m_1 u_1 + m_2 u_2 = m_1 v_1 + m_2 (v_1 + u_1 - u_2) = (m_1 + m_2) v_1 + m_2 u_1 - m_2 u_2",
+      "description": "Substitute v2 back into the momentum conservation equation."
+    },
+    {
+      "step_number": 7,
+      "equation": "v_1 = \\left(\\frac{m_1 - m_2}{m_1 + m_2}\\right) u_1 + \\left(\\frac{2 m_2}{m_1 + m_2}\\right) u_2",
+      "description": "Solve for v1. By symmetry swapping indices 1 and 2, v2 is obtained."
+    }
+  ],
+  "limiting_cases": [
+    "Equal masses (m1 = m2): v1 = u2 and v2 = u1 (complete velocity exchange).",
+    "Heavy stationary target (m2 >> m1, u2 = 0): v1 = -u1 (particle bounces back with original speed)."
+  ],
+  "dimensional_check": "Both sides possess velocity dimensions [L][T]^-1.",
+  "source_provenance": "HCV1 Ch 9 pp. 165-167; HRW Ch 9 pp. 246-247; UP Ch 8 pp. 279-280",
+  "verification_status": "VERIFIED",
+  "created_at": "2026-10-05T01:30:00Z",
+  "ordered_steps": [
+    {
+      "step_number": 1,
+      "equation": "m_1 (u_1 - v_1) = m_2 (v_2 - u_2)",
+      "description": "Rearrange the linear momentum conservation equation."
+    },
+    {
+      "step_number": 2,
+      "equation": "m_1 (u_1^2 - v_1^2) = m_2 (v_2^2 - u_2^2)",
+      "description": "Rearrange the kinetic energy conservation equation."
+    },
+    {
+      "step_number": 3,
+      "equation": "m_1 (u_1 - v_1)(u_1 + v_1) = m_2 (v_2 - u_2)(v_2 + u_2)",
+      "description": "Factor the difference of squares."
+    },
+    {
+      "step_number": 4,
+      "equation": "u_1 + v_1 = v_2 + u_2 \\implies u_1 - u_2 = v_2 - v_1",
+      "description": "Divide step 3 by step 1 (assuming v1 != u1), proving that relative speed of approach equals relative speed of separation."
+    },
+    {
+      "step_number": 5,
+      "equation": "v_2 = v_1 + u_1 - u_2",
+      "description": "Express v2 in terms of v1."
+    },
+    {
+      "step_number": 6,
+      "equation": "m_1 u_1 + m_2 u_2 = m_1 v_1 + m_2 (v_1 + u_1 - u_2) = (m_1 + m_2) v_1 + m_2 u_1 - m_2 u_2",
+      "description": "Substitute v2 back into the momentum conservation equation."
+    },
+    {
+      "step_number": 7,
+      "equation": "v_1 = \\left(\\frac{m_1 - m_2}{m_1 + m_2}\\right) u_1 + \\left(\\frac{2 m_2}{m_1 + m_2}\\right) u_2",
+      "description": "Solve for v1. By symmetry swapping indices 1 and 2, v2 is obtained."
+    }
+  ],
+  "target_equation": "v_1 = \\left(\\frac{m_1 - m_2}{m_1 + m_2}\\right) u_1 + \\left(\\frac{2 m_2}{m_1 + m_2}\\right) u_2"
+}

@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-formula-mom-rocket-tsiolkovsky",
+  "content_type": "FORMULA",
+  "target_id": "formula-mom-rocket-tsiolkovsky",
+  "content_hash": "bf2e8cb48527aecc02be8ec51268d41e858789de4b9bf70d55567a5e264a8daa",
+  "risk_level": "MEDIUM",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Independently verified dimensional homogeneity and limiting cases for Tsiolkovsky Rocket Equation under Gravity.",
+  "verifier_id": "content-verifier-mom-formulas",
+  "created_at": "2026-10-05T01:30:00Z"
+}

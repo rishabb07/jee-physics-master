@@ -1,0 +1,49 @@
+{
+  "example_id": "ex-mom-man-plank-01",
+  "chapter_id": "center-of-mass",
+  "problem_statement": "A man of mass $m = 60\\text{ kg}$ stands at one end of a uniform wooden plank of mass $M = 140\\text{ kg}$ and length $L = 4.0\\text{ m}$ resting on a frictionless horizontal frozen lake. The man walks from one end of the plank to the other end. Find the displacement of the plank relative to the frozen lake.",
+  "known_parameters": {
+    "m": 60.0,
+    "M": 140.0,
+    "L": 4.0
+  },
+  "target_variable": "Delta_X_plank",
+  "solution_strategy": "Since no external horizontal force acts on the man-plank system (F_ext,x = 0), the horizontal position of the center of mass remains invariant: Delta X_cm = 0.",
+  "solution_steps": [
+    {
+      "step_number": 1,
+      "explanation": "Set up horizontal coordinate axis. Let Delta x_p be the displacement of the plank relative to the ice.",
+      "equation_latex": "\\Delta x_p = -\\Delta X"
+    },
+    {
+      "step_number": 2,
+      "explanation": "Express the displacement of the man relative to the ice in terms of relative displacement L and plank displacement.",
+      "equation_latex": "\\Delta x_m = L + \\Delta x_p = L - \\Delta X"
+    },
+    {
+      "step_number": 3,
+      "explanation": "Impose center of mass position invariance: m Delta x_m + M Delta x_p = 0.",
+      "equation_latex": "m (L - \\Delta X) + M (-\\Delta X) = 0 \\implies m L - (m + M) \\Delta X = 0"
+    },
+    {
+      "step_number": 4,
+      "explanation": "Solve for the backward displacement magnitude Delta X.",
+      "equation_latex": "\\Delta X = \\frac{m L}{m + M} = \\frac{(60)(4.0)}{60 + 140} = \\frac{240}{200} = 1.20\\text{ m}"
+    }
+  ],
+  "final_answer": "\\Delta X_{\\text{plank}} = 1.20\\text{ m} \\quad (\\text{in direction opposite to man's walk})",
+  "trap_alerts": [
+    "Assuming the man travels distance L relative to the ground",
+    "Forgetting that the plank also moves, so man ground displacement is L - Delta X = 2.8 m"
+  ],
+  "sanity_checks": [
+    "Displacement ratio: |Delta x_p / Delta x_m| = 1.2 / 2.8 = 3/7 = 60/140 = m/M, exactly satisfying inverse mass ratio.",
+    "If M -> infinity, plank displacement approaches zero as expected."
+  ],
+  "claim_traces": [
+    "HCV1 Ch 9 p. 156 Example 9.6; Irodov Prob 1.180"
+  ],
+  "verification_status": "VERIFIED",
+  "verification_record_id": "dual-cvr-ex-mom-man-plank-01",
+  "created_at": "2026-10-05T01:30:00Z"
+}

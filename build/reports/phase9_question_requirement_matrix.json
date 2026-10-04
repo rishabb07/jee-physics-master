@@ -1,5 +1,5 @@
 {
-  "report_id": "phase9-matrix-report-20261004-193155",
+  "report_id": "phase9-matrix-report-20261004-201757",
   "total_mappings_validated": 10,
   "all_mappings_valid": true,
   "entries": [
@@ -154,5 +154,5 @@
       "notes": "Validated mapping for requirement qreq-opt-02-tir-prism-water -> ray-optics-question-e04c1df3"
     }
   ],
-  "generated_at": "2026-10-04T19:31:55.197108Z"
+  "generated_at": "2026-10-04T20:17:57.765565Z"
 }

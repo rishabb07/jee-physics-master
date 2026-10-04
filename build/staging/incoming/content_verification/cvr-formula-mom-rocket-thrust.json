@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-formula-mom-rocket-thrust",
+  "content_type": "FORMULA",
+  "target_id": "formula-mom-rocket-thrust",
+  "content_hash": "c0a3d262891ba60820aa1f5304ed86163694427c25350380369f9c72d5d2d768",
+  "risk_level": "MEDIUM",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Independently verified dimensional homogeneity and limiting cases for Reactive Thrust Force on Variable Mass System.",
+  "verifier_id": "content-verifier-mom-formulas",
+  "created_at": "2026-10-05T01:30:00Z"
+}

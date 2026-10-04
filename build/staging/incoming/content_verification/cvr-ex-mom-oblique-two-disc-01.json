@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-ex-mom-oblique-two-disc-01",
+  "content_type": "EXAMPLE",
+  "target_id": "ex-mom-oblique-two-disc-01",
+  "content_hash": "90da8b6dcd0f799f6ade907d2d18c945791fd774edb96673eb162e9e93f8fee8",
+  "risk_level": "HIGH",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Independently verified physical calculations, boundary checks, and intermediate steps for ex-mom-oblique-two-disc-01.",
+  "verifier_id": "content-verifier-mom-examples",
+  "created_at": "2026-10-05T01:30:00Z"
+}

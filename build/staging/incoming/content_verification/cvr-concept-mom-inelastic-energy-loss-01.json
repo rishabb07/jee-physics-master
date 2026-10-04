@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-concept-mom-inelastic-energy-loss-01",
+  "content_type": "CONCEPT",
+  "target_id": "concept-mom-inelastic-energy-loss-01",
+  "content_hash": "ee7eb7c3f6a1e30768c1fb48c51305798ad5d69802affdc951223b656dbbd6ea",
+  "risk_level": "MEDIUM",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Independently verified physical grounding for Mechanical Energy Dissipation in Inelastic Collisions against audited sources.",
+  "verifier_id": "content-verifier-mom-concepts",
+  "created_at": "2026-10-05T01:30:00Z"
+}

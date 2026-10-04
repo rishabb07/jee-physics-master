@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-concept-mom-oblique-collision-01",
+  "content_type": "CONCEPT",
+  "target_id": "concept-mom-oblique-collision-01",
+  "content_hash": "ea281ccb4127111c5000e931c7bffa4093e45f1f22ede7d23e6936cab4a7e07d",
+  "risk_level": "MEDIUM",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Independently verified physical grounding for Two-Dimensional Oblique Collisions and Line of Impact against audited sources.",
+  "verifier_id": "content-verifier-mom-concepts",
+  "created_at": "2026-10-05T01:30:00Z"
+}

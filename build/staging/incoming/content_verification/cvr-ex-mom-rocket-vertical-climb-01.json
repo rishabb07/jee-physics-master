@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-ex-mom-rocket-vertical-climb-01",
+  "content_type": "EXAMPLE",
+  "target_id": "ex-mom-rocket-vertical-climb-01",
+  "content_hash": "21f35f3c34797f9ca41b107d6b5ea1136435870732171f8df60ee3afdc499360",
+  "risk_level": "HIGH",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Independently verified physical calculations, boundary checks, and intermediate steps for ex-mom-rocket-vertical-climb-01.",
+  "verifier_id": "content-verifier-mom-examples",
+  "created_at": "2026-10-05T01:30:00Z"
+}

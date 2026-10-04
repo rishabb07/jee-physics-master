@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-concept-mom-inelastic-ballistic-01",
+  "content_type": "CONCEPT",
+  "target_id": "concept-mom-inelastic-ballistic-01",
+  "content_hash": "95ebdba281e32a57f0e5133bbcdea15073f914b7aed946d2b36f766c1d1fff0f",
+  "risk_level": "MEDIUM",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Independently verified physical grounding for Completely Inelastic Collisions and Ballistic Pendulum against audited sources.",
+  "verifier_id": "content-verifier-mom-concepts",
+  "created_at": "2026-10-05T01:30:00Z"
+}

@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-derivation-formula-mom-com-hemisphere",
+  "content_type": "DERIVATION",
+  "target_id": "derivation-formula-mom-com-hemisphere",
+  "content_hash": "89a5200b4016f78564eb21d7c25e94e2edde352c5a8d70ecd7de43292bc37352",
+  "risk_level": "HIGH",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Rigorous first-principles derivation audit for Derivation of Center of Mass of a Solid Uniform Hemisphere. Step-by-step logic, intermediate algebra, and limiting cases verified.",
+  "verifier_id": "content-verifier-mom-derivations",
+  "created_at": "2026-10-05T01:30:00Z"
+}

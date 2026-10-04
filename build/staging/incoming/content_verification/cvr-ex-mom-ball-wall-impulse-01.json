@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-ex-mom-ball-wall-impulse-01",
+  "content_type": "EXAMPLE",
+  "target_id": "ex-mom-ball-wall-impulse-01",
+  "content_hash": "cbd93ac1eef83ae72b161e60b4f964e8b0fa0b5ae58b2e90263b6fd71fedce33",
+  "risk_level": "HIGH",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Independently verified physical calculations, boundary checks, and intermediate steps for ex-mom-ball-wall-impulse-01.",
+  "verifier_id": "content-verifier-mom-examples",
+  "created_at": "2026-10-05T01:30:00Z"
+}

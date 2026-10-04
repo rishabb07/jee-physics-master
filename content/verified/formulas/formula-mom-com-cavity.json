@@ -1,0 +1,42 @@
+{
+  "formula_id": "formula-mom-com-cavity",
+  "chapter_id": "center-of-mass",
+  "topic_id": "center-of-mass-fundamentals",
+  "title": "Center of Mass of Body with Cavity (Negative Mass Superposition)",
+  "latex": "\\vec{r}_{\\text{rem}} = \\frac{M \\vec{r}_{\\text{orig}} - m_{\\text{cav}} \\vec{r}_{\\text{cav}}}{M - m_{\\text{cav}}}",
+  "variables": {
+    "\\vec{r}_{\\text{rem}}": "Center of mass position vector of remaining body with cavity",
+    "M": "Mass of original complete body without cavity",
+    "\\vec{r}_{\\text{orig}}": "Center of mass position vector of original complete body",
+    "m_{\\text{cav}}": "Mass of removed material filling cavity",
+    "\\vec{r}_{\\text{cav}}": "Center of mass position vector of removed cavity portion"
+  },
+  "units": {
+    "\\vec{r}": "m",
+    "M": "kg",
+    "m_{\\text{cav}}": "kg"
+  },
+  "dimensions": {
+    "\\vec{r}": "[L]",
+    "M": "[M]",
+    "m_{\\text{cav}}": "[M]"
+  },
+  "assumptions": [
+    "Uniform density throughout original body and cavity region",
+    "Well-defined cavity geometry"
+  ],
+  "validity_conditions": [
+    "Applicable to planar laminas, 3D solids, and regular geometries"
+  ],
+  "related_concepts": [
+    "concept-mom-cavity-shift-01"
+  ],
+  "common_misuse": [
+    "Adding cavity mass in denominator instead of subtracting",
+    "Using area instead of mass when thickness varies"
+  ],
+  "source_provenance": "HCV1 Ch 9 pp. 155-156 Example 9.4",
+  "verification_status": "VERIFIED",
+  "created_at": "2026-10-05T01:30:00Z",
+  "equation_latex": "\\vec{r}_{\\text{rem}} = \\frac{M \\vec{r}_{\\text{orig}} - m_{\\text{cav}} \\vec{r}_{\\text{cav}}}{M - m_{\\text{cav}}}"
+}

@@ -1,0 +1,89 @@
+{
+  "derivation_id": "derivation-formula-mom-identical-oblique-90deg",
+  "target_formula_id": "formula-mom-oblique-angle-rebound",
+  "chapter_id": "center-of-mass",
+  "title": "Proof of 90 Degree Scattering Angle for Identical Elastic Spheres",
+  "governing_principles": [
+    "Conservation of Linear Momentum in vector form: m \\vec{u}_1 = m \\vec{v}_1 + m \\vec{v}_2",
+    "Conservation of Kinetic Energy in scalar dot product form: \\frac{1}{2} m u_1^2 = \\frac{1}{2} m v_1^2 + \\frac{1}{2} m v_2^2"
+  ],
+  "assumptions": [
+    "Identical smooth spheres of equal mass m1 = m2 = m",
+    "Target sphere initially stationary (u2 = 0)",
+    "Perfect elasticity (e = 1)",
+    "Non-head-on collision (glancing oblique impact so v1 != 0 and v2 != 0)"
+  ],
+  "derivation_steps": [
+    {
+      "step_number": 1,
+      "equation": "\\vec{u}_1 = \\vec{v}_1 + \\vec{v}_2",
+      "description": "Divide vector momentum conservation by common mass m."
+    },
+    {
+      "step_number": 2,
+      "equation": "u_1^2 = \\vec{u}_1 \\cdot \\vec{u}_1 = (\\vec{v}_1 + \\vec{v}_2) \\cdot (\\vec{v}_1 + \\vec{v}_2) = v_1^2 + v_2^2 + 2 (\\vec{v}_1 \\cdot \\vec{v}_2)",
+      "description": "Take the dot product of vector momentum with itself."
+    },
+    {
+      "step_number": 3,
+      "equation": "u_1^2 = v_1^2 + v_2^2",
+      "description": "Divide kinetic energy conservation by 1/2 m."
+    },
+    {
+      "step_number": 4,
+      "equation": "v_1^2 + v_2^2 = v_1^2 + v_2^2 + 2 (\\vec{v}_1 \\cdot \\vec{v}_2) \\implies 2 (\\vec{v}_1 \\cdot \\vec{v}_2) = 0",
+      "description": "Equate the expressions for u1^2 from momentum and kinetic energy."
+    },
+    {
+      "step_number": 5,
+      "equation": "\\vec{v}_1 \\cdot \\vec{v}_2 = 0 \\implies v_1 v_2 \\cos(\\theta) = 0",
+      "description": "For non-zero post-collision speeds (glancing collision), cos(theta) = 0."
+    },
+    {
+      "step_number": 6,
+      "equation": "\\theta = 90^\\circ = \\frac{\\pi}{2}",
+      "description": "The angle between the two final velocity vectors is strictly 90 degrees."
+    }
+  ],
+  "limiting_cases": [
+    "Head-on collision: v1 = 0, v2 = u1, so angle between vectors is undefined (one vector vanishes).",
+    "Glancing collision: trajectory divergence is always orthogonal."
+  ],
+  "dimensional_check": "Vector dot product v1 . v2 has dimensions [L]^2[T]^-2.",
+  "source_provenance": "HCV1 Ch 9 p. 172; HRW Ch 9 p. 251; Irodov Prob 1.148",
+  "verification_status": "VERIFIED",
+  "created_at": "2026-10-05T01:30:00Z",
+  "ordered_steps": [
+    {
+      "step_number": 1,
+      "equation": "\\vec{u}_1 = \\vec{v}_1 + \\vec{v}_2",
+      "description": "Divide vector momentum conservation by common mass m."
+    },
+    {
+      "step_number": 2,
+      "equation": "u_1^2 = \\vec{u}_1 \\cdot \\vec{u}_1 = (\\vec{v}_1 + \\vec{v}_2) \\cdot (\\vec{v}_1 + \\vec{v}_2) = v_1^2 + v_2^2 + 2 (\\vec{v}_1 \\cdot \\vec{v}_2)",
+      "description": "Take the dot product of vector momentum with itself."
+    },
+    {
+      "step_number": 3,
+      "equation": "u_1^2 = v_1^2 + v_2^2",
+      "description": "Divide kinetic energy conservation by 1/2 m."
+    },
+    {
+      "step_number": 4,
+      "equation": "v_1^2 + v_2^2 = v_1^2 + v_2^2 + 2 (\\vec{v}_1 \\cdot \\vec{v}_2) \\implies 2 (\\vec{v}_1 \\cdot \\vec{v}_2) = 0",
+      "description": "Equate the expressions for u1^2 from momentum and kinetic energy."
+    },
+    {
+      "step_number": 5,
+      "equation": "\\vec{v}_1 \\cdot \\vec{v}_2 = 0 \\implies v_1 v_2 \\cos(\\theta) = 0",
+      "description": "For non-zero post-collision speeds (glancing collision), cos(theta) = 0."
+    },
+    {
+      "step_number": 6,
+      "equation": "\\theta = 90^\\circ = \\frac{\\pi}{2}",
+      "description": "The angle between the two final velocity vectors is strictly 90 degrees."
+    }
+  ],
+  "target_equation": "\\theta = 90^\\circ = \\frac{\\pi}{2}"
+}

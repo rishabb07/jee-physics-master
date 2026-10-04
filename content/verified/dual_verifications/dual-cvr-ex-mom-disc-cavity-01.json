@@ -1,0 +1,23 @@
+{
+  "artifact_id": "ex-mom-disc-cavity-01",
+  "artifact_type": "EXAMPLE",
+  "content_hash": "0da37499c90271aeb3c7bdde30d31d56339905eec6160ec00e6f145fdb55df88",
+  "verifier_a": {
+    "verifier_id": "verifier-a-blind-solver",
+    "verdict": "VERIFIED",
+    "calculated_result": "(x_{\\text{rem}}, y_{\\text{rem}}) = \\left(-\\frac{R}{6}, 0\\right)",
+    "notes": "First-principles solution confirmed.",
+    "timestamp": "2026-10-05T01:30:00Z"
+  },
+  "verifier_b": {
+    "verifier_id": "verifier-b-adjudicator",
+    "verdict": "VERIFIED",
+    "calculated_result": "(x_{\\text{rem}}, y_{\\text{rem}}) = \\left(-\\frac{R}{6}, 0\\right)",
+    "notes": "Secondary audit verified arithmetic and sanity checks.",
+    "timestamp": "2026-10-05T01:30:00Z"
+  },
+  "agreement": true,
+  "discrepancies": [],
+  "final_status": "VERIFIED",
+  "verified_at": "2026-10-05T01:30:00Z"
+}

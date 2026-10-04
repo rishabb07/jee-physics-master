@@ -1,0 +1,12 @@
+{
+  "concept_id": "concept-mom-variable-mass-01",
+  "chapter_id": "center-of-mass",
+  "topic_id": "linear-momentum-and-impulse",
+  "title": "Mechanics of Systems with Varying Mass",
+  "explanation": "For an open mechanical system whose mass changes continuously over time by ejecting or collecting matter (such as a rocket ejecting propellant or a cart collecting rain), Newton's second law cannot be written as $F = ma$ with constant $m$. Applying momentum balance to the system and differential mass element $dm$ over time interval $dt$ yields the fundamental equation of motion for variable mass systems: $$m(t) \\frac{d\\vec{v}}{dt} = \\vec{F}_{\\text{ext}} + \\vec{v}_{\\text{rel}} \\frac{dm}{dt}$$ where $\\vec{v}_{\\text{rel}}$ is the velocity of the ejected/admitted mass relative to the main body, and $\\vec{F}_{\\text{thrust}} = \\vec{v}_{\\text{rel}} \\frac{dm}{dt}$ represents the reactive thrust force. When mass is expelled backward at relative speed $u_{\\text{ex}}$ ($dm/dt < 0$), the thrust force acts forward in the direction of motion.",
+  "physical_intuition": "The rocket accelerates forward by pushing propellant backward, utilizing Newton's third law in differential continuous form.",
+  "scope_and_applicability": "Applies to rocket propulsion, leaking containers, falling chains, and conveyors.",
+  "source_provenance": "HCV1 Ch 9 pp. 161-163; HRW Ch 9 pp. 254-258; UP Ch 8 pp. 289-293",
+  "verification_status": "VERIFIED",
+  "created_at": "2026-10-05T01:30:00Z"
+}

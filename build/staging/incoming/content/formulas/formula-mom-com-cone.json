@@ -1,0 +1,37 @@
+{
+  "formula_id": "formula-mom-com-cone",
+  "chapter_id": "center-of-mass",
+  "topic_id": "center-of-mass-fundamentals",
+  "title": "Center of Mass of Solid Uniform Right Circular Cone",
+  "latex": "y_{\\text{cm}} = \\frac{1}{4} h",
+  "variables": {
+    "y_{\\text{cm}}": "Distance of center of mass from flat base along central height axis",
+    "h": "Total vertical height of cone"
+  },
+  "units": {
+    "y_{\\text{cm}}": "m",
+    "h": "m"
+  },
+  "dimensions": {
+    "y_{\\text{cm}}": "[L]",
+    "h": "[L]"
+  },
+  "assumptions": [
+    "Uniform volumetric density",
+    "Right circular cone geometry"
+  ],
+  "validity_conditions": [
+    "Measured from base along symmetry axis toward vertex"
+  ],
+  "related_concepts": [
+    "concept-mom-com-continuous-01"
+  ],
+  "common_misuse": [
+    "Confusing solid cone (h/4 from base) with hollow cone (h/3 from base)",
+    "Measuring from apex (which is 3h/4) without adjusting"
+  ],
+  "source_provenance": "HCV1 Ch 9 p. 153",
+  "verification_status": "VERIFIED",
+  "created_at": "2026-10-05T01:30:00Z",
+  "equation_latex": "y_{\\text{cm}} = \\frac{1}{4} h"
+}

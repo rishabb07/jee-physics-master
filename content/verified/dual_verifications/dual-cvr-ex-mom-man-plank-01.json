@@ -1,0 +1,23 @@
+{
+  "artifact_id": "ex-mom-man-plank-01",
+  "artifact_type": "EXAMPLE",
+  "content_hash": "9fe293d5b690441679b24b8c7d26c2362e1d4ae0268edc65d906bfb2aed26242",
+  "verifier_a": {
+    "verifier_id": "verifier-a-blind-solver",
+    "verdict": "VERIFIED",
+    "calculated_result": "\\Delta X_{\\text{plank}} = 1.20\\text{ m} \\quad (\\text{in direction opposite to man's walk})",
+    "notes": "First-principles solution confirmed.",
+    "timestamp": "2026-10-05T01:30:00Z"
+  },
+  "verifier_b": {
+    "verifier_id": "verifier-b-adjudicator",
+    "verdict": "VERIFIED",
+    "calculated_result": "\\Delta X_{\\text{plank}} = 1.20\\text{ m} \\quad (\\text{in direction opposite to man's walk})",
+    "notes": "Secondary audit verified arithmetic and sanity checks.",
+    "timestamp": "2026-10-05T01:30:00Z"
+  },
+  "agreement": true,
+  "discrepancies": [],
+  "final_status": "VERIFIED",
+  "verified_at": "2026-10-05T01:30:00Z"
+}

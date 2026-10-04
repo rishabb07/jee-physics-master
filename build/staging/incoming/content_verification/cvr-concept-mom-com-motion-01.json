@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-concept-mom-com-motion-01",
+  "content_type": "CONCEPT",
+  "target_id": "concept-mom-com-motion-01",
+  "content_hash": "9ae9543dc6dbf995a537981f98fd912c95de0900077ef6e5b294935a37f1ae47",
+  "risk_level": "MEDIUM",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Independently verified physical grounding for Motion of Center of Mass and System Newton's Law against audited sources.",
+  "verifier_id": "content-verifier-mom-concepts",
+  "created_at": "2026-10-05T01:30:00Z"
+}

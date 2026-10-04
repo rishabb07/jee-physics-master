@@ -21,6 +21,10 @@ export async function renderChapter(container, chapterId) {
       res = await fetch("data/chapter_work-energy-power.json");
     } else if (!res.ok && chapterId === "work-energy-power") {
       res = await fetch("data/chapter_wep.json");
+    } else if (!res.ok && (chapterId === "momentum-collisions" || chapterId === "com" || chapterId === "com-and-momentum")) {
+      res = await fetch("data/chapter_center-of-mass.json");
+    } else if (!res.ok && chapterId === "center-of-mass") {
+      res = await fetch("data/chapter_momentum-collisions.json");
     }
     if (res.ok) {
       chapter = await res.json();

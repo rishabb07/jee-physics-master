@@ -1,0 +1,50 @@
+{
+  "example_id": "ex-mom-ballistic-pendulum-01",
+  "chapter_id": "center-of-mass",
+  "problem_statement": "A rifle bullet of mass $m = 10.0\\text{ g} = 0.010\\text{ kg}$ is fired horizontally with speed $u$ into a large wooden block of mass $M = 3.99\\text{ kg}$ suspended by light vertical cords as a ballistic pendulum. The bullet comes to rest inside the block in an extremely short time. The block and embedded bullet then swing upward, reaching a maximum vertical height $h = 5.0\\text{ cm} = 0.050\\text{ m}$. Find the initial speed $u$ of the bullet. (Take $g = 9.8\\text{ m/s}^2$).",
+  "known_parameters": {
+    "m": 0.01,
+    "M": 3.99,
+    "h": 0.05,
+    "g": 9.8
+  },
+  "target_variable": "u",
+  "solution_strategy": "Separate the problem into two distinct stages: Stage 1 is an instantaneous, completely inelastic collision conserving linear momentum. Stage 2 is a smooth conservative pendulum swing conserving mechanical energy.",
+  "solution_steps": [
+    {
+      "step_number": 1,
+      "explanation": "Apply horizontal linear momentum conservation during the bullet-block embedding stage.",
+      "equation_latex": "m u = (M + m) V \\implies V = \\frac{m u}{M + m}"
+    },
+    {
+      "step_number": 2,
+      "explanation": "Apply mechanical energy conservation to the pendulum swing from bottom to apex height h.",
+      "equation_latex": "\\frac{1}{2}(M + m) V^2 = (M + m) g h \\implies V = \\sqrt{2 g h}"
+    },
+    {
+      "step_number": 3,
+      "explanation": "Compute the post-collision speed V.",
+      "equation_latex": "V = \\sqrt{2 \\times 9.8 \\times 0.050} = \\sqrt{0.98} = 0.9899\\text{ m/s}"
+    },
+    {
+      "step_number": 4,
+      "explanation": "Solve for initial bullet speed u.",
+      "equation_latex": "u = \\left(\\frac{M + m}{m}\\right) V = \\left(\\frac{3.99 + 0.010}{0.010}\\right)(0.9899) = \\left(\\frac{4.00}{0.010}\\right)(0.9899) = 400 \\times 0.9899 \\approx 396\\text{ m/s}"
+    }
+  ],
+  "final_answer": "u \\approx 396\\text{ m/s}",
+  "trap_alerts": [
+    "Attempting to conserve kinetic energy from the bullet to the swing apex (enormous energy is dissipated as heat during embedding!)",
+    "Omitting the bullet mass m in the composite pendulum mass M + m"
+  ],
+  "sanity_checks": [
+    "Initial kinetic energy of bullet = 1/2 (0.010) (396)^2 = 784 J.",
+    "Kinetic energy of block+bullet = 1/2 (4.00) (0.99)^2 = 1.96 J (over 99.7% of initial energy dissipated into wood deformation and heat)."
+  ],
+  "claim_traces": [
+    "HCV1 Ch 9 p. 170 Example 9.12; HRW Ch 9 p. 243; UP Ch 8 p. 278"
+  ],
+  "verification_status": "VERIFIED",
+  "verification_record_id": "dual-cvr-ex-mom-ballistic-pendulum-01",
+  "created_at": "2026-10-05T01:30:00Z"
+}

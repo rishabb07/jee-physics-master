@@ -1,0 +1,43 @@
+{
+  "formula_id": "formula-mom-com-discrete",
+  "chapter_id": "center-of-mass",
+  "topic_id": "center-of-mass-fundamentals",
+  "title": "Discrete Center of Mass Position Vector",
+  "latex": "\\vec{R}_{\\text{cm}} = \\frac{\\sum_{i=1}^N m_i \\vec{r}_i}{\\sum_{i=1}^N m_i} = \\frac{1}{M} \\sum_{i=1}^N m_i \\vec{r}_i",
+  "variables": {
+    "\\vec{R}_{\\text{cm}}": "Center of mass position vector",
+    "m_i": "Mass of individual particle i",
+    "\\vec{r}_i": "Position vector of individual particle i",
+    "M": "Total system mass"
+  },
+  "units": {
+    "\\vec{R}_{\\text{cm}}": "m",
+    "m_i": "kg",
+    "\\vec{r}_i": "m",
+    "M": "kg"
+  },
+  "dimensions": {
+    "\\vec{R}_{\\text{cm}}": "[L]",
+    "m_i": "[M]",
+    "\\vec{r}_i": "[L]",
+    "M": "[M]"
+  },
+  "assumptions": [
+    "Classical point particles",
+    "Flat Euclidean space"
+  ],
+  "validity_conditions": [
+    "Valid in any coordinate system"
+  ],
+  "related_concepts": [
+    "concept-mom-com-discrete-01"
+  ],
+  "common_misuse": [
+    "Using unweighted arithmetic average instead of mass-weighted average",
+    "Mixing coordinates from different origins"
+  ],
+  "source_provenance": "HCV1 Ch 9 p. 150 eq. 9.1",
+  "verification_status": "VERIFIED",
+  "created_at": "2026-10-05T01:30:00Z",
+  "equation_latex": "\\vec{R}_{\\text{cm}} = \\frac{\\sum_{i=1}^N m_i \\vec{r}_i}{\\sum_{i=1}^N m_i} = \\frac{1}{M} \\sum_{i=1}^N m_i \\vec{r}_i"
+}

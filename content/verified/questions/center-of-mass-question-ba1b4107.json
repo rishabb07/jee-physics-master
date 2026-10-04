@@ -1,0 +1,26 @@
+{
+  "question_id": "center-of-mass-question-ba1b4107",
+  "chapter_id": "center-of-mass",
+  "topic_id": "collisions",
+  "subtopic_id": "coefficient-of-restitution",
+  "question_type": "SINGLE_CORRECT_MCQ",
+  "problem_statement": "A smooth sphere of mass $m_1$ moving with initial speed $u$ collides head-on with a stationary smooth sphere of mass $m_2$. If the coefficient of restitution between the spheres is $e$, the fraction of the initial kinetic energy lost during the collision, $\\frac{\\Delta K}{K_i}$, is:",
+  "options": {
+    "A": "$\\frac{m_2}{m_1 + m_2}(1 - e^2)$",
+    "B": "$\\frac{m_1}{m_1 + m_2}(1 - e^2)$",
+    "C": "$\\frac{m_1 m_2}{(m_1 + m_2)^2}(1 - e)$",
+    "D": "$\\frac{m_2}{m_1 + m_2}(1 - e)$"
+  },
+  "correct_answer": "A",
+  "distractor_rationales": {
+    "B": "Inverts the mass ratio, erroneously placing $m_1$ in the numerator.",
+    "C": "Uses the reduced mass fraction squared and omits the quadratic dependence on $e$.",
+    "D": "Uses linear restitution $(1 - e)$ instead of the quadratic energy dependence $(1 - e^2)$."
+  },
+  "explanation": "Initial kinetic energy is $K_i = \\frac{1}{2} m_1 u^2$. The general formula for kinetic energy loss in a 1D collision with restitution $e$ is: $$\\Delta K = \\frac{1}{2} \\left(\\frac{m_1 m_2}{m_1 + m_2}\\right) (1 - e^2) u^2$$ Dividing $\\Delta K$ by $K_i = \\frac{1}{2} m_1 u^2$ gives: $$\\frac{\\Delta K}{K_i} = \\frac{\\frac{1}{2}\\frac{m_1 m_2}{m_1 + m_2}(1 - e^2)u^2}{\\frac{1}{2} m_1 u^2} = \\frac{m_2}{m_1 + m_2}(1 - e^2)$$ For an elastic collision ($e=1$), fractional loss is 0. For a perfectly inelastic collision ($e=0$), the fraction lost is $\\frac{m_2}{m_1+m_2}$.",
+  "difficulty_rating": 3,
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-q-mom-02",
+  "created_at": "2026-10-05T01:30:00Z",
+  "content_hash": "caffda2789719c1abff17de9ad6e24ce4c9d70f5e2a85462db66a0fce1d10a4e"
+}

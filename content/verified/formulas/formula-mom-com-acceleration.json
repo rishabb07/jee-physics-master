@@ -1,0 +1,41 @@
+{
+  "formula_id": "formula-mom-com-acceleration",
+  "chapter_id": "center-of-mass",
+  "topic_id": "center-of-mass-fundamentals",
+  "title": "Newton's Second Law for Center of Mass",
+  "latex": "M \\vec{A}_{\\text{cm}} = \\vec{F}_{\\text{net, ext}}",
+  "variables": {
+    "M": "Total mass of system",
+    "\\vec{A}_{\\text{cm}}": "Acceleration vector of center of mass",
+    "\\vec{F}_{\\text{net, ext}}": "Vector sum of all external forces acting on system"
+  },
+  "units": {
+    "M": "kg",
+    "\\vec{A}_{\\text{cm}}": "m/s^2",
+    "\\vec{F}_{\\text{net, ext}}": "N"
+  },
+  "dimensions": {
+    "\\vec{A}_{\\text{cm}}": "[L][T]^-2",
+    "\\vec{F}": "[M][L][T]^-2",
+    "M": "[M]"
+  },
+  "assumptions": [
+    "Inertial reference frame",
+    "Internal forces obey Newton's Third Law in strong form"
+  ],
+  "validity_conditions": [
+    "Valid for closed systems of arbitrary internal complexity"
+  ],
+  "related_concepts": [
+    "concept-mom-com-motion-01"
+  ],
+  "common_misuse": [
+    "Including internal forces (such as springs or explosion blasts) in F_ext",
+    "Assuming individual particles accelerate at A_cm"
+  ],
+  "source_provenance": "HCV1 Ch 9 p. 154 eq. 9.10; HRW Ch 9 p. 231; UP Ch 8 p. 287",
+  "verification_status": "VERIFIED",
+  "created_at": "2026-10-05T01:30:00Z",
+  "equation_latex": "M \\vec{A}_{\\text{cm}} = \\vec{F}_{\\text{net, ext}}",
+  "derivation_reference": "derivation-formula-mom-com-motion"
+}

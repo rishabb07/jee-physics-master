@@ -1,0 +1,12 @@
+{
+  "concept_id": "concept-mom-com-motion-01",
+  "chapter_id": "center-of-mass",
+  "topic_id": "center-of-mass-fundamentals",
+  "title": "Motion of Center of Mass and System Newton's Law",
+  "explanation": "Differentiating the position vector of the center of mass with respect to time yields the center of mass velocity: $$\\vec{V}_{\\text{cm}} = \\frac{d\\vec{R}_{\\text{cm}}}{dt} = \\frac{\\sum m_i \\vec{v}_i}{M} = \\frac{\\vec{P}_{\\text{total}}}{M}$$ Differentiating once more yields the center of mass acceleration: $$\\vec{A}_{\\text{cm}} = \\frac{d\\vec{V}_{\\text{cm}}}{dt} = \\frac{\\sum m_i \\vec{a}_i}{M} = \\frac{\\sum \\vec{F}_i}{M}$$ By Newton's Third Law, all internal forces exerted between constituent particles occur in equal and opposite collinear action-reaction pairs: $\\sum \\vec{F}_{\\text{internal}} = \\vec{0}$. Consequently, the center of mass of a system of particles moves as if the entire system mass $M$ were concentrated at the center of mass and acted upon solely by the vector resultant of all external forces: $$M \\vec{A}_{\\text{cm}} = \\vec{F}_{\\text{net, ext}}$$",
+  "physical_intuition": "Internal forces, no matter how intense, explosive, or dissipative, cannot alter the translational motion of the center of mass. An exploding firework projectile follows an identical parabolic trajectory before and after explosion until fragments hit the ground.",
+  "scope_and_applicability": "Fundamental governing theorem for multi-particle classical systems.",
+  "source_provenance": "HCV1 Ch 9 pp. 153-155; HRW Ch 9 pp. 230-234; Feynman Vol 1 Ch 19",
+  "verification_status": "VERIFIED",
+  "created_at": "2026-10-05T01:30:00Z"
+}

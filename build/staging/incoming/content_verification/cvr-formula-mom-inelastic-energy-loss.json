@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-formula-mom-inelastic-energy-loss",
+  "content_type": "FORMULA",
+  "target_id": "formula-mom-inelastic-energy-loss",
+  "content_hash": "e4382075cc4827acae81af474926cecb43026d3fdbe760de30b6a9963164ba8d",
+  "risk_level": "MEDIUM",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Independently verified dimensional homogeneity and limiting cases for Kinetic Energy Loss in 1D Inelastic Collision.",
+  "verifier_id": "content-verifier-mom-formulas",
+  "created_at": "2026-10-05T01:30:00Z"
+}

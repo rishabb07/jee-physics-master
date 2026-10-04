@@ -1,0 +1,12 @@
+{
+  "concept_id": "concept-mom-conservation-01",
+  "chapter_id": "center-of-mass",
+  "topic_id": "linear-momentum-and-impulse",
+  "title": "Conservation of Linear Momentum in Isolated Systems",
+  "explanation": "The Principle of Conservation of Linear Momentum states that if the net external force acting on a system of particles vanishes ($\\vec{F}_{\\text{net, ext}} = \\vec{0}$), the total linear momentum of the system remains strictly invariant in time: $$\\frac{d\\vec{P}}{dt} = \\vec{F}_{\\text{net, ext}} = \\vec{0} \\implies \\vec{P}_{\\text{initial}} = \\vec{P}_{\\text{final}} = \\text{constant}$$ This vector conservation law holds independently along each Cartesian axis: if $F_{\\text{ext}, x} = 0$, then $P_x$ is conserved even if external forces act along the $y$ or $z$ axes (e.g. a horizontal collision occurring under vertical gravitational acceleration).",
+  "physical_intuition": "Momentum can neither be created nor destroyed by internal processes within an isolated system; it can only be transferred between interacting bodies.",
+  "scope_and_applicability": "One of the fundamental conservation laws of physics, rooted in the homogeneity of space (Noether's Theorem).",
+  "source_provenance": "HCV1 Ch 9 pp. 157-159; HRW Ch 9 pp. 236-238; Feynman Vol 1 Ch 10",
+  "verification_status": "VERIFIED",
+  "created_at": "2026-10-05T01:30:00Z"
+}

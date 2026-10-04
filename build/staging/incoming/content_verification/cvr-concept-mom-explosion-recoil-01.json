@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-concept-mom-explosion-recoil-01",
+  "content_type": "CONCEPT",
+  "target_id": "concept-mom-explosion-recoil-01",
+  "content_hash": "b15bc45a0db2d6a35c076e13ce0d42c8cec9efa67874872d92ca7931b325034d",
+  "risk_level": "MEDIUM",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Independently verified physical grounding for Explosion, Gun Recoil, and Internal Explosive Energy against audited sources.",
+  "verifier_id": "content-verifier-mom-concepts",
+  "created_at": "2026-10-05T01:30:00Z"
+}

@@ -1,0 +1,12 @@
+{
+  "concept_id": "concept-mom-oblique-collision-01",
+  "chapter_id": "center-of-mass",
+  "topic_id": "collisions",
+  "title": "Two-Dimensional Oblique Collisions and Line of Impact",
+  "explanation": "When bodies collide obliquely in two dimensions, dynamic analysis requires decomposing velocities along two orthogonal axes: (1) The Line of Impact (Common Normal $\\hat{n}$): The normal to the tangent plane at the contact point. Impulsive normal contact forces act strictly along this line, causing momentum transfer governed by Newton's law of restitution: $v_{2n} - v_{1n} = e (u_{1n} - u_{2n})$. (2) The Common Tangent Line ($\\hat{t}$): In the absence of interfacial friction during impact, there is zero tangential impulse ($J_t = 0$). Consequently, tangential momentum and tangential velocity components of each body are individually invariant: $v_{1t} = u_{1t}$ and $v_{2t} = u_{2t}$. For an elastic collision ($e = 1$) between two identical smooth spheres ($m_1 = m_2$) where one sphere is initially at rest ($u_2 = 0$), the post-collision velocity vectors are mutually perpendicular: $\\vec{v}_1 \\cdot \\vec{v}_2 = 0$ (scattering angle is exactly $90^\\circ$).",
+  "physical_intuition": "Frictionless surfaces cannot exert lateral traction; therefore, only the motion perpendicular to the contact interface experiences impulsive modification.",
+  "scope_and_applicability": "Standard operational method for 2D billiard ball collisions, glancing impacts, and barrier rebounds.",
+  "source_provenance": "HCV1 Ch 9 pp. 171-173; HRW Ch 9 pp. 250-254; UP Ch 8 pp. 281-284",
+  "verification_status": "VERIFIED",
+  "created_at": "2026-10-05T01:30:00Z"
+}

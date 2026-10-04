@@ -1,0 +1,44 @@
+{
+  "formula_id": "formula-mom-inelastic-energy-loss",
+  "chapter_id": "center-of-mass",
+  "topic_id": "collisions",
+  "title": "Kinetic Energy Loss in 1D Inelastic Collision",
+  "latex": "\\Delta K = \\frac{1}{2} \\left(\\frac{m_1 m_2}{m_1 + m_2}\\right) (1 - e^2) (u_1 - u_2)^2",
+  "variables": {
+    "\\Delta K": "Loss in mechanical kinetic energy during collision",
+    "m_1, m_2": "Masses of colliding bodies",
+    "e": "Coefficient of restitution",
+    "u_1, u_2": "Initial velocities along line of collision"
+  },
+  "units": {
+    "\\Delta K": "J",
+    "m": "kg",
+    "e": "dimensionless",
+    "u": "m/s"
+  },
+  "dimensions": {
+    "\\Delta K": "[M][L]^2[T]^-2",
+    "m": "[M]",
+    "e": "[1]",
+    "u": "[L][T]^-1"
+  },
+  "assumptions": [
+    "1D collision or head-on impact along common normal",
+    "Zero external work"
+  ],
+  "validity_conditions": [
+    "Valid for all 0 <= e <= 1"
+  ],
+  "related_concepts": [
+    "concept-mom-inelastic-energy-loss-01"
+  ],
+  "common_misuse": [
+    "Using (1 - e) instead of (1 - e^2)",
+    "Omitting the reduced mass factor mu = m1*m2/(m1+m2)"
+  ],
+  "source_provenance": "HCV1 Ch 9 p. 168 eq. 9.25; HRW Ch 9 p. 244",
+  "verification_status": "VERIFIED",
+  "created_at": "2026-10-05T01:30:00Z",
+  "equation_latex": "\\Delta K = \\frac{1}{2} \\left(\\frac{m_1 m_2}{m_1 + m_2}\\right) (1 - e^2) (u_1 - u_2)^2",
+  "derivation_reference": "derivation-formula-mom-inelastic-energy-loss"
+}

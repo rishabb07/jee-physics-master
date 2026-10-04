@@ -40,6 +40,7 @@ PILOT_CHAPTER_IDS = [
     "kinematics",
     "laws-of-motion",
     "work-energy-power",
+    "center-of-mass",
 ]
 
 CHAPTER_BRANCH_MAPPING = {
@@ -262,13 +263,14 @@ class WebDataBuilder:
             for p in sorted(derivations_dir.glob("*.json")):
                 with open(p, "r", encoding="utf-8") as f:
                     d = json.load(f)
+                steps = d.get("ordered_steps") or d.get("derivation_steps") or []
                 deriv = WebDerivationBlock(
                     derivation_id=d.get("derivation_id", p.stem),
-                    title=f"Derivation: {d.get('target_formula_id', p.stem)}",
+                    title=f"Derivation: {d.get('title') or d.get('target_formula_id', p.stem)}",
                     target_formula=d.get("target_equation", d.get("final_equation", "")),
                     assumptions=d.get("assumptions", []),
-                    steps=d.get("ordered_steps", []),
-                    limiting_cases=d.get("applicability_conditions", []),
+                    steps=steps,
+                    limiting_cases=d.get("limiting_cases") or d.get("applicability_conditions", []),
                 )
                 derivations.append(deriv)
         return derivations
@@ -539,7 +541,9 @@ class WebDataBuilder:
                     sec_derivations = []
                     for sf in sec_formulas:
                         if sf.derivation_id and sf.derivation_id in derivations_by_id:
-                            sec_derivations.append(derivations_by_id[sf.derivation_id])
+                            d_item = derivations_by_id[sf.derivation_id]
+                            if d_item not in sec_derivations:
+                                sec_derivations.append(d_item)
 
                     sec_examples = [examples_by_id[eid] for eid in sp.get("worked_example_ids", []) if eid in examples_by_id]
                     sec_misconceptions = [misconceptions_by_id[mid] for mid in sp.get("misconception_ids", []) if mid in misconceptions_by_id]
@@ -604,13 +608,17 @@ class WebDataBuilder:
                 ch_file.write_text(ch_detail.model_dump_json(indent=2), encoding="utf-8")
                 chapters_detail.append(ch_detail)
 
-                # Dual compatibility: if laws-of-motion, also emit chapter_dynamics.json
                 if ch_id == "laws-of-motion":
                     dyn_file = out_dir / "chapter_dynamics.json"
                     dyn_file.write_text(ch_detail.model_dump_json(indent=2), encoding="utf-8")
                 if ch_id == "work-energy-power":
                     wep_file = out_dir / "chapter_wep.json"
                     wep_file.write_text(ch_detail.model_dump_json(indent=2), encoding="utf-8")
+                if ch_id == "center-of-mass":
+                    for alias in ["momentum-collisions", "com-and-momentum", "com"]:
+                        (out_dir / f"chapter_{alias}.json").write_text(ch_detail.model_dump_json(indent=2), encoding="utf-8")
+                    (out_dir / "chapter-momentum-collisions.json").write_text(ch_detail.model_dump_json(indent=2), encoding="utf-8")
+
 
                 # Chapter Summary
                 tot_concepts = sum(len(s.concepts) for s in sections)
@@ -676,6 +684,8 @@ class WebDataBuilder:
         chapter_titles = {ch.chapter_id: ch.title for ch in taxonomy_tree.chapters}
 
         def _resolve_chapter(item_id: str, fallback_ch: str = "") -> Tuple[str, str]:
+            if fallback_ch in {"mom", "momentum", "collisions", "momentum-collisions", "center-of-mass", "com"}:
+                return "center-of-mass", chapter_titles.get("center-of-mass", "Center of Mass and Linear Momentum")
             if fallback_ch in {"wep", "work-energy", "work-energy-power"}:
                 return "work-energy-power", chapter_titles.get("work-energy-power", "Work, Energy and Power")
             if fallback_ch in {"dynamics", "laws-of-motion"}:
@@ -684,6 +694,8 @@ class WebDataBuilder:
                 return fallback_ch, chapter_titles[fallback_ch]
             tokens = item_id.split("-")
             for t in tokens:
+                if t in {"mom", "momentum", "collision", "collisions", "com"}:
+                    return "center-of-mass", chapter_titles.get("center-of-mass", "Center of Mass and Linear Momentum")
                 if t in {"wep", "work", "energy", "power"}:
                     return "work-energy-power", chapter_titles.get("work-energy-power", "Work, Energy and Power")
                 if t in {"kin", "kinematics"}:
@@ -699,6 +711,7 @@ class WebDataBuilder:
                 if t in {"opt", "optics", "ray"}:
                     return "ray-optics", chapter_titles.get("ray-optics", "Ray Optics")
             return fallback_ch or "", chapter_titles.get(fallback_ch, "")
+
 
         # 1. Chapters
         for ch in taxonomy_tree.chapters:

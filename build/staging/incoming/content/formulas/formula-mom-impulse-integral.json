@@ -1,0 +1,39 @@
+{
+  "formula_id": "formula-mom-impulse-integral",
+  "chapter_id": "center-of-mass",
+  "topic_id": "linear-momentum-and-impulse",
+  "title": "Impulse Vector Definite Integral",
+  "latex": "\\vec{J} = \\int_{t_1}^{t_2} \\vec{F}(t) \\, dt",
+  "variables": {
+    "\\vec{J}": "Impulse vector",
+    "\\vec{F}(t)": "Time-dependent force vector",
+    "t_1, t_2": "Initial and final times of force interaction"
+  },
+  "units": {
+    "\\vec{J}": "N s",
+    "\\vec{F}": "N",
+    "t": "s"
+  },
+  "dimensions": {
+    "\\vec{J}": "[M][L][T]^-1",
+    "\\vec{F}": "[M][L][T]^-2",
+    "t": "[T]"
+  },
+  "assumptions": [
+    "Riemann integrable force function over finite time interval"
+  ],
+  "validity_conditions": [
+    "Valid for all forces (constant, piecewise, or continuous impulse)"
+  ],
+  "related_concepts": [
+    "concept-mom-impulse-def-01"
+  ],
+  "common_misuse": [
+    "Multiplying peak force by total time instead of integrating",
+    "Omitting vector direction of force"
+  ],
+  "source_provenance": "HCV1 Ch 9 p. 159; HRW Ch 9 p. 238; UP Ch 8 p. 268",
+  "verification_status": "VERIFIED",
+  "created_at": "2026-10-05T01:30:00Z",
+  "equation_latex": "\\vec{J} = \\int_{t_1}^{t_2} \\vec{F}(t) \\, dt"
+}

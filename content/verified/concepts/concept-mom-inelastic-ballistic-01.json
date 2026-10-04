@@ -1,0 +1,12 @@
+{
+  "concept_id": "concept-mom-inelastic-ballistic-01",
+  "chapter_id": "center-of-mass",
+  "topic_id": "collisions",
+  "title": "Completely Inelastic Collisions and Ballistic Pendulum",
+  "explanation": "In a completely inelastic collision ($e = 0$), the colliding bodies coalesce into a single composite mass $M + m$ moving at the center of mass velocity: $$V = \\frac{m u}{M + m}$$ In a ballistic pendulum, a fast bullet of mass $m$ strikes a heavy wooden pendulum block of mass $M$. The collision is over before the pendulum swings significantly, so momentum is conserved horizontally during impact. After impact, the composite block and embedded bullet swing upward under gravity, converting mechanical kinetic energy into gravitational potential energy: $$\\frac{1}{2}(M + m) V^2 = (M + m) g h \\implies V = \\sqrt{2gh}$$ Equating expressions for $V$ determines the high bullet speed: $$u = \\left(\\frac{M + m}{m}\\right) \\sqrt{2gh}$$",
+  "physical_intuition": "The ballistic pendulum elegantly converts a fast, high-impulse microsecond impact into a slow, macroscopic gravitational rise that can be easily measured.",
+  "scope_and_applicability": "Classic experimental paradigm combining completely inelastic impact with mechanical energy conservation.",
+  "source_provenance": "HCV1 Ch 9 pp. 169-171; HRW Ch 9 pp. 243-244; UP Ch 8 pp. 277-278",
+  "verification_status": "VERIFIED",
+  "created_at": "2026-10-05T01:30:00Z"
+}

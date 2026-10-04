@@ -1,0 +1,15 @@
+{
+  "misconception_id": "misc-mom-06",
+  "chapter_id": "center-of-mass",
+  "category": "SIGN_MISTAKE",
+  "statement": "In oblique collision with a smooth flat wall, the tangential velocity component is reduced or reverses direction.",
+  "erroneous_reasoning": "Students treat the whole velocity vector as rebounding rather than decomposing into normal and tangential components.",
+  "correct_physics_explanation": "For a smooth surface, the contact force acts strictly normal to the surface (N hat(j)). There is zero friction force parallel to the surface (F_tangential = 0). Therefore, the impulse along the tangent is zero: J_t = 0. The tangential momentum and tangential velocity component are strictly conserved: v_t = u_t.",
+  "refutation_counterexample": "A billiard ball hitting a smooth cushion at angle alpha rebounds at angle beta where tan(beta) = tan(alpha)/e. The horizontal velocity along the rail is identical before and after impact.",
+  "diagnostic_check_latex": "J_t = \\int F_t \\, dt = 0 \\implies v_t = u_t.",
+  "claim_traces": [
+    "HCV1 Ch 9 p. 171; HRW Ch 9 p. 250"
+  ],
+  "verification_status": "VERIFIED",
+  "created_at": "2026-10-05T01:30:00Z"
+}

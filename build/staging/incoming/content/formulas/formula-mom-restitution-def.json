@@ -1,0 +1,38 @@
+{
+  "formula_id": "formula-mom-restitution-def",
+  "chapter_id": "center-of-mass",
+  "topic_id": "collisions",
+  "title": "Newton's Coefficient of Restitution Definition",
+  "latex": "e = \\frac{v_2 - v_1}{u_1 - u_2} = \\frac{v_{\\text{sep}}}{v_{\\text{app}}}",
+  "variables": {
+    "e": "Dimensionless coefficient of restitution",
+    "v_1, v_2": "Final velocities along line of impact",
+    "u_1, u_2": "Initial velocities along line of impact"
+  },
+  "units": {
+    "e": "dimensionless",
+    "v, u": "m/s"
+  },
+  "dimensions": {
+    "e": "[1]",
+    "v, u": "[L][T]^-1"
+  },
+  "assumptions": [
+    "Velocities measured strictly along the common normal (line of impact)"
+  ],
+  "validity_conditions": [
+    "0 <= e <= 1 for passive materials"
+  ],
+  "related_concepts": [
+    "concept-mom-restitution-01"
+  ],
+  "common_misuse": [
+    "Applying e to velocity components parallel to contact surface",
+    "Writing (v1 - v2)/(u1 - u2) which yields negative e"
+  ],
+  "source_provenance": "HCV1 Ch 9 p. 167 eq. 9.24; UP Ch 8 p. 279",
+  "verification_status": "VERIFIED",
+  "created_at": "2026-10-05T01:30:00Z",
+  "equation_latex": "e = \\frac{v_2 - v_1}{u_1 - u_2} = \\frac{v_{\\text{sep}}}{v_{\\text{app}}}",
+  "derivation_reference": "derivation-formula-mom-identical-oblique-90deg"
+}

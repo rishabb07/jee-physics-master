@@ -1,0 +1,12 @@
+{
+  "concept_id": "concept-mom-com-discrete-01",
+  "chapter_id": "center-of-mass",
+  "topic_id": "center-of-mass-fundamentals",
+  "title": "Center of Mass of Discrete Particle Systems",
+  "explanation": "The center of mass of a system of particles is the unique spatial point whose position vector represents the mass-weighted average of the position vectors of all constituent particles in the system: $$\\vec{R}_{\\text{cm}} = \\frac{\\sum_{i=1}^N m_i \\vec{r}_i}{\\sum_{i=1}^N m_i} = \\frac{1}{M} \\sum_{i=1}^N m_i \\vec{r}_i$$ where $M = \\sum m_i$ is the total mass. In Cartesian coordinates, the center of mass separates along orthogonal axes into $X_{\\text{cm}} = \\frac{\\sum m_i x_i}{M}$, $Y_{\\text{cm}} = \\frac{\\sum m_i y_i}{M}$, and $Z_{\\text{cm}} = \\frac{\\sum m_i z_i}{M}$. For a two-particle system, the center of mass divides the line segment joining the two masses internally in the inverse ratio of their masses: $r_1 / r_2 = m_2 / m_1$.",
+  "physical_intuition": "The center of mass behaves as if the entire mass of the system were concentrated at that single point for translational dynamics under external forces.",
+  "scope_and_applicability": "Applies to any collection of classical point masses in an arbitrary inertial or non-inertial reference frame.",
+  "source_provenance": "HCV1 Ch 9 p. 150; HRW Ch 9 p. 227; UP Ch 8 p. 284",
+  "verification_status": "VERIFIED",
+  "created_at": "2026-10-05T01:30:00Z"
+}

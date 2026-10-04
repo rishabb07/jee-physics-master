@@ -1,0 +1,12 @@
+{
+  "concept_id": "concept-mom-collision-types-01",
+  "chapter_id": "center-of-mass",
+  "topic_id": "collisions",
+  "title": "Classification of Collisions (Elastic, Inelastic, Perfectly Inelastic)",
+  "explanation": "A collision is an isolated, short-duration interaction between two or more bodies wherein relatively large impulsive forces act between them. Collisions are classified by kinetic energy conservation: (1) Elastic Collision: Total mechanical kinetic energy is conserved before and after the collision ($K_f = K_i$). Deformations are completely reversible. (2) Inelastic Collision: Linear momentum is conserved, but total mechanical kinetic energy is not conserved ($K_f < K_i$). Part of the initial kinetic energy is converted into internal thermal energy, permanent mechanical deformation, or acoustic radiation. (3) Perfectly Inelastic Collision: The maximum possible kinetic energy is lost consistent with momentum conservation; the colliding bodies coalesce and move with a common final velocity ($v_1 = v_2 = V_{\\text{cm}}$).",
+  "physical_intuition": "Linear momentum is conserved in ALL collisions in the absence of external impulsive forces, but kinetic energy is conserved ONLY in purely elastic collisions.",
+  "scope_and_applicability": "Governing classification for all two-body and multi-body impact phenomena.",
+  "source_provenance": "HCV1 Ch 9 pp. 163-165; HRW Ch 9 pp. 242-244; UP Ch 8 pp. 275-276",
+  "verification_status": "VERIFIED",
+  "created_at": "2026-10-05T01:30:00Z"
+}

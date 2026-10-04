@@ -1,0 +1,12 @@
+{
+  "concept_id": "concept-mom-impulse-forces-01",
+  "chapter_id": "center-of-mass",
+  "topic_id": "linear-momentum-and-impulse",
+  "title": "Impulsive vs Non-Impulsive Forces",
+  "explanation": "In high-speed physical impacts occurring over an infinitesimal duration $\\Delta t \\to 0$, forces are classified into two distinct operational categories: (1) Impulsive Forces: Forces of enormous magnitude ($F \\to \\infty$) whose integral $\\int F \\, dt$ remains finite and non-zero as $\\Delta t \\to 0$. Examples include normal collision impact forces, sudden tension jerks in taut strings, and explosion blast forces. (2) Non-Impulsive Forces: Forces of finite magnitude ($F < \\infty$) whose time integral vanishes in the limit $\\Delta t \\to 0$: $\\lim_{\\Delta t \\to 0} \\int F \\, dt = 0$. Examples include gravity ($mg$), normal atmospheric pressure, and spring forces (since spring displacement $\\Delta x$ cannot change discontinuously). During the collision instant, non-impulsive forces may be neglected when applying momentum balance.",
+  "physical_intuition": "During the microsecond collision between a bat and a baseball, the gravitational force $mg$ is completely negligible compared to the thousands of Newtons of normal contact force.",
+  "scope_and_applicability": "Standard operational assumption in impact mechanics and collision theory.",
+  "source_provenance": "HCV1 Ch 9 pp. 160-161; UP Ch 8 p. 270",
+  "verification_status": "VERIFIED",
+  "created_at": "2026-10-05T01:30:00Z"
+}

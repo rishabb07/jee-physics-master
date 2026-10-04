@@ -1,0 +1,41 @@
+{
+  "formula_id": "formula-mom-elastic-1d-v2",
+  "chapter_id": "center-of-mass",
+  "topic_id": "collisions",
+  "title": "Post-Collision Velocity v2 in 1D Head-on Elastic Collision",
+  "latex": "v_2 = \\left(\\frac{2 m_1}{m_1 + m_2}\\right) u_1 + \\left(\\frac{m_2 - m_1}{m_1 + m_2}\\right) u_2",
+  "variables": {
+    "v_2": "Final velocity of mass 2 after elastic collision",
+    "u_1, u_2": "Initial velocities of masses 1 and 2 before collision",
+    "m_1, m_2": "Masses of colliding spheres"
+  },
+  "units": {
+    "v_2": "m/s",
+    "u": "m/s",
+    "m": "kg"
+  },
+  "dimensions": {
+    "v_2": "[L][T]^-1",
+    "u": "[L][T]^-1",
+    "m": "[M]"
+  },
+  "assumptions": [
+    "Head-on 1D motion",
+    "Perfect elasticity (e = 1)",
+    "Zero external impulsive forces"
+  ],
+  "validity_conditions": [
+    "Valid for all classical point spheres colliding head-on elastically"
+  ],
+  "related_concepts": [
+    "concept-mom-elastic-1d-01"
+  ],
+  "common_misuse": [
+    "Using (m1 - m2) instead of (m2 - m1) in the second term",
+    "Ignoring initial velocity u2 when target is moving"
+  ],
+  "source_provenance": "HCV1 Ch 9 p. 166 eq. 9.23; HRW Ch 9 p. 247; UP Ch 8 p. 280",
+  "verification_status": "VERIFIED",
+  "created_at": "2026-10-05T01:30:00Z",
+  "equation_latex": "v_2 = \\left(\\frac{2 m_1}{m_1 + m_2}\\right) u_1 + \\left(\\frac{m_2 - m_1}{m_1 + m_2}\\right) u_2"
+}

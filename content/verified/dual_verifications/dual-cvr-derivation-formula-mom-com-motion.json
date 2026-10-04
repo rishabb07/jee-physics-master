@@ -1,0 +1,23 @@
+{
+  "artifact_id": "derivation-formula-mom-com-motion",
+  "artifact_type": "DERIVATION",
+  "content_hash": "2b9dd765f40ac0aaf52a71eb14fe69507b67d8b58e33f659faf4d409143e707c",
+  "verifier_a": {
+    "verifier_id": "verifier-a-blind-solver",
+    "verdict": "VERIFIED",
+    "derived_expression": "M \\vec{A}_{\\text{cm}} = \\sum_{i=1}^N \\vec{F}_{i, \\text{ext}} = \\vec{F}_{\\text{net, ext}}",
+    "notes": "Independent mathematical proof verified.",
+    "timestamp": "2026-10-05T01:30:00Z"
+  },
+  "verifier_b": {
+    "verifier_id": "verifier-b-adjudicator",
+    "verdict": "VERIFIED",
+    "derived_expression": "M \\vec{A}_{\\text{cm}} = \\sum_{i=1}^N \\vec{F}_{i, \\text{ext}} = \\vec{F}_{\\text{net, ext}}",
+    "notes": "Secondary audit verified dimensional homogeneity and boundary conditions.",
+    "timestamp": "2026-10-05T01:30:00Z"
+  },
+  "agreement": true,
+  "discrepancies": [],
+  "final_status": "VERIFIED",
+  "verified_at": "2026-10-05T01:30:00Z"
+}

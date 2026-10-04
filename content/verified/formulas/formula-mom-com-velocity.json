@@ -1,0 +1,45 @@
+{
+  "formula_id": "formula-mom-com-velocity",
+  "chapter_id": "center-of-mass",
+  "topic_id": "center-of-mass-fundamentals",
+  "title": "Center of Mass Velocity and System Linear Momentum",
+  "latex": "\\vec{V}_{\\text{cm}} = \\frac{\\sum m_i \\vec{v}_i}{M} = \\frac{\\vec{P}}{M}",
+  "variables": {
+    "\\vec{V}_{\\text{cm}}": "Velocity vector of system center of mass",
+    "m_i": "Mass of individual particle i",
+    "\\vec{v}_i": "Velocity vector of individual particle i",
+    "M": "Total system mass",
+    "\\vec{P}": "Total linear momentum of system"
+  },
+  "units": {
+    "\\vec{V}_{\\text{cm}}": "m/s",
+    "\\vec{v}_i": "m/s",
+    "M": "kg",
+    "\\vec{P}": "kg m/s"
+  },
+  "dimensions": {
+    "\\vec{V}_{\\text{cm}}": "[L][T]^-1",
+    "\\vec{P}": "[M][L][T]^-1",
+    "M": "[M]"
+  },
+  "assumptions": [
+    "Non-relativistic mechanics",
+    "Constant mass particles"
+  ],
+  "validity_conditions": [
+    "Valid in any inertial or non-inertial reference frame"
+  ],
+  "related_concepts": [
+    "concept-mom-com-motion-01",
+    "concept-mom-momentum-def-01"
+  ],
+  "common_misuse": [
+    "Treating V_cm as scalar speed rather than vector velocity",
+    "Ignoring vector signs in 1D velocity addition"
+  ],
+  "source_provenance": "HCV1 Ch 9 p. 153 eq. 9.7; HRW Ch 9 p. 231",
+  "verification_status": "VERIFIED",
+  "created_at": "2026-10-05T01:30:00Z",
+  "equation_latex": "\\vec{V}_{\\text{cm}} = \\frac{\\sum m_i \\vec{v}_i}{M} = \\frac{\\vec{P}}{M}",
+  "derivation_reference": "derivation-formula-mom-com-motion"
+}

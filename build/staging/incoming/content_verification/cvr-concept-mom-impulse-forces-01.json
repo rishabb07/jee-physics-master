@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-concept-mom-impulse-forces-01",
+  "content_type": "CONCEPT",
+  "target_id": "concept-mom-impulse-forces-01",
+  "content_hash": "e81c1ef71735f9bd35db091b349bf7b22807cc36099f360911e30332f6772032",
+  "risk_level": "MEDIUM",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Independently verified physical grounding for Impulsive vs Non-Impulsive Forces against audited sources.",
+  "verifier_id": "content-verifier-mom-concepts",
+  "created_at": "2026-10-05T01:30:00Z"
+}

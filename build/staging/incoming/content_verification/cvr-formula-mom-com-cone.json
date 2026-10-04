@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-formula-mom-com-cone",
+  "content_type": "FORMULA",
+  "target_id": "formula-mom-com-cone",
+  "content_hash": "54c5fffa670141073b4f02e67656b57d1e303516e722850d1e26f87b56c179d1",
+  "risk_level": "MEDIUM",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Independently verified dimensional homogeneity and limiting cases for Center of Mass of Solid Uniform Right Circular Cone.",
+  "verifier_id": "content-verifier-mom-formulas",
+  "created_at": "2026-10-05T01:30:00Z"
+}

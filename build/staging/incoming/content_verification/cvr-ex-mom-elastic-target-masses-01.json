@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-ex-mom-elastic-target-masses-01",
+  "content_type": "EXAMPLE",
+  "target_id": "ex-mom-elastic-target-masses-01",
+  "content_hash": "530f6eee11439e60699b3db8fe482bc021f447eb2bc49797c0a78612e6ae6691",
+  "risk_level": "HIGH",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Independently verified physical calculations, boundary checks, and intermediate steps for ex-mom-elastic-target-masses-01.",
+  "verifier_id": "content-verifier-mom-examples",
+  "created_at": "2026-10-05T01:30:00Z"
+}

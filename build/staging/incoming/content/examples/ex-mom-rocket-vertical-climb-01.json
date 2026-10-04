@@ -1,0 +1,56 @@
+{
+  "example_id": "ex-mom-rocket-vertical-climb-01",
+  "chapter_id": "center-of-mass",
+  "problem_statement": "A sounding rocket of initial gross mass $m_0 = 1000\\text{ kg}$ is launched vertically upward from rest. Fuel is consumed at a constant rate of $\\mu = 20.0\\text{ kg/s}$ with a constant relative exhaust speed of $u_{\\text{ex}} = 1500\\text{ m/s}$. The total fuel mass is $800\\text{ kg}$. Taking $g = 9.80\\text{ m/s}^2$ and neglecting air drag, find the rocket velocity at fuel burnout.",
+  "known_parameters": {
+    "m_0": 1000.0,
+    "m_fuel": 800.0,
+    "mu": 20.0,
+    "u_ex": 1500.0,
+    "g": 9.8
+  },
+  "target_variable": "v_burnout",
+  "solution_strategy": "Calculate the burnout time t_b = m_fuel / mu, determine the final structural mass m_b = m_0 - m_fuel, and evaluate the Tsiolkovsky rocket equation.",
+  "solution_steps": [
+    {
+      "step_number": 1,
+      "explanation": "Determine the burnout time t_b and final empty mass m_b.",
+      "equation_latex": "t_b = \\frac{m_{\\text{fuel}}}{\\mu} = \\frac{800}{20.0} = 40.0\\text{ s}, \\quad m_b = m_0 - m_{\\text{fuel}} = 1000 - 800 = 200\\text{ kg}"
+    },
+    {
+      "step_number": 2,
+      "explanation": "Evaluate the mass ratio logarithm.",
+      "equation_latex": "\\frac{m_0}{m_b} = \\frac{1000}{200} = 5.0, \\quad \\ln(5.0) \\approx 1.6094"
+    },
+    {
+      "step_number": 3,
+      "explanation": "Calculate thrust velocity increment: Delta v_thrust = u_ex ln(m0 / mb).",
+      "equation_latex": "\\Delta v_{\\text{thrust}} = (1500)(1.6094) = 2414.1\\text{ m/s}"
+    },
+    {
+      "step_number": 4,
+      "explanation": "Calculate gravitational velocity reduction: Delta v_grav = g t_b.",
+      "equation_latex": "\\Delta v_{\\text{grav}} = (9.80)(40.0) = 392.0\\text{ m/s}"
+    },
+    {
+      "step_number": 5,
+      "explanation": "Compute final vertical velocity at burnout: v_b = v_0 + Delta v_thrust - Delta v_grav.",
+      "equation_latex": "v_b = 0 + 2414.1 - 392.0 = 2022.1\\text{ m/s} \\approx 2022\\text{ m/s}"
+    }
+  ],
+  "final_answer": "v_{\\text{burnout}} \\approx 2022\\text{ m/s} = 2.02\\text{ km/s}",
+  "trap_alerts": [
+    "Omitting the gravity term g * t_b",
+    "Calculating acceleration at t=0 and multiplying by t_b (acceleration increases dramatically as mass decreases!)"
+  ],
+  "sanity_checks": [
+    "Initial acceleration a_0 = (u_ex mu / m_0) - g = (1500 * 20 / 1000) - 9.8 = 30 - 9.8 = 20.2 m/s^2 > 0 (rocket lifts off cleanly).",
+    "Final acceleration a_b = (30000 / 200) - 9.8 = 150 - 9.8 = 140.2 m/s^2."
+  ],
+  "claim_traces": [
+    "HCV1 Ch 9 p. 163; HRW Ch 9 p. 257; Irodov Prob 1.172"
+  ],
+  "verification_status": "VERIFIED",
+  "verification_record_id": "dual-cvr-ex-mom-rocket-vertical-climb-01",
+  "created_at": "2026-10-05T01:30:00Z"
+}

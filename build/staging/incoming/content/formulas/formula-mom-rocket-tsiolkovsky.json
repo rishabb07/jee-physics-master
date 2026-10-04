@@ -1,0 +1,50 @@
+{
+  "formula_id": "formula-mom-rocket-tsiolkovsky",
+  "chapter_id": "center-of-mass",
+  "topic_id": "linear-momentum-and-impulse",
+  "title": "Tsiolkovsky Rocket Equation under Gravity",
+  "latex": "v(t) = v_0 + u_{\\text{ex}} \\ln\\left(\\frac{m_0}{m(t)}\\right) - g t",
+  "variables": {
+    "v(t)": "Rocket instantaneous vertical velocity at time t",
+    "v_0": "Initial launch velocity",
+    "u_{\\text{ex}}": "Constant relative exhaust speed of expelled gas",
+    "m_0": "Initial gross mass of rocket with fuel",
+    "m(t)": "Instantaneous mass of rocket at time t",
+    "g": "Uniform acceleration due to gravity",
+    "t": "Burn time duration"
+  },
+  "units": {
+    "v": "m/s",
+    "u_{\\text{ex}}": "m/s",
+    "m": "kg",
+    "g": "m/s^2",
+    "t": "s"
+  },
+  "dimensions": {
+    "v": "[L][T]^-1",
+    "u_{\\text{ex}}": "[L][T]^-1",
+    "m": "[M]",
+    "g": "[L][T]^-2",
+    "t": "[T]"
+  },
+  "assumptions": [
+    "Constant exhaust speed u_ex relative to rocket",
+    "Constant downward gravitational field g",
+    "Negligible aerodynamic drag"
+  ],
+  "validity_conditions": [
+    "Valid during powered burn phase t <= t_burnout"
+  ],
+  "related_concepts": [
+    "concept-mom-variable-mass-01"
+  ],
+  "common_misuse": [
+    "Using natural logarithm of m/m0 instead of m0/m",
+    "Forgetting the -gt gravity tax term in vertical climb"
+  ],
+  "source_provenance": "HCV1 Ch 9 p. 163 eq. 9.18; HRW Ch 9 p. 256; UP Ch 8 p. 291",
+  "verification_status": "VERIFIED",
+  "created_at": "2026-10-05T01:30:00Z",
+  "equation_latex": "v(t) = v_0 + u_{\\text{ex}} \\ln\\left(\\frac{m_0}{m(t)}\\right) - g t",
+  "derivation_reference": "derivation-formula-mom-tsiolkovsky-rocket"
+}

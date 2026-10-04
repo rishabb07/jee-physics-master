@@ -1,0 +1,12 @@
+{
+  "concept_id": "concept-mom-impulse-def-01",
+  "chapter_id": "center-of-mass",
+  "topic_id": "linear-momentum-and-impulse",
+  "title": "Impulse Vector and Impulse-Momentum Theorem",
+  "explanation": "The impulse of a force $\\vec{F}(t)$ acting over a finite time interval from $t_1$ to $t_2$ is defined as the definite vector integral: $$\\vec{J} = \\int_{t_1}^{t_2} \\vec{F}(t) \\, dt$$ From Newton's Second Law in momentum form $\\vec{F} = \\frac{d\\vec{p}}{dt}$, integrating both sides over the duration of the force yields the Impulse-Momentum Theorem: $$\\vec{J}_{\\text{net}} = \\int_{t_1}^{t_2} \\vec{F}_{\\text{net}} \\, dt = \\vec{p}(t_2) - \\vec{p}(t_1) = \\Delta\\vec{p}$$ Geometrically, the scalar impulse along a single coordinate axis equals the signed area under the corresponding force-time $F(t)$ curve. The average force over the interval is given by $\\vec{F}_{\\text{avg}} = \\frac{\\vec{J}}{\\Delta t}$.",
+  "physical_intuition": "A large momentum change can be accomplished either by a small force acting over a prolonged duration or by a tremendous force acting over an infinitesimal fraction of a second (such as a bat striking a ball).",
+  "scope_and_applicability": "Universal theorem in classical dynamics for both constant and time-varying forces.",
+  "source_provenance": "HCV1 Ch 9 pp. 159-160; HRW Ch 9 pp. 238-240; UP Ch 8 pp. 268-270",
+  "verification_status": "VERIFIED",
+  "created_at": "2026-10-05T01:30:00Z"
+}

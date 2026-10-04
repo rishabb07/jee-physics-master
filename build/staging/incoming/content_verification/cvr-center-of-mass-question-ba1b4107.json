@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-center-of-mass-question-ba1b4107",
+  "content_type": "QUESTION",
+  "target_id": "center-of-mass-question-ba1b4107",
+  "content_hash": "caffda2789719c1abff17de9ad6e24ce4c9d70f5e2a85462db66a0fce1d10a4e",
+  "risk_level": "MEDIUM",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Independently solved from first principles. Answer and distractor rationales verified for center-of-mass-question-ba1b4107.",
+  "verifier_id": "content-verifier-mom-questions",
+  "created_at": "2026-10-05T01:30:00Z"
+}

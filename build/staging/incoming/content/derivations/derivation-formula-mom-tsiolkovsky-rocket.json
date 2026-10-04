@@ -1,0 +1,89 @@
+{
+  "derivation_id": "derivation-formula-mom-tsiolkovsky-rocket",
+  "target_formula_id": "formula-mom-rocket-tsiolkovsky",
+  "chapter_id": "center-of-mass",
+  "title": "Derivation of Tsiolkovsky Rocket Equation under Gravity",
+  "governing_principles": [
+    "Momentum balance of system (rocket + ejected mass dm) in ground inertial frame",
+    "Relative velocity definition \\vec{v}_{\\text{gas}} = \\vec{v} - u_{\\text{ex}} \\hat{j}",
+    "Integration of separable differential equation"
+  ],
+  "assumptions": [
+    "Constant exhaust speed u_ex relative to rocket nozzle",
+    "Uniform downward gravity g",
+    "Negligible atmospheric air resistance"
+  ],
+  "derivation_steps": [
+    {
+      "step_number": 1,
+      "equation": "P(t) = m v",
+      "description": "At time t, the rocket has mass m and vertical upward velocity v, with linear momentum P(t)."
+    },
+    {
+      "step_number": 2,
+      "equation": "P(t + dt) = (m + dm)(v + dv) + (-dm)(v - u_{\\text{ex}})",
+      "description": "At time t + dt, rocket mass is m + dm (where dm < 0), velocity is v + dv, and expelled gas mass -dm travels at v - u_ex."
+    },
+    {
+      "step_number": 3,
+      "equation": "dP = P(t + dt) - P(t) = m dv + u_{\\text{ex}} dm + dm dv \\approx m dv + u_{\\text{ex}} dm",
+      "description": "Subtract P(t) and neglect the second-order differential dm dv."
+    },
+    {
+      "step_number": 4,
+      "equation": "dP = F_{\\text{ext}} dt = -m g \\, dt \\implies m dv + u_{\\text{ex}} dm = -m g \\, dt",
+      "description": "Equate the momentum change to external gravitational impulse dP = -mg dt."
+    },
+    {
+      "step_number": 5,
+      "equation": "dv = -u_{\\text{ex}} \\frac{dm}{m} - g \\, dt",
+      "description": "Divide through by instantaneous rocket mass m to separate variables."
+    },
+    {
+      "step_number": 6,
+      "equation": "\\int_{v_0}^v dv = -u_{\\text{ex}} \\int_{m_0}^m \\frac{dm}{m} - g \\int_0^t dt \\implies v - v_0 = -u_{\\text{ex}} \\ln\\left(\\frac{m}{m_0}\\right) - gt = u_{\\text{ex}} \\ln\\left(\\frac{m_0}{m}\\right) - gt",
+      "description": "Integrate from launch state (v0, m0, t=0) to instantaneous state (v, m, t) to obtain Tsiolkovsky equation."
+    }
+  ],
+  "limiting_cases": [
+    "Zero gravity (g = 0): v = v0 + u_ex ln(m0/m) (ideal deep-space rocket equation).",
+    "Zero mass ejected (m = m0): v = v0 - gt (standard ballistic free fall)."
+  ],
+  "dimensional_check": "u_ex ln(m0/m) has units of speed [L][T]^-1, and gt has units of speed [L][T]^-1.",
+  "source_provenance": "HCV1 Ch 9 pp. 161-163; HRW Ch 9 pp. 254-256; UP Ch 8 pp. 290-291",
+  "verification_status": "VERIFIED",
+  "created_at": "2026-10-05T01:30:00Z",
+  "ordered_steps": [
+    {
+      "step_number": 1,
+      "equation": "P(t) = m v",
+      "description": "At time t, the rocket has mass m and vertical upward velocity v, with linear momentum P(t)."
+    },
+    {
+      "step_number": 2,
+      "equation": "P(t + dt) = (m + dm)(v + dv) + (-dm)(v - u_{\\text{ex}})",
+      "description": "At time t + dt, rocket mass is m + dm (where dm < 0), velocity is v + dv, and expelled gas mass -dm travels at v - u_ex."
+    },
+    {
+      "step_number": 3,
+      "equation": "dP = P(t + dt) - P(t) = m dv + u_{\\text{ex}} dm + dm dv \\approx m dv + u_{\\text{ex}} dm",
+      "description": "Subtract P(t) and neglect the second-order differential dm dv."
+    },
+    {
+      "step_number": 4,
+      "equation": "dP = F_{\\text{ext}} dt = -m g \\, dt \\implies m dv + u_{\\text{ex}} dm = -m g \\, dt",
+      "description": "Equate the momentum change to external gravitational impulse dP = -mg dt."
+    },
+    {
+      "step_number": 5,
+      "equation": "dv = -u_{\\text{ex}} \\frac{dm}{m} - g \\, dt",
+      "description": "Divide through by instantaneous rocket mass m to separate variables."
+    },
+    {
+      "step_number": 6,
+      "equation": "\\int_{v_0}^v dv = -u_{\\text{ex}} \\int_{m_0}^m \\frac{dm}{m} - g \\int_0^t dt \\implies v - v_0 = -u_{\\text{ex}} \\ln\\left(\\frac{m}{m_0}\\right) - gt = u_{\\text{ex}} \\ln\\left(\\frac{m_0}{m}\\right) - gt",
+      "description": "Integrate from launch state (v0, m0, t=0) to instantaneous state (v, m, t) to obtain Tsiolkovsky equation."
+    }
+  ],
+  "target_equation": "\\int_{v_0}^v dv = -u_{\\text{ex}} \\int_{m_0}^m \\frac{dm}{m} - g \\int_0^t dt \\implies v - v_0 = -u_{\\text{ex}} \\ln\\left(\\frac{m}{m_0}\\right) - gt = u_{\\text{ex}} \\ln\\left(\\frac{m_0}{m}\\right) - gt"
+}

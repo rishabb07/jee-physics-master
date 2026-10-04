@@ -1,0 +1,40 @@
+{
+  "formula_id": "formula-mom-rocket-thrust",
+  "chapter_id": "center-of-mass",
+  "topic_id": "linear-momentum-and-impulse",
+  "title": "Reactive Thrust Force on Variable Mass System",
+  "latex": "\\vec{F}_{\\text{thrust}} = \\vec{v}_{\\text{rel}} \\frac{dm}{dt}",
+  "variables": {
+    "\\vec{F}_{\\text{thrust}}": "Reactive thrust force vector exerted on body",
+    "\\vec{v}_{\\text{rel}}": "Velocity of ejected mass relative to body",
+    "\\frac{dm}{dt}": "Time rate of change of body mass (negative for ejection)"
+  },
+  "units": {
+    "\\vec{F}": "N",
+    "\\vec{v}_{\\text{rel}}": "m/s",
+    "\\frac{dm}{dt}": "kg/s"
+  },
+  "dimensions": {
+    "\\vec{F}": "[M][L][T]^-2",
+    "\\vec{v}": "[L][T]^-1",
+    "\\frac{dm}{dt}": "[M][T]^-1"
+  },
+  "assumptions": [
+    "Continuous mass ejection/adcretion",
+    "Exhaust gases do not interact back on body"
+  ],
+  "validity_conditions": [
+    "General reactive propulsion equation for rockets, jets, and conveyors"
+  ],
+  "related_concepts": [
+    "concept-mom-variable-mass-01"
+  ],
+  "common_misuse": [
+    "Treating dm/dt as positive when mass is decreasing",
+    "Using ground exhaust velocity instead of relative exhaust velocity"
+  ],
+  "source_provenance": "HCV1 Ch 9 p. 162 eq. 9.17; HRW Ch 9 p. 256; UP Ch 8 p. 290",
+  "verification_status": "VERIFIED",
+  "created_at": "2026-10-05T01:30:00Z",
+  "equation_latex": "\\vec{F}_{\\text{thrust}} = \\vec{v}_{\\text{rel}} \\frac{dm}{dt}"
+}

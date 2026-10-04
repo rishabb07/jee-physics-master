@@ -1,0 +1,12 @@
+{
+  "concept_id": "concept-mom-com-continuous-01",
+  "chapter_id": "center-of-mass",
+  "topic_id": "center-of-mass-fundamentals",
+  "title": "Continuous Mass Distributions and Standard Geometries",
+  "explanation": "For a continuous rigid body with distributed mass density, the summation over discrete particles transitions to a Riemann volume line or surface integral: $$\\vec{R}_{\\text{cm}} = \\frac{1}{M} \\int_{\\text{body}} \\vec{r} \\, dm$$ where the differential mass element is expressed via linear density ($dm = \\lambda \\, dl$), surface density ($dm = \\sigma \\, dA$), or volume density ($dm = \\rho \\, dV$). Standard centroidal coordinates for uniform bodies include: uniform straight rod ($y = L/2$), semicircular thin wire ring ($y_{\\text{cm}} = 2R/\\pi$), semicircular uniform laminar disc ($y_{\\text{cm}} = 4R/(3\\pi)$), solid uniform hemisphere ($y_{\\text{cm}} = 3R/8$ from base), hollow thin-walled hemisphere ($y_{\\text{cm}} = R/2$), solid right circular cone ($y_{\\text{cm}} = h/4$ from base), and hollow cone ($y_{\\text{cm}} = h/3$).",
+  "physical_intuition": "Symmetry planes, axes, or centers of a uniform body must contain the center of mass. Whenever a body possesses reflection symmetry across a plane, the center of mass lies within that plane.",
+  "scope_and_applicability": "Valid for continuous rigid bodies with piecewise continuous mass densities.",
+  "source_provenance": "HCV1 Ch 9 pp. 151-153; HRW Ch 9 pp. 228-230; UP Ch 8 pp. 285-287",
+  "verification_status": "VERIFIED",
+  "created_at": "2026-10-05T01:30:00Z"
+}

@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-concept-mom-restitution-01",
+  "content_type": "CONCEPT",
+  "target_id": "concept-mom-restitution-01",
+  "content_hash": "479a417caa78158919d00b4764744356e5ef499844f6aabd549e5aff4408dab2",
+  "risk_level": "MEDIUM",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Independently verified physical grounding for Newton's Coefficient of Restitution against audited sources.",
+  "verifier_id": "content-verifier-mom-concepts",
+  "created_at": "2026-10-05T01:30:00Z"
+}

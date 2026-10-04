@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-formula-mom-com-acceleration",
+  "content_type": "FORMULA",
+  "target_id": "formula-mom-com-acceleration",
+  "content_hash": "98bdefcd207314de7b1b2e0c4d66dcfcb866e9b65e20264a34921318feb57e1e",
+  "risk_level": "MEDIUM",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Independently verified dimensional homogeneity and limiting cases for Newton's Second Law for Center of Mass.",
+  "verifier_id": "content-verifier-mom-formulas",
+  "created_at": "2026-10-05T01:30:00Z"
+}

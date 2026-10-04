@@ -1,0 +1,67 @@
+{
+  "derivation_id": "derivation-formula-mom-impulse-momentum",
+  "target_formula_id": "formula-mom-impulse-momentum-thm",
+  "chapter_id": "center-of-mass",
+  "title": "Derivation of the Impulse-Momentum Theorem",
+  "governing_principles": [
+    "Newton's Second Law in momentum form \\vec{F} = \\frac{d\\vec{p}}{dt}",
+    "Fundamental Theorem of Calculus for definite vector integrals"
+  ],
+  "assumptions": [
+    "Continuous or piecewise continuous force over finite time interval [t_1, t_2]",
+    "Inertial reference frame"
+  ],
+  "derivation_steps": [
+    {
+      "step_number": 1,
+      "equation": "\\vec{F}(t) = \\frac{d\\vec{p}}{dt}",
+      "description": "Express Newton's Second Law as the time rate of change of linear momentum."
+    },
+    {
+      "step_number": 2,
+      "equation": "d\\vec{p} = \\vec{F}(t) \\, dt",
+      "description": "Multiply by infinitesimal time increment dt to formulate differential momentum change."
+    },
+    {
+      "step_number": 3,
+      "equation": "\\int_{\\vec{p}_1}^{\\vec{p}_2} d\\vec{p} = \\int_{t_1}^{t_2} \\vec{F}(t) \\, dt",
+      "description": "Integrate both sides between initial state 1 and final state 2."
+    },
+    {
+      "step_number": 4,
+      "equation": "\\vec{p}_2 - \\vec{p}_1 = \\Delta\\vec{p} = \\int_{t_1}^{t_2} \\vec{F}(t) \\, dt = \\vec{J}",
+      "description": "Evaluate the left side to obtain the net momentum change, which equals impulse J."
+    }
+  ],
+  "limiting_cases": [
+    "Constant force F: J = F (t2 - t1) = F Delta t.",
+    "Zero force: J = 0 implies Delta p = 0 (conservation of momentum)."
+  ],
+  "dimensional_check": "Both impulse and momentum change have dimensions [M][L][T]^-1 (N s or kg m/s).",
+  "source_provenance": "HCV1 Ch 9 p. 159; HRW Ch 9 p. 238; UP Ch 8 p. 268",
+  "verification_status": "VERIFIED",
+  "created_at": "2026-10-05T01:30:00Z",
+  "ordered_steps": [
+    {
+      "step_number": 1,
+      "equation": "\\vec{F}(t) = \\frac{d\\vec{p}}{dt}",
+      "description": "Express Newton's Second Law as the time rate of change of linear momentum."
+    },
+    {
+      "step_number": 2,
+      "equation": "d\\vec{p} = \\vec{F}(t) \\, dt",
+      "description": "Multiply by infinitesimal time increment dt to formulate differential momentum change."
+    },
+    {
+      "step_number": 3,
+      "equation": "\\int_{\\vec{p}_1}^{\\vec{p}_2} d\\vec{p} = \\int_{t_1}^{t_2} \\vec{F}(t) \\, dt",
+      "description": "Integrate both sides between initial state 1 and final state 2."
+    },
+    {
+      "step_number": 4,
+      "equation": "\\vec{p}_2 - \\vec{p}_1 = \\Delta\\vec{p} = \\int_{t_1}^{t_2} \\vec{F}(t) \\, dt = \\vec{J}",
+      "description": "Evaluate the left side to obtain the net momentum change, which equals impulse J."
+    }
+  ],
+  "target_equation": "\\vec{p}_2 - \\vec{p}_1 = \\Delta\\vec{p} = \\int_{t_1}^{t_2} \\vec{F}(t) \\, dt = \\vec{J}"
+}

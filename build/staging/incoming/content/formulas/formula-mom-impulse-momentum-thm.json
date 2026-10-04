@@ -1,0 +1,43 @@
+{
+  "formula_id": "formula-mom-impulse-momentum-thm",
+  "chapter_id": "center-of-mass",
+  "topic_id": "linear-momentum-and-impulse",
+  "title": "Impulse-Momentum Theorem",
+  "latex": "\\vec{J}_{\\text{net}} = \\Delta\\vec{p} = \\vec{p}_f - \\vec{p}_i = m \\vec{v}_f - m \\vec{v}_i",
+  "variables": {
+    "\\vec{J}_{\\text{net}}": "Net impulse vector delivered to particle",
+    "\\Delta\\vec{p}": "Change in linear momentum vector",
+    "m": "Mass of particle",
+    "\\vec{v}_i, \\vec{v}_f": "Initial and final velocity vectors"
+  },
+  "units": {
+    "\\vec{J}_{\\text{net}}": "N s",
+    "\\Delta\\vec{p}": "kg m/s",
+    "m": "kg",
+    "\\vec{v}": "m/s"
+  },
+  "dimensions": {
+    "\\vec{J}": "[M][L][T]^-1",
+    "\\Delta\\vec{p}": "[M][L][T]^-1"
+  },
+  "assumptions": [
+    "Inertial reference frame",
+    "Constant particle mass during impulse"
+  ],
+  "validity_conditions": [
+    "Universal theorem relating force time-integral to velocity changes"
+  ],
+  "related_concepts": [
+    "concept-mom-impulse-def-01",
+    "concept-mom-impulse-forces-01"
+  ],
+  "common_misuse": [
+    "Subtracting speeds as scalars instead of taking vector differences",
+    "Ignoring signs in 1D head-on rebounds"
+  ],
+  "source_provenance": "HCV1 Ch 9 p. 159; HRW Ch 9 p. 239; UP Ch 8 p. 269",
+  "verification_status": "VERIFIED",
+  "created_at": "2026-10-05T01:30:00Z",
+  "equation_latex": "\\vec{J}_{\\text{net}} = \\Delta\\vec{p} = \\vec{p}_f - \\vec{p}_i = m \\vec{v}_f - m \\vec{v}_i",
+  "derivation_reference": "derivation-formula-mom-impulse-momentum"
+}

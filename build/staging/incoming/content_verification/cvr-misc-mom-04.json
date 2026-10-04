@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-misc-mom-04",
+  "content_type": "MISCONCEPTION",
+  "target_id": "misc-mom-04",
+  "content_hash": "bfaa7b117864ef45588dd5c6fdf23b2f06850a08b608e249eea374c4f8791155",
+  "risk_level": "MEDIUM",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Independently verified physical refutation and diagnostic check for misc-mom-04.",
+  "verifier_id": "content-verifier-mom-misconceptions",
+  "created_at": "2026-10-05T01:30:00Z"
+}

@@ -1,0 +1,12 @@
+{
+  "concept_id": "concept-mom-inelastic-energy-loss-01",
+  "chapter_id": "center-of-mass",
+  "topic_id": "collisions",
+  "title": "Mechanical Energy Dissipation in Inelastic Collisions",
+  "explanation": "In any one-dimensional collision characterized by coefficient of restitution $e$, the loss in mechanical kinetic energy $\\Delta K = K_i - K_f$ is a universal quadratic function of the initial relative velocity $u_{\\text{rel}} = u_1 - u_2$: $$\\Delta K = \\frac{1}{2} \\left(\\frac{m_1 m_2}{m_1 + m_2}\\right) (1 - e^2) (u_1 - u_2)^2 = \\frac{1}{2} \\mu (1 - e^2) u_{\\text{rel}}^2$$ where $\\mu = \\frac{m_1 m_2}{m_1 + m_2}$ is the reduced mass of the two-body system. This formula proves that: (1) $\\Delta K = 0$ if and only if $e = 1$ (elastic collision). (2) $\\Delta K > 0$ for all $0 \\le e < 1$. (3) The dissipation attains its global maximum when $e = 0$ (perfectly inelastic collision), where $\\Delta K_{\\text{max}} = \\frac{1}{2} \\mu u_{\\text{rel}}^2$, exactly equal to the total kinetic energy measured in the center of mass frame.",
+  "physical_intuition": "In the center of mass frame, the kinetic energy of center of mass motion is invariant; only the internal relative kinetic energy can be converted into heat.",
+  "scope_and_applicability": "Universal energy balance for all 1D two-body collisions.",
+  "source_provenance": "HCV1 Ch 9 pp. 168-169; HRW Ch 9 pp. 243-245; UP Ch 8 p. 277",
+  "verification_status": "VERIFIED",
+  "created_at": "2026-10-05T01:30:00Z"
+}

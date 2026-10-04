@@ -1,0 +1,88 @@
+{
+  "derivation_id": "derivation-formula-mom-com-motion",
+  "target_formula_id": "formula-mom-com-acceleration",
+  "chapter_id": "center-of-mass",
+  "title": "Proof that Internal Forces Cancel yielding M A_cm = F_net,ext",
+  "governing_principles": [
+    "Newton's Second Law for individual particles \\vec{F}_i = m_i \\vec{a}_i",
+    "Newton's Third Law for pairwise internal forces \\vec{F}_{ij} = -\\vec{F}_{ji}",
+    "Second time derivative of center of mass position vector"
+  ],
+  "assumptions": [
+    "Closed system of N interacting classical particles in an inertial reference frame",
+    "Internal pairwise forces satisfy Newton's Third Law"
+  ],
+  "derivation_steps": [
+    {
+      "step_number": 1,
+      "equation": "\\vec{R}_{\\text{cm}} = \\frac{1}{M} \\sum_{i=1}^N m_i \\vec{r}_i \\implies M \\vec{A}_{\\text{cm}} = \\sum_{i=1}^N m_i \\vec{a}_i",
+      "description": "Differentiate the center of mass position vector twice with respect to time."
+    },
+    {
+      "step_number": 2,
+      "equation": "m_i \\vec{a}_i = \\vec{F}_i = \\vec{F}_{i, \\text{ext}} + \\sum_{j \\ne i} \\vec{F}_{ij}",
+      "description": "Separate the net force on particle i into an external force and sum over internal forces exerted by other particles j."
+    },
+    {
+      "step_number": 3,
+      "equation": "M \\vec{A}_{\\text{cm}} = \\sum_{i=1}^N \\vec{F}_{i, \\text{ext}} + \\sum_{i=1}^N \\sum_{j \\ne i} \\vec{F}_{ij}",
+      "description": "Sum the equations of motion across all N particles in the system."
+    },
+    {
+      "step_number": 4,
+      "equation": "\\sum_{i=1}^N \\sum_{j \\ne i} \\vec{F}_{ij} = \\sum_{1 \\le i < j \\le N} (\\vec{F}_{ij} + \\vec{F}_{ji})",
+      "description": "Regroup the double summation over distinct pairs (i, j)."
+    },
+    {
+      "step_number": 5,
+      "equation": "\\vec{F}_{ij} + \\vec{F}_{ji} = \\vec{0} \\implies \\sum_{i=1}^N \\sum_{j \\ne i} \\vec{F}_{ij} = \\vec{0}",
+      "description": "Apply Newton's Third Law; action-reaction pairs cancel identically."
+    },
+    {
+      "step_number": 6,
+      "equation": "M \\vec{A}_{\\text{cm}} = \\sum_{i=1}^N \\vec{F}_{i, \\text{ext}} = \\vec{F}_{\\text{net, ext}}",
+      "description": "The net internal force vanishes, proving the fundamental system dynamic equation."
+    }
+  ],
+  "limiting_cases": [
+    "Single particle (N = 1): F_int = 0 identically, recovering F = ma.",
+    "Zero external force: F_net,ext = 0 implies A_cm = 0 (velocity of center of mass remains constant)."
+  ],
+  "dimensional_check": "Both sides have dimensions [M][L][T]^-2 (Force, Newtons).",
+  "source_provenance": "HCV1 Ch 9 pp. 153-154; HRW Ch 9 pp. 230-231; Feynman Vol 1 Ch 19",
+  "verification_status": "VERIFIED",
+  "created_at": "2026-10-05T01:30:00Z",
+  "ordered_steps": [
+    {
+      "step_number": 1,
+      "equation": "\\vec{R}_{\\text{cm}} = \\frac{1}{M} \\sum_{i=1}^N m_i \\vec{r}_i \\implies M \\vec{A}_{\\text{cm}} = \\sum_{i=1}^N m_i \\vec{a}_i",
+      "description": "Differentiate the center of mass position vector twice with respect to time."
+    },
+    {
+      "step_number": 2,
+      "equation": "m_i \\vec{a}_i = \\vec{F}_i = \\vec{F}_{i, \\text{ext}} + \\sum_{j \\ne i} \\vec{F}_{ij}",
+      "description": "Separate the net force on particle i into an external force and sum over internal forces exerted by other particles j."
+    },
+    {
+      "step_number": 3,
+      "equation": "M \\vec{A}_{\\text{cm}} = \\sum_{i=1}^N \\vec{F}_{i, \\text{ext}} + \\sum_{i=1}^N \\sum_{j \\ne i} \\vec{F}_{ij}",
+      "description": "Sum the equations of motion across all N particles in the system."
+    },
+    {
+      "step_number": 4,
+      "equation": "\\sum_{i=1}^N \\sum_{j \\ne i} \\vec{F}_{ij} = \\sum_{1 \\le i < j \\le N} (\\vec{F}_{ij} + \\vec{F}_{ji})",
+      "description": "Regroup the double summation over distinct pairs (i, j)."
+    },
+    {
+      "step_number": 5,
+      "equation": "\\vec{F}_{ij} + \\vec{F}_{ji} = \\vec{0} \\implies \\sum_{i=1}^N \\sum_{j \\ne i} \\vec{F}_{ij} = \\vec{0}",
+      "description": "Apply Newton's Third Law; action-reaction pairs cancel identically."
+    },
+    {
+      "step_number": 6,
+      "equation": "M \\vec{A}_{\\text{cm}} = \\sum_{i=1}^N \\vec{F}_{i, \\text{ext}} = \\vec{F}_{\\text{net, ext}}",
+      "description": "The net internal force vanishes, proving the fundamental system dynamic equation."
+    }
+  ],
+  "target_equation": "M \\vec{A}_{\\text{cm}} = \\sum_{i=1}^N \\vec{F}_{i, \\text{ext}} = \\vec{F}_{\\text{net, ext}}"
+}

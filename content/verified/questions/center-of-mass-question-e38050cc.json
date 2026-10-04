@@ -1,0 +1,26 @@
+{
+  "question_id": "center-of-mass-question-e38050cc",
+  "chapter_id": "center-of-mass",
+  "topic_id": "center-of-mass-fundamentals",
+  "subtopic_id": "shift-in-com-and-cavity-problems",
+  "question_type": "SINGLE_CORRECT_MCQ",
+  "problem_statement": "A circular plate of uniform thickness and mass $M$ has radius $R$. A circular hole of radius $R/2$ is cut out from it, touching the outer circumference of the plate. Taking the origin at the center of the original uncut plate, and the center of the cut hole at $(R/2, 0)$, the coordinates of the center of mass of the remaining portion are:",
+  "options": {
+    "A": "$\\left(-\\frac{R}{6}, 0\\right)$",
+    "B": "$\\left(-\\frac{R}{4}, 0\\right)$",
+    "C": "$\\left(-\\frac{R}{8}, 0\\right)$",
+    "D": "$\\left(-\\frac{R}{3}, 0\\right)$"
+  },
+  "correct_answer": "A",
+  "distractor_rationales": {
+    "B": "Mistakenly assumes the shift is half the hole radius without weighting by the 3/4 remaining mass ratio.",
+    "C": "Calculates the first moment $M R / 8$ but divides by total mass $M$ instead of remaining mass $3M/4$.",
+    "D": "Mistakenly takes the cavity mass as $M/2$ instead of area ratio $M/4$."
+  },
+  "explanation": "Original plate area is $A = \\pi R^2$ with mass $M$. The removed circular portion has radius $R/2$, so its area is $A_{\\text{hole}} = \\pi (R/2)^2 = \\frac{1}{4} \\pi R^2$, giving mass $m_{\\text{hole}} = M/4$. The centroid of the hole is at $x_{\\text{hole}} = R/2, y_{\\text{hole}} = 0$. Using the negative mass superposition formula: $$x_{\\text{rem}} = \\frac{M x_{\\text{orig}} - m_{\\text{hole}} x_{\\text{hole}}}{M - m_{\\text{hole}}} = \\frac{M(0) - (M/4)(R/2)}{M - M/4} = \\frac{-M R / 8}{3M / 4} = -\\frac{R}{6}, \\quad y_{\\text{rem}} = 0$$ Thus the remaining center of mass is at $\\left(-\\frac{R}{6}, 0\\right)$.",
+  "difficulty_rating": 2,
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-q-mom-01",
+  "created_at": "2026-10-05T01:30:00Z",
+  "content_hash": "658386a24180029c7410ad82114ed89225c9a947db27dc791efa48a748cd61a9"
+}

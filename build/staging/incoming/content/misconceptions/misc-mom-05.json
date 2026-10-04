@@ -1,0 +1,15 @@
+{
+  "misconception_id": "misc-mom-05",
+  "chapter_id": "center-of-mass",
+  "category": "INVALID_FORMULA_CONDITION",
+  "statement": "Applying F = m a directly to variable mass systems by treating (dm/dt) * v as an ordinary external force.",
+  "erroneous_reasoning": "Differentiating p = m v as dp/dt = m (dv/dt) + v (dm/dt) and setting it equal to external force F_ext.",
+  "correct_physics_explanation": "The expression dp/dt = m dv/dt + v dm/dt is NOT Galilean invariant when mass crosses the system boundary! The velocity of the expelled or admitted mass must be measured RELATIVE to the moving body: F_ext + v_rel (dm/dt) = m dv/dt. Using ground velocity instead of relative exhaust velocity violates Galilean relativity.",
+  "refutation_counterexample": "In an inertial frame moving at constant velocity V, the ground velocity of rocket and exhaust changes by V, but the physical acceleration of the rocket must be identical in all inertial frames.",
+  "diagnostic_check_latex": "m(t) \\frac{d\\vec{v}}{dt} = \\vec{F}_{\\text{ext}} + \\vec{v}_{\\text{rel}} \\frac{dm}{dt} \\quad \\text{is Galilean invariant, whereas } \\vec{F}_{\\text{ext}} = m \\frac{d\\vec{v}}{dt} + \\vec{v} \\frac{dm}{dt} \\text{ is not.}",
+  "claim_traces": [
+    "HCV1 Ch 9 p. 162; HRW Ch 9 p. 255; UP Ch 8 p. 290"
+  ],
+  "verification_status": "VERIFIED",
+  "created_at": "2026-10-05T01:30:00Z"
+}

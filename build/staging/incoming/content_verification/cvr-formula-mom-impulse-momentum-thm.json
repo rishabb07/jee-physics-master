@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-formula-mom-impulse-momentum-thm",
+  "content_type": "FORMULA",
+  "target_id": "formula-mom-impulse-momentum-thm",
+  "content_hash": "941197fb7d20fd33e0ca91a46ad53a0556b33621939272dad2915049300295a9",
+  "risk_level": "MEDIUM",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Independently verified dimensional homogeneity and limiting cases for Impulse-Momentum Theorem.",
+  "verifier_id": "content-verifier-mom-formulas",
+  "created_at": "2026-10-05T01:30:00Z"
+}

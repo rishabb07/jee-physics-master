@@ -1,0 +1,16 @@
+{
+  "misconception_id": "misc-mom-01",
+  "chapter_id": "center-of-mass",
+  "category": "WRONG_CONSERVATION_LAW",
+  "statement": "Internal explosions, collisions, or internal muscular forces can accelerate the system center of mass.",
+  "erroneous_reasoning": "Students observe fragments flying out violently in an explosion and intuitively assume the center of mass must have been propelled in some direction.",
+  "correct_physics_explanation": "Newton's Third Law guarantees that all internal forces occur in equal and opposite collinear action-reaction pairs whose vector sum vanishes identically: sum(F_int) = 0. Therefore, the center of mass acceleration is governed solely by external forces: M A_cm = F_net,ext. An artillery shell in parabolic flight that bursts into pieces in mid-air continues to have its center of mass follow the exact same parabolic trajectory until fragments experience external forces such as ground impact.",
+  "refutation_counterexample": "An exploding bomb on a frictionless floor at rest will have fragments scatter in all directions, but sum(m_i v_i) = 0 and the center of mass remains perfectly motionless at the origin.",
+  "diagnostic_check_latex": "M \\vec{A}_{\\text{cm}} = \\vec{F}_{\\text{net, ext}} \\implies \\vec{A}_{\\text{cm}} = \\vec{0} \\quad \\text{whenever } \\vec{F}_{\\text{net, ext}} = \\vec{0}, \\text{ regardless of internal explosive forces.}",
+  "claim_traces": [
+    "HCV1 Ch 9 p. 154; HRW Ch 9 p. 232"
+  ],
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-misc-mom-01",
+  "created_at": "2026-10-05T01:30:00Z"
+}

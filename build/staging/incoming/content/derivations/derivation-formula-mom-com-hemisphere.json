@@ -1,0 +1,88 @@
+{
+  "derivation_id": "derivation-formula-mom-com-hemisphere",
+  "target_formula_id": "formula-mom-com-hemisphere",
+  "chapter_id": "center-of-mass",
+  "title": "Derivation of Center of Mass of a Solid Uniform Hemisphere",
+  "governing_principles": [
+    "Continuous mass definition \\vec{R}_{\\text{cm}} = \\frac{1}{M} \\int \\vec{r} \\, dm",
+    "Geometric circular disc slicing parallel to flat equatorial base",
+    "Pythagorean relation for thin disc radius r^2 = R^2 - y^2"
+  ],
+  "assumptions": [
+    "Uniform volumetric mass density \\rho = \\frac{M}{\\frac{2}{3} \\pi R^3}",
+    "Axis of symmetry along y-axis normal to flat circular base"
+  ],
+  "derivation_steps": [
+    {
+      "step_number": 1,
+      "equation": "x_{\\text{cm}} = 0, \\quad z_{\\text{cm}} = 0",
+      "description": "Due to rotational symmetry about the y-axis, the center of mass must lie along the symmetry axis."
+    },
+    {
+      "step_number": 2,
+      "equation": "dm = \\rho \\, dV = \\rho (\\pi r^2 \\, dy) = \\rho \\pi (R^2 - y^2) \\, dy",
+      "description": "Slice the hemisphere into thin circular horizontal discs of thickness dy at vertical elevation y with disc radius r."
+    },
+    {
+      "step_number": 3,
+      "equation": "\\int y \\, dm = \\int_0^R y \\left[ \\rho \\pi (R^2 - y^2) \\right] dy = \\rho \\pi \\int_0^R (R^2 y - y^3) dy",
+      "description": "Set up the numerator first moment of mass integral from y = 0 (base) to y = R (apex)."
+    },
+    {
+      "step_number": 4,
+      "equation": "\\int_0^R (R^2 y - y^3) dy = \\left[ \\frac{R^2 y^2}{2} - \\frac{y^4}{4} \\right]_0^R = \\frac{R^4}{2} - \\frac{R^4}{4} = \\frac{R^4}{4}",
+      "description": "Evaluate the elementary polynomial definite integral."
+    },
+    {
+      "step_number": 5,
+      "equation": "M = \\int dm = \\rho \\left( \\frac{2}{3} \\pi R^3 \\right)",
+      "description": "Express total mass M in terms of density rho and total volume."
+    },
+    {
+      "step_number": 6,
+      "equation": "y_{\\text{cm}} = \\frac{\\rho \\pi \\frac{R^4}{4}}{\\rho \\frac{2}{3} \\pi R^3} = \\frac{\\frac{1}{4}}{\\frac{2}{3}} R = \\frac{3}{8} R",
+      "description": "Divide the first moment by total mass to arrive at the final centroid coordinate y_cm = 3R/8."
+    }
+  ],
+  "limiting_cases": [
+    "If R -> 0, y_cm -> 0 trivially.",
+    "y_cm = 0.375 R < 0.5 R (the centroid is shifted closer to the broader base, as physically required)."
+  ],
+  "dimensional_check": "Dimension of 3/8 R is [L], matching distance units.",
+  "source_provenance": "HCV1 Ch 9 p. 152 Example 9.3; UP Ch 8 p. 286",
+  "verification_status": "VERIFIED",
+  "created_at": "2026-10-05T01:30:00Z",
+  "ordered_steps": [
+    {
+      "step_number": 1,
+      "equation": "x_{\\text{cm}} = 0, \\quad z_{\\text{cm}} = 0",
+      "description": "Due to rotational symmetry about the y-axis, the center of mass must lie along the symmetry axis."
+    },
+    {
+      "step_number": 2,
+      "equation": "dm = \\rho \\, dV = \\rho (\\pi r^2 \\, dy) = \\rho \\pi (R^2 - y^2) \\, dy",
+      "description": "Slice the hemisphere into thin circular horizontal discs of thickness dy at vertical elevation y with disc radius r."
+    },
+    {
+      "step_number": 3,
+      "equation": "\\int y \\, dm = \\int_0^R y \\left[ \\rho \\pi (R^2 - y^2) \\right] dy = \\rho \\pi \\int_0^R (R^2 y - y^3) dy",
+      "description": "Set up the numerator first moment of mass integral from y = 0 (base) to y = R (apex)."
+    },
+    {
+      "step_number": 4,
+      "equation": "\\int_0^R (R^2 y - y^3) dy = \\left[ \\frac{R^2 y^2}{2} - \\frac{y^4}{4} \\right]_0^R = \\frac{R^4}{2} - \\frac{R^4}{4} = \\frac{R^4}{4}",
+      "description": "Evaluate the elementary polynomial definite integral."
+    },
+    {
+      "step_number": 5,
+      "equation": "M = \\int dm = \\rho \\left( \\frac{2}{3} \\pi R^3 \\right)",
+      "description": "Express total mass M in terms of density rho and total volume."
+    },
+    {
+      "step_number": 6,
+      "equation": "y_{\\text{cm}} = \\frac{\\rho \\pi \\frac{R^4}{4}}{\\rho \\frac{2}{3} \\pi R^3} = \\frac{\\frac{1}{4}}{\\frac{2}{3}} R = \\frac{3}{8} R",
+      "description": "Divide the first moment by total mass to arrive at the final centroid coordinate y_cm = 3R/8."
+    }
+  ],
+  "target_equation": "y_{\\text{cm}} = \\frac{\\rho \\pi \\frac{R^4}{4}}{\\rho \\frac{2}{3} \\pi R^3} = \\frac{\\frac{1}{4}}{\\frac{2}{3}} R = \\frac{3}{8} R"
+}

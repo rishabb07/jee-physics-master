@@ -1,0 +1,38 @@
+{
+  "formula_id": "formula-mom-com-hemisphere",
+  "chapter_id": "center-of-mass",
+  "topic_id": "center-of-mass-fundamentals",
+  "title": "Center of Mass of Solid Uniform Hemisphere",
+  "latex": "y_{\\text{cm}} = \\frac{3}{8} R",
+  "variables": {
+    "y_{\\text{cm}}": "Distance of center of mass from flat base along symmetry axis",
+    "R": "Radius of uniform solid hemisphere"
+  },
+  "units": {
+    "y_{\\text{cm}}": "m",
+    "R": "m"
+  },
+  "dimensions": {
+    "y_{\\text{cm}}": "[L]",
+    "R": "[L]"
+  },
+  "assumptions": [
+    "Uniform volumetric mass density \\rho",
+    "Perfect hemispherical geometry"
+  ],
+  "validity_conditions": [
+    "Measured from flat circular base along normal symmetry axis"
+  ],
+  "related_concepts": [
+    "concept-mom-com-continuous-01"
+  ],
+  "common_misuse": [
+    "Confusing solid hemisphere (3R/8) with hollow hemispherical shell (R/2)",
+    "Measuring from curved apex instead of flat base"
+  ],
+  "source_provenance": "HCV1 Ch 9 p. 152 Example 9.3",
+  "verification_status": "VERIFIED",
+  "created_at": "2026-10-05T01:30:00Z",
+  "equation_latex": "y_{\\text{cm}} = \\frac{3}{8} R",
+  "derivation_reference": "derivation-formula-mom-com-hemisphere"
+}
