@@ -1,0 +1,21 @@
+{
+  "verification_id": "cvr-formula-wep-work-energy-theorem",
+  "artifact_id": "formula-wep-work-energy-theorem",
+  "artifact_version": 1,
+  "content_hash": "ad3f9c41e1e17294cc8870fd89d31398e09ad9d42f38bb0a364b0e5ee26ac8a7",
+  "verifier_id": "content-verifier-mechanics-wep",
+  "verifier_conversation_id": "wep-cvr-turn-01",
+  "risk_level": "MEDIUM",
+  "verdict": "VERIFIED",
+  "assumptions_checked": true,
+  "dimensional_check_passed": true,
+  "numerical_check_passed": true,
+  "limiting_case_check_passed": true,
+  "independent_derivation_or_calculation": "Audited physical definitions, assumptions, and validity bounds for 'formula-wep-work-energy-theorem'.",
+  "findings": [
+    "Physical consistency verified",
+    "Dimensional balance confirmed"
+  ],
+  "discrepancies": [],
+  "timestamp": "2026-10-04T19:18:56.183410Z"
+}

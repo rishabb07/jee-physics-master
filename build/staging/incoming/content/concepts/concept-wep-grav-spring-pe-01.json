@@ -1,0 +1,23 @@
+{
+  "concept_id": "concept-wep-grav-spring-pe-01",
+  "chapter_id": "work-energy-power",
+  "title": "Gravitational and Elastic Potential Energy",
+  "formal_definition": "For uniform near-surface gravity $\\vec{F}_g = -mg\\hat{j}$, gravitational potential energy is $U_g(y) = mgy$ relative to $y=0$. For an ideal spring with restoring force $F_s = -kx$, elastic potential energy is $U_s(x) = \\frac{1}{2}kx^2$ relative to relaxed state $x=0$.",
+  "physical_intuition": "Lifting mass $m$ through height $h$ stores $mgh$ of potential energy. Stretching or compressing a spring by extension $x$ stores $\\frac{1}{2}kx^2$, positive regardless of whether extended or compressed.",
+  "assumptions": [
+    "Uniform gravitational field $g = \\text{const}$",
+    "Hooke's spring constant $k = \\text{const}$"
+  ],
+  "validity_boundaries": [
+    "Large altitude changes require Newton's inverse-square potential $U(r) = -GMm/r$",
+    "Spring valid only within elastic limit"
+  ],
+  "mathematical_representation": "U_g = mgh, \\quad U_s = \\frac{1}{2} k x^2",
+  "claim_traces": [
+    "HCV1 Ch 8 p. 137-138; HRW Ch 8 p. 204; UP Ch 7 p. 235, 242"
+  ],
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-concept-wep-grav-spring-pe-01",
+  "created_at": "2026-10-05T01:00:00Z",
+  "content_hash": "7be6d3963a57d9e6687502b54862f1a5e047de419f11c437f62668e66a83d67c"
+}

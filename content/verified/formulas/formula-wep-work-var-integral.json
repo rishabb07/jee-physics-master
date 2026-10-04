@@ -1,0 +1,35 @@
+{
+  "formula_id": "formula-wep-work-var-integral",
+  "chapter_id": "work-energy-power",
+  "title": "Work Done by a Variable Force",
+  "equation_latex": "W = \\int_{\\vec{r}_i}^{\\vec{r}_f} \\vec{F}(\\vec{r}) \\cdot d\\vec{r} = \\int_{x_i}^{x_f} F_x \\, dx + \\int_{y_i}^{y_f} F_y \\, dy + \\int_{z_i}^{z_f} F_z \\, dz",
+  "variables": {
+    "W": "Work done along trajectory",
+    "\\vec{F}(\\vec{r})": "Position-dependent force field",
+    "d\\vec{r}": "Infinitesimal displacement element vector"
+  },
+  "units": {
+    "W": "J",
+    "\\vec{F}": "N",
+    "d\\vec{r}": "m"
+  },
+  "dimensions": {
+    "W": "[M][L]^2[T]^-2",
+    "\\vec{F}": "[M][L][T]^-2",
+    "d\\vec{r}": "[L]"
+  },
+  "assumptions": [
+    "Force is integrable along piecewise smooth trajectory curve"
+  ],
+  "conditions_of_validity": [
+    "Universal for 1D, 2D, and 3D classical particle motion"
+  ],
+  "common_misuse": [
+    "Evaluating integral without specifying parametric path when force is non-conservative"
+  ],
+  "derivation_reference": "derivation-formula-wep-work-var-integral",
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-formula-wep-work-var-integral",
+  "created_at": "2026-10-05T01:00:00Z",
+  "content_hash": "5875eb4636fb63e951d1265b52c2562fcebcdedbe61ea78a35d296c40090281d"
+}

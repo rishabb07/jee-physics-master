@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-work-energy-power-question-ba0b4106",
+  "content_type": "QUESTION",
+  "target_id": "work-energy-power-question-ba0b4106",
+  "content_hash": "ec388945400132dc8cc08571b4a7aab2ae12129b54ed95285fa015e10b596cfb",
+  "risk_level": "MEDIUM",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "First-principles audit of 1D potential well U(x) = 2x^4 - 4x^2. Force F = -dU/dx = -8x(x^2 - 1) = 0 at x=0, +/-1. Second derivative d2U/dx2 = 24x^2 - 8 is +16 > 0 at x = +/-1 m (stable) and -8 < 0 at x=0 (unstable). Option A verified.",
+  "verifier_id": "content-verifier-wep-questions",
+  "created_at": "2026-10-05T01:00:00Z"
+}

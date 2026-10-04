@@ -1,0 +1,17 @@
+{
+  "misconception_id": "misc-wep-01",
+  "chapter_id": "work-energy-power",
+  "category": "SIGN_MISTAKE",
+  "statement": "Friction always does negative work on every body it acts upon.",
+  "erroneous_reasoning": "Students assume friction always opposes motion, and therefore the angle between force and displacement is always 180 deg, making work negative.",
+  "correct_physics_explanation": "Friction opposes RELATIVE motion at the contact interface, not necessarily motion relative to the ground. Static friction can do positive, negative, or zero work depending on the reference frame. For a crate sitting on the flatbed of an accelerating truck, static friction accelerates the crate forward in the direction of ground displacement, doing POSITIVE work.",
+  "refutation_counterexample": "A box of mass m rests on a flatbed truck accelerating at a = 2 m/s^2 over d = 10 m. Static friction f_s = ma = 2m N acts forward. Work done by static friction on the box is W = f_s d = +20m J > 0, which supplies the box's kinetic energy increase.",
+  "diagnostic_check_latex": "W_{\\text{static}} = \\vec{f}_s \\cdot \\vec{d} > 0 \\quad \\text{when static friction accelerates a body in the direction of displacement.}",
+  "claim_traces": [
+    "HCV1 Ch 8 p. 131; HRW Ch 8 p. 207"
+  ],
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-misc-wep-01",
+  "created_at": "2026-10-05T01:00:00Z",
+  "content_hash": "8acca6d08b84d59dcba8705dc87f668690b1754d8975bec615fca337abec8793"
+}

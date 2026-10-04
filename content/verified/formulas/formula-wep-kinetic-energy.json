@@ -1,0 +1,40 @@
+{
+  "formula_id": "formula-wep-kinetic-energy",
+  "chapter_id": "work-energy-power",
+  "title": "Kinetic Energy of a Particle",
+  "equation_latex": "K = \\frac{1}{2} m v^2 = \\frac{p^2}{2m}",
+  "variables": {
+    "K": "Kinetic energy",
+    "m": "Inertial mass",
+    "v": "Speed magnitude in reference frame",
+    "p": "Magnitude of linear momentum"
+  },
+  "units": {
+    "K": "J",
+    "m": "kg",
+    "v": "m/s",
+    "p": "kg m/s"
+  },
+  "dimensions": {
+    "K": "[M][L]^2[T]^-2",
+    "m": "[M]",
+    "v": "[L][T]^-1",
+    "p": "[M][L][T]^-1"
+  },
+  "assumptions": [
+    "Classical non-relativistic speed v << c",
+    "Point mass or pure translation"
+  ],
+  "conditions_of_validity": [
+    "Universal scalar definition in classical mechanics"
+  ],
+  "common_misuse": [
+    "Treating kinetic energy as a vector",
+    "Applying formula in non-inertial frame without relative speed"
+  ],
+  "derivation_reference": "derivation-formula-wep-kinetic-energy",
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-formula-wep-kinetic-energy",
+  "created_at": "2026-10-05T01:00:00Z",
+  "content_hash": "6c4f83e528dafb1cbd4b71770de6246f2c97c17a4cd346c47444bf815961871f"
+}

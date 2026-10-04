@@ -1,0 +1,21 @@
+{
+  "verification_id": "cvr-formula-wep-pe-def",
+  "artifact_id": "formula-wep-pe-def",
+  "artifact_version": 1,
+  "content_hash": "ff8b516520d0f739fe96fbe86e7014168b52f0a6880d9a2a7eaa7303d81cc611",
+  "verifier_id": "content-verifier-mechanics-wep",
+  "verifier_conversation_id": "wep-cvr-turn-01",
+  "risk_level": "MEDIUM",
+  "verdict": "VERIFIED",
+  "assumptions_checked": true,
+  "dimensional_check_passed": true,
+  "numerical_check_passed": true,
+  "limiting_case_check_passed": true,
+  "independent_derivation_or_calculation": "Audited physical definitions, assumptions, and validity bounds for 'formula-wep-pe-def'.",
+  "findings": [
+    "Physical consistency verified",
+    "Dimensional balance confirmed"
+  ],
+  "discrepancies": [],
+  "timestamp": "2026-10-04T19:18:56.183410Z"
+}

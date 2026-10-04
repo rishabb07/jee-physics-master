@@ -17,6 +17,7 @@ from jee_physics.models.content import (
     ChapterQAFinding,
     ChapterQAReport,
     ClaimTraceClass,
+    ContentBlockType,
     ContentVerificationStatus,
     RenderingQAReport,
 )
@@ -158,6 +159,8 @@ class ChapterQAAuditor:
 
         block_question_ids = set()
         for b in blocks:
+            if b.block_type == ContentBlockType.QUESTION_SET:
+                block_question_ids.add(b.payload_id)
             block_question_ids.update(b.source_atom_ids)
 
         missing_questions = plan_question_atom_ids - block_question_ids

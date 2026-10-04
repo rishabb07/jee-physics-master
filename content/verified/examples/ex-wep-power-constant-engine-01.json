@@ -1,0 +1,50 @@
+{
+  "example_id": "ex-wep-power-constant-engine-01",
+  "chapter_id": "work-energy-power",
+  "problem_statement": "An electric locomotive of total mass $M = 2.0 \\times 10^4\\text{ kg}$ starts from rest and is driven by an engine delivering constant mechanical power $P_0 = 100\\text{ kW}$. Assuming no frictional or aerodynamic losses, find: (a) the speed $v(t)$ as a function of time, (b) the distance $s(t)$ covered as a function of time, and (c) the speed and distance at $t = 10.0\\text{ s}$.",
+  "known_parameters": {
+    "M": 20000.0,
+    "P_0": 100000.0,
+    "v_0": 0.0
+  },
+  "target_variable": "v(t), s(t), v(10), s(10)",
+  "solution_strategy": "Use work-energy relation P_0 = dK/dt = d(1/2 M v^2)/dt to integrate velocity directly, then integrate velocity to obtain displacement.",
+  "solution_steps": [
+    {
+      "step_number": 1,
+      "explanation": "Express power as time derivative of kinetic energy and integrate from rest.",
+      "equation_latex": "P_0 = \\frac{dK}{dt} = \\frac{d}{dt}\\left( \\frac{1}{2} M v^2 \\right) \\implies \\frac{1}{2} M v^2 = P_0 t \\implies v(t) = \\sqrt{\\frac{2 P_0 t}{M}}"
+    },
+    {
+      "step_number": 2,
+      "explanation": "Substitute numerical values for M = 2.0 x 10^4 kg and P_0 = 1.0 x 10^5 W.",
+      "equation_latex": "v(t) = \\sqrt{\\frac{2 \\times 10^5}{2 \\times 10^4} t} = \\sqrt{10 t} = \\sqrt{10} t^{1/2}"
+    },
+    {
+      "step_number": 3,
+      "explanation": "Integrate velocity with respect to time to obtain displacement s(t).",
+      "equation_latex": "s(t) = \\int_0^t v(t') \\, dt' = \\sqrt{10} \\int_0^t t'^{1/2} \\, dt' = \\sqrt{10} \\left[ \\frac{2}{3} t^{3/2} \\right] = \\frac{2\\sqrt{10}}{3} t^{3/2}"
+    },
+    {
+      "step_number": 4,
+      "explanation": "Evaluate at t = 10.0 s.",
+      "equation_latex": "v(10) = \\sqrt{10 \\times 10} = 10.0\\text{ m/s}, \\quad s(10) = \\frac{2\\sqrt{10}}{3} (10)^{3/2} = \\frac{2\\sqrt{10}}{3} (10\\sqrt{10}) = \\frac{200}{3} \\approx 66.7\\text{ m}"
+    }
+  ],
+  "final_answer": "v(t) = \\sqrt{10 t}, \\quad s(t) = \\frac{2\\sqrt{10}}{3} t^{3/2}; \\quad v(10) = 10.0\\text{ m/s}, \\quad s(10) = \\frac{200}{3}\\text{ m} \\approx 66.7\\text{ m}",
+  "trap_alerts": [
+    "Assuming acceleration is constant (at constant power, acceleration a = P/(M v) decreases inversely with speed)",
+    "Using kinematic formulas v = u + at"
+  ],
+  "sanity_checks": [
+    "Kinetic energy at t = 10 s: K = 1/2 (20000) (10)^2 = 1.0 x 10^6 J. Total energy delivered: P_0 * t = 100000 * 10 = 1.0 x 10^6 J, exact match",
+    "Dimensions: [P t / M]^(1/2) = ([M L^2 T^-3 T] / [M])^(1/2) = (L^2 T^-2)^(1/2) = L T^-1, correct velocity dimensions"
+  ],
+  "claim_traces": [
+    "HCV1 Ch 8 Example 8.9; UP Ch 6 Section 6.4 p. 220"
+  ],
+  "verification_status": "VERIFIED",
+  "verification_record_id": "dual-cvr-ex-wep-power-constant-engine-01",
+  "created_at": "2026-10-05T01:00:00Z",
+  "content_hash": "85862f1aa681fbf07dee6227513e553796be4bb066d15ac88e79c9acdc49a1ff"
+}

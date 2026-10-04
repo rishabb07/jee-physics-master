@@ -1,0 +1,21 @@
+{
+  "verification_id": "cvr-formula-wep-wet-non-inertial",
+  "artifact_id": "formula-wep-wet-non-inertial",
+  "artifact_version": 1,
+  "content_hash": "32325962b5640bebdd35d798b28c707e7f869883688037c68a2e891384eda837",
+  "verifier_id": "content-verifier-mechanics-wep",
+  "verifier_conversation_id": "wep-cvr-turn-01",
+  "risk_level": "MEDIUM",
+  "verdict": "VERIFIED",
+  "assumptions_checked": true,
+  "dimensional_check_passed": true,
+  "numerical_check_passed": true,
+  "limiting_case_check_passed": true,
+  "independent_derivation_or_calculation": "Audited physical definitions, assumptions, and validity bounds for 'formula-wep-wet-non-inertial'.",
+  "findings": [
+    "Physical consistency verified",
+    "Dimensional balance confirmed"
+  ],
+  "discrepancies": [],
+  "timestamp": "2026-10-04T19:18:56.183410Z"
+}

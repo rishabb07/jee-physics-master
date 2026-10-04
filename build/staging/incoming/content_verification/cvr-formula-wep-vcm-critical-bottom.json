@@ -1,0 +1,21 @@
+{
+  "verification_id": "cvr-formula-wep-vcm-critical-bottom",
+  "artifact_id": "formula-wep-vcm-critical-bottom",
+  "artifact_version": 1,
+  "content_hash": "34e89f9e2711ed9b0bdd2cd81ef8ca477954ad3e114803d3a7b00a4caf6a14eb",
+  "verifier_id": "content-verifier-mechanics-wep",
+  "verifier_conversation_id": "wep-cvr-turn-01",
+  "risk_level": "MEDIUM",
+  "verdict": "VERIFIED",
+  "assumptions_checked": true,
+  "dimensional_check_passed": true,
+  "numerical_check_passed": true,
+  "limiting_case_check_passed": true,
+  "independent_derivation_or_calculation": "Audited physical definitions, assumptions, and validity bounds for 'formula-wep-vcm-critical-bottom'.",
+  "findings": [
+    "Physical consistency verified",
+    "Dimensional balance confirmed"
+  ],
+  "discrepancies": [],
+  "timestamp": "2026-10-04T19:18:56.183410Z"
+}

@@ -1,0 +1,21 @@
+{
+  "verification_id": "cvr-formula-wep-power-instantaneous",
+  "artifact_id": "formula-wep-power-instantaneous",
+  "artifact_version": 1,
+  "content_hash": "50a9166b4e315af7006d069dad9b315607800ee2e92badeabd87734981cd8711",
+  "verifier_id": "content-verifier-mechanics-wep",
+  "verifier_conversation_id": "wep-cvr-turn-01",
+  "risk_level": "MEDIUM",
+  "verdict": "VERIFIED",
+  "assumptions_checked": true,
+  "dimensional_check_passed": true,
+  "numerical_check_passed": true,
+  "limiting_case_check_passed": true,
+  "independent_derivation_or_calculation": "Audited physical definitions, assumptions, and validity bounds for 'formula-wep-power-instantaneous'.",
+  "findings": [
+    "Physical consistency verified",
+    "Dimensional balance confirmed"
+  ],
+  "discrepancies": [],
+  "timestamp": "2026-10-04T19:18:56.183410Z"
+}

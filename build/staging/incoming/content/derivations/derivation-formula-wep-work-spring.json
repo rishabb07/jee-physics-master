@@ -1,0 +1,44 @@
+{
+  "derivation_id": "derivation-formula-wep-work-spring",
+  "chapter_id": "work-energy-power",
+  "title": "Derivation of Work Done by an Ideal Spring from Hooke's Law",
+  "target_formula_id": "formula-wep-work-spring",
+  "target_equation": "W_s = -\\frac{1}{2} k (x_f^2 - x_i^2)",
+  "assumptions": [
+    "Massless spring",
+    "Linear restoring force F = -kx",
+    "Smooth 1D displacement along spring axis"
+  ],
+  "starting_principles": [
+    "Definition of work as 1D spatial integral W = int F(x) dx",
+    "Hooke's law F_s(x) = -kx"
+  ],
+  "ordered_steps": [
+    {
+      "step_number": 1,
+      "explanation": "Express the differential work done by the spring restoring force for infinitesimal displacement dx.",
+      "equation_latex": "dW_s = F_s(x) \\, dx = (-kx) \\, dx"
+    },
+    {
+      "step_number": 2,
+      "explanation": "Integrate the differential work expression from initial deformation x_i to final deformation x_f.",
+      "equation_latex": "W_s = \\int_{x_i}^{x_f} (-kx) \\, dx = -k \\int_{x_i}^{x_f} x \\, dx"
+    },
+    {
+      "step_number": 3,
+      "explanation": "Evaluate the definite integral using power rule of calculus.",
+      "equation_latex": "W_s = -k \\left[ \\frac{x^2}{2} \\right]_{x_i}^{x_f} = -\\frac{1}{2} k (x_f^2 - x_i^2)"
+    }
+  ],
+  "limiting_cases": [
+    "When starting from natural length x_i = 0, W_s = -1/2 k x_f^2, which is strictly negative for any extension or compression",
+    "When returning to initial state x_f = x_i, W_s = 0, proving conservative character over round trip"
+  ],
+  "claim_traces": [
+    "HCV1 Ch 8 p. 130; HRW Ch 7 p. 175; UP Ch 6 p. 216"
+  ],
+  "verification_status": "VERIFIED",
+  "verification_record_id": "dual-cvr-derivation-formula-wep-work-spring",
+  "created_at": "2026-10-05T01:00:00Z",
+  "content_hash": "ad1e5894cd1bccd23eba2f2d3aa843a62f466acb69a7c4caa3459145266b0388"
+}

@@ -58,10 +58,22 @@ class ChapterAssembler:
         return None
 
     def load_canonical_atom(self, atom_id: str) -> Optional[Dict[str, Any]]:
-        """Loads canonical verified atom from kb/atoms/."""
+        """Loads canonical verified atom from kb/atoms/ or verified/staging question bank."""
         path = self.kb_atoms_dir / f"{atom_id}.json"
         if path.exists():
             with open(path, "r", encoding="utf-8") as f:
+                return json.load(f)
+        v_path = self.verified_dir / "questions" / f"{atom_id}.json"
+        if v_path.exists():
+            with open(v_path, "r", encoding="utf-8") as f:
+                return json.load(f)
+        qb_path = self.workspace_root / "build" / "staging" / "incoming" / "question_bank" / "verified" / f"{atom_id}.json"
+        if qb_path.exists():
+            with open(qb_path, "r", encoding="utf-8") as f:
+                return json.load(f)
+        stg_q = self.workspace_root / "build" / "staging" / "incoming" / "content" / "questions" / f"{atom_id}.json"
+        if stg_q.exists():
+            with open(stg_q, "r", encoding="utf-8") as f:
                 return json.load(f)
         return None
 
@@ -441,14 +453,14 @@ class ChapterAssembler:
             for atom_id in sec.get("question_atom_ids", []):
                 atom_data = self.load_canonical_atom(atom_id)
                 if atom_data:
-                    q_payload = atom_data.get("content_payload") or atom_data.get("question") or {}
+                    q_payload = atom_data.get("content_payload") or atom_data.get("question") or atom_data
                     q_stmt = q_payload.get("problem_statement") or q_payload.get("statement", "")
                     q_opts = q_payload.get("options", [])
-                    q_ver_answer = atom_data.get("verified_answer") or q_payload.get("verified_answer", "")
+                    q_ver_answer = atom_data.get("verified_answer") or q_payload.get("verified_answer") or q_payload.get("correct_answer", "")
                     q_type = q_payload.get("question_type", "SINGLE_CORRECT" if q_opts else "NUMERICAL")
 
                     prov_list = atom_data.get('provenance', [])
-                    prov_title = (prov_list[0].get('source_title') or prov_list[0].get('source_id', 'Canonical KB')) if prov_list else 'Canonical KB'
+                    prov_title = (prov_list[0].get('source_title') or prov_list[0].get('source_id', 'Canonical KB')) if prov_list else 'Audited Source / Question Bank'
                     q_md = [
                         f"### Verified JEE Practice Problem: `{atom_id}`",
                         "",
@@ -460,10 +472,14 @@ class ChapterAssembler:
                     ]
                     if q_opts:
                         q_md.append("**Options**:")
-                        for opt in q_opts:
-                            opt_id = opt.get('identifier') or opt.get('id') or ""
-                            opt_txt = opt.get('text', "")
-                            q_md.append(f"- **({opt_id})**: {opt_txt}")
+                        if isinstance(q_opts, dict):
+                            for opt_id, opt_txt in q_opts.items():
+                                q_md.append(f"- **({opt_id})**: {opt_txt}")
+                        elif isinstance(q_opts, list):
+                            for opt in q_opts:
+                                opt_id = opt.get('identifier') or opt.get('id') or ""
+                                opt_txt = opt.get('text', "")
+                                q_md.append(f"- **({opt_id})**: {opt_txt}")
                         q_md.append("")
 
                     q_md.extend([
@@ -478,6 +494,7 @@ class ChapterAssembler:
                     ])
 
                     q_md_str = "\n".join(q_md)
+                    is_canon = (self.kb_atoms_dir / f"{atom_id}.json").exists()
                     blocks.append(
                         ChapterContentBlock(
                             block_id=f"block-{chapter_id}-{global_order:03d}",
@@ -486,11 +503,11 @@ class ChapterAssembler:
                             section_id=sec_id,
                             order_in_section=sec_order,
                             payload_id=atom_id,
-                            payload_type="CanonicalQuestionAtom",
+                            payload_type="CanonicalQuestionAtom" if is_canon else "GeneratedQuestion",
                             title=f"Practice Problem: {atom_id}",
                             rendered_markdown=q_md_str,
-                            trace_class=ClaimTraceClass.CANONICAL_KB,
-                            source_atom_ids=[atom_id],
+                            trace_class=ClaimTraceClass.CANONICAL_KB if is_canon else ClaimTraceClass.GENERATED_AND_VERIFIED,
+                            source_atom_ids=[atom_id] if is_canon else [],
                             verification_status=ContentVerificationStatus.VERIFIED,
                             content_hash=self._hash_text(q_md_str),
                         )

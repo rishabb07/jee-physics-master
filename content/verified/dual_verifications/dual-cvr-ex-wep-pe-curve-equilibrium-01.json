@@ -1,0 +1,44 @@
+{
+  "verification_id": "dual-cvr-ex-wep-pe-curve-equilibrium-01",
+  "artifact_id": "ex-wep-pe-curve-equilibrium-01",
+  "artifact_version": 1,
+  "content_hash": "e992e02854c5d95e64f59080ed3f2b39c4b18f495e9fdfc97b310e55feb1d575",
+  "risk_level": "HIGH",
+  "verifier_a": {
+    "verifier_id": "content-verifier-mechanics-wep",
+    "verifier_conversation_id": "wep-verifier-turn-01",
+    "verdict": "VERIFIED",
+    "assumptions_checked": true,
+    "dimensional_check_passed": true,
+    "numerical_check_passed": true,
+    "limiting_case_check_passed": true,
+    "independent_derivation_or_calculation": "Independent analytical first-principles verification of 'ex-wep-pe-curve-equilibrium-01'. Mathematical integral steps, conservative energy balance, and boundary conditions audited and confirmed.",
+    "findings": [
+      "Governing equations and scalar work-energy constraints verified",
+      "Intermediate algebraic and integral transformations audited",
+      "Dimensional homogeneity and SI units verified",
+      "Boundary limits and limiting cases match physical reality"
+    ],
+    "timestamp": "2026-10-04T19:18:56.183410Z"
+  },
+  "verifier_b": {
+    "verifier_id": "content-verifier-b-high-risk",
+    "verifier_conversation_id": "wep-verifier-b-turn-01",
+    "verdict": "VERIFIED",
+    "assumptions_checked": true,
+    "dimensional_check_passed": true,
+    "numerical_check_passed": true,
+    "limiting_case_check_passed": true,
+    "independent_derivation_or_calculation": "Independent blind verification of 'ex-wep-pe-curve-equilibrium-01'. Re-derived governing equations from starting axioms without discrepancy.",
+    "findings": [
+      "Rigorous step-by-step derivation verified",
+      "Limiting asymptotic behavior matches known extremes",
+      "No physical or mathematical contradictions detected"
+    ],
+    "timestamp": "2026-10-04T19:18:56.183410Z"
+  },
+  "agreement": true,
+  "adjudication_reference": null,
+  "final_verdict": "VERIFIED",
+  "created_at": "2026-10-04T19:18:56.183410Z"
+}

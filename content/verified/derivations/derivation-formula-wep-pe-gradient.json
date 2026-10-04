@@ -1,0 +1,44 @@
+{
+  "derivation_id": "derivation-formula-wep-pe-gradient",
+  "chapter_id": "work-energy-power",
+  "title": "Mathematical Derivation of Conservative Force as Negative Potential Gradient",
+  "target_formula_id": "formula-wep-pe-gradient",
+  "target_equation": "\\vec{F} = -\\nabla U, \\quad F_x = -\\frac{\\partial U}{\\partial x}",
+  "assumptions": [
+    "Conservative force field",
+    "Exact differential dU = -F . dr",
+    "Smooth spatial coordinates x, y, z"
+  ],
+  "starting_principles": [
+    "Definition of potential energy differential dU = - dW_c = - (F_x dx + F_y dy + F_z dz)",
+    "Total multivariable differential dU = (dU/dx)dx + (dU/dy)dy + (dU/dz)dz"
+  ],
+  "ordered_steps": [
+    {
+      "step_number": 1,
+      "explanation": "Write total differential of scalar function U(x, y, z) using partial derivatives.",
+      "equation_latex": "dU = \\frac{\\partial U}{\\partial x} \\, dx + \\frac{\\partial U}{\\partial y} \\, dy + \\frac{\\partial U}{\\partial z} \\, dz"
+    },
+    {
+      "step_number": 2,
+      "explanation": "Equate with the physical definition of potential energy differential dU = - (F_x dx + F_y dy + F_z dz).",
+      "equation_latex": "-\\left( F_x \\, dx + F_y \\, dy + F_z \\, dz \\right) = \\frac{\\partial U}{\\partial x} \\, dx + \\frac{\\partial U}{\\partial y} \\, dy + \\frac{\\partial U}{\\partial z} \\, dz"
+    },
+    {
+      "step_number": 3,
+      "explanation": "Since dx, dy, dz are independent arbitrary displacements, equate corresponding components.",
+      "equation_latex": "F_x = -\\frac{\\partial U}{\\partial x}, \\quad F_y = -\\frac{\\partial U}{\\partial y}, \\quad F_z = -\\frac{\\partial U}{\\partial z} \\implies \\vec{F} = -\\nabla U"
+    }
+  ],
+  "limiting_cases": [
+    "For 1D spring U = 1/2 k x^2, F_x = -d(1/2 k x^2)/dx = -kx (recovering Hooke's law)",
+    "For near-surface gravity U = mgy, F_y = -d(mgy)/dy = -mg (recovering downward weight)"
+  ],
+  "claim_traces": [
+    "HCV1 Ch 8 p. 137; HRW Ch 8 p. 204; UP Ch 7 p. 252"
+  ],
+  "verification_status": "VERIFIED",
+  "verification_record_id": "dual-cvr-derivation-formula-wep-pe-gradient",
+  "created_at": "2026-10-05T01:00:00Z",
+  "content_hash": "9c7fc36842b37247d0ee0a34eb54233ba7189cefdd85b63fcc65e1a6a5c2938e"
+}

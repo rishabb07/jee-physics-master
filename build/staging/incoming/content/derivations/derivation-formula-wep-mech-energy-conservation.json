@@ -1,0 +1,46 @@
+{
+  "derivation_id": "derivation-formula-wep-mech-energy-conservation",
+  "chapter_id": "work-energy-power",
+  "title": "Derivation of Mechanical Energy Conservation from Work-Energy Principle",
+  "target_formula_id": "formula-wep-mech-energy-conservation",
+  "target_equation": "E_{\\text{mech}} = K + U = \\text{constant}",
+  "assumptions": [
+    "Net work decomposed into conservative and non-conservative components: W_net = W_c + W_nc"
+  ],
+  "starting_principles": [
+    "Work-energy theorem W_net = Delta K",
+    "Potential energy definition W_c = - Delta U"
+  ],
+  "ordered_steps": [
+    {
+      "step_number": 1,
+      "explanation": "Decompose total work into conservative forces W_c and non-conservative forces W_nc.",
+      "equation_latex": "W_{\\text{net}} = W_c + W_{\\text{nc}}"
+    },
+    {
+      "step_number": 2,
+      "explanation": "Substitute W_net = Delta K from the work-energy theorem.",
+      "equation_latex": "W_c + W_{\\text{nc}} = \\Delta K"
+    },
+    {
+      "step_number": 3,
+      "explanation": "Substitute W_c = - Delta U from the potential energy definition and rearrange terms.",
+      "equation_latex": "-\\Delta U + W_{\\text{nc}} = \\Delta K \\implies \\Delta K + \\Delta U = W_{\\text{nc}} \\implies \\Delta(K + U) = W_{\\text{nc}}"
+    },
+    {
+      "step_number": 4,
+      "explanation": "When non-conservative work vanishes (W_nc = 0), mechanical energy is strictly invariant.",
+      "equation_latex": "\\Delta(K + U) = 0 \\implies K_i + U_i = K_f + U_f = E_{\\text{mech}} = \\text{constant}"
+    }
+  ],
+  "limiting_cases": [
+    "If non-conservative dissipative work is negative W_nc = - Q_diss, E_f = E_i - Q_diss (mechanical energy decreases)"
+  ],
+  "claim_traces": [
+    "HCV1 Ch 8 p. 139; HRW Ch 8 p. 209; UP Ch 7 p. 237"
+  ],
+  "verification_status": "VERIFIED",
+  "verification_record_id": "dual-cvr-derivation-formula-wep-mech-energy-conservation",
+  "created_at": "2026-10-05T01:00:00Z",
+  "content_hash": "5f38826b311e22331f986849b794552b574cfbdeedda6d8b5e47011cb25fe147"
+}

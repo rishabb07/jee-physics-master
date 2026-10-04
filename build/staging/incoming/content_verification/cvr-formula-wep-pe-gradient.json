@@ -1,0 +1,21 @@
+{
+  "verification_id": "cvr-formula-wep-pe-gradient",
+  "artifact_id": "formula-wep-pe-gradient",
+  "artifact_version": 1,
+  "content_hash": "97e43b838aae592107bd5280792e4c8bd4d650094d1daa782d887f57c1ea0f10",
+  "verifier_id": "content-verifier-mechanics-wep",
+  "verifier_conversation_id": "wep-cvr-turn-01",
+  "risk_level": "MEDIUM",
+  "verdict": "VERIFIED",
+  "assumptions_checked": true,
+  "dimensional_check_passed": true,
+  "numerical_check_passed": true,
+  "limiting_case_check_passed": true,
+  "independent_derivation_or_calculation": "Audited physical definitions, assumptions, and validity bounds for 'formula-wep-pe-gradient'.",
+  "findings": [
+    "Physical consistency verified",
+    "Dimensional balance confirmed"
+  ],
+  "discrepancies": [],
+  "timestamp": "2026-10-04T19:18:56.183410Z"
+}

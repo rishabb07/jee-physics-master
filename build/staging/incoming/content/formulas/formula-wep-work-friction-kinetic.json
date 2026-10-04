@@ -1,0 +1,39 @@
+{
+  "formula_id": "formula-wep-work-friction-kinetic",
+  "chapter_id": "work-energy-power",
+  "title": "Work Done by Kinetic Friction",
+  "equation_latex": "W_{f_k} = -f_k s_{\\text{rel}} = -\\mu_k N s_{\\text{rel}}",
+  "variables": {
+    "W_{f_k}": "Dissipative interfacial work of kinetic friction",
+    "\\mu_k": "Coefficient of kinetic friction",
+    "N": "Normal contact reaction force",
+    "s_{\\text{rel}}": "Relative sliding displacement distance between contacting surfaces"
+  },
+  "units": {
+    "W": "J",
+    "\\mu_k": "dimensionless",
+    "N": "N",
+    "s": "m"
+  },
+  "dimensions": {
+    "W": "[M][L]^2[T]^-2",
+    "\\mu_k": "[1]",
+    "N": "[M][L][T]^-2",
+    "s": "[L]"
+  },
+  "assumptions": [
+    "Constant normal force along sliding distance",
+    "Constant coefficient mu_k"
+  ],
+  "conditions_of_validity": [
+    "Dry sliding contact obeying Amontons-Coulomb law"
+  ],
+  "common_misuse": [
+    "Using ground-frame displacement instead of relative interfacial displacement s_rel"
+  ],
+  "derivation_reference": "derivation-formula-wep-work-friction-kinetic",
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-formula-wep-work-friction-kinetic",
+  "created_at": "2026-10-05T01:00:00Z",
+  "content_hash": "f0b901f9f0416bb9127d8e62aa6a1be918279f9521698e4ac4fddf93a0658160"
+}

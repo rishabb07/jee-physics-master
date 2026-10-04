@@ -1,0 +1,33 @@
+{
+  "formula_id": "formula-wep-equilibrium-stability",
+  "chapter_id": "work-energy-power",
+  "title": "Equilibrium Condition and Curvature Stability",
+  "equation_latex": "\\frac{dU}{dx} = 0; \\quad \\frac{d^2U}{dx^2} > 0 \\text{ (stable)}, \\quad \\frac{d^2U}{dx^2} < 0 \\text{ (unstable)}, \\quad \\frac{d^2U}{dx^2} = 0 \\text{ (neutral)}",
+  "variables": {
+    "U(x)": "1D potential energy function",
+    "x": "Position coordinate"
+  },
+  "units": {
+    "U": "J",
+    "x": "m"
+  },
+  "dimensions": {
+    "dU/dx": "[M][L][T]^-2",
+    "d2U/dx2": "[M][T]^-2"
+  },
+  "assumptions": [
+    "1D conservative system with twice-differentiable potential U(x)"
+  ],
+  "conditions_of_validity": [
+    "Local Taylor expansion near equilibrium coordinate x_0"
+  ],
+  "common_misuse": [
+    "Confusing potential energy minimum with maximum",
+    "Ignoring higher order derivatives when d2U/dx2 = 0"
+  ],
+  "derivation_reference": "derivation-formula-wep-pe-gradient",
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-formula-wep-equilibrium-stability",
+  "created_at": "2026-10-05T01:00:00Z",
+  "content_hash": "0b4938988938ca46558260a43817eaa4930acbee96c0167f1a79bc08c52e42ae"
+}

@@ -1,0 +1,37 @@
+{
+  "formula_id": "formula-wep-power-instantaneous",
+  "chapter_id": "work-energy-power",
+  "title": "Instantaneous Mechanical Power",
+  "equation_latex": "P = \\frac{dW}{dt} = \\vec{F} \\cdot \\vec{v} = F v \\cos\\theta = F_x v_x + F_y v_y + F_z v_z",
+  "variables": {
+    "P": "Instantaneous power",
+    "W": "Work performed",
+    "\\vec{F}": "Applied force vector",
+    "\\vec{v}": "Velocity vector of point of application"
+  },
+  "units": {
+    "P": "W (J/s)",
+    "\\vec{F}": "N",
+    "\\vec{v}": "m/s"
+  },
+  "dimensions": {
+    "P": "[M][L]^2[T]^-3",
+    "\\vec{F}": "[M][L][T]^-2",
+    "\\vec{v}": "[L][T]^-1"
+  },
+  "assumptions": [
+    "Inertial reference frame for velocity vector"
+  ],
+  "conditions_of_validity": [
+    "Point of application velocity matched with force agent"
+  ],
+  "common_misuse": [
+    "Using average speed instead of instantaneous dot product F . v",
+    "Assuming power is constant during uniform acceleration"
+  ],
+  "derivation_reference": "derivation-formula-wep-power-instantaneous",
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-formula-wep-power-instantaneous",
+  "created_at": "2026-10-05T01:00:00Z",
+  "content_hash": "50a9166b4e315af7006d069dad9b315607800ee2e92badeabd87734981cd8711"
+}

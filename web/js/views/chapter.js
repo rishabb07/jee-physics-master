@@ -17,6 +17,10 @@ export async function renderChapter(container, chapterId) {
       res = await fetch("data/chapter_laws-of-motion.json");
     } else if (!res.ok && chapterId === "laws-of-motion") {
       res = await fetch("data/chapter_dynamics.json");
+    } else if (!res.ok && (chapterId === "wep" || chapterId === "work-energy")) {
+      res = await fetch("data/chapter_work-energy-power.json");
+    } else if (!res.ok && chapterId === "work-energy-power") {
+      res = await fetch("data/chapter_wep.json");
     }
     if (res.ok) {
       chapter = await res.json();

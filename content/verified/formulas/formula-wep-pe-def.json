@@ -1,0 +1,35 @@
+{
+  "formula_id": "formula-wep-pe-def",
+  "chapter_id": "work-energy-power",
+  "title": "Definition of Potential Energy for Conservative Force",
+  "equation_latex": "\\Delta U = U_f - U_i = -W_c = -\\int_{\\vec{r}_i}^{\\vec{r}_f} \\vec{F}_c \\cdot d\\vec{r}",
+  "variables": {
+    "\\Delta U": "Change in potential energy",
+    "W_c": "Work done by the conservative force",
+    "\\vec{F}_c": "Conservative force vector"
+  },
+  "units": {
+    "U": "J",
+    "W": "J",
+    "F": "N",
+    "r": "m"
+  },
+  "dimensions": {
+    "U": "[M][L]^2[T]^-2"
+  },
+  "assumptions": [
+    "Force field F_c is strictly conservative (curl F = 0)"
+  ],
+  "conditions_of_validity": [
+    "Independent of integration path"
+  ],
+  "common_misuse": [
+    "Attempting to define potential energy for friction or dissipative forces",
+    "Omitting negative sign Delta U = -W_c"
+  ],
+  "derivation_reference": "derivation-formula-wep-pe-gradient",
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-formula-wep-pe-def",
+  "created_at": "2026-10-05T01:00:00Z",
+  "content_hash": "ff8b516520d0f739fe96fbe86e7014168b52f0a6880d9a2a7eaa7303d81cc611"
+}

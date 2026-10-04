@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-work-energy-power-question-e37050bb",
+  "content_type": "QUESTION",
+  "target_id": "work-energy-power-question-e37050bb",
+  "content_hash": "3294e28066e64983185c7ae63e40818398dd9a83ab8f47131d63e608937f9a3c",
+  "risk_level": "MEDIUM",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "First-principles verification of work done by gravity on 2D projectile from launch to apex. Delta K = 1/2 m (u cos theta)^2 - 1/2 m u^2 = -1/2 m u^2 sin^2 theta. Exact match with Option A. Distractors rigorously refuted.",
+  "verifier_id": "content-verifier-wep-questions",
+  "created_at": "2026-10-05T01:00:00Z"
+}

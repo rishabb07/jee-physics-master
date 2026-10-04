@@ -1,0 +1,17 @@
+{
+  "misconception_id": "misc-wep-03",
+  "chapter_id": "work-energy-power",
+  "category": "INVALID_FORMULA_CONDITION",
+  "statement": "The Work-Energy Theorem applies only to constant forces along rectilinear paths.",
+  "erroneous_reasoning": "Students learn W = F d cos(theta) first and mistakenly assume the theorem W_net = Delta K requires constant acceleration equations.",
+  "correct_physics_explanation": "The Work-Energy Theorem is derived by integrating Newton's Second Law along an arbitrary 3D curve: int F_net . dr = int m (dv/dt) . v dt = int m v dv = Delta K. It holds rigorously for arbitrary position-dependent, velocity-dependent, or time-dependent forces along any curved path.",
+  "refutation_counterexample": "For a simple pendulum or curved roller-coaster track where force direction and magnitude continuously vary, W_net = Delta K yields exact velocities without needing constant acceleration.",
+  "diagnostic_check_latex": "W_{\\text{net}} = \\int_C \\vec{F}_{\\text{net}} \\cdot d\\vec{r} = \\Delta K \\quad \\text{holds universally for arbitrary 3D trajectories and forces.}",
+  "claim_traces": [
+    "UP Ch 6 p. 217; HRW Ch 7 p. 179"
+  ],
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-misc-wep-03",
+  "created_at": "2026-10-05T01:00:00Z",
+  "content_hash": "e2a7019797258b5fdc456c8ef7ab5fc8816efd6811b0bfabb11bd2b08398821c"
+}

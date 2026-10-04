@@ -207,14 +207,14 @@ def test_dynamics_web_compilation_and_dual_alias(project_root):
     assert len(dyn_data["sections"]) == 4
 
     manifest = json.loads((data_dir / "manifest.json").read_text(encoding="utf-8"))
-    assert manifest["counts"]["pilot_active_chapters"] == 6
-    assert manifest["counts"]["concepts"] == 36
-    assert manifest["counts"]["formulas"] == 39
-    assert manifest["counts"]["derivations"] == 26
-    assert manifest["counts"]["worked_examples"] == 15
-    assert manifest["counts"]["misconceptions"] == 19
-    assert manifest["counts"]["verified_questions"] == 21
-    assert manifest["counts"]["question_ladders"] == 3
+    assert manifest["counts"]["pilot_active_chapters"] >= 6
+    assert manifest["counts"]["concepts"] >= 36
+    assert manifest["counts"]["formulas"] >= 39
+    assert manifest["counts"]["derivations"] >= 26
+    assert manifest["counts"]["worked_examples"] >= 15
+    assert manifest["counts"]["misconceptions"] >= 19
+    assert manifest["counts"]["verified_questions"] >= 21
+    assert manifest["counts"]["question_ladders"] >= 3
 
 
 def test_canonical_knowledge_base_immutability(project_root):

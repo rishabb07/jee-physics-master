@@ -1,0 +1,44 @@
+{
+  "derivation_id": "derivation-formula-wep-work-energy-theorem",
+  "chapter_id": "work-energy-power",
+  "title": "First-Principles Proof of the Work-Energy Theorem for Particle Motion",
+  "target_formula_id": "formula-wep-work-energy-theorem",
+  "target_equation": "W_{\\text{net}} = \\Delta K = \\frac{1}{2} m v_f^2 - \\frac{1}{2} m v_i^2",
+  "assumptions": [
+    "Inertial reference frame",
+    "Constant particle mass m",
+    "Newton's Second Law F_net = m dv/dt"
+  ],
+  "starting_principles": [
+    "Definition of net work as path line integral W_net = int F_net . dr",
+    "Kinematic identity v = dr/dt"
+  ],
+  "ordered_steps": [
+    {
+      "step_number": 1,
+      "explanation": "Substitute Newton's Second Law F_net = m dv/dt into the work line integral.",
+      "equation_latex": "W_{\\text{net}} = \\int_{\\vec{r}_i}^{\\vec{r}_f} \\vec{F}_{\\text{net}} \\cdot d\\vec{r} = \\int_{t_i}^{t_f} m \\frac{d\\vec{v}}{dt} \\cdot \\frac{d\\vec{r}}{dt} \\, dt"
+    },
+    {
+      "step_number": 2,
+      "explanation": "Express velocity vector v = dr/dt and utilize differential scalar product d(v . v) = 2 v . dv.",
+      "equation_latex": "W_{\\text{net}} = \\int_{t_i}^{t_f} m \\frac{d\\vec{v}}{dt} \\cdot \\vec{v} \\, dt = m \\int_{\\vec{v}_i}^{\\vec{v}_f} \\vec{v} \\cdot d\\vec{v}"
+    },
+    {
+      "step_number": 3,
+      "explanation": "Recognize that v . dv = v dv, converting vector line integral into standard 1D scalar integral over speed.",
+      "equation_latex": "W_{\\text{net}} = m \\int_{v_i}^{v_f} v \\, dv = m \\left[ \\frac{v^2}{2} \\right]_{v_i}^{v_f} = \\frac{1}{2} m v_f^2 - \\frac{1}{2} m v_i^2 = \\Delta K"
+    }
+  ],
+  "limiting_cases": [
+    "When net work is zero, Delta K = 0 implying speed magnitude remains invariant (e.g. uniform circular motion)",
+    "When initial speed v_i = 0, W_net = 1/2 m v_f^2, representing work done to accelerate body from rest"
+  ],
+  "claim_traces": [
+    "HCV1 Ch 8 p. 132; HRW Ch 7 p. 174; UP Ch 6 p. 208"
+  ],
+  "verification_status": "VERIFIED",
+  "verification_record_id": "dual-cvr-derivation-formula-wep-work-energy-theorem",
+  "created_at": "2026-10-05T01:00:00Z",
+  "content_hash": "9cd4e3b15cd18afbdff05b42e482dd0c1c6d53e48555e581de57fcef51c9a8a6"
+}

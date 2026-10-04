@@ -1,0 +1,21 @@
+{
+  "concept_id": "concept-wep-conservative-forces-01",
+  "chapter_id": "work-energy-power",
+  "title": "Conservative vs Non-Conservative Forces",
+  "formal_definition": "A force $\\vec{F}$ is conservative if the work done on a particle moving between two points depends ONLY on the endpoints and is independent of the path taken: $\\oint_C \\vec{F} \\cdot d\\vec{r} = 0$ for every closed loop. Mathematically, $\\nabla \\times \\vec{F} = \\vec{0}$. Forces failing this (e.g. friction, drag) are non-conservative.",
+  "physical_intuition": "Work done against a conservative force can be stored reversibly and recovered completely. Work done against friction is dissipated into random microscopic heat and cannot be recovered by reversing the path.",
+  "assumptions": [
+    "Single-valued, static or position-dependent force field"
+  ],
+  "validity_boundaries": [
+    "Velocity-dependent forces (friction, drag) and time-dependent fields are non-conservative"
+  ],
+  "mathematical_representation": "\\oint \\vec{F}_c \\cdot d\\vec{r} = 0 \\iff \\vec{F}_c = -\\nabla U",
+  "claim_traces": [
+    "HCV1 Ch 8 p. 135; HRW Ch 8 p. 203; UP Ch 7 p. 248; Feynman Lec 14"
+  ],
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-concept-wep-conservative-forces-01",
+  "created_at": "2026-10-05T01:00:00Z",
+  "content_hash": "8598f66d9ce4a974a22bbe530ed7abe3dff4af72e518c4c9eb6f762022518af4"
+}

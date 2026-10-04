@@ -1,0 +1,23 @@
+{
+  "concept_id": "concept-wep-pe-def-gradient-01",
+  "chapter_id": "work-energy-power",
+  "title": "Potential Energy Definition and Gradient Relation",
+  "formal_definition": "Potential energy $U$ is defined uniquely for conservative forces via the work of that force: $\\Delta U = U_f - U_i = -W_c = -\\int_{\\vec{r}_i}^{\\vec{r}_f} \\vec{F}_c \\cdot d\\vec{r}$. In differential form, $dU = -\\vec{F}_c \\cdot d\\vec{r}$, which yields the force as the negative gradient of potential energy: $\\vec{F}_c = -\\nabla U = -\\left(\\frac{\\partial U}{\\partial x}\\hat{i} + \\frac{\\partial U}{\\partial y}\\hat{j} + \\frac{\\partial U}{\\partial z}\\hat{k}\\right)$.",
+  "physical_intuition": "A body released in a potential field naturally accelerates in the direction of steepest potential decrease (down the potential hill), where force is negative slope.",
+  "assumptions": [
+    "Conservative force field",
+    "Arbitrary reference datum where $U(\\vec{r}_0) = 0$ is specified"
+  ],
+  "validity_boundaries": [
+    "Cannot be defined for non-conservative or friction forces",
+    "Physical predictions depend only on differences $\\Delta U$, never absolute value"
+  ],
+  "mathematical_representation": "F_x = -\\frac{\\partial U}{\\partial x}, \\quad \\vec{F} = -\\nabla U",
+  "claim_traces": [
+    "HCV1 Ch 8 p. 137; HRW Ch 8 p. 204; UP Ch 7 p. 252"
+  ],
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-concept-wep-pe-def-gradient-01",
+  "created_at": "2026-10-05T01:00:00Z",
+  "content_hash": "4abf8fee206af4db05a0c5f621dcd19d72ea0a7830493433c6004d4f0c9467ac"
+}

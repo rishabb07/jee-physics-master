@@ -1,0 +1,53 @@
+{
+  "derivation_id": "derivation-formula-wep-vcm-critical",
+  "chapter_id": "work-energy-power",
+  "title": "Derivation of Critical Looping Speeds and Invariant Tension Difference in Vertical Circle",
+  "target_formula_id": "formula-wep-vcm-critical-bottom",
+  "target_equation": "v_{\\text{bot,min}} = \\sqrt{5 g R}, \\quad v_{\\text{top,min}} = \\sqrt{g R}, \\quad T_{\\text{bot}} - T_{\\text{top}} = 6 mg",
+  "assumptions": [
+    "Light inextensible string of radius R",
+    "Particle of mass m in uniform vertical gravity g",
+    "Conservative loop"
+  ],
+  "starting_principles": [
+    "Radial dynamic equation T - mg cos(theta) = m v^2 / R",
+    "Conservation of mechanical energy between bottom and top"
+  ],
+  "ordered_steps": [
+    {
+      "step_number": 1,
+      "explanation": "Write radial equation of motion at top (theta = pi, cos(pi) = -1) where gravity acts downward toward center.",
+      "equation_latex": "T_{\\text{top}} + mg = \\frac{m v_{\\text{top}}^2}{R} \\implies T_{\\text{top}} = \\frac{m v_{\\text{top}}^2}{R} - mg"
+    },
+    {
+      "step_number": 2,
+      "explanation": "Impose string non-slackening condition T_top >= 0 to find minimum apex speed.",
+      "equation_latex": "T_{\\text{top}} \\ge 0 \\implies \\frac{m v_{\\text{top}}^2}{R} - mg \\ge 0 \\implies v_{\\text{top}} \\ge \\sqrt{g R}"
+    },
+    {
+      "step_number": 3,
+      "explanation": "Apply mechanical energy conservation between bottom (y = 0) and top (y = 2R).",
+      "equation_latex": "\\frac{1}{2} m v_{\\text{bot}}^2 = \\frac{1}{2} m v_{\\text{top}}^2 + mg (2R) \\implies v_{\\text{bot}}^2 = v_{\\text{top}}^2 + 4 g R"
+    },
+    {
+      "step_number": 4,
+      "explanation": "Substitute critical apex speed v_top,min^2 = g R to find critical bottom speed.",
+      "equation_latex": "v_{\\text{bot,min}}^2 = g R + 4 g R = 5 g R \\implies v_{\\text{bot,min}} = \\sqrt{5 g R}"
+    },
+    {
+      "step_number": 5,
+      "explanation": "Express tension at bottom T_bot = m v_bot^2 / R + mg and compute difference T_bot - T_top.",
+      "equation_latex": "T_{\\text{bot}} - T_{\\text{top}} = \\left(\\frac{m v_{\\text{bot}}^2}{R} + mg\\right) - \\left(\\frac{m v_{\\text{top}}^2}{R} - mg\\right) = \\frac{m}{R}(v_{\\text{bot}}^2 - v_{\\text{top}}^2) + 2mg = \\frac{m}{R}(4gR) + 2mg = 6mg"
+    }
+  ],
+  "limiting_cases": [
+    "T_bot - T_top = 6mg is an exact invariant for all vertical circular motion with strings regardless of launch energy"
+  ],
+  "claim_traces": [
+    "HCV1 Ch 8 p. 140; UP Ch 5 p. 184"
+  ],
+  "verification_status": "VERIFIED",
+  "verification_record_id": "dual-cvr-derivation-formula-wep-vcm-critical",
+  "created_at": "2026-10-05T01:00:00Z",
+  "content_hash": "58b92541b32cdd5b2342d2080007632cac7ca98ccbd6ba0bc19282fee1d80d1d"
+}

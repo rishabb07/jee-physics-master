@@ -1,0 +1,35 @@
+{
+  "formula_id": "formula-wep-pe-gradient",
+  "chapter_id": "work-energy-power",
+  "title": "Force as Negative Potential Energy Gradient",
+  "equation_latex": "\\vec{F} = -\\nabla U = -\\left(\\frac{\\partial U}{\\partial x}\\hat{i} + \\frac{\\partial U}{\\partial y}\\hat{j} + \\frac{\\partial U}{\\partial z}\\hat{k}\\right), \\quad F_x = -\\frac{dU}{dx}",
+  "variables": {
+    "\\vec{F}": "Conservative force vector",
+    "U(\\vec{r})": "Scalar potential energy function",
+    "\\nabla": "Spatial gradient vector operator"
+  },
+  "units": {
+    "F": "N",
+    "U": "J",
+    "x": "m"
+  },
+  "dimensions": {
+    "F": "[M][L][T]^-2",
+    "U": "[M][L]^2[T]^-2"
+  },
+  "assumptions": [
+    "Smooth differentiable scalar potential field U(x, y, z)"
+  ],
+  "conditions_of_validity": [
+    "Exact differential dU = -F . dr"
+  ],
+  "common_misuse": [
+    "Omitting negative sign resulting in force directed toward potential maxima",
+    "Using ordinary derivative instead of partials in 3D"
+  ],
+  "derivation_reference": "derivation-formula-wep-pe-gradient",
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-formula-wep-pe-gradient",
+  "created_at": "2026-10-05T01:00:00Z",
+  "content_hash": "97e43b838aae592107bd5280792e4c8bd4d650094d1daa782d887f57c1ea0f10"
+}

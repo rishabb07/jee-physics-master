@@ -1,0 +1,32 @@
+{
+  "formula_id": "formula-wep-wet-non-inertial",
+  "chapter_id": "work-energy-power",
+  "title": "Work-Energy Theorem in Non-Inertial Reference Frame",
+  "equation_latex": "W_{\\text{real}} + W_{\\text{pseudo}} = \\Delta K_{\\text{rel}}",
+  "variables": {
+    "W_{\\text{real}}": "Work done by all physical forces along relative displacement",
+    "W_{\\text{pseudo}}": "Work done by fictitious inertial pseudo-force int (-m a_0) . dr_rel",
+    "\\Delta K_{\\text{rel}}": "Change in kinetic energy evaluated in the accelerating frame"
+  },
+  "units": {
+    "all": "J"
+  },
+  "dimensions": {
+    "all": "[M][L]^2[T]^-2"
+  },
+  "assumptions": [
+    "Translating frame of reference with linear acceleration a_0"
+  ],
+  "conditions_of_validity": [
+    "Displacement evaluated relative to the accelerating frame"
+  ],
+  "common_misuse": [
+    "Using ground-frame displacement for pseudo-force work",
+    "Forgetting negative sign in pseudo-force F_pseudo = -m a_0"
+  ],
+  "derivation_reference": "derivation-formula-wep-wet-non-inertial",
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-formula-wep-wet-non-inertial",
+  "created_at": "2026-10-05T01:00:00Z",
+  "content_hash": "32325962b5640bebdd35d798b28c707e7f869883688037c68a2e891384eda837"
+}

@@ -107,6 +107,17 @@ export async function renderHome(container) {
             </p>
           </a>
 
+          <a href="#/chapter/work-energy-power" class="card" style="display: block; transition: transform 0.15s ease;" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='none'">
+            <div style="display: flex; justify-content: space-between; align-items: start; margin-bottom: 0.5rem;">
+              <span class="badge badge-primary">Mechanics</span>
+              <span class="badge badge-active">Production: live</span>
+            </div>
+            <h3 style="font-size: 1.15rem; margin-bottom: 0.4rem; color: var(--text-main);">Work, Energy & Power</h3>
+            <p style="font-size: 0.85rem; color: var(--text-muted);">
+              Work line integrals, work-energy theorem, potential energy gradients, mechanical conservation, power, and vertical circular motion.
+            </p>
+          </a>
+
           <a href="#/chapter/rotational-motion" class="card" style="display: block; transition: transform 0.15s ease;" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='none'">
             <div style="display: flex; justify-content: space-between; align-items: start; margin-bottom: 0.5rem;">
               <span class="badge badge-primary">Mechanics</span>

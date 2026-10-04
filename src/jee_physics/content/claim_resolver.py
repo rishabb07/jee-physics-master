@@ -72,7 +72,7 @@ class ClaimResolver:
             return kb_path
 
         # 2. Check content/verified subdirectories
-        categories = ["concepts", "formulas", "derivations", "examples", "misconceptions"]
+        categories = ["concepts", "formulas", "derivations", "examples", "misconceptions", "questions"]
         for cat in categories:
             p = self.verified_dir / cat / f"{ref_id}.json"
             if p.exists():
@@ -83,6 +83,11 @@ class ClaimResolver:
             p = self.staging_dir / cat / f"{ref_id}.json"
             if p.exists():
                 return p
+
+        # 4. Check staging question bank
+        qb_p = self.workspace_root / "build" / "staging" / "incoming" / "question_bank" / "verified" / f"{ref_id}.json"
+        if qb_p.exists():
+            return qb_p
 
         return None
 

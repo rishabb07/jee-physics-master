@@ -1,0 +1,38 @@
+{
+  "formula_id": "formula-wep-work-energy-theorem",
+  "chapter_id": "work-energy-power",
+  "title": "Work-Energy Theorem in Inertial Frame",
+  "equation_latex": "W_{\\text{net}} = \\Delta K = K_f - K_i = \\frac{1}{2} m v_f^2 - \\frac{1}{2} m v_i^2",
+  "variables": {
+    "W_{\\text{net}}": "Total net work done by all forces",
+    "\\Delta K": "Change in kinetic energy",
+    "m": "Mass of particle",
+    "v_i": "Initial speed",
+    "v_f": "Final speed"
+  },
+  "units": {
+    "W": "J",
+    "K": "J",
+    "m": "kg",
+    "v": "m/s"
+  },
+  "dimensions": {
+    "all": "[M][L]^2[T]^-2"
+  },
+  "assumptions": [
+    "Inertial frame of reference",
+    "Newton's Second Law holds"
+  ],
+  "conditions_of_validity": [
+    "Valid for all forces including conservative, non-conservative, variable, internal, and external"
+  ],
+  "common_misuse": [
+    "Omitting work done by normal force, tension, or friction",
+    "Applying to non-inertial frame without pseudo-force work"
+  ],
+  "derivation_reference": "derivation-formula-wep-work-energy-theorem",
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-formula-wep-work-energy-theorem",
+  "created_at": "2026-10-05T01:00:00Z",
+  "content_hash": "ad3f9c41e1e17294cc8870fd89d31398e09ad9d42f38bb0a364b0e5ee26ac8a7"
+}

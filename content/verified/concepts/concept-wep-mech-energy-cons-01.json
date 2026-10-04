@@ -1,0 +1,21 @@
+{
+  "concept_id": "concept-wep-mech-energy-cons-01",
+  "chapter_id": "work-energy-power",
+  "title": "Conservation of Mechanical Energy and Energy Balance",
+  "formal_definition": "Total mechanical energy is defined as $E_{\\text{mech}} = K + U$. In the presence of only conservative forces, $W_{\\text{net}} = W_c = -\\Delta U \\implies \\Delta K + \\Delta U = 0 \\implies E_{\\text{mech}} = \\text{constant}$. In the general case with non-conservative forces, $\\Delta E_{\\text{mech}} = W_{\\text{nc}} + W_{\\text{ext}}$.",
+  "physical_intuition": "Mechanical energy continuously exchanges between kinetic energy of motion and potential energy of configuration. Dissipation reduces total mechanical energy into microscopic heat.",
+  "assumptions": [
+    "Isolated system or zero non-conservative work $W_{\\text{nc}} = 0$"
+  ],
+  "validity_boundaries": [
+    "Universal energy conservation holds always; mechanical energy conservation holds only when $W_{\\text{nc}} = 0$"
+  ],
+  "mathematical_representation": "K_i + U_i = K_f + U_f \\quad (W_{\\text{nc}} = 0), \\quad \\Delta E_{\\text{mech}} = W_{\\text{nc}}",
+  "claim_traces": [
+    "HCV1 Ch 8 p. 139; HRW Ch 8 p. 209; UP Ch 7 p. 237; Feynman Lec 4"
+  ],
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-concept-wep-mech-energy-cons-01",
+  "created_at": "2026-10-05T01:00:00Z",
+  "content_hash": "910d698fc7e79001e5196e50fd0041cc638f2f023a3fcbc21186f01c58321aee"
+}

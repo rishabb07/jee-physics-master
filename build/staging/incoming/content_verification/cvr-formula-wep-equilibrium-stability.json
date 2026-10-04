@@ -1,0 +1,21 @@
+{
+  "verification_id": "cvr-formula-wep-equilibrium-stability",
+  "artifact_id": "formula-wep-equilibrium-stability",
+  "artifact_version": 1,
+  "content_hash": "0b4938988938ca46558260a43817eaa4930acbee96c0167f1a79bc08c52e42ae",
+  "verifier_id": "content-verifier-mechanics-wep",
+  "verifier_conversation_id": "wep-cvr-turn-01",
+  "risk_level": "MEDIUM",
+  "verdict": "VERIFIED",
+  "assumptions_checked": true,
+  "dimensional_check_passed": true,
+  "numerical_check_passed": true,
+  "limiting_case_check_passed": true,
+  "independent_derivation_or_calculation": "Audited physical definitions, assumptions, and validity bounds for 'formula-wep-equilibrium-stability'.",
+  "findings": [
+    "Physical consistency verified",
+    "Dimensional balance confirmed"
+  ],
+  "discrepancies": [],
+  "timestamp": "2026-10-04T19:18:56.183410Z"
+}

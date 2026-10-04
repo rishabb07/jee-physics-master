@@ -1,0 +1,22 @@
+{
+  "concept_id": "concept-wep-wet-inertial-01",
+  "chapter_id": "work-energy-power",
+  "title": "Work-Energy Theorem in Inertial Frames",
+  "formal_definition": "The total work $W_{\\text{net}}$ done by ALL forces (conservative, non-conservative, internal, and external) acting on a particle equals the change in its kinetic energy: $W_{\\text{net}} = \\sum W_i = \\Delta K = K_f - K_i = \\frac{1}{2} m v_f^2 - \\frac{1}{2} m v_i^2$.",
+  "physical_intuition": "The work-energy theorem is the first integral of Newton's Second Law with respect to spatial displacement. It provides a direct scalar link between starting and ending speeds without requiring time-dependent trajectory integration.",
+  "assumptions": [
+    "Inertial frame of reference",
+    "Newton's Second Law $\\vec{F}_{\\text{net}} = m \\vec{a}$ holds"
+  ],
+  "validity_boundaries": [
+    "Universal for particles in classical mechanics; applicable to arbitrary 3D curved paths"
+  ],
+  "mathematical_representation": "W_{\\text{net}} = \\int \\vec{F}_{\\text{net}} \\cdot d\\vec{r} = \\Delta K",
+  "claim_traces": [
+    "HCV1 Ch 8 p. 132; HRW Ch 7 p. 174; UP Ch 6 p. 207"
+  ],
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-concept-wep-wet-inertial-01",
+  "created_at": "2026-10-05T01:00:00Z",
+  "content_hash": "f069fd99744c32f8a113076df787baf5b7a1aad8fd6c1b8cd37ee4b0f5107121"
+}

@@ -1,0 +1,23 @@
+{
+  "concept_id": "concept-wep-work-spring-01",
+  "chapter_id": "work-energy-power",
+  "title": "Work Done by an Ideal Spring and Hooke's Law",
+  "formal_definition": "An ideal massless spring exerts restoring force $F_s(x) = -k x$ proportional to elongation $x$ from natural length. The work done BY the spring when displaced from $x_i$ to $x_f$ is $W_s = \\int_{x_i}^{x_f} (-kx) dx = -\\frac{1}{2} k (x_f^2 - x_i^2)$. The work done BY an external agent stretching the spring quasi-statically is $W_{\\text{ext}} = +\\frac{1}{2} k (x_f^2 - x_i^2)$.",
+  "physical_intuition": "Because spring resistance increases linearly with extension, average force during extension from $0$ to $x$ is $kx/2$, resulting in quadratic work $\\frac{1}{2}kx^2$.",
+  "assumptions": [
+    "Ideal massless spring",
+    "Linear elastic Hooke's regime (no plastic deformation)"
+  ],
+  "validity_boundaries": [
+    "Breaks down beyond elastic limit",
+    "Fails for heavy springs where wave propagation occurs"
+  ],
+  "mathematical_representation": "W_s = -\\frac{1}{2} k (x_f^2 - x_i^2), \\quad W_{\\text{ext}} = +\\frac{1}{2} k x^2",
+  "claim_traces": [
+    "HCV1 Ch 8 p. 130; HRW Ch 7 p. 175; UP Ch 6 p. 216"
+  ],
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-concept-wep-work-spring-01",
+  "created_at": "2026-10-05T01:00:00Z",
+  "content_hash": "f713ade1c8442313a11139508a651892d375084f7fe65b75c11a503180c39ae6"
+}

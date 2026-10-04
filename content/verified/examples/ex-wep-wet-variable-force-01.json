@@ -1,0 +1,46 @@
+{
+  "example_id": "ex-wep-wet-variable-force-01",
+  "chapter_id": "work-energy-power",
+  "problem_statement": "A particle of mass $m = 1.0\\text{ kg}$ is initially at rest at $x = 0$. It is subjected to a 1D force $F(x) = (6.0 - 2.0x)\\text{ N}$ directed along the x-axis, where $x$ is in meters. Find: (a) the position where the particle attains maximum speed, and (b) the maximum speed $v_{\\text{max}}$.",
+  "known_parameters": {
+    "m": 1.0,
+    "x_0": 0.0,
+    "v_0": 0.0,
+    "F(x)": "6.0 - 2.0x"
+  },
+  "target_variable": "x_opt, v_max",
+  "solution_strategy": "Maximum speed occurs where acceleration and net force vanish (F(x) = 0). Then apply work-energy theorem by integrating F(x) from 0 to x_opt.",
+  "solution_steps": [
+    {
+      "step_number": 1,
+      "explanation": "Set F(x) = 0 to find position of maximum speed.",
+      "equation_latex": "F(x) = 6.0 - 2.0x = 0 \\implies x_{\\text{opt}} = 3.0\\text{ m}"
+    },
+    {
+      "step_number": 2,
+      "explanation": "Integrate force from x = 0 to x = 3.0 m to find net work done.",
+      "equation_latex": "W_{\\text{net}} = \\int_0^{3.0} (6.0 - 2.0x) \\, dx = \\left[ 6.0x - x^2 \\right]_0^{3.0} = 6.0(3.0) - (3.0)^2 = 18.0 - 9.0 = 9.0\\text{ J}"
+    },
+    {
+      "step_number": 3,
+      "explanation": "Apply work-energy theorem W_net = 1/2 m v_max^2 - 0.",
+      "equation_latex": "\\frac{1}{2}(1.0) v_{\\text{max}}^2 = 9.0 \\implies v_{\\text{max}}^2 = 18.0 \\implies v_{\\text{max}} = \\sqrt{18.0} = 3\\sqrt{2} \\approx 4.24\\text{ m/s}"
+    }
+  ],
+  "final_answer": "x_{\\text{opt}} = 3.0\\text{ m}, \\quad v_{\\text{max}} = 3\\sqrt{2} \\approx 4.24\\text{ m/s}",
+  "trap_alerts": [
+    "Setting work equal to zero instead of setting force equal to zero to find maximum speed",
+    "Forgetting 1/2 factor in kinetic energy"
+  ],
+  "sanity_checks": [
+    "Beyond x = 3.0 m, force becomes negative, decelerating the particle, verifying x = 3.0 m is a true maximum",
+    "Dimensional check: [6x] = [x^2] = [N m] = [J]"
+  ],
+  "claim_traces": [
+    "UP Ch 6 Example 6.7; HRW Ch 7 Problem 7.23"
+  ],
+  "verification_status": "VERIFIED",
+  "verification_record_id": "dual-cvr-ex-wep-wet-variable-force-01",
+  "created_at": "2026-10-05T01:00:00Z",
+  "content_hash": "9630a0810e2c21e4ae518429eed47c7736177fa0a6eb71f7693d361f8a53622f"
+}

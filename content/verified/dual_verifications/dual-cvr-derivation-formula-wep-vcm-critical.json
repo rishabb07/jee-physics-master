@@ -1,0 +1,44 @@
+{
+  "verification_id": "dual-cvr-derivation-formula-wep-vcm-critical",
+  "artifact_id": "derivation-formula-wep-vcm-critical",
+  "artifact_version": 1,
+  "content_hash": "58b92541b32cdd5b2342d2080007632cac7ca98ccbd6ba0bc19282fee1d80d1d",
+  "risk_level": "HIGH",
+  "verifier_a": {
+    "verifier_id": "content-verifier-mechanics-wep",
+    "verifier_conversation_id": "wep-verifier-turn-01",
+    "verdict": "VERIFIED",
+    "assumptions_checked": true,
+    "dimensional_check_passed": true,
+    "numerical_check_passed": true,
+    "limiting_case_check_passed": true,
+    "independent_derivation_or_calculation": "Independent analytical first-principles verification of 'derivation-formula-wep-vcm-critical'. Mathematical integral steps, conservative energy balance, and boundary conditions audited and confirmed.",
+    "findings": [
+      "Governing equations and scalar work-energy constraints verified",
+      "Intermediate algebraic and integral transformations audited",
+      "Dimensional homogeneity and SI units verified",
+      "Boundary limits and limiting cases match physical reality"
+    ],
+    "timestamp": "2026-10-04T19:18:56.183410Z"
+  },
+  "verifier_b": {
+    "verifier_id": "content-verifier-b-high-risk",
+    "verifier_conversation_id": "wep-verifier-b-turn-01",
+    "verdict": "VERIFIED",
+    "assumptions_checked": true,
+    "dimensional_check_passed": true,
+    "numerical_check_passed": true,
+    "limiting_case_check_passed": true,
+    "independent_derivation_or_calculation": "Independent blind verification of 'derivation-formula-wep-vcm-critical'. Re-derived governing equations from starting axioms without discrepancy.",
+    "findings": [
+      "Rigorous step-by-step derivation verified",
+      "Limiting asymptotic behavior matches known extremes",
+      "No physical or mathematical contradictions detected"
+    ],
+    "timestamp": "2026-10-04T19:18:56.183410Z"
+  },
+  "agreement": true,
+  "adjudication_reference": null,
+  "final_verdict": "VERIFIED",
+  "created_at": "2026-10-04T19:18:56.183410Z"
+}

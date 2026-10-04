@@ -1,0 +1,1001 @@
+{
+  "chapter_id": "work-energy-power",
+  "chapter_title": "Work, Energy & Power",
+  "template_type": "MECHANICS",
+  "order": 4,
+  "taxonomy_references": [
+    {
+      "chapter_id": "work-energy-power",
+      "topic_id": "work-done",
+      "subtopic_id": "work-by-constant-force"
+    },
+    {
+      "chapter_id": "work-energy-power",
+      "topic_id": "work-done",
+      "subtopic_id": "work-by-variable-force"
+    },
+    {
+      "chapter_id": "work-energy-power",
+      "topic_id": "work-done",
+      "subtopic_id": "work-by-spring-force"
+    },
+    {
+      "chapter_id": "work-energy-power",
+      "topic_id": "work-done",
+      "subtopic_id": "work-by-friction"
+    },
+    {
+      "chapter_id": "work-energy-power",
+      "topic_id": "work-energy-theorem",
+      "subtopic_id": "kinetic-energy"
+    },
+    {
+      "chapter_id": "work-energy-power",
+      "topic_id": "work-energy-theorem",
+      "subtopic_id": "work-energy-theorem-inertial-frame"
+    },
+    {
+      "chapter_id": "work-energy-power",
+      "topic_id": "work-energy-theorem",
+      "subtopic_id": "work-energy-theorem-non-inertial-frame"
+    },
+    {
+      "chapter_id": "work-energy-power",
+      "topic_id": "conservative-forces-and-potential-energy",
+      "subtopic_id": "conservative-and-non-conservative-forces"
+    },
+    {
+      "chapter_id": "work-energy-power",
+      "topic_id": "conservative-forces-and-potential-energy",
+      "subtopic_id": "potential-energy-gradient"
+    },
+    {
+      "chapter_id": "work-energy-power",
+      "topic_id": "conservative-forces-and-potential-energy",
+      "subtopic_id": "equilibrium-stable-unstable-neutral"
+    },
+    {
+      "chapter_id": "work-energy-power",
+      "topic_id": "conservative-forces-and-potential-energy",
+      "subtopic_id": "conservation-of-mechanical-energy"
+    },
+    {
+      "chapter_id": "work-energy-power",
+      "topic_id": "power-and-vertical-circle",
+      "subtopic_id": "average-and-instantaneous-power"
+    },
+    {
+      "chapter_id": "work-energy-power",
+      "topic_id": "power-and-vertical-circle",
+      "subtopic_id": "vertical-circular-motion-critical-velocities"
+    },
+    {
+      "chapter_id": "work-energy-power",
+      "topic_id": "power-and-vertical-circle",
+      "subtopic_id": "string-slackening-condition"
+    }
+  ],
+  "learning_objectives": [
+    "Calculate work done by constant, variable, spring, and frictional forces using scalar products and line integrals.",
+    "Master the Work-Energy Theorem in both inertial and accelerating non-inertial reference frames.",
+    "Distinguish conservative from non-conservative forces using path-independence and closed-loop criteria.",
+    "Determine conservative force vectors from potential energy gradient fields F = -grad(U).",
+    "Analyze potential energy curves U(x) to locate turning points and evaluate equilibrium stability.",
+    "Apply the conservation of total mechanical energy and formulate energy balance under dissipative non-conservative forces.",
+    "Calculate average and instantaneous power delivered by machines and force fields.",
+    "Derive critical looping velocities and string slackening dynamics in vertical circular motion."
+  ],
+  "prerequisite_curriculum_nodes": [
+    "units-and-measurements",
+    "vectors-and-coordinate-systems",
+    "differential-calculus-foundations",
+    "integral-calculus-foundations",
+    "kinematics",
+    "laws-of-motion"
+  ],
+  "concept_sequence": [
+    {
+      "concept_id": "concept-wep-work-def-01",
+      "curriculum_id": "curr-wep-01",
+      "role": "FOUNDATION_CONCEPT",
+      "explanation_priority": 1,
+      "source_evidence": "HCV1 Ch 8 p. 129; HRW Ch 7 p. 173; UP Ch 6 p. 205"
+    },
+    {
+      "concept_id": "concept-wep-work-variable-01",
+      "curriculum_id": "curr-wep-02",
+      "role": "FOUNDATION_CONCEPT",
+      "explanation_priority": 2,
+      "source_evidence": "HCV1 Ch 8 p. 130; HRW Ch 7 p. 179; UP Ch 6 p. 215"
+    },
+    {
+      "concept_id": "concept-wep-work-spring-01",
+      "curriculum_id": "curr-wep-03",
+      "role": "FOUNDATION_CONCEPT",
+      "explanation_priority": 3,
+      "source_evidence": "HCV1 Ch 8 p. 130; HRW Ch 7 p. 175; UP Ch 6 p. 216"
+    },
+    {
+      "concept_id": "concept-wep-work-friction-01",
+      "curriculum_id": "curr-wep-04",
+      "role": "FOUNDATION_CONCEPT",
+      "explanation_priority": 4,
+      "source_evidence": "HCV1 Ch 8 p. 131; HRW Ch 8 p. 207; UP Ch 7 p. 250"
+    },
+    {
+      "concept_id": "concept-wep-ke-01",
+      "curriculum_id": "curr-wep-05",
+      "role": "FOUNDATION_CONCEPT",
+      "explanation_priority": 5,
+      "source_evidence": "HCV1 Ch 8 p. 128; HRW Ch 7 p. 173; UP Ch 6 p. 207"
+    },
+    {
+      "concept_id": "concept-wep-wet-inertial-01",
+      "curriculum_id": "curr-wep-06",
+      "role": "FOUNDATION_CONCEPT",
+      "explanation_priority": 6,
+      "source_evidence": "HCV1 Ch 8 p. 132; HRW Ch 7 p. 174; UP Ch 6 p. 207"
+    },
+    {
+      "concept_id": "concept-wep-wet-non-inertial-01",
+      "curriculum_id": "curr-wep-07",
+      "role": "FOUNDATION_CONCEPT",
+      "explanation_priority": 7,
+      "source_evidence": "HCV1 Ch 8 p. 134; Irodov Part 1 Section 1.3 p. 27"
+    },
+    {
+      "concept_id": "concept-wep-wet-internal-01",
+      "curriculum_id": "curr-wep-08",
+      "role": "FOUNDATION_CONCEPT",
+      "explanation_priority": 8,
+      "source_evidence": "HCV1 Ch 8 p. 133; HRW Ch 8 p. 208; UP Ch 6 p. 213"
+    },
+    {
+      "concept_id": "concept-wep-conservative-forces-01",
+      "curriculum_id": "curr-wep-09",
+      "role": "FOUNDATION_CONCEPT",
+      "explanation_priority": 9,
+      "source_evidence": "HCV1 Ch 8 p. 135; HRW Ch 8 p. 203; UP Ch 7 p. 248; Feynman Lec 14"
+    },
+    {
+      "concept_id": "concept-wep-pe-def-gradient-01",
+      "curriculum_id": "curr-wep-10",
+      "role": "FOUNDATION_CONCEPT",
+      "explanation_priority": 10,
+      "source_evidence": "HCV1 Ch 8 p. 137; HRW Ch 8 p. 204; UP Ch 7 p. 252"
+    },
+    {
+      "concept_id": "concept-wep-grav-spring-pe-01",
+      "curriculum_id": "curr-wep-11",
+      "role": "FOUNDATION_CONCEPT",
+      "explanation_priority": 11,
+      "source_evidence": "HCV1 Ch 8 p. 137-138; HRW Ch 8 p. 204; UP Ch 7 p. 235, 242"
+    },
+    {
+      "concept_id": "concept-wep-mech-energy-cons-01",
+      "curriculum_id": "curr-wep-12",
+      "role": "FOUNDATION_CONCEPT",
+      "explanation_priority": 12,
+      "source_evidence": "HCV1 Ch 8 p. 139; HRW Ch 8 p. 209; UP Ch 7 p. 237; Feynman Lec 4"
+    },
+    {
+      "concept_id": "concept-wep-equilibrium-stability-01",
+      "curriculum_id": "curr-wep-13",
+      "role": "FOUNDATION_CONCEPT",
+      "explanation_priority": 13,
+      "source_evidence": "HRW Ch 8 p. 205; UP Ch 7 p. 254; Irodov 1.3 p. 28"
+    },
+    {
+      "concept_id": "concept-wep-power-def-01",
+      "curriculum_id": "curr-wep-14",
+      "role": "FOUNDATION_CONCEPT",
+      "explanation_priority": 14,
+      "source_evidence": "HCV1 Ch 8 p. 142; HRW Ch 7 p. 181; UP Ch 6 p. 219"
+    },
+    {
+      "concept_id": "concept-wep-vertical-circle-critical-01",
+      "curriculum_id": "curr-wep-15",
+      "role": "FOUNDATION_CONCEPT",
+      "explanation_priority": 15,
+      "source_evidence": "HCV1 Ch 8 p. 140; UP Ch 5 p. 184; Irodov 1.3 p. 29"
+    },
+    {
+      "concept_id": "concept-wep-vertical-circle-slack-01",
+      "curriculum_id": "curr-wep-16",
+      "role": "FOUNDATION_CONCEPT",
+      "explanation_priority": 16,
+      "source_evidence": "HCV1 Ch 8 p. 141; Irodov 1.3 Problem 1.120"
+    },
+    {
+      "concept_id": "concept-wep-vertical-circle-rod-01",
+      "curriculum_id": "curr-wep-17",
+      "role": "FOUNDATION_CONCEPT",
+      "explanation_priority": 17,
+      "source_evidence": "HCV1 Ch 8 p. 141; Irodov 1.3 Problem 1.121"
+    }
+  ],
+  "formula_sequence": [
+    {
+      "formula_id": "formula-wep-work-const",
+      "title": "Work Done by a Constant Force",
+      "equation_latex": "W = \\vec{F} \\cdot \\vec{d} = F d \\cos\\theta = F_x d_x + F_y d_y + F_z d_z",
+      "variables": {
+        "W": "Mechanical work done",
+        "\\vec{F}": "Constant force vector",
+        "\\vec{d}": "Displacement vector",
+        "\\theta": "Angle between force and displacement vectors"
+      },
+      "units_and_dimensions": {
+        "W": "J (N m) ([M][L]^2[T]^-2)",
+        "\\vec{F}": "N ([M][L][T]^-2)",
+        "\\vec{d}": "m ([L])",
+        "\\theta": "rad ([1])"
+      },
+      "assumptions": [
+        "Force is constant in magnitude and direction throughout displacement"
+      ],
+      "conditions_of_validity": [
+        "Point particle or translation without rotation"
+      ],
+      "derivation_links": [
+        "derivation-formula-wep-work-const"
+      ],
+      "common_misuse_cases": [
+        "Using distance traveled along curve instead of displacement vector",
+        "Multiplying force magnitude by distance without cos(theta)"
+      ],
+      "verification_status": "VERIFIED"
+    },
+    {
+      "formula_id": "formula-wep-work-var-integral",
+      "title": "Work Done by a Variable Force",
+      "equation_latex": "W = \\int_{\\vec{r}_i}^{\\vec{r}_f} \\vec{F}(\\vec{r}) \\cdot d\\vec{r} = \\int_{x_i}^{x_f} F_x \\, dx + \\int_{y_i}^{y_f} F_y \\, dy + \\int_{z_i}^{z_f} F_z \\, dz",
+      "variables": {
+        "W": "Work done along trajectory",
+        "\\vec{F}(\\vec{r})": "Position-dependent force field",
+        "d\\vec{r}": "Infinitesimal displacement element vector"
+      },
+      "units_and_dimensions": {
+        "W": "J ([M][L]^2[T]^-2)",
+        "\\vec{F}(\\vec{r})": " ()",
+        "d\\vec{r}": "m ([L])"
+      },
+      "assumptions": [
+        "Force is integrable along piecewise smooth trajectory curve"
+      ],
+      "conditions_of_validity": [
+        "Universal for 1D, 2D, and 3D classical particle motion"
+      ],
+      "derivation_links": [
+        "derivation-formula-wep-work-var-integral"
+      ],
+      "common_misuse_cases": [
+        "Evaluating integral without specifying parametric path when force is non-conservative"
+      ],
+      "verification_status": "VERIFIED"
+    },
+    {
+      "formula_id": "formula-wep-work-spring",
+      "title": "Work Done by an Ideal Spring",
+      "equation_latex": "W_s = -\\frac{1}{2} k (x_f^2 - x_i^2)",
+      "variables": {
+        "W_s": "Work done BY the spring",
+        "k": "Spring stiffness constant",
+        "x_i": "Initial deformation from natural length",
+        "x_f": "Final deformation from natural length"
+      },
+      "units_and_dimensions": {
+        "W_s": "J ([M][L]^2[T]^-2)",
+        "k": "N/m (kg s^-2) ([M][T]^-2)",
+        "x_i": " ()",
+        "x_f": " ()"
+      },
+      "assumptions": [
+        "Massless spring obeying Hooke's law F = -kx",
+        "Deformation measured from unstretched length"
+      ],
+      "conditions_of_validity": [
+        "Within elastic limit of spring material"
+      ],
+      "derivation_links": [
+        "derivation-formula-wep-work-spring"
+      ],
+      "common_misuse_cases": [
+        "Confusing work done BY spring (-1/2 k x^2) with work done BY external agent (+1/2 k x^2)",
+        "Omitting squared term"
+      ],
+      "verification_status": "VERIFIED"
+    },
+    {
+      "formula_id": "formula-wep-work-friction-kinetic",
+      "title": "Work Done by Kinetic Friction",
+      "equation_latex": "W_{f_k} = -f_k s_{\\text{rel}} = -\\mu_k N s_{\\text{rel}}",
+      "variables": {
+        "W_{f_k}": "Dissipative interfacial work of kinetic friction",
+        "\\mu_k": "Coefficient of kinetic friction",
+        "N": "Normal contact reaction force",
+        "s_{\\text{rel}}": "Relative sliding displacement distance between contacting surfaces"
+      },
+      "units_and_dimensions": {
+        "W_{f_k}": " ()",
+        "\\mu_k": "dimensionless ([1])",
+        "N": "N ([M][L][T]^-2)",
+        "s_{\\text{rel}}": " ()"
+      },
+      "assumptions": [
+        "Constant normal force along sliding distance",
+        "Constant coefficient mu_k"
+      ],
+      "conditions_of_validity": [
+        "Dry sliding contact obeying Amontons-Coulomb law"
+      ],
+      "derivation_links": [
+        "derivation-formula-wep-work-friction-kinetic"
+      ],
+      "common_misuse_cases": [
+        "Using ground-frame displacement instead of relative interfacial displacement s_rel"
+      ],
+      "verification_status": "VERIFIED"
+    },
+    {
+      "formula_id": "formula-wep-kinetic-energy",
+      "title": "Kinetic Energy of a Particle",
+      "equation_latex": "K = \\frac{1}{2} m v^2 = \\frac{p^2}{2m}",
+      "variables": {
+        "K": "Kinetic energy",
+        "m": "Inertial mass",
+        "v": "Speed magnitude in reference frame",
+        "p": "Magnitude of linear momentum"
+      },
+      "units_and_dimensions": {
+        "K": "J ([M][L]^2[T]^-2)",
+        "m": "kg ([M])",
+        "v": "m/s ([L][T]^-1)",
+        "p": "kg m/s ([M][L][T]^-1)"
+      },
+      "assumptions": [
+        "Classical non-relativistic speed v << c",
+        "Point mass or pure translation"
+      ],
+      "conditions_of_validity": [
+        "Universal scalar definition in classical mechanics"
+      ],
+      "derivation_links": [
+        "derivation-formula-wep-kinetic-energy"
+      ],
+      "common_misuse_cases": [
+        "Treating kinetic energy as a vector",
+        "Applying formula in non-inertial frame without relative speed"
+      ],
+      "verification_status": "VERIFIED"
+    },
+    {
+      "formula_id": "formula-wep-work-energy-theorem",
+      "title": "Work-Energy Theorem in Inertial Frame",
+      "equation_latex": "W_{\\text{net}} = \\Delta K = K_f - K_i = \\frac{1}{2} m v_f^2 - \\frac{1}{2} m v_i^2",
+      "variables": {
+        "W_{\\text{net}}": "Total net work done by all forces",
+        "\\Delta K": "Change in kinetic energy",
+        "m": "Mass of particle",
+        "v_i": "Initial speed",
+        "v_f": "Final speed"
+      },
+      "units_and_dimensions": {
+        "W_{\\text{net}}": " ()",
+        "\\Delta K": " ()",
+        "m": "kg ()",
+        "v_i": " ()",
+        "v_f": " ()"
+      },
+      "assumptions": [
+        "Inertial frame of reference",
+        "Newton's Second Law holds"
+      ],
+      "conditions_of_validity": [
+        "Valid for all forces including conservative, non-conservative, variable, internal, and external"
+      ],
+      "derivation_links": [
+        "derivation-formula-wep-work-energy-theorem"
+      ],
+      "common_misuse_cases": [
+        "Omitting work done by normal force, tension, or friction",
+        "Applying to non-inertial frame without pseudo-force work"
+      ],
+      "verification_status": "VERIFIED"
+    },
+    {
+      "formula_id": "formula-wep-wet-non-inertial",
+      "title": "Work-Energy Theorem in Non-Inertial Reference Frame",
+      "equation_latex": "W_{\\text{real}} + W_{\\text{pseudo}} = \\Delta K_{\\text{rel}}",
+      "variables": {
+        "W_{\\text{real}}": "Work done by all physical forces along relative displacement",
+        "W_{\\text{pseudo}}": "Work done by fictitious inertial pseudo-force int (-m a_0) . dr_rel",
+        "\\Delta K_{\\text{rel}}": "Change in kinetic energy evaluated in the accelerating frame"
+      },
+      "units_and_dimensions": {
+        "W_{\\text{real}}": " ()",
+        "W_{\\text{pseudo}}": " ()",
+        "\\Delta K_{\\text{rel}}": " ()"
+      },
+      "assumptions": [
+        "Translating frame of reference with linear acceleration a_0"
+      ],
+      "conditions_of_validity": [
+        "Displacement evaluated relative to the accelerating frame"
+      ],
+      "derivation_links": [
+        "derivation-formula-wep-wet-non-inertial"
+      ],
+      "common_misuse_cases": [
+        "Using ground-frame displacement for pseudo-force work",
+        "Forgetting negative sign in pseudo-force F_pseudo = -m a_0"
+      ],
+      "verification_status": "VERIFIED"
+    },
+    {
+      "formula_id": "formula-wep-pe-def",
+      "title": "Definition of Potential Energy for Conservative Force",
+      "equation_latex": "\\Delta U = U_f - U_i = -W_c = -\\int_{\\vec{r}_i}^{\\vec{r}_f} \\vec{F}_c \\cdot d\\vec{r}",
+      "variables": {
+        "\\Delta U": "Change in potential energy",
+        "W_c": "Work done by the conservative force",
+        "\\vec{F}_c": "Conservative force vector"
+      },
+      "units_and_dimensions": {
+        "\\Delta U": " ()",
+        "W_c": " ()",
+        "\\vec{F}_c": " ()"
+      },
+      "assumptions": [
+        "Force field F_c is strictly conservative (curl F = 0)"
+      ],
+      "conditions_of_validity": [
+        "Independent of integration path"
+      ],
+      "derivation_links": [
+        "derivation-formula-wep-pe-gradient"
+      ],
+      "common_misuse_cases": [
+        "Attempting to define potential energy for friction or dissipative forces",
+        "Omitting negative sign Delta U = -W_c"
+      ],
+      "verification_status": "VERIFIED"
+    },
+    {
+      "formula_id": "formula-wep-pe-gradient",
+      "title": "Force as Negative Potential Energy Gradient",
+      "equation_latex": "\\vec{F} = -\\nabla U = -\\left(\\frac{\\partial U}{\\partial x}\\hat{i} + \\frac{\\partial U}{\\partial y}\\hat{j} + \\frac{\\partial U}{\\partial z}\\hat{k}\\right), \\quad F_x = -\\frac{dU}{dx}",
+      "variables": {
+        "\\vec{F}": "Conservative force vector",
+        "U(\\vec{r})": "Scalar potential energy function",
+        "\\nabla": "Spatial gradient vector operator"
+      },
+      "units_and_dimensions": {
+        "\\vec{F}": " ()",
+        "U(\\vec{r})": " ()",
+        "\\nabla": " ()"
+      },
+      "assumptions": [
+        "Smooth differentiable scalar potential field U(x, y, z)"
+      ],
+      "conditions_of_validity": [
+        "Exact differential dU = -F . dr"
+      ],
+      "derivation_links": [
+        "derivation-formula-wep-pe-gradient"
+      ],
+      "common_misuse_cases": [
+        "Omitting negative sign resulting in force directed toward potential maxima",
+        "Using ordinary derivative instead of partials in 3D"
+      ],
+      "verification_status": "VERIFIED"
+    },
+    {
+      "formula_id": "formula-wep-mech-energy-conservation",
+      "title": "Conservation of Mechanical Energy",
+      "equation_latex": "E_{\\text{mech}} = K + U = \\text{constant} \\iff K_i + U_i = K_f + U_f",
+      "variables": {
+        "E_{\\text{mech}}": "Total mechanical energy",
+        "K": "Kinetic energy",
+        "U": "Total potential energy"
+      },
+      "units_and_dimensions": {
+        "E_{\\text{mech}}": " ()",
+        "K": "J ()",
+        "U": "J ()"
+      },
+      "assumptions": [
+        "Only conservative forces do work on system (W_nc = 0)"
+      ],
+      "conditions_of_validity": [
+        "Zero non-conservative work and zero external energy exchange"
+      ],
+      "derivation_links": [
+        "derivation-formula-wep-mech-energy-conservation"
+      ],
+      "common_misuse_cases": [
+        "Applying formula when friction or air resistance is present without including dissipative work"
+      ],
+      "verification_status": "VERIFIED"
+    },
+    {
+      "formula_id": "formula-wep-equilibrium-stability",
+      "title": "Equilibrium Condition and Curvature Stability",
+      "equation_latex": "\\frac{dU}{dx} = 0; \\quad \\frac{d^2U}{dx^2} > 0 \\text{ (stable)}, \\quad \\frac{d^2U}{dx^2} < 0 \\text{ (unstable)}, \\quad \\frac{d^2U}{dx^2} = 0 \\text{ (neutral)}",
+      "variables": {
+        "U(x)": "1D potential energy function",
+        "x": "Position coordinate"
+      },
+      "units_and_dimensions": {
+        "U(x)": " ()",
+        "x": "m ()"
+      },
+      "assumptions": [
+        "1D conservative system with twice-differentiable potential U(x)"
+      ],
+      "conditions_of_validity": [
+        "Local Taylor expansion near equilibrium coordinate x_0"
+      ],
+      "derivation_links": [
+        "derivation-formula-wep-pe-gradient"
+      ],
+      "common_misuse_cases": [
+        "Confusing potential energy minimum with maximum",
+        "Ignoring higher order derivatives when d2U/dx2 = 0"
+      ],
+      "verification_status": "VERIFIED"
+    },
+    {
+      "formula_id": "formula-wep-power-instantaneous",
+      "title": "Instantaneous Mechanical Power",
+      "equation_latex": "P = \\frac{dW}{dt} = \\vec{F} \\cdot \\vec{v} = F v \\cos\\theta = F_x v_x + F_y v_y + F_z v_z",
+      "variables": {
+        "P": "Instantaneous power",
+        "W": "Work performed",
+        "\\vec{F}": "Applied force vector",
+        "\\vec{v}": "Velocity vector of point of application"
+      },
+      "units_and_dimensions": {
+        "P": "W (J/s) ([M][L]^2[T]^-3)",
+        "W": " ()",
+        "\\vec{F}": "N ([M][L][T]^-2)",
+        "\\vec{v}": "m/s ([L][T]^-1)"
+      },
+      "assumptions": [
+        "Inertial reference frame for velocity vector"
+      ],
+      "conditions_of_validity": [
+        "Point of application velocity matched with force agent"
+      ],
+      "derivation_links": [
+        "derivation-formula-wep-power-instantaneous"
+      ],
+      "common_misuse_cases": [
+        "Using average speed instead of instantaneous dot product F . v",
+        "Assuming power is constant during uniform acceleration"
+      ],
+      "verification_status": "VERIFIED"
+    },
+    {
+      "formula_id": "formula-wep-vcm-critical-bottom",
+      "title": "Critical Looping Velocities for Vertical Circle with String",
+      "equation_latex": "v_{\\text{bot,min}} = \\sqrt{5 g R}, \\quad v_{\\text{top,min}} = \\sqrt{g R}, \\quad T_{\\text{bot}} - T_{\\text{top}} = 6 mg",
+      "variables": {
+        "v_{\\text{bot,min}}": "Minimum speed at lowest point to complete vertical loop",
+        "v_{\\text{top,min}}": "Minimum speed at highest point (apex) without slackening",
+        "R": "Radius of circular path (length of string)",
+        "g": "Acceleration due to gravity",
+        "m": "Mass of particle"
+      },
+      "units_and_dimensions": {
+        "v_{\\text{bot,min}}": " ()",
+        "v_{\\text{top,min}}": " ()",
+        "R": "m ([L])",
+        "g": "m/s^2 ([L][T]^-2)",
+        "m": "kg ()"
+      },
+      "assumptions": [
+        "Light inextensible string",
+        "No air resistance",
+        "Planar vertical circle"
+      ],
+      "conditions_of_validity": [
+        "String tension T >= 0 everywhere on trajectory"
+      ],
+      "derivation_links": [
+        "derivation-formula-wep-vcm-critical"
+      ],
+      "common_misuse_cases": [
+        "Using v_bot = sqrt(4gR) for string instead of rigid rod",
+        "Assuming apex speed can be zero with a string"
+      ],
+      "verification_status": "VERIFIED"
+    },
+    {
+      "formula_id": "formula-wep-vcm-slack-condition",
+      "title": "String Slackening Angle in Upper Quadrant",
+      "equation_latex": "\\cos\\theta_{\\text{slack}} = -\\frac{v_{\\text{bot}}^2 - 2gR}{3gR}, \\quad \\text{for } \\sqrt{2gR} < v_{\\text{bot}} < \\sqrt{5gR}",
+      "variables": {
+        "\\theta_{\\text{slack}}": "Angle measured from lowest point at which string tension vanishes",
+        "v_{\\text{bot}}": "Launch speed at bottom",
+        "R": "Radius of circle",
+        "g": "Gravitational acceleration"
+      },
+      "units_and_dimensions": {
+        "\\theta_{\\text{slack}}": " ()",
+        "v_{\\text{bot}}": " ()",
+        "R": "m ()",
+        "g": "m/s^2 ()"
+      },
+      "assumptions": [
+        "Tension vanishes at angle theta_slack with non-zero speed",
+        "Light inextensible string"
+      ],
+      "conditions_of_validity": [
+        "Valid strictly in range pi/2 < theta < pi where cos(theta) < 0"
+      ],
+      "derivation_links": [
+        "derivation-formula-wep-vcm-slack"
+      ],
+      "common_misuse_cases": [
+        "Applying formula when v_bot <= sqrt(2gR) (pendulum oscillation regime)",
+        "Assuming speed is zero at slack point"
+      ],
+      "verification_status": "VERIFIED"
+    }
+  ],
+  "misconception_sequence": [
+    {
+      "misconception_id": "misc-wep-01",
+      "category": "SIGN_MISTAKE",
+      "statement": "Friction always does negative work on every body it acts upon.",
+      "explanation": "Friction opposes RELATIVE motion at the contact interface, not necessarily motion relative to the ground. Static friction can do positive, negative, or zero work depending on the reference frame. For a crate sitting on the flatbed of an accelerating truck, static friction accelerates the crate forward in the direction of ground displacement, doing POSITIVE work.",
+      "trap_mechanism": "Students assume friction always opposes motion, and therefore the angle between force and displacement is always 180 deg, making work negative.",
+      "trigger_conditions": [
+        "A box of mass m rests on a flatbed truck accelerating at a = 2 m/s^2 over d = 10 m. Static friction f_s = ma = 2m N acts forward. Work done by static friction on the box is W = f_s d = +20m J > 0, which supplies the box's kinetic energy increase."
+      ]
+    },
+    {
+      "misconception_id": "misc-wep-02",
+      "category": "INVALID_FORMULA_CONDITION",
+      "statement": "The normal reaction force never does mechanical work on any object.",
+      "explanation": "Normal force is strictly perpendicular to the contact interface, but the interface itself may be moving! When a person stands in an elevator accelerating upward, the normal force on their feet is parallel to the upward displacement, performing positive work W = N d > 0.",
+      "trap_mechanism": "Students overgeneralize from horizontal sliding (where normal force is perpendicular to horizontal displacement) to believe normal force work is universally zero.",
+      "trigger_conditions": [
+        "In an elevator accelerating upward through height h with acceleration a, the floor exerts upward normal force N = m(g + a). Displacement is upward d = h. Work done by normal force is W_N = m(g + a)h > 0."
+      ]
+    },
+    {
+      "misconception_id": "misc-wep-03",
+      "category": "INVALID_FORMULA_CONDITION",
+      "statement": "The Work-Energy Theorem applies only to constant forces along rectilinear paths.",
+      "explanation": "The Work-Energy Theorem is derived by integrating Newton's Second Law along an arbitrary 3D curve: int F_net . dr = int m (dv/dt) . v dt = int m v dv = Delta K. It holds rigorously for arbitrary position-dependent, velocity-dependent, or time-dependent forces along any curved path.",
+      "trap_mechanism": "Students learn W = F d cos(theta) first and mistakenly assume the theorem W_net = Delta K requires constant acceleration equations.",
+      "trigger_conditions": [
+        "For a simple pendulum or curved roller-coaster track where force direction and magnitude continuously vary, W_net = Delta K yields exact velocities without needing constant acceleration."
+      ]
+    },
+    {
+      "misconception_id": "misc-wep-04",
+      "category": "WRONG_CONSERVATION_LAW",
+      "statement": "Internal forces in a system can never do net mechanical work because action and reaction cancel.",
+      "explanation": "While action and reaction forces are equal and opposite (F_ij = -F_ji), the displacements of their respective points of application may differ! When two blocks connected by a compressed spring are released, both blocks move outward: the spring does positive work on both blocks, increasing total kinetic energy.",
+      "trap_mechanism": "Confusing linear momentum conservation (where internal forces sum to zero vector sum F_int = 0) with work, which depends on individual displacements.",
+      "trigger_conditions": [
+        "A compressed spring (k = 100 N/m, x = 0.2 m) between two masses on a frictionless floor releases. Both masses accelerate away. Total internal spring work is W_int = +1/2 k x^2 = +2 J, increasing kinetic energy from 0 to 2 J."
+      ]
+    },
+    {
+      "misconception_id": "misc-wep-05",
+      "category": "INVALID_FORMULA_CONDITION",
+      "statement": "Potential energy can be defined for any physical force, including friction.",
+      "explanation": "Potential energy U requires that work between two points be independent of path, satisfying oint F . dr = 0. For kinetic friction, the line integral along a closed round trip is strictly non-zero (-2 mu_k N L < 0). Friction dissipates mechanical energy irreversibly into thermal disorder; no reversible potential energy can be formulated.",
+      "trap_mechanism": "Believing that because work can be calculated for friction, one can simply define a 'frictional potential energy' U_f.",
+      "trigger_conditions": [
+        "Sliding a block around a closed square loop of perimeter 4L on a rough floor does negative work W_f = -4 mu_k N L != 0. If a potential existed, round-trip work would be identically zero."
+      ]
+    },
+    {
+      "misconception_id": "misc-wep-06",
+      "category": "INVALID_FORMULA_CONDITION",
+      "statement": "In vertical circular motion, tension at the top must be strictly zero for the particle to complete the circle.",
+      "explanation": "The requirement to complete the loop is an inequality: T_top >= 0. For any launch speed v_bot > sqrt(5gR), tension at the top is strictly positive: T_top = m v_top^2 / R - mg > 0. Only at the exact threshold v_bot = sqrt(5gR) does tension vanish momentarily at the apex point.",
+      "trap_mechanism": "Treating the limiting boundary condition T_top = 0 as an equality that must always hold, or assuming zero tension means the string has snapped.",
+      "trigger_conditions": [
+        "If a particle is launched with v_bot = sqrt(6gR), energy conservation gives v_top = sqrt(2gR). Radial tension at apex is T_top = m(2gR)/R - mg = mg > 0."
+      ]
+    }
+  ],
+  "worked_example_sequence": [
+    {
+      "example_id": "ex-wep-spring-compress-01",
+      "problem_statement": "A block of mass $m = 2.0\\text{ kg}$ is released with speed $v_0 = 4.0\\text{ m/s}$ on a rough horizontal floor with kinetic friction coefficient $\\mu_k = 0.20$. After traveling distance $d = 2.0\\text{ m}$, it collides with an uncompressed horizontal spring of spring constant $k = 400\\text{ N/m}$ fixed to a rigid wall. Find the maximum compression $x_{\\text{max}}$ of the spring. (Take $g = 9.8\\text{ m/s}^2$).",
+      "known_quantities": {
+        "m": "2.0",
+        "v_0": "4.0",
+        "mu_k": "0.2",
+        "d": "2.0",
+        "k": "400.0",
+        "g": "9.8"
+      },
+      "target_quantity": "x_max",
+      "relevant_concepts": [
+        "concept-wep-work-def-01"
+      ],
+      "governing_principles": [
+        "Work-Energy Principle"
+      ],
+      "solution_strategy": "Apply the Work-Energy Theorem to the block from initial release to the point of maximum spring compression, accounting for friction work over total distance d + x_max and spring work.",
+      "step_by_step_derivation": [
+        "K_i = \\frac{1}{2} m v_0^2 = \\frac{1}{2}(2.0)(4.0)^2 = 16.0\\text{ J}, \\quad K_f = 0",
+        "W_{\\text{net}} = W_{f_k} + W_s = -\\mu_k m g (d + x_{\\text{max}}) - \\frac{1}{2} k x_{\\text{max}}^2",
+        "-(0.20)(2.0)(9.8)(2.0 + x_{\\text{max}}) - \\frac{1}{2}(400) x_{\\text{max}}^2 = -16.0 \\implies 3.92(2.0 + x_{\\text{max}}) + 200 x_{\\text{max}}^2 = 16.0",
+        "x_{\\text{max}} = \\frac{-3.92 + \\sqrt{3.92^2 - 4(200)(-8.16)}}{2(200)} = \\frac{-3.92 + \\sqrt{15.3664 + 6528}}{400} = \\frac{-3.92 + 80.89}{400} \\approx 0.192\\text{ m} = 19.2\\text{ cm}"
+      ],
+      "final_answer": "x_{\\text{max}} \\approx 0.192\\text{ m} = 19.2\\text{ cm}",
+      "sanity_checks": [
+        "Total energy dissipated by friction is 3.92 * 2.192 = 8.59 J, spring stores 1/2 * 400 * (0.192)^2 = 7.37 J, sum = 15.96 J approx 16.0 J",
+        "x_max must be strictly positive"
+      ],
+      "verification_status": "VERIFIED"
+    },
+    {
+      "example_id": "ex-wep-wet-variable-force-01",
+      "problem_statement": "A particle of mass $m = 1.0\\text{ kg}$ is initially at rest at $x = 0$. It is subjected to a 1D force $F(x) = (6.0 - 2.0x)\\text{ N}$ directed along the x-axis, where $x$ is in meters. Find: (a) the position where the particle attains maximum speed, and (b) the maximum speed $v_{\\text{max}}$.",
+      "known_quantities": {
+        "m": "1.0",
+        "x_0": "0.0",
+        "v_0": "0.0",
+        "F(x)": "6.0 - 2.0x"
+      },
+      "target_quantity": "x_opt, v_max",
+      "relevant_concepts": [
+        "concept-wep-work-def-01"
+      ],
+      "governing_principles": [
+        "Work-Energy Principle"
+      ],
+      "solution_strategy": "Maximum speed occurs where acceleration and net force vanish (F(x) = 0). Then apply work-energy theorem by integrating F(x) from 0 to x_opt.",
+      "step_by_step_derivation": [
+        "F(x) = 6.0 - 2.0x = 0 \\implies x_{\\text{opt}} = 3.0\\text{ m}",
+        "W_{\\text{net}} = \\int_0^{3.0} (6.0 - 2.0x) \\, dx = \\left[ 6.0x - x^2 \\right]_0^{3.0} = 6.0(3.0) - (3.0)^2 = 18.0 - 9.0 = 9.0\\text{ J}",
+        "\\frac{1}{2}(1.0) v_{\\text{max}}^2 = 9.0 \\implies v_{\\text{max}}^2 = 18.0 \\implies v_{\\text{max}} = \\sqrt{18.0} = 3\\sqrt{2} \\approx 4.24\\text{ m/s}"
+      ],
+      "final_answer": "x_{\\text{opt}} = 3.0\\text{ m}, \\quad v_{\\text{max}} = 3\\sqrt{2} \\approx 4.24\\text{ m/s}",
+      "sanity_checks": [
+        "Beyond x = 3.0 m, force becomes negative, decelerating the particle, verifying x = 3.0 m is a true maximum",
+        "Dimensional check: [6x] = [x^2] = [N m] = [J]"
+      ],
+      "verification_status": "VERIFIED"
+    },
+    {
+      "example_id": "ex-wep-wet-non-inertial-pendulum-01",
+      "problem_statement": "A simple pendulum of bob mass $m$ and string length $L$ hangs in an elevator accelerating upward with constant acceleration $a_0$. If the bob is deflected by angle $\\theta_0$ from the vertical and released from rest relative to the elevator, find the speed $v_{\\text{rel}}$ of the bob at the lowest point.",
+      "known_quantities": {
+        "m": "m",
+        "L": "L",
+        "a_0": "a_0",
+        "theta_0": "theta_0"
+      },
+      "target_quantity": "v_rel",
+      "relevant_concepts": [
+        "concept-wep-work-def-01"
+      ],
+      "governing_principles": [
+        "Work-Energy Principle"
+      ],
+      "solution_strategy": "Analyze in the non-inertial reference frame of the upward accelerating elevator. Effective downward acceleration is g_eff = g + a_0, and string tension does zero work because it is perpendicular to trajectory.",
+      "step_by_step_derivation": [
+        "\\vec{g}_{\\text{eff}} = \\vec{g} - \\vec{a}_0 = -(g + a_0)\\hat{j} \\implies g_{\\text{eff}} = g + a_0",
+        "h_{\\text{rel}} = L - L \\cos\\theta_0 = L(1 - \\cos\\theta_0)",
+        "W_{\\text{net, rel}} = m(g + a_0) h_{\\text{rel}} = m(g + a_0) L(1 - \\cos\\theta_0) = \\frac{1}{2} m v_{\\text{rel}}^2 - 0",
+        "v_{\\text{rel}} = \\sqrt{2(g + a_0)L(1 - \\cos\\theta_0)}"
+      ],
+      "final_answer": "v_{\\text{rel}} = \\sqrt{2(g + a_0)L(1 - \\cos\\theta_0)}",
+      "sanity_checks": [
+        "When a_0 = 0, formula reduces to standard stationary pendulum v = sqrt(2gL(1 - cos theta_0))",
+        "If elevator is in free fall a_0 = -g, g_eff = 0 and bob does not accelerate (v_rel = 0)"
+      ],
+      "verification_status": "VERIFIED"
+    },
+    {
+      "example_id": "ex-wep-pe-curve-equilibrium-01",
+      "problem_statement": "The potential energy of a diatomic system as a function of atomic separation $r$ is modeled by $U(r) = \\frac{A}{r^2} - \\frac{B}{r}$, where $A > 0$ and $B > 0$ are constants. Determine: (a) the equilibrium separation distance $r_0$, (b) the nature of the equilibrium, and (c) the minimum work required to dissociate the system from equilibrium to infinite separation.",
+      "known_quantities": {
+        "A": "A > 0",
+        "B": "B > 0"
+      },
+      "target_quantity": "r_0, stability, W_diss",
+      "relevant_concepts": [
+        "concept-wep-work-def-01"
+      ],
+      "governing_principles": [
+        "Work-Energy Principle"
+      ],
+      "solution_strategy": "Find equilibrium by setting dU/dr = 0, check stability using d^2U/dr^2, and calculate dissociation energy as U(infty) - U(r_0).",
+      "step_by_step_derivation": [
+        "\\frac{dU}{dr} = -\\frac{2A}{r^3} + \\frac{B}{r^2} = 0 \\implies \\frac{B}{r^2} = \\frac{2A}{r^3} \\implies r_0 = \\frac{2A}{B}",
+        "\\frac{d^2U}{dr^2} = \\frac{6A}{r^4} - \\frac{2B}{r^3} = \\frac{1}{r_0^3}\\left( \\frac{6A}{2A/B} - 2B \\right) = \\frac{1}{r_0^3}(3B - 2B) = \\frac{B}{r_0^3} > 0",
+        "\\frac{d^2U}{dr^2}\\Big|_{r_0} > 0 \\implies \\text{STABLE EQUILIBRIUM}",
+        "U(r_0) = \\frac{A}{(2A/B)^2} - \\frac{B}{(2A/B)} = \\frac{B^2}{4A} - \\frac{B^2}{2A} = -\\frac{B^2}{4A}, \\quad U(\\infty) = 0 \\implies W_{\\text{diss}} = 0 - \\left(-\\frac{B^2}{4A}\\right) = \\frac{B^2}{4A}"
+      ],
+      "final_answer": "r_0 = \\frac{2A}{B}, \\quad \\text{STABLE EQUILIBRIUM}, \\quad W_{\\text{diss}} = \\frac{B^2}{4A}",
+      "sanity_checks": [
+        "Dimensions: [A] = [Energy][L]^2, [B] = [Energy][L] => [r_0] = [A/B] = [L], [B^2/4A] = [Energy], dimensional consistency verified",
+        "As r -> 0, U -> +infty (strong repulsion); as r -> infty, U -> 0 (zero interaction)"
+      ],
+      "verification_status": "VERIFIED"
+    },
+    {
+      "example_id": "ex-wep-power-constant-engine-01",
+      "problem_statement": "An electric locomotive of total mass $M = 2.0 \\times 10^4\\text{ kg}$ starts from rest and is driven by an engine delivering constant mechanical power $P_0 = 100\\text{ kW}$. Assuming no frictional or aerodynamic losses, find: (a) the speed $v(t)$ as a function of time, (b) the distance $s(t)$ covered as a function of time, and (c) the speed and distance at $t = 10.0\\text{ s}$.",
+      "known_quantities": {
+        "M": "20000.0",
+        "P_0": "100000.0",
+        "v_0": "0.0"
+      },
+      "target_quantity": "v(t), s(t), v(10), s(10)",
+      "relevant_concepts": [
+        "concept-wep-work-def-01"
+      ],
+      "governing_principles": [
+        "Work-Energy Principle"
+      ],
+      "solution_strategy": "Use work-energy relation P_0 = dK/dt = d(1/2 M v^2)/dt to integrate velocity directly, then integrate velocity to obtain displacement.",
+      "step_by_step_derivation": [
+        "P_0 = \\frac{dK}{dt} = \\frac{d}{dt}\\left( \\frac{1}{2} M v^2 \\right) \\implies \\frac{1}{2} M v^2 = P_0 t \\implies v(t) = \\sqrt{\\frac{2 P_0 t}{M}}",
+        "v(t) = \\sqrt{\\frac{2 \\times 10^5}{2 \\times 10^4} t} = \\sqrt{10 t} = \\sqrt{10} t^{1/2}",
+        "s(t) = \\int_0^t v(t') \\, dt' = \\sqrt{10} \\int_0^t t'^{1/2} \\, dt' = \\sqrt{10} \\left[ \\frac{2}{3} t^{3/2} \\right] = \\frac{2\\sqrt{10}}{3} t^{3/2}",
+        "v(10) = \\sqrt{10 \\times 10} = 10.0\\text{ m/s}, \\quad s(10) = \\frac{2\\sqrt{10}}{3} (10)^{3/2} = \\frac{2\\sqrt{10}}{3} (10\\sqrt{10}) = \\frac{200}{3} \\approx 66.7\\text{ m}"
+      ],
+      "final_answer": "v(t) = \\sqrt{10 t}, \\quad s(t) = \\frac{2\\sqrt{10}}{3} t^{3/2}; \\quad v(10) = 10.0\\text{ m/s}, \\quad s(10) = \\frac{200}{3}\\text{ m} \\approx 66.7\\text{ m}",
+      "sanity_checks": [
+        "Kinetic energy at t = 10 s: K = 1/2 (20000) (10)^2 = 1.0 x 10^6 J. Total energy delivered: P_0 * t = 100000 * 10 = 1.0 x 10^6 J, exact match",
+        "Dimensions: [P t / M]^(1/2) = ([M L^2 T^-3 T] / [M])^(1/2) = (L^2 T^-2)^(1/2) = L T^-1, correct velocity dimensions"
+      ],
+      "verification_status": "VERIFIED"
+    },
+    {
+      "example_id": "ex-wep-vcm-slack-projectile-01",
+      "problem_statement": "A small body of mass $m$ is suspended by a light string of length $R = 1.0\\text{ m}$ from a fixed peg $O$. The body is given a horizontal velocity $v_0 = \\sqrt{3 g R}$ at the lowest point. Find: (a) the angle $\\theta_s$ from the downward vertical where the string becomes slack, and (b) the maximum height $H_{\\text{max}}$ attained by the body above the lowest point during its subsequent motion. (Take $g = 9.8\\text{ m/s}^2$).",
+      "known_quantities": {
+        "R": "1.0",
+        "v_0": "sqrt(3 g R)",
+        "g": "9.8"
+      },
+      "target_quantity": "theta_s, H_max",
+      "relevant_concepts": [
+        "concept-wep-work-def-01"
+      ],
+      "governing_principles": [
+        "Work-Energy Principle"
+      ],
+      "solution_strategy": "First calculate angle where tension vanishes using cos(theta_s) = -(v_0^2 - 2gR)/(3gR). Then determine velocity at slack point and treat subsequent flight as standard projectile motion launched at angle alpha = theta_s - pi/2 to the horizontal.",
+      "step_by_step_derivation": [
+        "\\cos\\theta_s = -\\frac{v_0^2 - 2gR}{3gR} = -\\frac{3gR - 2gR}{3gR} = -\\frac{1}{3} \\implies \\theta_s = \\arccos(-1/3) \\approx 109.47^\\circ",
+        "v_s^2 = v_0^2 - 2gR(1 - \\cos\\theta_s) = 3gR - 2gR\\left(1 - \\left(-\\frac{1}{3}\\right)\\right) = 3gR - 2gR\\left(\\frac{4}{3}\\right) = \\frac{1}{3} g R",
+        "y_s = R(1 - \\cos\\theta_s) = R\\left(1 - \\left(-\\frac{1}{3}\\right)\\right) = \\frac{4}{3} R",
+        "\\sin\\alpha = |\\cos\\theta_s| = \\frac{1}{3}",
+        "h_{\\text{proj}} = \\frac{v_s^2 \\sin^2\\alpha}{2g} = \\frac{(gR/3)(1/3)^2}{2g} = \\frac{R/27}{2} = \\frac{R}{54}",
+        "H_{\\text{max}} = y_s + h_{\\text{proj}} = \\frac{4}{3} R + \\frac{1}{54} R = \\frac{72 + 1}{54} R = \\frac{73}{54} R = \\frac{73}{54}(1.0) \\approx 1.352\\text{ m}"
+      ],
+      "final_answer": "\\cos\\theta_s = -\\frac{1}{3} \\implies \\theta_s \\approx 109.5^\\circ, \\quad H_{\\text{max}} = \\frac{73}{54} R \\approx 1.35\\text{ m}",
+      "sanity_checks": [
+        "H_max must be less than 2R (looping apex) and greater than 4/3 R (slack point): 1.333 R < 1.352 R < 2.0 R, verified",
+        "At slack point, T = 0 and radial component of gravity mg cos(theta_s) exactly balances m v_s^2 / R"
+      ],
+      "verification_status": "VERIFIED"
+    }
+  ],
+  "question_sequence": [
+    {
+      "atom_id": "work-energy-power-question-e37050bb",
+      "curriculum_id": "curr-q-wep-01",
+      "chapter_id": "work-energy-power",
+      "topic_id": "work-energy-theorem",
+      "pedagogical_role": "PRACTICE_QUESTION",
+      "difficulty_dimensions": {
+        "conceptual_difficulty": 3,
+        "mathematical_difficulty": 3,
+        "multistep_reasoning_difficulty": 3,
+        "abstraction_difficulty": 2,
+        "computational_burden": 2,
+        "trap_misconception_difficulty": 3
+      }
+    },
+    {
+      "atom_id": "work-energy-power-question-ba0b4106",
+      "curriculum_id": "curr-q-wep-02",
+      "chapter_id": "work-energy-power",
+      "topic_id": "conservative-forces-and-potential-energy",
+      "pedagogical_role": "PRACTICE_QUESTION",
+      "difficulty_dimensions": {
+        "conceptual_difficulty": 3,
+        "mathematical_difficulty": 3,
+        "multistep_reasoning_difficulty": 3,
+        "abstraction_difficulty": 2,
+        "computational_burden": 2,
+        "trap_misconception_difficulty": 3
+      }
+    }
+  ],
+  "question_ladders": [
+    {
+      "ladder_id": "ladder-wep-vcm-looping-01",
+      "chapter_id": "work-energy-power",
+      "topic_id": "power-and-vertical-circle",
+      "title": "Scaffolding Vertical Circular Motion from Bottom Launch to Slack Trajectories",
+      "physical_system": "Particle of mass m attached to light inextensible string of length R orbiting in vertical gravitational field g",
+      "rungs": [
+        {
+          "level": 1,
+          "level_name": "Loop-the-loop minimum launch speed",
+          "atom_id": "work-energy-power-question-e37050bb",
+          "physical_delta": "Particle launched horizontally at bottom with critical speed required to complete full vertical circle without string slackening",
+          "reasoning_depth": 2,
+          "concepts_involved": [
+            "concept-wep-vertical-circle-critical-01",
+            "concept-wep-mech-energy-cons-01"
+          ],
+          "mathematical_complexity": "Conservation of energy combined with apex radial dynamic equilibrium T_top >= 0 yielding v_bot >= sqrt(5gR)",
+          "transfer_requirement": "Recognizing that minimum tension occurs at apex, not horizontal position"
+        },
+        {
+          "level": 2,
+          "level_name": "Tension difference between extremities",
+          "atom_id": "work-energy-power-question-ba0b4106",
+          "physical_delta": "Comparing string tension at bottom T_bot and apex T_top for arbitrary looping speed",
+          "reasoning_depth": 3,
+          "concepts_involved": [
+            "concept-wep-vertical-circle-critical-01"
+          ],
+          "mathematical_complexity": "Algebraic elimination of speed using energy conservation to yield universal invariant T_bot - T_top = 6mg",
+          "transfer_requirement": "Proving that the 6mg tension difference is completely independent of initial kinetic energy"
+        },
+        {
+          "level": 3,
+          "level_name": "String slackening angle in upper quadrant",
+          "atom_id": "prob-irodov-1-120",
+          "physical_delta": "Particle launched with intermediate speed sqrt(2gR) < v_bot < sqrt(5gR) such that string tension vanishes before reaching the top",
+          "reasoning_depth": 4,
+          "concepts_involved": [
+            "concept-wep-vertical-circle-slack-01",
+            "concept-wep-vertical-circle-critical-01"
+          ],
+          "mathematical_complexity": "Setting radial constraint T(theta) = 0 and solving coupled energy-radial equations for cos(theta_slack)",
+          "transfer_requirement": "Distinguishing string slackening (T=0, v > 0) from turning point in lower quadrant (v=0, T > 0)"
+        },
+        {
+          "level": 4,
+          "level_name": "Post-slack parabolic projectile flight",
+          "atom_id": "prob-irodov-1-118",
+          "physical_delta": "Subsequent free-flight projectile trajectory after string goes slack at theta_slack, analyzing path through circle center",
+          "reasoning_depth": 5,
+          "concepts_involved": [
+            "concept-wep-vertical-circle-slack-01",
+            "concept-kin-projectile-01"
+          ],
+          "mathematical_complexity": "Solving 2D ballistic trajectory with initial launch position (R sin theta, R cos theta) and tangential velocity vector",
+          "transfer_requirement": "Synthesizing circular constraint release conditions with Cartesian projectile kinematics"
+        }
+      ],
+      "pedagogical_objective": "Systematically scaffold vertical circular dynamics from energy-tension conservation to universal tension differences, slackening angle bifurcations, and projectile departure flight."
+    }
+  ],
+  "revision_checklist": [
+    "Work scalar product W = F . d cos(theta) and sign conventions",
+    "Work line integral W = int F . dr and area under F-x graph",
+    "Spring work formula W_s = -1/2 k (x_f^2 - x_i^2)",
+    "Kinetic energy K = 1/2 m v^2 = p^2 / (2m)",
+    "Work-Energy theorem W_net = Delta K for inertial and non-inertial frames",
+    "Conservative force definition and closed loop integral oint F . dr = 0",
+    "Force-potential gradient relation F = -grad(U) and F_x = -dU/dx",
+    "Potential curve equilibrium classification: dU/dx = 0; d2U/dx2 > 0 (stable), < 0 (unstable)",
+    "Mechanical energy conservation Delta E_mech = W_nc",
+    "Instantaneous power P = F . v and average power P_avg = W / Delta t",
+    "Vertical circle looping critical speeds: v_bot = sqrt(5gR), v_top = sqrt(gR)",
+    "Vertical circle tension invariant T_bot - T_top = 6mg",
+    "String slackening condition cos(theta_slack) = -(v_bot^2 - 2gR)/(3gR)"
+  ],
+  "created_at": "2026-10-05T01:00:00Z"
+}

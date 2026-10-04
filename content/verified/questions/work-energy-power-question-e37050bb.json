@@ -1,0 +1,26 @@
+{
+  "question_id": "work-energy-power-question-e37050bb",
+  "chapter_id": "work-energy-power",
+  "topic_id": "work-energy-theorem",
+  "subtopic_id": "work-energy-theorem-inertial-frame",
+  "question_type": "SINGLE_CORRECT_MCQ",
+  "problem_statement": "A particle of mass $m$ is projected with speed $u$ at an angle $\\theta$ with the horizontal. The net work done by gravity on the particle from the instant of projection until it reaches the highest point of its trajectory is:",
+  "options": {
+    "A": "$-\\frac{1}{2} m u^2 \\sin^2\\theta$",
+    "B": "$\\frac{1}{2} m u^2 \\cos^2\\theta$",
+    "C": "$-\\frac{1}{2} m u^2$",
+    "D": "Zero"
+  },
+  "correct_answer": "A",
+  "distractor_rationales": {
+    "B": "Confuses work done with horizontal kinetic energy retained at the apex.",
+    "C": "Omits the angle factor, assuming the entire initial kinetic energy is removed.",
+    "D": "Mistakenly assumes work is zero over symmetric ascent."
+  },
+  "explanation": "At the highest point, the vertical velocity component vanishes, leaving only the horizontal component $v_x = u \\cos\\theta$. By the Work-Energy Theorem, $W_g = \\Delta K = K_f - K_i = \\frac{1}{2} m (u\\cos\\theta)^2 - \\frac{1}{2} m u^2 = \\frac{1}{2} m u^2 (\\cos^2\\theta - 1) = -\\frac{1}{2} m u^2 \\sin^2\\theta$.",
+  "difficulty_rating": 2,
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-q-wep-01",
+  "created_at": "2026-10-05T01:00:00Z",
+  "content_hash": "3294e28066e64983185c7ae63e40818398dd9a83ab8f47131d63e608937f9a3c"
+}

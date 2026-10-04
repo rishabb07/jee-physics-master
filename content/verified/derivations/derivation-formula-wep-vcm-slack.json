@@ -1,0 +1,49 @@
+{
+  "derivation_id": "derivation-formula-wep-vcm-slack",
+  "chapter_id": "work-energy-power",
+  "title": "Derivation of String Slackening Angle and Velocity in Vertical Circle",
+  "target_formula_id": "formula-wep-vcm-slack-condition",
+  "target_equation": "\\cos\\theta_{\\text{slack}} = -\\frac{v_{\\text{bot}}^2 - 2gR}{3gR}",
+  "assumptions": [
+    "Launch speed sqrt(2gR) < v_bot < sqrt(5gR)",
+    "Light inextensible string",
+    "Particle leaves circular path at T = 0"
+  ],
+  "starting_principles": [
+    "Radial equation T - mg cos(theta) = m v^2 / R with theta measured from lowest point",
+    "Energy conservation 1/2 m v_bot^2 = 1/2 m v^2 + mg R(1 - cos(theta))"
+  ],
+  "ordered_steps": [
+    {
+      "step_number": 1,
+      "explanation": "Express velocity v(theta) at angle theta from bottom using energy conservation.",
+      "equation_latex": "v^2(\\theta) = v_{\\text{bot}}^2 - 2 g R (1 - \\cos\\theta)"
+    },
+    {
+      "step_number": 2,
+      "explanation": "Substitute v^2(theta) into the general radial dynamic tension equation.",
+      "equation_latex": "T(\\theta) = \\frac{m v^2(\\theta)}{R} + mg \\cos\\theta = \\frac{m}{R}\\left[ v_{\\text{bot}}^2 - 2 g R + 2 g R \\cos\\theta \\right] + mg \\cos\\theta = \\frac{m v_{\\text{bot}}^2}{R} - 2 mg + 3 mg \\cos\\theta"
+    },
+    {
+      "step_number": 3,
+      "explanation": "Set string tension equal to zero T(theta_slack) = 0 to obtain the condition for slackening.",
+      "equation_latex": "\\frac{m v_{\\text{bot}}^2}{R} - 2 mg + 3 mg \\cos\\theta_{\\text{slack}} = 0 \\implies 3 mg \\cos\\theta_{\\text{slack}} = 2 mg - \\frac{m v_{\\text{bot}}^2}{R}"
+    },
+    {
+      "step_number": 4,
+      "explanation": "Solve for cos(theta_slack).",
+      "equation_latex": "\\cos\\theta_{\\text{slack}} = -\\frac{v_{\\text{bot}}^2 - 2 g R}{3 g R}"
+    }
+  ],
+  "limiting_cases": [
+    "If v_bot = sqrt(2gR), cos(theta_slack) = 0 yielding theta_slack = pi/2 (reaches horizontal with v=0)",
+    "If v_bot = sqrt(5gR), cos(theta_slack) = - (5gR - 2gR)/(3gR) = -1 yielding theta_slack = pi (apex without slack)"
+  ],
+  "claim_traces": [
+    "HCV1 Ch 8 p. 141; Irodov 1.3 Problem 1.120"
+  ],
+  "verification_status": "VERIFIED",
+  "verification_record_id": "dual-cvr-derivation-formula-wep-vcm-slack",
+  "created_at": "2026-10-05T01:00:00Z",
+  "content_hash": "edbbea208338814d3be7031b4731152cadffa4ac84325e09998abc5cb3d2d435"
+}

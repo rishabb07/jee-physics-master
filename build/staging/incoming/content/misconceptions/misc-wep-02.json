@@ -1,0 +1,17 @@
+{
+  "misconception_id": "misc-wep-02",
+  "chapter_id": "work-energy-power",
+  "category": "INVALID_FORMULA_CONDITION",
+  "statement": "The normal reaction force never does mechanical work on any object.",
+  "erroneous_reasoning": "Students overgeneralize from horizontal sliding (where normal force is perpendicular to horizontal displacement) to believe normal force work is universally zero.",
+  "correct_physics_explanation": "Normal force is strictly perpendicular to the contact interface, but the interface itself may be moving! When a person stands in an elevator accelerating upward, the normal force on their feet is parallel to the upward displacement, performing positive work W = N d > 0.",
+  "refutation_counterexample": "In an elevator accelerating upward through height h with acceleration a, the floor exerts upward normal force N = m(g + a). Displacement is upward d = h. Work done by normal force is W_N = m(g + a)h > 0.",
+  "diagnostic_check_latex": "W_N = \\vec{N} \\cdot \\Delta\\vec{r} \\neq 0 \\quad \\text{whenever the contact interface has a non-zero velocity component along the normal.}",
+  "claim_traces": [
+    "HCV1 Ch 8 p. 129; UP Ch 6 p. 206"
+  ],
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-misc-wep-02",
+  "created_at": "2026-10-05T01:00:00Z",
+  "content_hash": "2b7f5922d80d76c8d1a70519752fa550549bd38b2802579f71eb68d528e08acc"
+}

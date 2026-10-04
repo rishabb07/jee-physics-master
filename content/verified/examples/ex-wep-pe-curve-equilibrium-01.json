@@ -1,0 +1,49 @@
+{
+  "example_id": "ex-wep-pe-curve-equilibrium-01",
+  "chapter_id": "work-energy-power",
+  "problem_statement": "The potential energy of a diatomic system as a function of atomic separation $r$ is modeled by $U(r) = \\frac{A}{r^2} - \\frac{B}{r}$, where $A > 0$ and $B > 0$ are constants. Determine: (a) the equilibrium separation distance $r_0$, (b) the nature of the equilibrium, and (c) the minimum work required to dissociate the system from equilibrium to infinite separation.",
+  "known_parameters": {
+    "A": "A > 0",
+    "B": "B > 0"
+  },
+  "target_variable": "r_0, stability, W_diss",
+  "solution_strategy": "Find equilibrium by setting dU/dr = 0, check stability using d^2U/dr^2, and calculate dissociation energy as U(infty) - U(r_0).",
+  "solution_steps": [
+    {
+      "step_number": 1,
+      "explanation": "Compute first spatial derivative of potential energy and set equal to zero for equilibrium.",
+      "equation_latex": "\\frac{dU}{dr} = -\\frac{2A}{r^3} + \\frac{B}{r^2} = 0 \\implies \\frac{B}{r^2} = \\frac{2A}{r^3} \\implies r_0 = \\frac{2A}{B}"
+    },
+    {
+      "step_number": 2,
+      "explanation": "Compute second derivative at r_0 to determine stability.",
+      "equation_latex": "\\frac{d^2U}{dr^2} = \\frac{6A}{r^4} - \\frac{2B}{r^3} = \\frac{1}{r_0^3}\\left( \\frac{6A}{2A/B} - 2B \\right) = \\frac{1}{r_0^3}(3B - 2B) = \\frac{B}{r_0^3} > 0"
+    },
+    {
+      "step_number": 3,
+      "explanation": "Conclude that because d^2U/dr^2 > 0, the equilibrium at r_0 is strictly STABLE.",
+      "equation_latex": "\\frac{d^2U}{dr^2}\\Big|_{r_0} > 0 \\implies \\text{STABLE EQUILIBRIUM}"
+    },
+    {
+      "step_number": 4,
+      "explanation": "Calculate minimum dissociation energy (binding energy) Delta U = U(infty) - U(r_0).",
+      "equation_latex": "U(r_0) = \\frac{A}{(2A/B)^2} - \\frac{B}{(2A/B)} = \\frac{B^2}{4A} - \\frac{B^2}{2A} = -\\frac{B^2}{4A}, \\quad U(\\infty) = 0 \\implies W_{\\text{diss}} = 0 - \\left(-\\frac{B^2}{4A}\\right) = \\frac{B^2}{4A}"
+    }
+  ],
+  "final_answer": "r_0 = \\frac{2A}{B}, \\quad \\text{STABLE EQUILIBRIUM}, \\quad W_{\\text{diss}} = \\frac{B^2}{4A}",
+  "trap_alerts": [
+    "Sign errors in differentiating 1/r^2 and 1/r terms",
+    "Confusing potential energy at minimum with binding energy"
+  ],
+  "sanity_checks": [
+    "Dimensions: [A] = [Energy][L]^2, [B] = [Energy][L] => [r_0] = [A/B] = [L], [B^2/4A] = [Energy], dimensional consistency verified",
+    "As r -> 0, U -> +infty (strong repulsion); as r -> infty, U -> 0 (zero interaction)"
+  ],
+  "claim_traces": [
+    "HRW Ch 8 Section 8.6 p. 206; Irodov 1.3 Problem 1.115"
+  ],
+  "verification_status": "VERIFIED",
+  "verification_record_id": "dual-cvr-ex-wep-pe-curve-equilibrium-01",
+  "created_at": "2026-10-05T01:00:00Z",
+  "content_hash": "e992e02854c5d95e64f59080ed3f2b39c4b18f495e9fdfc97b310e55feb1d575"
+}

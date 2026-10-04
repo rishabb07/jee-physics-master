@@ -1,0 +1,190 @@
+{
+  "chapter_id": "work-energy-power",
+  "chapter_title": "Work, Energy & Power",
+  "template_type": "MECHANICS",
+  "taxonomy_node_id": "work-energy-power",
+  "order": 4,
+  "aliases": ["wep", "work-energy"],
+  "topics": [
+    {
+      "topic_id": "work-done",
+      "title": "Work Done by Forces",
+      "subtopics": [
+        {
+          "subtopic_id": "work-by-constant-force",
+          "title": "Work Done by a Constant Force",
+          "description": "Scalar product W = F . Delta r = F s cos(theta); geometric projection; positive, negative, and zero work conditions."
+        },
+        {
+          "subtopic_id": "work-by-variable-force",
+          "title": "Work Done by a Variable Force",
+          "description": "Line integral of force vector along trajectory W = int F . dr; 1D integral W = int F(x) dx; graphical interpretation as signed area under F-x curve."
+        },
+        {
+          "subtopic_id": "work-by-spring-force",
+          "title": "Work Done by an Ideal Spring Force",
+          "description": "Restoring force F_s = -k x; integration from x_i to x_f yielding W_s = -1/2 k (x_f^2 - x_i^2); external agent work W_ext = +1/2 k x^2."
+        },
+        {
+          "subtopic_id": "work-by-friction",
+          "title": "Work Done by Frictional Forces",
+          "description": "Static friction work (can be positive, negative, or zero depending on reference frame and contact point displacement); kinetic friction dissipative work always negative at interface."
+        }
+      ]
+    },
+    {
+      "topic_id": "work-energy-theorem",
+      "title": "Work-Energy Theorem",
+      "subtopics": [
+        {
+          "subtopic_id": "kinetic-energy",
+          "title": "Kinetic Energy of a Particle",
+          "description": "Operational definition K = 1/2 m v^2 = p^2 / (2m); frame dependence of kinetic energy; scalar positive-definite character in any given inertial frame."
+        },
+        {
+          "subtopic_id": "work-energy-theorem-inertial-frame",
+          "title": "Work-Energy Theorem in Inertial Frames",
+          "description": "Universal dynamical equivalence W_net = Delta K; summation over all forces (conservative, non-conservative, external, internal); derivation from Newton's Second Law."
+        },
+        {
+          "subtopic_id": "work-energy-theorem-non-inertial-frame",
+          "title": "Work-Energy Theorem in Non-Inertial Reference Frames",
+          "description": "Generalization W_net + W_pseudo = Delta K_rel in accelerating frame of reference; pseudo-force work contribution."
+        }
+      ]
+    },
+    {
+      "topic_id": "conservative-forces-and-potential-energy",
+      "title": "Potential Energy and Conservation of Mechanical Energy",
+      "subtopics": [
+        {
+          "subtopic_id": "conservative-and-non-conservative-forces",
+          "title": "Conservative vs Non-Conservative Forces",
+          "description": "Path independence criterion; vanishing closed-loop line integral oint F . dr = 0; curl-free condition in 3D; dissipative non-conservative forces."
+        },
+        {
+          "subtopic_id": "potential-energy-gradient",
+          "title": "Potential Energy Definition and Gradient Relation",
+          "description": "Differential definition dU = -F_c . dr; force as negative potential gradient F = -grad(U) or F_x = -dU/dx; arbitrary choice of zero-reference datum."
+        },
+        {
+          "subtopic_id": "equilibrium-stable-unstable-neutral",
+          "title": "Equilibrium Analysis from Potential Energy Curves",
+          "description": "Equilibrium condition dU/dx = 0; second derivative criterion: stable (d^2 U/dx^2 > 0), unstable (d^2 U/dx^2 < 0), neutral (d^2 U/dx^2 = 0); turning points where E_mech = U(x)."
+        },
+        {
+          "subtopic_id": "conservation-of-mechanical-energy",
+          "title": "Conservation of Total Mechanical Energy",
+          "description": "E_mech = K + U = constant when only conservative forces do work; general energy balance equation Delta E_mech = W_nc + W_ext."
+        }
+      ]
+    },
+    {
+      "topic_id": "power-and-vertical-circle",
+      "title": "Power and Vertical Circular Motion",
+      "subtopics": [
+        {
+          "subtopic_id": "average-and-instantaneous-power",
+          "title": "Average and Instantaneous Power",
+          "description": "Time rate of energy transfer P = dW/dt = F . v; average power P_avg = Delta W / Delta t; units of Watt and Horsepower."
+        },
+        {
+          "subtopic_id": "vertical-circular-motion-critical-velocities",
+          "title": "Vertical Circular Motion and Critical Velocities",
+          "description": "Non-uniform circular motion of particle tied to light string; conservation of energy combined with radial Newton's law; minimum bottom speed v_bot = sqrt(5 g R) and top speed v_top = sqrt(g R) for loop completion."
+        },
+        {
+          "subtopic_id": "string-slackening-condition",
+          "title": "String Slackening and Projectile Departure",
+          "description": "Condition for tension vanishing T = 0 in upper quadrant (pi/2 < theta < pi); departure into parabolic free-fall projectile motion."
+        }
+      ]
+    }
+  ],
+  "explicit_exclusions": [
+    {
+      "topic": "Center of Mass Frame Kinetic Energy and Inelastic Collisions",
+      "rationale": "Multi-particle kinetic energy decomposition K = K_cm + K_rel, impulse, and restitution coefficient e belong to Chapter 5: Center of Mass."
+    },
+    {
+      "topic": "Rotational Kinetic Energy and Rolling Energy Conservation",
+      "rationale": "Rotational kinetic energy 1/2 I omega^2 and rolling without slipping belong to Chapter 6: Rotational Motion."
+    },
+    {
+      "topic": "Universal Gravitational Potential Energy across Astronomical Scales",
+      "rationale": "Inverse-square potential energy U(r) = -G M m / r and escape speed from planets belong to Chapter 7: Gravitation."
+    },
+    {
+      "topic": "Thermodynamic Heat, Internal Energy, and Dissipation into Thermal Reservoirs",
+      "rationale": "Microscopic internal energy Delta U = Q - W belongs to Chapter 11: Thermodynamics."
+    }
+  ],
+  "prerequisites": [
+    "units-and-measurements",
+    "vectors-and-coordinate-systems",
+    "differential-calculus-foundations",
+    "integral-calculus-foundations",
+    "kinematics",
+    "laws-of-motion"
+  ],
+  "downstream_dependencies": [
+    "center-of-mass",
+    "rotational-motion",
+    "gravitation",
+    "oscillations",
+    "electrostatics"
+  ],
+  "source_grounding_summary": {
+    "primary_sources": [
+      {
+        "source_id": "src-concepts-of-physics-by-h-a489bb6e",
+        "title": "Concepts of Physics Vol 1 by H.C. Verma",
+        "coverage": "Chapter 8: Work and Energy (pp. 128-149)",
+        "role": "Rigorous conceptual definitions of kinetic energy, work done by constant and variable forces, spring work, gravitational potential energy, mechanical energy conservation, power, and vertical circular motion looping conditions."
+      },
+      {
+        "source_id": "src-fundamentals-of-physics--390f40d1",
+        "title": "Fundamentals of Physics (Halliday, Resnick & Walker, 9th Ed)",
+        "coverage": "Chapter 7: Kinetic Energy and Work (pp. 173-202) & Chapter 8: Potential Energy and Conservation of Energy (pp. 203-240)",
+        "role": "Calculus-based work integrals, scalar products, spring work integration, potential energy curve reading, turning points, stable/unstable equilibrium, power F . v."
+      },
+      {
+        "source_id": "src-university-physics-with--0bc11b67",
+        "title": "University Physics with Modern Physics (Young & Freedman, 13th Ed)",
+        "coverage": "Chapter 6: Work and Kinetic Energy (pp. 205-239) & Chapter 7: Potential Energy and Energy Conservation (pp. 240-273)",
+        "role": "Curved path line integrals, 3D potential gradient F = -grad(U), internal vs external work, work-energy theorem proof, energy diagrams."
+      },
+      {
+        "source_id": "src-feynman-richard-p-the-fe-486f6a95",
+        "title": "The Feynman Lectures on Physics, Vol. 1",
+        "coverage": "Lecture 4: Conservation of Energy & Lectures 13-14: Work and Potential Energy",
+        "role": "Foundational physical philosophy of energy conservation, operational non-existence of energy mechanisms, line integrals in gravitational fields."
+      },
+      {
+        "source_id": "src-problems-in-general-phys-6cf0b2b7",
+        "title": "Problems in General Physics by I.E. Irodov",
+        "coverage": "Part 1, Section 1.3: Laws of Conservation of Energy, Momentum, and Angular Momentum (pp. 26-36)",
+        "role": "Advanced potential wells, coupled mechanical systems, variable force work, critical velocity transitions."
+      },
+      {
+        "source_id": "src-jee-main-mock-test-01-20-222525c1",
+        "title": "JEE Main Mock Test 01",
+        "coverage": "Work-energy theorem and spring-block questions",
+        "role": "Official exam-format assessment grounding."
+      },
+      {
+        "source_id": "src-jee-rank-booster-02-mock-0548b6c5",
+        "title": "JEE Main Rank Booster Mock Test 02",
+        "coverage": "Vertical circular motion and power questions",
+        "role": "Exam-format assessment grounding."
+      },
+      {
+        "source_id": "src-jee-rank-booster-03-mock-256f42c6",
+        "title": "JEE Main Rank Booster Mock Test 03",
+        "coverage": "Potential energy function and equilibrium questions",
+        "role": "Exam-format assessment grounding."
+      }
+    ]
+  },
+  "created_at": "2026-10-05T00:40:00Z"
+}

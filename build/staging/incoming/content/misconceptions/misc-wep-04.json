@@ -1,0 +1,17 @@
+{
+  "misconception_id": "misc-wep-04",
+  "chapter_id": "work-energy-power",
+  "category": "WRONG_CONSERVATION_LAW",
+  "statement": "Internal forces in a system can never do net mechanical work because action and reaction cancel.",
+  "erroneous_reasoning": "Confusing linear momentum conservation (where internal forces sum to zero vector sum F_int = 0) with work, which depends on individual displacements.",
+  "correct_physics_explanation": "While action and reaction forces are equal and opposite (F_ij = -F_ji), the displacements of their respective points of application may differ! When two blocks connected by a compressed spring are released, both blocks move outward: the spring does positive work on both blocks, increasing total kinetic energy.",
+  "refutation_counterexample": "A compressed spring (k = 100 N/m, x = 0.2 m) between two masses on a frictionless floor releases. Both masses accelerate away. Total internal spring work is W_int = +1/2 k x^2 = +2 J, increasing kinetic energy from 0 to 2 J.",
+  "diagnostic_check_latex": "W_{\\text{int}} = \\int \\vec{F}_{12} \\cdot d(\\vec{r}_1 - \\vec{r}_2) = \\int \\vec{F}_{12} \\cdot d\\vec{r}_{12} \\neq 0 \\quad \\text{for deformable systems.}",
+  "claim_traces": [
+    "HCV1 Ch 8 p. 133; UP Ch 6 p. 213"
+  ],
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-misc-wep-04",
+  "created_at": "2026-10-05T01:00:00Z",
+  "content_hash": "9a6459af6bd66590012c78b3f45055c150af16d00f23a7c5eb6af633ec60bcb3"
+}

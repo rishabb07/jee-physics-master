@@ -1,0 +1,21 @@
+{
+  "concept_id": "concept-wep-equilibrium-stability-01",
+  "chapter_id": "work-energy-power",
+  "title": "Equilibrium Analysis and Stability from Potential Curves",
+  "formal_definition": "A particle is in static equilibrium where net force vanishes: $F_x = -dU/dx = 0$. The nature of equilibrium is classified by the second derivative of $U(x)$:\n1. Stable Equilibrium: $\\frac{d^2U}{dx^2} > 0$ (local potential minimum, restoring force returns particle)\n2. Unstable Equilibrium: $\\frac{d^2U}{dx^2} < 0$ (local potential maximum, repelling force drives particle away)\n3. Neutral Equilibrium: $\\frac{d^2U}{dx^2} = 0$ (flat potential, force remains zero on displacement).\nTurning points occur where total mechanical energy equals potential energy: $E = U(x) \\implies K = 0$.",
+  "physical_intuition": "A marble at the bottom of a bowl is in stable equilibrium; balanced on an inverted bowl it is unstable; on a flat table it is neutral.",
+  "assumptions": [
+    "1D conservative system with smooth differentiable potential $U(x)$"
+  ],
+  "validity_boundaries": [
+    "Higher order derivatives tested if $\\frac{d^2U}{dx^2} = 0$"
+  ],
+  "mathematical_representation": "\\frac{dU}{dx} = 0; \\quad \\frac{d^2U}{dx^2} > 0 \\text{ (stable)}, \\quad \\frac{d^2U}{dx^2} < 0 \\text{ (unstable)}",
+  "claim_traces": [
+    "HRW Ch 8 p. 205; UP Ch 7 p. 254; Irodov 1.3 p. 28"
+  ],
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-concept-wep-equilibrium-stability-01",
+  "created_at": "2026-10-05T01:00:00Z",
+  "content_hash": "48e40a5a62e8ea899c93a10b2b908e00bfe2a01ceaf8b6162652199f3c0aa433"
+}

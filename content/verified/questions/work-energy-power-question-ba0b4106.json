@@ -1,0 +1,26 @@
+{
+  "question_id": "work-energy-power-question-ba0b4106",
+  "chapter_id": "work-energy-power",
+  "topic_id": "conservative-forces-and-potential-energy",
+  "subtopic_id": "potential-energy-gradient",
+  "question_type": "SINGLE_CORRECT_MCQ",
+  "problem_statement": "The potential energy of a conservative 1D force field is given by $U(x) = 2x^4 - 4x^2\\text{ J}$, where $x$ is in meters. The positions of stable equilibrium are:",
+  "options": {
+    "A": "$x = \\pm 1\\text{ m}$",
+    "B": "$x = 0$",
+    "C": "$x = \\pm 2\\text{ m}$",
+    "D": "$x = \\pm \\frac{1}{\\sqrt{2}}\\text{ m}$"
+  },
+  "correct_answer": "A",
+  "distractor_rationales": {
+    "B": "Identifies x = 0 which is an unstable equilibrium (d^2U/dx^2 = -8 < 0).",
+    "C": "Arithmetic error in differentiating x^4.",
+    "D": "Finds points of inflection where d^2U/dx^2 = 0 rather than equilibrium points."
+  },
+  "explanation": "Equilibrium requires $F = -dU/dx = 0 \\implies -(8x^3 - 8x) = 0 \\implies 8x(x^2 - 1) = 0$, giving $x = 0$ or $x = \\pm 1\\text{ m}$. Evaluating second derivative: $\\frac{d^2U}{dx^2} = 24x^2 - 8$. At $x = 0$, $d^2U/dx^2 = -8 < 0$ (unstable). At $x = \\pm 1$, $d^2U/dx^2 = 24(1) - 8 = +16 > 0$ (stable). Thus stable equilibrium points are $x = \\pm 1\\text{ m}$.",
+  "difficulty_rating": 3,
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-q-wep-02",
+  "created_at": "2026-10-05T01:00:00Z",
+  "content_hash": "ec388945400132dc8cc08571b4a7aab2ae12129b54ed95285fa015e10b596cfb"
+}

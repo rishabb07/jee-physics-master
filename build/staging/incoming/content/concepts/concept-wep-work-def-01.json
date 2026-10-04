@@ -1,0 +1,23 @@
+{
+  "concept_id": "concept-wep-work-def-01",
+  "chapter_id": "work-energy-power",
+  "title": "Work Done by a Constant Force and Scalar Product",
+  "formal_definition": "The work $W$ done on a particle by a constant force $\\vec{F}$ undergoing displacement $\\Delta\\vec{r}$ is defined as the scalar (dot) product: $W = \\vec{F} \\cdot \\Delta\\vec{r} = |\\vec{F}| |\\Delta\\vec{r}| \\cos\\theta = F_x \\Delta x + F_y \\Delta y + F_z \\Delta z$.",
+  "physical_intuition": "Work quantifies the cumulative mechanical action of a force component directed along the displacement path. Perpendicular forces do zero work; opposing forces extract mechanical energy (negative work).",
+  "assumptions": [
+    "Constant force vector over displacement",
+    "Point mass particle or translation without internal distortion"
+  ],
+  "validity_boundaries": [
+    "Invalid if force varies along path (requires line integral)",
+    "Invalid if point of application does not move with body"
+  ],
+  "mathematical_representation": "W = \\vec{F} \\cdot \\vec{d} = F d \\cos\\theta",
+  "claim_traces": [
+    "HCV1 Ch 8 p. 129; HRW Ch 7 p. 173; UP Ch 6 p. 205"
+  ],
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-concept-wep-work-def-01",
+  "created_at": "2026-10-05T01:00:00Z",
+  "content_hash": "2f9619a0721966d5cd8be12b147263ebdee3792ae1ef7149eb89801eef52f090"
+}

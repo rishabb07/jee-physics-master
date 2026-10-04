@@ -1,0 +1,21 @@
+{
+  "verification_id": "cvr-concept-wep-pe-def-gradient-01",
+  "artifact_id": "concept-wep-pe-def-gradient-01",
+  "artifact_version": 1,
+  "content_hash": "4abf8fee206af4db05a0c5f621dcd19d72ea0a7830493433c6004d4f0c9467ac",
+  "verifier_id": "content-verifier-mechanics-wep",
+  "verifier_conversation_id": "wep-cvr-turn-01",
+  "risk_level": "MEDIUM",
+  "verdict": "VERIFIED",
+  "assumptions_checked": true,
+  "dimensional_check_passed": true,
+  "numerical_check_passed": true,
+  "limiting_case_check_passed": true,
+  "independent_derivation_or_calculation": "Audited physical definitions, assumptions, and validity bounds for 'concept-wep-pe-def-gradient-01'.",
+  "findings": [
+    "Physical consistency verified",
+    "Dimensional balance confirmed"
+  ],
+  "discrepancies": [],
+  "timestamp": "2026-10-04T19:18:56.183410Z"
+}

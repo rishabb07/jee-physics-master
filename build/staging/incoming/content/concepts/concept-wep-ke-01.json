@@ -1,0 +1,23 @@
+{
+  "concept_id": "concept-wep-ke-01",
+  "chapter_id": "work-energy-power",
+  "title": "Kinetic Energy of a Translating Particle",
+  "formal_definition": "Kinetic energy $K$ is the scalar capacity of a particle of mass $m$ to perform work due to its motion: $K = \\frac{1}{2} m v^2 = \\frac{p^2}{2m}$, where $\\vec{p} = m\\vec{v}$ is linear momentum. $K \\ge 0$ is strictly non-negative in any inertial frame.",
+  "physical_intuition": "Kinetic energy represents the net work required to accelerate a body from rest to speed $v$. Because speed is frame-dependent, kinetic energy is relative to the observer's frame.",
+  "assumptions": [
+    "Point mass particle or non-rotating rigid body",
+    "Classical non-relativistic speed ($v \\ll c$)"
+  ],
+  "validity_boundaries": [
+    "Relativistic regime requires $K = (\\gamma - 1) m c^2$",
+    "Rigid bodies with rotation require additional $\\frac{1}{2}I\\omega^2$"
+  ],
+  "mathematical_representation": "K = \\frac{1}{2} m v^2 = \\frac{p^2}{2m}",
+  "claim_traces": [
+    "HCV1 Ch 8 p. 128; HRW Ch 7 p. 173; UP Ch 6 p. 207"
+  ],
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-concept-wep-ke-01",
+  "created_at": "2026-10-05T01:00:00Z",
+  "content_hash": "02e7f986e22860cf58fcdc201974982488649af51eec74cf106fba3dc077ae50"
+}

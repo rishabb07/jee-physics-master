@@ -1,0 +1,33 @@
+{
+  "formula_id": "formula-wep-mech-energy-conservation",
+  "chapter_id": "work-energy-power",
+  "title": "Conservation of Mechanical Energy",
+  "equation_latex": "E_{\\text{mech}} = K + U = \\text{constant} \\iff K_i + U_i = K_f + U_f",
+  "variables": {
+    "E_{\\text{mech}}": "Total mechanical energy",
+    "K": "Kinetic energy",
+    "U": "Total potential energy"
+  },
+  "units": {
+    "E": "J",
+    "K": "J",
+    "U": "J"
+  },
+  "dimensions": {
+    "all": "[M][L]^2[T]^-2"
+  },
+  "assumptions": [
+    "Only conservative forces do work on system (W_nc = 0)"
+  ],
+  "conditions_of_validity": [
+    "Zero non-conservative work and zero external energy exchange"
+  ],
+  "common_misuse": [
+    "Applying formula when friction or air resistance is present without including dissipative work"
+  ],
+  "derivation_reference": "derivation-formula-wep-mech-energy-conservation",
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-formula-wep-mech-energy-conservation",
+  "created_at": "2026-10-05T01:00:00Z",
+  "content_hash": "82bb9111186d076521da3210d4967ef000341c4ca676936a93ba7ce39e4c380b"
+}

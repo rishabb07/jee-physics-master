@@ -1,0 +1,21 @@
+{
+  "concept_id": "concept-wep-power-def-01",
+  "chapter_id": "work-energy-power",
+  "title": "Average and Instantaneous Mechanical Power",
+  "formal_definition": "Power is the time rate at which work is performed: Instantaneous power is $P = \\frac{dW}{dt} = \\frac{\\vec{F} \\cdot d\\vec{r}}{dt} = \\vec{F} \\cdot \\vec{v} = F v \\cos\\theta$. Average power over finite duration $\\Delta t$ is $P_{\\text{avg}} = \\frac{\\Delta W}{\\Delta t}$. The SI unit is the Watt ($1\\text{ W} = 1\\text{ J/s} = 1\\text{ kg m}^2\\text{s}^{-3}$); engineering unit is horsepower ($1\\text{ hp} = 746\\text{ W}$).",
+  "physical_intuition": "A powerful machine does the same total work as a weak machine, but in a much shorter time. For a vehicle at speed $v$, engine force must deliver $P = F v$ to overcome resistance.",
+  "assumptions": [
+    "Force and velocity measured in the same inertial reference frame"
+  ],
+  "validity_boundaries": [
+    "Power is frame-dependent because velocity $\\vec{v}$ depends on observer frame"
+  ],
+  "mathematical_representation": "P = \\frac{dW}{dt} = \\vec{F} \\cdot \\vec{v}, \\quad P_{\\text{avg}} = \\frac{W}{\\Delta t}",
+  "claim_traces": [
+    "HCV1 Ch 8 p. 142; HRW Ch 7 p. 181; UP Ch 6 p. 219"
+  ],
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-concept-wep-power-def-01",
+  "created_at": "2026-10-05T01:00:00Z",
+  "content_hash": "5bfb54eda3ed9e55f09fe0f8a3718c2539fa75777f6c9ae98e0072e8f45e0cd3"
+}

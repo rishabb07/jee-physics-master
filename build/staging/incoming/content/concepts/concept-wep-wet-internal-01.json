@@ -1,0 +1,21 @@
+{
+  "concept_id": "concept-wep-wet-internal-01",
+  "chapter_id": "work-energy-power",
+  "title": "Work Done by Internal Forces in Multi-Body Systems",
+  "formal_definition": "For a multi-particle system, internal forces satisfy Newton's Third Law $\\vec{F}_{ij} = -\\vec{F}_{ji}$. However, the net internal work is $W_{\\text{int}} = \\int \\vec{F}_{ij} \\cdot d(\\vec{r}_i - \\vec{r}_j) = \\int \\vec{F}_{ij} \\cdot d\\vec{r}_{ij}$. For rigid bodies $d|\\vec{r}_{ij}| = 0$ so $W_{\\text{int}} = 0$; for deformable or sliding systems (e.g. springs, friction), $W_{\\text{int}} \\neq 0$.",
+  "physical_intuition": "Internal forces do not change the total linear momentum of a system, but they CAN change its mechanical energy. An expanding spring or internal explosion does positive internal work, increasing kinetic energy.",
+  "assumptions": [
+    "Mutual central pair forces obeying Newton's Third Law"
+  ],
+  "validity_boundaries": [
+    "Vanishes strictly for rigid bodies where inter-particle distances are immutable"
+  ],
+  "mathematical_representation": "W_{\\text{int}} = \\sum_{i < j} \\int \\vec{F}_{ij} \\cdot d\\vec{r}_{ij} \\neq 0 \\text{ (in general)}",
+  "claim_traces": [
+    "HCV1 Ch 8 p. 133; HRW Ch 8 p. 208; UP Ch 6 p. 213"
+  ],
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-concept-wep-wet-internal-01",
+  "created_at": "2026-10-05T01:00:00Z",
+  "content_hash": "52fc3873196d0ad9d1218a3f3450ca95bcb3a427aa6576b24081f6c45660cee2"
+}

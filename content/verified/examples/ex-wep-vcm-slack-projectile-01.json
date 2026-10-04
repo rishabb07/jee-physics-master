@@ -1,0 +1,60 @@
+{
+  "example_id": "ex-wep-vcm-slack-projectile-01",
+  "chapter_id": "work-energy-power",
+  "problem_statement": "A small body of mass $m$ is suspended by a light string of length $R = 1.0\\text{ m}$ from a fixed peg $O$. The body is given a horizontal velocity $v_0 = \\sqrt{3 g R}$ at the lowest point. Find: (a) the angle $\\theta_s$ from the downward vertical where the string becomes slack, and (b) the maximum height $H_{\\text{max}}$ attained by the body above the lowest point during its subsequent motion. (Take $g = 9.8\\text{ m/s}^2$).",
+  "known_parameters": {
+    "R": 1.0,
+    "v_0": "sqrt(3 g R)",
+    "g": 9.8
+  },
+  "target_variable": "theta_s, H_max",
+  "solution_strategy": "First calculate angle where tension vanishes using cos(theta_s) = -(v_0^2 - 2gR)/(3gR). Then determine velocity at slack point and treat subsequent flight as standard projectile motion launched at angle alpha = theta_s - pi/2 to the horizontal.",
+  "solution_steps": [
+    {
+      "step_number": 1,
+      "explanation": "Compute cosine of the slackening angle using the derived vertical circle slack condition.",
+      "equation_latex": "\\cos\\theta_s = -\\frac{v_0^2 - 2gR}{3gR} = -\\frac{3gR - 2gR}{3gR} = -\\frac{1}{3} \\implies \\theta_s = \\arccos(-1/3) \\approx 109.47^\\circ"
+    },
+    {
+      "step_number": 2,
+      "explanation": "Determine speed v_s at the slackening point using energy conservation.",
+      "equation_latex": "v_s^2 = v_0^2 - 2gR(1 - \\cos\\theta_s) = 3gR - 2gR\\left(1 - \\left(-\\frac{1}{3}\\right)\\right) = 3gR - 2gR\\left(\\frac{4}{3}\\right) = \\frac{1}{3} g R"
+    },
+    {
+      "step_number": 3,
+      "explanation": "Identify the height y_s of the slack point above the lowest point.",
+      "equation_latex": "y_s = R(1 - \\cos\\theta_s) = R\\left(1 - \\left(-\\frac{1}{3}\\right)\\right) = \\frac{4}{3} R"
+    },
+    {
+      "step_number": 4,
+      "explanation": "Determine the projectile launch angle with the horizontal: since velocity is perpendicular to radius, launch angle is alpha = theta_s - 90 deg, so sin(alpha) = cos(theta_s - 90 deg) = -cos(theta_s) = 1/3.",
+      "equation_latex": "\\sin\\alpha = |\\cos\\theta_s| = \\frac{1}{3}"
+    },
+    {
+      "step_number": 5,
+      "explanation": "Compute additional maximum vertical rise h_proj during projectile phase.",
+      "equation_latex": "h_{\\text{proj}} = \\frac{v_s^2 \\sin^2\\alpha}{2g} = \\frac{(gR/3)(1/3)^2}{2g} = \\frac{R/27}{2} = \\frac{R}{54}"
+    },
+    {
+      "step_number": 6,
+      "explanation": "Sum y_s and h_proj to find maximum height attained above lowest point.",
+      "equation_latex": "H_{\\text{max}} = y_s + h_{\\text{proj}} = \\frac{4}{3} R + \\frac{1}{54} R = \\frac{72 + 1}{54} R = \\frac{73}{54} R = \\frac{73}{54}(1.0) \\approx 1.352\\text{ m}"
+    }
+  ],
+  "final_answer": "\\cos\\theta_s = -\\frac{1}{3} \\implies \\theta_s \\approx 109.5^\\circ, \\quad H_{\\text{max}} = \\frac{73}{54} R \\approx 1.35\\text{ m}",
+  "trap_alerts": [
+    "Assuming particle falls vertically downward once string goes slack",
+    "Using total velocity v_s instead of vertical velocity component v_s sin(alpha) for projectile height"
+  ],
+  "sanity_checks": [
+    "H_max must be less than 2R (looping apex) and greater than 4/3 R (slack point): 1.333 R < 1.352 R < 2.0 R, verified",
+    "At slack point, T = 0 and radial component of gravity mg cos(theta_s) exactly balances m v_s^2 / R"
+  ],
+  "claim_traces": [
+    "HCV1 Ch 8 Example 8.12; Irodov 1.3 Problem 1.120"
+  ],
+  "verification_status": "VERIFIED",
+  "verification_record_id": "dual-cvr-ex-wep-vcm-slack-projectile-01",
+  "created_at": "2026-10-05T01:00:00Z",
+  "content_hash": "5b7c53b68bbe928909acb846897d5672c71f2dc37d1fb3a0d41adf86f3057e52"
+}

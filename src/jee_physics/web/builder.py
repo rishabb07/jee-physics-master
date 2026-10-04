@@ -39,6 +39,7 @@ PILOT_CHAPTER_IDS = [
     "ray-optics",
     "kinematics",
     "laws-of-motion",
+    "work-energy-power",
 ]
 
 CHAPTER_BRANCH_MAPPING = {
@@ -332,47 +333,55 @@ class WebDataBuilder:
                     pass
 
         # 1. Ingest verified question bank items
-        if self.qb_verified_dir.exists():
-            for p in sorted(self.qb_verified_dir.glob("*.json")):
-                with open(p, "r", encoding="utf-8") as f:
-                    d = json.load(f)
-                qid = d.get("question_id", p.stem)
-                if qid in excluded_ids:
-                    continue  # Inviolate: zero review queue items
-                if d.get("verification_status") != "VERIFIED":
-                    continue  # Must be strictly verified
+        qb_dirs = [
+            self.qb_verified_dir,
+            self.root_dir / "build" / "staging" / "incoming" / "question_bank" / "verified",
+            self.root_dir / "content" / "verified" / "questions",
+        ]
+        seen_qids: Set[str] = set()
+        for qb_dir in qb_dirs:
+            if qb_dir.exists():
+                for p in sorted(qb_dir.glob("*.json")):
+                    with open(p, "r", encoding="utf-8") as f:
+                        d = json.load(f)
+                    qid = d.get("question_id", p.stem)
+                    if qid in excluded_ids or qid in seen_qids:
+                        continue  # Inviolate: zero review queue items
+                    if d.get("verification_status") != "VERIFIED":
+                        continue  # Must be strictly verified
+                    seen_qids.add(qid)
 
-                tax_ref = d.get("taxonomy_reference", {})
-                ch_id = tax_ref.get("chapter_id", "general-physics")
-                topic_id = tax_ref.get("topic_id", "general")
+                    tax_ref = d.get("taxonomy_reference", {})
+                    ch_id = tax_ref.get("chapter_id", d.get("chapter_id", "general-physics"))
+                    topic_id = tax_ref.get("topic_id", d.get("topic_id", "general"))
 
-                # Distractor rationales formatting
-                dr_map = {}
-                raw_dr = d.get("distractor_rationales")
-                if isinstance(raw_dr, list):
-                    for item in raw_dr:
-                        opt_key = item.get("option_key", "")
-                        rationale = item.get("student_rationale") or item.get("physical_error") or ""
-                        if opt_key:
-                            dr_map[opt_key] = rationale
-                elif isinstance(raw_dr, dict):
-                    dr_map = raw_dr
+                    # Distractor rationales formatting
+                    dr_map = {}
+                    raw_dr = d.get("distractor_rationales")
+                    if isinstance(raw_dr, list):
+                        for item in raw_dr:
+                            opt_key = item.get("option_key", "")
+                            rationale = item.get("student_rationale") or item.get("physical_error") or ""
+                            if opt_key:
+                                dr_map[opt_key] = rationale
+                    elif isinstance(raw_dr, dict):
+                        dr_map = raw_dr
 
-                q = WebQuestionBlock(
-                    question_id=qid,
-                    chapter_id=ch_id,
-                    topic_id=topic_id,
-                    question_type=d.get("question_type", "MCQ"),
-                    problem_statement=d.get("statement", ""),
-                    options=d.get("options"),
-                    correct_answer=d.get("correct_answer", ""),
-                    solution_explanation=d.get("solution", d.get("solution_strategy", "")),
-                    difficulty=d.get("difficulty_dimensions", {}),
-                    distractor_rationales=dr_map if dr_map else None,
-                    verification_status="VERIFIED",
-                    provenance=d.get("source_grounding"),
-                )
-                questions.append(q)
+                    q = WebQuestionBlock(
+                        question_id=qid,
+                        chapter_id=ch_id,
+                        topic_id=topic_id,
+                        question_type=d.get("question_type", "MCQ"),
+                        problem_statement=d.get("statement") or d.get("problem_statement", ""),
+                        options=d.get("options"),
+                        correct_answer=d.get("correct_answer", ""),
+                        solution_explanation=d.get("solution", d.get("explanation", d.get("solution_strategy", ""))),
+                        difficulty=d.get("difficulty_dimensions", {}),
+                        distractor_rationales=dr_map if dr_map else None,
+                        verification_status="VERIFIED",
+                        provenance=d.get("source_grounding") or {"origin": "VERIFIED_QUESTION_BANK"},
+                    )
+                    questions.append(q)
 
         # 2. Ingest canonical verified atoms for active pilot chapters
         atoms_dir = self.kb_dir / "atoms"
@@ -599,6 +608,9 @@ class WebDataBuilder:
                 if ch_id == "laws-of-motion":
                     dyn_file = out_dir / "chapter_dynamics.json"
                     dyn_file.write_text(ch_detail.model_dump_json(indent=2), encoding="utf-8")
+                if ch_id == "work-energy-power":
+                    wep_file = out_dir / "chapter_wep.json"
+                    wep_file.write_text(ch_detail.model_dump_json(indent=2), encoding="utf-8")
 
                 # Chapter Summary
                 tot_concepts = sum(len(s.concepts) for s in sections)
@@ -664,12 +676,16 @@ class WebDataBuilder:
         chapter_titles = {ch.chapter_id: ch.title for ch in taxonomy_tree.chapters}
 
         def _resolve_chapter(item_id: str, fallback_ch: str = "") -> Tuple[str, str]:
+            if fallback_ch in {"wep", "work-energy", "work-energy-power"}:
+                return "work-energy-power", chapter_titles.get("work-energy-power", "Work, Energy and Power")
             if fallback_ch in {"dynamics", "laws-of-motion"}:
                 return "laws-of-motion", chapter_titles.get("laws-of-motion", "Laws of Motion")
             if fallback_ch and fallback_ch in chapter_titles:
                 return fallback_ch, chapter_titles[fallback_ch]
             tokens = item_id.split("-")
             for t in tokens:
+                if t in {"wep", "work", "energy", "power"}:
+                    return "work-energy-power", chapter_titles.get("work-energy-power", "Work, Energy and Power")
                 if t in {"kin", "kinematics"}:
                     return "kinematics", chapter_titles.get("kinematics", "Kinematics")
                 if t in {"dyn", "dynamics", "motion"}:

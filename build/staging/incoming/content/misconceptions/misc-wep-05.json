@@ -1,0 +1,17 @@
+{
+  "misconception_id": "misc-wep-05",
+  "chapter_id": "work-energy-power",
+  "category": "INVALID_FORMULA_CONDITION",
+  "statement": "Potential energy can be defined for any physical force, including friction.",
+  "erroneous_reasoning": "Believing that because work can be calculated for friction, one can simply define a 'frictional potential energy' U_f.",
+  "correct_physics_explanation": "Potential energy U requires that work between two points be independent of path, satisfying oint F . dr = 0. For kinetic friction, the line integral along a closed round trip is strictly non-zero (-2 mu_k N L < 0). Friction dissipates mechanical energy irreversibly into thermal disorder; no reversible potential energy can be formulated.",
+  "refutation_counterexample": "Sliding a block around a closed square loop of perimeter 4L on a rough floor does negative work W_f = -4 mu_k N L != 0. If a potential existed, round-trip work would be identically zero.",
+  "diagnostic_check_latex": "\\oint \\vec{f}_k \\cdot d\\vec{r} = -\\mu_k N \\oint ds < 0 \\implies \\nabla \\times \\vec{f}_k \\neq \\vec{0} \\implies \\text{No potential energy exists.}",
+  "claim_traces": [
+    "HRW Ch 8 p. 203; UP Ch 7 p. 248"
+  ],
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-misc-wep-05",
+  "created_at": "2026-10-05T01:00:00Z",
+  "content_hash": "761343e888a2fd621dc0ab7084a3acde0830cc22997235063aab47032c9df934"
+}

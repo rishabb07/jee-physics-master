@@ -1,0 +1,17 @@
+{
+  "misconception_id": "misc-wep-06",
+  "chapter_id": "work-energy-power",
+  "category": "INVALID_FORMULA_CONDITION",
+  "statement": "In vertical circular motion, tension at the top must be strictly zero for the particle to complete the circle.",
+  "erroneous_reasoning": "Treating the limiting boundary condition T_top = 0 as an equality that must always hold, or assuming zero tension means the string has snapped.",
+  "correct_physics_explanation": "The requirement to complete the loop is an inequality: T_top >= 0. For any launch speed v_bot > sqrt(5gR), tension at the top is strictly positive: T_top = m v_top^2 / R - mg > 0. Only at the exact threshold v_bot = sqrt(5gR) does tension vanish momentarily at the apex point.",
+  "refutation_counterexample": "If a particle is launched with v_bot = sqrt(6gR), energy conservation gives v_top = sqrt(2gR). Radial tension at apex is T_top = m(2gR)/R - mg = mg > 0.",
+  "diagnostic_check_latex": "T_{\\text{top}} = \\frac{m v_{\\text{top}}^2}{R} - mg \\ge 0 \\iff v_{\\text{top}} \\ge \\sqrt{gR} \\quad (T_{\\text{top}} > 0 \\text{ for any } v_{\\text{bot}} > \\sqrt{5gR}).",
+  "claim_traces": [
+    "HCV1 Ch 8 p. 140; UP Ch 5 p. 184"
+  ],
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-misc-wep-06",
+  "created_at": "2026-10-05T01:00:00Z",
+  "content_hash": "3da877378c7b538350177955cb74351116ec5cb8a9b6605d51de0571eda974ad"
+}

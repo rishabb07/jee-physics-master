@@ -1,0 +1,23 @@
+{
+  "concept_id": "concept-wep-work-friction-01",
+  "chapter_id": "work-energy-power",
+  "title": "Work Done by Friction and Interfacial Dissipation",
+  "formal_definition": "Static friction does zero work in the rest frame of the contact surface, but can do positive or negative work in other reference frames. Kinetic friction dissipative work between two sliding surfaces is strictly negative: $W_{\\text{diss}} = -f_k s_{\\text{rel}} = -\\mu_k N s_{\\text{rel}}$, transforming organized macroscopic kinetic energy into internal thermal energy.",
+  "physical_intuition": "Static friction prevents relative slip; if the contact surface moves (e.g. accelerating truck bed), static friction accelerates the payload, doing positive work. Kinetic friction always opposes relative sliding at the interface.",
+  "assumptions": [
+    "Amontons-Coulomb friction model",
+    "Rigid contact interface"
+  ],
+  "validity_boundaries": [
+    "Non-conservative dissipative interaction",
+    "Cannot define a mechanical potential energy for friction"
+  ],
+  "mathematical_representation": "W_{\\text{static}} \\lessgtr 0, \\quad W_{\\text{kinetic, rel}} = -\\mu_k N s_{\\text{rel}} < 0",
+  "claim_traces": [
+    "HCV1 Ch 8 p. 131; HRW Ch 8 p. 207; UP Ch 7 p. 250"
+  ],
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-concept-wep-work-friction-01",
+  "created_at": "2026-10-05T01:00:00Z",
+  "content_hash": "2af7bc534e469f7eb82621b021e39bb5093733eab47dc969308282986c990a85"
+}

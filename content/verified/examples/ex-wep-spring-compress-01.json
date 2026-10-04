@@ -1,0 +1,53 @@
+{
+  "example_id": "ex-wep-spring-compress-01",
+  "chapter_id": "work-energy-power",
+  "problem_statement": "A block of mass $m = 2.0\\text{ kg}$ is released with speed $v_0 = 4.0\\text{ m/s}$ on a rough horizontal floor with kinetic friction coefficient $\\mu_k = 0.20$. After traveling distance $d = 2.0\\text{ m}$, it collides with an uncompressed horizontal spring of spring constant $k = 400\\text{ N/m}$ fixed to a rigid wall. Find the maximum compression $x_{\\text{max}}$ of the spring. (Take $g = 9.8\\text{ m/s}^2$).",
+  "known_parameters": {
+    "m": 2.0,
+    "v_0": 4.0,
+    "mu_k": 0.2,
+    "d": 2.0,
+    "k": 400.0,
+    "g": 9.8
+  },
+  "target_variable": "x_max",
+  "solution_strategy": "Apply the Work-Energy Theorem to the block from initial release to the point of maximum spring compression, accounting for friction work over total distance d + x_max and spring work.",
+  "solution_steps": [
+    {
+      "step_number": 1,
+      "explanation": "State initial and final kinetic energies of the block.",
+      "equation_latex": "K_i = \\frac{1}{2} m v_0^2 = \\frac{1}{2}(2.0)(4.0)^2 = 16.0\\text{ J}, \\quad K_f = 0"
+    },
+    {
+      "step_number": 2,
+      "explanation": "Express total work done by friction and spring over total displacement d + x_max.",
+      "equation_latex": "W_{\\text{net}} = W_{f_k} + W_s = -\\mu_k m g (d + x_{\\text{max}}) - \\frac{1}{2} k x_{\\text{max}}^2"
+    },
+    {
+      "step_number": 3,
+      "explanation": "Apply work-energy theorem W_net = Delta K = 0 - K_i = -16.0 J.",
+      "equation_latex": "-(0.20)(2.0)(9.8)(2.0 + x_{\\text{max}}) - \\frac{1}{2}(400) x_{\\text{max}}^2 = -16.0 \\implies 3.92(2.0 + x_{\\text{max}}) + 200 x_{\\text{max}}^2 = 16.0"
+    },
+    {
+      "step_number": 4,
+      "explanation": "Formulate quadratic equation: 200 x_max^2 + 3.92 x_max - 8.16 = 0.",
+      "equation_latex": "x_{\\text{max}} = \\frac{-3.92 + \\sqrt{3.92^2 - 4(200)(-8.16)}}{2(200)} = \\frac{-3.92 + \\sqrt{15.3664 + 6528}}{400} = \\frac{-3.92 + 80.89}{400} \\approx 0.192\\text{ m} = 19.2\\text{ cm}"
+    }
+  ],
+  "final_answer": "x_{\\text{max}} \\approx 0.192\\text{ m} = 19.2\\text{ cm}",
+  "trap_alerts": [
+    "Forgetting that friction continues to act during the spring compression phase x_max",
+    "Omitting kinetic energy at spring contact"
+  ],
+  "sanity_checks": [
+    "Total energy dissipated by friction is 3.92 * 2.192 = 8.59 J, spring stores 1/2 * 400 * (0.192)^2 = 7.37 J, sum = 15.96 J approx 16.0 J",
+    "x_max must be strictly positive"
+  ],
+  "claim_traces": [
+    "HCV1 Ch 8 Example 8.6; HRW Ch 8 Sample Problem 8.04"
+  ],
+  "verification_status": "VERIFIED",
+  "verification_record_id": "dual-cvr-ex-wep-spring-compress-01",
+  "created_at": "2026-10-05T01:00:00Z",
+  "content_hash": "d42230c1241323232f8f3fcca26c248a8e252fd3ac9a8838daf8baaa238da45c"
+}

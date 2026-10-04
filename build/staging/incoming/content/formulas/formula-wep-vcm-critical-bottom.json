@@ -1,0 +1,43 @@
+{
+  "formula_id": "formula-wep-vcm-critical-bottom",
+  "chapter_id": "work-energy-power",
+  "title": "Critical Looping Velocities for Vertical Circle with String",
+  "equation_latex": "v_{\\text{bot,min}} = \\sqrt{5 g R}, \\quad v_{\\text{top,min}} = \\sqrt{g R}, \\quad T_{\\text{bot}} - T_{\\text{top}} = 6 mg",
+  "variables": {
+    "v_{\\text{bot,min}}": "Minimum speed at lowest point to complete vertical loop",
+    "v_{\\text{top,min}}": "Minimum speed at highest point (apex) without slackening",
+    "R": "Radius of circular path (length of string)",
+    "g": "Acceleration due to gravity",
+    "m": "Mass of particle"
+  },
+  "units": {
+    "v": "m/s",
+    "R": "m",
+    "g": "m/s^2",
+    "m": "kg",
+    "T": "N"
+  },
+  "dimensions": {
+    "v": "[L][T]^-1",
+    "R": "[L]",
+    "g": "[L][T]^-2",
+    "T": "[M][L][T]^-2"
+  },
+  "assumptions": [
+    "Light inextensible string",
+    "No air resistance",
+    "Planar vertical circle"
+  ],
+  "conditions_of_validity": [
+    "String tension T >= 0 everywhere on trajectory"
+  ],
+  "common_misuse": [
+    "Using v_bot = sqrt(4gR) for string instead of rigid rod",
+    "Assuming apex speed can be zero with a string"
+  ],
+  "derivation_reference": "derivation-formula-wep-vcm-critical",
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-formula-wep-vcm-critical-bottom",
+  "created_at": "2026-10-05T01:00:00Z",
+  "content_hash": "34e89f9e2711ed9b0bdd2cd81ef8ca477954ad3e114803d3a7b00a4caf6a14eb"
+}

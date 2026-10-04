@@ -1,0 +1,39 @@
+{
+  "formula_id": "formula-wep-work-const",
+  "chapter_id": "work-energy-power",
+  "title": "Work Done by a Constant Force",
+  "equation_latex": "W = \\vec{F} \\cdot \\vec{d} = F d \\cos\\theta = F_x d_x + F_y d_y + F_z d_z",
+  "variables": {
+    "W": "Mechanical work done",
+    "\\vec{F}": "Constant force vector",
+    "\\vec{d}": "Displacement vector",
+    "\\theta": "Angle between force and displacement vectors"
+  },
+  "units": {
+    "W": "J (N m)",
+    "\\vec{F}": "N",
+    "\\vec{d}": "m",
+    "\\theta": "rad"
+  },
+  "dimensions": {
+    "W": "[M][L]^2[T]^-2",
+    "\\vec{F}": "[M][L][T]^-2",
+    "\\vec{d}": "[L]",
+    "\\theta": "[1]"
+  },
+  "assumptions": [
+    "Force is constant in magnitude and direction throughout displacement"
+  ],
+  "conditions_of_validity": [
+    "Point particle or translation without rotation"
+  ],
+  "common_misuse": [
+    "Using distance traveled along curve instead of displacement vector",
+    "Multiplying force magnitude by distance without cos(theta)"
+  ],
+  "derivation_reference": "derivation-formula-wep-work-const",
+  "verification_status": "VERIFIED",
+  "verification_record_id": "cvr-formula-wep-work-const",
+  "created_at": "2026-10-05T01:00:00Z",
+  "content_hash": "c7ee7c141e662624d2c84c69ca56fdca97c517068a10664175e2f49716a61181"
+}

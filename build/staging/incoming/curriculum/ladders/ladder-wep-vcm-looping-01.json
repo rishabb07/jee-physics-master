@@ -1,0 +1,61 @@
+{
+  "ladder_id": "ladder-wep-vcm-looping-01",
+  "chapter_id": "work-energy-power",
+  "topic_id": "power-and-vertical-circle",
+  "title": "Scaffolding Vertical Circular Motion from Bottom Launch to Slack Trajectories",
+  "physical_system": "Particle of mass m attached to light inextensible string of length R orbiting in vertical gravitational field g",
+  "rungs": [
+    {
+      "level": 1,
+      "level_name": "Loop-the-loop minimum launch speed",
+      "atom_id": "work-energy-power-question-e37050bb",
+      "physical_delta": "Particle launched horizontally at bottom with critical speed required to complete full vertical circle without string slackening",
+      "reasoning_depth": 2,
+      "concepts_involved": [
+        "concept-wep-vertical-circle-critical-01",
+        "concept-wep-mech-energy-cons-01"
+      ],
+      "mathematical_complexity": "Conservation of energy combined with apex radial dynamic equilibrium T_top >= 0 yielding v_bot >= sqrt(5gR)",
+      "transfer_requirement": "Recognizing that minimum tension occurs at apex, not horizontal position"
+    },
+    {
+      "level": 2,
+      "level_name": "Tension difference between extremities",
+      "atom_id": "work-energy-power-question-ba0b4106",
+      "physical_delta": "Comparing string tension at bottom T_bot and apex T_top for arbitrary looping speed",
+      "reasoning_depth": 3,
+      "concepts_involved": [
+        "concept-wep-vertical-circle-critical-01"
+      ],
+      "mathematical_complexity": "Algebraic elimination of speed using energy conservation to yield universal invariant T_bot - T_top = 6mg",
+      "transfer_requirement": "Proving that the 6mg tension difference is completely independent of initial kinetic energy"
+    },
+    {
+      "level": 3,
+      "level_name": "String slackening angle in upper quadrant",
+      "atom_id": "prob-irodov-1-120",
+      "physical_delta": "Particle launched with intermediate speed sqrt(2gR) < v_bot < sqrt(5gR) such that string tension vanishes before reaching the top",
+      "reasoning_depth": 4,
+      "concepts_involved": [
+        "concept-wep-vertical-circle-slack-01",
+        "concept-wep-vertical-circle-critical-01"
+      ],
+      "mathematical_complexity": "Setting radial constraint T(theta) = 0 and solving coupled energy-radial equations for cos(theta_slack)",
+      "transfer_requirement": "Distinguishing string slackening (T=0, v > 0) from turning point in lower quadrant (v=0, T > 0)"
+    },
+    {
+      "level": 4,
+      "level_name": "Post-slack parabolic projectile flight",
+      "atom_id": "prob-irodov-1-118",
+      "physical_delta": "Subsequent free-flight projectile trajectory after string goes slack at theta_slack, analyzing path through circle center",
+      "reasoning_depth": 5,
+      "concepts_involved": [
+        "concept-wep-vertical-circle-slack-01",
+        "concept-kin-projectile-01"
+      ],
+      "mathematical_complexity": "Solving 2D ballistic trajectory with initial launch position (R sin theta, R cos theta) and tangential velocity vector",
+      "transfer_requirement": "Synthesizing circular constraint release conditions with Cartesian projectile kinematics"
+    }
+  ],
+  "pedagogical_objective": "Systematically scaffold vertical circular dynamics from energy-tension conservation to universal tension differences, slackening angle bifurcations, and projectile departure flight."
+}

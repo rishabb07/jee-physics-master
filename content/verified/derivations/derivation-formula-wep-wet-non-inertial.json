@@ -1,0 +1,41 @@
+{
+  "derivation_id": "derivation-formula-wep-wet-non-inertial",
+  "chapter_id": "work-energy-power",
+  "title": "Derivation of the Work-Energy Theorem in Non-Inertial Reference Frames",
+  "target_formula_id": "formula-wep-wet-non-inertial",
+  "target_equation": "W_{\\text{real}} + W_{\\text{pseudo}} = \\Delta K_{\\text{rel}}",
+  "assumptions": [
+    "Translating frame with acceleration a_0(t)",
+    "Apparent particle acceleration a_rel = a - a_0"
+  ],
+  "starting_principles": [
+    "Modified Newton's Second Law F_real - m a_0 = m a_rel in accelerating frame"
+  ],
+  "ordered_steps": [
+    {
+      "step_number": 1,
+      "explanation": "Write dynamic equation of particle in accelerating frame incorporating pseudo-force F_pseudo = -m a_0.",
+      "equation_latex": "m \\vec{a}_{\\text{rel}} = \\vec{F}_{\\text{real}} - m \\vec{a}_0"
+    },
+    {
+      "step_number": 2,
+      "explanation": "Take the scalar dot product of both sides with relative infinitesimal displacement dr_rel.",
+      "equation_latex": "m \\vec{a}_{\\text{rel}} \\cdot d\\vec{r}_{\\text{rel}} = \\vec{F}_{\\text{real}} \\cdot d\\vec{r}_{\\text{rel}} + (-m \\vec{a}_0) \\cdot d\\vec{r}_{\\text{rel}}"
+    },
+    {
+      "step_number": 3,
+      "explanation": "Integrate along the relative trajectory curve from initial to final state.",
+      "equation_latex": "\\int m \\frac{d\\vec{v}_{\\text{rel}}}{dt} \\cdot \\vec{v}_{\\text{rel}} \\, dt = \\int \\vec{F}_{\\text{real}} \\cdot d\\vec{r}_{\\text{rel}} + \\int \\vec{F}_{\\text{pseudo}} \\cdot d\\vec{r}_{\\text{rel}} \\implies \\Delta K_{\\text{rel}} = W_{\\text{real}} + W_{\\text{pseudo}}"
+    }
+  ],
+  "limiting_cases": [
+    "When frame acceleration a_0 = 0, W_pseudo = 0 and equation reduces to standard inertial work-energy theorem"
+  ],
+  "claim_traces": [
+    "HCV1 Ch 8 p. 134; Irodov Part 1 Section 1.3 p. 27"
+  ],
+  "verification_status": "VERIFIED",
+  "verification_record_id": "dual-cvr-derivation-formula-wep-wet-non-inertial",
+  "created_at": "2026-10-05T01:00:00Z",
+  "content_hash": "c085b3b2fdaec08135b3d200c45582490018c3000214bbb729f46d6364595df4"
+}
