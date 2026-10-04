@@ -34,6 +34,8 @@ def wait_for_run(commit_prefix="ef0c990", max_wait_sec=180, poll_interval=10):
     return False, None
 
 if __name__ == "__main__":
-    success, run = wait_for_run()
+    prefix = sys.argv[1] if len(sys.argv) > 1 else "25a7813"
+    success, run = wait_for_run(commit_prefix=prefix)
     if not success:
         sys.exit(1)
+

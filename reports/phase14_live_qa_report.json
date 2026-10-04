@@ -1,0 +1,341 @@
+{
+  "phase": "PHASE_14",
+  "chapter_id": "work-energy-power",
+  "chapter_alias": "wep",
+  "deployment_metadata": {
+    "git_commit": "25a7813",
+    "version": "1.0.0-pilot",
+    "scope": "PILOT",
+    "generated_at": "2026-10-04T19:35:53.734863+00:00",
+    "counts": {
+      "total_chapters": 30,
+      "pilot_active_chapters": 7,
+      "concepts": 53,
+      "formulas": 53,
+      "derivations": 33,
+      "worked_examples": 21,
+      "misconceptions": 25,
+      "verified_questions": 23,
+      "question_ladders": 4,
+      "search_index_entries": 238
+    },
+    "files_count": 17
+  },
+  "network_asset_integrity": {
+    "index.html": {
+      "status": "HTTP_200_OK",
+      "size_bytes": 3822
+    },
+    "css/app.css": {
+      "status": "HTTP_200_OK",
+      "size_bytes": 17231
+    },
+    "js/app.js": {
+      "status": "HTTP_200_OK",
+      "size_bytes": 6092
+    },
+    "vendor/katex/katex.min.js": {
+      "status": "HTTP_200_OK",
+      "size_bytes": 277038
+    },
+    "vendor/katex/katex.min.css": {
+      "status": "HTTP_200_OK",
+      "size_bytes": 23196
+    },
+    "vendor/katex/fonts/KaTeX_Main-Regular.woff2": {
+      "status": "HTTP_200_OK",
+      "size_bytes": 26272
+    },
+    "vendor/katex/fonts/KaTeX_Math-Italic.woff2": {
+      "status": "HTTP_200_OK",
+      "size_bytes": 16440
+    },
+    "vendor/katex/fonts/KaTeX_Size1-Regular.woff2": {
+      "status": "HTTP_200_OK",
+      "size_bytes": 5468
+    },
+    "vendor/katex/fonts/KaTeX_AMS-Regular.woff2": {
+      "status": "HTTP_200_OK",
+      "size_bytes": 28076
+    }
+  },
+  "data_bundle_hashes": {
+    "total_files": 17,
+    "matches": 17,
+    "mismatches": 0,
+    "details": {
+      "prerequisites.json": {
+        "status": "MATCH",
+        "sha256": "41ccc9974491bd48795049b94be3ed291288be73803cd614ff953baddde6daec",
+        "size": 33324
+      },
+      "concepts.json": {
+        "status": "MATCH",
+        "sha256": "6a977dd1583b5440a25ffaf264cec3fa0cb519779c88830a8fec97964e81f20e",
+        "size": 78601
+      },
+      "chapter_rotational-motion.json": {
+        "status": "MATCH",
+        "sha256": "cd9e62df92f8973122d5b58daabddd59063fa8851eef3f66e2058e559ca02597",
+        "size": 63780
+      },
+      "taxonomy.json": {
+        "status": "MATCH",
+        "sha256": "ca1531c3a9f2b6c23052b81c548331074b3ebb97fa594276b181616e2884f1f8",
+        "size": 33965
+      },
+      "chapter_current-electricity.json": {
+        "status": "MATCH",
+        "sha256": "86c3d6aa44e5694f7d78b06bfaefb988e09291c7a707c2e2fbadc611947be43b",
+        "size": 54531
+      },
+      "chapter_thermodynamics.json": {
+        "status": "MATCH",
+        "sha256": "23c5ccd0147fe2e67b162ea918664f650e00be670026901341b8ea9bc9971a34",
+        "size": 53259
+      },
+      "ladders.json": {
+        "status": "MATCH",
+        "sha256": "1fc5551339ace01b80b51ec9b64341ec4ac149b81a75db59be003525e6efee24",
+        "size": 8571
+      },
+      "chapter_ray-optics.json": {
+        "status": "MATCH",
+        "sha256": "0c412f668ae9ba81932f21da0b5bf9084b8c2ba83101ce6bceb872448eeaeb2b",
+        "size": 49503
+      },
+      "questions.json": {
+        "status": "MATCH",
+        "sha256": "e72c2df818604e3b665b0187821fd8dd7eba6af71eaf7b48d3b35e63ce3d26fd",
+        "size": 36857
+      },
+      "chapter_laws-of-motion.json": {
+        "status": "MATCH",
+        "sha256": "a9559d6c140770c7d2fdf776282f6a41550ce46dc8b3c5770b1e86a15e1d91b7",
+        "size": 63812
+      },
+      "search_index.json": {
+        "status": "MATCH",
+        "sha256": "905013db8f14f15df29661fa542031870051e3516aec00b6b6d4ab29f107206f",
+        "size": 352354
+      },
+      "chapter_kinematics.json": {
+        "status": "MATCH",
+        "sha256": "50fa1e1c60890469c96183c0b756d6a38eb9a7eb28938bef94a753ecd1f36a7f",
+        "size": 84944
+      },
+      "chapters.json": {
+        "status": "MATCH",
+        "sha256": "e86843daeca60cb5ac7ee7df4776d37b64c41da7fdd3af2c7363c1b632ea7733",
+        "size": 16186
+      },
+      "chapter_dynamics.json": {
+        "status": "MATCH",
+        "sha256": "a9559d6c140770c7d2fdf776282f6a41550ce46dc8b3c5770b1e86a15e1d91b7",
+        "size": 63812
+      },
+      "formulas.json": {
+        "status": "MATCH",
+        "sha256": "23e496e96eb8fdc488a721a1d6f3f317a622150ac9ab5be907eeaf78e2acfb9f",
+        "size": 54346
+      },
+      "chapter_work-energy-power.json": {
+        "status": "MATCH",
+        "sha256": "9fcae080dffbc6211acd31ee824fc28370884524d3ffcaa4b30fba8ef43161ba",
+        "size": 75070
+      },
+      "chapter_wep.json": {
+        "status": "MATCH",
+        "sha256": "9fcae080dffbc6211acd31ee824fc28370884524d3ffcaa4b30fba8ef43161ba",
+        "size": 75070
+      }
+    }
+  },
+  "wep_payload_audit": {
+    "sections_count": 4,
+    "concepts_count": 17,
+    "formulas_count": 14,
+    "unique_derivations_count": 7,
+    "worked_examples_count": 6,
+    "misconceptions_count": 6,
+    "practice_questions_count": 2,
+    "ladders_count": 1,
+    "dual_alias_identical": true,
+    "verdict": "PASSED"
+  },
+  "pilot_regression_audit": {
+    "chapters": {
+      "laws-of-motion": {
+        "title": "Newton's Laws of Motion & Dynamics",
+        "sections_count": 4,
+        "concepts_count": 16,
+        "formulas_count": 14,
+        "status": "VALID"
+      },
+      "kinematics": {
+        "title": "Kinematics: Rest, Motion, and Trajectories",
+        "sections_count": 4,
+        "concepts_count": 8,
+        "formulas_count": 12,
+        "status": "VALID"
+      },
+      "rotational-motion": {
+        "title": "Rotational Motion",
+        "sections_count": 5,
+        "concepts_count": 4,
+        "formulas_count": 4,
+        "status": "VALID"
+      },
+      "thermodynamics": {
+        "title": "Thermodynamics",
+        "sections_count": 5,
+        "concepts_count": 3,
+        "formulas_count": 3,
+        "status": "VALID"
+      },
+      "current-electricity": {
+        "title": "Current Electricity",
+        "sections_count": 5,
+        "concepts_count": 3,
+        "formulas_count": 3,
+        "status": "VALID"
+      },
+      "ray-optics": {
+        "title": "Ray Optics and Optical Instruments",
+        "sections_count": 5,
+        "concepts_count": 2,
+        "formulas_count": 3,
+        "status": "VALID"
+      }
+    },
+    "verdict": "PASSED"
+  },
+  "route_smoke_tests": {
+    "/": {
+      "label": "Home / Overview",
+      "dom_bytes": 25686,
+      "katex_elements_count": 5,
+      "missing_markers": [],
+      "status": "PASSED"
+    },
+    "/curriculum": {
+      "label": "Curriculum DAG View",
+      "dom_bytes": 61052,
+      "katex_elements_count": 5,
+      "missing_markers": [],
+      "status": "PASSED"
+    },
+    "/formulas": {
+      "label": "Formula Sheet",
+      "dom_bytes": 444591,
+      "katex_elements_count": 217,
+      "missing_markers": [],
+      "status": "PASSED"
+    },
+    "/practice": {
+      "label": "Practice Question Bank",
+      "dom_bytes": 531296,
+      "katex_elements_count": 780,
+      "missing_markers": [],
+      "status": "PASSED"
+    },
+    "/ladders": {
+      "label": "Question Ladders",
+      "dom_bytes": 40596,
+      "katex_elements_count": 5,
+      "missing_markers": [],
+      "status": "PASSED"
+    },
+    "/chapter/work-energy-power": {
+      "label": "WEP Canonical Route",
+      "dom_bytes": 1068344,
+      "katex_elements_count": 720,
+      "missing_markers": [],
+      "status": "PASSED"
+    },
+    "/chapter/wep": {
+      "label": "WEP Alias Route",
+      "dom_bytes": 1068344,
+      "katex_elements_count": 720,
+      "missing_markers": [],
+      "status": "PASSED"
+    },
+    "/chapter/laws-of-motion": {
+      "label": "Dynamics Canonical Route",
+      "dom_bytes": 727156,
+      "katex_elements_count": 586,
+      "missing_markers": [],
+      "status": "PASSED"
+    },
+    "/chapter/kinematics": {
+      "label": "Kinematics Chapter",
+      "dom_bytes": 880332,
+      "katex_elements_count": 708,
+      "missing_markers": [],
+      "status": "PASSED"
+    },
+    "/chapter/rotational-motion": {
+      "label": "Pilot Chapter: Rotational Motion",
+      "dom_bytes": 549701,
+      "katex_elements_count": 707,
+      "missing_markers": [],
+      "status": "PASSED"
+    },
+    "/chapter/thermodynamics": {
+      "label": "Pilot Chapter: Thermodynamics",
+      "dom_bytes": 443805,
+      "katex_elements_count": 787,
+      "missing_markers": [],
+      "status": "PASSED"
+    },
+    "/chapter/current-electricity": {
+      "label": "Pilot Chapter: Current Electricity",
+      "dom_bytes": 509849,
+      "katex_elements_count": 691,
+      "missing_markers": [],
+      "status": "PASSED"
+    },
+    "/chapter/ray-optics": {
+      "label": "Pilot Chapter: Ray Optics",
+      "dom_bytes": 420736,
+      "katex_elements_count": 634,
+      "missing_markers": [],
+      "status": "PASSED"
+    }
+  },
+  "responsive_layout_tests": {
+    "mobile": {
+      "resolution": "375,667",
+      "home_rendered": true,
+      "wep_rendered": true,
+      "status": "PASSED"
+    },
+    "tablet": {
+      "resolution": "768,1024",
+      "home_rendered": true,
+      "wep_rendered": true,
+      "status": "PASSED"
+    },
+    "desktop": {
+      "resolution": "1440,900",
+      "home_rendered": true,
+      "wep_rendered": true,
+      "status": "PASSED"
+    }
+  },
+  "search_verification": {
+    "search_input_present": true,
+    "status": "PASSED"
+  },
+  "interactive_elements_audit": {
+    "solution_reveal_elements": true,
+    "question_card_elements": true,
+    "katex_math_nodes_rendered": 720,
+    "status": "PASSED"
+  },
+  "all_checks_passed": true,
+  "final_verdicts": [
+    "PHASE_14_WORK_ENERGY_POWER_PROVEN",
+    "PHASE_14_LIVE_DEPLOYMENT_PROVEN"
+  ]
+}
