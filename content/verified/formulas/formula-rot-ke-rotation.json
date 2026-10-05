@@ -1,0 +1,44 @@
+{
+  "formula_id": "formula-rot-ke-rotation",
+  "chapter_id": "rotational-motion",
+  "title": "Rotational Kinetic Energy of a Rigid Body",
+  "equation": "K_{\\text{rot}} = \\frac{1}{2} I \\omega^2",
+  "variables": {
+    "K_{\\text{rot}}": "Rotational kinetic energy",
+    "I": "Moment of inertia about the axis of rotation",
+    "\\omega": "Angular velocity of the rigid body"
+  },
+  "units": {
+    "K_{\\text{rot}}": "J",
+    "I": "kg m^2",
+    "\\omega": "rad/s"
+  },
+  "dimensions": {
+    "K_{\\text{rot}}": "[M][L]^2[T]^-2",
+    "I": "[M][L]^2",
+    "\\omega": "[T]^-1"
+  },
+  "assumptions": [
+    "Rigid body rotating about a fixed axis or about a principal axis passing through center of mass",
+    "Uniform angular velocity omega for all constituent mass elements"
+  ],
+  "validity_conditions": [
+    "Universal relation for rigid body rotation in classical mechanics"
+  ],
+  "derivation_reference": "derivation-formula-rot-ke-rotation",
+  "related_concepts": [
+    "concept-rot-rotational-work-energy-01"
+  ],
+  "common_misuse": [
+    "Using moment of inertia about center of mass when body rotates about a different off-center fixed pivot",
+    "Adding 1/2 M v_cm^2 when calculating pure rotation about a fixed pivot"
+  ],
+  "generation_metadata": {
+    "agent": "physics-formula-writer",
+    "phase": "16"
+  },
+  "verification_status": "VERIFIED",
+  "created_at": "2026-10-05T04:10:34.457645+00:00",
+  "content_hash": "bd1637f7f85c2d89b5147cbe05a11ad2a742c65d8e8045efaa7ff25800855c88",
+  "verification_record_id": "cvr-formula-rot-ke-rotation"
+}

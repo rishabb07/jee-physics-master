@@ -1,0 +1,42 @@
+{
+  "content_id": "concept-rot-rolling-horizontal-friction-01",
+  "curriculum_id": "curr-rot-04",
+  "taxonomy_reference": {
+    "chapter_id": "rotational-motion",
+    "topic_id": "rolling-motion",
+    "subtopic_id": "pure-rolling-on-horizontal-surface"
+  },
+  "title": "Dynamics of Pure Rolling on Horizontal Surfaces and Directionality of Static Friction",
+  "learning_objective": "Analyze the direction, magnitude, and role of static friction in maintaining pure rolling under external forces and torques.",
+  "explanation": "In pure rolling on a horizontal surface at constant velocity without external horizontal forces, the static friction force is exactly zero ($f_s = 0$). When an external horizontal force $F$ is applied to a rolling body at height $h$ relative to its center of mass, static friction acts to enforce the kinematic constraint $a_{\\text{cm}} = R \\alpha$. Applying dynamical equations: $$F + f_s = M a_{\\text{cm}}, \\quad F h - f_s R = I_{\\text{cm}} \\alpha = I_{\\text{cm}} \\frac{a_{\\text{cm}}}{R}$$ Solving simultaneously reveals the magnitude and direction of static friction: $$f_s = F \\frac{M R h - I_{\\text{cm}}}{I_{\\text{cm}} + M R^2} = F \\frac{\\frac{h}{R} - \\frac{k^2}{R^2}}{1 + \\frac{k^2}{R^2}}$$ This equation demonstrates three distinct operational regimes: 1. If $h > k^2/R$, static friction acts forward ($f_s > 0$). 2. If $h < k^2/R$, static friction acts backward ($f_s < 0$). 3. If $h = k^2/R$, static friction vanishes identically ($f_s = 0$); this special point is the Center of Percussion. Because the contact point has zero instantaneous velocity, static friction does zero net work in pure rolling: $dW = f_s \\cdot (0) = 0$.",
+  "intuition": "Static friction is an adaptable force\u2014it only pushes in whichever direction is needed to prevent the contact point from slipping! If you pull a spool by a string at the very top, the pull creates so much torque that the bottom tries to kick backward, so friction pushes forward to help it accelerate.",
+  "formal_definition": "The self-adjusting static friction force at the contact point required to satisfy the non-holonomic constraint equation $a_{\\text{cm}} = R \\alpha$ under applied loads: $$f_s \\le \\mu_s N$$",
+  "assumptions": [
+    "Rigid body with radius of gyration k rolling on stationary flat horizontal ground",
+    "Applied external force F is purely horizontal at height h above center of mass",
+    "Static friction limit f_s <= mu_s M g is not exceeded"
+  ],
+  "boundary_conditions": [
+    "Valid strictly for pure rolling; if f_s exceeds mu_s N, slipping occurs and dynamic friction f_k = mu_k N applies"
+  ],
+  "related_formula_ids": [
+    "formula-rot-rolling-horizontal-friction"
+  ],
+  "prerequisite_refs": [
+    "curr-nl-02",
+    "curr-rot-04"
+  ],
+  "source_references": [
+    "Halliday, Resnick & Walker, Chapter 11, Section 11.2 (Forces of Rolling)",
+    "H.C. Verma Vol 1, Chapter 10, Section 10.16",
+    "Irodov Problems in General Physics, Section 1.4, Problems 1.252-1.255"
+  ],
+  "generation_metadata": {
+    "agent": "physics-concept-writer",
+    "phase": "16"
+  },
+  "verification_status": "VERIFIED",
+  "created_at": "2026-10-05T04:09:34.593741+00:00",
+  "content_hash": "90817822e74700308a5af235ef2126f4a05e6800f3da4cf60aa993b6d7a9cd64",
+  "verification_record_id": "cvr-concept-rot-rolling-horizontal-friction-01"
+}

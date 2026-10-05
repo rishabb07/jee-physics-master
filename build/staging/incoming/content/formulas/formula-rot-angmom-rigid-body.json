@@ -1,0 +1,54 @@
+{
+  "formula_id": "formula-rot-angmom-rigid-body",
+  "chapter_id": "rotational-motion",
+  "title": "Angular Momentum of Rigid Body in Planar Motion About Arbitrary Origin",
+  "equation": "\\vec{L}_O = I_{\\text{cm}} \\vec{\\omega} + \\vec{r}_{\\text{cm}} \\times M \\vec{v}_{\\text{cm}}",
+  "variables": {
+    "\\vec{L}_O": "Total angular momentum vector about reference origin O",
+    "I_{\\text{cm}}": "Moment of inertia about principal axis through center of mass",
+    "\\vec{\\omega}": "Angular velocity vector of the rigid body",
+    "\\vec{r}_{\\text{cm}}": "Position vector of center of mass relative to origin O",
+    "M": "Total mass of the rigid body",
+    "\\vec{v}_{\\text{cm}}": "Linear velocity vector of center of mass"
+  },
+  "units": {
+    "\\vec{L}_O": "kg m^2/s",
+    "I_{\\text{cm}}": "kg m^2",
+    "\\vec{\\omega}": "rad/s",
+    "\\vec{r}_{\\text{cm}}": "m",
+    "M": "kg",
+    "\\vec{v}_{\\text{cm}}": "m/s"
+  },
+  "dimensions": {
+    "\\vec{L}_O": "[M][L]^2[T]^-1",
+    "I_{\\text{cm}}": "[M][L]^2",
+    "\\vec{\\omega}": "[T]^-1",
+    "\\vec{r}_{\\text{cm}}": "[L]",
+    "M": "[M]",
+    "\\vec{v}_{\\text{cm}}": "[L][T]^-1"
+  },
+  "assumptions": [
+    "Planar motion where angular velocity vector is perpendicular to the translational plane",
+    "Rigid body condition with constant mass M",
+    "Origin O is an unaccelerated fixed reference point in an inertial frame"
+  ],
+  "validity_conditions": [
+    "Universal decomposition of angular momentum into spin and orbital components for general plane motion"
+  ],
+  "derivation_reference": null,
+  "related_concepts": [
+    "concept-rot-angmom-rigid-body-01"
+  ],
+  "common_misuse": [
+    "Omitting orbital term r_cm x M v_cm when calculating angular momentum about an external pivot",
+    "Using moment of inertia about an arbitrary point instead of center of mass in the spin term"
+  ],
+  "generation_metadata": {
+    "agent": "physics-formula-writer",
+    "phase": "16"
+  },
+  "verification_status": "VERIFIED",
+  "created_at": "2026-10-05T04:10:34.457645+00:00",
+  "content_hash": "41e620d37b83dd84993596ffdcf50d697309bc9292a1bf21b1619ac2adf0c586",
+  "verification_record_id": "cvr-formula-rot-angmom-rigid-body"
+}

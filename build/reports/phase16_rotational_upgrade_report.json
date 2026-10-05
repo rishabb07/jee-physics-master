@@ -1,0 +1,143 @@
+{
+  "phase": "PHASE_16",
+  "title": "Rotational Motion / Rotational Dynamics Production Upgrade",
+  "timestamp": "2026-10-05T04:35:00Z",
+  "chapter_id": "rotational-motion",
+  "aliases": ["rotation", "rigid-body-dynamics", "rbd"],
+  "verdicts": {
+    "upgrade_verdict": "PHASE_16_ROTATIONAL_UPGRADE_PROVEN",
+    "deployment_verdict": "PHASE_16_LIVE_DEPLOYMENT_PROVEN"
+  },
+  "taxonomy_metrics": {
+    "chapter_order": 6,
+    "branch": "Mechanics",
+    "topics_count": 4,
+    "subtopics_count": 18,
+    "excluded_olympiad_topics": ["advanced-rigid-body-dynamics"]
+  },
+  "content_inventory": {
+    "concepts": {
+      "preserved_pilot": 4,
+      "upgraded_new": 7,
+      "total": 11
+    },
+    "formulas": {
+      "preserved_pilot": 4,
+      "upgraded_new": 12,
+      "total": 16
+    },
+    "derivations": {
+      "preserved_pilot": 4,
+      "upgraded_new": 3,
+      "total": 7,
+      "dual_verified": 7
+    },
+    "worked_examples": {
+      "preserved_pilot": 1,
+      "upgraded_new": 5,
+      "total": 6,
+      "dual_verified": 6
+    },
+    "misconceptions": {
+      "preserved_pilot": 2,
+      "upgraded_new": 4,
+      "total": 6
+    },
+    "questions": {
+      "canonical_kb_atoms": 3,
+      "verified_generated": 2,
+      "total": 5
+    },
+    "question_ladders": {
+      "preserved_pilot": 1,
+      "upgraded_new": 1,
+      "total": 2
+    }
+  },
+  "sections_breakdown": [
+    {
+      "section_id": "sec-01-moment-of-inertia",
+      "title": "Moment of Inertia, Radius of Gyration, and Axis Theorems",
+      "concepts": 2,
+      "formulas": 5,
+      "derivations": 2,
+      "worked_examples": 1,
+      "misconceptions": 1,
+      "questions": 0
+    },
+    {
+      "section_id": "sec-02-torque-and-rotational-dynamics",
+      "title": "Torque, Fixed-Axis Dynamics, and Rotational Work-Energy",
+      "concepts": 2,
+      "formulas": 5,
+      "derivations": 2,
+      "worked_examples": 1,
+      "misconceptions": 1,
+      "questions": 0
+    },
+    {
+      "section_id": "sec-03-angular-momentum-particle",
+      "title": "Angular Momentum of Particles and Systems About Fixed Reference Points",
+      "concepts": 2,
+      "formulas": 2,
+      "derivations": 1,
+      "worked_examples": 1,
+      "misconceptions": 1,
+      "questions": 2
+    },
+    {
+      "section_id": "sec-04-angular-momentum-conservation",
+      "title": "Conservation of Angular Momentum and Systems with Variable Inertia",
+      "concepts": 1,
+      "formulas": 1,
+      "derivations": 1,
+      "worked_examples": 1,
+      "misconceptions": 1,
+      "questions": 3
+    },
+    {
+      "section_id": "sec-05-pure-rolling-kinematics",
+      "title": "Pure Rolling Kinematics, Incline Dynamics, and Toppling",
+      "concepts": 4,
+      "formulas": 3,
+      "derivations": 1,
+      "worked_examples": 2,
+      "misconceptions": 2,
+      "questions": 0
+    }
+  ],
+  "source_fidelity": {
+    "total_records": 136,
+    "exact_only": 120,
+    "source_grounded": 16,
+    "sources_count": 7,
+    "sources": [
+      "HCV1 (Concepts of Physics)",
+      "Halliday & Resnick (Fundamentals of Physics)",
+      "University Physics (Young & Freedman)",
+      "Feynman Lectures on Physics (Vol 1)",
+      "Irodov (Problems in General Physics Section 1.4)",
+      "JEE Rank Booster Mock Test 02",
+      "JEE Rank Booster Mock Test 03"
+    ]
+  },
+  "qa_audit_results": {
+    "chapter_qa_verdict": "PASSED",
+    "rendering_qa_passed": true,
+    "critical_findings": 0,
+    "warnings": 0,
+    "latex_errors": 0,
+    "empty_sections": 0
+  },
+  "immutability_invariants": {
+    "kb_atoms_count": 35,
+    "kb_atoms_modified": 0,
+    "syllabus_yaml_modified": 0
+  },
+  "test_suite_results": {
+    "total_tests": 295,
+    "passed_tests": 295,
+    "failed_tests": 0,
+    "regressions": 0
+  }
+}

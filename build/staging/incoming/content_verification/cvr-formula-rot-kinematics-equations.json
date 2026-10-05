@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-formula-rot-kinematics-equations",
+  "content_type": "FORMULA",
+  "target_id": "formula-rot-kinematics-equations",
+  "content_hash": "e3a3ec04e29e4d4924e348b908732eeaa80b1c290a24a3db4f3ce9f3d57a559e",
+  "risk_level": "MEDIUM",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Independently verified dimensional homogeneity, physical assumptions, and validity boundaries for formula-rot-kinematics-equations.",
+  "verifier_id": "content-verifier-rot-formulas",
+  "created_at": "2026-10-05T04:10:34.457645+00:00"
+}

@@ -1,0 +1,48 @@
+{
+  "formula_id": "formula-rot-rolling-no-slip-velocity",
+  "chapter_id": "rotational-motion",
+  "title": "Pure Rolling Kinematic Constraint and Velocity Distribution",
+  "equation": "v_{\\text{cm}} = R \\omega, \\quad \\vec{v}_P = \\vec{0}, \\quad v_{\\text{top}} = 2 v_{\\text{cm}} = 2 R \\omega",
+  "variables": {
+    "v_{\\text{cm}}": "Linear speed of center of mass",
+    "R": "Radius of rolling body",
+    "\\omega": "Angular velocity of rolling body",
+    "v_P": "Instantaneous velocity of contact point P on stationary ground",
+    "v_{\\text{top}}": "Instantaneous velocity of top rim point"
+  },
+  "units": {
+    "v_{\\text{cm}}": "m/s",
+    "R": "m",
+    "\\omega": "rad/s",
+    "v_P": "m/s",
+    "v_{\\text{top}}": "m/s"
+  },
+  "dimensions": {
+    "v": "[L][T]^-1",
+    "R": "[L]",
+    "\\omega": "[T]^-1"
+  },
+  "assumptions": [
+    "Rigid wheel or cylinder rolling on a stationary flat horizontal surface",
+    "Zero relative sliding at the instantaneous contact point (pure rolling)"
+  ],
+  "validity_conditions": [
+    "Holds strictly during pure rolling; if the surface itself moves with speed v_s, constraint becomes v_cm - v_s = R omega"
+  ],
+  "derivation_reference": null,
+  "related_concepts": [
+    "concept-rot-pure-rolling-kinematics-01"
+  ],
+  "common_misuse": [
+    "Assuming top point has speed v_cm instead of 2 v_cm",
+    "Assuming contact point has zero acceleration because its instantaneous velocity is zero"
+  ],
+  "generation_metadata": {
+    "agent": "physics-formula-writer",
+    "phase": "16"
+  },
+  "verification_status": "VERIFIED",
+  "created_at": "2026-10-05T04:10:34.457645+00:00",
+  "content_hash": "c28ce4e22534160fc3dbe85e1d8ff65bf51fdb373702d3a6116bcb9999406a0c",
+  "verification_record_id": "cvr-formula-rot-rolling-no-slip-velocity"
+}

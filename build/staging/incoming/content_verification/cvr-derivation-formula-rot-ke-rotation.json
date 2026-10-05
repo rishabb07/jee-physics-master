@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-derivation-formula-rot-ke-rotation",
+  "content_type": "DERIVATION",
+  "target_id": "derivation-formula-rot-ke-rotation",
+  "content_hash": "ffc185cf6e9d64c15a1c6ca13533bd865a796c33ddf9e379137a685ee5052e29",
+  "risk_level": "HIGH",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Independently verified from first principles. Mathematical progression, limits, and validity checks confirmed for derivation-formula-rot-ke-rotation.",
+  "verifier_id": "content-verifier-a-rot-derivations",
+  "created_at": "2026-10-05T04:11:12.029307+00:00"
+}

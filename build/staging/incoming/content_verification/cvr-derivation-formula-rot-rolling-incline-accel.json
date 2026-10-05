@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-derivation-formula-rot-rolling-incline-accel",
+  "content_type": "DERIVATION",
+  "target_id": "derivation-formula-rot-rolling-incline-accel",
+  "content_hash": "91d2032e5448edd67183be5a3d1d3f212b52798ed5d532ae211a27e9edb37091",
+  "risk_level": "HIGH",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Independently verified from first principles. Mathematical progression, limits, and validity checks confirmed for derivation-formula-rot-rolling-incline-accel.",
+  "verifier_id": "content-verifier-a-rot-derivations",
+  "created_at": "2026-10-05T04:11:12.029307+00:00"
+}

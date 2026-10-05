@@ -1,10 +1,10 @@
 {
   "report_id": "pedagogical-dependency-audit-phase8",
-  "total_nodes": 275,
-  "total_edges": 102,
+  "total_nodes": 306,
+  "total_edges": 122,
   "cycles_detected": [],
   "dangling_references": [],
   "unverified_upstream_issues": [],
   "passed": true,
-  "generated_at": "2026-10-04T20:17:28.746653Z"
+  "generated_at": "2026-10-05T04:28:46.662312Z"
 }

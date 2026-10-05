@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-ex-rot-toppling-block-01",
+  "content_type": "WORKED_EXAMPLE",
+  "target_id": "ex-rot-toppling-block-01",
+  "content_hash": "67ed9f72739a3b1d63ec607d7cae6c7d64f077c105e94184739008bd9da5b14a",
+  "risk_level": "HIGH",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Independently calculated and audited from first principles. Numerical values, steps, and sanity checks verified for ex-rot-toppling-block-01.",
+  "verifier_id": "content-verifier-a-rot-examples",
+  "created_at": "2026-10-05T04:12:14.618212+00:00"
+}

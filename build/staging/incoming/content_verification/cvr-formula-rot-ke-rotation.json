@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-formula-rot-ke-rotation",
+  "content_type": "FORMULA",
+  "target_id": "formula-rot-ke-rotation",
+  "content_hash": "bd1637f7f85c2d89b5147cbe05a11ad2a742c65d8e8045efaa7ff25800855c88",
+  "risk_level": "MEDIUM",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Independently verified dimensional homogeneity, physical assumptions, and validity boundaries for formula-rot-ke-rotation.",
+  "verifier_id": "content-verifier-rot-formulas",
+  "created_at": "2026-10-05T04:10:34.457645+00:00"
+}

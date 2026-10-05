@@ -1,0 +1,104 @@
+{
+  "phase": "PHASE_15",
+  "chapter_id": "center-of-mass",
+  "chapter_alias": "momentum-collisions",
+  "deployment_metadata": {
+    "git_commit": "c031bc5",
+    "build_id": "809b6b47-7568-4d8c-891f-ec981097d98d",
+    "build_timestamp": "2026-10-04T20:21:33.323843+00:00",
+    "counts": {
+      "total_chapters": 30,
+      "pilot_active_chapters": 8,
+      "concepts": 69,
+      "formulas": 72,
+      "derivations": 40,
+      "worked_examples": 28,
+      "misconceptions": 31,
+      "verified_questions": 26,
+      "question_ladders": 5,
+      "search_index_entries": 296
+    }
+  },
+  "network_asset_integrity": {},
+  "data_bundle_hashes": {
+    "prerequisites.json": "MATCH",
+    "concepts.json": "MATCH",
+    "chapter_rotational-motion.json": "MATCH",
+    "taxonomy.json": "MATCH",
+    "chapter_current-electricity.json": "MATCH",
+    "chapter_thermodynamics.json": "MATCH",
+    "ladders.json": "MATCH",
+    "chapter_ray-optics.json": "MATCH",
+    "chapter_com-and-momentum.json": "MATCH",
+    "chapter_com.json": "MATCH",
+    "questions.json": "MATCH",
+    "chapter_laws-of-motion.json": "MATCH",
+    "search_index.json": "MATCH",
+    "chapter_kinematics.json": "MATCH",
+    "chapter_center-of-mass.json": "MATCH",
+    "chapter-momentum-collisions.json": "MATCH",
+    "chapters.json": "MATCH",
+    "chapter_dynamics.json": "MATCH",
+    "chapter_momentum-collisions.json": "MATCH",
+    "formulas.json": "MATCH",
+    "chapter_work-energy-power.json": "MATCH",
+    "chapter_wep.json": "MATCH"
+  },
+  "com_payload_audit": {
+    "sections_count": 4,
+    "concepts_count": 16,
+    "formulas_count": 19,
+    "derivations_count": 7,
+    "examples_count": 7,
+    "misconceptions_count": 6,
+    "questions_count": 2,
+    "alias_parity": true
+  },
+  "pilot_regression_audit": {
+    "kinematics": "PASS(4 sections)",
+    "laws-of-motion": "PASS(4 sections)",
+    "work-energy-power": "PASS(4 sections)",
+    "rotational-motion": "PASS(5 sections)",
+    "thermodynamics": "PASS(5 sections)",
+    "current-electricity": "PASS(5 sections)",
+    "ray-optics": "PASS(5 sections)"
+  },
+  "route_smoke_tests": {
+    "": "PASS",
+    "curriculum": "PASS",
+    "chapter/center-of-mass": "PASS",
+    "chapter/momentum-collisions": "PASS",
+    "chapter/com": "PASS",
+    "chapter/work-energy-power": "PASS",
+    "chapter/laws-of-motion": "PASS",
+    "chapter/kinematics": "PASS",
+    "chapter/rotational-motion": "PASS",
+    "chapter/thermodynamics": "PASS",
+    "chapter/current-electricity": "PASS",
+    "chapter/ray-optics": "PASS",
+    "formulas": "PASS",
+    "practice": "PASS",
+    "ladders": "PASS"
+  },
+  "responsive_layout_tests": {
+    "desktop": "PASS",
+    "tablet": "PASS",
+    "mobile": "PASS"
+  },
+  "search_verification": {
+    "center of mass": 11,
+    "tsiolkovsky": 2,
+    "restitution": 2,
+    "ballistic pendulum": 1,
+    "impulse": 8
+  },
+  "interactive_elements_audit": {
+    "katex_render": "PASS",
+    "practice_view": "PASS"
+  },
+  "all_checks_passed": true,
+  "final_verdicts": [
+    "PHASE_15_MOMENTUM_COLLISIONS_PROVEN",
+    "PHASE_15_LIVE_DEPLOYMENT_PROVEN"
+  ]
+}

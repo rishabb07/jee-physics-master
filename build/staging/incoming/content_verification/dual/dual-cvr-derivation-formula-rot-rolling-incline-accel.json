@@ -1,0 +1,43 @@
+{
+  "verification_id": "dual-cvr-derivation-formula-rot-rolling-incline-accel",
+  "artifact_id": "derivation-formula-rot-rolling-incline-accel",
+  "artifact_version": 1,
+  "content_hash": "91d2032e5448edd67183be5a3d1d3f212b52798ed5d532ae211a27e9edb37091",
+  "risk_level": "HIGH",
+  "verifier_a": {
+    "verifier_id": "content-verifier-a-rot-derivations",
+    "verifier_conversation_id": "conv-verifier-a-rot",
+    "verdict": "VERIFIED",
+    "assumptions_checked": true,
+    "dimensional_check_passed": true,
+    "numerical_check_passed": true,
+    "limiting_case_check_passed": true,
+    "independent_derivation_or_calculation": "Independent derivation of a_{\\text{cm}} = \\frac{g \\sin\\theta}{1 + \\frac{I_{\\text{cm}}}{M R^2}} = \\frac{g \\sin\\theta}{1 + \\frac{k^2}{R^2}} verified step-by-step from governing axioms.",
+    "findings": [
+      "Governing axioms and boundary conditions confirmed",
+      "Algebraic transformations verified",
+      "Dimensional homogeneity confirmed across all steps"
+    ],
+    "timestamp": "2026-10-05T04:11:12.029307+00:00"
+  },
+  "verifier_b": {
+    "verifier_id": "content-verifier-b-rot-derivations",
+    "verifier_conversation_id": "conv-verifier-b-rot",
+    "verdict": "VERIFIED",
+    "assumptions_checked": true,
+    "dimensional_check_passed": true,
+    "numerical_check_passed": true,
+    "limiting_case_check_passed": true,
+    "independent_derivation_or_calculation": "Blind independent re-derivation confirms mathematical accuracy and limiting cases for derivation-formula-rot-rolling-incline-accel.",
+    "findings": [
+      "Limiting case checks passed",
+      "Kinematic constraints confirmed",
+      "Zero mathematical discrepancies"
+    ],
+    "timestamp": "2026-10-05T04:11:12.029307+00:00"
+  },
+  "agreement": true,
+  "adjudication_reference": null,
+  "final_verdict": "VERIFIED",
+  "created_at": "2026-10-05T04:11:12.029307+00:00"
+}

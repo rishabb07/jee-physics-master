@@ -89,6 +89,14 @@ class ClaimResolver:
         if qb_p.exists():
             return qb_p
 
+        qb_root = self.workspace_root / "question_bank" / "verified" / f"{ref_id}.json"
+        if qb_root.exists():
+            return qb_root
+
+        qb_stg = self.workspace_root / "build" / "staging" / "incoming" / "question_bank" / "questions" / f"{ref_id}.json"
+        if qb_stg.exists():
+            return qb_stg
+
         return None
 
     def resolve_reference(

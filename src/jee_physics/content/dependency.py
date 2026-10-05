@@ -84,72 +84,87 @@ class PedagogicalDependencyAuditor:
                     }
 
         # 2. Concepts
-        for base in [self.verified_dir, self.staging_dir]:
+        for base in [self.staging_dir, self.verified_dir]:
             cdir = base / "concepts"
             if cdir.exists():
                 for p in cdir.glob("*.json"):
                     data = self._load_json(p)
                     if data:
                         cid = data.get("content_id", p.stem)
+                        st = data.get("verification_status", "UNVERIFIED")
+                        if cid in nodes and nodes[cid]["status"] == "VERIFIED" and st != "VERIFIED":
+                            continue
                         nodes[cid] = {
                             "type": "CONCEPT",
-                            "status": data.get("verification_status", "UNVERIFIED"),
+                            "status": st,
                             "data": data,
                         }
 
         # 3. Formulas
-        for base in [self.verified_dir, self.staging_dir]:
+        for base in [self.staging_dir, self.verified_dir]:
             fdir = base / "formulas"
             if fdir.exists():
                 for p in fdir.glob("*.json"):
                     data = self._load_json(p)
                     if data:
                         fid = data.get("formula_id", p.stem)
+                        st = data.get("verification_status", "UNVERIFIED")
+                        if fid in nodes and nodes[fid]["status"] == "VERIFIED" and st != "VERIFIED":
+                            continue
                         nodes[fid] = {
                             "type": "FORMULA",
-                            "status": data.get("verification_status", "UNVERIFIED"),
+                            "status": st,
                             "data": data,
                         }
 
         # 4. Derivations
-        for base in [self.verified_dir, self.staging_dir]:
+        for base in [self.staging_dir, self.verified_dir]:
             ddir = base / "derivations"
             if ddir.exists():
                 for p in ddir.glob("*.json"):
                     data = self._load_json(p)
                     if data:
                         did = data.get("derivation_id", p.stem)
+                        st = data.get("verification_status", "UNVERIFIED")
+                        if did in nodes and nodes[did]["status"] == "VERIFIED" and st != "VERIFIED":
+                            continue
                         nodes[did] = {
                             "type": "DERIVATION",
-                            "status": data.get("verification_status", "UNVERIFIED"),
+                            "status": st,
                             "data": data,
                         }
 
         # 5. Worked Examples
-        for base in [self.verified_dir, self.staging_dir]:
+        for base in [self.staging_dir, self.verified_dir]:
             edir = base / "examples"
             if edir.exists():
                 for p in edir.glob("*.json"):
                     data = self._load_json(p)
                     if data:
                         eid = data.get("example_id", p.stem)
+                        st = data.get("verification_status", "UNVERIFIED")
+                        if eid in nodes and nodes[eid]["status"] == "VERIFIED" and st != "VERIFIED":
+                            continue
                         nodes[eid] = {
                             "type": "WORKED_EXAMPLE",
-                            "status": data.get("verification_status", "UNVERIFIED"),
+                            "status": st,
                             "data": data,
                         }
 
         # 6. Misconceptions
-        for base in [self.verified_dir, self.staging_dir]:
+        for base in [self.staging_dir, self.verified_dir]:
             mdir = base / "misconceptions"
             if mdir.exists():
                 for p in mdir.glob("*.json"):
                     data = self._load_json(p)
                     if data:
                         mid = data.get("misconception_id", p.stem)
+                        st = data.get("verification_status", "UNVERIFIED")
+                        if mid in nodes and nodes[mid]["status"] == "VERIFIED" and st != "VERIFIED":
+                            continue
                         nodes[mid] = {
                             "type": "MISCONCEPTION",
-                            "status": data.get("verification_status", "UNVERIFIED"),
+                            "status": st,
                             "data": data,
                         }
 

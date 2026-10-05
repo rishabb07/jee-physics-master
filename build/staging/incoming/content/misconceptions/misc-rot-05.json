@@ -1,0 +1,16 @@
+{
+  "misconception_id": "misc-rot-05",
+  "concept_id": "concept-rot-rolling-horizontal-friction-01",
+  "title": "Believing Static Friction in Pure Rolling Always Opposes Linear Motion",
+  "category": "SIGN_MISTAKE",
+  "incorrect_statement": "Friction always acts in the opposite direction of the rolling body's linear velocity to oppose forward motion.",
+  "why_it_fails": "In pure rolling, static friction does not oppose the velocity of the center of mass; it opposes relative slipping at the contact point. If an external horizontal force is applied above the center of percussion (h > k^2/R, e.g. at the top of a wheel), the force produces more angular acceleration than linear acceleration, causing the bottom contact point to tend to slip backward. Static friction therefore acts FORWARD in the direction of motion, accelerating the center of mass linearly while providing counter-torque.",
+  "diagnostic_symptom": "Student automatically draws friction pointing backward in all rolling problems without evaluating the line of action of external forces.",
+  "corrective_explanation": "Evaluate the torque and linear force separately. Determine the slip tendency at the contact point: friction acts in whichever direction prevents slipping, which can be backward, forward, or zero.",
+  "supporting_evidence": "Halliday, Resnick & Walker, Chapter 11, Section 11.2; H.C. Verma Vol 1, Chapter 10, Section 10.16.",
+  "connected_atom_ids": [],
+  "verification_status": "VERIFIED",
+  "created_at": "2026-10-05T04:12:43.442529+00:00",
+  "content_hash": "819b6e6a48fe77b9ccaa59ad1d8a2a2e53f25a2b08dc7348d2701d3d6ebeb7e5",
+  "verification_record_id": "cvr-misc-rot-05"
+}

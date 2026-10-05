@@ -1,0 +1,73 @@
+{
+  "example_id": "ex-rot-rolling-incline-race-01",
+  "chapter_id": "rotational-motion",
+  "problem_statement": "Four uniform symmetrical bodies\u2014a thin circular ring (hoop), a solid cylinder (disc), a thin hollow spherical shell, and a solid sphere\u2014each having the same mass $M$ and radius $R$, are released simultaneously from rest at the top of a rough inclined plane of inclination angle $\\theta$ and vertical height $h$. Assuming each body rolls purely without slipping throughout the motion: (a) express the final translational speed $v$ at the bottom of the incline in terms of $g$, $h$, and the shape factor $c = k^2/R^2$, and (b) calculate the speed ratios relative to the ring and determine the order of finish in the race.",
+  "known_quantities": {
+    "M": "Mass of each body",
+    "R": "Radius of each body",
+    "h": "Vertical height of incline",
+    "c_ring": "k^2/R^2 = 1.0",
+    "c_disc": "k^2/R^2 = 0.50",
+    "c_hollow": "k^2/R^2 = 2/3 approx 0.667",
+    "c_solid": "k^2/R^2 = 2/5 = 0.40"
+  },
+  "target_quantity": "Speed expression v(c) and arrival order",
+  "relevant_concepts": [
+    "concept-rot-rolling-incline-01"
+  ],
+  "governing_principles": [
+    "Conservation of total mechanical energy: M g h = 1/2 M v^2 + 1/2 I_cm omega^2",
+    "No-slip pure rolling constraint: omega = v / R",
+    "Moment of inertia in terms of radius of gyration: I_cm = M k^2"
+  ],
+  "solution_strategy": "1. Express total kinetic energy in terms of translational speed v and dimensionless parameter c = k^2/R^2. 2. Equate gravitational potential energy loss M g h to total kinetic energy. 3. Solve for v = sqrt(2 g h / (1 + c)). 4. Substitute values of c for each body, compute numerical coefficients, and establish race ranking.",
+  "ordered_steps": [
+    {
+      "step_number": 1,
+      "principle_applied": "Kinetic energy decomposition in pure rolling",
+      "equation": "K = K_{\\text{trans}} + K_{\\text{rot}} = \\frac{1}{2} M v^2 + \\frac{1}{2} I_{\\text{cm}} \\omega^2 = \\frac{1}{2} M v^2 + \\frac{1}{2} (M k^2) \\left(\\frac{v}{R}\\right)^2 = \\frac{1}{2} M v^2 \\left( 1 + \\frac{k^2}{R^2} \\right)",
+      "substitution": "K = \\frac{1}{2} M v^2 (1 + c), \\quad c = \\frac{k^2}{R^2}",
+      "intermediate_result": "K = 1/2 M v^2 (1 + c)"
+    },
+    {
+      "step_number": 2,
+      "principle_applied": "Conservation of mechanical energy",
+      "equation": "M g h = \\frac{1}{2} M v^2 (1 + c) \\implies v = \\sqrt{\\frac{2 g h}{1 + c}}",
+      "substitution": "v_{\\text{solid sphere}} = \\sqrt{\\frac{2gh}{1 + 0.40}} = \\sqrt{\\frac{10}{7} gh} \\approx 1.1952 \\sqrt{gh}",
+      "intermediate_result": "v_solid_sphere = sqrt(10/7 gh) approx 1.195 sqrt(gh)"
+    },
+    {
+      "step_number": 3,
+      "principle_applied": "Evaluate speeds for remaining three bodies",
+      "equation": "v_{\\text{disc}} = \\sqrt{\\frac{2gh}{1 + 0.50}} = \\sqrt{\\frac{4}{3} gh} \\approx 1.1547 \\sqrt{gh}, \\quad v_{\\text{hollow}} = \\sqrt{\\frac{2gh}{1 + 2/3}} = \\sqrt{\\frac{6}{5} gh} \\approx 1.0954 \\sqrt{gh}, \\quad v_{\\text{ring}} = \\sqrt{\\frac{2gh}{1 + 1.0}} = \\sqrt{gh} = 1.000 \\sqrt{gh}",
+      "substitution": "Speed ratios relative to ring: Solid Sphere: 1.195, Solid Cylinder: 1.155, Hollow Sphere: 1.095, Ring: 1.000",
+      "intermediate_result": "Ratios computed"
+    },
+    {
+      "step_number": 4,
+      "principle_applied": "Incline travel time calculation",
+      "equation": "t = \\frac{L}{\\bar{v}} = \\frac{2 L}{v} = \\frac{2 h}{\\sin\\theta \\sqrt{\\frac{2 g h}{1 + c}}} = \\frac{1}{\\sin\\theta} \\sqrt{\\frac{2 h (1 + c)}{g}}",
+      "substitution": "Since t is proportional to sqrt(1 + c), lower c finishes earlier.",
+      "intermediate_result": "t_solid < t_disc < t_hollow < t_ring"
+    }
+  ],
+  "final_answer": "v = \\sqrt{\\frac{2gh}{1 + k^2/R^2}}; \\quad \\text{Order of arrival: Solid Sphere (1st) > Solid Cylinder (2nd) > Hollow Sphere (3rd) > Ring (4th)}",
+  "units": "m/s",
+  "sanity_checks": [
+    "Limiting frictionless sliding: If c = 0 (point mass), v = sqrt(2 g h), the maximum possible speed.",
+    "Energy partition check: For ring (c = 1), translational and rotational energies are equal: K_trans = K_rot = 1/2 Mgh.",
+    "Independent acceleration check: a = g sin(theta)/(1+c). Since a_solid = 5/7 g sin(theta) > a_disc = 2/3 g sin(theta) > a_hollow = 3/5 g sin(theta) > a_ring = 1/2 g sin(theta), arrival order is confirmed."
+  ],
+  "alternate_methods": [
+    "Kinematic integration: v^2 = 2 a L with L = h / sin(theta) and a = g sin(theta)/(1 + c)."
+  ],
+  "source_atom_id": null,
+  "provenance": [],
+  "risk_level": "HIGH",
+  "verification_status": "VERIFIED",
+  "generator_identity": "physics-example-writer",
+  "generator_conversation_id": "conv-phase16-rot-examples",
+  "created_at": "2026-10-05T04:12:14.618212+00:00",
+  "content_hash": "1e3c3803aecc17df98b5906879f5df2e5d961c35b6b0de7256d4ae8ca9584996",
+  "verification_record_id": "cvr-ex-rot-rolling-incline-race-01"
+}

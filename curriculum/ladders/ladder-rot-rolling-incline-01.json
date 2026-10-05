@@ -1,0 +1,58 @@
+{
+  "ladder_id": "ladder-rot-rolling-incline-01",
+  "chapter_id": "rotational-motion",
+  "topic_id": "rolling-motion",
+  "title": "Scaffolding Rigid Body Rolling Dynamics from Kinematics to Incline Acceleration and Friction Thresholds",
+  "physical_system": "Symmetric homogeneous rigid bodies (radius R, mass M, radius of gyration k) on planar horizontal and inclined surfaces under gravity g and static friction mu",
+  "pedagogical_objective": "Master the progressive transition from pure rolling no-slip kinematic constraints to dynamic incline acceleration, energy distribution, and friction threshold boundaries.",
+  "rungs": [
+    {
+      "level": 1,
+      "level_name": "Direct Application of Rotational Kinematics and Angular Momentum",
+      "atom_id": "rotational-motion-question-6c7cb960",
+      "physical_delta": "Baseline particle motion near earth's surface evaluating angular momentum about fixed external reference point.",
+      "reasoning_depth": 1,
+      "concepts_involved": [
+        "concept-rot-angmom-particle-01"
+      ],
+      "mathematical_complexity": "Vector cross product r x p for rectilinear accelerated motion"
+    },
+    {
+      "level": 2,
+      "level_name": "Qualitative Rotational Dynamics and System Mass Redistribution",
+      "atom_id": "rotational-motion-question-84f91c20",
+      "physical_delta": "Transition from point particle to rotating extended rigid disc with dropped mass altering system moment of inertia.",
+      "reasoning_depth": 2,
+      "concepts_involved": [
+        "concept-rot-angmom-conservation-01",
+        "concept-rot-moi-01"
+      ],
+      "mathematical_complexity": "Qualitative ratio comparison of initial and final angular velocity"
+    },
+    {
+      "level": 3,
+      "level_name": "Quantitative Conservation of Angular Momentum and Internal Dissipation",
+      "atom_id": "rotational-motion-question-f7cbecda",
+      "physical_delta": "Exact algebraic computation of post-sticking angular speed and kinetic energy loss.",
+      "reasoning_depth": 3,
+      "concepts_involved": [
+        "concept-rot-angmom-conservation-01",
+        "concept-rot-rotational-work-energy-01"
+      ],
+      "mathematical_complexity": "Exact algebraic fractions and mechanical energy difference"
+    },
+    {
+      "level": 4,
+      "level_name": "Multi-Concept Rigid Body Translation and Angular Reconfiguration",
+      "atom_id": "gen-q-rot-angmom-01",
+      "physical_delta": "Continuous radial relocation of crawling mass across rotating disc exercising time-dependent moment of inertia and angular acceleration.",
+      "reasoning_depth": 4,
+      "concepts_involved": [
+        "concept-rot-angmom-conservation-01",
+        "concept-rot-moi-continuous-01",
+        "concept-rot-rotational-work-energy-01"
+      ],
+      "mathematical_complexity": "Variable moment of inertia function I(r) = 1/2 M R^2 + m r^2 and work done by crawler"
+    }
+  ]
+}

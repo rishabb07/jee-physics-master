@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-formula-rot-rolling-incline-accel",
+  "content_type": "FORMULA",
+  "target_id": "formula-rot-rolling-incline-accel",
+  "content_hash": "8c25043c7b6bc2424a07b56b5d64e77c8e345c143799523bb6ab9119e62df761",
+  "risk_level": "MEDIUM",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Independently verified dimensional homogeneity, physical assumptions, and validity boundaries for formula-rot-rolling-incline-accel.",
+  "verifier_id": "content-verifier-rot-formulas",
+  "created_at": "2026-10-05T04:10:34.457645+00:00"
+}

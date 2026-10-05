@@ -1,0 +1,389 @@
+{
+  "report_type": "PHASE_15_1_SCOPE_CLOSURE",
+  "timestamp": "2026-10-05T03:25:53.583535+00:00",
+  "phase": "15.1",
+  "target_chapter": "center-of-mass",
+  "target_chapter_aliases": [
+    "momentum-collisions",
+    "com-and-momentum",
+    "com"
+  ],
+  "authoritative_taxonomy_source": "kb/taxonomy/syllabus.yaml",
+  "taxonomy_placement_analysis": {
+    "chapter_node_id": "center-of-mass",
+    "chapter_name": "Center of Mass and Linear Momentum",
+    "level": "CHAPTER",
+    "order": 5,
+    "parent_id": "physics",
+    "topics_count": 3,
+    "subtopics_count": 12,
+    "topics": [
+      {
+        "topic_id": "center-of-mass-fundamentals",
+        "name": "Center of Mass Calculation",
+        "subtopics": [
+          "com-of-discrete-particles",
+          "com-of-continuous-bodies",
+          "motion-of-center-of-mass",
+          "shift-in-com-and-cavity-problems"
+        ]
+      },
+      {
+        "topic_id": "linear-momentum-and-impulse",
+        "name": "Linear Momentum and Impulse",
+        "subtopics": [
+          "conservation-of-linear-momentum",
+          "impulse-momentum-theorem",
+          "variable-mass-systems-and-rocket-propulsion"
+        ]
+      },
+      {
+        "topic_id": "collisions",
+        "name": "Collisions",
+        "subtopics": [
+          "elastic-collision-1d",
+          "inelastic-collision-1d",
+          "perfectly-inelastic-collision-2d",
+          "coefficient-of-restitution",
+          "oblique-collisions"
+        ]
+      }
+    ]
+  },
+  "audited_nodes_table": [
+    {
+      "node": "Center of Mass",
+      "taxonomy_chapter": "center-of-mass (Ch 5)",
+      "taxonomy_topic": "center-of-mass-fundamentals",
+      "taxonomy_subtopics": [
+        "com-of-discrete-particles",
+        "com-of-continuous-bodies",
+        "motion-of-center-of-mass",
+        "shift-in-com-and-cavity-problems"
+      ],
+      "source_evidence_count": 49,
+      "present_in_chapter": true,
+      "chapter_section": "sec-01-center-of-mass-dynamics",
+      "status": "COVERED",
+      "artifacts": {
+        "concepts": [
+          "concept-mom-com-discrete-01",
+          "concept-mom-com-continuous-01",
+          "concept-mom-com-motion-01",
+          "concept-mom-cavity-shift-01"
+        ],
+        "formulas": [
+          "formula-mom-com-discrete",
+          "formula-mom-com-continuous",
+          "formula-mom-com-hemisphere",
+          "formula-mom-com-cone",
+          "formula-mom-com-cavity",
+          "formula-mom-com-velocity",
+          "formula-mom-com-acceleration"
+        ],
+        "derivations": [
+          "derivation-formula-mom-com-hemisphere",
+          "derivation-formula-mom-com-motion"
+        ],
+        "examples": [
+          "ex-mom-disc-cavity-01",
+          "ex-mom-man-plank-01"
+        ],
+        "misconceptions": [
+          "misc-mom-01"
+        ],
+        "questions": [
+          "center-of-mass-question-e38050cc"
+        ]
+      }
+    },
+    {
+      "node": "Linear Momentum",
+      "taxonomy_chapter": "center-of-mass (Ch 5)",
+      "taxonomy_topic": "linear-momentum-and-impulse",
+      "taxonomy_subtopics": [
+        "conservation-of-linear-momentum"
+      ],
+      "source_evidence_count": 8,
+      "present_in_chapter": true,
+      "chapter_section": "sec-02-impulse-and-momentum & sec-03-conservation-and-variable-mass",
+      "status": "COVERED",
+      "artifacts": {
+        "concepts": [
+          "concept-mom-momentum-def-01",
+          "concept-mom-conservation-01"
+        ],
+        "formulas": [
+          "formula-mom-momentum-vector",
+          "formula-mom-conservation"
+        ],
+        "derivations": [],
+        "examples": [],
+        "misconceptions": [
+          "misc-mom-02"
+        ],
+        "questions": []
+      }
+    },
+    {
+      "node": "Impulse",
+      "taxonomy_chapter": "center-of-mass (Ch 5)",
+      "taxonomy_topic": "linear-momentum-and-impulse",
+      "taxonomy_subtopics": [
+        "impulse-momentum-theorem"
+      ],
+      "source_evidence_count": 9,
+      "present_in_chapter": true,
+      "chapter_section": "sec-02-impulse-and-momentum",
+      "status": "COVERED",
+      "artifacts": {
+        "concepts": [
+          "concept-mom-impulse-def-01",
+          "concept-mom-impulse-forces-01"
+        ],
+        "formulas": [
+          "formula-mom-impulse-integral",
+          "formula-mom-impulse-momentum-thm"
+        ],
+        "derivations": [
+          "derivation-formula-mom-impulse-momentum"
+        ],
+        "examples": [
+          "ex-mom-ball-wall-impulse-01"
+        ],
+        "misconceptions": [
+          "misc-mom-03"
+        ],
+        "questions": []
+      }
+    },
+    {
+      "node": "Conservation of Momentum",
+      "taxonomy_chapter": "center-of-mass (Ch 5)",
+      "taxonomy_topic": "linear-momentum-and-impulse",
+      "taxonomy_subtopics": [
+        "conservation-of-linear-momentum"
+      ],
+      "source_evidence_count": 8,
+      "present_in_chapter": true,
+      "chapter_section": "sec-03-conservation-and-variable-mass",
+      "status": "COVERED",
+      "artifacts": {
+        "concepts": [
+          "concept-mom-conservation-01"
+        ],
+        "formulas": [
+          "formula-mom-conservation"
+        ],
+        "derivations": [],
+        "examples": [],
+        "misconceptions": [
+          "misc-mom-02"
+        ],
+        "questions": []
+      }
+    },
+    {
+      "node": "Collisions",
+      "taxonomy_chapter": "center-of-mass (Ch 5)",
+      "taxonomy_topic": "collisions",
+      "taxonomy_subtopics": [
+        "elastic-collision-1d",
+        "inelastic-collision-1d",
+        "perfectly-inelastic-collision-2d",
+        "coefficient-of-restitution",
+        "oblique-collisions"
+      ],
+      "source_evidence_count": 34,
+      "present_in_chapter": true,
+      "chapter_section": "sec-04-collisions-and-restitution",
+      "status": "COVERED",
+      "artifacts": {
+        "concepts": [
+          "concept-mom-collision-types-01"
+        ],
+        "formulas": [],
+        "derivations": [],
+        "examples": [],
+        "misconceptions": [],
+        "questions": [
+          "center-of-mass-question-ba1b4107"
+        ]
+      }
+    },
+    {
+      "node": "Elastic Collision",
+      "taxonomy_chapter": "center-of-mass (Ch 5)",
+      "taxonomy_topic": "collisions",
+      "taxonomy_subtopics": [
+        "elastic-collision-1d"
+      ],
+      "source_evidence_count": 12,
+      "present_in_chapter": true,
+      "chapter_section": "sec-04-collisions-and-restitution",
+      "status": "COVERED",
+      "artifacts": {
+        "concepts": [
+          "concept-mom-elastic-1d-01"
+        ],
+        "formulas": [
+          "formula-mom-elastic-1d-v1",
+          "formula-mom-elastic-1d-v2"
+        ],
+        "derivations": [
+          "derivation-formula-mom-elastic-1d-velocities"
+        ],
+        "examples": [
+          "ex-mom-elastic-target-masses-01"
+        ],
+        "misconceptions": [],
+        "questions": []
+      }
+    },
+    {
+      "node": "Inelastic Collision",
+      "taxonomy_chapter": "center-of-mass (Ch 5)",
+      "taxonomy_topic": "collisions",
+      "taxonomy_subtopics": [
+        "inelastic-collision-1d",
+        "perfectly-inelastic-collision-2d"
+      ],
+      "source_evidence_count": 8,
+      "present_in_chapter": true,
+      "chapter_section": "sec-04-collisions-and-restitution",
+      "status": "COVERED",
+      "artifacts": {
+        "concepts": [
+          "concept-mom-inelastic-energy-loss-01",
+          "concept-mom-inelastic-ballistic-01"
+        ],
+        "formulas": [
+          "formula-mom-inelastic-energy-loss"
+        ],
+        "derivations": [
+          "derivation-formula-mom-inelastic-energy-loss"
+        ],
+        "examples": [
+          "ex-mom-ballistic-pendulum-01"
+        ],
+        "misconceptions": [
+          "misc-mom-04"
+        ],
+        "questions": []
+      }
+    },
+    {
+      "node": "Coefficient of Restitution",
+      "taxonomy_chapter": "center-of-mass (Ch 5)",
+      "taxonomy_topic": "collisions",
+      "taxonomy_subtopics": [
+        "coefficient-of-restitution"
+      ],
+      "source_evidence_count": 5,
+      "present_in_chapter": true,
+      "chapter_section": "sec-04-collisions-and-restitution",
+      "status": "COVERED",
+      "artifacts": {
+        "concepts": [
+          "concept-mom-restitution-01"
+        ],
+        "formulas": [
+          "formula-mom-restitution-def"
+        ],
+        "derivations": [],
+        "examples": [],
+        "misconceptions": [
+          "misc-mom-06"
+        ],
+        "questions": []
+      }
+    },
+    {
+      "node": "Recoil/Explosion",
+      "taxonomy_chapter": "center-of-mass (Ch 5)",
+      "taxonomy_topic": "linear-momentum-and-impulse",
+      "taxonomy_subtopics": [
+        "conservation-of-linear-momentum",
+        "variable-mass-systems-and-rocket-propulsion"
+      ],
+      "source_evidence_count": 14,
+      "present_in_chapter": true,
+      "chapter_section": "sec-03-conservation-and-variable-mass",
+      "status": "COVERED",
+      "artifacts": {
+        "concepts": [
+          "concept-mom-explosion-recoil-01",
+          "concept-mom-variable-mass-01"
+        ],
+        "formulas": [
+          "formula-mom-recoil-velocity",
+          "formula-mom-rocket-thrust",
+          "formula-mom-rocket-tsiolkovsky"
+        ],
+        "derivations": [
+          "derivation-formula-mom-tsiolkovsky-rocket"
+        ],
+        "examples": [
+          "ex-mom-rocket-vertical-climb-01"
+        ],
+        "misconceptions": [
+          "misc-mom-05"
+        ],
+        "questions": []
+      }
+    }
+  ],
+  "impulse_deep_dive": {
+    "status": "COVERED",
+    "representation": "ADEQUATELY_REPRESENTED",
+    "taxonomy_location": "Chapter 5 (center-of-mass) -> linear-momentum-and-impulse -> impulse-momentum-theorem",
+    "findings": [
+      "Impulse is prominently defined as a vector time integral J = int F dt in concept-mom-impulse-def-01.",
+      "Distinction between finite non-impulsive forces and singular impulsive forces is rigorously formalized in concept-mom-impulse-forces-01.",
+      "Impulse-Momentum theorem J_net = Delta p is derived from Newton's Second Law in derivation-formula-mom-impulse-momentum (with dual Verifier A + B sign-off).",
+      "Applied in worked example ex-mom-ball-wall-impulse-01 (bouncing ball impact time, impulse vector, and average contact force).",
+      "Addressed in misconception misc-mom-03 (common student error that J = F*t regardless of force constancy or duration)."
+    ],
+    "is_missing": false
+  },
+  "center_of_mass_deep_dive": {
+    "status": "COVERED",
+    "authoritative_placement": "Chapter 5 (center-of-mass) in kb/taxonomy/syllabus.yaml",
+    "findings": [
+      "In kb/taxonomy/syllabus.yaml, Chapter 5 is explicitly titled 'Center of Mass and Linear Momentum' with aliases ['momentum-collisions', 'com-and-momentum'].",
+      "The official syllabus prescriptively groups Center of Mass Calculation, Linear Momentum & Impulse, and Collisions into a single pedagogical chapter.",
+      "Center of Mass fundamentally provides the frame and kinematic definition for system linear momentum P = M V_cm and system Newton's Second Law F_ext = M A_cm.",
+      "Removing Center of Mass from this chapter would violate the authoritative taxonomy and leave Chapter 5 incomplete.",
+      "Center of Mass correctly and authoritatively belongs in this chapter."
+    ],
+    "belongs_in_chapter": true
+  },
+  "exclusions_audit": {
+    "documented_exclusions": [
+      {
+        "topic": "Rigid Body Rotational Dynamics and Moment of Inertia",
+        "rationale": "Belongs to Chapter 6 (rotational-motion)",
+        "status": "TAXONOMY_PLACED_ELSEWHERE"
+      },
+      {
+        "topic": "Universal Gravitation and Two-Body Orbital Mechanics",
+        "rationale": "Belongs to Chapter 7 (gravitation)",
+        "status": "TAXONOMY_PLACED_ELSEWHERE"
+      },
+      {
+        "topic": "Relativistic Four-Momentum and Invariant Mass",
+        "rationale": "Outside classical JEE syllabus",
+        "status": "INTENTIONALLY_EXCLUDED"
+      }
+    ],
+    "unintended_exclusions": []
+  },
+  "overall_scope_compliance": {
+    "all_taxonomy_nodes_accounted": true,
+    "all_required_nodes_present": true,
+    "source_evidence_sound": true,
+    "zero_synthetic_physics": true,
+    "genuine_gaps": []
+  },
+  "verdict": "PHASE_15_SCOPE_CLOSED"
+}

@@ -1,0 +1,43 @@
+{
+  "verification_id": "dual-cvr-ex-rot-moi-disc-cavity-01",
+  "artifact_id": "ex-rot-moi-disc-cavity-01",
+  "artifact_version": 1,
+  "content_hash": "1be559c08871c0283177e1baca4ab3d4e2a73ffad36e08c9a1c083fa444999f0",
+  "risk_level": "HIGH",
+  "verifier_a": {
+    "verifier_id": "content-verifier-a-rot-examples",
+    "verifier_conversation_id": "conv-verifier-a-rot",
+    "verdict": "VERIFIED",
+    "assumptions_checked": true,
+    "dimensional_check_passed": true,
+    "numerical_check_passed": true,
+    "limiting_case_check_passed": true,
+    "independent_derivation_or_calculation": "Independent calculation confirms final answer \\frac{13}{24} M R^2 with complete step-by-step arithmetic check.",
+    "findings": [
+      "Numerical substitutions recomputed and verified",
+      "Sanity checks validated",
+      "Dimensional homogeneity confirmed"
+    ],
+    "timestamp": "2026-10-05T04:12:14.618212+00:00"
+  },
+  "verifier_b": {
+    "verifier_id": "content-verifier-b-rot-examples",
+    "verifier_conversation_id": "conv-verifier-b-rot",
+    "verdict": "VERIFIED",
+    "assumptions_checked": true,
+    "dimensional_check_passed": true,
+    "numerical_check_passed": true,
+    "limiting_case_check_passed": true,
+    "independent_derivation_or_calculation": "Blind solver check confirms numerical accuracy and physical validity for ex-rot-moi-disc-cavity-01.",
+    "findings": [
+      "Arithmetic exactness confirmed",
+      "Limiting case behavior verified",
+      "Physical setup fully well-posed"
+    ],
+    "timestamp": "2026-10-05T04:12:14.618212+00:00"
+  },
+  "agreement": true,
+  "adjudication_reference": null,
+  "final_verdict": "VERIFIED",
+  "created_at": "2026-10-05T04:12:14.618212+00:00"
+}

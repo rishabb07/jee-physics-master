@@ -1,0 +1,43 @@
+{
+  "verification_id": "dual-cvr-ex-rot-projectile-angmom-01",
+  "artifact_id": "ex-rot-projectile-angmom-01",
+  "artifact_version": 1,
+  "content_hash": "3fa03aaa3fdb244b974bc08b15f16818a2bc7d8d846ca6c6f1b5ed23392e427a",
+  "risk_level": "HIGH",
+  "verifier_a": {
+    "verifier_id": "content-verifier-a-rot-examples",
+    "verifier_conversation_id": "conv-verifier-a-rot",
+    "verdict": "VERIFIED",
+    "assumptions_checked": true,
+    "dimensional_check_passed": true,
+    "numerical_check_passed": true,
+    "limiting_case_check_passed": true,
+    "independent_derivation_or_calculation": "Independent calculation confirms final answer \\vec{L}_{O,\\text{peak}} = -75.0 \\, \\hat{k}\\text{ kg m}^2\\text{/s}, \\quad \\vec{L}_{O,\\text{land}} = -300.0 \\, \\hat{k}\\text{ kg m}^2\\text{/s} with complete step-by-step arithmetic check.",
+    "findings": [
+      "Numerical substitutions recomputed and verified",
+      "Sanity checks validated",
+      "Dimensional homogeneity confirmed"
+    ],
+    "timestamp": "2026-10-05T04:12:14.618212+00:00"
+  },
+  "verifier_b": {
+    "verifier_id": "content-verifier-b-rot-examples",
+    "verifier_conversation_id": "conv-verifier-b-rot",
+    "verdict": "VERIFIED",
+    "assumptions_checked": true,
+    "dimensional_check_passed": true,
+    "numerical_check_passed": true,
+    "limiting_case_check_passed": true,
+    "independent_derivation_or_calculation": "Blind solver check confirms numerical accuracy and physical validity for ex-rot-projectile-angmom-01.",
+    "findings": [
+      "Arithmetic exactness confirmed",
+      "Limiting case behavior verified",
+      "Physical setup fully well-posed"
+    ],
+    "timestamp": "2026-10-05T04:12:14.618212+00:00"
+  },
+  "agreement": true,
+  "adjudication_reference": null,
+  "final_verdict": "VERIFIED",
+  "created_at": "2026-10-05T04:12:14.618212+00:00"
+}

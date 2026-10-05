@@ -1,0 +1,64 @@
+{
+  "example_id": "ex-rot-toppling-block-01",
+  "chapter_id": "rotational-motion",
+  "problem_statement": "A uniform rectangular block of mass $M = 10.0\\text{ kg}$, base width $b = 0.40\\text{ m}$, and height $h = 1.00\\text{ m}$ stands upright on a rough horizontal floor with static friction coefficient $\\mu_s = 0.60$. A horizontal pulling force $F$ is applied at the top edge of the block ($H = 1.00\\text{ m}$). Taking $g = 10.0\\text{ m/s}^2$: (a) calculate the critical force $F_{\\text{topple}}$ at which the block will begin to topple, (b) calculate the critical force $F_{\\text{slide}}$ at which the block would begin to slide, and (c) determine whether the block slides first or topples first.",
+  "known_quantities": {
+    "M": "10.0 kg",
+    "b": "0.40 m",
+    "h": "1.00 m",
+    "H": "1.00 m",
+    "\\mu_s": "0.60",
+    "g": "10.0 m/s^2"
+  },
+  "target_quantity": "F_topple, F_slide, and failure mode",
+  "relevant_concepts": [
+    "concept-rot-toppling-condition-01"
+  ],
+  "governing_principles": [
+    "Rotational equilibrium about tipping edge P: sum tau_P = 0",
+    "Coulomb law of static friction for sliding threshold: F_slide = mu_s N"
+  ],
+  "solution_strategy": "1. Analyze toppling threshold by taking torque about the leading bottom edge P where normal force concentrates. 2. Calculate F_topple = M g (b / 2) / H. 3. Calculate F_slide = mu_s M g. 4. Compare magnitudes: the smaller force dictates the initial failure mode.",
+  "ordered_steps": [
+    {
+      "step_number": 1,
+      "principle_applied": "Torque balance about the front bottom tipping corner P",
+      "equation": "\\sum \\tau_P = 0 \\implies F_{\\text{topple}} H - M g \\left( \\frac{b}{2} \\right) = 0 \\implies F_{\\text{topple}} = \\frac{M g b}{2 H}",
+      "substitution": "F_{\\text{topple}} = \\frac{(10.0)(10.0)(0.40)}{2 (1.00)} = \\frac{40.0}{2.00} = 20.0\\text{ N}",
+      "intermediate_result": "F_topple = 20.0 N"
+    },
+    {
+      "step_number": 2,
+      "principle_applied": "Coulomb maximum static friction for sliding",
+      "equation": "F_{\\text{slide}} = f_{s,\\max} = \\mu_s N = \\mu_s M g",
+      "substitution": "F_{\\text{slide}} = (0.60)(10.0)(10.0) = 60.0\\text{ N}",
+      "intermediate_result": "F_slide = 60.0 N"
+    },
+    {
+      "step_number": 3,
+      "principle_applied": "Comparison of threshold forces",
+      "equation": "F_{\\text{topple}} = 20.0\\text{ N} < F_{\\text{slide}} = 60.0\\text{ N}",
+      "substitution": "\\frac{b}{2 H} = \\frac{0.40}{2(1.00)} = 0.20 < \\mu_s = 0.60",
+      "intermediate_result": "Block topples before sliding"
+    }
+  ],
+  "final_answer": "F_{\\text{topple}} = 20.0\\text{ N}, \\quad F_{\\text{slide}} = 60.0\\text{ N}; \\quad \\text{The block topples first at } F = 20.0\\text{ N}",
+  "units": "N",
+  "sanity_checks": [
+    "Geometric ratio check: b / (2 H) = 0.20 < mu_s = 0.60 rigorously confirms toppling is the operative failure mode.",
+    "Normal force migration: For F < 20 N, normal reaction position is x = F H / (Mg) from center. At F = 20 N, x = 20(1)/(100) = 0.20 m = b/2, precisely reaching the corner.",
+    "Dimensional check: Force is in Newtons."
+  ],
+  "alternate_methods": [
+    "Torque about center of mass with normal reaction offset x = b/2."
+  ],
+  "source_atom_id": null,
+  "provenance": [],
+  "risk_level": "HIGH",
+  "verification_status": "VERIFIED",
+  "generator_identity": "physics-example-writer",
+  "generator_conversation_id": "conv-phase16-rot-examples",
+  "created_at": "2026-10-05T04:12:14.618212+00:00",
+  "content_hash": "67ed9f72739a3b1d63ec607d7cae6c7d64f077c105e94184739008bd9da5b14a",
+  "verification_record_id": "cvr-ex-rot-toppling-block-01"
+}

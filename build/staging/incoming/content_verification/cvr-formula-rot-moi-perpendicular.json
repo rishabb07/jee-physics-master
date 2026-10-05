@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-formula-rot-moi-perpendicular",
+  "content_type": "FORMULA",
+  "target_id": "formula-rot-moi-perpendicular",
+  "content_hash": "a17ee76b84f2e8bbe058b8f047ae36e09a8c845de5a95184b287bb35f5e1b682",
+  "risk_level": "MEDIUM",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Independently verified dimensional homogeneity, physical assumptions, and validity boundaries for formula-rot-moi-perpendicular.",
+  "verifier_id": "content-verifier-rot-formulas",
+  "created_at": "2026-10-05T04:10:34.457645+00:00"
+}

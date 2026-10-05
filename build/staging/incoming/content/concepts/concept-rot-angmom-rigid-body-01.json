@@ -1,0 +1,43 @@
+{
+  "content_id": "concept-rot-angmom-rigid-body-01",
+  "curriculum_id": "curr-rot-03",
+  "taxonomy_reference": {
+    "chapter_id": "rotational-motion",
+    "topic_id": "angular-momentum",
+    "subtopic_id": "angular-momentum-of-rigid-body"
+  },
+  "title": "Angular Momentum of Rigid Bodies and General Planar Decomposition",
+  "learning_objective": "Determine the angular momentum of rigid bodies undergoing fixed-axis rotation and combined translation-rotation relative to arbitrary reference points.",
+  "explanation": "For a symmetric rigid body rotating about a fixed principal axis of symmetry passing through its center of mass, every particle executes circular motion with $v_i = r_i \\omega$. Summing particle angular momenta yields: $$\\vec{L} = I \\vec{\\omega}$$ where $I$ is the moment of inertia about the rotation axis. For general planar motion (combined translation and rotation), the angular momentum evaluated with respect to an arbitrary fixed origin $O$ in an inertial frame decomposes into two distinct, decoupled components: $$\\vec{L}_O = \\vec{L}_{\\text{cm}} + \\vec{r}_{\\text{cm}} \\times M \\vec{v}_{\\text{cm}} = I_{\\text{cm}} \\vec{\\omega} + \\vec{r}_{\\text{cm}} \\times M \\vec{v}_{\\text{cm}}$$ Here, $\\vec{L}_{\\text{cm}} = I_{\\text{cm}} \\vec{\\omega}$ is the intrinsic 'spin' angular momentum about the center of mass, while $\\vec{r}_{\\text{cm}} \\times M \\vec{v}_{\\text{cm}}$ is the 'orbital' angular momentum of a point particle of mass $M$ located at the center of mass moving with velocity $\\vec{v}_{\\text{cm}}$.",
+  "intuition": "Total angular momentum about an external point consists of two parts: how the body spins about its own waist ($\u000bec{L}_{\\text{spin}} = I_{\\text{cm}} \\vec{\\omega}$), plus how its center of mass sweeps out angle around the external pivot ($\u000bec{L}_{\\text{orbital}} = \\vec{r}_{\\text{cm}} \\times \\vec{P}$). Just like Earth has spin angular momentum (day-night cycle) and orbital angular momentum (orbiting the Sun).",
+  "formal_definition": "The angular momentum of an extended body about an origin O in terms of its center of mass motion: $$\\vec{L}_O = \\sum \\vec{r}_i \\times m_i \\vec{v}_i = I_{\\text{cm}} \\vec{\\omega} + \\vec{r}_{\\text{cm}} \\times M \\vec{v}_{\\text{cm}}$$",
+  "assumptions": [
+    "Planar motion where angular velocity vector is perpendicular to motion plane",
+    "Rigid body condition",
+    "Reference point O is fixed in an inertial reference frame"
+  ],
+  "boundary_conditions": [
+    "Holds for any rigid body undergoing planar translation and rotation",
+    "If rotation axis is not a principal axis of inertia, L vector is not parallel to omega"
+  ],
+  "related_formula_ids": [
+    "formula-rot-angmom-rigid-body"
+  ],
+  "prerequisite_refs": [
+    "curr-com-01",
+    "curr-rot-03"
+  ],
+  "source_references": [
+    "University Physics, Chapter 10, Section 10.5 (Angular Momentum)",
+    "Halliday, Resnick & Walker, Chapter 11, Section 11.7",
+    "Feynman Lectures on Physics Vol 1, Chapter 19"
+  ],
+  "generation_metadata": {
+    "agent": "physics-concept-writer",
+    "phase": "16"
+  },
+  "verification_status": "VERIFIED",
+  "created_at": "2026-10-05T04:09:34.593741+00:00",
+  "content_hash": "8c8d1b084e21d118f5b67a1952edf1c2194d428fc5906a043f080ac298b3b4f7",
+  "verification_record_id": "cvr-concept-rot-angmom-rigid-body-01"
+}

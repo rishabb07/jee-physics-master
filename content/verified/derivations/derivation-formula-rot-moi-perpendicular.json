@@ -1,0 +1,84 @@
+{
+  "derivation_id": "derivation-formula-rot-moi-perpendicular",
+  "target_formula_id": "formula-rot-moi-perpendicular",
+  "target_equation": "I_z = I_x + I_y",
+  "starting_principles": [
+    "Definition of moment of inertia of a continuous body: I = int r_perp^2 dm",
+    "Euclidean distance in Cartesian coordinate system: r^2 = x^2 + y^2 for points in xy-plane"
+  ],
+  "assumptions": [
+    "The rigid body is strictly two-dimensional and planar (laminar body)",
+    "The body lies entirely in the xy-plane such that z = 0 for every differential mass element dm",
+    "The x, y, and z axes are mutually perpendicular and intersect at a common origin O",
+    "The z-axis is perpendicular to the plane of the lamina"
+  ],
+  "ordered_steps": [
+    {
+      "step_number": 1,
+      "description": "Establish coordinate frame and express position of mass element",
+      "starting_equation": "dm \\text{ at coordinate } (x, y, 0)",
+      "operation": "Identify Cartesian coordinates of differential mass element dm in the lamina plane",
+      "result_equation": "z = 0 \\quad \\forall \\, dm",
+      "assumptions_applied": [
+        "Planar lamina lying entirely in xy-plane"
+      ]
+    },
+    {
+      "step_number": 2,
+      "description": "Formulate moments of inertia about the coplanar x and y axes",
+      "starting_equation": "I = \\int r_\\perp^2 \\, dm",
+      "operation": "Determine perpendicular distance to x-axis (|y|) and y-axis (|x|)",
+      "result_equation": "I_x = \\int y^2 \\, dm, \\quad I_y = \\int x^2 \\, dm",
+      "assumptions_applied": [
+        "Perpendicular distance from x-axis is y, from y-axis is x"
+      ]
+    },
+    {
+      "step_number": 3,
+      "description": "Formulate moment of inertia about perpendicular z-axis through origin",
+      "starting_equation": "I_z = \\int r_z^2 \\, dm",
+      "operation": "Express perpendicular distance r_z from z-axis using Pythagorean theorem in xy plane",
+      "result_equation": "r_z^2 = x^2 + y^2 \\implies I_z = \\int (x^2 + y^2) \\, dm",
+      "assumptions_applied": [
+        "Origin O is common intersection of all three axes"
+      ]
+    },
+    {
+      "step_number": 4,
+      "description": "Distribute integral by linearity and substitute coplanar definitions",
+      "starting_equation": "I_z = \\int (x^2 + y^2) \\, dm",
+      "operation": "Apply linearity of integration: int (x^2 + y^2) dm = int x^2 dm + int y^2 dm",
+      "result_equation": "I_z = \\int x^2 \\, dm + \\int y^2 \\, dm = I_y + I_x",
+      "assumptions_applied": [
+        "Linearity of definite Riemann-Stieltjes integrals"
+      ]
+    },
+    {
+      "step_number": 5,
+      "description": "Conclude perpendicular axis theorem and state dimensional equivalence",
+      "starting_equation": "I_z = I_y + I_x",
+      "operation": "Commutative rearrangement",
+      "result_equation": "I_z = I_x + I_y",
+      "assumptions_applied": [
+        "Planar lamina constraint z = 0"
+      ]
+    }
+  ],
+  "final_equation": "I_z = I_x + I_y",
+  "applicability_conditions": [
+    "Strictly restricted to two-dimensional planar laminas",
+    "Fails identically for any 3D body with non-zero z-thickness because r_x^2 = y^2 + z^2 and r_y^2 = x^2 + z^2 lead to I_x + I_y = I_z + 2 int z^2 dm != I_z"
+  ],
+  "source_references": [
+    "H.C. Verma Vol 1, Chapter 10, Section 10.6 (Theorems of Moment of Inertia)",
+    "Halliday, Resnick & Walker, Chapter 10, Section 10.5",
+    "University Physics, Chapter 9, Section 9.5"
+  ],
+  "risk_level": "HIGH",
+  "verification_status": "VERIFIED",
+  "generator_identity": "physics-derivation-writer",
+  "generator_conversation_id": "conv-phase16-rot-derivation",
+  "created_at": "2026-10-05T04:11:12.029307+00:00",
+  "content_hash": "c014c4dafc315a8d78d5a9e9b776837aa6bb5058ef71b858dbbdced4eaabe15b",
+  "verification_record_id": "cvr-derivation-formula-rot-moi-perpendicular"
+}

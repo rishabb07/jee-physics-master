@@ -1,0 +1,45 @@
+{
+  "formula_id": "formula-rot-moi-discrete",
+  "chapter_id": "rotational-motion",
+  "title": "Moment of Inertia of Discrete Point Masses",
+  "equation": "I = \\sum_{i=1}^N m_i r_i^2",
+  "variables": {
+    "I": "Moment of inertia about the specified axis",
+    "m_i": "Mass of the i-th particle",
+    "r_i": "Perpendicular distance of the i-th particle from the axis"
+  },
+  "units": {
+    "I": "kg m^2",
+    "m_i": "kg",
+    "r_i": "m"
+  },
+  "dimensions": {
+    "I": "[M][L]^2",
+    "m_i": "[M]",
+    "r_i": "[L]"
+  },
+  "assumptions": [
+    "Point mass particles with negligible individual extents",
+    "Strictly perpendicular radial distances measured from the rotation axis",
+    "Rigid spatial configuration among all particles"
+  ],
+  "validity_conditions": [
+    "Universal definition for any finite system of discrete particles in classical mechanics"
+  ],
+  "derivation_reference": null,
+  "related_concepts": [
+    "concept-rot-moi-01"
+  ],
+  "common_misuse": [
+    "Using direct vector distance from an origin instead of perpendicular distance from the axis",
+    "Assuming moment of inertia is an intrinsic scalar independent of axis location"
+  ],
+  "generation_metadata": {
+    "agent": "physics-formula-writer",
+    "phase": "16"
+  },
+  "verification_status": "VERIFIED",
+  "created_at": "2026-10-05T04:10:34.457645+00:00",
+  "content_hash": "ff455aca261c301853d631603ffa2408bf3650f567d2721363992140ccbc6811",
+  "verification_record_id": "cvr-formula-rot-moi-discrete"
+}

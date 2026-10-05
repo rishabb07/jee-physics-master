@@ -1,0 +1,43 @@
+{
+  "content_id": "concept-rot-moi-continuous-01",
+  "curriculum_id": "curr-rot-01",
+  "taxonomy_reference": {
+    "chapter_id": "rotational-motion",
+    "topic_id": "moment-of-inertia",
+    "subtopic_id": "moi-of-standard-continuous-bodies"
+  },
+  "title": "Moment of Inertia of Continuous Rigid Bodies via Spatial Mass Integration",
+  "learning_objective": "Calculate moment of inertia for standard continuous symmetric bodies by formulating differential mass elements dm and evaluating definite integrals.",
+  "explanation": "For continuous mass distributions, summation over discrete particles passes into a definite volume integral: $$I = \\int r_\\perp^2 \\, dm = \\int r_\\perp^2 \\rho(\u000bec{r}) \\, dV$$ where $r_\\perp$ represents the perpendicular distance of the differential mass element $dm$ from the designated rotation axis. For uniform densities, mass elements are formulated via geometric dimensions: linear mass density $dm = \\lambda \\, dl$ for thin rods, areal surface density $dm = \\sigma \\, dA$ for discs and planar sheets, and volumetric density $dm = \\rho \\, dV$ for cylinders and spheres. Standard integration results about central symmetry axes include: thin uniform rod of length $L$ about its perpendicular bisector ($I = \\frac{1}{12} M L^2$), uniform circular ring ($I = M R^2$), uniform circular disc or solid cylinder ($I = \\frac{1}{2} M R^2$), thin hollow spherical shell ($I = \\frac{2}{3} M R^2$), and solid homogeneous sphere ($I = \\frac{2}{5} M R^2$).",
+  "intuition": "Moment of inertia measures how difficult it is to alter a body's angular velocity. Because mass elements contribute with the square of their radial distance from the axis ($r^2$), mass positioned far from the rotation axis contributes disproportionately more to rotational inertia than mass packed near the rotation axis.",
+  "formal_definition": "The second moment of the mass distribution of a continuous rigid body with respect to a line axis $L$: $$I_L \\equiv \\iiint_V r_\\perp^2 \\rho(\\vec{r}) \\, dV$$ where $r_\\perp$ is the Euclidean distance from the element $dV$ to the line $L$.",
+  "assumptions": [
+    "Rigid body with invariant spatial distance between all constituent mass points",
+    "Homogeneous mass distribution with constant density",
+    "Specified geometric symmetry axes passing through centroid"
+  ],
+  "boundary_conditions": [
+    "Valid for macroscopic continuous rigid bodies in classical Newtonian mechanics",
+    "Fails for flexible, deformable, or non-rigid fluid media"
+  ],
+  "related_formula_ids": [
+    "formula-rot-moi-standard-bodies"
+  ],
+  "prerequisite_refs": [
+    "curr-com-01",
+    "curr-rot-01"
+  ],
+  "source_references": [
+    "H.C. Verma Vol 1, Chapter 10 (Rotational Mechanics), Sections 10.3-10.5",
+    "Halliday, Resnick & Walker, Chapter 10 (Rotation), Section 10.5",
+    "University Physics, Chapter 9 (Rotation of Rigid Bodies), Section 9.5"
+  ],
+  "generation_metadata": {
+    "agent": "physics-concept-writer",
+    "phase": "16"
+  },
+  "verification_status": "VERIFIED",
+  "created_at": "2026-10-05T04:09:34.593741+00:00",
+  "content_hash": "9f26037621f1a35e5e2a46cb17cdbd874b247593b9acaff0b502057623bd4216",
+  "verification_record_id": "cvr-concept-rot-moi-continuous-01"
+}

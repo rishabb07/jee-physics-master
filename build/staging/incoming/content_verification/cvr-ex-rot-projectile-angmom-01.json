@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-ex-rot-projectile-angmom-01",
+  "content_type": "WORKED_EXAMPLE",
+  "target_id": "ex-rot-projectile-angmom-01",
+  "content_hash": "3fa03aaa3fdb244b974bc08b15f16818a2bc7d8d846ca6c6f1b5ed23392e427a",
+  "risk_level": "HIGH",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Independently calculated and audited from first principles. Numerical values, steps, and sanity checks verified for ex-rot-projectile-angmom-01.",
+  "verifier_id": "content-verifier-a-rot-examples",
+  "created_at": "2026-10-05T04:12:14.618212+00:00"
+}

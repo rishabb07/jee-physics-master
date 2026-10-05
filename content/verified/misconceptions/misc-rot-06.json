@@ -1,0 +1,16 @@
+{
+  "misconception_id": "misc-rot-06",
+  "concept_id": "concept-rot-pure-rolling-kinematics-01",
+  "title": "Believing the Contact Point in Pure Rolling Has Zero Acceleration",
+  "category": "FRAME_CONFUSION",
+  "incorrect_statement": "Because the instantaneous velocity of the contact point in pure rolling is zero, its instantaneous acceleration must also be zero.",
+  "why_it_fails": "Zero instantaneous velocity does not imply zero acceleration. The contact point of a rolling wheel traces a cycloid in space. At the cusp of the cycloid, the velocity vanishes instantaneously (v_P = 0), but the direction of velocity is changing at its maximum rate. The contact point experiences a pure centripetal acceleration a_c = v_cm^2 / R = omega^2 R directed vertically upward toward the center of the wheel.",
+  "diagnostic_symptom": "Student claims that the contact point is an inertial reference point or that Newton's laws can be written about P without considering accelerating reference frames.",
+  "corrective_explanation": "Recognize that while v_contact = 0, a_contact = omega^2 R != 0. The contact point is accelerating upward toward the center of the rolling body.",
+  "supporting_evidence": "University Physics, Chapter 10, Section 10.3; Feynman Lectures on Physics Vol 1, Chapter 18.",
+  "connected_atom_ids": [],
+  "verification_status": "VERIFIED",
+  "created_at": "2026-10-05T04:12:43.442529+00:00",
+  "content_hash": "d179bda3262205827298023424eb8b1c23cc3e5c8dec1837fd4c695b03af2c3b",
+  "verification_record_id": "cvr-misc-rot-06"
+}

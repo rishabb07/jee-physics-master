@@ -1,0 +1,42 @@
+{
+  "content_id": "concept-rot-toppling-condition-01",
+  "curriculum_id": "curr-rot-04",
+  "taxonomy_reference": {
+    "chapter_id": "rotational-motion",
+    "topic_id": "rolling-motion",
+    "subtopic_id": "toppling-condition"
+  },
+  "title": "Critical Conditions for Sliding versus Toppling of Rigid Blocks Under Lateral Forces",
+  "learning_objective": "Determine the critical lateral force and incline angle governing whether a rigid body slides or topples over its leading edge.",
+  "explanation": "Consider a uniform rectangular block of mass $M$, base width $b$, and height $h$ resting on a rough horizontal surface with static friction coefficient $\\mu_s$. When a lateral horizontal force $F$ is applied at height $H$ above the ground, the force creates an overturning torque about the center of mass. To maintain rotational equilibrium, the distributed normal contact force shifts forward toward the leading tipping edge $P$. When the line of action of the resultant normal force reaches the extreme edge $P$, the block is on the verge of toppling. Evaluating torque about the corner $P$ at the toppling threshold yields: $$F_{\\text{topple}} H = M g \\frac{b}{2} \\implies F_{\\text{topple}} = \\frac{M g b}{2 H}$$ Meanwhile, the threshold force required to initiate sliding is governed by static friction: $$F_{\\text{slide}} = \\mu_s N = \\mu_s M g$$ Comparing these thresholds dictates the failure mode: 1. If $F_{\\text{topple}} < F_{\\text{slide}} \\iff \\frac{b}{2 H} < \\mu_s$, the block TOPPLES before it can slide. 2. If $F_{\\text{slide}} < F_{\\text{topple}} \\iff \\mu_s < \\frac{b}{2 H}$, the block SLIDES before it can topple. Similarly, for a block resting on an inclined plane whose tilt $\\theta$ is gradually increased, toppling occurs when the vertical gravity line passing through the center of mass falls outside the base width: $\\tan\\theta > b / h$. The block topples before sliding if $\\tan\\theta_{\\text{topple}} < \\tan\\theta_{\\text{slide}} \\iff \\frac{b}{h} < \\mu_s$.",
+  "intuition": "Think of a tall, narrow bookshelf versus a wide, flat chest of drawers on a sticky rug. If you push the tall bookshelf high up, it easily tips over before sliding across the floor because the normal reaction can't shift far enough sideways to counter the overturning torque.",
+  "formal_definition": "The condition of impending rotational instability of a rigid body about a supporting pivot edge when the line of action of the contact reaction reaches the boundary of the support polygon: $$\\sum \\tau_{\\text{edge}} = 0$$",
+  "assumptions": [
+    "Rigid cuboidal block with uniform mass density",
+    "Sufficient normal support distributed across planar base",
+    "Friction governed by Coulomb static friction model"
+  ],
+  "boundary_conditions": [
+    "Valid for rigid bodies on planar surfaces; flexible bodies deform prior to edge migration"
+  ],
+  "related_formula_ids": [
+    "formula-rot-toppling-condition"
+  ],
+  "prerequisite_refs": [
+    "curr-nl-02",
+    "curr-rot-02"
+  ],
+  "source_references": [
+    "H.C. Verma Vol 1, Chapter 10, Section 10.18 (Toppling)",
+    "Irodov Problems in General Physics, Section 1.4, Problem 1.252",
+    "JEE Main & Advanced Previous Years' Mechanics Papers"
+  ],
+  "generation_metadata": {
+    "agent": "physics-concept-writer",
+    "phase": "16"
+  },
+  "verification_status": "VERIFIED",
+  "created_at": "2026-10-05T04:09:34.593741+00:00",
+  "content_hash": "cd440334485936b10ddc2f75358e618cb014d552fcd919f753e36726bc207b67",
+  "verification_record_id": "cvr-concept-rot-toppling-condition-01"
+}

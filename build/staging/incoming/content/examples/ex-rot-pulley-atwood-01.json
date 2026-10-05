@@ -1,0 +1,79 @@
+{
+  "example_id": "ex-rot-pulley-atwood-01",
+  "chapter_id": "rotational-motion",
+  "problem_statement": "Two blocks of masses $m_1 = 3.0\\text{ kg}$ and $m_2 = 1.0\\text{ kg}$ are connected by a light inextensible string passing over a uniform solid cylindrical pulley of mass $M = 2.0\\text{ kg}$ and radius $R = 0.10\\text{ m}$. The pulley rotates about a frictionless horizontal axle through its center, and the string does not slip on the pulley rim. Taking $g = 9.80\\text{ m/s}^2$, find: (a) the linear acceleration $a$ of the blocks, and (b) the string tensions $T_1$ and $T_2$ on each side of the pulley.",
+  "known_quantities": {
+    "m_1": "3.0 kg",
+    "m_2": "1.0 kg",
+    "M": "2.0 kg",
+    "R": "0.10 m",
+    "g": "9.80 m/s^2"
+  },
+  "target_quantity": "Linear acceleration a and tensions T_1, T_2",
+  "relevant_concepts": [
+    "concept-rot-torque-01"
+  ],
+  "governing_principles": [
+    "Newton's Second Law for translating blocks: sum F = m a",
+    "Rotational dynamic equation for massive pulley: tau_net = (T_1 - T_2) R = I alpha",
+    "Moment of inertia of solid cylindrical pulley: I = 1/2 M R^2",
+    "No-slip kinematic constraint: a = R alpha"
+  ],
+  "solution_strategy": "1. Draw free body diagrams for m_1, m_2, and the pulley. 2. Write linear equations: m_1 g - T_1 = m_1 a, and T_2 - m_2 g = m_2 a. 3. Write torque equation: (T_1 - T_2) R = 1/2 M R^2 (a / R) => T_1 - T_2 = 1/2 M a. 4. Sum all three equations to eliminate internal tensions and solve for acceleration a. 5. Substitute a back to obtain T_1 and T_2.",
+  "ordered_steps": [
+    {
+      "step_number": 1,
+      "principle_applied": "Newton's Second Law for descending block m_1",
+      "equation": "m_1 g - T_1 = m_1 a",
+      "substitution": "3.0(9.80) - T_1 = 3.0 a \\implies 29.40 - T_1 = 3.0 a",
+      "intermediate_result": "T_1 = 29.40 - 3.0 a"
+    },
+    {
+      "step_number": 2,
+      "principle_applied": "Newton's Second Law for ascending block m_2",
+      "equation": "T_2 - m_2 g = m_2 a",
+      "substitution": "T_2 - 1.0(9.80) = 1.0 a \\implies T_2 - 9.80 = 1.0 a",
+      "intermediate_result": "T_2 = 9.80 + 1.0 a"
+    },
+    {
+      "step_number": 3,
+      "principle_applied": "Rotational dynamic relation for pulley with no-slip constraint",
+      "equation": "\\tau_{\\text{net}} = (T_1 - T_2) R = I \\alpha = \\left( \\frac{1}{2} M R^2 \\right) \\left( \\frac{a}{R} \\right) \\implies T_1 - T_2 = \\frac{1}{2} M a",
+      "substitution": "T_1 - T_2 = \\frac{1}{2} (2.0) a = 1.0 a",
+      "intermediate_result": "T_1 - T_2 = 1.0 a"
+    },
+    {
+      "step_number": 4,
+      "principle_applied": "System summation to solve for linear acceleration",
+      "equation": "(m_1 - m_2) g = \\left( m_1 + m_2 + \\frac{1}{2} M \\right) a \\implies a = \\frac{(m_1 - m_2) g}{m_1 + m_2 + \\frac{1}{2} M}",
+      "substitution": "a = \\frac{(3.0 - 1.0)(9.80)}{3.0 + 1.0 + 1.0} = \\frac{19.60}{5.0} = 3.92\\text{ m/s}^2",
+      "intermediate_result": "a = 3.92 m/s^2"
+    },
+    {
+      "step_number": 5,
+      "principle_applied": "Back-substitution for string tensions",
+      "equation": "T_1 = m_1 (g - a), \\quad T_2 = m_2 (g + a)",
+      "substitution": "T_1 = 3.0(9.80 - 3.92) = 3.0(5.88) = 17.64\\text{ N}, \\quad T_2 = 1.0(9.80 + 3.92) = 13.72\\text{ N}",
+      "intermediate_result": "T_1 = 17.64 N, T_2 = 13.72 N"
+    }
+  ],
+  "final_answer": "a = 3.92 m/s^2, \\quad T_1 = 17.64 N, \\quad T_2 = 13.72 N",
+  "units": "m/s^2, N",
+  "sanity_checks": [
+    "Tension difference check: T_1 - T_2 = 17.64 - 13.72 = 3.92 N. Pulley inertial term: 1/2 M a = 1/2(2.0)(3.92) = 3.92 N. Exact match!",
+    "Massless pulley limit: M -> 0 yields a = 2(9.8)/4 = 4.90 m/s^2, higher acceleration as expected.",
+    "Tension hierarchy: m_1 g = 29.4 N > T_1 = 17.64 N > T_2 = 13.72 N > m_2 g = 9.8 N, completely consistent with downward acceleration of m_1 and upward acceleration of m_2."
+  ],
+  "alternate_methods": [
+    "Work-Energy theorem: Delta K = Delta U => 1/2 (m_1 + m_2 + 1/2 M) v^2 = (m_1 - m_2) g y. Differentiating with respect to time yields identical a."
+  ],
+  "source_atom_id": null,
+  "provenance": [],
+  "risk_level": "HIGH",
+  "verification_status": "VERIFIED",
+  "generator_identity": "physics-example-writer",
+  "generator_conversation_id": "conv-phase16-rot-examples",
+  "created_at": "2026-10-05T04:12:14.618212+00:00",
+  "content_hash": "0af9a12e0f620c14259f5daeb180d43b40e68aab06f8b074e25430e026514a9d",
+  "verification_record_id": "cvr-ex-rot-pulley-atwood-01"
+}

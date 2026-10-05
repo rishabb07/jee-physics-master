@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-formula-rot-angmom-rigid-body",
+  "content_type": "FORMULA",
+  "target_id": "formula-rot-angmom-rigid-body",
+  "content_hash": "41e620d37b83dd84993596ffdcf50d697309bc9292a1bf21b1619ac2adf0c586",
+  "risk_level": "MEDIUM",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Independently verified dimensional homogeneity, physical assumptions, and validity boundaries for formula-rot-angmom-rigid-body.",
+  "verifier_id": "content-verifier-rot-formulas",
+  "created_at": "2026-10-05T04:10:34.457645+00:00"
+}

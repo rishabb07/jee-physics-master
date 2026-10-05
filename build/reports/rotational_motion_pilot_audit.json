@@ -1,0 +1,228 @@
+{
+  "audit_type": "ROTATIONAL_MOTION_PILOT_FORENSIC_AUDIT",
+  "timestamp": "2026-10-05T04:04:05.600071+00:00",
+  "chapter_id": "rotational-motion",
+  "pilot_spec_file": "curriculum/chapters/rotational-motion_spec.json",
+  "pilot_plan_file": "curriculum/chapters/rotational-motion_plan.json",
+  "pilot_web_data_file": "output/web/data/chapter_rotational-motion.json",
+  "summary": {
+    "total_existing_artifacts": 21,
+    "actions": {
+      "KEEP": 19,
+      "REVERIFY": 0,
+      "REPAIR": 2,
+      "REPLACE": 0,
+      "RETIRE": 0
+    }
+  },
+  "artifacts_evaluated": [
+    {
+      "artifact_id": "concept-rot-moi-01",
+      "artifact_type": "CONCEPT",
+      "title": "Moment of Inertia as Rotational Analogue of Mass",
+      "file": "content/verified/concepts/concept-rot-moi-01.json",
+      "current_status": "VERIFIED",
+      "action": "KEEP",
+      "reason": "Accurately defines moment of inertia I = sum m_i r_i^2 and continuous integral, valid physical grounding in HCV1 Ch 10 and UP Ch 9, hash verified."
+    },
+    {
+      "artifact_id": "concept-rot-torque-01",
+      "artifact_type": "CONCEPT",
+      "title": "Torque and Fixed-Axis Rotational Dynamics",
+      "file": "content/verified/concepts/concept-rot-torque-01.json",
+      "current_status": "VERIFIED",
+      "action": "KEEP",
+      "reason": "Accurately defines torque tau = r x F, line of action, and tau_net = I alpha, grounded in HCV1 Ch 10 and HRW Ch 10, hash verified."
+    },
+    {
+      "artifact_id": "concept-rot-angmom-particle-01",
+      "artifact_type": "CONCEPT",
+      "title": "Angular Momentum of a Particle",
+      "file": "content/verified/concepts/concept-rot-angmom-particle-01.json",
+      "current_status": "VERIFIED",
+      "action": "KEEP",
+      "reason": "Accurately defines particle angular momentum L = r x p with explicit reference point dependence, grounded in HCV1 Ch 10 and UP Ch 10, hash verified."
+    },
+    {
+      "artifact_id": "concept-rot-angmom-conservation-01",
+      "artifact_type": "CONCEPT",
+      "title": "Conservation of Angular Momentum",
+      "file": "content/verified/concepts/concept-rot-angmom-conservation-01.json",
+      "current_status": "VERIFIED",
+      "action": "KEEP",
+      "reason": "Rigorous statement of conservation when net external torque vanishes, grounded in Feynman Vol 1 Ch 18 and UP Ch 10, hash verified."
+    },
+    {
+      "artifact_id": "formula-rot-moi-parallel",
+      "artifact_type": "FORMULA",
+      "title": "Parallel Axis Theorem",
+      "file": "content/verified/formulas/formula-rot-moi-parallel.json",
+      "current_status": "VERIFIED",
+      "action": "KEEP",
+      "reason": "Rigorous formula I = I_cm + M d^2 with explicit assumptions, units, dimensions, and misuse warnings, hash verified."
+    },
+    {
+      "artifact_id": "formula-rot-torque-dyn",
+      "artifact_type": "FORMULA",
+      "title": "Fundamental Relation of Rotational Dynamics",
+      "file": "content/verified/formulas/formula-rot-torque-dyn.json",
+      "current_status": "VERIFIED",
+      "action": "KEEP",
+      "reason": "Rigorous formula tau_net = I alpha with inertial axis requirements, hash verified."
+    },
+    {
+      "artifact_id": "formula-rot-angmom-particle",
+      "artifact_type": "FORMULA",
+      "title": "Particle Angular Momentum Vector",
+      "file": "content/verified/formulas/formula-rot-angmom-particle.json",
+      "current_status": "VERIFIED",
+      "action": "KEEP",
+      "reason": "Universal vector relation L = r x p = m (r x v), hash verified."
+    },
+    {
+      "artifact_id": "formula-rot-conservation-angmom",
+      "artifact_type": "FORMULA",
+      "title": "Conservation of Angular Momentum",
+      "file": "content/verified/formulas/formula-rot-conservation-angmom.json",
+      "current_status": "VERIFIED",
+      "action": "KEEP",
+      "reason": "Scalar relation I_i omega_i = I_f omega_f for isolated systems, hash verified."
+    },
+    {
+      "artifact_id": "derivation-formula-rot-moi-parallel",
+      "artifact_type": "DERIVATION",
+      "title": "Derivation of Parallel Axis Theorem",
+      "file": "content/verified/derivations/derivation-formula-rot-moi-parallel.json",
+      "current_status": "VERIFIED",
+      "action": "KEEP",
+      "reason": "Complete step-by-step proof expanding integral int (r_cm + d)^2 dm with center-of-mass integral vanishing, dual CVR verified."
+    },
+    {
+      "artifact_id": "derivation-formula-rot-torque-dyn",
+      "artifact_type": "DERIVATION",
+      "title": "Derivation of Fundamental Equation of Rotational Dynamics",
+      "file": "content/verified/derivations/derivation-formula-rot-torque-dyn.json",
+      "current_status": "VERIFIED",
+      "action": "KEEP",
+      "reason": "Summation of tangential forces F_i = m_i r_i alpha yielding tau_net = I alpha, dual CVR verified."
+    },
+    {
+      "artifact_id": "derivation-formula-rot-angmom-particle",
+      "artifact_type": "DERIVATION",
+      "title": "Time Derivative of Angular Momentum and Torque",
+      "file": "content/verified/derivations/derivation-formula-rot-angmom-particle.json",
+      "current_status": "VERIFIED",
+      "action": "KEEP",
+      "reason": "Calculus proof dL/dt = v x p + r x dp/dt = 0 + r x F = tau, dual CVR verified."
+    },
+    {
+      "artifact_id": "derivation-formula-rot-conservation-angmom",
+      "artifact_type": "DERIVATION",
+      "title": "Derivation of Angular Momentum Conservation",
+      "file": "content/verified/derivations/derivation-formula-rot-conservation-angmom.json",
+      "current_status": "VERIFIED",
+      "action": "KEEP",
+      "reason": "Direct integration of dL/dt = 0 when external torque is zero, dual CVR verified."
+    },
+    {
+      "artifact_id": "ex-rot-angmom-disc-01",
+      "artifact_type": "WORKED_EXAMPLE",
+      "title": "Rotating Disc with Radially Crawling Insect",
+      "file": "content/verified/examples/ex-rot-angmom-disc-01.json",
+      "current_status": "VERIFIED",
+      "action": "KEEP",
+      "reason": "Classic Irodov/HCV problem with step-by-step solution, conservation calculation, KE sanity check, dual CVR verified."
+    },
+    {
+      "artifact_id": "misc-rot-01",
+      "artifact_type": "MISCONCEPTION",
+      "title": "Straight-Line Motion Cannot Have Angular Momentum",
+      "file": "content/verified/misconceptions/misc-rot-01.json",
+      "current_status": "VERIFIED",
+      "action": "KEEP",
+      "reason": "Addresses high-frequency student confusion regarding reference-point dependence of angular momentum."
+    },
+    {
+      "artifact_id": "misc-rot-02",
+      "artifact_type": "MISCONCEPTION",
+      "title": "Conservation of Angular Momentum Implies Conservation of Kinetic Energy",
+      "file": "content/verified/misconceptions/misc-rot-02.json",
+      "current_status": "VERIFIED",
+      "action": "KEEP",
+      "reason": "Addresses thermodynamic work done by internal forces during radial repositioning."
+    },
+    {
+      "artifact_id": "rotational-motion-question-6c7cb960",
+      "artifact_type": "QUESTION",
+      "title": "Falling Particle Angular Momentum About Origin",
+      "file": "kb/atoms/rotational-motion-question-6c7cb960.json",
+      "current_status": "VERIFIED",
+      "action": "KEEP",
+      "reason": "Canonical KB atom with provenance in official JEE syllabus."
+    },
+    {
+      "artifact_id": "rotational-motion-question-84f91c20",
+      "artifact_type": "QUESTION",
+      "title": "Rotating Disc with Dropped Wax - Qualitative",
+      "file": "kb/atoms/rotational-motion-question-84f91c20.json",
+      "current_status": "VERIFIED",
+      "action": "KEEP",
+      "reason": "Canonical KB atom with provenance in official JEE syllabus."
+    },
+    {
+      "artifact_id": "rotational-motion-question-f7cbecda",
+      "artifact_type": "QUESTION",
+      "title": "Rotating Disc with Dropped Wax - Quantitative",
+      "file": "kb/atoms/rotational-motion-question-f7cbecda.json",
+      "current_status": "VERIFIED",
+      "action": "KEEP",
+      "reason": "Canonical KB atom with provenance in official JEE syllabus."
+    },
+    {
+      "artifact_id": "gen-q-rot-angmom-01",
+      "artifact_type": "QUESTION",
+      "title": "Disc with Radially Crawling Insect Angular Velocity",
+      "file": "question_bank/verified/questions/gen-q-rot-angmom-01.json",
+      "current_status": "VERIFIED",
+      "action": "KEEP",
+      "reason": "Verified generated multi-concept question with dual-solver sign-off."
+    },
+    {
+      "artifact_id": "gen-q-rot-misc-01",
+      "artifact_type": "QUESTION",
+      "title": "Point Mass Moving in Straight Line Angular Momentum",
+      "file": "question_bank/verified/questions/gen-q-rot-misc-01.json",
+      "current_status": "VERIFIED",
+      "action": "KEEP",
+      "reason": "Verified generated misconception-diagnostic question with dual-solver sign-off."
+    },
+    {
+      "artifact_id": "rotational-motion_spec.json",
+      "artifact_type": "CURRICULUM_SPEC",
+      "title": "Pilot Chapter Spec",
+      "file": "curriculum/chapters/rotational-motion_spec.json",
+      "current_status": "INCOMPLETE_PILOT",
+      "action": "REPAIR",
+      "reason": "Only covers 7 of 18 subtopics; Section 5 has zero content; missing rolling motion, torque work-energy, perpendicular axis theorem, and radius of gyration."
+    },
+    {
+      "artifact_id": "rotational-motion_plan.json",
+      "artifact_type": "CHAPTER_PLAN",
+      "title": "Pilot Chapter Plan",
+      "file": "curriculum/chapters/rotational-motion_plan.json",
+      "current_status": "INCOMPLETE_PILOT",
+      "action": "REPAIR",
+      "reason": "Section 5 is an empty stub without concepts, formulas, examples, or questions; lacks question ladder; sections 1 and 2 lack worked examples and misconceptions."
+    }
+  ],
+  "identified_deficiencies": [
+    "Empty Section Stub: Section 5 (sec-05-pure-rolling-kinematics) in the pilot has zero concepts, zero formulas, zero derivations, zero examples, zero misconceptions, and zero questions.",
+    "Taxonomy Under-Coverage: Only 7 of 18 taxonomy subtopics were represented in the pilot.",
+    "Missing Pure Rolling Motion: Topic 4 (rolling-motion) with 4 subtopics (pure rolling kinematics, horizontal surface, incline plane, toppling) completely missing.",
+    "Missing Work & Energy in Rotation: Rotational kinetic energy (K = 1/2 I omega^2) and work-energy theorem (W_net = Delta K_rot) missing.",
+    "Missing Axis Theorems: Perpendicular axis theorem (I_z = I_x + I_y) and Radius of Gyration (k = sqrt(I/M)) missing.",
+    "Missing Worked Examples: Sections 1, 2, and 3 have 0 worked examples in the pilot.",
+    "Missing Misconceptions: Sections 1, 2, and 5 have 0 misconceptions in the pilot.",
+    "Missing Question Ladder: rotational-motion pilot has ladder_ids: []."
+  ]
+}

@@ -95,6 +95,7 @@ class WebDataBuilder:
         self.curriculum_dir = self.root_dir / "curriculum"
         self.staging_curr_dir = self.root_dir / "build" / "staging" / "incoming" / "curriculum"
         self.content_dir = self.root_dir / "build" / "staging" / "incoming" / "content"
+        self.verified_dir = self.root_dir / "content" / "verified"
         self.drafts_dir = self.root_dir / "build" / "drafts"
         self.qb_verified_dir = self.root_dir / "question_bank" / "verified"
         self.review_queue_dir = self.root_dir / "review" / "queue" / "questions"
@@ -208,115 +209,130 @@ class WebDataBuilder:
         return taxonomy_tree
 
     def build_concepts(self, out_dir: Path) -> List[WebConceptBlock]:
-        concepts_dir = self.content_dir / "concepts"
         concepts: List[WebConceptBlock] = []
-
-        if concepts_dir.exists():
-            for p in sorted(concepts_dir.glob("*.json")):
-                with open(p, "r", encoding="utf-8") as f:
-                    d = json.load(f)
-                c = WebConceptBlock(
-                    concept_id=d.get("content_id", p.stem),
-                    title=d.get("title", p.stem.replace("-", " ").title()),
-                    statement=d.get("explanation") or d.get("formal_definition") or "",
-                    physical_intuition=d.get("intuition", ""),
-                    boundary_conditions=d.get("boundary_conditions", []),
-                    related_formula_ids=d.get("related_formula_ids", []),
-                )
-                concepts.append(c)
+        seen = set()
+        for cdir in [self.content_dir / "concepts", self.verified_dir / "concepts"]:
+            if cdir.exists():
+                for p in sorted(cdir.glob("*.json")):
+                    if p.name in seen:
+                        continue
+                    seen.add(p.name)
+                    with open(p, "r", encoding="utf-8") as f:
+                        d = json.load(f)
+                    c = WebConceptBlock(
+                        concept_id=d.get("content_id", p.stem),
+                        title=d.get("title", p.stem.replace("-", " ").title()),
+                        statement=d.get("explanation") or d.get("formal_definition") or "",
+                        physical_intuition=d.get("intuition", ""),
+                        boundary_conditions=d.get("boundary_conditions", []),
+                        related_formula_ids=d.get("related_formula_ids", []),
+                    )
+                    concepts.append(c)
 
         out_path = out_dir / "concepts.json"
         out_path.write_text(json.dumps([c.model_dump() for c in concepts], indent=2), encoding="utf-8")
         return concepts
 
     def build_formulas(self, out_dir: Path) -> List[WebFormulaBlock]:
-        formulas_dir = self.content_dir / "formulas"
         formulas: List[WebFormulaBlock] = []
-
-        if formulas_dir.exists():
-            for p in sorted(formulas_dir.glob("*.json")):
-                with open(p, "r", encoding="utf-8") as f:
-                    d = json.load(f)
-                formula = WebFormulaBlock(
-                    formula_id=d.get("formula_id", p.stem),
-                    title=d.get("title", p.stem.replace("-", " ").title()),
-                    equation_latex=d.get("equation_latex") or d.get("equation") or "",
-                    variables=d.get("variables", {}),
-                    units=d.get("units", {}),
-                    dimensions=d.get("dimensions", {}),
-                    assumptions=d.get("assumptions", []),
-                    validity_conditions=d.get("validity_conditions", []),
-                    common_misuse=d.get("common_misuse", []),
-                    derivation_id=d.get("derivation_reference"),
-                )
-                formulas.append(formula)
+        seen = set()
+        for fdir in [self.content_dir / "formulas", self.verified_dir / "formulas"]:
+            if fdir.exists():
+                for p in sorted(fdir.glob("*.json")):
+                    if p.name in seen:
+                        continue
+                    seen.add(p.name)
+                    with open(p, "r", encoding="utf-8") as f:
+                        d = json.load(f)
+                    formula = WebFormulaBlock(
+                        formula_id=d.get("formula_id", p.stem),
+                        title=d.get("title", p.stem.replace("-", " ").title()),
+                        equation_latex=d.get("equation_latex") or d.get("equation") or "",
+                        variables=d.get("variables", {}),
+                        units=d.get("units", {}),
+                        dimensions=d.get("dimensions", {}),
+                        assumptions=d.get("assumptions", []),
+                        validity_conditions=d.get("validity_conditions", []),
+                        common_misuse=d.get("common_misuse", []),
+                        derivation_id=d.get("derivation_reference"),
+                    )
+                    formulas.append(formula)
 
         out_path = out_dir / "formulas.json"
         out_path.write_text(json.dumps([f.model_dump() for f in formulas], indent=2), encoding="utf-8")
         return formulas
 
     def load_derivations(self) -> List[WebDerivationBlock]:
-        derivations_dir = self.content_dir / "derivations"
         derivations: List[WebDerivationBlock] = []
-
-        if derivations_dir.exists():
-            for p in sorted(derivations_dir.glob("*.json")):
-                with open(p, "r", encoding="utf-8") as f:
-                    d = json.load(f)
-                steps = d.get("ordered_steps") or d.get("derivation_steps") or []
-                deriv = WebDerivationBlock(
-                    derivation_id=d.get("derivation_id", p.stem),
-                    title=f"Derivation: {d.get('title') or d.get('target_formula_id', p.stem)}",
-                    target_formula=d.get("target_equation", d.get("final_equation", "")),
-                    assumptions=d.get("assumptions", []),
-                    steps=steps,
-                    limiting_cases=d.get("limiting_cases") or d.get("applicability_conditions", []),
-                )
-                derivations.append(deriv)
+        seen = set()
+        for ddir in [self.content_dir / "derivations", self.verified_dir / "derivations"]:
+            if ddir.exists():
+                for p in sorted(ddir.glob("*.json")):
+                    if p.name in seen:
+                        continue
+                    seen.add(p.name)
+                    with open(p, "r", encoding="utf-8") as f:
+                        d = json.load(f)
+                    steps = d.get("ordered_steps") or d.get("derivation_steps") or []
+                    deriv = WebDerivationBlock(
+                        derivation_id=d.get("derivation_id", p.stem),
+                        title=f"Derivation: {d.get('title') or d.get('target_formula_id', p.stem)}",
+                        target_formula=d.get("target_equation", d.get("final_equation", "")),
+                        assumptions=d.get("assumptions", []),
+                        steps=steps,
+                        limiting_cases=d.get("limiting_cases") or d.get("applicability_conditions", []),
+                    )
+                    derivations.append(deriv)
         return derivations
 
     def load_examples(self) -> List[WebWorkedExampleBlock]:
-        examples_dir = self.content_dir / "examples"
         examples: List[WebWorkedExampleBlock] = []
-
-        if examples_dir.exists():
-            for p in sorted(examples_dir.glob("*.json")):
-                with open(p, "r", encoding="utf-8") as f:
-                    d = json.load(f)
-                steps = d.get("solution_steps") or d.get("ordered_steps") or []
-                ex = WebWorkedExampleBlock(
-                    example_id=d.get("example_id", p.stem),
-                    problem_statement=d.get("problem_statement", ""),
-                    diagram_description=d.get("diagram_description"),
-                    known_parameters=d.get("known_parameters") or d.get("known_quantities") or {},
-                    target_variable=d.get("target_variable") or d.get("target_quantity") or "",
-                    solution_strategy=d.get("solution_strategy", ""),
-                    solution_steps=steps,
-                    final_answer=d.get("final_answer", ""),
-                    trap_alerts=d.get("trap_alerts", []),
-                    sanity_checks=d.get("sanity_checks", []),
-                )
-                examples.append(ex)
+        seen = set()
+        for edir in [self.content_dir / "examples", self.verified_dir / "examples"]:
+            if edir.exists():
+                for p in sorted(edir.glob("*.json")):
+                    if p.name in seen:
+                        continue
+                    seen.add(p.name)
+                    with open(p, "r", encoding="utf-8") as f:
+                        d = json.load(f)
+                    steps = d.get("solution_steps") or d.get("ordered_steps") or []
+                    ex = WebWorkedExampleBlock(
+                        example_id=d.get("example_id", p.stem),
+                        problem_statement=d.get("problem_statement", ""),
+                        diagram_description=d.get("diagram_description"),
+                        known_parameters=d.get("known_parameters") or d.get("known_quantities") or {},
+                        target_variable=d.get("target_variable") or d.get("target_quantity") or "",
+                        solution_strategy=d.get("solution_strategy", ""),
+                        solution_steps=steps,
+                        final_answer=d.get("final_answer", ""),
+                        trap_alerts=d.get("trap_alerts", []),
+                        sanity_checks=d.get("sanity_checks", []),
+                    )
+                    examples.append(ex)
         return examples
 
     def load_misconceptions(self) -> List[WebMisconceptionBlock]:
-        misconceptions_dir = self.content_dir / "misconceptions"
         misconceptions: List[WebMisconceptionBlock] = []
-
-        if misconceptions_dir.exists():
-            for p in sorted(misconceptions_dir.glob("*.json")):
-                with open(p, "r", encoding="utf-8") as f:
-                    d = json.load(f)
-                misc = WebMisconceptionBlock(
-                    misconception_id=d.get("misconception_id", p.stem),
-                    category=d.get("category", "GENERAL_MISCONCEPTION"),
-                    statement=d.get("statement") or d.get("incorrect_statement") or "",
-                    erroneous_reasoning=d.get("erroneous_reasoning") or d.get("why_it_fails") or "",
-                    correct_physics_explanation=d.get("correct_physics_explanation") or d.get("corrective_explanation") or "",
-                    refutation_counterexample=d.get("refutation_counterexample") or d.get("supporting_evidence") or "",
-                    diagnostic_check_latex=d.get("diagnostic_check_latex") or d.get("diagnostic_symptom"),
-                )
-                misconceptions.append(misc)
+        seen = set()
+        for mdir in [self.content_dir / "misconceptions", self.verified_dir / "misconceptions"]:
+            if mdir.exists():
+                for p in sorted(mdir.glob("*.json")):
+                    if p.name in seen:
+                        continue
+                    seen.add(p.name)
+                    with open(p, "r", encoding="utf-8") as f:
+                        d = json.load(f)
+                    misc = WebMisconceptionBlock(
+                        misconception_id=d.get("misconception_id", p.stem),
+                        category=d.get("category", "GENERAL_MISCONCEPTION"),
+                        statement=d.get("statement") or d.get("incorrect_statement") or "",
+                        erroneous_reasoning=d.get("erroneous_reasoning") or d.get("why_it_fails") or "",
+                        correct_physics_explanation=d.get("correct_physics_explanation") or d.get("corrective_explanation") or "",
+                        refutation_counterexample=d.get("refutation_counterexample") or d.get("supporting_evidence") or "",
+                        diagnostic_check_latex=d.get("diagnostic_check_latex") or d.get("diagnostic_symptom"),
+                    )
+                    misconceptions.append(misc)
         return misconceptions
 
     def build_questions(self, out_dir: Path) -> List[WebQuestionBlock]:
@@ -618,6 +634,10 @@ class WebDataBuilder:
                     for alias in ["momentum-collisions", "com-and-momentum", "com"]:
                         (out_dir / f"chapter_{alias}.json").write_text(ch_detail.model_dump_json(indent=2), encoding="utf-8")
                     (out_dir / "chapter-momentum-collisions.json").write_text(ch_detail.model_dump_json(indent=2), encoding="utf-8")
+                if ch_id == "rotational-motion":
+                    for alias in ["rotation", "rigid-body-dynamics", "rbd"]:
+                        (out_dir / f"chapter_{alias}.json").write_text(ch_detail.model_dump_json(indent=2), encoding="utf-8")
+                    (out_dir / "chapter-rotational-motion.json").write_text(ch_detail.model_dump_json(indent=2), encoding="utf-8")
 
 
                 # Chapter Summary

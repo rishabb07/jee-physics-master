@@ -1,0 +1,16 @@
+{
+  "misconception_id": "misc-rot-03",
+  "concept_id": "concept-rot-moi-continuous-01",
+  "title": "Applying Perpendicular Axis Theorem to Three-Dimensional Rigid Bodies",
+  "category": "INVALID_FORMULA_CONDITION",
+  "incorrect_statement": "The perpendicular axis theorem I_z = I_x + I_y applies to any rigid body, including three-dimensional solid spheres and cylinders, as long as the three axes are mutually perpendicular.",
+  "why_it_fails": "For a true three-dimensional body with non-zero z-coordinates, the perpendicular distances to the x, y, and z axes are r_x^2 = y^2 + z^2, r_y^2 = x^2 + z^2, and r_z^2 = x^2 + y^2. Summing I_x and I_y gives int (x^2 + y^2 + 2 z^2) dm = I_z + 2 int z^2 dm != I_z. The theorem holds strictly if and only if z = 0 identically for all mass elements, which is the definition of a two-dimensional planar lamina.",
+  "diagnostic_symptom": "Student attempts to find the moment of inertia of a solid cylinder or sphere about its diameter using I_z = I_x + I_y.",
+  "corrective_explanation": "Use the perpendicular axis theorem only for thin flat sheets and planar laminas. For three-dimensional bodies, use the parallel axis theorem or direct volume integration.",
+  "supporting_evidence": "H.C. Verma Vol 1, Chapter 10, Section 10.6; Halliday, Resnick & Walker, Chapter 10, Section 10.5.",
+  "connected_atom_ids": [],
+  "verification_status": "VERIFIED",
+  "created_at": "2026-10-05T04:12:43.442529+00:00",
+  "content_hash": "d5c82cc31d1c586d01d583e2d851fc2aa8da3d54fe265ab8e373493a82ea2d3d",
+  "verification_record_id": "cvr-misc-rot-03"
+}

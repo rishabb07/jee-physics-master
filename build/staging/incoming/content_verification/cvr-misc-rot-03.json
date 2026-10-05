@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-misc-rot-03",
+  "content_type": "MISCONCEPTION",
+  "target_id": "misc-rot-03",
+  "content_hash": "d5c82cc31d1c586d01d583e2d851fc2aa8da3d54fe265ab8e373493a82ea2d3d",
+  "risk_level": "MEDIUM",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Independently verified physical explanation, diagnostic symptom, and refutation for misc-rot-03.",
+  "verifier_id": "content-verifier-rot-misconceptions",
+  "created_at": "2026-10-05T04:12:43.442529+00:00"
+}

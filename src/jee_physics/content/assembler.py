@@ -71,6 +71,14 @@ class ChapterAssembler:
         if qb_path.exists():
             with open(qb_path, "r", encoding="utf-8") as f:
                 return json.load(f)
+        qb_verified = self.workspace_root / "question_bank" / "verified" / f"{atom_id}.json"
+        if qb_verified.exists():
+            with open(qb_verified, "r", encoding="utf-8") as f:
+                return json.load(f)
+        qb_stg = self.workspace_root / "build" / "staging" / "incoming" / "question_bank" / "questions" / f"{atom_id}.json"
+        if qb_stg.exists():
+            with open(qb_stg, "r", encoding="utf-8") as f:
+                return json.load(f)
         stg_q = self.workspace_root / "build" / "staging" / "incoming" / "content" / "questions" / f"{atom_id}.json"
         if stg_q.exists():
             with open(stg_q, "r", encoding="utf-8") as f:

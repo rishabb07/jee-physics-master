@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-concept-rot-rolling-horizontal-friction-01",
+  "content_type": "CONCEPT",
+  "target_id": "concept-rot-rolling-horizontal-friction-01",
+  "content_hash": "90817822e74700308a5af235ef2126f4a05e6800f3da4cf60aa993b6d7a9cd64",
+  "risk_level": "MEDIUM",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Independently verified physical grounding, boundary conditions, and textbook citations for concept-rot-rolling-horizontal-friction-01.",
+  "verifier_id": "content-verifier-rot-concepts",
+  "created_at": "2026-10-05T04:09:34.593741+00:00"
+}

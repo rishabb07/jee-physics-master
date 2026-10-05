@@ -1,0 +1,185 @@
+{
+  "chapter_id": "rotational-motion",
+  "chapter_title": "Rotational Motion and Rigid Body Dynamics",
+  "template_type": "MECHANICS",
+  "taxonomy_node_id": "rotational-motion",
+  "order": 6,
+  "aliases": [
+    "rotation",
+    "rigid-body-dynamics",
+    "rbd"
+  ],
+  "canonical_taxonomy_mapping": {
+    "authoritative_source": "kb/taxonomy/syllabus.yaml",
+    "chapter_node": "rotational-motion",
+    "chapter_name": "Rotational Motion",
+    "topics_in_scope": [
+      "moment-of-inertia",
+      "torque-and-rotation",
+      "angular-momentum",
+      "rolling-motion"
+    ],
+    "explicit_subtopic_placements": {
+      "moi_point_masses": "rotational-motion/moment-of-inertia/moi-of-point-masses",
+      "moi_continuous_bodies": "rotational-motion/moment-of-inertia/moi-of-standard-continuous-bodies",
+      "parallel_axis_theorem": "rotational-motion/moment-of-inertia/parallel-axis-theorem",
+      "perpendicular_axis_theorem": "rotational-motion/moment-of-inertia/perpendicular-axis-theorem",
+      "radius_of_gyration": "rotational-motion/moment-of-inertia/radius-of-gyration",
+      "torque_definition": "rotational-motion/torque-and-rotation/torque-definition",
+      "rotational_equations_of_motion": "rotational-motion/torque-and-rotation/rotational-equations-of-motion",
+      "torque_moi_relation": "rotational-motion/torque-and-rotation/torque-moment-of-inertia-relation",
+      "rotational_work_energy": "rotational-motion/torque-and-rotation/work-and-energy-in-rotation",
+      "angular_momentum_particle": "rotational-motion/angular-momentum/angular-momentum-of-particle",
+      "angular_momentum_external_point": "rotational-motion/angular-momentum/angular-momentum-about-external-point",
+      "angular_momentum_rigid_body": "rotational-motion/angular-momentum/angular-momentum-of-rigid-body",
+      "conservation_angular_momentum": "rotational-motion/angular-momentum/conservation-of-angular-momentum",
+      "variable_moment_of_inertia": "rotational-motion/angular-momentum/variable-moment-of-inertia",
+      "pure_rolling_kinematics": "rotational-motion/rolling-motion/pure-rolling-kinematics",
+      "pure_rolling_horizontal": "rotational-motion/rolling-motion/pure-rolling-on-horizontal-surface",
+      "rolling_inclined_plane": "rotational-motion/rolling-motion/rolling-on-inclined-plane",
+      "toppling_condition": "rotational-motion/rolling-motion/toppling-condition"
+    }
+  },
+  "topics": [
+    {
+      "topic_id": "moment-of-inertia",
+      "title": "Moment of Inertia, Radius of Gyration, and Axis Theorems",
+      "subtopics": [
+        {
+          "subtopic_id": "moi-of-point-masses",
+          "title": "Moment of Inertia of Discrete Point Masses",
+          "description": "Definition I = sum(m_i r_i^2); rotational analogue of mass; dependency on choice of rotation axis."
+        },
+        {
+          "subtopic_id": "moi-of-standard-continuous-bodies",
+          "title": "Moment of Inertia of Continuous Bodies via Integration",
+          "description": "Integral definition I = int r^2 dm; evaluation for thin rod (L^2/12), circular ring (R^2), uniform disc (R^2/2), hollow cylinder, solid cylinder, hollow sphere (2/3 R^2), and solid sphere (2/5 R^2)."
+        },
+        {
+          "subtopic_id": "parallel-axis-theorem",
+          "title": "Parallel Axis Theorem (Steiner's Theorem)",
+          "description": "Theorem I = I_cm + M d^2; strictly requires one centroidal axis passing through center of mass."
+        },
+        {
+          "subtopic_id": "perpendicular-axis-theorem",
+          "title": "Perpendicular Axis Theorem for Planar Laminas",
+          "description": "Theorem I_z = I_x + I_y for planar two-dimensional lamina lying in xy-plane; misuse warning for 3D bodies."
+        },
+        {
+          "subtopic_id": "radius-of-gyration",
+          "title": "Radius of Gyration",
+          "description": "Definition k = sqrt(I / M) and geometric interpretation of mass distribution distance."
+        }
+      ]
+    },
+    {
+      "topic_id": "torque-and-rotation",
+      "title": "Torque and Fixed-Axis Rotational Dynamics",
+      "subtopics": [
+        {
+          "subtopic_id": "torque-definition",
+          "title": "Definition and Physical Meaning of Torque",
+          "description": "Vector cross product tau = r x F; moment arm r_perp; couples and origin independence for net zero force systems."
+        },
+        {
+          "subtopic_id": "rotational-equations-of-motion",
+          "title": "Kinematics of Fixed-Axis Rotation",
+          "description": "Angular kinematics under constant angular acceleration alpha: omega = omega_0 + alpha t, theta = omega_0 t + 1/2 alpha t^2, omega^2 = omega_0^2 + 2 alpha theta."
+        },
+        {
+          "subtopic_id": "torque-moment-of-inertia-relation",
+          "title": "Fundamental Equation of Rotational Dynamics",
+          "description": "Dynamic relation tau_net = I alpha; application to rigid bodies rotating about fixed inertial axes; Atwood machines with massive pulleys."
+        },
+        {
+          "subtopic_id": "work-and-energy-in-rotation",
+          "title": "Rotational Work, Kinetic Energy, and Power",
+          "description": "Rotational kinetic energy K_rot = 1/2 I omega^2; rotational work dW = tau dtheta; work-energy theorem for rotational systems W_net = Delta K_rot; rotational power P = tau omega."
+        }
+      ]
+    },
+    {
+      "topic_id": "angular-momentum",
+      "title": "Angular Momentum of Particles and Rigid Bodies",
+      "subtopics": [
+        {
+          "subtopic_id": "angular-momentum-of-particle",
+          "title": "Angular Momentum of a Single Particle",
+          "description": "Vector definition L = r x p = m (r x v); reference point dependence; straight line motion with nonzero impact parameter."
+        },
+        {
+          "subtopic_id": "angular-momentum-about-external-point",
+          "title": "Transformation of Angular Momentum to External Reference Points",
+          "description": "Decomposition L_O = L_cm + r_cm x P_total for composite systems and general planar motion."
+        },
+        {
+          "subtopic_id": "angular-momentum-of-rigid-body",
+          "title": "Angular Momentum of a Rigid Body about Fixed Axis",
+          "description": "Scalar and vector relation L = I omega along principal axis of symmetry."
+        },
+        {
+          "subtopic_id": "conservation-of-angular-momentum",
+          "title": "Universal Principle of Conservation of Angular Momentum",
+          "description": "Torque-momentum theorem tau_net,ext = dL/dt; constancy of L when tau_net,ext = 0; isolated systems and central force fields."
+        },
+        {
+          "subtopic_id": "variable-moment-of-inertia",
+          "title": "Rotational Systems with Internal Mass Reconfiguration",
+          "description": "Conservation I_i omega_i = I_f omega_f; non-conservation of rotational kinetic energy during internal configuration shifts."
+        }
+      ]
+    },
+    {
+      "topic_id": "rolling-motion",
+      "title": "Rolling Motion, Friction Interaction, and Toppling",
+      "subtopics": [
+        {
+          "subtopic_id": "pure-rolling-kinematics",
+          "title": "Kinematic Constraint of Pure Rolling",
+          "description": "No-slipping condition v_cm = R omega, a_cm = R alpha; instantaneous center of rotation (ICR); cycloidal trajectory of rim points."
+        },
+        {
+          "subtopic_id": "pure-rolling-on-horizontal-surface",
+          "title": "Dynamics of Pure Rolling on Horizontal Surfaces",
+          "description": "Static friction as an adjustable constraint force; zero friction condition; forward versus backward static friction depending on line of action of external force."
+        },
+        {
+          "subtopic_id": "rolling-on-inclined-plane",
+          "title": "Rolling Motion on an Inclined Plane",
+          "description": "Acceleration down incline a = g sin(theta) / (1 + I_cm/(M R^2)); minimum friction coefficient mu_min = tan(theta) / (1 + M R^2/I_cm); total mechanical energy conservation."
+        },
+        {
+          "subtopic_id": "toppling-condition",
+          "title": "Conditions for Sliding versus Toppling of Rigid Blocks",
+          "description": "Critical horizontal force F_crit = M g b / (2 h); normal reaction migration to edge; critical incline angle tan(theta) = b / h."
+        }
+      ]
+    }
+  ],
+  "explicit_exclusions": [
+    {
+      "topic": "Advanced Rigid Body Dynamics (Olympiad Tier)",
+      "rationale": "Gyroscopic precession, full 3D inertia tensors, and asymmetric top rotation are designated as Olympiad-tier extensions in kb/taxonomy/syllabus.yaml and excluded from core JEE Advanced narrative."
+    },
+    {
+      "topic": "Planetary Orbits and Central Field Keplerian Potentials",
+      "rationale": "While conservation of angular momentum explains Kepler's Second Law, the detailed gravitational potentials and celestial mechanics belong to Chapter 7: Gravitation."
+    },
+    {
+      "topic": "Pure Translational Collisions without Angular Impulses",
+      "rationale": "Point particle collisions belong to Chapter 5: Center of Mass and Linear Momentum."
+    }
+  ],
+  "prerequisites": [
+    "vectors-and-coordinate-systems",
+    "kinematics",
+    "laws-of-motion",
+    "work-energy-power",
+    "center-of-mass"
+  ],
+  "downstream_dependencies": [
+    "gravitation",
+    "properties-of-solids",
+    "oscillations"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "formula_id": "formula-rot-work-energy-rot",
+  "chapter_id": "rotational-motion",
+  "title": "Rotational Work-Energy Theorem",
+  "equation": "W_{\\text{net}} = \\int_{\\theta_1}^{\\theta_2} \\tau_{\\text{net}}(\\theta) \\, d\\theta = \\frac{1}{2} I \\omega_f^2 - \\frac{1}{2} I \\omega_i^2 = \\Delta K_{\\text{rot}}",
+  "variables": {
+    "W_{\\text{net}}": "Net work done by external torques",
+    "\\tau_{\\text{net}}": "Net external torque about the rotation axis",
+    "\\theta": "Angular displacement coordinate",
+    "I": "Moment of inertia about the fixed rotation axis",
+    "\\omega_f": "Final angular velocity",
+    "\\omega_i": "Initial angular velocity"
+  },
+  "units": {
+    "W_{\\text{net}}": "J",
+    "\\tau_{\\text{net}}": "N m",
+    "\\theta": "rad",
+    "I": "kg m^2",
+    "\\omega": "rad/s"
+  },
+  "dimensions": {
+    "W_{\\text{net}}": "[M][L]^2[T]^-2",
+    "\\tau_{\\text{net}}": "[M][L]^2[T]^-2",
+    "\\theta": "[1]",
+    "I": "[M][L]^2",
+    "\\omega": "[T]^-1"
+  },
+  "assumptions": [
+    "Rigid body rotating about a fixed axis in an inertial reference frame",
+    "Work evaluated between initial angle theta_1 and final angle theta_2"
+  ],
+  "validity_conditions": [
+    "Valid for any net torque function whether constant or angle-dependent"
+  ],
+  "derivation_reference": null,
+  "related_concepts": [
+    "concept-rot-rotational-work-energy-01"
+  ],
+  "common_misuse": [
+    "Multiplying torque by time instead of angular displacement to compute work",
+    "Confusing rotational work with angular impulse (tau * dt)"
+  ],
+  "generation_metadata": {
+    "agent": "physics-formula-writer",
+    "phase": "16"
+  },
+  "verification_status": "VERIFIED",
+  "created_at": "2026-10-05T04:10:34.457645+00:00",
+  "content_hash": "d1ae4819f001f58981b204541022f802ad1a6797772aa0aed0a9c0815fdb8697",
+  "verification_record_id": "cvr-formula-rot-work-energy-rot"
+}

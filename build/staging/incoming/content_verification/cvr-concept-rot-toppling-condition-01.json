@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-concept-rot-toppling-condition-01",
+  "content_type": "CONCEPT",
+  "target_id": "concept-rot-toppling-condition-01",
+  "content_hash": "cd440334485936b10ddc2f75358e618cb014d552fcd919f753e36726bc207b67",
+  "risk_level": "MEDIUM",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Independently verified physical grounding, boundary conditions, and textbook citations for concept-rot-toppling-condition-01.",
+  "verifier_id": "content-verifier-rot-concepts",
+  "created_at": "2026-10-05T04:09:34.593741+00:00"
+}

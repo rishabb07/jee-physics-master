@@ -1,0 +1,44 @@
+{
+  "content_id": "concept-rot-pure-rolling-kinematics-01",
+  "curriculum_id": "curr-rot-04",
+  "taxonomy_reference": {
+    "chapter_id": "rotational-motion",
+    "topic_id": "rolling-motion",
+    "subtopic_id": "pure-rolling-kinematics"
+  },
+  "title": "Kinematic Constraints of Pure Rolling and the Instantaneous Center of Rotation",
+  "learning_objective": "Formulate the no-slip contact constraint for rolling bodies and determine instantaneous velocities of all body points using the Instantaneous Center of Rotation.",
+  "explanation": "Pure rolling without slipping is a combined translational-rotational motion characterized by the kinematic constraint that the relative velocity between the contact point $P$ of the rolling body and the supporting surface is identically zero at every instant: $$\\vec{v}_P = \\vec{v}_{\\text{cm}} + \\vec{\\omega} \\times \\vec{r}_{P/\\text{cm}} = \\vec{0}$$ For a wheel of radius $R$ rolling on a stationary planar surface, this constraint yields the fundamental relations: $$v_{\\text{cm}} = R \\omega, \\quad a_{\\text{cm}} = R \\alpha$$ At any given instant, the contact point $P$ is momentarily at rest in the ground frame and serves as the Instantaneous Center of Rotation (ICR). The entire velocity field of the rigid body corresponds to pure rotation about $P$ with angular speed $\\omega$. Consequently, the top rim point $T$ has velocity $v_T = 2 v_{\\text{cm}} = 2 R \\omega$, and any point at distance $r$ from $P$ has instantaneous speed $v = r \\omega$. Although $P$ has zero instantaneous velocity, its acceleration is non-zero: $\\vec{a}_P = \\omega^2 R \\hat{j}$, pointing vertically upward toward the center.",
+  "intuition": "When a wheel rolls without slipping, each point on the rim touches the ground for a single instant before peeling off along a cycloid. At that precise instant of contact, it is not sliding across the ground at all\u2014it is momentarily stationary, like the foot of a walking person planted on the pavement.",
+  "formal_definition": "The kinematic condition of zero relative tangential velocity between two contacting rigid surfaces at their point of contact: $$\\vec{v}_{\\text{contact, rel}} = \\vec{v}_{\\text{body}}(P) - \\vec{v}_{\\text{surface}}(P) = \\vec{0}$$",
+  "assumptions": [
+    "Rigid circular cross-section (cylinder, sphere, wheel) of radius R",
+    "Planar supporting surface",
+    "Zero microscopic sliding or slipping at the contact interface"
+  ],
+  "boundary_conditions": [
+    "Valid provided static friction is sufficient to enforce zero relative velocity",
+    "Fails during skidding, locking, or spinning where v_cm != R omega"
+  ],
+  "related_formula_ids": [
+    "formula-rot-rolling-no-slip-velocity",
+    "formula-rot-rolling-no-slip-accel"
+  ],
+  "prerequisite_refs": [
+    "curr-kin-02",
+    "curr-rot-02"
+  ],
+  "source_references": [
+    "H.C. Verma Vol 1, Chapter 10, Section 10.15 (Rolling)",
+    "Halliday, Resnick & Walker, Chapter 11, Section 11.1 (Rolling as Pure Rotation)",
+    "University Physics, Chapter 10, Section 10.3 (Combined Translation and Rotation)"
+  ],
+  "generation_metadata": {
+    "agent": "physics-concept-writer",
+    "phase": "16"
+  },
+  "verification_status": "VERIFIED",
+  "created_at": "2026-10-05T04:09:34.593741+00:00",
+  "content_hash": "07ee9cc2a287370807d55ea322af599c8cccb8c1b05e9ef885c814f93158e97c",
+  "verification_record_id": "cvr-concept-rot-pure-rolling-kinematics-01"
+}

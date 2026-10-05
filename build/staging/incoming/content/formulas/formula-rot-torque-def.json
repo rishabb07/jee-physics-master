@@ -1,0 +1,48 @@
+{
+  "formula_id": "formula-rot-torque-def",
+  "chapter_id": "rotational-motion",
+  "title": "Definition and Moment Arm Representation of Torque",
+  "equation": "\\vec{\\tau} = \\vec{r} \\times \\vec{F} = r F \\sin\\theta \\, \\hat{n} = r_\\perp F",
+  "variables": {
+    "\\tau": "Torque vector about reference point O",
+    "r": "Position vector from reference point O to point of application of force",
+    "F": "Applied force vector",
+    "\\theta": "Angle between position vector r and force vector F",
+    "r_\\perp": "Moment arm (perpendicular distance from O to line of action of force)"
+  },
+  "units": {
+    "\\tau": "N m",
+    "r": "m",
+    "F": "N",
+    "r_\\perp": "m"
+  },
+  "dimensions": {
+    "\\tau": "[M][L]^2[T]^-2",
+    "r": "[L]",
+    "F": "[M][L][T]^-2",
+    "r_\\perp": "[L]"
+  },
+  "assumptions": [
+    "Specified fixed reference origin O in an inertial reference frame",
+    "Line of action of force is well-defined"
+  ],
+  "validity_conditions": [
+    "Universal definition of moment of a force in classical mechanics"
+  ],
+  "derivation_reference": null,
+  "related_concepts": [
+    "concept-rot-torque-01"
+  ],
+  "common_misuse": [
+    "Omitting reference point specification; torque has no physical meaning without specifying reference point",
+    "Using vector length |r| instead of perpendicular moment arm r_perp = r sin(theta)"
+  ],
+  "generation_metadata": {
+    "agent": "physics-formula-writer",
+    "phase": "16"
+  },
+  "verification_status": "VERIFIED",
+  "created_at": "2026-10-05T04:10:34.457645+00:00",
+  "content_hash": "e88d7ae6cc678b4f44594466e85384b08a68f88185931f8122ffb7aaf2930d18",
+  "verification_record_id": "cvr-formula-rot-torque-def"
+}

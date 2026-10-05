@@ -1,0 +1,45 @@
+{
+  "content_id": "concept-rot-rolling-incline-01",
+  "curriculum_id": "curr-rot-04",
+  "taxonomy_reference": {
+    "chapter_id": "rotational-motion",
+    "topic_id": "rolling-motion",
+    "subtopic_id": "rolling-on-inclined-plane"
+  },
+  "title": "Dynamics of Pure Rolling on an Inclined Plane and the Critical Friction Threshold",
+  "learning_objective": "Calculate linear acceleration and energy distribution for bodies rolling down inclined planes and determine the minimum friction coefficient for pure rolling.",
+  "explanation": "When a symmetric rigid body of mass $M$, radius $R$, and radius of gyration $k$ rolls down an inclined plane of inclination angle $\theta$ without slipping, gravity provides a driving force component $M g \\sin\\theta$ down the incline. Static friction $f_s$ acts up the incline at the contact point, providing the necessary counter-clockwise torque $f_s R$ to generate angular acceleration $\\alpha$. From Newton's Second Law for translation and rotation: $$M g \\sin\\theta - f_s = M a_{\\text{cm}}, \\quad f_s R = I_{\\text{cm}} \\alpha = M k^2 \\left(\\frac{a_{\\text{cm}}}{R}\\right)$$ Solving for acceleration yields: $$a_{\\text{cm}} = \\frac{g \\sin\\theta}{1 + \\frac{I_{\\text{cm}}}{M R^2}} = \\frac{g \\sin\\theta}{1 + \\frac{k^2}{R^2}}$$ Because $a_{\\text{cm}}$ depends inversely on the shape factor $k^2/R^2$, bodies with lower $k^2/R^2$ have higher acceleration and reach the bottom faster: Solid Sphere ($k^2/R^2 = 0.4$) > Solid Cylinder ($0.5$) > Hollow Sphere ($0.667$) > Ring ($1.0$). The required static friction is: $$f_s = \\frac{M g \\sin\\theta}{1 + \\frac{M R^2}{I_{\\text{cm}}}} = \\frac{M g \\sin\\theta}{1 + \\frac{R^2}{k^2}}$$ Pure rolling is sustained if $f_s \\le \\mu_s N = \\mu_s M g \\cos\\theta$, which defines the minimum static friction coefficient: $$\\mu_{\\min} = \\frac{\\tan\\theta}{1 + \\frac{M R^2}{I_{\\text{cm}}}} = \\frac{\\tan\\theta}{1 + \\frac{R^2}{k^2}}$$",
+  "intuition": "In frictionless sliding, all objects accelerate at $g \\sin\\theta$ regardless of shape. But in rolling, gravity must accelerate both the linear speed AND the rotational spin. Objects with mass packed near the center (solid sphere) are easy to spin, so they waste less potential energy on rotation and win the race down the ramp!",
+  "formal_definition": "The governing equation for linear center-of-mass acceleration of a rigid body rolling without slipping down an incline of angle theta: $$a_{\\text{cm}} = \\frac{g \\sin\\theta}{1 + \\frac{k^2}{R^2}}$$",
+  "assumptions": [
+    "Uniform rigid body with circular cross-section rolling down an incline of constant angle theta",
+    "Static friction coefficient satisfies mu_s >= mu_min",
+    "Zero aerodynamic drag and zero rolling resistance"
+  ],
+  "boundary_conditions": [
+    "Holds for pure rolling without slipping; if mu_s < mu_min, body slips with acceleration a = g(sin theta - mu_k cos theta)"
+  ],
+  "related_formula_ids": [
+    "formula-rot-rolling-incline-accel",
+    "formula-rot-rolling-incline-friction-min",
+    "formula-rot-rolling-total-ke"
+  ],
+  "prerequisite_refs": [
+    "curr-nl-02",
+    "curr-wep-03",
+    "curr-rot-04"
+  ],
+  "source_references": [
+    "H.C. Verma Vol 1, Chapter 10, Section 10.17 (Rolling on an Inclined Plane)",
+    "University Physics, Chapter 10, Section 10.3",
+    "Halliday, Resnick & Walker, Chapter 11, Section 11.3"
+  ],
+  "generation_metadata": {
+    "agent": "physics-concept-writer",
+    "phase": "16"
+  },
+  "verification_status": "VERIFIED",
+  "created_at": "2026-10-05T04:09:34.593741+00:00",
+  "content_hash": "a1c8162274e8dc570029a898127de5a84804628f9613b799671c5dcb4a1d7dd1",
+  "verification_record_id": "cvr-concept-rot-rolling-incline-01"
+}

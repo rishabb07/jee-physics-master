@@ -1,0 +1,74 @@
+{
+  "derivation_id": "derivation-formula-rot-ke-rotation",
+  "target_formula_id": "formula-rot-ke-rotation",
+  "target_equation": "K_{\\text{rot}} = \\frac{1}{2} I \\omega^2",
+  "starting_principles": [
+    "Definition of total kinetic energy as summation of constituent particle kinetic energies: K = sum 1/2 m_i v_i^2",
+    "Rigid body kinematics relating linear speed to angular speed: v_i = r_i omega"
+  ],
+  "assumptions": [
+    "Rigid body condition: relative positions of all particles remain invariant during motion",
+    "Fixed axis of rotation in an inertial reference frame",
+    "All particles rotate with identical instantaneous angular speed omega"
+  ],
+  "ordered_steps": [
+    {
+      "step_number": 1,
+      "description": "Express linear velocity of an arbitrary constituent mass element",
+      "starting_equation": "\\vec{v}_i = \\vec{\\omega} \\times \\vec{r}_i",
+      "operation": "Evaluate magnitude for circular path perpendicular to fixed axis",
+      "result_equation": "v_i = r_i \\omega",
+      "assumptions_applied": [
+        "Fixed rotation axis",
+        "Rigid body kinematics"
+      ]
+    },
+    {
+      "step_number": 2,
+      "description": "Sum the kinetic energies of all individual mass elements",
+      "starting_equation": "K_{\\text{rot}} = \\sum_{i=1}^N \\frac{1}{2} m_i v_i^2",
+      "operation": "Substitute v_i = r_i omega into the kinetic energy summation",
+      "result_equation": "K_{\\text{rot}} = \\sum_{i=1}^N \\frac{1}{2} m_i (r_i \\omega)^2 = \\sum_{i=1}^N \\frac{1}{2} m_i r_i^2 \\omega^2",
+      "assumptions_applied": [
+        "Superposition of non-relativistic particle kinetic energies"
+      ]
+    },
+    {
+      "step_number": 3,
+      "description": "Factor out common angular velocity and pass to the continuous integral",
+      "starting_equation": "K_{\\text{rot}} = \\sum_{i=1}^N \\frac{1}{2} m_i r_i^2 \\omega^2",
+      "operation": "Factor out constant 1/2 omega^2 across all mass points",
+      "result_equation": "K_{\\text{rot}} = \\frac{1}{2} \\left( \\sum_{i=1}^N m_i r_i^2 \\right) \\omega^2 \\xrightarrow{\\text{continuous}} \\frac{1}{2} \\left( \\int r_\\perp^2 \\, dm \\right) \\omega^2",
+      "assumptions_applied": [
+        "Uniform angular speed omega for entire rigid body"
+      ]
+    },
+    {
+      "step_number": 4,
+      "description": "Identify the integral definition of moment of inertia",
+      "starting_equation": "I = \\int r_\\perp^2 \\, dm = \\sum_{i=1}^N m_i r_i^2",
+      "operation": "Substitute definition of moment of inertia I into kinetic energy expression",
+      "result_equation": "K_{\\text{rot}} = \\frac{1}{2} I \\omega^2",
+      "assumptions_applied": [
+        "Definition of moment of inertia about the specified axis"
+      ]
+    }
+  ],
+  "final_equation": "K_{\\text{rot}} = \\frac{1}{2} I \\omega^2",
+  "applicability_conditions": [
+    "Applies strictly to pure rotation about a fixed axis or about a centroidal axis in the center-of-mass frame",
+    "For combined translation and rotation, total kinetic energy is K_total = 1/2 M v_cm^2 + 1/2 I_cm omega^2"
+  ],
+  "source_references": [
+    "Halliday, Resnick & Walker, Chapter 10, Section 10.4 (Kinetic Energy of Rotation)",
+    "University Physics, Chapter 9, Section 9.4",
+    "H.C. Verma Vol 1, Chapter 10, Section 10.12"
+  ],
+  "risk_level": "HIGH",
+  "verification_status": "VERIFIED",
+  "generator_identity": "physics-derivation-writer",
+  "generator_conversation_id": "conv-phase16-rot-derivation",
+  "created_at": "2026-10-05T04:11:12.029307+00:00",
+  "content_hash": "ffc185cf6e9d64c15a1c6ca13533bd865a796c33ddf9e379137a685ee5052e29",
+  "verification_record_id": "cvr-derivation-formula-rot-ke-rotation"
+}

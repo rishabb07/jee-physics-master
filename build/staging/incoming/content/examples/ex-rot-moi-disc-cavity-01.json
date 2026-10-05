@@ -1,0 +1,70 @@
+{
+  "example_id": "ex-rot-moi-disc-cavity-01",
+  "chapter_id": "rotational-motion",
+  "problem_statement": "A uniform thin circular disc of total mass $M$ and radius $R$ has a circular hole of radius $R/2$ cut out of it. The circular hole is positioned such that its rim touches the center of the original disc and the rim of the original disc (meaning the center of the cut-out hole is located at $x = R/2, y = 0$). Calculate the moment of inertia of the remaining portion of the disc about a perpendicular axis passing through the original center of the disc $O$.",
+  "known_quantities": {
+    "M": "Mass of the remaining portion of the disc",
+    "R": "Radius of the original disc",
+    "r_hole": "Radius of the circular cavity (R / 2)",
+    "d_hole": "Distance from disc center O to cavity center (R / 2)"
+  },
+  "target_quantity": "Moment of inertia I_rem of the remaining disc about perpendicular central axis through O",
+  "relevant_concepts": [
+    "concept-rot-moi-01",
+    "concept-rot-moi-continuous-01"
+  ],
+  "governing_principles": [
+    "Negative mass superposition method: I_rem = I_orig - I_hole",
+    "Moment of inertia of uniform disc: I_cm = 1/2 m r^2",
+    "Parallel axis theorem: I = I_cm + m d^2"
+  ],
+  "solution_strategy": "1. Express the mass of the original intact disc M_0 and removed hole disc m in terms of M using areal mass density sigma. 2. Calculate the moment of inertia of the original complete disc about O. 3. Apply the parallel axis theorem to calculate the moment of inertia of the removed hole about O. 4. Subtract the cavity moment of inertia from the original complete disc moment of inertia.",
+  "ordered_steps": [
+    {
+      "step_number": 1,
+      "principle_applied": "Mass-area relationship for uniform surface density",
+      "equation": "A_{\\text{orig}} = \\pi R^2, \\quad A_{\\text{hole}} = \\pi (R/2)^2 = \\frac{1}{4} \\pi R^2, \\quad A_{\\text{rem}} = \\frac{3}{4} \\pi R^2",
+      "substitution": "M_0 = \\sigma \\pi R^2, \\quad m_{\\text{hole}} = \\frac{1}{4} M_0, \\quad M = M_0 - m_{\\text{hole}} = \\frac{3}{4} M_0",
+      "intermediate_result": "M_0 = \\frac{4}{3} M, \\quad m_{\\text{hole}} = \\frac{1}{3} M"
+    },
+    {
+      "step_number": 2,
+      "principle_applied": "Moment of inertia of complete disc about central axis",
+      "equation": "I_{\\text{orig}, O} = \\frac{1}{2} M_0 R^2",
+      "substitution": "I_{\\text{orig}, O} = \\frac{1}{2} \\left( \\frac{4}{3} M \\right) R^2 = \\frac{2}{3} M R^2",
+      "intermediate_result": "I_{\\text{orig}, O} = \\frac{2}{3} M R^2"
+    },
+    {
+      "step_number": 3,
+      "principle_applied": "Parallel axis theorem for the removed circular hole about O",
+      "equation": "I_{\\text{hole}, O} = I_{\\text{cm, hole}} + m_{\\text{hole}} d^2 = \\frac{1}{2} m_{\\text{hole}} (R/2)^2 + m_{\\text{hole}} (R/2)^2 = \\frac{3}{8} m_{\\text{hole}} R^2",
+      "substitution": "I_{\\text{hole}, O} = \\frac{3}{8} \\left( \\frac{1}{3} M \\right) R^2 = \\frac{1}{8} M R^2",
+      "intermediate_result": "I_{\\text{hole}, O} = \\frac{1}{8} M R^2"
+    },
+    {
+      "step_number": 4,
+      "principle_applied": "Superposition subtraction for cavity",
+      "equation": "I_{\\text{rem}, O} = I_{\\text{orig}, O} - I_{\\text{hole}, O}",
+      "substitution": "I_{\\text{rem}, O} = \\frac{2}{3} M R^2 - \\frac{1}{8} M R^2 = \\left( \\frac{16 - 3}{24} \\right) M R^2 = \\frac{13}{24} M R^2",
+      "intermediate_result": "I_{\\text{rem}, O} = \\frac{13}{24} M R^2"
+    }
+  ],
+  "final_answer": "\\frac{13}{24} M R^2",
+  "units": "kg m^2",
+  "sanity_checks": [
+    "Fractional check: 13/24 = 0.5417. Notice 0.50 M R^2 < 13/24 M R^2 < 0.667 M R^2, physically sound because mass is removed near the center so remaining mass is weighted farther from O than in a complete disc of mass M (which would have 0.50 M R^2).",
+    "Dimensional check: [M][L]^2 confirmed."
+  ],
+  "alternate_methods": [
+    "Direct double integration in polar coordinates over the crescent domain using Green's theorem."
+  ],
+  "source_atom_id": null,
+  "provenance": [],
+  "risk_level": "HIGH",
+  "verification_status": "VERIFIED",
+  "generator_identity": "physics-example-writer",
+  "generator_conversation_id": "conv-phase16-rot-examples",
+  "created_at": "2026-10-05T04:12:14.618212+00:00",
+  "content_hash": "1be559c08871c0283177e1baca4ab3d4e2a73ffad36e08c9a1c083fa444999f0",
+  "verification_record_id": "cvr-ex-rot-moi-disc-cavity-01"
+}

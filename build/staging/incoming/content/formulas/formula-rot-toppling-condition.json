@@ -1,0 +1,54 @@
+{
+  "formula_id": "formula-rot-toppling-condition",
+  "chapter_id": "rotational-motion",
+  "title": "Critical Threshold Conditions for Toppling versus Sliding",
+  "equation": "F_{\\text{crit}} = \\frac{M g b}{2 H}, \\quad \\tan\\theta_{\\text{crit}} = \\frac{b}{h}",
+  "variables": {
+    "F_{\\text{crit}}": "Critical horizontal force causing toppling on flat ground",
+    "M": "Mass of the rigid block",
+    "g": "Acceleration due to gravity",
+    "b": "Base width of block along direction of force",
+    "H": "Height above ground at which lateral force is applied",
+    "h": "Total height of block",
+    "\\theta_{\\text{crit}}": "Critical incline tilt angle causing toppling before sliding"
+  },
+  "units": {
+    "F_{\\text{crit}}": "N",
+    "M": "kg",
+    "g": "m/s^2",
+    "b": "m",
+    "H": "m",
+    "h": "m",
+    "\\theta_{\\text{crit}}": "rad or deg"
+  },
+  "dimensions": {
+    "F_{\\text{crit}}": "[M][L][T]^-2",
+    "b": "[L]",
+    "H": "[L]",
+    "h": "[L]"
+  },
+  "assumptions": [
+    "Uniform homogeneous rectangular/cuboidal block resting on rough ground",
+    "Normal reaction force shifts to extreme tipping edge at toppling threshold",
+    "Coulomb friction model with static coefficient mu_s"
+  ],
+  "validity_conditions": [
+    "Toppling precedes sliding on horizontal ground if b / (2 H) < mu_s; toppling precedes sliding on incline if b / h < mu_s"
+  ],
+  "derivation_reference": null,
+  "related_concepts": [
+    "concept-rot-toppling-condition-01"
+  ],
+  "common_misuse": [
+    "Assuming toppling occurs about center of mass rather than the tipping base edge",
+    "Ignoring friction coefficient when determining whether body slides first or tips first"
+  ],
+  "generation_metadata": {
+    "agent": "physics-formula-writer",
+    "phase": "16"
+  },
+  "verification_status": "VERIFIED",
+  "created_at": "2026-10-05T04:10:34.457645+00:00",
+  "content_hash": "99b774228cf61235ba2ecaa28729f7e01c7eaeabe424b447e592c5ca1d0b30e4",
+  "verification_record_id": "cvr-formula-rot-toppling-condition"
+}

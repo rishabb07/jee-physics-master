@@ -1,9 +1,14 @@
 {
   "chapter_id": "rotational-motion",
-  "chapter_title": "Rotational Motion",
+  "chapter_title": "Rotational Motion and Rigid Body Dynamics",
   "template_type": "MECHANICS",
   "order": 6,
   "taxonomy_references": [
+    {
+      "chapter_id": "rotational-motion",
+      "topic_id": "moment-of-inertia",
+      "subtopic_id": "moi-of-point-masses"
+    },
     {
       "chapter_id": "rotational-motion",
       "topic_id": "moment-of-inertia",
@@ -16,13 +21,48 @@
     },
     {
       "chapter_id": "rotational-motion",
+      "topic_id": "moment-of-inertia",
+      "subtopic_id": "perpendicular-axis-theorem"
+    },
+    {
+      "chapter_id": "rotational-motion",
+      "topic_id": "moment-of-inertia",
+      "subtopic_id": "radius-of-gyration"
+    },
+    {
+      "chapter_id": "rotational-motion",
+      "topic_id": "torque-and-rotation",
+      "subtopic_id": "torque-definition"
+    },
+    {
+      "chapter_id": "rotational-motion",
+      "topic_id": "torque-and-rotation",
+      "subtopic_id": "rotational-equations-of-motion"
+    },
+    {
+      "chapter_id": "rotational-motion",
       "topic_id": "torque-and-rotation",
       "subtopic_id": "torque-moment-of-inertia-relation"
     },
     {
       "chapter_id": "rotational-motion",
+      "topic_id": "torque-and-rotation",
+      "subtopic_id": "work-and-energy-in-rotation"
+    },
+    {
+      "chapter_id": "rotational-motion",
+      "topic_id": "angular-momentum",
+      "subtopic_id": "angular-momentum-of-particle"
+    },
+    {
+      "chapter_id": "rotational-motion",
       "topic_id": "angular-momentum",
       "subtopic_id": "angular-momentum-about-external-point"
+    },
+    {
+      "chapter_id": "rotational-motion",
+      "topic_id": "angular-momentum",
+      "subtopic_id": "angular-momentum-of-rigid-body"
     },
     {
       "chapter_id": "rotational-motion",
@@ -38,6 +78,21 @@
       "chapter_id": "rotational-motion",
       "topic_id": "rolling-motion",
       "subtopic_id": "pure-rolling-kinematics"
+    },
+    {
+      "chapter_id": "rotational-motion",
+      "topic_id": "rolling-motion",
+      "subtopic_id": "pure-rolling-on-horizontal-surface"
+    },
+    {
+      "chapter_id": "rotational-motion",
+      "topic_id": "rolling-motion",
+      "subtopic_id": "rolling-on-inclined-plane"
+    },
+    {
+      "chapter_id": "rotational-motion",
+      "topic_id": "rolling-motion",
+      "subtopic_id": "toppling-condition"
     }
   ],
   "learning_objectives": [
@@ -45,163 +100,683 @@
     "Formulate rotational equations of motion tau = I alpha and apply work-energy principles to fixed axis rotation.",
     "Determine the angular momentum of particles and rigid bodies about fixed reference points and instantaneous axes of rotation.",
     "Apply the principle of conservation of angular momentum to isolated systems with time-varying moments of inertia.",
-    "Analyze pure rolling kinematics and dynamics on horizontal and inclined surfaces under static friction constraints."
+    "Analyze pure rolling kinematics and dynamics on horizontal and inclined surfaces under static friction constraints.",
+    "Determine critical conditions for sliding versus toppling of rigid bodies on rough planes."
   ],
   "prerequisite_curriculum_nodes": [
     "curr-kin-02",
     "curr-com-01",
-    "curr-nl-01"
+    "curr-nl-01",
+    "curr-wep-02"
   ],
   "concept_sequence": [
     {
       "concept_id": "concept-rot-moi-01",
       "curriculum_id": "curr-rot-01",
       "role": "FOUNDATION_CONCEPT",
-      "prerequisite_relationship": "Requires center of mass and continuous mass integration from curr-com-01",
       "explanation_priority": 1,
-      "source_atom_ids": [],
-      "source_evidence": "JEE Advanced Official Topic Prescription: Moment of inertia of continuous bodies"
+      "source_evidence": "HCV1 Ch 10 p. 165"
+    },
+    {
+      "concept_id": "concept-rot-moi-continuous-01",
+      "curriculum_id": "curr-rot-01",
+      "role": "CORE_PRINCIPLE",
+      "explanation_priority": 2,
+      "source_evidence": "HCV1 Ch 10 p. 166"
     },
     {
       "concept_id": "concept-rot-torque-01",
       "curriculum_id": "curr-rot-02",
+      "role": "FOUNDATION_CONCEPT",
+      "explanation_priority": 3,
+      "source_evidence": "HCV1 Ch 10 p. 170"
+    },
+    {
+      "concept_id": "concept-rot-rotational-work-energy-01",
+      "curriculum_id": "curr-rot-02",
       "role": "CORE_PRINCIPLE",
-      "prerequisite_relationship": "Requires moment of inertia from curr-rot-01 and Newton second law from curr-nl-01",
-      "explanation_priority": 2,
-      "source_atom_ids": [],
-      "source_evidence": "JEE Advanced Official Topic Prescription: Torque and angular acceleration relation"
+      "explanation_priority": 4,
+      "source_evidence": "HRW Ch 10 p. 255"
     },
     {
       "concept_id": "concept-rot-angmom-particle-01",
       "curriculum_id": "curr-rot-03",
+      "role": "FOUNDATION_CONCEPT",
+      "explanation_priority": 5,
+      "source_evidence": "HCV1 Ch 10 p. 176"
+    },
+    {
+      "concept_id": "concept-rot-angmom-rigid-body-01",
+      "curriculum_id": "curr-rot-03",
       "role": "CORE_PRINCIPLE",
-      "prerequisite_relationship": "Requires vector cross product and planar kinematics from curr-kin-02",
-      "explanation_priority": 3,
-      "source_atom_ids": [
-        "rotational-motion-question-6c7cb960"
-      ],
-      "source_evidence": "JEE Advanced Official Topic Prescription: Angular momentum of a particle"
+      "explanation_priority": 6,
+      "source_evidence": "UP Ch 10 p. 320"
     },
     {
       "concept_id": "concept-rot-angmom-conservation-01",
       "curriculum_id": "curr-rot-03",
       "role": "CORE_PRINCIPLE",
-      "prerequisite_relationship": "Requires torque definition and rigid body moment of inertia from curr-rot-02",
-      "explanation_priority": 4,
-      "source_atom_ids": [
-        "rotational-motion-question-84f91c20",
-        "rotational-motion-question-f7cbecda"
-      ],
-      "source_evidence": "JEE Advanced Official Topic Prescription: Conservation of angular momentum"
+      "explanation_priority": 7,
+      "source_evidence": "Feynman Vol 1 Ch 18"
+    },
+    {
+      "concept_id": "concept-rot-pure-rolling-kinematics-01",
+      "curriculum_id": "curr-rot-04",
+      "role": "FOUNDATION_CONCEPT",
+      "explanation_priority": 8,
+      "source_evidence": "HCV1 Ch 10 p. 182"
+    },
+    {
+      "concept_id": "concept-rot-rolling-horizontal-friction-01",
+      "curriculum_id": "curr-rot-04",
+      "role": "CORE_PRINCIPLE",
+      "explanation_priority": 9,
+      "source_evidence": "HRW Ch 11 p. 282"
+    },
+    {
+      "concept_id": "concept-rot-rolling-incline-01",
+      "curriculum_id": "curr-rot-04",
+      "role": "CORE_PRINCIPLE",
+      "explanation_priority": 10,
+      "source_evidence": "HCV1 Ch 10 p. 184"
+    },
+    {
+      "concept_id": "concept-rot-toppling-condition-01",
+      "curriculum_id": "curr-rot-04",
+      "role": "SYNTHESIS",
+      "explanation_priority": 11,
+      "source_evidence": "HCV1 Ch 10 p. 186"
     }
   ],
   "formula_sequence": [
     {
+      "formula_id": "formula-rot-moi-discrete",
+      "chapter_id": "rotational-motion",
+      "title": "Moment of Inertia of Discrete Point Masses",
+      "equation": "I = \\sum_{i=1}^N m_i r_i^2",
+      "variables": {
+        "I": "Moment of inertia about the specified axis",
+        "m_i": "Mass of the i-th particle",
+        "r_i": "Perpendicular distance of the i-th particle from the axis"
+      },
+      "units": {
+        "I": "kg m^2",
+        "m_i": "kg",
+        "r_i": "m"
+      },
+      "dimensions": {
+        "I": "[M][L]^2",
+        "m_i": "[M]",
+        "r_i": "[L]"
+      },
+      "assumptions": [
+        "Point mass particles with negligible individual extents",
+        "Strictly perpendicular radial distances measured from the rotation axis",
+        "Rigid spatial configuration among all particles"
+      ],
+      "validity_conditions": [
+        "Universal definition for any finite system of discrete particles in classical mechanics"
+      ],
+      "derivation_reference": null,
+      "related_concepts": [
+        "concept-rot-moi-01"
+      ],
+      "common_misuse": [
+        "Using direct vector distance from an origin instead of perpendicular distance from the axis",
+        "Assuming moment of inertia is an intrinsic scalar independent of axis location"
+      ],
+      "generation_metadata": {
+        "agent": "physics-formula-writer",
+        "phase": "16"
+      },
+      "verification_status": "VERIFIED",
+      "created_at": "2026-10-05T04:10:34.457645+00:00",
+      "content_hash": "ff455aca261c301853d631603ffa2408bf3650f567d2721363992140ccbc6811",
+      "verification_record_id": "cvr-formula-rot-moi-discrete"
+    },
+    {
+      "formula_id": "formula-rot-moi-standard-bodies",
+      "chapter_id": "rotational-motion",
+      "title": "Moments of Inertia for Standard Symmetrical Continuous Rigid Bodies",
+      "equation": "I_{\\text{ring}} = M R^2, \\quad I_{\\text{disc}} = \\frac{1}{2} M R^2, \\quad I_{\\text{rod}} = \\frac{1}{12} M L^2, \\quad I_{\\text{solid sphere}} = \\frac{2}{5} M R^2, \\quad I_{\\text{hollow sphere}} = \\frac{2}{3} M R^2",
+      "variables": {
+        "M": "Total mass of the rigid body",
+        "R": "Radius of circular cross-section or sphere",
+        "L": "Total length of uniform rod",
+        "I": "Centroidal principal moment of inertia"
+      },
+      "units": {
+        "M": "kg",
+        "R": "m",
+        "L": "m",
+        "I": "kg m^2"
+      },
+      "dimensions": {
+        "M": "[M]",
+        "R": "[L]",
+        "L": "[L]",
+        "I": "[M][L]^2"
+      },
+      "assumptions": [
+        "Uniform homogeneous mass distribution with constant density",
+        "Axes pass through centroid along principal symmetry directions",
+        "Thin rod and thin spherical shell approximations where wall thicknesses are negligible"
+      ],
+      "validity_conditions": [
+        "Applies strictly to symmetric uniform bodies about their designated centroidal axes"
+      ],
+      "derivation_reference": null,
+      "related_concepts": [
+        "concept-rot-moi-continuous-01"
+      ],
+      "common_misuse": [
+        "Confusing rod moment of inertia about center (1/12 M L^2) with moment of inertia about end (1/3 M L^2)",
+        "Using 2/5 M R^2 for hollow spheres or 2/3 M R^2 for solid spheres"
+      ],
+      "generation_metadata": {
+        "agent": "physics-formula-writer",
+        "phase": "16"
+      },
+      "verification_status": "VERIFIED",
+      "created_at": "2026-10-05T04:10:34.457645+00:00",
+      "content_hash": "2f88793eb0aa7e5963b03065bac57c4d035cf098b1c3e427c9bd47e08ce52d38",
+      "verification_record_id": "cvr-formula-rot-moi-standard-bodies"
+    },
+    {
       "formula_id": "formula-rot-moi-parallel",
+      "chapter_id": "rotational-motion",
       "title": "Parallel Axis Theorem",
+      "equation": "I = I_{\\text{cm}} + M d^2",
       "equation_latex": "I = I_{\\text{cm}} + M d^2",
       "variables": {
-        "I": "Moment of inertia about arbitrary parallel axis",
+        "I": "Moment of inertia about parallel axis",
         "I_{\\text{cm}}": "Moment of inertia about parallel axis through center of mass",
         "M": "Total mass of rigid body",
-        "d": "Perpendicular distance between parallel axes"
+        "d": "Perpendicular distance between the two parallel axes"
       },
-      "units_and_dimensions": {
+      "units": {
         "I": "kg m^2",
+        "I_{\\text{cm}}": "kg m^2",
         "M": "kg",
         "d": "m"
       },
+      "dimensions": {
+        "I": "[M][L]^2",
+        "I_{\\text{cm}}": "[M][L]^2",
+        "M": "[M]",
+        "d": "[L]"
+      },
       "assumptions": [
-        "Rigid body with constant mass distribution",
-        "Axes must be strictly parallel"
+        "Rigid body assumption",
+        "Both axes are strictly parallel",
+        "One axis passes strictly through the center of mass"
       ],
-      "conditions_of_validity": [
-        "One axis must pass strictly through the center of mass"
+      "validity_conditions": [
+        "Applicable to three-dimensional rigid bodies of arbitrary geometry for any pair of parallel axes where one is a centroidal axis"
       ],
-      "derivation_links": [
-        "curr-rot-01"
-      ],
-      "related_concept_ids": [
+      "derivation_reference": "derivation-formula-rot-moi-parallel",
+      "related_concepts": [
         "concept-rot-moi-01"
       ],
-      "common_misuse_cases": [
-        "Applying parallel axis theorem between two arbitrary parallel axes neither of which passes through the center of mass"
+      "common_misuse": [
+        "Applying theorem between two arbitrary parallel axes neither of which passes through the center of mass",
+        "Using linear distance instead of perpendicular distance"
       ],
       "provenance": [],
-      "verification_status": "VERIFIED"
+      "generation_metadata": {
+        "agent": "content_generator",
+        "version": "1.0",
+        "target_chapter": "rotational-motion"
+      },
+      "verification_status": "UNVERIFIED",
+      "content_hash": "5472104e395a301ebd0bdf329b9e79ce75ac31895d4eb8bca6cf9798af3bd07f",
+      "verification_record_id": null,
+      "created_at": "2026-09-29T07:50:00Z"
+    },
+    {
+      "formula_id": "formula-rot-moi-perpendicular",
+      "chapter_id": "rotational-motion",
+      "title": "Perpendicular Axis Theorem for Planar Laminas",
+      "equation": "I_z = I_x + I_y",
+      "variables": {
+        "I_z": "Moment of inertia about normal axis perpendicular to lamina through origin O",
+        "I_x": "Moment of inertia about coplanar x-axis passing through O",
+        "I_y": "Moment of inertia about coplanar y-axis passing through O"
+      },
+      "units": {
+        "I_z": "kg m^2",
+        "I_x": "kg m^2",
+        "I_y": "kg m^2"
+      },
+      "dimensions": {
+        "I_z": "[M][L]^2",
+        "I_x": "[M][L]^2",
+        "I_y": "[M][L]^2"
+      },
+      "assumptions": [
+        "Rigid body is strictly a two-dimensional planar lamina lying entirely in the xy-plane (z = 0)",
+        "All three axes x, y, and z are mutually perpendicular and intersect at a single concurrent origin O"
+      ],
+      "validity_conditions": [
+        "Strictly valid ONLY for two-dimensional planar laminar bodies; fails identically for three-dimensional bodies"
+      ],
+      "derivation_reference": "derivation-formula-rot-moi-perpendicular",
+      "related_concepts": [
+        "concept-rot-moi-01",
+        "concept-rot-moi-continuous-01"
+      ],
+      "common_misuse": [
+        "Applying the theorem to three-dimensional objects (e.g. solid cylinders or spheres)",
+        "Using axes that do not intersect at a common coplanar point"
+      ],
+      "generation_metadata": {
+        "agent": "physics-formula-writer",
+        "phase": "16"
+      },
+      "verification_status": "VERIFIED",
+      "created_at": "2026-10-05T04:10:34.457645+00:00",
+      "content_hash": "a17ee76b84f2e8bbe058b8f047ae36e09a8c845de5a95184b287bb35f5e1b682",
+      "verification_record_id": "cvr-formula-rot-moi-perpendicular"
+    },
+    {
+      "formula_id": "formula-rot-moi-radius-gyration",
+      "chapter_id": "rotational-motion",
+      "title": "Radius of Gyration",
+      "equation": "k = \\sqrt{\\frac{I}{M}} \\iff I = M k^2",
+      "variables": {
+        "k": "Radius of gyration about the specified axis",
+        "I": "Moment of inertia about the specified axis",
+        "M": "Total mass of the rigid body"
+      },
+      "units": {
+        "k": "m",
+        "I": "kg m^2",
+        "M": "kg"
+      },
+      "dimensions": {
+        "k": "[L]",
+        "I": "[M][L]^2",
+        "M": "[M]"
+      },
+      "assumptions": [
+        "Rigid body of total mass M",
+        "Specified fixed axis of rotation"
+      ],
+      "validity_conditions": [
+        "Universal geometric definition representing the effective distance at which whole mass could be concentrated"
+      ],
+      "derivation_reference": null,
+      "related_concepts": [
+        "concept-rot-moi-01"
+      ],
+      "common_misuse": [
+        "Treating radius of gyration as an intrinsic geometric constant independent of axis location"
+      ],
+      "generation_metadata": {
+        "agent": "physics-formula-writer",
+        "phase": "16"
+      },
+      "verification_status": "VERIFIED",
+      "created_at": "2026-10-05T04:10:34.457645+00:00",
+      "content_hash": "13d46e6c82b0eabad62d8660ae3ad07474f0060feb17aeb9a82872ec758ec978",
+      "verification_record_id": "cvr-formula-rot-moi-radius-gyration"
+    },
+    {
+      "formula_id": "formula-rot-torque-def",
+      "chapter_id": "rotational-motion",
+      "title": "Definition and Moment Arm Representation of Torque",
+      "equation": "\\vec{\\tau} = \\vec{r} \\times \\vec{F} = r F \\sin\\theta \\, \\hat{n} = r_\\perp F",
+      "variables": {
+        "\\tau": "Torque vector about reference point O",
+        "r": "Position vector from reference point O to point of application of force",
+        "F": "Applied force vector",
+        "\\theta": "Angle between position vector r and force vector F",
+        "r_\\perp": "Moment arm (perpendicular distance from O to line of action of force)"
+      },
+      "units": {
+        "\\tau": "N m",
+        "r": "m",
+        "F": "N",
+        "r_\\perp": "m"
+      },
+      "dimensions": {
+        "\\tau": "[M][L]^2[T]^-2",
+        "r": "[L]",
+        "F": "[M][L][T]^-2",
+        "r_\\perp": "[L]"
+      },
+      "assumptions": [
+        "Specified fixed reference origin O in an inertial reference frame",
+        "Line of action of force is well-defined"
+      ],
+      "validity_conditions": [
+        "Universal definition of moment of a force in classical mechanics"
+      ],
+      "derivation_reference": null,
+      "related_concepts": [
+        "concept-rot-torque-01"
+      ],
+      "common_misuse": [
+        "Omitting reference point specification; torque has no physical meaning without specifying reference point",
+        "Using vector length |r| instead of perpendicular moment arm r_perp = r sin(theta)"
+      ],
+      "generation_metadata": {
+        "agent": "physics-formula-writer",
+        "phase": "16"
+      },
+      "verification_status": "VERIFIED",
+      "created_at": "2026-10-05T04:10:34.457645+00:00",
+      "content_hash": "e88d7ae6cc678b4f44594466e85384b08a68f88185931f8122ffb7aaf2930d18",
+      "verification_record_id": "cvr-formula-rot-torque-def"
+    },
+    {
+      "formula_id": "formula-rot-kinematics-equations",
+      "chapter_id": "rotational-motion",
+      "title": "Angular Kinematic Equations Under Constant Angular Acceleration",
+      "equation": "\\omega = \\omega_0 + \\alpha t, \\quad \\theta = \\omega_0 t + \\frac{1}{2} \\alpha t^2, \\quad \\omega^2 = \\omega_0^2 + 2 \\alpha \\theta",
+      "variables": {
+        "\\omega": "Final angular velocity",
+        "\\omega_0": "Initial angular velocity",
+        "\\alpha": "Constant angular acceleration",
+        "\\theta": "Net angular displacement",
+        "t": "Elapsed time"
+      },
+      "units": {
+        "\\omega": "rad/s",
+        "\\omega_0": "rad/s",
+        "\\alpha": "rad/s^2",
+        "\\theta": "rad",
+        "t": "s"
+      },
+      "dimensions": {
+        "\\omega": "[T]^-1",
+        "\\omega_0": "[T]^-1",
+        "\\alpha": "[T]^-2",
+        "\\theta": "[1]",
+        "t": "[T]"
+      },
+      "assumptions": [
+        "Fixed rotation axis with invariant spatial orientation",
+        "Constant angular acceleration alpha over the entire time interval"
+      ],
+      "validity_conditions": [
+        "Strictly invalid if angular acceleration alpha varies with time or angle"
+      ],
+      "derivation_reference": null,
+      "related_concepts": [
+        "concept-rot-torque-01"
+      ],
+      "common_misuse": [
+        "Applying these equations to variable torque / variable alpha systems",
+        "Using angles in degrees or revolutions without converting to radians"
+      ],
+      "generation_metadata": {
+        "agent": "physics-formula-writer",
+        "phase": "16"
+      },
+      "verification_status": "VERIFIED",
+      "created_at": "2026-10-05T04:10:34.457645+00:00",
+      "content_hash": "e3a3ec04e29e4d4924e348b908732eeaa80b1c290a24a3db4f3ce9f3d57a559e",
+      "verification_record_id": "cvr-formula-rot-kinematics-equations"
     },
     {
       "formula_id": "formula-rot-torque-dyn",
-      "title": "Fixed Axis Rotational Dynamics",
-      "equation_latex": "\\tau_{\\text{net, ext}} = I \\alpha",
+      "chapter_id": "rotational-motion",
+      "title": "Torque Dynamic Relation",
+      "equation": "\\vec{\\tau}_{\\text{net, ext}} = I \\vec{\\alpha} = \\frac{d\\vec{L}}{dt}",
+      "equation_latex": "\\vec{\\tau}_{\\text{net, ext}} = I \\vec{\\alpha} = \\frac{d\\vec{L}}{dt}",
       "variables": {
-        "\\tau_{\\text{net, ext}}": "Net external torque about fixed rotation axis",
+        "\\tau": "Net external torque",
         "I": "Moment of inertia about rotation axis",
-        "\\alpha": "Angular acceleration about axis"
+        "\\alpha": "Angular acceleration",
+        "L": "Angular momentum"
       },
-      "units_and_dimensions": {
+      "units": {
         "\\tau": "N m",
         "I": "kg m^2",
-        "\\alpha": "rad/s^2"
+        "\\alpha": "rad/s^2",
+        "L": "kg m^2/s"
+      },
+      "dimensions": {
+        "\\tau": "[M][L]^2[T]^-2",
+        "I": "[M][L]^2",
+        "\\alpha": "[T]^-2",
+        "L": "[M][L]^2[T]^-1"
       },
       "assumptions": [
-        "Fixed rotation axis or axis passing through CM in principal orientation",
-        "Rigid body"
+        "Rigid body",
+        "Fixed rotation axis or rotation about center of mass",
+        "Axis is principal axis of inertia"
       ],
-      "conditions_of_validity": [
-        "Valid about a fixed inertial axis or about the center of mass even if accelerating"
+      "validity_conditions": [
+        "Holds in inertial frame or in accelerating frame if pseudo-force torques about CM are accounted for"
       ],
-      "derivation_links": [
-        "curr-rot-02"
-      ],
-      "related_concept_ids": [
+      "derivation_reference": "derivation-formula-rot-torque-dyn",
+      "related_concepts": [
         "concept-rot-torque-01"
       ],
-      "common_misuse_cases": [
-        "Applying tau = I alpha about an arbitrary accelerating point other than the center of mass"
+      "common_misuse": [
+        "Using \\tau = I \\alpha about an arbitrary accelerating point without pseudo-force torque",
+        "Ignoring non-principal axis cross-products"
       ],
       "provenance": [],
-      "verification_status": "VERIFIED"
+      "generation_metadata": {
+        "agent": "content_generator",
+        "version": "1.0",
+        "target_chapter": "rotational-motion"
+      },
+      "verification_status": "UNVERIFIED",
+      "content_hash": "57ee922ec2bd6a1920b602360650c8be7d45d70604903ff81df489ce90830ba3",
+      "verification_record_id": null,
+      "created_at": "2026-09-29T07:50:00Z"
+    },
+    {
+      "formula_id": "formula-rot-ke-rotation",
+      "chapter_id": "rotational-motion",
+      "title": "Rotational Kinetic Energy of a Rigid Body",
+      "equation": "K_{\\text{rot}} = \\frac{1}{2} I \\omega^2",
+      "variables": {
+        "K_{\\text{rot}}": "Rotational kinetic energy",
+        "I": "Moment of inertia about the axis of rotation",
+        "\\omega": "Angular velocity of the rigid body"
+      },
+      "units": {
+        "K_{\\text{rot}}": "J",
+        "I": "kg m^2",
+        "\\omega": "rad/s"
+      },
+      "dimensions": {
+        "K_{\\text{rot}}": "[M][L]^2[T]^-2",
+        "I": "[M][L]^2",
+        "\\omega": "[T]^-1"
+      },
+      "assumptions": [
+        "Rigid body rotating about a fixed axis or about a principal axis passing through center of mass",
+        "Uniform angular velocity omega for all constituent mass elements"
+      ],
+      "validity_conditions": [
+        "Universal relation for rigid body rotation in classical mechanics"
+      ],
+      "derivation_reference": "derivation-formula-rot-ke-rotation",
+      "related_concepts": [
+        "concept-rot-rotational-work-energy-01"
+      ],
+      "common_misuse": [
+        "Using moment of inertia about center of mass when body rotates about a different off-center fixed pivot",
+        "Adding 1/2 M v_cm^2 when calculating pure rotation about a fixed pivot"
+      ],
+      "generation_metadata": {
+        "agent": "physics-formula-writer",
+        "phase": "16"
+      },
+      "verification_status": "VERIFIED",
+      "created_at": "2026-10-05T04:10:34.457645+00:00",
+      "content_hash": "bd1637f7f85c2d89b5147cbe05a11ad2a742c65d8e8045efaa7ff25800855c88",
+      "verification_record_id": "cvr-formula-rot-ke-rotation"
+    },
+    {
+      "formula_id": "formula-rot-work-energy-rot",
+      "chapter_id": "rotational-motion",
+      "title": "Rotational Work-Energy Theorem",
+      "equation": "W_{\\text{net}} = \\int_{\\theta_1}^{\\theta_2} \\tau_{\\text{net}}(\\theta) \\, d\\theta = \\frac{1}{2} I \\omega_f^2 - \\frac{1}{2} I \\omega_i^2 = \\Delta K_{\\text{rot}}",
+      "variables": {
+        "W_{\\text{net}}": "Net work done by external torques",
+        "\\tau_{\\text{net}}": "Net external torque about the rotation axis",
+        "\\theta": "Angular displacement coordinate",
+        "I": "Moment of inertia about the fixed rotation axis",
+        "\\omega_f": "Final angular velocity",
+        "\\omega_i": "Initial angular velocity"
+      },
+      "units": {
+        "W_{\\text{net}}": "J",
+        "\\tau_{\\text{net}}": "N m",
+        "\\theta": "rad",
+        "I": "kg m^2",
+        "\\omega": "rad/s"
+      },
+      "dimensions": {
+        "W_{\\text{net}}": "[M][L]^2[T]^-2",
+        "\\tau_{\\text{net}}": "[M][L]^2[T]^-2",
+        "\\theta": "[1]",
+        "I": "[M][L]^2",
+        "\\omega": "[T]^-1"
+      },
+      "assumptions": [
+        "Rigid body rotating about a fixed axis in an inertial reference frame",
+        "Work evaluated between initial angle theta_1 and final angle theta_2"
+      ],
+      "validity_conditions": [
+        "Valid for any net torque function whether constant or angle-dependent"
+      ],
+      "derivation_reference": null,
+      "related_concepts": [
+        "concept-rot-rotational-work-energy-01"
+      ],
+      "common_misuse": [
+        "Multiplying torque by time instead of angular displacement to compute work",
+        "Confusing rotational work with angular impulse (tau * dt)"
+      ],
+      "generation_metadata": {
+        "agent": "physics-formula-writer",
+        "phase": "16"
+      },
+      "verification_status": "VERIFIED",
+      "created_at": "2026-10-05T04:10:34.457645+00:00",
+      "content_hash": "d1ae4819f001f58981b204541022f802ad1a6797772aa0aed0a9c0815fdb8697",
+      "verification_record_id": "cvr-formula-rot-work-energy-rot"
     },
     {
       "formula_id": "formula-rot-angmom-particle",
-      "title": "Angular Momentum of a Particle",
+      "chapter_id": "rotational-motion",
+      "title": "Particle Angular Momentum",
+      "equation": "\\vec{L}_O = \\vec{r} \\times \\vec{p} = m (\\vec{r} \\times \\vec{v})",
       "equation_latex": "\\vec{L}_O = \\vec{r} \\times \\vec{p} = m (\\vec{r} \\times \\vec{v})",
       "variables": {
-        "\\vec{L}_O": "Angular momentum vector about point O",
-        "\\vec{r}": "Position vector of particle relative to O",
-        "\\vec{p}": "Linear momentum vector",
-        "m": "Mass of particle",
-        "\\vec{v}": "Velocity vector"
+        "L_O": "Angular momentum about origin O",
+        "r": "Position vector from origin O to particle",
+        "p": "Linear momentum vector",
+        "m": "Particle mass",
+        "v": "Particle velocity vector"
       },
-      "units_and_dimensions": {
-        "\\vec{L}_O": "kg m^2 / s",
+      "units": {
+        "L_O": "kg m^2/s",
+        "r": "m",
+        "p": "kg m/s",
         "m": "kg",
-        "\\vec{v}": "m/s",
-        "\\vec{r}": "m"
+        "v": "m/s"
+      },
+      "dimensions": {
+        "L_O": "[M][L]^2[T]^-1",
+        "r": "[L]",
+        "p": "[M][L][T]^-1",
+        "m": "[M]",
+        "v": "[L][T]^-1"
       },
       "assumptions": [
         "Point mass particle",
-        "Reference point O is an inertial point or specified origin"
+        "Reference point O is explicitly specified in an inertial frame"
       ],
-      "conditions_of_validity": [
-        "Valid for any particle trajectory in 3D Euclidean space"
+      "validity_conditions": [
+        "Universal definition for point mass particle in classical mechanics"
       ],
-      "derivation_links": [
-        "curr-rot-03"
-      ],
-      "related_concept_ids": [
+      "derivation_reference": "derivation-formula-rot-angmom-particle",
+      "related_concepts": [
         "concept-rot-angmom-particle-01"
       ],
-      "common_misuse_cases": [
-        "Assuming angular momentum is zero for a particle moving in a straight line; it is non-zero about any origin not on the trajectory line"
+      "common_misuse": [
+        "Assuming a particle moving in a straight line has zero angular momentum",
+        "Omitting origin dependency"
       ],
       "provenance": [],
-      "verification_status": "VERIFIED"
+      "generation_metadata": {
+        "agent": "content_generator",
+        "version": "1.0",
+        "target_chapter": "rotational-motion"
+      },
+      "verification_status": "UNVERIFIED",
+      "content_hash": "0e3eba418c6304ec7a13eeb08f439e8bf8f103df36fc5772ccc534a9a67c5382",
+      "verification_record_id": null,
+      "created_at": "2026-09-29T07:50:00Z"
+    },
+    {
+      "formula_id": "formula-rot-angmom-rigid-body",
+      "chapter_id": "rotational-motion",
+      "title": "Angular Momentum of Rigid Body in Planar Motion About Arbitrary Origin",
+      "equation": "\\vec{L}_O = I_{\\text{cm}} \\vec{\\omega} + \\vec{r}_{\\text{cm}} \\times M \\vec{v}_{\\text{cm}}",
+      "variables": {
+        "\\vec{L}_O": "Total angular momentum vector about reference origin O",
+        "I_{\\text{cm}}": "Moment of inertia about principal axis through center of mass",
+        "\\vec{\\omega}": "Angular velocity vector of the rigid body",
+        "\\vec{r}_{\\text{cm}}": "Position vector of center of mass relative to origin O",
+        "M": "Total mass of the rigid body",
+        "\\vec{v}_{\\text{cm}}": "Linear velocity vector of center of mass"
+      },
+      "units": {
+        "\\vec{L}_O": "kg m^2/s",
+        "I_{\\text{cm}}": "kg m^2",
+        "\\vec{\\omega}": "rad/s",
+        "\\vec{r}_{\\text{cm}}": "m",
+        "M": "kg",
+        "\\vec{v}_{\\text{cm}}": "m/s"
+      },
+      "dimensions": {
+        "\\vec{L}_O": "[M][L]^2[T]^-1",
+        "I_{\\text{cm}}": "[M][L]^2",
+        "\\vec{\\omega}": "[T]^-1",
+        "\\vec{r}_{\\text{cm}}": "[L]",
+        "M": "[M]",
+        "\\vec{v}_{\\text{cm}}": "[L][T]^-1"
+      },
+      "assumptions": [
+        "Planar motion where angular velocity vector is perpendicular to the translational plane",
+        "Rigid body condition with constant mass M",
+        "Origin O is an unaccelerated fixed reference point in an inertial frame"
+      ],
+      "validity_conditions": [
+        "Universal decomposition of angular momentum into spin and orbital components for general plane motion"
+      ],
+      "derivation_reference": null,
+      "related_concepts": [
+        "concept-rot-angmom-rigid-body-01"
+      ],
+      "common_misuse": [
+        "Omitting orbital term r_cm x M v_cm when calculating angular momentum about an external pivot",
+        "Using moment of inertia about an arbitrary point instead of center of mass in the spin term"
+      ],
+      "generation_metadata": {
+        "agent": "physics-formula-writer",
+        "phase": "16"
+      },
+      "verification_status": "VERIFIED",
+      "created_at": "2026-10-05T04:10:34.457645+00:00",
+      "content_hash": "41e620d37b83dd84993596ffdcf50d697309bc9292a1bf21b1619ac2adf0c586",
+      "verification_record_id": "cvr-formula-rot-angmom-rigid-body"
     },
     {
       "formula_id": "formula-rot-conservation-angmom",
+      "chapter_id": "rotational-motion",
       "title": "Conservation of Angular Momentum About Fixed Axis",
+      "equation": "I_i \\omega_i = I_f \\omega_f",
       "equation_latex": "I_i \\omega_i = I_f \\omega_f",
       "variables": {
         "I_i": "Initial moment of inertia about axis",
@@ -209,107 +784,281 @@
         "I_f": "Final moment of inertia about axis",
         "\\omega_f": "Final angular velocity"
       },
-      "units_and_dimensions": {
+      "units": {
         "I": "kg m^2",
         "\\omega": "rad/s"
       },
+      "dimensions": {
+        "I": "[M][L]^2",
+        "\\omega": "[T]^-1"
+      },
       "assumptions": [
-        "System rotates about a fixed axis",
-        "Mass redistribution does not introduce external torque along axis"
+        "Net external torque about the designated rotation axis vanishes (\\tau_{\\text{ext}, z} = 0)"
       ],
-      "conditions_of_validity": [
-        "Net external torque component along the axis of rotation must be zero (tau_ext,z = 0)"
+      "validity_conditions": [
+        "Valid for isolated systems or systems with zero net torque along a specific axis"
       ],
-      "derivation_links": [
-        "curr-rot-03"
-      ],
-      "related_concept_ids": [
+      "derivation_reference": "derivation-formula-rot-conservation-angmom",
+      "related_concepts": [
         "concept-rot-angmom-conservation-01"
       ],
-      "common_misuse_cases": [
-        "Assuming conservation of kinetic energy when moment of inertia changes due to internal work, e.g. crawling insect or pulling string"
+      "common_misuse": [
+        "Assuming kinetic energy is also conserved when internal reconfiguration occurs",
+        "Applying conservation along an axis experiencing external torque"
       ],
       "provenance": [],
-      "verification_status": "VERIFIED"
+      "generation_metadata": {
+        "agent": "content_generator",
+        "version": "1.0",
+        "target_chapter": "rotational-motion"
+      },
+      "verification_status": "UNVERIFIED",
+      "content_hash": "55fd388e6b9f01bfe15ec0c7f4abe60f1b901dcebd986aea501dd9e00491db58",
+      "verification_record_id": null,
+      "created_at": "2026-09-29T07:50:00Z"
+    },
+    {
+      "formula_id": "formula-rot-rolling-no-slip-velocity",
+      "chapter_id": "rotational-motion",
+      "title": "Pure Rolling Kinematic Constraint and Velocity Distribution",
+      "equation": "v_{\\text{cm}} = R \\omega, \\quad \\vec{v}_P = \\vec{0}, \\quad v_{\\text{top}} = 2 v_{\\text{cm}} = 2 R \\omega",
+      "variables": {
+        "v_{\\text{cm}}": "Linear speed of center of mass",
+        "R": "Radius of rolling body",
+        "\\omega": "Angular velocity of rolling body",
+        "v_P": "Instantaneous velocity of contact point P on stationary ground",
+        "v_{\\text{top}}": "Instantaneous velocity of top rim point"
+      },
+      "units": {
+        "v_{\\text{cm}}": "m/s",
+        "R": "m",
+        "\\omega": "rad/s",
+        "v_P": "m/s",
+        "v_{\\text{top}}": "m/s"
+      },
+      "dimensions": {
+        "v": "[L][T]^-1",
+        "R": "[L]",
+        "\\omega": "[T]^-1"
+      },
+      "assumptions": [
+        "Rigid wheel or cylinder rolling on a stationary flat horizontal surface",
+        "Zero relative sliding at the instantaneous contact point (pure rolling)"
+      ],
+      "validity_conditions": [
+        "Holds strictly during pure rolling; if the surface itself moves with speed v_s, constraint becomes v_cm - v_s = R omega"
+      ],
+      "derivation_reference": null,
+      "related_concepts": [
+        "concept-rot-pure-rolling-kinematics-01"
+      ],
+      "common_misuse": [
+        "Assuming top point has speed v_cm instead of 2 v_cm",
+        "Assuming contact point has zero acceleration because its instantaneous velocity is zero"
+      ],
+      "generation_metadata": {
+        "agent": "physics-formula-writer",
+        "phase": "16"
+      },
+      "verification_status": "VERIFIED",
+      "created_at": "2026-10-05T04:10:34.457645+00:00",
+      "content_hash": "c28ce4e22534160fc3dbe85e1d8ff65bf51fdb373702d3a6116bcb9999406a0c",
+      "verification_record_id": "cvr-formula-rot-rolling-no-slip-velocity"
+    },
+    {
+      "formula_id": "formula-rot-rolling-incline-accel",
+      "chapter_id": "rotational-motion",
+      "title": "Acceleration and Critical Friction for Pure Rolling on an Inclined Plane",
+      "equation": "a_{\\text{cm}} = \\frac{g \\sin\\theta}{1 + \\frac{I_{\\text{cm}}}{M R^2}} = \\frac{g \\sin\\theta}{1 + \\frac{k^2}{R^2}}, \\quad \\mu_{\\min} = \\frac{\\tan\\theta}{1 + \\frac{M R^2}{I_{\\text{cm}}}} = \\frac{\\tan\\theta}{1 + \\frac{R^2}{k^2}}",
+      "variables": {
+        "a_{\\text{cm}}": "Linear acceleration of center of mass down the incline",
+        "g": "Acceleration due to gravity",
+        "\\theta": "Inclination angle of plane with horizontal",
+        "I_{\\text{cm}}": "Moment of inertia about center of mass",
+        "M": "Total mass of rolling body",
+        "R": "Radius of rolling body",
+        "k": "Radius of gyration (I_cm = M k^2)",
+        "\\mu_{\\min}": "Minimum coefficient of static friction to prevent slipping"
+      },
+      "units": {
+        "a_{\\text{cm}}": "m/s^2",
+        "g": "m/s^2",
+        "\\theta": "rad or deg",
+        "k": "m",
+        "R": "m",
+        "\\mu_{\\min}": "dimensionless"
+      },
+      "dimensions": {
+        "a_{\\text{cm}}": "[L][T]^-2",
+        "g": "[L][T]^-2",
+        "\\mu": "[1]"
+      },
+      "assumptions": [
+        "Uniform symmetrical rigid body rolling down an incline of angle theta",
+        "Sufficient static friction mu_s >= mu_min to ensure zero slipping",
+        "Rigid circular contact profile"
+      ],
+      "validity_conditions": [
+        "Valid strictly for pure rolling without slipping; if mu_s < mu_min, body slips with a = g(sin theta - mu_k cos theta)"
+      ],
+      "derivation_reference": "derivation-formula-rot-rolling-incline-accel",
+      "related_concepts": [
+        "concept-rot-rolling-incline-01"
+      ],
+      "common_misuse": [
+        "Using translational acceleration g sin(theta) for a rolling body",
+        "Assuming rolling acceleration depends on the body's mass or radius rather than purely on the dimensionless ratio k^2/R^2"
+      ],
+      "generation_metadata": {
+        "agent": "physics-formula-writer",
+        "phase": "16"
+      },
+      "verification_status": "VERIFIED",
+      "created_at": "2026-10-05T04:10:34.457645+00:00",
+      "content_hash": "8c25043c7b6bc2424a07b56b5d64e77c8e345c143799523bb6ab9119e62df761",
+      "verification_record_id": "cvr-formula-rot-rolling-incline-accel"
+    },
+    {
+      "formula_id": "formula-rot-toppling-condition",
+      "chapter_id": "rotational-motion",
+      "title": "Critical Threshold Conditions for Toppling versus Sliding",
+      "equation": "F_{\\text{crit}} = \\frac{M g b}{2 H}, \\quad \\tan\\theta_{\\text{crit}} = \\frac{b}{h}",
+      "variables": {
+        "F_{\\text{crit}}": "Critical horizontal force causing toppling on flat ground",
+        "M": "Mass of the rigid block",
+        "g": "Acceleration due to gravity",
+        "b": "Base width of block along direction of force",
+        "H": "Height above ground at which lateral force is applied",
+        "h": "Total height of block",
+        "\\theta_{\\text{crit}}": "Critical incline tilt angle causing toppling before sliding"
+      },
+      "units": {
+        "F_{\\text{crit}}": "N",
+        "M": "kg",
+        "g": "m/s^2",
+        "b": "m",
+        "H": "m",
+        "h": "m",
+        "\\theta_{\\text{crit}}": "rad or deg"
+      },
+      "dimensions": {
+        "F_{\\text{crit}}": "[M][L][T]^-2",
+        "b": "[L]",
+        "H": "[L]",
+        "h": "[L]"
+      },
+      "assumptions": [
+        "Uniform homogeneous rectangular/cuboidal block resting on rough ground",
+        "Normal reaction force shifts to extreme tipping edge at toppling threshold",
+        "Coulomb friction model with static coefficient mu_s"
+      ],
+      "validity_conditions": [
+        "Toppling precedes sliding on horizontal ground if b / (2 H) < mu_s; toppling precedes sliding on incline if b / h < mu_s"
+      ],
+      "derivation_reference": null,
+      "related_concepts": [
+        "concept-rot-toppling-condition-01"
+      ],
+      "common_misuse": [
+        "Assuming toppling occurs about center of mass rather than the tipping base edge",
+        "Ignoring friction coefficient when determining whether body slides first or tips first"
+      ],
+      "generation_metadata": {
+        "agent": "physics-formula-writer",
+        "phase": "16"
+      },
+      "verification_status": "VERIFIED",
+      "created_at": "2026-10-05T04:10:34.457645+00:00",
+      "content_hash": "99b774228cf61235ba2ecaa28729f7e01c7eaeabe424b447e592c5ca1d0b30e4",
+      "verification_record_id": "cvr-formula-rot-toppling-condition"
     }
   ],
   "misconception_sequence": [
     {
       "misconception_id": "misc-rot-01",
+      "concept_id": "concept-rot-angmom-particle-01",
       "category": "INVALID_FORMULA_CONDITION",
-      "statement": "A particle moving along a straight line at constant velocity has zero angular momentum.",
-      "explanation": "Angular momentum is defined as L = r x p. For straight-line motion, L = m v r_perp, where r_perp is the impact parameter (perpendicular distance from origin to line of motion). As long as the line of motion does not pass through the reference point O, r_perp is non-zero, and L is constant and non-zero.",
-      "trap_mechanism": "Exam questions ask about angular momentum of a freely falling body or particle in straight line about an offset point, expecting students to equate linear motion with zero rotational quantities.",
-      "trigger_conditions": [
-        "Particle moving in vertical free fall near earth",
-        "Origin chosen on the ground but not directly beneath the release point"
-      ],
-      "connected_concept_ids": [
-        "concept-rot-angmom-particle-01"
-      ],
-      "connected_atom_ids": [
-        "rotational-motion-question-6c7cb960"
-      ]
+      "statement": "Straight-line motion cannot have angular momentum",
+      "explanation": "Angular momentum L = r x p depends on the reference point, not circular curvature.",
+      "trap_mechanism": "Particle moving along y = d evaluated at origin."
     },
     {
       "misconception_id": "misc-rot-02",
+      "concept_id": "concept-rot-angmom-conservation-01",
       "category": "WRONG_CONSERVATION_LAW",
-      "statement": "When a system conserves angular momentum under internal reconfiguration, mechanical energy is also conserved.",
-      "explanation": "Internal forces that alter mass distribution (such as an insect walking radially on a rotating disc or an ice skater pulling in their arms) do work. Consequently, rotational kinetic energy K = L^2 / (2 I) varies inversely with I. Energy is NOT conserved, even though angular momentum is strictly conserved because internal forces exert zero net external torque.",
-      "trap_mechanism": "Questions test whether students attempt to equate initial and final kinetic energies when mass distribution changes, leading to incorrect velocity calculations.",
-      "trigger_conditions": [
-        "Insect crawling on rotating turntable or disc",
-        "Radial movement of sliding collar on rotating rod"
-      ],
-      "connected_concept_ids": [
-        "concept-rot-angmom-conservation-01"
-      ],
-      "connected_atom_ids": [
-        "rotational-motion-question-84f91c20",
-        "rotational-motion-question-f7cbecda"
-      ]
+      "statement": "Conservation of angular momentum implies conservation of kinetic energy",
+      "explanation": "Radial mass repositioning requires internal work that alters rotational kinetic energy.",
+      "trap_mechanism": "Rotating turntable with crawler mass."
+    },
+    {
+      "misconception_id": "misc-rot-03",
+      "concept_id": "concept-rot-moi-continuous-01",
+      "category": "INVALID_FORMULA_CONDITION",
+      "statement": "Applying perpendicular axis theorem to three-dimensional bodies",
+      "explanation": "Holds strictly for 2D laminas where z = 0 identically.",
+      "trap_mechanism": "Applying I_z = I_x + I_y to solid cylinder or sphere."
+    },
+    {
+      "misconception_id": "misc-rot-04",
+      "concept_id": "concept-rot-torque-01",
+      "category": "HIDDEN_CONSTRAINT_OMISSION",
+      "statement": "Assuming equal string tension across a massive accelerating pulley",
+      "explanation": "Accelerating pulley requires net torque (T_1 - T_2) R = I alpha.",
+      "trap_mechanism": "Atwood machine with heavy pulley."
+    },
+    {
+      "misconception_id": "misc-rot-05",
+      "concept_id": "concept-rot-rolling-horizontal-friction-01",
+      "category": "SIGN_MISTAKE",
+      "statement": "Believing static friction in pure rolling always opposes linear velocity",
+      "explanation": "Static friction opposes slip at contact point and can act forward.",
+      "trap_mechanism": "Spool pulled by horizontal string above center of percussion."
+    },
+    {
+      "misconception_id": "misc-rot-06",
+      "concept_id": "concept-rot-pure-rolling-kinematics-01",
+      "category": "FRAME_CONFUSION",
+      "statement": "Believing contact point in pure rolling has zero acceleration",
+      "explanation": "Instantaneous velocity is zero, but centripetal acceleration is omega^2 R upward.",
+      "trap_mechanism": "Kinematics of cycloid cusp."
     }
   ],
   "worked_example_sequence": [
     {
+      "example_id": "ex-rot-moi-disc-cavity-01",
+      "topic_id": "moment-of-inertia",
+      "title": "Moment of Inertia of Disc with Circular Cavity",
+      "difficulty": "L3"
+    },
+    {
+      "example_id": "ex-rot-pulley-atwood-01",
+      "topic_id": "torque-and-rotation",
+      "title": "Atwood Machine with Massive Cylindrical Pulley",
+      "difficulty": "L3"
+    },
+    {
+      "example_id": "ex-rot-projectile-angmom-01",
+      "topic_id": "angular-momentum",
+      "title": "Angular Momentum Vector of Projectile about Launch Point",
+      "difficulty": "L3"
+    },
+    {
       "example_id": "ex-rot-angmom-disc-01",
-      "problem_statement": "A uniform circular disc of mass $M$ and radius $R$ is rotating horizontally about a frictionless vertical axle passing through its center with angular velocity $\\omega_0$. A small insect of mass $m$ is initially at the center of the disc. The insect crawls slowly along a radial line towards the rim of the disc until it reaches the edge. (a) Determine the angular velocity $\\omega(r)$ of the disc as a function of the insect's radial distance $r$ from the center. (b) Find the ratio of the final rotational kinetic energy to the initial rotational kinetic energy when the insect reaches $r = R$.",
-      "known_quantities": {
-        "M": "Mass of uniform circular disc",
-        "R": "Radius of circular disc",
-        "m": "Mass of insect",
-        "\\omega_0": "Initial angular velocity at r = 0",
-        "r": "Radial position of insect from center"
-      },
-      "target_quantity": "Angular velocity omega(r) and kinetic energy ratio K_f / K_i",
-      "relevant_concepts": [
-        "Moment of inertia of disc",
-        "Point mass moment of inertia",
-        "Conservation of angular momentum",
-        "Rotational kinetic energy"
-      ],
-      "governing_principles": [
-        "Conservation of Angular Momentum: sum tau_ext,z = 0 implies L_z = constant"
-      ],
-      "solution_strategy": "Identify that no external torque acts about the vertical rotation axis. Apply conservation of angular momentum L_i = L_f to find omega as a function of r. Then express rotational kinetic energy K = (1/2) I omega^2 = L^2 / (2 I) to find the energy ratio directly.",
-      "step_by_step_derivation": [
-        "Step 1: Compute initial moment of inertia I_i when insect is at r = 0: I_i = I_disc + m(0)^2 = (1/2) M R^2.",
-        "Step 2: Compute moment of inertia I(r) when insect is at radial distance r: I(r) = (1/2) M R^2 + m r^2.",
-        "Step 3: Conserve angular momentum about the vertical axle: L = I_i omega_0 = I(r) omega(r). Thus, omega(r) = (I_i / I(r)) omega_0 = ((1/2) M R^2 / ((1/2) M R^2 + m r^2)) omega_0 = (M R^2 / (M R^2 + 2 m r^2)) omega_0.",
-        "Step 4: At the rim r = R, I_f = (1/2) M R^2 + m R^2 = ((M + 2m) / 2) R^2. The final angular velocity is omega_f = (M / (M + 2m)) omega_0.",
-        "Step 5: The rotational kinetic energy is K = L^2 / (2 I). Since L is constant, K_f / K_i = I_i / I_f = ((1/2) M R^2) / (((M + 2m)/2) R^2) = M / (M + 2m)."
-      ],
-      "final_answer": "\\omega(r) = \\frac{M R^2}{M R^2 + 2 m r^2} \\omega_0,\\quad \\frac{K_f}{K_i} = \\frac{M}{M + 2m}",
-      "sanity_checks": [
-        "Dimensional check: [omega] = T^-1, [K_f/K_i] is dimensionless.",
-        "Limiting case m -> 0: omega(r) -> omega_0 and K_f/K_i -> 1 as expected.",
-        "Limiting case r -> 0: omega(0) = omega_0.",
-        "Physical consistency: As insect moves outwards, I increases so omega decreases and rotational kinetic energy decreases because insect does negative work resisting centrifugal effects."
-      ],
-      "alternate_methods": [],
-      "source_atom_id": null,
-      "provenance": [],
-      "verification_status": "VERIFIED"
+      "topic_id": "angular-momentum",
+      "title": "Rotating Disc with Radially Crawling Insect",
+      "difficulty": "L3"
+    },
+    {
+      "example_id": "ex-rot-rolling-incline-race-01",
+      "topic_id": "rolling-motion",
+      "title": "Race of Ring, Disc, Hollow and Solid Spheres Down Incline",
+      "difficulty": "L3"
+    },
+    {
+      "example_id": "ex-rot-toppling-block-01",
+      "topic_id": "rolling-motion",
+      "title": "Sliding versus Toppling of Rectangular Block under Lateral Force",
+      "difficulty": "L4"
     }
   ],
   "question_sequence": [
@@ -318,70 +1067,40 @@
       "curriculum_id": "curr-rot-03",
       "chapter_id": "rotational-motion",
       "topic_id": "angular-momentum",
-      "pedagogical_role": "QUESTION_LADDER",
+      "pedagogical_role": "PRACTICE_QUESTION",
       "difficulty_dimensions": {
-        "conceptual_difficulty": 3,
+        "conceptual_difficulty": 2,
         "mathematical_difficulty": 2,
-        "multistep_reasoning_difficulty": 3,
-        "abstraction_difficulty": 3,
+        "multistep_reasoning_difficulty": 2,
+        "abstraction_difficulty": 1,
         "computational_burden": 1,
-        "trap_misconception_difficulty": 4,
-        "derived_difficulty_band": "L2",
-        "weighting_policy": "PEDAGOGICAL_PROJECT_POLICY"
+        "trap_misconception_difficulty": 2,
+        "derived_difficulty_band": "L2"
       },
       "prerequisite_concept_ids": [
         "concept-rot-angmom-particle-01"
       ],
-      "question_ladder_id": "ladder-rot-ang-mom-01",
-      "question_ladder_position": 1,
-      "source_provenance": [
-        {
-          "source_id": "src-jee-rank-booster-03-mock-256f42c6",
-          "file_name": "jee_rank_booster-03_mock_paper.pdf",
-          "file_path": null,
-          "page_start": 2,
-          "page_end": 2,
-          "source_locator": "Section - A, Q4",
-          "edition": null,
-          "extraction_metadata": {}
-        }
-      ]
+      "source_provenance": []
     },
     {
       "atom_id": "rotational-motion-question-84f91c20",
       "curriculum_id": "curr-rot-03",
       "chapter_id": "rotational-motion",
       "topic_id": "angular-momentum",
-      "pedagogical_role": "QUESTION_LADDER",
+      "pedagogical_role": "PRACTICE_QUESTION",
       "difficulty_dimensions": {
         "conceptual_difficulty": 2,
-        "mathematical_difficulty": 2,
+        "mathematical_difficulty": 1,
         "multistep_reasoning_difficulty": 2,
         "abstraction_difficulty": 2,
         "computational_burden": 1,
         "trap_misconception_difficulty": 2,
-        "derived_difficulty_band": "L2",
-        "weighting_policy": "PEDAGOGICAL_PROJECT_POLICY"
+        "derived_difficulty_band": "L2"
       },
       "prerequisite_concept_ids": [
         "concept-rot-angmom-conservation-01"
       ],
-      "question_ladder_id": "ladder-rot-ang-mom-01",
-      "question_ladder_position": 2,
-      "source_provenance": [
-        {
-          "source_id": "src-jee-rank-booster-03-mock-256f42c6",
-          "file_name": "jee_rank_booster-03_mock_paper.pdf",
-          "file_path": "jee_rank_booster-03_mock_paper.pdf",
-          "page_start": 4,
-          "page_end": 4,
-          "source_locator": "Section - A, Q12",
-          "edition": null,
-          "extraction_metadata": {
-            "source_sha256": "256f42c67a9271aaafe4bf637eb34cddd10da959cdf7a66fc6fee76a68d34361"
-          }
-        }
-      ]
+      "source_provenance": []
     },
     {
       "atom_id": "rotational-motion-question-f7cbecda",
@@ -390,100 +1109,89 @@
       "topic_id": "angular-momentum",
       "pedagogical_role": "PRACTICE_QUESTION",
       "difficulty_dimensions": {
-        "conceptual_difficulty": 2,
-        "mathematical_difficulty": 2,
-        "multistep_reasoning_difficulty": 2,
+        "conceptual_difficulty": 3,
+        "mathematical_difficulty": 3,
+        "multistep_reasoning_difficulty": 3,
         "abstraction_difficulty": 2,
-        "computational_burden": 1,
-        "trap_misconception_difficulty": 2,
-        "derived_difficulty_band": "L2",
-        "weighting_policy": "PEDAGOGICAL_PROJECT_POLICY"
+        "computational_burden": 2,
+        "trap_misconception_difficulty": 3,
+        "derived_difficulty_band": "L3"
       },
       "prerequisite_concept_ids": [
         "concept-rot-angmom-conservation-01"
       ],
-      "question_ladder_id": null,
-      "question_ladder_position": null,
-      "source_provenance": [
-        {
-          "source_id": "src-jee-rank-booster-03-mock-256f42c6",
-          "file_name": "jee_rank_booster-03_mock_paper.pdf",
-          "file_path": "jee_rank_booster-03_mock_paper.pdf",
-          "page_start": 4,
-          "page_end": 4,
-          "source_locator": "Section - A, Q12",
-          "edition": null,
-          "extraction_metadata": {
-            "source_sha256": "256f42c67a9271aaafe4bf637eb34cddd10da959cdf7a66fc6fee76a68d34361"
-          }
-        }
-      ]
+      "source_provenance": []
     }
   ],
   "question_ladders": [
     {
-      "ladder_id": "ladder-rot-ang-mom-01",
+      "ladder_id": "ladder-rot-rolling-incline-01",
       "chapter_id": "rotational-motion",
-      "topic_id": "angular-momentum",
-      "title": "Scaffolding Angular Momentum from Particle to Rigid Disc",
-      "physical_system": "Rotating horizontal disc and particle angular momentum",
+      "topic_id": "rolling-motion",
+      "title": "Scaffolding Rigid Body Rolling Dynamics from Kinematics to Incline Acceleration and Friction Thresholds",
+      "physical_system": "Symmetric homogeneous rigid bodies (radius R, mass M, radius of gyration k) on planar surfaces under gravity g and static friction mu",
+      "pedagogical_objective": "Master progressive transition from pure rolling no-slip kinematics to incline dynamics and friction boundaries.",
       "rungs": [
         {
           "level": 1,
-          "level_name": "Direct application",
+          "level_name": "Direct Application of Rotational Kinematics and Angular Momentum",
           "atom_id": "rotational-motion-question-6c7cb960",
-          "physical_delta": "Baseline free particle angular momentum about external fixed point",
-          "reasoning_depth": 2,
+          "physical_delta": "Baseline particle motion near earth's surface evaluating angular momentum about fixed external reference point.",
+          "reasoning_depth": 1,
           "concepts_involved": [
-            "Angular momentum definition",
-            "Cross product r x p"
+            "concept-rot-angmom-particle-01"
           ],
-          "mathematical_complexity": "Vector cross product",
-          "transfer_requirement": "Evaluating time-dependent angular momentum L = r x p for vertical free fall relative to a fixed ground origin not vertically below the particle."
+          "mathematical_complexity": "Vector cross product r x p for rectilinear accelerated motion"
         },
         {
           "level": 2,
-          "level_name": "Standard multi-step",
+          "level_name": "Qualitative Rotational Dynamics and System Mass Redistribution",
           "atom_id": "rotational-motion-question-84f91c20",
-          "physical_delta": "Coupled rotating disc with radial insect motion causing time-varying moment of inertia",
+          "physical_delta": "Transition from point particle to rotating extended rigid disc with dropped mass altering system moment of inertia.",
+          "reasoning_depth": 2,
+          "concepts_involved": [
+            "concept-rot-angmom-conservation-01",
+            "concept-rot-moi-01"
+          ],
+          "mathematical_complexity": "Qualitative ratio comparison of initial and final angular velocity"
+        },
+        {
+          "level": 3,
+          "level_name": "Quantitative Conservation of Angular Momentum and Internal Dissipation",
+          "atom_id": "rotational-motion-question-f7cbecda",
+          "physical_delta": "Exact algebraic computation of post-sticking angular speed and kinetic energy loss.",
           "reasoning_depth": 3,
           "concepts_involved": [
-            "Conservation of angular momentum",
-            "Variable moment of inertia"
+            "concept-rot-angmom-conservation-01",
+            "concept-rot-rotational-work-energy-01"
           ],
-          "mathematical_complexity": "Algebraic angular velocity ratio",
-          "transfer_requirement": "Applying isolated system angular momentum conservation I(t) omega(t) = const where internal mass relocation alters effective moment of inertia."
+          "mathematical_complexity": "Exact algebraic fractions and mechanical energy difference"
+        },
+        {
+          "level": 4,
+          "level_name": "Multi-Concept Rigid Body Translation and Angular Reconfiguration",
+          "atom_id": "gen-q-rot-angmom-01",
+          "physical_delta": "Continuous radial relocation of crawling mass across rotating disc exercising time-dependent moment of inertia and angular acceleration.",
+          "reasoning_depth": 4,
+          "concepts_involved": [
+            "concept-rot-angmom-conservation-01",
+            "concept-rot-moi-continuous-01",
+            "concept-rot-rotational-work-energy-01"
+          ],
+          "mathematical_complexity": "Variable moment of inertia function I(r) = 1/2 M R^2 + m r^2 and work done by crawler"
         }
-      ],
-      "pedagogical_objective": "Scaffold understanding of angular momentum from an isolated particle in free fall about an offset origin to a coupled rigid body system (horizontal rotating disc with radial insect motion) undergoing variable moment of inertia and angular momentum conservation."
+      ]
     }
   ],
   "revision_checklist": [
-    "Moment of Inertia formulas for standard geometric bodies (rod, ring, disc, sphere, cylinder).",
-    "Parallel Axis Theorem: I = I_cm + M d^2 (must pass strictly through CM).",
-    "Perpendicular Axis Theorem: I_z = I_x + I_y (planar bodies only).",
-    "Torque: tau = r x F, and rotational dynamics tau_ext = I alpha (valid about fixed axis or CM).",
-    "Angular Momentum of a particle: L = r x p = m v r_perp.",
-    "Angular Momentum of a rigid body: L = I omega.",
-    "Conservation of Angular Momentum: dL/dt = tau_ext = 0 implies L_i = L_f.",
-    "Work done in rotation: W = int tau d theta, Kinetic energy K = (1/2) I omega^2.",
-    "Pure rolling condition: v_cm = R omega, a_cm = R alpha (point of contact instantaneously at rest)."
+    "Distinguish perpendicular distance r_perp from coordinate distance in moment of inertia integrals.",
+    "Check that perpendicular axis theorem is applied strictly to 2D planar laminas.",
+    "Remember that string tensions differ across a massive pulley.",
+    "Verify reference point O when evaluating torque and angular momentum.",
+    "In pure rolling, verify v_cm = R omega and a_cm = R alpha at contact with stationary surface.",
+    "Recall that static friction can act forward, backward, or be zero depending on point of force application.",
+    "Use rolling acceleration down incline a_cm = g sin(theta) / (1 + k^2/R^2).",
+    "Check toppling condition F h = M g (b/2) and compare with sliding threshold mu_s M g."
   ],
-  "coverage_requirements": {
-    "min_questions": 3,
-    "target_difficulty_distribution": {
-      "L1": 0,
-      "L2": 2,
-      "L3": 1,
-      "L4": 0,
-      "L5": 0
-    }
-  },
-  "assessment_requirements": {
-    "exam_types": [
-      "JEE_MAIN",
-      "JEE_ADVANCED"
-    ]
-  },
-  "created_at": "2026-09-28T16:55:31.514241Z"
+  "created_at": "2026-10-05T04:13:39.312019+00:00"
 }

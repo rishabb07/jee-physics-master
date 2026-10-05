@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-concept-rot-moi-continuous-01",
+  "content_type": "CONCEPT",
+  "target_id": "concept-rot-moi-continuous-01",
+  "content_hash": "9f26037621f1a35e5e2a46cb17cdbd874b247593b9acaff0b502057623bd4216",
+  "risk_level": "MEDIUM",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Independently verified physical grounding, boundary conditions, and textbook citations for concept-rot-moi-continuous-01.",
+  "verifier_id": "content-verifier-rot-concepts",
+  "created_at": "2026-10-05T04:09:34.593741+00:00"
+}

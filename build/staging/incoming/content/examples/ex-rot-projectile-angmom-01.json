@@ -1,0 +1,61 @@
+{
+  "example_id": "ex-rot-projectile-angmom-01",
+  "chapter_id": "rotational-motion",
+  "problem_statement": "A projectile of mass $m = 0.50\\text{ kg}$ is fired from the origin $O$ on flat ground with initial speed $v_0 = 20.0\\text{ m/s}$ at an angle $\\theta = 60.0^\\circ$ above the horizontal. Taking $g = 10.0\\text{ m/s}^2$ downward along the $-y$ axis, find: (a) the angular momentum vector $\\vec{L}_O$ of the projectile about the launch point $O$ at the instant it reaches the peak of its trajectory, and (b) the angular momentum vector $\\vec{L}_O$ just before landing back on the ground.",
+  "known_quantities": {
+    "m": "0.50 kg",
+    "v_0": "20.0 m/s",
+    "\\theta": "60.0 deg",
+    "g": "10.0 m/s^2"
+  },
+  "target_quantity": "Angular momentum vector L_O at peak and at landing",
+  "relevant_concepts": [
+    "concept-rot-angmom-particle-01"
+  ],
+  "governing_principles": [
+    "Definition of particle angular momentum: L_O = r x p = m (r x v)",
+    "Torque-angular momentum relation: tau_O = dL_O / dt => L_O(t) = int_0^t tau_O(t') dt'"
+  ],
+  "solution_strategy": "Method 1: Direct definition L_O = r x p. At peak, find coordinates (x_h, y_h) and velocity v_h. At landing, find (R, 0) and v_land. Method 2: Torque integration tau_O = r x (-m g j) = -m g x(t) k = -m g v_0 cos(theta) t k => L_O(t) = -1/2 m g v_0 cos(theta) t^2 k.",
+  "ordered_steps": [
+    {
+      "step_number": 1,
+      "principle_applied": "Kinematics of projectile at apex",
+      "equation": "t_{\\text{peak}} = \\frac{v_0 \\sin\\theta}{g}, \\quad x_{\\text{peak}} = v_0 \\cos\\theta \\, t_{\\text{peak}}, \\quad y_{\\text{peak}} = H = \\frac{v_0^2 \\sin^2\\theta}{2g}, \\quad \\vec{v}_{\\text{peak}} = v_0 \\cos\\theta \\, \\hat{i}",
+      "substitution": "t_{\\text{peak}} = \\frac{20.0 \\sin 60^\\circ}{10.0} = \\sqrt{3}\\text{ s} \\approx 1.732\\text{ s}, \\quad x_{\\text{peak}} = 10.0\\sqrt{3}\\text{ m}, \\quad y_{\\text{peak}} = \\frac{400(3/4)}{20} = 15.0\\text{ m}, \\quad \\vec{v} = 10.0 \\, \\hat{i}\\text{ m/s}",
+      "intermediate_result": "r_peak = 10 sqrt(3) i + 15.0 j, v_peak = 10.0 i"
+    },
+    {
+      "step_number": 2,
+      "principle_applied": "Vector cross product definition at apex",
+      "equation": "\\vec{L}_{O,\\text{peak}} = \\vec{r}_{\\text{peak}} \\times m \\vec{v}_{\\text{peak}} = (x_h \\hat{i} + y_h \\hat{j}) \\times m (v_{0x} \\hat{i}) = -m y_h v_{0x} \\, \\hat{k}",
+      "substitution": "\\vec{L}_{O,\\text{peak}} = -(0.50)(15.0)(10.0) \\, \\hat{k} = -75.0 \\, \\hat{k}\\text{ kg m}^2\\text{/s}",
+      "intermediate_result": "L_O,peak = -75.0 k kg m^2/s"
+    },
+    {
+      "step_number": 3,
+      "principle_applied": "Kinematics and torque integration to landing",
+      "equation": "T_{\\text{flight}} = 2 t_{\\text{peak}} = 2\\sqrt{3}\\text{ s}, \\quad \\vec{L}_O(t) = -\\frac{1}{2} m g v_0 \\cos\\theta \\, t^2 \\, \\hat{k}",
+      "substitution": "\\vec{L}_{O,\\text{land}} = -\\frac{1}{2} (0.50)(10.0)(10.0) (2\\sqrt{3})^2 \\, \\hat{k} = -25.0 (12) \\, \\hat{k} = -300.0 \\, \\hat{k}\\text{ kg m}^2\\text{/s}",
+      "intermediate_result": "L_O,land = -300.0 k kg m^2/s"
+    }
+  ],
+  "final_answer": "\\vec{L}_{O,\\text{peak}} = -75.0 \\, \\hat{k}\\text{ kg m}^2\\text{/s}, \\quad \\vec{L}_{O,\\text{land}} = -300.0 \\, \\hat{k}\\text{ kg m}^2\\text{/s}",
+  "units": "kg m^2/s",
+  "sanity_checks": [
+    "Quadratic scaling: Because torque is tau = -m g v_0 cos(theta) t, angular momentum scales quadratically as t^2. Since T_flight = 2 t_peak, L_land / L_peak = (2)^2 = 4. Indeed, -300.0 / -75.0 = 4.00! Exact agreement.",
+    "Cross product check at landing: r_land = R i, v_land = v_0x i - v_0y j. L_land = R i x m(v_0x i - v_0y j) = -m R v_0y k. Here R = v_0^2 sin(2 theta)/g = 400(sqrt(3)/2)/10 = 20 sqrt(3) m. L_land = -0.50 (20 sqrt(3))(10 sqrt(3)) k = -0.50(600) k = -300.0 k. Dual derivation confirms result bit-for-bit."
+  ],
+  "alternate_methods": [
+    "Time integral of torque tau(t) = r(t) x F_g."
+  ],
+  "source_atom_id": null,
+  "provenance": [],
+  "risk_level": "HIGH",
+  "verification_status": "VERIFIED",
+  "generator_identity": "physics-example-writer",
+  "generator_conversation_id": "conv-phase16-rot-examples",
+  "created_at": "2026-10-05T04:12:14.618212+00:00",
+  "content_hash": "3fa03aaa3fdb244b974bc08b15f16818a2bc7d8d846ca6c6f1b5ed23392e427a",
+  "verification_record_id": "cvr-ex-rot-projectile-angmom-01"
+}

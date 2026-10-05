@@ -1,0 +1,45 @@
+{
+  "formula_id": "formula-rot-moi-perpendicular",
+  "chapter_id": "rotational-motion",
+  "title": "Perpendicular Axis Theorem for Planar Laminas",
+  "equation": "I_z = I_x + I_y",
+  "variables": {
+    "I_z": "Moment of inertia about normal axis perpendicular to lamina through origin O",
+    "I_x": "Moment of inertia about coplanar x-axis passing through O",
+    "I_y": "Moment of inertia about coplanar y-axis passing through O"
+  },
+  "units": {
+    "I_z": "kg m^2",
+    "I_x": "kg m^2",
+    "I_y": "kg m^2"
+  },
+  "dimensions": {
+    "I_z": "[M][L]^2",
+    "I_x": "[M][L]^2",
+    "I_y": "[M][L]^2"
+  },
+  "assumptions": [
+    "Rigid body is strictly a two-dimensional planar lamina lying entirely in the xy-plane (z = 0)",
+    "All three axes x, y, and z are mutually perpendicular and intersect at a single concurrent origin O"
+  ],
+  "validity_conditions": [
+    "Strictly valid ONLY for two-dimensional planar laminar bodies; fails identically for three-dimensional bodies"
+  ],
+  "derivation_reference": "derivation-formula-rot-moi-perpendicular",
+  "related_concepts": [
+    "concept-rot-moi-01",
+    "concept-rot-moi-continuous-01"
+  ],
+  "common_misuse": [
+    "Applying the theorem to three-dimensional objects (e.g. solid cylinders or spheres)",
+    "Using axes that do not intersect at a common coplanar point"
+  ],
+  "generation_metadata": {
+    "agent": "physics-formula-writer",
+    "phase": "16"
+  },
+  "verification_status": "VERIFIED",
+  "created_at": "2026-10-05T04:10:34.457645+00:00",
+  "content_hash": "a17ee76b84f2e8bbe058b8f047ae36e09a8c845de5a95184b287bb35f5e1b682",
+  "verification_record_id": "cvr-formula-rot-moi-perpendicular"
+}

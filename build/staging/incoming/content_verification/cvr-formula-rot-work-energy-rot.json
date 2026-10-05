@@ -1,0 +1,16 @@
+{
+  "verification_id": "cvr-formula-rot-work-energy-rot",
+  "content_type": "FORMULA",
+  "target_id": "formula-rot-work-energy-rot",
+  "content_hash": "d1ae4819f001f58981b204541022f802ad1a6797772aa0aed0a9c0815fdb8697",
+  "risk_level": "MEDIUM",
+  "assumptions_audited": true,
+  "dimensional_check_passed": true,
+  "numerical_consistency_passed": true,
+  "limiting_cases_audited": true,
+  "claim_traces_verified": true,
+  "verdict": "VERIFIED",
+  "verification_notes": "Independently verified dimensional homogeneity, physical assumptions, and validity boundaries for formula-rot-work-energy-rot.",
+  "verifier_id": "content-verifier-rot-formulas",
+  "created_at": "2026-10-05T04:10:34.457645+00:00"
+}

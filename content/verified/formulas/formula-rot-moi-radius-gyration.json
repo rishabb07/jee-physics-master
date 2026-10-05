@@ -1,0 +1,43 @@
+{
+  "formula_id": "formula-rot-moi-radius-gyration",
+  "chapter_id": "rotational-motion",
+  "title": "Radius of Gyration",
+  "equation": "k = \\sqrt{\\frac{I}{M}} \\iff I = M k^2",
+  "variables": {
+    "k": "Radius of gyration about the specified axis",
+    "I": "Moment of inertia about the specified axis",
+    "M": "Total mass of the rigid body"
+  },
+  "units": {
+    "k": "m",
+    "I": "kg m^2",
+    "M": "kg"
+  },
+  "dimensions": {
+    "k": "[L]",
+    "I": "[M][L]^2",
+    "M": "[M]"
+  },
+  "assumptions": [
+    "Rigid body of total mass M",
+    "Specified fixed axis of rotation"
+  ],
+  "validity_conditions": [
+    "Universal geometric definition representing the effective distance at which whole mass could be concentrated"
+  ],
+  "derivation_reference": null,
+  "related_concepts": [
+    "concept-rot-moi-01"
+  ],
+  "common_misuse": [
+    "Treating radius of gyration as an intrinsic geometric constant independent of axis location"
+  ],
+  "generation_metadata": {
+    "agent": "physics-formula-writer",
+    "phase": "16"
+  },
+  "verification_status": "VERIFIED",
+  "created_at": "2026-10-05T04:10:34.457645+00:00",
+  "content_hash": "13d46e6c82b0eabad62d8660ae3ad07474f0060feb17aeb9a82872ec758ec978",
+  "verification_record_id": "cvr-formula-rot-moi-radius-gyration"
+}

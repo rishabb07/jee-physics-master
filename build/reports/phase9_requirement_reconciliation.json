@@ -1,5 +1,5 @@
 {
-  "report_id": "phase9-req-reconciliation-20261004-201757",
+  "report_id": "phase9-req-reconciliation-20261005-042921",
   "total_assessment_requirements": 12,
   "satisfied_by_existing_count": 6,
   "satisfied_by_generated_count": 4,
@@ -188,5 +188,5 @@
       "validation_notes": "Advanced prism dispersion numerical requirement is intentionally deferred outside pilot scope to full book generation."
     }
   ],
-  "generated_at": "2026-10-04T20:17:57.754830Z"
+  "generated_at": "2026-10-05T04:29:21.870103Z"
 }
