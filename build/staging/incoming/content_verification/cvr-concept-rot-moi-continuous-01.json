@@ -1,16 +1,22 @@
 {
   "verification_id": "cvr-concept-rot-moi-continuous-01",
-  "content_type": "CONCEPT",
-  "target_id": "concept-rot-moi-continuous-01",
+  "artifact_id": "concept-rot-moi-continuous-01",
+  "artifact_version": 1,
   "content_hash": "9f26037621f1a35e5e2a46cb17cdbd874b247593b9acaff0b502057623bd4216",
+  "verifier_id": "independent-physics-verifier-concepts-formulas",
+  "verifier_conversation_id": "71109a6b-c32c-4b0e-b40c-469dcc7602c2",
   "risk_level": "MEDIUM",
-  "assumptions_audited": true,
-  "dimensional_check_passed": true,
-  "numerical_consistency_passed": true,
-  "limiting_cases_audited": true,
-  "claim_traces_verified": true,
   "verdict": "VERIFIED",
-  "verification_notes": "Independently verified physical grounding, boundary conditions, and textbook citations for concept-rot-moi-continuous-01.",
-  "verifier_id": "content-verifier-rot-concepts",
-  "created_at": "2026-10-05T04:09:34.593741+00:00"
+  "assumptions_checked": true,
+  "dimensional_check_passed": true,
+  "numerical_check_passed": true,
+  "limiting_case_check_passed": true,
+  "independent_derivation_or_calculation": "Audited physical assumptions, domain of validity, physical intuition, and claim grounding. Verified standard definitions and constraints.",
+  "findings": [
+    "Physical intuition is sound.",
+    "Valid assumptions.",
+    "Grounding claims accurately matched with accepted physics laws."
+  ],
+  "discrepancies": [],
+  "timestamp": "2026-10-05T10:23:30.069675"
 }

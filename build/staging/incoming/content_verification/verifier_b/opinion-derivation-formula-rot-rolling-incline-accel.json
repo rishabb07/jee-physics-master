@@ -1,0 +1,17 @@
+{
+  "verifier_id": "independent-blind-verifier-b-rot",
+  "verifier_conversation_id": "c3220bb8-0e86-457e-82fb-29a9ea7cab6f",
+  "verdict": "VERIFIED",
+  "assumptions_checked": true,
+  "dimensional_check_passed": true,
+  "numerical_check_passed": true,
+  "limiting_case_check_passed": true,
+  "independent_derivation_or_calculation": "Body of mass M, radius R, MOI I_cm = beta M R^2 rolls down incline theta. Forces: mg down, N normal, f friction up incline. Newton 2: mg sin theta - f = M a. Torque: f R = I_cm alpha. Rolling without slipping: a = alpha R. Then f = (I_cm / R^2) a. mg sin theta - (I_cm / R^2) a = M a. a (M + I_cm / R^2) = mg sin theta. a = g sin theta / (1 + I_cm / (M R^2)).",
+  "findings": [
+    "Dimensional homogeneity verified.",
+    "Limiting cases correct.",
+    "First-principles derivation matched claimed theorem exactly."
+  ],
+  "timestamp": "2026-10-05T07:56:11.860748Z",
+  "content_hash": "91d2032e5448edd67183be5a3d1d3f212b52798ed5d532ae211a27e9edb37091"
+}

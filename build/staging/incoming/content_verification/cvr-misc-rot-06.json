@@ -1,16 +1,22 @@
 {
   "verification_id": "cvr-misc-rot-06",
-  "content_type": "MISCONCEPTION",
-  "target_id": "misc-rot-06",
+  "artifact_id": "misc-rot-06",
+  "artifact_version": 1,
   "content_hash": "d179bda3262205827298023424eb8b1c23cc3e5c8dec1837fd4c695b03af2c3b",
+  "verifier_id": "independent-physics-verifier-misconceptions",
+  "verifier_conversation_id": "a1b3b7d7-9efc-4afb-8cdb-c24df145c615",
   "risk_level": "MEDIUM",
-  "assumptions_audited": true,
-  "dimensional_check_passed": true,
-  "numerical_consistency_passed": true,
-  "limiting_cases_audited": true,
-  "claim_traces_verified": true,
   "verdict": "VERIFIED",
-  "verification_notes": "Independently verified physical explanation, diagnostic symptom, and refutation for misc-rot-06.",
-  "verifier_id": "content-verifier-rot-misconceptions",
-  "created_at": "2026-10-05T04:12:43.442529+00:00"
+  "assumptions_checked": true,
+  "dimensional_check_passed": true,
+  "numerical_check_passed": true,
+  "limiting_case_check_passed": true,
+  "independent_derivation_or_calculation": "The misconception that instantaneous zero velocity implies zero acceleration for the contact point is refuted via relative kinematics. While the instantaneous velocity of the contact point is zero, its acceleration vector is the vector sum of CM acceleration and relative centripetal acceleration. For a wheel rolling at constant speed, a_contact = v^2/R directed radially inward (upward). Thus, the point is an accelerating frame. The physics is exactly correct and vital for understanding rolling reference frames.",
+  "findings": [
+    "Contact point velocity is zero instantaneously",
+    "Contact point traces a cycloid",
+    "Acceleration is omega^2*R directed toward the center"
+  ],
+  "discrepancies": [],
+  "timestamp": "2026-10-05T07:56:17.996211+00:00"
 }

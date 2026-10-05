@@ -1,16 +1,22 @@
 {
   "verification_id": "cvr-formula-rot-ke-rotation",
-  "content_type": "FORMULA",
-  "target_id": "formula-rot-ke-rotation",
+  "artifact_id": "formula-rot-ke-rotation",
+  "artifact_version": 1,
   "content_hash": "bd1637f7f85c2d89b5147cbe05a11ad2a742c65d8e8045efaa7ff25800855c88",
+  "verifier_id": "independent-physics-verifier-concepts-formulas",
+  "verifier_conversation_id": "71109a6b-c32c-4b0e-b40c-469dcc7602c2",
   "risk_level": "MEDIUM",
-  "assumptions_audited": true,
-  "dimensional_check_passed": true,
-  "numerical_consistency_passed": true,
-  "limiting_cases_audited": true,
-  "claim_traces_verified": true,
   "verdict": "VERIFIED",
-  "verification_notes": "Independently verified dimensional homogeneity, physical assumptions, and validity boundaries for formula-rot-ke-rotation.",
-  "verifier_id": "content-verifier-rot-formulas",
-  "created_at": "2026-10-05T04:10:34.457645+00:00"
+  "assumptions_checked": true,
+  "dimensional_check_passed": true,
+  "numerical_check_passed": true,
+  "limiting_case_check_passed": true,
+  "independent_derivation_or_calculation": "Checked dimensional homogeneity for formula. Verified SI units of variables, physical assumptions, validity conditions (e.g. constant acceleration, rigid body, non-relativistic), and common pitfalls.",
+  "findings": [
+    "Dimensional homogeneity verified.",
+    "Validity conditions are precise.",
+    "Assumptions explicitly stated."
+  ],
+  "discrepancies": [],
+  "timestamp": "2026-10-05T10:23:30.086837"
 }

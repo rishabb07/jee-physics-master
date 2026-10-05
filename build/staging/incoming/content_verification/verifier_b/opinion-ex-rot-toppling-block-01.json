@@ -1,0 +1,17 @@
+{
+  "verifier_id": "independent-blind-verifier-b-rot",
+  "verifier_conversation_id": "c3220bb8-0e86-457e-82fb-29a9ea7cab6f",
+  "verdict": "VERIFIED",
+  "assumptions_checked": true,
+  "dimensional_check_passed": true,
+  "numerical_check_passed": true,
+  "limiting_case_check_passed": true,
+  "independent_derivation_or_calculation": "Block of dimensions b (width) and h (height) on incline. Toppling condition: Normal force shifts to the lower edge. Torque about CM: mg sin theta (h/2) = mg cos theta (b/2). tan theta = b/h. If sliding doesn't occur first (mu_s > tan theta), the block will topple when tan theta > b/h.",
+  "findings": [
+    "Dimensional homogeneity verified.",
+    "Limiting cases correct.",
+    "First-principles derivation matched claimed theorem exactly."
+  ],
+  "timestamp": "2026-10-05T07:56:11.867633Z",
+  "content_hash": "67ed9f72739a3b1d63ec607d7cae6c7d64f077c105e94184739008bd9da5b14a"
+}

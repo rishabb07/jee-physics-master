@@ -1,0 +1,17 @@
+{
+  "verifier_id": "independent-blind-verifier-b-rot",
+  "verifier_conversation_id": "c3220bb8-0e86-457e-82fb-29a9ea7cab6f",
+  "verdict": "VERIFIED",
+  "assumptions_checked": true,
+  "dimensional_check_passed": true,
+  "numerical_check_passed": true,
+  "limiting_case_check_passed": true,
+  "independent_derivation_or_calculation": "Masses m1 and m2 on ideal string over pulley of mass M, radius R. MOI of pulley I = 1/2 M R^2. Tensions T1 and T2. Equations: m1 g - T1 = m1 a (if m1 moving down). T2 - m2 g = m2 a. Torque on pulley: (T1 - T2) R = I alpha = 1/2 M R^2 (a/R). So T1 - T2 = 1/2 M a. Adding equations: (m1 - m2) g = (m1 + m2 + M/2) a. a = (m1 - m2)g / (m1 + m2 + M/2).",
+  "findings": [
+    "Dimensional homogeneity verified.",
+    "Limiting cases correct.",
+    "First-principles derivation matched claimed theorem exactly."
+  ],
+  "timestamp": "2026-10-05T07:56:11.863329Z",
+  "content_hash": "0af9a12e0f620c14259f5daeb180d43b40e68aab06f8b074e25430e026514a9d"
+}

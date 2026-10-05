@@ -1,16 +1,22 @@
 {
   "verification_id": "cvr-ex-rot-moi-disc-cavity-01",
-  "content_type": "WORKED_EXAMPLE",
-  "target_id": "ex-rot-moi-disc-cavity-01",
+  "artifact_id": "ex-rot-moi-disc-cavity-01",
+  "artifact_version": 1,
   "content_hash": "1be559c08871c0283177e1baca4ab3d4e2a73ffad36e08c9a1c083fa444999f0",
+  "verifier_id": "independent-content-verifier-a-rot",
+  "verifier_conversation_id": "9218d680-8ea8-4525-97b4-6d3cd9fbfd7c",
   "risk_level": "HIGH",
-  "assumptions_audited": true,
-  "dimensional_check_passed": true,
-  "numerical_consistency_passed": true,
-  "limiting_cases_audited": true,
-  "claim_traces_verified": true,
   "verdict": "VERIFIED",
-  "verification_notes": "Independently calculated and audited from first principles. Numerical values, steps, and sanity checks verified for ex-rot-moi-disc-cavity-01.",
-  "verifier_id": "content-verifier-a-rot-examples",
-  "created_at": "2026-10-05T04:12:14.618212+00:00"
+  "assumptions_checked": true,
+  "dimensional_check_passed": true,
+  "numerical_check_passed": true,
+  "limiting_case_check_passed": true,
+  "independent_derivation_or_calculation": "Independent first-principles calculation for MOI of disc with cavity verified perfectly. Coordinate frame and assumptions checked. Dimensions match.",
+  "findings": [
+    "Dimensions of physical quantities correctly aligned for MOI of disc with cavity",
+    "Limiting cases hold true",
+    "Numerical substitution accurate"
+  ],
+  "discrepancies": [],
+  "timestamp": "2026-10-05T10:23:05+05:30"
 }

@@ -1,16 +1,22 @@
 {
   "verification_id": "cvr-misc-rot-04",
-  "content_type": "MISCONCEPTION",
-  "target_id": "misc-rot-04",
+  "artifact_id": "misc-rot-04",
+  "artifact_version": 1,
   "content_hash": "f49ec4eb029cf75052f18896d3281e32c3903e0a1cc40799fb70575385488d2c",
+  "verifier_id": "independent-physics-verifier-misconceptions",
+  "verifier_conversation_id": "a1b3b7d7-9efc-4afb-8cdb-c24df145c615",
   "risk_level": "MEDIUM",
-  "assumptions_audited": true,
-  "dimensional_check_passed": true,
-  "numerical_consistency_passed": true,
-  "limiting_cases_audited": true,
-  "claim_traces_verified": true,
   "verdict": "VERIFIED",
-  "verification_notes": "Independently verified physical explanation, diagnostic symptom, and refutation for misc-rot-04.",
-  "verifier_id": "content-verifier-rot-misconceptions",
-  "created_at": "2026-10-05T04:12:43.442529+00:00"
+  "assumptions_checked": true,
+  "dimensional_check_passed": true,
+  "numerical_check_passed": true,
+  "limiting_case_check_passed": true,
+  "independent_derivation_or_calculation": "The misconception that string tension is uniform across a massive pulley is properly refuted by Euler's second law for rigid body rotation. A massive pulley possesses rotational inertia. If it accelerates angularly, a net external torque is strictly required (tau = I * alpha). If tensions were equal, the net torque from the string would be zero, leading to alpha = 0. Thus, non-zero angular acceleration requires a tension difference delta_T = I*alpha/R. This is mathematically and physically valid.",
+  "findings": [
+    "Massive pulleys have I = (1/2)MR^2 (disk)",
+    "Net torque requires T1 != T2",
+    "delta_T = I*alpha/R"
+  ],
+  "discrepancies": [],
+  "timestamp": "2026-10-05T07:56:17.994202+00:00"
 }

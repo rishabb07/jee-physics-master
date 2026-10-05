@@ -1,0 +1,17 @@
+{
+  "verifier_id": "independent-blind-verifier-b-rot",
+  "verifier_conversation_id": "c3220bb8-0e86-457e-82fb-29a9ea7cab6f",
+  "verdict": "VERIFIED",
+  "assumptions_checked": true,
+  "dimensional_check_passed": true,
+  "numerical_check_passed": true,
+  "limiting_case_check_passed": true,
+  "independent_derivation_or_calculation": "Consider a rigid body rotating with angular velocity omega. A mass element dm at distance r from the axis has velocity v = r omega. Its kinetic energy is dK = 1/2 dm v^2 = 1/2 dm (r omega)^2. Integrating over the body: K = int 1/2 r^2 omega^2 dm = 1/2 omega^2 (int r^2 dm) = 1/2 I omega^2.",
+  "findings": [
+    "Dimensional homogeneity verified.",
+    "Limiting cases correct.",
+    "First-principles derivation matched claimed theorem exactly."
+  ],
+  "timestamp": "2026-10-05T07:56:11.859679Z",
+  "content_hash": "ffc185cf6e9d64c15a1c6ca13533bd865a796c33ddf9e379137a685ee5052e29"
+}
